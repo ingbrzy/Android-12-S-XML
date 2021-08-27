@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="deferred_high_priority_actions">
+        <item>intent:#Intent;action=com.google.android.setupwizard.ACCOUNT_SETUP;end</item>
+        <item>intent:#Intent;action=com.google.android.setupwizard.PAYMENTS;end</item>
+        <item>restore</item>
+    </string-array>
+    <string-array name="deferred_medium_priority_actions">
+        <item>intent:#Intent;action=com.google.android.setupwizard.OPA_OPT_IN;end</item>
+        <item>lock_screen</item>
+    </string-array>
+    <array name="esim_activation_supported_countries" />
+    <array name="esim_activation_unsupported_countries" />
+    <string-array name="manage_enabled_states_for_external_components">
+        <item>com.google.android.pixel.setupwizard/.user.WelcomeActivity</item>
+    </string-array>
+    <string-array name="packages_receive_setup_wizard_finished">
+        <item>com.google.android.apps.safetyhub</item>
+        <item>com.google.android.apps.internal.betterbug</item>
+        <item>com.google.android.as</item>
+    </string-array>
+    <string-array name="sim_lottie_illustration_light_customization">
+        <item>.black:#ffffff</item>
+    </string-array>
+</resources>

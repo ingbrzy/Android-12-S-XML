@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_announcement_list_popup_shown">
+        <item quantity="other">%1$d element göstərilir.</item>
+        <item quantity="one">%1$d element göstərilir.</item>
+    </plurals>
+    <plurals name="action_comments_with_count">
+        <item quantity="other">%1$d şərh</item>
+        <item quantity="one">%1$d şərh</item>
+    </plurals>
+    <plurals name="action_header_shortcut_folder_targets">
+        <item quantity="other">Orijinal qovluqlar</item>
+        <item quantity="one">Orijinal qovluq</item>
+    </plurals>
+    <plurals name="action_header_shortcut_targets">
+        <item quantity="other">Orijinal fayllar</item>
+        <item quantity="one">Orijinal fayl</item>
+    </plurals>
+    <plurals name="action_item_content_description">
+        <item quantity="other">Əməliyyat Elementləri: %1$d izlənilən element</item>
+        <item quantity="one">Əməliyyat Elementləri: %1$d izlənilən element</item>
+    </plurals>
+    <plurals name="action_permanently_deleted">
+        <item quantity="other">%1$d element həmişəlik silindi</item>
+        <item quantity="one">%2$s həmişəlik silindi</item>
+    </plurals>
+    <plurals name="add_collaborators_invalid_contact_address">
+        <item quantity="other">Yanlış e-poçtlar %s</item>
+        <item quantity="one">Yanlış e-poçt %s</item>
+    </plurals>
+    <plurals name="announce_folder_color_set">
+        <item quantity="other">%1$d qovluq yeniləndi. %2$s rəng ayarlandı.</item>
+        <item quantity="one">%1$d qovluq yeniləndi. %2$s rəng ayarlandı.</item>
+    </plurals>
+    <plurals name="apply_filters">
+        <item quantity="other">Nəyi nəzərdə tuturdunuz:</item>
+        <item quantity="one">Nəyi nəzərdə tuturdunuz:</item>
+    </plurals>
+    <plurals name="backup_entity_expires_in">
+        <item quantity="other">%1$d günə vaxtı bitir</item>
+        <item quantity="one">%1$d günə vaxtı bitir</item>
+    </plurals>
+    <plurals name="backup_will_expire">
+        <item quantity="other">Cihaz deaktiv qalsa, bu yedəkləmənin vaxtı %1$d günə bitəcək.</item>
+        <item quantity="one">Cihaz deaktiv qalsa, bu yedəkləmənin vaxtı %1$d günə bitəcək.</item>
+    </plurals>
+    <plurals name="delete_backup_success_message">
+        <item quantity="other">Yedəkləmələr silindi.</item>
+        <item quantity="one">Yedəkləmə silindi.</item>
+    </plurals>
+    <plurals name="desc_columns">
+        <item quantity="other">%1$d sütun.</item>
+        <item quantity="one">%1$d sütun.</item>
+    </plurals>
+    <plurals name="desc_frozen_columns">
+        <item quantity="other">%1$d dondurulmuş sütun.</item>
+        <item quantity="one">%1$d dondurulmuş sütun.</item>
+    </plurals>
+    <plurals name="desc_frozen_rows">
+        <item quantity="other">%1$d dondurulmuş cərgə.</item>
+        <item quantity="one">%1$d dondurulmuş cərgə.</item>
+    </plurals>
+    <plurals name="desc_rows">
+        <item quantity="other">%1$d cərgə.</item>
+        <item quantity="one">%1$d cərgə.</item>
+    </plurals>
+    <plurals name="discussion_card_replies_summary">
+        <item quantity="other">%1$s cavab</item>
+        <item quantity="one">%1$s cavab</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_include_current_user_text">
+        <item quantity="other">Siz və digər %1$d nəfər %2$s ilə reaksiya verdi</item>
+        <item quantity="one">Siz və digər %1$d nəfər %2$s ilə reaksiya verdi</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_without_current_user_text">
+        <item quantity="other">%1$d nəfər %2$s ilə reaksiya verdi</item>
+        <item quantity="one">%1$d nəfər %2$s ilə reaksiya verdi</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_active">
+        <item quantity="other">%d aktiv şərh</item>
+        <item quantity="one">%d aktiv şərh</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_resolved">
+        <item quantity="other">%d həll edilmiş şərh</item>
+        <item quantity="one">%d həll edilmiş şərh</item>
+    </plurals>
+    <plurals name="download_message_all_failed">
+        <item quantity="other">Elementləri endirmək mümkün olmadı</item>
+        <item quantity="one">Elementi endirmək mümkün olmadı</item>
+    </plurals>
+    <plurals name="download_message_success">
+        <item quantity="other">%1$d element endiriləcək. Detallar üçün bildirişə baxın</item>
+        <item quantity="one">%1$d element endiriləcək. Detallar üçün bildirişə baxın</item>
+    </plurals>
+    <plurals name="download_message_success_no_notification">
+        <item quantity="other">%1$d element endiriləcək.</item>
+        <item quantity="one">%1$d element endiriləcək.</item>
+    </plurals>
+    <plurals name="download_notification_complete_title">
+        <item quantity="other">%1$s və %2$d digər element</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="download_notification_failure_multiple">
+        <item quantity="other">%1$s element endirilmədi</item>
+        <item quantity="one">%1$s element endirilmədi</item>
+    </plurals>
+    <plurals name="download_notification_list_summary">
+        <item quantity="other">Daha %1$d element</item>
+        <item quantity="one">Daha %1$d element</item>
+    </plurals>
+    <plurals name="download_notification_partial_failure_title">
+        <item quantity="other">%1$d/%2$d endirmə alınmadı</item>
+        <item quantity="one">1/%2$d endirmə alınmadı</item>
+    </plurals>
+    <plurals name="download_notification_partial_success_title">
+        <item quantity="other">%2$d üzrə %1$d endirmə alınmadı</item>
+        <item quantity="one">%2$d üzrə %1$d endirmə alınmadı</item>
+    </plurals>
+    <plurals name="download_notification_title_total_failure">
+        <item quantity="other">%1$d endirmə alınmadı</item>
+        <item quantity="one">1 endirmə alınmadı</item>
+    </plurals>
+    <plurals name="download_notification_title_total_success">
+        <item quantity="other">%1$d fayl endirildi</item>
+        <item quantity="one">1 fayl endirildi</item>
+    </plurals>
+    <plurals name="duo_notification_list_summary">
+        <item quantity="other">və daha %1$d fayl</item>
+        <item quantity="one">və daha %1$d fayl</item>
+    </plurals>
+    <plurals name="duo_notification_locate_file">
+        <item quantity="other">Faylları yerləşdirin</item>
+        <item quantity="one">Faylı yerləşdirin</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_include_current_user_text">
+        <item quantity="other">Siz və digər %d nəfər reaksiya verdiniz</item>
+        <item quantity="one">Siz və digər %d nəfər reaksiya verdiniz</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_without_current_user_text">
+        <item quantity="other">%d nəfər reaksiya verdi</item>
+        <item quantity="one">%d nəfər reaksiya verdi</item>
+    </plurals>
+    <plurals name="error_moving_file">
+        <item quantity="other">Faylları köçürərkən xəta baş verdi.</item>
+        <item quantity="one">Faylı köçürərkən xəta baş verdi.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d saniyə irəli çəkin</item>
+        <item quantity="one">%d saniyə irəli çəkin</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d saniyə geri çəkin</item>
+        <item quantity="one">%d saniyə geri çəkin</item>
+    </plurals>
+    <plurals name="guestNumber">
+        <item quantity="other">%d qonaq</item>
+        <item quantity="one">%d qonaq</item>
+    </plurals>
+    <plurals name="make_shortcut_confirmation">
+        <item quantity="other">%2$d qısayol \"%1$s\" qovluğuna əlavə edildi</item>
+        <item quantity="one">Qısayol \"%1$s\" qovluğuna əlavə edildi</item>
+    </plurals>
+    <plurals name="make_shortcut_failure">
+        <item quantity="other">Qısayollar əlavə etmək mümkün deyil. Yenidən cəhd edin</item>
+        <item quantity="one">Qısayol əlavə etmək mümkün deyil. Yenidən cəhd edin</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_dlp_detections">
+        <item quantity="other">\"%1$s\" ünvanına köçürülən bəzi fayllar DLP aşkarlanmasını aktiv etdi. Həmin faylların daxilində həssas məlumat ola bilər.</item>
+        <item quantity="one">\"%1$s\" ünvanına köçürülən fayl DLP aşkarlanmasını aktiv etdi. Bu fayl daxilində həssas məlumat ola bilər.</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_generic">
+        <item quantity="other">Bu elementlərin köçürülməsi onların icazələrini dəyişə bilər</item>
+        <item quantity="one">Bu elementin köçürülməsi onun icazələrini dəyişə bilər</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_people_lose">
+        <item quantity="other">Bu elementlər \" %1$s\" qovluğuna baxa bilən istifadəçilər ilə birbaşa paylaşılmayınca onların elementlərə girişi olmayacaq</item>
+        <item quantity="one">Bu element \" %1$s\" qovluğuna baxa bilən istifadəçilər ilə birbaşa paylaşılmayınca onların elementə girişi olmayacaq</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_within_shared_drive">
+        <item quantity="other">Bu elementlərin paylaşılmış diskin daxilində köçürülməsi onların icazələrini dəyişə bilər</item>
+        <item quantity="one">Bu elementin paylaşılmış diskin daxilində köçürülməsi onun icazələrini dəyişə bilər</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_title_generic">
+        <item quantity="other">Elementlər köçürülsün?</item>
+        <item quantity="one">Element köçürülsün?</item>
+    </plurals>
+    <plurals name="move_error_no_permission_move_children_out_of_td_updated">
+        <item quantity="other">Bəzi elementləri onların Paylaşılan Diskdən kənara köçürməyə icazəniz yoxdur.</item>
+        <item quantity="one">Bu elementi onun Paylaşılan Diskdən kənara köçürməyə icazəniz yoxdur.</item>
+    </plurals>
+    <plurals name="move_error_no_permission_src">
+        <item quantity="other">Bu elementləri qovluqdan başqa yerə köçürmək icazəniz yoxdur.</item>
+        <item quantity="one">Bu elementi qovluqdan başqa yerə köçürmək icazəniz yoxdur.</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Fayl sahibi %1$s xaricində olduğu üçün bu faylları köçürə bilməzsiniz.</item>
+        <item quantity="one">Fayl sahibi %1$s xaricində olduğu üçün bu faylı köçürə bilməzsiniz.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive">
+        <item quantity="other">%1$s \"%2$s\" indi onlara daxil ola bilər.</item>
+        <item quantity="one">%1$s \"%2$s\" indi ona daxil ola bilər.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive_fallback_updated">
+        <item quantity="other">%1$d element Paylaşılan Diskə köçürüldü. Üzvlər artıq onlara daxil ola bilər.</item>
+        <item quantity="one">1 element Paylaşılan Diskə köçürüldü. Üzvlər artıq ona daxil ola bilər.</item>
+    </plurals>
+    <plurals name="move_notice_lost_access_team_drives_plural_updated">
+        <item quantity="other">%1$d element Paylaşılan Diskdən köçürüldü. Üzvlərin girişi ləğv edildi.</item>
+        <item quantity="one">%1$d element Paylaşılan Diskdən köçürüldü. Üzvlərin girişi ləğv edildi.</item>
+    </plurals>
+    <plurals name="move_to_trash_confirmation_dialog">
+        <item quantity="other">%1$d element 30 gün sonra həmişəlik silinəcək. %3$s</item>
+        <item quantity="one">\"%2$s\" 30 gün sonra həmişəlik silinəcək. %3$s</item>
+    </plurals>
+    <plurals name="moved_to_trash_toast">
+        <item quantity="other">%1$d element zibil qutusuna köçürüldü. %3$s</item>
+        <item quantity="one">%2$s zibil qutusuna köçürüldü. %3$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildiriş</item>
+        <item quantity="one">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="multiselect_item_count_toolbar_title">
+        <item quantity="other">%1$d element</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="notification_completed_pin_title">
+        <item quantity="other">%1$d fayl hazırda oflayn əlçatandır</item>
+        <item quantity="one">1 fayl hazırda oflayn əlçatandır</item>
+    </plurals>
+    <plurals name="notification_failed_pin_title">
+        <item quantity="other">%1$d faylı oflayn əlçatan etmək alınmadı</item>
+        <item quantity="one">Bir faylı oflayn əlçatan etmək alınmadı</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title">
+        <item quantity="other">%1$d fayl oflayn əlçatan edilir</item>
+        <item quantity="one">1 fayl oflayn əlçatan edilir</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title_with_bytes">
+        <item quantity="other">%1$d fayl oflayn əlçatan edilir (%2$s)</item>
+        <item quantity="one">1 fayl oflayn əlçatan edilir (%2$s)</item>
+    </plurals>
+    <plurals name="notification_partially_failed_pin_title">
+        <item quantity="other">%1$d/%2$d faylı oflayn əlçatan etmək alınmadı</item>
+        <item quantity="one">1/%2$d faylı oflayn əlçatan etmək alınmadı</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title">
+        <item quantity="other">%1$d/%2$d faylın oflayn əlçatan edilməsi dayandırıldı</item>
+        <item quantity="one">1/%2$d faylın oflayn əlçatan edilməsi dayandırıldı</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title_with_bytes">
+        <item quantity="other">%1$d/%2$d faylın oflayn əlçatan edilməsi dayandırıldı (%3$s)</item>
+        <item quantity="one">1/%2$d faylın oflayn əlçatan edilməsi dayandırıldı (%3$s)</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title">
+        <item quantity="other">%1$d faylın oflayn əlçatan edilməsi dayandırıldı</item>
+        <item quantity="one">1 faylın oflayn əlçatan edilməsi dayandırıldı</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title_with_bytes">
+        <item quantity="other">%1$d faylın oflayn əlçatan edilməsi (%2$s) dayandırıldı</item>
+        <item quantity="one">1 faylın oflayn əlçatan edilməsi (%2$s) dayandırıldı</item>
+    </plurals>
+    <plurals name="number_of_approvers">
+        <item quantity="other">%1$d təsdiqləyici</item>
+        <item quantity="one">1 təsdiqləyici</item>
+    </plurals>
+    <plurals name="permanently_delete_confirmation_message">
+        <item quantity="other">%1$d element həmişəlik silinəcək. Bu əməliyyat geri qaytarıla bilməz.</item>
+        <item quantity="one">\"%2$s\" həmişəlik silinəcək. Bu əməliyyat geri qaytarıla bilməz.</item>
+    </plurals>
+    <plurals name="permanently_deleted">
+        <item quantity="other">Elementlər həmişəlik silindi</item>
+        <item quantity="one">Element həmişəlik silindi</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed">
+        <item quantity="other">%2$s fayldan %1$d fayl artıq oflayndır</item>
+        <item quantity="one">%2$s fayldan %1$d fayl artıq oflayndır</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed_all">
+        <item quantity="other">Bütün %1$d fayl artıq oflayndır</item>
+        <item quantity="one">%1$d fayl artıq oflayndır</item>
+    </plurals>
+    <plurals name="pin_notification_sync_failure">
+        <item quantity="other">Faylları oflayn olaraq əlçatan etmək mümkün deyil</item>
+        <item quantity="one">Faylı oflayn olaraq əlçatan etmək mümkün deyil</item>
+    </plurals>
+    <plurals name="pin_notification_sync_progress">
+        <item quantity="other">%1$d fayl oflayn əlçatan edilir</item>
+        <item quantity="one">%1$d fayl oflayn əlçatan edilir</item>
+    </plurals>
+    <plurals name="pin_notification_sync_queued_files">
+        <item quantity="other">%1$d fayl</item>
+        <item quantity="one">%1$d fayl</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_network_ticker">
+        <item quantity="other">Endirmələr dayandırıldı, şəbəkə gözlənilir…</item>
+        <item quantity="one">Endirmə dayandırıldı, şəbəkə gözlənilir…</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_title">
+        <item quantity="other">%1$d faylın endirməsi dayandırıldı</item>
+        <item quantity="one">%1$d faylın endirməsi dayandırıldı</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_wifi_ticker">
+        <item quantity="other">Endirmələr dayandırıldı, Wi-Fi gözlənilir...</item>
+        <item quantity="one">Endirmə dayandırıldı, Wi-Fi gözlənilir...</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_many_users">
+        <item quantity="other">%1$d fayla şərh yazıldı</item>
+        <item quantity="one">Fayla şərh yazıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_one_user">
+        <item quantity="other">%1$d fayla şərh yazıldı</item>
+        <item quantity="one">Fayla şərh yazıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_this_file">
+        <item quantity="other">Bu fayl haqqında şərh yazıldı</item>
+        <item quantity="one">Bu fayl haqqında şərh yazıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_many_users">
+        <item quantity="other">%1$d element yaradıldı</item>
+        <item quantity="one">Element yaradıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_one_user">
+        <item quantity="other">%1$d element yaradıldı</item>
+        <item quantity="one">Element yaradıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_file">
+        <item quantity="other">Bu fayl yaradıldı</item>
+        <item quantity="one">Bu fayl yaradıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_folder">
+        <item quantity="other">Bu qovluq yaradıldı</item>
+        <item quantity="one">Bu qovluq yaradıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_many_users">
+        <item quantity="other">%1$d elementə düzəliş edildi</item>
+        <item quantity="one">Elementə düzəliş edildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_one_user">
+        <item quantity="other">%1$d elementə düzəliş edildi</item>
+        <item quantity="one">Elementə düzəliş edildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_this_file">
+        <item quantity="other">Bu fayla düzəlişlər edildi</item>
+        <item quantity="one">Bu fayla düzəlişlər edildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_empty_trash">
+        <item quantity="other">%1$d element həmişəlik sildi</item>
+        <item quantity="one">Element həmişəlik silindi</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_many_users">
+        <item quantity="other">%1$d element bura köçürüldü:</item>
+        <item quantity="one">Element bura köçürüldü:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_one_user">
+        <item quantity="other">%1$d element bura köçürüldü:</item>
+        <item quantity="one">Element bura köçürüldü:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_many_users">
+        <item quantity="other">%1$d element köçürüldü</item>
+        <item quantity="one">Element köçürüldü</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_one_user">
+        <item quantity="other">%1$d element köçürüldü</item>
+        <item quantity="one">Element köçürüldü</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file">
+        <item quantity="other">Bu fayl köçürüldü</item>
+        <item quantity="one">Bu fayl köçürüldü</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file_extra">
+        <item quantity="other">Fayl buraya köçürüldü:</item>
+        <item quantity="one">Fayl buraya köçürüldü:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder">
+        <item quantity="other">Bu qovluq köçürüldü</item>
+        <item quantity="one">Bu qovluq köçürüldü</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder_extra">
+        <item quantity="other">Qovluq buraya köçürüldü:</item>
+        <item quantity="one">Qovluq buraya köçürüldü:</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_many_users">
+        <item quantity="other">%1$d elementin adı dəyişdirildi</item>
+        <item quantity="one">Elementin adı dəyişdirildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_one_user">
+        <item quantity="other">%1$d elementin adı dəyişdirildi</item>
+        <item quantity="one">Elementin adı dəyişdirildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_file">
+        <item quantity="other">Bu faylın adı dəyişdirildi</item>
+        <item quantity="one">Bu faylın adı dəyişdirildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_folder">
+        <item quantity="other">Bu qovluğun adı dəyişdirildi</item>
+        <item quantity="one">Bu qovluğun adı dəyişdirildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_one_or_many_users">
+        <item quantity="other">%1$d elementi bərpa etdi</item>
+        <item quantity="one">1 elementi bərpa etdi</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_file">
+        <item quantity="other">Bu faylı bərpa etdi</item>
+        <item quantity="one">Bu faylı bərpa etdi</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_folder">
+        <item quantity="other">Bu qovluğu bərpa etdi</item>
+        <item quantity="one">Bu qovluğu bərpa etdi</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_applied_one_or_many_users">
+        <item quantity="other">%1$d elementə təhlükəsizlik güncəllənməsi tətbiq edildi</item>
+        <item quantity="one">Təhlükəsizlik güncəllənməsi tətbiq edildi</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_removed_one_or_many_users">
+        <item quantity="other">%1$d elementdən təhlükəsizlik güncəllənməsi silindi</item>
+        <item quantity="one">Təhlükəsizlik güncəllənməsi silindi</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_many_users">
+        <item quantity="other">%1$d element paylaşıldı</item>
+        <item quantity="one">1 element paylaşıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_one_user">
+        <item quantity="other">%1$d element paylaşıldı</item>
+        <item quantity="one">1 element paylaşıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_file">
+        <item quantity="other">Bu fayl paylaşıldı</item>
+        <item quantity="one">Bu fayl paylaşıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_folder">
+        <item quantity="other">Bu qovluq paylaşıldı</item>
+        <item quantity="one">Bu qovluq paylaşıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_system_migrated">
+        <item quantity="other">Köçürüldü</item>
+        <item quantity="one">Köçürüldü</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_many_users">
+        <item quantity="other">%1$d element zibil qutusuna atıldı</item>
+        <item quantity="one">1 element zibil qutusuna atıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_one_user">
+        <item quantity="other">%1$d element zibil qutusuna atıldı</item>
+        <item quantity="one">1 element zibil qutusuna atıldı</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_file">
+        <item quantity="other">Bu fayl silindi</item>
+        <item quantity="one">Bu fayl silindi</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_folder">
+        <item quantity="other">Bu qovluq silindi</item>
+        <item quantity="one">Bu qovluq silindi</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_many_users">
+        <item quantity="other">%1$d element yükləndi</item>
+        <item quantity="one">1 element yükləndi</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_one_user">
+        <item quantity="other">%1$d element yükləndi</item>
+        <item quantity="one">1 element yükləndi</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_file">
+        <item quantity="other">Bu fayl yükləndi</item>
+        <item quantity="one">Bu fayl yükləndi</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_folder">
+        <item quantity="other">Bu qovluq yükləndi</item>
+        <item quantity="one">Bu qovluq yükləndi</item>
+    </plurals>
+    <plurals name="recent_activity_users_more">
+        <item quantity="other">%1$s və %2$d digəri</item>
+        <item quantity="one">%1$s və bir digəri</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_files_text">
+        <item quantity="other">%1$d fayl \"%2$s\" diskinin Zibil qutusuna köçürüləcək və 30 gündən sonra həmişəlik silinəcək.</item>
+        <item quantity="one">Bu fayl \"%2$s\" diskinin Zibil qutusuna köçürüləcək və 30 gün sonra həmişəlik silinəcək.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_folders_text">
+        <item quantity="other">%1$d qovluq \"%2$s\" diskinin Zibil qutusuna köçürüləcək və 30 gündən sonra həmişəlik silinəcək.</item>
+        <item quantity="one">Qovluq \"%2$s\" diskinin Zibil qutusuna köçürüləcək və 30 gündən sonra həmişəlik silinəcək.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_items_text">
+        <item quantity="other">%1$d element \"%2$s\" Zibil qutusuna köçürüləcək və 30 gündən sonra həmişəlik silinəcək.</item>
+        <item quantity="one">Element \"%2$s\" diskinin Zibil qutusuna köçürüləcək və 30 gündən sonra həmişəlik silinəcək.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
+        <item quantity="other">Bu %1$d fayl hamı üçün həmişəlik silinəcək. Bu əməliyyatı geri qaytara bilməzsiniz.</item>
+        <item quantity="one">Bu fayl hamı üçün həmişəlik silinəcək. Bu əməliyyatı geri qaytara bilməzsiniz.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Bu %1$d fayl həmişəlik silinəcək. Bu əməliyyatı geri qaytara bilməzsiniz.</item>
+        <item quantity="one">Bu fayl həmişəlik silinəcək. Bu əməliyyatı geri qaytara bilməzsiniz.</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog">
+        <item quantity="other">%1$d element %3$s görünüşdən silinəcək.</item>
+        <item quantity="one">\"%2$s\" %3$s görünüşdən silinəcək.</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog_title">
+        <item quantity="other">Elementlər silinsin?</item>
+        <item quantity="one">%1$s silinsin?</item>
+    </plurals>
+    <plurals name="remove_multiple_confirmation_dialog">
+        <item quantity="other">%1$d element zibil qutusuna köçürüləcək və 30 gün sonra həmişəlik silinəcək. %3$s</item>
+        <item quantity="one">\"%2$s\" zibil qutusuna köçürüləcək və 30 gün sonra həmişəlik silinəcək. %3$s</item>
+    </plurals>
+    <plurals name="remove_multiple_entry_confirmation_dialog_message">
+        <item quantity="other">%1$d element 30 gün sonra həmişəlik silinəcək.</item>
+        <item quantity="one">\"%1$s\" 30 gün sonra həmişəlik silinəcək</item>
+    </plurals>
+    <plurals name="removed_toast">
+        <item quantity="other">%1$d element silindi. %3$s</item>
+        <item quantity="one">%2$s silindi. %3$s</item>
+    </plurals>
+    <plurals name="selection_floating_handle_count">
+        <item quantity="other">%1$d Element</item>
+        <item quantity="one">%1$d Element</item>
+    </plurals>
+    <plurals name="selection_message_pin_num_items">
+        <item quantity="other">Fayllar oflayn əlçatan olacaq</item>
+        <item quantity="one">Fayl oflayn əlçatan olacaq</item>
+    </plurals>
+    <plurals name="selection_message_star_num_items">
+        <item quantity="other">%1$d element ulduzlandı</item>
+        <item quantity="one">1 element ulduzlandı</item>
+    </plurals>
+    <plurals name="selection_message_unpin_num_items">
+        <item quantity="other">Fayllar artıq oflayn əlçatan olmayacaq</item>
+        <item quantity="one">Fayl artıq oflayn əlçatan olmayacaq</item>
+    </plurals>
+    <plurals name="selection_message_unstar_num_items">
+        <item quantity="other">%1$d elementin ulduzu silindi</item>
+        <item quantity="one">1 elementin ulduzu silindi</item>
+    </plurals>
+    <plurals name="selection_message_untrash_num_items">
+        <item quantity="other">%1$d element bərpa edildi</item>
+        <item quantity="one">1 element bərpa edildi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_message_remove_num_items">
+        <item quantity="other">%1$d element bərpa edildi</item>
+        <item quantity="one">1 element bərpa edildi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message">
+        <item quantity="other">%1$d element \"%2$s\" qovluğundan silindi</item>
+        <item quantity="one">1 element \"%2$s\" qovluğundan silindi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message_fallback">
+        <item quantity="other">%1$d element qovluqdan silindi</item>
+        <item quantity="one">1 element qovluqdan silindi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_trashed_message">
+        <item quantity="other">%1$d element silindi</item>
+        <item quantity="one">1 element silindi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_message">
+        <item quantity="other">%1$d element geri köçürüldü</item>
+        <item quantity="one">1 element geri köçürüldü</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_trashed_message">
+        <item quantity="other">%1$d element zibil qutusuna qaytarıldı</item>
+        <item quantity="one">1 element zibil qutusuna qaytarıldı</item>
+    </plurals>
+    <plurals name="selection_undo_message_remove_num_items">
+        <item quantity="other">%1$d element silindi</item>
+        <item quantity="one">1 element silindi</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d element \"%2$s\" qovluğuna əlavə edildi</item>
+        <item quantity="one">1 element \"%2$s\" qovluğuna əlavə edildi</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message_fallback">
+        <item quantity="other">%1$d element əlavə edildi</item>
+        <item quantity="one">1 element əlavə edildi</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d element bərpa edilib \"%2$s\" qovluğuna əlavə edildi</item>
+        <item quantity="one">1 element bərpa edilib \"%2$s\" qovluğuna əlavə edildi</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d element \"%2$s\" qovluğuna köçürüldü.</item>
+        <item quantity="one">1 element \"%2$s\" qovluğuna köçürüldü.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message_fallback">
+        <item quantity="other">%1$d element köçürüldü</item>
+        <item quantity="one">1 element köçürüldü</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d element bərpa edildi və \"%2$s\" qovluğuna köçürüldü.</item>
+        <item quantity="one">1 element bərpa edildi və \"%2$s\" qovluğuna köçürüldü.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message_fallback">
+        <item quantity="other">%1$d element bərpa edildi.</item>
+        <item quantity="one">1 element bərpa edildi</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d element \"%2$s\" qovluğunda bərpa edildi.</item>
+        <item quantity="one">1 element \"%2$s\" qovluğunda bərpa edildi.</item>
+    </plurals>
+    <plurals name="send_files">
+        <item quantity="other">Sənədi bununla göndərin</item>
+        <item quantity="one">Sənədi bununla göndərin</item>
+    </plurals>
+    <plurals name="sharing_people_added">
+        <item quantity="other">Şəxs əlavə edildi</item>
+        <item quantity="one">Şəxs əlavə edildi</item>
+    </plurals>
+    <plurals name="teamdrive_acl_info_summary">
+        <item quantity="other">%d üzv</item>
+        <item quantity="one">1 üzv</item>
+    </plurals>
+    <plurals name="teamdrive_group_count">
+        <item quantity="other">%d qrup</item>
+        <item quantity="one">1 qrup</item>
+    </plurals>
+    <plurals name="teamdrive_people_count">
+        <item quantity="other">%d şəxs</item>
+        <item quantity="one">1 şəxs</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_resume">
+        <item quantity="other">Hamısına indi davam edin</item>
+        <item quantity="one">İndi davam edin</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_all_failed">
+        <item quantity="other">%1$d fayl yüklənmədi</item>
+        <item quantity="one">1 fayl yüklənmədi</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_successfully">
+        <item quantity="other">%1$d fayl yükləndi</item>
+        <item quantity="one">1 fayl yükləndi</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_progress">
+        <item quantity="other">%1$d fayl yüklənir</item>
+        <item quantity="one">1 fayl yüklənir</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_partial_title">
+        <item quantity="other">%1$d/%2$d yükləmə dayandırıldı</item>
+        <item quantity="one">1/%2$d yükləmə dayandırıldı</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_title">
+        <item quantity="other">%1$d yüklənmə dayandırıldı</item>
+        <item quantity="one">1 yüklənmə dayandırıldı</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_canceled">
+        <item quantity="other">%1$d faylın yüklənməsi ləğv edildi.</item>
+        <item quantity="one">%1$d faylın yüklənməsi ləğv edildi.</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_failures">
+        <item quantity="other">%1$d faylı yükləmə üçün planlaşdırmaq alınmadı.</item>
+        <item quantity="one">%1$d faylı yükləmə üçün planlaşdırmaq alınmadı.</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_successfully">
+        <item quantity="other">%1$d fayl yükləndi</item>
+        <item quantity="one">%1$d fayl yükləndi</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_with_failures">
+        <item quantity="other">%2$d fayldan %1$d faylı yükləmək olmur</item>
+        <item quantity="one">%2$d fayldan %1$d faylı yükləmək olmur</item>
+    </plurals>
+    <plurals name="upload_notification_sync_progress">
+        <item quantity="other">%1$d fayl yüklənir</item>
+        <item quantity="one">%1$d fayl yüklənir</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_network_ticker">
+        <item quantity="other">Yükləmə dayandırıldı,şəbəkə gözlənilir…</item>
+        <item quantity="one">Yükləmə dayandırıldı, şəbəkə gözlənilir…</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_title">
+        <item quantity="other">%1$d faylın yüklənməsi dayandırıldı</item>
+        <item quantity="one">%1$d faylın yüklənməsi dayandırıldı</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_wifi_ticker">
+        <item quantity="other">Yükləmələr dayandırıldı, Wi-Fi gözlənilir...</item>
+        <item quantity="one">Yükləmə dayandırıldı, Wi-Fi gözlənilir...</item>
+    </plurals>
+    <plurals name="upload_spinner_message">
+        <item quantity="other">%1$d fayl yüklənməyə hazırlanır</item>
+        <item quantity="one">%1$d fayl yüklənməyə hazırlanır</item>
+    </plurals>
+    <plurals name="upload_toast_message">
+        <item quantity="other">%1$d faylınız bura yüklənir: %2$s</item>
+        <item quantity="one">%1$d faylınız bura yüklənir: %2$s</item>
+    </plurals>
+    <plurals name="view_workspace_files">
+        <item quantity="other">%1$d fayla baxın</item>
+        <item quantity="one">%1$d fayla baxın</item>
+    </plurals>
+    <plurals name="view_workspace_files_content_desc">
+        <item quantity="other">%1$d faylın hamısına %2$s ünvanında baxın</item>
+        <item quantity="one">%1$d fayla %2$s ünvanında baxın</item>
+    </plurals>
+</resources>

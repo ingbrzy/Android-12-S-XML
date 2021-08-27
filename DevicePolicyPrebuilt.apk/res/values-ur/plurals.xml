@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_install_failed_multi_app_desc">
+        <item quantity="other">%1$d مطلوبہ ایپس انسٹال ہونے میں ناکام ہونے کی وجہ سے سیٹ اپ مکمل نہیں ہو سکا۔ براہ کرم اپنے سسٹم منتظم سے براہ راست رابطہ کریں۔</item>
+        <item quantity="one">%1$d مطلوبہ ایپ انسٹال ہونے میں ناکام ہونے کی وجہ سے سیٹ اپ مکمل نہیں ہو سکا۔ براہ کرم اپنے سسٹم منتظم سے براہ راست رابطہ کریں۔</item>
+    </plurals>
+    <plurals name="app_install_failure_title">
+        <item quantity="other">ایپس کو انسٹال نہیں کیا جا سکا</item>
+        <item quantity="one">ایپ کو انسٹال نہیں کیا جا سکا</item>
+    </plurals>
+    <plurals name="app_install_progress_desc">
+        <item quantity="other">%2$d میں سے %1$d ایپس انسٹال کی گئیں</item>
+        <item quantity="one">%2$d میں سے %1$d ایپ انسٹال کی گئی</item>
+    </plurals>
+    <plurals name="app_uninstall_button">
+        <item quantity="other">ایپس کو اَن انسٹال کریں</item>
+        <item quantity="one">ایپ کو اَن انسٹال کریں</item>
+    </plurals>
+    <plurals name="days_left_message">
+        <item quantity="other">&lt;annotation id="numeric_time_left">^1&lt;/annotation> دن باقی ہیں</item>
+        <item quantity="one">&lt;annotation id="numeric_time_left">^1&lt;/annotation> دن باقی ہے</item>
+    </plurals>
+    <plurals name="hours_left_message">
+        <item quantity="other">&lt;annotation id="numeric_time_left">^1&lt;/annotation> گھنٹے باقی ہیں</item>
+        <item quantity="one">&lt;annotation id="numeric_time_left">^1&lt;/annotation> گھنٹہ باقی ہے</item>
+    </plurals>
+    <plurals name="preinstalled_apps">
+        <item quantity="other">%2$d میں سے %1$d انسٹال کردہ ایپس</item>
+        <item quantity="one">%2$d میں سے %1$d انسٹال کردہ ایپ</item>
+    </plurals>
+    <plurals name="readable_name_applications">
+        <item quantity="other">%1$d ایپس دستیاب ہیں (%2$d انسٹال ہیں، %3$d غیر فعال ہیں)</item>
+        <item quantity="one">%1$d ایپ دستیاب ہے (%2$d انسٹال ہے، %3$d غیر فعال ہے)</item>
+    </plurals>
+</resources>

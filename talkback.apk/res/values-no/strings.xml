@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Reset_gesture_settings_dialog_title">Vil du tilbakestille bevegelser?</string>
+    <string name="a11y_settings_label">Tilgjengelighetsinnstillinger</string>
+    <string name="accessibility_menu_description">Med Tilgjengelighet-menyen får du en stor meny på skjermen for å kontrollere telefonen. Du kan låse telefonen, kontrollere volum og lysstyrke, ta skjermdumper med mer.</string>
+    <string name="accessibility_menu_large_buttons_summary">Få større knapper i Tilgjengelighetsmeny</string>
+    <string name="accessibility_menu_large_buttons_title">Store knapper</string>
+    <string name="accessibility_menu_service_name">Tilgjengelighetsmeny</string>
+    <string name="accessibility_menu_settings_name">Innstillinger for Tilgjengelighetsmeny</string>
+    <string name="accessibility_menu_summary">Kontrollér telefonen via en stor meny</string>
+    <string name="action_bar_title_sa_combined_switch_mapping">Tildel kamerabryter</string>
+    <string name="action_group_name_delete">Slett…</string>
+    <string name="action_group_name_highlight">Fremhev…</string>
+    <string name="action_key_summary_auto_scan">Trykk på bryteren for å begynne å bevege deg automatisk mellom elementene. Trykk igjen for å velge det fremhevede elementet.</string>
+    <string name="action_key_summary_click">Trykk på denne bryteren for å velge det fremhevede elementet.</string>
+    <string name="action_key_summary_long_click">Trykk på denne bryteren for å trykke og holde inne på det fremhevede elementet.</string>
+    <string name="action_key_summary_next">Trykk på denne bryteren for å fremheve neste element.</string>
+    <string name="action_key_summary_pause">For å unngå utilsiktet utløsning, angi en bevegelse for å starte eller oppheve pauser for kamerabrytere.</string>
+    <string name="action_key_summary_previous">Trykk på denne bryteren på å fremheve forrige element.</string>
+    <string name="action_key_summary_reverse_auto_scan">Trykk på bryteren for å begynne å bevege deg automatisk mellom elementene i omvendt rekkefølge. Trykk igjen for å velge det fremhevede elementet.</string>
+    <string name="action_key_summary_scroll_backward">Trykk på denne bryteren for å rulle det fremhevede elementet bakover.</string>
+    <string name="action_key_summary_scroll_forward">Trykk på denne bryteren for å rulle det fremhevede elementet forover.</string>
+    <string name="action_key_title_pause_recommended">Sett på pause (anbefalt)</string>
+    <string name="action_name_click">Velg</string>
+    <string name="action_name_collapse">Skjul</string>
+    <string name="action_name_copy">Kopiér</string>
+    <string name="action_name_copy_all_text">Kopiér alt</string>
+    <string name="action_name_cut">Klipp ut</string>
+    <string name="action_name_cut_all_text">Klipp ut alt</string>
+    <string name="action_name_delete">Slett %1$s</string>
+    <string name="action_name_delete_highlighted_text">Slett den fremhevede teksten</string>
+    <string name="action_name_dismiss">Avvis</string>
+    <string name="action_name_expand">Vis</string>
+    <string name="action_name_highlight_all_text">Fremhev all teksten</string>
+    <string name="action_name_highlight_granular_text">Fremhev %1$s</string>
+    <string name="action_name_highlight_text">Fremhev tekst</string>
+    <string name="action_name_long_click">Trykk og hold inne</string>
+    <string name="action_name_next">Neste</string>
+    <string name="action_name_paste">Lim inn</string>
+    <string name="action_name_pause">Sett på pause</string>
+    <string name="action_name_pinch_in">Klyp inn</string>
+    <string name="action_name_pinch_out">Klyp ut</string>
+    <string name="action_name_previous">Forrige</string>
+    <string name="action_name_redo">Utfør likevel</string>
+    <string name="action_name_reverse_auto_scan">Reversert automatisk skanning</string>
+    <string name="action_name_scroll_backward">Rull bakover</string>
+    <string name="action_name_scroll_forward">Rull fremover</string>
+    <string name="action_name_swipe_custom">Sveip (tilpasset)</string>
+    <string name="action_name_swipe_down">Sveip ned</string>
+    <string name="action_name_swipe_left">Sveip til venstre</string>
+    <string name="action_name_swipe_right">Sveip til høyre</string>
+    <string name="action_name_swipe_up">Sveip opp</string>
+    <string name="action_name_undo">Angre</string>
+    <string name="activated_view">Aktiverte %1$s</string>
+    <string name="add_state_header">Velg menyelementer som skal legges til</string>
+    <string name="adjust_granularity_hint">%1$s for å lese basert på %2$s</string>
+    <string name="adjust_setting_hint">%1$s for å justere innstillingen</string>
+    <string name="all_set_text">"Du er klar til å bruke TalkBack.
+
+Du kan fortsette å finne ut om andre emner nå, eller du kan når som helst gjennomgå denne informasjonen i TalkBack-innstillingene."</string>
+    <string name="all_set_title">Alt er klart!</string>
+    <string name="always_show_this_message_label">Vis alltid denne meldingen</string>
+    <string name="application_name">Tilgjengelighetsverktøy for Android</string>
+    <string name="arc_android_window">Programvindu</string>
+    <string name="arc_navigation_hint">Trykk på søk ​​med pilene for å navigere</string>
+    <string name="arc_open_manage_keyboard_shortcuts_hint">Trykk på %1$s for å se listen over hurtigtaster</string>
+    <string name="arc_open_talkback_settings_hint">Trykk på %1$s for å åpne TalkBack-innstillingene</string>
+    <string name="arc_talkback_activation_hint">TalkBack er på</string>
+    <string name="assign_face_switch_subtitle">Velg en ansiktsbevegelse for handlingen %s.</string>
+    <string name="assign_face_switch_title">Tildel kamerabryter for %s</string>
+    <string name="assign_gestures">Tildel bevegelser</string>
+    <string name="assign_switch_subtitle">Trykk på en bryter for å tildele den til «%1$s»-handlingen.</string>
+    <string name="assistant_label">Assistent</string>
+    <string name="assistant_utterance">Google Assistent</string>
+    <string name="audio_ducking_summary">Senk volumet på annen lyd under tale</string>
+    <string name="audio_focus_off">Demping av lyden fra ander apper er av</string>
+    <string name="audio_focus_on">Demping av lyden fra andre apper er på</string>
+    <string name="audio_focus_state">Demp lyden fra andre apper er %1$s</string>
+    <string name="auto_detect">Tilpass til måten du holder enheten på</string>
+    <string name="auto_scan_action_description">Start skanning og velg</string>
+    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="available_devices_header">Tilgjengelige Bluetooth-enheter</string>
+    <string name="basic_navigation_link_subtext">Flytt mellom elementer, rull, bruk menyer med mer</string>
+    <string name="basic_navigation_link_text">Generell navigering</string>
+    <string name="bluetooth_computer_content_description">Datamaskin</string>
+    <string name="bluetooth_connected_description">Tilkoblet</string>
+    <string name="bluetooth_connecting_description">Kobler til …</string>
+    <string name="bluetooth_default_content_description">Bluetooth</string>
+    <string name="bluetooth_device_unavailable_description">Enheten er utilgjengelig</string>
+    <string name="bluetooth_headphone_content_description">Hodetelefoner</string>
+    <string name="bluetooth_imaging_content_description">Bildefremviser</string>
+    <string name="bluetooth_no_devices_paired">Ingen Bluetooth-enheter er tilkoblet</string>
+    <string name="bluetooth_not_enabled_message">For å koble til en Bluetooth-bryter, slå på Bluetooth</string>
+    <string name="bluetooth_peripheral_content_description">Ekstern enhet</string>
+    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_phone_content_description">Telefon</string>
+    <string name="bluetooth_switch_description_text">Koble til en bryter trådløst via Bluetooth</string>
+    <string name="bluetooth_switch_option_text">Bluetooth-bryter</string>
+    <string name="bluetooth_unsupported_description_text">Enheten din støtter ikke Bluetooth. Prøv å bruke en fysisk bryter i stedet.</string>
+    <string name="box_scan">Avslutt punktskanning</string>
+    <string name="braille_ime_displayed_name">punktskrifttastatur</string>
+    <string name="braille_ime_hidden_announcement">Punktskrifttastaturet er skjult</string>
+    <string name="braille_ime_service_name">TalkBack-punktskrifttastatur</string>
+    <string name="braille_keyboard">Punktskrifttastatur</string>
+    <string name="braille_keyboard_gestures">Bevegelser for punktskrifttastatur</string>
+    <string name="braille_tutorial_title">Veiledning for punktskrifttastatur</string>
+    <string name="brightness_down_label">Lysstyrke ned</string>
+    <string name="brightness_percentage_label">Lysstyrke %1$s %%</string>
+    <string name="brightness_up_label">Lysstyrke opp</string>
+    <string name="bring_ime_settings_page">Ingen andre tastaturer er aktivert. Gå til tastaturinnstillingene</string>
+    <string name="button_1">Knapp 1</string>
+    <string name="button_2">Knapp 2</string>
+    <string name="button_3">Knapp 3</string>
+    <string name="button_4">Knapp 4</string>
+    <string name="button_accept_changed_gesture_mappings">Godta bevegelser</string>
+    <string name="button_customize_gesture_mappings">Tilpass bevegelser</string>
+    <string name="button_disable_all_events">Slå av alle</string>
+    <string name="button_enable_all_events">Slå på alle</string>
+    <string name="calibration_fail_announcement">Kunne ikke oppdatere punktposisjonen. Trykk og hold på skjermen med seks fingre. Prøv deretter på nytt.</string>
+    <string name="calibration_finish_announcement">Punktposisjonen er oppdatert</string>
+    <string name="calibration_step1_hold_left_finger_announcement">Oppdaterer punktposisjonene. Først registrerer du punktene på venstre hånd. Trykk og hold på skjermen med de tre midterste fingrene på venstre hånd.</string>
+    <string name="calibration_step1_hold_right_finger_announcement">Oppdaterer punktposisjonene. Først registrerer du punktene på høyre hånd. Trykk og hold på skjermen med de tre midterste fingrene på høyre hånd.</string>
+    <string name="calibration_step2_hold_left_finger_announcement">Oppdater posisjon for punkt 1, 2 og 3. Deretter registrerer du punktene på venstre hånd. Trykk og hold på skjermen med de tre midterste fingrene på venstre hånd.</string>
+    <string name="calibration_step2_hold_right_finger_announcement">Oppdater posisjon for punkt 1, 2 og 3. Deretter registrerer du punktene på høyre hånd. Trykk og hold på skjermen med de tre midterste fingrene på høyre hånd.</string>
+    <string name="cam_cursor_enable_banner_text_label_cam_switches">Du må slå på kamerabrytere for å kontrollere enheten med kameramarkør.</string>
+    <string name="cam_cursor_enable_banner_text_label_switch_access">Du må slå på brytertilgang for å kontrollere enheten med kameramarkør.</string>
+    <string name="cam_switch_enable_banner_negative_button_text_label">Lukk</string>
+    <string name="cam_switch_enable_banner_positive_button_text_label">Slå på</string>
+    <string name="cam_switch_enable_banner_text_label_generic">Du må slå på brytertilgang for å kontrollere enheten.</string>
+    <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Åpne kamerabrytere</string>
+    <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Åpne brytertilgang</string>
+    <string name="camera_switches_status_active">Kamerabrytere er aktive</string>
+    <string name="camera_switches_status_error">Feil</string>
+    <string name="camera_switches_status_no_face">Ingen ansikter er oppdaget</string>
+    <string name="camera_switches_status_paused">Satt på pause</string>
+    <string name="cannot_add_label">Dette elementet kan ikke merkes.</string>
+    <string name="cannot_copy_feedback">Ingen tekst som skal kopieres – velg tekst først.</string>
+    <string name="cannot_cut_feedback">Ingen tekst å klippe ut. Velg tekst først.</string>
+    <string name="cannot_delete_feedback">Ingen tekst å slette. Velg tekst først.</string>
+    <string name="cannot_paste_feedback">Ingen tekst som skal limes inn – kopiér tekst først.</string>
+    <string name="capital_letters_change_pitch">Endre tonehøyden</string>
+    <string name="capital_letters_nothing">Ikke gjør noe</string>
+    <string name="capital_letters_sound_feedback">Spill av lyd</string>
+    <string name="capital_letters_speak_capital">Si «stor bokstav»</string>
+    <string name="change_typing_language_dialog_title">Skriftspråk</string>
+    <string name="character_collapse_template">%1$d %2$s﻿</string>
+    <string name="character_recognition_text">Tekst: %1$s</string>
+    <string name="clear_keys_dialog_message">Du har allerede tildelt brytere.</string>
+    <string name="clear_keys_dialog_negative_button">Behold brytere</string>
+    <string name="clear_keys_dialog_positive_button">Fjern brytere</string>
+    <string name="clear_keys_dialog_title">Vil du fjerne tildelte brytere?</string>
+    <string name="code_user_facing_name_ar">Arabisk</string>
+    <string name="code_user_facing_name_es">Spansk</string>
+    <string name="code_user_facing_name_fr">Fransk</string>
+    <string name="code_user_facing_name_ueb">Unified English Braille</string>
+    <string name="collapse_button">Skjul</string>
+    <string name="column_heading_template">Overskrift for kolonnen</string>
+    <string name="column_index_template">Kolonne %1$d</string>
+    <string name="connect_usb_heading">Koble til USB-bryter</string>
+    <string name="connected_usb_devices_header">Tilkoblede enheter</string>
+    <string name="content_heading">Innhold</string>
+    <string name="content_text">Fortsett til neste overskrift.</string>
+    <string name="context_menu_category_contextual_actions">Handlinger for nåværende element</string>
+    <string name="context_menu_category_others">Annet</string>
+    <string name="context_menu_edit_options_selection">Redigeringsalternativer</string>
+    <string name="context_menu_layout_selection">Oppsett</string>
+    <string name="context_menu_see_all_gestures_selection">Gjennomgå alle bevegelser</string>
+    <string name="context_menu_settings_selection">Innstillinger</string>
+    <string name="context_menu_switch_contracted_status_selection">Bytt til %s punktskrift</string>
+    <string name="context_menu_title">Alternativer for punktskrifttastatur</string>
+    <string name="context_menu_tutorial_finish">Avslutt veiledning</string>
+    <string name="context_menu_tutorial_selection">Åpne veiledning</string>
+    <string name="context_menu_typing_language_selection">Endre skriftspråk</string>
+    <string name="context_menu_typing_language_selection_summary">Du bruker for øyeblikket %s</string>
+    <string name="continue_tutorial_announcement">La oss fortsette veiledningen. %1$s</string>
+    <string name="contracted">forkortet</string>
+    <string name="copy_all">Kopiér alt</string>
+    <string name="copy_cut_paste_title">Kopiér, klipp ut og lim inn</string>
+    <string name="copy_text">"Etter å ha merket teksten kopierer du den ved å dobbelttrykke med tre fingre.
+
+Prøv å kopiere et ord inn i tekstfeltet nedenfor."</string>
+    <string name="copy_text_pre_r">"Etter at du har markert tekst, kan du kopiere den inn i TalkBack-menyen. Sveip ned og så til høyre for å åpne TalkBack-menyen. Dobbelttrykk på redigeringsalternativene, og deretter kopier.
+
+Prøv å kopiere et ord i tekstfeltet nedenfor."</string>
+    <string name="custom_edit_text">forsinkelse (sek.)</string>
+    <string name="custom_switch">Tilpasset</string>
+    <string name="customize_setting_selector_text">"Du kan også reversere disse bevegelsene.
+
+Sveip til venstre med tre fingre for å velge forrige lesekontroll.
+
+Sveip opp med én finger for å flytte navigeringsfokus bakover eller justere en lesekontroll opp.
+
+Du kan tilpasse lesekontrollene i TalkBack-innstillingene."</string>
+    <string name="customize_setting_selector_text_pre_r">"Du kan også reversere disse bevegelsene.
+
+Sveip opp og så ned for å velge forrige lesekontroll.
+
+Sveip opp for å flytte navigeringsfokus opp eller justere en lesekontroll opp.
+
+Du kan tilpasse lesekontrollene i TalkBack-innstillingene."</string>
+    <string name="cut_all">Klipp ut alt</string>
+    <string name="cut_paste_text">"For å klippe ut tekst, dobbelttrykk og hold med tre fingre.
+
+For å lime inn tekst, trippeltrykk med tre fingre.
+
+Prøv å lime inn et ord i tekstfeltet nedenfor."</string>
+    <string name="cut_paste_text_pre_r">"For å klippe ut eller lime inn tekst, åpne TalkBack-menyen og dobbelttrykk på redigeringsalternativene.
+
+Prøv å lime inn et ord i tekstfeltet nedenfor."</string>
+    <string name="default_action_disabled_modifier">(slått av)</string>
+    <string name="default_action_name_auto_scan">Automatisk skanning</string>
+    <string name="default_action_name_pause">Sett kamerabryter på pause</string>
+    <string name="default_action_name_point_scan">Punktskanning</string>
+    <string name="dialog_confirm_revert_to_default_menu">Bekreft</string>
+    <string name="dialog_do_not_disturb_permission_message">For å justere volumet fra menyen for brytertilgang, slå på «Ikke forstyrr»-tilgang for Tilgjengelighetsverktøy for Android</string>
+    <string name="dialog_do_not_disturb_permission_title">Brytertilgang trenger tillatelse for å justere volumet</string>
+    <string name="dialog_go_to_do_not_disturb_settings_button">Åpne innstillingene</string>
+    <string name="dialog_message_cam_switch_dynamic_model_downloads">Kamerabrytere må laste ned omtrent 10 MB data for å fungere. Dette bør ta omtrent ett minutt, avhengig av nettverkshastigheten.</string>
+    <string name="dialog_message_cam_switch_dynamic_model_downloads_downloading_format">Laster ned • %1$d %%</string>
+    <string name="dialog_message_cam_switch_dynamic_model_downloads_failure">Sørg for at enheten er koblet til internett og har ledig lagringsplass (%d MB).</string>
+    <string name="dialog_message_clear_physical_switches">Vil du fjerne alle fysiske brytere som allerede er tildelt?</string>
+    <string name="dialog_message_clear_switch">Vil du fjerne %s?</string>
+    <string name="dialog_message_continuous_reading_mode">Etter at du har valgt Les fra toppen eller Les fra neste, kan du navigere til forrige eller neste element mens teksten blir lest. Du kan bruke dette for å enkelt gå bakover eller fremover.</string>
+    <string name="dialog_message_dim_screen">Dette slår av skjermen for å forbedre personvernet, slik at skjermen ikke er synlig for andre når du er på offentlige steder</string>
+    <string name="dialog_message_disable_exploration">"Er du sikker på at du vil slå av berøringsutforskning?
+
+Enheten kommer ikke lenger til å reagere på snarveisbevegelser eller uttale elementer når du trykker på skjermen."</string>
+    <string name="dialog_message_enable_performance_stats">"Er du sikker på at du vil slå på resultatstatistikk?
+
+Resultatstatistikk kan bruke mer minne og strøm."</string>
+    <string name="dialog_message_enable_tree_debug">"Er du sikker på at du vil slå på nodetre-feilsøking?
+
+Nodetre-feilsøking eksponerer innholdet på skjermen din for loggene til enheten din, og disse kan leses av andre apper."</string>
+    <string name="dialog_message_pass_through_mode">Når du hører en lyd, kan du bruke en systembevegelse som ikke støttes av TalkBack. Dette kalles en direktebevegelse.</string>
+    <string name="dialog_message_pref_debounce_time">Flere trykk på bryteren innen denne tidsperioden blir behandlet som ett trykk.</string>
+    <string name="dialog_message_pref_line_speed">Velg hvor raskt de horisontale og vertikale linjene beveger seg over skjermen.</string>
+    <string name="dialog_message_pref_loop_count">"Velg hvor mange ganger skanning gjentas.
+
+Denne innstillingen påvirker både automatisk skanning og punktskanning."</string>
+    <string name="dialog_message_pref_maximum_time_per_item">"Angi maksimal tid for talebeskrivelsen for hvert element. Talen blir kuttet etter den angitte tiden.
+Merk: Hint blir alltid lest opp hvis de er slått på."</string>
+    <string name="dialog_message_pref_start_scan_delay_auto_scan">"Velg hvor lenge du vil vente på det første elementet. Denne tiden legges til tiden for automatisk skanning
+
+Denne innstillingen påvirker både automatisk skanning og punktskanning."</string>
+    <string name="dialog_message_pref_start_scan_delay_point_scan">"Velg hvor lenge du vil vente på det første elementet. Etter denne tiden begynner den vertikale eller horisontale linjen å bevege seg.
+
+Denne innstillingen påvirker både automatisk skanning og punktskanning."</string>
+    <string name="dialog_message_revert_to_default_menu">Er du sikker på at du vil gå tilbake til standardmenyen? Alle endringer av menyen går tapt.</string>
+    <string name="dialog_message_suspend_talkback">"Er du sikker på at du vil suspendere TalkBack?
+
+Så lenge TalkBack er suspendert, får du ikke tilbakemeldinger fra enheten, og Berøringsutforskning er slått av."</string>
+    <string name="dialog_message_voice_commands">"Her er noen ting du kan si:
+
+• Kopiér
+• Les fra neste element
+• Finn [save]
+• Snakk [faster]
+• TalkBack-innstillinger
+
+Si «%1$s» for å få en liste over alle talekommandoene."</string>
+    <string name="dialog_negative_button_label_cam_switch_dynamic_model_downloads">Ikke nå</string>
+    <string name="dialog_negative_button_label_clear_physical_switches">Avbryt</string>
+    <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads">Last ned</string>
+    <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads_cancel">Avbryt</string>
+    <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads_failure">Prøv igjen</string>
+    <string name="dialog_positive_button_label_clear_physical_switches">Fjern brytere</string>
+    <string name="dialog_positive_button_label_clear_switch">Fjern bryteren</string>
+    <string name="dialog_title_cam_switch_dynamic_model_downloads">Last ned data</string>
+    <string name="dialog_title_cam_switch_dynamic_model_downloads_failure">Kunne ikke laste ned data</string>
+    <string name="dialog_title_clear_physical_switches">Fjern fysiske brytere</string>
+    <string name="dialog_title_clear_switch">Fjern tildelt bryter</string>
+    <string name="dialog_title_continuous_reading_mode">Nye kontroller for kontinuerlig lesing</string>
+    <string name="dialog_title_dim_screen">Vil du skjule skjermen?</string>
+    <string name="dialog_title_disable_exploration">Vil du slå av berøringsutforskning?</string>
+    <string name="dialog_title_enable_performance_stats">Vil du slå på resultatstatistikk?</string>
+    <string name="dialog_title_enable_tree_debug">Vil du slå på nodetre-feilsøking?</string>
+    <string name="dialog_title_pass_through_mode">Hopp over TalkBack-bevegelser for å bruke systembevegelser</string>
+    <string name="dialog_title_revert_to_default_menu">Gjenopprett standardmenyen</string>
+    <string name="dialog_title_suspend_talkback">Vil du deaktivere TalkBack?</string>
+    <string name="dialog_title_voice_commands">Bruk talekommandoer for å kontrollere TalkBack</string>
+    <string name="dialog_url_list">Velg en link</string>
+    <string name="display_name_aria_landmark">ARIA-landemerke</string>
+    <string name="display_name_button">knapp</string>
+    <string name="display_name_checkbox">avmerkingsboks</string>
+    <string name="display_name_combobox">kombinasjonsboks</string>
+    <string name="display_name_control">innstilling</string>
+    <string name="display_name_edit_field">endringsfelt</string>
+    <string name="display_name_focusable_item">fokusertbart element</string>
+    <string name="display_name_graphic">grafikk</string>
+    <string name="display_name_heading">overskrift</string>
+    <string name="display_name_heading_1">overskrift 1</string>
+    <string name="display_name_heading_2">overskrift 2</string>
+    <string name="display_name_heading_3">overskrift 3</string>
+    <string name="display_name_heading_4">overskrift 4</string>
+    <string name="display_name_heading_5">overskrift 5</string>
+    <string name="display_name_heading_6">overskrift 6</string>
+    <string name="display_name_link">link</string>
+    <string name="display_name_list">liste</string>
+    <string name="display_name_list_item">listeelement</string>
+    <string name="display_name_table">tabell</string>
+    <string name="display_name_window">vindu</string>
+    <string name="done">Ferdig</string>
+    <string name="dump_node_tree_description">Nodetreet er blitt skrevet ut til logger.</string>
+    <string name="edit_box_hint">Dette er et tekstfelt</string>
+    <string name="edit_box_text">Velkommen til TalkBack</string>
+    <string name="edit_menu_state_header">Flytt og skjul menyelementer</string>
+    <string name="enable_bluetooth_button_title">Slå på Bluetooth</string>
+    <string name="enable_cam_switches_banner_text_label">Du må slå på kamerabrytere for å tildele ansiktsbevegelser til handlinger.</string>
+    <string name="enable_hints_summary_off">Brukstips leses ikke opp ved flytting av tilgjengelighetsfokus</string>
+    <string name="enable_hints_summary_on">Brukstips leses opp mens du navigerer, etter en kort forsinkelse</string>
+    <string name="enable_switch_access_banner_text_label">Du må slå på brytertilgang for å kontrollere enheten med kamerabrytere.</string>
+    <string name="end_of_page">Ingen flere %1$s</string>
+    <string name="end_of_text">Slutt</string>
+    <string name="enter_text_here">Skriv inn tekst her</string>
+    <string name="exit">Avslutt</string>
+    <string name="exit_scrim">Lukk</string>
+    <string name="exit_tutorial_content">Du kan når som helst gå tilbake til den i TalkBack-innstillingene.</string>
+    <string name="exit_tutorial_title">Vil du lukke veiledningen?</string>
+    <string name="expand_button">Vis</string>
+    <string name="explore_by_touch_text">"Du kan fokusere på et element ved å dra fingeren over skjermen.
+
+Prøv det nå ved å berøre skjermen og dra mot hjørnet nede til venstre til du finner Neste-knappen."</string>
+    <string name="explore_by_touch_title">Berøringsutforskning</string>
+    <string name="face_switch_description_text">Bruk ansiktsbevegelser som brytere</string>
+    <string name="face_switch_name_eyebrows_up">Hev øyenbrynene</string>
+    <string name="face_switch_name_eyebrows_up_instruction">hev øyenbrynene</string>
+    <string name="face_switch_name_eyebrows_up_summary">Hev begge øyenbrynene og så tilbake til hvilende ansikt</string>
+    <string name="face_switch_name_gaze_left">Se til venstre</string>
+    <string name="face_switch_name_gaze_left_instruction">se til venstre</string>
+    <string name="face_switch_name_gaze_left_summary">Se til venstre for skjermen og så tilbake igjen</string>
+    <string name="face_switch_name_gaze_right">Se til høyre</string>
+    <string name="face_switch_name_gaze_right_instruction">se til høyre</string>
+    <string name="face_switch_name_gaze_right_summary">Se til høyre for skjermen og så tilbake igjen</string>
+    <string name="face_switch_name_gaze_up">Se opp</string>
+    <string name="face_switch_name_gaze_up_instruction">se opp</string>
+    <string name="face_switch_name_gaze_up_summary">Se over skjermen og så tilbake igjen</string>
+    <string name="face_switch_name_mouth_open">Åpne munnen</string>
+    <string name="face_switch_name_mouth_open_instruction">åpne munnen</string>
+    <string name="face_switch_name_mouth_open_summary">Åpne munnen og så tilbake til hvilende ansikt</string>
+    <string name="face_switch_name_smiling">Smil</string>
+    <string name="face_switch_name_smiling_instruction">smil</string>
+    <string name="face_switch_name_smiling_summary">Smil og så tilbake til hvilende ansikt</string>
+    <string name="face_switch_option_text">Kamerabryter</string>
+    <string name="fast_radio_button_title">Rask (%1$s s forsinkelse)</string>
+    <string name="find_finish_button_text">Sveip til høyre for å finne «Fullfør»-knappen.</string>
+    <string name="finish">Fullfør</string>
+    <string name="finish_tutorial_announcement">Viser punktskrifttastatur. Snu telefonen slik at skjermen er vendt vekk fra deg. Rotér telefonen til liggende (vannrett) posisjon. Deretter begynner du å skrive.</string>
+    <string name="floating_button_activate_action">aktiver</string>
+    <string name="floating_button_activated_contentDesc">Deaktiver tekstopplesing</string>
+    <string name="floating_button_deactivate_action">deaktiver</string>
+    <string name="floating_button_deactivated_contentDesc">Aktiver tekstopplesing</string>
+    <string name="floating_button_drag_action">dra</string>
+    <string name="four_finger_gestures_title">4 fingre</string>
+    <string name="function_off">Taletilbakemelding er av</string>
+    <string name="function_on">Taletilbakemelding er på</string>
+    <string name="game_loss_outcome_title">Bedre lykke neste gang</string>
+    <string name="game_outcome_body_text">Du kan beholde det nåværende oppsettet eller starte på nytt.</string>
+    <string name="game_outcome_negative_response">Start på nytt</string>
+    <string name="game_outcome_positive_response">Behold oppsettet</string>
+    <string name="game_reset_button_title">Tilbakestill spillet</string>
+    <string name="game_square_already_taken">Denne plassen er allerede tatt. Prøv igjen!</string>
+    <string name="game_square_content_description">%1$s ved posisjonen %2$s, %3$s</string>
+    <string name="game_square_no_marker_content_description">tom</string>
+    <string name="game_tie_outcome_title">Det endte uavgjort</string>
+    <string name="game_win_outcome_title">Du vant!</string>
+    <string name="gesture_1_or_2">%1$s eller %2$s</string>
+    <string name="gesture_add_space">For å legge til et <b>mellomrom</b>, sveip til høyre</string>
+    <string name="gesture_delete">For å <b>slette</b>, sveip til venstre</string>
+    <string name="gesture_delete_word">For å <b>slette et ord</b>, sveip til venstre med to fingre</string>
+    <string name="gesture_hide_keyboard">For å <b>skjule tastaturet</b>, sveip ned med to fingre</string>
+    <string name="gesture_name_2finger_3tap_hold">Trippeltrykk og hold med to fingre</string>
+    <string name="gesture_name_2finger_tap_hold">Trykk og hold med to fingre</string>
+    <string name="gesture_name_3finger_3tap_hold">Trippeltrykk og hold med tre fingre</string>
+    <string name="gesture_name_3finger_tap_hold">Trykk og hold med tre fingre</string>
+    <string name="gesture_name_double_tap">Dobbelttrykk</string>
+    <string name="gesture_name_double_tap_and_hold">Dobbelttrykk og hold</string>
+    <string name="gesture_name_pass_through">Gå videre til systembevegelser</string>
+    <string name="gesture_name_touch_explore">Trykk på Utforsk</string>
+    <string name="gesture_name_unknown">Ukjent bevegelse</string>
+    <string name="gesture_new_line">For å legge til en <b>ny linje</b>, sveip til høyre med to fingre</string>
+    <string name="gesture_next_keyboard">For å bytte til <b>neste tastatur</b>, sveip ned med tre fingre</string>
+    <string name="gesture_open_context_menu">For å åpne <b>hjelp og andre alternativer</b>, sveip opp med tre fingre</string>
+    <string name="gesture_submit_text">For å <b>sende inn tekst</b>, sveip opp med to fingre</string>
+    <string name="gestures_accessibility_shortcut_text">For å åpne tilgjengelighetssnarveien, sveip opp fra bunnen av skjermen med tre fingre.</string>
+    <string name="gestures_announce_reset_gesture_settings">Innstillingene for bevegelser er blitt tilbakestilt.</string>
+    <string name="gestures_back_text">For å gå tilbake, start fra venstre eller høyre kant og sveip mot midten av skjermen med to fingre.</string>
+    <string name="gestures_home_text">For å gå til startskjermen, sveip opp fra bunnen av skjermen med to fingre.</string>
+    <string name="gestures_open_notifications_text_for_3_button_navigation">"For å åpne varsler, sveip ned fra toppen av skjermen med to fingre. Deretter kan du lukke varsler ved å sveipe opp igjen med to fingre.
+
+Prøv det nå."</string>
+    <string name="gestures_open_notifications_text_for_gesture_navigation">For å åpne varsler, sveip ned fra toppen av skjermen med to fingre.</string>
+    <string name="gestures_overview_screen_text">For å gå til nylige apper, sveip opp fra bunnen av skjermen med to fingre og hold. Så slipper du. Dette tar deg til Oversikt-skjermen.</string>
+    <string name="gestures_text">"For å utføre hvilken som helst systemhandling, legg til én finger for systembevegelsen.
+
+Dette betyr at når du bruker TalkBack, kan du gå til startskjermen ved å sveipe opp med to fingre i stedet for én.
+
+Du lukker veiledningen hvis du prøver disse bevegelsene nå. Det kan være lurt å vente til du har fullført veiledningen."</string>
+    <string name="gestures_title">Systemhandlinger</string>
+    <string name="global_action_back">Tilbake</string>
+    <string name="global_action_home">Startside</string>
+    <string name="global_action_key_summary_back">Trykk på denne bryteren for å gå tilbake til forrige skjerm, eller for å skjule tastaturet dersom det er synlig.</string>
+    <string name="global_action_key_summary_home">Trykk på denne bryteren for å gå til startskjermen.</string>
+    <string name="global_action_key_summary_notifications">Trykk på denne bryteren for å vise varslene på enheten din.</string>
+    <string name="global_action_key_summary_overview">Trykk på denne bryteren for å vise en liste over nylig åpnede apper.</string>
+    <string name="global_action_key_summary_quick_settings">Trykk på denne bryteren for å se hurtiginnstillingene for enheten din.</string>
+    <string name="global_action_notifications">Varsler</string>
+    <string name="global_action_overview">Oversikt</string>
+    <string name="global_action_power_options">Strømalternativer</string>
+    <string name="global_action_quick_settings">Hurtiginnstillinger</string>
+    <string name="global_context_menu_title">Global kontekstuell meny</string>
+    <string name="global_menu_volume_heading">Volum</string>
+    <string name="granularity_character">Tegn</string>
+    <string name="granularity_default">Standard</string>
+    <string name="granularity_line">Linjer</string>
+    <string name="granularity_native_control">Kontroller</string>
+    <string name="granularity_native_heading">Overskrifter</string>
+    <string name="granularity_native_link">Linker</string>
+    <string name="granularity_page">Sider</string>
+    <string name="granularity_paragraph">Avsnitt</string>
+    <string name="granularity_pseudo_web_special_content">Spesielt innhold</string>
+    <string name="granularity_web_control">Kontroller</string>
+    <string name="granularity_web_heading">Overskrifter</string>
+    <string name="granularity_web_landmark">Landemerker</string>
+    <string name="granularity_web_link">Linker</string>
+    <string name="granularity_web_list">Lister</string>
+    <string name="granularity_window">Vinduer</string>
+    <string name="granularity_word">Ord</string>
+    <string name="heading_template">Overskrift</string>
+    <string name="hide_all_global_menu_items_message">Du må ha minst ett element i menyen.</string>
+    <string name="hide_all_global_menu_items_title">Kan ikke skjule elementet</string>
+    <string name="hide_keyboard_window">tastaturet er skjult</string>
+    <string name="hide_state_header">Velg menyelementer som skal skjules</string>
+    <string name="hint_radial_menu">Trykk på skjermen og utforsk i en sirkel for å finne et element. Deretter løfter du fingeren for å aktivere det.</string>
+    <string name="hint_summary_jog_dial">Trykk på skjermen og bruk sirkelbevegelser for å utforske innholdet på skjermen. Løft deretter for å fokusere.</string>
+    <string name="hint_type_search_term">Skriv inn en søketerm</string>
+    <string name="hold_six_fingers_announcement">"%s
+Legg enheten flatt på et bord. Deretter trykker og holder du skjermen med de tre midterste fingrene på hver hånd i en posisjon som er komfortabel for skriving."</string>
+    <string name="hold_six_fingers_description">"Du kan ikke bruke vanlige TalkBack-bevegelser i punktskrifttastaturet.
+
+For å komme i gang, la oss konfigurere posisjonen til de seks punktskriftpunktene når du skriver."</string>
+    <string name="hold_six_fingers_inactive_announcement">Legg enheten flatt på et bord. Deretter trykker og holder du skjermen med de tre midterste fingrene på hver hånd i en posisjon som er komfortabel for skriving.</string>
+    <string name="how_to_use_braille_keyboard">Slik bruker du punktskrifttastatur</string>
+    <string name="imported_labels_reverted">Importerte etiketter er tilbakestilt</string>
+    <string name="in_collection_role_description">I %1$s</string>
+    <string name="in_collection_role_description_with_name">I %1$s %2$s</string>
+    <string name="in_grid">I rutenettet</string>
+    <string name="in_grid_pager">På rutenettside</string>
+    <string name="in_grid_pager_with_name">På rutenettside %1$s</string>
+    <string name="in_grid_with_name">I rutenettet %1$s</string>
+    <string name="in_horizontal_pager">På horisontal side</string>
+    <string name="in_horizontal_pager_with_name">På horisontal side %1$s</string>
+    <string name="in_list">I listen</string>
+    <string name="in_list_with_name">I listen %1$s</string>
+    <string name="in_pager">På side</string>
+    <string name="in_pager_with_name">På side %1$s</string>
+    <string name="in_vertical_pager">På vertikal side</string>
+    <string name="in_vertical_pager_with_name">På vertikal side %1$s</string>
+    <string name="increase_speed_button">Øk hastigheten</string>
+    <string name="input_view_caption">TalkBack-punktskrifttastatur – du finner hjelp på g.co/help/braille</string>
+    <string name="instruction_put_phone_flat">For å skrive i bordmodus, legg telefonen flatt på bordet</string>
+    <string name="instruction_swipe_down_2_fingers">For å skjule tastaturet, sveip ned med to fingre</string>
+    <string name="instruction_swipe_down_3_fingers">For å bytte til det andre tastaturet ditt, sveip ned med tre fingre</string>
+    <string name="instruction_swipe_left">For å slette en bokstav, sveip til venstre</string>
+    <string name="instruction_swipe_right">For å legge til et mellomrom, sveip til høyre</string>
+    <string name="instruction_swipe_up_3_fingers">For å fullføre veiledningen, sveip opp med tre fingre</string>
+    <string name="instruction_type_letter_a">Trykk på punkt 1 med %1$s for å skrive «A»</string>
+    <string name="instruction_type_letter_a_left_index_finger">venstre pekefinger</string>
+    <string name="instruction_type_letter_a_right_index_finger">høyre pekefinger</string>
+    <string name="instruction_type_letter_bcd">Prøv deretter å skrive bokstavene B, C og D</string>
+    <string name="intro_heading">Velg en brytertype</string>
+    <string name="intro_summary_heading_cam_switches">Med denne veiledningen kan du finne ut hvordan du tildeler en bryter for skanning. Du kan tildele andre handlinger i innstillingene.</string>
+    <string name="item_index_template">Element %1$d</string>
+    <string name="jump_between_controls_text">"Kontroller er elementer du kan samhandle med, for eksempel knapper, avmerkingsbokser og tekstfelt.
+
+Du vil kanskje hoppe raskt mellom kontroller på noen sider for å finne en handling, for eksempel Neste-knappen.
+
+For å gjøre det sveiper du til høyre med tre fingre til du hører «%1$s». Deretter sveiper du opp for å gå til forrige kontroll på en side. Sveip ned for å gå til neste kontroll på en side.
+
+Prøv det nå. Bytt til kontroller og finn Neste-knappen."</string>
+    <string name="jump_between_controls_text_pre_r">"Kontroller er elementer du kan samhandle med, for eksempel knapper, avmerkingsbokser og tekstfelt.
+
+Du vil kanskje hoppe raskt mellom kontroller på noen sider for å finne en handling, for eksempel Neste-knappen.
+
+For å gjøre det sveiper du ned og så opp til du hører «%1$s». Deretter sveiper du opp for å gå til forrige kontroll på en side. Sveip ned for å gå til neste kontroll på en side.
+
+Prøv det nå. Bytt til kontroller og finn Neste-knappen."</string>
+    <string name="jump_between_controls_title">Hopp mellom kontroller</string>
+    <string name="jump_between_headings_text">"Du kan også hoppe mellom overskrifter på en side.
+
+For å prøve det nå sveiper du til høyre med tre fingre til du hører «%1$s». Deretter sveiper du ned for å finne «Navigering»-overskriften.
+
+For å fullføre veiledningen sveiper du til høyre for å finne «Fullfør»-knappen."</string>
+    <string name="jump_between_headings_text_pre_r">"Du kan også hoppe mellom overskrifter på en side.
+
+For å prøve det nå sveiper du ned og så opp til du hører «%1$s». Deretter sveiper du ned for å finne «Navigering»-overskriften.
+
+For å fullføre veiledningen sveiper du til høyre for å finne «Fullfør»-knappen."</string>
+    <string name="jump_between_headings_title">Hopp mellom overskrifter</string>
+    <string name="jump_between_links_text">"Du kan også hoppe mellom linker på en side.
+
+For å prøve det nå sveiper du til høyre med tre fingre til du hører «%1$s». Deretter sveiper du ned for å finne linken med navn «Fortsett». Mens du er i veiledningen, skjer ingenting hvis du dobbelttrykker på denne linken.
+
+Sveip til høyre for å finne Neste-knappen, og gå til neste side."</string>
+    <string name="jump_between_links_text_pre_r">"Du kan også hoppe mellom linker på en side.
+
+For å prøve det nå sveiper du ned og så opp til du hører «%1$s». Deretter sveiper du ned for å finne linken med navn «Fortsett». Mens du er i veiledningen, skjer ingenting hvis du dobbelttrykker på denne linken.
+
+Sveip til høyre for å finne Neste-knappen, og gå til neste side."</string>
+    <string name="jump_between_links_title">Hopp mellom linker</string>
+    <string name="key_combo_preference_alt_plus">ALT +</string>
+    <string name="key_combo_preference_control_plus">CTRL +</string>
+    <string name="key_combo_preference_instructions">Trykk inn en bryterkombinasjon for å legge den til på eller fjerne den fra listen</string>
+    <string name="key_combo_preference_reset_button">Fjern tildeling av brytere</string>
+    <string name="key_combo_preference_shift_plus">SHIFT +</string>
+    <string name="keyboard_echo_summary_off">Ikke les opp tastene som trykkes inn på skjermtastaturet</string>
+    <string name="keyboard_echo_summary_on">Les opp tastene som trykkes inn på skjermtastaturet</string>
+    <string name="keycombo_announce_shortcut_not_supported">Hurtigtasten støttes ikke</string>
+    <string name="keycombo_assign_dialog_clear">Fjern hurtigtasten</string>
+    <string name="keycombo_assign_dialog_default_keymap_instruction">Trykk inn tastekombinasjonen med den utløsende modifikatortasten %1$s for å angi en ny hurtigtast.</string>
+    <string name="keycombo_assign_dialog_instruction">Trykk inn tastekombinasjonen for å angi en ny hurtigtast. Den må inneholde minst ALT- eller Control-tasten.</string>
+    <string name="keycombo_assign_dialog_message">Hurtigtasten er</string>
+    <string name="keycombo_assign_dialog_navigation_reminder">Trykk på tilbakeknappen for å fjerne hurtigtasten, «Enter» for å lagre eller «Esc» for å avbryte.</string>
+    <string name="keycombo_key_arrow_down">Pil ned</string>
+    <string name="keycombo_key_arrow_left">Venstrepil</string>
+    <string name="keycombo_key_arrow_right">Høyrepil</string>
+    <string name="keycombo_key_arrow_up">Pil opp</string>
+    <string name="keycombo_key_modifier_alt">Alt</string>
+    <string name="keycombo_key_modifier_ctrl">Ctrl</string>
+    <string name="keycombo_key_modifier_meta">Søk</string>
+    <string name="keycombo_key_modifier_shift">Shift</string>
+    <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack tilbakestiller tastaturoppsettet og endrer modifikatortasten til %1$s</string>
+    <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack tilbakestiller tastaturoppsettet</string>
+    <string name="keycombo_menu_announce_active_keymap">%1$s er nå aktivt.</string>
+    <string name="keycombo_menu_announce_new_trigger_modifier">Modifikatortasten er endret til %1$s.</string>
+    <string name="keycombo_menu_announce_reset_keymap">Tastaturoppsettet er tilbakestilt.</string>
+    <string name="keycombo_menu_category_global">Globale handlinger</string>
+    <string name="keycombo_menu_category_granularity">Navigasjon</string>
+    <string name="keycombo_menu_category_navigation">Navigasjonshandlinger</string>
+    <string name="keycombo_menu_category_other">Andre handlinger</string>
+    <string name="keycombo_menu_category_select_keymap">Tastaturoppsett</string>
+    <string name="keycombo_menu_category_web">Handlinger for navigering på nett</string>
+    <string name="keycombo_menu_choose_trigger_modifier">Velg modifikatortast</string>
+    <string name="keycombo_menu_global_back">Tilbake</string>
+    <string name="keycombo_menu_global_home">Startside</string>
+    <string name="keycombo_menu_global_notifications">Varsler</string>
+    <string name="keycombo_menu_global_recent">Nylig brukte apper</string>
+    <string name="keycombo_menu_global_suspend">Suspender eller gjenoppta TalkBack</string>
+    <string name="keycombo_menu_granularity_decrease">Forrige navigasjonsinnstilling</string>
+    <string name="keycombo_menu_granularity_increase">Neste navigasjonsinnstilling</string>
+    <string name="keycombo_menu_navigate_down">Gå til elementet nedenfor</string>
+    <string name="keycombo_menu_navigate_first">Gå til det første elementet</string>
+    <string name="keycombo_menu_navigate_last">Gå til det siste elementet</string>
+    <string name="keycombo_menu_navigate_next">Gå til det neste elementet</string>
+    <string name="keycombo_menu_navigate_next_character">Gå til det neste tegnet</string>
+    <string name="keycombo_menu_navigate_next_window">Gå til det neste vinduet</string>
+    <string name="keycombo_menu_navigate_next_word">Gå til det neste ordet</string>
+    <string name="keycombo_menu_navigate_previous">Gå til det forrige elementet</string>
+    <string name="keycombo_menu_navigate_previous_character">Gå til det forrige tegnet</string>
+    <string name="keycombo_menu_navigate_previous_window">Gå til det forrige vinduet</string>
+    <string name="keycombo_menu_navigate_previous_word">Gå til det forrige ordet</string>
+    <string name="keycombo_menu_navigate_up">Gå til elementet ovenfor</string>
+    <string name="keycombo_menu_other_custom_actions">Vis alternativer</string>
+    <string name="keycombo_menu_other_language_options">Vis installerte språk</string>
+    <string name="keycombo_menu_other_open_manage_keyboard_shortcuts">Administrer hurtigtaster</string>
+    <string name="keycombo_menu_other_open_talkback_settings">Åpne TalkBack-innstillingene</string>
+    <string name="keycombo_menu_other_read_from_next_item">Les fra det neste elementet</string>
+    <string name="keycombo_menu_other_read_from_top">Les fra toppen</string>
+    <string name="keycombo_menu_other_talkback_context_menu">Vis Talkback-menyen</string>
+    <string name="keycombo_menu_other_toggle_search">Søk på skjermen etter et element</string>
+    <string name="keycombo_menu_perform_click">Klikk</string>
+    <string name="keycombo_menu_perform_long_click">Klikk lenge</string>
+    <string name="keycombo_menu_reset_keymap">Tilbakestill tastaturoppsettet</string>
+    <string name="keycombo_menu_select_keymap">Velg et tastaturoppsett</string>
+    <string name="keycombo_menu_web_navigate_to_next_aria_landmark">Gå til det neste ARIA-landemerket</string>
+    <string name="keycombo_menu_web_navigate_to_next_button">Gå til den neste knappen</string>
+    <string name="keycombo_menu_web_navigate_to_next_checkbox">Gå til den neste avmerkingsboksen</string>
+    <string name="keycombo_menu_web_navigate_to_next_combobox">Gå til den neste kombinasjonsboksen</string>
+    <string name="keycombo_menu_web_navigate_to_next_control">Gå til den neste kontrollen</string>
+    <string name="keycombo_menu_web_navigate_to_next_edit_field">Gå til det neste redigeringsfeltet</string>
+    <string name="keycombo_menu_web_navigate_to_next_focusable_item">Gå til det neste fokuserbare elementet</string>
+    <string name="keycombo_menu_web_navigate_to_next_graphic">Gå til det neste grafikkelementet</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading">Gå til den neste overskriften</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_1">Gå til den neste overskriften – 1</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_2">Gå til den neste overskriften – 2</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_3">Gå til den neste overskriften – 3</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_4">Gå til den neste overskriften – 4</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_5">Gå til den neste overskriften – 5</string>
+    <string name="keycombo_menu_web_navigate_to_next_heading_6">Gå til den neste overskriften – 6</string>
+    <string name="keycombo_menu_web_navigate_to_next_link">Gå til den neste linken</string>
+    <string name="keycombo_menu_web_navigate_to_next_list">Gå til den neste listen</string>
+    <string name="keycombo_menu_web_navigate_to_next_list_item">Gå til det neste punktet på listen</string>
+    <string name="keycombo_menu_web_navigate_to_next_table">Gå til den neste tabellen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_aria_landmark">Gå til det forrige ARIA-landemerket</string>
+    <string name="keycombo_menu_web_navigate_to_previous_button">Gå til den forrige knappen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_checkbox">Gå til den forrige avmerkingsboksen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_combobox">Gå til den forrige kombinasjonsboksen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_control">Gå til den forrige kontrollen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_edit_field">Gå til det forrige redigeringsfeltet</string>
+    <string name="keycombo_menu_web_navigate_to_previous_focusable_item">Gå til det forrige fokuserbare elementet</string>
+    <string name="keycombo_menu_web_navigate_to_previous_graphic">Gå til det forrige grafikkelementet</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading">Gå til den forrige overskriften</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_1">Gå til den forrige overskriften – 1</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_2">Gå til den forrige overskriften – 2</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_3">Gå til den forrige overskriften – 3</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_4">Gå til den forrige overskriften – 4</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_5">Gå til den forrige overskriften – 5</string>
+    <string name="keycombo_menu_web_navigate_to_previous_heading_6">Gå til den forrige overskriften – 6</string>
+    <string name="keycombo_menu_web_navigate_to_previous_link">Gå til den forrige linken</string>
+    <string name="keycombo_menu_web_navigate_to_previous_list">Gå til den forrige listen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_list_item">Gå til det forrige punktet på listen</string>
+    <string name="keycombo_menu_web_navigate_to_previous_table">Gå til den forrige tabellen</string>
+    <string name="keycombo_unassigned">Ikke tildelt</string>
+    <string name="label_choose_app_to_export">Velg en app for å eksportere etiketter:</string>
+    <string name="label_choose_app_to_import">Velg et program for å importere etiketter:</string>
+    <string name="label_dialog_confirm_label_remove">Etiketten er fjernet</string>
+    <string name="label_dialog_edit_hint">Etikett-tekst</string>
+    <string name="label_dialog_text">"Skriv inn teksten som skal brukes som etikett for dette elementet
+Internt visningsnavn: %1$s"</string>
+    <string name="label_dialog_title_add">Legg til etikett</string>
+    <string name="label_dialog_title_edit">Rediger etiketten</string>
+    <string name="label_dialog_title_remove">Fjern etiketten</string>
+    <string name="label_export_empty">Det er ingenting å eksportere. Du har ikke lagt til noen etiketter.</string>
+    <string name="label_export_failed">Eksportering av etiketten mislyktes</string>
+    <string name="label_import">Importér tilpassede etiketter</string>
+    <string name="label_import_dialog_message">Velg om du vil overstyre eller hoppe over eksisterende etiketter ved eventuelle konflikter</string>
+    <string name="label_import_dialog_override">Overstyring</string>
+    <string name="label_import_dialog_skip">Hopp over</string>
+    <string name="label_import_dialog_title">Importér tilpassede etiketter til TalkBack</string>
+    <string name="label_import_failed">Importering av etiketten mislyktes</string>
+    <string name="label_manager_no_packages_message">Det finnes for øyeblikket ingen egendefinerte etiketter. Du kan opprette en ved å gå til et umerket bilde og legge til en etikett fra TalkBack-menyen.</string>
+    <string name="label_manager_package_title">Administrer etiketter for %1$s</string>
+    <string name="label_manager_summary_title">Angi tilpassede etiketter</string>
+    <string name="label_manager_timestamp_text">Sist endret %1$s</string>
+    <string name="label_remove_dialog_text">Er du sikker på at du vil fjerne etiketten «%1$s»?</string>
+    <string name="label_remove_dialog_text_app_name">Er du sikker på at du vil fjerne etiketten «%1$s» fra %2$s?</string>
+    <string name="label_screen_search_result">Søkeresultat</string>
+    <string name="label_talkback_context_menu">Global TalkBack-hurtigmeny</string>
+    <string name="language_list_preference_title">Skriftspråk</string>
+    <string name="language_options">Språk</string>
+    <string name="leave_keyboard">Lukk punktskrifttastaturet</string>
+    <string name="linear_scanning_description">Flytt enkeltvis mellom elementene</string>
+    <string name="linear_scanning_except_keyboard_description">Flytt enkeltvis mellom elementene. Vær obs på at tastaturene skanner radvis.</string>
+    <string name="linear_scanning_except_keyboard_title">Lineær skanning (unntatt tastatur)</string>
+    <string name="linear_scanning_title">Lineær skanning</string>
+    <string name="link1_text">Link 1</string>
+    <string name="link2_text">Link 2</string>
+    <string name="link3_text">Link 3</string>
+    <string name="link4_text">Link 4</string>
+    <string name="links">Linker</string>
+    <string name="list_index_template">%1$d av %2$d</string>
+    <string name="lockscreen_label">Låseskjerm</string>
+    <string name="medium_radio_button_title">Medium (%1$s s forsinkelse)</string>
+    <string name="menu_category_reading_controls">Lesing</string>
+    <string name="menu_category_special_features">Spesielle funksjoner</string>
+    <string name="menus_selector_text">"Du kan bruke disse snarveiene til å endre innstillinger raskt, for eksempel for å endre navigering fra tegn til ord eller endre talehastigheten til TalkBack.
+
+For å endre lesekontrollene raskt, sveip til venstre med tre fingre eller sveip til høyre med tre fingre.
+
+Du kan tilpasse TalkBack-menyen og lesekontrollene senere i TalkBack-innstillingene."</string>
+    <string name="menus_selector_text_pre_r">"Du kan bruke disse snarveiene til å endre innstillinger raskt, for eksempel for å endre navigering fra tegn til ord eller endre talehastigheten til TalkBack.
+
+For å endre lesekontrollene raskt, sveip ned og så opp igjen.
+
+Du kan tilpasse TalkBack-menyen og lesekontrollene senere i TalkBack-innstillingene."</string>
+    <string name="menus_talkback_menu_text">"TalkBack-menyen inneholder innstillinger og kontroller du kanskje trenger ofte.
+
+Åpne TalkBack-menyen nå ved å trykke på skjermen med tre fingre."</string>
+    <string name="menus_talkback_menu_text_pre_r">"TalkBack-menyen inneholder innstillinger og kontroller du kanskje trenger ofte.
+
+Åpne TalkBack-menyen nå ved å sveipe ned og så til høyre."</string>
+    <string name="menus_title">Meny og kontroller</string>
+    <string name="message_in_reset_keymap_confirm_dialog">Er du sikker på at du vil tilbakestille hurtigtastene for tastaturoppsettet til standardverdiene? Vær oppmerksom på at denne handlingen ikke kan angres.</string>
+    <string name="message_reset_gesture_settings_confirm_dialog">"Dette tilbakestiller alle bevegelser til standardhandlingene.
+
+Du mister alle endringer du har gjort."</string>
+    <string name="message_resume_keyguard">Du kan aktivere TalkBack på nytt fra varselpanelet eller ved å gå tilbake til låseskjermen</string>
+    <string name="message_resume_manual">Du kan aktivere TalkBack igjen fra varselskyggen</string>
+    <string name="message_resume_screen_on">Du kan aktivere TalkBack på nytt fra varselskyggen eller ved å slå på skjermen</string>
+    <string name="more">Mer</string>
+    <string name="more_new_feature_braille_keyboard_text">TalkBack inkluderer nå et punktskrifttastatur, slik at du kan skrive raskere med punktskrift. For å prøve det, gå til TalkBack-innstillingene.</string>
+    <string name="more_new_feature_context_menu_text">"Globale og lokale kontekstuelle menyer, som du kan bruke til å finne innstillinger og kontroller, er nå samlet i én enkelt TalkBack-meny. Du kan åpne den ved å trykke med tre fingre. Prøv det nå.
+
+De eksisterende bevegelsene dine tar deg til den nye samlede menyen: Sveip ned og så til høyre."</string>
+    <string name="more_new_feature_context_menu_text_pre_r">"Globale og lokale kontekstuelle menyer, som du kan bruke til å finne innstillinger og kontroller, er nå samlet i én enkelt TalkBack-meny.
+
+De eksisterende bevegelsene dine, for eksempel sveip opp og så til høyre, tar deg fremdeles til den nye samlede menyen."</string>
+    <string name="more_new_feature_title">Flere nye funksjoner</string>
+    <string name="more_new_feature_voice_command_default_text">Nå kan du bruke stemmen til å kontrollere TalkBack-raskt. Gå til TalkBack-innstillingene for å konfigurere en bevegelse for talekommando.</string>
+    <string name="more_new_feature_voice_command_text_with_actual_gesture">Nå kan du bruke stemmen til å kontrollere TalkBack raskt. For å prøve det, %1$s.</string>
+    <string name="move_fab_bottom_left_action_label">Flytt nederst til venstre</string>
+    <string name="move_fab_bottom_right_action_label">Flytt nederst til høyre</string>
+    <string name="move_fab_top_left_action_label">Flytt til øverste venstre hjørne</string>
+    <string name="move_fab_top_right_action_label">Flytt øverst til høyre</string>
+    <string name="move_state_header">Velg menyelementer som skal flyttes</string>
+    <string name="moving_cursor_text">"Når du har aktivert et tekstfelt, kan du bevege markøren mellom bokstaver ved å trykke på volumtastene opp eller ned.
+
+Prøv det i tekstfeltet nedenfor."</string>
+    <string name="moving_cursor_title">Beveg markøren</string>
+    <string name="msg_no_matches">Ingen treff på denne skjermen</string>
+    <string name="msg_no_text_selected">Fant ingen tekst på det stedet.</string>
+    <string name="multiple_languages_braille_ime_displayed_name">punktskrifttastatur, %s</string>
+    <string name="music_volume_percentage_label">Musikkvolum %1$s %%</string>
+    <string name="name_of_enter_key">Enter</string>
+    <string name="name_of_space_bar">Mellomrom</string>
+    <string name="name_of_tab_key">Tab</string>
+    <string name="navigation_bar">navigasjonsrad</string>
+    <string name="navigation_heading">Navigering</string>
+    <string name="new_feature_talkback_91_title">Nye funksjoner i TalkBack</string>
+    <string name="new_gesture_notification_content">Trykk for å finne ut hvordan du bruker TalkBack raskere med nye bevegelser.</string>
+    <string name="new_gesture_notification_title">Nye bevegelser i TalkBack</string>
+    <string name="new_shortcut_gesture_copy_text_announcement">Kopiert tekst. Dette kopierer vanligvis teksten du har valgt. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_copy_text_text">For å kopiere tekst, dobbelttrykk med tre fingre.</string>
+    <string name="new_shortcut_gesture_cut_text_announcement">Utklippet tekst. Dette klipper vanligvis ut teksten du har valgt. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_cut_text_text">For å klippe ut tekst, dobbelttrykk og hold med tre fingre.</string>
+    <string name="new_shortcut_gesture_note">Merk: Du har tilpasset noen av bevegelsene dine, så denne informasjonen er muligens ikke nøyaktig. For å gjennomgå bevegelsene dine, gå til TalkBack-innstillingene.</string>
+    <string name="new_shortcut_gesture_paste_text_announcement">Innlimt tekst. Dette limer vanligvis inn teksten du har kopiert. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_paste_text_text">For å lime inn tekst, trippeltrykk med tre fingre.</string>
+    <string name="new_shortcut_gesture_pause_media_announcement">Medieinnholdet er satt på pause eller spilles av. Dette spiller vanligvis av eller setter på pause nåværende video eller musikk. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_pause_or_play_media_subtext">Andre apper kan bruke denne bevegelsen for ting som å svare på eller avslutte telefonanrop. Denne bevegelsen støttes muligens ikke av alle apper.</string>
+    <string name="new_shortcut_gesture_pause_or_play_media_text">For å spille av eller sette medier på pause i en video- eller musikkapp, dobbelttrykk med to fingre. Prøv nå.</string>
+    <string name="new_shortcut_gesture_play_media_announcement">Medieinnholdet spilles av. Dette spiller vanligvis av nåværende video eller musikk. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_reading_menu_text">For å bruke lesekontrollene, sveip til venstre eller høyre med tre fingre. Du kan også sveipe opp eller ned med tre fingre.</string>
+    <string name="new_shortcut_gesture_selection_mode_off_announcement">Valgmodus er av. Dette avslutter vanligvis valgmodus når du er i et inndatafelt. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_selection_mode_on_announcement">Valgmodus er på eller av. Dette starter eller avslutter vanligvis valgmodus når du er i et inndatafelt. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_selection_mode_text">For å starte eller avslutte valgmodus, dobbelttrykk og hold med to fingre.</string>
+    <string name="new_shortcut_gesture_stop_speech_announcement">TalkBack-tale er stoppet. Dette stopper vanligvis frasen TalkBack sier nå. Sveip til høyre for å fortsette.</string>
+    <string name="new_shortcut_gesture_stop_speech_text">For få TalkBack til å slutte å snakke midlertidig, trykk med to fingre.</string>
+    <string name="new_shortcut_gesture_text">"Nye bevegelser er lagt til for å gjøre TalkBack raskere og enklere å bruke.
+
+På denne skjermen kan du prøve de nye bevegelsene."</string>
+    <string name="new_shortcut_gesture_title">Nye bevegelser</string>
+    <string name="next_arrow_content_description">Neste</string>
+    <string name="next_button_content_description">Gå til neste skjerm</string>
+    <string name="next_item_button">Neste element</string>
+    <string name="next_keyboard">Neste tastatur</string>
+    <string name="next_step">Neste</string>
+    <string name="no_adjust_setting_gesture">For å bruke den, gå til TalkBack-innstillingene og legg til en bevegelse for «%1$s»</string>
+    <string name="no_apps_to_export_labels">Finner ingen programmer for å eksportere etiketter.</string>
+    <string name="no_apps_to_import_labels">Finner ingen programmer for import av etiketter</string>
+    <string name="no_key_assigned">Ingen brytere er tildelt</string>
+    <string name="not_editable">Ikke redigerbar</string>
+    <string name="not_enough_touch_points_dialog_message">Enheten din støtter ikke nok kontaktpunkter. Kontakt enhetsprodusenten for å få mer informasjon.</string>
+    <string name="not_enough_touch_points_dialog_title">Enheten din støtter ikke punktskrifttastatur</string>
+    <string name="notification_category_alarm">Alarm</string>
+    <string name="notification_category_call">Ring</string>
+    <string name="notification_category_email">E-post</string>
+    <string name="notification_category_err">Feil</string>
+    <string name="notification_category_event">Aktivitet</string>
+    <string name="notification_category_msg">Melding</string>
+    <string name="notification_category_progress">Fremdrift</string>
+    <string name="notification_category_promo">Tilbud</string>
+    <string name="notification_category_service">Tjeneste</string>
+    <string name="notification_category_social">Sosialt</string>
+    <string name="notification_category_sys">Systemstatus</string>
+    <string name="notification_category_transport">Mediekontroll</string>
+    <string name="notification_message_talkback_gestures_changed">Trykk for å gjennomgå endringer i tilgjengelighetsbevegelsene</string>
+    <string name="notification_message_talkback_suspended">Trykk for å gjenoppta</string>
+    <string name="notification_status_sync">Synkroniserer</string>
+    <string name="notification_title_talkback_gestures_changed">TalkBack-bevegelsene ble endret</string>
+    <string name="notification_title_talkback_suspended">TalkBack er deaktivert</string>
+    <string name="notification_tutorial_navigate_to_lession_1">Du går automatisk videre til leksjon 1.</string>
+    <string name="notification_type_beginning_of_field">Begynnelsen av feltet</string>
+    <string name="notification_type_end_of_field">Slutten av feltet</string>
+    <string name="notification_type_missed_call">Tapt anrop</string>
+    <string name="notification_type_selection_cleared">Valget ble fjernet</string>
+    <string name="notification_type_selection_mode_off">Valgmodusen er av</string>
+    <string name="notification_type_selection_mode_on">Valgmodusen er på</string>
+    <string name="notification_type_status_chat">Chat</string>
+    <string name="notification_type_status_error">Feil</string>
+    <string name="notification_type_status_more">Mer</string>
+    <string name="notification_type_status_mute">Lyden er av</string>
+    <string name="notification_type_status_sdcard">SD-kort</string>
+    <string name="notification_type_status_sdcard_usb">SD-kort, USB</string>
+    <string name="notification_type_status_started">Startet</string>
+    <string name="notification_type_status_stopped">Stoppet</string>
+    <string name="notification_type_status_sync_noanim">Synkroniserer</string>
+    <string name="notification_type_status_voicemail">Talepost</string>
+    <string name="notifications_label">Varsler</string>
+    <string name="number_of_gestures_heading">Velg antall brytere</string>
+    <string name="number_of_switches_heading">Velg antall brytere</string>
+    <string name="one_face_switch_description_text">Lar deg bruke en ansiktsbevegelse for å starte automatisk skanning, som automatisk flytter markeringen gjennom elementene på skjermen. Utfør bevegelsen en gang til for å velge. Du kan også legge til en annen bevegelse for å midlertidig sette kamerabrytere på pause.</string>
+    <string name="one_finger_angle_gestures_title">Rettvinklet med 1 finger</string>
+    <string name="one_finger_back_forth_gestures_title">1 finger frem og tilbake</string>
+    <string name="one_finger_gestures_title">1 finger</string>
+    <string name="one_switch">Én bryter</string>
+    <string name="one_switch_description_text">Trykk på bryteren for å begynne å bevege deg automatisk mellom elementene. Trykk igjen for å velge det fremhevede elementet.</string>
+    <string name="open_context_menu_announcement">Alternativmenyen er åpen. Vend telefonen tilbake, slik at skjermen er vendt mot deg, og hold den som normalt. Nå kan du bruke vanlige TalkBack-bevegelser for å navigere. Sveip til høyre for å se flere alternativer.</string>
+    <string name="option_face_switch_scanning_description">Alle elementene blir tildelt en farge. Utfør ansiktsbevegelsen som samsvarer med fargen rundt elementet du ønsker. Begrens størrelsen av gruppen til du kommer til ønsket element.</string>
+    <string name="option_scan_key_summary_format">Trykk på denne bryteren for å velge gruppen %1$d.</string>
+    <string name="option_scan_switch_format">Gruppevalgbryter %1$d</string>
+    <string name="option_scan_switch_format_with_color">Gruppevalgbryter %1$d (%2$s)</string>
+    <string name="option_scan_switch_subtitle">Trykk på en bryter for å tildele den til å velge %1$s-gruppen.</string>
+    <string name="option_scan_switch_title">%1$s-gruppen</string>
+    <string name="option_scanning_description">Alle elementene blir tildelt en farge. Trykk på bryteren som samsvarer med fargen rundt elementet du ønsker. Begrens størrelsen av gruppen til du kommer til ønsket element.</string>
+    <string name="option_scanning_menu_button">MENY</string>
+    <string name="option_scanning_menu_button_content_description">Meny for brytertilgang</string>
+    <string name="option_scanning_title">Gruppevalg (avansert)</string>
+    <string name="orientation_landscape">Liggende</string>
+    <string name="orientation_portrait">Stående</string>
+    <string name="out_of_grid">Utenfor rutenettet</string>
+    <string name="out_of_grid_pager">Utenfor rutenettside</string>
+    <string name="out_of_grid_pager_with_name">Utenfor rutenettside %1$s</string>
+    <string name="out_of_grid_with_name">Utenfor rutenettet %1$s</string>
+    <string name="out_of_horizontal_pager">Utenfor horisontal side</string>
+    <string name="out_of_horizontal_pager_with_name">Utenfor horisontal side %1$s</string>
+    <string name="out_of_list">Utenfor listen</string>
+    <string name="out_of_list_with_name">Utenfor listen %1$s</string>
+    <string name="out_of_pager">Utenfor side</string>
+    <string name="out_of_pager_with_name">Utenfor side %1$s</string>
+    <string name="out_of_role_description">Utenfor %1$s</string>
+    <string name="out_of_role_description_with_name">Utenfor %1$s %2$s</string>
+    <string name="out_of_vertical_pager">Utenfor vertikal side</string>
+    <string name="out_of_vertical_pager_with_name">Utenfor vertikal side %1$s</string>
+    <string name="override_keycombo">Tasten er allerede i bruk</string>
+    <string name="override_keycombo_message_two_params">Denne tastekombinasjonen brukes for en «%1$s»-handling. Vil du fjerne denne hurtigtasten og tildele den på nytt, til «%2$s»?</string>
+    <string name="pair_bluetooth_heading">Koble til Bluetooth-bryter</string>
+    <string name="pair_bluetooth_subheading">Trykk på Bluetooth-bryteren din nedenfor</string>
+    <string name="paired_devices_header">Tilkoblede Bluetooth-enheter</string>
+    <string name="paragraph1_text">Avsnitt 1.</string>
+    <string name="paragraph2_text">Avsnitt 2.</string>
+    <string name="paragraph3_text">Avsnitt 3.</string>
+    <string name="paragraph4_text">Avsnitt 4.</string>
+    <string name="paste_all">Lim inn</string>
+    <string name="pause_button">Sett på pause</string>
+    <string name="perform_action_next">Neste</string>
+    <string name="perform_action_submitting">Sender inn tekst</string>
+    <string name="perform_add_new_line_announcement">En ny linje er lagt til</string>
+    <string name="perform_add_space_announcement">Mellomrom</string>
+    <string name="perform_delete_letter_announcement">Bokstaven er slettet</string>
+    <string name="perform_delete_word_announcement">Ordet er slettet</string>
+    <string name="perform_hide_keyboard_announcement">Skjul tastaturet</string>
+    <string name="perform_submit_text_announcement">Send inn tekst</string>
+    <string name="perform_switch_keyboard_announcement">Bytt tastatur</string>
+    <string name="permission_labeling_desc">Tillatelse til å få tilgang til, endre og slette tilpassede etiketter som leses høyt av TalkBack.</string>
+    <string name="permission_labeling_label">Administrer tilpassede TalkBack-etiketter</string>
+    <string name="permission_required_notice_dialog_message">Du må gi flere tillatelser for å få lest tekst i bilder og i kamerasøkeren. Gi %1$s tillatelse til å ta skjermdumper av alt på skjermen.</string>
+    <string name="permission_required_notice_dialog_positive_button">Fortsett</string>
+    <string name="permission_required_notice_dialog_title">Les tekst i bilder</string>
+    <string name="permission_talkback_desc">Tillatelse til å sende bevegelser til TalkBack og gjenoppta muntlig tilbakemelding.</string>
+    <string name="permission_talkback_label">Kontrollér TalkBack</string>
+    <string name="pitch_change_for_ime_summary_off">Ikke endre taletilbakemelding når du snakker</string>
+    <string name="pitch_change_for_ime_summary_on">Les opp tastaturtilbakemeldinger med lavere tonehøyde</string>
+    <string name="point_scan">Punktskanning</string>
+    <string name="point_scan_enable_animations_message">Slå på animasjoner for å bruke denne funksjonen.</string>
+    <string name="power_label">Av/på</string>
+    <string name="power_utterance">Av/på-alternativer</string>
+    <string name="practice_gestures_link_subtext">Prøv forskjellige bevegelser for å finne ut hva de gjør</string>
+    <string name="practice_gestures_link_text">Øv på bevegelser</string>
+    <string name="practice_gestures_text">"Prøv hvilken som helst TalkBack-bevegelse på denne skjermen for å høre hva bevegelsen gjør.
+
+Trykk på skjermen med to fingre. Fortsett å øve ved å trykke én gang, to ganger eller tre ganger med to, tre eller fire fingre.
+
+Du kan også dobbelttrykke og holde med to, tre eller fire fingre."</string>
+    <string name="practice_gestures_text_pre_r">"Prøv hvilken som helst TalkBack-bevegelse på denne skjermen for å høre hva bevegelsen gjør.
+
+Prøv hvilken som helst bevegelse der to sveipinger danner en rett vinkel. Du kan for eksempel sveipe ned og så til høyre uten å løfte fingeren."</string>
+    <string name="practice_gestures_title">Øv på bevegelser</string>
+    <string name="pref_begin_switchaccess_setup_title">Åpne veiviseren for konfigurering</string>
+    <string name="pref_category_context_menu_summary">For å bruke TalkBack-menyen, trykk på skjermen med tre fingre. Du kan også sveipe opp og så til høyre eller sveipe ned og så til høyre.</string>
+    <string name="pref_category_context_menu_summary_single_finger">For å bruke TalkBack-menyen, sveip ned og så til høyre.</string>
+    <string name="pref_category_multi_finger_shortcuts">Bevegelser med flere fingre</string>
+    <string name="pref_category_sa_combined_switch_mapping_assign_cam_switch_title">Tildel kamerabrytere</string>
+    <string name="pref_category_sa_combined_switch_mapping_assign_key_switch_title">Tildel USB- eller Bluetooth-bryter</string>
+    <string name="pref_category_sa_face_gesture_action_dialog_summary">Velg én eller flere ansiktsbevegelser for «%s».</string>
+    <string name="pref_category_sa_face_gesture_action_dialog_title">Tildel kamerabrytere</string>
+    <string name="pref_category_sa_face_gesture_action_none_set">Ingen</string>
+    <string name="pref_category_sa_face_gesture_action_summary">Velg en ny handling for denne kamerabryteren. For å se alle de tildelte bryterne dine, gå til innstillingene for brytertilgang.</string>
+    <string name="pref_category_sa_face_gesture_action_summary_cam_cursor_active">Velg en ny handling for denne kamerabryteren.</string>
+    <string name="pref_category_sa_face_gesture_action_title">Angi tildeling</string>
+    <string name="pref_category_sa_face_gestures_single_switch_label">Innstillinger for «%s»</string>
+    <string name="pref_category_selector_menu_summary">For å bruke lesekontrollene, sveip til venstre eller høyre med tre fingre. Du kan også sveipe opp eller ned med tre fingre.</string>
+    <string name="pref_category_selector_menu_summary_single_finger">For å bruke lesekontrollene, sveip opp og så ned.</string>
+    <string name="pref_face_gesture_duration_100">0,1 sekunder</string>
+    <string name="pref_face_gesture_duration_1000">1 sekund</string>
+    <string name="pref_face_gesture_duration_2000">2 sekunder</string>
+    <string name="pref_face_gesture_duration_250">0,25 sekunder</string>
+    <string name="pref_face_gesture_duration_500">0,5 sekunder</string>
+    <string name="pref_face_gesture_duration_custom_input_label">Oppgi en tid på opptil 30 sekunder.</string>
+    <string name="pref_face_gesture_duration_fastest">Korteste hold</string>
+    <string name="pref_face_gesture_duration_summary">Velg hvor lenge du må holde ansiktsbevegelsen før en handling utløses. Fortsatt holding gjentar handlingen, med mindre «Korteste hold» er valgt.</string>
+    <string name="pref_face_gesture_duration_title">Bevegelsesvarighet</string>
+    <string name="pref_help_and_feedback_title">Hjelp og tilbakemelding</string>
+    <string name="pref_help_title">Hjelp</string>
+    <string name="pref_item_licenses">Lisenser for åpen kildekode</string>
+    <string name="pref_label_sa_face_gesture_edit_assignment">Endre tildelingen</string>
+    <string name="pref_node_desc_order_entry_name_role_state_pos">Navn, type, tilstand</string>
+    <string name="pref_node_desc_order_entry_role_name_state_pos">Type, navn, tilstand</string>
+    <string name="pref_node_desc_order_entry_state_name_role_pos">Tilstand, navn, type</string>
+    <string name="pref_node_desc_order_title">Rekkefølge for beskrivelse av element</string>
+    <string name="pref_punctuation_summary_off">Tegnsetting og symboler blir ikke lest opp</string>
+    <string name="pref_punctuation_summary_on">Tegnsetting og symboler blir lest opp</string>
+    <string name="pref_punctuation_title">Tegnsetting</string>
+    <string name="pref_reduce_window_delay_title">Reduser forsinkelse for kunngjøringer i vindu</string>
+    <string name="pref_sa_combined_switch_add_cam_switches_button_label">Legg til kamerabrytere</string>
+    <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Fjern fysiske brytere</string>
+    <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Endre kamerabrytere</string>
+    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Ingen kamerabrytere er tildelt</string>
+    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Tildel kamerabrytere til «%s»</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_no_values_summary_label">Ingen brytere er tildelt</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_summary_label">Trykk inn en bryterkombinasjon for å legge til eller fjerne den fra listen</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_title_label">Tildel brytere til «%s»</string>
+    <string name="pref_sa_face_gestures_camera_permission_request_cancel_button_label">AVBRYT</string>
+    <string name="pref_sa_face_gestures_camera_permission_request_denied_summary">For å bruke kamerabrytere, gi kameratilgang i innstillingene.</string>
+    <string name="pref_sa_face_gestures_camera_permission_request_settings_button_label">INNSTILLINGER</string>
+    <string name="pref_sa_face_gestures_camera_permission_request_title">Krever tilgang til kamera</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_negative_label">Behold brytere</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_positive_label">Fjern brytere</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_summary">Vil du fjerne alle fysiske brytere som allerede er tildelt?</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_title">Fjern fysiske brytere</string>
+    <string name="pref_sa_face_pause_gesture_speed_warning_summary">For å unngå å utløse en pause ved et uhell, øk bevegelsesvarigheten.</string>
+    <string name="pref_sa_face_pause_gesture_speed_warning_title">Sett holdetid for bevegelser til maksimum</string>
+    <string name="pref_sa_face_pause_gesture_warning_dismiss_content_description">lukk</string>
+    <string name="pref_sa_face_playground_stop_preview_content_description">Stopp forhåndsvisning</string>
+    <string name="pref_sa_face_playground_switch_on_content_description">Slå på</string>
+    <string name="pref_sa_face_playground_switch_on_summary_text">Kamerabrytere må slås på for å bruke dette testområdet</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_unpause_summary_text">Dette testområdet er satt på pause. Bruk knappen nedenfor for å starte det på nytt.</string>
+    <string name="pref_selector_summary">%1$s for å velge en innstilling. Deretter %2$s for å justere innstillingen.</string>
+    <string name="pref_selector_summary_two_select_gesture">%1$s eller %2$s for å velge en innstilling. Deretter %3$s for å justere innstillingen.</string>
+    <string name="pref_speak_container_element_positions_summaryOff">Informasjon om liste og rutenett leses ikke opp</string>
+    <string name="pref_speak_container_element_positions_summaryOn">Informasjon om liste og rutenett leses opp</string>
+    <string name="pref_speak_container_element_positions_title">Les opp informasjon om liste og rutenett</string>
+    <string name="pref_speak_roles_summary_off">Elementtypen leses ikke opp for elementer i fokus</string>
+    <string name="pref_speak_roles_summary_on">Elementtypen leses opp for elementer i fokus</string>
+    <string name="pref_speak_roles_title">Les opp elementtype</string>
+    <string name="pref_verbosity_category_misc_settings_title">Diverse</string>
+    <string name="pref_verbosity_category_preset_settings_title">Detaljer om detaljnivå</string>
+    <string name="pref_verbosity_preset_change">Detaljnivået «%1$s» er nå aktivt.</string>
+    <string name="pref_verbosity_preset_entry_custom">Tilpasset</string>
+    <string name="pref_verbosity_preset_entry_high">Høy</string>
+    <string name="pref_verbosity_preset_entry_low">Lav</string>
+    <string name="pref_verbosity_preset_title">Velg en forhåndsinnstilling</string>
+    <string name="pref_verbosity_title">Detaljnivå</string>
+    <string name="preference_off">Av</string>
+    <string name="preference_on">På</string>
+    <string name="previous_arrow_content_description">Forrige</string>
+    <string name="previous_button_content_description">Gå til forrige skjerm</string>
+    <string name="previous_item_button">Forrige element</string>
+    <string name="punctuation_state">Tegnsetting er %1$s</string>
+    <string name="quick_settings_label">Hurtiginnstillinger</string>
+    <string name="read_by_character_text">"Noen ganger vil du kanskje få teksten opplest ett tegn om gangen.
+
+For å gjøre dette sveiper du til høyre med tre fingre til du hører «%1$s». Deretter sveiper du opp for å flytte navingeringsfokus bakover etter tegn. Sveip ned for å flytte navigeringsfokus forover etter tegn.
+
+Prøv det nå. Når du sveiper til høyre med tre fingre, kan du også velge å lese etter ord eller avsnitt."</string>
+    <string name="read_by_character_text_pre_r">"Noen ganger vil du kanskje få teksten opplest ett tegn om gangen.
+
+For å gjøre dette sveiper du ned og så opp til du hører «%1$s». Deretter sveiper du opp for å flytte navingeringsfokus bakover etter tegn. Sveip ned for å flytte navigeringsfokus forover etter tegn.
+
+Prøv det nå. Når du sveiper ned og så opp, kan du også velge å lese etter ord eller avsnitt."</string>
+    <string name="read_by_character_title">Les etter tegn, ord eller avsnitt</string>
+    <string name="read_out_deleted">%s er slettet</string>
+    <string name="reading_navigation_link_subtext">Les ord for ord eller tegn for tegn og hopp mellom linker, kontroller eller overskrifter</string>
+    <string name="reading_navigation_link_text">Lesenavigasjon</string>
+    <string name="recent_apps_label">Nylige apper</string>
+    <string name="reconnecting_unsupported_launch_bluetooth_settings">Gå til Bluetooth-innstillingene</string>
+    <string name="reconnecting_unsupported_message">"Brytertilgang kunne ikke koble til enheten som var tilkoblet tidligere. Sjekk at enheten er på og tilkoblet.
+
+Hvis enheten din fremdeles ikke kobles til, kan du gå til Bluetooth-innstillingene og prøve å koble til på nytt."</string>
+    <string name="reconnecting_unsupported_title">Kunne ikke koble til enheten</string>
+    <string name="reduce_speed_button">Reduser hastigheten</string>
+    <string name="remaining_calibration_finish_announcement">Alle punktposisjonene er oppdatert</string>
+    <string name="reminder_announcement">Sveip opp med tre fingre for å se flere alternativer</string>
+    <string name="report_gesture_description">Dette er bevegelsene som er blitt utført nylig. Rapportér hvilken bevegelse som er feil, og hva du forventet.</string>
+    <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Tilbakestill</string>
+    <string name="reset_button_in_reset_keymap_confirm_dialog">Tilbakestill</string>
+    <string name="reset_gesture_settings_title">Tilbakestill innstillinger for bevegelser</string>
+    <string name="reset_user_language_preference">Standard</string>
+    <string name="result_swipe_down_2_fingers">SKJUL TASTATURET</string>
+    <string name="result_swipe_down_3_fingers">NESTE TASTATUR</string>
+    <string name="result_swipe_left">SLETT</string>
+    <string name="result_swipe_right">MELLOMROM</string>
+    <string name="resume_button">Gjenoppta</string>
+    <string name="revert_imported_labels">Tilbakestill importerte etiketter</string>
+    <string name="rotate_orientation_announcement">"Fra og med nå kan du ikke bruke vanlige TalkBack-bevegelser. TalkBack er ikke tilgjengelig når du bruker punktskrifttastaturet.
+
+%1$s"</string>
+    <string name="rotate_orientation_continue_announcement">Telefonen er i stående (loddrett) posisjon. For å fortsette, rotér telefonen til liggende posisjon, slik at langsiden er nederst. Deretter snur du skjermen, slik at den er vendt bort fra deg. Når du er klar, dobbelttrykker du på skjermen for å fortsette.</string>
+    <string name="rotate_orientation_description_1">Fra og med nå kan du ikke bruke vanlige TalkBack-bevegelser. TalkBack er ikke tilgjengelig når du bruker punktskrifttastaturet.</string>
+    <string name="rotate_orientation_description_2">For å starte, hold telefonen på denne måten, med skjermen vendt fra deg.</string>
+    <string name="rotate_orientation_inactive_announcement">"Først snur du telefonen, slik at skjermen er vendt bort fra deg.
+
+Deretter roterer du den til liggende (vannrett) posisjon. Hendene dine skal holde kortsidene av telefonen. Høyre hånd skal holde enden med USB-porten. Hvil de tre midterste fingrene på skjermen, og bruk lillefingeren og tommelen til å støtte telefonen.
+
+Når du er klar, dobbelttrykker du på skjermen for å fortsette.
+
+For å lukke punktskrifttastaturet, sveip ned mot bakken med tre fingre. Da bytter du tilbake til det opprinnelige tastaturet."</string>
+    <string name="row_column_scanning_description">Skann én rad om gangen. Når en rad er valgt, kan du gå mellom elementene i den listen.</string>
+    <string name="row_column_scanning_title">Skanning av rad/kolonne</string>
+    <string name="row_heading_template">Overskrift for raden</string>
+    <string name="row_index_template">Rad %1$d</string>
+    <string name="s2s_enabled">Tekstopplesing er slått på.</string>
+    <string name="s2s_notification_description">Trykk for å justere innstillingene</string>
+    <string name="s2s_pref_multitasking_title">Les i bakgrunnen</string>
+    <string name="s2s_pref_ocr_title">Les tekst i bilder</string>
+    <string name="s2s_pref_summary_multitasking">På forsøksstadiet. Tekstopplesing fortsetter å lese når du går til andre skjermer eller apper.</string>
+    <string name="s2s_pref_summary_ocr">På forsøksstadiet. Trykk på tekst i bilder eller kamerasøkeren for å få teksten lest opp.</string>
+    <string name="s2s_pref_tts_title">Innstillinger for tekst til tale</string>
+    <string name="s2s_preferences_title">Innstillinger for tekstopplesing</string>
+    <string name="s2s_service_description">"Når Tekstopplesing er på, kan du trykke på bestemte elementer på skjermen for å høre dem lest opp.
+
+Start Tekstopplesing. Deretter kan du
+
+• trykke på bestemte elementer, for eksempel tekst eller bilder
+• dra fingeren over skjermen for å velge flere elementer
+• trykke på avspillingsknappen for å høre på alt på skjermen
+• velge tekst som vises i kameravisningen"</string>
+    <string name="s2s_service_htmldescription">Når Tekstopplesing er på, kan du trykke på bestemte elementer på skjermen for å høre dem lest opp.&lt;br>&lt;br>&lt;b>Slik bruker du Tekstopplesing&lt;/b>&lt;br>Start Tekstopplesing, og så kan du&lt;br>• trykke på et spesifikt element, for eksempel tekst eller et bilde&lt;br>• dra fingeren din over skjermen for å velge flere elementer&lt;br>• trykke på avspillingsknappen for å høre alt på skjermen&lt;br>• velge tekst som vises i kameravisningen</string>
+    <string name="s2s_service_name">Tekstopplesing</string>
+    <string name="s2s_service_on">Tekstopplesing er på</string>
+    <string name="s2s_service_summary">Hør på valgt tekst</string>
+    <string name="s2s_title_pref_help">Hjelp</string>
+    <string name="s2s_title_pref_help_and_feedback">Hjelp og tilbakemelding</string>
+    <string name="s2s_warning_ocr_not_supported">Denne funksjonen støttes ikke for det nåværende systemspråket.</string>
+    <string name="sa_face_gesture_decrease_gesture_size_button_label">Mindre</string>
+    <string name="sa_face_gesture_increase_gesture_size_button_label">Større</string>
+    <string name="sa_face_gesture_threshold_pref_summary">Velg hvor stor du vil gjøre en bevegelse før den gjenkjennes.</string>
+    <string name="sa_face_gesture_threshold_pref_title">Bevegelsesstørrelse</string>
+    <string name="save">Lagre</string>
+    <string name="scan_non_actionable_items_summary">Hør taletilbakemeldinger for elementer med tilgjengelige handlinger og beskrivende tekst</string>
+    <string name="scanning_method_heading">Velg hvordan du vil skanne</string>
+    <string name="screen_away">Skjerm vendt bort-modus</string>
+    <string name="screen_away_detail">Hold enheten med skjermen vendt bort fra deg (skjerm vendt bort-modus)</string>
+    <string name="screen_brightness_restored">Skjermen vises</string>
+    <string name="screen_dimmed">Skjermen er skjult</string>
+    <string name="screen_dimming_exit_instruction_line1">Skjermen er skjult av tilgjengelighetstjenesten for TalkBack</string>
+    <string name="screen_dimming_exit_instruction_line2">Åpne TalkBack-menyen med bevegelsen %1$s, fremhev «%2$s», og dobbelttrykk.</string>
+    <string name="screen_magnification_off">Forstørring er av</string>
+    <string name="screenshot_label">Skjermdump</string>
+    <string name="screenshot_utterance">Ta skjermdump</string>
+    <string name="scrollable_backward">Rull bakover</string>
+    <string name="scrollable_forward">Rull fremover</string>
+    <string name="scrolling_text">"Du kan rulle ved å sveipe med to fingre.
+
+Prøv det nå ved å sveipe opp med to fingre til du ruller til bunnen av listen over elementer."</string>
+    <string name="scrolling_title">Rulling</string>
+    <string name="search_dialog_label">Søk: %1$s</string>
+    <string name="search_mode_cancel">Søket er avbrutt.</string>
+    <string name="search_mode_hint_no_query">Det er ikke skrevet inn noe søk.</string>
+    <string name="search_mode_hint_no_selection">Det er ikke valgt noe element.</string>
+    <string name="search_mode_hint_query">Gjeldende søk: %1$s.</string>
+    <string name="search_mode_hint_selection">Gjeldende valg: %1$s.</string>
+    <string name="select_setting_hint">%1$s for å velge en annen innstilling</string>
+    <string name="selecting_text_text">"I et tekstfelt flytter du markøren til starten av teksten du vil merke.
+
+Dobbelttrykk og hold med to fingre for å starte markeringsmodus. Deretter beveger du markøren til slutten av teksten. Dobbelttrykk og hold med to fingre igjen for å avslutte markeringsmodus.
+
+Prøv å merke ordet «Velkommen» i tekstfeltet nedenfor:"</string>
+    <string name="selecting_text_text_pre_r">"I et tekstfelt flytter du markøren til starten av teksten du vil merke.
+
+Sveip ned og så til høyre for å åpne TalkBack-menyen. Dobbelttrykk på redigeringsalternativene og start markeringsmodus. Beveg markøren til slutten av teksten.
+
+Åpne TalkBack-menyen igjen og dobbelttrykk på redigeringsalternativene for å avslutte markeringsmodus.
+
+Prøv å merke ordet «Velkommen» i tekstfeltet nedenfor:"</string>
+    <string name="selecting_text_title">Merking av tekst</string>
+    <string name="selecting_text_with_talkback_menu">Du kan finne merking og andre handlinger for tekstbehandling ved å åpne TalkBack-menyen og velge «Redigeringsalternativer». TalkBack-menyen åpnes ved å trykke med tre fingre.</string>
+    <string name="selecting_text_with_talkback_menu_pre_r">Du kan finne merking og andre handlinger for tekstbehandling ved å åpne TalkBack-menyen og velge «Redigeringsalternativer». TalkBack-menyen åpnes ved å sveipe opp og så til høyre.</string>
+    <string name="selector_audio_focus_output">Demp lyden fra andre apper</string>
+    <string name="selector_granularity_output">Navigasjon</string>
+    <string name="selector_speech_rate_output">Talehastighet</string>
+    <string name="selector_verbosity_output">Detaljnivå</string>
+    <string name="set_granularity_fail">%1$s mislyktes</string>
+    <string name="set_up_braille_keyboard">Konfigurer punktskrifttastatur</string>
+    <string name="setting_button">Innstilling</string>
+    <string name="setting_selector_heading">Lesekontroller</string>
+    <string name="setting_selector_text">"Du kan bruke disse snarveiene til å endre innstillinger raskt, for eksempel for å endre navigering fra tegn til ord eller endre talehastigheten til TalkBack.
+
+Trinn 1: Sveip til høyre med tre fingre for å velge neste lesekontroll.
+
+Trinn 2: Sveip ned med én finger for å flytte navigeringsfokus forover eller justere en lesekontroll ned."</string>
+    <string name="setting_selector_text_pre_r">"Du kan bruke disse snarveiene til å endre innstillinger raskt, for eksempel for å endre navigering fra tegn til ord eller endre talehastigheten til TalkBack.
+
+Trinn 1: Sveip ned og så opp for å velge neste lesekontroll.
+
+Trinn 2: Sveip ned for å flytte navigeringsfokus forover eller justere en lesekontroll ned."</string>
+    <string name="setup_completion_heading">Konfigureringen er fullført</string>
+    <string name="setup_completion_message">Alt er klart.</string>
+    <string name="setup_completion_settings_reminder">Du kan når som helst endre flere innstillinger eller åpne konfigurasjonsveiviseren igjen fra innstillingene for brytertilgang.</string>
+    <string name="setup_face_switches_assignment_already_assigned_label">Brytere du har tildelt denne handlingen:</string>
+    <string name="setup_switch_assignment_empty">Ingen</string>
+    <string name="setup_switch_assignment_heading">Brytere tildelt til %s</string>
+    <string name="setup_switch_assignment_nothing_assigned_message">Ingen brytere er tildelt til denne handlingen. Er du sikker på at du vil fortsette?</string>
+    <string name="setup_switch_assignment_nothing_assigned_title">Ingen brytere er tildelt</string>
+    <string name="setup_toast_msg_key_already_assigned">«%1$s»-tasten er allerede tildelt til en annen handling</string>
+    <string name="setup_wizard_heading">Konfigureringsoversikt for brytertilgang</string>
+    <string name="shortcut_2finger_passthrough">Sveip, rull eller dra.</string>
+    <string name="shortcut_a11y_button">Tilgjengelighetssnarvei</string>
+    <string name="shortcut_a11y_button_long_press">Hold tilgjengelighetssnarveien</string>
+    <string name="shortcut_all_apps">Alle apper</string>
+    <string name="shortcut_back">Tilbake</string>
+    <string name="shortcut_braille_keyboard">Bruk punktskrifttastatur</string>
+    <string name="shortcut_copy_last_utterance_to_clipboard">Kopiér den siste ytringen til utklippstavlen</string>
+    <string name="shortcut_disable_dimming">Vis skjermen</string>
+    <string name="shortcut_editing">Vis redigeringsalternativer</string>
+    <string name="shortcut_enable_dimming">Skjul skjermen</string>
+    <string name="shortcut_first_in_screen">Fokuser på det første elementet på skjermen</string>
+    <string name="shortcut_home">Hjem</string>
+    <string name="shortcut_last_in_screen">Fokuser på det siste elementet på skjermen</string>
+    <string name="shortcut_media_control">Spill av eller sett medier på pause</string>
+    <string name="shortcut_next">Neste element</string>
+    <string name="shortcut_next_granularity">Neste navigasjonsinnstilling</string>
+    <string name="shortcut_not_customizable">%1$s, kan ikke tilpasses</string>
+    <string name="shortcut_notifications">Varsler</string>
+    <string name="shortcut_overview">Oversikt</string>
+    <string name="shortcut_pass_through_next">Gjennomgang for systembevegelser</string>
+    <string name="shortcut_pause_feedback">Stopp tilbakemeldinger midlertidig</string>
+    <string name="shortcut_pause_or_resume_feedback">Sett på pause eller gjenoppta tale</string>
+    <string name="shortcut_perform_click_action">Trykk</string>
+    <string name="shortcut_perform_long_click_action">Trykk og hold</string>
+    <string name="shortcut_perform_screen_search">Åpne skjermsøk</string>
+    <string name="shortcut_practice_gestures">Øv på bevegelser</string>
+    <string name="shortcut_previous">Forrige element</string>
+    <string name="shortcut_previous_granularity">Forrige navigasjonsinnstilling</string>
+    <string name="shortcut_print_node_tree">Skriv ut nodetreet</string>
+    <string name="shortcut_print_performance_stats">Skriv ut resultatstatistikken</string>
+    <string name="shortcut_quick_settings">Hurtiginnstillinger</string>
+    <string name="shortcut_read_from_current">Les fra neste element</string>
+    <string name="shortcut_read_from_top">Les fra toppen</string>
+    <string name="shortcut_repeat_last_utterance">Gjenta siste ytring</string>
+    <string name="shortcut_report_gesture">Rapportér bevegelsesproblemer</string>
+    <string name="shortcut_scroll_back">Rull bakover</string>
+    <string name="shortcut_scroll_down">Rull ned</string>
+    <string name="shortcut_scroll_forward">Rull fremover</string>
+    <string name="shortcut_scroll_left">Rull til venstre</string>
+    <string name="shortcut_scroll_right">Rull til høyre</string>
+    <string name="shortcut_scroll_up">Rull opp</string>
+    <string name="shortcut_select_next_setting">Neste lesekontroll</string>
+    <string name="shortcut_select_previous_setting">Forrige lesekontroll</string>
+    <string name="shortcut_selected_setting_next_action">Flytt navigeringsfokus forover eller juster lesekontrollen ned</string>
+    <string name="shortcut_selected_setting_previous_action">Flytt navigeringsfokus bakover eller juster lesekontrollen opp</string>
+    <string name="shortcut_show_custom_actions">Vis egendefinerte handlinger</string>
+    <string name="shortcut_show_language_options">Endre talespråk</string>
+    <string name="shortcut_spell_last_utterance">Stav siste ytring</string>
+    <string name="shortcut_summary">Oppsummer skjermoppsett</string>
+    <string name="shortcut_talkback_breakout">Åpne TalkBack-menyen</string>
+    <string name="shortcut_title_basic_navigation">Generell navigering</string>
+    <string name="shortcut_title_menu_control">Meny og kontroller</string>
+    <string name="shortcut_title_reading_control">Lesing</string>
+    <string name="shortcut_title_special_features">Annet</string>
+    <string name="shortcut_title_system_actions">Systemhandlinger</string>
+    <string name="shortcut_title_text_editing">Tekstbehandling</string>
+    <string name="shortcut_toggle_voice_feedback">Slå TalkBack-lyd på eller av</string>
+    <string name="shortcut_tutorial">Åpne veiledningen</string>
+    <string name="shortcut_unassigned">Trykk for å tildele</string>
+    <string name="shortcut_voice_commands">Start talekommando</string>
+    <string name="show_keyboard_window">Viser %1$s</string>
+    <string name="show_suspend_warning_label">Vis alltid denne advarselen</string>
+    <string name="side_tap_shortcuts_removed_details">"Disse innstillingene er fjernet fra TalkBack på grunn av problemer med pålitelighet:
+• Bevegelser med trykk på siden av enheten
+• Rist for å starte kontinuerlig lesing"</string>
+    <string name="six_hold_announcement">Du kan også skrive ved å legge telefonen flatt på et bord. Prøv nå. Hvis du ikke har et bord i nærheten, kan du hoppe frem ved å sveipe ned.</string>
+    <string name="slow_radio_button_title">Sakte (%1$s s forsinkelse)</string>
+    <string name="sound_feedback_state">Tilbakemelding med lyd %1$s</string>
+    <string name="sound_feedback_summary">Spill av en lyd for å indikere at noe er endret (f.eks. at innholdet på skjermen er endret)</string>
+    <string name="speak_container_element_position_summary_off">Informasjon om liste og rutenett leses ikke opp</string>
+    <string name="speak_container_element_position_summary_on">Informasjon om liste og rutenett leses opp</string>
+    <string name="speak_element_ids_summary_off">Element-ID-er leses ikke opp for knapper som ikke er merket</string>
+    <string name="speak_element_ids_summary_on">Element-ID-er leses opp for knapper som ikke er merket</string>
+    <string name="speak_element_type_summary_off">Elementtypen leses ikke opp for elementer i fokus</string>
+    <string name="speak_element_type_summary_on">Elementtypen leses opp for elementer i fokus</string>
+    <string name="speak_selected_item_or_group_summary">Les opp navnet på elementet eller gruppen etter valget</string>
+    <string name="speech_rate_change">Talehastighet %1$d %%</string>
+    <string name="spoken_language">Talespråk</string>
+    <string name="spokenfeedback_disabled">Taletilbakemelding er av</string>
+    <string name="spokenfeedback_on">Taletilbakemelding er på</string>
+    <string name="spokenfeedback_resumed">Taletilbakemelding er gjenopptatt</string>
+    <string name="spokenfeedback_suspended">Taletilbakemelding er suspendert</string>
+    <string name="start_continuous_reading_button">Start kontinuerlig lesing</string>
+    <string name="start_of_page">Ingen tidligere %1$s</string>
+    <string name="start_voice_command">Bruk talekommandoer</string>
+    <string name="status_bar">statusfelt</string>
+    <string name="stay_in_tutorial_button">Blir værende i veiledningen</string>
+    <string name="step_speed_heading">Velg skannehastighet</string>
+    <string name="step_speed_subheading">Velg hvor lenge hvert element er markert før neste element markeres.</string>
+    <string name="stop_button">Stopp</string>
+    <string name="subtitle_pref_press_on_release">Utfør handling når bryteren slippes</string>
+    <string name="summaryOff_pref_a11y_hints">Brukstips leses ikke opp ved flytting av tilgjengelighetsfokus</string>
+    <string name="summaryOff_pref_intonation">Ikke endre tonehøyden når du snakker</string>
+    <string name="summaryOff_pref_phonetic_letters">Fonetiske tegn leses ikke opp</string>
+    <string name="summaryOff_pref_proximity">Avstandssensoren styrer ikke talefunksjonen</string>
+    <string name="summaryOff_pref_speak_element_ids">Element-ID-er leses ikke opp for knapper som ikke er merket</string>
+    <string name="summaryOff_pref_speak_passwords_without_headphones">Passord leses bare når hodetelefoner brukes</string>
+    <string name="summaryOff_pref_speak_screenoff">Ingen tale når skjermen er slått av</string>
+    <string name="summaryOff_pref_verbose_scroll_announcement">Les bare opp ved rulling med bevegelse</string>
+    <string name="summaryOn_pref_a11y_hints">Brukstips leses opp mens du navigerer, etter en kort forsinkelse</string>
+    <string name="summaryOn_pref_intonation">Uttal tastaturtilbakemeldinger med lavere tonehøyde</string>
+    <string name="summaryOn_pref_phonetic_letters">Fonetiske tegn leses opp når du trykker lenge på tastaturtastene og navigerer etter tegn</string>
+    <string name="summaryOn_pref_proximity">Avstandssensoren slår av talefunksjonen</string>
+    <string name="summaryOn_pref_speak_element_ids">Element-ID-er leses opp for knapper som ikke er merket</string>
+    <string name="summaryOn_pref_speak_passwords_without_headphones">Passord leses alltid</string>
+    <string name="summaryOn_pref_speak_screenoff">Varsler leses høyt når skjermen er slått av</string>
+    <string name="summaryOn_pref_verbose_scroll_announcement">Leses alltid opp</string>
+    <string name="summary_adjust_slider">Oppdater tallet eller prosentandelen på en glidebryter</string>
+    <string name="summary_audio_ducking">Senk volumet til annen lyd som spilles av når TalkBack snakker</string>
+    <string name="summary_characters">Les ett tegn om gangen</string>
+    <string name="summary_context_menu_links">Åpne linker i et element som har fokus</string>
+    <string name="summary_controls">Hopp mellom elementer du kan samhandle med, for eksempel knapper, avmerkingsbokser og tekstfelt</string>
+    <string name="summary_copy_last_spoken_phrase">Kopiér den forrige frasen TalkBack sa, til utklippstavlen, slik at du kan lime inn teksten</string>
+    <string name="summary_custom_action">Vises når det finnes tilpassede handlinger for det aktive elementet</string>
+    <string name="summary_edittext_controls">Kopiér, lim inn, velg med mer Vises når du velger et tekstfelt.</string>
+    <string name="summary_granularity">Les etter tegn, ord, linje med mer</string>
+    <string name="summary_granularity_default">Les ett element om gangen</string>
+    <string name="summary_headings">Hopp mellom overskrifter</string>
+    <string name="summary_hide_screen">Skjul skjermen, slik at den ikke er synlig for andre når du er på offentlige steder</string>
+    <string name="summary_labeling_controls">Vises når du velger et element uten etikett</string>
+    <string name="summary_landmarks">Hopp mellom landemerker på nettsider, for eksempel «main» («hoved») eller «navigation» («navigering»)</string>
+    <string name="summary_language">Endre talespråk. Dette vises bare når du har installert flere språk for tekst til tale.</string>
+    <string name="summary_lines">Les én linje om gangen</string>
+    <string name="summary_links">Hopp mellom linker</string>
+    <string name="summary_other_web_navigation">Vises bare på nettsider</string>
+    <string name="summary_paragraphs">Les ett avsnitt om gangen</string>
+    <string name="summary_pause_feedback">Slå av TalkBack-taletilbakemelding</string>
+    <string name="summary_perform_screen_search">Skriv inn en søketerm for å finne den teksten på skjermen</string>
+    <string name="summary_pref_accumulate_presses">Hvert trykte punkt er en del av inndataene, selv om punktet slippes før andre punkter.</string>
+    <string name="summary_pref_auto_select">Velg det fremhevede elementet automatisk. Hvis elementet ikke kan velges, eller hvis denne innstillingen er slått av, ser du en meny med tilgjengelige handlinger.</string>
+    <string name="summary_pref_category_face_switches_main">%s / kontrollér enhet med ansiktsbevegelser</string>
+    <string name="summary_pref_category_key_mappings">Globale handlinger kan utføres når som helst</string>
+    <string name="summary_pref_category_scan_key_mappings">Med skanning kan du fremheve og velge fremhevede elementer</string>
+    <string name="summary_pref_enable_menu_customization">Slå på tilpasning av menyen i menyen for brytertilgang.</string>
+    <string name="summary_pref_face_switches_battery_warning">Denne funksjonen bruker mer batteri når den er slått på. Hold enheten koblet til en strømkilde, hvis det er mulig.</string>
+    <string name="summary_pref_face_switches_debounce_time">Flere utløsninger av kamerabryteren innen denne tidsperioden blir behandlet som én utløsning.</string>
+    <string name="summary_pref_face_switches_enabled">Kamerabrytere bruker frontkameraet for å se om du ser på skjermen, og for å gjenkjenne ansiktsbevegelser. Bilder blir ikke lagret eller sendt til Google.</string>
+    <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Spill av en lyd når noe på skjermen endres som svar på en bevegelse</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_keep_screen_on_enabled">Hold skjermen på når kamerabrytere er slått på. Kamerabrytere kan ikke låse opp skjermen hvis den slås av.</string>
+    <string name="summary_pref_face_switches_no_face_detected_message">Ingen ansikter oppdaget</string>
+    <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
+    <string name="summary_pref_face_switches_playground_gesture_detection_label">Utfør hvilken som helst av ansiktsbevegelsene. Navnet til bevegelsen vises, hvis den registreres. For å avslutte, hold hvilken som helst bevegelse i %1$d sekunder.</string>
+    <string name="summary_pref_face_switches_playground_perform_gesture_label">Hold hodet i ro og se inn i kameraet. Deretter %s.</string>
+    <string name="summary_pref_play_store">Nåværende TalkBack-versjon: %1$s</string>
+    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_reverse_dots">Bytt punktposisjoner, slik at for eksempel punkt én og fire bytter plass</string>
+    <string name="summary_pref_revert_to_default_menu">Tilbakestill menyen for brytetilgang til standardlisten med menyelementer.</string>
+    <string name="summary_pref_single_tap">(På forsøksstadiet) Trykk én gang på et element som har fokus, for å aktivere</string>
+    <string name="summary_pref_tree_debug_tv">Bruk talesøk-tasten for å skrive ut nodetre i stedet for å søke</string>
+    <string name="summary_pref_use_audio_focus">Senk volumet på annen lyd under tale</string>
+    <string name="summary_read_from_current">Start fra neste element, og les alle elementene på skjermen</string>
+    <string name="summary_read_from_top">Start fra toppen, og les alle elementene på skjermen</string>
+    <string name="summary_repeat_last_spoken_phrase">Hør den forrige frasen TalkBack sa, på nytt</string>
+    <string name="summary_selector_menu_punctuation">Endre hvorvidt tegnsetting og symboler blir lest opp</string>
+    <string name="summary_selector_menu_verbosity">Endre hvorvidt taster som trykkes, brukstips, rutenettinformasjon og annen informasjon leses opp</string>
+    <string name="summary_show_hide_screen">Skjul skjermen, slik at den ikke er synlig for andre på offentlige steder. Etter å ha skjult skjermen må du returnere den til normal tilstand.</string>
+    <string name="summary_sound_feedback">Hør lydeffekter når du navigerer, for eksempel et pip for å bekrefte handlinger</string>
+    <string name="summary_special_content">Hopp mellom spesialinnhold på nettsider, for eksempel tabeller</string>
+    <string name="summary_speech_rate">Endre hvor raskt TalkBack snakker</string>
+    <string name="summary_spell_last_spoken_phrase">Uttal hver bokstav i den forrige frasen TalkBack sa</string>
+    <string name="summary_status_label_pref_category_face_switches_feature_off_main">Av</string>
+    <string name="summary_status_label_pref_category_face_switches_feature_on_main">På</string>
+    <string name="summary_support_change_a11y_volume">Øk eller reduser tilgjengelighetsvolum</string>
+    <string name="summary_support_scroll_seq">Rull fremover eller bakover</string>
+    <string name="summary_system_actions">Gå til Alle apper og Hurtiginnstillinger</string>
+    <string name="summary_talkback_preferences">Åpne TalkBack-innstillingene</string>
+    <string name="summary_tts_settings">Åpne innstillinger for tekst til tale</string>
+    <string name="summary_verbosity">Velg hvor mye informasjon som leses opp</string>
+    <string name="summary_vibration_feedback">Føl vibrering for handlinger som når du velger et element. Dette påvirker ikke vibrering som kommer fra apper eller systemet.</string>
+    <string name="summary_viewpager_controls">Gå til neste eller forrige side. Vises når du leser innhold med flere sider.</string>
+    <string name="summary_voice_commands">Kontrollér TalkBack med stemmen</string>
+    <string name="summary_windows">Gå til andre vinduer, for eksempel volumkontroller eller navigasjonsraden</string>
+    <string name="summary_words">Les ett ord om gangen</string>
+    <string name="survey_closed">Undersøkelsen er lukket</string>
+    <string name="swipe_down_2_fingers_announcement">For å skjule tastaturet, sveip ned med to fingre. Prøv nå.</string>
+    <string name="swipe_down_2_fingers_completed_announcement">Skjul tastaturet. Dette skjuler vanligvis tastaturet. Punktskrifttastaturet holdes åpent fordi du fremdeles er i veiledningen.</string>
+    <string name="swipe_down_3_fingers_announcement">For å bytte til det andre tastaturet, sveip ned med tre fingre. Prøv nå.</string>
+    <string name="swipe_down_3_fingers_completed_announcement">Neste tastatur. Dette bytter vanligvis til neste tastatur. Denne gangen holdes punktskrifttastaturet åpent fordi du fremdeles er i veiledningen.</string>
+    <string name="swipe_left_action_result_announcement">a er slettet.</string>
+    <string name="swipe_left_announcement">For å slette en bokstav, sveip til venstre. Prøv nå.</string>
+    <string name="swipe_right_announcement">For å legge til et mellomrom, sveip til høyre. Prøv nå.</string>
+    <string name="swipe_up_3_fingers_announcement">Du kan også skrive i bordmodus ved å legge telefonen flatt på et bord. For å avslutte veiledningen, sveip opp med tre fingre og finn alternativet for å avslutte veiledningen</string>
+    <string name="switch_access_actions_menu">Handlingsmeny for brytertilgang</string>
+    <string name="switch_access_add_menu">LEGG TIL</string>
+    <string name="switch_access_auto_start_scan_summary">Skanningen starter uten at du trykker på bryteren</string>
+    <string name="switch_access_auto_start_scan_title">Start skanningen automatisk</string>
+    <string name="switch_access_back_menu">TILBAKE</string>
+    <string name="switch_access_cancel_edit">AVBRYT</string>
+    <string name="switch_access_close_menu">LUKK</string>
+    <string name="switch_access_dup_bounds_format">%1$s (%2$d)</string>
+    <string name="switch_access_edit_menu">ENDRE MENYEN</string>
+    <string name="switch_access_exit_edit_menu">AVSLUTT</string>
+    <string name="switch_access_finish_edit">FULLFØR</string>
+    <string name="switch_access_focus_cleared_no_selection">Skjermen er endret</string>
+    <string name="switch_access_global_menu">Global meny for brytertilgang</string>
+    <string name="switch_access_global_menu_disable_autoselect">Slå av autovalg</string>
+    <string name="switch_access_global_menu_enable_autoselect">Slå på autovalg</string>
+    <string name="switch_access_hide_item">SKJUL ELEMENTET</string>
+    <string name="switch_access_htmlDescription">Med Brytertilgang kan du kommunisere med Android-enheten din med én eller flere brytere, i stedet for berøringsskjermen. Brytertilgang kan være nyttig hvis du ikke kan samhandle direkte med enheten. Bruk brytere til å velge elementer, rulle, skrive og mye mer.</string>
+    <string name="switch_access_move_item">FLYTT ELEMENTET</string>
+    <string name="switch_access_move_next">Neste…</string>
+    <string name="switch_access_move_next_character">Neste tegn</string>
+    <string name="switch_access_move_next_line">Neste linje</string>
+    <string name="switch_access_move_next_page">Neste side</string>
+    <string name="switch_access_move_next_paragraph">Neste avsnitt</string>
+    <string name="switch_access_move_next_sentence">Neste setning</string>
+    <string name="switch_access_move_next_word">Neste ord</string>
+    <string name="switch_access_move_prev">Forrige…</string>
+    <string name="switch_access_move_prev_character">Forrige tegn</string>
+    <string name="switch_access_move_prev_line">Forrige linje</string>
+    <string name="switch_access_move_prev_page">Forrige side</string>
+    <string name="switch_access_move_prev_paragraph">Forrige avsnitt</string>
+    <string name="switch_access_move_prev_sentence">Forrige setning</string>
+    <string name="switch_access_move_prev_word">Forrige ord</string>
+    <string name="switch_access_preferences_title">Innstillinger for brytertilgang</string>
+    <string name="switch_access_service_description">Med brytertilgang kan personer med motoriske vansker bruke én eller flere brytere til å kontrollere telefoner og nettbrett. Bruk brytere til å velge elementer, rulle, skrive inn tekst og mye annet.</string>
+    <string name="switch_access_service_summary">Styr enheten med brytere</string>
+    <string name="switch_access_spoken_feedback_group">gruppe %1$s</string>
+    <string name="switch_access_spoken_feedback_group_selected">gruppe %1$s er valgt</string>
+    <string name="switch_access_spoken_feedback_group_selection_hint">Trykk på «Gruppe %1$s»-bryteren for å velge gruppe</string>
+    <string name="switch_access_spoken_feedback_group_selection_single_item_hint">Trykk på «Gruppe %1$s»-bryteren for å velge element</string>
+    <string name="switch_access_spoken_feedback_item_scrollable">rullbar</string>
+    <string name="switch_access_spoken_feedback_item_selected">%1$s er valgt</string>
+    <string name="switch_access_spoken_feedback_items">%1$s elementer</string>
+    <string name="switch_access_spoken_feedback_row_column_selection_hint">Trykk på «Velg»-bryteren for å velge rad</string>
+    <string name="switch_access_spoken_feedback_row_selected">rad er valgt</string>
+    <string name="switch_access_spoken_feedback_scroll">velg for å rulle</string>
+    <string name="switch_access_spoken_feedback_to">%1$s til %2$s</string>
+    <string name="switch_access_spoken_feedback_unknown">ukjent element</string>
+    <string name="switch_game_cam_switches_subheading">For å spille, bruk bryterne for å flytte markeringen og velge hvilket kvadrat du vil klikke på.</string>
+    <string name="switch_game_heading">Test konfigureringen din med tripp-trapp-tresko</string>
+    <string name="switch_game_incomplete_switches_subheading">Du har ikke brytere tildelt til alle handlinger ennå. Bruk Forrige-knappen for å gå tilbake og fullføre tildelingen av brytere.</string>
+    <string name="switch_game_one_switch_linear_subheading">Trykk på «%1$s» for å starte skanningen. Trykk på bryteren igjen for å velge det fremhevede elementet. Du starter!</string>
+    <string name="switch_game_one_switch_row_col_subheading">Trykk på «%1$s» for å starte skanningen. Trykk på bryteren igjen for å velge den fremhevede raden. Trykk én gang til for å velge det fremhevede elementet. Du starter!</string>
+    <string name="switch_game_two_switch_linear_subheading">Trykk på «%1$s» for å gå mellom elementene. Trykk på «%2$s» for å velge det fremhevede elementet. Du starter!</string>
+    <string name="switch_game_two_switch_option_scan_subheading">Trykk på «%1$s» for å velge elementene som er fremhevet i %2$s, eller trykk på «%4$s» for å velge elementene som er fremhevet i %3$s. Gjenta til du når elementet ditt. Du starter!</string>
+    <string name="switch_game_two_switch_row_col_subheading">Trykk på «%1$s» for å gå mellom radene. Trykk på «%2$s» for å velge den fremhevede raden. Gjenta for å velge et element i den raden. Du starter!</string>
+    <string name="switch_service_name">Brytertilgang</string>
+    <string name="switch_to_braille_keyboard_failure_msg">Punktskrifttastatur er ikke på. Gå til TalkBack-innstillingene, konfigurer tastaturet og prøv igjen.</string>
+    <string name="switch_to_screen_away_announcement">Skjerm vendt bort-modus</string>
+    <string name="switch_to_tabletop_announcement">Skjerm vendt opp-modus. Plassér enheten med ladeporten til venstre. For å oppdatere punktposisjonen, hold seks fingre nede.</string>
+    <string name="switched_to_contracted_announcement">Byttet til forkortet punktskrift</string>
+    <string name="switched_to_ueb_uncontracted_announcement">Byttet til uforkortet UEB</string>
+    <string name="switched_to_uncontracted_announcement">Byttet til uforkortet punktskrift</string>
+    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_ampersand">Og-tegn</string>
+    <string name="symbol_angle_bracket_left">Less than sign</string>
+    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_apostrophe">Apostrofe</string>
+    <string name="symbol_approximately_equals">Omtrent like</string>
+    <string name="symbol_asterisk">Stjerne</string>
+    <string name="symbol_at_sign">Krøllalfa</string>
+    <string name="symbol_backslash">Omvendt skråstrek</string>
+    <string name="symbol_beamed_sixteenth_note">Sekstendelsnoter som er slått sammen med notebjelker</string>
+    <string name="symbol_black_circle">Svart sirkel</string>
+    <string name="symbol_black_heart">Svart hjerte</string>
+    <string name="symbol_black_smallsquare">Lite, svart kvadrat</string>
+    <string name="symbol_black_square">Svart kvadrat</string>
+    <string name="symbol_black_star">Svart stjerne</string>
+    <string name="symbol_black_suit_of_diamonds">Svart ruter</string>
+    <string name="symbol_black_triangle_pointing_down">Svart trekant som peker ned</string>
+    <string name="symbol_black_triangle_pointing_up">Svart trekant som peker opp</string>
+    <string name="symbol_broken_bar">Brutt vertikalstrek</string>
+    <string name="symbol_bullet">Punkttegn</string>
+    <string name="symbol_bullseye">Blink</string>
+    <string name="symbol_caret">Cirkumfleks</string>
+    <string name="symbol_celsius_degree">Grad celsius</string>
+    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_circle_left_half_black">Sirkel med venstre halvdel i svart</string>
+    <string name="symbol_circle_right_half_black">Sirkel med høyre halvdel i svart</string>
+    <string name="symbol_colon">Kolon</string>
+    <string name="symbol_comma">Komma</string>
+    <string name="symbol_copyright">Opphavsrettssymbolet</string>
+    <string name="symbol_curly_bracket_left">Venstre sløyfeparentes</string>
+    <string name="symbol_curly_bracket_right">Høyre sløyfeparentes</string>
+    <string name="symbol_currency_sign">Valutategn</string>
+    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_division">Delingstegn</string>
+    <string name="symbol_dollar_sign">Dollartegn</string>
+    <string name="symbol_downwards_arrow">Pil ned</string>
+    <string name="symbol_eighth_note">Åttedelsnote</string>
+    <string name="symbol_ellipsis">Ellipse</string>
+    <string name="symbol_em_dash">Lang tankestrek</string>
+    <string name="symbol_en_dash">Kort tankestrek</string>
+    <string name="symbol_equal">Likhetstegn</string>
+    <string name="symbol_euro">Euro</string>
+    <string name="symbol_exclamation_mark">Utropstegn</string>
+    <string name="symbol_fahrenheit_degree">Grad Fahrenheit</string>
+    <string name="symbol_female">Hunnsymbol</string>
+    <string name="symbol_full_width_ampersand">Ampersand – full bredde</string>
+    <string name="symbol_full_width_asterisk">Asterisk – full bredde</string>
+    <string name="symbol_full_width_circumflex">Cirkumfleks – full bredde</string>
+    <string name="symbol_full_width_colon">Kolon – full bredde</string>
+    <string name="symbol_full_width_comma">Komma – full bredde</string>
+    <string name="symbol_full_width_exclamation_mark">Utropstegn – full bredde</string>
+    <string name="symbol_full_width_greater_than_sign">Større-enn-tegn – full bredde</string>
+    <string name="symbol_full_width_ideographic_full_stop">Ideografisk punktum</string>
+    <string name="symbol_full_width_left_curly_bracket">Venstre krøllparentes – full bredde</string>
+    <string name="symbol_full_width_left_parenthesis">Venstre parentes – full bredde</string>
+    <string name="symbol_full_width_less_than_sign">Mindre-enn-tegn – full bredde</string>
+    <string name="symbol_full_width_question_mark">Spørsmålstegn – full bredde</string>
+    <string name="symbol_full_width_right_curly_bracket">Høyre krøllparentes – full bredde</string>
+    <string name="symbol_full_width_right_parenthesis">Høyre parentes – full bredde</string>
+    <string name="symbol_full_width_semicolon">Semikolon – full bredde</string>
+    <string name="symbol_full_width_tilde">Tildetegn – full bredde</string>
+    <string name="symbol_full_width_underscore">Understrek – full bredde</string>
+    <string name="symbol_grave_accent">Gravisaksent</string>
+    <string name="symbol_halfwidth_katakana_middle_dot">Halvbreddes halvhøyt punktum for katakana</string>
+    <string name="symbol_hyphen_minus">Tankestrek</string>
+    <string name="symbol_ideographic_comma">Ideografisk komma</string>
+    <string name="symbol_integral">Integral</string>
+    <string name="symbol_inverted_exclamation_mark">Omvendt utropstegn</string>
+    <string name="symbol_inverted_question_mark">Omvendt spørsmålstegn</string>
+    <string name="symbol_left_angle_bracket">Venstre dobbel vinkelparentes</string>
+    <string name="symbol_left_black_lenticular_bracket">Svart linseformet venstre hakeparentes</string>
+    <string name="symbol_left_corner_bracket">Venstre hjørnehakeparentes</string>
+    <string name="symbol_left_double_quotation_mark">Dobbelt anførselstegn, venstre</string>
+    <string name="symbol_left_single_quotation_mark">Enkelt anførselstegn, venstre</string>
+    <string name="symbol_leftwards_arrow">Venstrepil</string>
+    <string name="symbol_liter">Liter</string>
+    <string name="symbol_low_double_quote">Lavt dobbelt anførselstegn</string>
+    <string name="symbol_male">Hannsymbol</string>
+    <string name="symbol_mathematical_left_angle_bracket">Matematisk venstre vinkelparentes</string>
+    <string name="symbol_mathematical_right_angle_bracket">Matematisk høyre vinkelparentes</string>
+    <string name="symbol_micro_sign">Mikrotegn</string>
+    <string name="symbol_middle_dot">Halvhøyt punktum</string>
+    <string name="symbol_multiplication">Multiplikasjonstegn</string>
+    <string name="symbol_new_line">Ny linje</string>
+    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_sign">Ikke-tegn</string>
+    <string name="symbol_paragraph_mark">Avsnittsmerke</string>
+    <string name="symbol_parenthesis_left">Venstreparentes</string>
+    <string name="symbol_parenthesis_right">Høyreparentes</string>
+    <string name="symbol_percent">Prosent</string>
+    <string name="symbol_period">Punktum</string>
+    <string name="symbol_pi">Pi</string>
+    <string name="symbol_plus_minus_sign">Pluss/minus-tegn</string>
+    <string name="symbol_postal_mark">Postmerke</string>
+    <string name="symbol_pound">Nummertegn</string>
+    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_quarter_note">Firedelsnote</string>
+    <string name="symbol_question_mark">Spørsmålstegn</string>
+    <string name="symbol_quotation_mark">Anførselstegn</string>
+    <string name="symbol_reference">Referansemerke</string>
+    <string name="symbol_registered_trademark">Registrert varemerke</string>
+    <string name="symbol_right_angle_bracket">Høyre dobbel vinkelparentes</string>
+    <string name="symbol_right_black_lenticular_bracket">Svart linseformet høyre hakeparentes</string>
+    <string name="symbol_right_corner_bracket">Høyre hjørnehakeparentes</string>
+    <string name="symbol_right_double_quotation_mark">Dobbelt anførselstegn, høyre</string>
+    <string name="symbol_right_single_quotation_mark">Enkelt anførselstegn, høyre</string>
+    <string name="symbol_rightwards_arrow">Pil høyre</string>
+    <string name="symbol_rupee">Rupi</string>
+    <string name="symbol_section_sign">Seksjonstegn</string>
+    <string name="symbol_semicolon">Semikolon</string>
+    <string name="symbol_slash">Skråstrek</string>
+    <string name="symbol_smiley">Smilefjes</string>
+    <string name="symbol_solar">Solsymbol</string>
+    <string name="symbol_space">Mellomrom</string>
+    <string name="symbol_square_bracket_left">Venstre hakeparentes</string>
+    <string name="symbol_square_bracket_right">Høyre hakeparentes</string>
+    <string name="symbol_square_root">Kvadratrot</string>
+    <string name="symbol_tilde">Tilde</string>
+    <string name="symbol_trademark">Varemerke</string>
+    <string name="symbol_underscore">Understrek</string>
+    <string name="symbol_upwards_arrow">Pil opp</string>
+    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_white_circle">Hvit sirkel</string>
+    <string name="symbol_white_club_suit">Hvit kløver</string>
+    <string name="symbol_white_diamond">Hvit ruter</string>
+    <string name="symbol_white_down_pointing_triangle">Hvit nedpekende trekant</string>
+    <string name="symbol_white_heart">Hvitt hjerte</string>
+    <string name="symbol_white_left_pointing_index">Hvitt venstrepekende indekssymbol</string>
+    <string name="symbol_white_left_pointing_triangle">Hvit venstrepekende triangel</string>
+    <string name="symbol_white_right_pointing_index">Hvitt høyrepekende indekssymbol</string>
+    <string name="symbol_white_right_pointing_triangle">Hvit høyrepekende trekant</string>
+    <string name="symbol_white_spade_suit">Hvit spar</string>
+    <string name="symbol_white_square">Hvitt kvadrat</string>
+    <string name="symbol_white_star">Hvit stjerne</string>
+    <string name="symbol_white_up_pointing_triangle">Hvit oppoverpekende trekant</string>
+    <string name="symbol_won">Won currency sign</string>
+    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_yen">Yen</string>
+    <string name="system_actions">Systemhandlinger</string>
+    <string name="tabletop">Skjerm vendt opp-modus</string>
+    <string name="tabletop_detail">Legg enheten flatt på et bord (skjerm vendt opp-modus)</string>
+    <string name="talkback_built_in_gesture_change_details">"Denne versjonen av TalkBack inneholder endringer i standardbevegelsene for tilgjengelighet.
+
+Opp-og-deretter-ned-bevegelsen gjør det mulig å bevege seg til det første elementet på skjermen, og ned-og-deretter-opp-bevegelsen tar deg til det siste elementet.
+
+Nå kan lesedetaljnivået endres ved å fokusere på et element og deretter velge et detaljnivå fra TalkBack-hurtigmenyen.
+
+Du kan endre handlingene som utføres med disse bevegelsene, i TalkBack-innstillingene."</string>
+    <string name="talkback_built_in_gesture_change_details_45">"Denne versjonen av TalkBack innebærer endringer i tilgjengelighetsbevegelsene som er angitt som standard.
+
+Nå gjør sveip opp-bevegelsen at du går til den forrige navigeringsinnstillingen, og sveip ned-bevegelsen gjør at du går til den neste navigeringsinnstillingen."</string>
+    <string name="talkback_disabled">TalkBack er av</string>
+    <string name="talkback_gesture_change_details">"Denne versjonen av TalkBack inkluderer endringer i standardbevegelsene for tilgjengelighet. Handlingene som er knyttet til disse bevegelsene, kan tilpasses i TalkBack-innstillingene. Når Berøringsutforskning er aktivert, kan du bruke følgende bevegelser for å utføre bestemte handlinger.
+
+%1$s"</string>
+    <string name="talkback_inactive_message">Denne veiledningen krever at TalkBack er slått på. Slå på funksjonen før du starter veiledningen.</string>
+    <string name="talkback_inactive_title">TalkBack er slått av</string>
+    <string name="talkback_menu_title">TalkBack-menyen</string>
+    <string name="talkback_notification_channel_description">Varselkanalen for TalkBack</string>
+    <string name="talkback_notification_channel_name">TalkBack</string>
+    <string name="talkback_off_dialog_positive_button">Slå på i tilgjengelighetsinnstillingene</string>
+    <string name="talkback_off_dialog_title">Slå på TalkBack for å bruke punktskrifttastatur</string>
+    <string name="talkback_off_or_suspend_dialog_message">Når TalkBack er på, kan du trykke på skjermen for å skrive inn punktskriftsymboler.</string>
+    <string name="talkback_on">TalkBack er på</string>
+    <string name="talkback_preferences_subtitle">Versjon %1$s</string>
+    <string name="talkback_preferences_title">TalkBack-innstillinger</string>
+    <string name="talkback_resumed">TalkBack er gjenopptatt</string>
+    <string name="talkback_service_description">"Når TalkBack er slått på, gir den taletilbakemeldinger, slik at du kan bruke enheten din uten å se på skjermen. Dette kan være nyttig for svaksynte og blinde personer.
+
+Slik navigerer du med TalkBack:
+• Sveip til høyre eller venstre for å flytte mellom elementer
+• Dobbelttrykk for å aktivere et element
+• Dra to fingre for å rulle
+
+Slik slår du av TalkBack:
+• Trykk på bryteren. Du ser et grønt omriss. Dobbelttrykk på bryteren.
+• På bekreftelsesmeldingen trykker du på OK. Deretter dobbelttrykker du på OK."</string>
+    <string name="talkback_service_html_description">Når TalkBack er på, får du taletilbakemeldinger, slik at du kan bruke enheten uten å se på skjermen. TalkBack er beregnet for situasjoner eller personer som har vanskeligheter med å se skjermen.&lt;br>&lt;br>&lt;b>Slik bruker du TalkBack&lt;/b>&lt;br>• Sveip til høyre eller venstre for å bevege deg mellom elementer&lt;br>• Dobbelttrykk for å aktivere et element&lt;br>• Dra to fingre for å rulle&lt;br>&lt;br>&lt;b>Slik slår du av TalkBack&lt;/b>&lt;br>&lt;br>&lt;b>Volumtastene:&lt;/b> Trykk og hold inne begge volumtastene i noen sekunder.&lt;br>&lt;br>&lt;b>Innstillinger&lt;/b>&lt;br>• Trykk på &lt;b>Bruk TalkBack&lt;/b>-bryteren. Du ser et grønt omriss. Dobbelttrykk på bryteren.&lt;br>• Trykk på Stopp i bekreftelsesmeldingen. Dobbelttrykk deretter på Stopp.</string>
+    <string name="talkback_service_summary">Taleelementer på skjermen</string>
+    <string name="talkback_show_talkback_settings">TalkBack-innstillinger</string>
+    <string name="talkback_suspend_dialog_title">Gjenoppta TalkBack for å bruke punktskrifttastatur</string>
+    <string name="talkback_suspended">TalkBack er suspendert</string>
+    <string name="talkback_tutorial_text">Sveip til høyre for å velge et emne</string>
+    <string name="talkback_tutorial_title">TalkBack-veiledning</string>
+    <string name="tap_to_continue">Dobbelttrykk hvor som helst for å fortsette</string>
+    <string name="target_link_text">Fortsett</string>
+    <string name="template_alert_dialog_template">Varsel %1$s</string>
+    <string name="template_announce_selected_text">Valgt tekst: %1$s</string>
+    <string name="template_capital_letter">stor %1$s</string>
+    <string name="template_charging">Lader %1$s Batterinivå %2$s prosent.</string>
+    <string name="template_charging_lite">Lader %1$s</string>
+    <string name="template_collection_level">Nivå %1$d</string>
+    <string name="template_current_tts_engine">Bruker %1$s</string>
+    <string name="template_custom_hint_for_actions">%1$s for å %2$s.</string>
+    <string name="template_custom_hint_for_actions_keyboard">Trykk på %1$s for å %2$s.</string>
+    <string name="template_custom_hint_for_long_clickable_actions">%1$s og hold inne for å %2$s.</string>
+    <string name="template_drawer_opened">%1$s-meny</string>
+    <string name="template_hint_checkable">%1$s for å merke eller for å fjerne avmerkingen.</string>
+    <string name="template_hint_checkable_keyboard">Trykk på %1$s for å slå av/på.</string>
+    <string name="template_hint_clickable">%1$s for å aktivere.</string>
+    <string name="template_hint_clickable_keyboard">Trykk på %1$s for å aktivere.</string>
+    <string name="template_hint_custom_actions">Handlinger:</string>
+    <string name="template_hint_edit_text">%1$s for å redigere tekst.</string>
+    <string name="template_hint_edit_text_keyboard">Trykk på %1$s for å redigere tekst.</string>
+    <string name="template_hint_long_clickable">%1$s og hold inne for å trykke lenge.</string>
+    <string name="template_hint_long_clickable_keyboard">Trykk på %1$s for å trykke lenge.</string>
+    <string name="template_hint_menu_type_high_verbosity">%1$s er tilgjengelig. Bruk %2$s for å se.</string>
+    <string name="template_hint_menu_type_low_verbosity">%1$s er tilgjengelig.</string>
+    <string name="template_hint_pager">Sveip med to fingre for å bytte sider.</string>
+    <string name="template_hint_pager_single_page">Ingen flere sider.</string>
+    <string name="template_hint_seek_control">Bruk volumknappene for å justere</string>
+    <string name="template_hint_seek_control_tv">%1$s for å endre.</string>
+    <string name="template_hint_spinner">%1$s for å endre.</string>
+    <string name="template_hint_spinner_keyboard">Trykk på %1$s for å endre.</string>
+    <string name="template_labeled_item">%1$s for %2$s</string>
+    <string name="template_language_options_menu_item">%1$s (%2$s)</string>
+    <string name="template_long_clicked">Langtrykt %1$s</string>
+    <string name="template_menu">%1$s-meny</string>
+    <string name="template_no_text_selected">Ingen tekst er valgt</string>
+    <string name="template_node_error_with_error_message">Error: %1$s</string>
+    <string name="template_overlay_window">%1$s bilde-i-bilde</string>
+    <string name="template_password_selected">Tegn %1$d til %2$d</string>
+    <string name="template_password_traversed">Tegn %1$d</string>
+    <string name="template_percent">%1$s prosent.</string>
+    <string name="template_replaced_characters">%1$s tegn erstattet med %2$s tegn</string>
+    <string name="template_sa_custom_hint_for_multiple_actions">%1$s for tilgjengelige handlinger.</string>
+    <string name="template_sa_custom_hint_scrollable">%1$s for å rulle.</string>
+    <string name="template_sa_hint_seek_control">Trykk på «Velg»-bryteren for å justere</string>
+    <string name="template_screen_magnification_on">Forstørring er på %1$d %%</string>
+    <string name="template_screen_magnification_scale_changed">Forstørring %1$d %%</string>
+    <string name="template_scroll_from_count">Viser element %1$d av %2$d.</string>
+    <string name="template_scroll_from_to_count">Viser element %1$d til %2$d av %3$d.</string>
+    <string name="template_seekbar_range">%1$d %%</string>
+    <string name="template_speech_rate_change">Talehastighet %1$d %%</string>
+    <string name="template_speech_rate_change_faster">Raskere</string>
+    <string name="template_speech_rate_change_fastest">Raskest</string>
+    <string name="template_speech_rate_change_slower">Saktere</string>
+    <string name="template_speech_rate_change_slowest">Saktest</string>
+    <string name="template_split_screen_mode_landscape_ltr">%1$s til venstre, %2$s til høyre</string>
+    <string name="template_split_screen_mode_landscape_rtl">%1$s til høyre, %2$s til venstre</string>
+    <string name="template_split_screen_mode_portrait">%1$s øverst, %2$s nederst</string>
+    <string name="template_stream_muted_set">%1$s-lyden er kuttet.</string>
+    <string name="template_stream_volume_set">%1$s-volumet er satt til %2$d prosent.</string>
+    <string name="template_summary_description">%1$s: %2$s</string>
+    <string name="template_text_copied">kopiert, %1$s</string>
+    <string name="template_text_cut">klippet ut, %1$s</string>
+    <string name="template_text_error">Ugyldig inndata %1$s</string>
+    <string name="template_text_pasted">limt inn, %1$s</string>
+    <string name="template_text_removed">%1$s ble slettet</string>
+    <string name="template_text_replaced">%1$s erstattet %2$s</string>
+    <string name="template_text_selected">%1$s, er valgt</string>
+    <string name="template_text_unselected">%1$s, er ikke valgt</string>
+    <string name="template_tv_remote_mode_ended">%1$s er avsluttet</string>
+    <string name="template_tv_remote_mode_started">%1$s er startet</string>
+    <string name="template_viewpager_index_count">Side %1$d av %2$d</string>
+    <string name="template_viewpager_index_count_short">%1$d av %2$d</string>
+    <string name="template_volume_change_decrease">Reduser</string>
+    <string name="template_volume_change_increase">Øk</string>
+    <string name="template_volume_change_maximum">Maksimum</string>
+    <string name="template_volume_change_minimum">Minimum</string>
+    <string name="template_window_switch_application">%1$s</string>
+    <string name="template_window_switch_system">%1$s</string>
+    <string name="text_editing_link_subtext">Skriv, markér, endre og kopiér</string>
+    <string name="text_editing_link_text">Tekstbehandling</string>
+    <string name="three_finger_gestures_title">3 fingre</string>
+    <string name="title_action_collapse">Skjul</string>
+    <string name="title_action_dismiss">Avvis</string>
+    <string name="title_action_expand">Vis</string>
+    <string name="title_activity_dump_a11y_event">Velg hendelser du vil loggføre</string>
+    <string name="title_adjust_slider">Bytt glidebryter</string>
+    <string name="title_assign_scan_key">Tildel bevegelse for %1$s</string>
+    <string name="title_cancel_button">Lukk</string>
+    <string name="title_cancel_screen_search">Lukk søket</string>
+    <string name="title_clear_keyword">Tøm inndataene</string>
+    <string name="title_copy_last_spoken_phrase">Kopiér den siste uttalte frasen</string>
+    <string name="title_custom_action">Handlinger</string>
+    <string name="title_edittext_breakout_end_selection_mode">Avslutt markeringsmodusen</string>
+    <string name="title_edittext_breakout_move_to_beginning">Flytt markøren til begynnelsen</string>
+    <string name="title_edittext_breakout_move_to_end">Flytt markøren til slutten</string>
+    <string name="title_edittext_breakout_start_selection_mode">Start eller avslutt velgemodus</string>
+    <string name="title_edittext_controls">Redigeringsalternativer</string>
+    <string name="title_granularity">Navigasjon</string>
+    <string name="title_granularity_default">Standardnavigasjon</string>
+    <string name="title_granularity_edit_menu">Endre navigasjonsmenyen</string>
+    <string name="title_help_feedback_header">Hjelp</string>
+    <string name="title_labeling_controls">Etiketter</string>
+    <string name="title_labeling_show_or_hide_controls">Legg til eller endre etiketter</string>
+    <string name="title_local_breakout_no_items">Ingen menyelementer.</string>
+    <string name="title_next_screen">Neste skjerm</string>
+    <string name="title_other_web_navigation">Annen nettnavigasjon</string>
+    <string name="title_pref_a11y_hints">Uttal brukstips</string>
+    <string name="title_pref_a11y_volume">Tilgjengelighetsvolum</string>
+    <string name="title_pref_accumulate_presses">Inkluder alle trykte punkter</string>
+    <string name="title_pref_advanced_settings">Avanserte innstillinger</string>
+    <string name="title_pref_auto_scan_disabled">Automatisk skanning (deaktivert)</string>
+    <string name="title_pref_auto_scan_time_delay">Tid til automatisk skanning</string>
+    <string name="title_pref_auto_select">Autovalg</string>
+    <string name="title_pref_blue">Blå</string>
+    <string name="title_pref_brailleime">Punktskrifttastatur</string>
+    <string name="title_pref_capital_letters">Store bokstaver</string>
+    <string name="title_pref_category_advanced">Avansert</string>
+    <string name="title_pref_category_assign_switches">Tildel brytere</string>
+    <string name="title_pref_category_audio">Lyd</string>
+    <string name="title_pref_category_auto_scan">Automatisk skanning</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_border_color">Farge</string>
+    <string name="title_pref_category_built_in_gestures">Innebygde bevegelser</string>
+    <string name="title_pref_category_context_menu">Tilpass TalkBack-menyen</string>
+    <string name="title_pref_category_controls">Kontroller</string>
+    <string name="title_pref_category_customize_scanning">Tilpass skanning</string>
+    <string name="title_pref_category_developer_settings">Utviklerinnstillinger</string>
+    <string name="title_pref_category_display_and_sound">Skjerm og lyd</string>
+    <string name="title_pref_category_face_switches">Innstillinger for kamerabryter</string>
+    <string name="title_pref_category_face_switches_additional_settings">Flere innstillinger for kamerabrytere</string>
+    <string name="title_pref_category_face_switches_individual_settings">Innstillinger for ansiktsbevegelser</string>
+    <string name="title_pref_category_feedback_settings">Andre tilbakemeldinger</string>
+    <string name="title_pref_category_fingerprint_touch_shortcuts">Bevegelser på fingeravtrykkssensor</string>
+    <string name="title_pref_category_help_and_feedback">Hjelp og tilbakemelding</string>
+    <string name="title_pref_category_key_mappings">Tildel brytere til globale handlinger</string>
+    <string name="title_pref_category_key_mappings_cam_switches_specific">Spesifikt for kamerabrytere</string>
+    <string name="title_pref_category_key_mappings_global_action_specific">Global handling</string>
+    <string name="title_pref_category_key_mappings_highlighted_item_actions">Handlinger på fremhevet element</string>
+    <string name="title_pref_category_key_mappings_movement_and_selection">Bevegelse og valg</string>
+    <string name="title_pref_category_legal_and_privacy">Juridisk og personvern</string>
+    <string name="title_pref_category_manage_focus_indicator">Tilpass fokusindikatoren</string>
+    <string name="title_pref_category_manage_gestures">Tilpass bevegelser</string>
+    <string name="title_pref_category_menu_customizability">Tilpasning av menyen</string>
+    <string name="title_pref_category_miscellaneous_settings">Diverse</string>
+    <string name="title_pref_category_navigation_menu">Endre navigasjonsalternativer</string>
+    <string name="title_pref_category_scan_key_mappings">Tildel brytere for skanning</string>
+    <string name="title_pref_category_selector_granularity_configuration">Konfigurering av granularitet</string>
+    <string name="title_pref_category_selector_menu">Tilpass lesekontrollene</string>
+    <string name="title_pref_category_selector_settings_configuration">Konfigurasjon av innstilling</string>
+    <string name="title_pref_category_switch_access_spoken_feedback_multiple_items">Når flere elementer er fremhevet</string>
+    <string name="title_pref_category_switch_accomodation">Brytertilpasning</string>
+    <string name="title_pref_category_touch_exploration">Navigasjon</string>
+    <string name="title_pref_category_tutorial_and_help">Veiledning og hjelp</string>
+    <string name="title_pref_category_when_to_speak">Tale</string>
+    <string name="title_pref_cover_proximity_sensor">Dekk avstandssensoren for å stoppe tale</string>
+    <string name="title_pref_debounce_time">Ignorer gjentatte trykk</string>
+    <string name="title_pref_default_color">Standard</string>
+    <string name="title_pref_developer_settings">Utviklerinnstillinger</string>
+    <string name="title_pref_dim_volume_three_clicks">Skjul skjermsnarveien</string>
+    <string name="title_pref_dump_a11y_event">Filtertilgjengelighet for loggføring av hendelser</string>
+    <string name="title_pref_echo_recognized_text_speech">Gjenta gjenkjent tale</string>
+    <string name="title_pref_enable_hints">Les opp brukstips</string>
+    <string name="title_pref_enable_menu_customization">Slå på tilpasning av menyen</string>
+    <string name="title_pref_explore_by_touch">Berøringsutforskning</string>
+    <string name="title_pref_export_custom_labels">Eksportér tilpassede etiketter</string>
+    <string name="title_pref_face_switches_debounce_time">Ignorer gjentatte utløsninger av kamerabryteren</string>
+    <string name="title_pref_face_switches_enabled">Bruk kamerabrytere</string>
+    <string name="title_pref_face_switches_enhanced_audio_feedback_enabled">Forbedret lydtilbakemelding</string>
+    <string name="title_pref_face_switches_enhanced_visual_feedback_enabled">Forbedret visuell tilbakemelding</string>
+    <string name="title_pref_face_switches_keep_screen_on_enabled">Hold skjermen på</string>
+    <string name="title_pref_face_switches_main">Kamerabryter</string>
+    <string name="title_pref_green">Grønn</string>
+    <string name="title_pref_grey">Grå</string>
+    <string name="title_pref_help">Hjelp</string>
+    <string name="title_pref_help_and_feedback">Hjelp og tilbakemelding</string>
+    <string name="title_pref_help_feedback">Hjelp og tilbakemelding</string>
+    <string name="title_pref_highlight_0">Fremhevingsstil ved skanning</string>
+    <string name="title_pref_highlight_0_color">Fremhevingsfarge</string>
+    <string name="title_pref_highlight_0_weight">Tykkelse på fremhevingslinjen</string>
+    <string name="title_pref_intonation">Bruk tonehøydeendringer</string>
+    <string name="title_pref_keyboard_echo">Tastaturekko</string>
+    <string name="title_pref_licenses">Lisenser for åpen kildekode</string>
+    <string name="title_pref_log_level">Utdatanivå for loggen</string>
+    <string name="title_pref_log_overlay">Slå på overlegg med feilsøkingslogg</string>
+    <string name="title_pref_loop_count">Antall skanninger</string>
+    <string name="title_pref_manage_customize_menus">Tilpass menyer</string>
+    <string name="title_pref_manage_keyboard_shortcuts">Hurtigtaster</string>
+    <string name="title_pref_manage_labels">Tilpassede etiketter</string>
+    <string name="title_pref_multi_finger_gesture">Slå på bevegelser med flere fingre</string>
+    <string name="title_pref_node_description_order">Rekkefølge for beskrivelse av element</string>
+    <string name="title_pref_orange">Oransje</string>
+    <string name="title_pref_performance_stats">Slå på resultatstatistikk</string>
+    <string name="title_pref_phonetic_letters">Uttal fonetiske tegn</string>
+    <string name="title_pref_pitch_change_for_ime">Bruk tonehøydeendringer</string>
+    <string name="title_pref_play_store">Åpne TalkBack i Play-butikken</string>
+    <string name="title_pref_point_scan_line_speed">Linjehastighet</string>
+    <string name="title_pref_press_on_release">Slipp for å utføre handlingen</string>
+    <string name="title_pref_primary_scan_style">Hovedmetoden for skanning</string>
+    <string name="title_pref_privacy_policy">Personvernregler</string>
+    <string name="title_pref_proximity">Bruk avstandssensoren</string>
+    <string name="title_pref_punctuation">Tegnsetting</string>
+    <string name="title_pref_red">Rød</string>
+    <string name="title_pref_resume_talkback">Aktivér TalkBack på nytt</string>
+    <string name="title_pref_reverse_auto_scan_disabled">Omvendt automatisk skanning (deaktivert)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_dots">Omvendte punkter</string>
+    <string name="title_pref_revert_to_default_menu">Gå tilbake til standardmenyen</string>
+    <string name="title_pref_scan_non_actionable_items">Les opp beskrivende tekst</string>
+    <string name="title_pref_scanning_methods">Skannemetode</string>
+    <string name="title_pref_selector_activation">Aktivering av velger</string>
+    <string name="title_pref_selector_adjustable_widget_number_picker">Juster verdien</string>
+    <string name="title_pref_selector_adjustable_widget_slider">Juster glidebryteren</string>
+    <string name="title_pref_selector_audio_focus">Demp lyden fra andre apper</string>
+    <string name="title_pref_selector_granularity">Navigasjon</string>
+    <string name="title_pref_selector_punctuation">Tegnsetting</string>
+    <string name="title_pref_selector_settings">Velger</string>
+    <string name="title_pref_selector_speech_rate">Talehastighet</string>
+    <string name="title_pref_selector_verbosity">Detaljnivå</string>
+    <string name="title_pref_shake_to_read_threshold">Rist for å starte kontinuerlig lesing</string>
+    <string name="title_pref_shortcut_2finger_1tap">Trykk med to fingre</string>
+    <string name="title_pref_shortcut_2finger_2tap">Dobbelttrykk med to fingre</string>
+    <string name="title_pref_shortcut_2finger_2tap_hold">Dobbelttrykk og hold med to fingre</string>
+    <string name="title_pref_shortcut_2finger_3tap">Trippeltrykk med to fingre</string>
+    <string name="title_pref_shortcut_2finger_3tap_hold">Trippeltrykk og hold med to fingre</string>
+    <string name="title_pref_shortcut_2finger_swipe_down">Sveip ned med to fingre</string>
+    <string name="title_pref_shortcut_2finger_swipe_left">Sveip til venstre med to fingre</string>
+    <string name="title_pref_shortcut_2finger_swipe_right">Sveip til høyre med to fingre</string>
+    <string name="title_pref_shortcut_2finger_swipe_up">Sveip opp med to fingre</string>
+    <string name="title_pref_shortcut_3finger_1tap">Trykk med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_2tap">Dobbelttrykk med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_2tap_hold">Dobbelttrykk og hold med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_3tap">Trippeltrykk med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_swipe_down">Sveip ned med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_swipe_left">Sveip til venstre med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_swipe_right">Sveip til høyre med tre fingre</string>
+    <string name="title_pref_shortcut_3finger_swipe_up">Sveip opp med tre fingre</string>
+    <string name="title_pref_shortcut_4finger_1tap">Trykk med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_2tap">Dobbelttrykk med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_2tap_hold">Dobbelttrykk og hold med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_3tap">Trippeltrykk med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_swipe_down">Sveip ned med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_swipe_left">Sveip til venstre med fire fingre</string>
+    <string name="title_pref_shortcut_4finger_swipe_right">Sveip til høyre med fire fingre.</string>
+    <string name="title_pref_shortcut_4finger_swipe_up">Sveip opp med fire fingre</string>
+    <string name="title_pref_shortcut_down">Sveip ned</string>
+    <string name="title_pref_shortcut_down_and_left">Sveip ned og deretter til venstre</string>
+    <string name="title_pref_shortcut_down_and_right">Sveip ned og deretter til høyre</string>
+    <string name="title_pref_shortcut_down_and_up">Sveip ned og deretter opp</string>
+    <string name="title_pref_shortcut_fingerprint_down">Sveip ned på fingeravtrykkssensoren</string>
+    <string name="title_pref_shortcut_fingerprint_left">Sveip venstre på fingeravtrykkssensoren</string>
+    <string name="title_pref_shortcut_fingerprint_right">Sveip høyre på fingeravtrykkssensoren</string>
+    <string name="title_pref_shortcut_fingerprint_up">Sveip opp på fingeravtrykkssensoren</string>
+    <string name="title_pref_shortcut_left">Sveip til venstre</string>
+    <string name="title_pref_shortcut_left_and_down">Sveip til venstre og deretter ned</string>
+    <string name="title_pref_shortcut_left_and_right">Sveip til venstre og deretter til høyre</string>
+    <string name="title_pref_shortcut_left_and_up">Sveip til venstre og deretter opp</string>
+    <string name="title_pref_shortcut_right">Sveip til høyre</string>
+    <string name="title_pref_shortcut_right_and_down">Sveip til høyre og deretter ned</string>
+    <string name="title_pref_shortcut_right_and_left">Sveip til høyre og deretter til venstre</string>
+    <string name="title_pref_shortcut_right_and_up">Sveip til høyre og deretter opp</string>
+    <string name="title_pref_shortcut_up">Sveip opp</string>
+    <string name="title_pref_shortcut_up_and_down">Sveip opp og deretter ned</string>
+    <string name="title_pref_shortcut_up_and_left">Sveip opp og deretter til venstre</string>
+    <string name="title_pref_shortcut_up_and_right">Sveip opp og deretter til høyre</string>
+    <string name="title_pref_show_context_menu_as_list">Vis hurtigmenyen som liste</string>
+    <string name="title_pref_show_privacy_policy">Personvernregler</string>
+    <string name="title_pref_show_tos">Vilkår for bruk</string>
+    <string name="title_pref_single_tap">Ettrykksaktivering</string>
+    <string name="title_pref_sound_and_vibration">Lyd og vibrering</string>
+    <string name="title_pref_soundback">Tilbakemelding med lyd</string>
+    <string name="title_pref_soundback_volume">Volum på lydtilbakemelding</string>
+    <string name="title_pref_speak_container_element_position">Les opp informasjon om liste og rutenett</string>
+    <string name="title_pref_speak_element_ids">Les opp element-ID-er</string>
+    <string name="title_pref_speak_element_type">Les opp elementtype</string>
+    <string name="title_pref_speak_passwords_without_headphones">Les passord</string>
+    <string name="title_pref_speak_screenoff">Snakk når skjermen er av</string>
+    <string name="title_pref_speak_selected_item_or_group">Les opp valgt element eller gruppe</string>
+    <string name="title_pref_speech_volume">Talevolum</string>
+    <string name="title_pref_spoken_feedback_other_feedback">Andre tilbakemeldinger</string>
+    <string name="title_pref_spoken_feedback_overlay">Vis utdata for tale</string>
+    <string name="title_pref_start_scan_delay">Forsinkelse på første element</string>
+    <string name="title_pref_support_scroll_seq">Rull</string>
+    <string name="title_pref_switch_access_audio_ducking">Demp lyden fra andre apper</string>
+    <string name="title_pref_switch_access_keyboard_echo">Tastaturekko</string>
+    <string name="title_pref_switch_access_sound_feedback">Tilbakemelding med lyd</string>
+    <string name="title_pref_switch_access_sound_volume">Lydvolum</string>
+    <string name="title_pref_switch_access_speak_all_items">Les opp alle fremhevede elementer</string>
+    <string name="title_pref_switch_access_speak_element_ids">Les opp element-ID-er</string>
+    <string name="title_pref_switch_access_speak_first_last_item">Les opp første og siste element</string>
+    <string name="title_pref_switch_access_speak_number_of_items">Les opp antall elementer</string>
+    <string name="title_pref_switch_access_speech_sound_vibration">Tale, lyd og vibrering</string>
+    <string name="title_pref_switch_access_spoken_feedback">Taletilbakemelding</string>
+    <string name="title_pref_switch_access_spoken_feedback_finish_speech">Fullfør tale før du går videre</string>
+    <string name="title_pref_switch_access_spoken_feedback_maximum_time_per_item">Maksimal taletid per element</string>
+    <string name="title_pref_switch_access_tts_settings">Tekst-til-tale-innstillinger</string>
+    <string name="title_pref_switch_access_verbosity">Detaljnivå</string>
+    <string name="title_pref_switch_access_vibration_feedback">Vibrasjonstilbakemelding</string>
+    <string name="title_pref_thick_border">Tykke kantlinjer</string>
+    <string name="title_pref_tree_debug">Aktivér nodetre-feilsøking</string>
+    <string name="title_pref_tts_overlay">Vis utdata for tale</string>
+    <string name="title_pref_two_part_vertical_gestures">Todelte vertikale bevegelser</string>
+    <string name="title_pref_two_volume_button_long_click">Hurtigtast for å suspendere/fortsette TalkBack</string>
+    <string name="title_pref_use_audio_focus">Demp lyden fra andre apper</string>
+    <string name="title_pref_verbose_scroll_announcement">Les opp antall listeelementer på skjermen</string>
+    <string name="title_pref_verbosity_category_miscellaneous">Diverse</string>
+    <string name="title_pref_verbosity_category_verbosity_details">Informasjon om detaljnivå</string>
+    <string name="title_pref_version_code">Versjonskode</string>
+    <string name="title_pref_vibration">Vibrasjonstilbakemelding</string>
+    <string name="title_pref_yellow">Gul</string>
+    <string name="title_previous_screen">Forrige skjerm</string>
+    <string name="title_read_from_top">Les fra toppen</string>
+    <string name="title_repeat_last_spoken_phrase">Gjenta den siste uttalte frasen</string>
+    <string name="title_screen_summary">Skjermsammendrag</string>
+    <string name="title_seek_bar_controls">Glidebryter</string>
+    <string name="title_seek_bar_edit">Endre glidebryternivå</string>
+    <string name="title_show_hide_screen">Vis eller skjul skjermen</string>
+    <string name="title_show_screen_search">Skjermsøk</string>
+    <string name="title_show_voice_commands">Talekommandoer</string>
+    <string name="title_spell_last_spoken_phrase">Stav den siste uttalte frasen</string>
+    <string name="title_suggestions_breakout_anchor">Gå tilbake til endringsfeltet</string>
+    <string name="title_suggestions_breakout_suggestions">Hopp til forslag</string>
+    <string name="title_viewpager_breakout_next_page">Neste side</string>
+    <string name="title_viewpager_breakout_page_down">Side ned</string>
+    <string name="title_viewpager_breakout_page_left">Side til venstre</string>
+    <string name="title_viewpager_breakout_page_right">Side til høyre</string>
+    <string name="title_viewpager_breakout_page_up">Side opp</string>
+    <string name="title_viewpager_breakout_prev_page">Forrige side</string>
+    <string name="title_viewpager_controls">Sidenavigasjon</string>
+    <string name="title_web_breakout_next_control">Neste kontroll</string>
+    <string name="title_web_breakout_next_list">Neste liste</string>
+    <string name="title_web_breakout_next_section">Neste del</string>
+    <string name="title_web_breakout_prev_control">Forrige kontroll</string>
+    <string name="title_web_breakout_prev_list">Forrige liste</string>
+    <string name="title_web_breakout_prev_section">Forrige del</string>
+    <string name="toast_msg_key_already_assigned">«%1$s»-bryteren er allerede tildelt til «%2$s»</string>
+    <string name="toast_tts_not_ready">Tekst til tale-motoren er ikke klar.</string>
+    <string name="training_back_button">Forrige</string>
+    <string name="training_close_button">Lukk</string>
+    <string name="training_finish_button">Fullfør</string>
+    <string name="training_navigate_up">Gå opp</string>
+    <string name="training_next_button">Neste</string>
+    <string name="training_page_number">Side %1$d av %2$d</string>
+    <string name="try_setting_selector_gesture">Prøv nå. Sveip til høyre med tre fingre.</string>
+    <string name="try_setting_selector_gesture_pre_r">Prøv nå. Sveip ned og så opp.</string>
+    <string name="tts_preferences_title">Innstillinger for tekst til tale</string>
+    <string name="tutorial_entry_point_title">Veiledning</string>
+    <string name="tutorial_intro_description">"Med punktskrifttastaturet kan du trykke på skjermen for å skrive inn punktskrift med seks punkter.
+
+Du bruker Unified English Braille. For å endre skriftspråk, gå til TalkBack-innstillingene.
+
+For å skrive punktskrift må du holde og bruke telefonen på en annen måte."</string>
+    <string name="two_face_switches_description_text">Lar deg bruke én eller flere bevegelser.</string>
+    <string name="two_finger_gestures_title">2 fingre</string>
+    <string name="two_switches">To brytere</string>
+    <string name="two_switches_description_text">Trykk på en bryter for å flytte mellom elementene. Trykk den andre bryteren for å velge det fremhevede elementet.</string>
+    <string name="two_switches_recommended">To brytere (anbefalt)</string>
+    <string name="type_letter_a_announcement">"Hold skjermen vendt bort fra deg. Hold telefonen med begge hendene på kortsidene av telefonen, slik at de tre midterste fingrene på hver hånd kan berøre skjermen.
+
+%1$s skal være på punkt 1. Trykk på punkt 1 for å skrive bokstaven «A»."</string>
+    <string name="type_letter_a_announcement_left_index_finger">venstre pekefinger</string>
+    <string name="type_letter_a_announcement_right_index_finger">høyre pekefinger</string>
+    <string name="type_letter_a_inactive_announcement">Trykk på punkt 1 med %1$s for å skrive «A»</string>
+    <string name="type_letter_inactive_announcement">Trykk på %1$s for å skrive bokstaven %2$s</string>
+    <string name="typing_echo_list_preference_title">Skrivetilbakemelding (innskrivingsekko)</string>
+    <string name="typing_echo_preference_label_characters">Les alle bokstaver og ord</string>
+    <string name="typing_echo_preference_label_words">Les bare ord</string>
+    <string name="typing_text_text">"Dra fingeren over tastaturet. Når du hører bokstaven du vil skrive inn, løfter du fingeren.
+
+Prøv å aktivere tekstfeltet nedenfor og skrive inn navnet ditt."</string>
+    <string name="typing_text_title">Tekstskriving</string>
+    <string name="typing_text_with_braille_keyboard_text">Du kan også skrive med punktskrifttastaturet. Du finner det i TalkBack-innstillingene.</string>
+    <string name="uncontracted">uforkortet</string>
+    <string name="untitled_window">uten navn</string>
+    <string name="updown_downup_gestures_change_and_selector_always_on_details">"«Sveip opp og deretter ned»-bevegelsen er tilordnet til å velge forrige innstilling.
+«Sveip ned og deretter opp»-bevegelsen er tilordnet til å starte talesnarveier.
+
+Velgeren er aktivert. Sveip opp og deretter ned på skjermen. Sveip opp eller ned på fingeravtrykkssensoren for å velge en innstilling. Og sveip opp eller ned på skjermen for å justere innstillingen."</string>
+    <string name="url_dialog_table">%1$s (%2$s)</string>
+    <string name="usb_no_devices_connected_message">Fant ingen USB-enheter. Sørg for at enheten er skikkelig koblet til.</string>
+    <string name="usb_switch_description_text">Koble til en bryter fysisk via USB</string>
+    <string name="usb_switch_option_text">USB-bryter</string>
+    <string name="use_brailleime_pref_button_case_ime_disabled">Innstillinger</string>
+    <string name="use_brailleime_pref_dialog_case_ime_disabled">1. &lt;b>Slå på punktskrifttastatur&lt;/b>: Trykk på Innstillinger nedenfor. Slå på «%1$s» på den neste skjermen. &lt;br>&lt;br>2. &lt;b>Bruk punktskrifttastatur&lt;/b>: Åpne det vanlige tastaturet, og trykk på velg tastatur-ikonet %2$s (vanligvis nederst til høyre). Velg «%1$s». &lt;br>&lt;br>Hvis du ikke ser et alternativ for å bytte tastatur, kan du prøve å installere %3$s – Google-tastaturet.</string>
+    <string name="use_brailleime_pref_dialog_case_ime_enabled">For å bruke punktskrifttastaturet, åpne det vanlige tastaturet og trykk på velg tastatur-ikonet %1$s (vanligvis nederst til høyre). Velg «%2$s». &lt;br>&lt;br>Hvis du ikke ser et alternativ for å bytte tastatur, kan du prøve å installere %3$s – Google-tastaturet.</string>
+    <string name="use_brailleime_pref_summary">Trykk for å konfigurere</string>
+    <string name="using_text_boxes_text">"Når du aktiverer et tekstfelt, åpnes et tastatur nederst på skjermen.
+
+For å lukke tastaturet dobbelttrykker du på tilbakeknappen nederst til venstre på skjermen.
+
+Prøv å aktivere og lukke tekstfeltet nedenfor."</string>
+    <string name="using_text_boxes_title">Bruke tekstfelt</string>
+    <string name="value_button">Knapp</string>
+    <string name="value_caps_lock_off">Caps Lock er av.</string>
+    <string name="value_caps_lock_on">Caps Lock er på.</string>
+    <string name="value_checkbox">Avmerkingsboks</string>
+    <string name="value_checked">avmerket</string>
+    <string name="value_classic_keymap">Klassisk tastaturoppsett</string>
+    <string name="value_collapsed">skjules</string>
+    <string name="value_default_keymap">Standard tastaturoppsett</string>
+    <string name="value_device_unlocked">Enheten er opplåst.</string>
+    <string name="value_dim_volume_three_clicks">Trykk raskt på begge volumtastene tre ganger for å skjule eller vise skjermen</string>
+    <string name="value_direction_down">ned</string>
+    <string name="value_direction_down_and_left">ned og deretter til venstre</string>
+    <string name="value_direction_down_and_right">ned og deretter til høyre</string>
+    <string name="value_direction_down_and_up">ned og så opp</string>
+    <string name="value_direction_left">venstre</string>
+    <string name="value_direction_left_and_down">til venstre og deretter ned</string>
+    <string name="value_direction_left_and_right">venstre og så høyre</string>
+    <string name="value_direction_left_and_up">til venstre og deretter opp</string>
+    <string name="value_direction_right">høyre</string>
+    <string name="value_direction_right_and_down">til høyre og deretter ned</string>
+    <string name="value_direction_right_and_left">høyre og så venstre</string>
+    <string name="value_direction_right_and_up">til høyre og deretter opp</string>
+    <string name="value_direction_up">opp</string>
+    <string name="value_direction_up_and_down">opp og så ned</string>
+    <string name="value_direction_up_and_left">opp og deretter til venstre</string>
+    <string name="value_direction_up_and_right">opp og deretter til høyre</string>
+    <string name="value_disabled">slått av</string>
+    <string name="value_dismissible">kan avvises</string>
+    <string name="value_double_tap">Dobbelttrykk</string>
+    <string name="value_edit_box">Redigeringsfelt</string>
+    <string name="value_edit_box_editing">Redigering</string>
+    <string name="value_expanded">vises</string>
+    <string name="value_googletv_screen_saver">Skjermsparer</string>
+    <string name="value_gridview">Rutenett</string>
+    <string name="value_hint_tv_remote_mode_seek_control">Trykk på piltastene for å endre verdi, eller trykk på Select-knappen for å fullføre.</string>
+    <string name="value_image">Bilde</string>
+    <string name="value_keyboard_echo_always">Uttal alltid tastene som trykkes</string>
+    <string name="value_keyboard_echo_never">Uttal aldri tastene som trykkes</string>
+    <string name="value_keyboard_echo_softkeys">Bare for skjermtastatur</string>
+    <string name="value_listview">Liste</string>
+    <string name="value_location_bottom">bunn</string>
+    <string name="value_location_bottom_left">nederst til venstre</string>
+    <string name="value_location_bottom_right">nederst til høyre</string>
+    <string name="value_location_center">i midten</string>
+    <string name="value_location_left">venstre</string>
+    <string name="value_location_right">høyre</string>
+    <string name="value_location_top">topp</string>
+    <string name="value_location_top_left">øverst til venstre</string>
+    <string name="value_location_top_right">øverst til høyre</string>
+    <string name="value_long_volume_pressed_suspend_talkback">Trykk lenge på volum opp eller volum ned</string>
+    <string name="value_not_checked">ikke valgt</string>
+    <string name="value_notification_shade_opened">Panelet er åpnet</string>
+    <string name="value_num_lock_off">Num Lock er av.</string>
+    <string name="value_num_lock_on">Num Lock er på.</string>
+    <string name="value_off">av</string>
+    <string name="value_on">på</string>
+    <string name="value_options_menu_open">Alternativer.</string>
+    <string name="value_pager">Visning av flere sider</string>
+    <string name="value_pager_page">Side</string>
+    <string name="value_password">passord</string>
+    <string name="value_press_select">Trykk på Velg-knappen</string>
+    <string name="value_progress_bar">Fremdriftslinje</string>
+    <string name="value_radio_button">Alternativknapp</string>
+    <string name="value_resume_keyguard">Når låseskjermen vises</string>
+    <string name="value_resume_manual">Bare fra varsler</string>
+    <string name="value_resume_screen_on">Når skjermen slås på</string>
+    <string name="value_ringer_silent">Stillemodus.</string>
+    <string name="value_ringer_vibrate">Vibreringsmodus.</string>
+    <string name="value_screen_off">Skjerm av.</string>
+    <string name="value_screen_on">Skjerm på.</string>
+    <string name="value_scroll_lock_off">Scroll Lock er av.</string>
+    <string name="value_scroll_lock_on">Scroll Lock er på.</string>
+    <string name="value_seek_bar">Glidebryter</string>
+    <string name="value_seek_bar_dialog_instructions">Skriv inn et tall mellom 0 og 100.</string>
+    <string name="value_seek_bar_dialog_percent">%</string>
+    <string name="value_selected">valgt</string>
+    <string name="value_shake_to_read_disabled">Slått av</string>
+    <string name="value_shake_to_read_threshold_hard">Kraftig</string>
+    <string name="value_shake_to_read_threshold_light">Lett</string>
+    <string name="value_shake_to_read_threshold_medium">Middels</string>
+    <string name="value_shake_to_read_threshold_very_hard">Veldig kraftig</string>
+    <string name="value_shake_to_read_threshold_very_light">Veldig lett</string>
+    <string name="value_single_tap">Trykk</string>
+    <string name="value_sliding_drawer_opened">Uttrekksmeny åpnet</string>
+    <string name="value_spinner">Rullegardinliste</string>
+    <string name="value_stream_accessibility">Tilgjengelighet</string>
+    <string name="value_stream_alarm">Alarmen</string>
+    <string name="value_stream_dtmf">Oppringing ved bruk av tastene</string>
+    <string name="value_stream_music">Musikk</string>
+    <string name="value_stream_notification">Varsel</string>
+    <string name="value_stream_ring">Ringetone</string>
+    <string name="value_stream_system">Systemlyd</string>
+    <string name="value_stream_voice_call">Telefonsamtale</string>
+    <string name="value_switch">Bryter</string>
+    <string name="value_switch_press">Trykk på «Velg»-bryteren</string>
+    <string name="value_tabwidget">Fanerad</string>
+    <string name="value_text_cleared">Teksten ble slettet</string>
+    <string name="value_text_max_length">Maksimal lengde er nådd</string>
+    <string name="value_text_removed">slettet</string>
+    <string name="value_toolbar">Verktøylinje</string>
+    <string name="value_tv_remote_mode_seek_control">Glidebrytermodus</string>
+    <string name="value_unlabelled">Umerket</string>
+    <string name="value_volume_100_percent">Tilpass til medievolumet</string>
+    <string name="value_volume_25_percent">25 % av medievolumet</string>
+    <string name="value_volume_50_percent">50 % av medievolumet</string>
+    <string name="value_volume_75_percent">75 % av medievolumet</string>
+    <string name="value_webview">Nettvisning</string>
+    <string name="vibration_feedback_state">Vibrasjonstilbakemelding %1$s</string>
+    <string name="vibration_feedback_summary">Vibrer for å indikere at noe er endret (f.eks. at innholdet på skjermen er endret)</string>
+    <string name="voice_command_screen_locked_hint">Talekommandoer er ikke tilgjengelige når skjermen er låst. For å bruke TalkBack-menyen i stedet, %1$s.</string>
+    <string name="voice_commands_Spell">Stav</string>
+    <string name="voice_commands_action">Handling</string>
+    <string name="voice_commands_all_apps">Alle apper</string>
+    <string name="voice_commands_apps">Apper</string>
+    <string name="voice_commands_assistant">Assistent</string>
+    <string name="voice_commands_back">Tilbake</string>
+    <string name="voice_commands_bottom">Nederst</string>
+    <string name="voice_commands_brighten_screen">øk lysstyrken</string>
+    <string name="voice_commands_cancel_hide_screen">avbryt skjuling av skjermen</string>
+    <string name="voice_commands_cannot_label_feedback">Kan ikke sette på en etikett</string>
+    <string name="voice_commands_change_verbosity_to_parameter">Endre detaljnivå til %s</string>
+    <string name="voice_commands_copy">@android:string/copy</string>
+    <string name="voice_commands_custom_actions">tilpassede handlinger</string>
+    <string name="voice_commands_cut">@android:string/cut</string>
+    <string name="voice_commands_darken">gjør mørkere</string>
+    <string name="voice_commands_decrease_speech_rate">senk talehastigheten</string>
+    <string name="voice_commands_delete">Slett</string>
+    <string name="voice_commands_deselect">Avbryt valget</string>
+    <string name="voice_commands_desktop">Skrivebord</string>
+    <string name="voice_commands_dictate">Diktér</string>
+    <string name="voice_commands_dim">ton ned</string>
+    <string name="voice_commands_echo_feedback_not_recognized">«%1$s» gjenkjennes ikke som en talekommando.</string>
+    <string name="voice_commands_edit">endre</string>
+    <string name="voice_commands_edit_options">Redigeringsalternativer</string>
+    <string name="voice_commands_edit_text">Rediger tekst</string>
+    <string name="voice_commands_editing_options">Redigeringsalternativer</string>
+    <string name="voice_commands_end_select">Avslutt markeringen</string>
+    <string name="voice_commands_error">Feil ved gjenkjenning av talekommando</string>
+    <string name="voice_commands_faster">Raskere</string>
+    <string name="voice_commands_find">Finn</string>
+    <string name="voice_commands_find_again">Finn flere</string>
+    <string name="voice_commands_finish_select">Fullfør valget</string>
+    <string name="voice_commands_finish_selection">Fullfør markeringen</string>
+    <string name="voice_commands_finish_selection_mode">Fullfør markeringsmodus</string>
+    <string name="voice_commands_first">Første</string>
+    <string name="voice_commands_go_back">Gå tilbake</string>
+    <string name="voice_commands_help_actions_description">Vis tilgjengelige handlinger for det aktive elementet</string>
+    <string name="voice_commands_help_assistant_description">Åpne Google-assistenten</string>
+    <string name="voice_commands_help_copy_description">Velg tekst før kopiering</string>
+    <string name="voice_commands_help_cut_description">Velg tekst før utklipping</string>
+    <string name="voice_commands_help_delete_description">Velg tekst før sletting</string>
+    <string name="voice_commands_help_description">For å bruke talekommandoer, sveip til høyre og så opp. Si «Hjelp» eller «Hva kan jeg si?» når som helst for å åpne denne listen over kommandoer.</string>
+    <string name="voice_commands_help_device_navigation_description">Gå til startsiden, gå tilbake, vis varsler med mer</string>
+    <string name="voice_commands_help_device_navigation_title">Enhetsnavigering</string>
+    <string name="voice_commands_help_find_description">Gjenta «finn» for å gå til neste element som inkluderer teksten «lagre»</string>
+    <string name="voice_commands_help_find_items_description">Finn spesifikt innhold på den nåværende skjermen</string>
+    <string name="voice_commands_help_find_items_title">Finn elementer</string>
+    <string name="voice_commands_help_find_text">Finn [lagre]</string>
+    <string name="voice_commands_help_find_text_description">Finn det første elementet som inkluderer teksten «lagre» på den nåværende skjermen</string>
+    <string name="voice_commands_help_first_description">Gå til første element på den nåværende skjermen</string>
+    <string name="voice_commands_help_hide_screen_description">Skjul skjermen, slik at den ikke er synlig for andre på offentlige steder</string>
+    <string name="voice_commands_help_hint">Du får best resultat ved å si den nøyaktige ordlyden som er oppført på de neste skjermene.</string>
+    <string name="voice_commands_help_label">Sett etikett på [send inn]</string>
+    <string name="voice_commands_help_label_description">Legg til eller endre en egendefinert etikett for å si «send inn»</string>
+    <string name="voice_commands_help_languages_description">Endre talespråk (tekst til tale)</string>
+    <string name="voice_commands_help_last_description">Gå til siste element på den nåværende skjermen</string>
+    <string name="voice_commands_help_navigation">Navigering etter [ord]</string>
+    <string name="voice_commands_help_navigation_description">Naviger etter ord, tegn, linjer, avsnitt, overskrifter, kontroller med mer</string>
+    <string name="voice_commands_help_next">Neste [overskrift]</string>
+    <string name="voice_commands_help_next_description">Gå til neste overskrift, kontroll, liste eller landemerke</string>
+    <string name="voice_commands_help_other_commands_description">Gå til TalkBack-innstillingene, skjul skjermen, se handlinger, legg til egendefinerte etiketter med mer</string>
+    <string name="voice_commands_help_other_commands_title">Andre kommandoer</string>
+    <string name="voice_commands_help_overview_description">Se de nylige appene dine</string>
+    <string name="voice_commands_help_reading_controls_description">Endre hvordan du leser innhold på den nåværende skjermen</string>
+    <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
+    <string name="voice_commands_help_screen_search_description">Skriv inn en søketerm for å finne den teksten på skjermen</string>
+    <string name="voice_commands_help_show_screen_description">Etter å ha skjult skjermen må du returnere den til normal tilstand</string>
+    <string name="voice_commands_help_speech_rate">Snakk [raskere]</string>
+    <string name="voice_commands_help_speech_rate_description">Du kan også si «snakk saktere»</string>
+    <string name="voice_commands_help_stop_description">Stopp den nåværende talekommandoen</string>
+    <string name="voice_commands_help_text_editing_description">Skriv, markér og kopiér tekst</string>
+    <string name="voice_commands_help_title">Oversikt over talekommandoer</string>
+    <string name="voice_commands_help_type_text">Skriv [OK]</string>
+    <string name="voice_commands_help_verbosity">[Lavt] detaljnivå</string>
+    <string name="voice_commands_help_verbosity_description">Endre til lav, høy eller tilpasset</string>
+    <string name="voice_commands_home">Hjem</string>
+    <string name="voice_commands_increase_speech_rate">Øk talehastigheten</string>
+    <string name="voice_commands_input">Legg inn</string>
+    <string name="voice_commands_label">Sett på en etikett</string>
+    <string name="voice_commands_label_saved">Etiketten er lagret</string>
+    <string name="voice_commands_language">Språk</string>
+    <string name="voice_commands_languages">Språk</string>
+    <string name="voice_commands_last">Siste</string>
+    <string name="voice_commands_link_subtext">Kontrollér TalkBack med stemmen</string>
+    <string name="voice_commands_link_text">Talekommandoer</string>
+    <string name="voice_commands_many_requests">Prøv igjen om en liten stund</string>
+    <string name="voice_commands_navigation_by_parameter">Navigering med %s</string>
+    <string name="voice_commands_nevermind">Glem det</string>
+    <string name="voice_commands_next">neste</string>
+    <string name="voice_commands_next_control">Neste kontroll</string>
+    <string name="voice_commands_next_heading">Neste overskrift</string>
+    <string name="voice_commands_next_landmark">Neste landemerke</string>
+    <string name="voice_commands_next_link">Neste link</string>
+    <string name="voice_commands_no_action">Talesnarveien støttes ikke</string>
+    <string name="voice_commands_no_actions_feedback">Det finnes ingen tilgjengelige handlinger</string>
+    <string name="voice_commands_no_mic_permissions">For å bruke denne funksjonen må du gi tillatelse til å bruke mikrofonen.</string>
+    <string name="voice_commands_no_next_control_feedback">Det finnes ingen flere kontroller</string>
+    <string name="voice_commands_no_next_heading_feedback">Det finnes ingen flere overskrifter</string>
+    <string name="voice_commands_no_next_landmark_feedback">Det finnes ingen flere landemerker</string>
+    <string name="voice_commands_no_next_link_feedback">Det finnes ingen flere linker</string>
+    <string name="voice_commands_no_voice_recognition_ability">Beklager, men denne funksjonen er ikke tilgjengelig på enheten din</string>
+    <string name="voice_commands_notification">Varsel</string>
+    <string name="voice_commands_notifications">Varsler</string>
+    <string name="voice_commands_overview">Oversikt</string>
+    <string name="voice_commands_parameter_granularity">Granularitet: %s</string>
+    <string name="voice_commands_parameter_navigation">Navigering etter %s</string>
+    <string name="voice_commands_parameter_verbosity">%s detaljnivå</string>
+    <string name="voice_commands_partial_result">Denne kommandoen gjenkjennes ikke. Si «%1$s» for å åpne listen over alle kommandoer.</string>
+    <string name="voice_commands_paste">@android:string/paste</string>
+    <string name="voice_commands_pause">Sett på pause</string>
+    <string name="voice_commands_possible_options_title">Du kan si</string>
+    <string name="voice_commands_quick_setting">Hurtiginnstilling</string>
+    <string name="voice_commands_quick_settings">Hurtiginnstillinger</string>
+    <string name="voice_commands_quiet">Stille</string>
+    <string name="voice_commands_quit">Avslutt</string>
+    <string name="voice_commands_read">les</string>
+    <string name="voice_commands_read_by_parameter">Lest etter %s</string>
+    <string name="voice_commands_read_from_next">Les fra neste</string>
+    <string name="voice_commands_recent">Nylig</string>
+    <string name="voice_commands_recent_apps">Nylige apper</string>
+    <string name="voice_commands_recents">Nylige</string>
+    <string name="voice_commands_restore_screen">gjenopprett skjermen</string>
+    <string name="voice_commands_say">si</string>
+    <string name="voice_commands_screen_hidden_feedback">Skjermen er skjult</string>
+    <string name="voice_commands_screen_search">Skjermsøk</string>
+    <string name="voice_commands_search">Søk</string>
+    <string name="voice_commands_search_for">Søk etter</string>
+    <string name="voice_commands_search_on_screen">Søk på skjermen</string>
+    <string name="voice_commands_select">Markering</string>
+    <string name="voice_commands_setting_granularity">Angi granularitet</string>
+    <string name="voice_commands_setting_navigation">Angi navigering</string>
+    <string name="voice_commands_setting_speech_rate">Angi talehastighet</string>
+    <string name="voice_commands_setting_verbosity">Angi detaljnivå</string>
+    <string name="voice_commands_showing_screen_feedback">Skjermen vises</string>
+    <string name="voice_commands_shut_up">Slutt å snakke</string>
+    <string name="voice_commands_slower">Saktere</string>
+    <string name="voice_commands_start_select">Start markering</string>
+    <string name="voice_commands_start_selection">Start markeringen</string>
+    <string name="voice_commands_start_selection_mode">Start markeringsmodus</string>
+    <string name="voice_commands_stop">Stopp</string>
+    <string name="voice_commands_summary">sammendrag</string>
+    <string name="voice_commands_talkback_setting">TalkBack-innstilling</string>
+    <string name="voice_commands_talkback_settings">TalkBack-innstillinger</string>
+    <string name="voice_commands_text">"Du kan kontrollere TalkBack raskt med stemmen.
+
+Du kan for eksempel si en kommando for å endre navigering, hoppe til neste overskrift, kopiere tekst med mer.
+
+For å prøve det nå sveiper du til høyre og så opp."</string>
+    <string name="voice_commands_text_editing">Tekstbehandling</string>
+    <string name="voice_commands_timeout">Si «%1$s» for å åpne listen over alle kommandoer.</string>
+    <string name="voice_commands_title">Talekommandoer</string>
+    <string name="voice_commands_top">Øverst</string>
+    <string name="voice_commands_type">Skriv</string>
+    <string name="voice_commands_verbosity_parameter">Detaljnivå %s</string>
+    <string name="voice_commands_what">hva</string>
+    <string name="voice_commands_write">Skriv</string>
+    <string name="volume_down_label">Volum ned</string>
+    <string name="volume_label">Volum</string>
+    <string name="volume_menu_accessibility">Tilgjengelighetsvolum</string>
+    <string name="volume_menu_alarm">Alarmvolum</string>
+    <string name="volume_menu_call">Samtalevolum</string>
+    <string name="volume_menu_decrease">Reduser</string>
+    <string name="volume_menu_increase">Øk</string>
+    <string name="volume_menu_media">Medievolum</string>
+    <string name="volume_menu_mute">Kutt lyden</string>
+    <string name="volume_menu_ring">Ringevolum</string>
+    <string name="volume_menu_unmute">Slå på lyden</string>
+    <string name="volume_settings">Voluminnstillinger</string>
+    <string name="volume_up_label">Volum opp</string>
+    <string name="volume_utterance">Volumkontroller</string>
+    <string name="watch_2_finger_scroll_text">Dra to fingre for å rulle</string>
+    <string name="watch_double_tap_text">Dobbelttrykk for å aktivere et element</string>
+    <string name="watch_swipe_left_right_text">Sveip til høyre eller venstre for å bevege deg mellom elementer</string>
+    <string name="welcome_to_android11">Velkommen til TalkBack på Android 11</string>
+    <string name="welcome_to_android11_text">"Nye bevegelser er lagt til for å gjøre TalkBack raskere og enklere å bruke.
+
+På denne skjermen kan du prøve de nye bevegelsene. Du kan når som helst se gjennom denne informasjonen i TalkBack-innstillingene."</string>
+    <string name="welcome_to_talkback_text">"TalkBack er en skjermleser som er laget for situasjoner eller personer som har vanskeligheter med å se skjermen. Funksjonen gir deg taletilbakemeldinger, slik at du kan bruke enheten uten å se på skjermen.
+
+Du kan slå TalkBack på eller av ved å holde inne begge volumknappene i flere sekunder.
+
+Når TalkBack er på, blir elementet som er i fokus på skjermen, lest opp.
+
+Sveiping til høyre flytter til neste element, og sveiping til venstre flytter til forrige element.
+
+Sveip til høyre nå for å finne Neste-knappen."</string>
+    <string name="welcome_to_talkback_title">Velkommen til TalkBack</string>
+    <string name="welcome_to_updated_talkback_text">"Du får nye, enklere bevegelser, enklere menyer, talekontroll med mer.
+
+Du kan se mer om viktige oppdateringer og endringer på de neste skjermene. Dette tar omtrent fem minutter.
+
+Du kan når som helst gjennomgå denne informasjonen i TalkBack-innstillingene."</string>
+    <string name="welcome_to_updated_talkback_text_pre_r">"Du får enklere menyer, talekontroll med mer.
+
+Du finner ut mer om viktige oppdateringer og endringer på de neste skjermene. Dette tar omtrent tre minutter. 
+
+Du kan når som helst gjennomgå denne informasjonen i TalkBack-innstillingene."</string>
+    <string name="welcome_to_updated_talkback_title">Velkommen til oppdaterte TalkBack</string>
+</resources>

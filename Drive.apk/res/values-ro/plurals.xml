@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_announcement_list_popup_shown">
+        <item quantity="other">Se afișează %1$d de articole.</item>
+        <item quantity="one">Se afișează %1$d articol.</item>
+        <item quantity="few">Se afișează %1$d articole.</item>
+    </plurals>
+    <plurals name="action_comments_with_count">
+        <item quantity="other">%1$d de comentarii</item>
+        <item quantity="one">%1$d comentariu</item>
+        <item quantity="few">%1$d comentarii</item>
+    </plurals>
+    <plurals name="action_header_shortcut_folder_targets">
+        <item quantity="other">Dosare originale</item>
+        <item quantity="one">Dosar original</item>
+        <item quantity="few">Dosare originale</item>
+    </plurals>
+    <plurals name="action_header_shortcut_targets">
+        <item quantity="other">Fișiere originale</item>
+        <item quantity="one">Fișier original</item>
+        <item quantity="few">Fișiere originale</item>
+    </plurals>
+    <plurals name="action_item_content_description">
+        <item quantity="other">Sarcini: %1$d de articole de răspuns</item>
+        <item quantity="one">Sarcini: %1$d articol de răspuns</item>
+        <item quantity="few">Sarcini: %1$d articole de răspuns</item>
+    </plurals>
+    <plurals name="action_permanently_deleted">
+        <item quantity="other">%1$d de articole au fost șterse definitiv</item>
+        <item quantity="one">%2$s fost șters definitiv.</item>
+        <item quantity="few">%1$d articole au fost șterse definitiv</item>
+    </plurals>
+    <plurals name="add_collaborators_invalid_contact_address">
+        <item quantity="other">Adrese de e-mail nevalide: %s</item>
+        <item quantity="one">Adresă de e-mail nevalidă: %s</item>
+        <item quantity="few">Adrese de e-mail nevalide: %s</item>
+    </plurals>
+    <plurals name="announce_folder_color_set">
+        <item quantity="other">%1$d de dosare actualizate. Culoarea setată este %2$s.</item>
+        <item quantity="one">%1$d dosar actualizat. Culoarea setată este %2$s.</item>
+        <item quantity="few">%1$d dosare actualizate. Culoarea setată este %2$s.</item>
+    </plurals>
+    <plurals name="apply_filters">
+        <item quantity="other">Încercați să scrieți:</item>
+        <item quantity="one">Încercați să scrieți:</item>
+        <item quantity="few">Încercați să scrieți:</item>
+    </plurals>
+    <plurals name="backup_entity_expires_in">
+        <item quantity="other">Expiră peste %1$d de zile</item>
+        <item quantity="one">Expiră peste %1$d zi</item>
+        <item quantity="few">Expiră peste %1$d zile</item>
+    </plurals>
+    <plurals name="backup_will_expire">
+        <item quantity="other">Acest backup va expira peste %1$d de zile dacă dispozitivul rămâne inactiv.</item>
+        <item quantity="one">Acest backup va expira peste %1$d zi dacă dispozitivul rămâne inactiv.</item>
+        <item quantity="few">Acest backup va expira peste %1$d zile dacă dispozitivul rămâne inactiv.</item>
+    </plurals>
+    <plurals name="delete_backup_success_message">
+        <item quantity="other">Backupurile au fost șterse.</item>
+        <item quantity="one">Backupul a fost șters.</item>
+        <item quantity="few">Backupurile au fost șterse.</item>
+    </plurals>
+    <plurals name="desc_columns">
+        <item quantity="other">%1$d de coloane.</item>
+        <item quantity="one">%1$d coloană.</item>
+        <item quantity="few">%1$d coloane.</item>
+    </plurals>
+    <plurals name="desc_frozen_columns">
+        <item quantity="other">%1$d de coloane înghețate.</item>
+        <item quantity="one">%1$d coloană înghețată.</item>
+        <item quantity="few">%1$d coloane înghețate.</item>
+    </plurals>
+    <plurals name="desc_frozen_rows">
+        <item quantity="other">%1$d de rânduri înghețate.</item>
+        <item quantity="one">%1$d rând înghețat.</item>
+        <item quantity="few">%1$d rânduri înghețate.</item>
+    </plurals>
+    <plurals name="desc_rows">
+        <item quantity="other">%1$d de rânduri.</item>
+        <item quantity="one">%1$d rând.</item>
+        <item quantity="few">%1$d rânduri.</item>
+    </plurals>
+    <plurals name="discussion_card_replies_summary">
+        <item quantity="other">%1$s de răspunsuri</item>
+        <item quantity="one">%1$s răspuns</item>
+        <item quantity="few">%1$s răspunsuri</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_include_current_user_text">
+        <item quantity="other">Dvs. și încă %1$d de persoane ați reacționat cu %2$s</item>
+        <item quantity="one">Dvs. și încă %1$d persoană ați reacționat cu %2$s</item>
+        <item quantity="few">Dvs. și încă %1$d persoane ați reacționat cu %2$s</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_without_current_user_text">
+        <item quantity="other">%1$d de persoane au reacționat cu %2$s</item>
+        <item quantity="one">%1$d persoană a reacționat cu %2$s</item>
+        <item quantity="few">%1$d persoane au reacționat cu %2$s</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_active">
+        <item quantity="other">%d de comentarii active</item>
+        <item quantity="one">%d comentariu activ</item>
+        <item quantity="few">%d comentarii active</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_resolved">
+        <item quantity="other">%d de comentarii soluționate</item>
+        <item quantity="one">%d comentariu soluționat</item>
+        <item quantity="few">%d comentarii soluționate</item>
+    </plurals>
+    <plurals name="download_message_all_failed">
+        <item quantity="other">Articolele nu au putut fi descărcate</item>
+        <item quantity="one">Articolul nu a putut fi descărcat</item>
+        <item quantity="few">Articolele nu au putut fi descărcate</item>
+    </plurals>
+    <plurals name="download_message_success">
+        <item quantity="other">Se vor descărca %1$d de articole. Consultați notificarea pentru detalii.</item>
+        <item quantity="one">Se va descărca %1$d articol. Consultați notificarea pentru detalii.</item>
+        <item quantity="few">Se vor descărca %1$d articole. Consultați notificarea pentru detalii.</item>
+    </plurals>
+    <plurals name="download_message_success_no_notification">
+        <item quantity="other">Se vor descărca %1$d de articole.</item>
+        <item quantity="one">Se va descărca %1$d articol.</item>
+        <item quantity="few">Se vor descărca %1$d articole.</item>
+    </plurals>
+    <plurals name="download_notification_complete_title">
+        <item quantity="other">%1$s și încă %2$d de articole</item>
+        <item quantity="one">%1$s</item>
+        <item quantity="few">%1$s și încă %2$d articole</item>
+    </plurals>
+    <plurals name="download_notification_failure_multiple">
+        <item quantity="other">%1$s de articole nu au putut fi descărcate</item>
+        <item quantity="one">%1$s articol nu a putut fi descărcat</item>
+        <item quantity="few">%1$s articole nu au putut fi descărcate</item>
+    </plurals>
+    <plurals name="download_notification_list_summary">
+        <item quantity="other">încă %1$d de articole</item>
+        <item quantity="one">încă %1$d articol</item>
+        <item quantity="few">încă %1$d articole</item>
+    </plurals>
+    <plurals name="download_notification_partial_failure_title">
+        <item quantity="other">%1$d din %2$d de articole nu s-au descărcat</item>
+        <item quantity="one">Un articol din %2$d nu s-a descărcat</item>
+        <item quantity="few">%1$d din %2$d articole nu s-au descărcat</item>
+    </plurals>
+    <plurals name="download_notification_partial_success_title">
+        <item quantity="other">%1$d din %2$d descărcări nu au reușit</item>
+        <item quantity="one">%1$d descărcare din %2$d nu a reușit</item>
+        <item quantity="few">%1$d din %2$d descărcări nu au reușit</item>
+    </plurals>
+    <plurals name="download_notification_title_total_failure">
+        <item quantity="other">%1$d de fișiere nu s-au descărcat</item>
+        <item quantity="one">Un fișier nu s-a descărcat</item>
+        <item quantity="few">%1$d fișiere nu s-au descărcat</item>
+    </plurals>
+    <plurals name="download_notification_title_total_success">
+        <item quantity="other">S-au descărcat %1$d de fișiere</item>
+        <item quantity="one">S-a descărcat un fișier</item>
+        <item quantity="few">S-au descărcat %1$d fișiere</item>
+    </plurals>
+    <plurals name="duo_notification_list_summary">
+        <item quantity="other">și încă %1$d de fișiere</item>
+        <item quantity="one">și încă %1$d fișier</item>
+        <item quantity="few">și încă %1$d fișiere</item>
+    </plurals>
+    <plurals name="duo_notification_locate_file">
+        <item quantity="other">Localizați fișierele</item>
+        <item quantity="one">Localizați fișierul</item>
+        <item quantity="few">Localizați fișierele</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_include_current_user_text">
+        <item quantity="other">Dvs. și încă %d de persoane ați reacționat</item>
+        <item quantity="one">Dvs. și încă %d persoană ați reacționat</item>
+        <item quantity="few">Dvs. și încă %d persoane ați reacționat</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_without_current_user_text">
+        <item quantity="other">%d de persoane au reacționat</item>
+        <item quantity="one">%d persoană a reacționat</item>
+        <item quantity="few">%d persoane au reacționat</item>
+    </plurals>
+    <plurals name="error_moving_file">
+        <item quantity="other">A apărut o eroare la mutarea fișierelor.</item>
+        <item quantity="one">A apărut o eroare la mutarea fișierului.</item>
+        <item quantity="few">A apărut o eroare la mutarea fișierelor.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+    </plurals>
+    <plurals name="guestNumber">
+        <item quantity="other">%d de invitați</item>
+        <item quantity="one">%d invitat</item>
+        <item quantity="few">%d invitați</item>
+    </plurals>
+    <plurals name="make_shortcut_confirmation">
+        <item quantity="other">S-au adăugat %2$d de comenzi rapide în „%1$s”</item>
+        <item quantity="one">S-a adăugat o comandă rapidă în „%1$s”</item>
+        <item quantity="few">S-au adăugat %2$d comenzi rapide în „%1$s”</item>
+    </plurals>
+    <plurals name="make_shortcut_failure">
+        <item quantity="other">Nu se pot adăuga comenzi rapide. Încercați din nou.</item>
+        <item quantity="one">Nu se poate adăuga comanda rapidă. Încercați din nou.</item>
+        <item quantity="few">Nu se pot adăuga comenzi rapide. Încercați din nou.</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_dlp_detections">
+        <item quantity="other">Unele dintre fișierele care sunt mutate în „%1$s” au declanșat funcția de detectare pentru PPD. E posibil să existe informații confidențiale în aceste fișiere.</item>
+        <item quantity="one">Fișierul care este mutat în „%1$s” a declanșat funcția de detectare pentru PPD. E posibil să existe informații confidențiale în acest fișier.</item>
+        <item quantity="few">Unele dintre fișierele care sunt mutate în „%1$s” au declanșat funcția de detectare pentru PPD. E posibil să existe informații confidențiale în aceste fișiere.</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_generic">
+        <item quantity="other">Dacă mutați aceste articole, permisiunile se pot modifica</item>
+        <item quantity="one">Dacă mutați acest articol, permisiunile se pot modifica</item>
+        <item quantity="few">Dacă mutați aceste articole, permisiunile se pot modifica</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_people_lose">
+        <item quantity="other">Persoanele care pot vedea „ %1$s\" nu vor mai avea acces decât dacă aceste articole le sunt trimise direct</item>
+        <item quantity="one">Persoanele care pot vedea „ %1$s\" nu vor mai avea acces decât dacă acest articol le este trimis direct</item>
+        <item quantity="few">Persoanele care pot vedea „ %1$s\" nu vor mai avea acces decât dacă aceste articole le sunt trimise direct</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_within_shared_drive">
+        <item quantity="other">Dacă mutați aceste articole într-un drive în comun, permisiunile se pot modifica</item>
+        <item quantity="one">Dacă mutați acest articol într-un drive în comun, permisiunile se pot modifica</item>
+        <item quantity="few">Dacă mutați aceste articole într-un drive în comun, permisiunile se pot modifica</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_title_generic">
+        <item quantity="other">Mutați articolele?</item>
+        <item quantity="one">Mutați articolul?</item>
+        <item quantity="few">Mutați articolele?</item>
+    </plurals>
+    <plurals name="move_error_no_permission_move_children_out_of_td_updated">
+        <item quantity="other">Nu aveți permisiunea de a muta unele elemente din drive-ul lor în comun.</item>
+        <item quantity="one">Nu aveți permisiunea de a muta acest element din drive-ul său în comun.</item>
+        <item quantity="few">Nu aveți permisiunea de a muta unele elemente din drive-ul lor în comun.</item>
+    </plurals>
+    <plurals name="move_error_no_permission_src">
+        <item quantity="other">Nu aveți permisiunea de a muta unele articole din dosarul lor.</item>
+        <item quantity="one">Nu aveți permisiunea de a muta acest articol din dosarul său.</item>
+        <item quantity="few">Nu aveți permisiunea de a muta unele articole din dosarul lor.</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Nu puteți muta aceste fișiere deoarece proprietarul acestora este în afara domeniului %1$s.</item>
+        <item quantity="one">Nu puteți muta acest fișier deoarece proprietarul acestuia este în afara domeniului %1$s.</item>
+        <item quantity="few">Nu puteți muta aceste fișiere deoarece proprietarul acestora este în afara domeniului %1$s.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive">
+        <item quantity="other">%1$s „%2$s” le poate accesa acum.</item>
+        <item quantity="one">%1$s „%2$s” îl poate accesa acum.</item>
+        <item quantity="few">%1$s „%2$s” le poate accesa acum.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive_fallback_updated">
+        <item quantity="other">%1$d de articole au fost mutate în drive-ul în comun. Acum, membrii le pot accesa.</item>
+        <item quantity="one">Un articol a fost mutat în drive-ul în comun. Acum, membrii îl pot accesa.</item>
+        <item quantity="few">%1$d articole au fost mutate în drive-ul în comun. Acum, membrii le pot accesa.</item>
+    </plurals>
+    <plurals name="move_notice_lost_access_team_drives_plural_updated">
+        <item quantity="other">%1$d de elemente au fost mutate din drive-ul în comun. Membrii nu mai au acces.</item>
+        <item quantity="one">%1$d element a fost mutat din drive-ul în comun. Membrii nu mai au acces.</item>
+        <item quantity="few">%1$d elemente au fost mutate din drive-ul în comun. Membrii nu mai au acces.</item>
+    </plurals>
+    <plurals name="move_to_trash_confirmation_dialog">
+        <item quantity="other">%1$d de articole vor fi șterse definitiv după 30 de zile. %3$s</item>
+        <item quantity="one">„%2$s” va fi șters definitiv după 30 de zile. %3$s</item>
+        <item quantity="few">%1$d articole vor fi șterse definitiv după 30 de zile. %3$s</item>
+    </plurals>
+    <plurals name="moved_to_trash_toast">
+        <item quantity="other">%1$d de articole au fost mutate în coșul de gunoi. %3$s</item>
+        <item quantity="one">%2$s a fost mutat în coșul de gunoi. %3$s</item>
+        <item quantity="few">%1$d articole au fost mutate în coșul de gunoi. %3$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="multiselect_item_count_toolbar_title">
+        <item quantity="other">%1$d de articole</item>
+        <item quantity="one">%1$d articol</item>
+        <item quantity="few">%1$d articole</item>
+    </plurals>
+    <plurals name="notification_completed_pin_title">
+        <item quantity="other">%1$d de fișiere sunt acum disponibile offline</item>
+        <item quantity="one">Un fișier este acum disponibil offline</item>
+        <item quantity="few">%1$d fișiere sunt acum disponibile offline</item>
+    </plurals>
+    <plurals name="notification_failed_pin_title">
+        <item quantity="other">%1$d de fișiere nu pot fi disponibile offline</item>
+        <item quantity="one">Un fișier nu poate fi disponibil offline</item>
+        <item quantity="few">%1$d fișiere nu pot fi disponibile offline</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title">
+        <item quantity="other">%1$d de fișiere devin disponibile offline</item>
+        <item quantity="one">Un fișier devine disponibil offline</item>
+        <item quantity="few">%1$d fișiere devin disponibile offline</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title_with_bytes">
+        <item quantity="other">%1$d de fișiere devin disponibile offline (%2$s)</item>
+        <item quantity="one">Un fișier devine disponibil offline (%2$s)</item>
+        <item quantity="few">%1$d fișiere devin disponibile offline (%2$s)</item>
+    </plurals>
+    <plurals name="notification_partially_failed_pin_title">
+        <item quantity="other">%1$d din %2$d de fișiere nu pot fi disponibile offline</item>
+        <item quantity="one">Unul din %2$d fișiere nu poate fi disponibil offline</item>
+        <item quantity="few">%1$d din %2$d fișiere nu pot fi disponibile offline</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title">
+        <item quantity="other">Setarea a %1$d din %2$d de fișiere ca disponibile offline a fost întreruptă</item>
+        <item quantity="one">Setarea unui fișier din %2$d ca disponibil offline a fost întreruptă</item>
+        <item quantity="few">Setarea a %1$d din %2$d fișiere ca disponibile offline a fost întreruptă</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title_with_bytes">
+        <item quantity="other">Setarea a %1$d din %2$d de fișiere ca disponibile offline a fost întreruptă (%3$s)</item>
+        <item quantity="one">Setarea unui fișier din %2$d ca disponibil offline a fost întreruptă (%3$s)</item>
+        <item quantity="few">Setarea a %1$d din %2$d fișiere ca disponibile offline a fost întreruptă (%3$s)</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title">
+        <item quantity="other">Ați întrerupt punerea la dispoziție offline a %1$d de fișiere</item>
+        <item quantity="one">Ați întrerupt punerea la dispoziție offline a unui fișier</item>
+        <item quantity="few">Ați întrerupt punerea la dispoziție offline a %1$d fișiere</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title_with_bytes">
+        <item quantity="other">Ați întrerupt punerea la dispoziție offline a %1$d de fișiere (%2$s)</item>
+        <item quantity="one">Ați întrerupt punerea la dispoziție offline a unui fișier (%2$s)</item>
+        <item quantity="few">Ați întrerupt punerea la dispoziție offline a %1$d fișiere (%2$s)</item>
+    </plurals>
+    <plurals name="number_of_approvers">
+        <item quantity="other">%1$d de aprobatori</item>
+        <item quantity="one">Un aprobator</item>
+        <item quantity="few">%1$d aprobatori</item>
+    </plurals>
+    <plurals name="permanently_delete_confirmation_message">
+        <item quantity="other">Vor fi șterse definitiv %1$d de articole. Această acțiune nu poate fi anulată.</item>
+        <item quantity="one">„%2$s” va fi șters definitiv. Această acțiune nu poate fi anulată.</item>
+        <item quantity="few">Vor fi șterse definitiv %1$d articole. Această acțiune nu poate fi anulată.</item>
+    </plurals>
+    <plurals name="permanently_deleted">
+        <item quantity="other">Articolele au fost șterse definitiv</item>
+        <item quantity="one">Articolul a fost șters definitiv</item>
+        <item quantity="few">Articolele au fost șterse definitiv</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed">
+        <item quantity="other">%1$d din %2$s sunt disponibile acum offline</item>
+        <item quantity="one">%1$d din %2$s este disponibil acum offline</item>
+        <item quantity="few">%1$d din %2$s sunt disponibile acum offline</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed_all">
+        <item quantity="other">Toate cele %1$d de fișiere sunt disponibile acum offline</item>
+        <item quantity="one">%1$d fișier este disponibil acum offline</item>
+        <item quantity="few">Toate cele %1$d fișiere sunt disponibile acum offline</item>
+    </plurals>
+    <plurals name="pin_notification_sync_failure">
+        <item quantity="other">Fișierele nu pot fi făcute disponibile offline</item>
+        <item quantity="one">Fișierul nu poate fi făcut disponibil offline</item>
+        <item quantity="few">Fișierele nu pot fi făcute disponibile offline</item>
+    </plurals>
+    <plurals name="pin_notification_sync_progress">
+        <item quantity="other">%1$d de fișiere devin disponibile offline</item>
+        <item quantity="one">%1$d fișier devine disponibil offline</item>
+        <item quantity="few">%1$d fișiere devin disponibile offline</item>
+    </plurals>
+    <plurals name="pin_notification_sync_queued_files">
+        <item quantity="other">%1$d de fișiere</item>
+        <item quantity="one">%1$d fișier</item>
+        <item quantity="few">%1$d fișiere</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_network_ticker">
+        <item quantity="other">Descărcările au fost întrerupte. Se așteaptă conectarea la rețea…</item>
+        <item quantity="one">Descărcarea a fost întreruptă. Se așteaptă conectarea la rețea…</item>
+        <item quantity="few">Descărcările au fost întrerupte. Se așteaptă conectarea la rețea…</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_title">
+        <item quantity="other">%1$d de descărcări au fost întrerupte</item>
+        <item quantity="one">%1$d descărcare a fost întreruptă</item>
+        <item quantity="few">%1$d descărcări au fost întrerupte</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_wifi_ticker">
+        <item quantity="other">Descărcările au fost întrerupte. Se așteaptă conexiunea la rețeaua Wi-Fi…</item>
+        <item quantity="one">Descărcarea a fost întreruptă. Se așteaptă conectarea la rețeaua Wi-Fi…</item>
+        <item quantity="few">Descărcările au fost întrerupte. Se așteaptă conexiunea la rețeaua Wi-Fi…</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d de notificări noi</item>
+        <item quantity="one">Aveți o notificare</item>
+        <item quantity="few">%1$d notificări noi</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_many_users">
+        <item quantity="other">Au comentat la %1$d de fișiere</item>
+        <item quantity="one">Au comentat la un fișier</item>
+        <item quantity="few">Au comentat la %1$d fișiere</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_one_user">
+        <item quantity="other">A comentat la %1$d de fișiere</item>
+        <item quantity="one">A comentat la un fișier</item>
+        <item quantity="few">A comentat la %1$d fișiere</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_this_file">
+        <item quantity="other">Au comentat la acest fișier</item>
+        <item quantity="one">Au comentat la acest fișier</item>
+        <item quantity="few">Au comentat la acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_many_users">
+        <item quantity="other">Au creat %1$d de articole</item>
+        <item quantity="one">Au creat un articol</item>
+        <item quantity="few">Au creat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_one_user">
+        <item quantity="other">A creat %1$d de articole</item>
+        <item quantity="one">A creat un articol</item>
+        <item quantity="few">A creat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_file">
+        <item quantity="other">A creat acest fișier</item>
+        <item quantity="one">A creat acest fișier</item>
+        <item quantity="few">A creat acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_folder">
+        <item quantity="other">A creat acest dosar</item>
+        <item quantity="one">A creat acest dosar</item>
+        <item quantity="few">A creat acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_many_users">
+        <item quantity="other">Au editat %1$d de articole</item>
+        <item quantity="one">Au editat un articol</item>
+        <item quantity="few">Au editat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_one_user">
+        <item quantity="other">A editat %1$d de articole</item>
+        <item quantity="one">A editat un articol</item>
+        <item quantity="few">A editat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_this_file">
+        <item quantity="other">Au făcut modificări la acest fișier</item>
+        <item quantity="one">Au făcut modificări la acest fișier</item>
+        <item quantity="few">Au făcut modificări la acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_empty_trash">
+        <item quantity="other">A șters definitiv %1$d de articole</item>
+        <item quantity="one">A șters definitiv un articol</item>
+        <item quantity="few">A șters definitiv %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_many_users">
+        <item quantity="other">Au mutat %1$d de articole în:</item>
+        <item quantity="one">Au mutat un articol în:</item>
+        <item quantity="few">Au mutat %1$d articole în:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_one_user">
+        <item quantity="other">A mutat %1$d de articole în:</item>
+        <item quantity="one">A mutat un articol în:</item>
+        <item quantity="few">A mutat %1$d articole în:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_many_users">
+        <item quantity="other">Au mutat %1$d de articole</item>
+        <item quantity="one">Au mutat un articol</item>
+        <item quantity="few">Au mutat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_one_user">
+        <item quantity="other">A mutat %1$d de articole</item>
+        <item quantity="one">A mutat un articol</item>
+        <item quantity="few">A mutat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file">
+        <item quantity="other">Au mutat acest fișier</item>
+        <item quantity="one">Au mutat acest fișier</item>
+        <item quantity="few">Au mutat acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file_extra">
+        <item quantity="other">Au mutat acest fișier în:</item>
+        <item quantity="one">Au mutat acest fișier în:</item>
+        <item quantity="few">Au mutat acest fișier în:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder">
+        <item quantity="other">Au mutat acest dosar</item>
+        <item quantity="one">Au mutat acest dosar</item>
+        <item quantity="few">Au mutat acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder_extra">
+        <item quantity="other">Au mutat acest dosar în:</item>
+        <item quantity="one">Au mutat acest dosar în:</item>
+        <item quantity="few">Au mutat acest dosar în:</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_many_users">
+        <item quantity="other">Au redenumit %1$d de articole</item>
+        <item quantity="one">Au redenumit un articol</item>
+        <item quantity="few">Au redenumit %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_one_user">
+        <item quantity="other">A redenumit %1$d de articole</item>
+        <item quantity="one">A redenumit un articol</item>
+        <item quantity="few">A redenumit %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_file">
+        <item quantity="other">Au redenumit acest fișier</item>
+        <item quantity="one">Au redenumit acest fișier</item>
+        <item quantity="few">Au redenumit acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_folder">
+        <item quantity="other">Au redenumit acest dosar</item>
+        <item quantity="one">Au redenumit acest dosar</item>
+        <item quantity="few">Au redenumit acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_one_or_many_users">
+        <item quantity="other">S-au restabilit %1$d de articole</item>
+        <item quantity="one">S-a restabilit un articol</item>
+        <item quantity="few">S-au restabilit %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_file">
+        <item quantity="other">S-au restabilit aceste fișiere</item>
+        <item quantity="one">S-a restabilit acest fișier</item>
+        <item quantity="few">S-au restabilit aceste fișiere</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_folder">
+        <item quantity="other">S-au restabilit aceste dosare</item>
+        <item quantity="one">S-a restabilit acest dosar</item>
+        <item quantity="few">S-au restabilit aceste dosare</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_applied_one_or_many_users">
+        <item quantity="other">S-a aplicat o actualizare de securitate pentru %1$d de articole</item>
+        <item quantity="one">S-a aplicat o actualizare de securitate</item>
+        <item quantity="few">S-a aplicat o actualizare de securitate pentru %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_removed_one_or_many_users">
+        <item quantity="other">S-a eliminat o actualizare de securitate din %1$d de articole</item>
+        <item quantity="one">S-a eliminat o actualizare de securitate</item>
+        <item quantity="few">S-a eliminat o actualizare de securitate din %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_many_users">
+        <item quantity="other">Au trimis %1$d de articole</item>
+        <item quantity="one">Au trimis un articol</item>
+        <item quantity="few">Au trimis %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_one_user">
+        <item quantity="other">A trimis %1$d de articole</item>
+        <item quantity="one">A trimis un articol</item>
+        <item quantity="few">A trimis %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_file">
+        <item quantity="other">Au trimis acest fișier</item>
+        <item quantity="one">Au trimis acest fișier</item>
+        <item quantity="few">Au trimis acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_folder">
+        <item quantity="other">Au trimis acest dosar</item>
+        <item quantity="one">Au trimis acest dosar</item>
+        <item quantity="few">Au trimis acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_type_system_migrated">
+        <item quantity="other">Migrate</item>
+        <item quantity="one">Migrat</item>
+        <item quantity="few">Migrate</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_many_users">
+        <item quantity="other">Au mutat %1$d de articole în coșul de gunoi</item>
+        <item quantity="one">Au mutat un articol în coșul de gunoi</item>
+        <item quantity="few">Au mutat %1$d articole în coșul de gunoi</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_one_user">
+        <item quantity="other">A mutat %1$d de articole în coșul de gunoi</item>
+        <item quantity="one">A mutat un articol în coșul de gunoi</item>
+        <item quantity="few">A mutat %1$d articole în coșul de gunoi</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_file">
+        <item quantity="other">Au eliminat acest fișier</item>
+        <item quantity="one">Au eliminat acest fișier</item>
+        <item quantity="few">Au eliminat acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_folder">
+        <item quantity="other">Au eliminat acest dosar</item>
+        <item quantity="one">Au eliminat acest dosar</item>
+        <item quantity="few">Au eliminat acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_many_users">
+        <item quantity="other">Au încărcat %1$d de articole</item>
+        <item quantity="one">Au încărcat un articol</item>
+        <item quantity="few">Au încărcat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_one_user">
+        <item quantity="other">A încărcat %1$d de articole</item>
+        <item quantity="one">A încărcat un articol</item>
+        <item quantity="few">A încărcat %1$d articole</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_file">
+        <item quantity="other">Au încărcat acest fișier</item>
+        <item quantity="one">Au încărcat acest fișier</item>
+        <item quantity="few">Au încărcat acest fișier</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_folder">
+        <item quantity="other">Au încărcat acest dosar</item>
+        <item quantity="one">Au încărcat acest dosar</item>
+        <item quantity="few">Au încărcat acest dosar</item>
+    </plurals>
+    <plurals name="recent_activity_users_more">
+        <item quantity="other">%1$s și încă %2$d de persoane</item>
+        <item quantity="one">%1$s și încă o persoană.</item>
+        <item quantity="few">%1$s și încă %2$d persoane</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_files_text">
+        <item quantity="other">%1$d de fișiere vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+        <item quantity="one">Acest fișier va fi mutat în Coșul de gunoi din „%2$s” și șters definitiv după 30 de zile.</item>
+        <item quantity="few">%1$d fișiere vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_folders_text">
+        <item quantity="other">%1$d de dosare vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+        <item quantity="one">Dosarul va fi mutat în Coșul de gunoi din „%2$s” și șters definitiv după 30 de zile.</item>
+        <item quantity="few">%1$d dosare vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_items_text">
+        <item quantity="other">%1$d de articole vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+        <item quantity="one">Articolul va fi mutat în Coșul de gunoi din „%2$s” și șters definitiv după 30 de zile.</item>
+        <item quantity="few">%1$d articole vor fi mutate în Coșul de gunoi din „%2$s” și șterse definitiv după 30 de zile.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
+        <item quantity="other">Aceste %1$d de fișiere vor fi șterse definitiv pentru toată lumea. Nu puteți anula această acțiune.</item>
+        <item quantity="one">Acest fișier va fi șters definitiv pentru toată lumea. Nu puteți anula această acțiune.</item>
+        <item quantity="few">Aceste %1$d fișiere vor fi șterse definitiv pentru toată lumea. Nu puteți anula această acțiune.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Aceste %1$d de fișiere vor fi șterse definitiv. Nu puteți anula această acțiune.</item>
+        <item quantity="one">Acest fișier va fi șters definitiv. Nu puteți anula această acțiune.</item>
+        <item quantity="few">Aceste %1$d fișiere vor fi șterse definitiv. Nu puteți anula această acțiune.</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog">
+        <item quantity="other">%1$d de articole nu se vor mai afișa. %3$s</item>
+        <item quantity="one">„%2$s” nu se va mai afișa. %3$s</item>
+        <item quantity="few">%1$d articole nu se vor mai afișa. %3$s</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog_title">
+        <item quantity="other">Eliminați elementele?</item>
+        <item quantity="one">Eliminați %1$s?</item>
+        <item quantity="few">Eliminați elementele?</item>
+    </plurals>
+    <plurals name="remove_multiple_confirmation_dialog">
+        <item quantity="other">%1$d de articole vor fi mutate în coșul de gunoi și șterse definitiv după 30 de zile. %3$s</item>
+        <item quantity="one">„%2$s” va fi mutat în coșul de gunoi și șters definitiv după 30 de zile. %3$s</item>
+        <item quantity="few">%1$d articole vor fi mutate în coșul de gunoi și șterse definitiv după 30 de zile. %3$s</item>
+    </plurals>
+    <plurals name="remove_multiple_entry_confirmation_dialog_message">
+        <item quantity="other">%1$d de articole vor fi șterse definitiv după 30 de zile</item>
+        <item quantity="one">„%1$s” va fi șters definitiv după 30 de zile</item>
+        <item quantity="few">%1$d articole vor fi șterse definitiv după 30 de zile</item>
+    </plurals>
+    <plurals name="removed_toast">
+        <item quantity="other">%1$d de articole au fost eliminate. %3$s</item>
+        <item quantity="one">S-a eliminat %2$s. %3$s</item>
+        <item quantity="few">%1$d articole au fost eliminate. %3$s</item>
+    </plurals>
+    <plurals name="selection_floating_handle_count">
+        <item quantity="other">%1$d de articole</item>
+        <item quantity="one">%1$d articol</item>
+        <item quantity="few">%1$d articole</item>
+    </plurals>
+    <plurals name="selection_message_pin_num_items">
+        <item quantity="other">Fișierele vor fi disponibile offline</item>
+        <item quantity="one">Fișierul va fi disponibil offline</item>
+        <item quantity="few">Fișierele vor fi disponibile offline</item>
+    </plurals>
+    <plurals name="selection_message_star_num_items">
+        <item quantity="other">%1$d de art. au fost marcate cu stea</item>
+        <item quantity="one">Un articol a fost marcat cu stea</item>
+        <item quantity="few">%1$d articole au fost marcate cu stea</item>
+    </plurals>
+    <plurals name="selection_message_unpin_num_items">
+        <item quantity="other">Fișierele nu vor mai fi disponibile offline</item>
+        <item quantity="one">Fișierul nu va mai fi disponibil offline</item>
+        <item quantity="few">Fișierele nu vor mai fi disponibile offline</item>
+    </plurals>
+    <plurals name="selection_message_unstar_num_items">
+        <item quantity="other">Stea anulată pentru %1$d de articole</item>
+        <item quantity="one">Stea anulată pentru un articol</item>
+        <item quantity="few">Stea anulată pentru %1$d articole</item>
+    </plurals>
+    <plurals name="selection_message_untrash_num_items">
+        <item quantity="other">%1$d de articole restabilite</item>
+        <item quantity="one">Un articol restabilit</item>
+        <item quantity="few">%1$d articole restabilite</item>
+    </plurals>
+    <plurals name="selection_undo_complete_message_remove_num_items">
+        <item quantity="other">%1$d de articole restabilite</item>
+        <item quantity="one">Un articol restabilit</item>
+        <item quantity="few">%1$d articole restabilite</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message">
+        <item quantity="other">%1$d de articole au fost eliminate din „%2$s”</item>
+        <item quantity="one">Un articol a fost eliminat din „%2$s”</item>
+        <item quantity="few">%1$d articole au fost eliminate din „%2$s”</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message_fallback">
+        <item quantity="other">%1$d de articole au fost eliminate din dosar</item>
+        <item quantity="one">Un articol a fost eliminat din dosar</item>
+        <item quantity="few">%1$d articole au fost eliminate din dosar</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_trashed_message">
+        <item quantity="other">%1$d de articole au fost eliminate</item>
+        <item quantity="one">Un articol a fost eliminat</item>
+        <item quantity="few">%1$d articole au fost eliminate</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_message">
+        <item quantity="other">%1$d de articole au fost mutate înapoi</item>
+        <item quantity="one">Un articol a fost mutat înapoi</item>
+        <item quantity="few">%1$d articole au fost mutate înapoi</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_trashed_message">
+        <item quantity="other">%1$d articole au fost mutate înapoi în coșul de gunoi</item>
+        <item quantity="one">Un articol a fost mutat înapoi în coșul de gunoi</item>
+        <item quantity="few">%1$d articole au fost mutate înapoi în coșul de gunoi</item>
+    </plurals>
+    <plurals name="selection_undo_message_remove_num_items">
+        <item quantity="other">%1$d de articole au fost eliminate</item>
+        <item quantity="one">Un articol a fost eliminat</item>
+        <item quantity="few">%1$d articole au fost eliminate</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d de articole au fost adăugate în „%2$s”</item>
+        <item quantity="one">Un articol a fost adăugat în „%2$s”</item>
+        <item quantity="few">%1$d articole au fost adăugate în „%2$s”</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message_fallback">
+        <item quantity="other">%1$d de articole adăugate</item>
+        <item quantity="one">Un articol adăugat</item>
+        <item quantity="few">%1$d articole adăugate</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d de articole restabilite și adăugate în „%2$s”</item>
+        <item quantity="one">Un articol restabilit și adăugat în „%2$s”</item>
+        <item quantity="few">%1$d articole restabilite și adăugate în „%2$s”</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d de articole au fost mutate în „%2$s”.</item>
+        <item quantity="one">Un articol a fost mutat în „%2$s”.</item>
+        <item quantity="few">%1$d articole au fost mutate în „%2$s”.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message_fallback">
+        <item quantity="other">%1$d de articole mutate</item>
+        <item quantity="one">Un articol mutat</item>
+        <item quantity="few">%1$d articole mutate</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d de articole au fost restabilite și mutate în „%2$s”.</item>
+        <item quantity="one">Un articol a fost restabilit și mutat în „%2$s”.</item>
+        <item quantity="few">%1$d articole au fost restabilite și mutate în „%2$s”.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message_fallback">
+        <item quantity="other">%1$d de articole restabilite</item>
+        <item quantity="one">Un articol restabilit</item>
+        <item quantity="few">%1$d articole restabilite</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d de articole au fost restabilite în „%2$s”.</item>
+        <item quantity="one">Un articol a fost restabilit în „%2$s”.</item>
+        <item quantity="few">%1$d articole au fost restabilite în „%2$s”.</item>
+    </plurals>
+    <plurals name="send_files">
+        <item quantity="other">Trimiteți fișierele cu</item>
+        <item quantity="one">Trimiteți fișierul cu</item>
+        <item quantity="few">Trimiteți fișierele cu</item>
+    </plurals>
+    <plurals name="sharing_people_added">
+        <item quantity="other">Au fost adăugate persoane</item>
+        <item quantity="one">A fost adăugată o persoană</item>
+        <item quantity="few">Au fost adăugate persoane</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d de stele din %2$d</item>
+        <item quantity="one">%1$d stea din %2$d</item>
+        <item quantity="few">%1$d stele din %2$d</item>
+    </plurals>
+    <plurals name="teamdrive_acl_info_summary">
+        <item quantity="other">%d de membri</item>
+        <item quantity="one">Un membru</item>
+        <item quantity="few">%d membri</item>
+    </plurals>
+    <plurals name="teamdrive_group_count">
+        <item quantity="other">%d de grupuri</item>
+        <item quantity="one">Un grup</item>
+        <item quantity="few">%d grupuri</item>
+    </plurals>
+    <plurals name="teamdrive_people_count">
+        <item quantity="other">%d de persoane</item>
+        <item quantity="one">O persoană</item>
+        <item quantity="few">%d persoane</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_resume">
+        <item quantity="other">Reluați-le pe toate acum</item>
+        <item quantity="one">Reluați acum</item>
+        <item quantity="few">Reluați-le pe toate acum</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_all_failed">
+        <item quantity="other">%1$d de fișiere neîncărcate</item>
+        <item quantity="one">Un fișier neîncărcat</item>
+        <item quantity="few">%1$d fișiere neîncărcate</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_successfully">
+        <item quantity="other">S-au încărcat %1$d de fișiere</item>
+        <item quantity="one">S-a încărcat un fișier</item>
+        <item quantity="few">S-au încărcat %1$d fișiere</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_progress">
+        <item quantity="other">Se încarcă %1$d de fișiere</item>
+        <item quantity="one">Se încarcă un fișier</item>
+        <item quantity="few">Se încarcă %1$d fișiere</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_partial_title">
+        <item quantity="other">%1$d din %2$d de încărcări au fost întrerupte</item>
+        <item quantity="one">O încărcare din %2$d a fost întreruptă</item>
+        <item quantity="few">%1$d din %2$d încărcări au fost întrerupte</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_title">
+        <item quantity="other">%1$d de încărcări întrerupte</item>
+        <item quantity="one">O încărcare întreruptă</item>
+        <item quantity="few">%1$d încărcări întrerupte</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_canceled">
+        <item quantity="other">S-a anulat încărcarea pentru %1$d de fișiere.</item>
+        <item quantity="one">S-a anulat încărcarea pentru %1$d fișier.</item>
+        <item quantity="few">S-a anulat încărcarea pentru %1$d fișiere.</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_failures">
+        <item quantity="other">%1$d de fișiere nu au putut fi programate pentru încărcare.</item>
+        <item quantity="one">%1$d fișier nu a putut fi programat pentru încărcare.</item>
+        <item quantity="few">%1$d fișiere nu au putut fi programate pentru încărcare.</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_successfully">
+        <item quantity="other">%1$d de fișiere încărcate</item>
+        <item quantity="one">%1$d fișier încărcat</item>
+        <item quantity="few">%1$d fișiere încărcate</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_with_failures">
+        <item quantity="other">%1$d din %2$d de fișiere nu s-a(u) încărcat</item>
+        <item quantity="one">%1$d din %2$d fișier nu s-a încărcat</item>
+        <item quantity="few">%1$d din %2$d fișiere nu s-a(u) încărcat</item>
+    </plurals>
+    <plurals name="upload_notification_sync_progress">
+        <item quantity="other">Se încarcă %1$d de fișiere</item>
+        <item quantity="one">Se încarcă %1$d fișier</item>
+        <item quantity="few">Se încarcă %1$d fișiere</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_network_ticker">
+        <item quantity="other">Încărcările au fost întrerupte. Se așteaptă conectarea la rețea…</item>
+        <item quantity="one">Încărcarea a fost întreruptă. Se așteaptă conectarea la rețea…</item>
+        <item quantity="few">Încărcările au fost întrerupte. Se așteaptă conectarea la rețea…</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_title">
+        <item quantity="other">%1$d de încărcări întrerupte</item>
+        <item quantity="one">%1$d încărcare întreruptă</item>
+        <item quantity="few">%1$d încărcări întrerupte</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_wifi_ticker">
+        <item quantity="other">Încărcările au fost întrerupte. Se așteaptă conectarea la rețeaua Wi-Fi…</item>
+        <item quantity="one">Încărcarea a fost întreruptă, se așteaptă rețeaua Wi-Fi…</item>
+        <item quantity="few">Încărcările au fost întrerupte. Se așteaptă conectarea la rețeaua Wi-Fi…</item>
+    </plurals>
+    <plurals name="upload_spinner_message">
+        <item quantity="other">Se pregătește încărcarea pentru %1$d de fișiere</item>
+        <item quantity="one">Se pregătește încărcarea pentru %1$d fișier</item>
+        <item quantity="few">Se pregătește încărcarea pentru %1$d fișiere</item>
+    </plurals>
+    <plurals name="upload_toast_message">
+        <item quantity="other">Se încarcă %1$d de fișiere în: %2$s</item>
+        <item quantity="one">Se încarcă %1$d fișier în: %2$s</item>
+        <item quantity="few">Se încarcă %1$d fișiere în: %2$s</item>
+    </plurals>
+    <plurals name="view_workspace_files">
+        <item quantity="other">Afișați %1$d de fișiere</item>
+        <item quantity="one">Afișați %1$d fișier</item>
+        <item quantity="few">Afișați %1$d fișiere</item>
+    </plurals>
+    <plurals name="view_workspace_files_content_desc">
+        <item quantity="other">Afișați toate cele %1$d de fișiere din %2$s</item>
+        <item quantity="one">Afișați %1$d fișier din %2$s</item>
+        <item quantity="few">Afișați toate cele %1$d fișiere din %2$s</item>
+    </plurals>
+</resources>

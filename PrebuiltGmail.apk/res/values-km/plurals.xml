@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s បាន​បញ្ចូល %2$s</item>
+        <item quantity="one">%1$s បាន​បញ្ចូល %2$s</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">ពួកគាត់​មិន​មែន​ជា​សមាជិក​របស់​ស្ថាប័ន Google Workspace ដែល​មាន​បន្ទប់​នេះ​ជា​កម្មសិទ្ធិ​ទេ។</item>
+        <item quantity="one">គាត់​មិន​មែន​ជា​សមាជិក​របស់​ស្ថាប័ន Google Workspace ដែល​មាន​បន្ទប់​នេះ​ជា​កម្មសិទ្ធិ​ទេ។</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">មនុស្ស​មួយ​ចំនួន​មិន​មែន​ជា​សមាជិក​របស់​ស្ថាប័ន Google Workspace ដែល​មាន​បន្ទប់​នេះ​ជា​កម្មសិទ្ធិ​ទេ។</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">សមាជិក %d នាក់</item>
+        <item quantity="one">សមាជិក %d នាក់</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">សារ​ថ្មី %s</item>
+        <item quantity="one">សារ​ថ្មី %s</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">មិន​អាច​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ​មួយ​ចំនួន​ទេ</item>
+        <item quantity="one">មិន​អាច​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ​ទេ</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">បាន​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ ហើយ​សារ​ត្រូវ​បាន​ត្រលប់​ទៅ​ជា​សេចក្ដី​ព្រាង​វិញ</item>
+        <item quantity="one">បាន​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ ហើយ​សារ​ត្រូវ​បាន​ត្រលប់​ទៅ​ជា​សេចក្ដី​ព្រាង​វិញ</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">បាន​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ %1$d ហើយ​សារ​ត្រូវ​បាន​ត្រលប់​ទៅ​ជា​សេចក្ដី​ព្រាង​វិញ</item>
+        <item quantity="one">បាន​បោះបង់​ការផ្ញើ​ដែល​បាន​កំណត់​កាល​វិភាគ ហើយ​សារ​ត្រូវ​បាន​ត្រលប់​ទៅ​ជា​សេចក្ដី​ព្រាង​វិញ</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">អ្នក​ទទួល %s នាក់</item>
+        <item quantity="one">អ្នកទទួល 1 នាក់</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">អ្នក​ទទួល ^1 នាក់ ​ប្រើប្រាស់​សេវាកម្មដែលមិន​ស្គាល់​ការ​​អ៊ិនគ្រិប​។ ដោយគ្មានការអ៊ិនគ្រីប អ្នកដទៃអាចមើលឃើញ​សាររបស់អ្នក​ក្នុងអំឡុងពេលបញ្ជូន។ ^2</item>
+        <item quantity="one">^1 ប្រើប្រាស់​សេវាកម្មដែលមិន​ស្គាល់​ការ​​អ៊ិនគ្រិប​។ ដោយគ្មានការអ៊ិនគ្រីប អ្នកដទៃអាចមើលឃើញ​សាររបស់អ្នក​ក្នុងអំឡុងពេលបញ្ជូន។ ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">^1 និង​គេហ​ទំព័រ​ផ្សេង​ទៀត​មិន​ស្គាល់​ការអ៊ីនគ្រីប​ទេ នៅ​ពេល​ផ្ញើ​សារ​នេះ។</item>
+        <item quantity="one">^1 មិន​ស្គាល់​ការអ៊ីនគ្រីប​ទេ នៅ​ពេល​ផ្ញើ​សារ​នេះ។</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">សារ​ដែលបាន​បង្រួម​ចំនួន %1$s</item>
+        <item quantity="one">សារ​ដែលបាន​បង្រួមចំនួន %1$s</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">វគ្គបំបែក​ជាក្រុម​នឹងបញ្ចប់ក្នុង​រយៈពេល %d នាទីទៀត។</item>
+        <item quantity="one">វគ្គបំបែក​ជាក្រុម​នឹងបញ្ចប់ក្នុង​រយៈពេល %d នាទីទៀត។</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">ការប្រជុំ​របស់​អ្នក​នឹង​បញ្ចប់​ក្នុង​រយៈ​ពេល %1$d នាទីទៀត</item>
+        <item quantity="one">ការប្រជុំរបស់អ្នកនឹងបញ្ចប់ក្នុងរយៈពេល %1$d នាទីទៀត</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">%d នាក់​ផ្សេង​ទៀត</item>
+        <item quantity="one">%d នាក់​ផ្សេង​ទៀត</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">%d នាក់​ទៀត</item>
+        <item quantity="one">%d នាក់​ទៀត</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">ទុក %1$d ​សន្ទនាទាំងនេះក្នុងប័ណ្ណសារ​?</item>
+        <item quantity="one">ទុក​សន្ទនា​​នេះ​ក្នុង​ប័ណ្ណសារ​​​​?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">លុប​ទាំង %1$d ​សន្ទនានេះ​?</item>
+        <item quantity="one">លុប​​សន្ទនា​នេះ​​?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">លុបចោល​សេចក្ដី​ព្រាង​ពី​ការសន្ទនា​ទាំង %1$d នេះ​ឬ?</item>
+        <item quantity="one">លុបចោល​សេចក្ដី​ព្រាង​ពី​ការសន្ទនា​នេះ​ឬ?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បានដាក់ប័ណ្ណសារ</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បានដាក់ប័ណ្ណសារ</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បានលុប</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បានលុប</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">បាន​ប្ដូរ​ស្លាក។</item>
+        <item quantity="one">បាន​ប្ដូរ​ស្លាក។</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​សំខាន់​</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​សំខាន់</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">មាន​សារ​ដែល​បាន​លុប %1$d នៅ​ក្នុង​ការសន្ទនា​នេះ</item>
+        <item quantity="one">មាន​សារ​ដែល​បាន​លុប %1$d នៅ​ក្នុង​ការសន្ទនា​នេះ</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​ផ្លាស់ទី​ចូល​ប្រអប់​សារ</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​ផ្លាស់ទី​ចូល​ប្រអប់​សារ</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បានបិទសំឡេង</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បានបិទសំឡេង</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បានគូសសម្គាល់ថាមិនសំខាន់</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បានគូសសម្គាល់ថាមិនសំខាន់</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">បានរាយការណ៍ &lt;b>%1$d&lt;/b> ថាជាសារឥតបានការ</item>
+        <item quantity="one">បានរាយការណ៍ &lt;b>%1$d&lt;/b> ថាជាសារឥតបានការ</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​បាន​អាន</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​បាន​អាន</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បាន​ផ្អាក​រហូត​ដល់ %2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បាន​ផ្អាក​រហូត​ដល់ %2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">បានរាយការណ៍ &lt;b>%1$d&lt;/b> ថាជាសារឥតបានការ</item>
+        <item quantity="one">បានរាយការណ៍ &lt;b>%1$d&lt;/b> ថាជាសារឥតបានការ</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d ត្រូវបានរាយការណ៍​ថា​ជា​សារ​ឥត​បាន​ការ ​និងឈប់​ជា​វ</item>
+        <item quantity="one">​ %1$d ត្រូវបានរាយការណ៍ថា​ជា​សារ​ឥត​បាន​ការ ​និងឈប់​ជា​វ</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">ដាក់​ផ្កាយ​លើ​ការសន្ទនា %1$d</item>
+        <item quantity="one">ដាក់​ផ្កាយ​លើ​ការសន្ទនា %1$d</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​មិន​ទាន់​អាន</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ត្រូវ​បាន​សម្គាល់​ថា​មិន​ទាន់​អាន</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> បាន​ឈប់​ផ្អាក</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> បាន​ឈប់​ផ្អាក</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">ការដកផ្កាយ %1$d សន្ទនា។</item>
+        <item quantity="one">ការដកផ្កាយ %1$d សន្ទនា។</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d ត្រូវ​បាន​រាយការណ៍​ថា​បាន​ឈប់​ជាវ</item>
+        <item quantity="one">%1$d ត្រូវ​បាន​រាយការណ៍​ថា​បាន​ឈប់​ជាវ</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">រៀងរាល់ %d ថ្ងៃ</item>
+        <item quantity="one">ប្រចាំ​ថ្ងៃ</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">%1$s ត្រូវបាន​បិទដោយអ្នក​អភិវឌ្ឍន៍បូត។</item>
+        <item quantity="one">%1$s ត្រូវបាន​បិទដោយអ្នក​អភិវឌ្ឍន៍បូត។</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">សារទាំងនេះនឹងត្រូវបានសម្គាល់ថាជាសារឥតបានការ។ តើអ្នកចង់បញ្ឈប់ទទួលសារស្រដៀងគ្នាផងដែរពី &lt;b>%2$d អ្នកផ្ញើ&lt;/b> ទាំងនេះឬ?%1$s</item>
+        <item quantity="one">សារនេះនឹងត្រូវបានសម្គាល់ថាជាសារឥតបានការ។ តើអ្នកចង់បញ្ឈប់ទទួលសារស្រដៀងគ្នាផងដែរពី %1$s ឬ?</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d ម៉ោង</item>
+        <item quantity="one">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d នាទី</item>
+        <item quantity="one">%d នាទី</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">ពង្រាង</item>
+        <item quantity="one">ពង្រាង</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">មិន​អាច​រួម​បញ្ចូល %1$s និង %2$d នាក់​ទៀត​នៅ​ក្នុង​ការជជែក​នេះ​បាន​ទេ</item>
+        <item quantity="one">មិន​អាច​រួម​បញ្ចូល %1$s នៅ​ក្នុង​ការជជែក​នេះ​បាន​ទេ</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">ការសន្ទនា %1$s នឹង​ត្រូវ​បាន​លុប​ជា​អចិន្ត្រៃយ៍</item>
+        <item quantity="one">ការសន្ទនា %1$s នឹង​ត្រូវ​បាន​លុប​ជា​អចិន្ត្រៃយ៍</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; សម្រាប់ %d ដង</item>
+        <item quantity="one">; សម្រាប់​មួយ​ដង</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">អ្នក​កំពុង​បញ្ចូល​ភ្ញៀវ​ខាង​ក្រៅ</item>
+        <item quantity="one">អ្នក​កំពុង​បញ្ចូល​ភ្ញៀវ​ខាង​ក្រៅ​ម្នាក់</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">]អ្នក​ទទួល​របស់​អ្នក​ប្រហែល​ជា​មិន​មាន​ការចូល​ដំណើរការ​ទៅ​ឯកសារ​ដែល​អ្នក​បាន​បញ្ចូល​ពីថាសឡើយ។ អ្នក​អាច​ត្រូវ​ការ​ចែក​រំលែក​ឯកសារ​នៅ​ពី​ក្នុង Google Drive។</item>
+        <item quantity="one">អ្នក​ទទួល​របស់​អ្នក​ប្រហែល​ជា​មិន​មាន​ការចូល​ដំណើរការ​ទៅ​ឯកសារ​ដែល​អ្នក​បាន​បញ្ចូល​ពីថាសឡើយ។ អ្នក​អាច​ត្រូវ​ការ​ចែក​រំលែក​ឯកសារ​នៅ​ពី​ក្នុង Google Drive។</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">អ្នក​ទទួល​របស់​អ្នក​ប្រហែល​ជា​មិន​មាន​សិទ្ធិ​ចូល​ប្រើប្រាស់​ឯកសារ​ដែល​អ្នក​បាន​បញ្ចូល​ពី​ថាស​ទេ។ អ្នក​ប្រហែល​ជា​ត្រូវ​ចែក​រំលែក​ឯកសារ​ពី​ក្នុង Google ថាស។</item>
+        <item quantity="one">អ្នក​ទទួល​របស់​អ្នក​ប្រហែល​ជា​មិន​មាន​សិទ្ធិ​ចូល​ប្រើប្រាស់​ឯកសារ​ដែល​អ្នក​បាន​បញ្ចូល​ពី​ថាស​ទេ។ អ្នក​ប្រហែល​ជា​ត្រូវ​ចែក​រំលែក​ឯកសារ​ពី​ក្នុង Google ថាស។</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">ចំណាំ៖ អ្នក​ទទួល​មួយចំនួន​អាច​នឹង​នៅ​តែ​មិន​មាន​ការចូល​ដំណើរការ​ទៅ​កាន់​ឯកសារ​នេះ​ទេ​។ អ្នក​អាច​ត្រូវ​ការ​ចែក​រំលែក​ឯកសារ​នេះ​ពី​ក្នុង Google Drive។</item>
+        <item quantity="one">ចំណាំ៖ អ្នក​ទទួល​មួយចំនួន​អាច​នឹង​នៅ​តែ​មិន​មាន​ការចូល​ដំណើរការ​ទៅ​កាន់​ឯកសារ​នេះ​ទេ​។ អ្នក​អាច​ត្រូវ​ការ​ចែក​រំលែក​ឯកសារ​នេះ​ពី​ក្នុង Google Drive។</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">ចំណាំ៖ អ្នក​ទទួល​មួយ​ចំនួន​ប្រហែល​ជា​នៅ​តែ​មិន​មាន​សិទ្ធិ​ចូល​ប្រើប្រាស់​ឯកសារ​ទាំង​នេះ​ទេ។ អ្នក​ប្រហែល​ជា​ត្រូវ​ចែក​រំលែក​ឯកសារ​ទាំង​នេះ​ពី​ក្នុង Google ថាស។</item>
+        <item quantity="one">ចំណាំ៖ អ្នក​ទទួល​មួយ​ចំនួន​ប្រហែល​ជា​នៅ​តែ​មិន​មាន​សិទ្ធិ​ចូល​ប្រើប្រាស់​ឯកសារ​នេះ​ទេ។ អ្នក​ប្រហែល​ជា​ត្រូវ​ចែក​រំលែក​ឯកសារ​នេះ​ពី​ក្នុង Google ថាស។</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">បញ្ហា៖ មិន​អាច​ចែក​រំលែក​ឯកសារ​ទាំង​នេះ​បាន​ទេ។</item>
+        <item quantity="one">បញ្ហា៖ មិន​អាច​ចែក​រំលែក​ឯកសារ​បាន​ទេ។</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"អ្នក​កំពុង​ចែករំលែក​ជាមួយ​អ្នក​ទទួល៖&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>ដែល​មិន​ស្ថិត​នៅ​ក្នុង​ស្ថាប័ន Google Workspace ដែល​ជា​ម្ចាស់​កម្មសិទ្ធិ​របស់​ឯកសារ​ទាំង​នេះ។"</item>
+        <item quantity="one">អ្នក​កំពុង​ចែករំលែក​ជាមួយ​អ្នក​ទទួល៖&lt;br>&lt;b>%1$s&lt;/b>&lt;br>ដែល​មិន​ស្ថិត​នៅ​ក្នុង​ស្ថាប័ន Google Workspace ដែល​ជា​ម្ចាស់​កម្មសិទ្ធិ​របស់​ឯកសារ​នេះ។</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">អ្នក​កំពុង​ចែក​រំលែក​ជាមួយ​អ្នក​ទទួល៖ %1$s ដែល​មិន​ស្ថិត​នៅ​ក្នុង​ស្ថាប័ន Google Workspace ដែល​មាន​ឯកសារ​ទាំង​នេះ​ជា​កម្មសិទ្ធិ​ទេ។</item>
+        <item quantity="one">អ្នក​កំពុង​ចែក​រំលែក​ជាមួយ​អ្នក​ទទួល៖ %1$s ដែល​មិន​ស្ថិត​នៅ​ក្នុង​ស្ថាប័ន Google Workspace ដែល​មាន​ឯកសារ​នេះ​ជា​កម្មសិទ្ធិ​ទេ។</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">អ្នកមាន​សារថ្មី %d នៅក្នុង​ប៊ូតុងសារថ្មី​ខាងក្រោម។</item>
+        <item quantity="one">អ្នកមាន​សារថ្មី %d នៅក្នុង​ប៊ូតុងសារថ្មី​ខាងក្រោម។</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">អ្នក​ទទួល ^1 នាក់​ប្រើប្រាស់​សេវា​ដែល​មិន​ស្គាល់​ការអ៊ីនគ្រីប។ ដោយ​គ្មាន​ការ​អ៊ីនគ្រីប សារ​របស់​អ្នក​អាច​ត្រូវ​បាន​គេ​អាន​ក្នុង​អំឡុង​ពេល​បញ្ជូន។ ^2</item>
+        <item quantity="one">^1 ប្រើប្រាស់​សេវា​ដែល​មិន​​ស្គាល់​ការ​​អ៊ីនគ្រីប​​ទេ។ ដោយ​គ្មាន​ការ​អ៊ីនគ្រីប សារ​របស់​អ្នក​អាច​ត្រូវ​បាន​គេ​អាន​ក្នុង​អំឡុង​ពេល​បញ្ជូន។ ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">សារ %d មិនត្រូវបាន​បង្ហាញទេ</item>
+        <item quantity="one">សារ %d មិនត្រូវបាន​បង្ហាញទេ</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d នាក់</item>
+        <item quantity="one">%d នាក់</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s បានអញ្ជើញ %2$s</item>
+        <item quantity="one">%1$s បានអញ្ជើញ %2$s</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">បន្ទប់​អញ្ជើញដែល​មិនបានមើលចំនួន %d</item>
+        <item quantity="one">បន្ទប់​អញ្ជើញដែល​មិនបានមើលចំនួន %d</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">ប៊ូតុង​រុករក​បន្ទប់។ អ្នក​មាន​បន្ទប់​អញ្ជើញ​ដែល​មិន​បាន​មើល​ចំនួន %d។</item>
+        <item quantity="one">ប៊ូតុង​រុករក​បន្ទប់។ អ្នក​មាន​បន្ទប់​អញ្ជើញ​ដែល​មិន​បាន​មើល​ចំនួន %d។</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">សមាជិក %d នាក់</item>
+        <item quantity="one">សមាជិក %d នាក់</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s បាន​ចូលរួម</item>
+        <item quantity="one">%1$s បាន​ចូលរួម</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">សំណើ​សារ %d</item>
+        <item quantity="one">សំណើ​សារ %d</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">សំណើ​សារ​ដែល​មិន​បាន​មើល %d</item>
+        <item quantity="one">សំណើ​សារ​ដែល​មិន​បាន​មើល %d</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d ន</item>
+        <item quantity="one">%d ន</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">រៀងរាល់ %1$d ខែ</item>
+        <item quantity="one">ប្រចាំ​ខែ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d សារថ្មី</item>
+        <item quantity="one">%1$d សារ​ថ្មី​</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d សារថ្មីៗ</item>
+        <item quantity="one">%1$d សារថ្មី</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">អ្នកមាន​សារ %d នៅក្នុង​ប៊ូតុងសារថ្មី​ខាងក្រោម។</item>
+        <item quantity="one">អ្នកមាន​សារ %d នៅក្នុង​ប៊ូតុងសារថ្មី​ខាងក្រោម។</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">សារ​ថ្មី %d</item>
+        <item quantity="one">សារ​ថ្មី %d</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">សារ​ថ្មី %d</item>
+        <item quantity="one">សារ​ថ្មី %d</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d ឯកសារភ្ជាប់</item>
+        <item quantity="one">%1$d ឯកសារ​ភ្ជាប់</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d សារ</item>
+        <item quantity="one">%1$d សារ</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">អ្នក​ទទួល​មួយ​ចំនួន​នៅ​ក្រៅ​ស្ថាប័ន​របស់​អ្នក និង​មិន​នៅ​ក្នុង​ទំនាក់ទំនង​របស់​អ្នក​ទេ។</item>
+        <item quantity="one">%s នៅ​ក្រៅ​ស្ថាប័ន​របស់​អ្នក និង​មិន​នៅ​ក្នុង​ទំនាក់ទំនង​របស់​អ្នក​ទេ។</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">អ្នក​ទទួល​ខាង​ក្រៅ</item>
+        <item quantity="one">អ្នក​ទទួល​ខាង​ក្រៅ</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">បានចម្លង​អ្នកទទួល %d នាក់</item>
+        <item quantity="one">បានចម្លង​អ្នកទទួល %d នាក់</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">ប្រតិទិន​មិន​ត្រូវ​បាន​ចែក​រំលែក​ទេ</item>
+        <item quantity="one">ប្រតិទិន​មិន​ត្រូវ​បាន​ចែក​រំលែក​ទេ</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">លើស​កម្រិត​កំណត់​តួអក្សរសារ %d តួ</item>
+        <item quantity="one">លើស​កម្រិត​កំណត់​តួអក្សរសារ %d តួ</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">មនុស្ស %1$d នាក់​បាន​ប្រតិកម្ម</item>
+        <item quantity="one">មនុស្ស %1$d នាក់​បាន​ប្រតិកម្ម</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">មនុស្ស %1$s នាក់ មិន​ទាន់​អាន​សារ​នេះ​ទេ</item>
+        <item quantity="one">មនុស្ស %1$s នាក់ មិន​ទាន់​អាន​សារ​នេះ​ទេ</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">​មនុស្ស %1$s នាក់ បាន​អាន​</item>
+        <item quantity="one">​មនុស្ស %1$s នាក់ បានអាន</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">ពង្រីក %1$d សារចាស់ៗជាង</item>
+        <item quantity="one">ពង្រីកសារចាស់ជាង</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">បាន​ផ្អាក %d ថ្ងៃ​មុន</item>
+        <item quantity="one">បាន​ផ្អាក %d ថ្ងៃ​មុន</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">បាន​ផ្អាក %d ម៉ោង​មុន</item>
+        <item quantity="one">បាន​ផ្អាក %d ម៉ោង​មុន</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">បាន​ផ្អាក %d ខែ​មុន</item>
+        <item quantity="one">បាន​ផ្អាក %d ខែ​មុន</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">បាន​ផ្អាក %d សប្ដាហ៍​មុន</item>
+        <item quantity="one">បាន​ផ្អាក %d សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">បាន​ផ្អាក %d ឆ្នាំ​មុន</item>
+        <item quantity="one">បាន​ផ្អាក %d ឆ្នាំ​មុន</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">សមាជិក %d នាក់</item>
+        <item quantity="one">សមាជិក %d នាក់</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">ត្រូវបានពង្រីក%1$d</item>
+        <item quantity="one">សារចាស់ជាងមួយត្រូវបានពង្រីក</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d ថ្ងៃ</item>
+        <item quantity="one">មួយ​ថ្ងៃ</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">សារ %1$d ថ្ងៃចុងក្រោយនឹងទាញយកនៅពេលភ្ជាប់</item>
+        <item quantity="one">សារថ្ងៃចុងក្រោយនឹង​ទាញយក​នៅពេលភ្ជាប់</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">%1$d ថ្ងៃចុងក្រោយ</item>
+        <item quantity="one">ថ្ងៃចុងក្រោយ</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">ថ្ងៃ​ដល់​កំណត់ - %1$s - កិច្ចការ %2$d</item>
+        <item quantity="one">ថ្ងៃ​ដល់​កំណត់ - %1$s - កិច្ចការ %2$d</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">កិច្ចការ​រង +%1$d</item>
+        <item quantity="one">កិច្ចការ​រង +1</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d ថ្ងៃ​មុន</item>
+        <item quantity="one">ម្សិលមិញ</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d សប្ដាហ៍​មុន</item>
+        <item quantity="one">1 សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d ឆ្នាំ​មុន</item>
+        <item quantity="one">1 ឆ្នាំ​មុន</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">ការបញ្ចប់​កិច្ចការ​នេះ​ក៏​នឹង​បញ្ចប់កិច្ចការ​រង %1$d ផងដែរ។</item>
+        <item quantity="one">ការបញ្ចប់​កិច្ចការ​នេះ​ក៏​នឹង​បញ្ចប់​កិច្ចការ​រង 1 ផងដែរ។</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">សម្គាល់កិច្ចការ %1$d ថាចប់ឬ?</item>
+        <item quantity="one">សម្គាល់កិច្ចការ 1 ថាចប់ឬ?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">ក្នុង​រយៈ​ពេល %1$d នាទី</item>
+        <item quantity="one">ក្នុង​រយៈ​ពេល %1$d នាទី</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d នាទី</item>
+        <item quantity="one">%1$d នាទី</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">ថ្ងៃ</item>
+        <item quantity="one">ថ្ងៃ​</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">រៀងរាល់ %1$d សប្ដាហ៍​នៅ %2$s</item>
+        <item quantity="one">ប្រចាំ​សប្ដាហ៍​នៅ %2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">រៀងរាល់ %1$d ឆ្នាំ</item>
+        <item quantity="one">ប្រចាំ​ឆ្នាំ</item>
+    </plurals>
+</resources>

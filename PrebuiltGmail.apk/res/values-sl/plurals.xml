@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">Oseba %1$s je dodala: %2$s</item>
+        <item quantity="one">Oseba %1$s je dodala: %2$s</item>
+        <item quantity="two">Oseba %1$s je dodala: %2$s</item>
+        <item quantity="few">Oseba %1$s je dodala: %2$s</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Te osebe niso član organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="one">Te osebe niso član organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="two">Te osebe niso član organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="few">Te osebe niso član organizacije Google Workspace, ki ji pripada ta soba.</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Nekatere osebe niso člani organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="one">Nekatere osebe niso člani organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="two">Nekatere osebe niso člani organizacije Google Workspace, ki ji pripada ta soba.</item>
+        <item quantity="few">Nekatere osebe niso člani organizacije Google Workspace, ki ji pripada ta soba.</item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d članov</item>
+        <item quantity="one">%d član</item>
+        <item quantity="two">%d člana</item>
+        <item quantity="few">%d člani</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s novih sporočil</item>
+        <item quantity="one">%s novo sporočilo</item>
+        <item quantity="two">%s novi sporočili</item>
+        <item quantity="few">%s nova sporočila</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">Preklic pošiljanja nekaterih sporočil po razporedu ni uspel</item>
+        <item quantity="one">Preklic pošiljanja nekaterih sporočil po razporedu ni uspel</item>
+        <item quantity="two">Preklic pošiljanja nekaterih sporočil po razporedu ni uspel</item>
+        <item quantity="few">Preklic pošiljanja nekaterih sporočil po razporedu ni uspel</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">Pošiljanje po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="one">Pošiljanje po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="two">Pošiljanje po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="few">Pošiljanje po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">Pošiljanje %1$d sporočil po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="one">Pošiljanje %1$d sporočila po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="two">Pošiljanje %1$d sporočil po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+        <item quantity="few">Pošiljanje %1$d sporočil po razporedu je preklicano in sporočila so znova v stanju osnutka</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s prejemnikov</item>
+        <item quantity="one">%s prejemnik</item>
+        <item quantity="two">%s prejemnika</item>
+        <item quantity="few">%s prejemniki</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 prejemnikov uporablja storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga lahko med dostavo vidijo druge osebe. ^2</item>
+        <item quantity="one">^1 prejemnik uporablja storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga lahko med dostavo vidijo druge osebe. ^2</item>
+        <item quantity="two">^1 prejemnika uporabljata storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga lahko med dostavo vidijo druge osebe. ^2</item>
+        <item quantity="few">^1 prejemniki uporabljajo storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga lahko med dostavo vidijo druge osebe. ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">Domena ^1 in druge domene niso podpirale šifriranja, ko je bilo poslano to sporočilo.</item>
+        <item quantity="one">Domena ^1 in druge domene niso podpirale šifriranja, ko je bilo poslano to sporočilo.</item>
+        <item quantity="two">Domena ^1 in druge domene niso podpirale šifriranja, ko je bilo poslano to sporočilo.</item>
+        <item quantity="few">Domena ^1 in druge domene niso podpirale šifriranja, ko je bilo poslano to sporočilo.</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s strnjenih sporočil</item>
+        <item quantity="one">%1$s strnjeno sporočilo</item>
+        <item quantity="two">%1$s strnjeni sporočili</item>
+        <item quantity="few">%1$s strnjena sporočila</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">Soba s sejo po skupinah se bo končala čez %d minut</item>
+        <item quantity="one">Soba s sejo po skupinah se bo končala čez %d minuto</item>
+        <item quantity="two">Soba s sejo po skupinah se bo končala čez %d minuti</item>
+        <item quantity="few">Soba s sejo po skupinah se bo končala čez %d minute</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">Klic se bo končal čez %1$d minut</item>
+        <item quantity="one">Klic se bo končal čez %1$d minuto</item>
+        <item quantity="two">Klic se bo končal čez %1$d minuti</item>
+        <item quantity="few">Klic se bo končal čez %1$d minute</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">%d drugih oseb</item>
+        <item quantity="one">%d druga oseba</item>
+        <item quantity="two">%d drugi osebi</item>
+        <item quantity="few">%d druge osebe</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">%d drugih oseb</item>
+        <item quantity="one">%d druga oseba</item>
+        <item quantity="two">%d drugi osebi</item>
+        <item quantity="few">%d druge osebe</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Želite arhivirati %1$d pogovorov?</item>
+        <item quantity="one">Želite arhivirati %1$d pogovor?</item>
+        <item quantity="two">Želite arhivirati %1$d pogovora?</item>
+        <item quantity="few">Želite arhivirati %1$d pogovore?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Želite izbrisati %1$d pogovorov?</item>
+        <item quantity="one">Želite izbrisati %1$d pogovor?</item>
+        <item quantity="two">Želite izbrisati %1$d pogovora?</item>
+        <item quantity="few">Želite izbrisati %1$d pogovore?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Želite zavreči osnutke iz teh %1$d pogovorov?</item>
+        <item quantity="one">Želite zavreči osnutke iz tega %1$d pogovora?</item>
+        <item quantity="two">Želite zavreči osnutke iz teh %1$d pogovorov?</item>
+        <item quantity="few">Želite zavreči osnutke iz teh %1$d pogovorov?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> arhiviranih pogovorov</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> arhiviran pogovor</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> arhivirana pogovora</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> arhivirani pogovori</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> izbrisanih pogovorov</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> izbrisan pogovor</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> izbrisana pogovora</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> izbrisani pogovori</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Oznake so spremenjene.</item>
+        <item quantity="one">Oznake so spremenjene.</item>
+        <item quantity="two">Oznake so spremenjene.</item>
+        <item quantity="few">Oznake so spremenjene.</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> pogovorov je označenih kot pomembnih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> pogovor je označen kot pomemben</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> pogovora sta označena kot pomembna</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> pogovori so označeni kot pomembni</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">%1$d izbrisanih sporočil v tem pogovoru</item>
+        <item quantity="one">%1$d izbrisano sporočilo v tem pogovoru</item>
+        <item quantity="two">%1$d izbrisani sporočili v tem pogovoru</item>
+        <item quantity="few">%1$d izbrisana sporočila v tem pogovoru</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> je premaknjenih v mapo »Prejeto«</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> je premaknjen v mapo »Prejeto«</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> sta premaknjena v mapo »Prejeto«</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> so premaknjeni v mapo »Prejeto«</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> prezrtih pogovorov</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> prezrt pogovor</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> prezrta pogovora</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> prezrti pogovori</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> pogovorov, označenih kot nepomembnih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> pogovor, označen kot nepomemben</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> pogovora, označena kot nepomembna</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> pogovori, označeni kot nepomembni</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> pogovorov je prijavljenih kot nevsiljenih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> pogovor je prijavljen kot nevsiljen</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> pogovora sta prijavljena kot nevsiljena</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> pogovora so prijavljeni kot nevsiljeni</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> je označenih kot prebranih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> je označen kot prebran</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> sta označena kot prebrana</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> so označeni kot prebrani</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> je preloženih na %2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> je preložen na %2$s</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> sta preložena na %2$s</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> so preloženi na %2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> pogovorov je prijavljenih kot neželenih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> pogovor je prijavljen kot neželen</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> pogovora sta prijavljena kot neželena</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> pogovori so prijavljeni kot neželeni</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d pogovorov je prijavljenih kot vsiljena pošta in prejemanje sporočil zanje je odjavljeno</item>
+        <item quantity="one">%1$d pogovor je prijavljen kot vsiljena pošta in prejemanje sporočil zanj je odjavljeno</item>
+        <item quantity="two">%1$d pogovora sta prijavljena kot vsiljena pošta in prejemanje sporočil zanju je odjavljeno</item>
+        <item quantity="few">%1$d pogovori so prijavljeni kot vsiljena pošta in prejemanje sporočil zanje je odjavljeno</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">Označevanje %1$d pogovorov z zvezdico</item>
+        <item quantity="one">Označevanje %1$d pogovora z zvezdico</item>
+        <item quantity="two">Označevanje %1$d pogovorov z zvezdico</item>
+        <item quantity="few">Označevanje %1$d pogovorov z zvezdico</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> je označenih kot prebranih</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> je označen kot prebran</item>
+        <item quantity="two">&lt;b>%1$d&lt;/b> sta označena kot prebrana</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> so označeni kot prebrani</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">Preklicana je preložitev &lt;b>%1$d&lt;/b></item>
+        <item quantity="one">Preklicana je preložitev &lt;b>%1$d&lt;/b></item>
+        <item quantity="two">Preklicana je preložitev &lt;b>%1$d&lt;/b></item>
+        <item quantity="few">Preklicana je preložitev &lt;b>%1$d&lt;/b></item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d pogovorov z odstranjeno zvezdico.</item>
+        <item quantity="one">%1$d pogovor z odstranjeno zvezdico.</item>
+        <item quantity="two">%1$d pogovora z odstranjeno zvezdico.</item>
+        <item quantity="few">%1$d pogovori z odstranjeno zvezdico.</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">Odjavljeni ste od sporočil %1$d pogovorov</item>
+        <item quantity="one">Odjavljeni ste od sporočil %1$d pogovora</item>
+        <item quantity="two">Odjavljeni ste od sporočil %1$d pogovorov</item>
+        <item quantity="few">Odjavljeni ste od sporočil %1$d pogovorov</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">Vsak %d. dan</item>
+        <item quantity="one">Vsak %d. dan</item>
+        <item quantity="two">Vsak %d. dan</item>
+        <item quantity="few">Vsak %d. dan</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">Razvijalec bota je onemogočil te bote: %1$s.</item>
+        <item quantity="one">Razvijalec bota je onemogočil te bote: %1$s.</item>
+        <item quantity="two">Razvijalec bota je onemogočil te bote: %1$s.</item>
+        <item quantity="few">Razvijalec bota je onemogočil te bote: %1$s.</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Ta sporočila bodo označena kot vsiljena pošta. Ali ne želite več prejemati tudi podobnih sporočil teh &lt;b>%2$d pošiljateljev&lt;/b>?%1$s</item>
+        <item quantity="one">Ta sporočila bodo označena kot vsiljena pošta. Ali ne želite več prejemati tudi podobnih sporočil tega &lt;b>%2$d pošiljatelja&lt;/b>?%1$s</item>
+        <item quantity="two">Ta sporočila bodo označena kot vsiljena pošta. Ali ne želite več prejemati tudi podobnih sporočil teh &lt;b>%2$d pošiljateljev&lt;/b>?%1$s</item>
+        <item quantity="few">Ta sporočila bodo označena kot vsiljena pošta. Ali ne želite več prejemati tudi podobnih sporočil teh &lt;b>%2$d pošiljateljev&lt;/b>?%1$s</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Osnutki</item>
+        <item quantity="one">Osnutek</item>
+        <item quantity="two">Osnutka</item>
+        <item quantity="few">Osnutki</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">Osebe %1$s in še %2$d oseb ni mogoče vključiti v ta klepet.</item>
+        <item quantity="one">Osebe %1$s in še %2$d osebe ni mogoče vključiti v ta klepet.</item>
+        <item quantity="two">Osebe %1$s in še %2$d oseb ni mogoče vključiti v ta klepet.</item>
+        <item quantity="few">Osebe %1$s in še %2$d oseb ni mogoče vključiti v ta klepet.</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s pogovorov bo trajno izbrisanih</item>
+        <item quantity="one">%1$s pogovor bo trajno izbrisan</item>
+        <item quantity="two">%1$s pogovora bosta trajno izbrisana</item>
+        <item quantity="few">%1$s pogovori bodo trajno izbrisani</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">– %d-krat</item>
+        <item quantity="one">– %d-krat</item>
+        <item quantity="two">– %d-krat</item>
+        <item quantity="few">– %d-krat</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Dodajate zunanje goste</item>
+        <item quantity="one">Dodajate zunanje goste</item>
+        <item quantity="two">Dodajate zunanje goste</item>
+        <item quantity="few">Dodajate zunanje goste</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz storitve Drive. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="one">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz storitve Drive. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="two">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz storitve Drive. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="few">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz storitve Drive. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz Driva. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="one">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz Driva. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="two">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz Driva. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="few">Prejemniki morda nimajo dostopa do datotek, ki ste jih vstavili iz Driva. Morda jih boste morali deliti v Googlu Drive.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Opomba: nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="one">Opomba: nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="two">Opomba: nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+        <item quantity="few">Opomba: nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda boste morali datoteke dati v skupno rabo v storitvi Google Drive.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Opomba: Nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="one">Opomba: Nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="two">Opomba: Nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda jih boste morali deliti v Googlu Drive.</item>
+        <item quantity="few">Opomba: Nekateri prejemniki morda še vedno nimajo dostopa do teh datotek. Morda jih boste morali deliti v Googlu Drive.</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Napaka: Teh datotek ni bilo mogoče deliti.</item>
+        <item quantity="one">Napaka: Teh datotek ni bilo mogoče deliti.</item>
+        <item quantity="two">Napaka: Teh datotek ni bilo mogoče deliti.</item>
+        <item quantity="few">Napaka: Teh datotek ni bilo mogoče deliti.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Delite s prejemniki:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>, ki niso vključeni v organizacijo Google Workspace, v katero spadajo te datoteke."</item>
+        <item quantity="one">"Delite s prejemniki:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>, ki niso vključeni v organizacijo Google Workspace, v katero spadajo te datoteke."</item>
+        <item quantity="two">"Delite s prejemniki:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>, ki niso vključeni v organizacijo Google Workspace, v katero spadajo te datoteke."</item>
+        <item quantity="few">"Delite s prejemniki:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>, ki niso vključeni v organizacijo Google Workspace, v katero spadajo te datoteke."</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Delite s prejemniki:%1$s, ki niso vključeni v organizacijo, ki uporablja Google Workspace, v katero spadajo te datoteke.</item>
+        <item quantity="one">Delite s prejemniki:%1$s, ki niso vključeni v organizacijo, ki uporablja Google Workspace, v katero spadajo te datoteke.</item>
+        <item quantity="two">Delite s prejemniki:%1$s, ki niso vključeni v organizacijo, ki uporablja Google Workspace, v katero spadajo te datoteke.</item>
+        <item quantity="few">Delite s prejemniki:%1$s, ki niso vključeni v organizacijo, ki uporablja Google Workspace, v katero spadajo te datoteke.</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">Gumb za nova sporočila spodaj prikazuje %d sporočil.</item>
+        <item quantity="one">Gumb za nova sporočila spodaj prikazuje %d sporočilo.</item>
+        <item quantity="two">Gumb za nova sporočila spodaj prikazuje %d sporočili.</item>
+        <item quantity="few">Gumb za nova sporočila spodaj prikazuje %d sporočila.</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 prejemnikov uporablja storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga je mogoče prebrati med dostavo. ^2</item>
+        <item quantity="one">^1 prejemnik uporablja storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga je mogoče prebrati med dostavo. ^2</item>
+        <item quantity="two">^1 prejemnika uporabljata storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga je mogoče prebrati med dostavo. ^2</item>
+        <item quantity="few">^1 prejemniki uporabljajo storitve, ki ne podpirajo šifriranja. Če sporočilo ni šifrirano, ga je mogoče prebrati med dostavo. ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d sporočil ni prikazanih</item>
+        <item quantity="one">%d sporočilo ni prikazano</item>
+        <item quantity="two">%d sporočili nista prikazani</item>
+        <item quantity="few">%d sporočila niso prikazana</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d oseb</item>
+        <item quantity="one">%d oseba</item>
+        <item quantity="two">%d osebi</item>
+        <item quantity="few">%d osebe</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">Oseba %1$s je povabila osebe: %2$s</item>
+        <item quantity="one">Oseba %1$s je povabila osebe: %2$s</item>
+        <item quantity="two">Oseba %1$s je povabila osebe: %2$s</item>
+        <item quantity="few">Oseba %1$s je povabila osebe: %2$s</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">%d neprebranih povabil v sobe</item>
+        <item quantity="one">%d neprebrano povabilo v sobe</item>
+        <item quantity="two">%d neprebrani povabili v sobe</item>
+        <item quantity="few">%d neprebrana povabila v sobe</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">Gumb za iskanje sob. Imate %d neprebranih povabil v sobe.</item>
+        <item quantity="one">Gumb za iskanje sob. Imate %d neprebrano povabilo v sobo.</item>
+        <item quantity="two">Gumb za iskanje sob. Imate %d neprebrani povabili v sobe.</item>
+        <item quantity="few">Gumb za iskanje sob. Imate %d neprebrana povabila v sobe.</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d članov</item>
+        <item quantity="one">%d član</item>
+        <item quantity="two">%d člana</item>
+        <item quantity="few">%d člani</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">Pridružile so se osebe %1$s</item>
+        <item quantity="one">Pridružila se je oseba %1$s</item>
+        <item quantity="two">Pridružili sta se osebi %1$s</item>
+        <item quantity="few">Pridružile so se osebe %1$s</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d zahtev za sporočilo</item>
+        <item quantity="one">%d zahteva za sporočilo</item>
+        <item quantity="two">%d zahtevi za sporočilo</item>
+        <item quantity="few">%d zahteve za sporočilo</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d neogledanih zahtev za sporočilo</item>
+        <item quantity="one">%d neogledana zahteva za sporočilo</item>
+        <item quantity="two">%d neogledani zahtevi za sporočilo</item>
+        <item quantity="few">%d neogledane zahteve za sporočilo</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">Vsak %1$d. mesec</item>
+        <item quantity="one">Vsak %1$d. mesec</item>
+        <item quantity="two">Vsak %1$d. mesec</item>
+        <item quantity="few">Vsak %1$d. mesec</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d novih sporočil</item>
+        <item quantity="one">%1$d novo sporočilo</item>
+        <item quantity="two">%1$d novi sporočili</item>
+        <item quantity="few">%1$d nova sporočila</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d novih sporočil</item>
+        <item quantity="one">%1$d novo sporočilo</item>
+        <item quantity="two">%1$d novi sporočili</item>
+        <item quantity="few">%1$d nova sporočila</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">Gumb za nova sporočila spodaj prikazuje %d sporočil.</item>
+        <item quantity="one">Gumb za nova sporočila spodaj prikazuje %d sporočilo.</item>
+        <item quantity="two">Gumb za nova sporočila spodaj prikazuje %d sporočili.</item>
+        <item quantity="few">Gumb za nova sporočila spodaj prikazuje %d sporočila.</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d novih sporočil</item>
+        <item quantity="one">%d novo sporočilo</item>
+        <item quantity="two">%d novi sporočili</item>
+        <item quantity="few">%d nova sporočila</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d novih sporočil</item>
+        <item quantity="one">%d novo sporočilo</item>
+        <item quantity="two">%d novi sporočili</item>
+        <item quantity="few">%d nova sporočila</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d prilog</item>
+        <item quantity="one">%1$d priloga</item>
+        <item quantity="two">%1$d prilogi</item>
+        <item quantity="few">%1$d priloge</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d sporočil</item>
+        <item quantity="one">%1$d sporočilo</item>
+        <item quantity="two">%1$d sporočili</item>
+        <item quantity="few">%1$d sporočila</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Nekateri prejemniki so zunaj vaše organizacije in niso na vašem seznamu stikov.</item>
+        <item quantity="one">Nekateri prejemniki so zunaj vaše organizacije in niso na vašem seznamu stikov.</item>
+        <item quantity="two">Nekateri prejemniki so zunaj vaše organizacije in niso na vašem seznamu stikov.</item>
+        <item quantity="few">Nekateri prejemniki so zunaj vaše organizacije in niso na vašem seznamu stikov.</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Zunanji prejemniki</item>
+        <item quantity="one">Zunanji prejemniki</item>
+        <item quantity="two">Zunanji prejemniki</item>
+        <item quantity="few">Zunanji prejemniki</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">Kopiranih je %d prejemnikov</item>
+        <item quantity="one">Kopiran je %d prejemnik</item>
+        <item quantity="two">Kopirana sta %d prejemnika</item>
+        <item quantity="few">Kopirani so %d prejemniki</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Koledarji niso v skupni rabi</item>
+        <item quantity="one">Koledarji niso v skupni rabi</item>
+        <item quantity="two">Koledarji niso v skupni rabi</item>
+        <item quantity="few">Koledarji niso v skupni rabi</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">Omejitev sporočila je presežena za %d znakov</item>
+        <item quantity="one">Omejitev sporočila je presežena za %d znak</item>
+        <item quantity="two">Omejitev sporočila je presežena za %d znaka</item>
+        <item quantity="few">Omejitev sporočila je presežena za %d znake</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d oseb se je odzvalo</item>
+        <item quantity="one">%1$d oseba se je odzvala</item>
+        <item quantity="two">%1$d os. sta se odzvali</item>
+        <item quantity="few">%1$d osebe so se odzvale</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">%1$s oseb še ni prebralo</item>
+        <item quantity="one">%1$s oseba še ni prebrala</item>
+        <item quantity="two">%1$s osebi še nista prebrali</item>
+        <item quantity="few">%1$s osebe še niso prebrale</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">Prebralo je %1$s oseb</item>
+        <item quantity="one">Prebrala je %1$s oseba</item>
+        <item quantity="two">Prebrali sta %1$s osebi</item>
+        <item quantity="few">Prebrale so %1$s osebe</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">Razširi %1$d starejših sporočil</item>
+        <item quantity="one">Razširi %1$d starejše sporočilo</item>
+        <item quantity="two">Razširi %1$d starejši sporočili</item>
+        <item quantity="few">Razširi %1$d starejša sporočila</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">Preloženo pred %d dnevi</item>
+        <item quantity="one">Preloženo pred %d dnevom</item>
+        <item quantity="two">Preloženo pred %d dnema</item>
+        <item quantity="few">Preloženo pred %d dnevi</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">Preloženo pred %d urami</item>
+        <item quantity="one">Preloženo pred %d uro</item>
+        <item quantity="two">Preloženo pred %d urama</item>
+        <item quantity="few">Preloženo pred %d urami</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">Preloženo pred %d meseci</item>
+        <item quantity="one">Preloženo pred %d mesecem</item>
+        <item quantity="two">Preloženo pred %d mesecema</item>
+        <item quantity="few">Preloženo pred %d meseci</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">Preloženo pred %d tedni</item>
+        <item quantity="one">Preloženo pred %d tednom</item>
+        <item quantity="two">Preloženo pred %d tednoma</item>
+        <item quantity="few">Preloženo pred %d tedni</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">Preloženo pred %d leti</item>
+        <item quantity="one">Preloženo pred %d letom</item>
+        <item quantity="two">Preloženo pred %d letoma</item>
+        <item quantity="few">Preloženo pred %d leti</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d članov</item>
+        <item quantity="one">%d član</item>
+        <item quantity="two">%d člana</item>
+        <item quantity="few">%d člani</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">%1$d starejših sporočil je razširjenih</item>
+        <item quantity="one">%1$d starejše sporočilo je razširjeno</item>
+        <item quantity="two">%1$d starejši sporočili sta razširjeni</item>
+        <item quantity="few">%1$d starejša sporočila so razširjena</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d zvezdic od %2$d</item>
+        <item quantity="one">%1$d zvezdica od %2$d</item>
+        <item quantity="two">%1$d zvezdici od %2$d</item>
+        <item quantity="few">%1$d zvezdice od %2$d</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">%d dneva</item>
+        <item quantity="few">%d dni</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Ko vzpostavite povezavo, bodo prenesena sporočila zadnjih %1$d dni</item>
+        <item quantity="one">Ko vzpostavite povezavo, bodo prenesena sporočila zadnjega %1$d dneva</item>
+        <item quantity="two">Ko vzpostavite povezavo, bodo prenesena sporočila zadnjih %1$d dni</item>
+        <item quantity="few">Ko vzpostavite povezavo, bodo prenesena sporočila zadnjih %1$d dni</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Zadnjih %1$d dni</item>
+        <item quantity="one">Zadnji %1$d dan</item>
+        <item quantity="two">Zadnja %1$d dneva</item>
+        <item quantity="few">Zadnji %1$d dnevi</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Rok – %1$s – %2$d opravil</item>
+        <item quantity="one">Rok – %1$s – %2$d opravilo</item>
+        <item quantity="two">Rok – %1$s – %2$d opravili</item>
+        <item quantity="few">Rok – %1$s – %2$d opravila</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d podopravil</item>
+        <item quantity="one">+%1$d podopravilo</item>
+        <item quantity="two">+%1$d podopravili</item>
+        <item quantity="few">+%1$d podopravila</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">Pred %1$d dnevi</item>
+        <item quantity="one">Pred %1$d dnevom</item>
+        <item quantity="two">Pred %1$d dnevoma</item>
+        <item quantity="few">Pred %1$d dnevi</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">Pred %1$d tedni</item>
+        <item quantity="one">Pred %1$d tednom</item>
+        <item quantity="two">Pred %1$d tednoma</item>
+        <item quantity="few">Pred %1$d tedni</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">Pred %1$d leti</item>
+        <item quantity="one">Pred %1$d letom</item>
+        <item quantity="two">Pred %1$d letoma</item>
+        <item quantity="few">Pred %1$d leti</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">Če končate to opravilo, bo končanih tudi %1$d podopravil.</item>
+        <item quantity="one">Če končate to opravilo, bo končano tudi %1$d podopravilo.</item>
+        <item quantity="two">Če končate to opravilo, bosta končani tudi %1$d podopravili.</item>
+        <item quantity="few">Če končate to opravilo, bodo končana tudi %1$d podopravila.</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">Želite %1$d opravil označiti kot končanih?</item>
+        <item quantity="one">Želite %1$d opravilo označiti kot končano?</item>
+        <item quantity="two">Želite %1$d opravili označiti kot končani?</item>
+        <item quantity="few">Želite %1$d opravila označiti kot končana?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">Čez %1$d minut</item>
+        <item quantity="one">Čez %1$d minuto</item>
+        <item quantity="two">Čez %1$d minuti</item>
+        <item quantity="few">Čez %1$d minute</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="two">%1$d minuti</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dni</item>
+        <item quantity="one">Dan</item>
+        <item quantity="two">Dneva</item>
+        <item quantity="few">Dni</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Vsak %1$d. teden v %2$s</item>
+        <item quantity="one">Vsak %1$d. teden v %2$s</item>
+        <item quantity="two">Vsak %1$d. teden v %2$s</item>
+        <item quantity="few">Vsak %1$d. teden v %2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">Vsako %1$d. leto</item>
+        <item quantity="one">Vsako %1$d. leto</item>
+        <item quantity="two">Vsako %1$d. leto</item>
+        <item quantity="few">Vsako %1$d. leto</item>
+    </plurals>
+</resources>

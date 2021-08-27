@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_up_description">Joan gora</string>
+    <string name="abc_action_mode_done">Eginda</string>
+    <string name="abc_capital_off">DESAKTIBATU</string>
+    <string name="abc_capital_on">AKTIBATU</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ktrl +</string>
+    <string name="abc_menu_delete_shortcut_label">ezabatu</string>
+    <string name="abc_menu_enter_shortcut_label">sartu</string>
+    <string name="abc_menu_function_shortcut_label">Funtzioa +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Maius +</string>
+    <string name="abc_menu_space_shortcut_label">zuriunea</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menua +</string>
+    <string name="abc_search_hint">Bilatu…</string>
+    <string name="abc_searchview_description_clear">Garbitu kontsulta</string>
+    <string name="abc_searchview_description_search">Bilatu</string>
+    <string name="abc_searchview_description_submit">Bidali kontsulta</string>
+    <string name="abc_searchview_description_voice">Ahozko bilaketa</string>
+    <string name="abc_toolbar_collapse_description">Tolestu</string>
+    <string name="accessibility_no_wifi">Deskonektatu egin da wifia.</string>
+    <string name="accessibility_wifi_one_bar">Wifi-barra bat.</string>
+    <string name="accessibility_wifi_security_type_none">Sare irekia</string>
+    <string name="accessibility_wifi_security_type_secured">Sare segurua</string>
+    <string name="accessibility_wifi_signal_full">Wifi-seinalea osoa.</string>
+    <string name="accessibility_wifi_three_bars">Hiru wifi-barra.</string>
+    <string name="accessibility_wifi_two_bars">Bi wifi-barra.</string>
+    <string name="account_exists_info">"{DEVICE_TYPE,select, PHONE{Posta elektronikoa, kontaktuak, egutegiko gertaerak eta beste hainbat gauza sinkronizatuko dira telefono honekin. Gainera, Google Play-ko aplikazioak, musika eta jokoak deskargatzen has zaitezke.
+
+Kontuak geroago ere gehitu eta ken ditzakezu Ezarpenak > Kontuak atalean.}TABLET{Posta elektronikoa, kontaktuak, egutegiko gertaerak eta beste hainbat gauza sinkronizatuko dira tableta honekin. Gainera, Google Play-ko aplikazioak, musika eta jokoak deskargatzen has zaitezke.
+
+Kontuak geroago ere gehitu eta ken ditzakezu Ezarpenak > Kontuak atalean.}other{Posta elektronikoa, kontaktuak, egutegiko gertaerak eta beste hainbat gauza sinkronizatuko dira gailu honekin. Gainera, Google Play-ko aplikazioak, musika eta jokoak deskargatzen has zaitezke.
+
+Kontuak geroago ere gehitu eta ken ditzakezu Ezarpenak > Kontuak atalean.}}"</string>
+    <string name="account_exists_text_single"><annotation textAppearance="TextAppearance.SudDescription.Medium">^1</annotation> prest dago.</string>
+    <string name="account_exists_text_unknown_name">Prest duzu kontua.</string>
+    <string name="account_exists_title">{accounts,plural, =1{Gehitu da kontua}other{Gehitu dira kontuak}}</string>
+    <string name="activating_unknown_carrier_service_title">Sarea aktibatzen…</string>
+    <string name="activation_failed_message">"{DEVICE_TYPE,select, PHONE{Aukera hauek dituzu:
+"<li>Saiatu berriro datu-konexioa erabiltzen.</li>"
+"<li>Konfiguratu beste sare bat erabilita.</li>"
+
+"<li>Aukera horiek funtzionatzen ez badute, berrabiarazi telefonoa eta saiatu berriro.</li>"}TABLET{Aukera hauek dituzu:
+"<li>Saiatu berriro datu-konexioa erabiltzen.</li>"
+"<li>Konfiguratu beste sare bat erabilita.</li>"
+
+"<li>Aukera horiek funtzionatzen ez badute, berrabiarazi tableta eta saiatu berriro.</li>"}other{Aukera hauek dituzu:
+"<li>Saiatu berriro datu-konexioa erabiltzen.</li>"
+"<li>Konfiguratu beste sare bat erabilita.</li>"
+
+"<li>Aukera horiek funtzionatzen ez badute, berrabiarazi gailua eta saiatu berriro.</li>}}</string>
+    <string name="activation_failed_title">Ezin da ezarri datu-konexioa</string>
+    <string name="activation_progress_flow">"Gehiegi luzatzen ari al da?
+
+Denbora gehiegi behar izaten ari da datu-konexioa ezartzeko. Nahi baduzu, egin atzera eta konektatu beste sare batera."</string>
+    <string name="activation_title">Zerbitzu mugikorrera konektatzen…</string>
+    <string name="activation_unprovisioned_sim_message">{DEVICE_TYPE,select, PHONE{Berrabiarazi telefonoa eta saiatu berriro, edo konfiguratu txartela wifi-sare baten bidez. Hala ere arazoak badituzu datu-konexioa aktibatzeko, jarri operadorearekin harremanetan.}TABLET{Berrabiarazi tableta eta saiatu berriro, edo konfiguratu txartela wifi-sare baten bidez. Hala ere arazoak badituzu datu-konexioa aktibatzeko, jarri operadorearekin harremanetan.}other{Berrabiarazi gailua eta saiatu berriro, edo konfiguratu txartela wifi-sare baten bidez. Hala ere arazoak badituzu datu-konexioa aktibatzeko, jarri operadorearekin harremanetan.}}</string>
+    <string name="activation_unprovisioned_title">Ezin izan da aktibatu datu-konexioa</string>
+    <string name="android_privacy_policy_title">Pribatutasun-gidalerro gehigarriak</string>
+    <string name="available_via_carrier">%1$s bidez erabilgarri</string>
+    <string name="bottomsheet_action_expand_halfway">Zabaldu erdiraino</string>
+    <string name="cancel_button_label">Utzi</string>
+    <string name="captive_portal_connection_unsuccessful">Ezin izan da konektatu Internetera</string>
+    <string name="captive_portal_description_text">Agian minutu batzuk beharko dira</string>
+    <string name="captive_portal_ssl_error_text">Konexio honek darabilen ziurtagiriak ez du balio edo ez da segurua. Aukeratu beste sare bat eta saiatu berriro.</string>
+    <string name="captive_portal_title">Konektatzen…</string>
+    <string name="check_mark_icon_label">markatuta</string>
+    <string name="chrome_privacy_title">Chrome Pribatutasun-oharra</string>
+    <string name="chrome_tos_title">Chrome-ren Zerbitzu-baldintzak</string>
+    <string name="close_button_label">Itxi</string>
+    <string name="common_google_play_services_enable_button">Gaitu</string>
+    <string name="common_google_play_services_enable_text">%1$s aplikazioak ez du funtzionatuko Google Play Services gaitzen ez baduzu.</string>
+    <string name="common_google_play_services_enable_title">Gaitu Google Play Services</string>
+    <string name="common_google_play_services_install_button">Instalatu</string>
+    <string name="common_google_play_services_install_text">%1$s ez da exekutatuko Google Play Services gabe, baina ez dago halakorik gailuan.</string>
+    <string name="common_google_play_services_install_title">Lortu Google Play Services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Services-en erabilgarritasuna</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-en errorea</string>
+    <string name="common_google_play_services_unknown_issue">%1$s aplikazioak arazoak ditu Google Play Services-ekin. Saiatu berriro.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s aplikazioa ezin da erabili Google Play Services gabe, baina zure gailua ez da harekin bateragarria.</string>
+    <string name="common_google_play_services_update_button">Eguneratu</string>
+    <string name="common_google_play_services_update_text">%1$s ez da exekutatuko Google Play Services eguneratzen ez baduzu.</string>
+    <string name="common_google_play_services_update_title">Eguneratu Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ez da exekutatuko Google Play Services gabe; zerbitzu hori eguneratzen ari da.</string>
+    <string name="compat_checkin_and_update_title">{DEVICE_TYPE,select, PHONE{Telefonoa prestatzen…}TABLET{Tableta prestatzen…}other{Gailua prestatzen…}}</string>
+    <string name="complete_in_flight_update_title">{DEVICE_TYPE,select, PHONE{Telefonoa prestatzen…}TABLET{Tableta prestatzen…}other{Gailua prestatzen…}}</string>
+    <string name="connect_to_a_network_btn_use_mobile_data_text">Erabili datu-konexioa</string>
+    <string name="connect_to_a_network_btn_wifi_text">Konektatu wifi-sarera</string>
+    <string name="connect_to_a_network_message">Aurrera egiteko, konektatu sare batera</string>
+    <string name="connect_to_wifi_title">Aplikazio-eguneratzeak prest daude</string>
+    <string name="connected_to_metered_access_point">Sare neurtu batera konektatuta</string>
+    <string name="connected_via_app">%1$s bidez konektatuta</string>
+    <string name="connected_via_carrier">%1$s bidez konektatuta</string>
+    <string name="connected_via_network_scorer_default">Automatikoki konektatuta sare-balorazioen hornitzailearen bidez</string>
+    <string name="consolidate_captive_portal_description_text">Agian minutu batzuk beharko dira</string>
+    <string name="consolidate_captive_portal_title">{DEVICE_TYPE,select, PHONE{Telefonoa prestatzen…}TABLET{Tableta prestatzen…}other{Gailua prestatzen…}}</string>
+    <string name="continue_for_a11y">Jarraitu pantaila ukitzen Erabilerraztasun modua gaitzeko soinu bat entzun arte.</string>
+    <string name="dark_mode_description">Luzatu bateriaren iraupena atzeko plano iluna erabilita</string>
+    <string name="dark_mode_title">Aurreztu bateria gai ilunarekin</string>
+    <string name="date_time_current_date">Data</string>
+    <string name="date_time_current_time">Ordua</string>
+    <string name="date_time_message">Alda ezazu beharrezkoa bada.</string>
+    <string name="date_time_setup_title">Data eta ordua</string>
+    <string name="date_time_time_zone_full">%1$s (%2$s)</string>
+    <string name="decision_point_continue_setup">Egin aurrera</string>
+    <string name="decision_point_google_assistant">Google-ren Laguntzailea</string>
+    <string name="decision_point_illustration_description">Urrats gehigarrien artean daude, besteak beste, Google-ren Laguntzailea, Google Pay, Orain erreproduzitzen, letra-tamaina eta horma-papera</string>
+    <string name="decision_point_leave_setup">Irten eta jaso abisu bat</string>
+    <string name="decision_point_now_playing">Orain erreproduzitzen</string>
+    <string name="decision_point_unicorn_account_message">Egin aurrera haurraren telefonoa guztiz konfiguratzeko. Bestela, irten eta jaso abisu bat geroago amaitzeko.</string>
+    <string name="default_device_name_device">gailua</string>
+    <string name="default_device_name_phone">telefonoa</string>
+    <string name="default_device_name_tablet">tableta</string>
+    <string name="deferred_notification_prompt_title">Konfiguratu da ^1 gailua</string>
+    <string name="deferred_setup_button_label">Amaitu konfiguratzen</string>
+    <string name="deferred_setup_wizard_reason_assistant">hitz egin Laguntzailea eginbideari</string>
+    <string name="deferred_setup_wizard_reason_assistant_verbose">hitz egin Google-ren Laguntzailea eginbidearekin</string>
+    <string name="deferred_setup_wizard_reason_default">Beste urrats gutxi batzuk egin behar dituzu</string>
+    <string name="deferred_setup_wizard_reason_fragment_restore">kopiatu datuak</string>
+    <string name="deferred_setup_wizard_reason_google_pay">erabili Google Pay</string>
+    <string name="deferred_setup_wizard_reason_google_pay_verbose">ordaindu bizkorrago Google Pay bidez</string>
+    <string name="deferred_setup_wizard_reason_template_one_reason">^1, eta beste arrazoi batzuk</string>
+    <string name="deferred_setup_wizard_reason_template_two_reasons">^1, ^2, etab.</string>
+    <string name="deferred_setup_wizard_reason_verbose_default">Urrats gutxi batzuk baino ez dituzu egin behar ^1 gailua prestatzeko</string>
+    <string name="deferred_setup_wizard_title">Amaitu gailua konfiguratzen</string>
+    <string name="deferred_snooze_dialog_option_never">Inoiz ez</string>
+    <string name="deferred_snooze_dialog_option_today">Geroago</string>
+    <string name="deferred_snooze_dialog_option_tomorrow">Bihar</string>
+    <string name="deferred_snooze_dialog_title">Gogorarazi</string>
+    <string name="deferred_welcome_airplane_mode_message">"Konfiguratzen amaitzeko, konektatuta egon behar duzu.
+
+Hegaldi modua aktibatuta dagoenean, desaktibatuta daude wifi-konexioa, sare mugikorrak eta Bluetooth-a."</string>
+    <string name="deferred_welcome_airplane_mode_snooze_button">Konfiguratu geroago</string>
+    <string name="deferred_welcome_airplane_mode_title">Hegaldi modua desaktibatu nahi duzu?</string>
+    <string name="deferred_welcome_screen_cancel_button">Gogorarazi geroago</string>
+    <string name="deferred_welcome_title">Amaitu ^1 konfiguratzen</string>
+    <string name="deferred_welcome_turn_off_button_label">Desaktibatu</string>
+    <string name="device_owner_continue">Jarraitu konfiguratzen</string>
+    <string name="device_owner_reset">{DEVICE_TYPE,select, PHONE{Berrezarri telefonoa}TABLET{Berrezarri tableta}other{Berrezarri gailua}}</string>
+    <string name="device_owner_warning">{DEVICE_TYPE,select, PHONE{{0} zure telefonoa kudeatzen ari da eta zure informazioa atzi dezake. {0} aplikazioari sarbidea ukatu nahi badiozu, berrezarri telefonoa.}TABLET{{0} zure tableta kudeatzen ari da eta zure informazioa atzi dezake. {0} aplikazioari sarbidea ukatu nahi badiozu, berrezarri tableta.}other{{0} zure gailua kudeatzen ari da eta zure informazioa atzi dezake. {0} aplikazioari sarbidea ukatu nahi badiozu, berrezarri gailua.}}</string>
+    <string name="device_owner_warning_title">{DEVICE_TYPE,select, PHONE{Telefonoa hirugarrenek kudea dezakete}TABLET{Tableta hirugarrenek kudea dezakete}other{Gailua hirugarrenek kudea dezakete}}</string>
+    <string name="dialog_back_button_label">Atzera</string>
+    <string name="dialog_connect_to_wifi_button_label">Konektatu wifi-sare batera</string>
+    <string name="dialog_continue_button_label">Jarraitu</string>
+    <string name="dialog_use_mobile_button_label">Erabili datu-konexioa</string>
+    <string name="early_update_installing_updates_text">Eguneratzeak instalatzen</string>
+    <string name="early_update_text">Agian minutu batzuk beharko dira</string>
+    <string name="early_update_timeout_text">Gehiegi luzatzen ari al da? Egin atzera eta konektatu beste sare batera.</string>
+    <string name="early_update_title">Eguneratzeak bilatzen…</string>
+    <string name="emergency_dial">Larrialdi-deia</string>
+    <string name="enabled_a11y">Erabilerraztasun modua gaitu da.</string>
+    <string name="esim_option_button_summary">Gehitu zenbaki bat eSIM bat erabilita</string>
+    <string name="esim_option_button_title">SIM bat deskargatu nahi duzu?</string>
+    <string name="esim_warning_title">Deskargatu eSIM txartela</string>
+    <string name="esim_warning_txt">%1$s operadorearen bezeroa bazara, ez duzu sartu behar SIM txartelik; deiak egiteko, mezuak bidaltzeko eta datuak erabiltzeko, eSIM txartel bat deskargatu beharko duzu.</string>
+    <string name="esim_warning_txt_default">Konektatu sare mugikorrera eSIM txartel batean egon ohi den informazioa deskargatuta. SIM txartel estandarrak ordezten ditu honek, eta haiek bezain segurua da.</string>
+    <string name="exit_loading_launcher">Abiarazlea kargatzen…</string>
+    <string name="factory_reset_button">Ezabatu eta berrezarri</string>
+    <string name="factory_reset_confirmation">{DEVICE_TYPE,select, PHONE{Telefono honetako kontuetako eta datuetako eduki guztia ezabatu nahi duzu? Ezin da desegin ekintza.}TABLET{Tableta honetako kontuetako eta datuetako eduki guztia ezabatu nahi duzu? Ezin da desegin ekintza.}other{Gailu honetako kontuetako eta datuetako eduki guztia ezabatu nahi duzu? Ezin da desegin ekintza.}}</string>
+    <string name="factory_reset_confirmation_title">Berrezarri nahi duzu?</string>
+    <string name="factory_reset_instructions">{DEVICE_TYPE,select, PHONE{Kontuz: berrezartzean, telefono honen barneko memoriako kontuetako eta datuetako eduki guztia ezabatu egingo da.}TABLET{Kontuz: berrezartzean, tableta honen barneko memoriako kontuetako eta datuetako eduki guztia ezabatu egingo da.}other{Kontuz: berrezartzean, gailu honen barneko memoriako kontuetako eta datuetako eduki guztia ezabatu egingo da.}}</string>
+    <string name="factory_reset_title">{DEVICE_TYPE,select, PHONE{Berrezarri telefonoa}TABLET{Berrezarri tableta}other{Berrezarri gailua}}</string>
+    <string name="final_hold_description_text">Agian minutu batzuk beharko dira</string>
+    <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Telefonoa prestatzen…}TABLET{Tableta prestatzen…}other{Gailua prestatzen…}}</string>
+    <string name="final_hold_title_setup_work_account">Lanerako konfigurazioa prestatzen…</string>
+    <string name="gesture_intro_description">Ikasi zer keinu egin behar dituzun hasierako pantailara joateko, atzera egiteko eta aplikazioak aldatzeko</string>
+    <string name="gesture_intro_skip_button">Saltatu</string>
+    <string name="gesture_intro_start_button">Probatu</string>
+    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Pasatu hatza telefonoan nabigatzeko}TABLET{Pasatu hatza tabletan nabigatzeko}other{Pasatu hatza gailuan nabigatzeko}}</string>
+    <string name="gms_account_checkin_title">Kontuari buruzko informazioa lortzen…</string>
+    <string name="gms_checkin_description_text">Agian minutu batzuk beharko dira</string>
+    <string name="gms_checkin_description_text_timeout">Gehiegi luzatzen ari al da? Itzuli eta konektatu beste sare batera.</string>
+    <string name="gms_checkin_title">Eguneratzeak bilatzen…</string>
+    <string name="go_back_button_label">Egin atzera</string>
+    <string name="google">Google</string>
+    <string name="google_play_tos_title">Google Play-ren Zerbitzu-baldintzak</string>
+    <string name="google_plus_privacy_policy_title">Google Plus Pribatutasun-gidalerroak</string>
+    <string name="google_privacy_policy_title">Google-ren Pribatutasun-gidalerroak</string>
+    <string name="google_provisioning_disclaimer_content">Google-ren Zerbitzu-baldintzak eta Pribatutasun-gidalerroak aplikatuko dira. Xehetasun gehiago lortzeko, joan &lt;a href=https://www.google.com/policies>www.google.com/policies&lt;/a> helbidera.</string>
+    <string name="google_terms_of_service_title">Google-ren Zerbitzu-baldintzak</string>
+    <string name="initial_setup_ongoing_notification_text">Sakatu hau hasierako konfigurazioa amaitzeko</string>
+    <string name="initial_setup_ongoing_notification_title">Gauzatu da hasierako konfigurazioa</string>
+    <string name="invalid_phone_number">Telefono-zenbaki ezezaguna</string>
+    <string name="invalid_qr_code_content">Eskatu kode zuzena IKT saileko administratzaileari</string>
+    <string name="invalid_qr_code_retry">Saiatu berriro</string>
+    <string name="invalid_qr_code_title">QR kodea ez da zuzena</string>
+    <string name="ios_trademarks_disclaimer">Apple Inc. enpresaren marka komertzialak dira iPhone, iPad, iOS, iMessage, iCloud, Safari eta iTunes, eta AEBn nahiz beste herrialde batzuetan daude erregistratuta.</string>
+    <string name="language_picker_section_all">Hizkuntza guztiak</string>
+    <string name="language_picker_section_suggested">Iradokitakoak</string>
+    <string name="migrate_from_ios_description">Egin urrats hauek:</string>
+    <string name="migrate_from_ios_header">Kopiatu datuak</string>
+    <string name="migrate_from_ios_instructions_1">1. Ireki Safari®.</string>
+    <string name="migrate_from_ios_instructions_2">2. Joan <b>android.com/switch</b> helbidera.</string>
+    <string name="migrate_from_ios_instructions_3">3. Jarraitu argibideei.</string>
+    <string name="network_connection_dialog_text">Aplikazioak eta beste gauza batzuk lortzeko, konektatu wifi-sare batera edo erabili datu-konexioa</string>
+    <string name="network_connection_dialog_title">Pausatu egin da konfigurazioa</string>
+    <string name="network_description_text">Hautatu sare bat</string>
+    <string name="network_description_text_esim">SIM txartela deskargatzeko, konektatu wifi-sare batera</string>
+    <string name="network_see_all_wifi">Ikusi wifi-sare guztiak</string>
+    <string name="network_timeout_description_text">Saiatu berriro beste sare batekin. Konexiorik gabe egiten baduzu aurrera, geroago egin beharko dituzu konfigurazio-urrats batzuk.</string>
+    <string name="network_timeout_title">Ezin izan da konektatu</string>
+    <string name="network_timeout_try_another_network_button">Saiatu beste sare batekin</string>
+    <string name="network_title">Konektatu wifi-sare batera</string>
+    <string name="network_use_cellular">Konfiguratu sare mugikorra erabilita</string>
+    <string name="network_use_cellular_carrier">Konektatu geroago wifi-sarera</string>
+    <string name="network_wifi_continue_button">Egin aurrera</string>
+    <string name="not_set">Ez da ezarri</string>
+    <string name="notification_channel_name_deferred">Konfigurazio gehigarriak</string>
+    <string name="notification_channel_name_initial">Konfigurazioa</string>
+    <string name="notification_channel_name_restore">Datuak leheneratzea</string>
+    <string name="notification_channel_security_name_warnings">Segurtasun-abisuak</string>
+    <string name="now_lets_set_up_everything_else">{DEVICE_TYPE,select, PHONE{Gehitu kontu pertsonal bat telefonoari etekin handiagoa ateratzeko}TABLET{Gehitu kontu pertsonal bat tabletari etekin handiagoa ateratzeko}other{Gehitu kontu pertsonal bat gailuari etekin handiagoa ateratzeko}}</string>
+    <string name="now_lets_set_up_everything_else_explanation">Prest dago laneko profila. Orain, Google-ko kontu pertsonal bat ere gehi dezakezu, zure aplikazioak eta edukia atzitu ahal izateko.</string>
+    <string name="ok_button_label">Ados</string>
+    <string name="ota_agreement_text">Software-eguneratze hau erabiltzen eta jasotzen jarraituta, onartu egingo dituzu <annotation link="tos">Google-ren Zerbitzu-baldintzak</annotation> eta <annotation link="google_privacy">Pribatutasun-gidalerroak</annotation>.</string>
+    <string name="ota_info">{DEVICE_TYPE,select, PHONE{Telefonoak eguneratze bat deskargatu behar du, eta, ondoren, berrabiarazi egin behar da.}TABLET{Tabletak eguneratze bat deskargatu behar du, eta, ondoren, berrabiarazi egin behar da.}other{Gailuak eguneratze bat deskargatu behar du, eta, ondoren, berrabiarazi egin behar da.}}</string>
+    <string name="ota_size">Tamaina: %s</string>
+    <string name="ota_update_title">{DEVICE_TYPE,select, PHONE{Eguneratu telefonoa}TABLET{Eguneratu tableta}other{Eguneratu gailua}}</string>
+    <string name="portal_actions_done_for_now_label">Amaitu dut, oraingoz</string>
+    <string name="portal_actions_done_label">Eginda</string>
+    <string name="portal_notification_reason_assistant">konfiguratu Google-ren Laguntzailea</string>
+    <string name="portal_notification_reason_payment">gehitu ordainketa-txartel bat</string>
+    <string name="portal_notification_subtext_baseline">Hasi saioa Google-ko kontuan eta beste</string>
+    <string name="portal_notification_subtext_general">Sakatu konfigurazioaren aurrerapena ikusteko eta azken ukituak gehitzeko</string>
+    <string name="portal_notification_subtext_missing_connectivity">Aurrera egiteko, konektatu sare batera</string>
+    <string name="portal_notification_subtext_optional_setup_only">Sakatu beste aplikazio batzuk berrikusteko</string>
+    <string name="portal_notification_subtext_progress_only">Sakatu konfigurazioaren aurrerapena ikusteko</string>
+    <string name="portal_notification_subtext_template_one_reason">^1 eta beste</string>
+    <string name="portal_notification_subtext_template_two_reasons">^1, ^2 eta beste</string>
+    <string name="portal_notification_title_baseline">Amaitu ^1 konfiguratzen</string>
+    <string name="portal_notification_title_general">Aplikazioak eta beste gauza batzuk instalatzen…</string>
+    <string name="portal_notification_title_missing_connectivity">Aplikazio-eguneratzeak prest daude</string>
+    <string name="portal_notification_title_optional_setup_only">Amaitu ^1 konfiguratzen</string>
+    <string name="portal_notification_title_progress_only">Aplikazioak eta beste gauza batzuk instalatzen…</string>
+    <string name="portal_optional_actions_description">Aldatu gauza batzuk orain edo konfigura itzazu geroago Ezarpenak atalean</string>
+    <string name="portal_optional_setup_title">{DEVICE_TYPE,select, PHONE{Telefonoa prestatzen}TABLET{Tableta prestatzen}other{Gailua prestatzen}}</string>
+    <string name="portal_progress_count_format">%1$d/%2$d</string>
+    <string name="portal_progress_finish_description">Honakoa konfiguratu da</string>
+    <string name="portal_progress_finish_description_collapse">Sakatu konfiguratu dena ikusteko</string>
+    <string name="portal_progress_finish_title">Amaitu duzu!</string>
+    <string name="portal_progress_personal_profile_header_title">Profil pertsonala</string>
+    <string name="portal_progress_start_description">{DEVICE_TYPE,select, PHONE{Telefonoa erabiltzen jarrai dezakezu}TABLET{Tableta erabiltzen jarrai dezakezu}other{Gailua erabiltzen jarrai dezakezu}}</string>
+    <string name="portal_progress_start_description_collapse">Sakatu konfigurazioaren aurrerapena ikusteko</string>
+    <string name="portal_progress_start_title">{DEVICE_TYPE,select, PHONE{Telefonoa eguneratzen ari da…}TABLET{Tableta eguneratzen ari da…}other{Gailua eguneratzen ari da…}}</string>
+    <string name="portal_progress_title">Aplikazioak eta beste gauza batzuk instalatzen…</string>
+    <string name="portal_progress_work_profile_header_title">Laneko profila</string>
+    <string name="predeferred_network_required_notification_content">Aurrera egiteko, konektatu sare batera</string>
+    <string name="predeferred_network_required_notification_title">Aplikazio-eguneratzeak prest daude</string>
+    <string name="predeferred_prepare_setup">Konfiguratzeko prestatzen…</string>
+    <string name="predeferred_prepare_setup_details">Laster amaitu ahalko duzu ^1 gailuaren konfigurazioa</string>
+    <string name="preference_summary_default_combination">%1$s / %2$s</string>
+    <string name="qr_code_scan_title">QR kodea eskaneatzen…</string>
+    <string name="region_picker_section_all">Lurralde guztiak</string>
+    <string name="restart_setup_wizard_button_label">{DEVICE_TYPE,select, PHONE{Konfiguratu telefonoa}TABLET{Konfiguratu tableta}other{Konfiguratu gailua}}</string>
+    <string name="restart_setup_wizard_dialog_text">"{DEVICE_TYPE,select, PHONE{Telefonoa erabiltzeko, lehenik eta behin, hura azkenekoz berrezartzean erabilitako Google-ko jabe-kontu batean hasi behar duzu saioa.
+
+Ez duzunez hasi saiorik, berriro konfiguratu behar duzu telefonoa.}TABLET{Tableta erabiltzeko, lehenik eta behin, hura azkenekoz berrezartzean erabilitako Google-ko jabe-kontu batean hasi behar duzu saioa.
+
+Ez duzunez hasi saiorik, berriro konfiguratu behar duzu telefonoa.}other{Gailua erabiltzeko, lehenik eta behin, hura azkenekoz berrezartzean erabilitako Google-ko jabe-kontu batean hasi behar duzu saioa.
+
+Ez duzunez hasi saiorik, berriro konfiguratu behar duzu telefonoa.}}"</string>
+    <string name="restart_setup_wizard_dialog_title">Ez duzu saioa hasi</string>
+    <string name="restore_failed_message">Ezin da leheneratu babeskopia</string>
+    <string name="restore_no_backup_message">Ez dago babeskopiarik beste gailuan</string>
+    <string name="restore_no_backup_title">Ezin da daturik leheneratu</string>
+    <string name="restore_stopped_message">Ezin izan da guztiz leheneratu babeskopia</string>
+    <string name="restore_title">Leheneratzen…</string>
+    <string name="set_up_everything_else">Konfiguratu gainerakoa</string>
+    <string name="setup_ongoing_notification_text">Sakatu hau ^1 konfiguratzen amaitzeko</string>
+    <string name="setup_ongoing_notification_title">Konfiguratzen ari da ^1</string>
+    <string name="setup_wizard_title">Android-en Konfigurazioa</string>
+    <string name="sim_locked_text">"Telefonoa operadore jakin baten txartelekin bakarrik erabil daiteke. Sartu operadore horren SIM bat.
+
+SIM txartela sartutakoan, agian segundo batzuk beharko dira aktibatzeko."</string>
+    <string name="sim_locked_title">Ez da onartzen SIM txartel hau</string>
+    <string name="sim_missing_text">{sim_slots,plural, =1{SIM txartelik baduzu, sar ezazu orain}other{SIM txartelik baduzu, sar itzazu orain}}</string>
+    <string name="sim_missing_title">Konektatu sare mugikor batera</string>
+    <string name="sim_ready_message">Beste zenbaki bat dago konfiguratuta lehendik ere telefonoan</string>
+    <string name="sim_ready_message_carrier_app">%1$s telefono-zenbakia aktibatzen amaitzeko, %2$s operadorearen aplikazioa deskargatu beharko duzu. Oraingoz, amai dezagun telefonoa konfiguratzen.</string>
+    <string name="sim_ready_message_invalid_phone_number_carrier_app">Telefono-zenbakia aktibatzen amaitzeko, %1$s operadorearen aplikazioa deskargatu beharko duzu. Oraingoz, amai dezagun telefonoa konfiguratzen.</string>
+    <string name="sim_ready_title">Deskargatutako SIM bat aurkitu da</string>
+    <string name="sim_ready_title_carrier_app">Konektatu %1$s sarera geroago</string>
+    <string name="sim_setup_ask_every_time">Galdetu beti</string>
+    <string name="sim_setup_select_data">Datu-konexioaren hobespena</string>
+    <string name="sim_setup_select_data_description">Aukeratu datu-konexioan erabiltzeko zenbakia</string>
+    <string name="sim_setup_select_text">SMS mezuen hobespena</string>
+    <string name="sim_setup_select_text_description">Aukeratu testu-mezuak bidaltzeko zenbaki bat (zenbaki aktibo guztiek jaso ditzakete testu-mezuak)</string>
+    <string name="sim_setup_select_voice">Deien hobespena</string>
+    <string name="sim_setup_select_voice_description">Aukeratu deiak egiteko zenbaki bat (zenbaki aktibo guztiek jaso ditzakete deiak)</string>
+    <string name="sim_setup_title">Konfiguratu SIM txartelak</string>
+    <string name="skip_anyway_button_label">Saltatu halere</string>
+    <string name="skip_button_label">Saltatu</string>
+    <string name="skip_toast">Konfigurazio-morroia saltatu da</string>
+    <string name="slots_selection_item_summary_activating">Aktibatzen…</string>
+    <string name="slots_selection_item_summary_error">Ezin izan da aktibatu</string>
+    <string name="slots_selection_title">Aukeratu erabili nahi duzun zenbakia</string>
+    <string name="speed_label_fast">Bizkorra</string>
+    <string name="speed_label_okay">Ados</string>
+    <string name="speed_label_slow">Motela</string>
+    <string name="speed_label_very_fast">Oso bizkorra</string>
+    <string name="sud_back_button_label">Atzera</string>
+    <string name="sud_more_button_label">Gehiago</string>
+    <string name="sud_next_button_label">Hurrengoa</string>
+    <string name="suggested_actions_description">Konfiguratu beste gauza pare bat orain, edo konfigura itzazu geroago Ezarpenak atalean</string>
+    <string name="suggested_actions_description_single_item">Hona hemen ^1 gailuan konfiguratu beharreko beste gauza bat. Nahi baduzu, geroago konfigura dezakezu Ezarpenak atalean.</string>
+    <string name="suggested_actions_done_label">Amaitu dut, oraingoz</string>
+    <string name="suggested_actions_no_thanks_label">Ez, eskerrik asko</string>
+    <string name="suggested_actions_title">Beste ezer egin nahi duzu?</string>
+    <string name="switch_camera">Aldatu kamera</string>
+    <string name="switch_to_back_camera_button_content_description">Atzeko kamera</string>
+    <string name="switch_to_front_camera_button_content_description">Aurreko kamera</string>
+    <string name="switched_to_back_camera_announcement">Aurreko kamera irekitzeko erabiltzen da orain botoia</string>
+    <string name="switched_to_front_camera_announcement">Atzeko kamera irekitzeko erabiltzen da orain botoia</string>
+    <string name="tap_to_sign_up">Sakatu erregistratzeko</string>
+    <string name="terminate_toast">"Konfigurazio-morroia itxi da
+Gailua ez dago prest"</string>
+    <string name="theme_selection_dark_radio">Iluna</string>
+    <string name="theme_selection_light_radio">Argia</string>
+    <string name="try_again_button_label">Saiatu berriro</string>
+    <string name="url_load_unsuccessful_message">{DEVICE_TYPE,select, PHONE{Telefonoa ez dago konektatuta mugikorreko datu-zerbitzu batera. Informazio hau ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}TABLET{Tableta ez dago konektatuta mugikorreko datu-zerbitzu batera. Informazio hau ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}other{Gailua ez dago konektatuta mugikorreko datu-zerbitzu batera. Informazio hau ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}}</string>
+    <string name="url_load_unsuccessful_message_wifi_only">{DEVICE_TYPE,select, PHONE{Telefonoa ez dago konektatuta wifi-sare batera. Informazio hori ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}TABLET{Tableta ez dago konektatuta wifi-sare batera. Informazio hori ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}other{Gailua ez dago konektatuta wifi-sare batera. Informazio hori ikusteko, joan {0} helbidera web-arakatzaile baten bidez.}}</string>
+    <string name="user_warning_cannot_switch_message">Ezin da aldatu berriro jabearen erabiltzailera. Saiatu berriro geroago.</string>
+    <string name="user_warning_label_continue">Egin aurrera</string>
+    <string name="user_warning_label_quit">Utzi</string>
+    <string name="user_warning_quit_dialog_button_keep">Mantendu erabiltzailea</string>
+    <string name="user_warning_quit_dialog_button_remove">Kendu erabiltzailea</string>
+    <string name="user_warning_quit_dialog_message">Erabiltzailea kendu nahi duzu?</string>
+    <string name="user_warning_title">Konfiguratu beste erabiltzaile bat</string>
+    <string name="wait_msg">Itxaron unetxo batean…</string>
+    <string name="web_dialog_unable_to_view">Informazio hori ikusteko, joan ^1 helbidera web-arakatzaile batean.</string>
+    <string name="welcome_accessibility_button">Ikusmen-ezarpenak</string>
+    <string name="welcome_language_picker_content_description">Hizkuntza: %s</string>
+    <string name="welcome_language_picker_dialog_title">Aukeratu hizkuntza</string>
+    <string name="welcome_message">Kaixo!</string>
+    <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Telefono honetan gehitu zaituzte}TABLET{Tableta honetan gehitu zaituzte}other{Gailu honetan gehitu zaituzte}}</string>
+    <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Garrantzitsua:</b>"
+
+"<ul><li>Telefonoaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+
+"<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
+
+"<li>Partekatu telefonoa fidagarritzat jotzen duzun jendearekin soilik.</li></ul>}TABLET{<b>Garrantzitsua:</b>"
+
+"<ul><li>Tabletaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+
+"<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
+
+"<li>Partekatu tableta fidagarritzat jotzen duzun jendearekin soilik.</li></ul>}other{<b>Garrantzitsua:</b>"
+
+"<ul><li>Gailuaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+
+"<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
+
+"<li>Partekatu gailua fidagarritzat jotzen duzun jendearekin soilik.</li></ul>}}</string>
+    <string name="welcome_start_button_label">Hasi</string>
+    <string name="wifi_add_new_network">Gehitu sare bat</string>
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu telefonoa.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>"}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>"}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>}}</string>
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu telefonoa.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>SIM bat deskargatu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>"}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>SIM bat deskargatu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>"}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
+
+Konexiorik gabe, ezin izango dituzu egin hauek:
+
+"<li>Google-ko kontuan saioa hasi.</li>"
+
+"<li>Aplikazioak eta datuak leheneratu.</li>"
+
+"<li>SIM bat deskargatu.</li>"
+
+"<li>Software-eguneratzeak eskuratu.</li>"
+
+"<li>Ordua eta data automatikoki konfiguratu.</li>}}</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">Sarbide-puntua beteta dago aldi baterako</string>
+    <string name="wifi_check_password_try_again">Egiaztatu pasahitza zuzena dela eta saiatu berriro</string>
+    <string name="wifi_connected_no_internet">Konektatuta; ezin da atzitu Internet</string>
+    <string name="wifi_disabled_by_recommendation_provider">Ez dago konektatuta sarearen kalitate eskasagatik</string>
+    <string name="wifi_disabled_generic">Desgaituta</string>
+    <string name="wifi_disabled_network_failure">Ezin izan da konfiguratu IP helbidea</string>
+    <string name="wifi_disabled_password_failure">Autentifikazio-arazoa</string>
+    <string name="wifi_fail_to_scan">Ezin dira sareak bilatu</string>
+    <string name="wifi_ip_address_not_available">Ez dago erabilgarri</string>
+    <string name="wifi_ip_address_title">IP helbidea</string>
+    <string name="wifi_limited_connection">Konexio mugatua</string>
+    <string name="wifi_mac_address_not_available">Ez dago erabilgarri</string>
+    <string name="wifi_mac_address_title">MAC helbidea</string>
+    <string name="wifi_metered_label">Sare neurtua</string>
+    <string name="wifi_no_internet">Ezin da konektatu Internetera</string>
+    <string name="wifi_no_internet_no_reconnect">Ez da konektatuko automatikoki</string>
+    <string name="wifi_not_in_range">Urrunegi</string>
+    <string name="wifi_remembered">Gordeta</string>
+    <string name="wifi_scanning">Wifi-sareak bilatzen…</string>
+    <string name="wifi_set_up_offline_title">Konexiorik gabe konfiguratu nahi duzu?</string>
+    <string name="wifi_skip_button_label">Konfiguratu konexiorik gabe</string>
+    <string name="wifi_skipped_message">{DEVICE_TYPE,select, PHONE{Sare mugikorra erabiliko da telefonoa konfiguratzeko, eta agian zerbait kobratuko dizute datuak erabiltzeagatik. Gastu horiek saihesteko, konektatu wifi-sare batera.}TABLET{Sare mugikorra erabiliko da tableta konfiguratzeko, eta agian zerbait kobratuko dizute datuak erabiltzeagatik. Gastu horiek saihesteko, konektatu wifi-sare batera.}other{Sare mugikorra erabiliko da gailua konfiguratzeko, eta agian zerbait kobratuko dizute datuak erabiltzeagatik. Gastu horiek saihesteko, konektatu wifi-sare batera.}}</string>
+    <string name="wifi_skipped_title">Agian datuak kobratuko dizkizute</string>
+    <string name="wifi_title">Konektatu wifi-sare batera</string>
+    <string name="wifi_unmetered_label">Neurtu gabeko sarea</string>
+    <string name="work_profile_setup_description">Gailu hau lanerako konfiguratzeko eta laneko datuak datu pertsonaletatik bereizteko</string>
+    <string name="work_profile_setup_next">Hurrengoa</string>
+    <string name="work_profile_setup_skip">Saltatu laneko kontua konfiguratzeko aukera</string>
+    <string name="work_profile_setup_title">Gehitu laneko kontua</string>
+    <string name="work_setup_interrupted">"{DEVICE_TYPE,select, PHONE{Ezohiko jarduerak hauteman ditugu telefono honetan; beraz, baliteke zure datuak arriskuan egotea konfiguratzen jarraituz gero.
+
+Berriro hutsetik hasteko, berrezarri telefonoa.}TABLET{Ezohiko jarduerak hauteman ditugu tableta honetan; beraz, baliteke zure datuak arriskuan egotea konfiguratzen jarraituz gero.
+
+Berriro hutsetik hasteko, berrezarri tableta.}other{Ezohiko jarduerak hauteman ditugu gailu honetan; beraz, baliteke zure datuak arriskuan egotea konfiguratzen jarraituz gero.
+
+Berriro hutsetik hasteko, berrezarri gailua.}}"</string>
+    <string name="work_setup_interrupted_title">{DEVICE_TYPE,select, PHONE{Baliteke telefonoa arriskuan egotea}TABLET{Baliteke tableta arriskuan egotea}other{Baliteke gailua arriskuan egotea}}</string>
+</resources>

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">(ההסרה בוטלה) הוסרה התקנה של %1$d אפליקציות</item>
+        <item quantity="one">(ההסרה בוטלה) הוסרה התקנה של אפליקציה אחת (%1$d)</item>
+        <item quantity="two">(ההסרה בוטלה) הוסרה התקנה של %1$d אפליקציות</item>
+        <item quantity="many">(ההסרה בוטלה) הוסרה התקנה של %1$d אפליקציות</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">הוסרה התקנה של %1$d מתוך %2$d אפליקציות</item>
+        <item quantity="one">הוסרה התקנה של אפליקציה אחת (%1$d)</item>
+        <item quantity="two">הוסרה התקנה של %1$d מתוך %2$d אפליקציות</item>
+        <item quantity="many">הוסרה התקנה של %1$d מתוך %2$d אפליקציות</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">%1$d קבצים הועתקו</item>
+        <item quantity="one">%1$d קובץ הועתק</item>
+        <item quantity="two">%1$d קבצים הועתקו</item>
+        <item quantity="many">%1$d קבצים הועתקו</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">הועתקו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">הועתקו %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">הועתקו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">הועתקו %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">הועתקו %1$d תיקיות</item>
+        <item quantity="one">הועתקה תיקייה אחת (%1$d)</item>
+        <item quantity="two">הועתקו %1$d תיקיות</item>
+        <item quantity="many">הועתקו %1$d תיקיות</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">הועתקו תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">%1$d קבצים נמחקו</item>
+        <item quantity="one">קובץ אחד (%1$d) נמחק</item>
+        <item quantity="two">%1$d קבצים נמחקו</item>
+        <item quantity="many">%1$d קבצים נמחקו</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">נמחקו %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">נמחק קובץ אחד (%1$d)</item>
+        <item quantity="two">נמחקו %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">נמחקו %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">נמחקו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">נמחקו %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">נמחקו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">נמחקו %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">נמחקו %1$d תיקיות</item>
+        <item quantity="one">נמחקה תיקייה אחת (%1$d)</item>
+        <item quantity="two">נמחקו %1$d תיקיות</item>
+        <item quantity="many">נמחקו %1$d תיקיות</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">נמחקו תיקייה אחת (%1$d) ו-קובץ אחד (%2$d)</item>
+        <item quantity="two">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">הועתקו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">%1$d קבצים הועברו</item>
+        <item quantity="one">%1$d קובץ הועבר</item>
+        <item quantity="two">%1$d קבצים הועברו</item>
+        <item quantity="many">%1$d קבצים הועברו</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">הועברו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">הועברו %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">הועברו %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">הועברו %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">הועברו %1$d תיקיות</item>
+        <item quantity="one">הועברה תיקייה אחת (%1$d)</item>
+        <item quantity="two">הועברו %1$d תיקיות</item>
+        <item quantity="many">הועברו %1$d תיקיות</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">הועברו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">הועברו תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">הועברו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">הועברו תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">%1$d מתוך %2$d קבצים שוחזרו</item>
+        <item quantity="one">קובץ אחד (%1$d) שוחזר</item>
+        <item quantity="two">%1$d מתוך %2$d קבצים שוחזרו</item>
+        <item quantity="many">%1$d מתוך %2$d קבצים שוחזרו</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">%1$d תיקיות ו-%2$d קבצים שוחזרו</item>
+        <item quantity="one">%1$d תיקיות וקובץ אחד (%2$d) שוחזרו</item>
+        <item quantity="two">%1$d תיקיות ו-%2$d קבצים שוחזרו</item>
+        <item quantity="many">%1$d תיקיות ו-%2$d קבצים שוחזרו</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">%1$d תיקיות שוחזרו</item>
+        <item quantity="one">תיקייה אחת (%1$d) שוחזרה</item>
+        <item quantity="two">%1$d תיקיות שוחזרו</item>
+        <item quantity="many">%1$d תיקיות שוחזרו</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">תיקייה אחת (%1$d) ו-%2$d קבצים שוחזרו</item>
+        <item quantity="one">תיקייה אחת (%1$d) וקובץ אחד (%2$d) שוחזרו</item>
+        <item quantity="two">תיקייה אחת (%1$d) ו-%2$d קבצים שוחזרו</item>
+        <item quantity="many">תיקייה אחת (%1$d) ו-%2$d קבצים שוחזרו</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">%1$d מתוך %2$d קבצים הועברו לאשפה</item>
+        <item quantity="one">קובץ אחד (%1$d) הועבר לאשפה</item>
+        <item quantity="two">%1$d מתוך %2$d קבצים הועברו לאשפה</item>
+        <item quantity="many">%1$d מתוך %2$d קבצים הועברו לאשפה</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">%1$d תיקיות ו-%2$d קבצים הועברו לאשפה</item>
+        <item quantity="one">%1$d תיקיות וקובץ אחד (%2$d) הועברו לאשפה</item>
+        <item quantity="two">%1$d תיקיות ו-%2$d קבצים הועברו לאשפה</item>
+        <item quantity="many">%1$d תיקיות ו-%2$d קבצים הועברו לאשפה</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">%1$d תיקיות הועברו לאשפה</item>
+        <item quantity="one">תיקייה אחת (%1$d) הועברה לאשפה</item>
+        <item quantity="two">%1$d תיקיות הועברו לאשפה</item>
+        <item quantity="many">%1$d תיקיות הועברו לאשפה</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">תיקייה אחת (%1$d) ו-%2$d קבצים הועברו לאשפה</item>
+        <item quantity="one">תיקייה אחת (%1$d) וקובץ אחד (%2$d) הועברו לאשפה</item>
+        <item quantity="two">תיקייה אחת (%1$d) ו-%2$d קבצים הועברו לאשפה</item>
+        <item quantity="many">תיקייה אחת (%1$d) ו-%2$d קבצים הועברו לאשפה</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">פעולה זו תמחק לתמיד גם %1$d קבצים בתוך התיקייה</item>
+        <item quantity="one">פעולה זו תמחק לתמיד גם קובץ אחד (%1$d) בתוך התיקייה</item>
+        <item quantity="two">פעולה זו תמחק לתמיד גם %1$d קבצים בתוך התיקייה</item>
+        <item quantity="many">פעולה זו תמחק לתמיד גם %1$d קבצים בתוך התיקייה</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">‏מחיקת הקבצים היא פעולה &lt;b>בלתי הפיכה&lt;/b> ולא ניתן &lt;b>לבטל&lt;/b> אותה. גם %1$d הקבצים שבתיקייה יימחקו סופית.</item>
+        <item quantity="one">‏מחיקת הקבצים היא פעולה &lt;b>בלתי הפיכה&lt;/b> ולא ניתן &lt;b>לבטל&lt;/b> אותה. גם הקובץ (%1$d) שבתיקייה יימחק סופית.</item>
+        <item quantity="two">‏מחיקת הקבצים היא פעולה &lt;b>בלתי הפיכה&lt;/b> ולא ניתן &lt;b>לבטל&lt;/b> אותה. גם %1$d הקבצים שבתיקייה יימחקו סופית.</item>
+        <item quantity="many">‏מחיקת הקבצים היא פעולה &lt;b>בלתי הפיכה&lt;/b> ולא ניתן &lt;b>לבטל&lt;/b> אותה. גם %1$d הקבצים שבתיקייה יימחקו סופית.</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">למחוק %1$d קבצים באופן סופי?</item>
+        <item quantity="one">למחוק קובץ אחד (%1$d) באופן סופי?</item>
+        <item quantity="two">למחוק %1$d קבצים באופן סופי?</item>
+        <item quantity="many">למחוק %1$d קבצים באופן סופי?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">למחוק %1$d תיקיות ו-%2$d קבצים באופן סופי?</item>
+        <item quantity="one">למחוק תיקייה אחת ו-%2$d קבצים באופן סופי?</item>
+        <item quantity="two">למחוק %1$d תיקיות ו-%2$d קבצים באופן סופי?</item>
+        <item quantity="many">למחוק %1$d תיקיות ו-%2$d קבצים באופן סופי?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">למחוק %1$d תיקיות וקובץ אחד באופן סופי?</item>
+        <item quantity="one">למחוק תיקייה אחת וקובץ אחד באופן סופי?</item>
+        <item quantity="two">למחוק %1$d תיקיות וקובץ אחד באופן סופי?</item>
+        <item quantity="many">למחוק %1$d תיקיות וקובץ אחד באופן סופי?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">למחוק %1$d תיקיות באופן סופי?</item>
+        <item quantity="one">למחוק תיקייה אחת (%1$d) באופן סופי?</item>
+        <item quantity="two">למחוק %1$d תיקיות באופן סופי?</item>
+        <item quantity="many">למחוק %1$d תיקיות באופן סופי?</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">למחוק %1$d קבצים מקוריים?</item>
+        <item quantity="one">למחוק קובץ מקורי אחד (%1$d)?</item>
+        <item quantity="two">למחוק %1$d קבצים מקוריים?</item>
+        <item quantity="many">למחוק %1$d קבצים מקוריים?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">למחוק %1$d קבצים מקוריים ו-%2$d עותקים כפולים?</item>
+        <item quantity="one">למחוק קובץ מקורי אחד (%1$d) ו-%2$d עותקים כפולים?</item>
+        <item quantity="two">למחוק %1$d קבצים מקוריים ו-%2$d עותקים כפולים?</item>
+        <item quantity="many">למחוק %1$d קבצים מקוריים ו-%2$d עותקים כפולים?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">למחוק %1$d קבצים מקוריים וקובץ משוכפל אחד?</item>
+        <item quantity="one">למחוק קובץ מקורי אחד (%1$d) וקובץ משוכפל אחד?</item>
+        <item quantity="two">למחוק %1$d קבצים מקוריים וקובץ משוכפל אחד?</item>
+        <item quantity="many">למחוק %1$d קבצים מקוריים וקובץ משוכפל אחד?</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">בכוונתך לנקות %1$d פריטים</item>
+        <item quantity="one">בכוונתך לנקות פריט אחד (%1$d)</item>
+        <item quantity="two">בכוונתך לנקות %1$d פריטים</item>
+        <item quantity="many">בכוונתך לנקות %1$d פריטים</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">להעביר %1$d קבצים?</item>
+        <item quantity="one">להעביר קובץ אחד (%1$d)?</item>
+        <item quantity="two">להעביר %1$d קבצים?</item>
+        <item quantity="many">להעביר %1$d קבצים?</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">לא ניתן היה להעתיק את הקבצים. %1$s</item>
+        <item quantity="one">לא ניתן היה להעתיק את הקובץ. %1$s</item>
+        <item quantity="two">לא ניתן היה להעתיק את הקבצים. %1$s</item>
+        <item quantity="many">לא ניתן היה להעתיק את הקבצים. %1$s</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">מעתיק %1$d קבצים</item>
+        <item quantity="one">מעתיק קובץ אחד (%1$d)</item>
+        <item quantity="two">מעתיק %1$d קבצים</item>
+        <item quantity="many">מעתיק %1$d קבצים</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">מתבצעת העתקה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת העתקה של %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת העתקה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת העתקה של %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">מתבצעת העתקה של %1$d תיקיות</item>
+        <item quantity="one">מתבצעת העתקה של תיקייה אחת (%1$d)</item>
+        <item quantity="two">מתבצעת העתקה של %1$d תיקיות</item>
+        <item quantity="many">מתבצעת העתקה של %1$d תיקיות</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">מתבצעת העתקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת העתקה של תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת העתקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת העתקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">מחיקת %1$d קבצים משוכפלים</item>
+        <item quantity="one">מחיקת קובץ משוכפל אחד (%1$d)</item>
+        <item quantity="two">מחיקת %1$d קבצים משוכפלים</item>
+        <item quantity="many">מחיקת %1$d קבצים משוכפלים</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">לא ניתן היה למחוק את הקבצים. %1$s</item>
+        <item quantity="one">לא ניתן היה למחוק את הקובץ. %1$s</item>
+        <item quantity="two">לא ניתן היה למחוק את הקבצים. %1$s</item>
+        <item quantity="many">לא ניתן היה למחוק את הקבצים. %1$s</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">ניתן למחוק %1$d ממים</item>
+        <item quantity="one">ניתן למחוק מם אחד (%1$d)</item>
+        <item quantity="two">ניתן למחוק %1$d ממים</item>
+        <item quantity="many">ניתן למחוק %1$d ממים</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">מוחק %1$d קבצים</item>
+        <item quantity="one">מוחק קובץ אחד (%1$d)</item>
+        <item quantity="two">מוחק %1$d קבצים</item>
+        <item quantity="many">מוחק %1$d קבצים</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">מתבצעת מחיקה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת מחיקה של %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת מחיקה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת מחיקה של %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">מתבצעת מחיקה של %1$d תיקיות</item>
+        <item quantity="one">מתבצעת מחיקה של תיקייה אחת (%1$d)</item>
+        <item quantity="two">מתבצעת מחיקה של %1$d תיקיות</item>
+        <item quantity="many">מתבצעת מחיקה של %1$d תיקיות</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">מתבצעת מחיקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת מחיקה של תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת מחיקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת מחיקה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">הפריטים האלה כבר נמצאים במיקום %s</item>
+        <item quantity="one">הפריט הזה כבר נמצא במיקום %s</item>
+        <item quantity="two">הפריטים האלה כבר נמצאים במיקום %s</item>
+        <item quantity="many">הפריטים האלה כבר נמצאים במיקום %s</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">לא ניתן היה לחלץ את הקבצים. %1$s</item>
+        <item quantity="one">לא ניתן היה לחלץ את הקובץ. %1$s</item>
+        <item quantity="two">לא ניתן היה לחלץ את הקבצים. %1$s</item>
+        <item quantity="many">לא ניתן היה לחלץ את הקבצים. %1$s</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">חולצו %1$d קבצים</item>
+        <item quantity="one">חולץ קובץ אחד (%1$d)</item>
+        <item quantity="two">חולצו %1$d קבצים</item>
+        <item quantity="many">חולצו %1$d קבצים</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">לא ניתן היה לשלוח %2$d קבצים מ-%1$s אל %3$s</item>
+        <item quantity="one">לא ניתן היה לשלוח קובץ אחד (%2$d) מ-%1$s אל %3$s</item>
+        <item quantity="two">לא ניתן היה לשלוח %2$d קבצים מ-%1$s אל %3$s</item>
+        <item quantity="many">לא ניתן היה לשלוח %2$d קבצים מ-%1$s אל %3$s</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">%1$d קבצים כבר נמצאים ב-%2$s ולא יועתקו</item>
+        <item quantity="one">קובץ אחד (%1$d) כבר נמצא ב-%2$s ולא יועתק</item>
+        <item quantity="two">%1$d קבצים כבר נמצאים ב-%2$s ולא יועתקו</item>
+        <item quantity="many">%1$d קבצים כבר נמצאים ב-%2$s ולא יועתקו</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">%1$d קבצים כבר נמצאים ב-%2$s ולא יועברו</item>
+        <item quantity="one">קובץ אחד (%1$d) כבר נמצא ב-%2$s ולא יועבר</item>
+        <item quantity="two">%1$d קבצים כבר נמצאים ב-%2$s ולא יועברו</item>
+        <item quantity="many">%1$d קבצים כבר נמצאים ב-%2$s ולא יועברו</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">‏לא ניתן למחוק %1$d מתוך %2$d קבצים. נדרשות הרשאות לכרטיס SD</item>
+        <item quantity="one">‏לא ניתן למחוק קובץ אחד %1$d. נדרשות הרשאות לכרטיס SD</item>
+        <item quantity="two">‏לא ניתן למחוק %1$d מתוך %2$d קבצים. נדרשות הרשאות לכרטיס SD</item>
+        <item quantity="many">‏לא ניתן למחוק %1$d מתוך %2$d קבצים. נדרשות הרשאות לכרטיס SD</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">נבחרו %1$d פריטים</item>
+        <item quantity="one">נבחר פריט אחד (%1$d)</item>
+        <item quantity="two">נבחרו %1$d פריטים</item>
+        <item quantity="many">נבחרו %1$d פריטים</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">%1$d קבצים לא הועתקו בצורה תקינה</item>
+        <item quantity="one">קובץ אחד (%1$d) לא הועתק בצורה תקינה</item>
+        <item quantity="two">%1$d קבצים לא הועתקו בצורה תקינה</item>
+        <item quantity="many">%1$d קבצים לא הועתקו בצורה תקינה</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s קבצים</item>
+        <item quantity="one">קובץ אחד (%1$s)</item>
+        <item quantity="two">%1$s קבצים</item>
+        <item quantity="many">%1$s קבצים</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">%1$d קבצים יועתקו</item>
+        <item quantity="one">קובץ אחד (%1$d) יועתק</item>
+        <item quantity="two">%1$d קבצים יועתקו</item>
+        <item quantity="many">%1$d קבצים יועתקו</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">%1$d קבצים יועברו</item>
+        <item quantity="one">קובץ אחד (%1$d) יועבר</item>
+        <item quantity="two">%1$d קבצים יועברו</item>
+        <item quantity="many">%1$d קבצים יועברו</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s, %2$d קבצים</item>
+        <item quantity="one">%1$s, קובץ אחד (%2$d)</item>
+        <item quantity="two">%1$s, %2$d קבצים</item>
+        <item quantity="many">%1$s, %2$d קבצים</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">סה\"כ %1$d קבצים</item>
+        <item quantity="one">סה\"כ קובץ אחד (%1$d)</item>
+        <item quantity="two">סה\"כ %1$d קבצים</item>
+        <item quantity="many">סה\"כ %1$d קבצים</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s תיקיות</item>
+        <item quantity="one">תיקייה אחת (%1$s)</item>
+        <item quantity="two">%1$s תיקיות</item>
+        <item quantity="many">%1$s תיקיות</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">‏נמצאו %1$s אפליקציות מזיקות על ידי Google Play Protect</item>
+        <item quantity="one">‏נמצאה אפליקציה מזיקה על ידי Google Play Protect</item>
+        <item quantity="two">‏נמצאו %1$s אפליקציות מזיקות על ידי Google Play Protect</item>
+        <item quantity="many">‏נמצאו %1$s אפליקציות מזיקות על ידי Google Play Protect</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה אחת (%1$d)</item>
+        <item quantity="two">שעתיים (%1$d)</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">לא ניתן היה להעתיק %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">לא ניתן היה להעתיק קובץ אחד (%1$d)</item>
+        <item quantity="two">לא ניתן היה להעתיק %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">לא ניתן היה להעתיק %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">לא ניתן היה למחוק %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">לא ניתן היה למחוק קובץ אחד (%1$d)</item>
+        <item quantity="two">לא ניתן היה למחוק %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">לא ניתן היה למחוק %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">לא ניתן היה להעביר %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">לא ניתן היה להעביר קובץ אחד (%1$d)</item>
+        <item quantity="two">לא ניתן היה להעביר %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">לא ניתן היה להעביר %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">לא ניתן היה לשחזר %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">לא ניתן היה לשחזר קובץ אחד (%1$d)</item>
+        <item quantity="two">לא ניתן היה לשחזר %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">לא ניתן היה לשחזר %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">לא ניתן היה להעביר לאשפה %1$d מתוך %2$d קבצים</item>
+        <item quantity="one">לא ניתן היה להעביר לאשפה קובץ אחד (%1$d)</item>
+        <item quantity="two">לא ניתן היה להעביר לאשפה %1$d מתוך %2$d קבצים</item>
+        <item quantity="many">לא ניתן היה להעביר לאשפה %1$d מתוך %2$d קבצים</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">%d ניסיונות כושלים מאז הפתיחה האחרונה.</item>
+        <item quantity="one">ניסיון כושל אחד (%d) מאז הפתיחה האחרונה.</item>
+        <item quantity="two">%d ניסיונות כושלים מאז הפתיחה האחרונה.</item>
+        <item quantity="many">%d ניסיונות כושלים מאז הפתיחה האחרונה.</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">ניתן למחוק %1$d קובצי מדיה</item>
+        <item quantity="one">ניתן למחוק קובץ מדיה אחד (%1$d)</item>
+        <item quantity="two">ניתן למחוק %1$d קובצי מדיה</item>
+        <item quantity="many">ניתן למחוק %1$d קובצי מדיה</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה אחת (%1$d)</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">לא ניתן היה להעביר את הקבצים. %1$s</item>
+        <item quantity="one">לא ניתן היה להעביר את הקובץ. %1$s</item>
+        <item quantity="two">לא ניתן היה להעביר את הקבצים. %1$s</item>
+        <item quantity="many">לא ניתן היה להעביר את הקבצים. %1$s</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">מעביר %1$d קבצים</item>
+        <item quantity="one">מעביר קובץ אחד (%1$d)</item>
+        <item quantity="two">מעביר %1$d קבצים</item>
+        <item quantity="many">מעביר %1$d קבצים</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת העברה של %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">מתבצעת העברה של %1$d תיקיות</item>
+        <item quantity="one">מתבצעת העברה של תיקייה אחת (%1$d)</item>
+        <item quantity="two">מתבצעת העברה של %1$d תיקיות</item>
+        <item quantity="many">מתבצעת העברה של %1$d תיקיות</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">מתבצעת העברה של תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">יימחק באופן סופי בעוד %1$d ימים</item>
+        <item quantity="one">יימחק באופן סופי בעוד יום אחד (%1$d)</item>
+        <item quantity="two">יימחק באופן סופי בעוד יומיים (%1$d)</item>
+        <item quantity="many">יימחק באופן סופי בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">הוסרו מהמועדפים. הם עדיין קיימים בקבצים שלך.</item>
+        <item quantity="one">הוסר מהמועדפים. הקובץ עדיין קיים בקבצים שלך.</item>
+        <item quantity="two">הוסרו מהמועדפים. הם עדיין קיימים בקבצים שלך.</item>
+        <item quantity="many">הוסרו מהמועדפים. הם עדיין קיימים בקבצים שלך.</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">לא ניתן לשחזר קבצים. %1$s</item>
+        <item quantity="one">לא ניתן לשחזר קובץ. %1$s</item>
+        <item quantity="two">לא ניתן לשחזר קבצים. %1$s</item>
+        <item quantity="many">לא ניתן לשחזר קבצים. %1$s</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">שחזור %1$d קבצים</item>
+        <item quantity="one">שחזור קובץ אחד (%1$d)</item>
+        <item quantity="two">שחזור %1$d קבצים</item>
+        <item quantity="many">שחזור %1$d קבצים</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">מתבצע שחזור של %1$d קבצים</item>
+        <item quantity="one">מבצע שחזור של קובץ אחד (%1$d)</item>
+        <item quantity="two">מתבצע שחזור של %1$d קבצים</item>
+        <item quantity="many">מתבצע שחזור של %1$d קבצים</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">מתבצע שחזור של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="one">מתבצע שחזור של %1$d תיקיות וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצע שחזור של %1$d תיקיות ו-%2$d קבצים</item>
+        <item quantity="many">מתבצע שחזור של %1$d תיקיות ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">מתבצע שחזור של %1$d תיקיות</item>
+        <item quantity="one">מתבצע שחזור של תיקייה אחת (%1$d)</item>
+        <item quantity="two">מתבצע שחזור של %1$d תיקיות</item>
+        <item quantity="many">מתבצע שחזור של %1$d תיקיות</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">מתבצע שחזור של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="one">מתבצע שחזור של תיקייה אחת (%1$d) וקובץ אחד (%2$d)</item>
+        <item quantity="two">מתבצע שחזור של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+        <item quantity="many">מתבצע שחזור של תיקייה אחת (%1$d) ו-%2$d קבצים</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d שניות</item>
+        <item quantity="one">שנייה אחת (%1$d)</item>
+        <item quantity="two">%1$d שניות</item>
+        <item quantity="many">%1$d שניות</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">ניתן לבחור %d קבצים לכל היותר.</item>
+        <item quantity="one">ניתן לבחור קובץ אחד (%d) לכל היותר.</item>
+        <item quantity="two">ניתן לבחור %d קבצים לכל היותר.</item>
+        <item quantity="many">ניתן לבחור %d קבצים לכל היותר.</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%2$d קבצים נשלחים מ-%1$s אל %3$s</item>
+        <item quantity="one">קובץ אחד (%2$d) נשלח מ-%1$s אל %3$s</item>
+        <item quantity="two">%2$d קבצים נשלחים מ-%1$s אל %3$s</item>
+        <item quantity="many">%2$d קבצים נשלחים מ-%1$s אל %3$s</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%2$d קבצים נשלחו מ-%1$s אל %3$s</item>
+        <item quantity="one">קובץ אחד (%2$d) נשלח מ-%1$s אל %3$s</item>
+        <item quantity="two">%2$d קבצים נשלחו מ-%1$s אל %3$s</item>
+        <item quantity="many">%2$d קבצים נשלחו מ-%1$s אל %3$s</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">להפסיק את ההעתקה של %1$d קבצים?</item>
+        <item quantity="one">להפסיק את ההעתקה של “%2$s”?</item>
+        <item quantity="two">להפסיק את ההעתקה של %1$d קבצים?</item>
+        <item quantity="many">להפסיק את ההעתקה של %1$d קבצים?</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">להפסיק את המחיקה של %1$d קבצים?</item>
+        <item quantity="one">להפסיק את המחיקה של \"%2$s\"?</item>
+        <item quantity="two">להפסיק את המחיקה של %1$d קבצים?</item>
+        <item quantity="many">להפסיק את המחיקה של %1$d קבצים?</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">להפסיק את ההעברה של %1$d קבצים?</item>
+        <item quantity="one">להפסיק את העברת “%2$s”?</item>
+        <item quantity="two">להפסיק את ההעברה של %1$d קבצים?</item>
+        <item quantity="many">להפסיק את ההעברה של %1$d קבצים?</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">לעצור את השחזור של %1$d קבצים?</item>
+        <item quantity="one">לעצור את השחזור של הקובץ %2$s?</item>
+        <item quantity="two">לעצור את השחזור של %1$d קבצים?</item>
+        <item quantity="many">לעצור את השחזור של %1$d קבצים?</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d כוכבים מתוך %2$d</item>
+        <item quantity="one">כוכב אחד (%1$d) מתוך %2$d</item>
+        <item quantity="two">%1$d כוכבים מתוך %2$d</item>
+        <item quantity="many">%1$d כוכבים מתוך %2$d</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">העברת %1$d קבצים לאשפה</item>
+        <item quantity="one">העברת קובץ אחד (%1$d) לאשפה</item>
+        <item quantity="two">העברת %1$d קבצים לאשפה</item>
+        <item quantity="many">העברת %1$d קבצים לאשפה</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">נותרו %1$d ימים</item>
+        <item quantity="one">נותר יום אחד (%1$d)</item>
+        <item quantity="two">נותרו יומיים (%1$d)</item>
+        <item quantity="many">נותרו %1$d ימים</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">לא ניתן להעביר קבצים לאשפה. %1$s</item>
+        <item quantity="one">לא ניתן להעביר קובץ לאשפה. %1$s</item>
+        <item quantity="two">לא ניתן להעביר קבצים לאשפה. %1$s</item>
+        <item quantity="many">לא ניתן להעביר קבצים לאשפה. %1$s</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">מתבצעת העברה של %1$d קבצים לאשפה</item>
+        <item quantity="one">מתבצעת העברה של קובץ אחד (%1$d) לאשפה</item>
+        <item quantity="two">מתבצעת העברה של %1$d קבצים לאשפה</item>
+        <item quantity="many">מתבצעת העברה של %1$d קבצים לאשפה</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים לאשפה</item>
+        <item quantity="one">מתבצעת העברה של %1$d תיקיות וקובץ אחד (%2$d) לאשפה</item>
+        <item quantity="two">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים לאשפה</item>
+        <item quantity="many">מתבצעת העברה של %1$d תיקיות ו-%2$d קבצים לאשפה</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">מתבצעת העברה של %1$d תיקיות לאשפה</item>
+        <item quantity="one">מתבצעת העברה של תיקייה אחת (%1$d) לאשפה</item>
+        <item quantity="two">מתבצעת העברה של %1$d תיקיות לאשפה</item>
+        <item quantity="many">מתבצעת העברה של %1$d תיקיות לאשפה</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים לאשפה</item>
+        <item quantity="one">מתבצעת העברה של תיקייה אחת (%1$d) וקובץ אחד (%2$d) לאשפה</item>
+        <item quantity="two">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים לאשפה</item>
+        <item quantity="many">מתבצעת העברה של תיקייה אחת (%1$d) ו-%2$d קבצים לאשפה</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">ניתן להסיר %1$d אפליקציות שלא השתמשת בהן לאחרונה</item>
+        <item quantity="one">ניתן להסיר אפליקציה אחת (%1$d) שלא השתמשת בה לאחרונה</item>
+        <item quantity="two">ניתן להסיר %1$d אפליקציות שלא השתמשת בהן לאחרונה</item>
+        <item quantity="many">ניתן להסיר %1$d אפליקציות שלא השתמשת בהן לאחרונה</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">חולצו %1$d קבצים.</item>
+        <item quantity="one">חולץ קובץ אחד (%1$d).</item>
+        <item quantity="two">חולצו %1$d קבצים.</item>
+        <item quantity="many">חולצו %1$d קבצים.</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">+%1$d קבצים נוספים</item>
+        <item quantity="one">+%1$d קובץ נוסף</item>
+        <item quantity="two">+%1$d קבצים נוספים</item>
+        <item quantity="many">+%1$d קבצים נוספים</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">%1$d קבצים יחולצו ויאורגנו לפי קטגוריות.</item>
+        <item quantity="one">קובץ אחד (%1$d) יחולץ ויאורגן לפי קטגוריה.</item>
+        <item quantity="two">%1$d קבצים יחולצו ויאורגנו לפי קטגוריות.</item>
+        <item quantity="many">%1$d קבצים יחולצו ויאורגנו לפי קטגוריות.</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">יותר מדי ניסיונות כושלים. יש להמתין %d שניות לפני ביצוע ניסיון חוזר.</item>
+        <item quantity="one">יותר מדי ניסיונות כושלים. יש להמתין שנייה אחת (%d) לפני ביצוע ניסיון חוזר.</item>
+        <item quantity="two">יותר מדי ניסיונות כושלים. יש להמתין %d שניות לפני ביצוע ניסיון חוזר.</item>
+        <item quantity="many">יותר מדי ניסיונות כושלים. יש להמתין %d שניות לפני ביצוע ניסיון חוזר.</item>
+    </plurals>
+</resources>

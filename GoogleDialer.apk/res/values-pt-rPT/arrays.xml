@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Para utilizar o RTT, tem de estar ligado à LTE ou ter as Chamadas Wi-Fi ativadas.
+"</item>
+        <item>"Pode começar a utilizar o RTT sempre que comunicar com alguém cujo telemóvel suporte RTT ou esteja ligado a um dispositivo de teletipo.
+"</item>
+        <item>"Para ver a opção RTT para as chamadas recebidas e efetuadas, defina a opção de chamada RTT como Sempre visível.
+"</item>
+        <item>"O RTT inclui áudio, por isso deve desativar o som da chamada se não precisar ou não desejar partilhar o áudio.
+"</item>
+        <item>"As chamadas RTT utilizam minutos de voz. Consulte o seu plano de tarifário para obter mais detalhes.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"As chamadas RTT são guardadas como transcrição de mensagem.
+"</item>
+        <item>"A RTT não está disponível para videochamadas.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Terá de estar ligado a uma rede LTE 4G ou Wi-Fi.
+"</item>
+        <item>"A pessoa com quem está a falar também tem de estar a utilizar um telemóvel compatível com RTT ou estar ligada a um dispositivo de teletipo (telefone de texto).
+"</item>
+        <item>Depois de ativar a RTT, o ícone de RTT será apresentado em todas as chamadas recebidas.</item>
+    </string-array>
+</resources>

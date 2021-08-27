@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"RTT ব্যবহার করতে আপনাকে LTE-তে কানেক্ট করতে হবে অথবা ওয়াই-ফাই কলিং ফিচার চালু করতে হবে।
+"</item>
+        <item>"যেসব ডিভাইসে RTT ফিচার কাজ করে অথবা TTY আছে এমন ডিভাইসের সাথে কানেক্ট থাকাকালীন আপনি যোগাযোগ করার জন্য RTT ব্যবহার করা চালু করতে পারবেন।
+"</item>
+        <item>"ইনকামিং এবং আউটগোয়িং কলের জন্য RTT বিকল্প দেখতে RTT কলের বিকল্প সর্বদা সেট করে রাখুন।
+"</item>
+        <item>"RTT ফিচারে অডিও শোনা যায়, তাই প্রয়োজন না হলে কলটি মিউট করুন অথবা চাইলে অডিও শেয়ার করতে পারেন।
+"</item>
+        <item>"RTT-এ ভয়েস মিনিট ব্যবহার হয়। বিস্তারিত জানতে রেট প্ল্যান চেক করুন।
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT কলগুলি মেসেজ ট্রান্সস্ক্রিপ্ট হিসেবে সেভ করা হয়।
+"</item>
+        <item>"ভিডিও কলের ক্ষেত্রে RTT ফিচার ব্যবহারের সুবিধা নেই।
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"আপনাকে একটি ৪জি এলটিই বা ওয়াই-ফাই নেটওয়ার্কের সাথে কানেক্ট করতে হবে।
+"</item>
+        <item>"আপনি যার সাথে কথা বলছেন তাকেও অবশ্যই এমন একটি ফোন ব্যবহার করতে হবে যাতে RTT ফচারটি কাজ করে বা যা TTY (টেক্সট টেলিফোন) ডিভাইসে কানেক্ট করা আছে।
+"</item>
+        <item>আপনি RTT ফিচারটি চালু করার পরে, RTT আইকন সমস্ত ইনকামিং কলে দেখা যাবে।</item>
+    </string-array>
+</resources>

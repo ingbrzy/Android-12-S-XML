@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Per utilizzare RTT, è necessario che il dispositivo sia connesso a una rete LTE o che la funzionalità Chiamate Wi-Fi sia attivata.
+"</item>
+        <item>"Puoi iniziare a utilizzare RTT ogni volta che comunichi con persone dotate di un telefono che supporta RTT o è connesso a un dispositivo TTY.
+"</item>
+        <item>"Per visualizzare l'opzione RTT per le chiamate in ingresso e in uscita, imposta l'opzione per le chiamate con RTT su Sempre visibile.
+"</item>
+        <item>"La funzionalità RTT include l'audio. Disattiva l'audio della chiamata se non devi o non vuoi condividerlo con il tuo interlocutore.
+"</item>
+        <item>"Per le chiamate con RTT vengono utilizzati i minuti di conversazione. Controlla il tuo piano tariffario per i dettagli.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Le chiamate RTT vengono salvate come una trascrizione in messaggi.
+"</item>
+        <item>"RTT non è disponibile per le videochiamate.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"È necessaria una connessione a una rete 4G LTE o Wi-Fi.
+"</item>
+        <item>"Anche il tuo interlocutore dovrà utilizzare un telefono che supporta RTT o dovrà essere collegato a un dispositivo TTY (telefono testuale).
+"</item>
+        <item>"Una volta attivata la funzionalità, l'icona RTT verrà visualizzata per tutte le chiamate in arrivo."</item>
+    </string-array>
+</resources>

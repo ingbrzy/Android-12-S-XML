@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"За да користите RTT, треба да бидете поврзани со LTE или да имате вклучено „Повици преку Wi-Fi“.
+"</item>
+        <item>"Може да започнете да користите RTT при комуникација со луѓе чиишто телефони поддржуваат RTT или се поврзани со уред за TTY.
+"</item>
+        <item>"За да ја гледате опцијата за RTT за дојдовни и појдовни повици, поставете ја опцијата за повик со RTT на „Секогаш видливо“.
+"</item>
+        <item>"RTT опфаќа аудио, па исклучете го звукот на повикот ако не треба или пак, не сакате да го споделите аудиото.
+"</item>
+        <item>"Повиците со RTT користат минути наменети за гласовни повици. За детали, проверете ја тарифата на вашата претплата.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Повиците со RTT се зачувуваат како препис на порака.
+"</item>
+        <item>"Функцијата RTT не е достапна за видеоповици.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"треба да бидете поврзани на 4G LTE или Wi-Fi мрежа;
+"</item>
+        <item>"и лицето со коешто разговарате мора да користи телефон што поддржува RTT или да биде поврзано со уред за TTY (телефон со текст);
+"</item>
+        <item>штом ќе се овозможи RTT, иконата за RTT ќе се појавува на сите дојдовни повици.</item>
+    </string-array>
+</resources>

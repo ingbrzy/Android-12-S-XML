@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Az RTT használatához LTE-hálózathoz kell csatlakoznia, vagy be kell kapcsolnia a Wi-Fi-hívást.
+"</item>
+        <item>"Bármikor használhatja az RTT-t, ha olyasvalakivel kommunikál, akinek a telefonja képes az RTT-hívásra, vagy TTY-eszközhöz van csatlakoztatva.
+"</item>
+        <item>"Ha látni szeretné az RTT beállítást bejövő és kimenő hívások esetében, állítsa az RTT-hívás beállítást a Mindig látható értékre.
+"</item>
+        <item>"Az RTT-hívás a hangot is átviszi, tehát némítsa le a hívást, ha nincs szüksége a hangra, vagy ha nem szeretné megosztani a hangot.
+"</item>
+        <item>"Az RTT-hívások beleszámítanak a hanghívások perckeretébe. Részleteket a szolgáltató díjtáblázatában talál.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Az RTT-hívásokat üzenetátiratként menti a rendszer.
+"</item>
+        <item>"Videohívás közben az RTT nem áll rendelkezésre.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"4G LTE- vagy Wi-Fi-hálózathoz kell csatlakoznia.
+"</item>
+        <item>"A beszélgetésben részt vevő másik félnek is olyan telefont kell használnia, amely támogatja az RTT-t, vagy TTY (szöveges telefon) készülékhez csatlakozik.
+"</item>
+        <item>Az RTT bekapcsolása után minden bejövő híváson látható lesz az RTT ikonja.</item>
+    </string-array>
+</resources>

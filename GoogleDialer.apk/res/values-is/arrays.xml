@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Til að nota RTT þarftu að tengjast LTE eða hafa kveikt á Wi-Fi símtölum.
+"</item>
+        <item>"Þú getur notað RTT í samskiptum við fólk sem á síma sem styður RTT eða er tengt fjarritatæki.
+"</item>
+        <item>"Til að sjá RTT valkostinn fyrir móttekin og hringd símtöl skaltu stilla RTT símtalsvalkostinn á „Alltaf sýnilegt“.
+"</item>
+        <item>"RTT inniheldur hljóð svo þú skalt slökkva á hljóði í símtalinu ef þú þarft ekki eða vilt ekki deila hljóðinu.
+"</item>
+        <item>"RTT símtöl nota mínútur raddsímtala Skoðaðu áskriftina þína til að fá frekari upplýsingar.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT-símtöl eru vistuð sem umrituð skilaboð.
+"</item>
+        <item>"RTT er ekki í boði fyrir myndsímtöl.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Þú þarft að tengjast 4G LTE eða Wi-Fi neti.
+"</item>
+        <item>"Manneskjan sem þú talar við verður líka að vera með síma sem styður RTT eða er tengdur við fjarrita (textasíma).
+"</item>
+        <item>Eftir að þú virkjar RTT mun RTT-táknið birtast á öllum mótteknum símtölum.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Damit du RTT verwenden kannst, musst du eine LTE-Verbindung nutzen oder die WLAN-Telefonie muss aktiviert sein.
+"</item>
+        <item>"Du kannst RTT verwenden, wenn du mit jemandem kommunizierst, dessen Smartphone RTT unterstützt oder der ein TTY-Gerät nutzt.
+"</item>
+        <item>"Damit die RTT-Option bei eingehenden und ausgehenden Anrufen angezeigt wird, lege sie auf \"Immer sichtbar\" fest.
+"</item>
+        <item>"Mit RTT wird auch Audio übertragen. Schalte den Anruf daher stumm, wenn du dies nicht möchtest.
+"</item>
+        <item>"Für RTT-Anrufe werden Gesprächsminuten berechnet. Weitere Informationen hierzu findest du in deinen Tarifbedingungen.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT-Anrufe werden als Nachrichtentranskript gespeichert.
+"</item>
+        <item>"RTT ist für Videoanrufe nicht verfügbar.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Du benötigst eine Verbindung mit einem 4G LTE-Netzwerk oder WLAN.
+"</item>
+        <item>"Dein Gesprächspartner muss auch ein Smartphone verwenden, das RTT unterstützt, oder ein TTY-Gerät nutzen.
+"</item>
+        <item>Wenn du RTT aktiviert hast, erscheint das RTT-Symbol bei allen eingehenden Anrufen.</item>
+    </string-array>
+</resources>

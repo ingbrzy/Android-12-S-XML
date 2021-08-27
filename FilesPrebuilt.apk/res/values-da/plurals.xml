@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">(Annulleret) %1$d apps blev afinstalleret</item>
+        <item quantity="one">(Annulleret) %1$d app blev afinstalleret</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">%1$d af %2$d apps blev afinstalleret</item>
+        <item quantity="one">%1$d af %2$d app blev afinstalleret</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">%1$d filer blev kopieret</item>
+        <item quantity="one">%1$d fil blev kopieret</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">%1$d mapper og %2$d filer blev kopieret</item>
+        <item quantity="one">%1$d mapper og %2$d fil blev kopieret</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">%1$d mapper blev kopieret</item>
+        <item quantity="one">%1$d mappe blev kopieret</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">%1$d mappe og %2$d filer blev kopieret</item>
+        <item quantity="one">%1$d mappe og %2$d fil blev kopieret</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">%1$d filer er slettet</item>
+        <item quantity="one">%1$d fil er slettet</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">%1$d af %2$d filer blev slettet</item>
+        <item quantity="one">%1$d af %2$d fil blev slettet</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">%1$d mapper og %2$d filer blev fjernet</item>
+        <item quantity="one">%1$d mapper og %2$d fil blev fjernet</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">%1$d mapper blev slettet</item>
+        <item quantity="one">%1$d mappe blev slettet</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">%1$d mappe og %2$d filer blev slettet</item>
+        <item quantity="one">%1$d mappe og %2$d fil blev slettet</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">%1$d filer blev flyttet</item>
+        <item quantity="one">%1$d fil blev flyttet</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">%1$d mapper og %2$d filer blev fjernet</item>
+        <item quantity="one">%1$d mapper og %2$d fil blev fjernet</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">%1$d mapper blev flyttet</item>
+        <item quantity="one">%1$d mappe blev flyttet</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">%1$d mappe og %2$d filer blev flyttet</item>
+        <item quantity="one">%1$d mappe og %2$d fil blev flyttet</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">%1$d af %2$d filer blev gendannet</item>
+        <item quantity="one">%1$d af %2$d filer blev gendannet</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">%1$d mapper og %2$d filer blev gendannet</item>
+        <item quantity="one">%1$d mapper og %2$d fil blev gendannet</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">%1$d mapper blev gendannet</item>
+        <item quantity="one">%1$d mappe blev gendannet</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">%1$d mappe og %2$d filer blev gendannet</item>
+        <item quantity="one">%1$d mappe og %2$d fil blev gendannet</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">%1$d af %2$d filer blev flyttet til papirkurven</item>
+        <item quantity="one">%1$d af %2$d fil blev flyttet til papirkurven</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">%1$d mapper og %2$d filer blev flyttet til papirkurven</item>
+        <item quantity="one">%1$d mapper og %2$d fil blev flyttet til papirkurven</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">%1$d mapper blev flyttet til papirkurven</item>
+        <item quantity="one">%1$d mappe blev flyttet til papirkurven</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">%1$d mappe og %2$d filer blev flyttet til papirkurven</item>
+        <item quantity="one">%1$d mappe og %2$d fil blev flyttet til papirkurven</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">Denne handling sletter også %1$d filer i mappen permanent</item>
+        <item quantity="one">Denne handling sletter også %1$d fil i mappen permanent</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">Dette er &lt;b>permanent&lt;/b> og kan ikke &lt;b>fortrydes&lt;/b>. %1$d filer i mappen slettes også permanent.</item>
+        <item quantity="one">Dette er &lt;b>permanent&lt;/b> og kan ikke &lt;b>fortrydes&lt;/b>. %1$d fil i mappen slettes også permanent.</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">Vil du slette %1$d filer permanent?</item>
+        <item quantity="one">Vil du slette %1$d fil permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">Vil du slette %1$d mapper og %2$d filer permanent?</item>
+        <item quantity="one">Vil du slette %1$d mappe og %2$d fil permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">Vil du slette %1$d mapper og 1 fil permanent?</item>
+        <item quantity="one">Vil du slette %1$d mappe og 1 fil permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">Vil du slette %1$d mapper permanent?</item>
+        <item quantity="one">Vil du slette %1$d mappe permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">Vil du slette %1$d oprindelige filer?</item>
+        <item quantity="one">Vil du slette %1$d oprindelig fil?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">Vil du slette %1$d oprindelige filer og %2$d dubletter?</item>
+        <item quantity="one">Vil du slette %1$d oprindelig fil og %2$d dubletter?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">Vil du slette %1$d oprindelige filer og 1 dublet?</item>
+        <item quantity="one">Vil du slette %1$d oprindelig fil og 1 dublet?</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">Du er ved at rydde %1$d elementer</item>
+        <item quantity="one">Du er ved at rydde %1$d element</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">Vil du flytte %1$d filer?</item>
+        <item quantity="one">Vil du flytte %1$d fil?</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">Filerne kunne ikke kopieres. %1$s</item>
+        <item quantity="one">Filen kunne ikke kopieres. %1$s</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">Kopierer %1$d filer</item>
+        <item quantity="one">Kopierer %1$d fil</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">Kopierer %1$d mapper og %2$d filer</item>
+        <item quantity="one">Kopierer %1$d mapper og %2$d fil</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">Kopierer %1$d mapper</item>
+        <item quantity="one">Kopierer %1$d mappe</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">Kopierer %1$d mappe og %2$d filer</item>
+        <item quantity="one">Kopierer %1$d mappe og %2$d fil</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">Slet %1$d dubletter af filer</item>
+        <item quantity="one">Slet %1$d dublet af en fil</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">Filerne kunne ikke slettes. %1$s</item>
+        <item quantity="one">Filen kunne ikke slettes. %1$s</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">Slet %1$d memes</item>
+        <item quantity="one">Slet %1$d meme</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">Sletter %1$d filer</item>
+        <item quantity="one">Sletter %1$d fil</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">Sletter %1$d mapper og %2$d filer</item>
+        <item quantity="one">Sletter %1$d mapper og %2$d fil</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">Sletter %1$d mapper</item>
+        <item quantity="one">Sletter %1$d mappe</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">Sletter %1$d mappe og %2$d filer</item>
+        <item quantity="one">Sletter %1$d mappe og %2$d fil</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">Elementerne findes allerede i %s</item>
+        <item quantity="one">Elementet findes allerede i %s</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">Filerne kunne ikke pakkes ud. %1$s</item>
+        <item quantity="one">Filen kunne ikke pakkes ud. %1$s</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">%1$d filer blev pakket ud</item>
+        <item quantity="one">%1$d fil blev pakket ud</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">%1$s kunne ikke sende %2$d filer til %3$s</item>
+        <item quantity="one">%1$s kunne ikke sende %2$d fil til %3$s</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">%1$d filer er allerede i %2$s og kopieres ikke</item>
+        <item quantity="one">%1$d fil er allerede i %2$s og kopieres ikke</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">%1$d filer er allerede i %2$s og flyttes ikke</item>
+        <item quantity="one">%1$d fil er allerede i %2$s og flyttes ikke</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">%1$d ud af %2$d filer kunne ikke slettes. Adgang til SD-kortet er påkrævet.</item>
+        <item quantity="one">%1$d ud af %2$d fil kunne ikke slettes. Adgang til SD-kortet er påkrævet.</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">%1$d er valgt</item>
+        <item quantity="one">%1$d er valgt</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">%1$d filer blev ikke kopieret korrekt</item>
+        <item quantity="one">%1$d fil blev ikke kopieret korrekt</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s filer</item>
+        <item quantity="one">%1$s fil</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">%1$d filer kopieres</item>
+        <item quantity="one">%1$d fil kopieres</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">%1$d filer fjernes</item>
+        <item quantity="one">%1$d fil fjernes</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s, %2$d filer</item>
+        <item quantity="one">%1$s, %2$d fil</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">%1$d filer i alt</item>
+        <item quantity="one">%1$d fil i alt</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s mapper</item>
+        <item quantity="one">%1$s mappe</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">Google Play Protect fandt %1$s skadelige apps på din enhed</item>
+        <item quantity="one">Google Play Protect fandt %1$s skadelig app på din enhed</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">%1$d af %2$d filer kunne ikke kopieres</item>
+        <item quantity="one">%1$d af %2$d filer kunne ikke kopieres</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">%1$d af %2$d filer kunne ikke slettes</item>
+        <item quantity="one">%1$d af %2$d filer kunne ikke slettes</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">%1$d af %2$d filer kunne ikke flyttes</item>
+        <item quantity="one">%1$d af %2$d filer kunne ikke flyttes</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">%1$d af %2$d filer kunne ikke gendannes</item>
+        <item quantity="one">%1$d af %2$d filer kunne ikke gendannes</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">%1$d af %2$d filer kunne ikke flyttes til papirkurven</item>
+        <item quantity="one">%1$d af %2$d filer kunne ikke flyttes til papirkurven</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">%d forkerte forsøg siden sidste login.</item>
+        <item quantity="one">%d forkert forsøg siden sidste login.</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">Slet %1$d mediefiler</item>
+        <item quantity="one">Slet %1$d mediefil</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">Filerne kunne ikke flyttes. %1$s</item>
+        <item quantity="one">Filen kunne ikke flyttes. %1$s</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">Flytter %1$d filer</item>
+        <item quantity="one">Flytter %1$d fil</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">Flytter %1$d mapper og %2$d filer</item>
+        <item quantity="one">Flytter %1$d mapper og %2$d fil</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">Flytter %1$d mapper</item>
+        <item quantity="one">Flytter %1$d mappe</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">Kopierer %1$d mappe og %2$d filer</item>
+        <item quantity="one">Kopierer %1$d mappe og %2$d fil</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">Slettes permanent om %1$d dage</item>
+        <item quantity="one">Slettes permanent om %1$d dag</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">Fjernet fra Favoritter. Du kan stadig finde dem i dine filer.</item>
+        <item quantity="one">Fjernet fra Favoritter. Du kan stadig finde den i dine filer.</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">Filerne kunne ikke gendannes. %1$s</item>
+        <item quantity="one">Filen kunne ikke gendannes. %1$s</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">Gendan %1$d filer</item>
+        <item quantity="one">Gendan %1$d fil</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">Gendanner %1$d filer</item>
+        <item quantity="one">Gendanner %1$d fil</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">Gendanner %1$d mapper og %2$d filer</item>
+        <item quantity="one">Gendanner %1$d mapper og %2$d fil</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">Gendanner %1$d mapper</item>
+        <item quantity="one">Gendanner %1$d mappe</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">Gendanner %1$d mappe og %2$d filer</item>
+        <item quantity="one">Gendanner %1$d mappe og %2$d fil</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">Du kan højst vælge %d filer.</item>
+        <item quantity="one">Du kan højst vælge %d fil.</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%1$s sender %2$d filer til %3$s</item>
+        <item quantity="one">%1$s sender %2$d fil til %3$s</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%1$s har sendt %2$d filer til %3$s</item>
+        <item quantity="one">%1$s har sendt %2$d fil til %3$s</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">Vil du stoppe kopieringen af %1$d filer?</item>
+        <item quantity="one">Vil du stoppe kopieringen af %1$d fil?</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">Vil du standse sletningen af %1$d filer?</item>
+        <item quantity="one">Vil du standse sletningen af %1$d fil?</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">Vil du stoppe flytningen af %1$d filer?</item>
+        <item quantity="one">Vil du stoppe flytningen af %1$d fil?</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">Vil du stoppe gendannelsen af %1$d filer?</item>
+        <item quantity="one">Vil du stoppe gendannelsen af %1$d fil?</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d stjerner ud af %2$d</item>
+        <item quantity="one">%1$d stjerne ud af %2$d</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">Flyt %1$d filer til papirkurven</item>
+        <item quantity="one">Flyt %1$d fil til papirkurven</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">%1$d dage tilbage</item>
+        <item quantity="one">%1$d dag tilbage</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">Filerne kunne ikke flyttes til papirkurven. %1$s</item>
+        <item quantity="one">Filen kunne ikke flyttes til papirkurven. %1$s</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">Flytter %1$d filer til papirkurven</item>
+        <item quantity="one">Flytter %1$d fil til papirkurven</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">Flytter %1$d mapper og %2$d filer til papirkurven</item>
+        <item quantity="one">Flytter %1$d mapper og %2$d fil til papirkurven</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">Flytter %1$d mapper til papirkurven</item>
+        <item quantity="one">Flytter %1$d mappe til papirkurven</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">Flytter %1$d mappe og %2$d filer til papirkurven</item>
+        <item quantity="one">Flytter %1$d mappe og %2$d fil til papirkurven</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">Afinstaller %1$d apps, du ikke har brugt for nylig</item>
+        <item quantity="one">Afinstaller %1$d app, du ikke har brugt for nylig</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">%1$d filer blev pakket ud.</item>
+        <item quantity="one">%1$d fil blev pakket ud.</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">+%1$d andre filer</item>
+        <item quantity="one">+%1$d anden fil</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">%1$d filer pakkes ud og organiseres efter kategori.</item>
+        <item quantity="one">%1$d fil pakkes ud og organiseres efter kategori.</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">Det er for mange forkerte forsøg. Vent %d sekunder, før du prøver igen.</item>
+        <item quantity="one">Det er for mange forkerte forsøg. Vent %d sekund, før du prøver igen.</item>
+    </plurals>
+</resources>

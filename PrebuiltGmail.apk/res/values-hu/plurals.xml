@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s hozzáadta a következőt: %2$s</item>
+        <item quantity="one">%1$s hozzáadta a következőt: %2$s</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Nem tagjai annak a Google Workspace-szervezetnek, amelyé ez a szoba.</item>
+        <item quantity="one">Nem tagja annak a Google Workspace-szervezetnek, amelyé a szoba.</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Egyesek nem tagjai annak a Google Workspace-szervezetnek, amelyé a szoba</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d tag</item>
+        <item quantity="one">%d tag</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s új üzenet</item>
+        <item quantity="one">%s új üzenet</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">Nem sikerült megszakítani néhány ütemezett küldést</item>
+        <item quantity="one">Nem sikerült megszakítani az ütemezett küldést</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">Ütemezett küldések megszakítva, az üzenetek visszaállítva piszkozat állapotra</item>
+        <item quantity="one">Ütemezett küldés megszakítva, az üzenet visszaállítva piszkozat állapotra</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">%1$d ütemezett küldése megszakítva, az üzenetek visszaállítva piszkozat állapotra</item>
+        <item quantity="one">Ütemezett küldés megszakítva, az üzenet visszaállítva piszkozat állapotra</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s címzett</item>
+        <item quantity="one">1 címzett</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 címzett olyan szolgáltatásokat használ, amelyek nem támogatják a titkosítást. Titkosítás hiányában mások beletekinthetnek az üzenetbe a kézbesítés során. ^2</item>
+        <item quantity="one">^1 olyan szolgáltatást használ, amely nem támogatja a titkosítást. Titkosítás hiányában mások beletekinthetnek az üzenetbe a kézbesítés során. ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">A(z) ^1 és mások nem támogatták a titkosítást az üzenet küldésekor.</item>
+        <item quantity="one">A(z) ^1 nem támogatta a titkosítást az üzenet küldésekor.</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s összecsukott üzenet</item>
+        <item quantity="one">%1$s összecsukott üzenet</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">A szekciószoba %d perc múlva véget ér.</item>
+        <item quantity="one">A szekciószoba %d perc múlva véget ér.</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">A hívás %1$d perc múlva véget ér</item>
+        <item quantity="one">A hívás %1$d perc múlva véget ér</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">További %d fő</item>
+        <item quantity="one">További %d fő</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">További %d fő</item>
+        <item quantity="one">További %d fő</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Archiválja ezt a(z) %1$d beszélgetést?</item>
+        <item quantity="one">Archiválja ezt a beszélgetést?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Törli ezt a(z) %1$d beszélgetést?</item>
+        <item quantity="one">Törli ezt a beszélgetést?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Elveti az ehhez a(z) %1$d beszélgetéshez tartozó piszkozatokat?</item>
+        <item quantity="one">Elveti a beszélgetéshez tartozó piszkozatokat?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> archiválva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> archiválva</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> törölve</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> törölve</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Címkék módosítva.</item>
+        <item quantity="one">Módosított címke.</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve fontosként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve fontosként</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">%1$d törölt üzenet ebben a beszélgetésben</item>
+        <item quantity="one">%1$d törölt üzenet ebben a beszélgetésben</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> áthelyezve a beérkező levelek közé</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> áthelyezve a beérkező levelek közé</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> lezárva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> lezárva</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve nem fontosként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve nem fontosként</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> bejelentve nem spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> bejelentve nem spamként</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve olvasottként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve olvasottként</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> elhalasztva eddig: %2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> elhalasztva eddig: %2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> bejelentve spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> bejelentve spamként</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">Leiratkozott %1$d spamként bejelentett üzenet feladójáról</item>
+        <item quantity="one">Leiratkozott %1$d spamként bejelentett üzenet feladójáról</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">%1$d beszélgetés megcsillagozása.</item>
+        <item quantity="one">%1$d beszélgetés megcsillagozása.</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve olvasottként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve olvasottként</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> halasztása visszavonva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> halasztása visszavonva</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d beszélgetés csillagozásának megszüntetése.</item>
+        <item quantity="one">%1$d beszélgetés csillagozásának megszüntetése.</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d jelentett leiratkozás</item>
+        <item quantity="one">%1$d jelentett leiratkozás</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">%d naponta</item>
+        <item quantity="one">Naponta</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">A robotfejlesztő letiltotta a robotokat (%1$s).</item>
+        <item quantity="one">A robotfejlesztő letiltotta a robotot (%1$s).</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Ezeket az üzeneteket spamként jelöli meg. Nem szeretné megkapni ennek a(z) &lt;b>%2$d feladónak&lt;/b> a hasonló üzeneteit sem?%1$s</item>
+        <item quantity="one">Ezt az üzenetet spamként jelöli meg. A feladó (%1$s) által küldött hasonló üzeneteket sem szeretné megkapni?</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Piszkozatok</item>
+        <item quantity="one">Piszkozat</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s és további %2$d fő nem vehető fel ebbe a csevegésbe</item>
+        <item quantity="one">%1$s nem vehető fel ebbe a csevegésbe</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s beszélgetés véglegesen törölve lesz.</item>
+        <item quantity="one">%1$s beszélgetés véglegesen törölve lesz.</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; %d alkalommal</item>
+        <item quantity="one">; egyszer</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Külső vendégeket vesz fel</item>
+        <item quantity="one">Külső vendéget vesz fel</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Előfordulhat, hogy a címzettek nem férnek hozzá a Drive-ból beszúrt fájlokhoz. Lehetséges, hogy a fájlokat a Google Drive-on belülről kell megosztania.</item>
+        <item quantity="one">Előfordulhat, hogy a címzettek nem férnek hozzá a Drive-ból beszúrt fájlhoz. Lehetséges, hogy a fájlt a Google Drive-on belülről kell megosztania.</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Előfordulhat, hogy a címzettek nem férnek hozzá a Drive-ból beszúrt fájlokhoz. Ebben az esetben a fájlokat a Google Drive-ból kell megosztania velük.</item>
+        <item quantity="one">Előfordulhat, hogy a címzettek nem férnek hozzá a Drive-ból beszúrt fájlhoz. Ebben az esetben a fájlt a Google Drive-ból kell megosztania velük.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Megjegyzés: előfordulhat, hogy egyes címzettek továbbra sem érik el a fájlokat. Lehetséges, hogy a fájlokat a Google Drive-on belülről kell megosztania.</item>
+        <item quantity="one">Megjegyzés: előfordulhat, hogy egyes címzettek továbbra sem érik el a fájlt. Lehetséges, hogy a fájlt a Google Drive-on belülről kell megosztania.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Megjegyzés: Nem biztos, hogy már minden címzett hozzá tud férni ezekhez a fájlokhoz. Lehet, hogy a Google Drive-ból kell megosztania a fájlokat.</item>
+        <item quantity="one">Megjegyzés: Nem biztos, hogy már minden címzett hozzá tud férni ehhez a fájlhoz. Lehet, hogy a Google Drive-ból kell megosztania a fájlt.</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Hiba: A fájlok nem oszthatók meg.</item>
+        <item quantity="one">Hiba: A fájl nem osztható meg.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"A következő címzettekkel osztja meg a fájlokat:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>Ők nem annak a Google Workspace-szervezetnek a tagjai, amelyhez ezek a fájlok tartoznak."</item>
+        <item quantity="one">A következő címzettel osztja meg a fájlt:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>Ő nem annak a Google Workspace-szervezetnek a tagja, amelyhez ez a fájl tartozik.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Olyan címzettekkel (%1$s) osztja meg a fájlokat, akik nem tagjai annak a Google Workspace-szervezetnek, amelyéi ezek a fájlok.</item>
+        <item quantity="one">Olyan címzettekkel (%1$s) osztja meg a fájlt, akik nem tagjai annak a Google Workspace-szervezetnek, amelyé ez a fájl.</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">A lenti Új üzenet gombon %d üzenet látható.</item>
+        <item quantity="one">A lenti Új üzenet gombon %d üzenet látható.</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 címzett olyan szolgáltatásokat használ, amelyek nem támogatják a titkosítást. A nem titkosított üzeneteket a kézbesítés során mások is elolvashatják. ^2</item>
+        <item quantity="one">^1 olyan szolgáltatást használ, amely nem támogatja a titkosítást. A nem titkosított üzeneteket a kézbesítés során mások is elolvashatják. ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d üzenet nincs megjelenítve</item>
+        <item quantity="one">%d üzenet nincs megjelenítve</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d személy</item>
+        <item quantity="one">%d személy</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s meghívta a következőt: %2$s</item>
+        <item quantity="one">%1$s meghívta a következőt: %2$s</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">%d nem megtekintett szobameghívó</item>
+        <item quantity="one">%d nem megtekintett szobameghívó</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">Böngészés a szobák között gomb. %d nem megtekintett meghívója van.</item>
+        <item quantity="one">Böngészés a szobák között gomb. %d nem megtekintett meghívója van.</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d tag</item>
+        <item quantity="one">%d tag</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s csatlakozott</item>
+        <item quantity="one">%1$s csatlakozott</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d üzenetkérés</item>
+        <item quantity="one">%d üzenetkérés</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d olvasatlan üzenetkérelem</item>
+        <item quantity="one">%d olvasatlan üzenetkérelem</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">%1$d havonta</item>
+        <item quantity="one">Havonta</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d új üzenet</item>
+        <item quantity="one">%1$d új üzenet</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d új üzenet</item>
+        <item quantity="one">%1$d új üzenet</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">A lenti Új üzenet gombon %d üzenet látható.</item>
+        <item quantity="one">A lenti Új üzenet gombon %d üzenet látható.</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d új üzenet</item>
+        <item quantity="one">%d új üzenet</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d új üzenet</item>
+        <item quantity="one">%d új üzenet</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d melléklet</item>
+        <item quantity="one">%1$d melléklet</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d üzenet</item>
+        <item quantity="one">%1$d üzenet</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Néhány címzett nem tartozik a szervezetéhez, és nem szerepel a névjegyei között.</item>
+        <item quantity="one">%s nem tartozik a szervezetéhez, és nem szerepel a névjegyei között.</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Külső címzettek</item>
+        <item quantity="one">Külső címzett</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d címzett másolva</item>
+        <item quantity="one">%d címzett másolva</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">A naptárak nincsenek megosztva</item>
+        <item quantity="one">A naptár nincs megosztva</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">%d karakterrel az üzenetkorlát felett</item>
+        <item quantity="one">%d karakterrel az üzenetkorlát felett</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d új értesítés</item>
+        <item quantity="one">Értesítése jött</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d személy reagált</item>
+        <item quantity="one">%1$d személy reagált</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">Még nem olvasta %1$s személy</item>
+        <item quantity="one">Még nem olvasta %1$s személy</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">Elolvasta %1$s személy</item>
+        <item quantity="one">Elolvasta %1$s személy</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d régebbi üzenet kibontása</item>
+        <item quantity="one">Régebbi üzenet kibontása</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">Elhalasztva %d napja</item>
+        <item quantity="one">Elhalasztva %d napja</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">Elhalasztva %d órája</item>
+        <item quantity="one">Elhalasztva %d órája</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">Elhalasztva %d hónapja</item>
+        <item quantity="one">Elhalasztva %d hónapja</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">Elhalasztva %d hete</item>
+        <item quantity="one">Elhalasztva %d hete</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">Elhalasztva %d éve</item>
+        <item quantity="one">Elhalasztva %d éve</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d tag</item>
+        <item quantity="one">%d tag</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">%1$d régebbi üzenet kibontva</item>
+        <item quantity="one">Egy régebbi üzenet kibontva</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d/%2$d csillag</item>
+        <item quantity="one">%1$d/%2$d csillag</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">Egy nap</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">A kapcsolat létrejöttekor a rendszer letölti az elmúlt %1$d nap üzeneteit</item>
+        <item quantity="one">A kapcsolat létrejöttekor a rendszer letölti az elmúlt nap üzeneteit</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Az elmúlt %1$d nap</item>
+        <item quantity="one">Elmúlt nap</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Határidő – %1$s – %2$d feladat</item>
+        <item quantity="one">Határidő – %1$s – %2$d feladat</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d részfeladat</item>
+        <item quantity="one">+1 részfeladat</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d napja</item>
+        <item quantity="one">Tegnap</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d hete</item>
+        <item quantity="one">1 hete</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d éve</item>
+        <item quantity="one">1 éve</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">A feladat befejezésével %1$d részfeladatot is befejez.</item>
+        <item quantity="one">A feladat befejezésével 1 részfeladatot is befejez.</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">Befejezettként jelöl meg %1$d feladatot?</item>
+        <item quantity="one">Befejezettként jelöl meg 1 feladatot?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">%1$d perc múlva</item>
+        <item quantity="one">%1$d perc múlva</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">nap</item>
+        <item quantity="one">nap</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">%1$d hetente ezen a napon: %2$s</item>
+        <item quantity="one">Hetente ezen a napon: %2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">%1$d évente</item>
+        <item quantity="one">Évente</item>
+    </plurals>
+</resources>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_announcement_list_popup_shown">
+        <item quantity="other">%1$d ንጥሎችን በማሳየት ላይ።</item>
+        <item quantity="one">%1$d ንጥሎችን በማሳየት ላይ።</item>
+    </plurals>
+    <plurals name="action_comments_with_count">
+        <item quantity="other">%1$d አስተያየቶች</item>
+        <item quantity="one">%1$d አስተያየቶች</item>
+    </plurals>
+    <plurals name="action_header_shortcut_folder_targets">
+        <item quantity="other">የመጀመሪያዎቹ አቃፊዎች</item>
+        <item quantity="one">የመጀመሪያዎቹ አቃፊዎች</item>
+    </plurals>
+    <plurals name="action_header_shortcut_targets">
+        <item quantity="other">የመጀመሪያዎቹ ፋይሎች</item>
+        <item quantity="one">የመጀመሪያዎቹ ፋይሎች</item>
+    </plurals>
+    <plurals name="action_item_content_description">
+        <item quantity="other">የእርምጃ ንጥሎች፦ %1$d ተከታይ ንጥሎች</item>
+        <item quantity="one">የእርምጃ ንጥሎች፦ %1$d ተከታይ ንጥሎች</item>
+    </plurals>
+    <plurals name="action_permanently_deleted">
+        <item quantity="other">%1$d ንጥሎች ለዘለዓለም ተሰርዘዋል</item>
+        <item quantity="one">%1$d ንጥሎች ለዘለዓለም ተሰርዘዋል</item>
+    </plurals>
+    <plurals name="add_collaborators_invalid_contact_address">
+        <item quantity="other">ልክ ያልኾኑ ኢሜይሎች %s</item>
+        <item quantity="one">ልክ ያልኾኑ ኢሜይሎች %s</item>
+    </plurals>
+    <plurals name="announce_folder_color_set">
+        <item quantity="other">%1$d አቃፊዎች ተዘምነዋል። ቀለም ወደ %2$s ተቀናብሯል።</item>
+        <item quantity="one">%1$d አቃፊዎች ተዘምነዋል። ቀለም ወደ %2$s ተቀናብሯል።</item>
+    </plurals>
+    <plurals name="apply_filters">
+        <item quantity="other">ይህ ለማለት ፈልገው ነው፦</item>
+        <item quantity="one">ይህ ለማለት ፈልገው ነው፦</item>
+    </plurals>
+    <plurals name="backup_entity_expires_in">
+        <item quantity="other">ጊዜው በ%1$d ቀናት ውስጥ ያበቃል</item>
+        <item quantity="one">ጊዜው በ%1$d ቀናት ውስጥ ያበቃል</item>
+    </plurals>
+    <plurals name="backup_will_expire">
+        <item quantity="other">መሣሪያው እንደቦዘነ ከቀረ ይህ ምትኬ በ%1$d ቀናት ውስጥ ጊዜው ያልፍበታል።</item>
+        <item quantity="one">መሣሪያው እንደቦዘነ ከቀረ ይህ ምትኬ በ%1$d ቀናት ውስጥ ጊዜው ያልፍበታል።</item>
+    </plurals>
+    <plurals name="delete_backup_success_message">
+        <item quantity="other">ምትኬዎች ተሰርዘዋል።</item>
+        <item quantity="one">ምትኬዎች ተሰርዘዋል።</item>
+    </plurals>
+    <plurals name="desc_columns">
+        <item quantity="other">%1$d አምዶች።</item>
+        <item quantity="one">%1$d አምዶች።</item>
+    </plurals>
+    <plurals name="desc_frozen_columns">
+        <item quantity="other">%1$d የታሰሩ አምዶች።</item>
+        <item quantity="one">%1$d የታሰሩ አምዶች።</item>
+    </plurals>
+    <plurals name="desc_frozen_rows">
+        <item quantity="other">%1$d የታሰሩ ረድፎች።</item>
+        <item quantity="one">%1$d የታሰሩ ረድፎች።</item>
+    </plurals>
+    <plurals name="desc_rows">
+        <item quantity="other">%1$d ረድፎች።</item>
+        <item quantity="one">%1$d ረድፎች።</item>
+    </plurals>
+    <plurals name="discussion_card_replies_summary">
+        <item quantity="other">%1$s ምላሾች</item>
+        <item quantity="one">%1$s ምላሾች</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_include_current_user_text">
+        <item quantity="other">እርስዎ እና %1$d ሌሎች በ%2$s ምላሽ ሰጥታችኋል</item>
+        <item quantity="one">እርስዎ እና %1$d ሌሎች በ%2$s ምላሽ ሰጥታችኋል</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_without_current_user_text">
+        <item quantity="other">%1$d ሰዎች በ%2$s ምላሽ ሰጥተዋል</item>
+        <item quantity="one">%1$d ሰዎች በ%2$s ምላሽ ሰጥተዋል</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_active">
+        <item quantity="other">%d ገቢር አስተያየቶች</item>
+        <item quantity="one">%d ገቢር አስተያየቶች</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_resolved">
+        <item quantity="other">%d መፍትሔ የተገኘላቸው አስተያየቶች</item>
+        <item quantity="one">%d መፍትሔ የተገኘላቸው አስተያየቶች</item>
+    </plurals>
+    <plurals name="download_message_all_failed">
+        <item quantity="other">ንጥሎቹ ሊወርዱ አልቻሉም</item>
+        <item quantity="one">ንጥሎቹ ሊወርዱ አልቻሉም</item>
+    </plurals>
+    <plurals name="download_message_success">
+        <item quantity="other">%1$d ንጥሎች ይወርዳሉ። ዝርዝሮችን ለማግኘት ማሳወቂያውን ይመልከቱ</item>
+        <item quantity="one">%1$d ንጥሎች ይወርዳሉ። ዝርዝሮችን ለማግኘት ማሳወቂያውን ይመልከቱ</item>
+    </plurals>
+    <plurals name="download_message_success_no_notification">
+        <item quantity="other">%1$d ንጥሎች ይወርዳሉ።</item>
+        <item quantity="one">%1$d ንጥሎች ይወርዳሉ።</item>
+    </plurals>
+    <plurals name="download_notification_complete_title">
+        <item quantity="other">%1$s እና %2$d ተጨማሪ ንጥሎች</item>
+        <item quantity="one">%1$s እና %2$d ተጨማሪ ንጥሎች</item>
+    </plurals>
+    <plurals name="download_notification_failure_multiple">
+        <item quantity="other">%1$s ንጥሎች ሊወርዱ አልቻሉም</item>
+        <item quantity="one">%1$s ንጥሎች ሊወርዱ አልቻሉም</item>
+    </plurals>
+    <plurals name="download_notification_list_summary">
+        <item quantity="other">%1$d ተጨማሪ ንጥሎች</item>
+        <item quantity="one">%1$d ተጨማሪ ንጥሎች</item>
+    </plurals>
+    <plurals name="download_notification_partial_failure_title">
+        <item quantity="other">%1$d ከ%2$d ውርዶች አልተሳኩም</item>
+        <item quantity="one">%1$d ከ%2$d ውርዶች አልተሳኩም</item>
+    </plurals>
+    <plurals name="download_notification_partial_success_title">
+        <item quantity="other">%1$d ከ%2$d ውርዶች አልተሳካም</item>
+        <item quantity="one">%1$d ከ%2$d ውርዶች አልተሳካም</item>
+    </plurals>
+    <plurals name="download_notification_title_total_failure">
+        <item quantity="other">%1$d ውርዶች አልተሳኩም</item>
+        <item quantity="one">%1$d ውርዶች አልተሳኩም</item>
+    </plurals>
+    <plurals name="download_notification_title_total_success">
+        <item quantity="other">%1$d ፋይሎች ወርደዋል</item>
+        <item quantity="one">%1$d ፋይሎች ወርደዋል</item>
+    </plurals>
+    <plurals name="duo_notification_list_summary">
+        <item quantity="other">እና %1$d ተጨማሪ ፋይሎች</item>
+        <item quantity="one">እና %1$d ተጨማሪ ፋይሎች</item>
+    </plurals>
+    <plurals name="duo_notification_locate_file">
+        <item quantity="other">ፋይሎችን አግኝ</item>
+        <item quantity="one">ፋይሎችን አግኝ</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_include_current_user_text">
+        <item quantity="other">እርስዎ %d ሌሎች ምላሽ ሰጥታችኋል</item>
+        <item quantity="one">እርስዎ %d ሌሎች ምላሽ ሰጥታችኋል</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_without_current_user_text">
+        <item quantity="other">%d ሰዎች ምላሽ ሰጥተዋል</item>
+        <item quantity="one">%d ሰዎች ምላሽ ሰጥተዋል</item>
+    </plurals>
+    <plurals name="error_moving_file">
+        <item quantity="other">ፋይሎቹን መውሰድ ላይ ስህተት።</item>
+        <item quantity="one">ፋይሎቹን መውሰድ ላይ ስህተት።</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+        <item quantity="one">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+        <item quantity="one">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+    </plurals>
+    <plurals name="guestNumber">
+        <item quantity="other">%d እንግዳዎች</item>
+        <item quantity="one">%d እንግዳዎች</item>
+    </plurals>
+    <plurals name="make_shortcut_confirmation">
+        <item quantity="other">%2$d አቋራጮች ወደ «%1$s» ታክለዋል</item>
+        <item quantity="one">%2$d አቋራጮች ወደ «%1$s» ታክለዋል</item>
+    </plurals>
+    <plurals name="make_shortcut_failure">
+        <item quantity="other">አቋራጮችን ማከል አልተቻለም። እንደገና ሞክር</item>
+        <item quantity="one">አቋራጮችን ማከል አልተቻለም። እንደገና ሞክር</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_dlp_detections">
+        <item quantity="other">ወደ «%1$s» እየተወሰዱ ያሉ አንዳንድ ፋይሎች የDLP ግኝቶችን ቀስቅሰዋል። በእነዚህ ፋይሎች ውስጥ ሚስጥራዊነት ያለው መረጃ ሊኖር ይችላል።</item>
+        <item quantity="one">ወደ «%1$s» እየተወሰዱ ያሉ አንዳንድ ፋይሎች የDLP ግኝቶችን ቀስቅሰዋል። በእነዚህ ፋይሎች ውስጥ ሚስጥራዊነት ያለው መረጃ ሊኖር ይችላል።</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_generic">
+        <item quantity="other">እነዚህን ንጥሎች መውሰድ ፈቃዶቻቸውን ሊቀይረው ይችላል</item>
+        <item quantity="one">እነዚህን ንጥሎች መውሰድ ፈቃዶቻቸውን ሊቀይረው ይችላል</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_people_lose">
+        <item quantity="other">እነዚህ ንጥሎች በቀጥታ ለእነሱ ካልተጋሩ በስተቀር «%1$s»ን ማየት የሚችል ሁሉም ሰው መዳረሻ ያጣል።</item>
+        <item quantity="one">እነዚህ ንጥሎች በቀጥታ ለእነሱ ካልተጋሩ በስተቀር «%1$s»ን ማየት የሚችል ሁሉም ሰው መዳረሻ ያጣል።</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_within_shared_drive">
+        <item quantity="other">እነዚህን ንጥሎች በአንድ የተጋራ Drive ውስጥ መውሰድ ፈቃዶቻቸውን ሊቀይረው ይችላል</item>
+        <item quantity="one">እነዚህን ንጥሎች በአንድ የተጋራ Drive ውስጥ መውሰድ ፈቃዶቻቸውን ሊቀይረው ይችላል</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_title_generic">
+        <item quantity="other">ንጥሎች ይወሰዱ?</item>
+        <item quantity="one">ንጥሎች ይወሰዱ?</item>
+    </plurals>
+    <plurals name="move_error_no_permission_move_children_out_of_td_updated">
+        <item quantity="other">እነዚህን ንጥሎች ከተጋራው Drive ውጭ የመውሰድ ፈቃድ የለዎትም።</item>
+        <item quantity="one">እነዚህን ንጥሎች ከተጋራው Drive ውጭ የመውሰድ ፈቃድ የለዎትም።</item>
+    </plurals>
+    <plurals name="move_error_no_permission_src">
+        <item quantity="other">እርስዎ አንዳንድ ንጥሎችን ከአቃፊያቸው የማስወጣት ፈቃድ የለዎትም።</item>
+        <item quantity="one">እርስዎ አንዳንድ ንጥሎችን ከአቃፊያቸው የማስወጣት ፈቃድ የለዎትም።</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">የፋይሉ ባለቤት ከ%1$s ውጭ ስለሆኑ እነዚህን ፋይሎች መውሰድ አይችሉም።</item>
+        <item quantity="one">የፋይሉ ባለቤት ከ%1$s ውጭ ስለሆኑ እነዚህን ፋይሎች መውሰድ አይችሉም።</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive">
+        <item quantity="other">%1$s «%2$s» አሁን ሊደርስባቸው ይችላል።</item>
+        <item quantity="one">%1$s «%2$s» አሁን ሊደርስባቸው ይችላል።</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive_fallback_updated">
+        <item quantity="other">%1$d ንጥሎች ወደ የተጋራ Drive ተወስደዋል። አባላት አሁን ሊደርሱባቸው ይችላሉ።</item>
+        <item quantity="one">%1$d ንጥሎች ወደ የተጋራ Drive ተወስደዋል። አባላት አሁን ሊደርሱባቸው ይችላሉ።</item>
+    </plurals>
+    <plurals name="move_notice_lost_access_team_drives_plural_updated">
+        <item quantity="other">%1$d ንጥሎች ከተጋራ Drive ተወስደዋል። አባላት መዳረሻ አጥተዋል።</item>
+        <item quantity="one">%1$d ንጥሎች ከተጋራ Drive ተወስደዋል። አባላት መዳረሻ አጥተዋል።</item>
+    </plurals>
+    <plurals name="move_to_trash_confirmation_dialog">
+        <item quantity="other">%1$d ንጥሎች ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ። %3$s</item>
+        <item quantity="one">%1$d ንጥሎች ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ። %3$s</item>
+    </plurals>
+    <plurals name="moved_to_trash_toast">
+        <item quantity="other">%1$d ንጥሎች ወደ መጣያ ተወስደዋል። %3$s</item>
+        <item quantity="one">%1$d ንጥሎች ወደ መጣያ ተወስደዋል። %3$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="multiselect_item_count_toolbar_title">
+        <item quantity="other">%1$d ንጥሎች</item>
+        <item quantity="one">%1$d ንጥሎች</item>
+    </plurals>
+    <plurals name="notification_completed_pin_title">
+        <item quantity="other">%1$d ፋይሎች አሁን ከመስመር ውጭ ይገኛሉ</item>
+        <item quantity="one">%1$d ፋይሎች አሁን ከመስመር ውጭ ይገኛሉ</item>
+    </plurals>
+    <plurals name="notification_failed_pin_title">
+        <item quantity="other">%1$d ፋይሎችን ከመስመር ውጪ እንዲገኙ ማድረግ አልተሳከም</item>
+        <item quantity="one">%1$d ፋይሎችን ከመስመር ውጪ እንዲገኙ ማድረግ አልተሳከም</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title">
+        <item quantity="other">%1$d ፋይሎች ከመስመር ውጪ እንዲገኙ በመደረግ ላይ</item>
+        <item quantity="one">%1$d ፋይሎች ከመስመር ውጪ እንዲገኙ በመደረግ ላይ</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title_with_bytes">
+        <item quantity="other">%1$d ፋይሎችን ከመስመር ውጭ የሚገኝ በማድረግ ላይ (%2$s)</item>
+        <item quantity="one">%1$d ፋይሎችን ከመስመር ውጭ የሚገኝ በማድረግ ላይ (%2$s)</item>
+    </plurals>
+    <plurals name="notification_partially_failed_pin_title">
+        <item quantity="other">%1$d ከ%2$d ፋይሎች ከመስመር ውጪ እንዲገኙ ለማድረግ አልተሳከም።</item>
+        <item quantity="one">%1$d ከ%2$d ፋይሎች ከመስመር ውጪ እንዲገኙ ለማድረግ አልተሳከም።</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title">
+        <item quantity="other">%1$d ከ%2$d ፋይሎች ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል</item>
+        <item quantity="one">%1$d ከ%2$d ፋይሎች ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title_with_bytes">
+        <item quantity="other">%1$d ከ%2$d ፋይሎች ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል (%3$s)</item>
+        <item quantity="one">%1$d ከ%2$d ፋይሎች ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል (%3$s)</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title">
+        <item quantity="other">%1$d ፋይሎችን ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል</item>
+        <item quantity="one">%1$d ፋይሎችን ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title_with_bytes">
+        <item quantity="other">%1$d ፋይሎችን ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል (%2$s)</item>
+        <item quantity="one">%1$d ፋይሎችን ከመስመር ውጭ የሚገኙ ማድረግ ባለበት ቆሟል (%2$s)</item>
+    </plurals>
+    <plurals name="number_of_approvers">
+        <item quantity="other">%1$d አጽዳቂዎች</item>
+        <item quantity="one">%1$d አጽዳቂዎች</item>
+    </plurals>
+    <plurals name="permanently_delete_confirmation_message">
+        <item quantity="other">%1$d ንጥሎች ለዘለዓለም ይሰረዛሉ። ይህ ሊቀለበስ አይችልም።</item>
+        <item quantity="one">%1$d ንጥሎች ለዘለዓለም ይሰረዛሉ። ይህ ሊቀለበስ አይችልም።</item>
+    </plurals>
+    <plurals name="permanently_deleted">
+        <item quantity="other">ንጥሎች እስከመጨረሻው ተሰርዘዋል</item>
+        <item quantity="one">ንጥሎች እስከመጨረሻው ተሰርዘዋል</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed">
+        <item quantity="other">አሁን %1$d ከ%2$s ከመስመር ውጪ ይገኛሉ</item>
+        <item quantity="one">አሁን %1$d ከ%2$s ከመስመር ውጪ ይገኛሉ</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed_all">
+        <item quantity="other">አሁን ሁሉም %1$d ፋይሎች ከመስመር ውጭ ይገኛሉ</item>
+        <item quantity="one">አሁን ሁሉም %1$d ፋይሎች ከመስመር ውጭ ይገኛሉ</item>
+    </plurals>
+    <plurals name="pin_notification_sync_failure">
+        <item quantity="other">ፋይሎች ከመስመር ውጪ እንዲገኙ ማድረግ አይቻልም</item>
+        <item quantity="one">ፋይሎች ከመስመር ውጪ እንዲገኙ ማድረግ አይቻልም</item>
+    </plurals>
+    <plurals name="pin_notification_sync_progress">
+        <item quantity="other">%1$d ፋይሎች ከመስመር ውጪ እንዲገኙ በመደረግ ላይ</item>
+        <item quantity="one">%1$d ፋይሎች ከመስመር ውጪ እንዲገኙ በመደረግ ላይ</item>
+    </plurals>
+    <plurals name="pin_notification_sync_queued_files">
+        <item quantity="other">%1$d ፋይሎች</item>
+        <item quantity="one">%1$d ፋይሎች</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_network_ticker">
+        <item quantity="other">ውርዶች ባሉበት ቆመዋል፣ አውታረ መረብን በመጠበቅ ላይ…</item>
+        <item quantity="one">ውርዶች ባሉበት ቆመዋል፣ አውታረ መረብን በመጠበቅ ላይ…</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_title">
+        <item quantity="other">%1$d ውርዶች ባሉበት አቁመዋል</item>
+        <item quantity="one">%1$d ውርዶች ባሉበት አቁመዋል</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_wifi_ticker">
+        <item quantity="other">ውርዶች ባሉበት ቆመዋል፣ Wi-Fiን በመጠበቅ ላይ…</item>
+        <item quantity="one">ውርዶች ባሉበት ቆመዋል፣ Wi-Fiን በመጠበቅ ላይ…</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_many_users">
+        <item quantity="other">በ%1$d ፋይሎች ላይ አስተያየት ሰጥተዋል</item>
+        <item quantity="one">በ%1$d ፋይሎች ላይ አስተያየት ሰጥተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_one_user">
+        <item quantity="other">በ%1$d ፋይሎች ላይ አስተያየት ሰጥተዋል</item>
+        <item quantity="one">በ%1$d ፋይሎች ላይ አስተያየት ሰጥተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_this_file">
+        <item quantity="other">በዚህ ፋይል ላይ አስተያየት ሰጥተዋል</item>
+        <item quantity="one">በዚህ ፋይል ላይ አስተያየት ሰጥተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_many_users">
+        <item quantity="other">%1$d ንጥሎችን ፈጥረዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ፈጥረዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_one_user">
+        <item quantity="other">%1$d ንጥሎችን ፈጥረዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ፈጥረዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_file">
+        <item quantity="other">ይህን ፋይል ፈጥረዋል</item>
+        <item quantity="one">ይህን ፋይል ፈጥረዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_folder">
+        <item quantity="other">ይህን አቃፊ ፈጥረዋል</item>
+        <item quantity="one">ይህን አቃፊ ፈጥረዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_many_users">
+        <item quantity="other">በ%1$d ንጥሎች ላይ አርትዖት አድርገዋል</item>
+        <item quantity="one">በ%1$d ንጥሎች ላይ አርትዖት አድርገዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_one_user">
+        <item quantity="other">በ%1$d ንጥሎች ላይ አርትዖት አድርገዋል</item>
+        <item quantity="one">በ%1$d ንጥሎች ላይ አርትዖት አድርገዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_this_file">
+        <item quantity="other">በዚህ ፋይል ላይ አርትዖቶችን አድርገዋል</item>
+        <item quantity="one">በዚህ ፋይል ላይ አርትዖቶችን አድርገዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_empty_trash">
+        <item quantity="other">%1$d ንጥሎችን እስከመጨረሻው ሰርዘዋል</item>
+        <item quantity="one">%1$d ንጥሎችን እስከመጨረሻው ሰርዘዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_many_users">
+        <item quantity="other">%1$d ንጥሎችን ወስደዋል ወደ፦</item>
+        <item quantity="one">%1$d ንጥሎችን ወስደዋል ወደ፦</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_one_user">
+        <item quantity="other">%1$d ንጥሎችን ወስደዋል ወደ፦</item>
+        <item quantity="one">%1$d ንጥሎችን ወስደዋል ወደ፦</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_many_users">
+        <item quantity="other">%1$d ንጥሎችን ወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_one_user">
+        <item quantity="other">%1$d ንጥሎችን ወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file">
+        <item quantity="other">ይህን ፋይል ወስደዋል</item>
+        <item quantity="one">ይህን ፋይል ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file_extra">
+        <item quantity="other">ይህን ፋይል ወስደዋል ወደ፦</item>
+        <item quantity="one">ይህን ፋይል ወስደዋል ወደ፦</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder">
+        <item quantity="other">ይህን አቃፊ ወስደዋል</item>
+        <item quantity="one">ይህን አቃፊ ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder_extra">
+        <item quantity="other">ይህን አቃፊ ወስደዋል ወደ፦</item>
+        <item quantity="one">ይህን አቃፊ ወስደዋል ወደ፦</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_many_users">
+        <item quantity="other">%1$d ንጥሎችን ዳግም ሰይመዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ዳግም ሰይመዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_one_user">
+        <item quantity="other">%1$d ንጥሎችን ዳግም ሰይመዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ዳግም ሰይመዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_file">
+        <item quantity="other">ይህን ፋይል ዳግም ሰይመዋል</item>
+        <item quantity="one">ይህን ፋይል ዳግም ሰይመዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_folder">
+        <item quantity="other">ይህን አቃፊ ዳግም ሰይመዋል</item>
+        <item quantity="one">ይህን አቃፊ ዳግም ሰይመዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_one_or_many_users">
+        <item quantity="other">%1$d ንጥሎች ወደ ነበሩበት ተመልሰዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደ ነበሩበት ተመልሰዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_file">
+        <item quantity="other">ይህ ፋይል ወደነበረበት ተመልሷል</item>
+        <item quantity="one">ይህ ፋይል ወደነበረበት ተመልሷል</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_folder">
+        <item quantity="other">ይህ አቃፊ ወደነበረበት ተመልሷል</item>
+        <item quantity="one">ይህ አቃፊ ወደነበረበት ተመልሷል</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_applied_one_or_many_users">
+        <item quantity="other">የደህንነት ዝማኔ በ%1$d ንጥሎች ላይ ተተግብሯል</item>
+        <item quantity="one">የደህንነት ዝማኔ በ%1$d ንጥሎች ላይ ተተግብሯል</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_removed_one_or_many_users">
+        <item quantity="other">የደህንነት ዝማኔ ከ%1$d ንጥሎች ተወግዷል</item>
+        <item quantity="one">የደህንነት ዝማኔ ከ%1$d ንጥሎች ተወግዷል</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_many_users">
+        <item quantity="other">%1$d ንጥሎችን አጋርተዋል</item>
+        <item quantity="one">%1$d ንጥሎችን አጋርተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_one_user">
+        <item quantity="other">%1$d ንጥሎችን አጋርተዋል</item>
+        <item quantity="one">%1$d ንጥሎችን አጋርተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_file">
+        <item quantity="other">ይህን ፋይል አጋርተዋል</item>
+        <item quantity="one">ይህን ፋይል አጋርተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_folder">
+        <item quantity="other">ይህን አቃፊ አጋርተዋል</item>
+        <item quantity="one">ይህን አቃፊ አጋርተዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_system_migrated">
+        <item quantity="other">ተዛውሯል</item>
+        <item quantity="one">ተዛውሯል</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_many_users">
+        <item quantity="other">%1$d ንጥሎችን ወደ መጣያ ወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ወደ መጣያ ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_one_user">
+        <item quantity="other">%1$d ንጥሎችን ወደ መጣያ ወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ወደ መጣያ ወስደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_file">
+        <item quantity="other">ይህን ፋይል አስወግደዋል</item>
+        <item quantity="one">ይህን ፋይል አስወግደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_folder">
+        <item quantity="other">ይህን አቃፊ አስወግደዋል</item>
+        <item quantity="one">ይህን አቃፊ አስወግደዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_many_users">
+        <item quantity="other">%1$d ንጥሎችን ሰቅለዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ሰቅለዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_one_user">
+        <item quantity="other">%1$d ንጥሎችን ሰቅለዋል</item>
+        <item quantity="one">%1$d ንጥሎችን ሰቅለዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_file">
+        <item quantity="other">ይህን ፋይል ሰቅለዋል</item>
+        <item quantity="one">ይህን ፋይል ሰቅለዋል</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_folder">
+        <item quantity="other">ይህን አቃፊ ሰቅለዋል</item>
+        <item quantity="one">ይህን አቃፊ ሰቅለዋል</item>
+    </plurals>
+    <plurals name="recent_activity_users_more">
+        <item quantity="other">%1$s እና %2$d ሌሎች</item>
+        <item quantity="one">%1$s እና %2$d ሌላ</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_files_text">
+        <item quantity="other">%1$d ፋይሎች ወደ የ«%2$s» መጣያው ይወሰዱና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ።</item>
+        <item quantity="one">%1$d ፋይሎች ወደ የ«%2$s» መጣያው ይወሰድና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛል።</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_folders_text">
+        <item quantity="other">%1$d አቃፊዎች ወደ የ«%2$s» መጣያው ይወሰዱና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ።</item>
+        <item quantity="one">%1$d አቃፊ ወደ የ«%2$s» መጣያው ይወሰድና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛል።</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_items_text">
+        <item quantity="other">%1$d ንጥሎች ወደ የ«%2$s» መጣያው ይወሰዱና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ።</item>
+        <item quantity="one">%1$d ንጥል ወደ የ«%2$s» መጣያው ይወሰድና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛል።</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
+        <item quantity="other">እነዚህ %1$d ፋይሎች ለሁሉም ሰው እስከመጨረሻው ይሰረዛሉ። ይህን እርምጃ መቀልበስ አይችሉም።</item>
+        <item quantity="one">እነዚህ %1$d ፋይሎች ለሁሉም ሰው እስከመጨረሻው ይሰረዛሉ። ይህን እርምጃ መቀልበስ አይችሉም።</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">እነዚህ %1$d ፋይሎች እስከመጨረሻው ይሰረዛሉ። ይህን እርምጃ መቀልበስ አይችሉም።</item>
+        <item quantity="one">እነዚህ %1$d ፋይሎች እስከመጨረሻው ይሰረዛሉ። ይህን እርምጃ መቀልበስ አይችሉም።</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog">
+        <item quantity="other">%1$d ንጥሎች ከእይታ ይወገዳሉ። %3$s</item>
+        <item quantity="one">%1$d ንጥሎች ከእይታ ይወገዳሉ። %3$s</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog_title">
+        <item quantity="other">ንጥሎች ይወገዱ?</item>
+        <item quantity="one">ንጥሎች ይወገዱ?</item>
+    </plurals>
+    <plurals name="remove_multiple_confirmation_dialog">
+        <item quantity="other">%1$d ንጥሎች ወደ መጣያው ይወሰዱና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ። %3$s</item>
+        <item quantity="one">%1$d ንጥሎች ወደ መጣያው ይወሰዱና ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ። %3$s</item>
+    </plurals>
+    <plurals name="remove_multiple_entry_confirmation_dialog_message">
+        <item quantity="other">%1$d ንጥሎች ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ</item>
+        <item quantity="one">%1$d ንጥሎች ከ30 ቀኖች በኋላ እስከመጨረሻው ይሰረዛሉ</item>
+    </plurals>
+    <plurals name="removed_toast">
+        <item quantity="other">%1$d ንጥሎች ተወግደዋል። %3$s</item>
+        <item quantity="one">%1$d ንጥሎች ተወግደዋል። %3$s</item>
+    </plurals>
+    <plurals name="selection_floating_handle_count">
+        <item quantity="other">%1$d ንጥሎች</item>
+        <item quantity="one">%1$d ንጥሎች</item>
+    </plurals>
+    <plurals name="selection_message_pin_num_items">
+        <item quantity="other">ፋይሎች ከመስመር ውጭ የሚገኙ እንዲሆኑ ይደረጋሉ</item>
+        <item quantity="one">ፋይሎች ከመስመር ውጭ የሚገኙ እንዲሆኑ ይደረጋሉ</item>
+    </plurals>
+    <plurals name="selection_message_star_num_items">
+        <item quantity="other">%1$d ንጥሎች ኮከብ ተደርጎባቸዋል</item>
+        <item quantity="one">%1$d ንጥሎች ኮከብ ተደርጎባቸዋል</item>
+    </plurals>
+    <plurals name="selection_message_unpin_num_items">
+        <item quantity="other">ፋይሎች ከአሁን በኋላ ከመስመር ውጭ አይገኙም</item>
+        <item quantity="one">ፋይሎች ከአሁን በኋላ ከመስመር ውጭ አይገኙም</item>
+    </plurals>
+    <plurals name="selection_message_unstar_num_items">
+        <item quantity="other">የ%1$d ንጥሎች ኮከብ ተወግደዋል</item>
+        <item quantity="one">የ%1$d ንጥሎች ኮከብ ተወግደዋል</item>
+    </plurals>
+    <plurals name="selection_message_untrash_num_items">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_message_remove_num_items">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message">
+        <item quantity="other">%1$d ንጥሎች ከ«%2$s» ተወግደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ከ«%2$s» ተወግደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message_fallback">
+        <item quantity="other">%1$d ንጥሎች ከአቃፊ ተወግደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ከአቃፊ ተወግደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_trashed_message">
+        <item quantity="other">%1$d ንጥሎች ተወግደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ተወግደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_message">
+        <item quantity="other">%1$d ንጥሎች ተመልሰው ተወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ተመልሰው ተወስደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_trashed_message">
+        <item quantity="other">%1$d ንጥሎች ወደ መጣያው ተመልሰው ተወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደ መጣያው ተመልሰው ተወስደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_message_remove_num_items">
+        <item quantity="other">%1$d ንጥሎች ተወግደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ተወግደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d ንጥሎች ወደ «%2$s» ታክለዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደ «%2$s» ታክለዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message_fallback">
+        <item quantity="other">%1$d ንጥሎች ታክለዋል</item>
+        <item quantity="one">%1$d ንጥሎች ታክለዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት ተመልሰው ወደ «%2$s» ታክለዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት ተመልሰው ወደ «%2$s» ታክለዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d ንጥሎች ወደ «%2$s» ተወስደዋል።</item>
+        <item quantity="one">%1$d ንጥሎች ወደ «%2$s» ተወስደዋል።</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message_fallback">
+        <item quantity="other">%1$d ንጥሎች ተወስደዋል</item>
+        <item quantity="one">%1$d ንጥሎች ተወስደዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት ተመልሰው ወደ «%2$s» ተወስደዋል።</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት ተመልሰው ወደ «%2$s» ተወስደዋል።</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message_fallback">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት ተመልሰዋል</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d ንጥሎች ወደነበሩበት «%2$s» ተመልሰዋል።</item>
+        <item quantity="one">%1$d ንጥሎች ወደነበሩበት «%2$s» ተመልሰዋል።</item>
+    </plurals>
+    <plurals name="send_files">
+        <item quantity="other">ፋይሎችን ላክ በ</item>
+        <item quantity="one">ፋይሎችን ላክ በ</item>
+    </plurals>
+    <plurals name="sharing_people_added">
+        <item quantity="other">ሰዎች ታክለዋል</item>
+        <item quantity="one">ሰዎች ታክለዋል</item>
+    </plurals>
+    <plurals name="teamdrive_acl_info_summary">
+        <item quantity="other">%d አባሎች</item>
+        <item quantity="one">%d አባሎች</item>
+    </plurals>
+    <plurals name="teamdrive_group_count">
+        <item quantity="other">%d ቡድኖች</item>
+        <item quantity="one">%d ቡድኖች</item>
+    </plurals>
+    <plurals name="teamdrive_people_count">
+        <item quantity="other">%d ሰዎች</item>
+        <item quantity="one">%d ሰዎች</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_resume">
+        <item quantity="other">አሁን ሁሉንም ከቆመበት ቀጥል</item>
+        <item quantity="one">አሁን ሁሉንም ከቆመበት ቀጥል</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_all_failed">
+        <item quantity="other">%1$d ሰቀላዎች አልተሳኩም</item>
+        <item quantity="one">%1$d ሰቀላዎች አልተሳኩም</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_successfully">
+        <item quantity="other">%1$d ፋይሎች ተሰቅለዋል</item>
+        <item quantity="one">%1$d ፋይሎች ተሰቅለዋል</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_progress">
+        <item quantity="other">%1$d ፋይሎችን በመስቀል ላይ</item>
+        <item quantity="one">%1$d ፋይሎችን በመስቀል ላይ</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_partial_title">
+        <item quantity="other">%1$d ከ%2$d ሰቀላዎች ባሉበት ቆመዋል</item>
+        <item quantity="one">%1$d ከ%2$d ሰቀላዎች ባሉበት ቆመዋል</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_title">
+        <item quantity="other">%1$d ሰቀላዎች ባሉበት ቆመዋል</item>
+        <item quantity="one">%1$d ሰቀላዎች ባሉበት ቆመዋል</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_canceled">
+        <item quantity="other">የ%1$d ፋይሎች ሰቀላ ተሰርዟል።</item>
+        <item quantity="one">የ%1$d ፋይሎች ሰቀላ ተሰርዟል።</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_failures">
+        <item quantity="other">%1$d ፋይሎችን ለሰቀላ መርሐግብር ማስያዝ አልተቻለም።</item>
+        <item quantity="one">%1$d ፋይሎችን ለሰቀላ መርሐግብር ማስያዝ አልተቻለም።</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_successfully">
+        <item quantity="other">%1$d ፋይሎች ተሰቅለዋል</item>
+        <item quantity="one">%1$d ፋይሎች ተሰቅለዋል</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_with_failures">
+        <item quantity="other">ሰቀላ %1$d ከ%2$d ፋይሎች መስቀል አልተቻለም</item>
+        <item quantity="one">ሰቀላ %1$d ከ%2$d ፋይሎች መስቀል አልተቻለም</item>
+    </plurals>
+    <plurals name="upload_notification_sync_progress">
+        <item quantity="other">%1$d ፋይሎችን በመስቀል ላይ</item>
+        <item quantity="one">%1$d ፋይሎችን በመስቀል ላይ</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_network_ticker">
+        <item quantity="other">ሰቀላዎች ባሉበት ቆመዋል፣ አውታረ መረብን በመጠበቅ ላይ…</item>
+        <item quantity="one">ሰቀላዎች ባሉበት ቆመዋል፣ አውታረ መረብን በመጠበቅ ላይ…</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_title">
+        <item quantity="other">%1$d ሰቀላዎች ባሉበት ቆመዋል</item>
+        <item quantity="one">%1$d ሰቀላዎች ባሉበት ቆመዋል</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_wifi_ticker">
+        <item quantity="other">ሰቀላዎች ባሉበት ቆመዋል፣ Wi-Fiን በመጠበቅ ላይ…</item>
+        <item quantity="one">ሰቀላዎች ባሉበት ቆመዋል፣ Wi-Fiን በመጠበቅ ላይ…</item>
+    </plurals>
+    <plurals name="upload_spinner_message">
+        <item quantity="other">%1$d ፋይሎችን ለመስቀል በመዘጋጀት ላይ</item>
+        <item quantity="one">%1$d ፋይሎችን ለመስቀል በመዘጋጀት ላይ</item>
+    </plurals>
+    <plurals name="upload_toast_message">
+        <item quantity="other">የእርስዎ %1$d ፋይሉ እየተሰቀሉ ነው ወደ፦ %2$s</item>
+        <item quantity="one">የእርስዎ %1$d ፋይሉ እየተሰቀሉ ነው ወደ፦ %2$s</item>
+    </plurals>
+    <plurals name="view_workspace_files">
+        <item quantity="other">%1$d ፋይሎችን ይመልከቱ</item>
+        <item quantity="one">%1$d ፋይሎችን ይመልከቱ</item>
+    </plurals>
+    <plurals name="view_workspace_files_content_desc">
+        <item quantity="other">በ%2$s ውስጥ %1$d ፋይሎችን ይመልከቱ</item>
+        <item quantity="one">በ%2$s ውስጥ %1$d ፋይሎችን ይመልከቱ</item>
+    </plurals>
+</resources>

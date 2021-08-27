@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s het %2$s bygevoeg</item>
+        <item quantity="one">%1$s het %2$s bygevoeg</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Hulle is nie lede van die Google Workspace-organisasie waaraan hierdie kamer behoort nie.</item>
+        <item quantity="one">"Hulle is nie 'n lid van die Google Workspace-organisasie waaraan hierdie kamer behoort nie."</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Sommige mense is nie lede van die Google Workspace-organisasie waaraan hierdie kamer behoort nie.</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d lede</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s nuwe boodskappe</item>
+        <item quantity="one">%s nuwe boodskap</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">%1$d gevalle van Geskeduleerde Stuur is gekanselleer en boodskappe is teruggestel as konsepte.</item>
+        <item quantity="one">"Geskeduleerde Stuur is gekanselleer en boodskap is teruggestel as 'n konsep."</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s ontvangers</item>
+        <item quantity="one">1 ontvanger</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 ontvangers gebruik dienste wat nie enkripsie steun nie. Sonder enkripsie kan ander mense jou boodskap tydens aflewering sien. ^2</item>
+        <item quantity="one">"^1 gebruik 'n diens wat nie enkripsie steun nie. Sonder enkripsie kan ander mense jou boodskap tydens aflewering sien. ^2"</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">^1 en ander mense het nie enkripsie gesteun toe hierdie boodskap gestuur is nie.</item>
+        <item quantity="one">^1 het nie enkripsie gesteun toe hierdie boodskap gestuur is nie.</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s ingevoude boodskappe</item>
+        <item quantity="one">%1$s ingevoude boodskap</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">Wegbreekkamer eindig oor %d minute.</item>
+        <item quantity="one">Wegbreekkamer eindig oor %d minuut.</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">Jou oproep sal oor %1$d minute eindig</item>
+        <item quantity="one">Jou oproep sal oor %1$d minuut eindig</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">%d ander mense</item>
+        <item quantity="one">%d ander persoon</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">%d ander mense</item>
+        <item quantity="one">%d ander persoon</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Argiveer hierdie %1$d gesprekke?</item>
+        <item quantity="one">Argiveer hierdie gesprek?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Vee hierdie %1$d gesprekke uit?</item>
+        <item quantity="one">Vee hierdie gesprek uit?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Gooi konsepte uit hierdie %1$d gesprekke weg?</item>
+        <item quantity="one">Gooi konsepte uit hierdie gesprek weg?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> geargiveer</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> geargiveer</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> uitgevee</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> uitgevee</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Etikette is verander.</item>
+        <item quantity="one">Etiket is verander.</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> as belangrik gemerk</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> as belangrik gemerk</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">%1$d boodskappe wat uitgevee is in hierdie gesprek</item>
+        <item quantity="one">%1$d boodskap wat uitgevee is in hierdie gesprek</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> na inkassie geskuif</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> na inkassie geskuif</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> gedemp</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> gedemp</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> gemerk as onbelangrik</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> gemerk as onbelangrik</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> aangegee as nie strooipos nie</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> aangegee as nie strooipos nie</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> gemerk as gelees</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> gemerk as gelees</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> is gesluimer tot %2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> is gesluimer tot %2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> as strooipos aangegee</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> as strooipos aangegee</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d is as strooipos aangegee en is by uitgeteken</item>
+        <item quantity="one">%1$d is as strooipos aangegee en is by uitgeteken</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">Ster tans %1$d gesprekke</item>
+        <item quantity="one">Ster tans %1$d gesprek</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> gemerk as ongelees</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> gemerk as ongelees</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> is ontsluimer</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> is ontsluimer</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Ontster tans %1$d gesprekke</item>
+        <item quantity="one">Ontster tans %1$d gesprek</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d aangegee as uitgeteken</item>
+        <item quantity="one">%1$d aangegee as uitgeteken</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">Elke %d dae</item>
+        <item quantity="one">Daagliks</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">%1$s is deur die botontwikkelaars gedeaktiveer.</item>
+        <item quantity="one">%1$s is deur die botontwikkelaar gedeaktiveer.</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Hierdie boodskappe sal as strooipos gemerk word. Wil jy ook ophou om soortgelyke boodskappe van hierdie &lt;b>%2$d stuurders&lt;/b> te ontvang?%1$s</item>
+        <item quantity="one">Hierdie boodskap sal as strooipos gemerk word. Wil jy ook ophou om soortgelyke boodskappe van %1$s te ontvang?</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Konsepte</item>
+        <item quantity="one">Konsep</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s en nog %2$d kan nie by hierdie klets ingesluit word nie</item>
+        <item quantity="one">%1$s kan nie by hierdie klets ingesluit word nie</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s gesprekke sal permanent uitgevee word</item>
+        <item quantity="one">%1$s gesprek sal permanent uitgevee word</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; %d keer</item>
+        <item quantity="one">; een keer</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Jy voeg tans eksterne gaste by</item>
+        <item quantity="one">"Jy voeg tans 'n eksterne gas by"</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Jou ontvangers het dalk nie toegang tot die lêers wat jy ingevoeg het uit Drive nie. Jy sal dalk die lêers vanuit Google Drive moet deel.</item>
+        <item quantity="one">Jou ontvangers het dalk nie toegang tot die lêer wat jy ingevoeg het uit Drive nie. Jy sal dalk die lêer vanuit Google Drive moet deel.</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Jou ontvangers het dalk nie toegang tot die lêers wat jy van Drive ingevoeg het nie. Jy sal dalk die lêers vanuit Google Drive moet deel.</item>
+        <item quantity="one">Jou ontvangers het dalk nie toegang tot die lêer wat jy van Drive ingevoeg het nie. Jy sal dalk die lêer vanuit Google Drive moet deel.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Let wel: Sommige ontvangers het dalk steeds nie toegang tot hierdie lêers nie. Jy sal dalk hierdie lêers vanuit Google Drive moet deel.</item>
+        <item quantity="one">Let wel: Sommige ontvangers het dalk steeds nie toegang tot hierdie lêer nie. Jy sal dalk hierdie lêer vanuit Google Drive moet deel.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Let wel: Sommige ontvangers kan dalk steeds nie by hierdie lêers ingaan nie. Jy sal dalk hierdie lêers vanuit Google Drive moet deel.</item>
+        <item quantity="one">Let wel: Sommige ontvangers kan dalk steeds nie by hierdie lêer ingaan nie. Jy sal dalk hierdie lêer vanuit Google Drive moet deel.</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Fout: Hierdie lêers kon nie gedeel word nie.</item>
+        <item quantity="one">Fout: Die lêer kon nie gedeel word nie.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Jy deel tans met ontvangers:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>wat nie in die Google Workspace-organisasie is waaraan hierdie lêers behoort nie."</item>
+        <item quantity="one">Jy deel tans met ontvangers:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>wat nie in die Google Workspace-organisasie is waaraan hierdie lêer behoort nie.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Jy deel tans met die volgende ontvangers:%1$s wat nie in die Google Workspace-organisasie is waaraan hierdie lêers behoort nie.</item>
+        <item quantity="one">Jy deel tans met die volgende ontvangers:%1$s wat nie in die Google Workspace-organisasie is waaraan hierdie lêer behoort nie.</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">Jy het %d nuwe boodskappe in die Nuwe Boodskappe-knoppie hieronder.</item>
+        <item quantity="one">Jy het %d nuwe boodskap in die Nuwe Boodskappe-knoppie hieronder.</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 ontvangers gebruik dienste wat nie enkripsie steun nie. Sonder enkripsie kan jou boodskap gedurende aflewering gelees word. ^2</item>
+        <item quantity="one">"^1 gebruik 'n diens wat nie enkripsie steun nie. Sonder enkripsie kan jou boodskap gedurende aflewering gelees word. ^2"</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d boodskappe word nie gewys nie</item>
+        <item quantity="one">%d boodskap word nie gewys nie</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d mense</item>
+        <item quantity="one">%d persoon</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s het %2$s genooi</item>
+        <item quantity="one">%1$s het %2$s genooi</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">%d onbekykte genooide kamers</item>
+        <item quantity="one">%d onbekykte genooide kamer</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">Blaai Deur Kamers-knoppie. Jy het %d onbekykte genooide kamers</item>
+        <item quantity="one">Blaai Deur Kamers-knoppie. Jy het %d onbekykte genooide kamer.</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d lede</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s het aangesluit</item>
+        <item quantity="one">%1$s het aangesluit</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d boodskapversoeke</item>
+        <item quantity="one">%d boodskapversoek</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d onbekykte boodskapversoeke</item>
+        <item quantity="one">%d onbekykte boodskapversoek</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">Elke %1$d maande</item>
+        <item quantity="one">Maandeliks</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuwe kennisgewings</item>
+        <item quantity="one">%d nuwe kennisgewing</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d nuwe boodskappe</item>
+        <item quantity="one">%1$d nuwe boodskap</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nuwe boodskappe</item>
+        <item quantity="one">%1$d nuwe boodskap</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">Jy het %d boodskappe in die Nuwe Boodskappe-knoppie hieronder</item>
+        <item quantity="one">Jy het %d boodskap in die Nuwe Boodskappe-knoppie hieronder.</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d nuwe boodskappe</item>
+        <item quantity="one">%d nuwe boodskap</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d nuwe boodskappe</item>
+        <item quantity="one">%d nuwe boodskap</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d aanhegsels</item>
+        <item quantity="one">%1$d aanhegsel</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d boodskappe</item>
+        <item quantity="one">%1$d boodskap</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Sommige ontvangers is buite jou organisasie en is nie in jou kontakte nie.</item>
+        <item quantity="one">%s is buite jou organisasie en is nie in jou kontakte nie.</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Eksterne ontvangers</item>
+        <item quantity="one">Eksterne ontvanger</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">Het %d ontvangers gekopieer</item>
+        <item quantity="one">Het %d ontvanger gekopieer</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Kalenders is nie gedeel nie</item>
+        <item quantity="one">Kalender is nie gedeel nie</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">%d karakters oor boodskaplimiet</item>
+        <item quantity="one">%d karakter oor boodskaplimiet</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d reaksies</item>
+        <item quantity="one">%1$d reaksie</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">%1$s mense het dit nog nie gelees nie</item>
+        <item quantity="one">%1$s persoon het dit nog nie gelees nie</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">Deur %1$s mense gelees</item>
+        <item quantity="one">Deur %1$s persoon gelees</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">Vou %1$d ouer boodskappe uit</item>
+        <item quantity="one">Vou ouer boodskap uit</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">%d dae gelede gesluimer</item>
+        <item quantity="one">%d dag gelede gesluimer</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">%d uur gelede gesluimer</item>
+        <item quantity="one">%d uur gelede gesluimer</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">%d maande gelede gesluimer</item>
+        <item quantity="one">%d maand gelede gesluimer</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">%d weke gelede gesluimer</item>
+        <item quantity="one">%d week gelede gesluimer</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">%d jaar gelede gesluimer</item>
+        <item quantity="one">%d jaar gelede gesluimer</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d lede</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">%1$d ouer boodskappe is uitgevou</item>
+        <item quantity="one">Een ouer boodskap is uitgevou</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dae</item>
+        <item quantity="one">Een dag</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Afgelope %1$d dae se boodskappe sal aflaai wanneer gekoppel</item>
+        <item quantity="one">Afgelope dag se boodskappe sal aflaai wanneer gekoppel</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Afgelope %1$d dae</item>
+        <item quantity="one">Afgelope dag</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Sperdatum – %1$s – %2$d take</item>
+        <item quantity="one">Sperdatum – %1$s – %2$d taak</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+ %1$d subtake</item>
+        <item quantity="one">+ 1 subtaak</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d dae gelede</item>
+        <item quantity="one">Gister</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d weke gelede</item>
+        <item quantity="one">1 week gelede</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d jaar gelede</item>
+        <item quantity="one">1 jaar gelede</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">As jy hierdie taak voltooi, sal dit ook %1$d subtake voltooi.</item>
+        <item quantity="one">As jy hierdie taak voltooi, sal dit ook 1 subtaak voltooi.</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">Merk %1$d take as voltooi?</item>
+        <item quantity="one">Merk 1 taak as voltooi?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">Oor %1$d min.</item>
+        <item quantity="one">Oor %1$d min.</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">dae</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Elke %1$d weke op %2$s</item>
+        <item quantity="one">Weekliks op %2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">Elke %1$d jaar</item>
+        <item quantity="one">Jaarliks</item>
+    </plurals>
+</resources>

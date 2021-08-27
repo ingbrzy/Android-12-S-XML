@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"RTT-ის გამოსაყენებლად დაკავშირებული უნდა იყოთ LTE-სთან ან ჩართული გქონდეთ Wi-Fi დარეკვა.
+"</item>
+        <item>"შეგიძლიათ დაიწყოთ RTT-ის გამოყენება, როდესაც უკავშირდებით მათ, ვის ტელეფონსაც აქვს RTT მხარდაჭერა ან დაკავშირებულია TTY მოწყობილობასთან.
+"</item>
+        <item>"იმისათვის, რომ დაინახოთ RTT ვარიანტი შემომავალი და გამავალი ზარებისთვის, დააყენეთ RTT ზარის პარამეტრი „ყოველთვის ხილვადზე“.
+"</item>
+        <item>"RTT მოიცავს აუდიოს, ამიტომ დაადუმეთ ზარი, თუ აუდიოს გაზიარება არ გჭირდებათ ან არ გსურთ.
+"</item>
+        <item>"RTT ზარები ხმოვანი კავშირის გეგმის წუთებს იყენებს. დეტალებისთვის შეამოწმეთ თქვენი სატარიფო გეგმა.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT ზარები ინახება, როგორც შეტყობინების ტრანსკრიპტი.
+"</item>
+        <item>"RTT არ არის ხელმისაწვდომი ვიდეოზარებისთვის.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"თქვენ დაგჭირდებათ 4G LTE ან Wi-Fi ქსელთან დაკავშირება.
+"</item>
+        <item>"ადამიანი, რომელსაც ესაუბრებით, ასევე უნდა იყენებდეს ტელეფონს, რომელშიც მხარდაჭერილია RTT ან დაკავშირებულია TTY (ტექსტური ტელეფონი) მოწყობილობასთან.
+"</item>
+        <item>როდესაც RTT ჩართავთ, RTT ხატულა გამოჩნდება ყველა შემომავალ ზარზე.</item>
+    </string-array>
+</resources>
