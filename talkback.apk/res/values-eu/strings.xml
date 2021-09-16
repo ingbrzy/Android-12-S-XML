@@ -69,7 +69,7 @@
     <string name="action_name_pinch_out">Atximurkatu txikitzeko</string>
     <string name="action_name_previous">Aurrekoa</string>
     <string name="action_name_redo">Berregin</string>
-    <string name="action_name_reverse_auto_scan">Alderantzikatu pantailako mugimendu automatikoa</string>
+    <string name="action_name_reverse_auto_scan">Alderantzikatu pantailan automatikoki mugitzeko aukera</string>
     <string name="action_name_scroll_backward">Egin atzera</string>
     <string name="action_name_scroll_forward">Egin aurrera</string>
     <string name="action_name_swipe_custom">Pasatu hatza (pertsonalizatua)</string>
@@ -87,7 +87,7 @@
 Jarraitu beste gai batzuei buruz ikasten edo, informazio hau berrikusi nahi baduzu, joan TalkBack-en ezarpenetara."</string>
     <string name="all_set_title">Dena prest!</string>
     <string name="always_show_this_message_label">Erakutsi beti mezu hau</string>
-    <string name="application_name">Android-en Erabilerraztasun-tresnak</string>
+    <string name="application_name">Android-en Erabilerraztasuna</string>
     <string name="arc_android_window">Aplikazioaren leihoa</string>
     <string name="arc_navigation_hint">Nabigatzeko, sakatu bilaketa-tekla eta gezi-teklak</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Lasterbideen zerrenda ikusteko, sakatu %1$s</string>
@@ -105,7 +105,7 @@ Jarraitu beste gai batzuei buruz ikasten edo, informazio hau berrikusi nahi badu
     <string name="audio_focus_state">Atzeko planoko bolumena jaisteko eginbidea %1$s</string>
     <string name="auto_detect">Egokitu gailua eusten duzun modura</string>
     <string name="auto_scan_action_description">Hasi pantailan mugitzen eta hautatu</string>
-    <string name="auto_scan_or_select">Pantailan automatikoki mugitzea edo hautatzea</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Pantailan automatikoki mugitzeko aukera\" edo \"Hautatu\"</string>
     <string name="available_devices_header">Erabilgarri dauden Bluetooth bidezko gailuak</string>
     <string name="basic_navigation_link_subtext">Joan elementu batetik bestera, egin gora edo behera, erabili menuak eta beste</string>
     <string name="basic_navigation_link_text">Oinarrizko nabigazioa</string>
@@ -119,7 +119,7 @@ Jarraitu beste gai batzuei buruz ikasten edo, informazio hau berrikusi nahi badu
     <string name="bluetooth_no_devices_paired">Ez dago Bluetooth bidezko gailurik parekatuta</string>
     <string name="bluetooth_not_enabled_message">Bluetooth bidezko etengailu bat parekatzeko, aktibatu Bluetooth-a</string>
     <string name="bluetooth_peripheral_content_description">Gailu periferikoa</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Konfigurazio-morroian Bluetooth bidezko etengailu bat parekatzeko, aktibatu Bluetooth bidezko konexioa eta eman inguruko gailuak eta kokapena atzitzeko baimena Android-en Erabilerraztasuna eginbideari.</string>
     <string name="bluetooth_phone_content_description">Telefonoa</string>
     <string name="bluetooth_switch_description_text">Parekatu etengailua haririk gabe, Bluetooth bidez</string>
     <string name="bluetooth_switch_option_text">Bluetooth bidezko etengailua</string>
@@ -157,6 +157,9 @@ Jarraitu beste gai batzuei buruz ikasten edo, informazio hau berrikusi nahi badu
     <string name="cam_switch_enable_banner_text_label_generic">Gailua kontrolatzeko, erabilerraztasun-osagarria aktibatu behar duzu.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Ireki kameraren erabilerraztasun-etengailuak</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Ireki erabilerraztasun-osagarria</string>
+    <string name="cam_switches_combined_preferences_title">\"%1$s\" ekintzaren ezarpenak</string>
+    <string name="cam_switches_preferences_title">Kameraren erabilerraztasun-etengailuen ezarpenak</string>
+    <string name="cam_switches_single_preferences_title">\"%s\" eginbidearen ezarpenak</string>
     <string name="camera_switches_status_active">Kameraren erabilerraztasun-etengailuak aktibatuta daude</string>
     <string name="camera_switches_status_error">Errorea</string>
     <string name="camera_switches_status_no_face">Ez da hauteman aurpegirik</string>
@@ -259,11 +262,11 @@ Itsatsi hitza beheko testu-koadroan."</string>
 
 Itsatsi hitza beheko testu-koadroan."</string>
     <string name="default_action_disabled_modifier">(desgaituta)</string>
-    <string name="default_action_name_auto_scan">Pantailan automatikoki mugitzea</string>
+    <string name="default_action_name_auto_scan">Pantailan automatikoki mugitzeko aukera</string>
     <string name="default_action_name_pause">Pausatu kameraren erabilerraztasun-etengailua</string>
     <string name="default_action_name_point_scan">Puntu bidezko bilaketa</string>
     <string name="dialog_confirm_revert_to_default_menu">Berretsi</string>
-    <string name="dialog_do_not_disturb_permission_message">Erabilerraztasun-osagarriaren menutik bolumena doitzeko, eman ez molestatzeko modua atzitzeko baimena Android-en Erabilerraztasun-tresnak aplikaziori</string>
+    <string name="dialog_do_not_disturb_permission_message">Erabilerraztasun-osagarriaren menutik bolumena doitzeko, eman ez molestatzeko modua atzitzeko baimena Android-en Erabilerraztasuna eginbideari</string>
     <string name="dialog_do_not_disturb_permission_title">Erabilerraztasun-osagarriak bolumena doitzeko baimena behar du</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Ireki ezarpenak</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Funtzionatzeko, kameraren erabilerraztasun-etengailuek datu gehiago deskargatu behar dituzte (10 MB inguru). Minutu bat inguru beharko da, sarearen abiaduraren arabera.</string>
@@ -287,15 +290,15 @@ Nodo-zuhaitza arazteko aukerarekin, gailuaren erregistroek pantailako edukia hau
     <string name="dialog_message_pref_line_speed">Hautatu zein abiaduratan mugitzen diren lerro horizontalak eta bertikalak pantailan zehar.</string>
     <string name="dialog_message_pref_loop_count">"Hautatu zenbat aldiz errepikatuko den mugimendua pantaila osoan zehar.
 
-Mugimendu automatikoari eta puntukako mugimenduari eragiten die ezarpen honek."</string>
+Pantailan automatikoki mugitzeko aukerari eta puntukako mugimenduari eragiten die ezarpen honek."</string>
     <string name="dialog_message_pref_maximum_time_per_item">"Ezarri zenbat denbora erabil daitekeen elementu bakoitzaren ahozko azalpena emateko. Ahozko argibideak eten egingo dira denbora tarte horren ondoren. 
  Oharra: aktibatuta badago, beti irakurriko dira ozen argibideak."</string>
-    <string name="dialog_message_pref_start_scan_delay_auto_scan">"Aukeratu lehen elementuan igaro behar den denbora gehigarria. Denbora hori mugimendu automatikoaren denborari gehituko zaio.
+    <string name="dialog_message_pref_start_scan_delay_auto_scan">"Aukeratu lehen elementuan igaro behar den denbora gehigarria. Denbora hori pantailan automatikoki mugitzeko aukeraren denborari gehituko zaio.
 
-Ezarpen honek mugimendu automatikoari eta puntukako mugimenduari eragiten die."</string>
+Ezarpen honek pantailan automatikoki mugitzeko aukerari eta puntukako mugimenduari eragiten die."</string>
     <string name="dialog_message_pref_start_scan_delay_point_scan">"Aukeratu lehen elementuan igaro behar den denbora gehigarria. Denbora hori igarotzean, lerro horizontal edo bertikala mugitzen hasiko da.
 
-Mugimendu automatikoari eta puntukako mugimenduari eragiten die ezarpen honek."</string>
+Pantailan automatikoki mugitzeko aukerari eta puntukako mugimenduari eragiten die ezarpen honek."</string>
     <string name="dialog_message_revert_to_default_menu">Ziur menu lehenetsira itzuli nahi duzula? Menuan egindako aldaketak galdu egingo dira.</string>
     <string name="dialog_message_suspend_talkback">"Ziur TalkBack eten nahi duzula?
 
@@ -399,6 +402,7 @@ Sakatu pantaila eta arrastatu hatza beheko ezkerreko izkinara Hurrengoa botoia a
     <string name="fallback_menu_item_open_in_browser">Ireki arakatzailean</string>
     <string name="fallback_menu_item_share_link">Partekatu esteka</string>
     <string name="fast_radio_button_title">Bizkorra (%1$s segundoko atzerapena)</string>
+    <string name="fast_radio_button_title_content_description">Bizkorra (%1$s segundoko atzerapena)</string>
     <string name="find_finish_button_text">Pasatu hatza eskuinera amaitzeko botoia aurkitzeko.</string>
     <string name="finish">Amaitu</string>
     <string name="finish_tutorial_announcement">Braille-teklatua ikusgai dago. Aldendu pantaila eta jar ezazu aurrez aurre. Telefonoa horizontalki jartzeko, bira ezazu. Ondoren, hasi idazten.</string>
@@ -747,6 +751,7 @@ Ikuspegiaren barneko izena: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Pantaila blokeatua</string>
     <string name="medium_radio_button_title">Ertaina (%1$s segundoko atzerapena)</string>
+    <string name="medium_radio_button_title_content_description">Arrunta (%1$s segundoko atzerapena)</string>
     <string name="menu_category_reading_controls">Irakurketa</string>
     <string name="menu_category_special_features">Eginbide bereziak</string>
     <string name="menus_selector_text">"Lasterbide hauei esker, bizkor alda ditzakezu ezarpenak; esaterako, karakteretik karakterera beharrean hitz batetik bestera nabigatzea, TalkBack-eko hizketaren abiadura azkartzea edo mantsotzea eta abar.
@@ -767,6 +772,7 @@ Ireki TalkBack-eko menua pantaila hiru hatzekin sakatuta."</string>
 Ireki TalkBack-eko menua hatza behera eta, gero, eskuinera pasatuta."</string>
     <string name="menus_title">Menua eta kontrolatzeko aukerak</string>
     <string name="message_in_reset_keymap_confirm_dialog">Ziur teklatu-diseinu honetako lasterbideen balio lehenetsiak berrezarri nahi dituzula? Kontuan izan ekintza hori ezin dela desegin.</string>
+    <string name="message_request_phone_permission">Telefono-deiak abian diren ala ez jakin nahi du TalkBack-ek, iragarpenekin oztopa ez zaitzan.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Keinu guztien ekintza lehenetsiak berrezarriko dira.
 
 Egin dituzun aldaketa guztiak galdu egingo dituzu."</string>
@@ -996,6 +1002,7 @@ Probatu hatzarekin ondoz ondoko bi mugimendu eginda angelu zuzen bat sortzen due
     <string name="pref_reduce_window_delay_title">Murriztu leihoen izenak iragartzeko atzerapena</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Gehitu kameraren erabilerraztasun-etengailuak</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Garbitu erabilerraztasun-etengailu fisikoak</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfiguratu erabilerraztasun-etengailu honen ezarpenak: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Editatu kameraren erabilerraztasun-etengailuak</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Ez da esleitu kameraren erabilerraztasun-etengailurik</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Esleitu kameraren erabilerraztasun-etengailuak \"%s\" ekintzari</string>
@@ -1016,9 +1023,9 @@ Probatu hatzarekin ondoz ondoko bi mugimendu eginda angelu zuzen bat sortzen due
     <string name="pref_sa_face_playground_stop_preview_content_description">Geldiarazi aurrebista</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Aktibatu</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Kameraren erabilerraztasun-etengailuek aktibatuta egon behar dute proba-eremu hau erabiltzeko</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Probatu: aurreikusi aurpegi-keinuen mota guztiak (ahozabalik, irribarrez eta beste)</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Probatu</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Probatu: aurreikusi %1$s aurpegi-keinua</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Pausatu egin da proba-eremua. Hari berrekiteko, erabili beheko botoia.</string>
     <string name="pref_selector_summary">%1$s ezarpen bat hautatzeko. Ondoren, %2$s ezarpen hori doitzeko.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s edo %2$s ezarpen bat hautatzeko. Ondoren, %3$s ezarpen hori doitzeko.</string>
@@ -1067,6 +1074,7 @@ Hala ere ez bada konektatzen, joan Bluetooth-aren ezarpenetara eta saiatu berrir
     <string name="reduce_speed_button">Mantsotu</string>
     <string name="remaining_calibration_finish_announcement">Puntuen posizio guztiak eguneratu dira</string>
     <string name="reminder_announcement">Pasatu hiru hatz aukera gehiago ikusteko</string>
+    <string name="remove_assigned_switch">Kendu %s etengailuaren esleipena</string>
     <string name="report_gesture_description">Hona hemen berriki egindako keinuak. Adierazi zein dagoen oker eta zein izan beharko litzateke zuzena.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Berrezarri</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Berrezarri</string>
@@ -1147,6 +1155,7 @@ Proba ezazu: pasatu bi hatz gora zerrendako azken elementuraino iritsi arte."</s
     <string name="search_mode_hint_no_selection">Ez da hautatu elementurik.</string>
     <string name="search_mode_hint_query">Oraingo kontsulta: %1$s.</string>
     <string name="search_mode_hint_selection">Oraingo hautapena: %1$s.</string>
+    <string name="select_for_point_scan">\"Hautatu\"</string>
     <string name="select_setting_hint">%1$s beste ezarpen bat hautatzeko</string>
     <string name="selecting_text_text">"Testu-koadroan, eraman kurtsorea hautatu nahi duzun testuaren hasierara.
 
@@ -1207,6 +1216,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="shortcut_media_control">Erreproduzitu edo pausatu multimedia-edukia</string>
     <string name="shortcut_next">Hurrengo elementua</string>
     <string name="shortcut_next_granularity">Hurrengo nabigazio-ezarpena</string>
+    <string name="shortcut_next_window">Hurrengo leihoa</string>
     <string name="shortcut_not_customizable">%1$s, ezin da pertsonalizatu</string>
     <string name="shortcut_notifications">Jakinarazpenak</string>
     <string name="shortcut_overview">Ikuspegi orokorra</string>
@@ -1219,6 +1229,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="shortcut_practice_gestures">Praktikatu keinuak</string>
     <string name="shortcut_previous">Aurreko elementua</string>
     <string name="shortcut_previous_granularity">Aurreko nabigazio-ezarpena</string>
+    <string name="shortcut_previous_window">Aurreko leihoa</string>
     <string name="shortcut_print_node_tree">Inprimatu nodo-zuhaitza</string>
     <string name="shortcut_print_performance_stats">Inprimatu errendimenduaren estatistikak</string>
     <string name="shortcut_quick_settings">Ezarpen bizkorrak</string>
@@ -1258,6 +1269,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
 • Gailua astintzea guztia ozen irakurtzeko modua aktibatzeko."</string>
     <string name="six_hold_announcement">Telefonoa mahai baten gainean horizontalki jarrita ere idatz dezakezu. Proba ezazu. Ez baduzu mahairik gertu, egin aurrera hatza behera pasatuz.</string>
     <string name="slow_radio_button_title">Motela (%1$s segundoko atzerapena)</string>
+    <string name="slow_radio_button_title_content_description">Motela (%1$s segundoko atzerapena)</string>
     <string name="sound_feedback_state">Audio-azalpenak %1$s</string>
     <string name="sound_feedback_summary">Erreproduzitu soinu bat zerbait aldatu dela adierazteko (adibidez, pantailako edukia aldatu denean)</string>
     <string name="speak_container_element_position_summary_off">Zerrendetako eta saretetako informazioa ez da irakurtzen ozen</string>
@@ -1331,17 +1343,17 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="summary_pref_face_switches_debounce_time">Kameraren erabilerraztasun-etengailuen abiarazle bat baino gehiago gauzatzen badira tarte horretan, abiarazle bakartzat joko dira.</string>
     <string name="summary_pref_face_switches_enabled">Kameraren erabilerraztasun-etengailuek aurreko kamera erabiltzen dute pantailara begira zauden ikusteko eta aurpegi-keinuak hautemateko. Irudiak ez dira gordetzen edo Google-ra bidaltzen.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Erreproduzitu soinu bat pantailako zerbait aldatzen denean keinu baten erantzun gisa</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Erakutsi keinua zenbat denboraz egin duzun azaltzen duen adierazpen bat</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mantendu pantaila piztuta kameraren erabilerraztasun-etengailuak gaituta daudenean. Kameraren erabilerraztasun-etengailuek ezin dute desblokeatu pantaila hura itzaltzen bada.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Ez da hauteman aurpegirik</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Egin edozein aurpegi-keinu. Erregistratuta badago, keinuaren izena agertuko da. Irteteko, mantendu keinua %1$d segundoz.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Mantendu burua geldirik eta jarri kamerari begira. Ondoren, %s.</string>
     <string name="summary_pref_play_store">Oraingo TalkBack bertsioa: %1$s</string>
-    <string name="summary_pref_point_scan">Erabili mugitzen diren lerroak kokapen horizontal eta bertikal zehatz bat hautatzeko. Sakatu \"%1$s\" etengailua puntu bidezko bilaketa abiarazteko %2$s</string>
+    <string name="summary_pref_point_scan">Erabili mugitzen diren lerroak kokapen horizontal eta bertikal zehatz bat hautatzeko. Sakatu %1$s etengailua puntu bidezko bilaketa abiarazteko. %2$s</string>
     <string name="summary_pref_reverse_dots">Aldatu puntuen posizioak; adibidez, trukatu 1. eta 4. puntuen tokiak</string>
     <string name="summary_pref_revert_to_default_menu">Berrezarri erabilerraztasun-osagarrien menua menuko aukeren zerrenda lehenetsira.</string>
-    <string name="summary_pref_single_tap">(Esperimentala) Sakatu behin fokuratutako elementua hura aktibatzeko</string>
+    <string name="summary_pref_single_tap">Fokuratutako elementua aktibatzeko, saka ezazu behin</string>
     <string name="summary_pref_tree_debug_tv">Bilaketa egin beharrean, erabili ahozko bilaketaren gakoa nodoaren zuhaitza inprimatzeko</string>
     <string name="summary_pref_use_audio_focus">Hitz egin bitartean, txikiagotu beste audio guztia</string>
     <string name="summary_read_from_current">Hurrengo elementutik hasita, irakurri pantailako elementu guztiak</string>
@@ -1438,10 +1450,10 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="switched_to_contracted_announcement">Braille-teklatu laburtura aldatu da</string>
     <string name="switched_to_ueb_uncontracted_announcement">Braille-teklatu bateratu osora aldatu da</string>
     <string name="switched_to_uncontracted_announcement">Braille-teklatu osora aldatu da</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Ia berdina ikurra</string>
     <string name="symbol_ampersand">Et ikurra</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Baino gutxiago ikurra</string>
+    <string name="symbol_angle_bracket_right">\"Baino gehiago\" ikurra</string>
     <string name="symbol_apostrophe">Apostrofoa</string>
     <string name="symbol_approximately_equals">Gutxi gorabehera, berdin</string>
     <string name="symbol_asterisk">Izartxoa</string>
@@ -1461,7 +1473,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_bullseye">Itua</string>
     <string name="symbol_caret">Azentu zirkunflexua</string>
     <string name="symbol_celsius_degree">Celsius gradua</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Zentimoaren ikurra</string>
     <string name="symbol_circle_left_half_black">Ezkerreko erdia beltza duen zirkulua</string>
     <string name="symbol_circle_right_half_black">Eskuineko erdia beltza duen zirkulua</string>
     <string name="symbol_colon">Bi puntu</string>
@@ -1470,7 +1482,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_curly_bracket_left">Ezkerreko giltza</string>
     <string name="symbol_curly_bracket_right">Eskuineko giltza</string>
     <string name="symbol_currency_sign">Dibisa-ikurra</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Graduen ikurra</string>
     <string name="symbol_division">Zatiketa-ikurra</string>
     <string name="symbol_dollar_sign">Dolarraren ikurra</string>
     <string name="symbol_downwards_arrow">Beheranzko gezia</string>
@@ -1522,7 +1534,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_middle_dot">Erdiko puntua</string>
     <string name="symbol_multiplication">Biderketa-ikurra</string>
     <string name="symbol_new_line">Lerro berria</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Desberdin ikurra</string>
     <string name="symbol_not_sign">Ezezko ikurra</string>
     <string name="symbol_paragraph_mark">Paragrafo-marka</string>
     <string name="symbol_parenthesis_left">Ezkerreko parentesia</string>
@@ -1533,7 +1545,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_plus_minus_sign">Plus, minus</string>
     <string name="symbol_postal_mark">Marka postala</string>
     <string name="symbol_pound">Traola</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Libera dibisaren ikurra</string>
     <string name="symbol_quarter_note">Beltza</string>
     <string name="symbol_question_mark">Galdera-ikurra</string>
     <string name="symbol_quotation_mark">Komatxoak</string>
@@ -1559,7 +1571,7 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_trademark">Marka komertziala</string>
     <string name="symbol_underscore">Azpimarra</string>
     <string name="symbol_upwards_arrow">Gora gezia</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Marra bertikala</string>
     <string name="symbol_white_circle">Zirkulu zuria</string>
     <string name="symbol_white_club_suit">Hirusta zuria</string>
     <string name="symbol_white_diamond">Diamante zuria</string>
@@ -1573,8 +1585,8 @@ Hautatu beheko testu-koadroan dagoen \"Ongi\" hitza."</string>
     <string name="symbol_white_square">Karratu zuria</string>
     <string name="symbol_white_star">Izar zuria</string>
     <string name="symbol_white_up_pointing_triangle">Punta bat gora duen triangelu zuria</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Won dibisaren ikurra</string>
+    <string name="symbol_won_sign">Won dibisaren ikurra</string>
     <string name="symbol_yen">Yena</string>
     <string name="system_actions">Sistemaren ekintzak</string>
     <string name="tabletop">Mahaigaineko modua</string>
@@ -1732,7 +1744,7 @@ TalkBack desaktibatzeko:
     <string name="title_pref_a11y_volume">Erabilerraztasun-eginbideen bolumena</string>
     <string name="title_pref_accumulate_presses">Sartu sakatutako puntu guztiak</string>
     <string name="title_pref_advanced_settings">Ezarpen aurreratuak</string>
-    <string name="title_pref_auto_scan_disabled">Pantailan automatikoki mugitzea (desgaituta)</string>
+    <string name="title_pref_auto_scan_disabled">Pantailan automatikoki mugitzeko aukera (desgaituta)</string>
     <string name="title_pref_auto_scan_time_delay">Pantailan automatikoki mugitzeko ekintzaren iraupena</string>
     <string name="title_pref_auto_select">Hautapen automatikoa</string>
     <string name="title_pref_blue">Urdina</string>
@@ -1741,8 +1753,8 @@ TalkBack desaktibatzeko:
     <string name="title_pref_category_advanced">Aurreratua</string>
     <string name="title_pref_category_assign_switches">Esleitu etengailuak</string>
     <string name="title_pref_category_audio">Audioa</string>
-    <string name="title_pref_category_auto_scan">Pantailan automatikoki mugitzea</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Pantailan automatikoki mugitzea (puntu bidezko bilaketa)</string>
+    <string name="title_pref_category_auto_scan">Pantailan automatikoki mugitzeko aukera</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Pantailan automatikoki mugitzeko aukera (puntu bidezko bilaketa)</string>
     <string name="title_pref_category_border_color">Kolorea</string>
     <string name="title_pref_category_built_in_gestures">Integratutako keinuak</string>
     <string name="title_pref_category_context_menu">Pertsonalizatu TalkBack-en menua</string>
@@ -1825,8 +1837,8 @@ TalkBack desaktibatzeko:
     <string name="title_pref_punctuation">Puntuazioa</string>
     <string name="title_pref_red">Gorria</string>
     <string name="title_pref_resume_talkback">Berrekin behin-behinean itxita egotetik</string>
-    <string name="title_pref_reverse_auto_scan_disabled">Pantailan alderantzizko ordenan automatikoki mugitzea (desgaituta)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Pantailan alderantzizko ordenan automatikoki mugitzea (puntu bidezko bilaketa)</string>
+    <string name="title_pref_reverse_auto_scan_disabled">Pantailan alderantziz automatikoki mugitzeko aukera (desgaituta)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Pantailan alderantziz automatikoki mugitzeko aukera (puntu bidezko bilaketa)</string>
     <string name="title_pref_reverse_dots">Alderantzikatu puntuak</string>
     <string name="title_pref_revert_to_default_menu">Itzuli menu lehenetsira</string>
     <string name="title_pref_scan_non_actionable_items">Irakurri ozen testu deskribatzailea</string>
@@ -1889,7 +1901,7 @@ TalkBack desaktibatzeko:
     <string name="title_pref_show_context_menu_as_list">Erakutsi laster-menua zerrenda gisa</string>
     <string name="title_pref_show_privacy_policy">Pribatutasun-gidalerroak</string>
     <string name="title_pref_show_tos">Zerbitzu-baldintzak</string>
-    <string name="title_pref_single_tap">Aktibatu behin bakarrik sakatuta</string>
+    <string name="title_pref_single_tap">Aktibatzeko, sakatu behin</string>
     <string name="title_pref_sound_and_vibration">Audioa eta dardara</string>
     <string name="title_pref_soundback">Audio-azalpenak</string>
     <string name="title_pref_soundback_volume">Audio-azalpenen bolumena</string>
@@ -1934,6 +1946,7 @@ TalkBack desaktibatzeko:
     <string name="title_previous_screen">Aurreko pantaila</string>
     <string name="title_read_from_top">Irakurri goitik hasita</string>
     <string name="title_repeat_last_spoken_phrase">Errepikatu esandako azken esaldia</string>
+    <string name="title_request_phone_permission">TalkBack baimena eskatzen ari da</string>
     <string name="title_screen_summary">Pantailaren laburpena</string>
     <string name="title_seek_bar_controls">Graduatzailea</string>
     <string name="title_seek_bar_edit">Editatu graduatzailearen maila</string>

@@ -87,7 +87,7 @@
 Obtén informació sobre altres temes ara o consulta aquesta informació a la configuració de TalkBack en qualsevol moment."</string>
     <string name="all_set_title">Tot a punt!</string>
     <string name="always_show_this_message_label">Mostra sempre aquest missatge</string>
-    <string name="application_name">"Suite d'accessibilitat d'Android"</string>
+    <string name="application_name">"Suite d'accessibilitat Android"</string>
     <string name="arc_android_window">"Finestra de l'aplicació"</string>
     <string name="arc_navigation_hint">Prem la tecla de cerca i les fletxes per navegar</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Prem %1$s per veure la llista de tecles de drecera</string>
@@ -105,7 +105,7 @@ Obtén informació sobre altres temes ara o consulta aquesta informació a la co
     <string name="audio_focus_state">"Atenuació d'àudio: %1$s"</string>
     <string name="auto_detect">"Adapta a la forma d'agafar el dispositiu"</string>
     <string name="auto_scan_action_description">Comença a cercar i a seleccionar</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Cerca automàtica o Selecciona</string>
     <string name="available_devices_header">Dispositius Bluetooth disponibles</string>
     <string name="basic_navigation_link_subtext">"Mou-te entre els elements, desplaça't, utilitza els menús i més"</string>
     <string name="basic_navigation_link_text">Navegació bàsica</string>
@@ -119,7 +119,7 @@ Obtén informació sobre altres temes ara o consulta aquesta informació a la co
     <string name="bluetooth_no_devices_paired">No hi ha cap dispositiu Bluetooth vinculat</string>
     <string name="bluetooth_not_enabled_message">Per vincular un interruptor Bluetooth, activa el Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Perifèric</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">"Per vincular un interruptor Bluetooth a l'auxiliar de configuració, activa el Bluetooth i concedeix a Suite d'accessibilitat Android accés als permisos d'ubicació i de dispositius propers."</string>
     <string name="bluetooth_phone_content_description">Telèfon</string>
     <string name="bluetooth_switch_description_text">Vincula un interruptor per Bluetooth sense fil</string>
     <string name="bluetooth_switch_option_text">Interruptor Bluetooth</string>
@@ -157,6 +157,9 @@ Obtén informació sobre altres temes ara o consulta aquesta informació a la co
     <string name="cam_switch_enable_banner_text_label_generic">"Per controlar el dispositiu, primer has d'activar l'accés amb interruptors."</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Obre els interruptors de la càmera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">"Obre l'accés amb interruptors"</string>
+    <string name="cam_switches_combined_preferences_title">Configuració de: %1$s</string>
+    <string name="cam_switches_preferences_title">"Configuració de l'interruptor de la càmera"</string>
+    <string name="cam_switches_single_preferences_title">Configuració de: %s</string>
     <string name="camera_switches_status_active">Interruptors de la càmera actius</string>
     <string name="camera_switches_status_error">Error</string>
     <string name="camera_switches_status_no_face">"No s'ha detectat cap cara"</string>
@@ -263,7 +266,7 @@ Prova d'enganxar una paraula al quadre de text següent."</string>
     <string name="default_action_name_pause">"Posa en pausa l'interruptor de la càmera"</string>
     <string name="default_action_name_point_scan">Cerca per punt</string>
     <string name="dialog_confirm_revert_to_default_menu">Confirma</string>
-    <string name="dialog_do_not_disturb_permission_message">"Per ajustar el volum des del menú d'accés amb interruptors, activa l'accés de la Suite d'accessibilitat d'Android al mode No molestis"</string>
+    <string name="dialog_do_not_disturb_permission_message">"Per ajustar el volum des del menú d'accés amb interruptors, activa l'accés de la Suite d'accessibilitat Android al mode No molestis"</string>
     <string name="dialog_do_not_disturb_permission_title">"L'accés amb interruptors necessita permís per ajustar el volum"</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Obre la configuració</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Perquè els interruptors de la càmera funcionin, has de baixar uns 10 MB de dades addicionals. Això tardarà aproximadament un minut, en funció de la velocitat de la xarxa.</string>
@@ -399,6 +402,7 @@ Prova-ho ara tocant la pantalla i arrossegant el dit cap a l'extrem inferior esq
     <string name="fallback_menu_item_open_in_browser">Obre al navegador</string>
     <string name="fallback_menu_item_share_link">"Comparteix l'enllaç"</string>
     <string name="fast_radio_button_title">Ràpid (retard: %1$s s)</string>
+    <string name="fast_radio_button_title_content_description">Ràpid (%1$s s de retard)</string>
     <string name="find_finish_button_text">Llisca cap a la dreta per trobar el botó Finalitza.</string>
     <string name="finish">Finalitza</string>
     <string name="finish_tutorial_announcement">Es mostra el teclat braille. Gira el telèfon perquè la pantalla miri en direcció oposada a tu. Gira el telèfon per col·locar-lo en posició horitzontal. A continuació, comença a escriure.</string>
@@ -747,6 +751,7 @@ Nom intern: %1$s"</string>
     <string name="list_index_template">%1$d de %2$d</string>
     <string name="lockscreen_label">Pantalla de bloqueig</string>
     <string name="medium_radio_button_title">Mitjà (retard: %1$s s)</string>
+    <string name="medium_radio_button_title_content_description">Mitjà (%1$s s de retard)</string>
     <string name="menu_category_reading_controls">Lectura</string>
     <string name="menu_category_special_features">Funcions especials</string>
     <string name="menus_selector_text">"Aquestes dreceres et poden ajudar a canviar ràpidament la configuració, com ara canviar la navegació de caràcters a paraules o canviar la velocitat de parla de TalkBack.
@@ -767,6 +772,7 @@ Obre'l ara tocant la pantalla amb 3 dits."</string>
 Obre'l ara lliscant cap avall i, a continuació, cap a la dreta."</string>
     <string name="menus_title">Menú i controls</string>
     <string name="message_in_reset_keymap_confirm_dialog">"Confirmes que vols restablir la configuració predeterminada de les tecles de drecera d'aquest mapa de teclat? Tingues present que aquesta acció no es pot desfer."</string>
+    <string name="message_request_phone_permission">TalkBack vol saber quan estàs trucant per reduir els avisos que creen interrupcions.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Es restabliran tots els gestos a les accions predeterminades.
 
 Perdràs tots els canvis que hagis fet."</string>
@@ -996,6 +1002,7 @@ Prova qualsevol gest que formi un angle recte lliscant dues vegades. Per exemple
     <string name="pref_reduce_window_delay_title">Redueix el retard en anunciar les finestres</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Afegeix interruptors de la càmera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Esborra els interruptors físics</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">"Configura l'interruptor: %s"</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Edita els interruptors de la càmera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">No hi ha cap interruptor de la càmera assignat</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Assigna interruptors de la càmera a l'acció %s"</string>
@@ -1016,9 +1023,9 @@ Prova qualsevol gest que formi un angle recte lliscant dues vegades. Per exemple
     <string name="pref_sa_face_playground_stop_preview_content_description">Atura la previsualització</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Activa</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">"Els interruptors de la càmera han d'estar activats per utilitzar aquesta àrea de proves"</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Prova-ho: previsualitza tots els tipus de gestos facials, com ara obrir la boca, somriure i més</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Prova-ho</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Prova-ho: previsualitza els gestos facials de tipus %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">"L'àrea de proves s'ha posat en pausa. Utilitza el botó següent per tornar a iniciar-la."</string>
     <string name="pref_selector_summary">"%1$s per seleccionar una opció de configuració. A continuació, %2$s per ajustar l'opció."</string>
     <string name="pref_selector_summary_two_select_gesture">"%1$s o %2$s per seleccionar una opció de configuració. A continuació, %3$s per ajustar l'opció."</string>
@@ -1069,6 +1076,7 @@ Si continua sense connectar-se, ves a la configuració del Bluetooth i prova de 
     <string name="reduce_speed_button">Redueix la velocitat</string>
     <string name="remaining_calibration_finish_announcement">"S'ha actualitzat la posició de tots els punts"</string>
     <string name="reminder_announcement">Fes lliscar tres dits cap amunt per accedir a més opcions</string>
+    <string name="remove_assigned_switch">"Suprimeix l'assignació de l'interruptor per a: %s"</string>
     <string name="report_gesture_description">"Aquí s'indiquen els gestos que has dut a terme recentment; informa del gest que no és correcte i explica què n'esperaves."</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Restableix</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Restableix</string>
@@ -1149,6 +1157,7 @@ Prova-ho ara fent lliscar dos dits per desplaçar-te fins a la part inferior del
     <string name="search_mode_hint_no_selection">"No s'ha seleccionat cap element."</string>
     <string name="search_mode_hint_query">Consulta actual: %1$s</string>
     <string name="search_mode_hint_selection">Selecció actual: %1$s</string>
+    <string name="select_for_point_scan">Selecciona</string>
     <string name="select_setting_hint">%1$s per seleccionar una altra opció de configuració</string>
     <string name="selecting_text_text">"En un quadre de text, mou el cursor al principi del text que vols seleccionar.
 
@@ -1209,6 +1218,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="shortcut_media_control">Reprodueix o posa en pausa el contingut multimèdia</string>
     <string name="shortcut_next">Element següent</string>
     <string name="shortcut_next_granularity">Opció de navegació següent</string>
+    <string name="shortcut_next_window">Finestra següent</string>
     <string name="shortcut_not_customizable">%1$s (no es pot personalitzar)</string>
     <string name="shortcut_notifications">Notificacions</string>
     <string name="shortcut_overview">Aplicacions recents</string>
@@ -1221,6 +1231,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="shortcut_practice_gestures">Practica els gestos</string>
     <string name="shortcut_previous">Element anterior</string>
     <string name="shortcut_previous_granularity">Opció de navegació anterior</string>
+    <string name="shortcut_previous_window">Finestra anterior</string>
     <string name="shortcut_print_node_tree">"Imprimeix l'arbre de nodes"</string>
     <string name="shortcut_print_performance_stats">Imprimeix les estadístiques de rendiment</string>
     <string name="shortcut_quick_settings">Configuració ràpida</string>
@@ -1260,6 +1271,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
 • Sacseja per iniciar la lectura contínua."</string>
     <string name="six_hold_announcement">També pots escriure si col·loques el telèfon pla en una taula. Prova-ho ara. Si no tens una taula a prop, llisca cap avall per ometre el tutorial.</string>
     <string name="slow_radio_button_title">Lent (retard: %1$s s)</string>
+    <string name="slow_radio_button_title_content_description">Lent (%1$s s de retard)</string>
     <string name="sound_feedback_state">Avisos sonors: %1$s</string>
     <string name="sound_feedback_summary">Reprodueix un so per indicar que alguna cosa ha canviat (p. ex., el contingut de la pantalla)</string>
     <string name="speak_container_element_position_summary_off">No es llegeix la informació de llistes i quadrícules</string>
@@ -1333,17 +1345,17 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="summary_pref_face_switches_debounce_time">"Encara que un interruptor de la càmera s'activi varies vegades en aquest període de temps, només es comptarà una vegada."</string>
     <string name="summary_pref_face_switches_enabled">"Els interruptors de la càmera utilitzen la càmera frontal per detectar si estàs mirant la pantalla i per reconèixer gestos facials. Les imatges no s'emmagatzemen ni s'envien a Google."</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Reprodueix un so quan algun element de la pantalla canvia en resposta a un gest</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Mostra una indicació visual del temps que has estat fent un gest</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mantén la pantalla activada quan els interruptors de la càmera estiguin activats. Si els interruptors es desactiven, no poden desbloquejar la pantalla.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">"No s'ha detectat cap cara"</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">"Fes qualsevol dels gestos facials. Si està registrat, se'n mostrarà el nom. Per sortir, fes qualsevol gest durant %1$d segons."</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Col·loca el cap al davant de la càmera i no el moguis. A continuació, %s.</string>
     <string name="summary_pref_play_store">Versió actual de TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">"Utilitza les línies que es mouen per seleccionar una ubicació vertical i horitzontal específica. Prem l'interruptor %1$s per iniciar la cerca per punt. %2$s"</string>
     <string name="summary_pref_reverse_dots">"Canvia les posicions dels punts, de manera que, per exemple, els punts 1 i 4 s'intercanvien el lloc"</string>
     <string name="summary_pref_revert_to_default_menu">"Restableix el menú d'accés amb interruptors a la llista predeterminada d'elements de menú."</string>
-    <string name="summary_pref_single_tap">"(Experimental) Toca una vegada un element on s'hagi posat el focus per activar-lo"</string>
+    <string name="summary_pref_single_tap">"Toca una vegada un element on s'hagi posat el focus per activar-lo"</string>
     <string name="summary_pref_tree_debug_tv">"Fes servir la tecla de cerca per veu per imprimir l'arbre de nodes en lloc de cercar"</string>
     <string name="summary_pref_use_audio_focus">"Redueix el volum de la resta d'àudio durant l'enunciació"</string>
     <string name="summary_read_from_current">"Llegeix tots els elements en pantalla començant per l'element següent"</string>
@@ -1479,10 +1491,10 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="switched_to_contracted_announcement">"S'ha canviat a braille amb contraccions"</string>
     <string name="switched_to_ueb_uncontracted_announcement">"S'ha canviat al teclat UEB sense contraccions"</string>
     <string name="switched_to_uncontracted_announcement">"S'ha canviat a braille sense contraccions"</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Aproximadament igual a</string>
     <string name="symbol_ampersand">Signe &amp;</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Símbol de menor que</string>
+    <string name="symbol_angle_bracket_right">Símbol de major que</string>
     <string name="symbol_apostrophe">Apòstrof</string>
     <string name="symbol_approximately_equals">Aproximadament és igual a</string>
     <string name="symbol_asterisk">Asterisc</string>
@@ -1502,7 +1514,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_bullseye">Diana</string>
     <string name="symbol_caret">Accent circumflex</string>
     <string name="symbol_celsius_degree">Grau Celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Símbol de cèntim</string>
     <string name="symbol_circle_left_half_black">Cercle amb la meitat esquerra negra</string>
     <string name="symbol_circle_right_half_black">Cercle amb la meitat dreta negra</string>
     <string name="symbol_colon">Dos punts</string>
@@ -1511,7 +1523,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_curly_bracket_left">"Clau d'obertura"</string>
     <string name="symbol_curly_bracket_right">Clau de tancament</string>
     <string name="symbol_currency_sign">Signe de moneda</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Símbol de grau</string>
     <string name="symbol_division">Signe de divisió</string>
     <string name="symbol_dollar_sign">Signe de dòlar</string>
     <string name="symbol_downwards_arrow">Fletxa avall</string>
@@ -1563,7 +1575,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_middle_dot">Punt volat</string>
     <string name="symbol_multiplication">Signe de multiplicació</string>
     <string name="symbol_new_line">Línia nova</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">No és igual a</string>
     <string name="symbol_not_sign">Signe de negació</string>
     <string name="symbol_paragraph_mark">Marca de paràgraf</string>
     <string name="symbol_parenthesis_left">"Parèntesi d'obertura"</string>
@@ -1574,7 +1586,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_plus_minus_sign">Signe més o menys</string>
     <string name="symbol_postal_mark">Marca del servei postal</string>
     <string name="symbol_pound">Coixinet</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Símbol de moneda de la lliura esterlina</string>
     <string name="symbol_quarter_note">Negra</string>
     <string name="symbol_question_mark">"Signe d'interrogació"</string>
     <string name="symbol_quotation_mark">Cometes</string>
@@ -1600,7 +1612,7 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_trademark">Marca comercial</string>
     <string name="symbol_underscore">Ratlla baixa</string>
     <string name="symbol_upwards_arrow">Fletxa amunt</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Barra vertical</string>
     <string name="symbol_white_circle">Cercle blanc</string>
     <string name="symbol_white_club_suit">Trèvol blanc</string>
     <string name="symbol_white_diamond">Diamant blanc</string>
@@ -1614,8 +1626,8 @@ Pas 2: llisca cap avall per moure el focus de navegació cap endavant o ajustar
     <string name="symbol_white_square">Quadre blanc</string>
     <string name="symbol_white_star">Estrella blanca</string>
     <string name="symbol_white_up_pointing_triangle">Triangle blanc que apunta cap amunt</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Símbol de moneda del won</string>
+    <string name="symbol_won_sign">Símbol de moneda del won</string>
     <string name="symbol_yen">Ien</string>
     <string name="system_actions">Accions del sistema</string>
     <string name="tabletop">Mode de taula</string>
@@ -1783,7 +1795,7 @@ Per desactivar TalkBack:
     <string name="title_pref_category_assign_switches">Assigna interruptors</string>
     <string name="title_pref_category_audio">Àudio</string>
     <string name="title_pref_category_auto_scan">Cerca automàtica</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Cerca automàtica (cerca per punt)</string>
     <string name="title_pref_category_border_color">Color</string>
     <string name="title_pref_category_built_in_gestures">Gestos incorporats</string>
     <string name="title_pref_category_context_menu">Personalitza el menú de TalkBack</string>
@@ -1867,7 +1879,7 @@ Per desactivar TalkBack:
     <string name="title_pref_red">Vermell</string>
     <string name="title_pref_resume_talkback">Reprèn des de suspensió</string>
     <string name="title_pref_reverse_auto_scan_disabled">Cerca automàtica inversa (desactivada)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Cerca automàtica inversa (cerca per punt)</string>
     <string name="title_pref_reverse_dots">Punts inversos</string>
     <string name="title_pref_revert_to_default_menu">Torna al menú predeterminat</string>
     <string name="title_pref_scan_non_actionable_items">Enuncia el text descriptiu</string>
@@ -1930,7 +1942,7 @@ Per desactivar TalkBack:
     <string name="title_pref_show_context_menu_as_list">Mostra el menú contextual com a llista</string>
     <string name="title_pref_show_privacy_policy">Política de privadesa</string>
     <string name="title_pref_show_tos">Condicions del servei</string>
-    <string name="title_pref_single_tap">Activació amb un sol toc</string>
+    <string name="title_pref_single_tap">Fes un toc per activar</string>
     <string name="title_pref_sound_and_vibration">So i vibració</string>
     <string name="title_pref_soundback">Avisos sonors</string>
     <string name="title_pref_soundback_volume">Volum dels avisos sonors</string>
@@ -1975,6 +1987,7 @@ Per desactivar TalkBack:
     <string name="title_previous_screen">Pantalla anterior</string>
     <string name="title_read_from_top">Llegeix des del començament</string>
     <string name="title_repeat_last_spoken_phrase">"Repeteix la darrera frase que s'ha dit"</string>
+    <string name="title_request_phone_permission">TalkBack demana permís</string>
     <string name="title_screen_summary">Resum de la pantalla</string>
     <string name="title_seek_bar_controls">Control lliscant</string>
     <string name="title_seek_bar_edit">Edita el nivell del control lliscant</string>

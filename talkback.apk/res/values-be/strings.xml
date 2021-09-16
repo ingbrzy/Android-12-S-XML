@@ -87,7 +87,7 @@
 Вы можаце азнаёміцца з інфармацыяй па іншых тэмах зараз ці знайсці яе ў любы час у наладах TalkBack."</string>
     <string name="all_set_title">Гатова!</string>
     <string name="always_show_this_message_label">Заўсёды паказваць гэта паведамленне</string>
-    <string name="application_name">Спецыяльныя магчымасці для Android</string>
+    <string name="application_name">Спецыяльныя магчымасці Android</string>
     <string name="arc_android_window">Акно праграмы</string>
     <string name="arc_navigation_hint">Для навігацыі націскайце клавішу \"Пошук\" і клавішу са стрэлкай</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Націсніце %1$s, каб убачыць спіс спалучэнняў клавіш для хуткага доступу</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Прыглушэнне аўдыя %1$s</string>
     <string name="auto_detect">Падладжвацца пад спосаб трымання прылады</string>
     <string name="auto_scan_action_description">Пачаць пошук і выбар</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Аўтаматычнае сканіраванне\" ці \"Выбраць\"</string>
     <string name="available_devices_header">Даступныя Bluetooth-прылады</string>
     <string name="basic_navigation_link_subtext">Перамяшчайцеся паміж элементамі, прагортвайце, выкарыстоўвайце меню і рабіце іншыя дзеянні</string>
     <string name="basic_navigation_link_text">Асноўныя спосабы навігацыі</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Няма спалучаных Bluetooth-прылад</string>
     <string name="bluetooth_not_enabled_message">Каб спалучыць Bluetooth-пераключальнік, уключыце Bluetooth.</string>
     <string name="bluetooth_peripheral_content_description">Перыферыйная прылада</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Каб спалучыць Bluetooth-пераключальнік у майстры наладжвання, уключыце Bluetooth і дайце Спецыяльным магчымасцям Android доступ да прылад паблізу і даных пра месцазнаходжанне.</string>
     <string name="bluetooth_phone_content_description">Тэлефон</string>
     <string name="bluetooth_switch_description_text">Спалучыць бесправадны пераключальнік праз Bluetooth</string>
     <string name="bluetooth_switch_option_text">Bluetooth-пераключальнік</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">Каб кіраваць прыладай, спачатку трэба ўключыць доступ праз пераключальнікі.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Адкрыць пераключальнікі камеры</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Адкрыць доступ праз пераключальнікі</string>
+    <string name="cam_switches_combined_preferences_title">Налады \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Налады пераключальніка камеры</string>
+    <string name="cam_switches_single_preferences_title">Налады \"%s\"</string>
     <string name="camera_switches_status_active">Пераключальнікі камеры ўключаны</string>
     <string name="camera_switches_status_error">Памылка</string>
     <string name="camera_switches_status_no_face">Твар не выяўлены</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">Прыпыніць пераключальнік камеры</string>
     <string name="default_action_name_point_scan">Кропкавае сканіраванне</string>
     <string name="dialog_confirm_revert_to_default_menu">Пацвердзіць</string>
-    <string name="dialog_do_not_disturb_permission_message">Каб рэгуляваць гучнасць з меню доступу праз пераключальнікі, уключыце для Спецыяльных магчымасцей для Android доступ да функцыі \"Не турбаваць\"</string>
+    <string name="dialog_do_not_disturb_permission_message">Каб рэгуляваць гучнасць з меню доступу праз пераключальнікі, уключыце для Спецыяльных магчымасцей Android доступ да функцыі \"Не турбаваць\"</string>
     <string name="dialog_do_not_disturb_permission_title">Функцыі \"Доступ праз пераключальнікі\" патрэбны дазвол на рэгуляванне гучнасці</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Адкрыць налады</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Для працы пераключальнікаў камеры трэба спампаваць каля 10 МБ дадатковых даных. Працэс зойме прыкладна хвіліну ў залежнасці ад хуткасці вашай сеткі.</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">Адкрыць у браўзеры</string>
     <string name="fallback_menu_item_share_link">Абагуліць спасылку</string>
     <string name="fast_radio_button_title">Хутка (затрымка %1$s с)</string>
+    <string name="fast_radio_button_title_content_description">Хутка (затрымка %1$s с)</string>
     <string name="find_finish_button_text">Правядзіце пальцам управа, каб знайсці кнопку \"Завяршыць\".</string>
     <string name="finish">Завяршыць</string>
     <string name="finish_tutorial_announcement">Паказваецца клавіятура Брайля. Адвярніце экран тэлефона ад сябе. Павярніце тэлефон у гарызантальнае становішча, трымаючы яго ў альбомнай арыентацыі. Пасля пачніце набіраць тэкст.</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d з %2$d</string>
     <string name="lockscreen_label">Экран блакіроўкі</string>
     <string name="medium_radio_button_title">Умерана (затрымка %1$s с)</string>
+    <string name="medium_radio_button_title_content_description">Сярэдне (затрымка %1$s с)</string>
     <string name="menu_category_reading_controls">Чытанне</string>
     <string name="menu_category_special_features">Спецыяльныя функцыі</string>
     <string name="menus_selector_text">"З дапамогай гэтых хуткіх каманд вы можаце хутка змяніць налады, напрыклад выбраць пераход не па сімвалах, а па словах ці змяніць хуткасць маўлення TalkBack.
@@ -767,6 +772,7 @@
 Адкрыйце меню TalkBack, правёўшы пальцам па экране ўніз, а потым управа."</string>
     <string name="menus_title">Меню і элементы кіравання</string>
     <string name="message_in_reset_keymap_confirm_dialog">Вы ўпэўненыя, што хочаце скінуць свае спалучэнні клавіш для гэтай раскладкі клавіятуры да стандартных значэнняў? Звярніце ўвагу на тое, што гэта дзеянне нельга будзе адрабіць.</string>
+    <string name="message_request_phone_permission">TalkBack запытвае дазвол на выяўленне тэлефонных выклікаў. Гэта неабходна, каб скарачаць колькасць апавяшчэнняў, якія перашкаджаюць размове.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Гэта дзеянне скіне ўсе жэсты да стандартных значэнняў.
 
 Вы страціце ўсе зробленыя вамі змяненні."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">Хутчэй агучваць назвы вокнаў</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Дадаць пераключальнікі камеры</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Выдаліць фізічныя пераключальнікі</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Выканаць налады для пераключальніка: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Змяніць пераключальнікі камеры</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Пераключальнік камеры не прызначаны</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Прызначыць пераключальнікі камеры для дзеяння \"%s\"</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">Спыніць перадпрагляд</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Уключыць</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Каб выкарыстоўваць гэту тэставую вобласць, трэба ўключыць пераключальнікі камеры</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Паспрабаваць: праглядзець усе тыпы мімічных жэстаў, у тым ліку адкрыты рот, усмешку і іншыя</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Паспрабаваць</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Паспрабаваць: праглядзець мімічныя жэсты тыпу \"%1$s\"</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Тэставая вобласць прыпынена. Каб зноў запусціць яе, скарыстайце кнопку ніжэй.</string>
     <string name="pref_selector_summary">Каб выбраць наладу, %1$s. Пасля %2$s, каб адрэгуляваць наладу.</string>
     <string name="pref_selector_summary_two_select_gesture">Каб выбраць наладу, %1$s ці %2$s. Пасля %3$s, каб адрэгуляваць наладу.</string>
@@ -1067,6 +1074,7 @@
     <string name="reduce_speed_button">Паменшыць хуткасць</string>
     <string name="remaining_calibration_finish_announcement">Палажэнні ўсіх кропак абноўлены</string>
     <string name="reminder_announcement">Правядзіце трыма пальцамі ўверх, каб разгарнуць іншыя параметры</string>
+    <string name="remove_assigned_switch">Выдаліць прызначэнне для пераключальніка \"%s\"</string>
     <string name="report_gesture_description">"Перад вамі жэсты, выкананыя за апошні час. Паведаміце, які з іх з'яўляецца няправільным і які жэст павінен выкарыстоўвацца замест яго."</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Скінуць</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Скінуць</string>
@@ -1147,6 +1155,7 @@
     <string name="search_mode_hint_no_selection">Няма выбраных элементаў.</string>
     <string name="search_mode_hint_query">Бягучы запыт: %1$s.</string>
     <string name="search_mode_hint_selection">Бягучае вылучэнне: %1$s.</string>
+    <string name="select_for_point_scan">\"Выбраць\"</string>
     <string name="select_setting_hint">%1$s, каб вырбаць іншую наладу</string>
     <string name="selecting_text_text">"Націснуўшы на тэкставае поле, перамясціце курсор у пачатак тэксту, які хочаце вылучыць.
 
@@ -1207,6 +1216,7 @@
     <string name="shortcut_media_control">Прайграць або прыпыніць мультымедыя</string>
     <string name="shortcut_next">Наступны элемент</string>
     <string name="shortcut_next_granularity">Наступная налада навігацыі</string>
+    <string name="shortcut_next_window">Наступнае акно</string>
     <string name="shortcut_not_customizable">%1$s, не наладжваецца</string>
     <string name="shortcut_notifications">Апавяшчэнні</string>
     <string name="shortcut_overview">Агляд</string>
@@ -1219,6 +1229,7 @@
     <string name="shortcut_practice_gestures">Жэсты для практыкавання</string>
     <string name="shortcut_previous">Папярэдні элемент</string>
     <string name="shortcut_previous_granularity">Папярэдняя налада навігацыі</string>
+    <string name="shortcut_previous_window">Папярэдняе акно</string>
     <string name="shortcut_print_node_tree">Адпраўка дрэва вузлоў</string>
     <string name="shortcut_print_performance_stats">Надрукаваць статыстыку прадукцыйнасці</string>
     <string name="shortcut_quick_settings">Хуткія налады</string>
@@ -1258,6 +1269,7 @@
 • Страсянуць, каб пачаць бесперапыннае чытанне"</string>
     <string name="six_hold_announcement">Вы можаце таксама ўводзіць тэкст, паклаўшы тэлефон на стол. Паспрабуйце. Калі паблізу няма стала, перайдзіце далей, правёўшы пальцам зверху ўніз.</string>
     <string name="slow_radio_button_title">Марудна (затрымка %1$s с)</string>
+    <string name="slow_radio_button_title_content_description">Павольна (затрымка %1$s с)</string>
     <string name="sound_feedback_state">Гукавы сігнал %1$s</string>
     <string name="sound_feedback_summary">Прайграваць гукавы сігнал, калі нешта змянілася (напрыклад, змесціва на экране)</string>
     <string name="speak_container_element_position_summary_off">Звесткі пра месца ў спісе або сетцы не агучваюцца</string>
@@ -1331,17 +1343,17 @@
     <string name="summary_pref_face_switches_debounce_time">Некалькі актывацый пераключальніка камеры на працягу гэтага часу будуць разглядацца як адна актывацыя.</string>
     <string name="summary_pref_face_switches_enabled">Пераключальнікі камеры з дапамогай пярэдняй камеры вызначаюць, калі вы гледзіце на экран, і распазнаюць мімічныя жэсты. Відарысы не захоўваюцца і не адпраўляюцца ў Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Прайграваць гук, калі на экране адбываюцца змяненні ў адказ на жэст</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Паказваць візуальную рэакцыю на працягласць утрымання жэста</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Не выключаць экран пры ўключаных пераключальніках камеры. Калі экран выключаны, пераключальнікі камеры не могуць разблакіраваць яго.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Твар не выяўлены</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">"Зрабіце які-небудзь мімічны жэст. Пры рэгістрацыі жэста з'явіцца яго назва. Каб выйсці, утрымлівайце жэст на працягу %1$d с."</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Не рухайце галавой і глядзіце ў камеру. Потым %s.</string>
     <string name="summary_pref_play_store">Бягучая версія TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Для выбару становішча па гарызанталі і па вертыкалі выкарыстоўвайце рухомыя лініі. Для запуску кропкавага сканіравання націсніце пераключальнік \"%1$s\". %2$s</string>
     <string name="summary_pref_reverse_dots">Замяніць палажэнне кропак, напрыклад памяняць месцамі кропкі 1 і 4</string>
     <string name="summary_pref_revert_to_default_menu">Аднаўленне стандартнага спісу пунктаў меню \"Доступ праз пераключальнікі\".</string>
-    <string name="summary_pref_single_tap">(Эксперыментальная функцыя) Для актывізацыі пэўнага элемента дакрануцца да яго адзін раз</string>
+    <string name="summary_pref_single_tap">Для актывізацыі пэўнага элемента дакрануцца да яго адзін раз</string>
     <string name="summary_pref_tree_debug_tv">Выкарыстоўвайце ключ галасавога пошуку для друку дрэва вузлоў замест пошуку</string>
     <string name="summary_pref_use_audio_focus">Змяншаць гучнасць іншых праграм падчас гаворкi</string>
     <string name="summary_read_from_current">Чытанне ўсіх элементаў на экране, пачынаючы з наступнага элемента</string>
@@ -1438,10 +1450,10 @@
     <string name="switched_to_contracted_announcement">Вы перайшлі на скарочаную версію клавіятуры Брайля</string>
     <string name="switched_to_ueb_uncontracted_announcement">Пераключана на шрыфт Брайля</string>
     <string name="switched_to_uncontracted_announcement">Вы перайшлі на поўную версію клавіятуры Брайля</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Амаль супадае з наступным:</string>
     <string name="symbol_ampersand">Амперсанд</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Знак \"менш за\"</string>
+    <string name="symbol_angle_bracket_right">Знак \"больш за\"</string>
     <string name="symbol_apostrophe">Апостраф</string>
     <string name="symbol_approximately_equals">Прыкладна роўна</string>
     <string name="symbol_asterisk">Зорачка</string>
@@ -1461,7 +1473,7 @@
     <string name="symbol_bullseye">Аператар круг у крузе</string>
     <string name="symbol_caret">Цыркумфлекс</string>
     <string name="symbol_celsius_degree">Градус Цэльсія</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Знак цэнта</string>
     <string name="symbol_circle_left_half_black">Круг з чорнай левай паловай</string>
     <string name="symbol_circle_right_half_black">Круг з чорнай правай паловай</string>
     <string name="symbol_colon">"Двукроп'е"</string>
@@ -1470,7 +1482,7 @@
     <string name="symbol_curly_bracket_left">Левая фігурная дужка</string>
     <string name="symbol_curly_bracket_right">Правая фігурная дужка</string>
     <string name="symbol_currency_sign">Знак валюты</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Знак градуса</string>
     <string name="symbol_division">Знак дзялення</string>
     <string name="symbol_dollar_sign">Знак долара</string>
     <string name="symbol_downwards_arrow">Стрэлка ўніз</string>
@@ -1522,7 +1534,7 @@
     <string name="symbol_middle_dot">Кропка ў цэнтры</string>
     <string name="symbol_multiplication">Знак множання</string>
     <string name="symbol_new_line">Новы радок</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Не супадае з наступным:</string>
     <string name="symbol_not_sign">Знак лагічнага адмаўлення</string>
     <string name="symbol_paragraph_mark">Знак абзаца</string>
     <string name="symbol_parenthesis_left">Левая дужка</string>
@@ -1533,7 +1545,7 @@
     <string name="symbol_plus_minus_sign">Знак «плюс-мінус»</string>
     <string name="symbol_postal_mark">Паштовы знак</string>
     <string name="symbol_pound">Фунт</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Знак фунта</string>
     <string name="symbol_quarter_note">Чацвяртная нота</string>
     <string name="symbol_question_mark">Пытальнік</string>
     <string name="symbol_quotation_mark">Двукоссе</string>
@@ -1559,7 +1571,7 @@
     <string name="symbol_trademark">Таварны знак</string>
     <string name="symbol_underscore">Знак падкрэслення</string>
     <string name="symbol_upwards_arrow">Стрэлка ўверх</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Вертыкальная лінія</string>
     <string name="symbol_white_circle">Незафарбаваны круг</string>
     <string name="symbol_white_club_suit">Незафарбаваны сімвал трэфаў</string>
     <string name="symbol_white_diamond">Незафарбаваны сімвал бубнаў</string>
@@ -1573,8 +1585,8 @@
     <string name="symbol_white_square">Незафарбаваны квадрат</string>
     <string name="symbol_white_star">Незафарбаваная зорка</string>
     <string name="symbol_white_up_pointing_triangle">Незафарбаваны трохвугольнік, які паказвае ўверх</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Знак воны</string>
+    <string name="symbol_won_sign">Знак воны</string>
     <string name="symbol_yen">Іена</string>
     <string name="system_actions">Дзеянні ў сістэме</string>
     <string name="tabletop">Настольны рэжым</string>
@@ -1742,7 +1754,7 @@
     <string name="title_pref_category_assign_switches">Прызначэнне пераключальнікаў</string>
     <string name="title_pref_category_audio">Аўдыя</string>
     <string name="title_pref_category_auto_scan">Аўтаматычнае сканіраванне</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Аўтаматычнае сканіраванне (кропкавае сканіраванне)</string>
     <string name="title_pref_category_border_color">Колер</string>
     <string name="title_pref_category_built_in_gestures">Убудаваныя жэсты</string>
     <string name="title_pref_category_context_menu">Наладзіць меню TalkBack</string>
@@ -1826,7 +1838,7 @@
     <string name="title_pref_red">Чырвоны</string>
     <string name="title_pref_resume_talkback">Узнаўленне пасля прыпынення</string>
     <string name="title_pref_reverse_auto_scan_disabled">Зваротнае аўтаматычнае сканіраванне (выключана)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Зваротнае аўтаматычнае сканіраванне (кропкавае сканіраванне)</string>
     <string name="title_pref_reverse_dots">Зваротны парадак кропак</string>
     <string name="title_pref_revert_to_default_menu">Вярнуцца да стандартнага меню</string>
     <string name="title_pref_scan_non_actionable_items">Агучваць апісальны тэкст</string>
@@ -1889,7 +1901,7 @@
     <string name="title_pref_show_context_menu_as_list">Кантэкстнае меню ў выглядзе спіса</string>
     <string name="title_pref_show_privacy_policy">Палітыка прыватнасці</string>
     <string name="title_pref_show_tos">Умовы абслугоўвання</string>
-    <string name="title_pref_single_tap">Актывацыя адным дотыкам</string>
+    <string name="title_pref_single_tap">Актывізацыя адным дотыкам</string>
     <string name="title_pref_sound_and_vibration">Гук і вібрацыя</string>
     <string name="title_pref_soundback">Гукавая зваротная сувязь</string>
     <string name="title_pref_soundback_volume">Гучнасць гукавога сігналу</string>
@@ -1934,6 +1946,7 @@
     <string name="title_previous_screen">Папярэдні экран</string>
     <string name="title_read_from_top">Чытаць зверху</string>
     <string name="title_repeat_last_spoken_phrase">Паўтарыць апошнюю фразу</string>
+    <string name="title_request_phone_permission">Запыты дазволаў TalkBack</string>
     <string name="title_screen_summary">Зводка экрана</string>
     <string name="title_seek_bar_controls">Паўзунок</string>
     <string name="title_seek_bar_edit">Змяніць значэнне паўзунка</string>

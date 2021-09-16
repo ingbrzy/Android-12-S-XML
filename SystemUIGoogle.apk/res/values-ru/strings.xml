@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Чтобы изменение вступило в силу, необходимо перезапустить устройство. Вы можете сделать это сейчас или позже.</string>
     <string name="camera_hint">Камера: проведите от значка</string>
     <string name="camera_label">Открыть камеру.</string>
+    <string name="camera_recording_announcement">Выполняется запись с камеры</string>
+    <string name="camera_stopped_recording_announcement">Запись с камеры остановлена</string>
     <string name="cancel">Отмена</string>
     <string name="carrier_network_change_mode">Сменить сеть</string>
     <string name="category_personal">Личный профиль</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Мониторинг</string>
     <string name="debug_networking_category">Сети</string>
     <string name="debug_view_attributes">Включить проверку атрибутов</string>
+    <string name="defender_notify_des">Чтобы увеличить срок службы батареи, телефон ограничивает зарядку.</string>
+    <string name="defender_notify_learn_more">Подробнее</string>
+    <string name="defender_notify_resume_charge">Продолжить зарядку</string>
+    <string name="defender_notify_title">Зарядка временно ограничена</string>
     <string name="delete_blob_confirmation_text">Удалить общие данные?</string>
     <string name="delete_blob_text">Удалить общие данные</string>
     <string name="demo_mode">Интерфейс системы: деморежим</string>
@@ -850,8 +856,8 @@
     <string name="game_dashboard_game_menu_title">Игровая панель</string>
     <string name="game_dashboard_game_mode_off">Игровой режим отключен</string>
     <string name="game_dashboard_record_shortcut_available">Доступно сочетание клавиш для видеозаписи.</string>
-    <string name="game_dashboard_screenshot_shortcut_available">Доступно сочетание клавиш для скриншота.</string>
-    <string name="game_launch_battery">Оптимизация по времени работы от батареи.</string>
+    <string name="game_dashboard_screenshot_shortcut_available">Доступна быстрая команда для создания скриншота.</string>
+    <string name="game_launch_battery">Оптимизация по экономии энергии.</string>
     <string name="game_launch_change">Изменить</string>
     <string name="game_launch_dnd_on">Включен режим \"Не беспокоить\" для игр.</string>
     <string name="game_launch_performance">Оптимизация по производительности.</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
     <string name="keyguard_try_fingerprint">Используйте отпечаток пальца для входа.</string>
     <string name="keyguard_unlock">Проведите вверх, чтобы открыть</string>
+    <string name="keyguard_unlock_press">Нажмите, чтобы открыть.</string>
     <string name="keywords_adb_wireless">adb, отладка, разработчик</string>
     <string name="keywords_alarms_and_reminders">установить, будильник, напоминание, часы</string>
     <string name="kg_enter_confirm_pin_hint">Подтвердите PIN-код</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Переключение раскладки</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофон включен</string>
+    <string name="mic_and_camera_recording_announcement">Выполняется запись с камеры и микрофона</string>
+    <string name="mic_camera_stopped_recording_announcement">Запись с камеры и микрофона остановлена</string>
+    <string name="mic_recording_announcement">Выполняется запись с микрофона</string>
+    <string name="mic_stopped_recording_announcement">Запись с микрофона остановлена</string>
     <string name="missed_call">Пропущенный вызов</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Моб. интернет</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Рабочие приложения</string>
     <string name="quick_step_accessibility_toggle_overview">Переключить режим обзора</string>
     <string name="recent_conversations">Недавние разговоры</string>
-    <string name="recents_quick_scrub_onboarding">Перетащите вправо, чтобы быстро переключиться между приложениями</string>
-    <string name="recents_swipe_up_onboarding">Чтобы переключиться между приложениями, проведите по экрану вверх.</string>
     <string name="remaining_length_format">Осталось %1$s</string>
     <string name="remote_input_image_insertion_text">отправлено изображение</string>
     <string name="remove_from_settings">Удалить из настроек</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Добавьте карту</string>
     <string name="wallet_secondary_label_updating">Обновление…</string>
     <string name="wallet_title">Кошелек</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">К точке доступа подключено слишком много устройств</string>
     <string name="wifi_cant_connect">Ошибка подключения</string>
     <string name="wifi_cant_connect_to_ap">Не удалось подключиться к сети \"%1$s\"</string>
@@ -2187,7 +2197,7 @@ MAC-адрес точки доступа (BSSID):
     <string name="wifitrackerlib_tap_to_sign_up">Нажмите, чтобы зарегистрироваться</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">К точке доступа подключено слишком много устройств</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Похоже, вы указали неверный пароль. Повторите попытку.</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Подключено к устройству. Нет доступа к Интернету.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Подключено к устройству. Нет доступа к интернету.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Отключено</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">Ошибка конфигурации IP</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Ошибка аутентификации</string>

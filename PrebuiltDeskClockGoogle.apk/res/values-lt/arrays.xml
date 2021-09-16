@@ -17,14 +17,21 @@
         <item>15 min.</item>
         <item>20 min.</item>
         <item>25 min.</item>
-        <item>Niekada</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 min. prieš einant miegoti</item>
+        <item>30 min. prieš einant miegoti</item>
+        <item>45 min. prieš einant miegoti</item>
+        <item>1 val. prieš einant miegoti</item>
+        <item>Išjungti</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analoginis</item>
         <item>Skaitmeninis</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Niekada</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sek.</item>
         <item>10 sek.</item>
         <item>15 sek.</item>
@@ -37,6 +44,35 @@
         <item>50 sek.</item>
         <item>55 sek.</item>
         <item>60 sek.</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Sustabdyti po 10 min.</item>
+        <item>Sustabdyti po 20 min.</item>
+        <item>Sustabdyti po 30 min.</item>
+        <item>Sustabdyti po 40 min.</item>
+        <item>Sustabdyti po 50 min.</item>
+        <item>Sustabdyti po 1 val.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Sustabdyti po 10 min.</item>
+        <item>Sustabdyti po 20 min.</item>
+        <item>Sustabdyti po 30 min.</item>
+        <item>Sustabdyti po 40 min.</item>
+        <item>Sustabdyti po 50 min.</item>
+        <item>Sustabdyti po 1 val.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 min.</item>
+        <item>20 min.</item>
+        <item>30 min.</item>
+        <item>40 min.</item>
+        <item>50 min.</item>
+        <item>1 val.</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 min.</item>
@@ -69,18 +105,6 @@
         <item>28 min.</item>
         <item>29 min.</item>
         <item>30 min.</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Pasiekėte ganėtinai didelį greitį.</item>
-        <item>Mėgaukitės darbo vaisiais.</item>
-        <item>„Android“ įrenginiai pasižymi greičiu, bet jie ne tokie greiti kaip jūs!</item>
-        <item>Oi.</item>
-        <item>L33t kartai.</item>
-        <item>Toks įspūdingas greitis.</item>
-        <item>Dar kartą nukreipkime laiką.</item>
-        <item>Reikia tik peršokti į kairę.</item>
-        <item>Esate linkę skubėti.</item>
-        <item>Fotoninis greitis.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Maršalo Salos</item>

@@ -595,6 +595,8 @@ Sélection"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Votre appareil doit être redémarré pour que ce changement prenne effet. Redémarrez-le maintenant ou annulez la modification.</string>
     <string name="camera_hint">"Balayez à partir de l'icône pour accéder à l'appareil photo"</string>
     <string name="camera_label">"Ouvrir l'appareil photo"</string>
+    <string name="camera_recording_announcement">"L'appareil photo enregistre"</string>
+    <string name="camera_stopped_recording_announcement">"L'appareil photo a arrêté l'enregistrement"</string>
     <string name="cancel">Annuler</string>
     <string name="carrier_network_change_mode">Changer de réseau de fournisseur de services</string>
     <string name="category_personal">Personnel</string>
@@ -734,6 +736,10 @@ Si vous rétablissez la connexion de données cellulaires, des frais peuvent s'a
     <string name="debug_monitoring_category">Surveillance</string>
     <string name="debug_networking_category">Réseautage</string>
     <string name="debug_view_attributes">"Activer l'inspection d'attribut d'affichage"</string>
+    <string name="defender_notify_des">Votre téléphone limite la recharge pour aider à préserver la santé de la pile</string>
+    <string name="defender_notify_learn_more">En savoir plus</string>
+    <string name="defender_notify_resume_charge">Reprendre la facturation</string>
+    <string name="defender_notify_title">Recharge temporairement limitée</string>
     <string name="delete_blob_confirmation_text">Voulez-vous vraiment supprimer ces données partagées?</string>
     <string name="delete_blob_text">Supprimer les données partagées</string>
     <string name="demo_mode">"Mode de démonstration de l'interface système"</string>
@@ -1070,6 +1076,7 @@ uniquement"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Déblocage de la carte SIM en cours…</string>
     <string name="keyguard_try_fingerprint">Servez-vous de votre empreinte digitale pour ouvrir</string>
     <string name="keyguard_unlock">"Balayez l'écran vers le haut pour ouvrir"</string>
+    <string name="keyguard_unlock_press">Appuyez pour ouvrir</string>
     <string name="keywords_adb_wireless">adb, débogage, développeur</string>
     <string name="keywords_alarms_and_reminders">horaire, alarme, rappel, horloge</string>
     <string name="kg_enter_confirm_pin_hint">Confirmez le NIP que vous souhaitez utiliser</string>
@@ -1233,6 +1240,10 @@ Veuillez réessayer dans %2$d secondes."</string>
     <string name="menu_ime">Sélecteur de clavier</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microphone actif</string>
+    <string name="mic_and_camera_recording_announcement">"L'appareil photo et le microphone enregistrent"</string>
+    <string name="mic_camera_stopped_recording_announcement">"L'appareil photo et le microphone ont arrêté l'enregistrement"</string>
+    <string name="mic_recording_announcement">Le microphone enregistre</string>
+    <string name="mic_stopped_recording_announcement">"Le microphone a arrêté l'enregistrement"</string>
     <string name="missed_call">Appel manqué</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Données cellulaires</string>
@@ -1706,8 +1717,6 @@ Si vous avez des questions, communiquez avec %2$s."</string>
     <string name="quick_settings_work_mode_label">Applications professionnelles</string>
     <string name="quick_step_accessibility_toggle_overview">"Basculer l'aperçu"</string>
     <string name="recent_conversations">Conversations récentes</string>
-    <string name="recents_quick_scrub_onboarding">"Balayez l'écran vers la droite pour changer rapidement d'application"</string>
-    <string name="recents_swipe_up_onboarding">"Balayez vers le haut pour changer d'application"</string>
     <string name="remaining_length_format">Temps restant : %1$s</string>
     <string name="remote_input_image_insertion_text">a envoyé une image</string>
     <string name="remove_from_settings">Supprimer des paramètres</string>
@@ -2117,6 +2126,7 @@ Tout utilisateur peut mettre à jour les applications pour tous les autres utili
     <string name="wallet_secondary_label_no_card">Ajouter une carte</string>
     <string name="wallet_secondary_label_updating">Mise à jour en cours…</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"Le point d'accès est temporairement plein"</string>
     <string name="wifi_cant_connect">Connexion impossible</string>
     <string name="wifi_cant_connect_to_ap">Impossible de se connecter à « %1$s »</string>
@@ -2182,7 +2192,7 @@ Adresse Wi‑Fi (BSSID)
     <string name="wifitrackerlib_speed_label_slow">Lente</string>
     <string name="wifitrackerlib_speed_label_very_fast">Très rapide</string>
     <string name="wifitrackerlib_speed_label_very_slow">Très lente</string>
-    <string name="wifitrackerlib_summary_separator">" : "</string>
+    <string name="wifitrackerlib_summary_separator">" / "</string>
     <string name="wifitrackerlib_tap_to_renew_subscription_and_connect">"Touchez pour renouveler l'abonnement et vous connecter"</string>
     <string name="wifitrackerlib_tap_to_sign_up">Toucher pour vous inscrire</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">"Le point d'accès est temporairement plein"</string>

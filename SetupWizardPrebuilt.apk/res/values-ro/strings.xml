@@ -165,7 +165,7 @@ Când modul avion este activat, conexiunea Wi-Fi, rețelele mobile și conexiune
     <string name="final_hold_description_text">Poate dura câteva minute</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Vă pregătim telefonul…}TABLET{Vă pregătim tableta…}other{Vă pregătim dispozitivul…}}</string>
     <string name="final_hold_title_setup_work_account">Se pregătește telefonul pentru configurarea pentru serviciu…</string>
-    <string name="gesture_intro_description">Învățați gesturi pentru revenirea la pagina de pornire, revenire și comutare între aplicații</string>
+    <string name="gesture_intro_description">Învățați gesturi pentru accesarea paginii de pornire, revenire și comutare între aplicații</string>
     <string name="gesture_intro_skip_button">Omiteți</string>
     <string name="gesture_intro_start_button">Încercați</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Glisați pentru a naviga pe telefon}TABLET{Glisați pentru a naviga pe tabletă}other{Glisați pentru a naviga pe dispozitiv}}</string>
@@ -341,13 +341,15 @@ Dispozitivul nu a fost configurat"</string>
 
 "<li>orice alt utilizator poate să accepte permisiunile pentru aplicație actualizate;</li>"
 
-"<li>permiteți accesul la telefon numai persoanelor de încredere.</li></ul>}TABLET{<b>Important:</b>"
+"<li>permiteți accesul la telefon numai persoanelor de încredere.</li></ul>"
+}TABLET{"<b>Important:</b>"
 
 "<ul><li>proprietarul tabletei poate să vă dezinstaleze aplicațiile sau să vă elimine complet profilul de utilizator;</li>"
 
 "<li>orice alt utilizator poate să accepte permisiunile pentru aplicație actualizate;</li>"
 
-"<li>permiteți accesul la tabletă numai persoanelor de încredere.</li></ul>}other{<b>Important:</b>"
+"<li>permiteți accesul la tabletă numai persoanelor de încredere.</li></ul>"
+}other{"<b>Important:</b>"
 
 "<ul><li>proprietarul dispozitivului poate să vă dezinstaleze aplicațiile sau să vă elimine complet profilul de utilizator;</li>"
 
@@ -359,70 +361,47 @@ Dispozitivul nu a fost configurat"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid telefonul.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să primiți actualizări de software;</li>"
-
-"<li>să configurați automat ora și data.</li>"}TABLET{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid tableta.
+"<li>să configurați automat ora și data.</li>"
+}TABLET{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid tableta.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să primiți actualizări de software;</li>"
-
-"<li>să configurați automat ora și data.</li>"}other{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid dispozitivul.
+"<li>să configurați automat ora și data.</li>"
+}other{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid dispozitivul.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să primiți actualizări de software;</li>"
-
 "<li>să configurați automat ora și data.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid telefonul.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să descărcați un card SIM;</li>"
-
 "<li>să descărcați actualizări de software;</li>"
-
-"<li>să configurați automat ora și data.</li>"}TABLET{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid tableta.
+"<li>să configurați automat ora și data.</li>"
+}TABLET{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid tableta.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să descărcați un card SIM;</li>"
-
 "<li>să descărcați actualizări de software;</li>"
-
-"<li>să configurați automat ora și data.</li>"}other{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid dispozitivul.
+"<li>să configurați automat ora și data.</li>"
+}other{Dacă vă conectați la o rețea Wi-Fi sau mobilă, vă puteți configura rapid dispozitivul.
 
 Fără o conexiune, nu puteți:
-
 "<li>să vă conectați la Contul Google;</li>"
-
 "<li>să restabiliți aplicații și date;</li>"
-
 "<li>să descărcați un card SIM;</li>"
-
 "<li>să descărcați actualizări de software;</li>"
-
 "<li>să configurați automat ora și data.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punctul de acces este temporar plin</string>
     <string name="wifi_check_password_try_again">Verificați parola și încercați din nou</string>

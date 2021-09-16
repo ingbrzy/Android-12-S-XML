@@ -17,14 +17,21 @@
         <item>15 minuta</item>
         <item>20 minuta</item>
         <item>25 minuta</item>
-        <item>Asnjeherë</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minuta përpara orarit të gjumit</item>
+        <item>30 minuta përpara orarit të gjumit</item>
+        <item>45 minuta përpara orarit të gjumit</item>
+        <item>1 orë përpara orarit të gjumit</item>
+        <item>Çaktivizo</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Dixhital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Asnjeherë</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekonda</item>
         <item>10 sekonda</item>
         <item>15 sekonda</item>
@@ -37,6 +44,35 @@
         <item>50 sekonda</item>
         <item>55 sekonda</item>
         <item>60 sekonda</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Ndalo pas 10 minutash</item>
+        <item>Ndalo pas 20 minutash</item>
+        <item>Ndalo pas 30 minutash</item>
+        <item>Ndalo pas 40 minutash</item>
+        <item>Ndalo pas 50 minutash</item>
+        <item>Ndalo pas 1 ore</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Ndalo pas 10 min.</item>
+        <item>Ndalo pas 20 min.</item>
+        <item>Ndalo pas 30 min.</item>
+        <item>Ndalo pas 40 min.</item>
+        <item>Ndalo pas 50 min.</item>
+        <item>Ndalo pas 1 ore</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuta</item>
+        <item>20 minuta</item>
+        <item>30 minuta</item>
+        <item>40 minuta</item>
+        <item>50 minuta</item>
+        <item>1 orë</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minutë</item>
@@ -69,18 +105,6 @@
         <item>28 minuta</item>
         <item>29 minuta</item>
         <item>30 minuta</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Je mjaft i shpejtë.</item>
-        <item>Shijo frytet e punës.</item>
-        <item>Androidët njihen për të shpejtë, por jo kaq të shpejtë sa ti!</item>
-        <item>Phu!</item>
-        <item>L33t herë.</item>
-        <item>Një shpejtësi e jashtëzakonshme.</item>
-        <item>Ta kalojmë edhe një herë shpejtësinë e zërit!</item>
-        <item>Edhe një kthesë në të majtë.</item>
-        <item>E ke në gjak shpejtësinë.</item>
-        <item>Shpejtësi fotonike.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Ishujt Marshall</item>

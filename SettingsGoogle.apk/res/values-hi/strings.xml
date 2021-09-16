@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">भाषाएं और इनपुट</string>
     <string name="lift_to_wake_title">सक्रिय करने के लिए उठाएं</string>
-    <string name="lockdown_settings_summary">पावर बटन का विकल्प दिखाएं, जिससे Smart Lock, फ़ेस अनलॉक, फ़िंगरप्रिंट अनलॉक, और लॉक स्क्रीन पर सूचनाएं दिखाने की सुविधा बंद की जाती है</string>
-    <string name="lockdown_settings_title">लॉक करने के विकल्प दिखाएं</string>
+    <string name="abc_action_bar_home_description">होम पेज पर जाएं</string>
+    <string name="abc_action_bar_up_description">वापस जाएं</string>
     <string name="locked_work_profile_notification_title">वर्क प्रोफ़ाइल लॉक होने पर</string>
     <string name="lockscreen_bypass_summary">डिवाइस को अनलॉक करने के बाद, सीधे पिछली खुली स्क्रीन पर जाएं</string>
     <string name="lockscreen_bypass_title">लॉक स्क्रीन छोड़कर आगे बढ़ें</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">वर्क प्रोफ़ाइल सूचनाएं</string>
     <string name="reset_dashboard_summary">नेटवर्क, ऐप्लिकेशन या डिवाइस रीसेट किए जा सकते हैं</string>
     <string name="reset_dashboard_title">रीसेट विकल्प</string>
-    <string name="abc_action_bar_home_description">होम पेज पर जाएं</string>
+    <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
     <string name="screensaver_settings_title">स्क्रीन सेवर</string>
     <string name="screen_timeout">स्क्रीन इतनी देर में बंद हो जाएगी</string>
     <string name="screen_zoom_title">डिसप्ले साइज़</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">कुछ कॉन्टेंट के लिए, यह अपने-आप ही रीफ़्रेश दर को 60 हर्ट्ज़ से बढ़ाकर 90 हर्ट्ज़ कर देता है. इसमें बैटरी ज़्यादा खर्च होती है.</string>
     <string name="accessibility_vibration_settings_title">वाइब्रेशन और हैप्टिक</string>
     <string name="emergency_gesture_screen_title">इमरजेंसी एसओएस</string>
-    <string name="abc_action_bar_up_description">वापस जाएं</string>
+    <string name="abc_action_mode_done">हो गया</string>
     <string name="vibrate_for_calls_category_title">कॉल</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">वॉलेट दिखाएं</string>
     <string name="lockscreen_privacy_controls_setting_toggle">डिवाइस कंट्रोल दिखाएं</string>
     <string name="lockscreen_privacy_wallet_summary">लॉक स्क्रीन और फटाफट सेटिंग से वॉलेट ऐक्सेस करने की अनुमति दें</string>
     <string name="lockscreen_privacy_controls_summary">स्क्रीन लॉक होने पर कंट्रोल को ऐक्सेस करें</string>
-    <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
-    <string name="abc_action_mode_done">हो गया</string>
     <string name="abc_activity_chooser_view_see_all">सभी देखें</string>
     <string name="abc_activitychooserview_choose_application">कोई ऐप्लिकेशन चुनें</string>
     <string name="abc_capital_off">बंद</string>
@@ -1009,7 +1007,7 @@
     <string name="battery_tip_high_usage_summary">सबसे ज़्यादा बैटरी खर्च करने वाले ऐप्लिकेशन देखें</string>
     <string name="battery_tip_high_usage_title">सबसे ज़्यादा बैटरी खर्च</string>
     <string name="battery_tip_limited_temporarily_summary">बैटरी कम खर्च करने के लिए. ज़्यादा जानें.</string>
-    <string name="battery_tip_limited_temporarily_title">चार्जिंग कुछ समय के लिए रोकी गई</string>
+    <string name="battery_tip_limited_temporarily_title">चार्जिंग कुछ समय के लिए सीमित की गई</string>
     <string name="battery_tip_low_battery_summary">बैटरी लाइफ़ बढ़ाने के लिए, बैटरी सेवर को चालू करें</string>
     <string name="battery_tip_low_battery_title">बैटरी कम है</string>
     <string name="battery_tip_restrict_app_dialog_message">बैटरी बचाने के लिए, %1$s को बैकग्राउंड में बैटरी इस्तेमाल करने से रोकें. हो सकता है कि यह ऐप्लिकेशन ठीक तरह से काम न करे और इसके बारे में सूचनाएं देर से मिलें.</string>
@@ -1760,7 +1758,7 @@
     <string name="crypt_keeper_switch_input_method">इनपुट का तरीका बदलें</string>
     <string name="crypt_keeper_unplugged_text">अपना चार्जर प्लग में लगाएं और फिर से प्रयास करें.</string>
     <string name="crypt_keeper_warn_wipe">चेतावनी: अनलॉक किए जाने के ^1 और विफल प्रयासों के बाद आपका डिवाइस हटा दिया जाएगा!</string>
-    <string name="cryptkeeper_emergency_call">आपातकालीन कॉल</string>
+    <string name="cryptkeeper_emergency_call">मुसीबत के समय कॉल</string>
     <string name="cryptkeeper_return_to_call">कॉल पर वापस लौटें</string>
     <string name="cryptkeeper_wrong_password">गलत पासवर्ड</string>
     <string name="cryptkeeper_wrong_pattern">गलत पैटर्न डाला गया है</string>
@@ -2181,7 +2179,7 @@
     <string name="emergency_gesture_sound_setting_title">काउंटडाउन अलार्म चलाएं</string>
     <string name="emergency_gesture_switchbar_title">इमरजेंसी एसओएस की सुविधा इस्तेमाल करें</string>
     <string name="emergency_info_summary">%1$s की जानकारी और संपर्क</string>
-    <string name="emergency_info_title">आपातकालीन जानकारी</string>
+    <string name="emergency_info_title">आपातकाल में दिखने वाली जानकारी</string>
     <string name="emergency_settings_preference_title">सुरक्षा और आपातकालीन स्थिति</string>
     <string name="emergency_tone_alert">टोन</string>
     <string name="emergency_tone_silent">आवाज़ बंद</string>
@@ -2398,7 +2396,7 @@
     <string name="filter_dlg_title">फ़िल्‍टर विकल्‍प चुनें</string>
     <string name="filter_enabled_apps">इंस्‍टॉल किए गए ऐप</string>
     <string name="filter_install_sources_apps">अन्य ऐप्लिकेशन इंस्टॉल कर सकते हैं</string>
-    <string name="filter_instant_apps">Instant apps</string>
+    <string name="filter_instant_apps">इंस्टैंट ऐप्लिकेशन</string>
     <string name="filter_manage_external_storage">सभी फ़ाइलें ऐक्सेस कर सकते हैं</string>
     <string name="filter_notif_all_apps">ऐप्लिकेशन: सभी</string>
     <string name="filter_notif_blocked_apps">सूचनाएं बंद कर दी गई हैं</string>
@@ -3426,7 +3424,7 @@
     <string name="n_cacrts">%d CA प्रमाणपत्र</string>
     <string name="network_4G">4G (सुझाया गया)</string>
     <string name="network_5G_recommended">5G (सुझाया गया)</string>
-    <string name="network_and_internet_preferences_summary">सार्वजनिक नेटवर्क से कनेक्ट करें</string>
+    <string name="network_and_internet_preferences_summary">सार्वजनिक नेटवर्क से कनेक्ट करता है</string>
     <string name="network_and_internet_preferences_title">नेटवर्क की सेटिंग</string>
     <string name="network_changed_notification_text">आपका मोबाइल नेटवर्क बदल गया है</string>
     <string name="network_connected">कनेक्ट किया गया</string>
@@ -4021,7 +4019,7 @@
     <string name="reduce_bright_colors_intensity_preference_title">स्क्रीन की चमक</string>
     <string name="reduce_bright_colors_intensity_start_label">हल्की रोशनी</string>
     <string name="reduce_bright_colors_persist_preference_title">डिवाइस रीस्टार्ट होने के बाद भी इस सेटिंग को जारी रखें</string>
-    <string name="reduce_bright_colors_preference_subtitle">स्क्रीन की चमक को और कम करें, ताकि इस पर दिखने वाला कॉन्टेंट ज़्यादा आराम से पढ़ा जा सके.&lt;br/>&lt;br/> यह सुविधा तब ज़्यादा मददगार होती है, जब &lt;ol> &lt;li> आपके फ़ोन की स्क्रीन की चमक डिफ़ॉल्ट तौर पर सबसे कम होने के बावजूद, बहुत ज़्यादा होती है&lt;/li> &lt;/ol> आप फ़ोन को अंधेरे में इस्तेमाल कर रहे हों, जैसे कि रात के समय या सोने से पहले बिना रोशनी वाले कमरे में&lt;/li> &lt;li></string>
+    <string name="reduce_bright_colors_preference_subtitle">स्क्रीन की चमक को और कम करें, ताकि इस पर दिखने वाला कॉन्टेंट ज़्यादा आराम से पढ़ा जा सके.&lt;br/>&lt;br/> यह सुविधा तब ज़्यादा मददगार होती है, जब &lt;ol> &lt;li> आपके फ़ोन की स्क्रीन की चमक डिफ़ॉल्ट तौर पर सबसे कम होने के बावजूद, बहुत ज़्यादा होती है&lt;/li> &lt;li> आप फ़ोन को अंधेरे में इस्तेमाल कर रहे हों, जैसे कि रात के समय या सोने से पहले बिना रोशनी वाले कमरे में&lt;/li> &lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">स्क्रीन की रोशनी को, अपने फ़ोन में चमक कम करने के सबसे कम लेवल से और कम करें</string>
     <string name="reduce_bright_colors_preference_title">स्क्रीन की रोशनी को सामान्य लेवल से और कम करने की सुविधा</string>
     <string name="reduce_bright_colors_switch_title">स्क्रीन की रोशनी को सामान्य लेवल से और कम करें</string>
@@ -4148,8 +4146,8 @@
     <string name="roaming">रोमिंग</string>
     <string name="roaming_alert_title">डेटा रोमिंग की अनुमति देना चाहते हैं?</string>
     <string name="roaming_check_price_warning">कीमतों की जानकारी के लिए आपको नेटवर्क सेवा देने वाली कंपनी से संपर्क करें.</string>
-    <string name="roaming_disable">रोमिंग के समय डेटा सेवाएं कनेक्ट करें</string>
-    <string name="roaming_enable">रोमिंग के समय डेटा सेवाएं कनेक्ट करें</string>
+    <string name="roaming_disable">रोमिंग में डेटा चालू करें</string>
+    <string name="roaming_enable">रोमिंग में डेटा चालू करें</string>
     <string name="roaming_reenable_message">आपने डेटा कनेक्टिविटी खो दी है क्योंकि आपने डेटा रोमिंग बंद रखकर अपना होम नेटवर्क छोड़ दिया.</string>
     <string name="roaming_reenable_title">डेटा रोमिंग की अनुमति देना चाहते हैं?</string>
     <string name="roaming_turn_it_on_button">इसे चालू करें</string>
@@ -4170,7 +4168,7 @@
     <string name="running_processes_header_free_prefix">खाली</string>
     <string name="running_processes_header_ram">RAM का %1$s</string>
     <string name="running_processes_header_system_prefix">सिस्‍टम</string>
-    <string name="running_processes_header_title">डिवाइस की मेमोरी</string>
+    <string name="running_processes_header_title">डिवाइस का स्टोरेज</string>
     <string name="running_processes_header_used_prefix">उपयोग की गई</string>
     <string name="running_processes_item_description_p_p">%1$d प्रक्रियाएं और %2$d सेवाएं</string>
     <string name="running_processes_item_description_p_s">%1$d प्रक्रियाएं और %2$d सेवा</string>
@@ -4330,7 +4328,7 @@
     <string name="security_settings_face_enroll_education_title">फ़ेस अनलॉक की सुविधा सेट अप करने का तरीका</string>
     <string name="security_settings_face_enroll_education_title_accessibility">फे़स अनलॉक की सुविधा सेट अप करें</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled">चेहरे का इस्तेमाल कर पुष्टि करें</string>
-    <string name="security_settings_face_enroll_enrolling_skip">छोड़ें</string>
+    <string name="security_settings_face_enroll_enrolling_skip">अभी नहीं</string>
     <string name="security_settings_face_enroll_error_dialog_title">चेहरा जोड़ने की प्रक्रिया पूरी नहीं हो सकी</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">चेहरा रजिस्टर नहीं हो पाया.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">चेहरा रजिस्टर करने की समय सीमा खत्म हो गई. फिर से कोशिश करें.</string>
@@ -4741,7 +4739,7 @@
     <string name="simulate_color_space">रंग स्पेस सिम्युलेट करें</string>
     <string name="skip_anyway_button_label">हां छोड़ें</string>
     <string name="skip_label">अभी नहीं</string>
-    <string name="skip_lock_screen_dialog_button_label">छोड़ें</string>
+    <string name="skip_lock_screen_dialog_button_label">अभी नहीं</string>
     <string name="slot_number">(स्लॉट%1$d)</string>
     <string name="smart_battery_footer">बैटरी लाइफ़ बढ़ाने के लिए, ज़रूरत के हिसाब से बैटरी का इस्तेमाल करने की सुविधा, परफ़ॉर्मेंस और बैकग्राउंड में होने वाली गतिविधि को कम कर सकती है. इसलिए, कुछ सूचनाएं देरी से मिल सकती हैं.</string>
     <string name="smart_battery_manager_title">इस्तेमाल के हिसाब से बैटरी की खपत</string>
@@ -4832,7 +4830,7 @@
     <string name="status_wifi_mac_address">वाई-फ़ाई MAC पता</string>
     <string name="storage_apps">ऐप्लिकेशन</string>
     <string name="storage_audio">ऑडियो</string>
-    <string name="storage_category">डिवाइस की मेमोरी</string>
+    <string name="storage_category">डिवाइस का स्टोरेज</string>
     <string name="storage_default_internal_storage">यह डिवाइस</string>
     <string name="storage_detail_dialog_system">सिस्टम में ऐसी फ़ाइलें शामिल हैं जिनका उपयोग Android वर्शन %s को चलाने के लिए किया जाता है</string>
     <string name="storage_dialog_unmountable">"यह ^1 दूषित है. 
@@ -4910,13 +4908,13 @@
     <string name="storage_system">सिस्टम</string>
     <string name="storage_title_usb">USB कंप्‍यूटर कनेक्‍शन</string>
     <string name="storage_total_summary">कुल %1$s %2$s</string>
-    <string name="storage_trash">ट्रैश</string>
+    <string name="storage_trash">बेकार फ़ाइलें</string>
     <string name="storage_trash_dialog_ask_message">ट्रैश में %1$s की फ़ाइलें हैं. सभी आइटम हमेशा के लिए मिटा दिए जाएंगे और आप उन्हें वापस नहीं ला पाएंगे.</string>
     <string name="storage_trash_dialog_confirm">ट्रैश खाली करें</string>
     <string name="storage_trash_dialog_empty_message">ट्रैश खाली है</string>
     <string name="storage_trash_dialog_title">क्या आप ट्रैश खाली करना चाहते हैं?</string>
     <string name="storage_type_external">बाहरी मेमोरी</string>
-    <string name="storage_type_internal">डिवाइस की मेमोरी</string>
+    <string name="storage_type_internal">डिवाइस का स्टोरेज</string>
     <string name="storage_unmount_failure">%1$s को सुरक्षित रूप से नहीं निकाला जा सका</string>
     <string name="storage_unmount_success">%1$s को सुरक्षित रूप से निकाला गया</string>
     <string name="storage_usage_summary">%1$s %2$s स्टोरेज इस्तेमाल किया गया</string>
@@ -5294,7 +5292,7 @@
     <string name="unlock_set_unlock_pin_title">पिन</string>
     <string name="unlock_setup_wizard_fingerprint_details">स्‍क्रीन लॉक सेट करने के बाद, आप सेटिंग और सुरक्षा में अपना फ़िंगरप्रिंट भी सेट कर सकते हैं.</string>
     <string name="unmount_inform_text">USB मेमोरी अनमाउंट किया जाएगा.</string>
-    <string name="unrestricted_app_summary">डेटा सेवर चालू होने पर जितना चाहें उतना डेटा इस्तेमाल करने दें</string>
+    <string name="unrestricted_app_summary">डेटा बचाने की सेटिंग चालू होने पर, जितना चाहें उतना डेटा इस्तेमाल करने दें</string>
     <string name="unrestricted_app_title">असीमित डेटा खर्च</string>
     <string name="unrestricted_data_saver">पाबंदी के बिना डेटा इस्तेमाल</string>
     <string name="unsupported_setting_summary">इस फ़ोन पर सेटिंग नहीं की जा सकती</string>
@@ -5501,7 +5499,7 @@
     <string name="view_saved_network">देखने के लिए, सेव किया गया नेटवर्क चुनें</string>
     <string name="virtual_keyboard_category">ऑन-स्क्रीन कीबोर्ड</string>
     <string name="virtual_keyboards_for_work_title">काम के लिए ऑन-स्क्रीन कीबोर्ड</string>
-    <string name="vision_settings_description">आप इस डिवाइस में अपनी जरूरतों के हिसाब से बदलाव ला सकते हैं. ये सुलभता सुविधाएं बाद में सेटिंग में बदली जा सकती हैं.</string>
+    <string name="vision_settings_description">आप इस फ़ोन में अपनी ज़रूरतों के हिसाब से, नीचे दिए गए बदलाव कर सकते हैं. ये सुलभता सुविधाएं बाद में सेटिंग में बदली जा सकती हैं.</string>
     <string name="vision_settings_suggestion_title">फ़ॉन्ट का साइज़ बदलें</string>
     <string name="vision_settings_title">देखने से जुड़ी सेटिंग</string>
     <string name="voice_input_output_settings">बोलकर फ़ोन को निर्देश और आउटपुट</string>
@@ -5616,7 +5614,7 @@
     <string name="wallpaper_suggestion_summary">अपनी स्क्रीन को अपने मुताबिक बनाएं</string>
     <string name="wallpaper_suggestion_title">वॉलपेपर बदलें</string>
     <string name="warning_button_text">चेतावनी</string>
-    <string name="web_action_enable_summary">सभी लिंक ऐप्लिकेशन में खोलें, भले ही वे इंस्टॉल न हों</string>
+    <string name="web_action_enable_summary">सभी लिंक ऐप में खुलें, भले ही वे ऐप इंस्टॉल न हों</string>
     <string name="web_action_enable_title">इंस्टैंट ऐप्लिकेशन</string>
     <string name="web_action_section_title">इंस्टैंट ऐप्लिकेशन</string>
     <string name="webview_disabled_for_user">(उपयोगकर्ता %s के लिए बंद है)</string>
@@ -5627,7 +5625,7 @@
     <string name="wfc_disclaimer_emergency_limitation_desc_text">"आपकी मोबाइल और इंटरनेट सेवा देने वाली कंपनी, 'वाई-फ़ाई कॉलिंग' के ज़रिए आपातकालीन कॉल करने की सुविधा नहीं देती है.
  आपातकालीन कॉल करने के लिए डिवाइस अपने आप माेबाइल नेटवर्क पर स्विच करता है.
  आपातकालीन कॉल सिर्फ़ उन्हीं इलाकाें में किया जा सकता है जहां नेटवर्क कवरेज हाे."</string>
-    <string name="wfc_disclaimer_emergency_limitation_title_text">आपातकालीन कॉल</string>
+    <string name="wfc_disclaimer_emergency_limitation_title_text">मुसीबत के समय कॉल</string>
     <string name="wfc_disclaimer_location_desc_text">"जब आप आपातकालीन कॉल के लिए इस सेवा का इस्तेमाल करते हैं, तो मोबाइल और इंटरनेट सेवा देने वाली कंपनी, आपकी जगह की जानकारी इकट्ठा कर सकती है.
 
 ज़्यादा जानकारी के लिए, अपनी मोबाइल और इंटरनेट सेवा देने वाली कंपनी की निजता नीति को देखें."</string>

@@ -17,14 +17,21 @@
         <item>15 минута</item>
         <item>20 минута</item>
         <item>25 минута</item>
-        <item>Никад</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 мин пре времена за спавање</item>
+        <item>30 мин пре времена за спавање</item>
+        <item>45 мин пре времена за спавање</item>
+        <item>1 сат пре времена за спавање</item>
+        <item>Искључено</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Аналогни</item>
         <item>Дигитални</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Никад</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунди</item>
         <item>10 секунди</item>
         <item>15 секунди</item>
@@ -37,6 +44,35 @@
         <item>50 секунди</item>
         <item>55 секунди</item>
         <item>60 секунди</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Заустави после 10 минута</item>
+        <item>Заустави после 20 минута</item>
+        <item>Заустави после 30 минута</item>
+        <item>Заустави после 40 минута</item>
+        <item>Заустави после 50 минута</item>
+        <item>Заустави после 1 сата</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Заустави после 10 мин</item>
+        <item>Заустави после 20 мин</item>
+        <item>Заустави после 30 мин</item>
+        <item>Заустави после 40 мин</item>
+        <item>Заустави после 50 мин</item>
+        <item>Заустави после 1 сата</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 минута</item>
+        <item>20 минута</item>
+        <item>30 минута</item>
+        <item>40 минута</item>
+        <item>50 минута</item>
+        <item>1 сат</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минут</item>
@@ -69,18 +105,6 @@
         <item>28 минута</item>
         <item>29 минута</item>
         <item>30 минута</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Брзи сте као муња.</item>
-        <item>Уживајте у плодовима свог рада.</item>
-        <item>Зна се да су Андроиди брзи, али не као ви!</item>
-        <item>Ух.</item>
-        <item>Елитн@ времена.</item>
-        <item>Каква вртоглава брзина.</item>
-        <item>Хајде да видимо поново убрзани приказ кроз време.</item>
-        <item>Само скок улево.</item>
-        <item>Брзина вам је у крви.</item>
-        <item>Брзина фотона.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалска острва</item>

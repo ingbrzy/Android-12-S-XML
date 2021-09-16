@@ -109,7 +109,7 @@ Keep learning about other topics now, or review this info anytime in TalkBack se
     <string name="audio_focus_state">Audio ducking %1$s</string>
     <string name="auto_detect">Adapt to how you hold the device</string>
     <string name="auto_scan_action_description">Start scan and select</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'Auto-scan' or 'Select'"</string>
     <string name="available_devices_header">Available Bluetooth devices</string>
     <string name="backup_api_key">AEdPqrEAAAAIovFrC5KKjGNHfq_b6n2v1Ti_YrGkLuF6n9tf6g</string>
     <string name="basic_navigation_link_subtext">Move between items, scroll, use menus, and more</string>
@@ -163,7 +163,13 @@ Keep learning about other topics now, or review this info anytime in TalkBack se
     <string name="cam_switch_enable_banner_text_label_generic">To control your device, you first need to turn on Switch Access.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Open Camera Switches</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Open Switch Access</string>
+    <string name="cam_switch_try_it_cam_switch_detected_content_description">%s detected</string>
+    <string name="cam_switch_try_it_cam_switch_triggered_content_description">%s triggered</string>
+    <string name="cam_switch_try_it_face_detected_content_description">face detected</string>
+    <string name="cam_switches_combined_preferences_title">"'%1$s' settings"</string>
     <string name="cam_switches_pref_screen_key">cam_switches_pref_screen</string>
+    <string name="cam_switches_preferences_title">Camera Switch settings</string>
+    <string name="cam_switches_single_preferences_title">"'%s' settings"</string>
     <string name="camera_switches_status_active">Camera Switches Active</string>
     <string name="camera_switches_status_error">Error</string>
     <string name="camera_switches_status_no_face">No face detected</string>
@@ -426,6 +432,7 @@ Try this now by touching the screen and dragging toward the bottom left corner u
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fast_radio_button_title">Fast (%1$ss delay)</string>
+    <string name="fast_radio_button_title_content_description">Fast (%1$s second delay)</string>
     <string name="find_finish_button_text">Swipe right to find the finish button.</string>
     <string name="finish">Finish</string>
     <string name="finish_tutorial_announcement">Showing braille keyboard. Turn your phone so the screen is facing away from you. Rotate the phone horizontally to landscape position. Then start typing.</string>
@@ -900,6 +907,7 @@ Internal view name: %1$s"</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="medium_radio_button_title">Medium (%1$ss delay)</string>
+    <string name="medium_radio_button_title_content_description">Medium (%1$s second delay)</string>
     <string name="menu_category_reading_controls">Reading</string>
     <string name="menu_category_special_features">Special features</string>
     <string name="menus_selector_text">"These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack's speech rate.
@@ -920,6 +928,7 @@ Open the TalkBack menu now by tapping the screen with 3 fingers."</string>
 Open the TalkBack menu now by swiping down then right."</string>
     <string name="menus_title">Menu and controls</string>
     <string name="message_in_reset_keymap_confirm_dialog">Are you sure you would like to reset your shortcut keys for this keymap to their default values? Please note, this action cannot be undone.</string>
+    <string name="message_request_phone_permission">TalkBack wants to know when a phone call is happening, so that TalkBack can reduce interrupting announcements.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"This will reset all gestures to their default actions.
 
 You will lose any changes that you have made."</string>
@@ -1293,6 +1302,7 @@ Try any gesture where two swipes form a right angle. For example, swipe down and
     <string name="pref_deprecated_shortcut_up">@string/shortcut_value_previous</string>
     <string name="pref_deprecated_shortcut_up_and_left_default">@string/shortcut_value_home</string>
     <string name="pref_deprecated_shortcut_up_and_right_default">@string/shortcut_value_notifications</string>
+    <string name="pref_developer_version_code_key">pref_developer_version_code</string>
     <string name="pref_dim_volume_three_clicks_key">pref_dim_volume_three_clicks</string>
     <string name="pref_dim_when_talkback_enabled_key">pref_dim_when_talkback_enabled_key</string>
     <string name="pref_dump_a11y_event_key">pref_dump_a11y_event</string>
@@ -1454,6 +1464,7 @@ Try any gesture where two swipes form a right angle. For example, swipe down and
     <string name="pref_s2s_speech_rate_int_bit">pref_s2s_speech_rate_int_bit</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Add Camera Switches</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Clear Physical switches</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Configure settings for switch: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Edit Camera Switches</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_multi_list_pref_key">pref_sa_combined_switch_mapping_assign_cam_switch_multi_list_pref_key</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">No Camera Switch assigned</string>
@@ -1568,13 +1579,13 @@ Try any gesture where two swipes form a right angle. For example, swipe down and
     <string name="pref_shortcut_4finger_2tap_key">pref_shortcut_four_finger_double_tap</string>
     <string name="pref_shortcut_4finger_3tap_default">@string/shortcut_value_unassigned</string>
     <string name="pref_shortcut_4finger_3tap_key">pref_shortcut_four_finger_triple_tap</string>
-    <string name="pref_shortcut_4finger_swipe_down_default">@string/shortcut_value_unassigned</string>
+    <string name="pref_shortcut_4finger_swipe_down_default">@string/shortcut_value_next_window</string>
     <string name="pref_shortcut_4finger_swipe_down_key">pref_shortcut_four_finger_swipe_down</string>
     <string name="pref_shortcut_4finger_swipe_left_default">@string/shortcut_value_unassigned</string>
     <string name="pref_shortcut_4finger_swipe_left_key">pref_shortcut_four_finger_swipe_left</string>
     <string name="pref_shortcut_4finger_swipe_right_default">@string/shortcut_value_unassigned</string>
     <string name="pref_shortcut_4finger_swipe_right_key">pref_shortcut_four_finger_swipe_right</string>
-    <string name="pref_shortcut_4finger_swipe_up_default">@string/shortcut_value_unassigned</string>
+    <string name="pref_shortcut_4finger_swipe_up_default">@string/shortcut_value_previous_window</string>
     <string name="pref_shortcut_4finger_swipe_up_key">pref_shortcut_four_finger_swipe_up</string>
     <string name="pref_shortcut_double_tap_default">@string/shortcut_value_unassigned</string>
     <string name="pref_shortcut_double_tap_key">pref_shortcut_side_tap_double</string>
@@ -1667,6 +1678,8 @@ Try any gesture where two swipes form a right angle. For example, swipe down and
     <string name="pref_show_navigation_menu_window_setting_key">pref_window_navigation_menu_setting_key</string>
     <string name="pref_show_navigation_menu_words_setting_key">pref_words_navigation_menu_setting_key</string>
     <string name="pref_show_pass_through_mode_dialog">pref_show_pass_through_mode_dialog</string>
+    <string name="pref_show_phone_permission_confirmation_dialog">pref_show_phone_permission_confirmation_dialog</string>
+    <string name="pref_show_phone_permission_dialog">pref_show_phone_permission_dialog</string>
     <string name="pref_show_selector_menu_reading_control_category_key">pref_show_selector_menu_reading_control_category</string>
     <string name="pref_show_selector_menu_special_features_category_key">pref_show_selector_menu_special_features_category</string>
     <string name="pref_show_suspension_confirmation_dialog">pref_show_suspension_confirmation_dialog</string>
@@ -1773,6 +1786,7 @@ If your device still won't connect, go to Bluetooth settings and try reconnectin
     <string name="reduce_speed_button">Reduce Speed</string>
     <string name="remaining_calibration_finish_announcement">All dot positions updated</string>
     <string name="reminder_announcement">Swipe up with 3 fingers for more options</string>
+    <string name="remove_assigned_switch">Remove switch assignment for %s</string>
     <string name="report_gesture_description">Here are gestures performed recently, please report which gesture is wrong and what is expected.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Reset</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Reset</string>
@@ -1868,6 +1882,7 @@ Try this now by swiping up with 2 fingers until you scroll to the bottom of the 
     <string name="search_mode_hint_no_selection">No selected item.</string>
     <string name="search_mode_hint_query">Current query: %1$s.</string>
     <string name="search_mode_hint_selection">Current selection: %1$s.</string>
+    <string name="select_for_point_scan">"'Select'"</string>
     <string name="select_setting_hint">%1$s to select a different setting</string>
     <string name="selecting_text_text">"In a text box, move the cursor to the beginning of the text you want to select.
 
@@ -1952,6 +1967,7 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
     <string name="shortcut_media_control">Play or pause media</string>
     <string name="shortcut_next">Next item</string>
     <string name="shortcut_next_granularity">Next navigation setting</string>
+    <string name="shortcut_next_window">Next window</string>
     <string name="shortcut_not_customizable">%1$s, not customizable</string>
     <string name="shortcut_notifications">Notifications</string>
     <string name="shortcut_overview">Overview</string>
@@ -1964,6 +1980,7 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
     <string name="shortcut_practice_gestures">Practice gestures</string>
     <string name="shortcut_previous">Previous item</string>
     <string name="shortcut_previous_granularity">Previous navigation setting</string>
+    <string name="shortcut_previous_window">Previous window</string>
     <string name="shortcut_print_node_tree">Print node tree</string>
     <string name="shortcut_print_performance_stats">Print performance statistics</string>
     <string name="shortcut_quick_settings">Quick Settings</string>
@@ -2012,6 +2029,7 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
     <string name="shortcut_value_media_control">MEDIA_CONTROL</string>
     <string name="shortcut_value_next">NEXT</string>
     <string name="shortcut_value_next_granularity">NEXT_GRANULARITY</string>
+    <string name="shortcut_value_next_window">NEXT_WINDOW</string>
     <string name="shortcut_value_notifications">NOTIFICATIONS</string>
     <string name="shortcut_value_overview">OVERVIEW</string>
     <string name="shortcut_value_pass_through_next_gesture">ENABLE_PASS_THROUGH</string>
@@ -2022,6 +2040,7 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
     <string name="shortcut_value_practice_gestures">PRACTICE_GESTURES</string>
     <string name="shortcut_value_previous">PREVIOUS</string>
     <string name="shortcut_value_previous_granularity">PREVIOUS_GRANULARITY</string>
+    <string name="shortcut_value_previous_window">PREVIOUS_WINDOW</string>
     <string name="shortcut_value_print_node_tree">PRINT_NODE_TREE</string>
     <string name="shortcut_value_print_performance_stats">PRINT_PERFORMANCE_STATS</string>
     <string name="shortcut_value_quick_settings">QUICK_SETTINGS</string>
@@ -2060,6 +2079,7 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
 • Shake to start continuous reading"</string>
     <string name="six_hold_announcement">You can also type by placing your phone flat on a table. Try it now. If you don’t have a table nearby, skip ahead by swiping down.</string>
     <string name="slow_radio_button_title">Slow (%1$ss delay)</string>
+    <string name="slow_radio_button_title_content_description">Slow (%1$s second delay)</string>
     <string name="sound_feedback_state">Sound feedback %1$s</string>
     <string name="sound_feedback_summary">Play a sound to indicate that something changed (e.g., content on the screen changed)</string>
     <string name="speak_container_element_position_summary_off">List and grid information is not spoken</string>
@@ -2151,10 +2171,10 @@ Step 2: Swipe down to move the navigation focus forward or adjust a reading cont
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Perform any of the face gestures. If registered, the name of the gesture will show. To exit, hold any gesture for %1$d seconds.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Keep your head still and face the camera. Then %s.</string>
     <string name="summary_pref_play_store">Current TalkBack Version: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Use moving lines to select a specific horizontal and vertical location. Press the %1$s switch to start Point scanning. %2$s</string>
     <string name="summary_pref_reverse_dots">Swap the dot positions, so that dots 1 and 4 trade places, for example</string>
     <string name="summary_pref_revert_to_default_menu">Reset the Switch Access menu to the default list of menu items.</string>
-    <string name="summary_pref_single_tap">(Experimental) Tap once on a focused item to activate</string>
+    <string name="summary_pref_single_tap">Tap once on a focused item to activate</string>
     <string name="summary_pref_tree_debug_tv">Use voice search key to print node tree instead of searching</string>
     <string name="summary_pref_use_audio_focus">Decrease other audio volume while speaking</string>
     <string name="summary_read_from_current">Starting from the next item, read all items on the screen</string>
@@ -2778,7 +2798,7 @@ To turn off TalkBack:
     <string name="title_pref_show_privacy_policy">Privacy policy</string>
     <string name="title_pref_show_shortcut_in_menu">Display in Switch Access menu</string>
     <string name="title_pref_show_tos">Terms of service</string>
-    <string name="title_pref_single_tap">Single-tap activation</string>
+    <string name="title_pref_single_tap">Single-tap to activate</string>
     <string name="title_pref_sound_and_vibration">Sound and vibration</string>
     <string name="title_pref_soundback">Sound feedback</string>
     <string name="title_pref_soundback_volume">Sound feedback volume</string>
@@ -2823,6 +2843,7 @@ To turn off TalkBack:
     <string name="title_previous_screen">Previous screen</string>
     <string name="title_read_from_top">Read from top</string>
     <string name="title_repeat_last_spoken_phrase">Repeat last spoken phrase</string>
+    <string name="title_request_phone_permission">TalkBack Requests Permission</string>
     <string name="title_screen_search">@string/title_show_screen_search</string>
     <string name="title_screen_summary">Screen Summary</string>
     <string name="title_seek_bar_controls">Slider</string>

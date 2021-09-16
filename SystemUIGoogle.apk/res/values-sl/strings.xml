@@ -508,7 +508,7 @@ Poskusite znova čez %d s."</string>
     <string name="bluetooth_pairing_pin_error_message">Zaradi napačne kode PIN ali gesla ni mogoča seznanitev z napravo %1$s.</string>
     <string name="bluetooth_pairing_rejected_error_message">Naprava %1$s je zavrnila seznanitev.</string>
     <string name="bluetooth_pairing_will_share_phonebook">Seznanjanje pri vzpostavljeni povezavi omogoči dostop do vaših stikov in zgodovine klicev.</string>
-    <string name="bluetooth_pan_nap_profile_summary_connected">Skupna raba lok. internetne povezave z napravo</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Deljenje lok. internetne povezave z napravo</string>
     <string name="bluetooth_pan_profile_summary_use_for">Uporabi za dostop do interneta</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Povezava z napravo za internetni dostop</string>
     <string name="bluetooth_profile_a2dp">Zvok predstavnosti</string>
@@ -520,9 +520,9 @@ Poskusite znova čez %d s."</string>
     <string name="bluetooth_profile_map">Sporočila SMS</string>
     <string name="bluetooth_profile_opp">Prenos datoteke</string>
     <string name="bluetooth_profile_pan">Internetni dostop</string>
-    <string name="bluetooth_profile_pan_nap">Skupna raba internetne povezave</string>
+    <string name="bluetooth_profile_pan_nap">Deljenje internetne povezave</string>
     <string name="bluetooth_profile_pbap">Deljenje stikov</string>
-    <string name="bluetooth_profile_pbap_summary">Uporabi za dajanje stikov v skupno rabo</string>
+    <string name="bluetooth_profile_pbap_summary">Uporabi za deljenje stikov</string>
     <string name="bluetooth_profile_sap">Dostop do kartice SIM</string>
     <string name="bluetooth_sap_profile_summary_connected">Vzpostavljena povezava s profilom SAP</string>
     <string name="bluetooth_sap_profile_summary_use_for">Uporablja se za dostop do kartice SIM</string>
@@ -595,6 +595,8 @@ Izbor"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Napravo je treba znova zagnati, da bo ta sprememba uveljavljena. Znova zaženite zdaj ali prekličite.</string>
     <string name="camera_hint">Povlecite z ikone za fotoaparat</string>
     <string name="camera_label">odpri fotoaparat</string>
+    <string name="camera_recording_announcement">Snemanje s fotoaparatom</string>
+    <string name="camera_stopped_recording_announcement">Ustavljeno snemanje s fotoaparatom</string>
     <string name="cancel">Prekliči</string>
     <string name="carrier_network_change_mode">Spreminjanje omrežja operaterja</string>
     <string name="category_personal">Osebno</string>
@@ -734,6 +736,10 @@ Izbor"</string>
     <string name="debug_monitoring_category">Spremljanje</string>
     <string name="debug_networking_category">Omrežja</string>
     <string name="debug_view_attributes">Omogoči pregled atributa pogleda</string>
+    <string name="defender_notify_des">Telefon omejuje polnjenje za ohranjanje ustreznega stanja baterije.</string>
+    <string name="defender_notify_learn_more">Več o tem</string>
+    <string name="defender_notify_resume_charge">Nadaljuj polnjenje</string>
+    <string name="defender_notify_title">Začasno omejeno polnjenje</string>
     <string name="delete_blob_confirmation_text">Ali ste prepričani, da želite odstraniti te deljene podatke?</string>
     <string name="delete_blob_text">Izbriši deljene podatke</string>
     <string name="demo_mode">Predstavitveni način uporabniškega vmesnika sistema</string>
@@ -1070,6 +1076,7 @@ prednostno"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Odklepanje kartice SIM …</string>
     <string name="keyguard_try_fingerprint">Odprite s prstnim odtisom</string>
     <string name="keyguard_unlock">Povlecite navzgor, da odprete</string>
+    <string name="keyguard_unlock_press">Pritisnite, če želite odpreti.</string>
     <string name="keywords_adb_wireless">adb, odpravljanje napak, razvoj</string>
     <string name="keywords_alarms_and_reminders">načrtovanje, urnik, alarm, opomnik, ura</string>
     <string name="kg_enter_confirm_pin_hint">Potrdite želeno kodo PIN</string>
@@ -1233,6 +1240,10 @@ Poskusite znova čez %2$d s."</string>
     <string name="menu_ime">Preklopnik tipkovnice</string>
     <string name="messages_count_overflow_indicator">Več kot %d</string>
     <string name="mic_active">Mikrofon je aktiven</string>
+    <string name="mic_and_camera_recording_announcement">Snemanje s fotoaparatom in mikrofonom</string>
+    <string name="mic_camera_stopped_recording_announcement">Ustavljeno snemanje s fotoaparatom in mikrofonom</string>
+    <string name="mic_recording_announcement">Snemanje z mikrofonom</string>
+    <string name="mic_stopped_recording_announcement">Ustavljeno snemanje z mikrofonom</string>
     <string name="missed_call">Neodgovorjeni klic</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobilni podatki</string>
@@ -1706,8 +1717,6 @@ Povezani ste tudi z omrežjem VPN, ki lahko nadzira vašo omrežno dejavnost."</
     <string name="quick_settings_work_mode_label">Delovne aplikacije</string>
     <string name="quick_step_accessibility_toggle_overview">Vklop/izklop pregleda</string>
     <string name="recent_conversations">Nedavni pogovori</string>
-    <string name="recents_quick_scrub_onboarding">Povlecite v desno za hiter preklop med aplikacijami</string>
-    <string name="recents_swipe_up_onboarding">Za preklop aplikacij povlecite navzgor</string>
     <string name="remaining_length_format">Še %1$s</string>
     <string name="remote_input_image_insertion_text">je poslal(-a) sliko</string>
     <string name="remove_from_settings">Odstrani iz nastavitev</string>
@@ -2117,6 +2126,7 @@ Vsak uporabnik lahko posodobi aplikacije za vse druge uporabnike."</string>
     <string name="wallet_secondary_label_no_card">Dodajte kartico</string>
     <string name="wallet_secondary_label_updating">Posodabljanje</string>
     <string name="wallet_title">Denarnica</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Dostopna točka je trenutno zasedena</string>
     <string name="wifi_cant_connect">Povezava ni mogoča</string>
     <string name="wifi_cant_connect_to_ap">Povezava z aplikacijo »%1$s« ni mogoča</string>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Languages and input</string>
     <string name="lift_to_wake_title">Lift to wake</string>
-    <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, Face Unlock, Fingerprint Unlock and notifications on the lock screen</string>
-    <string name="lockdown_settings_title">Show lockdown option</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="locked_work_profile_notification_title">When work profile is locked</string>
     <string name="lockscreen_bypass_summary">After unlocking, go directly to last used screen</string>
     <string name="lockscreen_bypass_title">Skip lock screen</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Work notifications</string>
     <string name="reset_dashboard_summary">Network, apps or device can be reset</string>
     <string name="reset_dashboard_title">Reset options</string>
-    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
     <string name="screensaver_settings_title">Screen saver</string>
     <string name="screen_timeout">Screen timeout</string>
     <string name="screen_zoom_title">Display size</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Automatically raises the refresh rate from 60 to 90 Hz for some content. Increases battery usage.</string>
     <string name="accessibility_vibration_settings_title">Vibration and haptics</string>
     <string name="emergency_gesture_screen_title">Emergency SOS</string>
-    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_mode_done">Done</string>
     <string name="vibrate_for_calls_category_title">Calls</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Show wallet</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Show device controls</string>
     <string name="lockscreen_privacy_wallet_summary">Allow access to wallet from lock screen and Quick Settings</string>
     <string name="lockscreen_privacy_controls_summary">Access controls when locked</string>
-    <string name="abc_action_menu_overflow_description">More options</string>
-    <string name="abc_action_mode_done">Done</string>
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
@@ -1669,13 +1667,13 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="contact_discovery_opt_in_dialog_message">"Your contacts’ phone numbers will be periodically sent to %1$s.
 
 This info identifies whether your contacts can use certain features, like video calls or some messaging features."</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">"Your contacts’ phone numbers will be periodically sent to your carrier.
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">"Your contacts’ phone numbers will be periodically sent to your operator.
 
 This info identifies whether your contacts can use certain features, like video calls or some messaging features."</string>
     <string name="contact_discovery_opt_in_dialog_title">Send contacts to %1$s?</string>
-    <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined">Send contacts to your carrier?</string>
+    <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined">Send contacts to your operator?</string>
     <string name="contact_discovery_opt_in_summary">Send your contacts’ phone numbers to provide enhanced features</string>
-    <string name="contact_discovery_opt_in_title">Send contacts to carrier</string>
+    <string name="contact_discovery_opt_in_title">Send contacts to operator</string>
     <string name="content_capture">Personalise using app data</string>
     <string name="content_capture_summary">Allow apps to send content to the Android system</string>
     <string name="content_description_menu_button">Menu</string>
@@ -4244,7 +4242,7 @@ To use app pinning: \u0009
     <string name="search_settings">Search</string>
     <string name="secure_lock_encryption_warning">"Because you've turned on an accessibility service, your device won’t use your screen lock to enhance data encryption."</string>
     <string name="security_advanced_settings">Advanced settings</string>
-    <string name="security_dashboard_summary">Screen lock, Find My Device app security</string>
+    <string name="security_dashboard_summary">Screen lock, Find My Device, app security</string>
     <string name="security_dismiss_dialog_dismiss_button">Dismiss</string>
     <string name="security_dismiss_dialog_title">Dismiss this warning?</string>
     <string name="security_enable_widgets_disabled_summary">Disabled by admin</string>
@@ -6009,7 +6007,7 @@ Allow this for all apps that want to scan?"</string>
     <string name="write_settings_title">Can modify system settings</string>
     <string name="write_system_settings">Modify system settings</string>
     <string name="wrong_pin_code_one">Incorrect SIM PIN code; you have one remaining attempt before you must contact your operator to unlock your device.</string>
-    <string name="wrong_pin_code_pukked">Incorrect SIM PIN code; you must now contact your carrier to unlock your device.</string>
+    <string name="wrong_pin_code_pukked">Incorrect SIM PIN code; you must now contact your operator to unlock your device.</string>
     <string name="yes">Yes</string>
     <string name="zen_access_detail_switch">Allow Do Not Disturb</string>
     <string name="zen_access_disabled_package_warning">Must stay turned on because notification access is on</string>

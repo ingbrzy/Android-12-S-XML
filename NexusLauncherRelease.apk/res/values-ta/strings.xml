@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s உள்ள கோப்புறையில் சேர்க்கும்</string>
     <string name="add_to_home_screen">முகப்புத் திரையில் சேர்</string>
     <string name="added_to_folder">கோப்புறையில் உருப்படி சேர்க்கப்பட்டது</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s விட்ஜெட் முகப்புத் திரையில் சேர்க்கப்பட்டது</string>
     <string name="all_apps_button_label">ஆப்ஸின் பட்டியல்</string>
     <string name="all_apps_button_personal_label">தனிப்பட்ட ஆப்ஸ் பட்டியல்</string>
     <string name="all_apps_button_work_label">பணி ஆப்ஸ் பட்டியல்</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">மொபைலைச் சுழற்றும் போது</string>
     <string name="allow_rotation_title">முகப்புத் திரை சுழற்சியை அனுமதி</string>
     <string name="allset_description">மொபைலைப் பயன்படுத்தத் தயாராகிவிட்டீர்கள்</string>
+    <string name="allset_hint">முகப்புத் திரைக்குச் செல்ல மேல்நோக்கி ஸ்வைப் செய்யுங்கள்</string>
+    <string name="allset_navigation_settings"><annotation id="link">சிஸ்டம் வழிசெலுத்தல் அமைப்புகள்</annotation></string>
     <string name="allset_title">அனைத்தையும் அமைத்துவிட்டீர்கள்!</string>
     <string name="app_downloading_title">%1$sஐப் பதிவிறக்குகிறது, %2$s முடிந்தது</string>
     <string name="app_info_drop_target_label">ஆப்ஸ் தகவல்</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$sஐ நிறுவுவதற்காகக் காத்திருக்கிறது</string>
     <string name="auto_add_shortcuts_description">புதிய ஆப்ஸை நிறுவும்போது</string>
     <string name="auto_add_shortcuts_label">முகப்புத் திரையில் ஆப்ஸ் ஐகான்களைச் சேர்</string>
+    <string name="back_gesture_feedback_cancelled">வலது அல்லது இடது ஓரத்திலிருந்து திரையின் மையப் பகுதிக்கு ஸ்வைப் செய்தபிறகு விடுவிப்பதை உறுதிசெய்க.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">பின்செல்வதற்கு எப்படி வலதுபுறத்திலிருந்து ஸ்வைப் செய்வதென்று கற்றுக்கொண்டீர்கள். அடுத்து ஆப்ஸுக்கிடையே எப்படி மாறுவது என்பதை அறிக.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">பின்செல் சைகைப் பயிற்சியை முடித்துவிட்டீர்கள்.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">திரையின் கீழ்பகுதிக்கு மிக நெருக்கமாக ஸ்வைப் செய்யவில்லை என்பதை உறுதிசெய்துகொள்ளுங்கள்.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">வலது அல்லது இடது ஓரத்தின் விளிம்பிலிருந்து ஸ்வைப் செய்வதை உறுதிசெய்க.</string>
     <string name="back_gesture_intro_subtitle">முந்தைய திரைக்கு மீண்டும் செல்ல, இடது/வலது ஓரத்திலிருந்து திரையின் மையப் பகுதிக்கு ஸ்வைப் செய்க.</string>
     <string name="back_gesture_intro_title">பின்செல்ல ஸ்வைப் செய்யுங்கள்</string>
     <string name="back_gesture_tutorial_confirm_subtitle">பின்செல் சைகையின் உணர்திறனை மாற்ற அமைப்புகளுக்குச் செல்க</string>
@@ -119,7 +124,7 @@
     <string name="dismiss_prediction_label">ஆப்ஸைப் பரிந்துரைக்க வேண்டாம்</string>
     <string name="done">முடிந்தது</string>
     <string name="expand_button_title">மேம்பட்டவை</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">கருத்து</string>
     <string name="folder_closed">கோப்புறை மூடப்பட்டது</string>
     <string name="folder_created">கோப்புறை உருவாக்கப்பட்டது</string>
     <string name="folder_hint_text">பெயரைத் திருத்துதல்</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">மாற்றிய பெயரைச் சேமிக்க, தட்டவும்</string>
     <string name="gadget_error_text">விட்ஜெட்டை ஏற்ற முடியவில்லை</string>
     <string name="gadget_setup_text">அமைவை நிறைவுசெய்யத் தட்டவும்</string>
+    <string name="gesture_tutorial_action_button_label">முடிந்தது</string>
     <string name="gesture_tutorial_action_button_label_cancel">ரத்துசெய்</string>
     <string name="gesture_tutorial_action_button_label_settings">அமைப்புகள்</string>
     <string name="gesture_tutorial_action_button_label_skip">தவிர்</string>
@@ -172,7 +178,7 @@
     <string name="item_moved">உருப்படி நகர்த்தப்பட்டது</string>
     <string name="item_removed">அகற்றப்பட்டது</string>
     <string name="keyboard_hide">கீபோர்டை மறை</string>
-    <string name="keyboard_show">கீபோர்டை காட்டு</string>
+    <string name="keyboard_show">எப்போதும் கீபோர்டைக் காட்டு</string>
     <string name="label_application">ஆப்ஸ்</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_search">தேடு</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">விடுவிப்பதற்கு முன்பாக நீண்டநேரம் சாளரத்தை அழுத்திப் பிடித்திருங்கள்.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">திரையின் கீழ் ஓரத்திலிருந்து மேல்நோக்கி ஸ்வைப் செய்வதை உறுதிசெய்துகொள்ளுங்கள்.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">மேல்நோக்கி நேராக ஸ்வைப் செய்தபிறகு இடைநிறுத்துவதை உறுதிசெய்துகொள்ளுங்கள்.</string>
+    <string name="overview_gesture_intro_subtitle">ஆப்ஸுக்கு இடையே மாற, திரையின் கீழிலிருந்து மேலாக ஸ்வைப் செய்து, பிடித்திருந்து, பிறகு விடுவிக்கவும்.</string>
     <string name="overview_gesture_intro_title">ஆப்ஸுக்கிடையே மாற ஸ்வைப் செய்யுங்கள்</string>
     <string name="overview_selection_pref_desc">ஆப்ஸை மாற்றும்போது, உரையையும் படங்களையும் தொட்டுப் பிடித்து, செயல்களைப் பார்க்கவும்</string>
     <string name="overview_selection_pref_title">மேலோட்டப் பார்வை தேர்வு</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">இருக்கை</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">விருப்பத்தேர்வுகள்</string>
-    <string name="smartspace_preferences_in_settings">செயல் தளம்</string>
+    <string name="smartspace_preferences_in_settings">முகப்புத் தகவல்</string>
     <string name="smartspace_preferences_in_settings_desc">முகப்புத் திரையின் மேற்புறம்</string>
     <string name="smartspace_preferences_manage">பிரத்தியேகமாக்கு</string>
     <string name="smartspace_preferences_turn_off_action">ஆஃப் செய்</string>

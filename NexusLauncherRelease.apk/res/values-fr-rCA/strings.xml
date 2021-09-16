@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Ajouter au dossier contenant %1$s</string>
     <string name="add_to_home_screen">"Ajouter à l'écran d'accueil"</string>
     <string name="added_to_folder">Élément ajouté au dossier</string>
+    <string name="added_to_home_screen_accessibility_text">"Le widget %1$s a été ajouté à l'écran d'accueil"</string>
     <string name="all_apps_button_label">Liste des applications</string>
     <string name="all_apps_button_personal_label">Liste des applications personnelles</string>
     <string name="all_apps_button_work_label">Liste des applications professionnelles</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Lorsque vous faites pivoter le téléphone</string>
     <string name="allow_rotation_title">"Autoriser la rotation de l'écran d'accueil"</string>
     <string name="allset_description">Vous êtes maintenant prêt à utiliser votre téléphone</string>
+    <string name="allset_hint">"Balayez l'écran vers le haut pour accéder à l'écran d'accueil"</string>
+    <string name="allset_navigation_settings"><annotation id="link">Paramètres de navigation du système</annotation></string>
     <string name="allset_title">Tout est prêt!</string>
     <string name="app_downloading_title">Téléchargement de %1$s : %2$s</string>
     <string name="app_info_drop_target_label">"Détails de l'appli"</string>
@@ -98,11 +101,13 @@
     <string name="app_waiting_download_title">"%1$s en attente d'installation"</string>
     <string name="auto_add_shortcuts_description">Pour les nouvelles applications</string>
     <string name="auto_add_shortcuts_label">"Ajouter icônes d'applis à l'écran d'accueil"</string>
+    <string name="back_gesture_feedback_cancelled">"Balayez l'écran de l'extrémité droite ou gauche jusqu'au centre de l'écran, puis levez le doigt."</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">"Vous avez appris à balayer de la droite pour revenir en arrière. Apprenez comment changer d'appli."</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Vous avez appris le geste de retour en arrière.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">"Assurez-vous de ne pas balayer trop près du bas de l'écran."</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">"Assurez-vous de balayer l'écran à partir de l'extrémité droite ou gauche."</string>
     <string name="back_gesture_intro_subtitle">"Pour revenir à l'écran précédent, balayez l'écran de l'extrémité gauche ou droite vers le centre."</string>
-    <string name="back_gesture_intro_title">"Balayez l'écran pour revenir en arrière"</string>
+    <string name="back_gesture_intro_title">"Balayer l'écran pour revenir en arrière"</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Modifiez la sensibilité du geste de retour dans Paramètres</string>
     <string name="blocked_by_policy">"L'application ou votre organisation n'autorise pas cette action"</string>
     <string name="close">Fermer</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Touchez pour enregistrer le nouveau nom</string>
     <string name="gadget_error_text">Impossible de charger le widget</string>
     <string name="gadget_setup_text">Touchez pour terminer la configuration</string>
+    <string name="gesture_tutorial_action_button_label">OK</string>
     <string name="gesture_tutorial_action_button_label_cancel">Annuler</string>
     <string name="gesture_tutorial_action_button_label_settings">Paramètres</string>
     <string name="gesture_tutorial_action_button_label_skip">Ignorer</string>
@@ -172,7 +178,7 @@
     <string name="item_moved">Élément déplacé</string>
     <string name="item_removed">Élément retiré</string>
     <string name="keyboard_hide">Masquer clavier</string>
-    <string name="keyboard_show">Afficher clavier</string>
+    <string name="keyboard_show">Toujours afficher le clavier</string>
     <string name="label_application">Application</string>
     <string name="label_lens">Lentille Google</string>
     <string name="label_search">Rechercher</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Essayez de tenir la fenêtre plus longtemps avant de relâcher.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">"Assurez-vous de balayer l'écran à partir de l'extrémité inférieure vers le haut."</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">"Assurez-vous de balayer l'écran vers le haut, puis de faire une pause."</string>
+    <string name="overview_gesture_intro_subtitle">"Pour passer d'une application à l'autre, balayez l'écran de bas en haut, maintenez la pression, puis relâchez."</string>
     <string name="overview_gesture_intro_title">Balayer pour basculer entre les applications</string>
     <string name="overview_selection_pref_desc">"Lorsque vous changez d'application, maintenir le doigt sur le texte et les images pour voir les actions proposées"</string>
     <string name="overview_selection_pref_title">"Sélection dans l'aperçu"</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Siège</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Préférences</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Aperçu</string>
     <string name="smartspace_preferences_in_settings_desc">"Dans le haut de votre écran d'accueil"</string>
     <string name="smartspace_preferences_manage">Personnaliser</string>
     <string name="smartspace_preferences_turn_off_action">Désactiver</string>

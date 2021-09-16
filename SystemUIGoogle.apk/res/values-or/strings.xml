@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ଏହି ପରିବର୍ତ୍ତନ ଲାଗୁ କରିବା ପାଇଁ ଆପଣଙ୍କ ଡିଭାଇସକୁ ନିଶ୍ଚିତ ରୂପେ ରିବୁଟ୍ କରାଯିବା ଆବଶ୍ୟକ। ବର୍ତ୍ତମାନ ରିବୁଟ୍ କରନ୍ତୁ କିମ୍ବା ବାତିଲ୍ କରନ୍ତୁ।</string>
     <string name="camera_hint">କ୍ୟାମେରା ପାଇଁ ଆଇକନରୁ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ</string>
     <string name="camera_label">କ୍ୟାମେରା ଖୋଲନ୍ତୁ</string>
+    <string name="camera_recording_announcement">କ୍ୟାମେରା ରେକର୍ଡିଂ କରୁଛି</string>
+    <string name="camera_stopped_recording_announcement">କ୍ୟାମେରା ରେକର୍ଡିଂ ବନ୍ଦ କରିଛି</string>
     <string name="cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
     <string name="carrier_network_change_mode">କେରିଅର୍‍ ନେଟ୍‌ୱର୍କ ବଦଳୁଛି</string>
     <string name="category_personal">ବ୍ୟକ୍ତିଗତ</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">ମନିଟରିଙ୍ଗ</string>
     <string name="debug_networking_category">ନେଟ୍‌ୱର୍କିଙ୍ଗ</string>
     <string name="debug_view_attributes">ବିଶେଷତା ଯାଞ୍ଚ ଭ୍ୟୁକୁ ସକ୍ଷମ କରନ୍ତୁ</string>
+    <string name="defender_notify_des">ବ୍ୟାଟେରୀ ହେଲ୍ଥକୁ ସଂରକ୍ଷିତ ରଖିବାରେ ସାହାଯ୍ୟ କରିବାକୁ ଆପଣଙ୍କ ଫୋନ୍ ଚାର୍ଜିଂକୁ ସୀମିତ କରୁଛି</string>
+    <string name="defender_notify_learn_more">ଅଧିକ ଜାଣନ୍ତୁ</string>
+    <string name="defender_notify_resume_charge">ଚାର୍ଜିଂ ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ</string>
+    <string name="defender_notify_title">ଚାର୍ଜିଂ ଅସ୍ଥାୟୀ ଭାବେ ସୀମିତ କରାଯାଇଛି</string>
     <string name="delete_blob_confirmation_text">ଆପଣ ସେୟାର୍ କରାଯାଇଥିବା ଏହି ଡାଟା ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଥିବା ନିଶ୍ଚିତ କି?</string>
     <string name="delete_blob_text">ସେୟାର୍ କରାଯାଇଥିବା ଡାଟା ଡିଲିଟ୍ କରନ୍ତୁ</string>
     <string name="demo_mode">ସିଷ୍ଟମ୍‌ UI ଡେମୋ ମୋଡ୍‌</string>
@@ -853,7 +859,7 @@
     <string name="game_dashboard_screenshot_shortcut_available">ସ୍କ୍ରିନସଟ୍ ସର୍ଟକଟ୍ ଉପଲବ୍ଧ ଅଛି</string>
     <string name="game_launch_battery">ବ୍ୟାଟେରୀ ଲାଇଫ୍ ପାଇଁ ଅପ୍ଟିମାଇଜ୍ କରାଯାଇଛି</string>
     <string name="game_launch_change">ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
-    <string name="game_launch_dnd_on">"ଗେମଗୁଡ଼ିକ ପାଇଁ 'ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ' ଚାଲୁ ଅଛି"</string>
+    <string name="game_launch_dnd_on">"ଗେମଗୁଡ଼ିକ ପାଇଁ 'ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ' ବିକଳ୍ପଟି ଚାଲୁ ଅଛି"</string>
     <string name="game_launch_performance">ପରଫରମାନ୍ସ ପାଇଁ ଅପ୍ଟିମାଇଜ୍ କରାଯାଇଛି</string>
     <string name="game_menu_game_mode_description">ପରଫରମାନ୍ସ କିମ୍ବା ବ୍ୟାଟେରୀ ସେଭର୍ ବାଛନ୍ତୁ</string>
     <string name="game_menu_game_mode_title">ଅପ୍ଟିମାଇଜେସନ୍</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM କାର୍ଡ ଅନଲକ୍‍ କରାଯାଉଛି…</string>
     <string name="keyguard_try_fingerprint">ଖୋଲିବାକୁ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରନ୍ତୁ</string>
     <string name="keyguard_unlock">ଖୋଲିବା ପାଇଁ ଉପରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
+    <string name="keyguard_unlock_press">ଖୋଲିବାକୁ ଦବାନ୍ତୁ</string>
     <string name="keywords_adb_wireless">adb, ଡିବଗ୍, dev</string>
     <string name="keywords_alarms_and_reminders">ସିଡୁଲ୍, ଆଲାରାମ୍, ରିମାଇଣ୍ଡର୍, ଘଣ୍ଟା</string>
     <string name="kg_enter_confirm_pin_hint">ନିଜ ଇଚ୍ଛାର PIN କୋଡ୍‍ ନିଶ୍ଚିତ କରନ୍ତୁ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">"କୀ'ବୋର୍ଡ ବଦଳକାରୀ"</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">ମାଇକ୍ରୋଫୋନ୍ ସକ୍ରିୟ</string>
+    <string name="mic_and_camera_recording_announcement">କ୍ୟାମେରା ଏବଂ ମାଇକ୍ରୋଫୋନ୍ ରେକର୍ଡିଂ କରୁଛି</string>
+    <string name="mic_camera_stopped_recording_announcement">କ୍ୟାମେରା ଏବଂ ମାଇକ୍ରୋଫୋନ୍ ରେକର୍ଡିଂ ବନ୍ଦ କରିଛି</string>
+    <string name="mic_recording_announcement">ମାଇକ୍ରୋଫୋନ୍ ରେକର୍ଡିଂ କରୁଛି</string>
+    <string name="mic_stopped_recording_announcement">ମାଇକ୍ରୋଫୋନ୍ ରେକର୍ଡିଂ ବନ୍ଦ କରିଛି</string>
     <string name="missed_call">ମିସ୍ଡ କଲ୍</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ମୋବାଇଲ୍‌ ଡାଟା</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">ୱାର୍କ ଆପ୍ସ</string>
     <string name="quick_step_accessibility_toggle_overview">ସଂକ୍ଷିପ୍ତ ବିବରଣୀକୁ ଟୋଗଲ୍ କରନ୍ତୁ</string>
     <string name="recent_conversations">ବର୍ତ୍ତମାନର ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ</string>
-    <string name="recents_quick_scrub_onboarding">ଆପ୍‌ଗୁଡ଼ିକ ମଧ୍ୟରେ ଶୀଘ୍ର ବଦଳ କରିବା ପାଇଁ ଡାହାଣକୁ ଡ୍ରାଗ୍ କରନ୍ତୁ</string>
-    <string name="recents_swipe_up_onboarding">ଆପ୍‌କୁ ବଦଳ କରିବା ପାଇଁ ସ୍ଵାଇପ୍ କରନ୍ତୁ</string>
     <string name="remaining_length_format">%1$s ଅବଶିଷ୍ଟ</string>
     <string name="remote_input_image_insertion_text">ଏକ ଛବି ପଠାଯାଇଛି</string>
     <string name="remove_from_settings">ସେଟିଙ୍ଗରୁ ବାହାର କରିଦିଅନ୍ତୁ</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">ଏକ କାର୍ଡ ଯୋଗ କରନ୍ତୁ</string>
     <string name="wallet_secondary_label_updating">ଅପଡେଟ୍ ହେଉଛି</string>
     <string name="wallet_title">ୱାଲେଟ୍</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ଆକ୍ସେସ୍ ପଏଣ୍ଟ ସାମୟିକ ଭାବେ ପୂର୍ଣ୍ଣ</string>
     <string name="wifi_cant_connect">ସଂଯୋଗ କରିପାରିବ ନାହିଁ</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' ସହିତ ସଂଯୁକ୍ତ ହୋଇପାରୁନାହିଁ"</string>

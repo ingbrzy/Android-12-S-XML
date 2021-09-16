@@ -105,7 +105,7 @@ Du kan fortsætte med at lære om andre emner nu, eller du kan gennemgå disse o
     <string name="audio_focus_state">Lyddæmpning %1$s</string>
     <string name="auto_detect">Tilpas efter, hvordan du holder enheden</string>
     <string name="auto_scan_action_description">Start scanning og vælg</string>
-    <string name="auto_scan_or_select">Automatisk scanning\" eller \"Vælg</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Automatisk scanning\" eller \"Vælg\"</string>
     <string name="available_devices_header">Tilgængelige Bluetooth-enheder</string>
     <string name="basic_navigation_link_subtext">Skift mellem elementer, rul, brug menuer og meget mere</string>
     <string name="basic_navigation_link_text">Grundlæggende navigation</string>
@@ -119,7 +119,7 @@ Du kan fortsætte med at lære om andre emner nu, eller du kan gennemgå disse o
     <string name="bluetooth_no_devices_paired">Der er ingen parrede Bluetooth-enheder</string>
     <string name="bluetooth_not_enabled_message">Aktivér Bluetooth for at parre en Bluetooth-kontakt</string>
     <string name="bluetooth_peripheral_content_description">Ekstern enhed</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Hvis du vil parre en Bluetooth-kontakt i konfigurationsguiden, skal du aktivere Bluetooth og give Android Hjælpefunktioner adgang til tilladelserne Enheder i nærheden og Placering.</string>
     <string name="bluetooth_phone_content_description">Opkald</string>
     <string name="bluetooth_switch_description_text">Tilslut en kontakt trådløst via Bluetooth</string>
     <string name="bluetooth_switch_option_text">Bluetooth-kontakt</string>
@@ -157,6 +157,9 @@ Du kan fortsætte med at lære om andre emner nu, eller du kan gennemgå disse o
     <string name="cam_switch_enable_banner_text_label_generic">Du kan først styre din enhed, når du har aktiveret kontaktadgang.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Åbn kamerakontakter</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Åbn kontaktadgang</string>
+    <string name="cam_switches_combined_preferences_title">Indstillinger for \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Indstillinger for kamerakontakter</string>
+    <string name="cam_switches_single_preferences_title">Indstillinger for \"%s\"</string>
     <string name="camera_switches_status_active">Kamerakontakterne er aktive</string>
     <string name="camera_switches_status_error">Fejl</string>
     <string name="camera_switches_status_no_face">Der blev ikke registreret noget ansigt</string>
@@ -399,6 +402,7 @@ Prøv det nu ved at trykke på skærmen og trække nedad mod venstre, indtil du 
     <string name="fallback_menu_item_open_in_browser">Åbn i browser</string>
     <string name="fallback_menu_item_share_link">Del link</string>
     <string name="fast_radio_button_title">Hurtig (forsinkelse på %1$s)</string>
+    <string name="fast_radio_button_title_content_description">Hurtig (forsinkelse på %1$s sek.)</string>
     <string name="find_finish_button_text">Stryg til højre for at finde knappen Afslut.</string>
     <string name="finish">Afslut</string>
     <string name="finish_tutorial_announcement">Viser braille-tastaturet. Vend din telefon, så skærmen vender væk fra dig. Drej telefonen vandret, så den er i liggende format. Du kan nu begynde at skrive.</string>
@@ -747,6 +751,7 @@ Internt visningsnavn: %1$s"</string>
     <string name="list_index_template">%1$d af %2$d</string>
     <string name="lockscreen_label">Lås skærm</string>
     <string name="medium_radio_button_title">Mellem (forsinkelse på %1$s)</string>
+    <string name="medium_radio_button_title_content_description">Mellem (forsinkelse på %1$s sek.)</string>
     <string name="menu_category_reading_controls">Læsning</string>
     <string name="menu_category_special_features">Særlige funktioner</string>
     <string name="menus_selector_text">"Disse genveje kan hjælpe dig med hurtigt at skifte indstillinger, f.eks. skifte din navigation fra tegn til ord eller ændre talehastigheden i TalkBack.
@@ -767,6 +772,7 @@ Du kan tilpasse TalkBack-menuen og din læsestyring senere i TalkBack-indstillin
 Åbn TalkBack-menuen nu ved at stryge nedad og derefter til højre."</string>
     <string name="menus_title">Menu og styring</string>
     <string name="message_in_reset_keymap_confirm_dialog">Er du sikker på, at du vil nulstille dine genvejstaster for denne tastaturoversigt til deres standardværdier? Denne handling kan ikke fortrydes.</string>
+    <string name="message_request_phone_permission">TalkBack vil gerne vide, hvornår der foretages et telefonopkald, så TalkBack kan begrænse forstyrrende meddelelser.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Denne handling gendanner standardhandlingerne for alle bevægelser.
 
 Du mister eventuelle ændringer, du har foretaget."</string>
@@ -996,6 +1002,7 @@ Prøv enhver bevægelse, hvor to stryg udgør en ret vinkel. Du kan f.eks. stryg
     <string name="pref_reduce_window_delay_title">Reducer forsinkelse på feedback i vinduet</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Tilføj kamerakontakter</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Ryd fysiske kontakter</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfigurer indstillinger for kontakt: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Rediger kamerakontakter</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Der er ikke tildelt nogen kamerakontakt</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Tildel kamerakontakter til \"%s\"</string>
@@ -1016,9 +1023,9 @@ Prøv enhver bevægelse, hvor to stryg udgør en ret vinkel. Du kan f.eks. stryg
     <string name="pref_sa_face_playground_stop_preview_content_description">Stop forhåndsvisning</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Aktivér</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Kamerakontakter skal være aktiveret, før du kan bruge dette testområde</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Prøv det: Se en forhåndsvisning af alle typer ansigtsbevægelser, bl.a. åben mund, smil osv.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Prøv det</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Prøv det: Se en forhåndsvisning af ansigtsbevægelserne %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Testområdet er sat på pause. Brug knappen nedenfor for at starte det igen.</string>
     <string name="pref_selector_summary">%1$s for at vælge en indstilling. Derefter %2$s for at tilpasse indstillingen.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s eller %2$s for at vælge en indstilling. Derefter %3$s for at tilpasse indstillingen.</string>
@@ -1069,6 +1076,7 @@ Hvis der stadig ikke kan oprettes forbindelse til din enhed, kan du gå til Blue
     <string name="reduce_speed_button">Reducer talehastighed</string>
     <string name="remaining_calibration_finish_announcement">Alle punktplaceringer er opdateret</string>
     <string name="reminder_announcement">Stryg opad med tre fingre for at se flere indstillinger</string>
+    <string name="remove_assigned_switch">Fjern tildeling af kontakt for %s</string>
     <string name="report_gesture_description">Her er de bevægelser, du har brugt for nylig. Rapportér, hvilken af bevægelserne der ikke fungerer, og hvad du forventer af den.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Nulstil</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Nulstil</string>
@@ -1149,6 +1157,7 @@ Prøv det nu ved at stryge opad med to fingre, indtil du har rullet til bunden a
     <string name="search_mode_hint_no_selection">Der er ikke valgt nogen elementer.</string>
     <string name="search_mode_hint_query">Aktuel forespørgsel: %1$s.</string>
     <string name="search_mode_hint_selection">Aktuelt valg: %1$s.</string>
+    <string name="select_for_point_scan">\"Vælg\"</string>
     <string name="select_setting_hint">%1$s for at vælge en anden indstilling</string>
     <string name="selecting_text_text">"I et tekstfelt skal du flytte markøren til starten af den tekst, du vil markere.
 
@@ -1209,6 +1218,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="shortcut_media_control">Afspil eller sæt medie på pause</string>
     <string name="shortcut_next">Næste element</string>
     <string name="shortcut_next_granularity">Næste indstilling for Navigation</string>
+    <string name="shortcut_next_window">Næste vindue</string>
     <string name="shortcut_not_customizable">%1$s, kan ikke tilpasses</string>
     <string name="shortcut_notifications">Notifikationer</string>
     <string name="shortcut_overview">Oversigt</string>
@@ -1221,6 +1231,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="shortcut_practice_gestures">Afprøv bevægelser</string>
     <string name="shortcut_previous">Forrige element</string>
     <string name="shortcut_previous_granularity">Forrige indstilling for Navigation</string>
+    <string name="shortcut_previous_window">Forrige vindue</string>
     <string name="shortcut_print_node_tree">Udskriv træstruktur</string>
     <string name="shortcut_print_performance_stats">Udskriv effektivitetsstatistik</string>
     <string name="shortcut_quick_settings">Kvikmenu</string>
@@ -1260,6 +1271,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
 •Ryst for at starte kontinuerlig læsning"</string>
     <string name="six_hold_announcement">Du kan også skrive ved at lægge din telefon fladt på et bord. Prøv det nu. Hvis du ikke har et bord i nærheden, kan du gå videre ved at stryge nedad.</string>
     <string name="slow_radio_button_title">Langsom (forsinkelse på %1$s)</string>
+    <string name="slow_radio_button_title_content_description">Langsom (forsinkelse på %1$s sek.)</string>
     <string name="sound_feedback_state">Lydfeedback er slået %1$s</string>
     <string name="sound_feedback_summary">Afspil en lyd for at angive, at der er ændringer (f.eks. at indholdet på skærmen er ændret)</string>
     <string name="speak_container_element_position_summary_off">Oplysninger om lister og gitre læses ikke højt</string>
@@ -1333,17 +1345,17 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="summary_pref_face_switches_debounce_time">Flere aktiveringer med kamerakontakter inden for dette tidsrum behandles som én aktivering.</string>
     <string name="summary_pref_face_switches_enabled">Kamerakontakterne bruger frontkameraet til at tjekke, om du kigger på skærmen, og til at genkende ansigtsbevægelser. Billeder gemmes og sendes ikke til Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Afspil en lyd, når noget på skærmen ændres som følge af en bevægelse</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Vis en visuel indikation på, hvor lang tid du har udført en bevægelse</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Hold skærmen tændt, når kamerakontakter er aktiveret. Kamerakontakter kan ikke låse skærmen op, hvis den slukker.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Der er ikke registreret noget ansigt</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Udfør en af ansigtsbevægelserne. Hvis den registreres, vises navnet på bevægelsen. Du kan afslutte ved at udføre enhver bevægelse i %1$d sekunder.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Hold hovedet stille, og vend dig mod kameraet. Derefter skal du gøre følgende: %s.</string>
     <string name="summary_pref_play_store">Aktuel TalkBack-version: %1$s</string>
-    <string name="summary_pref_point_scan">Brug bevægelige linjer til at vælge en bestemt vandret og lodret placering. Tryk på kontakten \"%1$s\" for at starte punktscanning. %2$s</string>
+    <string name="summary_pref_point_scan">Brug bevægelige linjer til at vælge en bestemt vandret og lodret placering. Tryk på kontakten %1$s for at starte punktscanning. %2$s</string>
     <string name="summary_pref_reverse_dots">Byt rundt på punktplaceringer, så punkterne 1 og 4 f.eks. skifter plads</string>
     <string name="summary_pref_revert_to_default_menu">Gendan standardpunkterne i menuen for kontaktadgang</string>
-    <string name="summary_pref_single_tap">(Eksperimentel) Tryk én gang på et element, der er fokus på, for at aktivere det</string>
+    <string name="summary_pref_single_tap">Tryk én gang på et element, der er fokus på, for at aktivere det</string>
     <string name="summary_pref_tree_debug_tv">Brug tasten til talesøgning for at udskrive træstruktur i stedet for søgning</string>
     <string name="summary_pref_use_audio_focus">Skru ned for andre lyde, når der tales</string>
     <string name="summary_read_from_current">Læs alle elementer på skærmen fra det næste element</string>
@@ -1479,10 +1491,10 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="switched_to_contracted_announcement">Skiftede til forkortet braille</string>
     <string name="switched_to_ueb_uncontracted_announcement">Der er skiftet til uforkortet UEB</string>
     <string name="switched_to_uncontracted_announcement">Skiftede til uforkortet braille</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Næsten lig med</string>
     <string name="symbol_ampersand">Og-tegn</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Mindre end-tegn</string>
+    <string name="symbol_angle_bracket_right">Større end-tegn</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Svarer tilnærmelsesvis til</string>
     <string name="symbol_asterisk">Asterisk</string>
@@ -1502,7 +1514,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_bullseye">Målskive</string>
     <string name="symbol_caret">Cirkumfleks</string>
     <string name="symbol_celsius_degree">Celsiusgrad</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Centtegn</string>
     <string name="symbol_circle_left_half_black">Cirkel med venstre halvdel i sort</string>
     <string name="symbol_circle_right_half_black">Cirkel med højre halvdel i sort</string>
     <string name="symbol_colon">Kolon</string>
@@ -1511,7 +1523,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_curly_bracket_left">Venstre krøllet parentes</string>
     <string name="symbol_curly_bracket_right">Højre krøllet parentes</string>
     <string name="symbol_currency_sign">Valutategn</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Gradtegn</string>
     <string name="symbol_division">Divisionstegn</string>
     <string name="symbol_dollar_sign">Dollartegn</string>
     <string name="symbol_downwards_arrow">Pil ned</string>
@@ -1563,7 +1575,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_middle_dot">Halvhøjt punkt</string>
     <string name="symbol_multiplication">Multiplikationstegn</string>
     <string name="symbol_new_line">Ny linje</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Ikke lig med</string>
     <string name="symbol_not_sign">Ikke-tegn</string>
     <string name="symbol_paragraph_mark">Afsnitstegn</string>
     <string name="symbol_parenthesis_left">Venstre parentes</string>
@@ -1574,7 +1586,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_plus_minus_sign">Plus- og minustegn</string>
     <string name="symbol_postal_mark">Posttegn</string>
     <string name="symbol_pound">Pund</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Pundtegn</string>
     <string name="symbol_quarter_note">Fjerdedelsnode</string>
     <string name="symbol_question_mark">Spørgsmålstegn</string>
     <string name="symbol_quotation_mark">Citationstegn</string>
@@ -1600,7 +1612,7 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_trademark">Varemærke</string>
     <string name="symbol_underscore">Understregning</string>
     <string name="symbol_upwards_arrow">Opadvendt pil</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Lodret linje</string>
     <string name="symbol_white_circle">Hvid cirkel</string>
     <string name="symbol_white_club_suit">Hvid klør</string>
     <string name="symbol_white_diamond">Hvid rombe</string>
@@ -1614,8 +1626,8 @@ Trin 2: Stryg nedad for at flytte navigationsfokusset frem eller justere et styr
     <string name="symbol_white_square">Hvid firkant</string>
     <string name="symbol_white_star">Hvid stjerne</string>
     <string name="symbol_white_up_pointing_triangle">Hvid opadvendt trekant</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Won-tegn</string>
+    <string name="symbol_won_sign">Won-tegn</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Systemhandlinger</string>
     <string name="tabletop">Tilstanden Skærm vendt op</string>
@@ -1930,7 +1942,7 @@ Sådan deaktiverer du TalkBack:
     <string name="title_pref_show_context_menu_as_list">Vis genvejsmenuen som en liste</string>
     <string name="title_pref_show_privacy_policy">Privatlivspolitik</string>
     <string name="title_pref_show_tos">Servicevilkår</string>
-    <string name="title_pref_single_tap">Aktivér med ét tryk</string>
+    <string name="title_pref_single_tap">Tryk én gang for at aktivere</string>
     <string name="title_pref_sound_and_vibration">Lyd og vibration</string>
     <string name="title_pref_soundback">Lydfeedback</string>
     <string name="title_pref_soundback_volume">Lydstyrke for feedback</string>
@@ -1975,6 +1987,7 @@ Sådan deaktiverer du TalkBack:
     <string name="title_previous_screen">Forrige skærm</string>
     <string name="title_read_from_top">Læs fra toppen</string>
     <string name="title_repeat_last_spoken_phrase">Gentag den seneste sætning</string>
+    <string name="title_request_phone_permission">Tilladelse for TalkBack-anmodninger</string>
     <string name="title_screen_summary">Skærmoversigt</string>
     <string name="title_seek_bar_controls">Skyder</string>
     <string name="title_seek_bar_edit">Rediger skyderniveau</string>

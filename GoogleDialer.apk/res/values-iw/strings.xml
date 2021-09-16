@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">מענה</string>
     <string name="a11y_call_incoming_decline_description">דחייה</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">‏התחלה של שיחת וידאו באמצעות Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">‏התחלת של שיחה רגילה באמצעות Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">השיחה האחרונה הייתה שיחה נכנסת. מקור השיחה: ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">ניהול המתקשרים</string>
     <string name="a11y_expandedsheet_collapse">כיווץ התפריט</string>
     <string name="a11y_expandedsheet_expand">הרחבת התפריט</string>
-    <string name="a11y_favorites_education_dismiss">סגירה</string>
     <string name="a11y_feature_demo_next_page">הדף הבא</string>
     <string name="a11y_feature_demo_page_indicator">עמוד %d</string>
     <string name="a11y_feature_demo_prev_page">הדף הקודם</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">קשר מהיר עבור ^1</string>
+    <string name="a11y_icon_hd">‏שיחה באיכות HD</string>
+    <string name="a11y_icon_hd_plus">‏שיחה באיכות HD Plus</string>
+    <string name="a11y_icon_shared_data_call">שיחה דרך חבילת הגלישה של כרטיס אחר</string>
+    <string name="a11y_icon_verified">שיחה מאומתת</string>
+    <string name="a11y_icon_vilte">‏שיחת וידאו ב-LTE</string>
+    <string name="a11y_icon_viwifi">‏שיחת וידאו ב-Wi-Fi</string>
+    <string name="a11y_icon_volte">‏שיחה קולית ב-LTE</string>
+    <string name="a11y_icon_voz4g">‏שיחה קולית ב-4G</string>
+    <string name="a11y_icon_wifi">‏שיחת Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">יש להחליק עם שתי אצבעות למעלה כדי לענות או למטה כדי לדחות.</string>
     <string name="a11y_incoming_call_swipe_to_answer">יש להחליק למעלה עם שתי אצבעות כדי לענות לשיחה או למטה כדי לדחות אותה</string>
     <string name="a11y_new_call_log_entry_call_recording">השיחה מוקלטת</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">ב-^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">‏שיחת RTT אל ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">שיחה דרך חבילת הגלישה של כרטיס אחר</string>
     <string name="a11y_new_call_log_entry_tap_action">הרחבת התפריט</string>
     <string name="a11y_new_call_log_entry_video_call">שיחת וידאו אל ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">‏התחלה של שיחת וידאו עם ^1 באמצעות Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">עריכת המספר לפני השיחה</string>
     <string name="action_menu_back_from_search">הפסק לחפש</string>
     <string name="action_menu_overflow_description">אפשרויות נוספות</string>
+    <string name="activate_error_message">‏הפעלת Call Screen נכשלה</string>
+    <string name="activated_successfully">"‏הפיצ'ר Call Screen הופעל"</string>
     <string name="activity_not_available">אין אפליקציה עבור הפעולה הזו במכשיר הזה</string>
     <string name="add_2sec_pause">הוספת השהיה של 2 שניות</string>
     <string name="add_contact_not_available">אין אף אפליקציה לניהול אנשי קשר</string>
@@ -160,8 +172,8 @@
     <string name="bm_suggest_chat_button">"צ'אט"</string>
     <string name="bm_suggest_wait_min">"‏צ'אט
 %1$d דקות המתנה"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s לא נקראו</string>
+    <string name="bm_suggest_wait_time_estimating">"‏צ'אט
+מיד נחבר אותך…"</string>
     <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
     <string name="bubble_bottom_action_end_call">סיום השיחה</string>
     <string name="bubble_bottom_action_hide">הסתרה</string>
@@ -170,7 +182,10 @@
     <string name="call">שיחה קולית</string>
     <string name="callFailed_simError">‏אין SIM או שגיאת SIM</string>
     <string name="callHistoryIconLabel">היסטוריית שיחות</string>
-    <string name="call_announcer_preference_footer_instruction_text">השם ומספר הטלפון של מי שמתקשר יוקראו בקול בשיחות נכנסות</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">השם ומספר הטלפון של מי שמתקשר יוקראו בקול בשיחות נכנסות.</string>
     <string name="call_announcer_preference_list_title">שיחה ממספר חסוי</string>
     <string name="call_announcer_preference_option_always">תמיד</string>
     <string name="call_announcer_preference_option_headset">רק כשמשתמשים באוזניות</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">מענה</string>
     <string name="call_incoming_answer_rtt">‏מענה כשיחת RTT</string>
     <string name="call_incoming_answer_voice">מענה כשיחה רגילה</string>
-    <string name="call_incoming_chip_answer_and_release">מענה וסיום שיחה</string>
+    <string name="call_incoming_chip_answer_and_release">מענה וסיום השיחה השנייה</string>
     <string name="call_incoming_chip_answer_as_rtt">‏מענה כשיחת RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">מענה כשיחה קולית</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">מענה עם וידאו כבוי</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">יש להחליק למעלה כדי לענות</string>
     <string name="call_incoming_swipe_to_reject">כדי לדחות את השיחה, מחליקים למטה</string>
     <string name="call_incoming_video_is_off">הווידאו שלך כבוי</string>
-    <string name="call_incoming_will_disconnect">מענה לשיחה הזו יסיים את שיחת הווידאו</string>
+    <string name="call_incoming_will_disconnect">מענה לשיחה הזו יסיים את השיחה השנייה שלך</string>
     <string name="call_incoming_will_disconnect_app">מענה יסיים את השיחה ב-%1$s</string>
     <string name="call_isdn">‏להתקשר ל-ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">חסימה/דיווח על ספאם</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">סיבת השיחה: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">ההקלטה נשמרה.</string>
     <string name="call_recording_conversation_history_entry">הוקלטה</string>
+    <string name="call_recording_delete_snack_bar_undo">ביטול המחיקה</string>
     <string name="call_recording_disclaimer_agreen_button_text">התחלת ההקלטה</string>
     <string name="call_recording_disclaimer_content">"‏ייתכן שאחד מהצדדים בשיחה נמצא במקום שבו כל מי שמשתתף בה צריך להסכים שהיא תוקלט. לפני השיחה תושמע לכל המשתתפים הודעה על כך שהשיחה מוקלטת. באחריותך לציית לחוקים הקשורים להקלטת שיחות. מומלץ להשתמש בפיצ'ר של הקלטת השיחות באחריות ולהפעיל אותו רק כשצריך.‏n‏^1
 
@@ -290,6 +306,7 @@
 האודיו והתמליל של השיחה לא יישלחו לאף אחד, גם לא ל-Google."</string>
     <string name="call_screen_demo_page_4_title">לחסוך זמן ולמנוע תסכול</string>
     <string name="call_screen_demo_setting_title">הצגת הדגמה</string>
+    <string name="call_screen_demo_settings_title">הצגת הדגמה</string>
     <string name="call_screen_demo_title">‏הסבר על Call Screen</string>
     <string name="call_screen_demo_unable_to_fetch_audio">הטעינה של קטע האודיו לדוגמה נכשלה</string>
     <string name="call_screen_demo_unable_to_play_audio">ההשמעה של קטע האודיו לדוגמה נכשלה</string>
@@ -297,6 +314,7 @@
     <string name="call_screen_end_call_local_internal_message">סיימת את השיחה</string>
     <string name="call_screen_end_call_non_local_internal_message">השיחה התנתקה</string>
     <string name="call_screen_how_it_works_setting_title">"‏הפיצ'ר Call Screen פועל במכשיר ולא צריך חיבור ל-Wi-Fi או לחבילת הגלישה. תמלילי השיחות נוצרים ונשמרים רק בטלפון. %1$s"</string>
+    <string name="call_screen_how_it_works_title">"‏הפיצ'ר Call Screen פועל במכשיר ולא צריך חיבור ל-Wi-Fi או לחבילת הגלישה. תמלילי השיחות נוצרים ונשמרים רק בטלפון. ^1"</string>
     <string name="call_screen_incallui_chip_text">סינון השיחה</string>
     <string name="call_screen_join_call_button_content_description">הצטרפות לשיחה</string>
     <string name="call_screen_join_call_internal_message">הצטרפת לשיחה</string>
@@ -306,6 +324,7 @@
     <string name="call_screen_saying_to_the_caller_state">הטקסט נאמר עכשיו למי שהתקשר</string>
     <string name="call_screen_screening_call_from">סינון השיחות של</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">לחצן להפעלת הרמקול</string>
     <string name="call_screen_suggestions_avatar_content_description">לוגו</string>
     <string name="call_screen_survey_cancel_button">ביטול</string>
@@ -330,6 +349,8 @@
     <string name="call_work">להתקשר לעבודה</string>
     <string name="call_work_mobile">להתקשר לנייד של העבודה</string>
     <string name="call_work_pager">להתקשר לזימונית של העבודה</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">‏שיחת %1$s נכנסת, %2$s בכרטיס SIM %3$s</string>
     <string name="caller_id_announcement_single_sim">שיחת %1$s נכנסת, %2$s</string>
     <string name="caller_id_business_data_details">"‏המידע שבו אנחנו משתמשים בפיצ'רים האלה מסופק על ידי Google וספקים מורשים מטעמה. ^1"</string>
@@ -369,6 +390,9 @@
     <string name="calling_blocked_number_precall_dialog_title">האם להתקשר אל %s?</string>
     <string name="calllog_add_to_contact">הוספה לאיש קשר קיים</string>
     <string name="calllog_create_new_contact">יצירת איש קשר חדש</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">הרשאת הגישה למצלמה ניתנה</string>
     <string name="camera_privacy_text">הרשאת הגישה למצלמה הופעלה</string>
     <string name="cannot_understand_description">לא הבנתי</string>
     <string name="car_crash_emergency_intro">"‏פנו אליכם באמצעות שירות קולי אוטומטי למקרי חירום שהופעל על ידי המתקשר/ת.
@@ -406,7 +430,7 @@
     <string name="common_google_play_services_notification_ticker">‏שגיאה בשירותי Google Play</string>
     <string name="common_google_play_services_unknown_issue">‏%1$s נתקלה בבעיה בשירותי Google Play. נסה שוב.</string>
     <string name="common_google_play_services_unsupported_text">‏%1$s לא תפעל ללא שירותי Google Play, שאינם נתמכים במכשיר שלך.</string>
-    <string name="common_google_play_services_update_button">עדכן</string>
+    <string name="common_google_play_services_update_button">עדכון</string>
     <string name="common_google_play_services_update_text">‏%1$s לא יפעל אם לא תעדכן את שירותי Google Play.</string>
     <string name="common_google_play_services_update_title">‏עדכון שירותי Google Play</string>
     <string name="common_google_play_services_updating_text">‏האפליקציה %1$s לא תפעל ללא שירותי Google Play, שמתעדכנים כרגע.</string>
@@ -431,6 +455,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">הפעלת השיחה המאומתת נכשלה. אפשר להפעיל אותה שוב בהגדרות.</string>
     <string name="contact_card_video_icon_content_description">שיחת וידאו עם ^1</string>
     <string name="contact_grid_callback_number">מספר הטלפון הזה: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">השיחה הועברה</string>
+    <string name="contact_grid_hd_icon_content_description">‏שיחה באיכות HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">‏שיחה באיכות HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">שיחת וידאו נכנסת דרך הספק הסלולרי:</string>
     <string name="contact_grid_incoming_reception_only_video_call">שיחת וידאו נכנסת חד-צדדית דרך הספק הסלולרי:</string>
     <string name="contact_grid_incoming_rtt_call">‏שיחת RTT מאת</string>
@@ -441,9 +468,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">‏שיחת וידאו נכנסת דרך רשת Wi-Fi:</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">‏שיחת וידאו נכנסת חד-צדדית דרך רשת Wi-Fi:</string>
     <string name="contact_grid_incoming_work_call">שיחת עבודה מאת</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">שיחה דרך חבילת הגלישה של כרטיס אחר</string>
+    <string name="contact_grid_spam_icon_content_description">שיחת ספאם</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">ספק סלולרי</string>
     <string name="contact_grid_stir_shaken_validation_prefix">אומת על ידי %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">המספר אומת</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">‏שיחת וידאו ב-LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">‏שיחת וידאו ב-Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">‏שיחה קולית ב-4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">‏שיחה קולית ב-LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">‏שיחה קולית ב-Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">‏שיחת Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">שיחת עבודה</string>
     <string name="contact_menu_add_favorite">הוספה למועדפים</string>
     <string name="contact_menu_contact_info">פרטי התקשרות</string>
     <string name="contact_menu_invite_video">הזמנה לשיחת וידאו</string>
@@ -478,8 +514,12 @@
     <string name="conversation_history_call_details_header_today">היום</string>
     <string name="conversation_history_call_details_snack_bar_deleted">השיחה נמחקה</string>
     <string name="conversation_history_call_details_snack_bar_undo">ביטול</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">שיחה חשובה</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">הצגת פרטי שיחה נוספים</string>
+    <string name="conversation_history_call_recording_deleted">ההקלטה נמחקה</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">תמליל ואודיו</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">תמליל</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">הצגת התמליל וההקלטה</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">העתקה</string>
     <string name="copy_number">העתקת המספר</string>
@@ -498,12 +538,17 @@
     <string name="custom_prefix_default_prefix_title">קידומת ברירת המחדל</string>
     <string name="custom_prefix_prefixes_preference_title">קידומות חיוג</string>
     <string name="dark_theme_label">כהה</string>
+    <string name="default_changed_confirmation">"אפליקציית 'טלפון' הוגדרה כברירת המחדל"</string>
+    <string name="default_image_content_description">תמונת פתיחה</string>
     <string name="delete">מחיקה</string>
     <string name="delete_all_recordings_confirmation_dialog_title">מחיקת כל ההקלטות</string>
     <string name="delete_all_recordings_now_error_message">חלק מההקלטות לא נמחקו. אפשר לנסות שוב.</string>
     <string name="delete_button_label">מחיקת כל ההקלטות</string>
     <string name="delete_confirmation_dialog_negative_button_label">ביטול</string>
     <string name="delete_confirmation_dialog_positive_button_label">מחיקה</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">מחיקת ההקלטה מתבצעת…</string>
     <string name="description_add_to_existing_contact_action">הוספת ^1 לאיש קשר קיים</string>
     <string name="description_blocked_number_list_delete">ביטול חסימת מספר</string>
     <string name="description_call_action">להתקשר אל ^1</string>
@@ -606,6 +651,7 @@
     <string name="emergency_sos_emergency_intro">"‏פנו אליכם באמצעות שירות קולי אוטומטי למקרי חירום שהופעל על ידי המתקשר/ת.
 מי שהתקשר אותת שייתכן שהוא בסכנה. 
 נא לשלוח עזרה."</string>
+    <string name="emergency_speaker">רמקול</string>
     <string name="emergency_voice_assist_dialog_button_close">ביטול</string>
     <string name="emergency_voice_assist_dialog_title">זה מה שיושמע למוקד החירום</string>
     <string name="end_call_with_default_message_description">סיום השיחה</string>
@@ -635,9 +681,12 @@
     <string name="feedback_call_issue_quiet_audio">האודיו היה חלש מדי</string>
     <string name="feedback_call_issue_title">מה הייתה הבעיה?</string>
     <string name="feedback_title_please_rate">רוצה לדרג את איכות השיחה?</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">היפוך לצורך השתקה</string>
     <string name="flip_to_silence_summary">כדי להשתיק שיחה נכנסת, אפשר להניח את הטלפון הפוך על משטח ישר.</string>
     <string name="flip_to_silence_title">היפוך להשתקה</string>
+    <string name="foreground_notification_title">העדכון מתבצע…</string>
     <string name="frequent_contact_suggestion">התקשרות לעתים קרובות</string>
     <string name="general_learn_more">למידע נוסף</string>
     <string name="generic_conference_call_name">בשיחה</string>
@@ -660,6 +709,7 @@
     <string name="how_it_works_storage_link_text">למידע נוסף על אחסון ההקלטות</string>
     <string name="how_it_works_storage_template">אם ייגמר המקום באחסון של הטלפון הקלטת השיחות תושהה. ^1</string>
     <string name="icon_content_description">סמל לתיבת דו-שיח</string>
+    <string name="icon_description_shared_data_call">שיחה דרך חבילת הגלישה של כרטיס אחר</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">יבא מספרים</string>
     <string name="ims_video_heading">‏שיחת וידאו דרך Verizon</string>
@@ -803,6 +853,7 @@
     <string name="new_call_log_no_missed_calls">אין שיחות שלא נענו</string>
     <string name="new_call_log_permission_no_calllog">"כדי להציג את יומן השיחות, צריך להפעיל את ההרשאה 'טלפון'."</string>
     <string name="new_call_log_secondary_blocked">חסום</string>
+    <string name="new_call_log_secondary_verified">שיחה מאומתת</string>
     <string name="new_call_log_snack_bar_deleted">השיחה נמחקה</string>
     <string name="new_call_log_snack_bar_undo">ביטול</string>
     <string name="new_call_log_unknown">לא ידוע</string>
@@ -817,8 +868,10 @@
     <string name="notification_action_answer_video">וידאו</string>
     <string name="notification_action_dismiss">דחייה</string>
     <string name="notification_action_end_call">נתק</string>
+    <string name="notification_action_mute_toggle">השתקה</string>
     <string name="notification_action_speaker_off">השבתת הרמקול</string>
     <string name="notification_action_speaker_on">הפעלת הרמקול</string>
+    <string name="notification_action_speaker_toggle">רמקול</string>
     <string name="notification_callReasonMsg">סיבה: %s</string>
     <string name="notification_call_wifi_brand">‏שיחת Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">‏שיחת עבודה ברשת Wi-Fi</string>
@@ -882,6 +935,8 @@
     <string name="place_ims_button_content_description">לחצן להתחלה של שיחת וידאו דרך הספק הסלולרי.</string>
     <string name="play">הפעלה</string>
     <string name="plus_code_line_format">‏קוד OLC: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">כדאי להסביר למה התקשרת</string>
     <string name="post_call_message_1">זה דחוף. תוכל/י לחזור אלי?</string>
     <string name="post_call_message_2">תוכל/י לחזור אלי כשיהיה לך זמן?</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">מדיניות הפרטיות</string>
     <string name="private_num_non_verizon">מספר פרטי</string>
     <string name="private_num_verizon">מספר חסום</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">בחירת איש קשר</string>
     <string name="ready_for_recording">בהכנה…</string>
     <string name="record_greeting_cancel_label">ביטול</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">השמירה מתבצעת…</string>
     <string name="record_voicemail_greeting_title">הקלטת פתיח</string>
     <string name="recording_category_title">הקלטות</string>
+    <string name="recording_deleted">ההקלטה נמחקה</string>
+    <string name="recording_deletion_failed">ההקלטה לא נמחקה. אפשר לנסות שוב</string>
     <string name="redo_button_text">ניסיון נוסף</string>
     <string name="remember_this_choice_label">אני רוצה להשתמש באפשרות הזו גם בעתיד</string>
     <string name="report_not_spam_alert_button">דיווח</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">אפשר להתקשר אליי אחר כך?</string>
     <string name="request_email_description">אפשר לשלוח לי אימייל?</string>
     <string name="respond_via_sms_setting_title">תגובות מהירות</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">הפעלה</string>
     <string name="revelio_end_call_reject_as_spam">השיחה סומנה כספאם</string>
     <string name="revelio_end_call_user_missed_internal_message">השיחה לא נענתה</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">‏RTT (טקסט בזמן אמת) היא תכונת נגישות שעוזרת לחרשים, לקויי שמיעה, לקויי דיבור או אנשים שלא יכולים להסתפק רק בשיחות קוליות.^1</string>
     <string name="rtt_assist_for_att">‏אפשר להשתמש במקלדת של RTT שמוצגת במסך במקום במקלדת TTY חיצונית. כשכותבים הודעה במהלך שיחת RTT, הצד השני בשיחה יכול לראות בזמן אמת שמקלידים. ^1</string>
     <string name="rtt_assist_for_tmo">‏אפשר להשתמש במקלדת של RTT שמופיעה במסך במקום במקלדת TTY חיצונית. כשמשתמשים ב-RTT, ההודעות שכותבים נשלחות מיידית בזמן שיחת הטלפון, כך שאפשר לתקשר באמצעות הודעות טקסט בזמן אמת. אפשר גם לראות תשובות חלקיות לפני שכל ההודעה מסתיימת. ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">הקודם</string>
     <string name="rtt_button_downgrade">שינוי לשיחה קולית</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">‏אי אפשר להשתמש ב-RTT בשיחה הזו. חוברת כשיחה קולית בלבד.</string>
+    <string name="rtt_call_downgraded_toast">‏שיחת ה-RTT הפכה לשיחה קולית רגילה</string>
+    <string name="rtt_call_not_available_toast">‏אי אפשר להשתמש ב-RTT כדי להתקשר למספר הזה</string>
     <string name="rtt_configuration_summary_always_visible">‏הצגת לחצן לשיחת RTT בכל מקום</string>
     <string name="rtt_configuration_summary_not_visible">‏קבלת שיחות RTT נכנסות אבל הסתרת לחצן השיחה</string>
     <string name="rtt_configuration_summary_visible_during_call">‏הצגת לחצן לשיחת RTT במהלך שיחות</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">הצגת התמליל</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">ההודעה הזו תישלח שוב.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">שמירה</string>
     <string name="saved_voicemails_action_title">הודעות קוליות שנשמרו (%1$s)</string>
     <string name="search_hint">חיפוש אנשי קשר לשיחות וידאו</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">שליחת הודעה</string>
     <string name="send_to_voicemail_import_failed">הייבוא נכשל</string>
     <string name="serial_number">מספר סידורי</string>
+    <string name="set_as_default_button_text">הגדרה כברירת המחדל</string>
     <string name="set_default_account">השתמש תמיד עבור שיחות</string>
     <string name="set_default_account_description">‏ההעדפה לגבי כרטיס ה-SIM תישמר עם אנשי הקשר.</string>
+    <string name="set_phone_as_default_explanation_text">"אפשר להתקשר ולקבל שיחות באפליקציית 'טלפון' רק אם היא מוגדרת כאפליקציית ברירת המחדל לשיחות"</string>
+    <string name="set_phone_as_default_request_text">"הגדרה לשל אפליקציית 'טלפון' כברירת המחדל"</string>
     <string name="settings">הגדרות</string>
     <string name="settings_page_call_recording_feature_not_available_text">אי אפשר להקליט שיחות במיקום שלך</string>
     <string name="settings_page_crosby_feature_not_available_text">האפשרות לא זמינה במיקום שלך</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">ביטול</string>
     <string name="snackbar_voicemail_deleted">דואר קולי נמחק</string>
     <string name="sounds_and_vibration_title">צלילים ורטט</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">סינון שיחות וספאם</string>
     <string name="spam_blocking_promo_action_dismiss">סגירה</string>
     <string name="spam_blocking_promo_action_filter_spam">סינון ספאם</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">הוספה</string>
     <string name="speed_dial_contacts_permission_description">"כדי להפעיל את החיוג המהיר, צריך להפעיל את ההרשאה 'אנשי קשר'."</string>
     <string name="speed_dial_disambig_dialog_title">איך היית רוצה להתקשר אל %s?</string>
-    <string name="speed_dial_education_content">לוחצים לחיצה ארוכה על כל אחד מאנשי הקשר כדי לעבור משיחה להודעה, ולהפך</string>
-    <string name="speed_dial_education_title">דרכים נוספות לשמור על קשר</string>
     <string name="speed_dial_no_contacts_action_text">הוספה למועדפים</string>
     <string name="speed_dial_no_contacts_description">רוצה ליצור אנשי קשר כדי להתקשר אליהם בהקשה אחת פשוטה במקום להזין את המספר המלא?</string>
     <string name="speed_dial_remember_this_choice">אני רוצה להשתמש באפשרות הזו גם בעתיד</string>
@@ -1083,6 +1159,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">תודה על המשוב</string>
     <string name="suggestions_header">תדירים</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">פרטי החשבון והמערכת</string>
+    <string name="survey_app_id">מזהה האפליקציה</string>
+    <string name="survey_app_name">שם האפליקציה</string>
+    <string name="survey_app_version">גרסת האפליקציה</string>
+    <string name="survey_application_data">נתוני האפליקציה</string>
+    <string name="survey_brand">המותג</string>
+    <string name="survey_close_button_description">סגירה</string>
+    <string name="survey_default_prompt_title">רוצה לעזור לנו לשפר את Google?</string>
+    <string name="survey_device_model">דגם המכשיר</string>
+    <string name="survey_email_address">כתובת אימייל</string>
+    <string name="survey_google_play_services_version">הגרסה של שירותי Google Play</string>
+    <string name="survey_legal_text">המשך התהליך יפורש כהסכמתך לכך ש-Google תשתמש בתשובות וב%1$s שלך כדי לשפר את השירותים, בהתאם ל%2$s ול%3$s שלנו.</string>
+    <string name="survey_library_version">גרסת הספרייה</string>
+    <string name="survey_network_request_failed">בקשת הרשת נכשלה</string>
+    <string name="survey_neutral">אין לי דעה לכאן או לכאן</string>
+    <string name="survey_next">הבא</string>
+    <string name="survey_num_rating">%1$s מתוך %2$s</string>
+    <string name="survey_ok">אישור</string>
+    <string name="survey_open_text_hint">כאן אפשר להוסיף הערות</string>
+    <string name="survey_open_text_no_pii">אין לכלול מידע אישי</string>
+    <string name="survey_operating_system">מערכת ההפעלה</string>
+    <string name="survey_operating_system_version">גרסת מערכת ההפעלה</string>
+    <string name="survey_other_option_hint">אחר (צריך לפרט)</string>
+    <string name="survey_platform">הפלטפורמה</string>
+    <string name="survey_privacy">מדיניות הפרטיות</string>
+    <string name="survey_prompt_no_thanks">לא, תודה</string>
+    <string name="survey_prompt_take_our_survey">הצגת שאלה</string>
+    <string name="survey_smiley_rating">סמיילי %1$s מתוך %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">קצת לא מרוצה</string>
+    <string name="survey_somewhat_satisfied">די מרוצה</string>
+    <string name="survey_submit">שליחה</string>
+    <string name="survey_system_info_dialog_title">פרטי החשבון והמערכת</string>
+    <string name="survey_terms">תנאים</string>
+    <string name="survey_thank_you_followup_message">רוצה לעזור לנו לשפר את המוצר? אפשר לענות על עוד שאלות</string>
+    <string name="survey_timezone_offset">הסטה מאזור זמן</string>
+    <string name="survey_url">כתובת ה-URL</string>
+    <string name="survey_user_agent">הסוכן המשתמש</string>
+    <string name="survey_very_dissatisfied">בכלל לא מרוצה</string>
+    <string name="survey_very_satisfied">מרוצה מאוד</string>
     <string name="system_default_theme_label">הפעלה לפי ברירת המחדל של המערכת</string>
     <string name="tab_title_call_history">לאחרונה</string>
     <string name="tab_title_contacts">אנשי קשר</string>
@@ -1094,11 +1209,15 @@
     <string name="terms_of_service_label">תנאים והגבלות</string>
     <string name="textmessage_button_label">הודעה</string>
     <string name="theme_preference_label">בחירת עיצוב</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">הקלטה</string>
     <string name="toast_text_copied">הטקסט הועתק</string>
     <string name="toolbar_back">חזרה</string>
     <string name="toolbar_close">סגירה</string>
     <string name="transcript_audio_feedback_chip_text">רוצה לעזור לנו להשתפר?</string>
+    <string name="transcript_audio_feedback_link_text">הצגת התמליל וההקלטה</string>
     <string name="transcript_snippet_low_confidence_description">(לא שמעו ברור)</string>
+    <string name="try_again_button">אני רוצה לנסות שוב</string>
     <string name="tty_configuration_title_tty_full">‏TTY מלא</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">‏TTY מושבת</string>
@@ -1120,7 +1239,6 @@
     <string name="type_outgoing_video_pulled">שיחת הווידאו היוצאת הועברה למכשיר אחר</string>
     <string name="type_rejected">שיחה שנדחתה</string>
     <string name="type_voicemail">דואר קולי</string>
-    <string name="unable_change_value_error">‏הייתה בעיה בשינוי ההגדרות של ה-RTT. אפשר לחזור אחורה ולנסות שוב.</string>
     <string name="unable_read_value_error">‏הייתה בעיה בקריאת ההגדרות של ה-RTT. אפשר לחזור אחורה ולנסות שוב.</string>
     <string name="unblock_number">ביטול החסימה</string>
     <string name="unblock_number_alert_details">החסימה של המספר הזה תבוטל וידווח שהוא אינו ספאם. שיחות שיתקבלו ממנו לא יזוהו כספאם.</string>
@@ -1129,6 +1247,7 @@
     <string name="unblock_number_ok">ביטול החסימה</string>
     <string name="unblock_report_number_alert_title">לבטל את החסימה של %1$s?</string>
     <string name="unknown">לא ידוע</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">ביטול ההשתקה של האודיו הנכנס</string>
     <string name="user_is_busy_description">אחזור אליך</string>
@@ -1240,10 +1359,17 @@
     <string name="videocall_remote_video_on">הווידאו של הצד השני מופעל</string>
     <string name="videocall_remotely_held">השיחה הועברה להמתנה</string>
     <string name="videocall_remotely_resumed">השיחה חודשה</string>
+    <string name="videocall_settings_default_carrier">שיחות וידאו באמצעות הספק הסלולרי</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">שירות ברירת המחדל לשיחות וידאו</string>
+    <string name="videocall_settings_fallback_summary">‏מעבר ל-Duo אם אי אפשר להתחיל שיחת וידאו באמצעות הספק הסלולרי</string>
+    <string name="videocall_settings_fallback_title">‏שימוש ב-Duo כגיבוי</string>
+    <string name="videocall_settings_title">שיחות וידאו</string>
     <string name="videocall_show_preview_button_description">הצגת שידור הווידאו המקומי</string>
     <string name="view">הצג</string>
     <string name="view_location_settings">הגדרות מיקום</string>
     <string name="vitle_label">‏שיחת וידאו ב-LTE</string>
+    <string name="viwifi_label">‏שיחת וידאו ב-Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">קוד הגישה החדש מכיל תווים לא חוקיים.</string>
     <string name="vm_change_pin_error_mismatch">קוד הגישה הישן לא נכון.</string>
     <string name="vm_change_pin_error_system_error">לא ניתן היה לשנות את קוד הגישה</string>
@@ -1253,8 +1379,11 @@
     <string name="vm_change_pin_progress_message">רק רגע בבקשה.</string>
     <string name="voice_call">שיחה קולית</string>
     <string name="voice_call_button">שיחה</string>
+    <string name="voice_display_name">קול %1$d</string>
     <string name="voice_search_not_available">חיפוש קולי אינו זמין</string>
     <string name="voice_selector_preference_title">הקולות הזמינים</string>
+    <string name="voice_settings_available_voices_text">הקולות הזמינים</string>
+    <string name="voice_settings_title">קול</string>
     <string name="voicecall_button_label">שיחה</string>
     <string name="voicecall_button_wifi_description">‏התחלת שיחה באמצעות Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s ב-%2$s</string>
@@ -1289,7 +1418,6 @@
     <string name="voicemail_donation_promo_title">רוצה לעזור לנו לשפר את דיוק התמלול?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">‏שימוש בדואר קולי ויזאולי בכרטיסי SIM בלי חבילת גלישה עלול לגרור חיובים נוספים מצד הספק הסלולרי</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">‏התא הקולי הוויזואלי זמין רק ל-SIM הנתונים שנבחר</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">‏אם יש לך כמה כרטיסי SIM ואחד מהם הוא של Fi, כרטיס ה-SIM של Fi ישמש לדואר קולי ויזואלי</string>
     <string name="voicemail_error_activating_message">ייתכן שלא יגיעו אליך עדכונים על הודעות חדשות בדואר הקולי עד שהדואר הקולי הוויזואלי יופעל במלואו. עד אז, עליך להתקשר לדואר הקולי כדי להאזין להודעות החדשות.</string>
     <string name="voicemail_error_activating_title">מפעיל את הדואר הקולי הוויזואלי</string>
     <string name="voicemail_error_activation_disabled_message">צריך להתקשר לתא הקולי כדי לסיים להגדיר אותו</string>
@@ -1396,6 +1524,7 @@
     <string name="vvm3_error_vms_no_cellular_title">לא ניתן להתחבר לתיבת הדואר הקולי שלך</string>
     <string name="vvm3_error_vms_timeout_message">מצטערים, נתקלנו בבעיה. כדאי לנסות שוב מאוחר יותר. אם הבעיה נמשכת, יש להתקשר לשירות הלקוחות בטלפון %1$s ולומר לנציג שקוד השגיאה הוא 9007.</string>
     <string name="vvm3_error_vms_timeout_title">משהו השתבש</string>
+    <string name="vvm_config_title">הגדרת התא הקולי הוויזואלי</string>
     <string name="vvm_unsupported_message_format">סוג ההודעה לא נתמך. יש להתקשר למספר %s כדי להאזין לה.</string>
     <string name="wait_prompt_str">"‏לשלוח את הצלילים הבאים?
 "</string>

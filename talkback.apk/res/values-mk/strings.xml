@@ -87,7 +87,7 @@
 Дознајте повеќе за другите теми сега или прегледајте ги информацииве кога сакате во поставките за TalkBack."</string>
     <string name="all_set_title">Готово!</string>
     <string name="always_show_this_message_label">Секогаш прикажувај ја поракава</string>
-    <string name="application_name">Пакет за пристапност на Android</string>
+    <string name="application_name">Android Accessibility Suite</string>
     <string name="arc_android_window">Прозорец на апликацијата</string>
     <string name="arc_navigation_hint">За навигација, притиснете на пребарување и на стрелките</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Притиснете %1$s за да го видите списокот со кратенки</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Намалувањето звук на апликации е %1$s</string>
     <string name="auto_detect">Приспособи според начинот на кој го држам уредот</string>
     <string name="auto_scan_action_description">Започнете со скенирање и изберете</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">„Автоматско скенирање“ или „Изберете“</string>
     <string name="available_devices_header">Достапни уреди со Bluetooth</string>
     <string name="basic_navigation_link_subtext">Движете се од ставка на ставка, лизгајте, користете менија и друго</string>
     <string name="basic_navigation_link_text">Основна навигација</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Нема спарени уреди со Bluetooth</string>
     <string name="bluetooth_not_enabled_message">За да спарите Bluetooth-прекинувач, вклучете Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Периферен</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">За да спарите Bluetooth-прекинувач при поставувањето, вклучете Bluetooth и дозволете пристап на Android Accessibility Suite до дозволите за „Уреди во близина“ и „Локација“.</string>
     <string name="bluetooth_phone_content_description">Телефон</string>
     <string name="bluetooth_switch_description_text">Безжично спари прекинувач преку Bluetooth</string>
     <string name="bluetooth_switch_option_text">Прекинувач за Bluetooth</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">За да го контролирате уредот, прво треба да вклучите „Пристап со прекинувачи“.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Отвори ги прекинувачите за камерата</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Отвори „Пристап со прекинувачи“</string>
+    <string name="cam_switches_combined_preferences_title">Поставки за „%1$s“</string>
+    <string name="cam_switches_preferences_title">Поставки за прекинувачот за камерата</string>
+    <string name="cam_switches_single_preferences_title">Поставки за „%s“</string>
     <string name="camera_switches_status_active">Прекинувачите на камерата се активни</string>
     <string name="camera_switches_status_error">Грешка</string>
     <string name="camera_switches_status_no_face">Не е откриено лице</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">Прекинувач за паузирање камера</string>
     <string name="default_action_name_point_scan">Скенирање точка</string>
     <string name="dialog_confirm_revert_to_default_menu">Потврдете</string>
-    <string name="dialog_do_not_disturb_permission_message">За да ја приспособите јачината на звукот од менито за „Пристапот со прекинувачи“, вклучете пристап до „Не вознемирувај“ за „Пакетот услуги за пристапност на Android“</string>
+    <string name="dialog_do_not_disturb_permission_message">За да ја приспособите јачината на звукот од менито за „Пристапот со прекинувачи“, вклучете пристап до „Не вознемирувај“ за Android Accessibility Suite</string>
     <string name="dialog_do_not_disturb_permission_title">„Пристапот со прекинувачи“ бара дозвола за приспособување на јачината на звукот</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Отвори ги поставките</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">За да функционира, прекинувачите за камерата треба да преземат дополнителни податоци од околу 10 MB. Ова би требало да потрае околу една минута, зависно од брзината на вашата мрежа.</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">Отвори во прелистувач</string>
     <string name="fallback_menu_item_share_link">Сподели линк</string>
     <string name="fast_radio_button_title">Брзо (задоцнување од %1$s сек.)</string>
+    <string name="fast_radio_button_title_content_description">Брзо (одложување од %1$s сек.)</string>
     <string name="find_finish_button_text">Повлечете надесно за да го најдете копчето „Заврши“.</string>
     <string name="finish">Заврши</string>
     <string name="finish_tutorial_announcement">Се прикажува тастатурата со брајово писмо. Свртете го телефонот, така што екранот ќе биде свртен обратно од вас. Ротирајте го телефонот хоризонтално во положба на пејзаж. Потоа, почнете да пишувате.</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d од %2$d</string>
     <string name="lockscreen_label">Заклучен екран</string>
     <string name="medium_radio_button_title">Средно (задоцнување од %1$s сек.)</string>
+    <string name="medium_radio_button_title_content_description">Средно (одложување од %1$s сек.)</string>
     <string name="menu_category_reading_controls">Читање</string>
     <string name="menu_category_special_features">Специјални функции</string>
     <string name="menus_selector_text">"Кратенкиве може да ви помогнат брзо да ги менувате поставките, на пр., да се префрлате од навигација по знаци на навигација по зборови или да ја менувате брзината на говор на TalkBack.
@@ -767,6 +772,7 @@
 Отворете го сега така што ќе повлечете надолу, па надесно."</string>
     <string name="menus_title">Мени и контроли</string>
     <string name="message_in_reset_keymap_confirm_dialog">Дали сте сигурни дека сакате да ги ресетирате копчињата за кратенки за овој распоред на копчиња на нивните стандардни вредности? Имајте предвид дека ова дејство не може да се врати.</string>
+    <string name="message_request_phone_permission">TalkBack сака да знае кога има телефонски повик во тек за да може да ги намали прекините од соопштенијата.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Ова ќе ги ресетира сите движења на нивните стандардни дејства.
 
 Ќе ги изгубите сите промени што сте ги извршиле."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">Намали го одложувањето на најавувањето на прозорецот</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Додајте прекинувачи за камерата</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Избришете ги физичките прекинувачи</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Конфигурирајте ги поставките за прекинувачот: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Изменете ги прекинувачите за камерата</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Не е доделен прекинувач за камерата</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Доделете прекинувачи за камерата за „%s“</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">Запри преглед</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Вклучи</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Мора да се вклучени прекинувачите за камера за да ја користите површинава за тестирање</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Испробајте: прегледувајте ги сите типови движења на лицето, вклучително и отворена уста, насмевка итн.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Испробајте</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Испробајте: прегледувајте движења на лицето - %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Површината за тестирање е паузирана. Употребете го копчето долу за да започнете повторно.</string>
     <string name="pref_selector_summary">%1$s за да изберете поставка. Потоа %2$s за да ја приспособите поставката.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s или %2$s за да изберете поставка. Потоа %3$s за да ја приспособите поставката.</string>
@@ -1067,6 +1074,7 @@
     <string name="reduce_speed_button">Намали ја брзината</string>
     <string name="remaining_calibration_finish_announcement">Ажурирани се позициите на сите точки</string>
     <string name="reminder_announcement">Повлечете нагоре со три прста за повеќе опции</string>
+    <string name="remove_assigned_switch">Отстранете го доделениот прекинувач за %s</string>
     <string name="report_gesture_description">Ова се движења што биле извршени неодамна. Пријавете кое од нив е погрешно и што треба да извршува.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Ресетирај</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Ресетирај</string>
@@ -1147,6 +1155,7 @@
     <string name="search_mode_hint_no_selection">Не е избрана ставка.</string>
     <string name="search_mode_hint_query">Тековно барање: %1$s.</string>
     <string name="search_mode_hint_selection">Тековен избор: %1$s.</string>
+    <string name="select_for_point_scan">„Изберете“</string>
     <string name="select_setting_hint">%1$s за да изберете друга поставка</string>
     <string name="selecting_text_text">"Во текстуално поле, поместете го курсорот на почетокот на текстот што сакате да го изберете.
 
@@ -1207,6 +1216,7 @@
     <string name="shortcut_media_control">Пушти или паузирај аудио/видео</string>
     <string name="shortcut_next">Следна ставка</string>
     <string name="shortcut_next_granularity">Следна поставка за навигација</string>
+    <string name="shortcut_next_window">Следен прозорец</string>
     <string name="shortcut_not_customizable">%1$s, не се приспособува</string>
     <string name="shortcut_notifications">Известувања</string>
     <string name="shortcut_overview">Преглед</string>
@@ -1219,6 +1229,7 @@
     <string name="shortcut_practice_gestures">Вежбајте ги движењата</string>
     <string name="shortcut_previous">Претходна ставка</string>
     <string name="shortcut_previous_granularity">Претходна поставка за навигација</string>
+    <string name="shortcut_previous_window">Претходен прозорец</string>
     <string name="shortcut_print_node_tree">Отпечатете го дрвото со јазли</string>
     <string name="shortcut_print_performance_stats">Испечати ја статистиката за изведбата</string>
     <string name="shortcut_quick_settings">Брзи поставки</string>
@@ -1258,6 +1269,7 @@
 • Протресете за да започне непрекинато читање"</string>
     <string name="six_hold_announcement">Може да пишувате и со поставување на телефонот рамно на масата. Пробајте сега. Ако немате маса во близина, прескокнете нанапред со повлекување надолу.</string>
     <string name="slow_radio_button_title">Бавно (задоцнување од %1$s сек.)</string>
+    <string name="slow_radio_button_title_content_description">Бавно (одложување од %1$s сек.)</string>
     <string name="sound_feedback_state">Звучни повратни информации %1$s</string>
     <string name="sound_feedback_summary">Пуштај звук за да означиш дека нешто се сменило (на пр., дека содржините на екранот се смениле)</string>
     <string name="speak_container_element_position_summary_off">Не се изговараат информациите за список и мрежа</string>
@@ -1331,17 +1343,17 @@
     <string name="summary_pref_face_switches_debounce_time">Повеќекратните активирања на прекинувач за камерата во овој период ќе бидат третирани како едно активирање.</string>
     <string name="summary_pref_face_switches_enabled">Прекинувачите за камерата ја користат предната камера за да видат дали гледате кон екранот и за да ги препознаат движењата на лицето. Сликите не се складираат, ниту испраќаат во Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Пушти звук ако нешто на екранот се промени како одговор на движење</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Прикажува визуелна индикација за тоа колку долго сте задржале движење</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Задржи го екранот вклучен кога се овозможени прекинувачи за камерата. Прекинувачите за камерата не може да го отклучат екранот ако се исклучи.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Не е откриено лице</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Извршете кое било од движењата на лице. Ќе се покаже името на движењето ако е регистрирано. За да излезете, задржете кое било движење %1$d секунди.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Држете ја главата мирно и гледајте кон камерата. Потоа %s.</string>
     <string name="summary_pref_play_store">Тековна верзија на TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Користете подвижни линии за да изберете одредена хоризонтална и вертикална локација. Притиснете го прекинувачот %1$s за да започнете со скенирање точки. %2$s</string>
     <string name="summary_pref_reverse_dots">Заменете ја положбата на точките, на пример, точките 1 и 4 да си ги заменат местата</string>
     <string name="summary_pref_revert_to_default_menu">Ресетирајте го менито „Пристап со прекинувачи“ на стандардниот список со ставки на мени.</string>
-    <string name="summary_pref_single_tap">(Експериментално) Допрете еднаш на предметот што е фокусиран за да активирате</string>
+    <string name="summary_pref_single_tap">Допрете еднаш на нагласената ставка за активирање</string>
     <string name="summary_pref_tree_debug_tv">Користете го копчето за гласовно пребарување за да го испечатите дрвото со јазли наместо да пребарувате</string>
     <string name="summary_pref_use_audio_focus">Ја намалува јачината на другите звуци при зборување</string>
     <string name="summary_read_from_current">Почнувајќи од следната ставка, прочитај ги сите ставки на екранот</string>
@@ -1438,10 +1450,10 @@
     <string name="switched_to_contracted_announcement">Префрлено на скратено брајово писмо</string>
     <string name="switched_to_ueb_uncontracted_announcement">Префрлено на нескратено унифицирано англиско брајово писмо (UEB)</string>
     <string name="switched_to_uncontracted_announcement">Префрлено на нескратено брајово писмо</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Речиси еднакво на</string>
     <string name="symbol_ampersand">и</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Знак за „Помало од“</string>
+    <string name="symbol_angle_bracket_right">Знак за „Поголемо од“</string>
     <string name="symbol_apostrophe">Апостроф</string>
     <string name="symbol_approximately_equals">Приближно еднакви</string>
     <string name="symbol_asterisk">Ѕвездичка</string>
@@ -1461,7 +1473,7 @@
     <string name="symbol_bullseye">Центар на мета</string>
     <string name="symbol_caret">Карета</string>
     <string name="symbol_celsius_degree">Целзиусов степен</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Знак за цент</string>
     <string name="symbol_circle_left_half_black">Круг со црна лева половина</string>
     <string name="symbol_circle_right_half_black">Круг со црна десна половина</string>
     <string name="symbol_colon">Две точки</string>
@@ -1470,7 +1482,7 @@
     <string name="symbol_curly_bracket_left">Лева голема заграда</string>
     <string name="symbol_curly_bracket_right">Десна голема заграда</string>
     <string name="symbol_currency_sign">Знак за валута</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Знак за степен</string>
     <string name="symbol_division">Знак за делење</string>
     <string name="symbol_dollar_sign">Знак за долар</string>
     <string name="symbol_downwards_arrow">Стрелка надолу</string>
@@ -1522,7 +1534,7 @@
     <string name="symbol_middle_dot">Средна точка</string>
     <string name="symbol_multiplication">Знак за множење</string>
     <string name="symbol_new_line">Нов ред</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Не е еднакво на</string>
     <string name="symbol_not_sign">Знак „забрането“</string>
     <string name="symbol_paragraph_mark">Знак за параграф</string>
     <string name="symbol_parenthesis_left">Лева заграда</string>
@@ -1533,7 +1545,7 @@
     <string name="symbol_plus_minus_sign">Знак плус и минус</string>
     <string name="symbol_postal_mark">Поштенска ознака</string>
     <string name="symbol_pound">Фунта</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Знак за валутата фунта</string>
     <string name="symbol_quarter_note">Четвртина нота</string>
     <string name="symbol_question_mark">Прашалник</string>
     <string name="symbol_quotation_mark">Цитат</string>
@@ -1559,7 +1571,7 @@
     <string name="symbol_trademark">Заштитен знак</string>
     <string name="symbol_underscore">Долна црта</string>
     <string name="symbol_upwards_arrow">Стрелка нагоре</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Вертикална линија</string>
     <string name="symbol_white_circle">Бел круг</string>
     <string name="symbol_white_club_suit">Бела детелинка</string>
     <string name="symbol_white_diamond">Бел дијамант</string>
@@ -1573,8 +1585,8 @@
     <string name="symbol_white_square">Бел квадрат</string>
     <string name="symbol_white_star">Бела ѕвезда</string>
     <string name="symbol_white_up_pointing_triangle">Бел триаголник свртен нагоре</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Знак за валутата вон</string>
+    <string name="symbol_won_sign">Знак за валутата вон</string>
     <string name="symbol_yen">Јен</string>
     <string name="system_actions">Дејства на системот</string>
     <string name="tabletop">Режим за на маса</string>
@@ -1742,7 +1754,7 @@
     <string name="title_pref_category_assign_switches">Назначување копчиња</string>
     <string name="title_pref_category_audio">Аудио</string>
     <string name="title_pref_category_auto_scan">Автоматско скенирање</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Автоматско скенирање (скенирање точки)</string>
     <string name="title_pref_category_border_color">Боја</string>
     <string name="title_pref_category_built_in_gestures">Вградени движења</string>
     <string name="title_pref_category_context_menu">Приспособете го менито за Talkback</string>
@@ -1826,7 +1838,7 @@
     <string name="title_pref_red">Црвена</string>
     <string name="title_pref_resume_talkback">Продолжете од прекинот</string>
     <string name="title_pref_reverse_auto_scan_disabled">Обратно автоматско скенирање (оневозможено)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Обратно автоматско скенирање (скенирање точки)</string>
     <string name="title_pref_reverse_dots">Обратни точки</string>
     <string name="title_pref_revert_to_default_menu">Вратете се на стандардното мени</string>
     <string name="title_pref_scan_non_actionable_items">Изговарај описен текст</string>
@@ -1889,7 +1901,7 @@
     <string name="title_pref_show_context_menu_as_list">Контекстуално мени како список</string>
     <string name="title_pref_show_privacy_policy">Политика за приватност</string>
     <string name="title_pref_show_tos">Услови за користење</string>
-    <string name="title_pref_single_tap">Активирање со единечен допир</string>
+    <string name="title_pref_single_tap">Допрете еднаш за активирање</string>
     <string name="title_pref_sound_and_vibration">Звук и вибрации</string>
     <string name="title_pref_soundback">Звучни повратни информации</string>
     <string name="title_pref_soundback_volume">Јачина на звучни одговори</string>
@@ -1934,6 +1946,7 @@
     <string name="title_previous_screen">Претходен екран</string>
     <string name="title_read_from_top">Читај од врвот</string>
     <string name="title_repeat_last_spoken_phrase">Повтори ја последната изговорена фраза</string>
+    <string name="title_request_phone_permission">TalkBack бара дозвола</string>
     <string name="title_screen_summary">Краток преглед на екранот</string>
     <string name="title_seek_bar_controls">Лизгач</string>
     <string name="title_seek_bar_edit">Изменете го степенот на лизгачот</string>

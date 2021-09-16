@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Мовы і ўвод</string>
     <string name="lift_to_wake_title">Абуджэнне пры падняцці</string>
-    <string name="lockdown_settings_summary">Дадаць у меню кнопкі сілкавання функцыю, якая выключае Smart Lock, распазнаванне твару, разблакіраванне адбіткам пальца і апавяшчэнні на экране блакіроўкі</string>
-    <string name="lockdown_settings_title">Паказваць кнопку блакіроўкі</string>
+    <string name="abc_action_bar_home_description">Перайсці на галоўную старонку</string>
+    <string name="abc_action_bar_up_description">Перайсці ўверх</string>
     <string name="locked_work_profile_notification_title">Працоўны профіль заблакіраваны</string>
     <string name="lockscreen_bypass_summary">Пасля разблакіроўкі вяртацца на экран, які выкарыстоўваўся апошнім</string>
     <string name="lockscreen_bypass_title">Прапускаць экран блакіроўкі</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Апавяшчэнні працоўнага профілю</string>
     <string name="reset_dashboard_summary">Налады сеткі, праграмы або прылады могуць быць скінуты</string>
     <string name="reset_dashboard_title">Параметры скіду</string>
-    <string name="abc_action_bar_home_description">Перайсці на галоўную старонку</string>
+    <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
     <string name="screensaver_settings_title">Экранная застаўка</string>
     <string name="screen_timeout">Час да выключэння экрана</string>
     <string name="screen_zoom_title">Памер элементаў дысплэя</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Аўтаматычна павялічвае частату абнаўлення пэўнага змесціва з 60 да 90 Гц. Павышае выкарыстанне зараду акумулятара.</string>
     <string name="accessibility_vibration_settings_title">Вібрацыя і тактыльны водгук</string>
     <string name="emergency_gesture_screen_title">Экстранны выклік SOS</string>
-    <string name="abc_action_bar_up_description">Перайсці ўверх</string>
+    <string name="abc_action_mode_done">Гатова</string>
     <string name="vibrate_for_calls_category_title">Выклікі</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Паказ кашалька</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Паказ элементаў кіравання прыладай</string>
     <string name="lockscreen_privacy_wallet_summary">Дазволіць доступ да кашалька з заблакіраванага экрана і хуткіх налад</string>
     <string name="lockscreen_privacy_controls_summary">Доступ да элементаў кіравання пры заблакіраваным экране</string>
-    <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
-    <string name="abc_action_mode_done">Гатова</string>
     <string name="abc_activity_chooser_view_see_all">Паказаць усе</string>
     <string name="abc_activitychooserview_choose_application">Выберыце праграму</string>
     <string name="abc_capital_off">ВЫКЛ.</string>
@@ -1556,7 +1554,7 @@
     <string name="color_temperature_desc">Выкарыстоўваць больш халодныя колеры экрана</string>
     <string name="color_temperature_toast">Каб прымяніць змяненне колеру, адключыце экран</string>
     <string name="color_title">Колер</string>
-    <string name="color_unspecified">Па змаўчанні</string>
+    <string name="color_unspecified">Стандартна</string>
     <string name="color_white">Белы</string>
     <string name="color_yellow">Жоўты</string>
     <string name="columbus_gesture_detected">Выяўлены Хуткі дотык!</string>
@@ -1994,7 +1992,7 @@
     <string name="default_phone_title">Праграма для званкоў</string>
     <string name="default_print_service_main_switch_title">Скарыстаць сэрвіс друку</string>
     <string name="default_see_all_apps_title">Паказаць усе праграмы</string>
-    <string name="default_sound">Гук па змаўчанні</string>
+    <string name="default_sound">Стандартная мелодыя</string>
     <string name="default_spell_checker">Стандартная праверка правапісу</string>
     <string name="default_theme">Стандартная</string>
     <string name="delete">Выдаліць</string>
@@ -2688,7 +2686,7 @@
     <string name="keyboard_and_input_methods_category">Клавіятуры</string>
     <string name="keyboard_assistance_category">Дапамога пры ўжыванні клавіятуры</string>
     <string name="keyboard_disconnected">Падключэння няма</string>
-    <string name="keyboard_layout_default_label">Па змаўчанні</string>
+    <string name="keyboard_layout_default_label">Стандартна</string>
     <string name="keyboard_layout_dialog_setup_button">Наладка раскладкі клавіятуры</string>
     <string name="keyboard_layout_dialog_switch_hint">Каб перакл., націсніце Ctrl-Space</string>
     <string name="keyboard_layout_dialog_title">Выбар раскладкі клавіятуры</string>
@@ -3533,7 +3531,7 @@ PIN-код абараняе тэлефон у выпадку страты ці �
     <string name="no_certificate_management_app">Няма</string>
     <string name="no_channels">Гэта праграма не размяшчала ніякіх апавяшчэнняў</string>
     <string name="no_data_usage">Даныя не выкарыстоўваліся</string>
-    <string name="no_default_apps">Няма дадаткаў па змаўчанні.</string>
+    <string name="no_default_apps">Няма праграм.</string>
     <string name="no_default_home">Няма стандартнай Галоўнай старонкі</string>
     <string name="no_device_admins">Няма даступных праграм адміністратара прылады</string>
     <string name="no_internet_access_remember">Больш не пытацца для гэтай сеткі</string>
@@ -3668,7 +3666,7 @@ PIN-код абараняе тэлефон у выпадку страты ці �
     <string name="notification_show_lights_title">Мігценне святла</string>
     <string name="notification_silence_title">Бязгучны рэжым</string>
     <string name="notification_sound_default">Стандартны гук апавяшчэння</string>
-    <string name="notification_sound_dialog_title">Гук паведамлення па змаўчаннi</string>
+    <string name="notification_sound_dialog_title">Стандартны гук паведамлення</string>
     <string name="notification_sound_title">Гук паведамлення па змаўчаннi</string>
     <string name="notification_suggestion_summary">Паказваць ці хаваць змесціва апавяшчэнняў</string>
     <string name="notification_suggestion_title">Паказваць кантрольную інфармацыю на экране блакiроўцы</string>
@@ -4085,7 +4083,7 @@ PIN-код абараняе тэлефон у выпадку страты ці �
     <string name="reset_shortcut_manager_throttling_complete">Абмежаванне частаты ShortcutManager было скінута</string>
     <string name="reset_your_internet_title">Скінуць налады інтэрнэту?</string>
     <string name="resetting_internet_text">Налады інтэрнэту скідваюцца…</string>
-    <string name="restore_default_apn">Аднаўленне параметраў APN па змаўчанні</string>
+    <string name="restore_default_apn">Аднаўленне стандартных параметраў APN</string>
     <string name="restore_default_apn_completed">Стандартныя налады адноўлены.</string>
     <string name="restr_pin_enter_admin_pin">Увядзіце PIN-код адміністратара</string>
     <string name="restrict_background_blocklisted">Фонавая перадача даных выключана</string>
@@ -5202,7 +5200,7 @@ PIN-код абараняе тэлефон у выпадку страты ці �
     <string name="tts_status_not_supported">%1$s не падтрымліваецца</string>
     <string name="tts_status_ok">%1$s цалкам падтрымліваецца</string>
     <string name="tts_status_requires_network">Для %1$s патрабуецца падлучэнне да сеткі</string>
-    <string name="tts_status_title">Статус мовы па змаўчанні</string>
+    <string name="tts_status_title">Статус стандартнай мовы</string>
     <string name="turn_off_wifi">Выключыць Wi-Fi</string>
     <string name="turn_on_wifi">Уключыць Wi-Fi</string>
     <string name="twilight_mode_launch_location">Налады месцазнаходжання</string>

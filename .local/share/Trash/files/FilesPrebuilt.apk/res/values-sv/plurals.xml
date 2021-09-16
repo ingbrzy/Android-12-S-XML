@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">(Avbrutet) %1$d appar har avinstallerats</item>
+        <item quantity="one">(Avbrutet) %1$d app har avinstallerats</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">%1$d av %2$d appar har avinstallerats</item>
+        <item quantity="one">%1$d app har avinstallerats</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">%1$d filer kopierades</item>
+        <item quantity="one">%1$d fil kopierades</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer kopieras</item>
+        <item quantity="one">%1$d mappar och %2$d fil kopieras</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">%1$d mappar har kopierats</item>
+        <item quantity="one">%1$d mapp har kopierats</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer kopieras</item>
+        <item quantity="one">%1$d mapp och %2$d fil kopieras</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">%1$d filer har raderats</item>
+        <item quantity="one">%1$d fil har raderats</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">%1$d av %2$d filer har raderats</item>
+        <item quantity="one">%1$d fil har raderats</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer har raderats</item>
+        <item quantity="one">%1$d mappar och %2$d fil har raderats</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">%1$d mappar har raderats</item>
+        <item quantity="one">%1$d mapp har raderats</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer har raderats</item>
+        <item quantity="one">%1$d mapp och %2$d fil har raderats</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">%1$d filer flyttades</item>
+        <item quantity="one">%1$d fil flyttades</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer har flyttats</item>
+        <item quantity="one">%1$d mappar och %2$d fil har flyttats</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">%1$d mappar har flyttats</item>
+        <item quantity="one">%1$d mapp har flyttats</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer har flyttats</item>
+        <item quantity="one">%1$d mapp och %2$d fil har flyttats</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">%1$d av %2$d filer har återställts</item>
+        <item quantity="one">%1$d fil har återställts</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer har återställts</item>
+        <item quantity="one">%1$d mappar och %2$d fil har återställts</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">%1$d mappar har återställts</item>
+        <item quantity="one">%1$d mapp har återställts</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer har återställts</item>
+        <item quantity="one">%1$d mapp och %2$d fil har återställts</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">%1$d av %2$d filer har flyttats till papperskorgen</item>
+        <item quantity="one">%1$d fil har flyttats till papperskorgen</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer har flyttats till papperskorgen</item>
+        <item quantity="one">%1$d mappar och %2$d fil har flyttats till papperskorgen</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">%1$d mappar har flyttats till papperskorgen</item>
+        <item quantity="one">%1$d mapp har flyttats till papperskorgen</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer har flyttats till papperskorgen</item>
+        <item quantity="one">%1$d mapp och %2$d fil har flyttats till papperskorgen</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">Detta raderar även %1$d filer i mappen permanent</item>
+        <item quantity="one">Detta raderar även %1$d fil i mappen permanent</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">Detta är en &lt;b>permanent&lt;/b> åtgärd som &lt;b>inte går att ångra&lt;/b>. Mappen innehåller även %1$d filer som också raderas permanent.</item>
+        <item quantity="one">Detta är en &lt;b>permanent&lt;/b> åtgärd som &lt;b>inte går att ångra&lt;/b>. Mappen innehåller även %1$d fil som också raderas permanent.</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">Vill du radera %1$d filer permanent?</item>
+        <item quantity="one">Vill du radera %1$d fil permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">Vill du radera %1$d mappar och %2$d filer permanent?</item>
+        <item quantity="one">Vill du radera 1 mapp och %2$d filer permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">Vill du radera %1$d mappar och 1 fil permanent?</item>
+        <item quantity="one">Vill du radera 1 mapp och 1 fil permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">Vill du radera %1$d mappar permanent?</item>
+        <item quantity="one">Vill du radera %1$d mapp permanent?</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">Vill du radera %1$d originalfiler?</item>
+        <item quantity="one">Vill du radera %1$d originalfil?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">Vill du radera %1$d originalfiler och %2$d dubblettfiler?</item>
+        <item quantity="one">Vill du radera %1$d originalfil och %2$d dubblettfiler?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">Vill du radera %1$d originalfiler och 1 dubblettfil?</item>
+        <item quantity="one">Vill du radera %1$d originalfil och 1 dubblettfil?</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">Du håller på att rensa %1$d objekt.</item>
+        <item quantity="one">Du håller på att rensa %1$d objekt.</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">Vill du flytta %1$d filer?</item>
+        <item quantity="one">Vill du flytta %1$d fil?</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">Det gick inte att kopiera filerna. %1$s</item>
+        <item quantity="one">Det gick inte att kopiera filen. %1$s</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">%1$d filer kopieras</item>
+        <item quantity="one">%1$d fil kopieras</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer kopieras</item>
+        <item quantity="one">%1$d mappar och %2$d fil kopieras</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">%1$d mapp kopieras</item>
+        <item quantity="one">%1$d mapp kopieras</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer kopieras</item>
+        <item quantity="one">%1$d mapp och %2$d fil kopieras</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">Ta bort %1$d dubblettfiler</item>
+        <item quantity="one">Ta bort %1$d dubblettfil</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">Det gick inte att radera filerna. %1$s</item>
+        <item quantity="one">Det gick inte att radera filen. %1$s</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">Radera %1$d memer</item>
+        <item quantity="one">Radera %1$d meme</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">%1$d filer raderas</item>
+        <item quantity="one">%1$d fil raderas</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer raderas</item>
+        <item quantity="one">%1$d mappar och %2$d fil raderas</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">%1$d mappar raderas</item>
+        <item quantity="one">%1$d mapp raderas</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer raderas</item>
+        <item quantity="one">%1$d mapp och %2$d fil raderas</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">De här objekten finns redan i %s</item>
+        <item quantity="one">Det här objektet finns redan i %s</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">Det gick inte att extrahera filerna. %1$s</item>
+        <item quantity="one">Det gick inte att extrahera filen. %1$s</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">%1$d filer har extraherats</item>
+        <item quantity="one">%1$d fil har extraherats</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">%1$s försökte skicka %2$d filer till %3$s men det misslyckades</item>
+        <item quantity="one">%1$s försökte skicka %2$d fil till %3$s men det misslyckades</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">%1$d filer finns redan i %2$s och kopieras inte</item>
+        <item quantity="one">%1$d fil finns redan i %2$s och kopieras inte</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">%1$d filer finns redan i %2$s och flyttas inte</item>
+        <item quantity="one">%1$d fil finns redan i %2$s och flyttas inte</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">Det gick inte att radera %1$d av %2$d filer. Åtkomst till SD-kort krävs</item>
+        <item quantity="one">Det gick inte att radera %1$d fil. Åtkomst till SD-kort krävs</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">%1$d objekt valda</item>
+        <item quantity="one">%1$d objekt valt</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">%1$d filer kopierades inte korrekt.</item>
+        <item quantity="one">%1$d fil kopierades inte korrekt.</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s filer</item>
+        <item quantity="one">%1$s fil</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">%1$d filer kopieras</item>
+        <item quantity="one">%1$d fil kopieras</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">%1$d filer flyttas</item>
+        <item quantity="one">%1$d fil flyttas</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s, %2$d filer</item>
+        <item quantity="one">%1$s, %2$d fil</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">%1$d filer totalt</item>
+        <item quantity="one">%1$d fil totalt</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s mappar</item>
+        <item quantity="one">%1$s mapp</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">Google Play Protect har upptäckt %1$s skadliga appar på enheten</item>
+        <item quantity="one">Google Play Protect har upptäckt en skadlig app på enheten</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d timmar</item>
+        <item quantity="one">%1$d timme</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">%1$d av %2$d filer gick inte att kopiera</item>
+        <item quantity="one">%1$d fil gick inte att kopiera</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">%1$d av %2$d filer gick inte att radera</item>
+        <item quantity="one">%1$d fil gick inte att radera</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">%1$d av %2$d filer gick inte att flytta</item>
+        <item quantity="one">%1$d fil gick inte att flytta</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">%1$d av %2$d filer gick inte att återställa</item>
+        <item quantity="one">%1$d fil gick inte att återställa</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">%1$d av %2$d filer gick inte att lägga i papperskorgen</item>
+        <item quantity="one">%1$d fil gick inte att lägga i papperskorgen</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">%d misslyckade försök sedan den senaste inloggningen.</item>
+        <item quantity="one">%d misslyckat försök sedan den senaste inloggningen.</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">Radera %1$d mediefiler</item>
+        <item quantity="one">Radera %1$d mediefil</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minuter</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">Det gick inte att flytta filerna. %1$s</item>
+        <item quantity="one">Det gick inte att flytta filen. %1$s.</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">%1$d filer flyttas</item>
+        <item quantity="one">%1$d fil flyttas</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">%1$d mappar och %2$d filer flyttas</item>
+        <item quantity="one">%1$d mappar och %2$d fil flyttas</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">%1$d mappar flyttas</item>
+        <item quantity="one">%1$d mapp flyttas</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">%1$d mapp och %2$d filer flyttas</item>
+        <item quantity="one">%1$d mapp och %2$d fil flyttas</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">Raderas permanent om %1$d dagar</item>
+        <item quantity="one">Raderas permanent om %1$d dag</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">Har tagits bort från Favoriter. Du kan fortfarande hitta dem bland dina filer.</item>
+        <item quantity="one">Har tagits bort från Favoriter. Du kan fortfarande hitta den bland dina filer.</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">Det gick inte att återställa filerna. %1$s</item>
+        <item quantity="one">Det gick inte att återställa filen. %1$s</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">Återställ %1$d filer</item>
+        <item quantity="one">Återställ %1$d fil</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">Återställer %1$d filer</item>
+        <item quantity="one">Återställer %1$d fil</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">Återställer %1$d mappar och %2$d filer</item>
+        <item quantity="one">Återställer %1$d mappar och %2$d fil</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">Återställer %1$d mappar</item>
+        <item quantity="one">Återställer %1$d mapp</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">Återställer %1$d mapp och %2$d filer</item>
+        <item quantity="one">Återställer %1$d mapp och %2$d fil</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">Du kan välja högst %d filer.</item>
+        <item quantity="one">Du kan välja högst %d fil.</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%1$s skickar %2$d filer till %3$s</item>
+        <item quantity="one">%1$s skickar %2$d fil till %3$s</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%1$s skickade %2$d filer till %3$s</item>
+        <item quantity="one">%1$s skickade %2$d fil till %3$s</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">Vill du avbryta kopieringen av %1$d filer?</item>
+        <item quantity="one">Vill du avbryta kopieringen av %2$s?</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">Sluta radera %1$d filer?</item>
+        <item quantity="one">Sluta radera %2$s?</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">Vill du avbryta flytten av %1$d filer?</item>
+        <item quantity="one">Vill du avbryta flytten av %2$s?</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">Vill du avsluta återställningen av %1$d filer?</item>
+        <item quantity="one">Vill du avsluta återställningen av %2$s?</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d av %2$d stjärnor</item>
+        <item quantity="one">%1$d av %2$d stjärnor</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">Flytta %1$d filer till papperskorgen</item>
+        <item quantity="one">Flytta %1$d fil till papperskorgen</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">%1$d dagar kvar</item>
+        <item quantity="one">%1$d dag kvar</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">Det gick inte att flytta filerna till papperskorgen. %1$s</item>
+        <item quantity="one">Det gick inte att flytta filen till papperskorgen. %1$s</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">Flyttar %1$d filer till papperskorgen</item>
+        <item quantity="one">Flyttar %1$d fil till papperskorgen</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">Flyttar %1$d mappar och %2$d filer till papperskorgen</item>
+        <item quantity="one">Flyttar %1$d mappar och %2$d fil till papperskorgen</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">Flyttar %1$d mappar till papperskorgen</item>
+        <item quantity="one">Flyttar %1$d mapp till papperskorgen</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">Flyttar %1$d mapp och %2$d filer till papperskorgen</item>
+        <item quantity="one">Flyttar %1$d mapp och %2$d fil till papperskorgen</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">Avinstallera %1$d appar som du inte har använt nyligen</item>
+        <item quantity="one">Avinstallera %1$d app som du inte har använt nyligen</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">%1$d filer har extraherats.</item>
+        <item quantity="one">%1$d fil har extraherats.</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">och %1$d filer till</item>
+        <item quantity="one">och %1$d fil till</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">%1$d filer extraheras och ordnas efter kategori.</item>
+        <item quantity="one">%1$d fil extraheras och ordnas efter kategori.</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">För många misslyckade försök. Vänta %d sekunder innan du försöker igen.</item>
+        <item quantity="one">För många misslyckade försök. Vänta %d sekund innan du försöker igen.</item>
+    </plurals>
+</resources>

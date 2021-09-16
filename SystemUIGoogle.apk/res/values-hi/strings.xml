@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">बदली गई सेटिंग को लागू करने के लिए, डिवाइस को रीस्टार्ट करना होगा. अपने डिवाइस को रीस्टार्ट करें या रद्द करें.</string>
     <string name="camera_hint">कैमरे के लिए आइकॉन से स्वाइप करें</string>
     <string name="camera_label">कैमरा खोलें</string>
+    <string name="camera_recording_announcement">कैमरा रिकॉर्ड कर रहा है</string>
+    <string name="camera_stopped_recording_announcement">कैमरे ने रिकॉर्ड करना बंद कर दिया है</string>
     <string name="cancel">रद्द करें</string>
     <string name="carrier_network_change_mode">मोबाइल और इंटरनेट सेवा देने वाली कंपनी का नेटवर्क बदल रहा है</string>
     <string name="category_personal">निजी</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">निगरानी</string>
     <string name="debug_networking_category">नेटवर्किंग</string>
     <string name="debug_view_attributes">व्यू एट्रिब्यूट देखने की सुविधा चालू करें</string>
+    <string name="defender_notify_des">बैटरी की परफ़ॉर्मेंस को बेहतर बनाने के लिए, आपके फ़ोन को कुछ समय के लिए चार्ज नहीं किया जा रहा है</string>
+    <string name="defender_notify_learn_more">ज़्यादा जानें</string>
+    <string name="defender_notify_resume_charge">चार्जिंग फिर से शुरू करें</string>
+    <string name="defender_notify_title">चार्जिंग कुछ समय के लिए रोकी गई</string>
     <string name="delete_blob_confirmation_text">क्या आप वाकई शेयर किया गया यह डेटा मिटाना चाहते हैं?</string>
     <string name="delete_blob_text">शेयर किया गया डेटा मिटाएं</string>
     <string name="demo_mode">सिस्टम यूज़र इंटरफ़ेस (यूआई) डेमो मोड</string>
@@ -851,10 +857,10 @@
     <string name="game_dashboard_game_mode_off">गेम मोड: बंद है</string>
     <string name="game_dashboard_record_shortcut_available">रिकॉर्डिंग करने का शॉर्टकट उपलब्ध है</string>
     <string name="game_dashboard_screenshot_shortcut_available">स्क्रीनशॉट लेने का शॉर्टकट उपलब्ध है</string>
-    <string name="game_launch_battery">गेम को बैटरी लाइफ़ बढ़ाने के हिसाब से ऑप्टिमाइज़ किया गया है</string>
+    <string name="game_launch_battery">बैटरी लाइफ़ बढ़ाने के लिए ऑप्टिमाइज़ किया गया है</string>
     <string name="game_launch_change">बदलें</string>
     <string name="game_launch_dnd_on">"गेम के दौरान 'परेशान न करें' सुविधा चालू है"</string>
-    <string name="game_launch_performance">गेम को बेहतर परफ़ॉर्मेंस देने के हिसाब से ऑप्टिमाइज़ किया गया है</string>
+    <string name="game_launch_performance">परफ़ॉर्मेंस के लिए ऑप्टिमाइज़ किया गया है</string>
     <string name="game_menu_game_mode_description">परफ़ॉर्मेंस मोड या बैटरी सेवर मोड में से किसी को चुनें</string>
     <string name="game_menu_game_mode_title">ऑप्टिमाइज़ेशन</string>
     <string name="game_menu_youtube_live_stream_widget_description">अपना गेमप्ले स्ट्रीम करें</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM कार्ड अनलॉक हो रहा है…</string>
     <string name="keyguard_try_fingerprint">खोलने के लिए, फ़िंगरप्रिंट का इस्तेमाल करें</string>
     <string name="keyguard_unlock">खोलने के लिए ऊपर स्वाइप करें</string>
+    <string name="keyguard_unlock_press">अनलॉक करने के लिए दबाएं</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">शेड्यूल, अलार्म, रिमाइंडर, घड़ी</string>
     <string name="kg_enter_confirm_pin_hint">मनचाहे पिन कोड की पुष्टि करें</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">कीबोर्ड स्विचर</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">माइक्रोफ़ोन चालू है</string>
+    <string name="mic_and_camera_recording_announcement">कैमरा और माइक्रोफ़ोन रिकॉर्ड कर रहे हैं</string>
+    <string name="mic_camera_stopped_recording_announcement">कैमरे और माइक्रोफ़ोन ने रिकॉर्ड करना बंद कर दिया है</string>
+    <string name="mic_recording_announcement">माइक्रोफ़ोन रिकॉर्ड कर रहा है</string>
+    <string name="mic_stopped_recording_announcement">माइक्रोफ़ोन ने रिकॉर्ड करना बंद कर दिया है</string>
     <string name="missed_call">मिस्ड कॉल</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">मोबाइल डेटा</string>
@@ -1490,7 +1501,7 @@
     <string name="paused_by_dnd">"'परेशान न करें' की वजह से सूचनाएं नहीं दिख रहीं"</string>
     <string name="people_tile_description">हाल के मैसेज, मिस्ड कॉल, और स्टेटस अपडेट देखें</string>
     <string name="people_tile_title">बातचीत</string>
-    <string name="person_available">ऑनलाइन हैं</string>
+    <string name="person_available">ऑनलाइन है</string>
     <string name="phone_hint">फ़ोन के लिए आइकॉन से स्वाइप करें</string>
     <string name="phone_label">फ़ोन खोलें</string>
     <string name="picture_color_mode">चित्र रंग मोड</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">ऑफ़िस के काम से जुड़े ऐप्लिकेशन</string>
     <string name="quick_step_accessibility_toggle_overview">खास जानकारी टॉगल करें</string>
     <string name="recent_conversations">हाल ही में की गई बातचीत</string>
-    <string name="recents_quick_scrub_onboarding">ऐप्लिकेशन को झटपट स्विच करने के लिए उसे दाईं ओर खींचें और छोड़ें</string>
-    <string name="recents_swipe_up_onboarding">ऐप्लिकेशन बदलने के लिए ऊपर स्वाइप करें</string>
     <string name="remaining_length_format">%1$s शेष</string>
     <string name="remote_input_image_insertion_text">एक इमेज भेजी गई</string>
     <string name="remove_from_settings">सेटिंग से निकालें</string>
@@ -1901,7 +1910,7 @@
     <string name="status_bar_work">वर्क प्रोफ़ाइल</string>
     <string name="status_before_loading">कॉन्टेंट जल्द ही दिखेगा</string>
     <string name="status_unavailable">मौजूद नहीं है</string>
-    <string name="storage_category">डिवाइस की मेमोरी</string>
+    <string name="storage_category">डिवाइस का स्टोरेज</string>
     <string name="stream_accessibility">सुलभता</string>
     <string name="stream_alarm">अलार्म</string>
     <string name="stream_bluetooth_sco">ब्लूटूथ</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">कार्ड जोड़ें</string>
     <string name="wallet_secondary_label_updating">अपडेट हो रहा है</string>
     <string name="wallet_title">वॉलेट</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ऐक्सेस पॉइंट फ़िलहाल भरा हुआ है</string>
     <string name="wifi_cant_connect">कनेक्ट नहीं हो पा रहा है</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' से कनेक्ट नहीं हो पा रहा है"</string>

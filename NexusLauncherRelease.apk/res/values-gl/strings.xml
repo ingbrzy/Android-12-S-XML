@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Engadir ao cartafol con %1$s</string>
     <string name="add_to_home_screen">Engadir á pantalla de inicio</string>
     <string name="added_to_folder">Engadiuse o elemento ao cartafol</string>
+    <string name="added_to_home_screen_accessibility_text">Engadiuse o widget %1$s á pantalla de inicio</string>
     <string name="all_apps_button_label">Lista de aplicacións</string>
     <string name="all_apps_button_personal_label">Lista de aplicacións persoais</string>
     <string name="all_apps_button_work_label">Lista de aplicacións de traballo</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Ao xirar o teléfono</string>
     <string name="allow_rotation_title">Permitir xirar a pantalla de inicio</string>
     <string name="allset_description">Todo está listo para comezar a utilizar o teléfono</string>
+    <string name="allset_hint">Pasa o dedo cara arriba para ir á pantalla de inicio</string>
+    <string name="allset_navigation_settings"><annotation id="link">Configuración da navegación do sistema</annotation></string>
     <string name="allset_title">Todo listo</string>
     <string name="app_downloading_title">Descargando %1$s (%2$s completado)</string>
     <string name="app_info_drop_target_label">Info. da aplicación</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">Esperando para instalar %1$s</string>
     <string name="auto_add_shortcuts_description">Para novas aplicacións</string>
     <string name="auto_add_shortcuts_label">Engadir iconas de aplicacións á pantalla de inicio</string>
+    <string name="back_gesture_feedback_cancelled">Asegúrate de pasar o dedo desde o bordo dereito ou esquerdo ata o medio da pantalla e avanza.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Aprendiches a pasar o dedo desde a dereita para volver. Agora, aprende a cambiar de aplicación.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Completaches o xesto de volver á última pantalla.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Asegúrate de non pasar o dedo demasiado preto da parte inferior da pantalla.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Asegúrate de pasar o dedo desde o bordo dereito ou esquerdo máis afastado.</string>
     <string name="back_gesture_intro_subtitle">Para volver á última pantalla, pasa o dedo cara ao medio desde o bordo dereito ou esquerdo.</string>
     <string name="back_gesture_intro_title">Pasar o dedo para volver</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Podes cambiar a sensibilidade do xesto en Configuración</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Toca fóra para cambiar o nome do cartafol</string>
     <string name="gadget_error_text">Non se puido cargar o widget</string>
     <string name="gadget_setup_text">Toca para rematar a configuración</string>
+    <string name="gesture_tutorial_action_button_label">Feito</string>
     <string name="gesture_tutorial_action_button_label_cancel">Cancelar</string>
     <string name="gesture_tutorial_action_button_label_settings">Configuración</string>
     <string name="gesture_tutorial_action_button_label_skip">Omitir</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Proba a manter premida a pantalla máis tempo antes de soltala.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Asegúrate de pasar o dedo cara arriba desde o bordo inferior da pantalla.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Asegúrate de pasar o dedo cara arriba cun movemento vertical. Despois, fai unha pausa.</string>
+    <string name="overview_gesture_intro_subtitle">Para cambiar de aplicación, pasa o dedo cara arriba desde abaixo, mantén premido e levanta o dedo.</string>
     <string name="overview_gesture_intro_title">Pasar o dedo para cambiar de aplicación</string>
     <string name="overview_selection_pref_desc">Ao cambiar de aplicacións, mantén premido o texto e as imaxes para ver as accións</string>
     <string name="overview_selection_pref_title">Selección en Visión xeral</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Asento</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferencias</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Dunha ollada</string>
     <string name="smartspace_preferences_in_settings_desc">Na parte superior da pantalla de inicio</string>
     <string name="smartspace_preferences_manage">Personalizar</string>
     <string name="smartspace_preferences_turn_off_action">Desactivar</string>

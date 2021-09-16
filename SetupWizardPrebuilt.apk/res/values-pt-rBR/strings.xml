@@ -337,93 +337,72 @@ Dispositivo não aprovisionado"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Sua conta foi adicionada a este smartphone}TABLET{Sua conta foi adicionada a este tablet}other{Sua conta foi adicionada a este dispositivo}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Importante:</b>"
 
-"<ul><li>o proprietário do smartphone pode desinstalar seus apps ou remover totalmente seu perfil.</li>"
+"<ul><li>O proprietário do smartphone pode desinstalar seus apps ou remover totalmente seu perfil.</li>"
 
 "<li>Qualquer usuário pode aceitar permissões de apps atualizadas.</li>"
 
-"<li>Compartilhe este smartphone apenas com pessoas de confiança</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Compartilhe este smartphone apenas com pessoas de confiança.</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
-"<ul><li>o proprietário do tablet pode desinstalar seus apps ou remover totalmente seu perfil.</li>"
+"<ul><li>O proprietário do tablet pode desinstalar seus apps ou remover totalmente seu perfil.</li>"
 
 "<li>Qualquer usuário pode aceitar permissões de apps atualizadas.</li>"
 
-"<li>Compartilhe este tablet apenas com pessoas de confiança</li></ul>}other{<b>Importante:</b>"
+"<li>Compartilhe este tablet apenas com pessoas de confiança.</li></ul>"
+}other{"<b>Importante:</b>"
 
 "<ul><li>o proprietário do dispositivo pode desinstalar seus apps ou remover totalmente seu perfil.</li>"
 
 "<li>Qualquer usuário pode aceitar permissões de apps atualizadas.</li>"
 
-"<li>Compartilhe este dispositivo apenas com pessoas de confiança</li></ul>}}</string>
+"<li>Compartilhe este dispositivo apenas com pessoas de confiança.</li></ul>}}</string>
     <string name="welcome_start_button_label">Iniciar</string>
     <string name="wifi_add_new_network">Adicionar nova rede</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu smartphone rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>"}TABLET{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu tablet rapidamente.
+"<li>definir automaticamente o horário e a data.</li>"
+}TABLET{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu tablet rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>"}other{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu dispositivo rapidamente.
+"<li>definir automaticamente o horário e a data.</li>"
+}other{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu dispositivo rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>}}</string>
+"<li>definir automaticamente o horário e a data.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu smartphone rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>fazer o download de um chip;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>"}TABLET{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu tablet rapidamente.
+"<li>definir automaticamente o horário e a data.</li>"
+}TABLET{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu tablet rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>fazer o download de um chip;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>"}other{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu dispositivo rapidamente.
+"<li>definir automaticamente o horário e a data.</li>"
+}other{Conectar-se a uma rede móvel ou Wi-Fi ajuda você a configurar seu dispositivo rapidamente.
 
 Sem uma conexão, não é possível:
-
 "<li>fazer login na sua Conta do Google;</li>"
-
 "<li>restaurar apps e dados;</li>"
-
 "<li>fazer o download de um chip;</li>"
-
 "<li>receber atualizações de software;</li>"
-
-"<li>definir automaticamente a hora e a data.</li>}}</string>
+"<li>definir automaticamente o horário e a data.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Ponto de acesso temporariamente cheio</string>
     <string name="wifi_check_password_try_again">Verifique a senha e tente novamente</string>
     <string name="wifi_connected_no_internet">Conectada, sem Internet</string>

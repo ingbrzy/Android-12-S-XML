@@ -595,6 +595,8 @@ Pasirinkimas"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Kad pakeitimas būtų pritaikytas, įrenginį reikia paleisti iš naujo. Dabar paleiskite iš naujo arba atšaukite.</string>
     <string name="camera_hint">Perbraukite iš fotoaparato piktogramos</string>
     <string name="camera_label">atidaryti fotoaparatą</string>
+    <string name="camera_recording_announcement">Kamera įrašo</string>
+    <string name="camera_stopped_recording_announcement">Kamera nebeįrašo</string>
     <string name="cancel">Atšaukti</string>
     <string name="carrier_network_change_mode">Keičiamas operatoriaus tinklas</string>
     <string name="category_personal">Asmeninės</string>
@@ -734,6 +736,10 @@ Jei tęsite, gali būti taikomi duomenų naudojimo mokesčiai."</string>
     <string name="debug_monitoring_category">Stebėjimas</string>
     <string name="debug_networking_category">Tinklai</string>
     <string name="debug_view_attributes">Įgalinti peržiūros atributų tikrinimą</string>
+    <string name="defender_notify_des">Telefonas riboja įkrovimą, kad apsaugotų akumuliatorių</string>
+    <string name="defender_notify_learn_more">Sužinokite daugiau</string>
+    <string name="defender_notify_resume_charge">Tęsti įkrovimą</string>
+    <string name="defender_notify_title">Įkrovimas laikinai apribotas</string>
     <string name="delete_blob_confirmation_text">Ar tikrai norite ištrinti šiuos bendrinamus duomenis?</string>
     <string name="delete_blob_text">Ištrinti bendrinamus duomenis</string>
     <string name="demo_mode">Sistemos NS demonstracinis režimas</string>
@@ -1070,6 +1076,7 @@ prioritetiniai"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Atrakinama SD kortelė...</string>
     <string name="keyguard_try_fingerprint">Naudokite kontrolinį kodą, kad atidarytumėte</string>
     <string name="keyguard_unlock">Perbraukite aukštyn, kad atidarytumėte</string>
+    <string name="keyguard_unlock_press">Paspauskite, kad atidarytumėte</string>
     <string name="keywords_adb_wireless">ADB, derinti, kūrėjas</string>
     <string name="keywords_alarms_and_reminders">tvarkaraštis, signalas, priminimas, laikrodis</string>
     <string name="kg_enter_confirm_pin_hint">Patvirtinkite pageidaujamą PIN kodą</string>
@@ -1233,6 +1240,10 @@ Bandykite dar kartą po %2$d sek."</string>
     <string name="menu_ime">Klaviatūros perjungiklis</string>
     <string name="messages_count_overflow_indicator">%d +</string>
     <string name="mic_active">Mikrofonas aktyvus</string>
+    <string name="mic_and_camera_recording_announcement">Kamera ir mikrofonas įrašo</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera ir mikrofonas nebeįrašo</string>
+    <string name="mic_recording_announcement">Mikrofonas įrašo</string>
+    <string name="mic_stopped_recording_announcement">Mikrofonas nebeįrašo</string>
     <string name="missed_call">Praleistas skambutis</string>
     <string name="mobile_carrier_text_format">„%1$s“, %2$s</string>
     <string name="mobile_data">Mobilieji duomenys</string>
@@ -1706,8 +1717,6 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="quick_settings_work_mode_label">Darbo programos</string>
     <string name="quick_step_accessibility_toggle_overview">Perjungti apžvalgą</string>
     <string name="recent_conversations">Paskutiniai pokalbiai</string>
-    <string name="recents_quick_scrub_onboarding">Vilkite į dešinę, kad greitai perjungtumėte programas</string>
-    <string name="recents_swipe_up_onboarding">Perbraukite aukštyn, kad perjungtumėte programas</string>
     <string name="remaining_length_format">Liko %1$s</string>
     <string name="remote_input_image_insertion_text">išsiuntė vaizdą</string>
     <string name="remove_from_settings">Pašalinti iš nustatymų</string>
@@ -2117,6 +2126,7 @@ Bet kuris naudotojas gali atnaujinti visų kitų naudotojų programas."</string>
     <string name="wallet_secondary_label_no_card">Pridėti kortelę</string>
     <string name="wallet_secondary_label_updating">Atnaujinama</string>
     <string name="wallet_title">Piniginė</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Prieigos taškas laikinai visiškai užimtas</string>
     <string name="wifi_cant_connect">Nepavyksta prisijungti</string>
     <string name="wifi_cant_connect_to_ap">Nepavyksta prisijungti prie „%1$s“</string>

@@ -595,6 +595,8 @@ Valg"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Din enhed skal genstartes for at anvende denne ændring. Genstart nu, eller annuller.</string>
     <string name="camera_hint">Stryg fra kameraikonet</string>
     <string name="camera_label">åbn kamera</string>
+    <string name="camera_recording_announcement">Kameraet optager</string>
+    <string name="camera_stopped_recording_announcement">Kameraet er stoppet med at optage</string>
     <string name="cancel">Annuller</string>
     <string name="carrier_network_change_mode">Skift af mobilnetværk</string>
     <string name="category_personal">Personlig</string>
@@ -734,6 +736,10 @@ Hvis du fortsætter, bliver du muligvis opkrævet betaling for dit dataforbrug."
     <string name="debug_monitoring_category">Overvågning</string>
     <string name="debug_networking_category">Netværk</string>
     <string name="debug_view_attributes">Aktivér visning af attributinspektion</string>
+    <string name="defender_notify_des">Din telefon begrænser opladningen for at passe på batteriet</string>
+    <string name="defender_notify_learn_more">Få flere oplysninger</string>
+    <string name="defender_notify_resume_charge">Genoptag opladning</string>
+    <string name="defender_notify_title">Opladningen er midlertidigt begrænset</string>
     <string name="delete_blob_confirmation_text">Er du sikker på, at du vil slette disse delte data?</string>
     <string name="delete_blob_text">Slet delte data</string>
     <string name="demo_mode">Demotilstand for systemets brugerflade</string>
@@ -1070,6 +1076,7 @@ Kontakt din tjenesteudbyder for at få et nyt SIM-kort."</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Låser SIM-kortet op…</string>
     <string name="keyguard_try_fingerprint">Brug fingeraftryk for at åbne</string>
     <string name="keyguard_unlock">Stryg opad for at åbne</string>
+    <string name="keyguard_unlock_press">Tryk for at åbne</string>
     <string name="keywords_adb_wireless">adb, fejlfinding, dev</string>
     <string name="keywords_alarms_and_reminders">planlæg, alarm, påmindelse, ur</string>
     <string name="kg_enter_confirm_pin_hint">Bekræft den ønskede pinkode</string>
@@ -1233,6 +1240,10 @@ Prøv igen om %2$d sekunder."</string>
     <string name="menu_ime">Tastaturskifter</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofonen er slået til</string>
+    <string name="mic_and_camera_recording_announcement">Kameraet og mikrofonen optager</string>
+    <string name="mic_camera_stopped_recording_announcement">Kameraet og mikrofonen er stoppet med at optage</string>
+    <string name="mic_recording_announcement">Mikrofonen optager</string>
+    <string name="mic_stopped_recording_announcement">Mikrofonen er stoppet med at optage</string>
     <string name="missed_call">Ubesvaret opkald</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobildata</string>
@@ -1706,8 +1717,6 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="quick_settings_work_mode_label">Arbejdsapps</string>
     <string name="quick_step_accessibility_toggle_overview">Slå Oversigt til/fra</string>
     <string name="recent_conversations">Seneste samtaler</string>
-    <string name="recents_quick_scrub_onboarding">Træk til højre for hurtigt at skifte app</string>
-    <string name="recents_swipe_up_onboarding">Stryg opad for at skifte apps</string>
     <string name="remaining_length_format">%1$s tilbage</string>
     <string name="remote_input_image_insertion_text">sendte et billede</string>
     <string name="remove_from_settings">Fjern fra Indstillinger</string>
@@ -2117,6 +2126,7 @@ Alle brugere kan opdatere apps for alle de andre brugere."</string>
     <string name="wallet_secondary_label_no_card">Tilføj et kort</string>
     <string name="wallet_secondary_label_updating">Opdaterer</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Adgangspunktet er midlertidigt fuldt</string>
     <string name="wifi_cant_connect">Kan ikke forbinde</string>
     <string name="wifi_cant_connect_to_ap">Der kan ikke oprettes forbindelse til \"%1$s\"</string>

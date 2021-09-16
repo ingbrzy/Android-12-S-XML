@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="shortcut_basic_navigation">
+        <item>@string/shortcut_perform_click_action</item>
+        <item>@string/shortcut_perform_long_click_action</item>
+        <item>@string/shortcut_previous</item>
+        <item>@string/shortcut_next</item>
+        <item>@string/shortcut_first_in_screen</item>
+        <item>@string/shortcut_last_in_screen</item>
+        <item>@string/shortcut_scroll_back</item>
+        <item>@string/shortcut_scroll_forward</item>
+    </string-array>
     <string-array name="shortcut_system_actions">
         <item>@string/shortcut_home</item>
         <item>@string/shortcut_back</item>
+    </string-array>
+    <string-array name="shortcut_value_basic_navigation">
+        <item>@string/shortcut_value_perform_click_action</item>
+        <item>@string/shortcut_value_perform_long_click_action</item>
+        <item>@string/shortcut_value_previous</item>
+        <item>@string/shortcut_value_next</item>
+        <item>@string/shortcut_value_first_in_screen</item>
+        <item>@string/shortcut_value_last_in_screen</item>
+        <item>@string/shortcut_value_scroll_back</item>
+        <item>@string/shortcut_value_scroll_forward</item>
     </string-array>
     <string-array name="shortcut_value_system_actions">
         <item>@string/shortcut_value_home</item>

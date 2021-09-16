@@ -17,14 +17,21 @@
         <item>15 dəqiqə</item>
         <item>20 dəqiqə</item>
         <item>25 dəqiqə</item>
-        <item>Heç vaxt</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Yuxu vaxtından 15 dəqiqə öncə</item>
+        <item>Yuxu vaxtından 30 dəqiqə öncə</item>
+        <item>Yuxu vaxtından 45 dəqiqə öncə</item>
+        <item>Yuxu vaxtından əvvəl 1 saat</item>
+        <item>Deaktiv</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analoq</item>
         <item>Rəqəmsal</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Heç vaxt</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 saniyə</item>
         <item>10 saniyə</item>
         <item>15 saniyə</item>
@@ -37,6 +44,35 @@
         <item>50 saniyə</item>
         <item>55 saniyə</item>
         <item>60 saniyə</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 dəqiqə sonra dayansın</item>
+        <item>20 dəqiqə sonra dayansın</item>
+        <item>30 dəqiqə sonra dayansın</item>
+        <item>40 dəqiqə sonra dayansın</item>
+        <item>50 dəqiqə sonra dayansın</item>
+        <item>1 saat sonra dayansın</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 dəq sonra dayansın</item>
+        <item>20 dəq sonra dayansın</item>
+        <item>30 dəq sonra dayansın</item>
+        <item>40 dəq sonra dayansın</item>
+        <item>50 dəq sonra dayansın</item>
+        <item>1 saat sonra dayansın</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 dəqiqə</item>
+        <item>20 dəqiqə</item>
+        <item>30 dəqiqə</item>
+        <item>40 dəqiqə</item>
+        <item>50 dəqiqə</item>
+        <item>1 saat</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 dəqiqə</item>
@@ -69,18 +105,6 @@
         <item>28 dəqiqə</item>
         <item>29 dəqiqə</item>
         <item>30 dəqiqə</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Dəhşət sürətlisiniz.</item>
-        <item>Əməyinizin bəhrəsinin dadını çıxardın.</item>
-        <item>Androidlər sürətli olaraq bilinir, amma sizin qədər deyil.</item>
-        <item>Ohh.</item>
-        <item>L33t dəfə.</item>
-        <item>Son dərəcə gözəl bir sürət.</item>
-        <item>Zaman tunelini bir daha sınayaq.</item>
-        <item>Sadəcə sola hoppan.</item>
-        <item>Tələsmək üçün bir palitranız var.</item>
-        <item>Fotonik sürət.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marşall Adaları</item>
@@ -170,7 +194,7 @@
         <item>Cakarta</item>
     </string-array>
     <string-array name="volume_button_setting_entries">
-        <item>Təxirə sal</item>
+        <item>Ertələyin</item>
         <item>Kənarlaşdır</item>
         <item>Səsə nəzarət edin</item>
     </string-array>

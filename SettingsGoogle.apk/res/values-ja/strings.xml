@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">言語と入力</string>
     <string name="lift_to_wake_title">指を離してスリープ状態から復帰</string>
-    <string name="lockdown_settings_summary">Smart Lock、顔認証、指紋認証、ロック画面上の通知をすべて無効にするオプションを電源ボタンの長押しで表示します</string>
-    <string name="lockdown_settings_title">ロックダウン オプションの表示</string>
+    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_bar_up_description">前に戻る</string>
     <string name="locked_work_profile_notification_title">仕事用プロファイルのロック時</string>
     <string name="lockscreen_bypass_summary">ロック解除後、最後に使用していた画面に直接移動する</string>
     <string name="lockscreen_bypass_title">ロック画面をスキップ</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">仕事用プロファイルの通知</string>
     <string name="reset_dashboard_summary">ネットワーク、アプリ、デバイスをリセットできます</string>
     <string name="reset_dashboard_title">リセット オプション</string>
-    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
     <string name="screensaver_settings_title">スクリーンセーバー</string>
     <string name="screen_timeout">画面消灯</string>
     <string name="screen_zoom_title">表示サイズ</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">コンテンツに応じて、リフレッシュ レートを自動的に 60 Hz から 90 Hz に変更します。バッテリー使用量が増えます。</string>
     <string name="accessibility_vibration_settings_title">バイブレーションとハプティクス</string>
     <string name="emergency_gesture_screen_title">緊急 SOS</string>
-    <string name="abc_action_bar_up_description">前に戻る</string>
+    <string name="abc_action_mode_done">完了</string>
     <string name="vibrate_for_calls_category_title">通話</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">ウォレットを表示</string>
     <string name="lockscreen_privacy_controls_setting_toggle">デバイス コントロールを表示</string>
     <string name="lockscreen_privacy_wallet_summary">ロック画面とクイック設定からウォレットへのアクセスを許可します</string>
     <string name="lockscreen_privacy_controls_summary">ロック画面にデバイスのコントロールを表示します</string>
-    <string name="abc_action_menu_overflow_description">その他のオプション</string>
-    <string name="abc_action_mode_done">完了</string>
     <string name="abc_activity_chooser_view_see_all">すべて表示</string>
     <string name="abc_activitychooserview_choose_application">アプリの選択</string>
     <string name="abc_capital_off">OFF</string>
@@ -806,9 +804,9 @@
     <string name="aware_disabled_preference_dialog_content" />
     <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">後で行う</string>
-    <string name="aware_footer_when_airplane_batterysaver_on">機内モードやバッテリー セーバーがオンのため、Motion Sense はご利用いただけません</string>
-    <string name="aware_footer_when_airplane_on">機内モードがオンのため、Motion Sense はご利用いただけません</string>
-    <string name="aware_footer_when_batterysaver_on">バッテリー セーバーがオンのため、Motion Sense はご利用いただけません</string>
+    <string name="aware_footer_when_airplane_batterysaver_on">機内モードやバッテリー セーバーが ON のため、Motion Sense は利用できません</string>
+    <string name="aware_footer_when_airplane_on">機内モードが ON のため、Motion Sense はご利用いただけません</string>
+    <string name="aware_footer_when_batterysaver_on">バッテリー セーバーが ON のため、Motion Sense は利用できません</string>
     <string name="aware_gesture_summary_off">クイック ジェスチャー: オン、Active Edge: オフ</string>
     <string name="aware_gesture_summary_on_non_assist">クイック ジェスチャー: オン、Active Edge: オン</string>
     <string name="aware_gesture_summary_on_with_assist">クイック ジェスチャー: オン、Active Edge: オン、デバイスをスクイーズしてアシスタントに話しかける</string>
@@ -820,8 +818,8 @@
     <string name="aware_settings_suggestion_summary" />
     <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">機内モードやバッテリー セーバーがオンのため、ご利用いただけません</string>
-    <string name="aware_summary_when_airplane_on">機内モードがオンのため、ご利用いただけません</string>
-    <string name="aware_summary_when_batterysaver_on">バッテリー セーバーがオンのため、ご利用いただけません</string>
+    <string name="aware_summary_when_airplane_on">機内モードが ON のため、ご利用いただけません</string>
+    <string name="aware_summary_when_batterysaver_on">バッテリー セーバーが ON のため利用できません</string>
     <string name="aware_summary_when_bedtime_on">おやすみ時間モードが ON のため利用できません</string>
     <string name="aware_wake_display_summary" />
     <string name="aware_wake_display_summary_aod_off" />
@@ -1604,7 +1602,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="columbus_setting_sensitivity_title">強いタップが必要</string>
     <string name="computing_size">計算中...</string>
     <string name="condition_airplane_summary">ネットワークは利用できません</string>
-    <string name="condition_airplane_title">機内モードが ON</string>
+    <string name="condition_airplane_title">機内モードは ON です</string>
     <string name="condition_battery_summary">機能が制限されます</string>
     <string name="condition_battery_title">バッテリー セーバー ON</string>
     <string name="condition_bg_data_summary">機能が制限されます</string>
@@ -4129,7 +4127,7 @@ PIN は紛失・盗難時にスマートフォンを保護します。"</string>
     <string name="reverse_charging_off_low_battery_summary">OFF / スマートフォンのバッテリー残量が %1$s 未満</string>
     <string name="reverse_charging_off_sharing_level_summary">OFF / バッテリー残量が共有レベルを下回っています</string>
     <string name="reverse_charging_overheat_summary">Pixel が過熱しているため利用できません。スマートフォンの温度が下がってから、もう一度お試しください。</string>
-    <string name="reverse_charging_power_save_mode_is_on_message">バッテリー セーバーがオンのため利用できません</string>
+    <string name="reverse_charging_power_save_mode_is_on_message">バッテリー セーバーが ON のため利用できません</string>
     <string name="reverse_charging_sharing_level_message">バッテリー残量が共有レベルを下回っているため利用できません</string>
     <string name="reverse_charging_switch_summary">Pixel の背面にデバイスを置きます</string>
     <string name="reverse_charging_switch_title">Pixel の背面に置いた他のデバイスをワイヤレス充電できます</string>

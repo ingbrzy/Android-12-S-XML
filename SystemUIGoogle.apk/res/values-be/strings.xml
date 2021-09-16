@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Перазагрузіце прыладу, каб прымяніць гэта змяненне. Перазагрузіце ці скасуйце.</string>
     <string name="camera_hint">Камера: правядзіце пальцам ад значка</string>
     <string name="camera_label">адкрыць камеру</string>
+    <string name="camera_recording_announcement">Ідзе запіс з выкарыстаннем камеры</string>
+    <string name="camera_stopped_recording_announcement">Запіс з выкарыстаннем камеры спынены</string>
     <string name="cancel">Скасаваць</string>
     <string name="carrier_network_change_mode">Змяненне аператара сеткі</string>
     <string name="category_personal">Асабісты</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Маніторынг</string>
     <string name="debug_networking_category">Сеткі</string>
     <string name="debug_view_attributes">Уключыць прагляд атрыбутаў</string>
+    <string name="defender_notify_des">Тэлефон абмяжоўвае зарадку, каб павялічыць тэрмін службы акумулятара</string>
+    <string name="defender_notify_learn_more">Даведацца больш</string>
+    <string name="defender_notify_resume_charge">Узнавіць зарадку</string>
+    <string name="defender_notify_title">Зарадка часова абмежавана</string>
     <string name="delete_blob_confirmation_text">Сапраўды выдаліць гэтыя абагуленыя даныя?</string>
     <string name="delete_blob_text">Выдаліць абагуленыя даныя</string>
     <string name="demo_mode">Рэжым дэманстрацыі сістэмнага інтэрфейсу карыстальніка</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Ідзе разблакіроўка SIM-карты…</string>
     <string name="keyguard_try_fingerprint">Каб адкрыць, скарыстайце адбітак пальца</string>
     <string name="keyguard_unlock">Каб адкрыць, прагарніце ўверх</string>
+    <string name="keyguard_unlock_press">Націсніце, каб адкрыць</string>
     <string name="keywords_adb_wireless">adb, адладка, распрацоўшчык</string>
     <string name="keywords_alarms_and_reminders">расклад, будзільнік, напамін, гадзіннік</string>
     <string name="kg_enter_confirm_pin_hint">Пацвердзіце пажаданы PIN-код</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Пераключальнік клавіятуры</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Мікрафон актыўны</string>
+    <string name="mic_and_camera_recording_announcement">Ідзе запіс з выкарыстаннем камеры і мікрафона</string>
+    <string name="mic_camera_stopped_recording_announcement">Запіс з выкарыстаннем камеры і мікрафона спынены</string>
+    <string name="mic_recording_announcement">Ідзе запіс з выкарыстаннем мікрафона</string>
+    <string name="mic_stopped_recording_announcement">Запіс з выкарыстаннем мікрафона спынены</string>
     <string name="missed_call">Прапушчаны выклік</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Маб. перадача даных</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Працоўныя праграмы</string>
     <string name="quick_step_accessibility_toggle_overview">Уключыць/выключыць агляд</string>
     <string name="recent_conversations">Нядаўнія размовы</string>
-    <string name="recents_quick_scrub_onboarding">Каб хутка пераключыцца паміж праграмамі, перацягніце ўправа</string>
-    <string name="recents_swipe_up_onboarding">Правядзіце ўверх, каб пераключыць праграмы</string>
     <string name="remaining_length_format">Засталося %1$s</string>
     <string name="remote_input_image_insertion_text">адпраўлены відарыс</string>
     <string name="remove_from_settings">Выдаліць з налад</string>
@@ -1979,7 +1988,7 @@
     <string name="tts_status_not_supported">%1$s не падтрымліваецца</string>
     <string name="tts_status_ok">%1$s цалкам падтрымліваецца</string>
     <string name="tts_status_requires_network">Для %1$s патрабуецца падлучэнне да сеткі</string>
-    <string name="tts_status_title">Статус мовы па змаўчанні</string>
+    <string name="tts_status_title">Статус стандартнай мовы</string>
     <string name="tuner_app">Праграма %1$s</string>
     <string name="tuner_circle">Круг</string>
     <string name="tuner_full_importance_settings">Пашыранае кіраванне апавяшчэннямі</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Дадаць карту</string>
     <string name="wallet_secondary_label_updating">Ідзе абнаўленне</string>
     <string name="wallet_title">Кашалёк</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Пункт доступу часова заняты</string>
     <string name="wifi_cant_connect">Немагчыма падключыцца</string>
     <string name="wifi_cant_connect_to_ap">Немагчыма падключыцца да сеткі \"%1$s\"</string>

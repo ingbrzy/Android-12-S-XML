@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">ഭാഷകളും ഇൻപുട്ടും</string>
     <string name="lift_to_wake_title">സജീവമാക്കാൻ ലിഫ്റ്റുചെയ്യുക</string>
-    <string name="lockdown_settings_summary">Smart Lock, ഫെയ്‌സ് അൺലോക്ക്, ഫിംഗർപ്രിന്റ് അൺലോക്ക്, ലോക്ക് സ്‌ക്രീനിലെ അറിയിപ്പുകൾ എന്നിവ ഓഫാക്കുന്ന പവർ ബട്ടൺ ഓപ്‌ഷൻ പ്രദർശിപ്പിക്കുക</string>
-    <string name="lockdown_settings_title">ലോക്ക്‌ഡൗൺ ഓപ്‌ഷൻ കാണിക്കുക</string>
+    <string name="abc_action_bar_home_description">ഹോമിലേക്ക് പോവുക</string>
+    <string name="abc_action_bar_up_description">മുകളിലേക്ക് പോവുക</string>
     <string name="locked_work_profile_notification_title">ഔദ്യോഗിക പ്രൊഫൈൽ ലോക്ക് ചെയ്‌തിരിക്കുമ്പോൾ</string>
     <string name="lockscreen_bypass_summary">അൺലോക്ക് ചെയ്ത ശേഷം, അവസാനം ഉപയോഗിച്ച സ്‌ക്രീനിലേക്ക് നേരിട്ട് പോകുക</string>
     <string name="lockscreen_bypass_title">ലോക്ക് സ്‌ക്രീൻ ഒഴിവാക്കുക</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">ഔദ്യോഗിക അറിയിപ്പുകൾ</string>
     <string name="reset_dashboard_summary">നെറ്റ്‌വർക്കോ ആപ്പുകളോ ഉപകരണമോ റീസെറ്റുചെയ്യാം</string>
     <string name="reset_dashboard_title">റീസെറ്റ് ഓപ്ഷനുകൾ</string>
-    <string name="abc_action_bar_home_description">ഹോമിലേക്ക് പോവുക</string>
+    <string name="abc_action_menu_overflow_description">കൂടുതൽ ഓപ്ഷനുകൾ</string>
     <string name="screensaver_settings_title">സ്ക്രീൻ സേവർ</string>
     <string name="screen_timeout">സ്ക്രീൻ ടൈംഔട്ട്</string>
     <string name="screen_zoom_title">ഡിസ്പ്ലേ വലുപ്പം</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">ചില ഉള്ളടക്കങ്ങളുടെ പുതുക്കൽ നിരക്ക് 60 Hz-ൽ നിന്നും 90 Hz-ലേക്ക് സ്വയമേവ ഉയർത്തുന്നു. ബാറ്ററി ഉപയോഗം വർദ്ധിപ്പിക്കുന്നു.</string>
     <string name="accessibility_vibration_settings_title">വെെബ്രേഷനും സ്‌പർശനങ്ങളും</string>
     <string name="emergency_gesture_screen_title">അടിയന്തര SOS</string>
-    <string name="abc_action_bar_up_description">മുകളിലേക്ക് പോവുക</string>
+    <string name="abc_action_mode_done">പൂർത്തിയായി</string>
     <string name="vibrate_for_calls_category_title">കോളുകൾ</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Wallet കാണിക്കുക</string>
     <string name="lockscreen_privacy_controls_setting_toggle">ഉപകരണ നിയന്ത്രണങ്ങൾ കാണിക്കുക</string>
     <string name="lockscreen_privacy_wallet_summary">ലോക്ക് സ്‌ക്രീനിൽ നിന്നും ദ്രുത ക്രമീകരണത്തിൽ നിന്നും Wallet-ലേക്ക് ആക്‌സസ് അനുവദിക്കുക</string>
     <string name="lockscreen_privacy_controls_summary">ലോക്ക് ചെയ്‌തിരിക്കുമ്പോൾ നിയന്ത്രണങ്ങൾ ആക്‌സസ് ചെയ്യുക</string>
-    <string name="abc_action_menu_overflow_description">കൂടുതൽ ഓപ്ഷനുകൾ</string>
-    <string name="abc_action_mode_done">പൂർത്തിയായി</string>
     <string name="abc_activity_chooser_view_see_all">എല്ലാം കാണുക</string>
     <string name="abc_activitychooserview_choose_application">ആപ്പ് തിരഞ്ഞെടുക്കുക</string>
     <string name="abc_capital_off">ഓഫ്</string>
@@ -1924,7 +1922,7 @@ CA സർട്ടിഫിക്കറ്റ് ഇൻസ്‌റ്റാൾ 
     <string name="data_usage_tab_ethernet">ഇതര്‍നെറ്റ്</string>
     <string name="data_usage_tab_mobile">മൊബൈൽ</string>
     <string name="data_usage_tab_wifi">വൈഫൈ</string>
-    <string name="data_usage_template">%1$s ഉപയോഗിച്ചു %2$s</string>
+    <string name="data_usage_template">%2$s കാലയളവിൽ %1$s ഉപയോഗിച്ചു</string>
     <string name="data_usage_title">പ്രാഥമിക ഡാറ്റ</string>
     <string name="data_usage_total_during_range">%2$s: ഏകദേശം %1$s ഉപയോഗിച്ചു.</string>
     <string name="data_usage_total_during_range_mobile">നിങ്ങളുടെ ഫോൺ കണക്കാക്കിയത് അനുസരിച്ച് %2$s: ഏകദേശം %1$s ഉപയോഗിച്ചു. നിങ്ങളുടെ കാരിയർ ഡാറ്റ ഉപയോഗം കണക്കാക്കുന്നത് മറ്റൊരു വിധത്തിലാകാം.</string>

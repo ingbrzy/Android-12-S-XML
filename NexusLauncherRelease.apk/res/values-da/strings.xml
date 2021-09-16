@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Føj til mappen, der indeholder %1$s</string>
     <string name="add_to_home_screen">Føj til startskærm</string>
     <string name="added_to_folder">Elementet blev føjet til mappen</string>
+    <string name="added_to_home_screen_accessibility_text">Widgetten %1$s blev føjet til startskærmen</string>
     <string name="all_apps_button_label">Liste med apps</string>
     <string name="all_apps_button_personal_label">Liste over personlige apps</string>
     <string name="all_apps_button_work_label">Liste over apps til arbejdet</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Når telefonen roteres</string>
     <string name="allow_rotation_title">Tillad rotation af startskærmen</string>
     <string name="allset_description">Du er klar til at bruge din telefon</string>
+    <string name="allset_hint">Stryg opad for at gå til startsiden</string>
+    <string name="allset_navigation_settings"><annotation id="link">Indstillinger for systemnavigation</annotation></string>
     <string name="allset_title">Alt er parat!</string>
     <string name="app_downloading_title">%1$s downloades. %2$s er gennemført</string>
     <string name="app_info_drop_target_label">Appinfo</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s venter på at installere</string>
     <string name="auto_add_shortcuts_description">For nye apps</string>
     <string name="auto_add_shortcuts_label">Føj appikoner til startskærmen</string>
+    <string name="back_gesture_feedback_cancelled">Stryg fra højre eller venstre kant mod midten af skærmen, og løft fingeren.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Du har lært, hvordan du stryger fra højre for at gå tilbage. Nu skal du se, hvordan du skifter app.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Du har fuldført bevægelsen for Gå tilbage.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Undgå at stryge for tæt på bunden af skærmen.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Stryg fra kanten yderst til højre eller venstre.</string>
     <string name="back_gesture_intro_subtitle">Stryg mod midten af skærmen fra venstre eller højre kant for at gå tilbage til den seneste skærm.</string>
     <string name="back_gesture_intro_title">Stryg for at gå tilbage</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Juster følsomheden for bevægelsen Gå tilbage i Indstillinger</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Tryk for at gemme omdøbningen</string>
     <string name="gadget_error_text">Widgetten kan ikke indlæses</string>
     <string name="gadget_setup_text">Tryk for at fuldføre konfigurationen</string>
+    <string name="gesture_tutorial_action_button_label">Luk</string>
     <string name="gesture_tutorial_action_button_label_cancel">Annuller</string>
     <string name="gesture_tutorial_action_button_label_settings">Indstillinger</string>
     <string name="gesture_tutorial_action_button_label_skip">Spring over</string>
@@ -141,7 +147,7 @@
     <string name="gleam_tooltip_text">Hold den tekst eller det billede, du vil vælge, nede</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">Søg i apps m.m.</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">Du har fuldført bevægelsen for Gå til startskærmen. Som det næste kan du se, hvordan du går til startskærmen.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">Du har fuldført bevægelsen for Gå til startskærmen. Som det næste kan du se, hvordan du går tilbage.</string>
     <string name="home_gesture_feedback_complete_without_follow_up">Du har fuldført bevægelsen for Gå til startskærmen.</string>
     <string name="home_gesture_feedback_overview_detected">Undlad at holde fingeren stille, indtil du løfter fingeren.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Stryg opad fra bunden af skærmen.</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Prøv at holde fingeren nede på vinduet i længere tid, inden du løfter den.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Stryg opad fra bunden af skærmen.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Stryg lige opad, og hold derefter fingeren stille.</string>
+    <string name="overview_gesture_intro_subtitle">Skift mellem apps ved at stryge opad fra bunden af skærmen, holde fingeren stille og løfte den.</string>
     <string name="overview_gesture_intro_title">Stryg for at skifte app</string>
     <string name="overview_selection_pref_desc">Når du skifter apps, kan du holde tekst og billeder nede for at se handlinger</string>
     <string name="overview_selection_pref_title">Markering i oversigt</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Sæde</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Præferencer</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Overblik</string>
     <string name="smartspace_preferences_in_settings_desc">Øverst på din startskærm</string>
     <string name="smartspace_preferences_manage">Tilpas</string>
     <string name="smartspace_preferences_turn_off_action">Deaktiver</string>

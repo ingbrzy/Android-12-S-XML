@@ -17,14 +17,21 @@
         <item>15 minuto</item>
         <item>20 minuto</item>
         <item>25 minuto</item>
-        <item>Hindi Kailanman</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minuto bago ang oras ng pagtulog</item>
+        <item>30 minuto bago ang oras ng pagtulog</item>
+        <item>45 minuto bago ang oras ng pagtulog</item>
+        <item>1 oras bago ang oras ng pagtulog</item>
+        <item>I-off</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Digital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Hindi Kailanman</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 segundo</item>
         <item>10 segundo</item>
         <item>15 segundo</item>
@@ -37,6 +44,35 @@
         <item>50 segundo</item>
         <item>55 segundo</item>
         <item>60 segundo</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Huminto pagkalipas ng 10 minuto</item>
+        <item>Huminto pagkalipas ng 20 minuto</item>
+        <item>Huminto pagkalipas ng 30 minuto</item>
+        <item>Huminto pagkalipas ng 40 minuto</item>
+        <item>Huminto pagkalipas ng 50 minuto</item>
+        <item>Ihinto makalipas ang 1 oras</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Ihinto makalipas ang 10 min</item>
+        <item>Ihinto makalipas ang 20 min</item>
+        <item>Ihinto makalipas ang 30 min</item>
+        <item>Ihinto makalipas ang 40 min</item>
+        <item>Ihinto makalipas ang 50 min</item>
+        <item>Ihinto makalipas ang 1 oras</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuto</item>
+        <item>20 minuto</item>
+        <item>30 minuto</item>
+        <item>40 minuto</item>
+        <item>50 minuto</item>
+        <item>1 oras</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuto</item>
@@ -69,18 +105,6 @@
         <item>28 minuto</item>
         <item>29 na minuto</item>
         <item>30 minuto</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Napakabilis mo naman.</item>
-        <item>I-enjoy ang mga pinagsikapan mo.</item>
-        <item>Kilalang mabilis ang mga Android, ngunit hindi kasing bilis mo!</item>
-        <item>Phew.</item>
-        <item>L33t times.</item>
-        <item>Lubhang napakabilis.</item>
-        <item>Mag-time warp tayo ulit.</item>
-        <item>Isang talon lang pakaliwa.</item>
-        <item>Mahilig kang magmadali.</item>
-        <item>Kasing bilis ng liwanag.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall Islands</item>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Тилдер жана киргизүү ыкмасы</string>
     <string name="lift_to_wake_title">Ойготуу үчүн көтөрүү</string>
-    <string name="lockdown_settings_summary">"Кубат баскычынын менюсуна Smart Lock'ту, Жүзүнөн таанып ачуу, Манжа изи менен ачуу параметрин жана кулпуланган экрандагы билдирмелерди өчүрө турган функция кошулат"</string>
-    <string name="lockdown_settings_title">Кулпулоо опциясын көрсөтүү</string>
+    <string name="abc_action_bar_home_description">Башкы бетке чабыттоо</string>
+    <string name="abc_action_bar_up_description">Мурунку экранга өтүү</string>
     <string name="locked_work_profile_notification_title">Жумуш профили кулпуланганда</string>
     <string name="lockscreen_bypass_summary">Экрандын кулпусу ачылгандан кийин, акыркы ачылган экранга өтөсүз</string>
     <string name="lockscreen_bypass_title">Экран кулпуcун өткөрүп жиберүү</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Жумуш боюнча билдирмелер</string>
     <string name="reset_dashboard_summary">Тармактын, колдонмолордун же түзмөктүн жөндөөлөрүн баштапкы абалга келтирсеңиз болот</string>
     <string name="reset_dashboard_title">Кайра коюу опциялары</string>
-    <string name="abc_action_bar_home_description">Башкы бетке чабыттоо</string>
+    <string name="abc_action_menu_overflow_description">Дагы параметрлер</string>
     <string name="screensaver_settings_title">Көшөгө</string>
     <string name="screen_timeout">Экран канчадан кийин өчөт</string>
     <string name="screen_zoom_title">Көрсөтүлүүчү өлчөмү</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Айрым материалдар үчүн экрандын жаңыруу жыштыгы автоматтык түрдө 60 Гцтен 90 Гцке өзгөрүлөт (батарея тез отуруп калышы мүмкүн).</string>
     <string name="accessibility_vibration_settings_title">Дирилдөө жана сенсорлор</string>
     <string name="emergency_gesture_screen_title">Кырсыктаганда чалуу</string>
-    <string name="abc_action_bar_up_description">Мурунку экранга өтүү</string>
+    <string name="abc_action_mode_done">Бүттү</string>
     <string name="vibrate_for_calls_category_title">Чалуулар</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Капчыкты көрсөтүү</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Түзмөктү башкаруу элементтерин көрсөтүү</string>
     <string name="lockscreen_privacy_wallet_summary">Капчыкка кулпуланган экрандан жана ыкчам жөндөөлөрдөн өтөсүз</string>
     <string name="lockscreen_privacy_controls_summary">Экран кулпуланып турганда түзмөктү башкарган виджеттерди колдоносуз</string>
-    <string name="abc_action_menu_overflow_description">Дагы параметрлер</string>
-    <string name="abc_action_mode_done">Бүттү</string>
     <string name="abc_activity_chooser_view_see_all">Баарын көрүү</string>
     <string name="abc_activitychooserview_choose_application">Колдонмо тандоо</string>
     <string name="abc_capital_off">ӨЧҮК</string>
@@ -297,10 +295,10 @@
 
 Башка функцияга өтүү үчүн, Атайын мүмкүнчүлүктөр баскычын басып, кармап туруңуз."</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software_floating"><annotation id="link">Дагы параметрлер</annotation></string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture">"Экранды 2 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture">"Экранды 2 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 2 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture_talkback">"Экранды 3 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture_talkback">"Экранды 3 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 3 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
     <string name="accessibility_shortcut_edit_dialog_summary_triple_tap">Экранды {0,number,integer} жолу тез басыңыз. Бул ыкчам баскыч түзмөгүңүздү жайлатышы мүмкүн</string>
@@ -356,16 +354,16 @@
 
 Башка функцияга өтүү үчүн, Атайын мүмкүнчүлүктөр баскычын басып, кармап туруңуз."</string>
     <string name="accessibility_tutorial_dialog_message_floating_button">Бул функцияны колдонуу үчүн экрандагы атайын мүмкүнчүлүктөр баскычын басыңыз.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture">"Бул функцияны колдонуу үчүн экранды 2 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_tutorial_dialog_message_gesture">"Бул функцияны колдонуу үчүн экранды 2 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 2 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings">"Бул атайын мүмкүнчүлүктөр функциясын колдонуу үчүн экранды 2 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_tutorial_dialog_message_gesture_settings">"Бул атайын мүмкүнчүлүктөр функциясын колдонуу үчүн экранды 2 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 2 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">"Бул атайын мүмкүнчүлүктөр функциясын колдонуу үчүн экранды 3 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">"Бул атайын мүмкүнчүлүктөр функциясын колдонуу үчүн экранды 3 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 3 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_talkback">"Бул функцияны колдонуу үчүн экранды 3 манжаңыз менен ылдый жагынан өйдө көздөй сүрүңүз.
+    <string name="accessibility_tutorial_dialog_message_gesture_talkback">"Бул функцияны колдонуу үчүн экранды 3 манжаңыз менен ылдый жагынан өйдө сүрүңүз.
 
 Башка функцияга өтүү үчүн, 3 манжаңыз менен өйдө сүрүп, кармап туруңуз."</string>
     <string name="accessibility_tutorial_dialog_message_triple">Чоңойтуп/кичирейтүүнү иштетүү же өчүрүү үчүн экраныңыздын каалаган жерин үч жолу таптаңыз.</string>
@@ -1327,7 +1325,7 @@
     <string name="bluetooth_settings_summary">Туташууларды башкарып, түзмөк аталышын жана ачыктыгын орнотуу</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_show_devices_without_names">Аталышсыз Bluetooth түзмөктөрү көрүнсүн</string>
-    <string name="bluetooth_show_devices_without_names_summary">Аталышсыз Bluetooth түзмөктөрү (MAC даректери менен гана) көрсөтүлөт</string>
+    <string name="bluetooth_show_devices_without_names_summary">Аталышсыз Bluetooth түзмөктөрү (MAC даректери менен гана) көрүнөт</string>
     <string name="bluetooth_show_files_received_via_bluetooth">Bluetooth аркылуу алынган файлдар</string>
     <string name="bluetooth_show_received_files">Алынган файлдар</string>
     <string name="bluetooth_sim_card_access_dialog_content">"%1$s Bluetooth түзмөгү SIM картаңыздагы маалыматты көргүсү келет. Ага байланыштарыңыз да кирет.
@@ -2114,7 +2112,7 @@
     <string name="dlg_ok">Жарайт</string>
     <string name="dlg_remove_locales_error_message">Тандалган тилдерден кеминде бирөөсүн калтырыңыз</string>
     <string name="dlg_remove_locales_error_title">Тилдердин баары алынбайт</string>
-    <string name="dlg_remove_locales_message">Текст башка тилде көрсөтүлөт.</string>
+    <string name="dlg_remove_locales_message">Текст башка тилде көрүнөт.</string>
     <string name="do_disclosure_generic">Бул түзмөк уюмуңуз тарабынан башкарылат.</string>
     <string name="do_disclosure_learn_more_separator">" "</string>
     <string name="do_disclosure_with_name">Бул түзмөк %s тарабынан башкарылат.</string>
@@ -2165,7 +2163,7 @@
     <string name="duration_less_than_one_minute">1 мүнөткө жеткен жок</string>
     <string name="edge_to_edge_navigation_summary">Башкы бетке өтүү үчүн, экранды ылдыйдан өйдө сүрүңүз. Башка колдонмого которулуу үчүн экранды ылдыйдан өйдө сүрүңүз да, бир аз коё бербей кармап туруңуз. Артка кайтуу үчүн экрандын оң же сол жагына сүрүңүз.</string>
     <string name="edge_to_edge_navigation_title">Жаңсап чабыттоо</string>
-    <string name="emergency_address_summary">WiFi аркылуу өзгөчө кырдаалдар кызматынын номерине чалганыңызда куткаруучуларга жайгашкан жериңиз катары көрсөтүлөт</string>
+    <string name="emergency_address_summary">WiFi аркылуу өзгөчө кырдаалдар кызматынын номерине чалганыңызда куткаруучуларга жайгашкан жериңиз катары көрүнөт</string>
     <string name="emergency_address_title">Кырсыктаганда кайрыла турган дарек</string>
     <string name="emergency_dashboard_summary">Кырсыктаганда чалуу, медициналык маалымат, эскертүүлөр</string>
     <string name="emergency_gesture_call_for_help_dialog_title">Жардам сурап чалуу номери</string>
@@ -2511,7 +2509,7 @@
     <string name="gentle_notifications_display_summary_shade_lock">Тигинен жайгашкан экранда жана кулпуланган экранда чагылдыруу</string>
     <string name="gentle_notifications_display_summary_shade_status">Тигинен жайгашкан экранда жана абал тилкесинде чагылдыруу</string>
     <string name="gentle_notifications_display_summary_shade_status_lock">Тигинен жайгашкан экранда, абал тилкесинде жана кулпуланган экранда чагылдыруу</string>
-    <string name="gentle_notifications_education">Маанилүү эмес билдирмелердин дайыма үнү өчүк жана тигинен жайгашкан экранда көрсөтүлөт</string>
+    <string name="gentle_notifications_education">Маанилүү эмес билдирмелердин дайыма үнү өчүк жана тигинен жайгашкан экранда көрүнөт</string>
     <string name="gentle_notifications_title">Маанилүү эмес билдирмелер</string>
     <string name="gesture_aware_confirmation_action_button">Түшүндүм</string>
     <string name="gesture_aware_disabled_info_dialog_content" />
@@ -2872,7 +2870,7 @@
     <string name="location_category_recent_location_requests">Жакында изделген жерлер</string>
     <string name="location_gps">GPS жандоочтору</string>
     <string name="location_high_battery_use">Батарейди көп колдонуу</string>
-    <string name="location_indicator_settings_description">Бардык жерлер, ошондой эле байланыш жана тармактарда көрсөтүлөт</string>
+    <string name="location_indicator_settings_description">Бардык жерлер, ошондой эле байланыш жана тармактарда көрүнөт</string>
     <string name="location_indicator_settings_title">Абал тилкесинин жайгашкан жеринин индикатору</string>
     <string name="location_low_battery_use">Батареянын кубаты үнөмдөлүүдө</string>
     <string name="location_neighborhood_level">"Колдонмолорго Google жайгаштыруу м-н ордуңузду тактоого жол берүү. Жайгашуу берилиштери аноним. чогултулат ж-а Google'га берилет."</string>
@@ -3306,7 +3304,7 @@ PIN код телефон жоголсо же уурдалса, аны корг�
     <string name="mobile_data_disable_title">Мобилдик трафик өчүрүлсүнбү?</string>
     <string name="mobile_data_no_connection">Байланыш жок</string>
     <string name="mobile_data_off">Мобилдик Интернет өчүрүлгөн</string>
-    <string name="mobile_data_off_summary">Мобилдик трафик автоматтык түрдө туташтырылбайт</string>
+    <string name="mobile_data_off_summary">Мобилдик Интернетке автоматтык түрдө туташпайт</string>
     <string name="mobile_data_settings_summary">Интернетке мобилдик тармак аркылуу чыгуу</string>
     <string name="mobile_data_settings_summary_auto_switch">Тейлөө аймагына келгенде, телефон автоматтык түрдө бул операторго которулат</string>
     <string name="mobile_data_settings_summary_unavailable">SIM-карта жеткиликсиз</string>
@@ -4084,7 +4082,7 @@ PIN код телефон жоголсо же уурдалса, аны корг�
     <string name="reset_shortcut_manager_throttling">ShortcutManager эсептегичтерин баштапкы абалга келтирүү</string>
     <string name="reset_shortcut_manager_throttling_complete">ShortcutManager ылдамдыкты чектөө баштапкы абалга келтирилди</string>
     <string name="reset_your_internet_title">Интернетти баштапкы абалга келтиресизби?</string>
-    <string name="resetting_internet_text">Интернет баштапкы абалга келтирилүүдө…</string>
+    <string name="resetting_internet_text">Бир аз күтө туруңуз…</string>
     <string name="restore_default_apn">Демейки APN тууралоолорун кайтарууда.</string>
     <string name="restore_default_apn_completed">Демейки APN жөндөөлөрү калыбына келди.</string>
     <string name="restr_pin_enter_admin_pin">Администратордун PIN кодун киргизиңиз</string>
@@ -4760,7 +4758,7 @@ PIN туура эмес өңдөнөт."</string>
     <string name="smart_forwarding_summary_enabled">Акылдуу багыттоо иштетилди</string>
     <string name="smart_forwarding_title">Акылдуу багыттоо</string>
     <string name="smart_notifications_title">Ыңгайлаштырылуучу билдирмелер</string>
-    <string name="smart_rotate_text_headline">"Жүздү аныктоо функциясы автоматтык бурулуунун тактыгын жакшыртуу үчүн маңдайкы камераны колдонот. Сүрөттөр Google'га эч качан жөнөтүлбөйт же анда сакталбайт."</string>
+    <string name="smart_rotate_text_headline">"Жүздү аныктоо функциясы автоматтык түрдө бурулуунун тактыгын жакшыртуу үчүн маңдайкы камераны колдонот. Сүрөттөр Google'га эч качан жөнөтүлбөйт же анда сакталбайт."</string>
     <string name="sms_application_title">SMS колдонмосу</string>
     <string name="sms_change_default_dialog_text">SMS билдирүүлөрү менен жазышуу үчүн %2$s ордуна %1$s колдоносузбу?</string>
     <string name="sms_change_default_dialog_title">SMS колдонмону алмаштырасызбы?</string>
@@ -5077,7 +5075,7 @@ PIN туура эмес өңдөнөт."</string>
     <string name="system_alert_window_access_title">Башка терезелердин үстүнөн көрсөтүү</string>
     <string name="system_alert_window_apps_title">Колдонмолор</string>
     <string name="system_alert_window_settings">Башка терезелердин үстүнөн көрсөтүү</string>
-    <string name="system_alert_window_summary">%2$d колдонмодон %1$d колдонмо башка терезелердин үстүнөн көрсөтүлөт</string>
+    <string name="system_alert_window_summary">%2$d колдонмодон %1$d колдонмо башка терезелердин үстүнөн көрүнөт</string>
     <string name="system_app">(Системалык)</string>
     <string name="system_dashboard_summary">Тилдер, жаңсоолор, убакыт, камдык көчүрмөлөр</string>
     <string name="system_default_app">(Демейки тутум)</string>
@@ -5088,7 +5086,7 @@ PIN туура эмес өңдөнөт."</string>
     <string name="take_call_on_title">Чалууну кабыл алуу</string>
     <string name="talkback_summary">Экрандагы нерсени окуп берүүчү курал көздөрү начар көргөн адамдарга арналган</string>
     <string name="talkback_title">Talkback</string>
-    <string name="tap_a_network_to_connect">Туташуу үчүн тармакты таптаңыз</string>
+    <string name="tap_a_network_to_connect">Кайсы тармакка туташасыз?</string>
     <string name="tap_to_sign_up">Катталуу үчүн таптап коюңуз</string>
     <string name="terms_title">Пайдалануу шарттары</string>
     <string name="testing">Сыноо</string>
@@ -6005,7 +6003,7 @@ PIN туура эмес өңдөнөт."</string>
     <string name="wifitrackerlib_tap_to_sign_up">Катталуу үчүн таптап коюңуз</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">Байланыш түйүнүнө өтө көп түзмөк туташып турат</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Сырсөздү текшерип, кайталап көрүңүз</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Түзмөккө туташты. Интернет жок.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Түзмөккө туташып турат. Интернет жок.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Өчүк</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">IP конфигурациясы бузулду</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Аутентификация маселеси бар</string>

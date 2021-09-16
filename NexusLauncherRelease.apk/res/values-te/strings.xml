@@ -73,7 +73,8 @@
     <string name="add_to_folder_with_app">%1$s గల ఫోల్డర్‌కు జోడించు</string>
     <string name="add_to_home_screen">మొదటి స్క్రీన్‌కు జోడించు</string>
     <string name="added_to_folder">అంశం ఫోల్డర్‌కు జోడించబడింది</string>
-    <string name="all_apps_button_label">అనువర్తనాల జాబితా</string>
+    <string name="added_to_home_screen_accessibility_text">మొదటి స్క్రీన్‌కు %1$s విడ్జెట్ జోడించబడింది</string>
+    <string name="all_apps_button_label">యాప్‌ల జాబితా</string>
     <string name="all_apps_button_personal_label">వ్యక్తిగత యాప్‌ల జాబితా</string>
     <string name="all_apps_button_work_label">కార్యాలయ యాప్‌ల జాబితా</string>
     <string name="all_apps_label">అన్ని యాప్‌లు</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">ఫోన్‌‌ను తిప్పినప్పుడు</string>
     <string name="allow_rotation_title">మొదటి స్క్రీన్ రొటేషన్‌ను అనుమతించండి</string>
     <string name="allset_description">మీరు మీ ఫోన్‌ను ఉపయోగించడానికి సిద్ధంగా ఉన్నారు</string>
+    <string name="allset_hint">మొదటి స్క్రీన్‌కు వెళ్లడానికి పైకి స్వైప్ చేయండి</string>
+    <string name="allset_navigation_settings"><annotation id="link">సిస్టమ్ నావిగేషన్ సెట్టింగ్‌లు</annotation></string>
     <string name="allset_title">అంతా సెట్ అయింది!</string>
     <string name="app_downloading_title">%1$s డౌన్‌లోడ్ అవుతోంది, %2$s పూర్తయింది</string>
     <string name="app_info_drop_target_label">యాప్ సమాచారం</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s ఇన్‌స్టాల్ కావడానికి వేచి ఉంది</string>
     <string name="auto_add_shortcuts_description">కొత్త యాప్‌ల కోసం</string>
     <string name="auto_add_shortcuts_label">యాప్ చిహ్నాలను మొదటి స్క్రీన్‌కు జోడించు</string>
+    <string name="back_gesture_feedback_cancelled">మీరు కుడి లేదా ఎడమ అంచు నుండి స్క్రీన్ మధ్యలోకి స్వైప్ చేశారని నిర్ధారించుకోని, మీ వేలిని ఎత్తండి.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">వెనుకకు వెళ్లడానికి కుడి నుండి స్వైప్ ఎలానో మీకు తెలుసు. తర్వాత, యాప్‌ల మధ్య ఎలా మారాలో తెలుసుకోండి.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">మీరు తిరిగి వెనక్కు వెళ్లే సంజ్ఞను పూర్తి చేశారు.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">మీరు స్క్రీన్ దిగువకు చాలా దగ్గరగా స్వైప్ చేయలేదని నిర్ధారించుకోండి.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">కుడి వైపు చిట్ట చివరి లేదా ఎడమ వైపు చిట్ట చివరి అంచు నుండి స్వైప్ చేస్తున్నారని నిర్ధారించుకోండి.</string>
     <string name="back_gesture_intro_subtitle">మునుపటి స్క్రీన్‌కు తిరిగి వెళ్లడానికి, ఎడమ లేదా కుడి అంచు నుండి స్క్రీన్ మధ్యలోకి స్వైప్ చేయండి.</string>
     <string name="back_gesture_intro_title">వెనుకకు వెళ్ళడం కోసం స్వైప్ చేయండి</string>
     <string name="back_gesture_tutorial_confirm_subtitle">వెనుక సంజ్ఞ సున్నితత్వం మార్చడానికి, సెట్టింగ్‌లకు వెళ్లండి</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">పేరు మార్పును సేవ్ చేయడానికి నొక్కండి</string>
     <string name="gadget_error_text">విడ్జెట్‌ను లోడ్ చేయడం సాధ్యం కాలేదు</string>
     <string name="gadget_setup_text">సెటప్‌ను పూర్తి చేయడానికి ట్యాప్ చేయండి</string>
+    <string name="gesture_tutorial_action_button_label">పూర్తయింది</string>
     <string name="gesture_tutorial_action_button_label_cancel">రద్దు చేయి</string>
     <string name="gesture_tutorial_action_button_label_settings">సెట్టింగ్‌లు</string>
     <string name="gesture_tutorial_action_button_label_skip">స్కిప్ చేయి</string>
@@ -141,13 +147,13 @@
     <string name="gleam_tooltip_text">ఏదైనా వచనాన్ని లేదా చిత్రాన్ని ఎంచుకోవాలంటే నొక్కి, పట్టుకోండి</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">అప్లికేషన్ &amp; మరిన్ని శోధించండి</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">మీరు మొదటి ట్యాబ్‌కు వెళ్లే సంజ్ఞను పూర్తి చేశారు. తర్వాత, వెనుకకు ఎలా వెళ్లాలో తెలుసుకోండి.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">మీరు మొదటి స్క్రీన్‌కు వెళ్లే సంజ్ఞను పూర్తి చేశారు. తర్వాత, వెనుకకు ఎలా వెళ్లాలో తెలుసుకోండి.</string>
     <string name="home_gesture_feedback_complete_without_follow_up">మీరు మొదటి ట్యాబ్‌కు వెళ్లే సంజ్ఞను పూర్తి చేశారు.</string>
     <string name="home_gesture_feedback_overview_detected">బయలుదేరే ముందు మీరు పాజ్ చేయకుండా చూసుకోండి.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">మీరు స్క్రీన్ దిగువ అంచు నుండి పైకి స్వయిప్ చేస్తున్నారని నిర్ధారించుకోండి.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">మీరు నేరుగా పైకి స్వైప్ చేశారని నిర్ధారించుకోండి.</string>
-    <string name="home_gesture_intro_subtitle">మీ స్క్రీన్ కింది నుండి పైకి స్వైప్ చేయి. ఈ సంజ్ఞ ఎప్పుడూ మిమ్మల్ని మొదటి స్క్రీన్‌కు తీసుకెళ్తుంది.</string>
-    <string name="home_gesture_intro_title">వర్చువల్ హోమ్‌కి వెళ్లడానికి స్వైప్ చేయండి</string>
+    <string name="home_gesture_intro_subtitle">స్క్రీన్ కింది నుండి పైకి స్వైప్ చేయండి. ఈ సంజ్ఞ ఎప్పుడూ మిమ్మల్ని మొదటి స్క్రీన్‌కు తీసుకెళ్తుంది.</string>
+    <string name="home_gesture_intro_title">మొదటి స్క్రీన్‌కు వెళ్లడానికి స్వైప్ చేయండి</string>
     <string name="home_screen">మొదటి ట్యాబ్</string>
     <string name="hotsaet_tip_prediction_disabled">యాప్ సూచ‌న‌లు డిజేబుల్‌ చేయబడ్డాయి</string>
     <string name="hotsaet_tip_prediction_enabled">యాప్ సలహాలు ఎనేబుల్ చేయబడ్డాయి</string>
@@ -191,7 +197,7 @@
     <string name="msg_minus_one_on_left">Google యాప్‌ను తెరవడానికి, మొదటి స్క్రీన్ నుండి ఎడమ వైపునకు స్వైప్ చేయండి</string>
     <string name="msg_minus_one_on_right">Google యాప్‌ను తెరవడానికి, హోమ్ స్క్రీన్ నుండి కుడి వైపునకు స్వైప్ చేయండి</string>
     <string name="msg_missing_notification_access">నోటిఫికేషన్ డాట్‌లను చూపించడానికి %1$sకు యాప్ నోటిఫికేషన్‌లను ఆన్ చేయండి</string>
-    <string name="msg_no_phone_permission">ఫోన్ కాల్‌లను చేసేందుకు %1$sకి అనుమతి లేదు</string>
+    <string name="msg_no_phone_permission">ఫోన్ కాల్స్‌ను చేసేందుకు %1$sకి అనుమతి లేదు</string>
     <string name="no_content_in_select_mode">ఎంచుకోవలసిన టెక్స్ట్ లేదా ఇమేజ్ లేదు</string>
     <string name="no_search_results">విడ్జెట్‌లు లేదా షార్ట్‌కట్‌లు కనుగొనబడలేదు</string>
     <string name="no_widgets_available">విడ్జెట్‌లు, షార్ట్‌కట్‌లు అందుబాటులో లేవు</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">రిలీజ్ చేయడానికి ముందు విండోను ఎక్కువసేపు పట్టుకోడానికి ట్రై చేయండి.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">మీరు స్క్రీన్ దిగువ అంచు నుండి పైకి స్వయిప్ చేస్తున్నారని నిర్ధారించుకోండి.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">మీరు నేరుగా స్వైప్ చేశారని నిర్ధారించుకోండి, ఆపై పాజ్ చేయండి.</string>
+    <string name="overview_gesture_intro_subtitle">యాప్‌ల మధ్య మారడానికి, మీ స్క్రీన్ కింది వైపు నుండి పైకి స్వైప్ చేసి, పట్టుకుని, తర్వాత వదలండి.</string>
     <string name="overview_gesture_intro_title">యాప్‌ల మధ్య మార్చడం కోసం స్వైప్ చేయండి</string>
     <string name="overview_selection_pref_desc">యాప్‌లను మారుస్తున్నప్పుడు, చర్యలను చూడడానికి వచనాన్ని మరియు చిత్రాలను తాకి ఉంచండి</string>
     <string name="overview_selection_pref_title">అవలోకనం ఎంపిక</string>
@@ -280,14 +287,14 @@
     <string name="smartspace_flight_card_seat_header">సీటు</string>
     <string name="smartspace_hours_mins">%1$s:%2$s</string>
     <string name="smartspace_preferences">ప్రాధాన్యతలు</string>
-    <string name="smartspace_preferences_in_settings">లైవ్ స్పేస్</string>
+    <string name="smartspace_preferences_in_settings">త్వరిత వీక్షణ</string>
     <string name="smartspace_preferences_in_settings_desc">మీ హోమ్ స్క్రీన్ ఎగువన</string>
     <string name="smartspace_preferences_manage">అనుకూలీకరించండి</string>
     <string name="smartspace_preferences_turn_off_action">ఆఫ్ చేయి</string>
-    <string name="smartspace_preferences_turn_off_description">రాబోయే ఈవెంట్‌ల గురించి వాతావరణం, సమాచారం మీ మొదటి స్క్రీన్, లాక్ స్క్రీన్‌లో చూపడం ఆగిపోతుంది.</string>
+    <string name="smartspace_preferences_turn_off_description">వాతావరణ వివరాలు, అలాగే రాబోయే ఈవెంట్లకు సంబంధించిన సమాచారం మీ హోమ్ స్క్రీన్, లాక్ స్క్రీన్‌లలో కనపడటం ఆగిపోతుంది.</string>
     <string name="smartspace_preferences_turn_off_title">%1$sను ఆఫ్ చేయండి</string>
     <string name="smartspace_preferences_turn_on_action">ఆన్ చేయి</string>
-    <string name="smartspace_preferences_turn_on_description">రాబోయే ఈవెంట్‌ల గురించి వాతావరణం, సమాచారం మీ మొదటి స్క్రీన్, లాక్ స్క్రీన్‌లో చూపడం జరుగుతుంది.</string>
+    <string name="smartspace_preferences_turn_on_description">వాతావరణ వివరాలు, అలాగే రాబోయే ఈవెంట్లకు సంబంధించిన సమాచారం మీ హోమ్ స్క్రీన్, లాక్ స్క్రీన్‌లలో కనిపిస్తుంది.</string>
     <string name="smartspace_preferences_turn_on_title">%1$sను ఆన్ చేయండి</string>
     <string name="smartspace_shopping_list_overflow">+ మరో %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>

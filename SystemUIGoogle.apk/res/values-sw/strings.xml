@@ -595,6 +595,8 @@ Uteuzi"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Ni lazima uwashe tena kifaa chako ili mabadiliko haya yatekelezwe. Washa tena sasa au ughairi.</string>
     <string name="camera_hint">Telezesha kidole kutoka aikoni ili ufikie kamera</string>
     <string name="camera_label">fungua kamera</string>
+    <string name="camera_recording_announcement">Kamera inarekodi</string>
+    <string name="camera_stopped_recording_announcement">Kamera imeacha kurekodi</string>
     <string name="cancel">Ghairi</string>
     <string name="carrier_network_change_mode">Mabadiliko katika mtandao wa mtoa huduma</string>
     <string name="category_personal">Ya Binafsi</string>
@@ -734,6 +736,10 @@ Ukiendelea, huenda ukatozwa ada ya matumizi ya data."</string>
     <string name="debug_monitoring_category">Ufuatiliaji</string>
     <string name="debug_networking_category">Mtandao</string>
     <string name="debug_view_attributes">Washa ukaguzi wa sifa ya onyesho</string>
+    <string name="defender_notify_des">Simu yako inadhibiti hali ya kuchaji ili kusaidia kuboresha muda wa kutumia betri</string>
+    <string name="defender_notify_learn_more">Pata maelezo zaidi</string>
+    <string name="defender_notify_resume_charge">Endelea kuchaji</string>
+    <string name="defender_notify_title">Hali ya kuchaji imedhibitiwa kwa muda</string>
     <string name="delete_blob_confirmation_text">Una uhakika unataka kufuta data hii iliyoshirikiwa?</string>
     <string name="delete_blob_text">Futa data iliyoshirikiwa</string>
     <string name="demo_mode">Hali ya onyesho la kirekebishi cha kiolesura cha mfumo</string>
@@ -1070,6 +1076,7 @@ pekee"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Inafungua SIM kadi...</string>
     <string name="keyguard_try_fingerprint">Tumia alama ya kidole kufungua</string>
     <string name="keyguard_unlock">Telezesha kidole juu ili ufungue</string>
+    <string name="keyguard_unlock_press">Bofya ili ufungue</string>
     <string name="keywords_adb_wireless">adb, tatua, dev</string>
     <string name="keywords_alarms_and_reminders">ratiba, kengele, kikumbusho, saa</string>
     <string name="kg_enter_confirm_pin_hint">Thibitisha nambari ya PIN unayopendelea</string>
@@ -1233,6 +1240,10 @@ pekee"</string>
     <string name="menu_ime">Kibadilishaji cha kibodi</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Maikrofoni Inatumika</string>
+    <string name="mic_and_camera_recording_announcement">Kamera na Maikrofoni zinarekodi</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera na Maikrofoni zimeacha kurekodi</string>
+    <string name="mic_recording_announcement">Maikrofoni inarekodi</string>
+    <string name="mic_stopped_recording_announcement">Maikrofoni imeacha kurekodi</string>
     <string name="missed_call">Simu ambayo hukujibu</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Data ya simu</string>
@@ -1706,8 +1717,6 @@ Ikiwa una maswali yoyote, wasiliana na %2$s."</string>
     <string name="quick_settings_work_mode_label">Programu za kazini</string>
     <string name="quick_step_accessibility_toggle_overview">Washa Muhtasari</string>
     <string name="recent_conversations">Mazungumzo ya hivi majuzi</string>
-    <string name="recents_quick_scrub_onboarding">Buruta kulia ili ubadilishe programu haraka</string>
-    <string name="recents_swipe_up_onboarding">Telezesha kidole juu ili ubadilishe programu</string>
     <string name="remaining_length_format">Zimesalia %1$s</string>
     <string name="remote_input_image_insertion_text">imetuma picha</string>
     <string name="remove_from_settings">Ondoa kwenye Mipangilio</string>
@@ -2117,6 +2126,7 @@ Mtumiaji yoyote anaweza kusasisha programu kwa niaba ya wengine wote."</string>
     <string name="wallet_secondary_label_no_card">Weka kadi</string>
     <string name="wallet_secondary_label_updating">Inasasisha</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Lango la mtandao lina shughuli nyingi kwa sasa</string>
     <string name="wifi_cant_connect">Imeshindwa kuunganisha</string>
     <string name="wifi_cant_connect_to_ap">"Imeshindwa kuunganisha kwenye '%1$s'"</string>
@@ -2187,7 +2197,7 @@ Anwani ya Wi-Fi (BSSID)
     <string name="wifitrackerlib_tap_to_sign_up">Gusa ili ujisajili</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">Mlango wa mtandao una shughuli nyingi kwa sasa</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Angalia nenosiri na ujaribu tena</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Imeunganishwa kwenye kifaa. Imeshindwa kusambaza intaneti.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Kifaa kimeunganishwa. Imeshindwa kusambaza intaneti.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Umezimwa</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">Imeshindwa kuweka mipangilio ya IP</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Tatizo la uthibitishaji</string>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Języki i metody wprowadzania</string>
     <string name="lift_to_wake_title">Podnieś, by wybudzić</string>
-    <string name="lockdown_settings_summary">Wyświetlaj opcję przycisku zasilania, która wyłącza Smart Lock, rozpoznawanie twarzy, odblokowywanie odciskiem palca i powiadomienia na ekranie blokady</string>
-    <string name="lockdown_settings_title">Pokazuj opcję blokady</string>
+    <string name="abc_action_bar_home_description">Przejdź na stronę główną</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
     <string name="locked_work_profile_notification_title">Gdy profil służbowy jest zablokowany</string>
     <string name="lockscreen_bypass_summary">Po odblokowaniu przechodź od razu do ostatnio używanego ekranu</string>
     <string name="lockscreen_bypass_title">Pomijaj ekran blokady</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Powiadomienia związane z pracą</string>
     <string name="reset_dashboard_summary">Można zresetować sieć, aplikacje lub urządzenie</string>
     <string name="reset_dashboard_title">Opcje resetowania</string>
-    <string name="abc_action_bar_home_description">Przejdź na stronę główną</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
     <string name="screensaver_settings_title">Wygaszacz ekranu</string>
     <string name="screen_timeout">Wygaszanie ekranu</string>
     <string name="screen_zoom_title">Rozmiar interfejsu</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na 90 Hz. Zwiększa zużycie baterii.</string>
     <string name="accessibility_vibration_settings_title">Wibracje i reakcja na dotyk</string>
     <string name="emergency_gesture_screen_title">Połączenie alarmowe</string>
-    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_mode_done">Gotowe</string>
     <string name="vibrate_for_calls_category_title">Połączenia</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Pokazuj portfel</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Pokazuj sterowanie urządzeniami</string>
     <string name="lockscreen_privacy_wallet_summary">Zezwalaj na dostęp do portfela na ekranie blokady i w szybkich ustawieniach</string>
     <string name="lockscreen_privacy_controls_summary">Kontrola dostępu po zablokowaniu</string>
-    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
-    <string name="abc_action_mode_done">Gotowe</string>
     <string name="abc_activity_chooser_view_see_all">Pokaż wszystko</string>
     <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
     <string name="abc_capital_off">WYŁ.</string>
@@ -890,7 +888,7 @@ Po zresetowaniu przejdź proces konfiguracji i wybierz opcję przeniesienia dany
     <string name="battery_action_stop">Wymuś zatrzymanie</string>
     <string name="battery_action_wifi">Ustawienia Wi-Fi</string>
     <string name="battery_active_for">Aktywna przez ^1</string>
-    <string name="battery_app_usage_for">Wykorzystanie przez aplikacje w ciągu %s</string>
+    <string name="battery_app_usage_for">Wykorzystanie przez aplikacje w godz. %s</string>
     <string name="battery_app_usage_for_past_24">Wykorzystanie przez aplikacje w ciągu ostatnich 24 godzin</string>
     <string name="battery_auto_restriction_summary">Wykrywaj, gdy aplikacje szybko rozładowują baterię</string>
     <string name="battery_auto_restriction_title">Użyj Menedżera baterii</string>
@@ -932,7 +930,7 @@ Po zresetowaniu przejdź proces konfiguracji i wybierz opcję przeniesienia dany
     <string name="battery_info_status_unknown">Nieznane</string>
     <string name="battery_last_full_charge">Ostatnie naładowanie</string>
     <string name="battery_level_title">Poziom naładowania baterii</string>
-    <string name="battery_manager_off">Wył.</string>
+    <string name="battery_manager_off">Wyłączone</string>
     <string name="battery_manager_summary">Wydłuż czas pracy na baterii i zoptymalizuj ładowanie</string>
     <string name="battery_missing_link_a11y_message">Kliknij, by dowiedzieć się więcej o tym błędzie</string>
     <string name="battery_missing_link_message">Więcej informacji</string>
@@ -993,7 +991,7 @@ Po zresetowaniu przejdź proces konfiguracji i wybierz opcję przeniesienia dany
     <string name="battery_suggestion_title">Wydłuż czas pracy telefonu na baterii</string>
     <string name="battery_summary">Użycie od ostatniego pełnego naładowania: %1$s</string>
     <string name="battery_summary_24hr">Wykorzystano %1$s w ciągu ostatnich 24 godzin</string>
-    <string name="battery_system_usage_for">Wykorzystanie przez system w ciągu %s</string>
+    <string name="battery_system_usage_for">Wykorzystanie przez system w godz. %s</string>
     <string name="battery_system_usage_for_past_24">Wykorzystanie przez system w ciągu ostatnich 24 godzin</string>
     <string name="battery_tip_dialog_message">"Używasz telefonu intensywniej niż zwykle, więc bateria może rozładować się szybciej.
 
@@ -3821,8 +3819,8 @@ Naciśnij jednocześnie przyciski zasilania i zwiększania głośności."</stri
     <string name="power_remaining_duration_shutdown_imminent">Telefon może się wkrótce wyłączyć (%1$s)</string>
     <string name="power_remaining_less_than_duration">Pozostało mniej niż %1$s (%2$s)</string>
     <string name="power_remaining_less_than_duration_only">Pozostało mniej niż %1$s</string>
-    <string name="power_remaining_more_than_subtext">Pozostało mniej niż %1$s (%2$s)</string>
-    <string name="power_remaining_only_more_than_subtext">Pozostało mniej niż %1$s</string>
+    <string name="power_remaining_more_than_subtext">Pozostało ponad %1$s (%2$s)</string>
+    <string name="power_remaining_only_more_than_subtext">Pozostało ponad %1$s</string>
     <string name="power_remaining_settings_home_page">%1$s – %2$s</string>
     <string name="power_screen">Ekran</string>
     <string name="power_suggestion_battery_run_out">Bateria może się wyczerpać do %1$s</string>
@@ -4124,7 +4122,7 @@ Odwróć telefon, aby wypróbować."</string>
     <string name="reverse_charging_is_off_summary">Wył.</string>
     <string name="reverse_charging_is_on_and_charging_summary">Udostępnianie i ładowanie baterii</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Udostępnianie baterii</string>
-    <string name="reverse_charging_is_on_summary">Włączono / Ładowanie innych urządzeń</string>
+    <string name="reverse_charging_is_on_summary">Włączone / Ładowanie innych urządzeń</string>
     <string name="reverse_charging_main_switch">Zezwalaj na współdzielenie baterii</string>
     <string name="reverse_charging_off_low_battery_summary">Wyłączono / Poziom naładowania baterii telefonu poniżej %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Wyłączono / Poziom baterii telefonu poniżej stanu umożliwiającego udostępnianie</string>

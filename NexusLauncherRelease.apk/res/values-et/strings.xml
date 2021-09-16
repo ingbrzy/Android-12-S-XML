@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Lisamine kausta nimega %1$s</string>
     <string name="add_to_home_screen">Lisa avakuvale</string>
     <string name="added_to_folder">Üksus lisati kausta</string>
+    <string name="added_to_home_screen_accessibility_text">Vidin %1$s lisati avakuvale</string>
     <string name="all_apps_button_label">Rakenduste loend</string>
     <string name="all_apps_button_personal_label">Isiklike rakenduste loend</string>
     <string name="all_apps_button_work_label">Töörakenduste loend</string>
@@ -88,7 +89,9 @@
     <string name="allapps_search_hint">Otsige oma telefonist ja mujalt</string>
     <string name="allow_rotation_desc">Kui telefoni pööratakse</string>
     <string name="allow_rotation_title">Luba avakuva pööramine</string>
-    <string name="allset_description">Olete valmis oma telefoni kasutama</string>
+    <string name="allset_description">Olete valmis oma telefoni kasutama.</string>
+    <string name="allset_hint">Avakuvale liikumiseks pühkige üles</string>
+    <string name="allset_navigation_settings"><annotation id="link">Süsteemi navigeerimisseaded</annotation></string>
     <string name="allset_title">Valmis!</string>
     <string name="app_downloading_title">Rakenduse %1$s allalaadimine, %2$s on valmis</string>
     <string name="app_info_drop_target_label">Rakenduste teave</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s on installimise ootel</string>
     <string name="auto_add_shortcuts_description">Uute rakenduste puhul</string>
     <string name="auto_add_shortcuts_label">Lisa rakenduste ikoonid avakuvale</string>
+    <string name="back_gesture_feedback_cancelled">Pühkige ekraanikuva paremast või vasakust servast keskele ja eemaldage sõrm.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Õppisite, kuidas tagasiliikumiseks paremalt pühkida. Nüüd vaadake, kuidas rakenduste vahel vahetada.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Tegite tagasiliikumise liigutuse.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Veenduge, et te ei pühiks liiga ekraanikuva allosa lähedalt.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Pühkige kindlasti parem- või vasakpoolsest servast.</string>
     <string name="back_gesture_intro_subtitle">Eelmisele ekraanikuvale naasmiseks pühkige vasakust või paremast servast ekraanikuva keskele.</string>
     <string name="back_gesture_intro_title">Tagasiliikumiseks pühkige</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Tagasiliigutuse tundlikkuse muutmiseks avage menüü Seaded</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Puudutage ümbernimetamise salvestamiseks</string>
     <string name="gadget_error_text">Vidinat ei saa laadida</string>
     <string name="gadget_setup_text">Puudutage seadistuse lõpuleviimiseks</string>
+    <string name="gesture_tutorial_action_button_label">Valmis</string>
     <string name="gesture_tutorial_action_button_label_cancel">Tühista</string>
     <string name="gesture_tutorial_action_button_label_settings">Seaded</string>
     <string name="gesture_tutorial_action_button_label_skip">Jäta vahele</string>
@@ -147,7 +153,7 @@
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Pühkige kindlasti ekraanikuva alumisest servast üles.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Pühkige kindlasti otse üles.</string>
     <string name="home_gesture_intro_subtitle">Pühkige ekraani alaosast üles. See liigutus viib teid alati tagasi avakuvale.</string>
-    <string name="home_gesture_intro_title">Pühkimine avakuvale minemiseks</string>
+    <string name="home_gesture_intro_title">Pühkige avakuvale minemiseks</string>
     <string name="home_screen">Avakuva</string>
     <string name="hotsaet_tip_prediction_disabled">Rakenduste soovitused on keelatud</string>
     <string name="hotsaet_tip_prediction_enabled">Rakenduste soovitused on lubatud</string>
@@ -209,7 +215,8 @@
     <string name="overview_gesture_feedback_home_detected">Hoidke sõrme aknal pisut kauem, enne kui vabastate.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Pühkige kindlasti ekraanikuva alumisest servast üles.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Pühkige kindlasti otse üles, seejärel peatuge.</string>
-    <string name="overview_gesture_intro_title">Rakenduste vahel vahetamiseks pühkimine</string>
+    <string name="overview_gesture_intro_subtitle">Rakenduste vahel vahetamiseks pühkige ekraanikuva alaosast üles, hoidke ja seejärel vabastage.</string>
+    <string name="overview_gesture_intro_title">Pühkige rakenduste vahetamiseks</string>
     <string name="overview_selection_pref_desc">Rakenduste vahetamisel puudutage pikalt teksti ja kujutisi, et toiminguid näha</string>
     <string name="overview_selection_pref_title">Valimine ülevaatekuvast</string>
     <string name="overview_suggestions_settings_summary">Kuva ülevaatekuval soovitatud toimingud ja indikaatorid</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Koht</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Eelistused</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Ülevaade</string>
     <string name="smartspace_preferences_in_settings_desc">Avakuva ülaosas</string>
     <string name="smartspace_preferences_manage">Kohanda</string>
     <string name="smartspace_preferences_turn_off_action">Lülita välja</string>

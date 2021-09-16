@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">رد</string>
     <string name="a11y_call_incoming_decline_description">رفض</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">‏مكالمة فيديو باستخدام شبكة wifi</string>
     <string name="a11y_contact_menu_voice_call_wifi">‏مكالمة صوتية باستخدام شبكة wifi</string>
     <string name="a11y_conversation_history_entry_answered_call">الأخيرة هي مكالمة تم الرد عليها من قِبل ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">إدارة المتصلين</string>
     <string name="a11y_expandedsheet_collapse">تصغير القائمة</string>
     <string name="a11y_expandedsheet_expand">توسيع القائمة</string>
-    <string name="a11y_favorites_education_dismiss">إغلاق</string>
     <string name="a11y_feature_demo_next_page">الصفحة التالية</string>
     <string name="a11y_feature_demo_page_indicator">الصفحة %d</string>
     <string name="a11y_feature_demo_prev_page">الصفحة السابقة</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">اتصال سريع لـ ^1</string>
+    <string name="a11y_icon_hd">مكالمة عالية الدقة</string>
+    <string name="a11y_icon_hd_plus">مكالمة فائقة الدقة</string>
+    <string name="a11y_icon_shared_data_call">مكالمة باستخدام بيانات الجوّال المشترَكة</string>
+    <string name="a11y_icon_verified">مكالمة تم التحقّق منها</string>
+    <string name="a11y_icon_vilte">‏مكالمة فيديو على شبكة LTE</string>
+    <string name="a11y_icon_viwifi">‏مكالمة فيديو عبر شبكة Wi-Fi</string>
+    <string name="a11y_icon_volte">‏مكالمة صوتية على شبكة LTE</string>
+    <string name="a11y_icon_voz4g">مكالمة صوتية على شبكة الجيل الرابع</string>
+    <string name="a11y_icon_wifi">‏مكالمة على شبكة Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">مرر بأصبعين لأعلى للرد. مرر بأصبعين لأسفل للرفض.</string>
     <string name="a11y_incoming_call_swipe_to_answer">مرر لأعلى بأصبعين للرد على المكالمة أو لأسفل لرفضها</string>
     <string name="a11y_new_call_log_entry_call_recording">المكالمة مسجّلة</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1، ^2، ^3، ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">على ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">إجراء مكالمة بميزة \"المراسلة النصية في الوقت الفعلي\" مع ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">مكالمة باستخدام بيانات الجوّال المشترَكة</string>
     <string name="a11y_new_call_log_entry_tap_action">توسيع القائمة</string>
     <string name="a11y_new_call_log_entry_video_call">إجراء مكالمة فيديو مع ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">‏إجراء مكالمة فيديو مع ^1 باستخدام شبكة WIFI</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">تعديل الرقم قبل الاتصال</string>
     <string name="action_menu_back_from_search">إيقاف البحث</string>
     <string name="action_menu_overflow_description">مزيد من الخيارات</string>
+    <string name="activate_error_message">حدثت مشكلة أثناء تفعيل ميزة \"رصد المكالمات\".</string>
+    <string name="activated_successfully">تم تفعيل ميزة \"رصد المكالمات\".</string>
     <string name="activity_not_available">لا يوجد تطبيق لإجراء ذلك على هذا الجهاز</string>
     <string name="add_2sec_pause">إضافة ثانيتَي إيقاف مؤقت</string>
     <string name="add_contact_not_available">لا يتوفر تطبيق لجهات الاتصال</string>
@@ -159,9 +171,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">حظر المكالمات غير مفعّل مؤقتًا</string>
     <string name="bm_suggest_call_button">اتصال</string>
     <string name="bm_suggest_chat_button">دردشة</string>
-    <string name="bm_suggest_wait_min">محادثةمدة الانتظار: %1$d د</string>
-    <string name="bottom_nav_count_9_plus">+9</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s، %2$s غير مقروءة</string>
+    <string name="bm_suggest_wait_min">"‏مدة الانتظار في المحادثة
+%1$d د"</string>
+    <string name="bm_suggest_wait_time_estimating">"‏جارٍ
+تقدير مدة الانتظار…"</string>
     <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
     <string name="bubble_bottom_action_end_call">إنهاء المكالمة</string>
     <string name="bubble_bottom_action_hide">إخفاء</string>
@@ -170,6 +183,9 @@
     <string name="call">مُكالمة صوتية</string>
     <string name="callFailed_simError">‏لا تتوفر شريحة SIM أو حدث خطأ في البطاقة</string>
     <string name="callHistoryIconLabel">سجلّ المكالمات</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
     <string name="call_announcer_preference_footer_instruction_text">ستتم قراءة اسم المتصل ورقمه بصوت مرتفع في المكالمات الواردة.</string>
     <string name="call_announcer_preference_list_title">قراءة رقم المتصل بصوت مرتفع</string>
     <string name="call_announcer_preference_option_always">دائمًا</string>
@@ -203,7 +219,7 @@
     <string name="call_incoming_answer">رد</string>
     <string name="call_incoming_answer_rtt">الرد باستخدام \"المراسلة النصية في الوقت الفعلي\"</string>
     <string name="call_incoming_answer_voice">الرد باستخدام صوتك</string>
-    <string name="call_incoming_chip_answer_and_release">الرد وإنهاء مكالمة جارية</string>
+    <string name="call_incoming_chip_answer_and_release">الردّ وإنهاء المكالمة الأخرى</string>
     <string name="call_incoming_chip_answer_as_rtt">‏الرد بميزة RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">الرد بمكالمة صوتية</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">الرد مع إيقاف الفيديو</string>
@@ -219,7 +235,7 @@
     <string name="call_incoming_swipe_to_answer">التمرير للأعلى للرد</string>
     <string name="call_incoming_swipe_to_reject">مرِّر سريعًا إلى الأسفل للرفض.</string>
     <string name="call_incoming_video_is_off">الفيديو متوقّف</string>
-    <string name="call_incoming_will_disconnect">إنهاء مكالمة الفيديو في حالة الرد على هذه المكالمة</string>
+    <string name="call_incoming_will_disconnect">إنهاء المكالمة الأخرى عند الردّ على هذه المكالمة</string>
     <string name="call_incoming_will_disconnect_app">سيؤدي الرد إلى إنهاء مكالمتك على %1$s</string>
     <string name="call_isdn">‏اتصال بـ ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">حظر/إبلاغ عن رقم غير مرغوب فيه</string>
@@ -255,6 +271,7 @@
     <string name="call_reason_fragment_content_description">سبب الاتصال: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">تم حفظ التسجيل.</string>
     <string name="call_recording_conversation_history_entry">مسجّلة</string>
+    <string name="call_recording_delete_snack_bar_undo">تراجع</string>
     <string name="call_recording_disclaimer_agreen_button_text">بدء التسجيل</string>
     <string name="call_recording_disclaimer_content">"‏قد تكون أنت أو المتصل في مكان يتطلّب موافقة كلا الطرفَين على تسجيل المكالمة. سيتم إشعار طرفَي المكالمة مسبقًا بأنّ المكالمة يتم تسجيلها. عليك اتّباع القوانين المتعلّقة بتسجيل المحادثات. استخدِم ميزة تسجيل المكالمات بشكل مسؤول ولا تفعِّل هذه الميزة إلا عند اللزوم.
 ^1
@@ -291,6 +308,7 @@
 ولن يتم إرسال الملف الصوتي أو النصي للمكالمة إلى أي جهة بما في ذلك شركة Google."</string>
     <string name="call_screen_demo_page_4_title">وفّر وقتك وتجنّب كل ما يضايقك</string>
     <string name="call_screen_demo_setting_title">مشاهدة عرض توضيحي</string>
+    <string name="call_screen_demo_settings_title">مشاهدة فيديو توضيحي</string>
     <string name="call_screen_demo_title">آلية عمل ميزة \"رصد المكالمات\"</string>
     <string name="call_screen_demo_unable_to_fetch_audio">تعذّر جلب عيّنة ملف الصوت</string>
     <string name="call_screen_demo_unable_to_play_audio">يتعذّر تشغيل عيّنة ملف الصوت</string>
@@ -298,6 +316,7 @@
     <string name="call_screen_end_call_local_internal_message">رفضت المكالمة.</string>
     <string name="call_screen_end_call_non_local_internal_message">انقطعت المكالمة.</string>
     <string name="call_screen_how_it_works_setting_title">‏تعمل ميزة \"رصد المكالمات\" على جهازك بدون استخدام شبكة Wi-Fi أو بيانات الجوّال. يتم إنشاء نصوص المحادثة وتخزينها على هاتفك فقط. %1$s</string>
+    <string name="call_screen_how_it_works_title">‏تعمل ميزة \"رصد المكالمات\" على جهازك بدون استخدام شبكة Wi-Fi أو بيانات الجوّال. ويتم إنشاء نصوص المحادثة وتخزينها على هاتفك فقط. ^1</string>
     <string name="call_screen_incallui_chip_text">رصد المكالمة</string>
     <string name="call_screen_join_call_button_content_description">الانضمام إلى المكالمة</string>
     <string name="call_screen_join_call_internal_message">انضممت إلى المكالمة.</string>
@@ -307,6 +326,7 @@
     <string name="call_screen_saying_to_the_caller_state">جارٍ التحدُّث إلى المتصل</string>
     <string name="call_screen_screening_call_from">مكالمة واردة من</string>
     <string name="call_screen_setting_title">رصد المكالمات</string>
+    <string name="call_screen_settings_title">رصد المكالمات</string>
     <string name="call_screen_speaker_toggle_button_content_description">زر مكبّر الصوت</string>
     <string name="call_screen_suggestions_avatar_content_description">الشعار</string>
     <string name="call_screen_survey_cancel_button">إلغاء</string>
@@ -331,6 +351,8 @@
     <string name="call_work">الاتصال بهاتف العمل</string>
     <string name="call_work_mobile">الاتصال بجوال العمل</string>
     <string name="call_work_pager">الاتصال بجهاز نداء العمل</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">مكالمة %1$s واردة من %2$s على الشريحة %3$s</string>
     <string name="caller_id_announcement_single_sim">مكالمة %1$s واردة من %2$s</string>
     <string name="caller_id_business_data_details">‏إنّ البيانات المُستخدَمة في هذه الميزات مقدَّمة من Google والجهات المرخِّصة التابعة لها. ^1</string>
@@ -370,6 +392,9 @@
     <string name="calling_blocked_number_precall_dialog_title">هل تريد الاتصال بـ %s؟</string>
     <string name="calllog_add_to_contact">الإضافة إلى جهة اتصال</string>
     <string name="calllog_create_new_contact">إنشاء جهة اتصال جديدة</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">تم تفعيل إذن الوصول إلى الكاميرا.</string>
     <string name="camera_privacy_text">تم تفعيل إذن الكاميرا</string>
     <string name="cannot_understand_description">لا أفهم هذا الإجراء</string>
     <string name="car_crash_emergency_intro">"‏يجري التواصل معك باستخدام خدمة صوت آلية للطوارئ بطلب من المتصل.
@@ -392,7 +417,7 @@
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
     <string name="checkbox_report_as_spam_action">الإبلاغ عن المكالمة كغير مرغوب فيها</string>
     <string name="child_number">عبر %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">اختيار جهة اتصال</string>
     <string name="clear_button_content_description">محو البحث</string>
     <string name="clear_text_end_icon_content_description">محو النص</string>
     <string name="cli_not_supported_text">يُرجى فتح الهاتف للمواصلة</string>
@@ -432,6 +457,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">تعذّر إعداد مكالمة تم التحقق منها. يمكنك تفعيل هذا الخيار مجددًا في الإعدادات.</string>
     <string name="contact_card_video_icon_content_description">مكالمة فيديو ^1</string>
     <string name="contact_grid_callback_number">رقم الهاتف هذا: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">تمت إعادة توجيه المكالمة.</string>
+    <string name="contact_grid_hd_icon_content_description">مكالمة عالية الدقة</string>
+    <string name="contact_grid_hd_plus_icon_content_description">مكالمة فائقة الجودة</string>
     <string name="contact_grid_incoming_bidirectional_video_call">مكالمة فيديو باستخدام مشغّل شبكة الجوّال من</string>
     <string name="contact_grid_incoming_reception_only_video_call">مكالمة فيديو باستخدام مشغّل شبكة الجوّال من طرف واحد من</string>
     <string name="contact_grid_incoming_rtt_call">مكالمة بميزة \"المراسلة النصية في الوقت الفعلي\" من</string>
@@ -442,9 +470,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">‏مكالمة فيديو باستخدام مشغّل شبكة Wi-Fi من</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">‏مكالمة فيديو باستخدام مشغّل شبكة Wi-Fi من طرف واحد من</string>
     <string name="contact_grid_incoming_work_call">مكالمة عمل من</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">مكالمة باستخدام بيانات الجوّال المشترَكة</string>
+    <string name="contact_grid_spam_icon_content_description">مكالمة غير مرغوب فيها</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">مشغّل شبكة الجوّال</string>
     <string name="contact_grid_stir_shaken_validation_prefix">تم التحقق من قِبَل %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">رقم صالح</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">‏مكالمة فيديو على شبكة LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">‏مكالمة فيديو عبر شبكة Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">مكالمة صوتية على شبكة الجيل الرابع</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">‏مكالمة صوتية على شبكة LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">‏مكالمة صوتية عبر شبكة Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">‏مكالمة على شبكة Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">مكالمة عمل</string>
     <string name="contact_menu_add_favorite">إضافة كمُفضّلة</string>
     <string name="contact_menu_contact_info">معلومات الاتصال</string>
     <string name="contact_menu_invite_video">دعوة إلى مكالمة فيديو</string>
@@ -479,8 +516,12 @@
     <string name="conversation_history_call_details_header_today">اليوم</string>
     <string name="conversation_history_call_details_snack_bar_deleted">تم حذف المكالمة</string>
     <string name="conversation_history_call_details_snack_bar_undo">تراجع</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">مكالمة مُهمّة</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">عرض معلومات إضافية عن المكالمة</string>
+    <string name="conversation_history_call_recording_deleted">تم حذف التسجيل.</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">النص والصوت</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">النص</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">رصد المكالمات</string>
     <string name="copy">نسخ</string>
     <string name="copy_number">نسخ الرقم</string>
@@ -499,12 +540,17 @@
     <string name="custom_prefix_default_prefix_title">البادئة التلقائية</string>
     <string name="custom_prefix_prefixes_preference_title">البادئات</string>
     <string name="dark_theme_label">داكن</string>
+    <string name="default_changed_confirmation">تم ضبط تطبيق \"الهاتف\" كتطبيق تلقائي</string>
+    <string name="default_image_content_description">صورة بارزة</string>
     <string name="delete">حذف</string>
     <string name="delete_all_recordings_confirmation_dialog_title">حذف جميع التسجيلات</string>
     <string name="delete_all_recordings_now_error_message">تعذَّر حذف بعض التسجيلات. يُرجى إعادة المحاولة.</string>
     <string name="delete_button_label">حذف جميع التسجيلات الآن</string>
     <string name="delete_confirmation_dialog_negative_button_label">إلغاء</string>
     <string name="delete_confirmation_dialog_positive_button_label">حذف</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">جارٍ حذف التسجيل…</string>
     <string name="description_add_to_existing_contact_action">إضافة ^1 إلى جهة اتصال حالية</string>
     <string name="description_blocked_number_list_delete">إلغاء حظر الرقم</string>
     <string name="description_call_action">الاتصال بـ ^1</string>
@@ -607,6 +653,7 @@
     <string name="emergency_sos_emergency_intro">"‏يتم التواصل معك باستخدام خدمة صوتية آلية لحالات الطوارئ نيابة عن المتصل.
 لقد أشار المتصل إلى أنّه ربما يكون في حالة طوارئ. 
 يُرجى تقديم المساعدة إلى المتصل."</string>
+    <string name="emergency_speaker">مكبّر صوت</string>
     <string name="emergency_voice_assist_dialog_button_close">إلغاء</string>
     <string name="emergency_voice_assist_dialog_title">يستطيع عامل التشغيل المختص بحالات الطوارئ سماع هذا</string>
     <string name="end_call_with_default_message_description">إنهاء المكالمة</string>
@@ -636,9 +683,12 @@
     <string name="feedback_call_issue_quiet_audio">كان الصوت منخفضًا للغاية</string>
     <string name="feedback_call_issue_title">ما المشكلة؟</string>
     <string name="feedback_title_please_rate">يُرجى تقييم جودة المكالمة.</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">قَلب الهاتف لتفعيل وضع السكون</string>
     <string name="flip_to_silence_summary">لكتم صوت مكالمة واردة، ضع وجه الهاتف لأسفل على سطح مستوٍ.</string>
     <string name="flip_to_silence_title">قَلب الهاتف لتفعيل الوضع الصامت</string>
+    <string name="foreground_notification_title">جارٍ التحديث…</string>
     <string name="frequent_contact_suggestion">الأكثر اتصالاً</string>
     <string name="general_learn_more">معرفة المزيد</string>
     <string name="generic_conference_call_name">قيد الاتصال</string>
@@ -661,6 +711,7 @@
     <string name="how_it_works_storage_link_text">مزيد من المعلومات حول آلية تخزين التسجيلات</string>
     <string name="how_it_works_storage_template">سيتم تعليق تسجيل المكالمات إذا نفدت مساحة التخزين على هاتفك. ^1</string>
     <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="icon_description_shared_data_call">مكالمة باستخدام بيانات الجوّال المشترَكة</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">استيراد الأرقام</string>
     <string name="ims_video_heading">‏فيديو Verizon</string>
@@ -742,7 +793,7 @@
     <string name="location_title">أنت هنا</string>
     <string name="main_activity_label">الهاتف</string>
     <string name="main_menu_call_history">سجلّ المكالمات</string>
-    <string name="main_menu_help_and_feedback">المساعدة والتعليقات</string>
+    <string name="main_menu_help_and_feedback">المساعدة والملاحظات</string>
     <string name="make_primary">تذكر هذا الاختيار</string>
     <string name="manageConferenceLabel">إدارة مكالمة جماعية</string>
     <string name="manage_blocked_numbers_label">الأرقام المحظورة</string>
@@ -804,6 +855,7 @@
     <string name="new_call_log_no_missed_calls">لا توجد أي مكالمات لم يتم الرد عليها.</string>
     <string name="new_call_log_permission_no_calllog">للاطلاع على سجل المكالمات، فعِّل إذن الهاتف.</string>
     <string name="new_call_log_secondary_blocked">محظورة</string>
+    <string name="new_call_log_secondary_verified">مكالمة تم التحقّق منها.</string>
     <string name="new_call_log_snack_bar_deleted">تم حذف المكالمة</string>
     <string name="new_call_log_snack_bar_undo">تراجع</string>
     <string name="new_call_log_unknown">غير معروف</string>
@@ -818,8 +870,10 @@
     <string name="notification_action_answer_video">فيديو</string>
     <string name="notification_action_dismiss">رفض</string>
     <string name="notification_action_end_call">قطع الاتصال</string>
+    <string name="notification_action_mute_toggle">كتم الصوت</string>
     <string name="notification_action_speaker_off">إيقاف مكبِّر الصوت</string>
     <string name="notification_action_speaker_on">تشغيل مكبِّر الصوت</string>
+    <string name="notification_action_speaker_toggle">مكبّر صوت</string>
     <string name="notification_callReasonMsg">السبب: %s</string>
     <string name="notification_call_wifi_brand">‏مكالمة عبر Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">‏مكالمة عمل عبر Wi‑Fi</string>
@@ -883,6 +937,8 @@
     <string name="place_ims_button_content_description">زر يُستخدم لبدء مكالمة فيديو مع مشغّل شبكة الجوّال.</string>
     <string name="play">تشغيل</string>
     <string name="plus_code_line_format">رمز الموقع المفتوح: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">الإخبار عن سبب اتصالك</string>
     <string name="post_call_message_1">إنه أمر عاجل. عاود الاتصال بي.</string>
     <string name="post_call_message_2">عاود الاتصال بي عندما يتوفر لك الوقت.</string>
@@ -913,6 +969,8 @@
     <string name="privacy_policy_label">سياسة الخصوصية</string>
     <string name="private_num_non_verizon">رقم خاص</string>
     <string name="private_num_verizon">محظور</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">اختيار جهة اتصال</string>
     <string name="ready_for_recording">جارٍ التجهيز...</string>
     <string name="record_greeting_cancel_label">إلغاء</string>
@@ -928,6 +986,8 @@
     <string name="record_greeting_uploading_greeting_message">جارٍ الحفظ…</string>
     <string name="record_voicemail_greeting_title">تسجيل رسالة ترحيب</string>
     <string name="recording_category_title">التسجيلات</string>
+    <string name="recording_deleted">تم حذف التسجيل.</string>
+    <string name="recording_deletion_failed">تعذّر حذف التسجيل [يُرجى إعادة المحاولة]</string>
     <string name="redo_button_text">إعادة المحاولة</string>
     <string name="remember_this_choice_label">تذكّر هذا الاختيار</string>
     <string name="report_not_spam_alert_button">إبلاغ</string>
@@ -939,9 +999,20 @@
     <string name="request_call_back_description">معاودة الاتصال بي لاحقًا</string>
     <string name="request_email_description">أرسِل إليّ رسالة إلكترونية</string>
     <string name="respond_via_sms_setting_title">الردود السريعة</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">تفعيل</string>
     <string name="revelio_end_call_reject_as_spam">تم وضع علامة على المكالمة كغير مرغوب فيها.</string>
     <string name="revelio_end_call_user_missed_internal_message">لم يتم الرد على المكالمة.</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">‏تساعد الميزة \"مراسلة نصية في الوقت الفعلي\" (RTT) المتصلين الذين يعانون من فقدان حاسة السمع أو من ضعف في السمع أو ليست لديهم القدرة على التحدّث أو يحتاجون إلى ما هو أكثر من الصوت فقط. ^1</string>
     <string name="rtt_assist_for_att">‏تُعد لوحة مفاتيح الميزة \"مراسلة نصية في الوقت الفعلي\" (RTT) التي تظهر على الشاشة حلاً بديلاً للوحات مفاتيح أجهزة \"المُبرقة الكتابية\" (TTY) الخارجية. عند المراسلة أثناء إجراء مكالمة بميزة \"المراسلة النصية في الوقت الفعلي\" (RTT)، يستطيع الشخص الذي تتحدّث معه رؤيتك وأنت تكتب رسالتك في الوقت الفعلي. ^1</string>
     <string name="rtt_assist_for_tmo">‏تُعد لوحة مفاتيح ميزة \"المراسلة النصية في الوقت الفعلي\" (RTT) التي تظهر على الشاشة حلاً بديلاً للوحات مفاتيح أجهزة المُبرقة الكتابية (TTY) الخارجية. تعمل الميزة \"المراسلة النصية في الوقت الفعلي\" (RTT) على إرسال ما تكتبه على الفور أثناء المكالمة الهاتفية، وهذا يوفر لك إمكانية التواصل باستخدام النصوص في الوقت الفعلي. ستتمكن من رؤية ردود جزئية قبل اكتمال الرسالة كلها. ^1</string>
@@ -949,7 +1020,8 @@
     <string name="rtt_button_back">رجوع</string>
     <string name="rtt_button_downgrade">التبديل إلى مكالمة صوتية</string>
     <string name="rtt_call_button">مراسلة نصية في الوقت الفعلي</string>
-    <string name="rtt_call_not_available_toast">لا تتوفر ميزة \"المراسلة النصية في الوقت الفعلي\" لهذه المكالمة. تم إجراء مكالمتك كمكالمة صوتية فقط.</string>
+    <string name="rtt_call_downgraded_toast">تم تغيير المكالمة التي تتم من خلال ميزة \"مراسلة نصية في الوقت الفعلي\" إلى مكالمة صوتية فقط.</string>
+    <string name="rtt_call_not_available_toast">لا تتوفّر ميزة \"مراسلة نصية في الوقت الفعلي\" لهذه المكالمة.</string>
     <string name="rtt_configuration_summary_always_visible">يتوفّر زر \"المراسلة النصية في الوقت الفعلي\" في كل مكان</string>
     <string name="rtt_configuration_summary_not_visible">السماح بمكالمات \"المراسلة النصية في الوقت الفعلي\" مع إخفاء زر الاتصال</string>
     <string name="rtt_configuration_summary_visible_during_call">إظهار زر \"المراسلة النصية في الوقت الفعلي\" أثناء إحدى المكالمات</string>
@@ -978,6 +1050,8 @@
     <string name="rtt_transcript_link">عرض النص</string>
     <string name="rttcall_button_label">مراسلة نصية في الوقت الفعلي</string>
     <string name="safety_emergency_repeat_message_alert">سيتم تكرار هذه الرسالة.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">حفظ</string>
     <string name="saved_voicemails_action_title">رسائل البريد الصوتي المحفوظة للرقم (%1$s)</string>
     <string name="search_hint">البحث في جهات اتصال الفيديو</string>
@@ -1004,8 +1078,11 @@
     <string name="send_a_message">إرسال رسالة</string>
     <string name="send_to_voicemail_import_failed">تعذّر الاستيراد</string>
     <string name="serial_number">رقم تسلسلي</string>
+    <string name="set_as_default_button_text">الضبط كتطبيق تلقائي</string>
     <string name="set_default_account">استخدام هذا للمكالمات دائمًا</string>
     <string name="set_default_account_description">‏يتم حفظ جهات اتصالك على الخيار المفضّل لشريحة SIM.</string>
+    <string name="set_phone_as_default_explanation_text">يمكنك إجراء المكالمات وتلقّيها من خلال تطبيق \"الهاتف\" فقط إذا كان هو تطبيق الهاتف التلقائي الذي تستخدمه.</string>
+    <string name="set_phone_as_default_request_text">ضبط تطبيق \"الهاتف\" كتطبيق تلقائي</string>
     <string name="settings">الإعدادات</string>
     <string name="settings_page_call_recording_feature_not_available_text">ميزة تسجيل المكالمات غير متوفّرة في موقعك الجغرافي</string>
     <string name="settings_page_crosby_feature_not_available_text">‏Crosby غير متوفّر في موقعك الجغرافي</string>
@@ -1040,6 +1117,8 @@
     <string name="snackbar_undo">تراجع</string>
     <string name="snackbar_voicemail_deleted">تم حذف الرسالة الصوتية</string>
     <string name="sounds_and_vibration_title">الأصوات والاهتزاز</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">الأرقام غير المرغوب فيها ورصد المكالمات</string>
     <string name="spam_blocking_promo_action_dismiss">رفض</string>
     <string name="spam_blocking_promo_action_filter_spam">تصفية المكالمات غير المرغوب فيها</string>
@@ -1066,8 +1145,6 @@
     <string name="speed_dial_add_button_text">إضافة</string>
     <string name="speed_dial_contacts_permission_description">لتفعيل الاتصال السريع، فعِّل إذن جهات الاتصال.</string>
     <string name="speed_dial_disambig_dialog_title">اختيار كيفية التواصل مع %s</string>
-    <string name="speed_dial_education_content">المس أي جهة اتصال مع الاستمرار للتبديل بين المكالمات والرسائل</string>
-    <string name="speed_dial_education_title">طرق إضافية للتواصل</string>
     <string name="speed_dial_no_contacts_action_text">إضافة جهة اتصال مفضّلة</string>
     <string name="speed_dial_no_contacts_description">يمكنك الاتصال بجهات اتصالك المفضَّلة بنقرة واحدة.</string>
     <string name="speed_dial_remember_this_choice">تذكر هذا الاختيار</string>
@@ -1084,6 +1161,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">شكرًا على ملاحظاتك</string>
     <string name="suggestions_header">من يتم الاتصال بهم بشكل متكرر</string>
     <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
+    <string name="survey_account_and_system_info">معلومات الحساب والنظام</string>
+    <string name="survey_app_id">رقم تعريف التطبيق</string>
+    <string name="survey_app_name">اسم التطبيق</string>
+    <string name="survey_app_version">إصدار التطبيق</string>
+    <string name="survey_application_data">بيانات التطبيق</string>
+    <string name="survey_brand">العلامة التجارية</string>
+    <string name="survey_close_button_description">إغلاق</string>
+    <string name="survey_default_prompt_title">يُرجى مساعدتنا لتحسين خدمات Google.</string>
+    <string name="survey_device_model">طراز الجهاز</string>
+    <string name="survey_email_address">عنوان البريد الإلكتروني</string>
+    <string name="survey_google_play_services_version">إصدار \"خدمات Google Play\"</string>
+    <string name="survey_legal_text">تعني المتابعة موافقتك على أن تستخدم Google أجوبتك و%1$s لتحسين الخدمات، وفقًا لما ورد في %2$s و%3$s.</string>
+    <string name="survey_library_version">إصدار المكتبة</string>
+    <string name="survey_network_request_failed">أخفق طلب الشبكة</string>
+    <string name="survey_neutral">لا راضٍ ولا غير راضٍ</string>
+    <string name="survey_next">التالي</string>
+    <string name="survey_num_rating">%1$s من %2$s</string>
+    <string name="survey_ok">حسنًا</string>
+    <string name="survey_open_text_hint">أدخِل تعليقاتك هنا.</string>
+    <string name="survey_open_text_no_pii">لا تُدرِج أي معلومات شخصية.</string>
+    <string name="survey_operating_system">نظام التشغيل</string>
+    <string name="survey_operating_system_version">إصدار نظام التشغيل</string>
+    <string name="survey_other_option_hint">غير ذلك (يُرجى التحديد)</string>
+    <string name="survey_platform">النظام الأساسي</string>
+    <string name="survey_privacy">الخصوصية</string>
+    <string name="survey_prompt_no_thanks">لا شكرًا</string>
+    <string name="survey_prompt_take_our_survey">عرض السؤال</string>
+    <string name="survey_smiley_rating">وجه مبتسم %1$s من %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">غير راضٍ إلى حدٍّ ما</string>
+    <string name="survey_somewhat_satisfied">راضٍ إلى حدٍّ ما</string>
+    <string name="survey_submit">إرسال</string>
+    <string name="survey_system_info_dialog_title">معلومات الحساب والنظام</string>
+    <string name="survey_terms">البنود</string>
+    <string name="survey_thank_you_followup_message">ساعِدنا في تحسين منتجاتنا من خلال الإجابة عن المزيد من الأسئلة.</string>
+    <string name="survey_timezone_offset">معادلة المنطقة الزمنية</string>
+    <string name="survey_url">عنوان URL</string>
+    <string name="survey_user_agent">وكيل المستخدم</string>
+    <string name="survey_very_dissatisfied">غير راضٍ أبدًا</string>
+    <string name="survey_very_satisfied">راضٍ جدًا</string>
     <string name="system_default_theme_label">الإعداد التلقائي للنظام</string>
     <string name="tab_title_call_history">الأخيرة</string>
     <string name="tab_title_contacts">جهات اتصال</string>
@@ -1095,11 +1211,15 @@
     <string name="terms_of_service_label">بنود الخدمة</string>
     <string name="textmessage_button_label">رسالة</string>
     <string name="theme_preference_label">اختيار تصميم</string>
+    <string name="tidepods_call_screen_settings_title">رصد المكالمات</string>
+    <string name="tidepods_incall_label_record">تسجيل</string>
     <string name="toast_text_copied">تم نسخ النص</string>
     <string name="toolbar_back">رجوع</string>
     <string name="toolbar_close">إغلاق</string>
     <string name="transcript_audio_feedback_chip_text">المساعدة في تحسين الخدمات</string>
+    <string name="transcript_audio_feedback_link_text">عرض النص والبريد الصوتي</string>
     <string name="transcript_snippet_low_confidence_description">(لم يكن الصوت واضحًا)</string>
+    <string name="try_again_button">إعادة المحاولة</string>
     <string name="tty_configuration_title_tty_full">‏TTY مكتمل</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">‏TTY غير مفعّل</string>
@@ -1121,7 +1241,6 @@
     <string name="type_outgoing_video_pulled">تم تحويل مكالمة فيديو صادرة إلى جهاز آخر</string>
     <string name="type_rejected">مكالمة مرفوضة</string>
     <string name="type_voicemail">البريد الصوتي</string>
-    <string name="unable_change_value_error">حدثت مشكلة أثناء تغيير إعدادات \"المراسلة النصية في الوقت الفعلي\". يُرجى العودة والمحاولة مرة أخرى.</string>
     <string name="unable_read_value_error">حدثت مشكلة أثناء قراءة إعدادات \"المراسلة النصية في الوقت الفعلي\". يُرجى العودة والمحاولة مرة أخرى.</string>
     <string name="unblock_number">إزالة الحظر</string>
     <string name="unblock_number_alert_details">ستُزال علامة \"غير مرغوب فيه\" عن هذا الرقم ويُلغى حظره، ولن يتم التعامل مع المكالمات الواردة منه كغير مرغوب فيها.</string>
@@ -1130,6 +1249,7 @@
     <string name="unblock_number_ok">إزالة الحظر</string>
     <string name="unblock_report_number_alert_title">هل تريد إزالة حظر %1$s؟</string>
     <string name="unknown">غير معروف</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">إعادة الصوت الوارد</string>
     <string name="user_is_busy_description">سأعاود الاتصال بك</string>
@@ -1241,10 +1361,17 @@
     <string name="videocall_remote_video_on">الفيديو قيد التشغيل</string>
     <string name="videocall_remotely_held">المكالمة معلقة</string>
     <string name="videocall_remotely_resumed">تم استئناف المكالمة</string>
+    <string name="videocall_settings_default_carrier">مكالمات فيديو باستخدام مشغّل شبكة الجوّال</string>
+    <string name="videocall_settings_default_duo">Google Duo</string>
+    <string name="videocall_settings_default_title">خدمة مكالمات الفيديو التلقائية</string>
+    <string name="videocall_settings_fallback_summary">‏يمكنك التبديل إلى تطبيق Google Duo في حال عدم توفّر مكالمات الفيديو باستخدام مشغّل شبكة الجوّال.</string>
+    <string name="videocall_settings_fallback_title">‏استخدام Google Duo كتطبيق احتياطي</string>
+    <string name="videocall_settings_title">مكالمات فيديو</string>
     <string name="videocall_show_preview_button_description">عرض خلاصة الفيديو المحلية</string>
     <string name="view">عرض</string>
     <string name="view_location_settings">إعدادات الموقع</string>
     <string name="vitle_label">‏مكالمة فيديو عبر LTE</string>
+    <string name="viwifi_label">‏مكالمة فيديو عبر شبكة Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">رقم التعريف الشخصي الجديد يحتوي على أحرف غير صالحة.</string>
     <string name="vm_change_pin_error_mismatch">رقم التعريف الشخصي القديم غير مُطابِق.</string>
     <string name="vm_change_pin_error_system_error">يتعذّر تغيير رقم التعريف الشخصي</string>
@@ -1254,8 +1381,11 @@
     <string name="vm_change_pin_progress_message">يُرجى الانتظار.</string>
     <string name="voice_call">مكالمة صوتية</string>
     <string name="voice_call_button">اتصال</string>
+    <string name="voice_display_name">الصوت %1$d</string>
     <string name="voice_search_not_available">البحث الصوتي غير متاح</string>
     <string name="voice_selector_preference_title">الأصوات المتوفِّرة</string>
+    <string name="voice_settings_available_voices_text">الأصوات المتوفِّرة</string>
+    <string name="voice_settings_title">الصوت</string>
     <string name="voicecall_button_label">اتصال</string>
     <string name="voicecall_button_wifi_description">‏الاتصال باستخدام شبكة wifi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s في %2$s</string>
@@ -1290,7 +1420,6 @@
     <string name="voicemail_donation_promo_title">هل تريد المساعدة في تحسين دقة ميزة تحويل الصوت إلى نص؟</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">‏قد يؤدي استخدام بريد صوتي مرئي لشرائح SIM بدون بيانات إلى تحمُّل رسوم من مشغّل شبكة الجوّال.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">‏توفُّر البريد الصوتي المرئي لشريحة SIM المحدّدة للبيانات فقط</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">‏في حال توفُّر شرائح SIM متعددة وكانت إحداها مخصَّصة لخدمة Google Fi، سيتم استخدام شريحة Fi SIM للبريد الصوتي المرئي.</string>
     <string name="voicemail_error_activating_message">قد لا تتلقّى إشعارات البريد الصوتي حتى يتم تفعيل البريد الصوتي المرئي تمامًا. يمكنك الاتصال بالبريد الصوتي لاسترداد الرسائل الجديدة إلى أن يتم تفعيل البريد الصوتي تمامًا.</string>
     <string name="voicemail_error_activating_title">تفعيل البريد الصوتي المرئي</string>
     <string name="voicemail_error_activation_disabled_message">الاتصال بالبريد الصوتي لإنهاء إعداده</string>
@@ -1397,6 +1526,7 @@
     <string name="vvm3_error_vms_no_cellular_title">لا يمكن الاتصال بصندوق بريدك الصوتي</string>
     <string name="vvm3_error_vms_timeout_message">عذرًا، هناك مشكلة. يُرجى إعادة المحاولة لاحقًا. وإذا استمرت المشكلة، يُرجى الاتصال بخدمة العملاء على الرقم %1$s وإبلاغهم أن رمز الخطأ هو 9007.</string>
     <string name="vvm3_error_vms_timeout_title">حدث خطأٌ ما</string>
+    <string name="vvm_config_title">إعدادات البريد الصوتي المرئي</string>
     <string name="vvm_unsupported_message_format">نوع الرسالة غير معتمد، اتصل على %s لسماعها.</string>
     <string name="wait_prompt_str">"‏هل تريد إرسال النغمات التالية؟
 "</string>

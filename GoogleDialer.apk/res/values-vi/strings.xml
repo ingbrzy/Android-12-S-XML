@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Trả lời</string>
     <string name="a11y_call_incoming_decline_description">Từ chối</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Gọi video qua Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Gọi thoại qua Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Cuộc gọi gần đây nhất là cuộc gọi đã trả lời từ ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Quản lý người gọi</string>
     <string name="a11y_expandedsheet_collapse">thu gọn menu</string>
     <string name="a11y_expandedsheet_expand">mở rộng menu</string>
-    <string name="a11y_favorites_education_dismiss">đóng</string>
     <string name="a11y_feature_demo_next_page">Trang tiếp theo</string>
     <string name="a11y_feature_demo_page_indicator">Trang %d</string>
     <string name="a11y_feature_demo_prev_page">Trang trước</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Liên hệ nhanh của ^1</string>
+    <string name="a11y_icon_hd">Cuộc gọi HD</string>
+    <string name="a11y_icon_hd_plus">Cuộc gọi Chất lượng rất cao</string>
+    <string name="a11y_icon_shared_data_call">Cuộc gọi qua dữ liệu dùng chung</string>
+    <string name="a11y_icon_verified">Cuộc gọi được xác minh</string>
+    <string name="a11y_icon_vilte">Cuộc gọi video qua mạng LTE</string>
+    <string name="a11y_icon_viwifi">Cuộc gọi video qua Wi-Fi</string>
+    <string name="a11y_icon_volte">Cuộc gọi thoại qua mạng LTE</string>
+    <string name="a11y_icon_voz4g">Cuộc gọi thoại qua mạng 4G</string>
+    <string name="a11y_icon_wifi">Cuộc gọi qua Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Vuốt hai ngón tay lên để trả lời. Vuốt hai ngón tay xuống để từ chối.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Dùng hai ngón tay vuốt lên để trả lời hoặc vuốt xuống để từ chối cuộc gọi</string>
     <string name="a11y_new_call_log_entry_call_recording">đã ghi âm cuộc gọi</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">trên ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">thực hiện cuộc gọi qua tin nhắn theo thời gian thực với ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Cuộc gọi qua dữ liệu dùng chung</string>
     <string name="a11y_new_call_log_entry_tap_action">mở rộng menu</string>
     <string name="a11y_new_call_log_entry_video_call">gọi video với ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">gọi video cho ^1 qua Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Chỉnh sửa số trước khi gọi</string>
     <string name="action_menu_back_from_search">ngừng tìm kiếm</string>
     <string name="action_menu_overflow_description">Tùy chọn khác</string>
+    <string name="activate_error_message">Đã xảy ra lỗi khi kích hoạt tính năng Sàng lọc cuộc gọi</string>
+    <string name="activated_successfully">Đã kích hoạt tính năng Sàng lọc cuộc gọi</string>
     <string name="activity_not_available">Không có ứng dụng nào cho thao tác đó trên thiết bị này</string>
     <string name="add_2sec_pause">Thêm tạm dừng 2 giây</string>
     <string name="add_contact_not_available">Không có ứng dụng danh bạ</string>
@@ -158,10 +170,10 @@ Các bản ghi chỉ được lưu trữ trên điện thoại của bạn. ^1"<
     <string name="blocked_numbers_disabled_emergency_header_label">Tạm thời tắt chặn cuộc gọi</string>
     <string name="bm_suggest_call_button">Gọi</string>
     <string name="bm_suggest_chat_button">Trò chuyện</string>
-    <string name="bm_suggest_wait_min">"%1$d phút chờ
-trò chuyện"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s thông báo chưa đọc</string>
+    <string name="bm_suggest_wait_min">"Chờ trò chuyện
+%1$dphút"</string>
+    <string name="bm_suggest_wait_time_estimating">"Trò chuyện
+Đang hoạt động…"</string>
     <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
     <string name="bubble_bottom_action_end_call">Kết thúc cuộc gọi</string>
     <string name="bubble_bottom_action_hide">Ẩn</string>
@@ -170,7 +182,10 @@ trò chuyện"</string>
     <string name="call">Gọi thoại</string>
     <string name="callFailed_simError">Không có SIM hoặc lỗi SIM</string>
     <string name="callHistoryIconLabel">Nhật ký cuộc gọi</string>
-    <string name="call_announcer_preference_footer_instruction_text">Tên và số của người gọi sẽ được đọc to khi có cuộc gọi đến</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Tên và số của người gọi sẽ được đọc to khi có cuộc gọi đến.</string>
     <string name="call_announcer_preference_list_title">Thông báo tên nhận dạng người gọi</string>
     <string name="call_announcer_preference_option_always">Luôn luôn</string>
     <string name="call_announcer_preference_option_headset">Chỉ khi sử dụng tai nghe</string>
@@ -203,7 +218,7 @@ trò chuyện"</string>
     <string name="call_incoming_answer">Trả lời</string>
     <string name="call_incoming_answer_rtt">Trả lời bằng tin nhắn theo thời gian thực (RTT)</string>
     <string name="call_incoming_answer_voice">Trả lời bằng giọng nói</string>
-    <string name="call_incoming_chip_answer_and_release">Trả lời &amp; kết thúc gọi</string>
+    <string name="call_incoming_chip_answer_and_release">Trả lời và kết thúc cuộc gọi khác</string>
     <string name="call_incoming_chip_answer_as_rtt">Trả lời bằng cuộc gọi dùng tin nhắn theo thời gian thực</string>
     <string name="call_incoming_chip_answer_video_as_audio">Trả lời dưới dạng cuộc gọi thoại</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Tính năng trả lời bằng video đang tắt</string>
@@ -219,7 +234,7 @@ trò chuyện"</string>
     <string name="call_incoming_swipe_to_answer">Vuốt lên để trả lời</string>
     <string name="call_incoming_swipe_to_reject">Vuốt xuống để từ chối</string>
     <string name="call_incoming_video_is_off">Video của bạn đang tắt</string>
-    <string name="call_incoming_will_disconnect">Trả lời cuộc gọi này sẽ kết thúc cuộc gọi video của bạn</string>
+    <string name="call_incoming_will_disconnect">Khi bạn trả lời cuộc gọi này, cuộc gọi khác sẽ kết thúc</string>
     <string name="call_incoming_will_disconnect_app">Việc trả lời sẽ kết thúc cuộc gọi %1$s</string>
     <string name="call_isdn">Gọi ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Chặn/báo vi phạm</string>
@@ -255,6 +270,7 @@ trò chuyện"</string>
     <string name="call_reason_fragment_content_description">Lý do gọi điện: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Đã lưu bản ghi âm.</string>
     <string name="call_recording_conversation_history_entry">Đã ghi âm</string>
+    <string name="call_recording_delete_snack_bar_undo">Hủy</string>
     <string name="call_recording_disclaimer_agreen_button_text">Bắt đầu ghi âm</string>
     <string name="call_recording_disclaimer_content">"Bạn hoặc người tham gia cuộc gọi của bạn có thể ở những nơi yêu cầu phải có sự chấp thuận của người dùng mới được phép ghi âm cuộc gọi. Người dùng sẽ nhận được thông báo trước khi cuộc gọi được ghi âm. Bạn không bắt buộc phải tuân thủ các luật về ghi âm cuộc trò chuyện. Hãy dùng tính năng ghi âm cuộc gọi một cách có trách nhiệm và chỉ bật tính năng này khi cần.
 ^1
@@ -291,6 +307,7 @@ Các bản ghi chỉ được lưu trữ trên điện thoại của bạn."</st
 Cả âm thanh cuộc gọi và bản chép lời của cuộc gọi đều không được gửi cho bất cứ ai, bao gồm cả Google."</string>
     <string name="call_screen_demo_page_4_title">Tiết kiệm thời gian và tránh bị gián đoạn</string>
     <string name="call_screen_demo_setting_title">Xem bản minh họa</string>
+    <string name="call_screen_demo_settings_title">Xem bản minh họa</string>
     <string name="call_screen_demo_title">Cách hoạt động của tính năng Sàng lọc cuộc gọi</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Không thể tìm nạp âm thanh mẫu</string>
     <string name="call_screen_demo_unable_to_play_audio">Không thể phát âm thanh mẫu</string>
@@ -298,6 +315,7 @@ Cả âm thanh cuộc gọi và bản chép lời của cuộc gọi đều khô
     <string name="call_screen_end_call_local_internal_message">Bạn đã kết thúc cuộc gọi</string>
     <string name="call_screen_end_call_non_local_internal_message">Cuộc gọi đã bị ngắt kết nối</string>
     <string name="call_screen_how_it_works_setting_title">Tính năng Sàng lọc cuộc gọi hoạt động trên thiết bị mà không sử dụng Wi-Fi hoặc dữ liệu di động. Bản chép lời cuộc trò chuyện chỉ được tạo và lưu trữ trên điện thoại của bạn. %1$s</string>
+    <string name="call_screen_how_it_works_title">Tính năng Sàng lọc cuộc gọi hoạt động trên thiết bị mà không sử dụng Wi-Fi hoặc dữ liệu di động. Bản chép lời cuộc trò chuyện chỉ được tạo và lưu trữ trên điện thoại của bạn. ^1</string>
     <string name="call_screen_incallui_chip_text">Sàng lọc cuộc gọi</string>
     <string name="call_screen_join_call_button_content_description">Tham gia cuộc gọi</string>
     <string name="call_screen_join_call_internal_message">Bạn đã tham gia cuộc gọi</string>
@@ -307,6 +325,7 @@ Cả âm thanh cuộc gọi và bản chép lời của cuộc gọi đều khô
     <string name="call_screen_saying_to_the_caller_state">Đang nói với người gọi</string>
     <string name="call_screen_screening_call_from">Đang hiện màn hình cuộc gọi từ</string>
     <string name="call_screen_setting_title">Sàng lọc cuộc gọi</string>
+    <string name="call_screen_settings_title">Sàng lọc cuộc gọi</string>
     <string name="call_screen_speaker_toggle_button_content_description">Nút loa</string>
     <string name="call_screen_suggestions_avatar_content_description">Biểu trưng</string>
     <string name="call_screen_survey_cancel_button">Hủy</string>
@@ -331,6 +350,8 @@ Cả âm thanh cuộc gọi và bản chép lời của cuộc gọi đều khô
     <string name="call_work">Gọi số điện thoại cơ quan</string>
     <string name="call_work_mobile">Gọi số điện thoại di động tại cơ quan</string>
     <string name="call_work_pager">Gọi số máy nhắn tin cơ quan</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">cuộc gọi %1$s từ %2$s qua sim %3$s</string>
     <string name="caller_id_announcement_single_sim">cuộc gọi %1$s từ %2$s</string>
     <string name="caller_id_business_data_details">Dữ liệu đang được sử dụng trong các tính năng này do Google và các bên cấp phép của Google cung cấp. ^1</string>
@@ -370,6 +391,9 @@ Cả âm thanh cuộc gọi và bản chép lời của cuộc gọi đều khô
     <string name="calling_blocked_number_precall_dialog_title">Gọi %s?</string>
     <string name="calllog_add_to_contact">Thêm vào một mục liên hệ</string>
     <string name="calllog_create_new_contact">Tạo người liên hệ mới</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Đã bật quyền sử dụng máy ảnh</string>
     <string name="camera_privacy_text">Đã bật quyền sử dụng máy ảnh</string>
     <string name="cannot_understand_description">Tôi không hiểu</string>
     <string name="car_crash_emergency_intro">"Dịch vụ thoại khẩn cấp tự động đang liên hệ với bạn thay mặt người gọi.
@@ -392,7 +416,7 @@ Xin hãy trợ giúp."</string>
     <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
     <string name="checkbox_report_as_spam_action">Báo cáo cuộc gọi này là cuộc gọi làm phiền</string>
     <string name="child_number">qua %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Chọn một mục liên hệ</string>
     <string name="clear_button_content_description">Xóa nội dung tìm kiếm</string>
     <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
     <string name="cli_not_supported_text">Hãy mở điện thoại để tiếp tục</string>
@@ -432,6 +456,9 @@ Xin hãy trợ giúp."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Không thể thiết lập tính năng Gọi điện được xác minh. Bạn có thể bật lại trong phần cài đặt.</string>
     <string name="contact_card_video_icon_content_description">Gọi video cho ^1</string>
     <string name="contact_grid_callback_number">Số của điện thoại này là: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Cuộc gọi đã được chuyển tiếp</string>
+    <string name="contact_grid_hd_icon_content_description">Cuộc gọi HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Cuộc gọi HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Cuộc gọi video qua nhà mạng từ</string>
     <string name="contact_grid_incoming_reception_only_video_call">Cuộc gọi video 1 chiều qua nhà mạng từ</string>
     <string name="contact_grid_incoming_rtt_call">Cuộc gọi qua tin nhắn theo thời gian thực từ</string>
@@ -442,9 +469,18 @@ Xin hãy trợ giúp."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Cuộc gọi video qua Wi-Fi từ</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Cuộc gọi video 1 chiều qua mạng Wi-Fi từ</string>
     <string name="contact_grid_incoming_work_call">Cuộc gọi về công việc từ</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Cuộc gọi qua dữ liệu dùng chung</string>
+    <string name="contact_grid_spam_icon_content_description">Cuộc gọi làm phiền</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Nhà mạng</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s đã xác minh</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Số hợp lệ</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Gọi video bằng LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Cuộc gọi video qua Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Gọi thoại bằng 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Gọi thoại bằng LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Cuộc gọi thoại qua Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Cuộc gọi qua Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Cuộc gọi về công việc</string>
     <string name="contact_menu_add_favorite">Thêm số liên hệ yêu thích</string>
     <string name="contact_menu_contact_info">Thông tin liên hệ</string>
     <string name="contact_menu_invite_video">Mời tham gia cuộc gọi video</string>
@@ -479,8 +515,12 @@ Xin hãy trợ giúp."</string>
     <string name="conversation_history_call_details_header_today">Hôm nay</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Đã xóa cuộc gọi</string>
     <string name="conversation_history_call_details_snack_bar_undo">Hủy</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Cuộc gọi quan trọng</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Hiện thông tin cuộc gọi đã thêm</string>
+    <string name="conversation_history_call_recording_deleted">Đã xóa bản ghi âm</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Bản chép lời và âm thanh</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Bản chép lời</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Sàng lọc cuộc gọi</string>
     <string name="copy">Sao chép</string>
     <string name="copy_number">Sao chép số</string>
@@ -499,12 +539,17 @@ Xin hãy trợ giúp."</string>
     <string name="custom_prefix_default_prefix_title">Tiền tố mặc định</string>
     <string name="custom_prefix_prefixes_preference_title">Tiền tố</string>
     <string name="dark_theme_label">Tối</string>
+    <string name="default_changed_confirmation">Đã đặt Điện thoại đặt làm ứng dụng mặc định</string>
+    <string name="default_image_content_description">Ảnh màn hình chờ</string>
     <string name="delete">Xóa</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Xóa tất cả bản ghi</string>
     <string name="delete_all_recordings_now_error_message">Không thể xóa một số bản ghi. Hãy thử lại.</string>
     <string name="delete_button_label">Xóa tất cả bản ghi âm ngay</string>
     <string name="delete_confirmation_dialog_negative_button_label">Hủy</string>
     <string name="delete_confirmation_dialog_positive_button_label">Xóa</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Đang xóa bản ghi âm…</string>
     <string name="description_add_to_existing_contact_action">Thêm ^1 vào địa chỉ liên hệ hiện có</string>
     <string name="description_blocked_number_list_delete">Bỏ chặn số</string>
     <string name="description_call_action">Gọi ^1</string>
@@ -607,6 +652,7 @@ Xin hãy trợ giúp."</string>
     <string name="emergency_sos_emergency_intro">"Dịch vụ thoại khẩn cấp tự động đang liên hệ với bạn thay mặt một người gọi.
 Người gọi phát tín hiệu rằng họ có thể đang gặp nguy hiểm. 
 Xin hãy trợ giúp."</string>
+    <string name="emergency_speaker">Loa</string>
     <string name="emergency_voice_assist_dialog_button_close">Hủy</string>
     <string name="emergency_voice_assist_dialog_title">Tổng đài viên khẩn cấp nghe cuộc gọi này</string>
     <string name="end_call_with_default_message_description">Kết thúc cuộc gọi</string>
@@ -630,15 +676,18 @@ Xin hãy trợ giúp."</string>
     <string name="feedback_audio_issue_missing_start">Mất âm thanh khi bắt đầu cuộc gọi</string>
     <string name="feedback_audio_issue_outgoing_audio">Người khác không thể nghe thấy tôi</string>
     <string name="feedback_call_issue_choppy_audio">Tiếng bị ngắt quãng hoặc giật</string>
-    <string name="feedback_call_issue_dropped">Cuộc gọi bị gián đoạn giữa chừng</string>
+    <string name="feedback_call_issue_dropped">Cuộc gọi bị rớt giữa chừng</string>
     <string name="feedback_call_issue_never_connected">Cuộc gọi không bao giờ được kết nối</string>
     <string name="feedback_call_issue_other">Vấn đề khác</string>
     <string name="feedback_call_issue_quiet_audio">Tiếng quá bé</string>
     <string name="feedback_call_issue_title">Vấn đề là gì?</string>
     <string name="feedback_title_please_rate">Vui lòng xếp hạng chất lượng của cuộc gọi</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Lật úp để tắt tiếng</string>
     <string name="flip_to_silence_summary">Để tắt tiếng một cuộc gọi đến, hãy úp điện thoại của bạn xuống một bề mặt phẳng</string>
     <string name="flip_to_silence_title">Lật úp để tắt tiếng</string>
+    <string name="foreground_notification_title">Đang cập nhật…</string>
     <string name="frequent_contact_suggestion">Thường xuyên gọi</string>
     <string name="general_learn_more">Tìm hiểu thêm</string>
     <string name="generic_conference_call_name">Đang trong cuộc gọi</string>
@@ -661,6 +710,7 @@ Xin hãy trợ giúp."</string>
     <string name="how_it_works_storage_link_text">Tìm hiểu thêm về cách bản ghi âm được lưu trữ</string>
     <string name="how_it_works_storage_template">Tính năng ghi âm cuộc gọi sẽ bị tạm ngưng nếu điện thoại của bạn hết dung lượng lưu trữ. ^1</string>
     <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string name="icon_description_shared_data_call">Cuộc gọi qua dữ liệu dùng chung</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Nhập số</string>
     <string name="ims_video_heading">Gọi video qua Verizon</string>
@@ -804,6 +854,7 @@ Xin hãy trợ giúp."</string>
     <string name="new_call_log_no_missed_calls">Bạn không có cuộc gọi nhỡ nào</string>
     <string name="new_call_log_permission_no_calllog">Để xem nhật ký cuộc gọi, hãy bật quyền truy cập vào Điện thoại.</string>
     <string name="new_call_log_secondary_blocked">Bị chặn</string>
+    <string name="new_call_log_secondary_verified">Cuộc gọi được xác minh</string>
     <string name="new_call_log_snack_bar_deleted">Đã xóa cuộc gọi</string>
     <string name="new_call_log_snack_bar_undo">Hủy</string>
     <string name="new_call_log_unknown">Không xác định</string>
@@ -818,8 +869,10 @@ Xin hãy trợ giúp."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Từ chối</string>
     <string name="notification_action_end_call">Kết thúc</string>
+    <string name="notification_action_mute_toggle">Tắt</string>
     <string name="notification_action_speaker_off">Tắt loa</string>
     <string name="notification_action_speaker_on">Bật loa</string>
+    <string name="notification_action_speaker_toggle">Loa</string>
     <string name="notification_callReasonMsg">Lý do: %s</string>
     <string name="notification_call_wifi_brand">Cuộc gọi qua Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Cuộc gọi về công việc qua Wi‑Fi</string>
@@ -867,7 +920,7 @@ Xin hãy trợ giúp."</string>
     <string name="old_block_number_confirmation_title">Bạn muốn chặn %1$s?</string>
     <string name="openhistory_button_label">Nhật ký</string>
     <string name="outgoing_wps_warning">Việc thực hiện cuộc gọi WPS sẽ ngắt kết nối cuộc gọi hiện có của bạn.</string>
-    <string name="password_toggle_content_description">Hiển thị mật khẩu</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
     <string name="pause_prompt_no">Không</string>
     <string name="pause_prompt_yes">Có</string>
     <string name="payphone">Điện thoại công cộng</string>
@@ -883,6 +936,8 @@ Xin hãy trợ giúp."</string>
     <string name="place_ims_button_content_description">Một nút dùng để gọi video qua nhà mạng.</string>
     <string name="play">Phát</string>
     <string name="plus_code_line_format">Mã cộng: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Nói lý do bạn gọi</string>
     <string name="post_call_message_1">Cuộc gọi này là khẩn cấp. Hãy gọi lại cho tôi.</string>
     <string name="post_call_message_2">Hãy gọi lại cho tôi khi bạn có thời gian.</string>
@@ -913,6 +968,8 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="privacy_policy_label">Chính sách quyền riêng tư</string>
     <string name="private_num_non_verizon">Số cá nhân</string>
     <string name="private_num_verizon">Bị giới hạn</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Chọn mục liên hệ</string>
     <string name="ready_for_recording">Sẵn sàng...</string>
     <string name="record_greeting_cancel_label">Hủy</string>
@@ -928,6 +985,8 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="record_greeting_uploading_greeting_message">Đang lưu…</string>
     <string name="record_voicemail_greeting_title">Ghi âm lời chào</string>
     <string name="recording_category_title">Bản ghi âm</string>
+    <string name="recording_deleted">Đã xóa bản ghi âm</string>
+    <string name="recording_deletion_failed">Không thể xóa bản ghi âm [Hãy thử lại]</string>
     <string name="redo_button_text">Thử lại</string>
     <string name="remember_this_choice_label">Nhớ lựa chọn này</string>
     <string name="report_not_spam_alert_button">Báo cáo</string>
@@ -939,9 +998,20 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="request_call_back_description">Gọi lại cho tôi</string>
     <string name="request_email_description">Gửi email cho tôi</string>
     <string name="respond_via_sms_setting_title">Trả lời nhanh</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Bật</string>
     <string name="revelio_end_call_reject_as_spam">Cuộc gọi đã bị đánh dấu là vi phạm</string>
     <string name="revelio_end_call_user_missed_internal_message">Cuộc gọi đã bị nhỡ</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">Tin nhắn theo thời gian thực (RTT) trợ giúp những người gọi khiếm thính, bị suy giảm thính lực, không có khả năng nói hoặc cần thêm hỗ trợ khác ngoài giọng nói. ^1</string>
     <string name="rtt_assist_for_att">Bàn phím ảo của Tin nhắn theo thời gian thực (RTT) là bàn phím thay thế cho bàn phím bên ngoài của Máy điện báo đánh chữ. Khi bạn nhắn tin trong cuộc gọi có tính năng Tin nhắn theo thời gian thực, người mà bạn đang nói chuyện cùng có thể thấy bạn nhập tin nhắn theo thời gian thực. ^1</string>
     <string name="rtt_assist_for_tmo">Bàn phím ảo của Tin nhắn theo thời gian thực (RTT) là bàn phím thay thế cho bàn phím bên ngoài của thiết bị có chế độ liên lạc từ xa cho người khiếm thính (TTY). Tin nhắn theo thời gian thực (RTT) gửi những nội dung bạn đang soạn ngay lập tức trong suốt cuộc gọi điện thoại, giúp bạn giao tiếp bằng văn bản theo thời gian thực. Bạn có thể xem được một phần phản hồi trước khi toàn bộ tin nhắn hoàn tất. ^1</string>
@@ -949,7 +1019,8 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="rtt_button_back">Quay lại</string>
     <string name="rtt_button_downgrade">Chuyển sang cuộc gọi thoại</string>
     <string name="rtt_call_button">Tin nhắn theo thời gian thực</string>
-    <string name="rtt_call_not_available_toast">Không thể sử dụng tin nhắn theo thời gian thực (RTT) cho cuộc gọi này. Cuộc gọi của bạn đã được kết nối ở chế độ chỉ gọi thoại.</string>
+    <string name="rtt_call_downgraded_toast">Cuộc gọi kèm Tin nhắn theo thời gian thực (RTT) đã chuyển về chế độ chỉ gọi thoại</string>
+    <string name="rtt_call_not_available_toast">Không dùng được Tin nhắn theo thời gian thực (RTT) cho cuộc gọi này</string>
     <string name="rtt_configuration_summary_always_visible">Nút Tin nhắn theo thời gian thực hiện có thể dùng được ở mọi nơi</string>
     <string name="rtt_configuration_summary_not_visible">Cho phép cuộc gọi đến qua Tin nhắn theo thời gian thực nhưng ẩn nút đang gọi</string>
     <string name="rtt_configuration_summary_visible_during_call">Hiện nút Tin nhắn theo thời gian thực trong cuộc gọi</string>
@@ -978,6 +1049,8 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="rtt_transcript_link">Xem bản ghi</string>
     <string name="rttcall_button_label">Tin nhắn theo thời gian thực</string>
     <string name="safety_emergency_repeat_message_alert">Tin nhắn này sẽ lặp lại.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Lưu</string>
     <string name="saved_voicemails_action_title">Thư thoại đã lưu (%1$s)</string>
     <string name="search_hint">Tìm các địa chỉ liên hệ bạn có thể gọi video</string>
@@ -1004,8 +1077,11 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="send_a_message">Gửi tin nhắn</string>
     <string name="send_to_voicemail_import_failed">Nhập không thành công</string>
     <string name="serial_number">Số sê-ri</string>
+    <string name="set_as_default_button_text">Đặt làm mặc định</string>
     <string name="set_default_account">Luôn sử dụng SIM này để gọi</string>
     <string name="set_default_account_description">Tùy chọn SIM được lưu cùng với danh bạ của bạn.</string>
+    <string name="set_phone_as_default_explanation_text">Điện thoại chỉ có thể bắt đầu và nhận cuộc gọi nếu đây là ứng dụng mặc định dành cho điện thoại</string>
+    <string name="set_phone_as_default_request_text">Đặt Điện thoại làm ứng dụng mặc định</string>
     <string name="settings">Cài đặt</string>
     <string name="settings_page_call_recording_feature_not_available_text">Tính năng ghi âm cuộc gọi hiện chưa có ở nơi bạn sinh sống</string>
     <string name="settings_page_crosby_feature_not_available_text">Hiện chưa có ở nơi bạn sinh sống</string>
@@ -1040,6 +1116,8 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="snackbar_undo">Hoàn tác</string>
     <string name="snackbar_voicemail_deleted">Đã xóa thư thoại</string>
     <string name="sounds_and_vibration_title">Âm thanh và rung</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Số không mong muốn và Sàng lọc cuộc gọi</string>
     <string name="spam_blocking_promo_action_dismiss">Bỏ qua</string>
     <string name="spam_blocking_promo_action_filter_spam">Lọc spam</string>
@@ -1066,8 +1144,6 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="speed_dial_add_button_text">Thêm</string>
     <string name="speed_dial_contacts_permission_description">Để bật tính năng quay số nhanh, hãy bật quyền đối với Danh bạ.</string>
     <string name="speed_dial_disambig_dialog_title">Chọn cách gọi cho %s</string>
-    <string name="speed_dial_education_content">Chạm và giữ bất kỳ người liên hệ nào để chuyển đổi giữa cuộc gọi và tin nhắn</string>
-    <string name="speed_dial_education_title">Kết nối với mọi người theo nhiều cách hơn</string>
     <string name="speed_dial_no_contacts_action_text">Thêm người liên hệ yêu thích</string>
     <string name="speed_dial_no_contacts_description">Gọi cho các mục liên hệ yêu thích của bạn chỉ bằng một lần nhấn</string>
     <string name="speed_dial_remember_this_choice">Nhớ lựa chọn này</string>
@@ -1084,6 +1160,45 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="suggestion_dialog_postive_snackbar_message">Cảm ơn bạn đã phản hồi</string>
     <string name="suggestions_header">Liên hệ thường xuyên</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">thông tin tài khoản &amp; hệ thống</string>
+    <string name="survey_app_id">Mã ứng dụng</string>
+    <string name="survey_app_name">Tên ứng dụng</string>
+    <string name="survey_app_version">Phiên bản ứng dụng</string>
+    <string name="survey_application_data">Dữ liệu ứng dụng</string>
+    <string name="survey_brand">Thương hiệu</string>
+    <string name="survey_close_button_description">Đóng</string>
+    <string name="survey_default_prompt_title">Vui lòng giúp chúng tôi cải thiện Google.</string>
+    <string name="survey_device_model">Kiểu thiết bị</string>
+    <string name="survey_email_address">Địa chỉ email</string>
+    <string name="survey_google_play_services_version">Phiên bản dịch vụ của Play</string>
+    <string name="survey_legal_text">Khi tiếp tục, bạn cho phép Google sử dụng các câu trả lời, %1$s của bạn để cải thiện dịch vụ, theo %2$s và %3$s của chúng tôi.</string>
+    <string name="survey_library_version">Phiên bản thư viện</string>
+    <string name="survey_network_request_failed">Không thể yêu cầu mạng</string>
+    <string name="survey_neutral">Bình thường</string>
+    <string name="survey_next">Tiếp theo</string>
+    <string name="survey_num_rating">%1$s/%2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Nhập nội dung nhận xét của bạn tại đây</string>
+    <string name="survey_open_text_no_pii">Không bao gồm thông tin cá nhân</string>
+    <string name="survey_operating_system">Hệ điều hành</string>
+    <string name="survey_operating_system_version">Phiên bản hệ điều hành</string>
+    <string name="survey_other_option_hint">Khác (Vui lòng ghi rõ)</string>
+    <string name="survey_platform">Nền tảng</string>
+    <string name="survey_privacy">Quyền riêng tư</string>
+    <string name="survey_prompt_no_thanks">Không, cảm ơn</string>
+    <string name="survey_prompt_take_our_survey">Hiển thị câu hỏi</string>
+    <string name="survey_smiley_rating">Mặt cười %1$s/%2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Hơi không hài lòng</string>
+    <string name="survey_somewhat_satisfied">Hơi hài lòng</string>
+    <string name="survey_submit">Gửi</string>
+    <string name="survey_system_info_dialog_title">Thông tin về tài khoản và hệ thống</string>
+    <string name="survey_terms">Điều khoản</string>
+    <string name="survey_thank_you_followup_message">Giúp Google cải thiện sản phẩm bằng cách trả lời nhiều câu hỏi hơn</string>
+    <string name="survey_timezone_offset">Chênh lệch múi giờ</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">Tác nhân người dùng</string>
+    <string name="survey_very_dissatisfied">Rất không hài lòng</string>
+    <string name="survey_very_satisfied">Rất hài lòng</string>
     <string name="system_default_theme_label">Chế độ mặc định của hệ thống</string>
     <string name="tab_title_call_history">Gần đây</string>
     <string name="tab_title_contacts">Danh bạ</string>
@@ -1095,11 +1210,15 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="terms_of_service_label">Điều khoản dịch vụ</string>
     <string name="textmessage_button_label">Tin nhắn</string>
     <string name="theme_preference_label">Chọn giao diện</string>
+    <string name="tidepods_call_screen_settings_title">Sàng lọc cuộc gọi</string>
+    <string name="tidepods_incall_label_record">Ghi</string>
     <string name="toast_text_copied">Đã sao chép văn bản</string>
     <string name="toolbar_back">Quay lại</string>
     <string name="toolbar_close">Đóng</string>
     <string name="transcript_audio_feedback_chip_text">Giúp chúng tôi cải tiến</string>
+    <string name="transcript_audio_feedback_link_text">Xem bản chép lời và bản ghi âm</string>
     <string name="transcript_snippet_low_confidence_description">(Âm thanh không rõ)</string>
+    <string name="try_again_button">Thử lại</string>
     <string name="tty_configuration_title_tty_full">Chế độ Máy điện báo đánh chữ (TTY) đầy đủ</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">Tắt chế độ Máy điện báo đánh chữ (TTY)</string>
@@ -1121,7 +1240,6 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="type_outgoing_video_pulled">Đã chuyển cuộc gọi điện video đi tới thiết bị khác</string>
     <string name="type_rejected">Cuộc gọi bị từ chối</string>
     <string name="type_voicemail">Thư thoại</string>
-    <string name="unable_change_value_error">Xảy ra sự cố khi thay đổi các tùy chọn cài đặt Tin nhắn theo thời gian thực (RTT) Vui lòng quay lại và thử lại.</string>
     <string name="unable_read_value_error">Xảy ra sự cố khi đọc cấu hình cài đặt Tin nhắn theo thời gian thực (RTT) Vui lòng quay lại và thử lại.</string>
     <string name="unblock_number">Bỏ chặn</string>
     <string name="unblock_number_alert_details">Sẽ bỏ chặn số này và báo cáo không phải spam. Các cuộc gọi trong tương lai sẽ không bị coi là spam.</string>
@@ -1130,6 +1248,7 @@ Bạn vẫn có thể gọi video cho một vài số mà không cần cập nh�
     <string name="unblock_number_ok">Bỏ chặn</string>
     <string name="unblock_report_number_alert_title">Bỏ chặn %1$s?</string>
     <string name="unknown">Không xác định</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Bật âm thanh cuộc gọi đến</string>
     <string name="user_is_busy_description">Tôi sẽ gọi lại</string>
@@ -1241,10 +1360,17 @@ Cước sử dụng dữ liệu sẽ áp dụng nếu bạn tiếp tục cuộc 
     <string name="videocall_remote_video_on">Video của họ đang bật</string>
     <string name="videocall_remotely_held">Cuộc gọi đang giữ máy</string>
     <string name="videocall_remotely_resumed">Đã tiếp tục cuộc gọi</string>
+    <string name="videocall_settings_default_carrier">Tính năng gọi video của nhà mạng</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Dịch vụ gọi video mặc định</string>
+    <string name="videocall_settings_fallback_summary">Chuyển qua Duo nếu tính năng gọi video của nhà mạng không sử dụng được</string>
+    <string name="videocall_settings_fallback_title">Sử dụng Duo là ứng dụng gọi video dự phòng</string>
+    <string name="videocall_settings_title">Gọi video</string>
     <string name="videocall_show_preview_button_description">Hiện nguồn cấp dữ liệu video cục bộ</string>
     <string name="view">Xem</string>
     <string name="view_location_settings">Cài đặt vị trí</string>
     <string name="vitle_label">Gọi video bằng LTE</string>
+    <string name="viwifi_label">Gọi video qua Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Mã PIN mới chứa các ký tự không hợp lệ.</string>
     <string name="vm_change_pin_error_mismatch">Mã PIN cũ không khớp.</string>
     <string name="vm_change_pin_error_system_error">Không thể thay đổi mã PIN</string>
@@ -1254,8 +1380,11 @@ Cước sử dụng dữ liệu sẽ áp dụng nếu bạn tiếp tục cuộc 
     <string name="vm_change_pin_progress_message">Vui lòng đợi.</string>
     <string name="voice_call">Gọi thoại</string>
     <string name="voice_call_button">Gọi</string>
+    <string name="voice_display_name">Giọng nói %1$d</string>
     <string name="voice_search_not_available">Không có tính năng tìm kiếm bằng giọng nói</string>
     <string name="voice_selector_preference_title">Các giọng nói được hỗ trợ</string>
+    <string name="voice_settings_available_voices_text">Các giọng nói được hỗ trợ</string>
+    <string name="voice_settings_title">Giọng nói</string>
     <string name="voicecall_button_label">Gọi</string>
     <string name="voicecall_button_wifi_description">Gọi qua Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s lúc %2$s</string>
@@ -1290,7 +1419,6 @@ Cước sử dụng dữ liệu sẽ áp dụng nếu bạn tiếp tục cuộc 
     <string name="voicemail_donation_promo_title">Giúp cải thiện độ chính xác của bản chép lời?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Việc sử dụng thư thoại trực quan cho SIM mà không dùng dữ liệu có thể dẫn đến việc bạn phải trả phí cho nhà mạng</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Thư thoại bằng hình ảnh chỉ có sẵn cho SIM dữ liệu đã chọn</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Nếu bạn có nhiều SIM và một SIM là dành cho Fi, thì SIM Fi sẽ dùng cho thư thoại bằng hình ảnh</string>
     <string name="voicemail_error_activating_message">Bạn có thể không nhận được thông báo thư thoại cho đến khi thư thoại kèm theo hình ảnh được kích hoạt hoàn toàn. Gọi thư thoại để tìm tin nhắn mới cho đến khi thư thoại được kích hoạt hoàn toàn.</string>
     <string name="voicemail_error_activating_title">Đang kích hoạt thư thoại kèm theo hình ảnh</string>
     <string name="voicemail_error_activation_disabled_message">Hãy gọi thư thoại để kết thúc thiết lập thư thoại hình ảnh</string>
@@ -1397,6 +1525,7 @@ Cước sử dụng dữ liệu sẽ áp dụng nếu bạn tiếp tục cuộc 
     <string name="vvm3_error_vms_no_cellular_title">Không thể kết nối với hộp thư thoại của bạn</string>
     <string name="vvm3_error_vms_timeout_message">Rất tiếc, chúng tôi đã gặp phải sự cố. Vui lòng thử lại sau. Nếu vẫn xảy ra sự cố, vui lòng liên hệ với bộ phận Dịch vụ khách hàng theo số %1$s và cho họ biết mã lỗi là 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Đã xảy ra lỗi</string>
+    <string name="vvm_config_title">Định cấu hình thư thoại kèm theo hình ảnh</string>
     <string name="vvm_unsupported_message_format">Loại tin nhắn không được hỗ trợ, hãy gọi số %s để nghe.</string>
     <string name="wait_prompt_str">"Gửi các âm sau?
 "</string>

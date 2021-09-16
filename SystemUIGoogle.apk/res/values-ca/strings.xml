@@ -595,6 +595,8 @@ Selecció"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">"Has de reiniciar el teu dispositiu perquè s'apliquin els canvis. Reinicia'l ara o cancel·la."</string>
     <string name="camera_hint">Llisca des de la icona per obrir la càmera</string>
     <string name="camera_label">obre la càmera</string>
+    <string name="camera_recording_announcement">La càmera està gravant</string>
+    <string name="camera_stopped_recording_announcement">La càmera ha deixat de gravar</string>
     <string name="cancel">Cancel·la</string>
     <string name="carrier_network_change_mode">"S'està canviant la xarxa de l'operador de telefonia mòbil"</string>
     <string name="category_personal">Personal</string>
@@ -734,6 +736,10 @@ Si reprens l'ús de les dades, es poden aplicar càrrecs."</string>
     <string name="debug_monitoring_category">Supervisió</string>
     <string name="debug_networking_category">Xarxes</string>
     <string name="debug_view_attributes">"Activa la inspecció d'atributs de visualització"</string>
+    <string name="defender_notify_des">El telèfon està limitant la càrrega per ajudar a mantenir el bon estat de la bateria</string>
+    <string name="defender_notify_learn_more">Més informació</string>
+    <string name="defender_notify_resume_charge">Reprèn la càrrega</string>
+    <string name="defender_notify_title">Càrrega limitada temporalment</string>
     <string name="delete_blob_confirmation_text">Confirmes que vols suprimir aquestes dades compartides?</string>
     <string name="delete_blob_text">Suprimeix dades compartides</string>
     <string name="demo_mode">Mode de demostració de la IU del sistema</string>
@@ -1070,6 +1076,7 @@ Contacta amb el teu proveïdor de serveis sense fil per obtenir-ne una altra."</
     <string name="keyguard_sim_unlock_progress_dialog_message">"S'està desbloquejant la targeta SIM…"</string>
     <string name="keyguard_try_fingerprint">"Utilitza l'empremta digital per obrir"</string>
     <string name="keyguard_unlock">Llisca cap amunt per obrir</string>
+    <string name="keyguard_unlock_press">Prem per obrir</string>
     <string name="keywords_adb_wireless">adb, depurar, desenvolupador</string>
     <string name="keywords_alarms_and_reminders">programació, alarma, recordatori, rellotge</string>
     <string name="kg_enter_confirm_pin_hint">Confirma el codi PIN</string>
@@ -1233,6 +1240,10 @@ Torna-ho a provar d'aquí a %2$d segons."</string>
     <string name="menu_ime">Commutador del teclat</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Micròfon actiu</string>
+    <string name="mic_and_camera_recording_announcement">La càmera i el micròfon estan gravant</string>
+    <string name="mic_camera_stopped_recording_announcement">La càmera i el micròfon han deixat de gravar</string>
+    <string name="mic_recording_announcement">El micròfon està gravant</string>
+    <string name="mic_stopped_recording_announcement">El micròfon ha deixat de gravar</string>
     <string name="missed_call">Trucada perduda</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dades mòbils</string>
@@ -1283,7 +1294,7 @@ Per obtenir més informació, contacta amb l'administrador de TI."</string>
     <string name="monitoring_description_network_logging">"L'administrador ha activat el registre de xarxa, que supervisa el trànsit del teu dispositiu.
 
 Per obtenir més informació, contacta amb l'administrador."</string>
-    <string name="monitoring_description_parental_controls">El teu pare o la teva mare gestionen aquest dispositiu, i poden veure i gestionar informació com ara les aplicacions que utilitzes, la teva ubicació i el teu temps de connexió.</string>
+    <string name="monitoring_description_parental_controls">El teu pare o mare gestionen aquest dispositiu, i poden veure i gestionar informació com ara les aplicacions que utilitzes, la teva ubicació i el teu temps de connexió.</string>
     <string name="monitoring_description_personal_profile_named_vpn">El teu perfil personal està connectat a %1$s,que pot supervisar la teva activitat a la xarxa, com ara els correus electrònics, les aplicacions i els llocs web.</string>
     <string name="monitoring_description_two_named_vpns">Estàs connectat a %1$s i %2$s, que poden supervisar la teva activitat a la xarxa, com ara els correus electrònics, les aplicacions i els llocs web.</string>
     <string name="monitoring_description_vpn">"Has donat permís a una aplicació per configurar una connexió VPN.
@@ -1706,8 +1717,6 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplicacions de treball</string>
     <string name="quick_step_accessibility_toggle_overview">Activa o desactiva Aplicacions recents</string>
     <string name="recent_conversations">Converses recents</string>
-    <string name="recents_quick_scrub_onboarding">"Arrossega el dit cap a la dreta per canviar ràpidament d'aplicació"</string>
-    <string name="recents_swipe_up_onboarding">"Llisca cap amunt per canviar d'aplicació"</string>
     <string name="remaining_length_format">Temps restant: %1$s</string>
     <string name="remote_input_image_insertion_text">ha enviat una imatge</string>
     <string name="remove_from_settings">Treu de Configuració</string>
@@ -2117,6 +2126,7 @@ Qualsevol usuari pot actualitzar les aplicacions de la resta d'usuaris."</string
     <string name="wallet_secondary_label_no_card">Afegeix una targeta</string>
     <string name="wallet_secondary_label_updating">"S'està actualitzant"</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"El punt d'accés està temporalment ple"</string>
     <string name="wifi_cant_connect">No es pot connectar</string>
     <string name="wifi_cant_connect_to_ap">No es pot connectar a %1$s</string>

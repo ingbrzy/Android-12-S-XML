@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">إضافة إلى المجلد الذي به %1$s</string>
     <string name="add_to_home_screen">إضافة إلى الشاشة الرئيسية</string>
     <string name="added_to_folder">تمت إضافة العنصر إلى المجلد</string>
+    <string name="added_to_home_screen_accessibility_text">تمت إضافة الأداة %1$s إلى الشاشة الرئيسية.</string>
     <string name="all_apps_button_label">قائمة التطبيقات</string>
     <string name="all_apps_button_personal_label">قائمة التطبيقات الشخصية</string>
     <string name="all_apps_button_work_label">قائمة تطبيقات العمل</string>
@@ -89,7 +90,9 @@
     <string name="allow_rotation_desc">عند تدوير الهاتف</string>
     <string name="allow_rotation_title">السماح بتدوير الشاشة الرئيسية</string>
     <string name="allset_description">يمكنك الآن بدء استخدام هاتفك.</string>
-    <string name="allset_title">اكتمال الإعداد</string>
+    <string name="allset_hint">مرِّر سريعًا للأعلى للانتقال إلى الشاشة الرئيسية.</string>
+    <string name="allset_navigation_settings"><annotation id="link">إعدادات التنقّل داخل النظام</annotation></string>
+    <string name="allset_title">اكتملت عملية الإعداد</string>
     <string name="app_downloading_title">جارٍ تنزيل %1$s، اكتمل %2$s</string>
     <string name="app_info_drop_target_label">معلومات عن التطبيق</string>
     <string name="app_installing_title">جارٍ تثبيت %1$s، مستوى التقدم: %2$s</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s في انتظار التثبيت</string>
     <string name="auto_add_shortcuts_description">للتطبيقات الجديدة</string>
     <string name="auto_add_shortcuts_label">إضافة رموز التطبيقات إلى الشاشة الرئيسية</string>
+    <string name="back_gesture_feedback_cancelled">تأكّد من التمرير سريعًا من الحافة اليسرى أو اليمنى إلى وسط الشاشة ثم ارفع إصبعك.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">لقد تعلمت كيفية التمرير سريعًا من اليسار للرجوع. تعرّف بعد ذلك على كيفية التبديل بين التطبيقات.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">لقد أكملت التدريب على إيماءة الرجوع.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">تأكّد من عدم التمرير بالقرب من أسفل الشاشة.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">تأكّد من التمرير سريعًا من أقصى الحافة اليسرى أو اليمنى.</string>
     <string name="back_gesture_intro_subtitle">للرجوع إلى الشاشة السابقة، مرِّر سريعًا من الحافة اليسرى أو الحافة اليمنى إلى وسط الشاشة.</string>
     <string name="back_gesture_intro_title">مرِّر سريعًا للرجوع.</string>
     <string name="back_gesture_tutorial_confirm_subtitle">لتغيير مستوى حساسية إيماءة الرجوع، انتقِل إلى \"الإعدادات\"</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">انقر لحفظ الاسم الجديد</string>
     <string name="gadget_error_text">يتعذّر تحميل الأداة.</string>
     <string name="gadget_setup_text">انقر لإكمال الإعداد.</string>
+    <string name="gesture_tutorial_action_button_label">تم</string>
     <string name="gesture_tutorial_action_button_label_cancel">إلغاء</string>
     <string name="gesture_tutorial_action_button_label_settings">الإعدادات</string>
     <string name="gesture_tutorial_action_button_label_skip">التخطي</string>
@@ -141,7 +147,7 @@
     <string name="gleam_tooltip_text">المس مع الاستمرار لاختيار أي نص أو صورة</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">البحث في التطبيقات وغيرها</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">أكملت التدريب على إيماءة الانتقال إلى الشاشة الرئيسية. تعرّف بعد ذلك على كيفية الرجوع.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">لقد أكملت التدريب على إيماءة الانتقال إلى الشاشة الرئيسية. تعرّف بعد ذلك على كيفية الرجوع.</string>
     <string name="home_gesture_feedback_complete_without_follow_up">أكملت التدريب على إيماءة الانتقال إلى الشاشة الرئيسية.</string>
     <string name="home_gesture_feedback_overview_detected">تأكّد من عدم التوقّف قليلاً قبل رفع إصبعك.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">تأكّد من التمرير سريعًا من الحافة السفلى للشاشة إلى أعلاها.</string>
@@ -180,8 +186,8 @@
     <string name="label_voice_search">بحث صوتي</string>
     <string name="long_accessible_way_to_add">انقر مرتين مع تثبيت إصبعك لنقل أداة أو استخدام الإجراءات المخصّصة.</string>
     <string name="long_accessible_way_to_add_shortcut">انقر مرتين مع تثبيت إصبعك لنقل اختصار أو استخدام الإجراءات المخصّصة.</string>
-    <string name="long_press_shortcut_to_add">انقر مرتين مع تثبيت إصبعك لنقل اختصار.</string>
-    <string name="long_press_widget_to_add">انقر مرتين مع تثبيت إصبعك لنقل أداة.</string>
+    <string name="long_press_shortcut_to_add">انقر مع الاستمرار لنقل اختصار</string>
+    <string name="long_press_widget_to_add">انقر مع الاستمرار لنقل أداة</string>
     <string name="more_share_options">المزيد</string>
     <string name="move_to_empty_cell">نقل إلى الصف %1$s العمود %2$s</string>
     <string name="move_to_hotseat_position">نقل إلى الموضع المفضل %1$s</string>
@@ -199,16 +205,17 @@
     <string name="nothing_found">لم يتم العثور على أي عناصر قابلة للاختيار.</string>
     <string name="notification_dismissed">تم تجاهل الإشعار</string>
     <string name="notification_dots_desc_off">غير مفعّل</string>
-    <string name="notification_dots_desc_on">مفعّل</string>
+    <string name="notification_dots_desc_on">مفعّلة</string>
     <string name="notification_dots_service_title">عرض نقاط الإشعارات</string>
     <string name="notification_dots_title">نقاط الإشعارات</string>
     <string name="notifications_header">الإشعارات</string>
     <string name="out_of_space">ما مِن مساحة على هذه الشاشة الرئيسية.</string>
-    <string name="overview_gesture_feedback_complete_with_follow_up">تعرّفت على كيفية استخدام الإيماءات. لإيقاف الإيماءات، انتقِل إلى \"الإعدادات\".</string>
+    <string name="overview_gesture_feedback_complete_with_follow_up">لقد تعرّفت على كيفية استخدام الإيماءات. لإيقاف الإيماءات، انتقِل إلى \"الإعدادات\".</string>
     <string name="overview_gesture_feedback_complete_without_follow_up">أكملت التدريب على إيماءة التبديل بين التطبيقات.</string>
     <string name="overview_gesture_feedback_home_detected">حاوِل إبقاء إصبعك على النافذة لمدة أطول قبل رفعه.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">تأكّد من التمرير سريعًا من الحافة السفلى للشاشة إلى أعلاها.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">تأكّد من التمرير سريعًا للأعلى مباشرةً ثم التوقّف قليلاً.</string>
+    <string name="overview_gesture_intro_subtitle">للتبديل بين التطبيقات، مرِّر سريعًا من أسفل الشاشة لأعلاها مع تثبيت إصبعك ثم ارفعه.</string>
     <string name="overview_gesture_intro_title">مرِّر سريعًا للتبديل بين التطبيقات</string>
     <string name="overview_selection_pref_desc">عند التبديل بين التطبيقات، المس مع الاستمرار النص والصور لرؤية الإجراءات.</string>
     <string name="overview_selection_pref_title">الاختيار في شاشة \"النظرة العامة\"</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">الاختصار غير متاح</string>
     <string name="shortcuts_menu_with_notifications_description">الاختصارات والإشعارات</string>
     <string name="shorter_duration_less_than_one_minute">أقل من دقيقة</string>
-    <string name="skip_tutorial_dialog_subtitle">يمكنك العثور على هذا الدليل التوجيهي لاحقًا في التطبيق %1$s</string>
+    <string name="skip_tutorial_dialog_subtitle">يمكنك العثور على هذا الدليل التوجيهي لاحقًا في التطبيق \"%1$s\"</string>
     <string name="skip_tutorial_dialog_title">هل تريد تخطي الدليل التوجيهي؟</string>
     <string name="smartspace_calendar_event">%1$s في خلال %2$s</string>
     <string name="smartspace_calendar_event_now">%1$s الآن</string>
@@ -280,11 +287,11 @@
     <string name="smartspace_flight_card_seat_header">المقعد</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">الإعدادات المفضّلة</string>
-    <string name="smartspace_preferences_in_settings">الشاشة الحية</string>
+    <string name="smartspace_preferences_in_settings">نظرة سريعة</string>
     <string name="smartspace_preferences_in_settings_desc">في أعلى شاشتك الرئيسية</string>
     <string name="smartspace_preferences_manage">تخصيص</string>
     <string name="smartspace_preferences_turn_off_action">إيقاف</string>
-    <string name="smartspace_preferences_turn_off_description">سيتم إيقاف عرض حالة الطقس والمعلومات عن الأحداث على الشاشة الرئيسية وشاشة القفل.</string>
+    <string name="smartspace_preferences_turn_off_description">سيتم إيقاف عرض حالة الطقس والمعلومات عن الأحداث القادمة على الشاشة الرئيسية وشاشة القفل.</string>
     <string name="smartspace_preferences_turn_off_title">إيقاف %1$s</string>
     <string name="smartspace_preferences_turn_on_action">تفعيل</string>
     <string name="smartspace_preferences_turn_on_description">سيتم عرض حالة الطقس والمعلومات عن الأحداث القادمة على الشاشة الرئيسية وشاشة القفل.</string>

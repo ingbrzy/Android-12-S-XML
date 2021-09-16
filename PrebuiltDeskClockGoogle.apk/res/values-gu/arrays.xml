@@ -17,14 +17,21 @@
         <item>15 મિનિટ</item>
         <item>20 મિનિટ</item>
         <item>25 મિનિટ</item>
-        <item>ક્યારેય નહીં</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>બેડટાઇમની 15 મિનિટ પહેલાં</item>
+        <item>બેડટાઇમની 30 મિનિટ પહેલાં</item>
+        <item>બેડટાઇમની 45 મિનિટ પહેલાં</item>
+        <item>બેડટાઇમના 1 કલાક પહેલાં</item>
+        <item>બંધ</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>એનાલોગ</item>
         <item>ડિજિટલ</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ક્યારેય નહીં</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 સેકંડ</item>
         <item>10 સેકંડ</item>
         <item>15 સેકંડ</item>
@@ -37,6 +44,35 @@
         <item>50 સેકંડ</item>
         <item>55 સેકંડ</item>
         <item>60 સેકંડ</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 મિનિટ પછી રોકો</item>
+        <item>20 મિનિટ પછી રોકો</item>
+        <item>30 મિનિટ પછી રોકો</item>
+        <item>40 મિનિટ પછી રોકો</item>
+        <item>50 મિનિટ પછી રોકો</item>
+        <item>1 કલાક પછી રોકો</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 મિનિટ પછી રોકો</item>
+        <item>20 મિનિટ પછી રોકો</item>
+        <item>30 મિનિટ પછી રોકો</item>
+        <item>40 મિનિટ પછી રોકો</item>
+        <item>50 મિનિટ પછી રોકો</item>
+        <item>1 કલાક પછી રોકો</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 મિનિટ</item>
+        <item>20 મિનિટ</item>
+        <item>30 મિનિટ</item>
+        <item>40 મિનિટ</item>
+        <item>50 મિનિટ</item>
+        <item>1 કલાક</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 મિનિટ</item>
@@ -69,18 +105,6 @@
         <item>28 મિનિટ</item>
         <item>29 મિનિટ</item>
         <item>30 મિનિટ</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>તમે એકદમ વેગવાન રાક્ષસ છો.</item>
-        <item>તમારી મહેનતના ફળનો આનંદ લો.</item>
-        <item>Androids ઝડપ માટે જાણીતા છે, પરંતુ તમારા જેટલા ઝડપી નથી!</item>
-        <item>હાશ્શ.</item>
-        <item>છેલ્લી વખત.</item>
-        <item>કેવો પ્રચંડ વેગ.</item>
-        <item>ચાલો સમયને ફરીથી ખેંચીએ.</item>
-        <item>ફક્ત એક જમ્પ ડાબી બાજુએ.</item>
-        <item>તમારી પાસે ઉતાવળ કરવા એક પેલેટ છે.</item>
-        <item>ફોટોનિક વેગ.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>માર્શલ આઇલેન્ડ્સ</item>

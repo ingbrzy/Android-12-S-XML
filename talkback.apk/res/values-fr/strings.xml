@@ -35,14 +35,14 @@
     <string name="accessibility_menu_service_name">"Menu d'accessibilité"</string>
     <string name="accessibility_menu_settings_name">"Paramètres du menu d'accessibilité"</string>
     <string name="accessibility_menu_summary">Contrôler le téléphone via un menu de grande taille</string>
-    <string name="action_bar_title_sa_combined_switch_mapping">"Attribuer un déclencheur de l'appareil photo"</string>
+    <string name="action_bar_title_sa_combined_switch_mapping">"Attribuer un contacteur de l'appareil photo"</string>
     <string name="action_group_name_delete">Supprimer…</string>
     <string name="action_group_name_highlight">Mettre en surbrillance…</string>
     <string name="action_key_summary_auto_scan">"Appuyez sur ce contacteur pour commencer à déplacer la mise en surbrillance d'un élément à l'autre. Appuyez une fois de plus pour sélectionner l'élément en surbrillance."</string>
     <string name="action_key_summary_click">"Appuyez sur ce contacteur pour sélectionner l'élément en surbrillance."</string>
     <string name="action_key_summary_long_click">"Appuyez sur ce contacteur pour appuyer de manière prolongée sur l'élément en surbrillance."</string>
     <string name="action_key_summary_next">"Appuyez sur ce contacteur pour mettre en surbrillance l'élément suivant."</string>
-    <string name="action_key_summary_pause">"Afin d'éviter les prises accidentelles, attribuez une expression faciale pour désactiver et rétablir les déclencheurs de l'appareil photo."</string>
+    <string name="action_key_summary_pause">"Afin d'éviter les prises accidentelles, attribuez une expression faciale pour désactiver et rétablir les contacteurs de l'appareil photo."</string>
     <string name="action_key_summary_previous">"Appuyez sur ce contacteur pour mettre en surbrillance l'élément précédent."</string>
     <string name="action_key_summary_reverse_auto_scan">"Appuyez sur ce contacteur pour commencer à déplacer la mise en surbrillance d'un élément à l'autre en sens inverse. Appuyez une fois de plus pour sélectionner l'élément en surbrillance."</string>
     <string name="action_key_summary_scroll_backward">"Appuyez sur ce contacteur pour faire défiler l'élément en surbrillance vers l'arrière."</string>
@@ -94,7 +94,7 @@ Continuez à explorer d'autres sujets dès maintenant, ou consultez ces informat
     <string name="arc_open_talkback_settings_hint">Appuyez sur %1$s pour accéder aux paramètres de TalkBack.</string>
     <string name="arc_talkback_activation_hint">TalkBack activé</string>
     <string name="assign_face_switch_subtitle">"Choisissez une expression faciale pour l'action %s."</string>
-    <string name="assign_face_switch_title">"Attribuer un déclencheur de l'appareil photo pour %s"</string>
+    <string name="assign_face_switch_title">"Attribuer un contacteur de l'appareil photo pour %s"</string>
     <string name="assign_gestures">Affecter des gestes</string>
     <string name="assign_switch_subtitle">"Appuyez sur un contacteur pour l'attribuer à l'action \"%1$s\"."</string>
     <string name="assistant_label">Assistant</string>
@@ -105,7 +105,7 @@ Continuez à explorer d'autres sujets dès maintenant, ou consultez ces informat
     <string name="audio_focus_state">Diminution du volume %1$s</string>
     <string name="auto_detect">"Adapter à position et à l'orientation de l'appareil"</string>
     <string name="auto_scan_action_description">"Lancer l'exploration et sélectionner"</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Exploration automatique ou Sélection</string>
     <string name="available_devices_header">Appareils Bluetooth disponibles</string>
     <string name="basic_navigation_link_subtext">"Passer d'un élément à l'autre, faire défiler l'écran, utiliser les menus, et plus encore"</string>
     <string name="basic_navigation_link_text">Navigation de base</string>
@@ -119,7 +119,7 @@ Continuez à explorer d'autres sujets dès maintenant, ou consultez ces informat
     <string name="bluetooth_no_devices_paired">"Aucun appareil Bluetooth n'est associé"</string>
     <string name="bluetooth_not_enabled_message">Pour associer un contacteur Bluetooth, activez le Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Périphérique</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">"Pour associer un contacteur Bluetooth dans l'assistant de configuration, activez le Bluetooth et accordez à Outils d'accessibilité Android les autorisations de détecter les appareils à proximité et d'accéder à la position."</string>
     <string name="bluetooth_phone_content_description">Téléphone</string>
     <string name="bluetooth_switch_description_text">Associer un contacteur sans fil via Bluetooth</string>
     <string name="bluetooth_switch_option_text">Contacteur Bluetooth</string>
@@ -150,13 +150,16 @@ Continuez à explorer d'autres sujets dès maintenant, ou consultez ces informat
     <string name="calibration_step1_hold_right_finger_announcement">"Mise à jour de la position des points en cours. Enregistrez d'abord les points pour la main droite. Appuyez de manière prolongée sur l'écran avec les trois doigts du milieu de votre main droite."</string>
     <string name="calibration_step2_hold_left_finger_announcement">"Position modifiée pour les points 1, 2 et 3. Enregistrez maintenant les points pour la main gauche. Appuyez de manière prolongée sur l'écran avec les trois doigts du milieu de votre main gauche."</string>
     <string name="calibration_step2_hold_right_finger_announcement">"Position modifiée pour les points 1, 2 et 3. Enregistrez maintenant les points pour la main droite. Appuyez de manière prolongée sur l'écran avec les trois doigts du milieu de votre main droite."</string>
-    <string name="cam_cursor_enable_banner_text_label_cam_switches">"Pour contrôler votre appareil avec Camera Cursor, vous devez d'abord activer les déclencheurs de l'appareil photo."</string>
+    <string name="cam_cursor_enable_banner_text_label_cam_switches">"Pour contrôler votre appareil avec Camera Cursor, vous devez d'abord activer les contacteurs de l'appareil photo."</string>
     <string name="cam_cursor_enable_banner_text_label_switch_access">"Pour contrôler votre appareil avec Camera Cursor, vous devez d'abord activer Switch Access."</string>
     <string name="cam_switch_enable_banner_negative_button_text_label">Fermer</string>
     <string name="cam_switch_enable_banner_positive_button_text_label">Activer</string>
     <string name="cam_switch_enable_banner_text_label_generic">"Pour contrôler votre appareil, vous devez d'abord activer Switch Access."</string>
-    <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">"Accéder aux déclencheurs de l'appareil photo"</string>
+    <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">"Accéder aux contacteurs de l'appareil photo"</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Activer Switch Access</string>
+    <string name="cam_switches_combined_preferences_title">Paramètres \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">"Paramètres du contacteur de l'appareil photo"</string>
+    <string name="cam_switches_single_preferences_title">Paramètres \"%s\"</string>
     <string name="camera_switches_status_active">"Contacteurs pour l'appareil photo actifs"</string>
     <string name="camera_switches_status_error">Erreur</string>
     <string name="camera_switches_status_no_face">Aucun visage détecté</string>
@@ -260,16 +263,16 @@ Essayez de coller un mot dans la zone de texte ci-dessous."</string>
 Essayez de coller un mot dans la zone de texte ci-dessous."</string>
     <string name="default_action_disabled_modifier">(désactivé)</string>
     <string name="default_action_name_auto_scan">Recherche automatique</string>
-    <string name="default_action_name_pause">"Désactiver les déclencheurs de l'appareil photo"</string>
+    <string name="default_action_name_pause">"Désactiver le contacteur de l'appareil photo"</string>
     <string name="default_action_name_point_scan">Exploration par position</string>
     <string name="dialog_confirm_revert_to_default_menu">Confirmer</string>
     <string name="dialog_do_not_disturb_permission_message">"Pour régler le volume depuis le menu Switch Access, activez l'accès à la fonctionnalité Ne pas déranger pour l'application Outils d'accessibilité Android"</string>
     <string name="dialog_do_not_disturb_permission_title">"Switch Access a besoin de l'autorisation de régler le volume"</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Ouvrir les paramètres</string>
-    <string name="dialog_message_cam_switch_dynamic_model_downloads">"Vous devez télécharger environ 10 Mo de données supplémentaires pour faire fonctionner les déclencheurs de l'appareil photo. Cela devrait prendre à peu près une minute, selon le débit de votre réseau."</string>
+    <string name="dialog_message_cam_switch_dynamic_model_downloads">"Vous devez télécharger environ 10 Mo de données supplémentaires pour faire fonctionner les contacteurs de l'appareil photo. Cela devrait prendre à peu près une minute, selon le débit de votre réseau."</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads_downloading_format">Téléchargement • %1$d%%</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads_failure">"Assurez-vous que votre appareil est connecté à Internet et dispose de l'espace nécessaire (%d Mo)."</string>
-    <string name="dialog_message_clear_physical_switches">Voulez-vous supprimer les déclencheurs physiques attribués ?</string>
+    <string name="dialog_message_clear_physical_switches">Voulez-vous supprimer les contacteurs physiques attribués ?</string>
     <string name="dialog_message_clear_switch">Voulez-vous supprimer %s ?</string>
     <string name="dialog_message_continuous_reading_mode">"Après avoir sélectionné \"Lire à partir du haut de la page\" ou \"Lire à partir de l'élément suivant\", vous pouvez accéder à l'élément précédent ou suivant pendant la lecture du texte. Cela vous permet de revenir en arrière ou d'avancer facilement."</string>
     <string name="dialog_message_dim_screen">"Ceci vous permet d'éteindre l'écran dans les lieux publics pour préserver votre vie privée"</string>
@@ -314,12 +317,12 @@ Dites \"%1$s\" pour afficher toutes les commandes vocales à votre disposition"<
     <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads">Télécharger</string>
     <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads_cancel">Annuler</string>
     <string name="dialog_positive_button_label_cam_switch_dynamic_model_downloads_failure">Réessayer</string>
-    <string name="dialog_positive_button_label_clear_physical_switches">Supprimer les déclencheurs</string>
-    <string name="dialog_positive_button_label_clear_switch">Supprimer le déclencheur</string>
+    <string name="dialog_positive_button_label_clear_physical_switches">Supprimer les contacteurs</string>
+    <string name="dialog_positive_button_label_clear_switch">Supprimer le contacteur</string>
     <string name="dialog_title_cam_switch_dynamic_model_downloads">Télécharger les données</string>
     <string name="dialog_title_cam_switch_dynamic_model_downloads_failure">Impossible de télécharger les données</string>
-    <string name="dialog_title_clear_physical_switches">Supprimer les déclencheurs physiques</string>
-    <string name="dialog_title_clear_switch">Supprimer les déclencheurs attribués</string>
+    <string name="dialog_title_clear_physical_switches">Supprimer les contacteurs physiques</string>
+    <string name="dialog_title_clear_switch">Supprimer les contacteurs attribués</string>
     <string name="dialog_title_continuous_reading_mode">Nouvelles commandes de lecture continue</string>
     <string name="dialog_title_dim_screen">"Masquer l'écran ?"</string>
     <string name="dialog_title_disable_exploration">Désactiver la fonctionnalité Explorer au toucher ?</string>
@@ -356,10 +359,10 @@ Dites \"%1$s\" pour afficher toutes les commandes vocales à votre disposition"<
     <string name="edit_box_text">Bienvenue dans TalkBack</string>
     <string name="edit_menu_state_header">Déplacer et masquer des éléments du menu</string>
     <string name="enable_bluetooth_button_title">Activer le Bluetooth</string>
-    <string name="enable_cam_switches_banner_text_label">"Pour attribuer des expressions faciales à des actions, vous devez d'abord activer les déclencheurs de l'appareil photo."</string>
+    <string name="enable_cam_switches_banner_text_label">"Pour attribuer des expressions faciales à des actions, vous devez d'abord activer les contacteurs de l'appareil photo."</string>
     <string name="enable_hints_summary_off">"Les conseils d'utilisation ne sont pas énoncés lors du déplacement de la sélection dans le cadre de la fonctionnalité d'accessibilité"</string>
     <string name="enable_hints_summary_on">"Les conseils d'utilisation sont énoncés pendant la navigation, après un bref délai"</string>
-    <string name="enable_switch_access_banner_text_label">"Pour contrôler votre appareil grâce aux déclencheurs de l'appareil photo, vous devez d'abord activer Switch Access."</string>
+    <string name="enable_switch_access_banner_text_label">"Pour contrôler votre appareil grâce aux contacteurs de l'appareil photo, vous devez d'abord activer Switch Access."</string>
     <string name="end_of_page">Aucun élément de type \"%1$s\" suivant</string>
     <string name="end_of_text">Arrêter</string>
     <string name="enter_text_here">Saisissez le texte ici</string>
@@ -375,7 +378,7 @@ Dites \"%1$s\" pour afficher toutes les commandes vocales à votre disposition"<
 Faites un essai maintenant en appuyant sur l'écran, puis en faisant glisser un doigt vers l'angle inférieur gauche jusqu'à ce que vous trouviez le bouton \"Suivant\"."</string>
     <string name="explore_by_touch_title">Explorer au toucher</string>
     <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
-    <string name="face_switch_description_text">Utiliser les expressions faciales comme déclencheurs</string>
+    <string name="face_switch_description_text">Utiliser les expressions faciales comme contacteurs</string>
     <string name="face_switch_name_eyebrows_up">Sourcils haussés</string>
     <string name="face_switch_name_eyebrows_up_instruction">haussez les sourcils</string>
     <string name="face_switch_name_eyebrows_up_summary">Haussez les sourcils, puis reprenez votre expression normale</string>
@@ -394,11 +397,12 @@ Faites un essai maintenant en appuyant sur l'écran, puis en faisant glisser un 
     <string name="face_switch_name_smiling">Sourire</string>
     <string name="face_switch_name_smiling_instruction">souriez</string>
     <string name="face_switch_name_smiling_summary">Souriez, puis reprenez votre expression normale</string>
-    <string name="face_switch_option_text">"Déclencheur de l'appareil photo"</string>
+    <string name="face_switch_option_text">"Contacteur de l'appareil photo"</string>
     <string name="fallback_menu_item_copy_link">Copier le lien</string>
     <string name="fallback_menu_item_open_in_browser">Ouvrir dans un navigateur</string>
     <string name="fallback_menu_item_share_link">Partager le lien</string>
     <string name="fast_radio_button_title">Rapide (délai de %1$s s)</string>
+    <string name="fast_radio_button_title_content_description">Rapide (délai de %1$s seconde)</string>
     <string name="find_finish_button_text">"Balayez l'écran vers la droite pour trouver le bouton \"Terminer\"."</string>
     <string name="finish">Terminer</string>
     <string name="finish_tutorial_announcement">"Affichage du clavier braille. Tournez l'écran de votre téléphone vers l'extérieur. Faites pivoter le téléphone horizontalement en mode paysage. Commencez à écrire."</string>
@@ -747,6 +751,7 @@ Nom interne de la vue : %1$s"</string>
     <string name="list_index_template">%1$d sur %2$d</string>
     <string name="lockscreen_label">Écran de verrouillage</string>
     <string name="medium_radio_button_title">Moyenne (délai de %1$s s)</string>
+    <string name="medium_radio_button_title_content_description">Moyenne (délai de %1$s secondes)</string>
     <string name="menu_category_reading_controls">Lecture</string>
     <string name="menu_category_special_features">Fonctionnalités spéciales</string>
     <string name="menus_selector_text">"Ces raccourcis peuvent vous aider à modifier rapidement des paramètres (par exemple, pour passer de la lecture caractère par caractère à celle mot par mot ou pour modifier la cadence de TalkBack).
@@ -767,6 +772,7 @@ Ouvrez le menu TalkBack maintenant en appuyant sur l'écran avec trois doigts."<
 Pour l'ouvrir, balayez l'écran vers le bas, puis vers la droite."</string>
     <string name="menus_title">Menu et commandes</string>
     <string name="message_in_reset_keymap_confirm_dialog">Voulez-vous vraiment rétablir les valeurs par défaut des raccourcis de ce mappage de clavier ? Veuillez noter que cette action est irréversible.</string>
+    <string name="message_request_phone_permission">"TalkBack souhaite savoir lorsqu'un appel téléphonique est en cours pour lui permettre de réduire les interruptions par des annonces."</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Les actions par défaut associées à l'ensemble des gestes seront rétablies.
 
 Toutes les modifications que vous aurez apportées seront perdues."</string>
@@ -877,9 +883,9 @@ Vous pouvez les essayer sur cet écran."</string>
     <string name="notification_type_status_sync_noanim">Synchronisation</string>
     <string name="notification_type_status_voicemail">Messagerie vocale</string>
     <string name="notifications_label">Notifications</string>
-    <string name="number_of_gestures_heading">Sélectionnez le nombre de déclencheurs</string>
+    <string name="number_of_gestures_heading">Sélectionnez le nombre de contacteurs</string>
     <string name="number_of_switches_heading">Sélectionner le nombre de contacteurs</string>
-    <string name="one_face_switch_description_text">"Vous permet d'utiliser une expression faciale pour lancer la recherche automatique en déplaçant la surbrillance parmi les éléments affichés. Répétez l'expression faciale pour sélectionner. Vous pouvez ajouter une seconde expression faciale pour désactiver temporairement les déclencheurs de l'appareil photo."</string>
+    <string name="one_face_switch_description_text">"Vous permet d'utiliser une expression faciale pour lancer la recherche automatique en déplaçant la surbrillance parmi les éléments affichés. Répétez l'expression faciale pour sélectionner. Vous pouvez ajouter une seconde expression faciale pour désactiver temporairement les contacteurs de l'appareil photo."</string>
     <string name="one_finger_angle_gestures_title">Gestes à angle droit</string>
     <string name="one_finger_back_forth_gestures_title">"Gestes d'aller-retour avec un doigt"</string>
     <string name="one_finger_gestures_title">Gestes avec un doigt</string>
@@ -962,14 +968,14 @@ Essayez un geste à angle droit en balayant deux fois l'écran. Par exemple, bal
     <string name="pref_category_context_menu_summary">"Pour utiliser le menu TalkBack, appuyez sur l'écran avec trois doigts. Vous pouvez également balayer l'écran vers le haut ou vers le bas, puis vers la droite."</string>
     <string name="pref_category_context_menu_summary_single_finger">"Pour utiliser le menu TalkBack, balayez l'écran vers le bas, puis vers la droite."</string>
     <string name="pref_category_multi_finger_shortcuts">Gestes à plusieurs doigts</string>
-    <string name="pref_category_sa_combined_switch_mapping_assign_cam_switch_title">"Attribuer des déclencheurs de l'appareil photo"</string>
+    <string name="pref_category_sa_combined_switch_mapping_assign_cam_switch_title">"Attribuer des contacteurs de l'appareil photo"</string>
     <string name="pref_category_sa_combined_switch_mapping_assign_key_switch_title">Attribuer un contacteur USB ou Bluetooth</string>
     <string name="pref_category_sa_face_gesture_action_dialog_summary">Choisissez une ou plusieurs expressions faciales pour %s.</string>
-    <string name="pref_category_sa_face_gesture_action_dialog_title">"Attribuer des déclencheurs de l'appareil photo"</string>
+    <string name="pref_category_sa_face_gesture_action_dialog_title">"Attribuer des contacteurs de l'appareil photo"</string>
     <string name="pref_category_sa_face_gesture_action_none_set">Aucune</string>
-    <string name="pref_category_sa_face_gesture_action_summary">"Choisissez une nouvelle action pour ce déclencheur de l'appareil photo. Pour consulter les déclencheurs attribués, accédez aux paramètres Switch Access."</string>
-    <string name="pref_category_sa_face_gesture_action_summary_cam_cursor_active">"Choisissez une nouvelle action pour ce déclencheur de l'appareil photo."</string>
-    <string name="pref_category_sa_face_gesture_action_title">Déclencheurs attribués</string>
+    <string name="pref_category_sa_face_gesture_action_summary">"Choisissez une nouvelle action pour ce contacteur de l'appareil photo. Pour consulter les contacteurs attribués, accédez aux paramètres Switch Access."</string>
+    <string name="pref_category_sa_face_gesture_action_summary_cam_cursor_active">"Choisissez une nouvelle action pour ce contacteur de l'appareil photo."</string>
+    <string name="pref_category_sa_face_gesture_action_title">Contacteurs attribués</string>
     <string name="pref_category_sa_face_gestures_single_switch_label">Paramètres pour %s</string>
     <string name="pref_category_selector_menu_summary">"Pour utiliser les commandes de lecture, balayez l'écran vers la gauche ou vers la droite avec trois doigts. Vous pouvez également balayer l'écran vers le haut ou vers le bas avec trois doigts."</string>
     <string name="pref_category_selector_menu_summary_single_finger">"Pour utiliser les commandes de lecture, balayez l'écran vers le haut, puis vers le bas."</string>
@@ -994,31 +1000,32 @@ Essayez un geste à angle droit en balayant deux fois l'écran. Par exemple, bal
     <string name="pref_punctuation_summary_on">La ponctuation et les symboles sont énoncés</string>
     <string name="pref_punctuation_title">Ponctuation</string>
     <string name="pref_reduce_window_delay_title">"Réduire le délai d'annonce de la fenêtre"</string>
-    <string name="pref_sa_combined_switch_add_cam_switches_button_label">"Ajouter des déclencheurs de l'appareil photo"</string>
-    <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Supprimer les déclencheurs physiques</string>
-    <string name="pref_sa_combined_switch_edit_cam_switches_button_label">"Modifier les déclencheurs de l'appareil photo"</string>
-    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">"Aucun déclencheur de l'appareil photo attribué"</string>
-    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Attribuer des déclencheurs de l'appareil photo pour %s"</string>
-    <string name="pref_sa_combined_switch_mapping_assign_key_switch_no_values_summary_label">Aucun déclencheur attribué</string>
-    <string name="pref_sa_combined_switch_mapping_assign_key_switch_summary_label">"Appuyer sur une combinaison de déclencheurs pour l'ajouter à la liste ou pour l'en supprimer"</string>
-    <string name="pref_sa_combined_switch_mapping_assign_key_switch_title_label">Attribuer des déclencheurs pour %s</string>
+    <string name="pref_sa_combined_switch_add_cam_switches_button_label">"Ajouter des contacteurs de l'appareil photo"</string>
+    <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Supprimer les contacteurs physiques</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Configurer les paramètres du contacteur : %s</string>
+    <string name="pref_sa_combined_switch_edit_cam_switches_button_label">"Modifier les contacteurs de l'appareil photo"</string>
+    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">"Aucun contacteur de l'appareil photo attribué"</string>
+    <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Attribuer des contacteurs de l'appareil photo pour %s"</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_no_values_summary_label">Aucun contacteur attribué</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_summary_label">"Appuyer sur une combinaison de contacteurs pour l'ajouter à la liste ou pour l'en supprimer"</string>
+    <string name="pref_sa_combined_switch_mapping_assign_key_switch_title_label">Attribuer des contacteurs pour %s</string>
     <string name="pref_sa_face_gestures_camera_permission_request_cancel_button_label">ANNULER</string>
-    <string name="pref_sa_face_gestures_camera_permission_request_denied_summary">"Autorisez l'accès à l'appareil photo dans les paramètres pour utiliser les déclencheurs."</string>
+    <string name="pref_sa_face_gestures_camera_permission_request_denied_summary">"Autorisez l'accès à l'appareil photo dans les paramètres pour utiliser les contacteurs."</string>
     <string name="pref_sa_face_gestures_camera_permission_request_settings_button_label">PARAMÈTRES</string>
     <string name="pref_sa_face_gestures_camera_permission_request_title">"Accès à l'appareil photo requis"</string>
-    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_negative_label">Conserver les déclencheurs</string>
-    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_positive_label">Supprimer les déclencheurs</string>
-    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_summary">Voulez-vous supprimer les déclencheurs physiques attribués ?</string>
-    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_title">Supprimer les déclencheurs physiques</string>
-    <string name="pref_sa_face_pause_gesture_speed_warning_summary">"Pour éviter de suspendre les déclencheurs accidentellement, augmentez la durée de l'expression faciale."</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_negative_label">Conserver les contacteurs</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_positive_label">Supprimer les contacteurs</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_summary">Voulez-vous supprimer les contacteurs physiques attribués ?</string>
+    <string name="pref_sa_face_gestures_clear_physical_switches_dialog_title">Supprimer les contacteurs physiques</string>
+    <string name="pref_sa_face_pause_gesture_speed_warning_summary">"Pour éviter de suspendre les contacteurs accidentellement, augmentez la durée de l'expression faciale."</string>
     <string name="pref_sa_face_pause_gesture_speed_warning_title">"Définir l'expression faciale sur la durée maximale"</string>
     <string name="pref_sa_face_pause_gesture_warning_dismiss_content_description">fermer</string>
     <string name="pref_sa_face_playground_stop_preview_content_description">"Arrêter l'aperçu"</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Activer</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">"Vous devez activer les contacteurs de l'appareil photo pour utiliser cet espace de test"</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">"Prévisualisez tous les types d'expressions faciales, y compris la bouche ouverte, le sourire, etc."</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Essayer</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">À essayer : prévisualisez les expressions faciales %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">"L'espace de test est en pause. Utilisez le bouton ci-dessous pour le relancer."</string>
     <string name="pref_selector_summary">"%1$s pour sélectionner un paramètre, puis %2$s pour l'ajuster."</string>
     <string name="pref_selector_summary_two_select_gesture">"%1$s ou %2$s pour sélectionner un paramètre, puis %3$s pour l'ajuster."</string>
@@ -1069,6 +1076,7 @@ Si la connexion n'est toujours pas possible, accédez aux paramètres Bluetooth 
     <string name="reduce_speed_button">Réduire la vitesse</string>
     <string name="remaining_calibration_finish_announcement">Les positions de tous les points sont à jour</string>
     <string name="reminder_announcement">"Balayez l'écran vers le haut avec trois doigts pour plus d'options"</string>
+    <string name="remove_assigned_switch">"Supprimer l'attribution du contacteur pour %s"</string>
     <string name="report_gesture_description">"Voici les gestes effectués récemment. Merci d'indiquer celui qui pose problème et ce que vous attendiez."</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Réinitialiser</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Réinitialiser</string>
@@ -1149,6 +1157,7 @@ Faites un essai maintenant en balayant l'écran vers le haut avec deux doigts ju
     <string name="search_mode_hint_no_selection">Aucun élément sélectionné</string>
     <string name="search_mode_hint_query">Requête actuelle : %1$s</string>
     <string name="search_mode_hint_selection">Sélection actuelle : %1$s</string>
+    <string name="select_for_point_scan">Sélectionner</string>
     <string name="select_setting_hint">%1$s pour sélectionner un autre paramètre</string>
     <string name="selecting_text_text">"Dans une zone de texte, placez le curseur au début du texte à sélectionner.
 
@@ -1186,7 +1195,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="setup_completion_heading">La configuration est terminée</string>
     <string name="setup_completion_message">Vous êtes prêt.</string>
     <string name="setup_completion_settings_reminder">"Vous pouvez toujours modifier des paramètres supplémentaires ou rouvrir l'assistant de configuration depuis les paramètres de Switch Access."</string>
-    <string name="setup_face_switches_assignment_already_assigned_label">Déclencheurs attribués à cette action :</string>
+    <string name="setup_face_switches_assignment_already_assigned_label">Contacteurs attribués à cette action :</string>
     <string name="setup_switch_assignment_empty">Aucun</string>
     <string name="setup_switch_assignment_heading">"Contacteurs attribués à l'action \"%s\""</string>
     <string name="setup_switch_assignment_nothing_assigned_message">"Aucun contacteur n'est attribué à cette action. Voulez-vous vraiment continuer ?"</string>
@@ -1209,6 +1218,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="shortcut_media_control">Lire ou mettre en pause les contenus multimédias</string>
     <string name="shortcut_next">Élément suivant</string>
     <string name="shortcut_next_granularity">Paramètre de navigation suivant</string>
+    <string name="shortcut_next_window">Fenêtre suivante</string>
     <string name="shortcut_not_customizable">%1$s, non personnalisable</string>
     <string name="shortcut_notifications">Notifications</string>
     <string name="shortcut_overview">Aperçu</string>
@@ -1221,6 +1231,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="shortcut_practice_gestures">Essayer les gestes</string>
     <string name="shortcut_previous">Élément précédent</string>
     <string name="shortcut_previous_granularity">Paramètre de navigation précédent</string>
+    <string name="shortcut_previous_window">Fenêtre précédente</string>
     <string name="shortcut_print_node_tree">"Imprimer l'arborescence des nœuds"</string>
     <string name="shortcut_print_performance_stats">Imprimer les statistiques de performances</string>
     <string name="shortcut_quick_settings">Réglages rapides</string>
@@ -1260,6 +1271,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
 • Secouer pour démarrer la lecture continue"</string>
     <string name="six_hold_announcement">"Vous pouvez également écrire en plaçant votre téléphone à plat sur une table. Essayez dès maintenant. S'il n'y a pas de table à proximité, balayez l'écran vers le bas pour passer à l'étape suivante."</string>
     <string name="slow_radio_button_title">Lente (délai de %1$s s)</string>
+    <string name="slow_radio_button_title_content_description">Lente (délai de %1$s secondes)</string>
     <string name="sound_feedback_state">Retour audio %1$s</string>
     <string name="sound_feedback_summary">"Un son est émis pour indiquer que quelque chose a changé (par exemple, le contenu à l'écran)"</string>
     <string name="speak_container_element_position_summary_off">Les informations sur les listes et les grilles ne sont pas énoncées</string>
@@ -1330,20 +1342,20 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="summary_pref_category_scan_key_mappings">"L'exploration vous permet de déplacer la mise en surbrillance et de sélectionner les éléments en surbrillance"</string>
     <string name="summary_pref_enable_menu_customization">Activer la personnalisation dans le menu Switch Access.</string>
     <string name="summary_pref_face_switches_battery_warning">"Lorsqu'elle est activée, cette fonctionnalité utilise davantage la batterie. Si possible, laissez votre appareil branché et en charge."</string>
-    <string name="summary_pref_face_switches_debounce_time">"La répétition des déclencheurs de l'appareil photo dans ce délai ne sera pas prise en compte."</string>
-    <string name="summary_pref_face_switches_enabled">"Les déclencheurs de l'appareil photo utilisent la caméra avant pour détecter quand vous regardez l'écran et identifier vos expressions faciales. Aucune image n'est stockée ni envoyée à Google."</string>
+    <string name="summary_pref_face_switches_debounce_time">"La répétition des déclencheurs du contacteur de l'appareil photo dans ce délai ne sera pas prise en compte."</string>
+    <string name="summary_pref_face_switches_enabled">"Les contacteurs de l'appareil photo utilisent la caméra avant pour détecter quand vous regardez l'écran et identifier vos expressions faciales. Aucune image n'est stockée ni envoyée à Google."</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">"Émettre un son lorsqu'un élément affiché change en réaction à une expression faciale"</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
-    <string name="summary_pref_face_switches_keep_screen_on_enabled">"Garder l'écran allumé lorsque les déclencheurs de l'appareil photo sont activés. Les déclencheurs de l'appareil photo ne permettent pas de déverrouiller un écran éteint."</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">"Afficher une indication sur la durée d'une expression faciale"</string>
+    <string name="summary_pref_face_switches_keep_screen_on_enabled">"Garder l'écran allumé lorsque les contacteurs de l'appareil photo sont activés. Les contacteurs de l'appareil photo ne permettent pas de déverrouiller un écran éteint."</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Aucun visage détecté</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">"Essayez l'une des expressions faciales. Son nom s'affiche si elle est enregistrée. Pour quitter, réalisez n'importe quelle expression faciale pendant %1$d secondes."</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Mettez-vous face à la caméra sans bouger la tête. Ensuite, %s.</string>
     <string name="summary_pref_play_store">Version TalkBack actuelle : %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">"Utilisez les lignes mobiles pour sélectionner un emplacement horizontal et vertical. Appuyez sur le contacteur %1$s pour lancer l'exploration par position. %2$s"</string>
     <string name="summary_pref_reverse_dots">Permutez les points du clavier de sorte que, par exemple, les points 1 et 4 soient inversés</string>
     <string name="summary_pref_revert_to_default_menu">"Réinitialise le menu Switch Access pour rétablir la liste d'éléments de menu par défaut."</string>
-    <string name="summary_pref_single_tap">"(Expérimental) Appuyez sur un élément sélectionné pour l'activer"</string>
+    <string name="summary_pref_single_tap">"Appuyez sur un élément sélectionné pour l'activer"</string>
     <string name="summary_pref_tree_debug_tv">"Utiliser la touche de recherche vocale pour imprimer l'arborescence des nœuds et non pour invoquer une recherche"</string>
     <string name="summary_pref_use_audio_focus">Diminuer le volume sonore des autres applications lors de la synthèse vocale</string>
     <string name="summary_read_from_current">"Lire tous les éléments à l'écran en partant de l'élément suivant"</string>
@@ -1464,7 +1476,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="switch_access_spoken_feedback_scroll">sélectionner pour faire défiler</string>
     <string name="switch_access_spoken_feedback_to">"de l'élément %1$s à l'élément %2$s"</string>
     <string name="switch_access_spoken_feedback_unknown">élément inconnu</string>
-    <string name="switch_game_cam_switches_subheading">"Pour jouer, utilisez vos déclencheurs afin de déplacer la surbrillance jusqu'à la case que vous souhaitez marquer."</string>
+    <string name="switch_game_cam_switches_subheading">"Pour jouer, utilisez vos contacteurs afin de déplacer la surbrillance jusqu'à la case que vous souhaitez marquer."</string>
     <string name="switch_game_heading">Tester la configuration</string>
     <string name="switch_game_incomplete_switches_subheading">"Vous n'avez pas encore attribué un contacteur à toutes les actions. Utilisez le bouton \"Précédent\" pour revenir en arrière et finir d'attribuer les contacteurs."</string>
     <string name="switch_game_one_switch_linear_subheading">"Appuyez sur \"%1$s\" pour lancer l'exploration. Appuyez de nouveau sur le contacteur pour sélectionner l'élément en surbrillance. À vous de jouer !"</string>
@@ -1479,10 +1491,10 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="switched_to_contracted_announcement">Clavier braille abrégé</string>
     <string name="switched_to_ueb_uncontracted_announcement">Braille anglais simplifié</string>
     <string name="switched_to_uncontracted_announcement">Clavier braille non abrégé</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Presque égal à</string>
     <string name="symbol_ampersand">Esperluette</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Signe inférieur à</string>
+    <string name="symbol_angle_bracket_right">Signe supérieur à</string>
     <string name="symbol_apostrophe">Apostrophe</string>
     <string name="symbol_approximately_equals">Approximativement égal à</string>
     <string name="symbol_asterisk">Astérisque</string>
@@ -1502,7 +1514,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_bullseye">Deux cercles concentriques</string>
     <string name="symbol_caret">Lambda</string>
     <string name="symbol_celsius_degree">Degré Celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Symbole du cent</string>
     <string name="symbol_circle_left_half_black">Cercle avec moitié gauche noire</string>
     <string name="symbol_circle_right_half_black">Cercle avec moitié droite noire</string>
     <string name="symbol_colon">Deux-points</string>
@@ -1511,7 +1523,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_curly_bracket_left">Accolade gauche</string>
     <string name="symbol_curly_bracket_right">Accolade droite</string>
     <string name="symbol_currency_sign">Symbole monétaire</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Symbole degré</string>
     <string name="symbol_division">Signe Division</string>
     <string name="symbol_dollar_sign">Signe Dollar</string>
     <string name="symbol_downwards_arrow">Flèche vers le bas</string>
@@ -1563,7 +1575,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_middle_dot">Point médian</string>
     <string name="symbol_multiplication">Signe Multiplication</string>
     <string name="symbol_new_line">Nouvelle ligne</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Différent de</string>
     <string name="symbol_not_sign">Signe Non</string>
     <string name="symbol_paragraph_mark">Pied-de-mouche</string>
     <string name="symbol_parenthesis_left">Parenthèse gauche</string>
@@ -1574,7 +1586,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_plus_minus_sign">Signe plus-ou-moins</string>
     <string name="symbol_postal_mark">Marque postale</string>
     <string name="symbol_pound">Dièse</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Symbole monétaire de la livre</string>
     <string name="symbol_quarter_note">Note noire</string>
     <string name="symbol_question_mark">"Point d'interrogation"</string>
     <string name="symbol_quotation_mark">Guillemet droit</string>
@@ -1600,7 +1612,7 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_trademark">Marque</string>
     <string name="symbol_underscore">Trait de soulignement</string>
     <string name="symbol_upwards_arrow">Flèche vers le haut</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Ligne verticale</string>
     <string name="symbol_white_circle">Cercle blanc</string>
     <string name="symbol_white_club_suit">Trèfle blanc</string>
     <string name="symbol_white_diamond">Losange blanc</string>
@@ -1614,8 +1626,8 @@ Essayez de sélectionner le mot \"Bienvenue\" dans la zone de texte ci-dessous."
     <string name="symbol_white_square">Carré blanc</string>
     <string name="symbol_white_star">Étoile blanche</string>
     <string name="symbol_white_up_pointing_triangle">Triangle blanc pointant vers le haut</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Symbole monétaire du won</string>
+    <string name="symbol_won_sign">Symbole monétaire du won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Actions système</string>
     <string name="tabletop">Mode À plat</string>
@@ -1783,7 +1795,7 @@ Pour désactiver TalkBack :
     <string name="title_pref_category_assign_switches">Attribuer des contacteurs</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Exploration automatique</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Recherche automatique (exploration par position)</string>
     <string name="title_pref_category_border_color">Couleur</string>
     <string name="title_pref_category_built_in_gestures">Gestes intégrés</string>
     <string name="title_pref_category_context_menu">Personnaliser le menu TalkBack</string>
@@ -1791,8 +1803,8 @@ Pour désactiver TalkBack :
     <string name="title_pref_category_customize_scanning">"Personnaliser l'exploration"</string>
     <string name="title_pref_category_developer_settings">Paramètres pour les développeurs</string>
     <string name="title_pref_category_display_and_sound">Affichage et son</string>
-    <string name="title_pref_category_face_switches">"Paramètres du déclencheur de l'appareil photo"</string>
-    <string name="title_pref_category_face_switches_additional_settings">"Autres paramètres des déclencheurs de l'appareil photo"</string>
+    <string name="title_pref_category_face_switches">"Paramètres du contacteur de l'appareil photo"</string>
+    <string name="title_pref_category_face_switches_additional_settings">"Autres paramètres des contacteurs de l'appareil photo"</string>
     <string name="title_pref_category_face_switches_individual_settings">Paramètres des expressions faciales</string>
     <string name="title_pref_category_feedback_settings">Autres retours</string>
     <string name="title_pref_category_fingerprint_touch_shortcuts">"Gestes d'empreinte digitale"</string>
@@ -1828,12 +1840,12 @@ Pour désactiver TalkBack :
     <string name="title_pref_enable_menu_customization">Activer la personnalisation du menu</string>
     <string name="title_pref_explore_by_touch">Explorer au toucher</string>
     <string name="title_pref_export_custom_labels">Exporter les libellés personnalisés</string>
-    <string name="title_pref_face_switches_debounce_time">"Ignorer la répétition des déclencheurs de l'appareil photo"</string>
-    <string name="title_pref_face_switches_enabled">"Utiliser les déclencheurs de l'appareil photo"</string>
+    <string name="title_pref_face_switches_debounce_time">"Ignorer la répétition des déclencheurs du contacteur de l'appareil photo"</string>
+    <string name="title_pref_face_switches_enabled">"Utiliser les contacteurs de l'appareil photo"</string>
     <string name="title_pref_face_switches_enhanced_audio_feedback_enabled">Retour audio amélioré</string>
     <string name="title_pref_face_switches_enhanced_visual_feedback_enabled">Retour visuel amélioré</string>
     <string name="title_pref_face_switches_keep_screen_on_enabled">"Garder l'écran allumé"</string>
-    <string name="title_pref_face_switches_main">"Déclencheur de l'appareil photo"</string>
+    <string name="title_pref_face_switches_main">"Contacteur de l'appareil photo"</string>
     <string name="title_pref_green">Vert</string>
     <string name="title_pref_grey">Gris</string>
     <string name="title_pref_help">Aide</string>
@@ -1867,7 +1879,7 @@ Pour désactiver TalkBack :
     <string name="title_pref_red">Rouge</string>
     <string name="title_pref_resume_talkback">Réactiver</string>
     <string name="title_pref_reverse_auto_scan_disabled">Exploration automatique inversée (désactivée)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Recherche automatique inversée (exploration par position)</string>
     <string name="title_pref_reverse_dots">Inverser les points</string>
     <string name="title_pref_revert_to_default_menu">Rétablir le menu par défaut</string>
     <string name="title_pref_scan_non_actionable_items">Énoncer le texte descriptif</string>
@@ -1930,7 +1942,7 @@ Pour désactiver TalkBack :
     <string name="title_pref_show_context_menu_as_list">Afficher le menu contextuel comme liste</string>
     <string name="title_pref_show_privacy_policy">Règles de confidentialité</string>
     <string name="title_pref_show_tos">"Conditions d'utilisation"</string>
-    <string name="title_pref_single_tap">Appuyer une fois pour activer</string>
+    <string name="title_pref_single_tap">Appuyer pour activer</string>
     <string name="title_pref_sound_and_vibration">Son et vibreur</string>
     <string name="title_pref_soundback">Retour audio</string>
     <string name="title_pref_soundback_volume">Volume du retour audio</string>
@@ -1975,6 +1987,7 @@ Pour désactiver TalkBack :
     <string name="title_previous_screen">Écran précédent</string>
     <string name="title_read_from_top">Lire à partir du haut de la page</string>
     <string name="title_repeat_last_spoken_phrase">Répéter la dernière expression énoncée</string>
+    <string name="title_request_phone_permission">TalkBack demande une autorisation</string>
     <string name="title_screen_summary">"Résumé de l'écran"</string>
     <string name="title_seek_bar_controls">Curseur</string>
     <string name="title_seek_bar_edit">Modifier le niveau du curseur</string>
@@ -2018,7 +2031,7 @@ Pour écrire en braille, vous devez tenir et utiliser votre téléphone différe
     <string name="two_finger_gestures_title">Deux doigts</string>
     <string name="two_switches">Deux contacteurs</string>
     <string name="two_switches_description_text">"Appuyez sur un contacteur pour passer d'un élément à un autre. Appuyez sur l'autre contacteur pour sélectionner l'élément en surbrillance."</string>
-    <string name="two_switches_recommended">Deux déclencheurs (recommandé)</string>
+    <string name="two_switches_recommended">Deux contacteurs (recommandé)</string>
     <string name="type_letter_a_announcement">"Tournez l'écran vers l'extérieur. Tenez le téléphone à deux mains par les extrémités, de sorte que vous puissiez toucher l'écran avec l'index, le majeur et l'annulaire de chaque main.
 
 L'%1$s doit être sur le point 1. Maintenant, appuyez sur le point 1 pour saisir la lettre \"A\"."</string>

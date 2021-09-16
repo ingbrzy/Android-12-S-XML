@@ -357,9 +357,9 @@
     <string name="airplane_mode">Modaliteti i aeroplanit</string>
     <string name="alarm_template">në %1$s</string>
     <string name="alarm_template_far">në %1$s</string>
-    <string name="alarms_and_reminders_footer_title">"Lejo që ky aplikacion të caktojë alarmet dhe të planifikojë veprime që kanë një afat të caktuar. Kjo lejon që aplikacioni të ekzekutohet në sfond, gjë që mund të përdorë më shumë bateri.
+    <string name="alarms_and_reminders_footer_title">"Lejo që ky aplikacion të caktojë alarmet dhe të planifikojë veprime që kanë një afat të caktuar. Kjo mundëson që aplikacioni të ekzekutohet në sfond, gjë që mund të përdorë më shumë bateri.
 
-Nëse kjo leje është caktuar si joaktive, alarmet ekzistuese dhe ngjarjet me bazë kohore të planifikuara nga ky apliikacion nuk do të funksionojnë."</string>
+Nëse kjo leje është caktuar si joaktive, alarmet ekzistuese dhe ngjarjet në bazë kohore të planifikuara nga ky aplikacion nuk do të funksionojnë."</string>
     <string name="alarms_and_reminders_label">Alarmet dhe alarmet rikujtuese</string>
     <string name="alarms_and_reminders_switch_title">Lejo caktimin e alarmeve dhe alarmeve rikujtuese</string>
     <string name="alarms_and_reminders_title">Alarmet dhe alarmet rikujtuese</string>
@@ -595,6 +595,8 @@ Zgjedhja"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Pajisja jote duhet të riniset që ky ndryshim të zbatohet. Rinise tani ose anuloje.</string>
     <string name="camera_hint">Rrëshqit për të hapur kamerën</string>
     <string name="camera_label">hap kamerën</string>
+    <string name="camera_recording_announcement">\"Kamera\" po regjistron</string>
+    <string name="camera_stopped_recording_announcement">\"Kamera\" ndaloi së regjistruari</string>
     <string name="cancel">Anulo</string>
     <string name="carrier_network_change_mode">Rrjeti i operatorit celular po ndryshohet</string>
     <string name="category_personal">Personale</string>
@@ -734,6 +736,10 @@ Nëse vazhdon, mund të zbatohen tarifa për përdorimin e të dhënave."</strin
     <string name="debug_monitoring_category">Monitorimi</string>
     <string name="debug_networking_category">Rrjetet</string>
     <string name="debug_view_attributes">Aktivizo shikimin e inspektimit të atributeve</string>
+    <string name="defender_notify_des">Telefoni yt po e kufizon karikimin për të ndihmuar me ruajtjen e gjendjes së baterisë</string>
+    <string name="defender_notify_learn_more">Mëso më shumë</string>
+    <string name="defender_notify_resume_charge">Vazhdo karikimin</string>
+    <string name="defender_notify_title">Karikimi përkohësisht i kufizuar</string>
     <string name="delete_blob_confirmation_text">Je i sigurt që dëshiron ta fshish këto të dhëna të ndara?</string>
     <string name="delete_blob_text">Fshi të dhënat e ndara</string>
     <string name="demo_mode">Modaliteti i demonstrimit i ndërfaqes së përdoruesit të sistemit</string>
@@ -1070,6 +1076,7 @@ me prioritet"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Po shkyç kartën SIM…</string>
     <string name="keyguard_try_fingerprint">Përdor gjurmën e gishtit për ta hapur</string>
     <string name="keyguard_unlock">Rrëshqit lart për ta hapur</string>
+    <string name="keyguard_unlock_press">Shtyp për të hapur</string>
     <string name="keywords_adb_wireless">adb, korrigjimi, zhvilluesi</string>
     <string name="keywords_alarms_and_reminders">planifiko, alarm, alarm rikujtues, ora</string>
     <string name="kg_enter_confirm_pin_hint">Konfirmo kodin e dëshiruar PIN</string>
@@ -1233,6 +1240,10 @@ Provo sërish për %2$d sekonda."</string>
     <string name="menu_ime">Ndërruesi i tastierës</string>
     <string name="messages_count_overflow_indicator">Mbi %d</string>
     <string name="mic_active">Mikrofoni aktiv</string>
+    <string name="mic_and_camera_recording_announcement">\"Kamera\" dhe \"Mikrofoni\" po regjistrojnë</string>
+    <string name="mic_camera_stopped_recording_announcement">\"Kamera\" dhe \"Mikrofoni\" ndaluan së regjistruari</string>
+    <string name="mic_recording_announcement">\"Mikrofoni\" po regjistron</string>
+    <string name="mic_stopped_recording_announcement">\"Mikrofoni\" ndaloi së regjistruari</string>
     <string name="missed_call">Telefonatë e humbur</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data">Të dhënat celulare</string>
@@ -1706,8 +1717,6 @@ Nëse ke pyetje, kontakto me %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplikacionet e punës</string>
     <string name="quick_step_accessibility_toggle_overview">Kalo te përmbledhja</string>
     <string name="recent_conversations">Bisedat e fundit</string>
-    <string name="recents_quick_scrub_onboarding">Zvarrit djathtas për të ndërruar aplikacionet me shpejtësi</string>
-    <string name="recents_swipe_up_onboarding">Rrëshqit shpejt lart për të ndërruar aplikacionet</string>
     <string name="remaining_length_format">%1$s të mbetura</string>
     <string name="remote_input_image_insertion_text">dërgoi një imazh</string>
     <string name="remove_from_settings">Hiqe nga Cilësimet</string>
@@ -2117,6 +2126,7 @@ Kur shton një përdorues të ri, ai person duhet të konfigurojë hapësirën e
     <string name="wallet_secondary_label_no_card">Shto një kartë</string>
     <string name="wallet_secondary_label_updating">Po përditësohet</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pika e qasjes është përkohësisht plot</string>
     <string name="wifi_cant_connect">Nuk mund të lidhet</string>
     <string name="wifi_cant_connect_to_ap">Nuk mund të lidhet me \"%1$s\"</string>

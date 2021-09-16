@@ -17,14 +17,21 @@
         <item>15 წუთი</item>
         <item>20 წუთი</item>
         <item>25 წუთი</item>
-        <item>არასოდეს</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 წუთი ძილის დრომდე</item>
+        <item>30 წუთი ძილის დრომდე</item>
+        <item>45 წუთი ძილის დრომდე</item>
+        <item>1 საათი ძილის დრომდე</item>
+        <item>გამორთვა</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>ისრებიანი</item>
         <item>ციფრული</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>არასოდეს</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 წამი</item>
         <item>10 წამი</item>
         <item>15 წამი</item>
@@ -37,6 +44,35 @@
         <item>50 წამი</item>
         <item>55 წამი</item>
         <item>60 წამი</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>შეწყდეს 10 წუთის შემდეგ</item>
+        <item>შეწყდეს 20 წუთის შემდეგ</item>
+        <item>შეწყდეს 30 წუთის შემდეგ</item>
+        <item>შეწყდეს 40 წუთის შემდეგ</item>
+        <item>შეწყდეს 50 წუთის შემდეგ</item>
+        <item>დარეკვის ხანგრძლივობა: 1 საათი</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>დარეკვის ხანგრძლივობა: 10 წთ</item>
+        <item>დარეკვის ხანგრძლივობა: 20 წთ</item>
+        <item>დარეკვის ხანგრძლივობა: 30 წთ</item>
+        <item>დარეკვის ხანგრძლივობა: 40 წთ</item>
+        <item>დარეკვის ხანგრძლივობა: 50 წთ</item>
+        <item>დარეკვის ხანგრძლივობა: 1 საათი</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 წუთი</item>
+        <item>20 წუთი</item>
+        <item>30 წუთი</item>
+        <item>40 წუთი</item>
+        <item>50 წუთი</item>
+        <item>1 საათი</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 წუთი</item>
@@ -69,18 +105,6 @@
         <item>28 წუთი</item>
         <item>29 წუთი</item>
         <item>30 წუთი</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>საკმაოდ სწრაფი ხართ.</item>
-        <item>ისიამოვნეთ თქვენი შრომის ნაყოფით.</item>
-        <item>ანდროიდები ცნობილია, როგორც სწრაფი. მაგრამ თქვეზე სწარფი მაინც ვერაა!</item>
-        <item>Phew.</item>
-        <item>L33t times.</item>
-        <item>ამას ჰქვია სიჩქარე!</item>
-        <item>მოდით, ისევ შევეჭიდოთ დროს.</item>
-        <item>უბრალოდ მარცხნივ ახტომა.</item>
-        <item>დროს ნუ დაკარგავთ.</item>
-        <item>ფოტონური სისწრაფე.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>მარშალის კუნძულები</item>

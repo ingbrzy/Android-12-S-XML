@@ -341,13 +341,15 @@ Ierīce nav nodrošināta."</string>
 
 "<li>Jebkurš cits lietotājs var apstiprināt atjauninātas lietotņu atļaujas.</li>"
 
-"<li>Koplietojiet šo tālruni tikai ar uzticamām personām.</li></ul>}TABLET{<b>Svarīgi!</b>"
+"<li>Koplietojiet šo tālruni tikai ar uzticamām personām.</li></ul>"
+}TABLET{"<b>Svarīgi!</b>"
 
 "<ul><li>Planšetdatora īpašnieks var atinstalēt lietotnes vai pilnīgi noņemt jūsu lietotāja profilu.</li>"
 
 "<li>Jebkurš cits lietotājs var apstiprināt atjauninātas lietotņu atļaujas.</li>"
 
-"<li>Koplietojiet šo planšetdatoru tikai ar uzticamām personām.</li></ul>}other{<b>Svarīgi!</b>"
+"<li>Koplietojiet šo planšetdatoru tikai ar uzticamām personām.</li></ul>"
+}other{"<b>Svarīgi!</b>"
 
 "<ul><li>Ierīces īpašnieks var atinstalēt lietotnes vai pilnīgi noņemt jūsu lietotāja profilu.</li>"
 
@@ -359,70 +361,47 @@ Ierīce nav nodrošināta."</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu tālruni.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
-"<li>automātiski iestatīt laiku un datumu.</li>"}TABLET{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu planšetdatoru.
+"<li>automātiski iestatīt laiku un datumu.</li>"
+}TABLET{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu planšetdatoru.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
-"<li>automātiski iestatīt laiku un datumu.</li>"}other{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu ierīci.
+"<li>automātiski iestatīt laiku un datumu.</li>"
+}other{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu ierīci.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
 "<li>automātiski iestatīt laiku un datumu.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu tālruni.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>lejupielādēt SIM kartes datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
-"<li>automātiski iestatīt laiku un datumu.</li>"}TABLET{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu planšetdatoru.
+"<li>automātiski iestatīt laiku un datumu.</li>"
+}TABLET{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu planšetdatoru.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>lejupielādēt SIM kartes datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
-"<li>automātiski iestatīt laiku un datumu.</li>"}other{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu ierīci.
+"<li>automātiski iestatīt laiku un datumu.</li>"
+}other{Izveidojot savienojumu ar Wi-Fi vai mobilo tīklu, varat ātri iestatīt savu ierīci.
 
 Ja nebūs savienojuma, nevarēsiet:
-
-"<li>pierakstīties savā Google kontā;</li>"
-
+"<li>pierakstīties savā Google kontā;</li>"
 "<li>atjaunot lietotnes un datus;</li>"
-
 "<li>lejupielādēt SIM kartes datus;</li>"
-
 "<li>saņemt programmatūras atjauninājumus;</li>"
-
 "<li>automātiski iestatīt laiku un datumu.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Piekļuves punkts īslaicīgi ir pilns</string>
     <string name="wifi_check_password_try_again">Pārbaudiet paroli un mēģiniet vēlreiz.</string>

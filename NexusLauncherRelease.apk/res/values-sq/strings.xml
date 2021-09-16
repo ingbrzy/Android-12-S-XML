@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Shto te dosja me %1$s</string>
     <string name="add_to_home_screen">Shto në \"Ekranin bazë\"</string>
     <string name="added_to_folder">Artikulli u shtua te dosja</string>
+    <string name="added_to_home_screen_accessibility_text">Miniaplikacioni %1$s u shtua në ekranin bazë</string>
     <string name="all_apps_button_label">Lista e aplikacioneve</string>
     <string name="all_apps_button_personal_label">Lista e aplikacioneve personale</string>
     <string name="all_apps_button_work_label">Lista e aplikacioneve të punës</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Kur telefoni rrotullohet</string>
     <string name="allow_rotation_title">Lejo rrotullimin e ekranit bazë</string>
     <string name="allset_description">Je gati për të filluar përdorimin e telefonit tënd</string>
+    <string name="allset_hint">Rrëshqit shpejt lart për të shkuar tek \"Ekrani bazë\"</string>
+    <string name="allset_navigation_settings"><annotation id="link">Cilësimet e navigimit të sistemit</annotation></string>
     <string name="allset_title">Plotësisht gati!</string>
     <string name="app_downloading_title">%1$s po shkarkohet, %2$s të përfunduara</string>
     <string name="app_info_drop_target_label">Info mbi aplikacionin</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s po pret të instalohet</string>
     <string name="auto_add_shortcuts_description">Për aplikacionet e reja</string>
     <string name="auto_add_shortcuts_label">Shto ikona aplikacionesh në ekranin bazë</string>
+    <string name="back_gesture_feedback_cancelled">Sigurohu që të rrëshqasësh shpejt nga skaji i djathtë ose i majtë drejt mesit të ekranit dhe lëshoje.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">"Ke mësuar si të rrëshqasësh shpejt nga e djathta për t'u kthyer prapa. Në vijim do të mësosh se si t'i ndërrosh aplikacionet."</string>
     <string name="back_gesture_feedback_complete_without_follow_up">E ke përfunduar gjestin e kthimit prapa.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Sigurohu që të mos rrëshqasësh shumë afër fundit të ekranit.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Sigurohu që të rrëshqasësh shpejt nga skaji më i djathtë ose më i majtë.</string>
     <string name="back_gesture_intro_subtitle">"Për t'u kthyer prapa tek ekrani i fundit, rrëshqit shpejt nga skaji i majtë ose i djathtë drejt mesit të ekranit"</string>
     <string name="back_gesture_intro_title">"Rrëshqit shpejt për t'u kthyer prapa"</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Për të ndryshuar ndjeshmërinë e gjestit të kthimit prapa, shko te \"Cilësimet\"</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Trokit për të ruajtur riemërtimin</string>
     <string name="gadget_error_text">"S'mund të ngarkohet miniaplikacioni"</string>
     <string name="gadget_setup_text">Trokit për të përfunduar konfigurimin</string>
+    <string name="gesture_tutorial_action_button_label">U krye</string>
     <string name="gesture_tutorial_action_button_label_cancel">Anulo</string>
     <string name="gesture_tutorial_action_button_label_settings">Cilësimet</string>
     <string name="gesture_tutorial_action_button_label_skip">Kapërce</string>
@@ -171,6 +177,8 @@
     <string name="item_added_to_workspace">Artikulli u shtua tek ekrani bazë</string>
     <string name="item_moved">Artikulli u zhvendos</string>
     <string name="item_removed">Artikulli u hoq</string>
+    <string name="keyboard_hide">Fshih gjithmonë tastierën</string>
+    <string name="keyboard_show">Shfaq gjithmonë tastierën</string>
     <string name="label_application">Aplikacioni</string>
     <string name="label_lens">Lentja e Google</string>
     <string name="label_search">Kërko</string>
@@ -207,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Provo ta mbash shtypur dritaren për një kohë më të gjatë para se ta lëshosh.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Sigurohu që të rrëshqasësh shpejt lart nga skaji i poshtëm i ekranit.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Sigurohu që të rrëshqasësh shpejt drejt lart dhe më pas ndalo.</string>
+    <string name="overview_gesture_intro_subtitle">Për të ndërruar mes aplikacioneve, rrëshqit shpejt lart nga fundi i ekranit tënd, mbaj dhe pastaj lësho.</string>
     <string name="overview_gesture_intro_title">Rrëshqit shpejt për të ndërruar aplikacionet</string>
     <string name="overview_selection_pref_desc">Kur ndërron aplikacionet, prek dhe mbaj të shtypur te teksti dhe imazhet për të shikuar veprimet</string>
     <string name="overview_selection_pref_title">Zgjedhja e \"Përmbledhjes\"</string>
@@ -236,22 +245,31 @@
     <string name="saved_images_snackbar_action">Hap</string>
     <string name="saved_images_snackbar_label">Imazhi u ruajt</string>
     <string name="search_edu_highlight_input">Tani mund të kërkosh për aplikacione, njerëz dhe përmbajtje në këtë pajisje.</string>
+    <string name="search_edu_highlight_preferences">Trokit për të ndryshuar nëse tastiera shfaqet këtu.</string>
     <string name="search_input_action_clear_results">Pastro kutinë e kërkimit</string>
     <string name="search_input_action_show_preferences">Preferencat</string>
+    <string name="search_keyboard_snackbar_prompt">Të shfaqet gjithmonë tastiera këtu?</string>
+    <string name="search_keyboard_snackbar_turn_off">Hiq</string>
+    <string name="search_keyboard_snackbar_turn_on">Po</string>
     <string name="search_menu_title">Kërko</string>
+    <string name="search_pref_category_info">Rrëshqit shpejt lart për të kërkuar për aplikacione, njerëz etj.</string>
     <string name="search_pref_category_result_types">Shfaq në rezultatet e kërkimit</string>
     <string name="search_pref_info_btn">Mëso më shumë</string>
     <string name="search_pref_result_appsearch_settings_title">Cilësimet e AppSearch</string>
     <string name="search_pref_result_chrometab_title">Skeda e Chrome</string>
     <string name="search_pref_result_navvysite_title">Sajti i navigimit</string>
+    <string name="search_pref_result_people_desc">Kontaktet, bisedat etj.</string>
     <string name="search_pref_result_people_title">Personat</string>
     <string name="search_pref_result_play_desc">Me burim nga dyqani i Play</string>
     <string name="search_pref_result_play_title">Dyqani i Play</string>
     <string name="search_pref_result_screenshot_title">Pamja e ekranit</string>
     <string name="search_pref_result_settings_title">Cilësimet</string>
+    <string name="search_pref_result_shortcuts_desc">Shfaq shkurtoret për aplikacionet dhe njerëzit</string>
     <string name="search_pref_result_shortcuts_title">Shkurtoret</string>
     <string name="search_pref_result_tips_title">Këshilla</string>
     <string name="search_pref_result_widgets_title">Miniaplikacionet</string>
+    <string name="search_pref_screen_desc">Kërko në pajisjen tënde nga të gjitha aplikacionet</string>
+    <string name="search_pref_screen_title">Kërko në telefonin tënd</string>
     <string name="select_tooltip">"Zgjidh tekstin dhe imazhet për t'i kopjuar, ndarë etj."</string>
     <string name="selectable_url_description">URL që mund të zgjidhet</string>
     <string name="settings">Cilësimet</string>
@@ -269,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Ndenjësja</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferencat</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Shkurtimisht</string>
     <string name="smartspace_preferences_in_settings_desc">Në krye të Ekranit bazë</string>
     <string name="smartspace_preferences_manage">Personalizo</string>
     <string name="smartspace_preferences_turn_off_action">Çaktivizo</string>
@@ -282,6 +300,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">Imazhi i sfondit dhe stili</string>
     <string name="suggested_action_content_description">%1$s hapet në %2$s</string>
+    <string name="suggestion_pref_screen_desc">Për sugjerimet për të gjitha aplikacionet dhe ekranin bazë</string>
     <string name="suggestion_pref_screen_title">Sugjerime</string>
     <string name="summary_app_suggestions">Te \"Përmbledhja\" dhe në krye të listës \"Të gjitha aplikacionet\"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

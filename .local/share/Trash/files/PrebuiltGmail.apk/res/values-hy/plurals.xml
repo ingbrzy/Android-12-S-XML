@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s-ն ավելացրեց %2$s-ին</item>
+        <item quantity="one">%1$s-ն ավելացրեց %2$s-ին</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Նրանք այն կազմակերպությունից չեն, որին պատկանում է այս սենյակը։</item>
+        <item quantity="one">Նրանք այն կազմակերպությունից չեն, որին պատկանում է այս սենյակը։</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Որոշ անդամներ այն կազմակերպությունից չեն, որին պատկանում է այս սենյակը։</item>
+        <item quantity="one">Որոշ անդամներ այն կազմակերպությունից չեն, որին պատկանում է այս սենյակը։</item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d մասնակից</item>
+        <item quantity="one">%d մասնակից</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s նոր նամակ</item>
+        <item quantity="one">%s նոր նամակ</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">Պլանավորված որոշ ուղարկումներ չհաջողվեց չեղարկել</item>
+        <item quantity="one">Պլանավորված որոշ ուղարկումներ չհաջողվեց չեղարկել</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">Պլանավորված ուղարկումները չեղարկվեցին, և նամակները պահվեցին որպես սևագիր</item>
+        <item quantity="one">Պլանավորված ուղարկումը չեղարկվեց, և նամակը պահվեց որպես սևագիր</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">Պլանավորված %1$d ուղարկում չեղարկվեց, և նամակները պահվեցին որպես սևագիր:</item>
+        <item quantity="one">Պլանավորված %1$d ուղարկում չեղարկվեց, և նամակը պահվեց որպես սևագիր:</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s հասցեատեր</item>
+        <item quantity="one">%s հասցեատեր</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 հասցեատեր օգտվում է ծառայություններից, որոնք գաղտնագրում չեն աջակցում: Առանց գաղտնագրման, ձեր հաղորդագրության առաքման ընթացքում ուրիշները կարող են տեսնել այն։ ^2</item>
+        <item quantity="one">^1 հասցեատեր օգտվում է ծառայություններից, որոնք գաղտնագրում չեն աջակցում: Առանց գաղտնագրման, ձեր հաղորդագրության առաքման ընթացքում ուրիշները կարող են տեսնել այն։ ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">Նամակը չի գաղտնագրվել, քանի որ ուղարկման պահին ^1 և մյուս տիրույթներում գաղտնագրում չի գործել:</item>
+        <item quantity="one">Նամակը չի գաղտնագրվել, քանի որ ուղարկման պահին ^1 և մյուս տիրույթներում գաղտնագրում չի գործել:</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s ծալված հաղորդագրություն</item>
+        <item quantity="one">%1$s ծալված հաղորդագրություն</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">Ենթախմբի աշխատաշրջանը կավարտվի %d րոպեից։</item>
+        <item quantity="one">Ենթախմբի աշխատաշրջանը կավարտվի %d րոպեից։</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">Ձեր զանգը %1$d րոպեից կավարտվի</item>
+        <item quantity="one">Ձեր զանգը %1$d րոպեից կավարտվի</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">Եվս %d հոգի</item>
+        <item quantity="one">Եվս %d հոգի</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">Եվս %d հոգի</item>
+        <item quantity="one">Եվս %d հոգի</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Արխիվացնե՞լ այս %1$d խոսակցությունները:</item>
+        <item quantity="one">Արխիվացնե՞լ այս %1$d նամակագրությունը:</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Ջնջե՞լ այս %1$d խոսակցությունները:</item>
+        <item quantity="one">Ջնջե՞լ այս %1$d նամակագրությունը:</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Հեռացնե՞լ այս %1$d նամակագրության սևագրերը:</item>
+        <item quantity="one">Հեռացնե՞լ այս %1$d նամակագրության սևագրերը:</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-ն արխիվացվել են</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-ն արխիվացվել է</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-ը ջնջվել են</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-ը ջնջվել է</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Պիտակները փոխվեցին:</item>
+        <item quantity="one">Պիտակները փոխվեցին:</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> նամակագրություն նշվեց որպես կարևոր</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> նամակագրություն նշվեց որպես կարևոր</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">Այս խոսակցությունում կա %1$d ջնջված հաղորդագրություն</item>
+        <item quantity="one">Այս խոսակցությունում կա %1$d ջնջված հաղորդագրություն</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> նամակագրություն տեղափոխվեց մուտքի արկղ</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> նամակագրություն տեղափոխվեց մուտքի արկղ</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Անտեսվել է՝ &lt;b>%1$d&lt;/b></item>
+        <item quantity="one">Անտեսվել է՝ &lt;b>%1$d&lt;/b></item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-ը նշվել են որպես ոչ կարևոր</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-ը նշվել է որպես ոչ կարևոր</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-ը հեռացվել են լցոնից</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-ը հեռացվել է լցոնից</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> նամակ նշվեց որպես կարդացված</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> նամակ նշվեց որպես կարդացված</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> նամակագրություն հետաձգվեց մինչև %2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> նամակագրություն հետաձգվեց մինչև %2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-ը նշվել են որպես սպամ</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-ը նշվել է որպես սպամ</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d-ը նշվել է որպես սպամ և ապաբաժանորդագրվել</item>
+        <item quantity="one">%1$d-ը նշվել է որպես սպամ և ապաբաժանորդագրվել</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">Աստղանշվում է %1$d նամակագրություն</item>
+        <item quantity="one">Աստղանշվում է %1$d նամակագրություն</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> նամակագրություն նշվեց որպես չկարդացված</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> նամակագրություն նշվեց որպես չկարդացված</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">Վերադարձվեց &lt;b>%1$d&lt;/b> նամակագրություն</item>
+        <item quantity="one">Վերադարձվեց &lt;b>%1$d&lt;/b> նամակագրություն</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d նամակագրություն ապանշվում է</item>
+        <item quantity="one">%1$d նամակագրություն ապանշվում է</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d հոգի բաժանորդագրությունը չեղարկել է</item>
+        <item quantity="one">%1$d հոգի բաժանորդագրությունը չեղարկել է</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">Ամեն %d օրը մեկ</item>
+        <item quantity="one">Ամեն %d օրը մեկ</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">Մշակողն անջատել է %1$s բոտի:</item>
+        <item quantity="one">Մշակողն անջատել է %1$s բոտի:</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Այս հաղորդագրությունները կնշվեն որպես սպամ: Ուզո՞ւմ եք այլևս նմանատիպ հաղորդագրություններ չստանալ այս &lt;b>%2$d ուղարկողներից&lt;/b>:%1$s</item>
+        <item quantity="one">Այս հաղորդագրությունը կնշվի որպես սպամ: Ուզո՞ւմ եք այլևս նմանատիպ հաղորդագրություններ չստանալ այս &lt;b>%2$d ուղարկողներից&lt;/b>%1$s:</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">%d ժամ</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">%d րոպե</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Սևագրեր</item>
+        <item quantity="one">Սևագիր</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s օգտատիրոջը ու ևս %2$d հոգու հնարավոր չէ ավելացնել զրույցում</item>
+        <item quantity="one">%1$s օգտատիրոջը ու ևս %2$d հոգու հնարավոր չէ ավելացնել զրույցում</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s նամակագրություն ընդմիշտ կջնջվի</item>
+        <item quantity="one">%1$s նամակագրություն ընդմիշտ կջնջվի</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">, %d անգամ</item>
+        <item quantity="one">, %d անգամ</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Դուք ավելացնում եք արտաքին օգտատերեր</item>
+        <item quantity="one">Դուք ավելացնում եք արտաքին օգտատերեր</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Հնարավոր է, որ ձեր հասցեատերերին հասանելի չլինի ֆայլը, որը կցել եք Drive-ից: Կարող է պահանջվել, որ համօգտագործեք ֆայլերը Google Drive-ում:</item>
+        <item quantity="one">Հնարավոր է, որ ձեր հասցեատերերին հասանելի չլինի ֆայլը, որը կցել եք Drive-ից: Կարող է պահանջվել, որ համօգտագործեք ֆայլերը Google Drive-ում:</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Ձեր հասցեատերերը հնարավոր է դարձյալ չկարողանան բացել այս ֆայլերը։ Հնարավոր է, որ հարկ լինի ուղարկել ֆայլերն անմիջապես Google Drive-ից։</item>
+        <item quantity="one">Ձեր հասցեատերերը հնարավոր է դարձյալ չկարողանան բացել այս ֆայլերը։ Հնարավոր է, որ հարկ լինի ուղարկել ֆայլերն անմիջապես Google Drive-ից։</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Ծանոթություն. հնարավոր է՝ որոշ հասցեատերերի հասանելի չլինի այս ֆայլը: Կարող է պահանջվել, որ համօգտագործեք այն Google Drive-ում:</item>
+        <item quantity="one">Ծանոթություն. հնարավոր է՝ որոշ հասցեատերերի հասանելի չլինի այս ֆայլը: Կարող է պահանջվել, որ համօգտագործեք այն Google Drive-ում:</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Նկատի առեք՝ որոշ հասցեատերեր հնարավոր է դարձյալ չկարողանան բացել այս ֆայլերը։ Հնարավոր է, որ հարկ լինի ուղարկել ֆայլերն անմիջապես Google Drive-ից։</item>
+        <item quantity="one">Նկատի առեք՝ որոշ հասցեատերեր հնարավոր է դարձյալ չկարողանան բացել այս ֆայլերը։ Հնարավոր է, որ հարկ լինի ուղարկել ֆայլերն անմիջապես Google Drive-ից։</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Սխալ առաջացավ։ Այս ֆայլերով չհաջողվեց կիսվել։</item>
+        <item quantity="one">Սխալ առաջացավ։ Այս ֆայլերով չհաջողվեց կիսվել։</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Դուք ֆայլերով եք կիսվում հետևյալ ստացողների հետ՝&lt;br>&lt;b>%1$s։
+&lt;/b>&lt;br>Նրանք այն Google Workspace կազմակերպությունից չեն, որին պատկանում են այս ֆայլերը։"</item>
+        <item quantity="one">"Դուք ֆայլերով եք կիսվում հետևյալ ստացողների հետ՝&lt;br>&lt;b>%1$s։
+&lt;/b>&lt;br>Նրանք այն Google Workspace կազմակերպությունից չեն, որին պատկանում են այս ֆայլերը։"</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Դուք կիսվում եք ֆայլերով հետևյալ հասցեատերերի հետ՝ %1$s։ Նրանք այն Google Workspace կազմակերպությունից չեն, որին պատկանում են այս ֆայլերը։</item>
+        <item quantity="one">Դուք կիսվում եք ֆայլերով հետևյալ հասցեատերերի հետ՝ %1$s։ Նրանք այն Google Workspace կազմակերպությունից չեն, որին պատկանում են այս ֆայլերը։</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">Դուք %d հաղորդագրություն ունեք «Նոր հաղորդագրություններ» բաժնում (կոճակը ներքևում է):</item>
+        <item quantity="one">Դուք %d հաղորդագրություն ունեք «Նոր հաղորդագրություններ» բաժնում (կոճակը ներքևում է):</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 հասցեատեր օգտվում է ծառայություններից, որոնք գաղտնագրում չեն աջակցում: Առանց գաղտնագրման՝ ձեր հաղորդագրության առաքման ընթացքում ուրիշները կարող են կարդալ այն։ ^2</item>
+        <item quantity="one">^1 հասցեատեր օգտվում է ծառայություններից, որոնք գաղտնագրում չեն աջակցում: Առանց գաղտնագրման՝ ձեր հաղորդագրության առաքման ընթացքում ուրիշները կարող են կարդալ այն։ ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d հաղորդագրություն թաքցված է</item>
+        <item quantity="one">%d հաղորդագրություն թաքցված է</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d հոգի</item>
+        <item quantity="one">%d հոգի</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s մասնակիցը հրավիրել է %2$s օգտատիրոջ</item>
+        <item quantity="one">%1$s մասնակիցը հրավիրել է %2$s օգտատիրոջ</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">Սենյակի միանալու %d չդիտված հրավեր</item>
+        <item quantity="one">Սենյակի միանալու %d չդիտված հրավեր</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">Սենյակների դիտարկման կոճակ: Դուք սենյակի միանալու %d չդիտված հրավեր ունեք</item>
+        <item quantity="one">Սենյակների դիտարկման կոճակ: Դուք սենյակի միանալու %d չդիտված հրավեր ունեք</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d մասնակից</item>
+        <item quantity="one">%d մասնակից</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s օգտատերերը միացան հանդիպմանը</item>
+        <item quantity="one">%1$s օգտատերը միացավ հանդիպմանը</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">Զրույցի %d հայտ</item>
+        <item quantity="one">Զրույցի %d հայտ</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">Զրույցի %d չդիտված հայտ</item>
+        <item quantity="one">Զրույցի %d չդիտված հայտ</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d ր</item>
+        <item quantity="one">%d ր</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">Ամեն %1$d ամիսը մեկ</item>
+        <item quantity="one">Ամեն %1$d ամիսը մեկ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d նոր ծանուցում</item>
+        <item quantity="one">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d նոր հաղորդագրություն</item>
+        <item quantity="one">%1$d նոր հաղորդագրություն</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d նոր հաղորդագրություն</item>
+        <item quantity="one">%1$d նոր հաղորդագրություն</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">Դուք %d հաղորդագրություն ունեք «Նոր հաղորդագրություններ» բաժնում (կոճակը ներքևում է):</item>
+        <item quantity="one">Դուք %d հաղորդագրություն ունեք «Նոր հաղորդագրություններ» բաժնում (կոճակը ներքևում է):</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d նոր հաղորդագրություն</item>
+        <item quantity="one">%d նոր հաղորդագրություն</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d նոր հաղորդագրություն</item>
+        <item quantity="one">%d նոր հաղորդագրություն</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d առդիր</item>
+        <item quantity="one">%1$d առդիր</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d հաղորդագրություն</item>
+        <item quantity="one">%1$d հաղորդագրություն</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Որոշ հասցեատերեր ձեր կազմակերպությունից չեն և չկան ձեր կոնտակտներում։</item>
+        <item quantity="one">Որոշ հասցեատերեր ձեր կազմակերպությունից չեն և չկան ձեր կոնտակտներում։</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Արտաքին ստացողներ</item>
+        <item quantity="one">Արտաքին ստացողներ</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d ստացող պատճենվեց</item>
+        <item quantity="one">%d ստացող պատճենվեց</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Օրացույցները հասանելի չեն</item>
+        <item quantity="one">Օրացույցները հասանելի չեն</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">Հաղորդագրության նիշերի սահմանաչափը %d նիշով գերազանցվել է</item>
+        <item quantity="one">Հաղորդագրության նիշերի սահմանաչափը %d նիշով գերազանցվել է</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d հոգի ավելացրել է</item>
+        <item quantity="one">%1$d հոգի ավելացրել է</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">%1$s հոգի դեռ չի կարդացել</item>
+        <item quantity="one">%1$s հոգի դեռ չի կարդացել</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">%1$s հոգի կարդացել է</item>
+        <item quantity="one">%1$s հոգի կարդացել է</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">Ընդարձակել %1$d ավելի հին հաղորդագրություն</item>
+        <item quantity="one">Ընդարձակել %1$d ավելի հին հաղորդագրություն</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">Հետաձգվել է %d օր առաջ</item>
+        <item quantity="one">Հետաձգվել է %d օր առաջ</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">Հետաձգվել է %d ժամ առաջ</item>
+        <item quantity="one">Հետաձգվել է %d ժամ առաջ</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">Հետաձգվել է %d ամիս առաջ</item>
+        <item quantity="one">Հետաձգվել է %d ամիս առաջ</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">Հետաձգվել է %d շաբաթ առաջ</item>
+        <item quantity="one">Հետաձգվել է %d շաբաթ առաջ</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">Հետաձգվել է %d տարի առաջ</item>
+        <item quantity="one">Հետաձգվել է %d տարի առաջ</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d մասնակից</item>
+        <item quantity="one">%d մասնակից</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">Ընդարձակվել է %1$d ավելի հին հաղորդագրություն</item>
+        <item quantity="one">Ընդարձակվել է %1$d ավելի հին հաղորդագրություն</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d օր</item>
+        <item quantity="one">%d օր</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Վերջին %1$d օրվա հաղորդագրությունները կներբեռնվեն միանալուն պես</item>
+        <item quantity="one">Վերջին %1$d օրվա հաղորդագրությունները կներբեռնվեն միանալուն պես</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Վերջին %1$d օրը</item>
+        <item quantity="one">Վերջին %1$d օրը</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Վերջնաժամկետը՝ %1$s – %2$d առաջադրանք</item>
+        <item quantity="one">Վերջնաժամկետը՝ %1$s – %2$d առաջադրանք</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d ենթակետ</item>
+        <item quantity="one">+%1$d ենթակետ</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d օր առաջ</item>
+        <item quantity="one">%1$d օր առաջ</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d շաբաթ առաջ</item>
+        <item quantity="one">%1$d շաբաթ առաջ</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d տարի առաջ</item>
+        <item quantity="one">%1$d տարի առաջ</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">Եթե այս առաջադրանքը նշեք որպես կատարված, %1$d ենթակետ նույնպես կնշվի որպես կատարված։</item>
+        <item quantity="one">Եթե այս առաջադրանքը նշեք որպես կատարված, %1$d ենթակետ նույնպես կնշվի որպես կատարված։</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">Նշե՞լ %1$d առաջադրանք որպես կատարված</item>
+        <item quantity="one">Նշե՞լ %1$d առաջադրանք որպես կատարված</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">%1$d րոպեից</item>
+        <item quantity="one">%1$d րոպեից</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d րոպե</item>
+        <item quantity="one">%1$d րոպե</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Օրեր</item>
+        <item quantity="one">Օր</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Ամեն %1$d շաբաթը մեկ՝ %2$s օրը</item>
+        <item quantity="one">Ամեն %1$d շաբաթը մեկ՝ %2$s օրը</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">Ամեն %1$d տարին մեկ</item>
+        <item quantity="one">Ամեն %1$d տարին մեկ</item>
+    </plurals>
+</resources>

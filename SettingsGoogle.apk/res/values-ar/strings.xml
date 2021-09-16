@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">اللغات والإدخال</string>
     <string name="lift_to_wake_title">الرفع لتنبيه الجهاز</string>
-    <string name="lockdown_settings_summary">‏عرض خيار \"زر التشغيل\" الذي يوقِف ميزات Smart Lock و\"فتح الجهاز بالتعرف على الوجه\" و\"فتح الجهاز ببصمة الإصبع\" والإشعارات على شاشة القفل</string>
-    <string name="lockdown_settings_title">عرض خيار إلغاء التأمين</string>
+    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
     <string name="locked_work_profile_notification_title">عند قفل الملف الشخصي للعمل</string>
     <string name="lockscreen_bypass_summary">بعد فتح الجهاز، انتقِل مباشرةً إلى آخر شاشة مُستخدَمة.</string>
     <string name="lockscreen_bypass_title">تخطي شاشة القفل</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">إشعارات العمل</string>
     <string name="reset_dashboard_summary">يمكن إعادة ضبط الشبكة أو التطبيقات أو الجهاز</string>
     <string name="reset_dashboard_title">خيارات إعادة الضبط</string>
-    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
     <string name="screensaver_settings_title">شاشة التوقف</string>
     <string name="screen_timeout">مهلة غلق الشاشة</string>
     <string name="screen_zoom_title">حجم العرض</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">تعمل هذه الميزة على رفع معدل إعادة التحميل تلقائيًا من 60 إلى 90 هرتز لبعض أنواع المحتوى، ما يؤدي إلى زيادة استخدام البطارية.</string>
     <string name="accessibility_vibration_settings_title">الاهتزاز واللمس</string>
     <string name="emergency_gesture_screen_title">اتصالات الطوارئ</string>
-    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_mode_done">تم</string>
     <string name="vibrate_for_calls_category_title">المكالمات</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">إظهار المحفظة</string>
     <string name="lockscreen_privacy_controls_setting_toggle">إظهار عناصر التحكّم في الجهاز</string>
     <string name="lockscreen_privacy_wallet_summary">السماح بالوصول إلى المحفظة من شاشة القفل والإعدادات السريعة</string>
     <string name="lockscreen_privacy_controls_summary">يمكنك الوصول إلى عناصر التحكّم عندما تكون الشاشة مُقفَلة.</string>
-    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
-    <string name="abc_action_mode_done">تم</string>
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
     <string name="abc_capital_off">إيقاف</string>
@@ -507,9 +505,9 @@
     <string name="alarm_template_far">يوم %1$s</string>
     <string name="alarm_volume_option_title">مستوى صوت المنبّه</string>
     <string name="alarm_volume_title">المنبّه</string>
-    <string name="alarms_and_reminders_footer_title">"عليك السماح لهذا التطبيق بضبط المنبّهات وتحديد مواعيد للإجراءات الحساسة زمنيًا. يسمح هذا الأذن بتشغيل التطبيق في الخلفية، ما قد يستهلك المزيد من شحن البطارية.
+    <string name="alarms_and_reminders_footer_title">"يمكنك السماح لهذا التطبيق بضبط المنبّهات وجدولة الإجراءات لتنفيذها في الوقت المناسب. ويسمح هذا الإذن بتشغيل التطبيق في الخلفية، ما قد يستهلك المزيد من البطارية.
 
-إذا كان هذا الإذن غير مسموح به، لن تعمل الأحداث المستندة إلى وقت والمنبّهات الحالية التي يحدِّد هذا التطبيق موعدها."</string>
+في حال عدم تفعيل هذا الإذن، لن تعمل المنبهات الحالية والأحداث المستندة إلى الوقت المضبوطة في هذا التطبيق."</string>
     <string name="alarms_and_reminders_label">المنبّهات والتذكيرات</string>
     <string name="alarms_and_reminders_switch_title">السماح بضبط المنبّهات والتذكيرات</string>
     <string name="alarms_and_reminders_title">المنبّهات والتذكيرات</string>
@@ -3185,7 +3183,7 @@
     <string name="manager_battery_usage_optimized_title">الاستخدام المحسَّن</string>
     <string name="manager_battery_usage_restricted_summary">يتم حظر استخدام البطارية أثناء العمل في الخلفية. وبالتالي، قد لا يعمل التطبيق على النحو المتوقع. وقد تتأخر الإشعارات.</string>
     <string name="manager_battery_usage_restricted_title">الاستخدام المحدّد بقيود</string>
-    <string name="manager_battery_usage_unrestricted_only">الاستخدام غير المحدود</string>
+    <string name="manager_battery_usage_unrestricted_only">غير محدّد بقيود</string>
     <string name="manager_battery_usage_unrestricted_summary">يتم السماح باستخدام البطارية في الخلفية بدون قيود. قد يؤدي هذا الخيار إلى استخدام المزيد من شحن البطارية.</string>
     <string name="manager_battery_usage_unrestricted_title">الاستخدام غير المحدّد بقيود</string>
     <string name="managing_admin">يديرها %s</string>
@@ -5838,7 +5836,7 @@
     <string name="wifi_ip_settings_invalid_network_prefix_length">اكتب بادئة شبكة يترواح طولها بين 0 و32.</string>
     <string name="wifi_ip_settings_menu_cancel">إلغاء</string>
     <string name="wifi_ip_settings_menu_save">حفظ</string>
-    <string name="wifi_is_off">‏شبكة Wi-Fi غير مفعّلة</string>
+    <string name="wifi_is_off">‏إعدادات Wi-Fi غير مفعّلة</string>
     <string name="wifi_limit_optimizations_summary">‏تقييد طاقة البطارية لاتصال Wi‑Fi</string>
     <string name="wifi_limited_connection">اتصال محدود</string>
     <string name="wifi_menu_advanced">إعدادات متقدمة</string>

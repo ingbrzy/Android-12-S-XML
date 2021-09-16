@@ -17,14 +17,21 @@
         <item>15 perc</item>
         <item>20 perc</item>
         <item>25 perc</item>
-        <item>Soha</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 perccel a lefekvési idő előtt</item>
+        <item>30 perccel a lefekvési idő előtt</item>
+        <item>45 perccel a lefekvési idő előtt</item>
+        <item>1 órával a lefekvési idő előtt</item>
+        <item>Ki</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analóg</item>
         <item>Digitális</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Soha</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 másodperc</item>
         <item>10 másodperc</item>
         <item>15 másodperc</item>
@@ -37,6 +44,35 @@
         <item>50 másodperc</item>
         <item>55 másodperc</item>
         <item>60 másodperc</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Leállítás 10 perc után</item>
+        <item>Leállítás 20 perc után</item>
+        <item>Leállítás 30 perc után</item>
+        <item>Leállítás 40 perc után</item>
+        <item>Leállítás 50 perc után</item>
+        <item>Leállítás 1 óra után</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Leállítás 10 perc után</item>
+        <item>Leállítás 20 perc után</item>
+        <item>Leállítás 30 perc után</item>
+        <item>Leállítás 40 perc után</item>
+        <item>Leállítás 50 perc után</item>
+        <item>Leállítás 1 óra után</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 perc</item>
+        <item>20 perc</item>
+        <item>30 perc</item>
+        <item>40 perc</item>
+        <item>50 perc</item>
+        <item>1 óra</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 perc</item>
@@ -69,18 +105,6 @@
         <item>28 perc</item>
         <item>29 perc</item>
         <item>30 perc</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Ön valósággal a sebesség ördöge.</item>
-        <item>Élvezze a munkája gyümölcsét.</item>
-        <item>Az androidok köztudottan gyorsak, de nem annyira, mint Ön!</item>
-        <item>Tyű.</item>
-        <item>L33t idő.</item>
-        <item>Micsoda bődületes sebesség.</item>
-        <item>Állítsuk meg újra az időt.</item>
-        <item>Csak egy ugrás balra.</item>
-        <item>Van érzéke a sietséghez.</item>
-        <item>Fotonikus sebesség!</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall-szigetek</item>

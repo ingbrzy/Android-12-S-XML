@@ -87,7 +87,7 @@
 Endelea kujifunza kuhusu mada nyingine sasa, au usome maelezo haya katika mipangilio ya TalkBack wakati wowote."</string>
     <string name="all_set_title">Tayari!</string>
     <string name="always_show_this_message_label">Onyesha ujumbe huu kila wakati</string>
-    <string name="application_name">Zana ya Android ya Ufikivu</string>
+    <string name="application_name">Zana za Ufikivu za Android</string>
     <string name="arc_android_window">Dirisha la programu</string>
     <string name="arc_navigation_hint">Bonyeza tafuta ukitumia vishale ili usogeze</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Bonyeza %1$s ili uone orodha ya njia za mkato</string>
@@ -105,7 +105,7 @@ Endelea kujifunza kuhusu mada nyingine sasa, au usome maelezo haya katika mipang
     <string name="audio_focus_state">Kipengele cha upunguzaji wa sauti: %1$s</string>
     <string name="auto_detect">Tambua jinsi unavyoshika kifaa</string>
     <string name="auto_scan_action_description">Anza kukagua na kuchagua</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'Changanua kiotomatiki' au 'Chagua'"</string>
     <string name="available_devices_header">Vifaa vya Bluetooth vinavyopatikana</string>
     <string name="basic_navigation_link_subtext">Kubadili kati ya vipengee, kusogeza, kutumia menyu na zaidi</string>
     <string name="basic_navigation_link_text">Usogezaji wa msingi</string>
@@ -119,7 +119,7 @@ Endelea kujifunza kuhusu mada nyingine sasa, au usome maelezo haya katika mipang
     <string name="bluetooth_no_devices_paired">Hakuna vifaa vya Bluetooth vilivyooanishwa</string>
     <string name="bluetooth_not_enabled_message">Ili uoanishe swichi ya Bluetooth, washa Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Vifaa vya ziada</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Ili uoanishe swichi ya Bluetooth katika Utaratibu Uliofupishwa wa Kuweka Mipangilio, washa Bluetooth na uzipe Zana za Ufikivu za Android ruhusa ya kufikia Vifaa vilivyo karibu na ruhusa za Mahali.</string>
     <string name="bluetooth_phone_content_description">Simu</string>
     <string name="bluetooth_switch_description_text">Oanisha swichi pasiwaya kupitia Bluetooth</string>
     <string name="bluetooth_switch_option_text">Swichi ya Bluetooth</string>
@@ -157,6 +157,9 @@ Endelea kujifunza kuhusu mada nyingine sasa, au usome maelezo haya katika mipang
     <string name="cam_switch_enable_banner_text_label_generic">Ili udhibiti kifaa chako, unapaswa kuwasha kwanza kipengele cha Kufikia Kupitia Swichi.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Fungua Swichi za Kamera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Fungua kipengele cha Kufikia Kupitia Swichi</string>
+    <string name="cam_switches_combined_preferences_title">"Mipangilio ya '%1$s'"</string>
+    <string name="cam_switches_preferences_title">Mipangilio ya Swichi za Kamera</string>
+    <string name="cam_switches_single_preferences_title">"Mipangilio ya '%s'"</string>
     <string name="camera_switches_status_active">Swichi za Kamera Zinatumika</string>
     <string name="camera_switches_status_error">Hitilafu</string>
     <string name="camera_switches_status_no_face">Haikutambua uso wowote</string>
@@ -263,7 +266,7 @@ Jaribu kubandika neno katika kisanduku cha maandishi kilicho hapa chini."</strin
     <string name="default_action_name_pause">Simamisha Swichi ya Kamera</string>
     <string name="default_action_name_point_scan">Kuchanganua kwa sehemu mahususi</string>
     <string name="dialog_confirm_revert_to_default_menu">Thibitisha</string>
-    <string name="dialog_do_not_disturb_permission_message">Ili kurekebisha kiwango cha sauti kutoka menyu ya Kufikia Kupitia Swichi, washa uwezo wa kufikia Usinisumbue wa Zana za Ufikivu za Android</string>
+    <string name="dialog_do_not_disturb_permission_message">Ili urekebishe kiwango cha sauti kutoka kwenye menyu ya Kufikia Kupitia Swichi, zipe Zana za Ufikivu za Android ruhusa ya kufikia kipengele cha Usinisumbue</string>
     <string name="dialog_do_not_disturb_permission_title">Kipengele cha Kufikia Kupitia Swichi kinahitaji ruhusa ili kurekebisha kiwago cha sauti</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Fungua mipangilio</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Ili kufanya kazi, kipengele cha Swichi za Kamera kinahitaji kupakua takriban MB 10 za data ya ziada. Hatua hii inafaa kuchukua takribani dakika moja, kulingana na kasi ya mtandao wako.</string>
@@ -399,6 +402,7 @@ Jaribu kufanya hivi kwa kugusa skrini na kuburuta kuelekea pembe ya chini kushot
     <string name="fallback_menu_item_open_in_browser">Fungua katika kivinjari</string>
     <string name="fallback_menu_item_share_link">Shiriki kiungo</string>
     <string name="fast_radio_button_title">Haraka (kuchelewa kwa sekunde %1$s)</string>
+    <string name="fast_radio_button_title_content_description">Kasi (imechelewa kwa sekunde %1$s)</string>
     <string name="find_finish_button_text">Telezesha kidole kulia ili upate kitufe cha kukamilisha.</string>
     <string name="finish">Kamilisha</string>
     <string name="finish_tutorial_announcement">Inaonyesha kibodi ya nukta nundu. Geuza simu yako ili skrini iangalie kinyume na ulipo. Zungusha simu ikae katika mkao wa mlalo. Kisha uanze kuandika.</string>
@@ -747,6 +751,7 @@ Jina la mwonekano wa ndani: %1$s"</string>
     <string name="list_index_template">%1$d kati ya %2$d</string>
     <string name="lockscreen_label">Skrini iliyofungwa</string>
     <string name="medium_radio_button_title">Wastani (kuchelewa kwa sekunde %1$s)</string>
+    <string name="medium_radio_button_title_content_description">Wastani (imechelewa kwa sekunde %1$s)</string>
     <string name="menu_category_reading_controls">Kusoma</string>
     <string name="menu_category_special_features">Vipengele maalum</string>
     <string name="menus_selector_text">"Njia hizi za mkato zinaweza kukusaidia kubadilisha mipangilio kwa haraka, kama vile kubadilisha usogezaji wako kutoka herufi hadi maneno au kubadilisha kasi ya kutamka ya TalkBack.
@@ -767,6 +772,7 @@ Fungua menyu ya TalkBack sasa kwa kugusa skrini kwa vidole vitatu."</string>
 Fungua menyu ya TalkBack sasa kwa kutelezesha kidole chini kisha kulia."</string>
     <string name="menus_title">Menyu na vidhibiti</string>
     <string name="message_in_reset_keymap_confirm_dialog">Una uhakika kuwa ungependa kuweka upya vitufe vya njia ya mkato vya maana ya kundi hili la vitufe kuwa katika thamani chaguomsingi? Kumbuka kuwa kitendo hiki hakiwezi kutenduliwa.</string>
+    <string name="message_request_phone_permission">TalkBack ingependa kujua simu inapopigwa, ili TalkBack iweze kupunguza matangazo yanayokatiza.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Hatua hii itarejesha ishara zote kwenye vitendo vyake chaguomsingi.
 
 Utapoteza mabadiliko yoyote ambayo umefanya."</string>
@@ -996,6 +1002,7 @@ Jaribu ishara yoyote ambapo hatua ya kutelezesha kidole mara mbili inaunda pembe
     <string name="pref_reduce_window_delay_title">Punguza muda unaochukua kabla ya kutamka yaliyo kwenye kidirisha</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Weka Swichi za Kamera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Ondoa Swichi halisi</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Weka mipangilio ya swichi: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Badilisha Swichi za Kamera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Hakuna Swichi ya Kamera iliyokabidhiwa</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Kabidhi Swichi za Kamera za '%s'"</string>
@@ -1016,9 +1023,9 @@ Jaribu ishara yoyote ambapo hatua ya kutelezesha kidole mara mbili inaunda pembe
     <string name="pref_sa_face_playground_stop_preview_content_description">Simamisha onyesho la kukagua</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Washa</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Unapaswa kuwasha Swichi za Kamera ili utumie sehemu hii ya kujaribu</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Ijaribu: kagua kwanza aina zote za ishara za uso, ikiwa ni pamoja na mdomo ulio wazi, tabasamu na zinginezo</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Ijaribu</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Ijaribu: kagua kwanza ishara %1$s za uso</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Sehemu ya kujaribu imesimaishwa. Tumia kitufe kilicho hapa chini ili uianzishe tena.</string>
     <string name="pref_selector_summary">%1$s ili uchague mipangilio. Kisha %2$s ili ubadilishe mipangilio.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s au %2$s ili uchague mipangilio. Kisha %3$s ili ubadilishe mipangilio.</string>
@@ -1067,6 +1074,7 @@ Kama kifaa chako hakitaweza kuunganishwa, nenda kwenye mipangilio ya Bluetooth n
     <string name="reduce_speed_button">Punguza Kasi</string>
     <string name="remaining_calibration_finish_announcement">Nafasi zote za nukta zimesasishwa</string>
     <string name="reminder_announcement">Telezesha vidole vitatu juu ili upate chaguo zaidi</string>
+    <string name="remove_assigned_switch">Ondoa swichi uliyokabidhi kwenye %s</string>
     <string name="report_gesture_description">Hizi ni ishara zilizotekelezwa hivi majuzi, tafadhali ripoti ishara isiyo sahihi na ishara inayotarajiwa.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Badilisha</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Weka upya</string>
@@ -1147,6 +1155,7 @@ Jaribu kufanya hivi kwa kutelezesha vidole viwili juu hadi utakapofikia vipengee
     <string name="search_mode_hint_no_selection">Hakuna kipengee kilichochaguliwa.</string>
     <string name="search_mode_hint_query">Hoja ya sasa ya utafutaji: %1$s.</string>
     <string name="search_mode_hint_selection">Uteuzi wa sasa: %1$s.</string>
+    <string name="select_for_point_scan">"'Chagua'"</string>
     <string name="select_setting_hint">%1$s ili uchague mipangilio tofauti</string>
     <string name="selecting_text_text">"Katika kisanduku cha maandishi, sogeza kiteuzi mwanzoni mwa maandishi unayotaka kuchagua.
 
@@ -1207,6 +1216,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="shortcut_media_control">Cheza au usimamishe maudhui</string>
     <string name="shortcut_next">Kipengee kinachofuata</string>
     <string name="shortcut_next_granularity">Mipangilio ya maelekezo inayofuata</string>
+    <string name="shortcut_next_window">Dirisha linalofuata</string>
     <string name="shortcut_not_customizable">%1$s, haiwezi kuwekewa mapendeleo</string>
     <string name="shortcut_notifications">Arifa</string>
     <string name="shortcut_overview">Muhtasari</string>
@@ -1219,6 +1229,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="shortcut_practice_gestures">Jaribu kutumia ishara</string>
     <string name="shortcut_previous">Kipengee kilichotangulia</string>
     <string name="shortcut_previous_granularity">Mipangilio ya maelekezo iliyotangulia</string>
+    <string name="shortcut_previous_window">Dirisha lililotangulia</string>
     <string name="shortcut_print_node_tree">Chapisha utambuzi wa nguzo</string>
     <string name="shortcut_print_performance_stats">Chapisha takwimu za utendaji</string>
     <string name="shortcut_quick_settings">Mipangilio ya Haraka</string>
@@ -1258,6 +1269,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
 • Tikisa ili uanze kusoma mfululizo"</string>
     <string name="six_hold_announcement">Unaweza pia kuandika kwa kuilaza simu yako mezani. Ijaribu sasa. Iwapo huna meza karibu nawe, ruka hatua hii kwa kutelezesha kidole chini.</string>
     <string name="slow_radio_button_title">Polepole (kuchelewa kwa sekunde %1$s)</string>
+    <string name="slow_radio_button_title_content_description">Polepole (imechelewa kwa sekunde %1$s)</string>
     <string name="sound_feedback_state">Kipengele cha majibu yanayotamkwa: %1$s</string>
     <string name="sound_feedback_summary">Cheza sauti ili kuonyesha kwamba kitu fulani kimebadilika (k.m., maudhui yaliyo kwenye skrini yanapobadilika)</string>
     <string name="speak_container_element_position_summary_off">Maelezo ya gridi na orodha hayatatamkwa kwa sauti</string>
@@ -1331,17 +1343,17 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="summary_pref_face_switches_debounce_time">Ishara nyingi za Swichi ya Kamera katika muda huu zitachukuliwa kama ishara mmoja.</string>
     <string name="summary_pref_face_switches_enabled">Swichi za Kamera hutumia kamera ya mbele kuangalia iwapo unaangalia skrini na kutambua ishara za uso. Picha hazihifadhiwi wala kutumwa kwa Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Cheza sauti kitu kinapobadilika kwenye skrini kutokana na ishara</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Onyesha kiashirio cha muda ambao umeshikilia ishara</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Usizime skrini wakati umewasha Swichi za Kamera. Swichi za Kamera haziwezi kufungua skrini ikizima.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Haikutambua uso wowote</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Tekeleza mojawapo ya ishara za uso. Ikiwa imesajiliwa, jina la ishara litaonekana. Ili uondoke, shikilia ishara yoyote kwa sekunde %1$d.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Usitikise kichwa chako na uangalie kamera. Kisha %s.</string>
     <string name="summary_pref_play_store">Toleo la Sasa la TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Tumia mistari inayosonga ili uchague eneo mahususi la mlalo na wima. Bonyeza swichi ya %1$s ili uanzishe Uchanganuzi wa sehemu mahususi. %2$s</string>
     <string name="summary_pref_reverse_dots">Badilisha nafasi za nukta nundu ili nukta nundu ya kwanza na ya nne zibadilishane nafasi, kwa mfano</string>
     <string name="summary_pref_revert_to_default_menu">Badilisha menyu ya Kufikia kupitia Swichi kwenye orodha chaguomsingi ya vipengee vya menyu.</string>
-    <string name="summary_pref_single_tap">(Jaribio) Gusa mara moja kwenye kipengee kinacholengwa ili ukiwashe</string>
+    <string name="summary_pref_single_tap">Gusa mara moja kipengee kinacholengwa ili ukiwashe</string>
     <string name="summary_pref_tree_debug_tv">Tumia kitufe cha kutafuta kwa kutamka ili uchapishe utambuzi wa nguzo badala ya kutafuta</string>
     <string name="summary_pref_use_audio_focus">Punguza sauti nyingine unapozungumza</string>
     <string name="summary_read_from_current">Soma vipengee vyote kwenye skrini ukianzia kwenye kipengee kinachofuata</string>
@@ -1438,10 +1450,10 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="switched_to_contracted_announcement">Inatumia nukta nundu ya gredi ya pili</string>
     <string name="switched_to_ueb_uncontracted_announcement">Inatumia UEB ya gredi ya kwanza</string>
     <string name="switched_to_uncontracted_announcement">Inatumia nukta nundu ya gredi ya kwanza</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Inakaribia kuwa sawa na</string>
     <string name="symbol_ampersand">"Ishara ya 'na'"</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">"Alama ya 'chini ya'"</string>
+    <string name="symbol_angle_bracket_right">"Alama ya 'zaidi ya'"</string>
     <string name="symbol_apostrophe">Alama ya nukuu</string>
     <string name="symbol_approximately_equals">Takriban sawa</string>
     <string name="symbol_asterisk">Kinyota</string>
@@ -1461,7 +1473,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_bullseye">Alama ya kulenga katikati</string>
     <string name="symbol_caret">Kareti</string>
     <string name="symbol_celsius_degree">Selsiasi digrii</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Alama ya senti</string>
     <string name="symbol_circle_left_half_black">Mduara wenye nusu nyeusi ya kushoto</string>
     <string name="symbol_circle_right_half_black">Mduara wenye nusu nyeusi ya kulia</string>
     <string name="symbol_colon">Nukta mbili</string>
@@ -1470,7 +1482,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_curly_bracket_left">Mabano ya kushoto yaliyopindwa</string>
     <string name="symbol_curly_bracket_right">Mabano ya kulia yaliyopindwa</string>
     <string name="symbol_currency_sign">Ishara ya sarafu</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Alama ya digrii</string>
     <string name="symbol_division">Alama ya kugawa</string>
     <string name="symbol_dollar_sign">Ishara ya dola</string>
     <string name="symbol_downwards_arrow">Kishale kinachoelekeza Chini</string>
@@ -1522,7 +1534,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_middle_dot">Nukta ya kati</string>
     <string name="symbol_multiplication">Alama ya kuzidisha</string>
     <string name="symbol_new_line">Mstari mpya</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Si sawa na</string>
     <string name="symbol_not_sign">Ishara ya siyo</string>
     <string name="symbol_paragraph_mark">Alama ya aya</string>
     <string name="symbol_parenthesis_left">Bano la kushoto</string>
@@ -1533,7 +1545,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_plus_minus_sign">Ishara ya kuongeza na kutoa</string>
     <string name="symbol_postal_mark">Alama ya posta</string>
     <string name="symbol_pound">Ratili</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Alama ya sarafu ya pauni</string>
     <string name="symbol_quarter_note">Alama ya Muziki ya Robo</string>
     <string name="symbol_question_mark">Alama ya kuuliza</string>
     <string name="symbol_quotation_mark">Nukuu</string>
@@ -1559,7 +1571,7 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_trademark">Chapa ya Biashara</string>
     <string name="symbol_underscore">Mstari chini</string>
     <string name="symbol_upwards_arrow">Kishale cha upande wa juu</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Mstari wima</string>
     <string name="symbol_white_circle">Mduara mweupe</string>
     <string name="symbol_white_club_suit">Karata nyeupe za maua</string>
     <string name="symbol_white_diamond">Almasi nyeupe</string>
@@ -1573,8 +1585,8 @@ Hatua ya pili: Telezesha kidole chini ili uhamishie ulengaji wa kusogeza mbele a
     <string name="symbol_white_square">Mraba mweupe</string>
     <string name="symbol_white_star">Nyota nyeupe</string>
     <string name="symbol_white_up_pointing_triangle">Pembetatu nyeupe inayoelekeza juu</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Alama ya sarafu ya Won</string>
+    <string name="symbol_won_sign">Alama ya sarafu ya Won</string>
     <string name="symbol_yen">Yeni</string>
     <string name="system_actions">Vitendo vya mfumo</string>
     <string name="tabletop">Hali ya juu ya meza</string>
@@ -1742,7 +1754,7 @@ Ili uzime TalkBack:
     <string name="title_pref_category_assign_switches">Chagua swichi</string>
     <string name="title_pref_category_audio">Sauti</string>
     <string name="title_pref_category_auto_scan">Kukagua kiotomatiki</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Kuchanganua kitomatiki (Uchanganuzi wa sehemu mahususi)</string>
     <string name="title_pref_category_border_color">Rangi</string>
     <string name="title_pref_category_built_in_gestures">Ishara iliyoundiwa ndani</string>
     <string name="title_pref_category_context_menu">Badili menyu ya Talkback upendavyo</string>
@@ -1826,7 +1838,7 @@ Ili uzime TalkBack:
     <string name="title_pref_red">Nyekundu</string>
     <string name="title_pref_resume_talkback">Rudi kufanya kazi</string>
     <string name="title_pref_reverse_auto_scan_disabled">Kipengele cha kukagua kiotomatiki kuanzia kipengee cha mwisho (kimezimwa)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Kuchanganua kiotomatiki kuanzia kipengee cha mwisho (Uchanganuzi wa sehemu mahususi)</string>
     <string name="title_pref_reverse_dots">Geuza nukta nundu</string>
     <string name="title_pref_revert_to_default_menu">Rejesha kwenye Menyu Chaguomsingi</string>
     <string name="title_pref_scan_non_actionable_items">Tamka maandishi ya ufafanuzi</string>
@@ -1889,7 +1901,7 @@ Ili uzime TalkBack:
     <string name="title_pref_show_context_menu_as_list">Onyesha menyu kama orodha</string>
     <string name="title_pref_show_privacy_policy">Sera ya faragha</string>
     <string name="title_pref_show_tos">Sheria na masharti</string>
-    <string name="title_pref_single_tap">Kuwasha kwa kugusa mara moja</string>
+    <string name="title_pref_single_tap">Gusa mara moja ili uanze kutumia</string>
     <string name="title_pref_sound_and_vibration">Sauti na mtetemo</string>
     <string name="title_pref_soundback">Majibu yanayotamkwa</string>
     <string name="title_pref_soundback_volume">Sauti ya majibu yanayotamkwa</string>
@@ -1934,6 +1946,7 @@ Ili uzime TalkBack:
     <string name="title_previous_screen">Skrini iliyotangulia</string>
     <string name="title_read_from_top">Soma kutoka juu</string>
     <string name="title_repeat_last_spoken_phrase">Rudia kauli ya mwisho iliyotamkwa</string>
+    <string name="title_request_phone_permission">TalkBack Inaomba Ruhusa</string>
     <string name="title_screen_summary">Muhtasari wa Skrini</string>
     <string name="title_seek_bar_controls">Kitelezi</string>
     <string name="title_seek_bar_edit">Badilisha kiwango cha kitelezi</string>

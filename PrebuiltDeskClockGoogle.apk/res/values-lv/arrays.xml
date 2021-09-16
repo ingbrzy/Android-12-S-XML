@@ -17,14 +17,21 @@
         <item>15 minūtes</item>
         <item>20 minūtes</item>
         <item>25 minūtes</item>
-        <item>Nekad</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minūtes pirms naktsmiera</item>
+        <item>30 minūtes pirms naktsmiera</item>
+        <item>45 minūtes pirms naktsmiera</item>
+        <item>1 stundu pirms naktsmiera</item>
+        <item>Izslēgts</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogais</item>
         <item>Digitālais</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nekad</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekundes</item>
         <item>10 sekundes</item>
         <item>15 sekundes</item>
@@ -37,6 +44,35 @@
         <item>50 sekundes</item>
         <item>55 sekundes</item>
         <item>60 sekundes</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Apturēt pēc 10 minūtēm</item>
+        <item>Apturēt pēc 20 minūtēm</item>
+        <item>Apturēt pēc 30 minūtēm</item>
+        <item>Apturēt pēc 40 minūtēm</item>
+        <item>Apturēt pēc 50 minūtēm</item>
+        <item>Apturēt pēc 1 stundas</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Apturēt pēc 10 min</item>
+        <item>Apturēt pēc 20 min</item>
+        <item>Apturēt pēc 30 min</item>
+        <item>Apturēt pēc 40 min</item>
+        <item>Apturēt pēc 50 min</item>
+        <item>Apturēt pēc 1 stundas</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minūtes</item>
+        <item>20 minūtes</item>
+        <item>30 minūtes</item>
+        <item>40 minūtes</item>
+        <item>50 minūtes</item>
+        <item>1 stunda</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minūte</item>
@@ -69,18 +105,6 @@
         <item>28 minūtes</item>
         <item>29 minūtes</item>
         <item>30 minūtes</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Jūs gan esat ātrs!</item>
-        <item>Baudiet sava darba augļus!</item>
-        <item>Android ierīces ir ātras, tomēr ne tik ātras kā jūs!</item>
-        <item>Uf.</item>
-        <item>L33t reizes.</item>
-        <item>Apbrīnojams ātrums.</item>
-        <item>Ceļosim laikā vēlreiz.</item>
-        <item>Paleciet pa kreisi.</item>
-        <item>Jums ir dažāda izpratne par steigu.</item>
-        <item>Fotonu ātrums.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Māršala Salas</item>

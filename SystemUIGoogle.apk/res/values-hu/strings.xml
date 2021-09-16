@@ -595,6 +595,8 @@ Kiválasztás"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Az eszközt újra kell indítani, hogy a módosítás megtörténjen. Indítsa újra most, vagy vesse el a módosítást.</string>
     <string name="camera_hint">A fényképezőhöz csúsztasson az ikonról</string>
     <string name="camera_label">kamera megnyitása</string>
+    <string name="camera_recording_announcement">A kamera felvételt készít…</string>
+    <string name="camera_stopped_recording_announcement">A kamera befejezte a felvételkészítést</string>
     <string name="cancel">Mégse</string>
     <string name="carrier_network_change_mode">Szolgáltatói hálózat váltása</string>
     <string name="category_personal">Személyes</string>
@@ -734,6 +736,10 @@ Ha a folytatást választja, szolgáltatója adathasználati díjat számíthat 
     <string name="debug_monitoring_category">Figyelés</string>
     <string name="debug_networking_category">Hálózatok</string>
     <string name="debug_view_attributes">Nézetattribútum vizsgálatának engedélyezése</string>
+    <string name="defender_notify_des">Az akkumulátor élettartamának megőrzése érdekében telefonja korlátozza a töltést</string>
+    <string name="defender_notify_learn_more">További információ</string>
+    <string name="defender_notify_resume_charge">Töltés folytatása</string>
+    <string name="defender_notify_title">Töltés ideiglenesen korlátozva</string>
     <string name="delete_blob_confirmation_text">Biztosan törli ezt a megosztott adatot?</string>
     <string name="delete_blob_text">Megosztott adat törlése</string>
     <string name="demo_mode">A rendszer kezelőfelületének demómódja</string>
@@ -1070,6 +1076,7 @@ Másik SIM-kártya beszerzése érdekében, kérjük, forduljon vezeték nélkü
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM-kártya zárolásának feloldása…</string>
     <string name="keyguard_try_fingerprint">Ujjlenyomat használata a megnyitáshoz</string>
     <string name="keyguard_unlock">Csúsztasson felfelé a megnyitáshoz</string>
+    <string name="keyguard_unlock_press">A megnyitáshoz nyomja meg</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">ütemezés, ébresztés, emlékeztető, óra</string>
     <string name="kg_enter_confirm_pin_hint">Erősítse meg a kívánt PIN-kódot</string>
@@ -1233,6 +1240,10 @@ Próbálja újra %2$d másodperc múlva."</string>
     <string name="menu_ime">Billentyűzetváltó</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">A mikrofon aktív</string>
+    <string name="mic_and_camera_recording_announcement">A kamera és a mikrofon felvételt készít…</string>
+    <string name="mic_camera_stopped_recording_announcement">A kamera és a mikrofon befejezte a felvételkészítést</string>
+    <string name="mic_recording_announcement">A mikrofon felvételt készít…</string>
+    <string name="mic_stopped_recording_announcement">A mikrofon befejezte a felvételkészítést</string>
     <string name="missed_call">Nem fogadott hívás</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobiladatok</string>
@@ -1706,8 +1717,6 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="quick_settings_work_mode_label">Munkahelyi alkalmazások</string>
     <string name="quick_step_accessibility_toggle_overview">Áttekintés be- és kikapcsolása</string>
     <string name="recent_conversations">Legutóbbi beszélgetések</string>
-    <string name="recents_quick_scrub_onboarding">Húzza jobbra az ujját az alkalmazások közötti gyors váltáshoz</string>
-    <string name="recents_swipe_up_onboarding">Váltás az alkalmazások között felfelé csúsztatással</string>
     <string name="remaining_length_format">%1$s van hátra</string>
     <string name="remote_input_image_insertion_text">képet küldött</string>
     <string name="remove_from_settings">Eltávolítás a Beállítások közül</string>
@@ -2117,6 +2126,7 @@ Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó 
     <string name="wallet_secondary_label_no_card">Kártya hozzáadása</string>
     <string name="wallet_secondary_label_updating">Frissítés</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">A hozzáférési pont átmenetileg megtelt</string>
     <string name="wifi_cant_connect">Nem lehet csatlakozni</string>
     <string name="wifi_cant_connect_to_ap">Nem lehet csatlakozni a(z) „%1$s” hálózathoz</string>

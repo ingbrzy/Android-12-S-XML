@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">(రద్దయింది) %1$d యాప్‌లు అన్ఇన్‌స్టాల్ అయ్యాయి</item>
+        <item quantity="one">(రద్దయింది) %1$d యాప్ అన్‌ఇన్‌స్టాల్ అయింది</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">%2$d యాప్‌లలో %1$d అన్‌ఇన్‌స్టాల్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d యాప్ అన్‌ఇన్‌స్టాల్ చేయబడింది</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">%1$d ఫైల్‌లు కాపీ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ కాపీ చేయబడింది</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లు కాపీ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ కాపీ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు కాపీ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ కాపీ చేయబడింది</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లు కాపీ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ కాపీ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">%1$d ఫైల్‌లు తొలగించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ తొలగించబడింది</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">%2$d ఫైల్‌లలో %1$d తొలగించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ తొలగించబడింది</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లు తొలగించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ తొలగించబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు తొలగించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ తొలగించబడింది</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లు తొలగించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ తొలగించబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">%1$d ఫైల్‌లు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ తరలించబడింది</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ తరలించబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ తరలించబడింది</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ తరలించబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">%2$dలో %1$dవ ఫైల్ రీస్టోర్ చేయబడింది</item>
+        <item quantity="one">%1$d ఫైల్ రీస్టోర్ చేయబడింది</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్స్ రీస్టోర్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ రీస్టోర్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు రీస్టోర్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ రీస్టోర్ చేయబడింది</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్స్ రీస్టోర్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ రీస్టోర్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైళ్లు ట్రాష్‌కు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ ట్రాష్‌కు తరలించబడింది</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్స్ ట్రాష్‌కు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ ట్రాష్‌కు తరలించబడ్డాయి</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు ట్రాష్‌కు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ ట్రాష్‌కు తరలించబడింది</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్స్ ట్రాష్‌కు తరలించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ ట్రాష్‌కు తరలించబడ్డాయి</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">ఇది ఫోల్డర్‌లోని %1$d ఫైల్‌లను కూడా శాశ్వతంగా తొలగిస్తుంది</item>
+        <item quantity="one">ఇది ఫోల్డర్‌లోని %1$d ఫైల్‌ను కూడా శాశ్వతంగా తొలగిస్తుంది</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">ఈ ఫోల్డర్ &lt;b>శాశ్వతంగా తొలగించబడుతుంది&lt;/b>, ఈ చర్యను &lt;b>రద్దు చేయడం&lt;/b> సాధ్యపడదు. ఈ ఫోల్డర్‌లో ఉన్న %1$d ఫైల్‌లు కూడా శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="one">ఈ ఫోల్డర్ &lt;b>శాశ్వతంగా తొలగించబడుతుంది&lt;/b>, ఈ చర్యను &lt;b>రద్దు చేయడం&lt;/b> సాధ్యపడదు. ఈ ఫోల్డర్‌లో ఉన్న %1$d ఫైల్ కూడా శాశ్వతంగా తొలగించబడుతుంది.</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">%1$d ఫైల్స్‌ను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="one">%1$d ఫైల్‌ను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, అలాగే %2$d ఫైల్స్‌ను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="one">1 ఫోల్డర్, అలాగే %2$d ఫైల్స్‌ను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, అలాగే 1 ఫైల్‌ను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="one">1 ఫోల్డర్, అలాగే 1 ఫైల్‌ను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">%1$d ఫోల్డర్‌లను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="one">%1$d ఫోల్డర్‌ను శాశ్వతంగా తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">%1$d ఒరిజినల్ ఫైల్‌లను తొలగించాలా?</item>
+        <item quantity="one">%1$d ఒరిజినల్ ఫైల్‌ను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">%1$d ఒరిజినల్‌లు, అలాగే %2$d డూప్లికేట్‌లను తొలగించాలా?</item>
+        <item quantity="one">%1$d ఒరిజినల్, అలాగే %2$d డూప్లికేట్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">%1$d ఒరిజినల్‌లు, అలాగే 1 డూప్లికేట్ ఫైల్‌ను తొలగించాలా?</item>
+        <item quantity="one">%1$d ఒరిజినల్, అలాగే 1 డూప్లికేట్ ఫైల్‌ను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">మీరు %1$d అంశాలను తీసివేయబోతున్నారు</item>
+        <item quantity="one">మీరు %1$d అంశాన్ని తీసివేయబోతున్నారు</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">%1$d ఫైల్‌లను తరలించాలా?</item>
+        <item quantity="one">%1$d ఫైల్‌ను తరలించాలా?</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">ఫైల్‌లను కాపీ చేయడం సాధ్యం కాలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను కాపీ చేయడం సాధ్యం కాలేదు. %1$s</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">%1$d ఫైల్‌లను కాపీ చేస్తోంది</item>
+        <item quantity="one">%1$d ఫైల్‌ను కాపీ చేస్తోంది</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లను కాపీ చేస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌ను కాపీ చేస్తోంది</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లను కాపీ చేస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌ను కాపీ చేస్తోంది</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లను కాపీ చేస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్‌ను కాపీ చేస్తోంది</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">%1$d నకిలీ ఫైల్‌లను తొలగించండి</item>
+        <item quantity="one">%1$d నకిలీ ఫైల్‌ను తొలగించండి</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">ఫైల్‌లను తొలగించడం సాధ్యం కాలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను తొలగించడం సాధ్యం కాలేదు. %1$s</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">%1$d memeలను తొలగించండి</item>
+        <item quantity="one">%1$d memeను తొలగించండి</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">%1$d ఫైల్‌లను తొలగిస్తోంది</item>
+        <item quantity="one">%1$d ఫైల్‌ను తొలగిస్తోంది</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లను తొలగిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌ను తొలగిస్తోంది</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లను తొలగిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌ను తొలగిస్తోంది</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లను తొలగిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్‌ను తొలగిస్తోంది</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">ఈ ఐటెమ్‌లు ఇప్పటికే %sలో ఉన్నాయి</item>
+        <item quantity="one">ఈ ఐటెమ్ ఇప్పటికే %sలో ఉంది</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">ఫైల్‌లను సంగ్రహించడం సాధ్యం కాలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను సంగ్రహించడం సాధ్యం కాలేదు. %1$s</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">%1$d ఫైల్‌లు సంగ్రహించబడ్డాయి</item>
+        <item quantity="one">%1$d ఫైల్ సంగ్రహించబడింది</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">%1$s %2$d ఫైల్‌లను %3$sకి పంపడంలో విఫలమయ్యారు</item>
+        <item quantity="one">%1$s %2$d ఫైల్‌ని %3$sకి పంపడంలో విఫలమయ్యారు</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">%2$sలో %1$d ఫైల్‌లు ఇప్పటికే ఉన్నాయి. వాటిని కాపీ చేయడం సాధ్యం కాదు</item>
+        <item quantity="one">%2$sలో %1$d ఫైల్ ఇప్పటికే ఉంది. దాన్ని కాపీ చేయడం సాధ్యం కాదు</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">%2$sలో %1$d ఫైల్‌లు ఇప్పటికే ఉన్నాయి. వాటిని తరలించడం సాధ్యం కాదు</item>
+        <item quantity="one">%2$sలో %1$d ఫైల్ ఇప్పటికే ఉంది. దాన్ని తరలించడం సాధ్యం కాదు</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను తొలగించడం సాధ్యపడలేదు. SD కార్డ్ అనుమతులు అవసరం.</item>
+        <item quantity="one">%1$d ఫైల్‌ను తొలగించడం సాధ్యపడలేదు. SD కార్డ్ అనుమతులు అవసరం.</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">%1$d ఎంచుకోబడ్డాయి</item>
+        <item quantity="one">%1$d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">%1$d ఫైల్‌లు సరిగ్గా కాపీ చేయబడలేదు</item>
+        <item quantity="one">%1$d ఫైల్ సరిగ్గా కాపీ చేయబడలేదు</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s ఫైల్‌లు</item>
+        <item quantity="one">%1$s ఫైల్</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">%1$d ఫైల్‌లు కాపీ చేయబడతాయి</item>
+        <item quantity="one">%1$d ఫైల్‌ కాపీ చేయబడుతుంది</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">%1$d ఫైల్‌లు తరలించబడతాయి</item>
+        <item quantity="one">%1$d ఫైల్ తరలించబడుతుంది</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s, %2$d ఫైల్‌లు</item>
+        <item quantity="one">%1$s, %2$d ఫైల్</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">మొత్తం %1$d ఫైల్‌లు</item>
+        <item quantity="one">మొత్తం %1$d ఫైలు</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s ఫోల్డర్‌లు</item>
+        <item quantity="one">%1$s ఫోల్డర్</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">మీ పరికరంలో Google Play రక్షణ ద్వారా %1$s హానికరమైన యాప్‌లు గుర్తించబడ్డాయి</item>
+        <item quantity="one">మీ పరికరంలో Google Play రక్షణ ద్వారా హానికరమైన యాప్ గుర్తించబడింది</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d గంటలు</item>
+        <item quantity="one">%1$d గంట</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను కాపీ చేయడం సాధ్యపడలేదు</item>
+        <item quantity="one">%1$d ఫైల్‌ను కాపీ చేయడం సాధ్యపడలేదు</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను తొలగించడం సాధ్యపడలేదు</item>
+        <item quantity="one">%1$d ఫైల్‌ను తొలగించడం సాధ్యపడలేదు</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను తరలించడం సాధ్యపడలేదు</item>
+        <item quantity="one">%1$d ఫైల్‌ను తరలించడం సాధ్యపడలేదు</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను రీస్టోర్ చేయడం సాధ్యపడలేదు</item>
+        <item quantity="one">%1$d ఫైల్ రీస్టోర్ చేయడం సాధ్యపడలేదు</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">%2$dలో %1$d ఫైల్‌లను ట్రాష్ చేయడం సాధ్యపడలేదు</item>
+        <item quantity="one">%1$d ఫైల్ ట్రాష్ చేయడం సాధ్యపడలేదు</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">చివరిగా తెరచినప్పటి నుండి, %d చెల్లని ప్రయత్నాలు.</item>
+        <item quantity="one">చివరిగా తెరచినప్పటి నుండి, %d చెల్లని ప్రయత్నం.</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">%1$d మీడియా ఫైళ్లను తొలగించండి</item>
+        <item quantity="one">%1$d మీడియా ఫైల్‌ను తొలగించండి</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d నిమిషాలు</item>
+        <item quantity="one">%1$d నిమిషం</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">ఫైల్‌లను తరలించడం సాధ్యం కాలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను తరలించడం సాధ్యం కాలేదు. %1$s</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">%1$d ఫైల్‌లను తరలిస్తోంది</item>
+        <item quantity="one">%1$d ఫైల్‌ను తరలిస్తోంది</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌లను తరలిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్‌ను తరలిస్తోంది</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లను తరలిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్‌ను తరలిస్తోంది</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్‌లను తరలిస్తోంది</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్‌ను తరలిస్తోంది</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">%1$d రోజుల్లో శాశ్వతంగా తొలగించబడుతుంది</item>
+        <item quantity="one">%1$d రోజులో శాశ్వతంగా తొలగించబడుతుంది</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">"'ఇష్టమైనవి' నుండి తీసివేయబడ్డాయి. మీరు వాటిని ఇప్పటికీ మీ ఫైళ్లలో కనుగొనవచ్చు."</item>
+        <item quantity="one">"'ఇష్టమైనవి' నుండి తీసివేయబడింది. మీరు దీనిని ఇప్పటికీ మీ ఫైళ్లలో కనుగొనవచ్చు."</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">ఫైల్స్‌ను రీస్టోర్ చేయడం సాధ్యపడలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను రీస్టోర్ చేయడం సాధ్యపడలేదు. %1$s</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">%1$d ఫైళ్లను రీస్టోర్ చేయండి</item>
+        <item quantity="one">%1$d ఫైల్‌ను రీస్టోర్ చేయండి</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">%1$d ఫైల్స్ రీస్టోర్ చేయబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫైల్ రీస్టోర్ చేయబడుతోంది</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్స్ రీస్టోర్ చేయబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ రీస్టోర్ చేయబడుతున్నాయి</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు రీస్టోర్ చేయబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ రీస్టోర్ చేయబడుతోంది</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్స్ రీస్టోర్ చేయబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ రీస్టోర్ చేయబడుతున్నాయి</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d సెకన్లు</item>
+        <item quantity="one">%1$d సెకను</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">మీరు గరిష్ఠంగా %d ఫైల్‌లను మాత్రమే ఎంచుకోగలరు.</item>
+        <item quantity="one">మీరు గరిష్ఠంగా %d ఫైల్‌ను మాత్రమే ఎంచుకోగలరు.</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%1$s %2$d ఫైల్‌లను %3$sకి పంపుతున్నారు</item>
+        <item quantity="one">%1$s %2$d ఫైల్‌ని %3$sకి పంపుతున్నారు</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%1$s %2$d ఫైల్‌లను %3$sకి పంపారు</item>
+        <item quantity="one">%1$s %2$d ఫైల్‌ని %3$sకి పంపారు</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">“%1$d” ఫైల్‌లను కాపీ చేయడాన్ని ఆపివేయాలా?</item>
+        <item quantity="one">“%2$s”ని కాపీ చేయడాన్ని ఆపివేయాలా?</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">%1$d ఫైల్‌లను తొలగించడాన్ని ఆపివేయాలా?</item>
+        <item quantity="one">“%2$s”ని తొలగించడాన్ని ఆపివేయాలా?</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">%1$d ఫైల్‌లను తరలించడాన్ని ఆపివేయాలా?</item>
+        <item quantity="one">“%2$s“ని తరలించడాన్ని ఆపివేయాలా?</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">%1$d ఫైల్స్‌ను రీస్టోర్ చేయడాన్ని ఆపివేయాలా?</item>
+        <item quantity="one">“%2$s”ను రీస్టోర్ చేయడాన్ని ఆపివేయాలా?</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">%1$d ఫైళ్లను ట్రాష్‌కు తరలించు</item>
+        <item quantity="one">%1$d ఫైల్‌ను ట్రాష్‌కు తరలించు</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">%1$d రోజులు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">%1$d రోజు మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">ఫైళ్లను ట్రాష్‌కు తరలించడం సాధ్యపడలేదు. %1$s</item>
+        <item quantity="one">ఫైల్‌ను ట్రాష్‌కు తరలించడం సాధ్యపడలేదు. %1$s</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">%1$d ఫైళ్లు ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫైల్ ట్రాష్‌కు తరలించబడుతోంది</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు, %2$d ఫైల్స్ ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్‌లు, %2$d ఫైల్ ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">%1$d ఫోల్డర్‌లు ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్ ట్రాష్‌కు తరలించబడుతోంది</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">%1$d ఫోల్డర్, %2$d ఫైల్స్ ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+        <item quantity="one">%1$d ఫోల్డర్, %2$d ఫైల్ ట్రాష్‌కు తరలించబడుతున్నాయి</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">మీరు ఇటీవల ఉపయోగించని %1$d యాప్‌లను అన్‌ఇన్‌స్టాల్ చేయండి</item>
+        <item quantity="one">మీరు ఇటీవల ఉపయోగించని %1$d యాప్‌ను అన్‌ఇన్‌స్టాల్ చేయండి</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">%1$d ఫైల్‌లు ఎక్స్‌ట్రాక్ట్ అయ్యాయి.</item>
+        <item quantity="one">%1$d ఫైల్ ఎక్స్‌ట్రాక్ట్ అయ్యింది.</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">మరో +%1$d ఫైల్‌లు</item>
+        <item quantity="one">మరో +%1$d ఫైల్</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">కేటగిరీ ఆధారంగా %1$d ఫైల్‌లు సంగ్రహించబడి, నిర్వహించబడతాయి.</item>
+        <item quantity="one">కేటగిరీ ఆధారంగా %1$d ఫైల్ సంగ్రహించబడి, నిర్వహించబడుతుంది.</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">అనేక చెల్లని ప్రయత్నాలు. మళ్లీ ట్రై చేయడానికి ముందు, దయచేసి %d సెకన్లు వేచి ఉండండి.</item>
+        <item quantity="one">అనేక చెల్లని ప్రయత్నాలు. మళ్లీ ట్రై చేయడానికి ముందు, దయచేసి %d సెకను వేచి ఉండండి.</item>
+    </plurals>
+</resources>

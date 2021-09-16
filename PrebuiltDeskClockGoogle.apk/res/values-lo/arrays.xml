@@ -17,14 +17,21 @@
         <item>15 ນາທີ</item>
         <item>20 ນາທີ</item>
         <item>25 ນາທີ</item>
-        <item>ບໍ່ໃຊ້</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 ນາທີກ່ອນເວລານອນ</item>
+        <item>30 ນາທີກ່ອນເວລານອນ</item>
+        <item>45 ນາທີກ່ອນເວລານອນ</item>
+        <item>1 ຊົ່ວໂມງກ່ອນເວລານອນ</item>
+        <item>ປິດ</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>ໂມງເຂັມ</item>
         <item>ດິຈິຕອນ</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ບໍ່ໃຊ້</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 ວິນາທີ</item>
         <item>10 ວິນາທີ</item>
         <item>15 ວິນາທີ</item>
@@ -37,6 +44,35 @@
         <item>50 ວິນາທີ</item>
         <item>55 ວິນາທີ</item>
         <item>60 ວິນາທີ</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>ຢຸດຫຼັງຈາກ 10 ນາທີ</item>
+        <item>ຢຸດຫຼັງຈາກ 20 ນາທີ</item>
+        <item>ຢຸດຫຼັງຈາກ 30 ນາທີ</item>
+        <item>ຢຸດຫຼັງຈາກ 40 ນາທີ</item>
+        <item>ຢຸດຫຼັງຈາກ 50 ນາທີ</item>
+        <item>ຢຸດຫຼັງຈາກ 1 ຊົ່ວໂມງ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>ຢຸດຫຼັງຈາກ 10 ນທ</item>
+        <item>ຢຸດຫຼັງຈາກ 20 ນທ</item>
+        <item>ຢຸດຫຼັງຈາກ 30 ນທ</item>
+        <item>ຢຸດຫຼັງຈາກ 40 ນທ</item>
+        <item>ຢຸດຫຼັງຈາກ 50 ນທ</item>
+        <item>ຢຸດຫຼັງຈາກ 1 ຊົ່ວໂມງ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 ນາທີ</item>
+        <item>20 ນາທີ</item>
+        <item>30 ນາທີ</item>
+        <item>40 ນາທີ</item>
+        <item>50 ນາທີ</item>
+        <item>1 ຊົ່ວໂມງ</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 ນາທີ</item>
@@ -69,18 +105,6 @@
         <item>28 ນາທີ</item>
         <item>29 ນາທີ</item>
         <item>30 ນາທີ</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>ທ່ານໄວປານຜີພຸ້ນນໍ້.</item>
-        <item>ຂໍໃຫ້ມີຄວາມສຸກກັບໝາກຜົນຈາກເຫື່ອແຮງຂອງທ່ານ.</item>
-        <item>Android ເປັນທີ່ຮູ້ຈັກໃນເລື່ອງຄວາມໄວ, ແຕ່ກໍຍັງບໍ່ໄວຊ່ຳເຈົ້າ!</item>
-        <item>ເຫີ່.</item>
-        <item>ເວລາຂັ້ນເທບ.</item>
-        <item>ຊ່າງເປັນຄວາມໄວອັນມະຫາສານ.</item>
-        <item>ມາເດີນທາງຂ້າມເວລາກັນອີກບາດນຶ່ງເທາະ.</item>
-        <item>ພຽງແຕ່ໂດດໄປທາງຊ້າຍ.</item>
-        <item>ທ່ານມີຖາດສີສຳລັບຄວາມໄວ.</item>
-        <item>ຄວາມໄວໂຟໂຕນິກ.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>ໝູ່ເກາະມາແຊວ</item>

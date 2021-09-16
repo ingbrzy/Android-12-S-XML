@@ -17,14 +17,21 @@
         <item>15 minute</item>
         <item>20 de minute</item>
         <item>25 de minute</item>
-        <item>Niciodată</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minute înainte de culcare</item>
+        <item>30 de min. înainte de culcare</item>
+        <item>45 de min. înainte de culcare</item>
+        <item>1 oră înainte de culcare</item>
+        <item>Dezactivat</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogic</item>
         <item>Digital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Niciodată</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 secunde</item>
         <item>10 secunde</item>
         <item>15 secunde</item>
@@ -37,6 +44,35 @@
         <item>50 de secunde</item>
         <item>55 de secunde</item>
         <item>60 de secunde</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Întrerupe după 10 minute</item>
+        <item>Întrerupe după 20 de minute</item>
+        <item>Întrerupe după 30 de minute</item>
+        <item>Întrerupe după 40 de minute</item>
+        <item>Întrerupe după 50 de minute</item>
+        <item>Întrerupe după o oră</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Întrerupe după 10 minute</item>
+        <item>Întrerupe după 20 de minute</item>
+        <item>Întrerupe după 30 de minute</item>
+        <item>Întrerupe după 40 de minute</item>
+        <item>Întrerupe după 50 de minute</item>
+        <item>Întrerupe după o oră</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minute</item>
+        <item>20 de minute</item>
+        <item>30 de minute</item>
+        <item>40 de minute</item>
+        <item>50 de minute</item>
+        <item>O oră</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>Un minut</item>
@@ -69,18 +105,6 @@
         <item>28 de minute</item>
         <item>29 de minute</item>
         <item>30 de minute</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Sunteți demonul vitezei.</item>
-        <item>Bucurați-vă de roadele muncii dvs.</item>
-        <item>Androizii sunt vestiți pentru rapiditate, dar nu sunt la fel de rapizi ca dvs.!</item>
-        <item>Fiu!</item>
-        <item>De L33t ori.</item>
-        <item>O viteză uimitoare.</item>
-        <item>Să începem din nou dansul timpului.</item>
-        <item>O săritură la stânga.</item>
-        <item>Aveți opțiuni diversificate pentru viteză.</item>
-        <item>Cu viteza luminii.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Insulele Marshall</item>

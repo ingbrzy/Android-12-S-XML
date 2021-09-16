@@ -595,6 +595,8 @@ Výběr"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Aby se tato změna projevila, je třeba zařízení restartovat. Restartujte zařízení nebo zrušte akci.</string>
     <string name="camera_hint">Fotoaparát otevřete přejetím prstem od ikony</string>
     <string name="camera_label">spustit fotoaparát</string>
+    <string name="camera_recording_announcement">Kamera nahrává</string>
+    <string name="camera_stopped_recording_announcement">Kamera přestala nahrávat</string>
     <string name="cancel">Zrušit</string>
     <string name="carrier_network_change_mode">Probíhá změna sítě operátora</string>
     <string name="category_personal">Osobní</string>
@@ -734,6 +736,10 @@ Pokud jej obnovíte, mohou vám být účtovány poplatky za využití dat."</st
     <string name="debug_monitoring_category">Sledování</string>
     <string name="debug_networking_category">Sítě</string>
     <string name="debug_view_attributes">Povolit kontrolu atributu zobrazení</string>
+    <string name="defender_notify_des">Telefon omezuje nabíjení, aby byla zachována životnost baterie</string>
+    <string name="defender_notify_learn_more">Další informace</string>
+    <string name="defender_notify_resume_charge">Obnovit nabíjení</string>
+    <string name="defender_notify_title">Nabíjení je dočasně omezeno</string>
     <string name="delete_blob_confirmation_text">Opravdu tato sdílená data chcete vymazat?</string>
     <string name="delete_blob_text">Vymazat sdílená data</string>
     <string name="demo_mode">Ukázkový režim uživatelského rozhraní systému</string>
@@ -1070,6 +1076,7 @@ prioritní"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Odblokování SIM karty…</string>
     <string name="keyguard_try_fingerprint">K otevření použijte otisk prstu</string>
     <string name="keyguard_unlock">Otevřete přejetím prstem nahoru</string>
+    <string name="keyguard_unlock_press">Stisknutím otevřete</string>
     <string name="keywords_adb_wireless">adb, ladění, vývoj</string>
     <string name="keywords_alarms_and_reminders">plán, budík, připomenutí, hodiny</string>
     <string name="kg_enter_confirm_pin_hint">Potvrďte požadovaný kód PIN</string>
@@ -1233,6 +1240,10 @@ Zkuste to znovu za %2$d s."</string>
     <string name="menu_ime">Přepínač klávesnice</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon je aktivní</string>
+    <string name="mic_and_camera_recording_announcement">Kamera a mikrofon nahrávají</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera a mikrofon přestaly nahrávat</string>
+    <string name="mic_recording_announcement">Mikrofon nahrává</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon přestal nahrávat</string>
     <string name="missed_call">Zmeškaný hovor</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobilní data</string>
@@ -1706,8 +1717,6 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="quick_settings_work_mode_label">Pracovní aplikace</string>
     <string name="quick_step_accessibility_toggle_overview">Přepnout přehled</string>
     <string name="recent_conversations">Poslední konverzace</string>
-    <string name="recents_quick_scrub_onboarding">Přetažením doprava rychle přepnete aplikace</string>
-    <string name="recents_swipe_up_onboarding">Přejetím nahoru přepnete aplikace</string>
     <string name="remaining_length_format">zbývá: %1$s</string>
     <string name="remote_input_image_insertion_text">odesílá obrázek</string>
     <string name="remove_from_settings">Odstranit z Nastavení</string>
@@ -2117,6 +2126,7 @@ Jakýkoli uživatel může aktualizovat aplikace všech ostatních uživatelů."
     <string name="wallet_secondary_label_no_card">Přidat kartu</string>
     <string name="wallet_secondary_label_updating">Aktualizace</string>
     <string name="wallet_title">Peněženka</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Přístupový bod je dočasně zaplněn</string>
     <string name="wifi_cant_connect">Nelze se připojit</string>
     <string name="wifi_cant_connect_to_ap">K síti %1$s se nelze připojit</string>

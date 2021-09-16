@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s adlı qovluğa əlavə edin</string>
     <string name="add_to_home_screen">Əsas ekrana əlavə edin</string>
     <string name="added_to_folder">Element qovluğa əlavə edildi</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s vidceti əsas ekrana əlavə edildi</string>
     <string name="all_apps_button_label">Tətbiq siyahısı</string>
     <string name="all_apps_button_personal_label">Şəxsi tətbiqlərin siyahısı</string>
     <string name="all_apps_button_work_label">İş tətbiqlərinin siyahısı</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Telefon çevrilən zaman</string>
     <string name="allow_rotation_title">Əsas ekran çevrilsin</string>
     <string name="allset_description">Telefondan istifadəyə başlamağa hazırsınız</string>
+    <string name="allset_hint">Əsas səhifəyə keçmək üçün yuxarı çəkin</string>
+    <string name="allset_navigation_settings"><annotation id="link">Sistem naviqasiya ayarları</annotation></string>
     <string name="allset_title">Hər şey hazırdır!</string>
     <string name="app_downloading_title">%1$s endirilir, %2$s tamamlandı</string>
     <string name="app_info_drop_target_label">Tətbiq haqqında</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s yüklənmək üçün gözləyir</string>
     <string name="auto_add_shortcuts_description">Yeni tətbiqlər üçün</string>
     <string name="auto_add_shortcuts_label">Əsas ekrana nişanlar əlavə edilsin</string>
+    <string name="back_gesture_feedback_cancelled">Ekranın sağ və ya sol kənarından ortasına sürüşdürüb buraxın.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Geri qayıtmaq üçün sağdan sürüşdürmək qaydasını öyrəndiniz. Sonra tətbiqləri keçirməyi öyrənin.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Geri getmə jestini tamamladınız.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Ekranın altına çox yaxın sürüşdürmədiyinizə əmin olun.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Ekranın ən sağ və ya sol kənarından sürüşdürün.</string>
     <string name="back_gesture_intro_subtitle">Sonuncu ekrana qayıtmaq üçün ekranın sol, yaxud sağ kənarından mərkəzinə doğru sürüşdürün.</string>
     <string name="back_gesture_intro_title">Geri qayıtmaq üçün sürüşdürün</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Geri qayıtma jestinin həssaslığını dəyişmək üçün Ayarlara keçin</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Ad dəyişikliyini yadda saxlamaq üçün toxunun</string>
     <string name="gadget_error_text">Vidceti yükləmək olmur</string>
     <string name="gadget_setup_text">Ayarlamanı tamamlamaq üçün toxunun</string>
+    <string name="gesture_tutorial_action_button_label">Oldu</string>
     <string name="gesture_tutorial_action_button_label_cancel">Ləğv edin</string>
     <string name="gesture_tutorial_action_button_label_settings">Ayarlar</string>
     <string name="gesture_tutorial_action_button_label_skip">Ötürün</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Barmağı buraxmadan öncə displeydə bir müddət saxlayın.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Ekranın ən kənar aşağısından yuxarı sürüşdürün.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Sürüşdürüb ekranın yuxarı kənarında saxlayın.</string>
+    <string name="overview_gesture_intro_subtitle">Tətbiqlər arasında keçid üçün ekranın aşağısından yuxarı doğru sürüşdürüb saxlayın, sonra buraxın.</string>
     <string name="overview_gesture_intro_title">Tətbiqi keçirmək üçün sürüşdürün</string>
     <string name="overview_selection_pref_desc">Tətbiqləri dəyişərkən mətn və şəkillərə basıb saxlayaraq əməliyyatlara baxın</string>
     <string name="overview_selection_pref_title">Yekun seçim</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Yer</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Seçimlər</string>
-    <string name="smartspace_preferences_in_settings">Canlı Məkan</string>
+    <string name="smartspace_preferences_in_settings">Ötəri Nəzər</string>
     <string name="smartspace_preferences_in_settings_desc">Əsas ekranın üzərində</string>
     <string name="smartspace_preferences_manage">Fərdiləşdirin</string>
     <string name="smartspace_preferences_turn_off_action">Deaktiv edin</string>

@@ -165,11 +165,11 @@ Als de vliegtuigmodus aanstaat, staan wifi, mobiele netwerken en Bluetooth uit."
     <string name="final_hold_description_text">Dit kan enkele minuten duren</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Je telefoon klaarmaken…}TABLET{Je tablet klaarmaken…}other{Je apparaat klaarmaken…}}</string>
     <string name="final_hold_title_setup_work_account">Telefoon klaarmaken voor werk…</string>
-    <string name="gesture_intro_description">Gebaren leren om naar de homepage te gaan, terug te gaan en tussen apps te schakelen</string>
+    <string name="gesture_intro_description">Ontdek welke gebaren je moet gebruiken om naar het startscherm te gaan, terug te gaan en tussen apps te schakelen</string>
     <string name="gesture_intro_skip_button">Overslaan</string>
     <string name="gesture_intro_start_button">Proberen</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Swipen om je telefoon te bedienen}TABLET{Swipen om je tablet te bedienen}other{Swipen om je apparaat te bedienen}}</string>
-    <string name="gms_account_checkin_title">Accountgegevens ophalen…</string>
+    <string name="gms_account_checkin_title">Accountgegevens downloaden…</string>
     <string name="gms_checkin_description_text">Dit kan enkele minuten duren</string>
     <string name="gms_checkin_description_text_timeout">Duurt het te lang? Probeer terug te gaan en verbinding te maken met een ander netwerk.</string>
     <string name="gms_checkin_title">Controleren op updates…</string>
@@ -337,19 +337,21 @@ Apparaat niet geregistreerd"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Je bent toegevoegd aan deze telefoon}TABLET{Je bent toegevoegd aan deze tablet}other{Je bent toegevoegd aan dit apparaat}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Belangrijk:</b>"
 
-"<ul><li>De eigenaar van de telefoon kan je apps of gebruikersprofiel volledig verwijderen</li>"
+"<ul><li>De eigenaar van de telefoon kan je apps of gebruikersprofiel helemaal verwijderen</li>"
 
 "<li>Elke andere gebruiker kan geüpdatete app-rechten accepteren</li>"
 
-"<li>Deel deze telefoon alleen met mensen die je vertrouwt</li></ul>}TABLET{<b>Belangrijk:</b>"
+"<li>Deel deze telefoon alleen met mensen die je vertrouwt</li></ul>"
+}TABLET{"<b>Belangrijk:</b>"
 
-"<ul><li>De eigenaar van de tablet kan je apps of gebruikersprofiel volledig verwijderen</li>"
+"<ul><li>De eigenaar van de tablet kan je apps of gebruikersprofiel helemaal verwijderen</li>"
 
 "<li>Elke andere gebruiker kan geüpdatete app-rechten accepteren</li>"
 
-"<li>Deel deze tablet alleen met mensen die je vertrouwt</li></ul>}other{<b>Belangrijk:</b>"
+"<li>Deel deze tablet alleen met mensen die je vertrouwt</li></ul>"
+}other{"<b>Belangrijk:</b>"
 
-"<ul><li>De eigenaar van dit apparaat kan je apps of gebruikersprofiel volledig verwijderen</li>"
+"<ul><li>De eigenaar van dit apparaat kan je apps of gebruikersprofiel helemaal verwijderen</li>"
 
 "<li>Elke andere gebruiker kan geüpdatete app-rechten accepteren</li>"
 
@@ -359,70 +361,47 @@ Apparaat niet geregistreerd"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Je kunt je telefoon snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
 Zonder verbinding kun je het volgende niet doen:
-
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Software-updates downloaden</li>"
-
-"<li>De datum en tijd automatisch instellen</li>"}TABLET{Je kunt je tablet snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
+"<li>De datum en tijd automatisch instellen</li>"
+}TABLET{Je kunt je tablet snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
 Zonder verbinding kun je het volgende niet doen:
-
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Software-updates downloaden</li>"
-
-"<li>De datum en tijd automatisch instellen</li>"}other{Je kunt je apparaat snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
+"<li>De datum en tijd automatisch instellen</li>"
+}other{Je kunt je apparaat snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
 Zonder verbinding kun je het volgende niet doen:
-
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Software-updates downloaden</li>"
-
 "<li>De datum en tijd automatisch instellen</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Je kunt je telefoon snel instellen door verbinding te maken met wifi.
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Je kunt je telefoon snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
-Zonder verbinding kun je het volgende niet doen: 
-
+Zonder verbinding kun je het volgende niet doen:
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Een simkaart downloaden</li>"
-
 "<li>Software-updates downloaden</li>"
+"<li>De datum en tijd automatisch instellen</li>"
+}TABLET{Je kunt je tablet snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
-"<li>De datum en tijd automatisch instellen</li>"}TABLET{Je kunt je tablet snel instellen door verbinding te maken met wifi.
-
-Zonder verbinding kun je het volgende niet doen: 
-
+Zonder verbinding kun je het volgende niet doen:
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Een simkaart downloaden</li>"
-
 "<li>Software-updates downloaden</li>"
+"<li>De datum en tijd automatisch instellen</li>"
+}other{Je kunt je apparaat snel instellen door verbinding te maken met een wifi- of mobiel netwerk.
 
-"<li>De datum en tijd automatisch instellen</li>"}other{Je kunt je apparaat snel instellen door verbinding te maken met wifi.
-
-Zonder verbinding kun je het volgende niet doen: 
-
+Zonder verbinding kun je het volgende niet doen:
 "<li>Inloggen op je Google-account</li>"
-
 "<li>Apps en gegevens herstellen</li>"
-
 "<li>Een simkaart downloaden</li>"
-
 "<li>Software-updates downloaden</li>"
-
 "<li>De datum en tijd automatisch instellen</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Toegangspunt tijdelijk vol</string>
     <string name="wifi_check_password_try_again">Controleer het wachtwoord en probeer het opnieuw</string>

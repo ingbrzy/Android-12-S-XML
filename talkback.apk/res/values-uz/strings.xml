@@ -87,7 +87,7 @@
 Istalgan vaqtda TalkBack sozlamalari orqali quyidagi qoʻshimcha mavzularni oʻrganish mumkin."</string>
     <string name="all_set_title">Hammasi tayyor!</string>
     <string name="always_show_this_message_label">Bu xabar doim chiqsin</string>
-    <string name="application_name">Android Accessibility Suite</string>
+    <string name="application_name">Android Maxsus imkoniyatlar</string>
     <string name="arc_android_window">Ilova oynasi</string>
     <string name="arc_navigation_hint">O‘tish uchun qidirish va ko‘rsatkichli chiziq tugmalarini bosing</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Tezkor tugmalar ro‘yxatini ko‘rish uchun %1$s tugmalar birikmasini bosing</string>
@@ -105,7 +105,7 @@ Istalgan vaqtda TalkBack sozlamalari orqali quyidagi qoʻshimcha mavzularni oʻr
     <string name="audio_focus_state">Boshqa ilovalar tovushini pasaytirish %1$s</string>
     <string name="auto_detect">Qurilmani ushlash holatini aniqlash</string>
     <string name="auto_scan_action_description">Tekshiruvni boshlash va belgilash</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">“Avtomatik skanerlash” yoki “tanlash”</string>
     <string name="available_devices_header">Mavjud Bluetooth qurilmalari</string>
     <string name="basic_navigation_link_subtext">Elementlarni varaqlash, menyudan foydalanish va boshqa amallar</string>
     <string name="basic_navigation_link_text">Asosiy navigatsiya</string>
@@ -119,7 +119,7 @@ Istalgan vaqtda TalkBack sozlamalari orqali quyidagi qoʻshimcha mavzularni oʻr
     <string name="bluetooth_no_devices_paired">Hech qanday Bluetooth qurilmasi ulanmagan</string>
     <string name="bluetooth_not_enabled_message">Bluetooth kalit tugmani ulash uchun Bluetoothni yoqing</string>
     <string name="bluetooth_peripheral_content_description">Tashqi</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Bluetooth kalit tugmani Sozlash ustasi orqali ulash uchun Bluetoothni yoqing va Android Maxsus imkoniyatlar funksiyasiga yaqin-atrofdagi qurilmalar va joylashuv axborotiga kirish huquqini bering.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Kalit tugmani simsiz Bluetooth orqali ulash</string>
     <string name="bluetooth_switch_option_text">Bluetooth kalit tugmasi</string>
@@ -157,6 +157,9 @@ Istalgan vaqtda TalkBack sozlamalari orqali quyidagi qoʻshimcha mavzularni oʻr
     <string name="cam_switch_enable_banner_text_label_generic">Qurilmangizni boshqarish uchun Switch Access yoqilishi kerak.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">“Kamera yordamida boshqarish” sozlamalarini ochish</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Switch Access funksiyasi sozlamalarini ochish</string>
+    <string name="cam_switches_combined_preferences_title">“%1$s“ sozlamalari</string>
+    <string name="cam_switches_preferences_title">Kamera kaliti sozlamalari</string>
+    <string name="cam_switches_single_preferences_title">“%s“ sozlamalari</string>
     <string name="camera_switches_status_active">Kameradan foydalanyotgan kalitlar</string>
     <string name="camera_switches_status_error">Xato</string>
     <string name="camera_switches_status_no_face">Yuz aniqlanmadi</string>
@@ -263,7 +266,7 @@ Buni quyidagi matn maydonida sinang."</string>
     <string name="default_action_name_pause">“Kamera yordamida boshqarish” funksiyasini pauza qilish</string>
     <string name="default_action_name_point_scan">Nuqtali skanerlash</string>
     <string name="dialog_confirm_revert_to_default_menu">Tasdiqlash</string>
-    <string name="dialog_do_not_disturb_permission_message">Android Accessibility Suite uchun Bezovta qilinmasin rejimi ruxsati yoqilsa, tovush balandligini Switch Access menyusidan boshqarish mumkin</string>
+    <string name="dialog_do_not_disturb_permission_message">Android Maxsus imkoniyatlar uchun Bezovta qilinmasin rejimi ruxsati yoqilsa, tovush balandligini Switch Access menyusidan boshqarish mumkin</string>
     <string name="dialog_do_not_disturb_permission_title">Switch Access sozlamasiga tovush balandligini boshqarish uchun ruxsat zarur</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Sozlamalarni ochish</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">“Kamera yordamida boshqarish” funksiyasi ishlashi uchun 10 MB qoʻshimcha maʼlumot yuklab olinishi kerak. Bu tarmoq tezligiga bogʻliq holda taxminan bir daqiqa vaqt oladi.</string>
@@ -399,6 +402,7 @@ Keyingi tugmani topgunga qadar ekranga teginib, quyi chap burchak tomonga suring
     <string name="fallback_menu_item_open_in_browser">Brauzerda ochish</string>
     <string name="fallback_menu_item_share_link">Havolani ulashish</string>
     <string name="fast_radio_button_title">Tez (%1$s soniyalik kechikish)</string>
+    <string name="fast_radio_button_title_content_description">Tez (%1$s soniya kechikish)</string>
     <string name="find_finish_button_text">Yakunlash tugmasini topish uchun oʻngga suring.</string>
     <string name="finish">Tugatish</string>
     <string name="finish_tutorial_announcement">Brayl klaviaturasi chiqarilgan. Telefon ekranini oʻzingizga teskari holatda tuting. Keyin telefonni gorizontal holatga buring. Keyin yozishni boshlang.</string>
@@ -611,11 +615,11 @@ Keyingisi tugmasini topish uchun oʻngga suring va keyingi sahifani oching."</st
     <string name="keycombo_menu_navigate_last">Oxirgi obyektga o‘tish</string>
     <string name="keycombo_menu_navigate_next">Keyingi obyektga o‘tish</string>
     <string name="keycombo_menu_navigate_next_character">Keyingi belgiga o‘tish</string>
-    <string name="keycombo_menu_navigate_next_window">Keyingi oynaga o‘tish</string>
+    <string name="keycombo_menu_navigate_next_window">Keyingi oynaga oʻtish</string>
     <string name="keycombo_menu_navigate_next_word">Keyingi so‘zga o‘tish</string>
     <string name="keycombo_menu_navigate_previous">Avvalgi obyektga o‘tish</string>
     <string name="keycombo_menu_navigate_previous_character">Avvalgi belgiga o‘tish</string>
-    <string name="keycombo_menu_navigate_previous_window">Oldingi oynaga o‘tish</string>
+    <string name="keycombo_menu_navigate_previous_window">Oldingi oynaga oʻtish</string>
     <string name="keycombo_menu_navigate_previous_word">Avvalgi so‘zga o‘tish</string>
     <string name="keycombo_menu_navigate_up">Yuqoridagi obyektga o‘tish</string>
     <string name="keycombo_menu_other_custom_actions">Amallarni ko‘rsatish</string>
@@ -747,6 +751,7 @@ Elementning ichki nomi: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Ekran qulfi</string>
     <string name="medium_radio_button_title">O‘rtacha (%1$s soniyalik kechikish)</string>
+    <string name="medium_radio_button_title_content_description">Oʻrta (%1$s soniya kechikish)</string>
     <string name="menu_category_reading_controls">Oʻqish</string>
     <string name="menu_category_special_features">Maxsus funksiyalar</string>
     <string name="menus_selector_text">"Bu ishoralar navigatsiyani belgilardan soʻzlarga almashtirish yoki TalkBack nutq tezligini belgilash kabi sozlamalarni tezkor oʻzgartirishga yordam beradi.
@@ -767,6 +772,7 @@ Ekranga 3 ta barmoq bilan teginish orqali TalkBack menyusini ochish mumkin."</st
 Pastga, keyin oʻngga surish orqali TalkBack menyusini ochish mumkin."</string>
     <string name="menus_title">Menyu va boshqaruv elementlari</string>
     <string name="message_in_reset_keymap_confirm_dialog">Bu tugmalar sxemasi uchun tezkor tugmalarni birlamchi qiymatlariga qayta tiklamoqchimisiz? Yodda tuting, bu amalni ortga qaytarib bo‘lmaydi.</string>
+    <string name="message_request_phone_permission">TalkBack bildiruvlar bilan bezovta qilmasligi uchun telefonda chaqiruv yuz bergani haqida bilishni istaydi.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Barcha ishoralarni birlamchi amallariga qaytaradi.
 
 Kiritilgan barcha oʻzgartirishlar saqlanmaydi."</string>
@@ -996,6 +1002,7 @@ Oʻng burchak shaklida ikki marta surib koʻring. Masalan, barmoqni uzmasdan avv
     <string name="pref_reduce_window_delay_title">Oynalar nomini tezroq aytish</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Kalitlar kiritish</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Jismoniy kalitlarni tozalash</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Kalitni sozlash: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Kalitlarni tahrirlash</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Kalit tayinlanmagan</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">“%s” uchun kalitni belgilash</string>
@@ -1016,9 +1023,9 @@ Oʻng burchak shaklida ikki marta surib koʻring. Masalan, barmoqni uzmasdan avv
     <string name="pref_sa_face_playground_stop_preview_content_description">Nazar solishni toʻxtatish</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Yoqish</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Bu sinov hududidan foydalanish uchun kamera kaliti yoqilishi kerak</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Barcha yuz ishoralari (masalan, ochiq ogʻiz, jilmayish) bilan tanishing va sinab koʻring</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Sinash</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">%1$s yuz ishoralari bilan tanishing va ishlatib koʻring</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Sinov hududi pauza qilindi. Uni yana ishga tushirish uchun pastdagi tugmani bosing.</string>
     <string name="pref_selector_summary">Sozlama tanlash uchun %1$s. Keyin sozlamani moslash uchun %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">Sozlamani tanlash uchun %1$s yoki %2$s. Keyin sozlamani moslash uchun %3$s.</string>
@@ -1067,6 +1074,7 @@ Agar qurilmangiz ulana olmasa, Bluetooth sozlamalarini ochib, qayta ulab ko‘ri
     <string name="reduce_speed_button">Tezlikni pasaytirish</string>
     <string name="remaining_calibration_finish_announcement">Barcha nuqtalar joylashuvi yangilandi</string>
     <string name="reminder_announcement">Boshqa parametrlar uchun 3 barmoq bilan tepaga suring</string>
+    <string name="remove_assigned_switch">%s uchun tayinlangan kalitni olib tashlash</string>
     <string name="report_gesture_description">Quyida oxirgi bajarilgan ishoralar keltirilgan, qaysi biri xato va yaxshi ishlamagani haqida xabar qiling.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Asliga qaytarish</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Asliga qaytarish</string>
@@ -1147,6 +1155,7 @@ Roʻyxat bandlarining pastiga tushgunga qadar 2 barmoq bilan surib aylantiring."
     <string name="search_mode_hint_no_selection">Hech narsa tanlanmadi.</string>
     <string name="search_mode_hint_query">Joriy so‘rov: %1$s.</string>
     <string name="search_mode_hint_selection">Joriy tanlov: %1$s.</string>
+    <string name="select_for_point_scan">“Tanlash”</string>
     <string name="select_setting_hint">Boshqa sozlamani tanlash uchun %1$s</string>
     <string name="selecting_text_text">"Matn belgilash uchun kursorni belgilanadigan matn boshiga suring.
 
@@ -1207,6 +1216,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="shortcut_media_control">Media ijrosi yoki pauza</string>
     <string name="shortcut_next">Keyingi element</string>
     <string name="shortcut_next_granularity">Keyingi navigatsiya sozlamasi</string>
+    <string name="shortcut_next_window">Keyingi oyna</string>
     <string name="shortcut_not_customizable">%1$s, sozlab boʻlmaydi</string>
     <string name="shortcut_notifications">Bildirishnomalar</string>
     <string name="shortcut_overview">Umumiy</string>
@@ -1219,6 +1229,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="shortcut_practice_gestures">Ishoralardan foydalanish amaliyoti</string>
     <string name="shortcut_previous">Avvalgi element</string>
     <string name="shortcut_previous_granularity">Avvalgi navigatsiya sozlamasi</string>
+    <string name="shortcut_previous_window">Avvalgi oyna</string>
     <string name="shortcut_print_node_tree">Tugunli daraxtni chop qilish</string>
     <string name="shortcut_print_performance_stats">Unumdorlik bo‘yicha statistikani chop etish</string>
     <string name="shortcut_quick_settings">Tezkor sozlamalar</string>
@@ -1258,6 +1269,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
 • Pauzasiz oʻqishni boshlash uchun silkitish"</string>
     <string name="six_hold_announcement">Telefoningizni stolga tekis yotqizish orqali ham yozishingiz mumkin. Hoziroq sinang. Agar yoningizda stol boʻlmasa, pastga surish bilan oʻtkazib yuborishingiz mumkin.</string>
     <string name="slow_radio_button_title">Sekin (%1$s soniyalik kechikish)</string>
+    <string name="slow_radio_button_title_content_description">Sekin (%1$s soniya kechikish)</string>
     <string name="sound_feedback_state">Ovozli signal %1$s</string>
     <string name="sound_feedback_summary">Nimadir oʻzgarsa, tovush orqali bildirish (masalan, ekrandagi kontent oʻzgarsa)</string>
     <string name="speak_container_element_position_summary_off">Kursor joylashuvi haqidagi axborot aytilmaydi</string>
@@ -1331,17 +1343,17 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="summary_pref_face_switches_debounce_time">Takror yuz ishoralari hisobga olinmaydi.</string>
     <string name="summary_pref_face_switches_enabled">“Kamera yordamida boshqarish” yuzning imo-ishoralarini tanib olishi va ekranga qaraganingizni aniqlash uchun old kameradan foydalanadi. Rasmlar saqlanmaydi va Googlega yuborilmaydi</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Ekranda imo-ishora yordamida harakat boshlanganda ovozli bildirishnoma yangraydi</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Ishoraning bajarilish vaqtini vizual aks ettirish</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">“Kamera yordamida boshqarish” funksiyasi yoqilsa, ekran oʻchirilmasin Ekran oʻchirilgan boʻlsa, “Kamera yordamida boshqarish” funksiyasi ekran qulfini ocha olmaydi.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Yuz aniqlanmadi</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Istalgan yuz ishorasini bajaring. U roʻyxatdan oʻtsa, ishora nomi chiqadi. Chiqish uchun istalgan yuz ishorasini %1$d soniya bajaring.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Boshingizni tik tuting va kameraga qarang. Keyin esa %s</string>
     <string name="summary_pref_play_store">Joriy TalkBack versiyasi: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Muayyan gorizontal va vertikal joylashuvni belgilash uchun surish chiziqlaridan foydalaning. Nuqtali skanerlashni boshlash uchun %1$s ustiga bosing. %2$s</string>
     <string name="summary_pref_reverse_dots">Nuqtalar joyini almashtiring, masalan 1 va 4-nuqtalarning</string>
     <string name="summary_pref_revert_to_default_menu">Switch Access menyusini menyu bandlarining birlamchi roʻyxatiga tiklash.</string>
-    <string name="summary_pref_single_tap">Fokusdagi elementni faollashtirish uchun ustiga bir marta bosing (tajribaviy funksiya)</string>
+    <string name="summary_pref_single_tap">Fokusdagi elementni faollashtirish uchun ustiga bir marta bosing</string>
     <string name="summary_pref_tree_debug_tv">Qidirish o‘rniga tugunlar daraxtini chop etish uchun ovozli qidiruv tugmasidan foydalanish</string>
     <string name="summary_pref_use_audio_focus">TalkBack ishlayotganda boshqa ilovalarning ovozi pasaytirilsin</string>
     <string name="summary_read_from_current">Ekrandagi barcha elementlarni keyingisidan boshlab oʻqish</string>
@@ -1438,10 +1450,10 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="switched_to_contracted_announcement">Qisqartirilgan Brayl klaviaturasiga almashtirildi</string>
     <string name="switched_to_ueb_uncontracted_announcement">Qisqartirilgan UEB rejimiga oʻtdingiz</string>
     <string name="switched_to_uncontracted_announcement">Qisqartirilmagan Brayl klaviaturasiga almashtirildi</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Deyarli teng</string>
     <string name="symbol_ampersand">“Va” belgisi</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Kichik belgisi</string>
+    <string name="symbol_angle_bracket_right">Katta belgisi</string>
     <string name="symbol_apostrophe">Tutuq belgisi</string>
     <string name="symbol_approximately_equals">Taqriban teng</string>
     <string name="symbol_asterisk">Yulduzcha</string>
@@ -1461,7 +1473,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_bullseye">Katta ko‘z</string>
     <string name="symbol_caret">Qo‘yish belgisi</string>
     <string name="symbol_celsius_degree">Selsiy darajasi</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Sent belgisi</string>
     <string name="symbol_circle_left_half_black">Chap yarmi qora doira</string>
     <string name="symbol_circle_right_half_black">O‘ng yarmi qora doira</string>
     <string name="symbol_colon">Ikki nuqta</string>
@@ -1470,7 +1482,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_curly_bracket_left">Chap figurali qavs</string>
     <string name="symbol_curly_bracket_right">O‘ng figurali qavs</string>
     <string name="symbol_currency_sign">Valyuta belgisi</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Daraja belgisi</string>
     <string name="symbol_division">Bo‘lish belgisi</string>
     <string name="symbol_dollar_sign">Dollar belgisi</string>
     <string name="symbol_downwards_arrow">Pastga qaragan ko‘rsatkichli chiziq</string>
@@ -1522,7 +1534,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_middle_dot">Markazlashgan nuqta</string>
     <string name="symbol_multiplication">Ko‘paytirish belgisi</string>
     <string name="symbol_new_line">Yangi chiziq</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Teng emas</string>
     <string name="symbol_not_sign">Mumkin emas belgisi</string>
     <string name="symbol_paragraph_mark">Xatboshi belgisi</string>
     <string name="symbol_parenthesis_left">Chap qavs</string>
@@ -1533,7 +1545,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_plus_minus_sign">Plus-minus belgisi</string>
     <string name="symbol_postal_mark">Pochta belgisi</string>
     <string name="symbol_pound">Panjara</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Funt sterling belgisi</string>
     <string name="symbol_quarter_note">Chorak nota</string>
     <string name="symbol_question_mark">So‘roq belgisi</string>
     <string name="symbol_quotation_mark">Iqtibos belgisi</string>
@@ -1559,7 +1571,7 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_trademark">Savdo belgisi</string>
     <string name="symbol_underscore">Ostiga chizish</string>
     <string name="symbol_upwards_arrow">Yuqori ko‘rsatkichli chiziq</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Vertikal chiziq</string>
     <string name="symbol_white_circle">Oq doira</string>
     <string name="symbol_white_club_suit">Oq chillik</string>
     <string name="symbol_white_diamond">Oq g‘ishtin</string>
@@ -1573,8 +1585,8 @@ Buni quyidagi matn maydonida “Xush kelibsiz” soʻzida sinang."</string>
     <string name="symbol_white_square">Oq kvadrat</string>
     <string name="symbol_white_star">Oq yulduzcha</string>
     <string name="symbol_white_up_pointing_triangle">Tepaga qaragan oq uchburchak</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Von pul birligi belgisi</string>
+    <string name="symbol_won_sign">Von pul birligi belgisi</string>
     <string name="symbol_yen">Iyena belgisi</string>
     <string name="system_actions">Tizim amallari</string>
     <string name="tabletop">Stol usti rejimi</string>
@@ -1742,7 +1754,7 @@ TalkBack funksiyasini faolsizlantirish uchun:
     <string name="title_pref_category_assign_switches">O‘chirib-yoqqichlarni biriktirish</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Avto-tekshiruv</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Avtomatik skanerlash (nuqtali skanerlash)</string>
     <string name="title_pref_category_border_color">Rang</string>
     <string name="title_pref_category_built_in_gestures">Ichki o‘rnatilgan imo-ishora</string>
     <string name="title_pref_category_context_menu">TalkBack menyusini sozlash</string>
@@ -1826,7 +1838,7 @@ TalkBack funksiyasini faolsizlantirish uchun:
     <string name="title_pref_red">Qizil</string>
     <string name="title_pref_resume_talkback">To‘xtagan joyidan davom ettirish</string>
     <string name="title_pref_reverse_auto_scan_disabled">Teskari avtomatik skanerlash (yoqilmagan)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Teskari avtomatik skanerlash (Nuqtali skanerlash)</string>
     <string name="title_pref_reverse_dots">Teskari nuqtalar</string>
     <string name="title_pref_revert_to_default_menu">Standart menyuga qaytarish</string>
     <string name="title_pref_scan_non_actionable_items">Tavsifni tinglash</string>
@@ -1889,7 +1901,7 @@ TalkBack funksiyasini faolsizlantirish uchun:
     <string name="title_pref_show_context_menu_as_list">Ro‘yxat shaklidagi kontekst menyusi</string>
     <string name="title_pref_show_privacy_policy">Maxfiylik siyosati</string>
     <string name="title_pref_show_tos">Xizmat shartlari</string>
-    <string name="title_pref_single_tap">Bir marta bosib faollashtirish</string>
+    <string name="title_pref_single_tap">Faollashtirish uchun bir marta bosing</string>
     <string name="title_pref_sound_and_vibration">Ovoz va tebranish</string>
     <string name="title_pref_soundback">Ovozli signal</string>
     <string name="title_pref_soundback_volume">Ovozli signal tovushi</string>
@@ -1934,6 +1946,7 @@ TalkBack funksiyasini faolsizlantirish uchun:
     <string name="title_previous_screen">Avvalgi ekran</string>
     <string name="title_read_from_top">Boshidan boshlab oʻqish</string>
     <string name="title_repeat_last_spoken_phrase">Oxirgi iborani takrorlash</string>
+    <string name="title_request_phone_permission">TalkBack ruxsat talab qilmoqda</string>
     <string name="title_screen_summary">Ekran tavsifi</string>
     <string name="title_seek_bar_controls">Slayder</string>
     <string name="title_seek_bar_edit">Slayder qiymatini tahrirlash</string>

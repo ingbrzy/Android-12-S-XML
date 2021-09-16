@@ -91,7 +91,7 @@
     <string name="arc_android_window">ઍપ્લિકેશનની વિન્ડો</string>
     <string name="arc_navigation_hint">નેવિગેટ કરવા માટે તીર સાથે શોધ કી દબાવો</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">શૉર્ટકટ્સની સૂચિ જોવા માટે %1$s દબાવો</string>
-    <string name="arc_open_talkback_settings_hint">ટૉકબૅક સેટિંગ્સ ખોલવા માટે %1$s દબાવો</string>
+    <string name="arc_open_talkback_settings_hint">TalkBack સેટિંગ ખોલવા માટે %1$s દબાવો</string>
     <string name="arc_talkback_activation_hint">ટૉકબૅક ચાલુ</string>
     <string name="assign_face_switch_subtitle">%s ક્રિયા માટે ચહેરાનો સંકેત પસંદ કરો.</string>
     <string name="assign_face_switch_title">%s માટે કૅમેરાની સ્વિચ સોંપો</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">ઑડિયો ઘટાડવાની સુવિધા %1$s</string>
     <string name="auto_detect">તમે ડિવાઇસ કેવી રીતે પકડો છો તે મુજબ ફેરફાર કરે છે</string>
     <string name="auto_scan_action_description">સ્કેન શરૂ કરો અને પસંદ કરો</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'ઑટો-સ્કૅન કરો' અથવા 'પસંદ કરો'"</string>
     <string name="available_devices_header">ઉપલબ્ધ બ્લૂટૂથ ઉપકરણો</string>
     <string name="basic_navigation_link_subtext">એક આઇટમ પરથી બીજી આઇટમ પર જાઓ, સ્ક્રોલ કરો, મેનૂનો ઉપયોગ કરો અને બીજું ઘણું</string>
     <string name="basic_navigation_link_text">મૂળભૂત નૅવિગેશન</string>
@@ -113,17 +113,17 @@
     <string name="bluetooth_connected_description">કનેક્ટ કર્યું</string>
     <string name="bluetooth_connecting_description">કનેક્ટ કરી રહ્યાં છીએ…</string>
     <string name="bluetooth_default_content_description">બ્લૂટૂથ</string>
-    <string name="bluetooth_device_unavailable_description">ઉપકરણ અનુપલબ્ધ</string>
+    <string name="bluetooth_device_unavailable_description">ડિવાઇસ અનુપલબ્ધ</string>
     <string name="bluetooth_headphone_content_description">હેડફોન</string>
     <string name="bluetooth_imaging_content_description">છબીઓ</string>
     <string name="bluetooth_no_devices_paired">કોઈ બ્લૂટૂથ ઉપકરણ જોડેલ નથી</string>
     <string name="bluetooth_not_enabled_message">બ્લૂટૂથ સ્વિચ જોડવા માટે, બ્લૂટૂથ ચાલુ કરો</string>
     <string name="bluetooth_peripheral_content_description">પેરિફેરલ</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">સેટઅપ વિઝાર્ડમાં કોઈ બ્લૂટૂથ સ્વિચનું જોડાણ કરવા માટે, બ્લૂટૂથની સુવિધા ચાલુ કરો તેમજ Android Accessibility Suiteને નજીકના બધા ડિવાઇસનો ઍક્સેસ અને સ્થાનની પરવાનગીઓ આપો.</string>
     <string name="bluetooth_phone_content_description">ફોન</string>
     <string name="bluetooth_switch_description_text">વાયર વિના, બ્લૂટૂથ મારફતે સ્વિચ જોડો</string>
     <string name="bluetooth_switch_option_text">બ્લૂટૂથ સ્વિચ</string>
-    <string name="bluetooth_unsupported_description_text">તમારું ઉપકરણ બ્લૂટૂથનું સમર્થન કરતું નથી. તેના બદલે વાસ્તવિક સ્વિચનો ઉપયોગ કરવાનો પ્રયાસ કરો.</string>
+    <string name="bluetooth_unsupported_description_text">તમારું ડિવાઇસ બ્લૂટૂથને સપોર્ટ કરતું નથી. તેના બદલે વાસ્તવિક સ્વિચનો ઉપયોગ કરવાનો પ્રયાસ કરો.</string>
     <string name="bottomsheet_action_expand_halfway">અડધે સુધી મોટું કરો</string>
     <string name="box_scan">પૉઇન્ટ સ્કેનથી બહાર નીકળો</string>
     <string name="braille_ime_displayed_name">બ્રેઇલ કીબોર્ડ</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">તમારું ડિવાઇસ નિયંત્રિત કરવા માટે, તમારે પહેલાં સ્વિચ ઍક્સેસ ચાલુ કરવો જરૂરી છે.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">કૅમેરાની સ્વિચ ચાલુ કરો</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">સ્વિચ ઍક્સેસ ચાલુ કરો</string>
+    <string name="cam_switches_combined_preferences_title">"'%1$s'ના સેટિંગ"</string>
+    <string name="cam_switches_preferences_title">કૅમેરાની સ્વિચના સેટિંગ</string>
+    <string name="cam_switches_single_preferences_title">"'%s'ના સેટિંગ"</string>
     <string name="camera_switches_status_active">કૅમેરા-સ્વિચ સક્રિય છે</string>
     <string name="camera_switches_status_error">ભૂલ</string>
     <string name="camera_switches_status_no_face">કોઈ ચહેરો મળ્યો નથી</string>
@@ -297,9 +300,9 @@
 
 આ સેટિંગ ઑટો-સ્કૅન તથા પૉઇન્ટ સ્કૅન બન્નેને અસર કરે છે."</string>
     <string name="dialog_message_revert_to_default_menu">શું તમે ખરેખર ડિફૉલ્ટ મેનૂ પર પાછા ફરવા માગો છો? મેનૂમાં કરેલા કોઈપણ ફેરફારો જતા રહેશે.</string>
-    <string name="dialog_message_suspend_talkback">"શું તમે ખરેખર ટૉકબૅકને સસ્પેન્ડ કરવા માગો છો?
+    <string name="dialog_message_suspend_talkback">"શું તમે ખરેખર TalkBackને સસ્પેન્ડ કરવા માગો છો?
 
-ટૉકબૅક સસ્પેન્ડ કરેલ હોય તે વખતે, તમારું ઉપકરણ પ્રતિસાદ પ્રદાન કરશે નહીં અને સ્પર્શ કરીને શોધખોળ કરવું અક્ષમ થઈ જશે."</string>
+TalkBack સસ્પેન્ડ કરેલું હોય તે વખતે, તમારું ડિવાઇસ પ્રતિસાદ પ્રદાન કરશે નહીં અને સ્પર્શ કરીને શોધખોળ કરવાનું બંધ થઈ જશે."</string>
     <string name="dialog_message_voice_commands">"તમે કહી શકો એવા કેટલાંક વાક્યો અહીં આપ્યા છે:
 
 • કૉપિ કરો
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">બ્રાઉઝરમાં ખોલો</string>
     <string name="fallback_menu_item_share_link">લિંક શેર કરો</string>
     <string name="fast_radio_button_title">ઝડપી (%1$s સેકંડનો વિલંબ)</string>
+    <string name="fast_radio_button_title_content_description">ઝડપી (%1$s સેકન્ડનો વિલંબ)</string>
     <string name="find_finish_button_text">\"સમાપ્ત કરો\" બટન શોધવા માટે જમણી બાજુએ સ્વાઇપ કરો.</string>
     <string name="finish">સમાપ્ત કરો</string>
     <string name="finish_tutorial_announcement">બ્રેઇલ કીબોર્ડ બતાવી રહ્યાં છીએ. તમારા ફોનને પલટાવો જેથી કરીને સ્ક્રીન તમારાથી દૂર અને સામે રહે. ફોનને આડો ફેરવીને લૅન્ડસ્કેપ સ્થિતિમાં લાવો. પછી ટાઇપ કરવાનું શરૂ કરો.</string>
@@ -463,7 +467,7 @@
     <string name="global_action_notifications">નોટિફિકેશનો</string>
     <string name="global_action_overview">ઝલક</string>
     <string name="global_action_power_options">પાવરના વિકલ્પો</string>
-    <string name="global_action_quick_settings">ઝડપી સેટિંગ્સ</string>
+    <string name="global_action_quick_settings">ઝડપી સેટિંગ</string>
     <string name="global_context_menu_title">વૈશ્વિક સંદર્ભ મેનૂ</string>
     <string name="global_menu_volume_heading">વૉલ્યૂમ</string>
     <string name="granularity_character">અક્ષરો</string>
@@ -621,7 +625,7 @@
     <string name="keycombo_menu_other_custom_actions">ક્રિયાઓ બતાવો</string>
     <string name="keycombo_menu_other_language_options">ઇન્સ્ટૉલ કરેલ ભાષાઓ બતાવો</string>
     <string name="keycombo_menu_other_open_manage_keyboard_shortcuts">કીબોર્ડ શૉર્ટકટ મેનેજ કરો</string>
-    <string name="keycombo_menu_other_open_talkback_settings">ટૉકબૅક સેટિંગ્સ ખોલો</string>
+    <string name="keycombo_menu_other_open_talkback_settings">TalkBack સેટિંગ ખોલો</string>
     <string name="keycombo_menu_other_read_from_next_item">આગલી આઇટમથી વાંચો</string>
     <string name="keycombo_menu_other_read_from_top">ટોચથી વાંચો</string>
     <string name="keycombo_menu_other_talkback_context_menu">Talkback મેનૂ બતાવો</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%2$dમાંથી %1$d</string>
     <string name="lockscreen_label">લૉક સ્ક્રીન</string>
     <string name="medium_radio_button_title">મધ્યમ (%1$s સેકંડનો વિલંબ)</string>
+    <string name="medium_radio_button_title_content_description">મધ્યમ (%1$s સેકન્ડનો વિલંબ)</string>
     <string name="menu_category_reading_controls">વાંચન</string>
     <string name="menu_category_special_features">વિશિષ્ટ સુવિધાઓ</string>
     <string name="menus_selector_text">"આ શૉર્ટકટ તમને સેટિંગમાં ઝડપથી ફેરફાર કરવામાં સહાય કરી શકે છે, જેમ કે તમારા નૅવિગેશનને અક્ષરો પરથી શબ્દો પર સ્વિચ કરવામાં અથવા TalkBackના સ્પીચ રેટમાં ફેરફાર કરવામાં.
@@ -767,6 +772,7 @@
 પહેલા નીચે અને પછી જમણે સ્વાઇપ કરીને હવે TalkBack મેનૂ ખોલો."</string>
     <string name="menus_title">મેનૂ અને નિયંત્રણો</string>
     <string name="message_in_reset_keymap_confirm_dialog">શું તમે ખરેખર આ કીમેપ માટે તમારી શૉર્ટકટ કીને તેમના ડિફોલ્ટ મૂલ્યો પર ફરીથી સેટ કરવા માંગો છો? કૃપા કરીને નોંધો, આ ક્રિયામાં કરેલો ફેરફાર રદ કરી શકાતો નથી.</string>
+    <string name="message_request_phone_permission">ફોન કૉલ ક્યારે ચાલુ હોય છે, તે TalkBack જાણવા માગે છે, જેથી TalkBack ખલેલ પહોંચાડતી ઘોષણાઓને ઘટાડી શકે.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"આમ કરવાથી બધા સંકેતો તેમની ડિફૉલ્ટ ક્રિયાઓમાં રીસેટ થઈ જશે.
 
 તમે કરેલો કોઈપણ ફેરફાર તમે ગુમાવશો."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">વિંડો ઘોષણામાં થનારા વિલંબને ઘટાડો</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">કૅમેરાની સ્વિચ ઉમેરો</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">વાસ્તવિક સ્વિચ સાફ કરો</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">આ સ્વિચ માટેના સેટિંગ ગોઠવો: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">કૅમેરાની સ્વિચમાં ફેરફાર કરો</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">કૅમેરાની કોઈ સ્વિચ સોંપી નથી</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s' માટે કૅમેરાની સ્વિચ સોંપો"</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">પ્રીવ્યૂ રોકો</string>
     <string name="pref_sa_face_playground_switch_on_content_description">ચાલુ કરો</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">પરીક્ષણના આ ક્ષેત્રનો ઉપયોગ કરવા માટે, કૅમેરાની સ્વિચ ચાલુ હોવી જરૂરી છે</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">અજમાવી જુઓ: ખુલ્લા મોઢા અને હસવાના સહિતના ચહેરાના સંકેતના બીજા ઘણા બધા પ્રકારનો પ્રીવ્યૂ કરી જુઓ</string>
+    <string name="pref_sa_face_playground_try_it_button_text">અજમાવી જુઓ</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">અજમાવી જુઓ: %1$s ચહેરાના સંકેતનો પ્રીવ્યૂ જુઓ</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">પરીક્ષણનું ક્ષેત્ર થોભાવવામાં આવ્યું છે. તેને ફરી શરૂ કરવા માટે, નીચેના બટનનો ઉપયોગ કરો.</string>
     <string name="pref_selector_summary">સેટિંગ પસંદ કરવા માટે %1$s. પછી સેટિંગ ગોઠવવા માટે %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">સેટિંગ પસંદ કરવા માટે %1$s અથવા %2$s. પછી સેટિંગ ગોઠવવા માટે %3$s.</string>
@@ -1069,6 +1076,7 @@
     <string name="reduce_speed_button">ગતિ ઘટાડો</string>
     <string name="remaining_calibration_finish_announcement">બધા ડોટની સ્થિતિ અપડેટ કરી</string>
     <string name="reminder_announcement">વધુ વિકલ્પો માટે 3 આંગળી વડે ઉપરની તરફ સ્વાઇપ કરો</string>
+    <string name="remove_assigned_switch">%s માટેની સ્વિચની સોંપણી કાઢી નાખો</string>
     <string name="report_gesture_description">અહીં તાજેતરમાં કરાયેલા સંકેતો આપવામાં આવ્યા છે, કૃપા કરીને કયા સંકેત અયોગ્ય છે અને શું અપેક્ષિત છે તે જણાવો.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">રીસેટ કરો</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">ફરીથી સેટ કરો</string>
@@ -1119,7 +1127,7 @@
     <string name="s2s_service_summary">પસંદ કરેલી ટેક્સ્ટ સાંભળો</string>
     <string name="s2s_title_pref_help">સહાય</string>
     <string name="s2s_title_pref_help_and_feedback">સહાય અને પ્રતિસાદ</string>
-    <string name="s2s_warning_ocr_not_supported">આ સુવિધા વર્તમાન સિસ્ટમ ભાષાનું સમર્થન કરતી નથી.</string>
+    <string name="s2s_warning_ocr_not_supported">આ સુવિધા વર્તમાન સિસ્ટમ ભાષાને સપોર્ટ કરતી નથી.</string>
     <string name="sa_face_gesture_decrease_gesture_size_button_label">થોડો નાનો</string>
     <string name="sa_face_gesture_increase_gesture_size_button_label">થોડો મોટો</string>
     <string name="sa_face_gesture_threshold_pref_summary">સંકેતને ઓળખવામાં આવે તે પહેલાં, તમારે તેની અવધિ કેટલી લાંબી રાખવી છે તે પસંદ કરો.</string>
@@ -1149,6 +1157,7 @@
     <string name="search_mode_hint_no_selection">કોઈ પસંદ કરેલી આઇટમ નથી.</string>
     <string name="search_mode_hint_query">હાલની ક્વેરી: %1$s.</string>
     <string name="search_mode_hint_selection">હાલની પસંદગી: %1$s.</string>
+    <string name="select_for_point_scan">"'પસંદ કરો'"</string>
     <string name="select_setting_hint">અલગ સેટિંગ પસંદ કરવા માટે %1$s</string>
     <string name="selecting_text_text">"કોઈ ટેક્સ્ટ બૉક્સમાં, તમને પસંદ કરવી હોય તે ટેક્સ્ટની શરૂઆતમાં કર્સર લઈ જાઓ.
 
@@ -1185,7 +1194,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
 પગલું 2: નૅવિગેશન ફોકસને આગળ લઈ જવા અથવા વાંચનના નિયંત્રણને નીચે ગોઠવવા માટે, નીચે સ્વાઇપ કરો."</string>
     <string name="setup_completion_heading">સેટઅપ સમાપ્ત થયું</string>
     <string name="setup_completion_message">તમે તૈયાર છો.</string>
-    <string name="setup_completion_settings_reminder">તમે હંમેશાં સ્વિચ ઍક્સેસ સેટિંગ્સમાંથી અતિરિક્ત સેટિંગ્સ બદલી અથવા સેટઅપ વિઝાર્ડ ફરીથી ખોલી શકો છો.</string>
+    <string name="setup_completion_settings_reminder">તમે હંમેશાં સ્વિચ ઍક્સેસ સેટિંગમાંથી વધારાના સેટિંગ બદલી અથવા સેટઅપ વિઝાર્ડ ફરીથી ખોલી શકો છો.</string>
     <string name="setup_face_switches_assignment_already_assigned_label">તમે આ ક્રિયાને સોંપેલી સ્વિચ:</string>
     <string name="setup_switch_assignment_empty">કોઈ નહીં</string>
     <string name="setup_switch_assignment_heading">%s ને સોંપવામાં આવેલ સ્વિચ</string>
@@ -1209,6 +1218,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="shortcut_media_control">મીડિયા ચલાવો અથવા થોભાવો</string>
     <string name="shortcut_next">આગલી આઇટમ</string>
     <string name="shortcut_next_granularity">આગલી નેવિગેશન સેટિંગ</string>
+    <string name="shortcut_next_window">આગલી વિન્ડો</string>
     <string name="shortcut_not_customizable">%1$s, કસ્ટમાઇઝ કરી શકાય તેમ નથી</string>
     <string name="shortcut_notifications">નોટિફિકેશન</string>
     <string name="shortcut_overview">ઓવરવ્યૂ</string>
@@ -1221,6 +1231,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="shortcut_practice_gestures">સંકેતોનો ઉપયોગ કરો</string>
     <string name="shortcut_previous">પહેલાંની આઇટમ</string>
     <string name="shortcut_previous_granularity">પહેલાની નેવિગેશન સેટિંગ</string>
+    <string name="shortcut_previous_window">પાછલી વિન્ડો</string>
     <string name="shortcut_print_node_tree">નોડ ટ્રી છાપો</string>
     <string name="shortcut_print_performance_stats">કાર્યપ્રદર્શન આંકડા છાપો</string>
     <string name="shortcut_quick_settings">ઝડપી સેટિંગ</string>
@@ -1260,6 +1271,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
 • વાંચન સતત ચાલુ રાખવા માટે હલાવો"</string>
     <string name="six_hold_announcement">તમે તમારા ફોનને ટેબલ પર સપાટ રાખીને પણ ટાઇપ કરી શકો છો. હમણાં જ અજમાવી જુઓ. જો તમારી આસપાસમાં કોઈ ટેબલ ન હોય, તો નીચે સ્વાઇપ કરીને આગળ વધો.</string>
     <string name="slow_radio_button_title">ધીમો (%1$s સેકંડનો વિલંબ)</string>
+    <string name="slow_radio_button_title_content_description">ધીમી (%1$s સેકન્ડનો વિલંબ)</string>
     <string name="sound_feedback_state">સાઉન્ડ પ્રતિસાદ %1$s</string>
     <string name="sound_feedback_summary">કંઈક બદલાયું છે (દા.ત., સ્ક્રીન પરનું કન્ટેન્ટ બદલાયું) તે સૂચિત કરવા માટે સાઉન્ડ વગાડો</string>
     <string name="speak_container_element_position_summary_off">સૂચિ અને ગ્રિડની માહિતી બોલવામાં આવતી નથી</string>
@@ -1333,17 +1345,17 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="summary_pref_face_switches_debounce_time">આ સમયમાં કૅમેરાની સ્વિચને એકથી વધુ વાર ટ્રિગર કરવાને, એક વાર ટ્રિગર કરવા તરીકે ગણવામાં આવશે.</string>
     <string name="summary_pref_face_switches_enabled">તમે સ્ક્રીનને જુઓ છે કે નહીં તે જાણવા માટે અને ચહેરાના સંકેતો ઓળખવા માટે, કૅમેરાની સ્વિચ આગળના કૅમેરાનો ઉપયોગ કરે છે. છબીઓ સ્ટોર કરવામાં આવતી નથી કે Googleને મોકલવામાં આવતી નથી.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">જ્યારે સંકેતના પ્રતિસાદ તરીકે સ્ક્રીન પર કોઈ ફેરફાર થાય, ત્યારે સાઉન્ડ વગાડો</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">તમે કોઈ સંકેત કેટલા લાંબા સમય સુધી બતાવ્યો હોય, તે માટે કોઈ વિઝ્યુઅલ સૂચન બતાવો</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">જ્યારે કૅમેરાની સ્વિચ ચાલુ હોય, ત્યારે સ્ક્રીન ચાલુ રાખો. જો સ્ક્રીન બંધ થાય, તો કૅમેરાની સ્વિચ તેને અનલૉક કરી શકશે નહીં.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">કોઈ ચહેરો મળ્યો નથી</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">ચહેરાના કોઈપણ સંકેતનો ઉપયોગ કરો. જો સંકેતનું નામ રજિસ્ટર કરેલું હશે, તો તે દેખાશે. બહાર નીકળવા માટે, કોઈપણ સંકેતને %1$d સેકન્ડ જાળવી રાખો.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">તમારું માથું સ્થિર રાખો અને કૅમેરા સામે જુઓ. તે પછી %s.</string>
-    <string name="summary_pref_play_store">હાલનું ટૉકબૅક સંસ્કરણ: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_play_store">હાલનું TalkBack વર્ઝન: %1$s</string>
+    <string name="summary_pref_point_scan">વિશિષ્ટ આડું તથા ઊભું સ્થાન પસંદ કરવા માટે, ખસતી રેખાઓનો ઉપયોગ કરો. પૉઇન્ટ સ્કૅનિંગ શરૂ કરવા માટે, %1$s સ્વિચ દબાવો. %2$s</string>
     <string name="summary_pref_reverse_dots">ડોટની જગ્યાની અદલાબદલી કરે છે, જેથી કરીને ડોટ 1 અને 4 સ્થાનની અદલાબદલી કરે, ઉદાહરણ તરીકે</string>
     <string name="summary_pref_revert_to_default_menu">સ્વિચ ઍક્સેસ મેનૂને મેનૂ આઇટમની ડિફૉલ્ટ સૂચિ પર રીસેટ કરો.</string>
-    <string name="summary_pref_single_tap">(પ્રાયોગિક) સક્રિય કરવા માટે ફોકસ કરેલી આઇટમ પર એકવાર ટૅપ કરો</string>
+    <string name="summary_pref_single_tap">સક્રિય કરવા માટે ફોકસ કરેલી આઇટમ પર એકવાર ટૅપ કરો</string>
     <string name="summary_pref_tree_debug_tv">શોધ કરવાને બદલે નોડ ટ્રી છાપવા માટે વૉઇસ શોધ કીનો ઉપયોગ કરો</string>
     <string name="summary_pref_use_audio_focus">બોલતી વખતે અન્ય ઑડિઓ વૉલ્યુમ ઘટાડો</string>
     <string name="summary_read_from_current">આગલી આઇટમથી શરૂ કરીને, સ્ક્રીન પરની બધી આઇટમ વાંચો</string>
@@ -1410,7 +1422,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="switch_access_move_prev_paragraph">પહેલાંનો ફકરો</string>
     <string name="switch_access_move_prev_sentence">પાછળનું વાક્ય</string>
     <string name="switch_access_move_prev_word">પહેલાંનો શબ્દ</string>
-    <string name="switch_access_preferences_title">સ્વિચ ઍક્સેસ સેટિંગ્સ</string>
+    <string name="switch_access_preferences_title">સ્વિચ ઍક્સેસ સેટિંગ</string>
     <string name="switch_access_service_description">સ્વિચ ઍક્સેસ ક્રિયા કરવામાં અસમર્થતાની ક્ષતિ ધરાવતાં લોકોને એક કે વધુ સ્વિચનો ઉપયોગ કરીને ફોન અને ટેબ્લેટ્સને નિયંત્રિત કરવા દે છે. આઇટમ્સ પસંદ કરવા, સ્ક્રોલ કરવા, ટેક્સ્ટ દાખલ કરવા અને વધુ કરવા માટે સ્વિચનો ઉપયોગ કરો.</string>
     <string name="switch_access_service_summary">સ્વિચ વડે ડિવાઇસને કંટ્રોલ કરો</string>
     <string name="switch_access_spoken_feedback_group">%1$s જૂથ</string>
@@ -1440,10 +1452,10 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="switched_to_contracted_announcement">સંક્ષિપ્ત બ્રેઇલ પર સ્વિચ કર્યું</string>
     <string name="switched_to_ueb_uncontracted_announcement">UEB અનકોન્ટ્રેક્ટેડ મોડ પર સ્વિચ કર્યું</string>
     <string name="switched_to_uncontracted_announcement">વિસ્તૃત બ્રેઇલ પર સ્વિચ કર્યું</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">લગભગ આના જેટલું જ</string>
     <string name="symbol_ampersand">એમ્પરસેન્ડ</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">આનાથી ઓછાનું ચિહ્ન</string>
+    <string name="symbol_angle_bracket_right">આનાથી વધારેનું ચિહ્ન</string>
     <string name="symbol_apostrophe">એપોસ્ટ્રોફી</string>
     <string name="symbol_approximately_equals">આશરે બરાબર</string>
     <string name="symbol_asterisk">ફૂદડી</string>
@@ -1463,7 +1475,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="symbol_bullseye">બુલ્સઆઇ</string>
     <string name="symbol_caret">કૅરેટ</string>
     <string name="symbol_celsius_degree">સેલ્સિયસ ડિગ્રી</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">સેન્ટનું ચિહ્ન</string>
     <string name="symbol_circle_left_half_black">ડાબા અડધા કાળા સાથેનું વર્તુળ</string>
     <string name="symbol_circle_right_half_black">જમણા અડધા કાળા સાથેનું વર્તુળ</string>
     <string name="symbol_colon">ગુરુવિરામ</string>
@@ -1472,7 +1484,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="symbol_curly_bracket_left">ડાબો છગડિયો કૌંસ</string>
     <string name="symbol_curly_bracket_right">જમણો છગડિયો કૌંસ</string>
     <string name="symbol_currency_sign">ચલણ ચિહ્ન</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">ડિગ્રીનું ચિહ્ન</string>
     <string name="symbol_division">ભાગાકારનું ચિહ્ન</string>
     <string name="symbol_dollar_sign">ડૉલરનું ચિહ્ન</string>
     <string name="symbol_downwards_arrow">નીચેની તરફનો એરો</string>
@@ -1524,7 +1536,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="symbol_middle_dot">મધ્યમાં ડોટ</string>
     <string name="symbol_multiplication">ગુણાકારનું ચિહ્ન</string>
     <string name="symbol_new_line">નવી રેખા</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">આના જેટલું નહીં</string>
     <string name="symbol_not_sign">નથી ચિહ્ન</string>
     <string name="symbol_paragraph_mark">ફકરાનું ચિહ્ન</string>
     <string name="symbol_parenthesis_left">ડાબો કૌંસ</string>
@@ -1575,8 +1587,8 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="symbol_white_square">સફેદ ચોરસ</string>
     <string name="symbol_white_star">સફેદ તારો</string>
     <string name="symbol_white_up_pointing_triangle">સફેદ ઉપરની તરફનો ત્રિકોણ</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">વૉન ચલણનું ચિહ્ન</string>
+    <string name="symbol_won_sign">વૉન ચલણનું ચિહ્ન</string>
     <string name="symbol_yen">યેન</string>
     <string name="system_actions">સિસ્ટમની ક્રિયાઓ</string>
     <string name="tabletop">ટેબલટોપ મોડ</string>
@@ -1592,7 +1604,7 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
 
 ઉપર સંકેત હવે પહેલાંની નૅવિગેશન સેટિંગ પર જાય છે અને નીચેનું સંકેત હવે આગલી નૅવિગેશન સેટિંગ પર જાય છે."</string>
     <string name="talkback_disabled">ટૉકબૅક બંધ છે</string>
-    <string name="talkback_gesture_change_details">"ટૉકબૅક ના આ સંસ્કરણમાં ડિફૉલ્ટ અ‍ૅક્સેસિબિલિટી સંકેતના ફેરફારોનો સમાવેશ થાય છે. આ સંકેત સાથે સંકળાયેલ ક્રિયાઓ ટૉકબૅક સેટિંગ્સ અંતર્ગત કસ્ટમાઇઝ કરી શકાય છે. જ્યારે સ્પર્શ કરીને શોધખોળ કરવું સક્ષમ હોય ત્યારે, તમે અમુક ચોક્કસ ક્રિયાઓ કરવા માટે નીચેના સંકેતનો ઉપયોગ કરી શકો છો.
+    <string name="talkback_gesture_change_details">"TalkBackના આ વર્ઝનમાં ડિફૉલ્ટ અ‍ૅક્સેસિબિલિટી સંકેતના ફેરફારોનો સમાવેશ થાય છે. આ સંકેત સાથે સંકળાયેલ ક્રિયાઓ TalkBack સેટિંગ અંતર્ગત કસ્ટમાઇઝ કરી શકાય છે. જ્યારે ટચ કરીને શોધખોળ કરવાનું ચાલુ હોય ત્યારે, તમે અમુક ચોક્કસ ક્રિયાઓ કરવા માટે નીચેના સંકેતનો ઉપયોગ કરી શકો છો.
 
 %1$s"</string>
     <string name="talkback_inactive_message">આ ટ્યૂટૉરિઅલ માટે TalkBack સુવિધા ચાલુ કરવાની જરૂર છે. કૃપા કરીને ટ્યૂટૉરિઅલને લૉન્ચ કરતા પહેલાં TalkBack સુવિધા ચાલુ કરો.</string>
@@ -1607,12 +1619,12 @@ TalkBack મેનૂ ફરી ખોલો અને પછી પસંદગ
     <string name="talkback_preferences_subtitle">વર્ઝન %1$s</string>
     <string name="talkback_preferences_title">TalkBack સેટિંગ</string>
     <string name="talkback_resumed">ટૉકબૅક ફરી શરૂ કર્યું</string>
-    <string name="talkback_service_description">"TalkBack ચાલુ હોય ત્યારે, તે બોલાયેલ પ્રતિસાદ પ્રદાન કરે છે, જેથી તમે સ્ક્રીન પર નજર કર્યા વગર તમારા ઉપકરણનો ઉપયોગ કરી શકો છો. આ દૃષ્ટિહીન અથવા અને ઓછી દૃષ્ટિવાળા લોકોને મદદરૂપ થઈ શકે છે. 
+    <string name="talkback_service_description">"TalkBack ચાલુ હોય ત્યારે, તે બોલાયેલો પ્રતિસાદ પ્રદાન કરે છે, જેથી તમે સ્ક્રીન પર નજર કર્યા વગર તમારા ડિવાઇસનો ઉપયોગ કરી શકો છો. આ દૃષ્ટિહીન અથવા ઓછી દૃષ્ટિવાળા લોકોને મદદરૂપ થઈ શકે છે. 
 
 TalkBackનો ઉપયોગ કરીને નૅવિગેટ કરવું:
 • આઇટમમાં આગળ-પાછળ જવા માટે જમણે અથવા ડાબે સ્વાઇપ કરો
 • આઇટમ સક્રિય કરવા બે વાર ટૅપ કરો
-• સ્ક્રોલ કરવા માટે બે આંગળીઓ ખેંચો
+• સ્ક્રોલ કરવા માટે બે આંગળીઓ વડે ખેંચો
 
 TalkBack બંધ કરવું:
 • સ્વિચ પર ટૅપ કરો. તમને લીલી આઉટલાઇન દેખાશે. સ્વિચ પર બે વાર ટૅપ કરો. 
@@ -1744,13 +1756,13 @@ TalkBack બંધ કરવું:
     <string name="title_pref_category_assign_switches">સ્વિચીસ સોંપો</string>
     <string name="title_pref_category_audio">ઑડિયો</string>
     <string name="title_pref_category_auto_scan">ઑટો સ્કેન</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">ઑટો-સ્કૅન (પૉઇન્ટ સ્કૅન)</string>
     <string name="title_pref_category_border_color">રંગ</string>
     <string name="title_pref_category_built_in_gestures">બિલ્ટ-ઇન હાવભાવ</string>
     <string name="title_pref_category_context_menu">TalkBack મેનૂ કસ્ટમાઇઝ કરો</string>
     <string name="title_pref_category_controls">નિયંત્રણો</string>
     <string name="title_pref_category_customize_scanning">સ્કેનિંગ કસ્ટમાઇઝ કરો</string>
-    <string name="title_pref_category_developer_settings">વિકાસકર્તા સેટિંગ્સ</string>
+    <string name="title_pref_category_developer_settings">ડેવલપર સેટિંગ</string>
     <string name="title_pref_category_display_and_sound">ડિસ્પ્લે અને સાઉન્ડ</string>
     <string name="title_pref_category_face_switches">કૅમેરાની સ્વિચના સેટિંગ</string>
     <string name="title_pref_category_face_switches_additional_settings">કૅમેરાની સ્વિચ માટે વધારાના સેટિંગ</string>
@@ -1828,7 +1840,7 @@ TalkBack બંધ કરવું:
     <string name="title_pref_red">લાલ</string>
     <string name="title_pref_resume_talkback">સસ્પેન્ડથી ફરી શરૂ કરો</string>
     <string name="title_pref_reverse_auto_scan_disabled">રિવર્સ ઑટો-સ્કૅન (બંધ કરેલ છે)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">રિવર્સ ઑટો-સ્કૅન (પૉઇન્ટ સ્કૅન)</string>
     <string name="title_pref_reverse_dots">ડોટ ઉલટાવો</string>
     <string name="title_pref_revert_to_default_menu">ડિફૉલ્ટ મેનૂ પર પાછું ફેરવો</string>
     <string name="title_pref_scan_non_actionable_items">વર્ણનાત્મક ટેક્સ્ટ બોલો</string>
@@ -1891,7 +1903,7 @@ TalkBack બંધ કરવું:
     <string name="title_pref_show_context_menu_as_list">સૂચિ તરીકે સંદર્ભ મેનૂ બતાવો</string>
     <string name="title_pref_show_privacy_policy">પ્રાઇવસી પૉલિસી</string>
     <string name="title_pref_show_tos">સેવાની શરતો</string>
-    <string name="title_pref_single_tap">એકલ-ટૅપ સક્રિયકરણ</string>
+    <string name="title_pref_single_tap">સક્રિય કરવા માટે એક વાર ટૅપ કરો</string>
     <string name="title_pref_sound_and_vibration">સાઉન્ડ અને વાઇબ્રેશન</string>
     <string name="title_pref_soundback">ધ્વનિ પ્રતિસાદ</string>
     <string name="title_pref_soundback_volume">સાઉન્ડ પ્રતિસાદ વૉલ્યૂમ</string>
@@ -1918,7 +1930,7 @@ TalkBack બંધ કરવું:
     <string name="title_pref_switch_access_spoken_feedback">બોલાયેલ પ્રતિસાદ</string>
     <string name="title_pref_switch_access_spoken_feedback_finish_speech">આગલી આઇટમ પર જતાં પહેલાં સ્પીચ સમાપ્ત કરો</string>
     <string name="title_pref_switch_access_spoken_feedback_maximum_time_per_item">આઇટમ દીઠ બોલવા માટેનો મહત્તમ સમય</string>
-    <string name="title_pref_switch_access_tts_settings">TTS સેટિંગ્સ</string>
+    <string name="title_pref_switch_access_tts_settings">TTS સેટિંગ</string>
     <string name="title_pref_switch_access_verbosity">શબ્દબહુલતા</string>
     <string name="title_pref_switch_access_vibration_feedback">વાઇબ્રેશન પ્રતિસાદ</string>
     <string name="title_pref_thick_border">જાડી કિનારીઓ</string>
@@ -1936,6 +1948,7 @@ TalkBack બંધ કરવું:
     <string name="title_previous_screen">પાછલી સ્ક્રીન</string>
     <string name="title_read_from_top">ઉપરથી વાંચો</string>
     <string name="title_repeat_last_spoken_phrase">છેલ્લે બોલવામાં આવેલો શબ્દસમૂહ રિપીટ કરો</string>
+    <string name="title_request_phone_permission">TalkBackની ફોન પરવાનગી માટેની વિનંતી</string>
     <string name="title_screen_summary">સ્ક્રીનનો સારાંશ</string>
     <string name="title_seek_bar_controls">સ્લાઇડર</string>
     <string name="title_seek_bar_edit">સ્લાઇડરના લેવલમાં ફેરફાર કરો</string>

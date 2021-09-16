@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">语言和输入法</string>
     <string name="lift_to_wake_title">拿起设备时唤醒</string>
-    <string name="lockdown_settings_summary">显示用于关闭 Smart Lock、人脸解锁、指纹解锁和锁定屏幕通知功能的电源按钮选项</string>
-    <string name="lockdown_settings_title">显示锁定选项</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
     <string name="locked_work_profile_notification_title">当工作资料遭到锁定时</string>
     <string name="lockscreen_bypass_summary">解锁后直接转到上次使用的屏幕</string>
     <string name="lockscreen_bypass_title">跳过锁定屏幕</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">工作通知</string>
     <string name="reset_dashboard_summary">网络、应用或设备可以重置</string>
     <string name="reset_dashboard_title">重置选项</string>
-    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
     <string name="screensaver_settings_title">屏保</string>
     <string name="screen_timeout">屏幕超时</string>
     <string name="screen_zoom_title">显示大小</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">自动将某些内容的刷新频率从 60 Hz 调高到 90 Hz。耗电量会因此增加。</string>
     <string name="accessibility_vibration_settings_title">振动和触感反馈</string>
     <string name="emergency_gesture_screen_title">紧急求救</string>
-    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_mode_done">完成</string>
     <string name="vibrate_for_calls_category_title">通话</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">显示电子钱包</string>
     <string name="lockscreen_privacy_controls_setting_toggle">显示设备控制器</string>
     <string name="lockscreen_privacy_wallet_summary">允许从锁定屏幕和快捷设置使用电子钱包</string>
     <string name="lockscreen_privacy_controls_summary">锁定时访问控制器</string>
-    <string name="abc_action_menu_overflow_description">更多选项</string>
-    <string name="abc_action_mode_done">完成</string>
     <string name="abc_activity_chooser_view_see_all">查看全部</string>
     <string name="abc_activitychooserview_choose_application">选择应用</string>
     <string name="abc_capital_off">关闭</string>
@@ -206,13 +204,13 @@
     <string name="accessibility_disable_animations">移除动画</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">调整设备上的颜色显示方式。此设置对以下情况有帮助：&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;您想更准确地看颜色&lt;/li> &lt;li>&amp;nbsp;您想去除一些颜色，以便集中注意力&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">色彩校正</string>
-    <string name="accessibility_display_inversion_preference_subtitle">颜色反转功能可将亮屏幕调暗。&lt;br/>&lt;br/>注意：&lt;ol> &lt;li>颜色反转功能也可将暗屏幕调亮。&lt;/li> &lt;li>媒体文件和图片中的颜色会发生变化。&lt;/li> &lt;li>深色主题功能可用于显示深色背景。深色主题适用于支持该模式的应用。颜色反转功能适用于所有应用。&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">颜色反转功能可将亮屏幕调暗。&lt;br/>&lt;br/>注意：&lt;ol> &lt;li> 颜色反转功能也可将暗屏幕调亮。&lt;/li> &lt;li> 媒体文件和图片中的颜色会发生变化。&lt;/li> &lt;li> 深色主题功能可用于显示深色背景。深色主题适用于支持该模式的应用。颜色反转功能适用于所有应用。&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">颜色反转</string>
     <string name="accessibility_display_inversion_switch_title">使用颜色反转</string>
     <string name="accessibility_ethernet_connected">以太网。</string>
     <string name="accessibility_ethernet_disconnected">以太网已断开连接。</string>
-    <string name="accessibility_feature_state_off">关闭</string>
-    <string name="accessibility_feature_state_on">开启</string>
+    <string name="accessibility_feature_state_off">已关闭</string>
+    <string name="accessibility_feature_state_on">已开启</string>
     <string name="accessibility_global_gesture_preference_title">音量键快捷方式</string>
     <string name="accessibility_hearingaid_active_device_summary">%1$s已启用</string>
     <string name="accessibility_hearingaid_adding_summary">添加助听器</string>
@@ -324,10 +322,10 @@
     <string name="accessibility_shortcut_type_software_gesture">用两根手指从屏幕底部向上滑动</string>
     <string name="accessibility_shortcut_type_triple_tap">点按三次屏幕</string>
     <string name="accessibility_shortcuts_settings_title">无障碍快捷方式</string>
-    <string name="accessibility_summary_shortcut_disabled">关闭</string>
+    <string name="accessibility_summary_shortcut_disabled">已关闭</string>
     <string name="accessibility_summary_shortcut_enabled">快捷方式已开启</string>
-    <string name="accessibility_summary_state_disabled">关闭</string>
-    <string name="accessibility_summary_state_enabled">开启</string>
+    <string name="accessibility_summary_state_disabled">已关闭</string>
+    <string name="accessibility_summary_state_enabled">已开启</string>
     <string name="accessibility_summary_state_stopped">无法运行。点按即可查看相关信息。</string>
     <string name="accessibility_sync_disabled">未启用同步功能</string>
     <string name="accessibility_sync_enabled">同步功能已启用</string>
@@ -426,8 +424,8 @@
     <string name="adaptive_charging_description">夜晚稳定充电，养护电池，延长使用寿命。您可以设定闹钟，让设备在您起床前充满电。</string>
     <string name="adaptive_charging_time_estimate"><b>正在自适应充电</b> • %1$s前充满</string>
     <string name="adaptive_connectivity_summary">自动管理您的网络连接，从而延长电池续航时间并提升设备性能</string>
-    <string name="adaptive_connectivity_switch_off">关闭</string>
-    <string name="adaptive_connectivity_switch_on">开启</string>
+    <string name="adaptive_connectivity_switch_off">已关闭</string>
+    <string name="adaptive_connectivity_switch_on">已开启</string>
     <string name="adaptive_connectivity_title">自适应网络连接</string>
     <string name="adaptive_sleep_camera_lock_summary">必须解锁相机才能使用屏幕感知功能</string>
     <string name="adaptive_sleep_contextual_slice_summary">直视屏幕时让屏幕保持开启</string>
@@ -436,7 +434,7 @@
     <string name="adaptive_sleep_manage_permission_button">管理权限</string>
     <string name="adaptive_sleep_privacy">屏幕感知功能会通过前置摄像头来确定是否有人正在看屏幕。这个功能只会在设备上运行，系统绝对不会存储图片或将图片发送给 Google。</string>
     <string name="adaptive_sleep_summary_no_permission">屏幕感知功能需要获得相机访问权限。点按即可管理“设备个性化服务”的权限</string>
-    <string name="adaptive_sleep_summary_off">关闭</string>
+    <string name="adaptive_sleep_summary_off">已关闭</string>
     <string name="adaptive_sleep_summary_on">开启 / 您看着屏幕时，它将不会关闭</string>
     <string name="adaptive_sleep_title_no_permission">需要相机访问权限</string>
     <string name="adb_authorization_timeout_summary">停用以下功能：如果系统在默认时间（7 天）或用户配置的时间（最短 1 天）内未重新建立连接，就自动撤消 adb 授权。</string>
@@ -544,7 +542,7 @@
 
 您只需将两台设备靠在一起（通常是背靠背），然后点按屏幕确认，应用就会确定传输哪些内容。"</string>
     <string name="android_beam_label">Android Beam</string>
-    <string name="android_beam_off_summary">关闭</string>
+    <string name="android_beam_off_summary">已关闭</string>
     <string name="android_beam_on_summary">已准备好通过 NFC 传输应用内容</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_version_pending_update_summary">有新版本可用</string>
@@ -738,8 +736,8 @@
     <string name="auto_brightness_summary_default">默认使用偏好的亮度</string>
     <string name="auto_brightness_summary_high">偏好的亮度为“高”</string>
     <string name="auto_brightness_summary_low">偏好的亮度为“低”</string>
-    <string name="auto_brightness_summary_off">关闭</string>
-    <string name="auto_brightness_summary_on">开启</string>
+    <string name="auto_brightness_summary_off">已关闭</string>
+    <string name="auto_brightness_summary_on">已开启</string>
     <string name="auto_brightness_summary_very_high">偏好的亮度为“很高”</string>
     <string name="auto_brightness_summary_very_low">偏好的亮度为“很低”</string>
     <string name="auto_brightness_very_high_summary">这会增加耗电量</string>
@@ -761,8 +759,8 @@
     <string name="auto_rotate_camera_lock_title">相机已锁定</string>
     <string name="auto_rotate_manage_permission_button">管理权限</string>
     <string name="auto_rotate_option_face_based">开启 - 基于人脸</string>
-    <string name="auto_rotate_option_off">关闭</string>
-    <string name="auto_rotate_option_on">开启</string>
+    <string name="auto_rotate_option_off">已关闭</string>
+    <string name="auto_rotate_option_on">已开启</string>
     <string name="auto_rotate_settings_primary_switch_title">使用自动屏幕旋转</string>
     <string name="auto_rotate_summary_no_permission">人脸检测功能需要获得相机使用权限。点按即可管理“设备个性化服务”的权限</string>
     <string name="auto_rotate_switch_face_based">启用人脸检测</string>
@@ -880,8 +878,8 @@
 • 您之前使用的手机的充电线或数据线
 • Pixel 手机随附的 Quick Switch Adapter"</string>
     <string name="backup_suggestion_what_is_needed_title">需要准备的东西</string>
-    <string name="backup_summary_state_off">关闭</string>
-    <string name="backup_summary_state_on">开启</string>
+    <string name="backup_summary_state_off">已关闭</string>
+    <string name="backup_summary_state_on">已开启</string>
     <string name="baseband_version">基带版本</string>
     <string name="battery_action_app_details">应用信息</string>
     <string name="battery_action_app_settings">应用设置</string>
@@ -932,7 +930,7 @@
     <string name="battery_info_status_unknown">未知</string>
     <string name="battery_last_full_charge">上次充满电</string>
     <string name="battery_level_title">电池电量</string>
-    <string name="battery_manager_off">关闭</string>
+    <string name="battery_manager_off">已关闭</string>
     <string name="battery_manager_summary">延长电池续航时间并优化充电</string>
     <string name="battery_missing_link_a11y_message">点按即可详细了解此错误</string>
     <string name="battery_missing_link_message">了解详情</string>
@@ -956,13 +954,13 @@
     <string name="battery_saver_main_switch_title">使用“省电模式”</string>
     <string name="battery_saver_master_switch_title">使用省电模式</string>
     <string name="battery_saver_off_scheduled_summary">在电量降到 %1$s 时开启</string>
-    <string name="battery_saver_off_summary">关闭</string>
-    <string name="battery_saver_on_summary">开启</string>
+    <string name="battery_saver_off_summary">已关闭</string>
+    <string name="battery_saver_on_summary">已开启</string>
     <string name="battery_saver_pref_auto_routine_summary">将会按照您的日常安排启用</string>
     <string name="battery_saver_schedule_settings_title">设置时间表</string>
     <string name="battery_saver_seekbar_title_placeholder">开启</string>
     <string name="battery_saver_sticky_description_new">在手机电量充到 ^1% 以上时关闭省电模式</string>
-    <string name="battery_saver_sticky_title_new">充电时关闭</string>
+    <string name="battery_saver_sticky_title_new">充完电关闭</string>
     <string name="battery_saver_turn_on_automatically_never">一律不</string>
     <string name="battery_saver_turn_on_automatically_pct">电量剩余 %1$s 时</string>
     <string name="battery_saver_turn_on_automatically_title">自动开启</string>
@@ -1158,7 +1156,7 @@
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title">要重启设备吗？</string>
     <string name="bluetooth_disable_absolute_volume">停用绝对音量功能</string>
     <string name="bluetooth_disable_absolute_volume_summary">停用蓝牙绝对音量功能，即可避免在连接到远程设备时出现音量问题（例如音量高得让人无法接受或无法控制音量等）。</string>
-    <string name="bluetooth_disabled">关闭</string>
+    <string name="bluetooth_disabled">已关闭</string>
     <string name="bluetooth_disconnect_a2dp_profile">%1$s将与媒体音频断开连接。</string>
     <string name="bluetooth_disconnect_all_profiles">您的手机将断开与%1$s的连接。</string>
     <string name="bluetooth_disconnect_dialog_ok">断开连接</string>
@@ -1321,8 +1319,8 @@
     <string name="bluetooth_select_avrcp_version_string">蓝牙 AVRCP 版本</string>
     <string name="bluetooth_select_map_version_dialog_title">选择蓝牙 MAP 版本</string>
     <string name="bluetooth_select_map_version_string">蓝牙 MAP 版本</string>
-    <string name="bluetooth_setting_off">关闭</string>
-    <string name="bluetooth_setting_on">开启</string>
+    <string name="bluetooth_setting_off">已关闭</string>
+    <string name="bluetooth_setting_on">已开启</string>
     <string name="bluetooth_settings">蓝牙</string>
     <string name="bluetooth_settings_summary">管理连接、设置设备名称和可检测性</string>
     <string name="bluetooth_settings_title">蓝牙</string>
@@ -1826,8 +1824,8 @@
     <string name="data_overusage">超过 ^1</string>
     <string name="data_remaining">还剩 ^1</string>
     <string name="data_roaming_enable_mobile">漫游</string>
-    <string name="data_saver_off">关闭</string>
-    <string name="data_saver_on">开启</string>
+    <string name="data_saver_off">已关闭</string>
+    <string name="data_saver_on">已开启</string>
     <string name="data_saver_switch_title">使用流量节省程序</string>
     <string name="data_saver_title">流量节省程序</string>
     <string name="data_size_label">用户数据</string>
@@ -2523,8 +2521,8 @@
     <string name="gesture_preference_summary">通过快速手势操作手机</string>
     <string name="gesture_prevent_ringing_sound_title">阻止响铃的快捷方式</string>
     <string name="gesture_prevent_ringing_title">同时按电源和音量调高按钮即可设置为</string>
-    <string name="gesture_setting_off">关闭</string>
-    <string name="gesture_setting_on">开启</string>
+    <string name="gesture_setting_off">已关闭</string>
+    <string name="gesture_setting_on">已开启</string>
     <string name="gesture_settings_activity_title">手势设置</string>
     <string name="gesture_silence_footer"><annotation link="link">偏好设置</annotation></string>
     <string name="gesture_silence_off_summary" />
@@ -2868,7 +2866,7 @@
     <string name="location_app_permission_summary_location_off">位置信息服务已关闭</string>
     <string name="location_category">位置</string>
     <string name="location_category_location_services">位置信息服务</string>
-    <string name="location_category_recent_location_access">近期位置信息访问记录</string>
+    <string name="location_category_recent_location_access">近期位置信息访问</string>
     <string name="location_category_recent_location_requests">近期位置信息请求</string>
     <string name="location_gps">GPS卫星定位</string>
     <string name="location_high_battery_use">高电耗</string>
@@ -2894,7 +2892,7 @@
     <string name="location_settings_footer_location_off">应用和服务的位置信息使用权处于关闭状态。在您拨打紧急电话号码或向该号码发送短信时，系统可能仍会将您的设备位置信息发送给急救人员。</string>
     <string name="location_settings_loading_app_permission_stats">正在加载…</string>
     <string name="location_settings_primary_switch_title">使用位置信息</string>
-    <string name="location_settings_summary_location_off">关闭</string>
+    <string name="location_settings_summary_location_off">已关闭</string>
     <string name="location_settings_title">位置信息</string>
     <string name="location_sources_heading">位置信息来源</string>
     <string name="location_street_level">允许应用使用您手机上的GPS定位您的位置</string>
@@ -3676,8 +3674,8 @@
     <string name="notification_summary_level">%d 级</string>
     <string name="notification_summary_none">目前设为接收所有应用的通知</string>
     <string name="notification_switch_label">所有“%1$s”通知</string>
-    <string name="notification_toggle_off">关闭</string>
-    <string name="notification_toggle_on">开启</string>
+    <string name="notification_toggle_off">已关闭</string>
+    <string name="notification_toggle_on">已开启</string>
     <string name="notification_unknown_sound_title">应用提供的提示音</string>
     <string name="notification_vibrate_title">振动</string>
     <string name="notification_volume_option_title">通知音量</string>
@@ -3685,8 +3683,8 @@
     <string name="notifications_bubble_setting_description">部分对话将以浮动图标形式显示在其他应用上</string>
     <string name="notifications_bubble_setting_on_summary">已开启/对话能以浮动图标形式显示</string>
     <string name="notifications_bubble_setting_title">允许应用显示对话泡</string>
-    <string name="notifications_disabled">关闭</string>
-    <string name="notifications_enabled">开启</string>
+    <string name="notifications_disabled">已关闭</string>
+    <string name="notifications_enabled">已开启</string>
     <string name="notifications_enabled_with_info">%1$s / %2$s</string>
     <string name="notifications_hidden">屏幕锁定时不显示</string>
     <string name="notifications_label">通知</string>
@@ -3902,8 +3900,8 @@
     <string name="print_cancelling_state_title_template">正在取消打印“%1$s”</string>
     <string name="print_configuring_state_title_template">正在配置“%1$s”</string>
     <string name="print_failed_state_title_template">打印机在打印“%1$s”时出错</string>
-    <string name="print_feature_state_off">关闭</string>
-    <string name="print_feature_state_on">开启</string>
+    <string name="print_feature_state_off">已关闭</string>
+    <string name="print_feature_state_on">已开启</string>
     <string name="print_job_summary">"%1$s
 %2$s"</string>
     <string name="print_menu_item_add_printer">添加打印机</string>
@@ -3922,7 +3920,7 @@
     <string name="print_searching_for_printers">正在搜索打印机</string>
     <string name="print_service_disabled">服务已停用</string>
     <string name="print_settings">打印</string>
-    <string name="print_settings_summary_no_service">关闭</string>
+    <string name="print_settings_summary_no_service">已关闭</string>
     <string name="print_settings_title">打印服务</string>
     <string name="printer_info_desc">此打印机的详细信息</string>
     <string name="priority_conversation_count_zero">没有优先对话</string>
@@ -3931,8 +3929,8 @@
     <string name="privacy_settings_title">备份</string>
     <string name="private_dns_broken">无法访问私人 DNS 服务器</string>
     <string name="private_dns_help_message"><annotation id="url">详细了解</annotation>私人 DNS 功能</string>
-    <string name="private_dns_mode_off">关闭</string>
-    <string name="private_dns_mode_on">开启</string>
+    <string name="private_dns_mode_off">已关闭</string>
+    <string name="private_dns_mode_on">已开启</string>
     <string name="private_dns_mode_opportunistic">自动</string>
     <string name="private_dns_mode_provider">私人 DNS 提供商主机名</string>
     <string name="private_dns_mode_provider_failure">无法连接</string>
@@ -4021,7 +4019,7 @@
     <string name="reduce_bright_colors_intensity_preference_title">亮度</string>
     <string name="reduce_bright_colors_intensity_start_label">更暗</string>
     <string name="reduce_bright_colors_persist_preference_title">设备重启后保持开启状态</string>
-    <string name="reduce_bright_colors_preference_subtitle">调暗屏幕可让您看手机时更舒适。&lt;br/>&lt;br/> 此设置适用于以下情况：&lt;ol> &lt;li> 手机的默认最低亮度依然太亮&lt;/li> &lt;li> 在夜间或睡前昏暗的房间等较暗环境中使用手机&lt;/li> &lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">调暗屏幕可让您看手机时更舒适。&lt;br/>&lt;br/> 此设置适用于以下情况：&lt;ol> &lt;li> 手机的默认最低亮度依然太亮&lt;/li> &lt;li> 在夜间或睡前昏暗的房间等较暗环境中使用手机&lt;/li> &lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">将屏幕调得比手机最低亮度更暗</string>
     <string name="reduce_bright_colors_preference_title">极暗</string>
     <string name="reduce_bright_colors_switch_title">可将屏幕调成极暗</string>
@@ -4191,7 +4189,7 @@
     <string name="safety_and_regulatory_info">安全和监管手册</string>
     <string name="save">保存</string>
     <string name="saved_network">由“%1$s”保存</string>
-    <string name="scanning_status_text_off">关闭</string>
+    <string name="scanning_status_text_off">已关闭</string>
     <string name="scanning_status_text_on">已开启</string>
     <string name="scanning_status_text_wifi_off_ble_off">WLAN 扫描和蓝牙扫描功能均已关闭</string>
     <string name="scanning_status_text_wifi_off_ble_on">已开启蓝牙扫描功能，并关闭 WLAN 扫描功能</string>
@@ -4221,8 +4219,8 @@
 1.\u0009开启固定应用功能\u0009
 2.\u0009打开“概览”\u0009
 3.\u0009点按屏幕顶部的应用图标，然后点按“固定”"</string>
-    <string name="screen_pinning_switch_off_text">关闭</string>
-    <string name="screen_pinning_switch_on_text">开启</string>
+    <string name="screen_pinning_switch_off_text">已关闭</string>
+    <string name="screen_pinning_switch_on_text">已开启</string>
     <string name="screen_pinning_title">固定应用</string>
     <string name="screen_pinning_unlock_none">取消固定屏幕时锁定设备</string>
     <string name="screen_pinning_unlock_password">取消固定屏幕前要求输入密码</string>
@@ -4263,7 +4261,7 @@
     <string name="screensaver_settings_summary_either_long">充电或插入基座时</string>
     <string name="screensaver_settings_summary_either_short">以上任一情况</string>
     <string name="screensaver_settings_summary_never">一律不</string>
-    <string name="screensaver_settings_summary_off">关闭</string>
+    <string name="screensaver_settings_summary_off">已关闭</string>
     <string name="screensaver_settings_summary_sleep">充电时</string>
     <string name="screensaver_settings_when_to_dream">启用时机</string>
     <string name="sd_card_settings_label">USB存储设备</string>
@@ -4707,7 +4705,7 @@ PIN 码可能不正确。"</string>
     <string name="sim_lock_on">需要输入 PIN 码才能使用手机</string>
     <string name="sim_lock_settings">SIM 卡锁定设置</string>
     <string name="sim_lock_settings_category">SIM 卡锁定</string>
-    <string name="sim_lock_settings_summary_off">关闭</string>
+    <string name="sim_lock_settings_summary_off">已关闭</string>
     <string name="sim_lock_settings_summary_on">已锁定</string>
     <string name="sim_lock_settings_title">SIM 卡锁定方式</string>
     <string name="sim_multi_sims_summary">选择您想用于移动数据网络的 SIM 卡。</string>
@@ -4876,8 +4874,8 @@ PIN 码可能不正确。"</string>
     <string name="storage_low_summary">某些系统功能（如同步）可能无法正常使用。请尝试删除或取消在本地保存某些内容（如应用数据或媒体内容），以便释放存储空间。</string>
     <string name="storage_low_title">存储空间不足</string>
     <string name="storage_manager_indicator">智能存储：^1</string>
-    <string name="storage_manager_indicator_off">关闭</string>
-    <string name="storage_manager_indicator_on">开启</string>
+    <string name="storage_manager_indicator_off">已关闭</string>
+    <string name="storage_manager_indicator_on">已开启</string>
     <string name="storage_menu_forget">取消保存</string>
     <string name="storage_menu_format">格式化</string>
     <string name="storage_menu_format_private">格式化为内部存储设备</string>
@@ -5088,7 +5086,7 @@ PIN 码可能不正确。"</string>
     <string name="take_call_on_title">接听来电的设备：</string>
     <string name="talkback_summary">主要适用于盲人和视力不佳者的屏幕阅读器</string>
     <string name="talkback_title">TalkBack</string>
-    <string name="tap_a_network_to_connect">点按网络以连接</string>
+    <string name="tap_a_network_to_connect">点按要连接的网络</string>
     <string name="tap_to_sign_up">点按即可注册</string>
     <string name="terms_title">条款</string>
     <string name="testing">测试</string>
@@ -6246,7 +6244,7 @@ PIN 码可能不正确。"</string>
     <string name="zen_mode_rule_name_warning">时间表名称已被使用</string>
     <string name="zen_mode_rule_not_found_text">找不到规则。</string>
     <string name="zen_mode_rule_rename_button">重命名</string>
-    <string name="zen_mode_rule_summary_enabled_combination">开启 / %1$s</string>
+    <string name="zen_mode_rule_summary_enabled_combination">已开启 / %1$s</string>
     <string name="zen_mode_rule_summary_provider_combination">"%1$s
 %2$s"</string>
     <string name="zen_mode_rule_type_unknown">未知</string>
@@ -6277,8 +6275,8 @@ PIN 码可能不正确。"</string>
     <string name="zen_mode_settings_turn_on_dialog_title">开启勿扰模式</string>
     <string name="zen_mode_slice_subtitle">限制打扰</string>
     <string name="zen_mode_sound_summary_off">{count,plural, =0{关闭}=1{关闭/1 个时间表可以自动开启}other{关闭/# 个时间表可以自动开启}}</string>
-    <string name="zen_mode_sound_summary_on">开启</string>
-    <string name="zen_mode_sound_summary_on_with_info">开启 / %1$s</string>
+    <string name="zen_mode_sound_summary_on">已开启</string>
+    <string name="zen_mode_sound_summary_on_with_info">已开启 / %1$s</string>
     <string name="zen_mode_sounds_none">任何音效均不能例外</string>
     <string name="zen_mode_starred_callers">已加星标的联系人</string>
     <string name="zen_mode_starred_contacts_empty_name">（无姓名）</string>

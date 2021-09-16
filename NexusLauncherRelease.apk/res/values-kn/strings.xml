@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s ಮೂಲಕ ಫೋಲ್ಡರ್‌ಗೆ ಸೇರಿಸಿ</string>
     <string name="add_to_home_screen">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸಿ</string>
     <string name="added_to_folder">ಐಟಂ ಅನ್ನು ಫೋಲ್ಡರ್‌ಗೆ ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="added_to_home_screen_accessibility_text">ಹೋಮ್‌ಸ್ಕ್ರೀನ್‌ಗೆ %1$s ವಿಜೆಟ್ ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ</string>
     <string name="all_apps_button_label">ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಪಟ್ಟಿ</string>
     <string name="all_apps_button_personal_label">ವೈಯಕ್ತಿಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಪಟ್ಟಿ</string>
     <string name="all_apps_button_work_label">ಕೆಲಸದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಪಟ್ಟಿ</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">ಫೋನ್‌ ತಿರುಗಿಸಿದಾಗ</string>
     <string name="allow_rotation_title">ಮುಖಪುಟ ತಿರುಗುವಿಕೆಯನ್ನು ಅನುಮತಿಸಿ</string>
     <string name="allset_description">ನಿಮ್ಮ ಫೋನ್ ಬಳಸುವುದನ್ನು ಪ್ರಾರಂಭಿಸಲು ನೀವು ಸಿದ್ದರಾಗಿರುವಿರಿ</string>
+    <string name="allset_hint">ಮುಖಪುಟಕ್ಕೆ ಹೋಗಲು ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="allset_navigation_settings"><annotation id="link">ಸಿಸ್ಟಂ ನ್ಯಾವಿಗೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</annotation></string>
     <string name="allset_title">ಎಲ್ಲವೂ ಸಿದ್ಧವಾಗಿದೆ!</string>
     <string name="app_downloading_title">%1$s ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ, %2$s ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="app_info_drop_target_label">ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s ಸ್ಥಾಪಿಸಲು ಕಾಯಲಾಗುತ್ತಿದೆ</string>
     <string name="auto_add_shortcuts_description">ಹೊಸ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ</string>
     <string name="auto_add_shortcuts_label">ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ಗೆ ಆ್ಯಪ್ ಐಕಾನ್‌ಗಳು ಸೇರಿಸಿ</string>
+    <string name="back_gesture_feedback_cancelled">ನೀವು ಬಲ ಅಥವಾ ಎಡ ಅಂಚಿನಿಂದ ಸ್ಕ್ರೀನ್‌ನ ಮಧ್ಯಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡುತ್ತಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಂಡು ಬಿಟ್ಟುಬಿಡಿ.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">ಹಿಂದೆ ಹೋಗಲು ಬಲದಿಂದ ಸ್ವೈಪ್ ಮಾಡುವುದು ಹೇಗೆಂದು ಕಲಿತಿರಿ. ಮುಂದೆ, ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಿಸುವುದು ಹೇಗೆಂದು ತಿಳಿಯಿರಿ.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">ನೀವು ಗೋ ಬ್ಯಾಕ್ ಗೆಸ್ಚರ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">ನೀವು ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗಕ್ಕೆ ಹೆಚ್ಚು ಹತ್ತಿರ ಸ್ವೈಪ್ ಮಾಡದಂತೆ ನೋಡಿಕೊಳ್ಳಿ.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">ನೀವು ಬಲಕೊನೆಯ ಅಂಚಿನಿಂದ ಅಥವಾ ಎಡಕೊನೆಯ ಅಂಚಿನಿಂದ ಸ್ವೈಪ್ ಮಾಡುತ್ತಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
     <string name="back_gesture_intro_subtitle">ಕೊನೆಯ ಸ್ಕ್ರೀನ್‌ಗೆ ಹಿಂತಿರುಗಲು, ಎಡ ಅಥವಾ ಬಲ ಅಂಚಿನಿಂದ ಸ್ಕ್ರೀನ್ ಮಧ್ಯಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
     <string name="back_gesture_intro_title">ಹಿಂದಕ್ಕೆ ಹೋಗಲು ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="back_gesture_tutorial_confirm_subtitle">ಬ್ಯಾಕ್ ಗೆಸ್ಚರ್‌ನ ಸೂಕ್ಷ್ಮತೆ ಬದಲಾಯಿಸಲು, ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ</string>
@@ -119,7 +124,7 @@
     <string name="dismiss_prediction_label">ಆ್ಯಪ್ ಅನ್ನು ಸೂಚಿಸಬೇಡಿ</string>
     <string name="done">ಮುಗಿದಿದೆ</string>
     <string name="expand_button_title">ಸುಧಾರಿತ</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">ಪ್ರತಿಕ್ರಿಯೆ</string>
     <string name="folder_closed">ಫೋಲ್ಡರ್ ಮುಚ್ಚಿದೆ</string>
     <string name="folder_created">ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗಿದೆ</string>
     <string name="folder_hint_text">ಹೆಸರನ್ನು ಎಡಿಟ್ ಮಾಡಿ</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">ಮರುಹೆಸರನ್ನು ಉಳಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="gadget_error_text">ವಿಜೆಟ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="gadget_setup_text">ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="gesture_tutorial_action_button_label">ಮುಗಿದಿದೆ</string>
     <string name="gesture_tutorial_action_button_label_cancel">ರದ್ದುಮಾಡಿ</string>
     <string name="gesture_tutorial_action_button_label_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="gesture_tutorial_action_button_label_skip">ಸ್ಕಿಪ್ ಮಾಡಿ</string>
@@ -204,11 +210,12 @@
     <string name="notification_dots_title">ಅಧಿಸೂಚನೆ ಡಾಟ್‌ಗಳು</string>
     <string name="notifications_header">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="out_of_space">ಈ ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ</string>
-    <string name="overview_gesture_feedback_complete_with_follow_up">ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಕೆಯನ್ನು ನೀವು ತಿಳಿದುಕೊಂಡಿರುವಿರಿ. ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಲು, ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.</string>
+    <string name="overview_gesture_feedback_complete_with_follow_up">ಗೆಶ್ಚರ್‌ಗಳನ್ನು ಬಳಸುವುದು ಹೇಗೆಂದು ನೀವು ತಿಳಿದುಕೊಂಡಿರುವಿರಿ. ಗೆಶ್ಚರ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಲು, ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.</string>
     <string name="overview_gesture_feedback_complete_without_follow_up">ನೀವು ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುವ ಗೆಸ್ಚರ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ.</string>
     <string name="overview_gesture_feedback_home_detected">ಬೆರಳನ್ನು ಮೇಲೆತ್ತುವ ಮೊದಲು ವಿಂಡೋವನ್ನು ಹೆಚ್ಚು ಸಮಯ ಹಿಡಿದಿಡಲು ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಗಿನ ಅಂಚಿನಿಂದ ನೀವು ಸ್ವೈಪ್ ಮಾಡುತ್ತಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">ನೀವು ನೇರವಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ನಂತರ ವಿರಾಮಗೊಳಿಸಿ.</string>
+    <string name="overview_gesture_intro_subtitle">ಆ್ಯಪ್‌ಗಳ ನಡುವೆ ಬದಲಿಸಲು, ನಿಮ್ಮ ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ, ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳಿ, ನಂತರ ಬಿಟ್ಟುಬಿಡಿ.</string>
     <string name="overview_gesture_intro_title">ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="overview_selection_pref_desc">ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುವಾಗ ಸ್ಪರ್ಶಸಿ AMP; ಮತ್ತು ಕ್ರಿಯೆಗಳನ್ನು ನೋಡಲು ಚಿತ್ರಗಳನ್ನು ಮತ್ತು ಸಂದೇಶಗಳನ್ನು ಒತ್ತಿಹಿಡಿಯಿರಿ</string>
     <string name="overview_selection_pref_title">ಅವಲೋಕನ ಆಯ್ಕೆ</string>
@@ -280,14 +287,14 @@
     <string name="smartspace_flight_card_seat_header">ಆಸನ</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">ಪ್ರಾಶಸ್ತ್ಯಗಳು</string>
-    <string name="smartspace_preferences_in_settings">ಲೈವ್ ಸ್ಪೇಸ್</string>
+    <string name="smartspace_preferences_in_settings">ಇಣುಕು ನೋಟದಲ್ಲಿ</string>
     <string name="smartspace_preferences_in_settings_desc">ನಿಮ್ಮ ಮುಖ ಪುಟದ ಪರದೆಯ ಮೇಲ್ಬಾಗದಲ್ಲಿ</string>
     <string name="smartspace_preferences_manage">ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</string>
     <string name="smartspace_preferences_turn_off_action">ಆಫ್ ಮಾಡಿ</string>
-    <string name="smartspace_preferences_turn_off_description">ಮುಂಬರುವ ಈವೆಂಟ್‌ಗಳ ಕುರಿತು ಹವಾಮಾನ ಮತ್ತು ಮಾಹಿತಿಯು ನಿಮ್ಮ ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸುವುದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ.</string>
+    <string name="smartspace_preferences_turn_off_description">ಹವಾಮಾನ ಮತ್ತು ಮುಂಬರುವ ಈವೆಂಟ್‌ಗಳ ಕುರಿತ ಮಾಹಿತಿಯನ್ನು ನಿಮ್ಮ ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸುವುದನ್ನು ಇದು ನಿಲ್ಲಿಸುತ್ತದೆ.</string>
     <string name="smartspace_preferences_turn_off_title">%1$s ಆಫ್ ಮಾಡಿ</string>
     <string name="smartspace_preferences_turn_on_action">ಆನ್ ಮಾಡಿ</string>
-    <string name="smartspace_preferences_turn_on_description">ಮುಂಬರುವ ಈವೆಂಟ್‌ಗಳ ಕುರಿತು ಹವಾಮಾನ ಮತ್ತು ಮಾಹಿತಿಯು ನಿಮ್ಮ ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="smartspace_preferences_turn_on_description">ಹವಾಮಾನ ಮತ್ತು ಮುಂಬರುವ ಈವೆಂಟ್‌ಗಳ ಕುರಿತು ಮಾಹಿತಿಯನ್ನು ನಿಮ್ಮ ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ.</string>
     <string name="smartspace_preferences_turn_on_title">%1$s ಆನ್ ಮಾಡಿ</string>
     <string name="smartspace_shopping_list_overflow">+ ಇನ್ನೂ %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>

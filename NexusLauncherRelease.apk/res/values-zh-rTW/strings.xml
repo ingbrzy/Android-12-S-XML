@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">新增到「%1$s」所在資料夾</string>
     <string name="add_to_home_screen">新增到主畫面</string>
     <string name="added_to_folder">已將項目新增到資料夾</string>
+    <string name="added_to_home_screen_accessibility_text">已將「%1$s」小工具新增到主畫面</string>
     <string name="all_apps_button_label">應用程式清單</string>
     <string name="all_apps_button_personal_label">個人應用程式清單</string>
     <string name="all_apps_button_work_label">辦公應用程式清單</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">當手機旋轉時</string>
     <string name="allow_rotation_title">允許旋轉主畫面</string>
     <string name="allset_description">你可以開始使用手機了</string>
+    <string name="allset_hint">向上滑動即可前往主畫面</string>
+    <string name="allset_navigation_settings"><annotation id="link">系統操作機制設定</annotation></string>
     <string name="allset_title">設定完成！</string>
     <string name="app_downloading_title">正在下載「%1$s」，已完成 %2$s</string>
     <string name="app_info_drop_target_label">應用程式資訊</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">正在等待安裝「%1$s」</string>
     <string name="auto_add_shortcuts_description">適用於新安裝的應用程式</string>
     <string name="auto_add_shortcuts_label">將應用程式圖示加到主畫面</string>
+    <string name="back_gesture_feedback_cancelled">請從螢幕右側或左側邊緣往中央滑動，然後放開手指。</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">你已瞭解如何透過「由右向左滑動」手勢返回。接著，一起來瞭解如何切換應用程式。</string>
     <string name="back_gesture_feedback_complete_without_follow_up">你已完成「返回」手勢的教學課程。</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">滑動時，手的位置不要太接近螢幕底部。</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">請從螢幕右側或左側邊緣滑動。</string>
     <string name="back_gesture_intro_subtitle">如要返回上一個畫面，請從螢幕左側或右側邊緣往中央滑動。</string>
     <string name="back_gesture_intro_title">滑動即可返回</string>
     <string name="back_gesture_tutorial_confirm_subtitle">如要變更「返回」手勢的敏感度，請前往「設定」</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">輕觸即可儲存新名稱</string>
     <string name="gadget_error_text">無法載入小工具</string>
     <string name="gadget_setup_text">輕觸即可完成設定</string>
+    <string name="gesture_tutorial_action_button_label">完成</string>
     <string name="gesture_tutorial_action_button_label_cancel">取消</string>
     <string name="gesture_tutorial_action_button_label_settings">設定</string>
     <string name="gesture_tutorial_action_button_label_skip">略過</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">請按住視窗久一點，然後再放開。</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">請從螢幕底部邊緣向上滑動。</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">請向上滑動，然後停住。</string>
+    <string name="overview_gesture_intro_subtitle">如要切換不同的應用程式，請從螢幕底部向上滑動並按住，然後放開手指。</string>
     <string name="overview_gesture_intro_title">使用滑動手勢切換應用程式</string>
     <string name="overview_selection_pref_desc">切換應用程式時，按住文字和圖片即可查看動作</string>
     <string name="overview_selection_pref_title">總覽選項</string>
@@ -274,13 +281,13 @@
     <string name="skip_tutorial_dialog_title">要略過手勢操作教學課程嗎？</string>
     <string name="smartspace_calendar_event">將在 %2$s後進行的活動：%1$s</string>
     <string name="smartspace_calendar_event_now">正在進行的活動：%1$s</string>
-    <string name="smartspace_desc_off">已關閉</string>
-    <string name="smartspace_desc_on">已開啟</string>
+    <string name="smartspace_desc_off">關閉</string>
+    <string name="smartspace_desc_on">開啟</string>
     <string name="smartspace_flight_card_gate_header">登機門</string>
     <string name="smartspace_flight_card_seat_header">座位</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">偏好設定</string>
-    <string name="smartspace_preferences_in_settings">即時資訊卡</string>
+    <string name="smartspace_preferences_in_settings">快速查看</string>
     <string name="smartspace_preferences_in_settings_desc">主畫面頂端</string>
     <string name="smartspace_preferences_manage">自訂</string>
     <string name="smartspace_preferences_turn_off_action">關閉</string>

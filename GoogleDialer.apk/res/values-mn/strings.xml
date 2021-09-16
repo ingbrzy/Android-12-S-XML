@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Хариулах</string>
     <string name="a11y_call_incoming_decline_description">Татгалзах</string>
+    <string name="a11y_callscreen_animation">Call Screen-н анимаци</string>
     <string name="a11y_contact_menu_video_call_wifi">Wi-Fi ашиглан видео дуудлага хийх</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wi-Fi ашиглан дуут дуудлага хийх</string>
     <string name="a11y_conversation_history_entry_answered_call">Хамгийн сүүлийнх нь ^1-с ирсэн авсан дуудлага</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Залгагчдыг удирдах</string>
     <string name="a11y_expandedsheet_collapse">цэсийг буулгах</string>
     <string name="a11y_expandedsheet_expand">цэсийг дэлгэх</string>
-    <string name="a11y_favorites_education_dismiss">хаах</string>
     <string name="a11y_feature_demo_next_page">Дараагийн хуудас</string>
     <string name="a11y_feature_demo_page_indicator">%d-р хуудас</string>
     <string name="a11y_feature_demo_prev_page">Өмнөх хуудас</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1-н шуурхай харилцагчид</string>
+    <string name="a11y_icon_hd">HD дуудлага</string>
+    <string name="a11y_icon_hd_plus">HD Plus дуудлага</string>
+    <string name="a11y_icon_shared_data_call">Хуваалцсан дата дуудлага</string>
+    <string name="a11y_icon_verified">Баталгаажсан дуудлага</string>
+    <string name="a11y_icon_vilte">LTE дуудлагаар дуу оруулах</string>
+    <string name="a11y_icon_viwifi">Wi-Fi-р хийх видео дуудлага</string>
+    <string name="a11y_icon_volte">LTE дуудлагаар дуу оруулах</string>
+    <string name="a11y_icon_voz4g">4G дуудлагаар дуу оруулах</string>
+    <string name="a11y_icon_wifi">Wi-Fi дуудлага</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Хариулах бол хоёр хуруугаар дээш шударна уу. Таслах бол хоёр хуруугаар доош шударна уу.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Дуудлагад хариулахын тулд дээш, таслахын тулд доош хоёр хуруугаар шударна уу</string>
     <string name="a11y_new_call_log_entry_call_recording">дуудлага бичсэн</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1-р</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 руу RTT (Тухайн агшны текст) дуудлага хийх</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Хуваалцсан дата дуудлага</string>
     <string name="a11y_new_call_log_entry_tap_action">цэсийг дэлгэх</string>
     <string name="a11y_new_call_log_entry_video_call">^1 луу видео дуудлага хийх</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">^1 руу Wi-Fi ашиглан видео дуудлага хийх</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Залгахын өмнө дугаар засах</string>
     <string name="action_menu_back_from_search">хайлтыг зогсоох</string>
     <string name="action_menu_overflow_description">Нэмэлт сонголтууд</string>
+    <string name="activate_error_message">Call Screen-г идэвхжүүлэхэд асуудал гарлаа</string>
+    <string name="activated_successfully">Call Screen-г идэвхжүүлсэн</string>
     <string name="activity_not_available">Энэхүү төхөөрөмж дээр тухайн үйлдлийг гүйцэтгэх апликейшн байхгүй байна.</string>
     <string name="add_2sec_pause">2-сек зогсолт нэмэх</string>
     <string name="add_contact_not_available">Ямар ч харилцагчдын апликейшн байхгүй байна</string>
@@ -159,10 +171,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">Дуудлага блоклох тохиргоог түр хугацаагаар унтраасан</string>
     <string name="bm_suggest_call_button">Залгах</string>
     <string name="bm_suggest_chat_button">Чатлах</string>
-    <string name="bm_suggest_wait_min">"Чатлах
-%1$d мин хүлээнэ"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s-г уншаагүй</string>
+    <string name="bm_suggest_wait_min">"Чатыг
+ %1$d мин хүлээнэ"</string>
+    <string name="bm_suggest_wait_time_estimating">"Чат
+Ажиллаж байна…"</string>
     <string name="bottomsheet_action_expand_halfway">Хагас дэлгэнэ үү</string>
     <string name="bubble_bottom_action_end_call">Дуудлагыг таслах</string>
     <string name="bubble_bottom_action_hide">Нуух</string>
@@ -171,7 +183,10 @@
     <string name="call">Дуут дуудлага</string>
     <string name="callFailed_simError">SIM байхгүй эсхүл SIM алдаатай</string>
     <string name="callHistoryIconLabel">Дуудлагын түүх</string>
-    <string name="call_announcer_preference_footer_instruction_text">Ирсэн дуудлагад дуудлага хийгчийн нэр болон дугаарыг чангаар уншина</string>
+    <string name="call_action_label_automatically_screen">Автоматаар харуулна уу. Роботын дуудлагаас татгалзана уу.</string>
+    <string name="call_action_label_ring_phone">Утасны хонх дуугаргах (өгөгдмөл)</string>
+    <string name="call_action_label_silently_decline">Чимээгүйгээр татгалзана</string>
+    <string name="call_announcer_preference_footer_instruction_text">Ирсэн дуудлагад дуудлага хийгчийн нэр болон дугаарыг чангаар уншина.</string>
     <string name="call_announcer_preference_list_title">Дуудлага хийгчийн ID-г зарлах</string>
     <string name="call_announcer_preference_option_always">Үргэлж</string>
     <string name="call_announcer_preference_option_headset">Зөвхөн чихэвч ашиглаж байгаа тохиолдолд</string>
@@ -204,7 +219,7 @@
     <string name="call_incoming_answer">Хариулах</string>
     <string name="call_incoming_answer_rtt">RTT (Тухайн агшны текст)-р хариулах</string>
     <string name="call_incoming_answer_voice">Дуу хоолойгоор хариулах</string>
-    <string name="call_incoming_chip_answer_and_release">Дуудлагад хариулах, таслах</string>
+    <string name="call_incoming_chip_answer_and_release">Хариулаад, нөгөө дуудлагыг дуусгана уу</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT (Тухайн агшины текст) дуудлагаар хариулах</string>
     <string name="call_incoming_chip_answer_video_as_audio">Дуут дуудлагаар хариулах</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Видеогоо унтраалттайгаар хариулах</string>
@@ -220,7 +235,7 @@
     <string name="call_incoming_swipe_to_answer">Хариулах бол дээш шударна уу</string>
     <string name="call_incoming_swipe_to_reject">Татгалзах бол доош шударна уу</string>
     <string name="call_incoming_video_is_off">Таны видео унтраалттай байна</string>
-    <string name="call_incoming_will_disconnect">Энэ дуудлагад хариулснаар таны видео дуудлагыг таслах болно</string>
+    <string name="call_incoming_will_disconnect">Энэ дуудлагад хариулснаар таны нөгөө дуудлагыг дуусгана</string>
     <string name="call_incoming_will_disconnect_app">Хариулбал %1$s-н дуудлагыг таслах болно</string>
     <string name="call_isdn">ISDN руу залгах</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Спам гэж мэдээлэх/блоклох</string>
@@ -256,6 +271,7 @@
     <string name="call_reason_fragment_content_description">Дуудлагын шалтгаан: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Бичлэгийг хадгалсан.</string>
     <string name="call_recording_conversation_history_entry">Бичигдсэн</string>
+    <string name="call_recording_delete_snack_bar_undo">Болих</string>
     <string name="call_recording_disclaimer_agreen_button_text">Бичиж эхлэх</string>
     <string name="call_recording_disclaimer_content">"Таны дуудлагад байгаа та болон нөгөө хүн тань бичлэг хийхийг хүн бүр зөвшөөрөх шаардлагатай газар байж магадгүй. Хүн бүрд дуудлагыг бичихээс өмнө мэдэгдэнэ. Харилцан яриа бичих талаар хуулийг дагах эсэхээ та шийднэ. Дуудлага бичих үйлчилгээг хариуцлагатай ашиглаж, зөвхөн шаардлагатай үед үүнийг асаана уу.
 ^1
@@ -292,6 +308,7 @@
 Дуудлагын аудио эсвэл сийрүүлгийн аль алиныг нь хэнд ч илгээхгүй бөгөөд үүнд Google багтана."</string>
     <string name="call_screen_demo_page_4_title">Цаг хэмнэж, бухимдлаас сэргийлээрэй</string>
     <string name="call_screen_demo_setting_title">Туршилтыг харах</string>
+    <string name="call_screen_demo_settings_title">Туршилтыг харах</string>
     <string name="call_screen_demo_title">Call Screen хэрхэн ажилладаг вэ?</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Жишээ аудиог дуудах боломжгүй</string>
     <string name="call_screen_demo_unable_to_play_audio">Жишээ аудиог тоглуулах боломжгүй</string>
@@ -299,6 +316,7 @@
     <string name="call_screen_end_call_local_internal_message">Та дуудлагыг дуусгалаа</string>
     <string name="call_screen_end_call_non_local_internal_message">Дуудлага салсан байна</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen нь таны төхөөрөмж дээр Wi-Fi эсвэл датагүй ажиллана. Харилцан ярианы сийрүүлгийг зөвхөн таны утсан дээр үүсгэж, хадгалдаг. %1$s</string>
+    <string name="call_screen_how_it_works_title">Call Screen нь таны төхөөрөмж дээр Wi-Fi эсвэл датагүй ажиллана. Харилцан ярианы сийрүүлгийг зөвхөн таны утсан дээр үүсгэж, хадгалдаг. ^1</string>
     <string name="call_screen_incallui_chip_text">Дуудлага харуулах</string>
     <string name="call_screen_join_call_button_content_description">Дуудлагад нэгдэх</string>
     <string name="call_screen_join_call_internal_message">Та дуудлагад нэгдлээ</string>
@@ -308,6 +326,7 @@
     <string name="call_screen_saying_to_the_caller_state">Дуудлага хийгчид хэлж байна</string>
     <string name="call_screen_screening_call_from">Дараахын дуудлагыг шүүж байна</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Чанга яригчийн товчлуур</string>
     <string name="call_screen_suggestions_avatar_content_description">Лого</string>
     <string name="call_screen_survey_cancel_button">Цуцлах</string>
@@ -332,6 +351,8 @@
     <string name="call_work">Ажил руу залгах</string>
     <string name="call_work_mobile">Ажлын гар утас руу залгах</string>
     <string name="call_work_pager">Ажлын пейжер рүү залгах</string>
+    <string name="caller_action_error_cant_load_value">Одоогийн %1$s утгыг дуудах боломжгүй</string>
+    <string name="caller_action_error_cant_set_value">%1$s утгыг хадгалах боломжгүй</string>
     <string name="caller_id_announcement_multi_sim">%3$s sim дээр %2$s-с ирж буй %1$s дуудлага</string>
     <string name="caller_id_announcement_single_sim">%2$s-с ирж буй %1$s дуудлага</string>
     <string name="caller_id_business_data_details">Эдгээр онцлогт ашиглаж буй өгөгдлийг Google болон түүний лиценз олгогчид өгдөг. ^1</string>
@@ -371,22 +392,25 @@
     <string name="calling_blocked_number_precall_dialog_title">%s руу залгах уу?</string>
     <string name="calllog_add_to_contact">Харилцагчид нэмэх</string>
     <string name="calllog_create_new_contact">Шинэ харилцагч үүсгэх</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Call Screen-г идэвхжүүлж байна (Wi-Fi шаардлагатай)</string>
+    <string name="callscreen_settings_voice_setting_title">Дуу хоолой</string>
+    <string name="camera_permission_toast">Камерын зөвшөөрлийг идэвхжүүлсэн</string>
     <string name="camera_privacy_text">Камерын зөвшөөрлийг идэвхжүүлсэн</string>
     <string name="cannot_understand_description">Би ойлгохгүй байна</string>
     <string name="car_crash_emergency_intro">Та дуудлага хийгчийн өмнөөс автомат яаралтай тусламжийн дуут үйлчилгээгээр холбогдож байна. Дуудлага хийгчийн утас боломжит машины ослыг илрүүлсэн ба тэдгээр нь хариу өгөхгүй байсан. Тусламж хүснэ үү.</string>
     <string name="change_greeting_text">Бичих бол товшино уу</string>
     <string name="change_pin_cancel_label">Цуцлах</string>
-    <string name="change_pin_confirm_pin_header">Өөрийн PIN-г баталгаажуулна уу</string>
-    <string name="change_pin_confirm_pins_dont_match">PIN код таарахгүй байна</string>
+    <string name="change_pin_confirm_pin_header">Өөрийн ПИН-г баталгаажуулна уу</string>
+    <string name="change_pin_confirm_pins_dont_match">ПИН код таарахгүй байна</string>
     <string name="change_pin_continue_label">Үргэлжлүүлэх</string>
-    <string name="change_pin_enter_new_pin_header">Шинэ PIN тохируулах</string>
-    <string name="change_pin_enter_new_pin_hint">PIN %1$d - %2$d цифртэй байх ёстой.</string>
-    <string name="change_pin_enter_old_pin_header">Хуучин PIN-ээ баталгаажуулна уу</string>
-    <string name="change_pin_enter_old_pin_hint">Үргэлжлүүлэхийн тулд дуут шуудангийн PIN оруулна уу.</string>
+    <string name="change_pin_enter_new_pin_header">Шинэ ПИН тохируулах</string>
+    <string name="change_pin_enter_new_pin_hint">ПИН %1$d - %2$d цифртэй байх ёстой.</string>
+    <string name="change_pin_enter_old_pin_header">Хуучин ПИН-ээ баталгаажуулна уу</string>
+    <string name="change_pin_enter_old_pin_hint">Үргэлжлүүлэхийн тулд дуут шуудангийн ПИН оруулна уу.</string>
     <string name="change_pin_ok_label">Ок</string>
-    <string name="change_pin_succeeded">Дуут шуудангийн PIN шинэчлэгдсэн</string>
-    <string name="change_pin_system_error">PIN тохируулах боломжгүй</string>
-    <string name="change_pin_title">Дуут шуудангийн PIN-г өөрчлөх</string>
+    <string name="change_pin_succeeded">Дуут шуудангийн ПИН шинэчлэгдсэн</string>
+    <string name="change_pin_system_error">ПИН тохируулах боломжгүй</string>
+    <string name="change_pin_title">Дуут шуудангийн ПИН-г өөрчлөх</string>
     <string name="character_counter_content_description">%2$d-н %1$d тэмдэгтийг оруулсан</string>
     <string name="character_counter_overflowed_content_description">Тэмдэгтийн хязгаар %2$d-н %1$d-с хэтэрсэн</string>
     <string name="checkbox_report_as_spam_action">Дуудлагыг спам гэж мэдээлэх</string>
@@ -431,6 +455,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Баталгаажсан дуудлагыг тохируулж чадсангүй. Та тохиргоо хэсэгт дахин идэвхжүүлэх боломжтой.</string>
     <string name="contact_card_video_icon_content_description">^1 руу видео дуудлага хийх</string>
     <string name="contact_grid_callback_number">Энэ утасны дугаар: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Дуудлагыг шилжүүлсэн</string>
+    <string name="contact_grid_hd_icon_content_description">HD дуудлага</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus дуудлага</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Дараахаас ирсэн оператор компанийн видео дуудлага</string>
     <string name="contact_grid_incoming_reception_only_video_call">Дараахаас ирсэн оператор компанийн 1 талт видео дуудлага</string>
     <string name="contact_grid_incoming_rtt_call">Дараахаас ирсэн RTT (Тухайн агшины текст) дуудлага</string>
@@ -441,9 +468,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Дараахаас ирсэн Wi-Fi оператор компанийн видео дуудлага</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Дараахаас ирсэн Wi-Fi оператор компанийн 1 талт видео дуудлага</string>
     <string name="contact_grid_incoming_work_call">Ажлын дуудлага</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Хуваалцсан дата дуудлага</string>
+    <string name="contact_grid_spam_icon_content_description">Спам дуудлага</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Оператор компани</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s Баталгаажсан</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Зөв дугаар</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE дуудлагаар дуу оруулах</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Wi-Fi-р хийх видео дуудлага</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G дуудлагаар дуу оруулах</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE дуудлагаар дуу оруулах</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Wi-Fi-р хийх дуут дуудлага</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi дуудлага</string>
+    <string name="contact_grid_work_icon_content_description">Ажлын дуудлага</string>
     <string name="contact_menu_add_favorite">Дуртайд нэмэх</string>
     <string name="contact_menu_contact_info">Холбоо барих мэдээлэл</string>
     <string name="contact_menu_invite_video">Видео дуудлагад урих</string>
@@ -478,8 +514,12 @@
     <string name="conversation_history_call_details_header_today">Өнөөдөр</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Дуудлагыг устгасан</string>
     <string name="conversation_history_call_details_snack_bar_undo">Болих</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Чухал дуудлага</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Нэмсэн дуудлагын мэдээллийг харуулах</string>
+    <string name="conversation_history_call_recording_deleted">Бичлэгийг устгасан</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Сийрүүлэг ба аудио</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Сийрүүлэг</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Сийрүүлэг болон аудиог харах</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">Хуулах</string>
     <string name="copy_number">Дугаар хуулах</string>
@@ -498,12 +538,17 @@
     <string name="custom_prefix_default_prefix_title">Өгөгдмөл угтвар</string>
     <string name="custom_prefix_prefixes_preference_title">Угтвар</string>
     <string name="dark_theme_label">Бараан</string>
+    <string name="default_changed_confirmation">Утсыг өгөгдмөлөөр тохируулсан байна</string>
+    <string name="default_image_content_description">Анивчих зураг</string>
     <string name="delete">Устгах</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Бүх бичлэгийг устгах</string>
     <string name="delete_all_recordings_now_error_message">Зарим бичлэгийг устгах боломжгүй байна. Дахин оролдоно уу.</string>
     <string name="delete_button_label">Одоо бүх бичлэгийг устгах</string>
     <string name="delete_confirmation_dialog_negative_button_label">Цуцлах</string>
     <string name="delete_confirmation_dialog_positive_button_label">Устгах</string>
+    <string name="delete_old_recordings_error_cant_load_value">Одоогийн %1$s утгыг дуудах боломжгүй</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$s утгыг хадгалах боломжгүй</string>
+    <string name="deleting_call_recording">Бичлэгийг устгаж байна…</string>
     <string name="description_add_to_existing_contact_action">^1-ыг одоогийн харилцагч руугаа нэмнэ</string>
     <string name="description_blocked_number_list_delete">Дугаарыг блокоос гаргах</string>
     <string name="description_call_action">^1 руу дуудлага хийх</string>
@@ -606,6 +651,7 @@
     <string name="emergency_sos_emergency_intro">"Тантай дуудлага хийгчийн өмнөөс яаралтай тусламжийн автоматжуулсан дуут үйлчилгээнээс холбогдож байна.
 Дуудлага хийгчид яаралтай тусламж шаардлагатай байж болзошгүй гэж дохио өгсөн. 
 Тусламж илгээнэ үү."</string>
+    <string name="emergency_speaker">Чанга яригч</string>
     <string name="emergency_voice_assist_dialog_button_close">Цуцлах</string>
     <string name="emergency_voice_assist_dialog_title">Түргэн тусламжийн оператор үүнийг сонсож байна</string>
     <string name="end_call_with_default_message_description">Дуудлагыг дуусгах</string>
@@ -635,9 +681,12 @@
     <string name="feedback_call_issue_quiet_audio">Дуу хэт сул байсан</string>
     <string name="feedback_call_issue_title">Асуудал юунд байсан бэ?</string>
     <string name="feedback_title_please_rate">Дуудлагын чанарыг үнэлнэ үү</string>
+    <string name="first_time_callers_action_preference_description">Таны дуудлагын жагсаалтад байхгүй дуудлага хийгч</string>
+    <string name="first_time_callers_action_preference_title">Анх удаа дуудлага хийгч</string>
     <string name="flip_to_shush_title">Чимээгүй болгон эргүүлж тавих</string>
     <string name="flip_to_silence_summary">Ирсэн дуудлагыг чимээгүй болгохын тулд утсаа хавтгай гадаргуун дээр доош нь харуулж тавина уу</string>
     <string name="flip_to_silence_title">Чимээгүй болгон эргүүлж тавих</string>
+    <string name="foreground_notification_title">Шинэчилж байна…</string>
     <string name="frequent_contact_suggestion">Байнга холбогддог</string>
     <string name="general_learn_more">Дэлгэрэнгүй үзэх</string>
     <string name="generic_conference_call_name">Ярьж байна</string>
@@ -660,6 +709,7 @@
     <string name="how_it_works_storage_link_text">Бичлэгийг хэрхэн хадгалдаг талаар нэмэлт мэдээлэл авах</string>
     <string name="how_it_works_storage_template">Хэрэв таны утас хадгалах сангийн зайгүй болбол дуудлага бичихийг түр хаана. ^1</string>
     <string name="icon_content_description">Харилцах цонхны дүрс тэмдэг</string>
+    <string name="icon_description_shared_data_call">Хуваалцсан дата дуудлага</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Импортын тоо</string>
     <string name="ims_video_heading">Verizon видео</string>
@@ -803,6 +853,7 @@
     <string name="new_call_log_no_missed_calls">Танд аваагүй дуудлага алга</string>
     <string name="new_call_log_permission_no_calllog">Дуудлагын жагсаалтаа харахын тулд Утасны зөвшөөрлийг идэвхжүүлнэ үү.</string>
     <string name="new_call_log_secondary_blocked">Хориглосон</string>
+    <string name="new_call_log_secondary_verified">Баталгаажсан дуудлага</string>
     <string name="new_call_log_snack_bar_deleted">Дуудлагыг устгасан</string>
     <string name="new_call_log_snack_bar_undo">Болих</string>
     <string name="new_call_log_unknown">Тодорхойгүй</string>
@@ -817,8 +868,10 @@
     <string name="notification_action_answer_video">Видео</string>
     <string name="notification_action_dismiss">Татгалзах</string>
     <string name="notification_action_end_call">Таслах</string>
+    <string name="notification_action_mute_toggle">Дууг хаах</string>
     <string name="notification_action_speaker_off">Чанга яригчийг унтраах</string>
     <string name="notification_action_speaker_on">Чанга яригчийг асаах</string>
+    <string name="notification_action_speaker_toggle">Чанга яригч</string>
     <string name="notification_callReasonMsg">Шалтгаан: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi дуудлага</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi ажлын дуудлага</string>
@@ -882,6 +935,8 @@
     <string name="place_ims_button_content_description">Оператор компанийн видео дуудлага хийхэд ашигладаг товчлуур.</string>
     <string name="play">Тоглуулах</string>
     <string name="plus_code_line_format">Нэмэх код: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Өөрчилсөн дугаарыг ашиглаж буй спам хийгч байж магадгүй дуудлага хийгч</string>
+    <string name="possibly_faked_numbers_action_preference_title">Хуурамч дугаар байх магадлалтай</string>
     <string name="post_call_message">Яагаад залгасан гэдгээ хэлнэ үү</string>
     <string name="post_call_message_1">Энэ бол яаралтай. Над руу буцааж залгана уу.</string>
     <string name="post_call_message_2">Завтай болоод над руу буцааж залгана уу.</string>
@@ -911,6 +966,8 @@
     <string name="privacy_policy_label">Нууцлалын бодлого</string>
     <string name="private_num_non_verizon">Нууцалсан дугаар</string>
     <string name="private_num_verizon">Хязгаарлагдсан</string>
+    <string name="private_or_hidden_action_preference_description">Дуудлага хийгчийн ID-гаа нууж буй дуудлага хийгч</string>
+    <string name="private_or_hidden_action_preference_title">Хувийн эсвэл нуусан</string>
     <string name="quick_contact_checkbox_description">Харилцагч сонгох</string>
     <string name="ready_for_recording">Бэлэн...</string>
     <string name="record_greeting_cancel_label">Болих</string>
@@ -926,6 +983,8 @@
     <string name="record_greeting_uploading_greeting_message">Хадгалж байна…</string>
     <string name="record_voicemail_greeting_title">Мэндчилгээ бичих</string>
     <string name="recording_category_title">Бичлэгүүд</string>
+    <string name="recording_deleted">Бичлэгийг устгасан</string>
+    <string name="recording_deletion_failed">Бичлэгийг устгаж чадсангүй [Дахин оролдох]</string>
     <string name="redo_button_text">Дахин оролдох</string>
     <string name="remember_this_choice_label">Энэ сонголтыг санах</string>
     <string name="report_not_spam_alert_button">Мэдэгдэх</string>
@@ -937,9 +996,20 @@
     <string name="request_call_back_description">Над руу буцааж залгана уу</string>
     <string name="request_email_description">Над руу имэйл бичнэ үү</string>
     <string name="respond_via_sms_setting_title">Шуурхай хариунууд</string>
+    <string name="revelio_callers_how_it_works_text">"Тодорхой дуудлагад автоматаар харуулахыг унтраахын тулд “Утасны хонх дуугаргах (өгөгдмөл)” тохиргоог сонгоно уу. Таны харилцагчдыг хэзээ ч автоматаар харуулдаггүй. Таны утас чихэвч эсвэл чанга яригчид холбогдсон тохиолдолд автоматаар харуулах ажиллахгүй. 
+Call Screen нь дата эсвэл Wi-Fi ашигладаггүй хэдий ч үүрэн холбооны дуудлагын минутыг ашигладаг. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">30 хоногийн дараа устгах</string>
+    <string name="revelio_delete_old_recordings_setting_title">Хуучин бичлэг болон сийрүүлгийг автоматаар устгах</string>
+    <string name="revelio_demo_setting_title">Call Screen хэрхэн ажилладгийг харах</string>
     <string name="revelio_demo_turn_on">Асаах</string>
     <string name="revelio_end_call_reject_as_spam">Дуудлагыг спам гэж тэмдэглэсэн байна</string>
     <string name="revelio_end_call_user_missed_internal_message">Дуудлагыг аваагүй байна</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Автоматаар харуулах унтраалттай</string>
+    <string name="revelio_preference_summary_screening">%1$s-г харуулж байна</string>
+    <string name="revelio_save_audio_setting_summary">Туслахынхаа хариулсан дуудлагын аудиог хадгална уу</string>
+    <string name="revelio_save_audio_setting_title">Call Screen-н аудиог хадгалах</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT (Тухайн агшны текст) нь сонсголгүй, сонсголын бэрхшээлтэй, хэл ярианы бэрхшээлтэй эсвэл дуу хоолой дангаараа хангалтгүй дуудлага хийгчдэд дэмжлэг үзүүлдэг. ^1</string>
     <string name="rtt_assist_for_att">Тухайн агшны текстийн (RTT) дэлгэц дээрх гар нь TTY-н гадны гарын өөр хувилбар юм. Таныг RTT (Тухайн агшны текст) дуудлагын үеэр мессеж бичихэд тантай ярьж буй хүн таны бичсэн мессежийг шууд харах боломжтой. ^1</string>
     <string name="rtt_assist_for_tmo">Тухайн агшны текст (RTT)-ийн дэлгэц дээрх гар нь TTY-н гадны гарын өөр хувилбар юм. RTT (Тухайн агшны текст) нь утасны дуудлагын үеэр таны бичиж буй зүйлийг шуурхай илгээх бөгөөд танд текстийг шууд ашиглах чадамжийг өгнө. Та мессежийг бүхэлдээ дуусахаас өмнө хэсэгчилсэн хариуг харах боломжтой болно. ^1</string>
@@ -947,7 +1017,8 @@
     <string name="rtt_button_back">Буцах</string>
     <string name="rtt_button_downgrade">Дуут дуудлага руу сэлгэх</string>
     <string name="rtt_call_button">RTT (Тухайн агшны текст)</string>
-    <string name="rtt_call_not_available_toast">RTT (Тухайн агшины текст) энэ дуудлагад боломжгүй байна. Таны дуудлагыг зөвхөн дуут дуудлагаар холбосон.</string>
+    <string name="rtt_call_downgraded_toast">Таны RTT (Тухайн агшины текст) дуудлагыг зөвхөн дуут дуудлага болгож өөрчилсөн</string>
+    <string name="rtt_call_not_available_toast">RTT (Тухайн агшны текст) энэ дуудлагад боломжгүй</string>
     <string name="rtt_configuration_summary_always_visible">Тухайн агшны текстийн товчлуур хаа сайгүй боломжтой</string>
     <string name="rtt_configuration_summary_not_visible">Тухайн агшны текстийн ирж буй дуудлагыг зөвшөөрөх хэдий ч дуудлага хийх товчлуурыг нууна</string>
     <string name="rtt_configuration_summary_visible_during_call">Дуудлагын үеэр Тухайн агшны текстийн товчлуурыг харуулна</string>
@@ -976,6 +1047,8 @@
     <string name="rtt_transcript_link">Сийрүүлгийг үзэх</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Энэ мессежийг давтана.</string>
+    <string name="save_audio_error_cant_load_value">Одоогийн Call Screen аудионы утгыг хадгалах тохиргоог дуудах боломжгүй</string>
+    <string name="save_audio_error_cant_set_value">Call Screen аудионы утгыг хадгалах тохиргоог хадгалах боломжгүй</string>
     <string name="save_button_text">Хадгалах</string>
     <string name="saved_voicemails_action_title">Хадгалсан дуут шуудан (%1$s)</string>
     <string name="search_hint">Видео харилцагчид хайх</string>
@@ -1002,8 +1075,11 @@
     <string name="send_a_message">Мессеж илгээх</string>
     <string name="send_to_voicemail_import_failed">Импортолж чадсангүй</string>
     <string name="serial_number">Серийн дугаар</string>
+    <string name="set_as_default_button_text">Өгөгдмөлөөр тохируул</string>
     <string name="set_default_account">Дуудлагад байнга үүнийг ашиглах</string>
     <string name="set_default_account_description">SIM сонголтыг таны харилцагчаар хадгалсан.</string>
+    <string name="set_phone_as_default_explanation_text">Хэрэв энэ нь таны өгөгдмөл гар утасны апп бол утас зөвхөн дуудлага эхлүүлэх, хүлээн авах боломжтой</string>
+    <string name="set_phone_as_default_request_text">Утсыг өгөгдмөлөөр тохируулах</string>
     <string name="settings">Тохиргоо</string>
     <string name="settings_page_call_recording_feature_not_available_text">Таны байршилд дуудлага бичих боломжгүй байна</string>
     <string name="settings_page_crosby_feature_not_available_text">Таны байршилд боломжгүй байна</string>
@@ -1038,6 +1114,8 @@
     <string name="snackbar_undo">Болих</string>
     <string name="snackbar_voicemail_deleted">Дуут шууданг устгасан</string>
     <string name="sounds_and_vibration_title">Ая болон чичиргээ</string>
+    <string name="spam_action_preference_description">Google-н спамын өгөгдлийн баазтай таарч буй дугаар</string>
+    <string name="spam_action_preference_title">Спам</string>
     <string name="spam_and_call_screen_settings_title">Спам болон Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Хаах</string>
     <string name="spam_blocking_promo_action_filter_spam">Спам шүүлтүүрдэх</string>
@@ -1064,8 +1142,6 @@
     <string name="speed_dial_add_button_text">Нэмэх</string>
     <string name="speed_dial_contacts_permission_description">Түргэн залгалтыг идэвхжүүлэхийн тулд харилцагчийн зөвшөөрлийг идэвхжүүлнэ үү.</string>
     <string name="speed_dial_disambig_dialog_title">%s-рүү хэрхэн дуудлага хийхийг сонгоно уу</string>
-    <string name="speed_dial_education_content">Дуудлага болон мессеж хооронд сэлгэхийн тулд дурын харилцагчид хүрээд, дарна уу</string>
-    <string name="speed_dial_education_title">Холбоо барих илүү олон арга зам</string>
     <string name="speed_dial_no_contacts_action_text">Дуртай зүйлээ нэмэх</string>
     <string name="speed_dial_no_contacts_description">Дуртай харилцагчид руугаа ердөө ганц товшилтоор дуудлага хийгээрэй</string>
     <string name="speed_dial_remember_this_choice">Энэ сонголтыг санах</string>
@@ -1093,11 +1169,15 @@
     <string name="terms_of_service_label">Үйлчилгээний нөхцөл</string>
     <string name="textmessage_button_label">Мессеж</string>
     <string name="theme_preference_label">Загвар сонгох</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Бичлэг</string>
     <string name="toast_text_copied">Текстийг хуулсан</string>
     <string name="toolbar_back">Буцах</string>
     <string name="toolbar_close">Хаах</string>
     <string name="transcript_audio_feedback_chip_text">Бидэнд сайжруулахад тусална уу</string>
+    <string name="transcript_audio_feedback_link_text">Сийрүүлэг болон аудиог харах</string>
     <string name="transcript_snippet_low_confidence_description">(Аудио тод биш байсан)</string>
+    <string name="try_again_button">Дахин оролдох</string>
     <string name="tty_configuration_title_tty_full">TTY дүүрсэн</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY-г унтраасан</string>
@@ -1119,7 +1199,6 @@
     <string name="type_outgoing_video_pulled">Залгасан видео дуудлагыг өөр төхөөрөмж рүү шилжүүлсэн</string>
     <string name="type_rejected">Татгалзсан дуудлага</string>
     <string name="type_voicemail">Дуут шуудан</string>
-    <string name="unable_change_value_error">RTT (Тухайн агшны текст)-н тохиргоог өөрчлөхөд асуудал гарлаа. Буцаад, дахин оролдоно уу.</string>
     <string name="unable_read_value_error">RTT (Тухайн агшны текст)-н тохиргоог уншихад асуудал гарлаа. Буцаад, дахин оролдоно уу.</string>
     <string name="unblock_number">Блокоос гаргах</string>
     <string name="unblock_number_alert_details">Энэ дугаарын блокийг авч, спам биш гэж мэдээлэх болно. Цаашид ирэх дуудлагыг спам гэж үзэхгүй.</string>
@@ -1128,6 +1207,7 @@
     <string name="unblock_number_ok">Блокоос гаргах</string>
     <string name="unblock_report_number_alert_title">%1$s-г блокоос гаргах уу?</string>
     <string name="unknown">Тодорхойгүй</string>
+    <string name="unknown_call_settings_category_preference_title">Тодорхойгүй дуудлагын тохиргоо</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Ирж буй аудионы дууг нээх</string>
     <string name="user_is_busy_description">Би тан руу буцааж залгая</string>
@@ -1144,8 +1224,8 @@
     <string name="verified_call_settings_title">Баталгаажсан дуудлагууд</string>
     <string name="verified_call_verification_status_prefix">Баталгаажсан</string>
     <string name="verizon_terms_and_conditions_decline_dialog_message">Нөхцөлийг зөвшөөрөхгүй бол уншиж болохуйц дуут шууданг идэвхгүй болгоно.</string>
-    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Дуут шууданд зөвхөн *86 руу залгаж хандах боломжтой. Үргэлжлүүлэхийн тулд шинэ дуут шуудангийн PIN тохируулна уу.</string>
-    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin">PIN тохируулах</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Дуут шууданд зөвхөн *86 руу залгаж хандах боломжтой. Үргэлжлүүлэхийн тулд шинэ дуут шуудангийн ПИН тохируулна уу.</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin">ПИН тохируулах</string>
     <string name="verizon_terms_and_conditions_message">"%1$s Уншиж болох дуут шууданг асааснаар та Verizon Wireless-н үйлчилгээний нөхцөл, болзлыг зөвшөөрнө:
 
 %2$s"</string>
@@ -1239,21 +1319,31 @@
     <string name="videocall_remote_video_on">Тэдний видео идэвхтэй байна</string>
     <string name="videocall_remotely_held">Дуудлага хүлээлгэсэн</string>
     <string name="videocall_remotely_resumed">Дуудлагыг үргэлжлүүлсэн</string>
+    <string name="videocall_settings_default_carrier">Оператор компанийн видео дуудлага</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Өгөгдмөл видео дуудлагын үйлчилгээ</string>
+    <string name="videocall_settings_fallback_summary">Оператор компанийн видео дуудлага боломжгүй бол Duo руу сэлгэнэ үү</string>
+    <string name="videocall_settings_fallback_title">Duo-г нөөцлөлтөөр ашиглаарай</string>
+    <string name="videocall_settings_title">Видео дуудлага</string>
     <string name="videocall_show_preview_button_description">Дотоод видеоны сувгийг харуулах</string>
     <string name="view">Үзэх</string>
     <string name="view_location_settings">Байршлын тохиргоо</string>
     <string name="vitle_label">LTE-р видео</string>
-    <string name="vm_change_pin_error_invalid">Шинэ PIN-д буруу тэмдэгт агуулагдаж байна.</string>
-    <string name="vm_change_pin_error_mismatch">Хуучин PIN таарахгүй байна.</string>
-    <string name="vm_change_pin_error_system_error">PIN-г өөрчлөх боломжгүй</string>
-    <string name="vm_change_pin_error_too_long">Шинэ PIN хэт урт байна.</string>
-    <string name="vm_change_pin_error_too_short">Шинэ PIN хэт богино байна.</string>
-    <string name="vm_change_pin_error_too_weak">Шинэ PIN хэт амархан байна. Сайн нууц үгэнд үргэлжилсэн дараалал буюу давтагдсан цифр ордоггүй.</string>
+    <string name="viwifi_label">Wi-Fi-р хийх видео дуудлага</string>
+    <string name="vm_change_pin_error_invalid">Шинэ ПИН-д буруу тэмдэгт агуулагдаж байна.</string>
+    <string name="vm_change_pin_error_mismatch">Хуучин ПИН таарахгүй байна.</string>
+    <string name="vm_change_pin_error_system_error">ПИН-г өөрчлөх боломжгүй</string>
+    <string name="vm_change_pin_error_too_long">Шинэ ПИН хэт урт байна.</string>
+    <string name="vm_change_pin_error_too_short">Шинэ ПИН хэт богино байна.</string>
+    <string name="vm_change_pin_error_too_weak">Шинэ ПИН хэт амархан байна. Сайн нууц үгэнд үргэлжилсэн дараалал буюу давтагдсан цифр ордоггүй.</string>
     <string name="vm_change_pin_progress_message">Түр хүлээнэ үү.</string>
     <string name="voice_call">Дуудлага</string>
     <string name="voice_call_button">Дуудлага</string>
+    <string name="voice_display_name">Дуу хоолой %1$d</string>
     <string name="voice_search_not_available">Дуут хайлт хийх боломжгүй байна</string>
     <string name="voice_selector_preference_title">Боломжтой дуу хоолой</string>
+    <string name="voice_settings_available_voices_text">Боломжтой дуу хоолой</string>
+    <string name="voice_settings_title">Дуу хоолой</string>
     <string name="voicecall_button_label">Дуудлага</string>
     <string name="voicecall_button_wifi_description">Wi-Fi ашиглан залгах</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s %2$s-д</string>
@@ -1267,7 +1357,7 @@
     <string name="voicemail_action_call_voicemail">Дуут шуудан руу залгах</string>
     <string name="voicemail_action_dimiss">Үгүй, баярлалаа</string>
     <string name="voicemail_action_retry">Дахин оролдох</string>
-    <string name="voicemail_action_set_pin">PIN тохируулах</string>
+    <string name="voicemail_action_set_pin">ПИН тохируулах</string>
     <string name="voicemail_action_sync">Синк</string>
     <string name="voicemail_action_turn_archive_on">Асаах</string>
     <string name="voicemail_action_turn_off_airplane_mode">Нислэгийн горим тохиргоо</string>
@@ -1278,9 +1368,9 @@
     <string name="voicemail_archive_comfirmation_dialog_message">Оператор компанийн дуут шуудангийн зайг чөлөөлөхийн тулд дуут шууданг утсандаа хадгална уу. Та хадгалсан дуут шууданг устгахаас өмнө тэдгээрт энэ төхөөрөмжөөс хандаж болно.</string>
     <string name="voicemail_archive_menuitem_save">Хадгалах</string>
     <string name="voicemail_change_greeting_preference_title">Дуут шуудангийн мэндчилгээ</string>
-    <string name="voicemail_change_pin_preference_summary_disable">Харагдах дуут шуудан PIN-г өөрчлөх боломжтой байх ёстой</string>
+    <string name="voicemail_change_pin_preference_summary_disable">Харагдах дуут шуудан ПИН-г өөрчлөх боломжтой байх ёстой</string>
     <string name="voicemail_change_pin_preference_summary_not_activated">Визуал дуут шуудан хараахан идэвхжээгүй байна, дараа дахин оролдоно уу</string>
-    <string name="voicemail_change_pin_preference_title">PIN өөрчлөх</string>
+    <string name="voicemail_change_pin_preference_title">ПИН өөрчлөх</string>
     <string name="voicemail_donate_preference_summary_info">Сийрүүлгийн нарийвчлалыг сайжруулахын тулд Google-д өөрийн дуут шуудангийн мессежийг хянахыг зөвшөөрнө үү. Таны дуут шуудангийн мессежийг нэргүйгээр хадгална. %1$s</string>
     <string name="voicemail_donation_promo_content">Google-д энэ болон цаашдын дуут шуудангийн мессежүүдийг сийрүүлгээр хянах боломж олгох. Тэдгээрийг нэр заахгүй хадгалах болно. Дуртай үедээ Тохиргоог өөрчлөх боломжтой. %1$s</string>
     <string name="voicemail_donation_promo_opt_in">Тийм, би зөвшөөрч байна</string>
@@ -1288,7 +1378,6 @@
     <string name="voicemail_donation_promo_title">Сийрүүлгийн нарийвчлалыг сайжруулахад туслах уу?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Датагүй SIM-д визуал дуут шуудан ашигласнаар оператор компанийн төлбөр гарч болзошгүй</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Визуал дуут шуудан зөвхөн сонгосон өгөгдлийн SIM-д боломжтой</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Хэрэв танд олон SIM байгаа бол нэг нь Fi-д зориулсан бөгөөд таны Fi SIM нь визуал дуут шууданд ашиглагдана</string>
     <string name="voicemail_error_activating_message">Уншиж болох дуут шууданг бүрэн идэвхжүүлэхээс өмнө танд дуут шуудангийн мэдэгдэл ирэхгүй байж магадгүй. Дуут шууданг бүрэн идэвхжих хүртэл шинэ мессеж авахын тулд дуут шуудан руу залгана уу.</string>
     <string name="voicemail_error_activating_title">Уншиж болох дуут шууданг идэвхжүүлж байна</string>
     <string name="voicemail_error_activation_disabled_message">Тохируулж дуусгахын тулд дуут шуудан руу залгах</string>
@@ -1317,8 +1406,8 @@
     <string name="voicemail_error_not_activate_no_signal_airplane_mode_message">Нислэгийн горимыг идэвхгүй болгоод дахин оролдоно уу.</string>
     <string name="voicemail_error_not_activate_no_signal_message">Утасны мобайл холболт байгаа эсэхийг шалгаад дахин оролдоно уу.</string>
     <string name="voicemail_error_not_activate_no_signal_title">Уншиж болох дуут шууданг идэвхжүүлэх боломжгүй</string>
-    <string name="voicemail_error_pin_not_set_message">Та дуут шуудандаа хандахаар дуудлага хийх бүрд дуут шуудангийн PIN шаардлагатай болно.</string>
-    <string name="voicemail_error_pin_not_set_title">Өөрийн дуут шуудангийн PIN-г тохируулна уу</string>
+    <string name="voicemail_error_pin_not_set_message">Та дуут шуудандаа хандахаар дуудлага хийх бүрд дуут шуудангийн ПИН шаардлагатай болно.</string>
+    <string name="voicemail_error_pin_not_set_title">Өөрийн дуут шуудангийн ПИН-г тохируулна уу</string>
     <string name="voicemail_error_server_connection_message">Та дуудлага хийж дуут шуудангаа сонсох боломжтой хэвээр байна.</string>
     <string name="voicemail_error_server_connection_title">Уншиж болох дуут шууданг шинэчлэх боломжгүй</string>
     <string name="voicemail_error_server_message">Та дуудлага хийж дуут шуудангаа сонсох боломжтой хэвээр байна.</string>
@@ -1332,7 +1421,7 @@
     <string name="voicemail_notifications_preference_title">Мэдэгдэл</string>
     <string name="voicemail_play_start_pause">Тоглуулахыг эхлүүлэх буюу түр зогсоох.</string>
     <string name="voicemail_playback_error">Дуут шууданг тоглуулж чадсангүй</string>
-    <string name="voicemail_set_pin_preference_title">PIN тохируулах</string>
+    <string name="voicemail_set_pin_preference_title">ПИН тохируулах</string>
     <string name="voicemail_settings_label">Дуут шуудан</string>
     <string name="voicemail_settings_title">Дуут шуудан</string>
     <string name="voicemail_speaker_off">Чанга яригчийг унтраах.</string>
@@ -1395,6 +1484,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Таны Дуут шуудангийн хайрцагтай холбогдох боломжгүй</string>
     <string name="vvm3_error_vms_timeout_message">Уучлаарай, гэнэтийн алдаа гарлаа. Дараа дахин оролдоно уу. Хэрэв асуудал хэвээр байвал Хэрэглэгчийн үйлчилгээ %1$s руу залгаж алдааны код 9007 гэж хэлнэ үү.</string>
     <string name="vvm3_error_vms_timeout_title">Ямар нэг алдаа гарлаа</string>
+    <string name="vvm_config_title">Визуал дуут шуудангийн тохиргоо</string>
     <string name="vvm_unsupported_message_format">Дэмжигдээгүй мессежийн төрөл, сонсохын тулд %s руу залгана уу.</string>
     <string name="wait_prompt_str">"Дараах аяуудыг илгээх үү?
 "</string>

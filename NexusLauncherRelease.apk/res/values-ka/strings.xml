@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">საქაღალდეში დამატება %1$s-ით</string>
     <string name="add_to_home_screen">მთავარ ეკრანზე დამატება</string>
     <string name="added_to_folder">ერთეული დაემატა საქაღალდეს</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s ვიჯეტი დამატებულია მთავარ ეკრანზე</string>
     <string name="all_apps_button_label">აპების სია</string>
     <string name="all_apps_button_personal_label">პერსონალური აპების სია</string>
     <string name="all_apps_button_work_label">სამსახურის აპების სია</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">ტელეფონის შეტრიალებისას</string>
     <string name="allow_rotation_title">მთავარი ეკრანის შეტრიალების დაშვება</string>
     <string name="allset_description">მზად ხართ ტელეფონის გამოსაყენებლად</string>
+    <string name="allset_hint">მთავარ გვერდზე გადასასვლელად გადაფურცლეთ ზევით</string>
+    <string name="allset_navigation_settings"><annotation id="link">სისტემის ნავიგაციის პარამეტრები</annotation></string>
     <string name="allset_title">მზადაა!</string>
     <string name="app_downloading_title">მიმდინარეობს %1$s-ის ჩამოტვირთვა, %2$s დასრულდა</string>
     <string name="app_info_drop_target_label">აპის შესახებ</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s ელოდება ინსტალაციას</string>
     <string name="auto_add_shortcuts_description">ახალი აპებისთვის</string>
     <string name="auto_add_shortcuts_label">აპის ხატულების მთავარ ეკრანზე დამატება</string>
+    <string name="back_gesture_feedback_cancelled">გადაფურცლეთ მარჯვენა ან მარცხენა კიდიდან ეკრანის ცენტრისკენ და თითი აუშვით.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">თქვენ ისწავლეთ მარჯვნიდან გადაფურცვლა უკან დასაბრუნებლად. ახლა კი შეიტყვეთ, როგორ გადართოთ აპები.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">თქვენ შეასრულეთ უკან დაბრუნების ჟესტი.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">არ გადაფურცლოთ ეკრანის ბოლოსთან ახლოს.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">გადაფურცლეთ უკიდურესი მარჯვენა ან მარცხენა ბოლოდან.</string>
     <string name="back_gesture_intro_subtitle">ბოლო ეკრანზე დასაბრუნებლად გადაფურცლეთ მარცხენა ან მარჯვენა კიდიდან ეკრანის ცენტრისკენ.</string>
     <string name="back_gesture_intro_title">უკან დასაბრუნებლად გადაფურცლეთ</string>
     <string name="back_gesture_tutorial_confirm_subtitle">დაბრუნების ჟესტის მგრძნობელობის შესაცვლელად გადადით პარამეტრებზე</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">შეეხეთ გადარქმეული სახელის შესანახად</string>
     <string name="gadget_error_text">ვიჯეტის ჩატვირთვა ვერ ხერხდება</string>
     <string name="gadget_setup_text">შეეხეთ დაყენების დასასრულებლად</string>
+    <string name="gesture_tutorial_action_button_label">მზადაა</string>
     <string name="gesture_tutorial_action_button_label_cancel">გაუქმება</string>
     <string name="gesture_tutorial_action_button_label_settings">პარამეტრები</string>
     <string name="gesture_tutorial_action_button_label_skip">გამოტოვება</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">უფრო ხანგრძლივად დააჭირეთ თითი ფანჯარას, რომ არ დაიხუროს.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">გადაფურცლეთ ეკრანის ქვედა კიდიდან ზემოთ.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">გადაფურცლეთ პირდაპირ ზემოთ და შემდეგ დააპაუზეთ.</string>
+    <string name="overview_gesture_intro_subtitle">აპების გადასართავად, გადაფურცლეთ ეკრანის ქვედა კიდიდან ზემოთ, დააყოვნეთ, შემდეგ თითი აუშვით.</string>
     <string name="overview_gesture_intro_title">აპების გადასართავად გადაფურცლეთ</string>
     <string name="overview_selection_pref_desc">აპებს შორის გადართვისას ქმედებების სანახავად ხანგრძლივად შეეხეთ ტექსტსა და სურათებს</string>
     <string name="overview_selection_pref_title">მიმოხილვის არჩევანი</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">ადგილი</string>
     <string name="smartspace_hours_mins">%1$s და %2$s</string>
     <string name="smartspace_preferences">პარამეტრები</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">მოკლე მიმოხილვა</string>
     <string name="smartspace_preferences_in_settings_desc">მთავარი ეკრანის სათავეში</string>
     <string name="smartspace_preferences_manage">მორგება</string>
     <string name="smartspace_preferences_turn_off_action">გამორთვა</string>

@@ -595,6 +595,8 @@ Bluetooth"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">"Vous devez redémarrer l'appareil pour que cette modification soit appliquée. Redémarrez maintenant ou annulez l'opération."</string>
     <string name="camera_hint">Balayer pour prendre une photo</string>
     <string name="camera_label">"ouvrir l'appareil photo"</string>
+    <string name="camera_recording_announcement">La caméra enregistre…</string>
+    <string name="camera_stopped_recording_announcement">"La caméra a arrêté l'enregistrement"</string>
     <string name="cancel">Annuler</string>
     <string name="carrier_network_change_mode">"Modification du réseau de l'opérateur"</string>
     <string name="category_personal">Perso</string>
@@ -734,6 +736,10 @@ Si vous réactivez les données, des frais peuvent s'appliquer."</string>
     <string name="debug_monitoring_category">Suivi</string>
     <string name="debug_networking_category">Mise en réseau</string>
     <string name="debug_view_attributes">"Inspection des attributs d'affichage"</string>
+    <string name="defender_notify_des">Votre téléphone limite la recharge pour contribuer à préserver la batterie</string>
+    <string name="defender_notify_learn_more">En savoir plus</string>
+    <string name="defender_notify_resume_charge">Reprendre la recharge</string>
+    <string name="defender_notify_title">Recharge momentanément limitée</string>
     <string name="delete_blob_confirmation_text">Voulez-vous vraiment supprimer ces données partagées ?</string>
     <string name="delete_blob_text">Supprimer les données partagées</string>
     <string name="demo_mode">"Mode de démonstration de l'interface du système"</string>
@@ -1070,6 +1076,7 @@ Veuillez contacter votre opérateur de téléphonie mobile pour en obtenir une a
     <string name="keyguard_sim_unlock_progress_dialog_message">Déblocage de la carte SIM…</string>
     <string name="keyguard_try_fingerprint">Utilisez votre empreinte pour ouvrir</string>
     <string name="keyguard_unlock">Balayer vers le haut pour ouvrir</string>
+    <string name="keyguard_unlock_press">Appuyez pour ouvrir</string>
     <string name="keywords_adb_wireless">adb, débogage, dev</string>
     <string name="keywords_alarms_and_reminders">définir, alarme, rappel, horloge</string>
     <string name="kg_enter_confirm_pin_hint">Confirmez le code PIN souhaité</string>
@@ -1233,6 +1240,10 @@ Réessayez dans %2$d secondes."</string>
     <string name="menu_ime">Sélecteur clavier</string>
     <string name="messages_count_overflow_indicator">+ de %d</string>
     <string name="mic_active">Micro actif</string>
+    <string name="mic_and_camera_recording_announcement">La caméra et le micro enregistrent…</string>
+    <string name="mic_camera_stopped_recording_announcement">"La caméra et le micro ont arrêté l'enregistrement"</string>
+    <string name="mic_recording_announcement">Le micro enregistre…</string>
+    <string name="mic_stopped_recording_announcement">"Le micro a arrêté l'enregistrement"</string>
     <string name="missed_call">Appel manqué</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Données mobiles</string>
@@ -1706,8 +1717,6 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="quick_settings_work_mode_label">Applis pro</string>
     <string name="quick_step_accessibility_toggle_overview">"Activer/Désactiver l'aperçu"</string>
     <string name="recent_conversations">Conversations récentes</string>
-    <string name="recents_quick_scrub_onboarding">"Déplacer vers la droite pour changer rapidement d'application"</string>
-    <string name="recents_swipe_up_onboarding">"Balayer l'écran vers le haut pour changer d'application"</string>
     <string name="remaining_length_format">Il reste %1$s</string>
     <string name="remote_input_image_insertion_text">a envoyé une image</string>
     <string name="remove_from_settings">"Supprimer l'outil des paramètres"</string>
@@ -2110,13 +2119,14 @@ N'importe quel utilisateur peut mettre à jour les applications pour tous les au
     <string name="wait_for_debugger_summary">"L'application déboguée attend d'être liée au débogueur pour s'exécuter"</string>
     <string name="wallet_action_button_label_unlock">Déverrouiller pour payer</string>
     <string name="wallet_app_button_label">Tout afficher</string>
-    <string name="wallet_empty_state_label">Configurez pour régler vos achats de façon sûre et rapide via votre téléphone</string>
+    <string name="wallet_empty_state_label">Configurez un mode de paiement pour régler vos achats de façon sûre et rapide via votre téléphone</string>
     <string name="wallet_error_generic">Problème de récupération de vos cartes. Réessayez plus tard</string>
     <string name="wallet_lockscreen_settings_label">"Paramètres de l'écran de verrouillage"</string>
     <string name="wallet_secondary_label_device_locked">Déverrouiller pour utiliser</string>
     <string name="wallet_secondary_label_no_card">Ajouter une carte</string>
     <string name="wallet_secondary_label_updating">Mise à jour…</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"Point d'accès temporairement plein"</string>
     <string name="wifi_cant_connect">Connexion impossible</string>
     <string name="wifi_cant_connect_to_ap">Impossible de se connecter au réseau \"%1$s\"</string>

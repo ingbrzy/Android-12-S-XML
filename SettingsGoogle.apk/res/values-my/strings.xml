@@ -8,7 +8,7 @@
     <string name="ambient_display_pickup_title">ဖုန်းစစ်ရန် ကောက်ယူခြင်း</string>
     <string name="ambient_display_tap_screen_title">ဖုန်းစစ်ရန် တို့ခြင်း</string>
     <string name="ambient_display_title">ဖုန်းကိုစစ်ရန် နှစ်ချက်တို့ခြင်း</string>
-    <string name="ambient_display_wake_screen_title">မျက်နှာပြင်ကို ဖွင့်ရန်</string>
+    <string name="ambient_display_wake_screen_title">နှိုးသည့် ပြကွက်</string>
     <string name="auto_brightness_title">အလိုက်သင့် တောက်ပမှု</string>
     <string name="aware_category_display" />
     <string name="aware_category_gesture" />
@@ -51,9 +51,9 @@
     <string name="keywords_touch_sensitivity">ထိတွေ့မှု၊ အထိအတွေ့ကို သိရှိမှု၊ အထိမခံသော၊ ဖန်သားပြင် အကာအကွယ်၊ အလွှာပါး၊ တုံ့ပြန်မှု လျင်မြန်သော၊ တုံ့ပြန်မှု လျင်မြန်ခြင်း</string>
     <string name="keywords_wake_display" />
     <string name="language_settings">ဘာသာစကားနှင့် စာရိုက်စနစ်</string>
-    <string name="lift_to_wake_title">နှိုးပေးဖို့ မ’ယူရန်</string>
-    <string name="lockdown_settings_summary">လော့ခ်မျက်နှာပြင်ရှိ Smart Lock၊ မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း၊ လက်ဗွေသုံး လော့ခ်ဖွင့်ခြင်းနှင့် အကြောင်းကြားချက်များကို ပိတ်သည့် ‘ဖွင့်ပိတ်ခလုတ်’ ရွေးစရာကို ပြပါ</string>
-    <string name="lockdown_settings_title">ပိတ်ရန် ရွေးချယ်စရာများကို ပြခြင်း</string>
+    <string name="lift_to_wake_title">‘မ’ ယူ၍ နှိုးရန်</string>
+    <string name="abc_action_bar_home_description">မူလနေရာကို ပြန်သွားရန်</string>
+    <string name="abc_action_bar_up_description">အပေါ်သို့ ရွှေ့ရန်</string>
     <string name="locked_work_profile_notification_title">အလုပ်ပရိုဖိုင်လော့ခ်ချထားချိန်</string>
     <string name="lockscreen_bypass_summary">လော့ခ်ဖွင့်ပြီးပါက နောက်ဆုံးသုံးခဲ့သည့် ဖန်သားပြင်သို့ တန်းသွားပါ</string>
     <string name="lockscreen_bypass_title">လော့ခ်မျက်နှာပြင် ကျော်ရန်</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">အလုပ်သတိပေးချက်များ</string>
     <string name="reset_dashboard_summary">ကွန်ရက်၊ အက်ပ် (သို့) ကိရိယာများကို ပြင်ဆင်သတ်မှတ်နိုင်ပါသည်</string>
     <string name="reset_dashboard_title">ပြင်ဆင်သတ်မှတ်ရန် ရွေးစရာများ</string>
-    <string name="abc_action_bar_home_description">မူလနေရာကို ပြန်သွားရန်</string>
+    <string name="abc_action_menu_overflow_description">နောက်ထပ် ရွေးစရာများ</string>
     <string name="screensaver_settings_title">ဖန်သားပြင်ချွေတာစနစ်</string>
     <string name="screen_timeout">ဖန်သားပြင် ခဏရပ်ချိန်</string>
     <string name="screen_zoom_title">ပြသမှု အရွယ်အစား</string>
@@ -75,8 +75,8 @@
     <string name="show_operator_name_title">ကွန်ရက် အမည်</string>
     <string name="system_navigation_title">စနစ် လမ်းညွှန်ခြင်း</string>
     <string name="system_update_settings_list_item_title">စနစ်အားတိုးမြင့်ခြင်း</string>
-    <string name="tap_to_wake">နိုးထရန် တို့ပါ</string>
-    <string name="tap_to_wake_summary">စက်ကိရိယာ နိုးကြားရန် ဖန်မျက်နှာပြင်ပေါ်ရှိ မည်သည့်နေရာမဆိုအား နှစ်ကြိမ်-တို့ပါ</string>
+    <string name="tap_to_wake">နှိုးရန် တို့ပါ</string>
+    <string name="tap_to_wake_summary">စက်ကို နှိုးရန် ဖန်မျက်နှာပြင်၏ မည်သည့်နေရာမဆိုကို နှစ်ကြိမ်-တို့ပါ</string>
     <string name="title_font_size">စာလုံးအရွယ်အစား</string>
     <string name="touch_sensitivity_summary">ဖန်သားပြင် အကာအကွယ်များကို အသုံးပြုလျှင် ထိတွေ့မှု ပိုမိုကောင်းမွန်ပါသည်</string>
     <string name="touch_sensitivity_title">အထိအတွေ့သိရှိမှုကို တိုးရန်</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">အကြောင်းအရာအချို့အတွက် ပြန်လည်စတင်နှုန်းကို ၆၀ မှ ၉၀ Hz သို့ အလိုအလျောက် တိုးပေးသည်။ ဘက်ထရီ အသုံးပြုမှု တိုးလာပါမည်။</string>
     <string name="accessibility_vibration_settings_title">တုန်ခါမှုနှင့် တုန်ခါ၍တုံ့ပြန်မှုများ</string>
     <string name="emergency_gesture_screen_title">အရေးပေါ် SOS</string>
-    <string name="abc_action_bar_up_description">အပေါ်သို့ ရွှေ့ရန်</string>
+    <string name="abc_action_mode_done">ပြီးပြီ</string>
     <string name="vibrate_for_calls_category_title">ခေါ်ဆိုမှုများ</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Wallet ပြရန်</string>
     <string name="lockscreen_privacy_controls_setting_toggle">စက်ထိန်းစနစ် ပြရန်</string>
     <string name="lockscreen_privacy_wallet_summary">လော့ခ်မျက်နှာပြင်နှင့် အမြန် ဆက်တင်များမှ Wallet သို့ ဝင်သုံးခွင့်ပြုသည်</string>
     <string name="lockscreen_privacy_controls_summary">လော့ခ်ချထားသည့်အခါ ထိန်းချုပ်မှုများကို ဝင်သုံးသည်</string>
-    <string name="abc_action_menu_overflow_description">နောက်ထပ် ရွေးစရာများ</string>
-    <string name="abc_action_mode_done">ပြီးပြီ</string>
     <string name="abc_activity_chooser_view_see_all">အားလုံး ကြည့်ရန်</string>
     <string name="abc_activitychooserview_choose_application">အက်ပ်တစ်ခုကို ရွေးရန်</string>
     <string name="abc_capital_off">ပိတ်ရန်</string>
@@ -5838,7 +5836,7 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="wifi_ip_settings_invalid_network_prefix_length">၀နှင့်၃၂အရှည်ရှိသော ကွန်ယက်အစပြုနံပတ်ကိုထည့်ပါ</string>
     <string name="wifi_ip_settings_menu_cancel">မလုပ်တော့</string>
     <string name="wifi_ip_settings_menu_save">သိမ်းရန်</string>
-    <string name="wifi_is_off">Wi-Fi ကို ပိတ်ထားသည်</string>
+    <string name="wifi_is_off">Wi-Fi ပိတ်ထားသည်</string>
     <string name="wifi_limit_optimizations_summary">ကြိုးမဲ့မှ ဘက်ထရီ သုံးမှုကို ကန့်သတ်ရန်</string>
     <string name="wifi_limited_connection">ချိတ်ဆက်မှု ကန့်သတ်ထားသည်</string>
     <string name="wifi_menu_advanced">အဆင့်မြင့်</string>

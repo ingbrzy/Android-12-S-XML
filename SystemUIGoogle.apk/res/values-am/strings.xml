@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">የእርስዎን መሣሪያ ይህ ለው ለማመልከት እንደገና መነሣት አለበት። አሁን እንደገና ያስነሡ ወይም ይተዉት።</string>
     <string name="camera_hint">ለካሜራ ከአዶ ላይ ጠረግ ያድርጉ</string>
     <string name="camera_label">ካሜራ ክፈት</string>
+    <string name="camera_recording_announcement">ካሜራ እየቀረጸ ነው</string>
+    <string name="camera_stopped_recording_announcement">ካሜራ መቅረጽ አቁሟል</string>
     <string name="cancel">ይቅር</string>
     <string name="carrier_network_change_mode">የአገልግሎት አቅራቢ አውታረ መረብን በመቀየር ላይ</string>
     <string name="category_personal">የግል</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">ቁጥጥር</string>
     <string name="debug_networking_category">አውታረ መረብ</string>
     <string name="debug_view_attributes">የእይታ አይነታ ምርመራን አንቃ</string>
+    <string name="defender_notify_des">የባትሪ ጤናን ጠብቆ ለማቆየት እንዲረዳ ስልክዎ የኃይል መሙላትን እየገደበ ነው</string>
+    <string name="defender_notify_learn_more">የበለጠ መረዳት</string>
+    <string name="defender_notify_resume_charge">ኃይል መሙላትን ከቆመበት ቀጥል</string>
+    <string name="defender_notify_title">ኃይል መሙላት ለጊዜው ተገድቧል</string>
     <string name="delete_blob_confirmation_text">ይህን የተጋራ ውሂብ ለመሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?</string>
     <string name="delete_blob_text">የተጋራ ውሂብን ሰርዝ</string>
     <string name="demo_mode">የስርዓት ተጠቃሚ በይነገጽ ማሳያ ሁነታ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">ሲም ካርድን በመክፈት ላይ...</string>
     <string name="keyguard_try_fingerprint">ለመክፈት የጣት አሻራ ይጠቀሙ</string>
     <string name="keyguard_unlock">ለመክፈት በጣት ወደ ላይ ጠረግ ያድርጉ</string>
+    <string name="keyguard_unlock_press">ለመክፈት ይጫኑ</string>
     <string name="keywords_adb_wireless">adb፣ ማረም፣ ግንባታ</string>
     <string name="keywords_alarms_and_reminders">የጊዜ መርሐግብር፣ ማንቂያ፣ አስታዋሽ ሰዓት</string>
     <string name="kg_enter_confirm_pin_hint">የተፈለገውን ፒን ኮድ ያረጋግጡ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">የቁልፍ ሰሌዳ መቀየሪያ</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">ማይክራፎን ንቁ ነው</string>
+    <string name="mic_and_camera_recording_announcement">ካሜራ እየቀረጸ እና ማይክሮፎን እየቀዳ ነው</string>
+    <string name="mic_camera_stopped_recording_announcement">ካሜራ መቅረጽ እና ማይክሮፎን መቅዳት አቁመዋል</string>
+    <string name="mic_recording_announcement">ማይክሮፎን እየቀዳ ነው</string>
+    <string name="mic_stopped_recording_announcement">ማይክሮፎን መቅዳት አቁሟል</string>
     <string name="missed_call">ያመለጠ ጥሪ</string>
     <string name="mobile_carrier_text_format">%1$s፣ %2$s</string>
     <string name="mobile_data">የተንቀሳቃሽ ስልክ ውሂብ</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">የሥራ መተግበሪያዎች</string>
     <string name="quick_step_accessibility_toggle_overview">አጠቃላይ እይታን ቀያይር</string>
     <string name="recent_conversations">የቅርብ ጊዜ ውይይቶች</string>
-    <string name="recents_quick_scrub_onboarding">መተግበሪያዎችን በፍጥነት ለመቀየር ወደ ቀኝ ይጎትቱ</string>
-    <string name="recents_swipe_up_onboarding">መተግበሪያዎችን ለመቀየር ወደ ላይ ያንሸራትቱ</string>
     <string name="remaining_length_format">%1$s ቀርቷል</string>
     <string name="remote_input_image_insertion_text">ምስል ተልኳል</string>
     <string name="remove_from_settings">ከቅንብሮች አስወግድ</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">ካርድ አክል</string>
     <string name="wallet_secondary_label_updating">በማዘመን ላይ</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s፣ %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">የመዳረሻ ነጥብ ለጊዜው ሞልቷል</string>
     <string name="wifi_cant_connect">መገናኘት አልተቻለም</string>
     <string name="wifi_cant_connect_to_ap">ወደ «%1$s» ማገናኘት አይቻልም</string>

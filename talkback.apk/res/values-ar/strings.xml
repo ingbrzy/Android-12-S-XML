@@ -89,7 +89,7 @@
 تتوفّر أدناه مواضيع أخرى يمكنك الاطّلاع عليها الآن، أو بإمكانك الرجوع إلى هذه المعلومات في أي وقت في إعدادات TalkBack."</string>
     <string name="all_set_title">اكتمال الإعداد</string>
     <string name="always_show_this_message_label">عرض هذه الرسالة دائمًا</string>
-    <string name="application_name">‏مجموعة تسهيل استخدام Android</string>
+    <string name="application_name">‏خدمات تسهيل استخدام Android</string>
     <string name="arc_android_window">نافذة التطبيق</string>
     <string name="arc_navigation_hint">اضغط على البحث باستخدام الأسهم للتنقل</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">اضغط على %1$s للاطلاع على قائمة بالاختصارات</string>
@@ -107,7 +107,7 @@
     <string name="audio_focus_state">تجنب التداخل مع أصوات أخرى %1$s.</string>
     <string name="auto_detect">تعديل وضع الشاشة حسب طريقة مسك الجهاز</string>
     <string name="auto_scan_action_description">بدء المسح والتحديد</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"المسح التلقائي\" أو \"الاختيار\"</string>
     <string name="available_devices_header">أجهزة البلوتوث المتوفرة</string>
     <string name="basic_navigation_link_subtext">التنقّل بين العناصر وفي الشاشات واستخدام القوائم والمزيد</string>
     <string name="basic_navigation_link_text">ميزات التنقّل الأساسية</string>
@@ -121,7 +121,7 @@
     <string name="bluetooth_no_devices_paired">لم يتم إقران أي أجهزة بلوتوث.</string>
     <string name="bluetooth_not_enabled_message">لإقران مفتاح تبديل عبر البلوتوث، يجب تفعيل البلوتوث.</string>
     <string name="bluetooth_peripheral_content_description">جهاز ملحق</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">‏لإقران مفتاح تبديل عبر البلوتوث في \"معالج الإعداد\"، يجب تفعيل البلوتوث ومنح \"خدمات تسهيل استخدام Android\" الإذن بالوصول إلى الأجهزة المجاورة والإذن بتحديد الموقع الجغرافي.</string>
     <string name="bluetooth_phone_content_description">هاتف</string>
     <string name="bluetooth_switch_description_text">إقران مفتاح تبديل لاسلكيًا عبر البلوتوث</string>
     <string name="bluetooth_switch_option_text">مفتاح تبديل بلوتوث</string>
@@ -159,6 +159,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">للتحكّم في جهازك، يجب أولاً تفعيل \"الوصول عبر مفتاح تبديل\".</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">تفعيل مفاتيح تبديل الكاميرا</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">تفعيل \"الوصول عبر مفتاح تبديل\"</string>
+    <string name="cam_switches_combined_preferences_title">إعدادات \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">إعدادات مفاتيح التحكّم بالكاميرا</string>
+    <string name="cam_switches_single_preferences_title">إعدادات \"%s\"</string>
     <string name="camera_switches_status_active">مفاتيح تبديل الكاميرا نشطة</string>
     <string name="camera_switches_status_error">خطأ</string>
     <string name="camera_switches_status_no_face">لم يتم التعرّف على أي وجه.</string>
@@ -265,7 +268,7 @@
     <string name="default_action_name_pause">إيقاف مفتاح التبديل مؤقتًا</string>
     <string name="default_action_name_point_scan">مسح النقاط</string>
     <string name="dialog_confirm_revert_to_default_menu">تأكيد</string>
-    <string name="dialog_do_not_disturb_permission_message">‏لضبط مستوى الصوت من قائمة \"وصول عبر مفتاح التحويل\"، يجب تفعيل إمكانية الوصول إلى ميزة \"عدم الإزعاج\" في \"مجموعة تمكين استخدام Android\".</string>
+    <string name="dialog_do_not_disturb_permission_message">‏لضبط مستوى الصوت من قائمة \"الوصول عبر مفتاح التحويل\"، يجب تفعيل إمكانية الوصول إلى ميزة \"عدم الإزعاج\" في خدمات تسهيل استخدام Android.</string>
     <string name="dialog_do_not_disturb_permission_title">ميزة \"وصول عبر مفتاح التحويل\" تحتاج إلى إذن لضبط مستوى الصوت</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">فتح الإعدادات</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">لتعمل مفاتيح تبديل الكاميرا، يجب تنزيل حوالى 10 ميغابايت من البيانات الإضافية. من المفترض أن تستغرق عملية التنزيل دقيقة ويتوقف ذلك على سرعة الشبكة.</string>
@@ -401,6 +404,7 @@
     <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
     <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
     <string name="fast_radio_button_title">سريع (مهلة المسح %1$s)</string>
+    <string name="fast_radio_button_title_content_description">سريعة (بعد مهلة مدتها %1$s ثانية)</string>
     <string name="find_finish_button_text">مرِّر سريعًا لليسار للعثور على الزر \"إنهاء\".</string>
     <string name="finish">إنهاء</string>
     <string name="finish_tutorial_announcement">إظهار لوحة مفاتيح برايل: يجب قلب الهاتف بحيث لا تكون الشاشة مواجهة لك. بعد ذلك، يُرجى حمل الهاتف أفقيًا ثم بدء الكتابة.</string>
@@ -749,6 +753,7 @@
     <string name="list_index_template">%1$d من %2$d</string>
     <string name="lockscreen_label">شاشة القفل</string>
     <string name="medium_radio_button_title">متوسط (مهلة المسح %1$s)</string>
+    <string name="medium_radio_button_title_content_description">متوسطة (بعد مهلة مدتها %1$s ثانية)</string>
     <string name="menu_category_reading_controls">القراءة</string>
     <string name="menu_category_special_features">الميزات الخاصة</string>
     <string name="menus_selector_text">"‏يمكن أن تساعدك هذه الاختصارات في تغيير الإعدادات بسرعة، مثل تبديل مستوى القراءة من الأحرف إلى الكلمات أو تغيير معدّل سرعة الكلام في TalkBack.
@@ -769,6 +774,7 @@
 افتح قائمة TalkBack الآن عن طريق التمرير سريعًا للأسفل ثم لليسار."</string>
     <string name="menus_title">القائمة وعناصر التحكّم</string>
     <string name="message_in_reset_keymap_confirm_dialog">هل فعلاً تريد إعادة ضبط مفاتيح الاختصار لخريطة المفاتيح هذه والرجوع إلى قيمها التلقائية؟ تجدر الإشارة إلى أنه لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="message_request_phone_permission">‏تريد ميزة TalkBack معرفة أنه يتم إجراء مكالمة هاتفية كي تتمكن هذه الميزة من تقليل الإعلانات لتجنب مقاطعتك أثناء المكالمة.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"‏سيؤدي ذلك إلى إعادة ضبط كل الإيماءات على الإجراءات التلقائية.
 
 ستفقد أي تغييرات أجريتها."</string>
@@ -997,6 +1003,7 @@
     <string name="pref_reduce_window_delay_title">تقليل تأخير إعلان النافذة</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">إضافة مفاتيح تبديل الكاميرا</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">محو مفاتيح التبديل المرتبطة بتعابير الوجه</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">ضبط الإعدادات لمفتاح التحكّم بالكاميرا: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">تعديل مفاتيح تبديل الكاميرا</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">لم يتم تخصيص أي مفاتيح تبديل للكاميرا.</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">تخصيص مفاتيح تبديل الكاميرا للإجراء \"%s\"</string>
@@ -1017,9 +1024,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">إيقاف المعاينة</string>
     <string name="pref_sa_face_playground_switch_on_content_description">تشغيل</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">يجب أن تكون \"أجهزة استخدام الكاميرا\" مفعّلة لاستخدام منطقة الاختبار هذه.</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">تجربة ذلك: معاينة كل أنواع تعابير الوجه، بما في ذلك فتح الفم والابتسامة إلخ</string>
+    <string name="pref_sa_face_playground_try_it_button_text">تجربة ذلك</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">تجربة ذلك: معاينة تعبير الوجه %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">تم إيقاف منطقة الاختبار مؤقتًا. استخدِم الزر أدناه لتفعيلها مرة أخرى.</string>
     <string name="pref_selector_summary">%1$s لاختيار إعداد ثم %2$s لتعديل الإعداد</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s أو %2$s لاختيار إعداد ثم %3$s لتعديل الإعداد</string>
@@ -1070,6 +1077,7 @@
     <string name="reduce_speed_button">خفض السرعة</string>
     <string name="remaining_calibration_finish_announcement">تم تعديل كل مواضع النقاط.</string>
     <string name="reminder_announcement">مرّر سريعًا بثلاثة أصابع للاطَلاع على المزيد من الخيارات.</string>
+    <string name="remove_assigned_switch">إزالة تخصيص مفتاح التبديل لـ %s</string>
     <string name="report_gesture_description">إليك الإيماءات التي تم تنفيذها مؤخرًا، يُرجى الإبلاغ عن الإيماءة الخاطئة وعما هو متوقع.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">إعادة الضبط</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">إعادة الضبط</string>
@@ -1150,6 +1158,7 @@
     <string name="search_mode_hint_no_selection">لم يتم اختيار أي عنصر.</string>
     <string name="search_mode_hint_query">طلب البحث الحالي: %1$s.</string>
     <string name="search_mode_hint_selection">التحديد الحالي: %1$s.</string>
+    <string name="select_for_point_scan">\"الاختيار\"</string>
     <string name="select_setting_hint">%1$s لاختيار إعداد مختلف</string>
     <string name="selecting_text_text">"‏في مربّع النص، حرِّك المؤشر إلى بداية النص الذي تريد تحديده.
 
@@ -1210,6 +1219,7 @@
     <string name="shortcut_media_control">تشغيل الوسائط أو إيقافها مؤقتًا</string>
     <string name="shortcut_next">العنصر التالي</string>
     <string name="shortcut_next_granularity">إعداد التنقل التالي</string>
+    <string name="shortcut_next_window">النافذة التالية</string>
     <string name="shortcut_not_customizable">%1$s غير قابل للتخصيص.</string>
     <string name="shortcut_notifications">الإشعارات</string>
     <string name="shortcut_overview">نظرة عامة</string>
@@ -1222,6 +1232,7 @@
     <string name="shortcut_practice_gestures">التدريب على استخدام الإيماءات</string>
     <string name="shortcut_previous">العنصر السابق</string>
     <string name="shortcut_previous_granularity">إعداد التنقل السابق</string>
+    <string name="shortcut_previous_window">النافذة السابقة</string>
     <string name="shortcut_print_node_tree">طباعة شجرة العقد</string>
     <string name="shortcut_print_performance_stats">طباعة إحصاءات الأداء</string>
     <string name="shortcut_quick_settings">الإعدادات السريعة</string>
@@ -1261,6 +1272,7 @@
 • إحداث اهتزاز لبدء القراءة المستمرة"</string>
     <string name="six_hold_announcement">يمكنك أيضًا الكتابة عن طريق وضع هاتفك مسطحًا على طاولة. جرِّب ذلك الآن. في حال عدم توفّر طاولة بالقرب منك، يمكنك تخطي ذلك من خلال التمرير سريعًا للأسفل.</string>
     <string name="slow_radio_button_title">بطيء (مهلة المسح %1$s)</string>
+    <string name="slow_radio_button_title_content_description">بطيئة (بعد مهلة مدتها %1$s ثانية)</string>
     <string name="sound_feedback_state">الملاحظات والآراء الصوتية: %1$s</string>
     <string name="sound_feedback_summary">تشغيل صوت للإشارة إلى تغيّر معيّن (مثلاً تغيّر المحتوى على الشاشة)</string>
     <string name="speak_container_element_position_summary_off">لن يتم قول معلومات القائمة والشبكة</string>
@@ -1334,17 +1346,17 @@
     <string name="summary_pref_face_switches_debounce_time">خلال هذه المدة، سيتم التعامل مع عمليات التشغيل المتعددة لمفاتيح تبديل الكاميرا كعملية تشغيل واحد.</string>
     <string name="summary_pref_face_switches_enabled">‏مفاتيح تبديل الكاميرا تستخدم الكاميرا الأمامية لمعرفة ما إذا كنت تنظر إلى الشاشة والتعرّف على تعابير الوجه. لا يتم تخزين الصور أو إرسالها إلى Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">تشغيل صوت عندما يحصل تغيير ما على الشاشة استجابةً لتعبير الوجه</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">إظهار مؤشر مرئي لمدة القيام بتعبير الوجه</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">الإبقاء على الشاشة مشغّلة عندما يتم تفعيل مفاتيح تبديل الكاميرا. ولا يمكن لمفاتيح تبديل الكاميرا فتح قفل الشاشة المطفأة.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">لم يتم التعرّف على أي وجه.</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">نفِّذ أيًّا من تعابير الوجه. إذا كان التعبير مسجّلاً، سيظهر اسمه. للخروج، حافظ على تعبير وجهك لمدة %1$d ثانية.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">ثبِّت رأسك أمام الكاميرا ثم %s.</string>
     <string name="summary_pref_play_store">‏إصدار TalkBack الحالي: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">يمكنك استخدام الخطوط المتحركة لاختيار موقع عمودي وأفقي معيّن. اضغط على مفتاح التبديل %1$s لبدء مسح النقاط. %2$s</string>
     <string name="summary_pref_reverse_dots">تبديل مواضع النقاط: مثلاً يتم تبديل النقطة رقم \"1\" مع النقطة رقم \"4\".</string>
     <string name="summary_pref_revert_to_default_menu">يمكنك إعادة ضبط قائمة \"الوصول عبر مفتاح التحويل\" على القائمة التلقائية.</string>
-    <string name="summary_pref_single_tap">(ميزة تجريبية) انقر مرة واحدة على عنصر محلّ التركيز لتفعيله.</string>
+    <string name="summary_pref_single_tap">انقر مرة واحدة على عنصر محلّ التركيز لتفعيله.</string>
     <string name="summary_pref_tree_debug_tv">استخدام مفتاح البحث الصوتي لطباعة شجرة العقد بدلاً من البحث</string>
     <string name="summary_pref_use_audio_focus">خفض مستوى الصوت الآخر أثناء التحدث</string>
     <string name="summary_read_from_current">البدء من العنصر التالي وقراءة كل العناصر على الشاشة</string>
@@ -1480,10 +1492,10 @@
     <string name="switched_to_contracted_announcement">تم التبديل إلى لغة برايل المختصرة.</string>
     <string name="switched_to_ueb_uncontracted_announcement">تم التبديل إلى لغة برايل الإنجليزية الموحدة غير المختصرة.</string>
     <string name="switched_to_uncontracted_announcement">تم التبديل إلى لغة برايل غير المختصرة.</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">يساوي تقريبًا</string>
     <string name="symbol_ampersand">علامة العطف</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">علامة أقل من</string>
+    <string name="symbol_angle_bracket_right">علامة أكبر من</string>
     <string name="symbol_apostrophe">الفاصلة العليا</string>
     <string name="symbol_approximately_equals">يساوي تقريبًا</string>
     <string name="symbol_asterisk">العلامة النجمية</string>
@@ -1503,7 +1515,7 @@
     <string name="symbol_bullseye">مركز الهدف</string>
     <string name="symbol_caret">علامة الإقحام</string>
     <string name="symbol_celsius_degree">درجة مئوية</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">علامة السنت</string>
     <string name="symbol_circle_left_half_black">دائرة نصفها الأيسر بلون أسود</string>
     <string name="symbol_circle_right_half_black">دائرة نصفها الأيمن بلون أسود</string>
     <string name="symbol_colon">نقطتان</string>
@@ -1512,7 +1524,7 @@
     <string name="symbol_curly_bracket_left">قوس متعرج أيسر</string>
     <string name="symbol_curly_bracket_right">قوس متعرج أيمن</string>
     <string name="symbol_currency_sign">علامة العملة</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">علامة الدرجة</string>
     <string name="symbol_division">علامة القسمة</string>
     <string name="symbol_dollar_sign">علامة الدولار</string>
     <string name="symbol_downwards_arrow">سهم متّجه للأسفل</string>
@@ -1564,7 +1576,7 @@
     <string name="symbol_middle_dot">نقطة متوسطة</string>
     <string name="symbol_multiplication">علامة الضرب</string>
     <string name="symbol_new_line">خط جديد</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">غير مساوٍ لـ</string>
     <string name="symbol_not_sign">علامة النفي</string>
     <string name="symbol_paragraph_mark">علامة الفقرة</string>
     <string name="symbol_parenthesis_left">قوس أيسر</string>
@@ -1575,7 +1587,7 @@
     <string name="symbol_plus_minus_sign">علامة زائد ناقص</string>
     <string name="symbol_postal_mark">علامة بريدية</string>
     <string name="symbol_pound">علامة المربّع</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">علامة عملة الجنيه</string>
     <string name="symbol_quarter_note">علامة موسيقية وزنها جزء من أربعة</string>
     <string name="symbol_question_mark">علامة استفهام</string>
     <string name="symbol_quotation_mark">علامة اقتباس</string>
@@ -1601,7 +1613,7 @@
     <string name="symbol_trademark">علامة تجارية</string>
     <string name="symbol_underscore">شَرْطَة سُفْلِيَّة</string>
     <string name="symbol_upwards_arrow">سهم متّجه للأعلى</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">خط عمودي</string>
     <string name="symbol_white_circle">دائرة بيضاء</string>
     <string name="symbol_white_club_suit">رمز على شكل نبات نفل أبيض</string>
     <string name="symbol_white_diamond">معين أبيض</string>
@@ -1615,8 +1627,8 @@
     <string name="symbol_white_square">مربع أبيض</string>
     <string name="symbol_white_star">نجمة بيضاء</string>
     <string name="symbol_white_up_pointing_triangle">مثلث أبيض رأسه متجهة لأعلى</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">علامة عملة الوون</string>
+    <string name="symbol_won_sign">علامة عملة الوون</string>
     <string name="symbol_yen">الين</string>
     <string name="system_actions">إجراءات النظام</string>
     <string name="tabletop">وضع \" الشاشة المسطحة\"</string>
@@ -1784,7 +1796,7 @@
     <string name="title_pref_category_assign_switches">تعيين مفاتيح التحويل</string>
     <string name="title_pref_category_audio">الصوت</string>
     <string name="title_pref_category_auto_scan">المسح التلقائي</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">المسح التلقائي (مسح النقاط)</string>
     <string name="title_pref_category_border_color">اللون</string>
     <string name="title_pref_category_built_in_gestures">الإيماءات المدمجة</string>
     <string name="title_pref_category_context_menu">‏تخصيص قائمة TalkBack</string>
@@ -1868,7 +1880,7 @@
     <string name="title_pref_red">أحمر</string>
     <string name="title_pref_resume_talkback">‏إلغاء التعليق وتفعيل TalkBack مجددًا</string>
     <string name="title_pref_reverse_auto_scan_disabled">المسح التلقائي العكسي (متوقف)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">المسح التلقائي العكسي (مسح النقاط)</string>
     <string name="title_pref_reverse_dots">عكس النقاط</string>
     <string name="title_pref_revert_to_default_menu">الرجوع إلى القائمة التلقائية</string>
     <string name="title_pref_scan_non_actionable_items">التحدث بنص وصفي</string>
@@ -1931,7 +1943,7 @@
     <string name="title_pref_show_context_menu_as_list">عرض السياقات على شكل قائمة</string>
     <string name="title_pref_show_privacy_policy">سياسة الخصوصية</string>
     <string name="title_pref_show_tos">بنود الخدمة</string>
-    <string name="title_pref_single_tap">التفعيل بنقرة واحدة</string>
+    <string name="title_pref_single_tap">نقرة واحدة لتفعيل العنصر</string>
     <string name="title_pref_sound_and_vibration">الصوت والاهتزاز</string>
     <string name="title_pref_soundback">التعليقات الصوتية</string>
     <string name="title_pref_soundback_volume">مستوى صوت الملاحظات الصوتية</string>
@@ -1976,6 +1988,7 @@
     <string name="title_previous_screen">الشاشة السابقة</string>
     <string name="title_read_from_top">القراءة من أعلى الشاشة</string>
     <string name="title_repeat_last_spoken_phrase">تكرار آخر عبارة محكية</string>
+    <string name="title_request_phone_permission">‏تطلب ميزة TalkBack الإذن</string>
     <string name="title_screen_summary">ملخص الشاشة</string>
     <string name="title_seek_bar_controls">شريط التمرير</string>
     <string name="title_seek_bar_edit">تعديل مستوى شريط التمرير</string>

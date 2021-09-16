@@ -87,7 +87,7 @@
 Zdaj lahko nadaljujete raziskovanje drugih tem ali pa te informacije kadar koli pregledate v nastavitvah funkcije TalkBack."</string>
     <string name="all_set_title">Vse je pripravljeno.</string>
     <string name="always_show_this_message_label">Vedno pokaži to sporočilo</string>
-    <string name="application_name">Orodja za dostopnost v Androidu</string>
+    <string name="application_name">Orodja za dostopnost Androida</string>
     <string name="arc_android_window">Okno aplikacije</string>
     <string name="arc_navigation_hint">Pritisnite tipko za iskanje in puščične tipke, če se želite pomikati</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Pritisnite %1$s, če želite prikazati seznam bližnjičnih tipk</string>
@@ -105,7 +105,7 @@ Zdaj lahko nadaljujete raziskovanje drugih tem ali pa te informacije kadar koli 
     <string name="audio_focus_state">Utišanje drugih zvokov: %1$s</string>
     <string name="auto_detect">Prilagoditev vašemu načinu držanja naprave</string>
     <string name="auto_scan_action_description">Sprožitev iskanja in izbiranje</string>
-    <string name="auto_scan_or_select">»Samodejno iskanje« ali »Izbira«</string>
+    <string name="auto_scan_or_select_for_point_scan">»Samodejno iskanje« ali »Izbira«</string>
     <string name="available_devices_header">Razpoložljive naprave Bluetooth</string>
     <string name="basic_navigation_link_subtext">Premikanje po posameznih elementih, drseče pomikanje, uporaba menijev in drugo.</string>
     <string name="basic_navigation_link_text">Osnovno pomikanje</string>
@@ -119,7 +119,7 @@ Zdaj lahko nadaljujete raziskovanje drugih tem ali pa te informacije kadar koli 
     <string name="bluetooth_no_devices_paired">Ni seznanjenih naprav Bluetooth</string>
     <string name="bluetooth_not_enabled_message">Če želite seznaniti stikalo Bluetooth, vklopite Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Dodatna oprema</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Če želite seznaniti stikalo Bluetooth v čarovniku za namestitev, vklopite Bluetooth ter orodjem za dostopnost Androida odobrite dostop do naprav v bližini in lokacije.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Brezžično seznanite stikalo prek Bluetootha</string>
     <string name="bluetooth_switch_option_text">Stikalo Bluetooth</string>
@@ -157,6 +157,9 @@ Zdaj lahko nadaljujete raziskovanje drugih tem ali pa te informacije kadar koli 
     <string name="cam_switch_enable_banner_text_label_generic">Če želite upravljati napravo, morate najprej vklopiti stikalni dostop.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Odpri stikala za fotoaparat</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Omogoči stikalni dostop</string>
+    <string name="cam_switches_combined_preferences_title">Nastavitve za »%1$s«</string>
+    <string name="cam_switches_preferences_title">Nastavitve fotoaparata kot stikala</string>
+    <string name="cam_switches_single_preferences_title">Nastavitve za »%s«</string>
     <string name="camera_switches_status_active">Stikala fotoaparata so aktivna.</string>
     <string name="camera_switches_status_error">Napaka</string>
     <string name="camera_switches_status_no_face">Ni zaznanih obrazov</string>
@@ -263,7 +266,7 @@ Poskusite prilepiti besedo v spodnje besedilno polje."</string>
     <string name="default_action_name_pause">Začasno zaustavi stikalo z uporabo fotoaparata</string>
     <string name="default_action_name_point_scan">Točkovno iskanje</string>
     <string name="dialog_confirm_revert_to_default_menu">Potrdi</string>
-    <string name="dialog_do_not_disturb_permission_message">Če želite prilagajati glasnost v meniju stikalnega dostopa, vklopite dostop do načina »ne moti« za Orodja za dostopnost v Androidu.</string>
+    <string name="dialog_do_not_disturb_permission_message">Če želite prilagajati glasnost v meniju stikalnega dostopa, vklopite dostop do načina »ne moti« za orodja za dostopnost Androida.</string>
     <string name="dialog_do_not_disturb_permission_title">Stikalni dostop potrebuje dovoljenje za prilagajanje glasnosti</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Odpri nastavitve</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Stikala za fotoaparat morajo prenesti približno 10 MB dodatnih podatkov, da bodo delovala. To bo trajalo približno eno minuto (odvisno od hitrosti omrežja).</string>
@@ -278,7 +281,7 @@ Poskusite prilepiti besedo v spodnje besedilno polje."</string>
 Naprava se ne bo več odzivala na poteze za bližnjice ali izgovarjala, ko se boste dotaknili zaslona."</string>
     <string name="dialog_message_enable_performance_stats">"Ali ste prepričani, da želite vklopiti zbiranje statističnih podatkov o uspešnosti?
 
-Zbiranje statističnih podatkov o uspešnosti lahko poveča porabo pomnilnika in energije akumulatorja."</string>
+Zbiranje statističnih podatkov o uspešnosti lahko poveča porabo pomnilnika in energije baterije."</string>
     <string name="dialog_message_enable_tree_debug">"Ali ste prepričani, da želite vklopiti odpravljanje napak drevesa vozlišč?
 
 Odpravljanje napak drevesa vozlišč razkrije vsebino zaslona dnevnikom naprave, ki jih morda berejo druge aplikacije."</string>
@@ -399,6 +402,7 @@ Preizkusite to zdaj. Dotaknite se zaslona in vlecite proti spodnjemu levemu kotu
     <string name="fallback_menu_item_open_in_browser">Odpri v brskalniku</string>
     <string name="fallback_menu_item_share_link">Deli povezavo</string>
     <string name="fast_radio_button_title">Hitro (%1$s-sekundni zamik)</string>
+    <string name="fast_radio_button_title_content_description">Hitro (%1$s-sekundna zakasnitev)</string>
     <string name="find_finish_button_text">Povlecite v desno, da poiščete gumb za dokončanje.</string>
     <string name="finish">Dokončaj</string>
     <string name="finish_tutorial_announcement">Prikaz braillove tipkovnice. Telefon obrnite tako, da bo zaslon obrnjen stran od vas. Telefon zasukajte v ležeči položaj. Nato začnite vnašati.</string>
@@ -747,6 +751,7 @@ Interno ime pogleda: %1$s"</string>
     <string name="list_index_template">%1$d od %2$d</string>
     <string name="lockscreen_label">Zaklepanje zaslona</string>
     <string name="medium_radio_button_title">Srednje hitro (%1$s-sekundni zamik)</string>
+    <string name="medium_radio_button_title_content_description">Srednje hitro (%1$s-sekundna zakasnitev)</string>
     <string name="menu_category_reading_controls">Branje</string>
     <string name="menu_category_special_features">Posebne funkcije</string>
     <string name="menus_selector_text">"S tema bližnjicama lahko hitro spremenite nastavitve, na primer preklopite s pomikanja po znakih na pomikanje po besedah ali spremenite hitrost govora funkcije TalkBack.
@@ -767,6 +772,7 @@ Odprite meni funkcije TalkBack zdaj tako, da se zaslona dotaknete s tremi prsti.
 Odprite meni funkcije TalkBack zdaj tako, da povlečete navzdol in nato v desno."</string>
     <string name="menus_title">Meni in kontrolniki</string>
     <string name="message_in_reset_keymap_confirm_dialog">Ali res želite bližnjične tipke za to razporeditev tipk ponastaviti na privzete vrednosti? Tega dejanja ni mogoče razveljaviti.</string>
+    <string name="message_request_phone_permission">Če želite, da funkcija TalkBack omeji moteča obvestila, ji morate omogočiti, da zazna, kdaj poteka telefonski klic.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"S tem boste vse poteze ponastavili na privzeta dejanja.
 
 Izgubili boste vse opravljene spremembe."</string>
@@ -996,6 +1002,7 @@ Preizkusite poljubno potezo, pri kateri vlečenje v dveh delih tvori pravi kot. 
     <string name="pref_reduce_window_delay_title">Zmanjša zakasnitev najave oken</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Dodaj stikala za fotoaparat</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Počisti fizična stikala</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfiguriranje nastavitev za stikalo: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Uredi stikala za fotoaparat</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Ni dodeljenih stikal z uporabo fotoaparata.</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Dodelitev stikal za fotoaparat dejanju »%s«</string>
@@ -1016,9 +1023,9 @@ Preizkusite poljubno potezo, pri kateri vlečenje v dveh delih tvori pravi kot. 
     <string name="pref_sa_face_playground_stop_preview_content_description">Ustavitev predogleda.</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Vklopi</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Če želite uporabljati to preizkusno območje, morajo biti vklopljena stikala z uporabo fotoaparata.</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Preizkusite: predogled vseh vrst obraznih potez, vključno z odpiranjem ust, nasmehom itd.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Preizkusite</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Preizkusite: predogled obraznih potez vrste »%1$s«.</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Preizkusno območje je bilo začasno zaustavljeno. Uporabite spodnji gumb, da ga znova zaženete.</string>
     <string name="pref_selector_summary">Nastavitev izberete s potezo »%1$s«. Nato nastavitev prilagodite s potezo »%2$s«.</string>
     <string name="pref_selector_summary_two_select_gesture">Nastavitev izberete s potezo »%1$s« ali »%2$s«. Nato nastavitev prilagodite s potezo »%3$s«.</string>
@@ -1069,6 +1076,7 @@ Preizkusite zdaj. Ko povlečete navzdol in nato navzgor, lahko izberete tudi bra
     <string name="reduce_speed_button">Zmanjšaj hitrost</string>
     <string name="remaining_calibration_finish_announcement">Vsi položaji pik so bili posodobljeni.</string>
     <string name="reminder_announcement">Za več možnosti povlecite navzgor s tremi prsti</string>
+    <string name="remove_assigned_switch">Odstranitev dodelitve za stikalo %s</string>
     <string name="report_gesture_description">Tukaj so navedene nedavno izvedene poteze. Sporočite, katera poteza je napačna in kaj je bilo pričakovano.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Ponastavi</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Ponastavi</string>
@@ -1149,6 +1157,7 @@ Preizkusite to zdaj. Z dvema prstoma vlecite navzgor, dokler se ne pomaknete do 
     <string name="search_mode_hint_no_selection">Izbran ni bil noben element.</string>
     <string name="search_mode_hint_query">Trenutna poizvedba: %1$s.</string>
     <string name="search_mode_hint_selection">Trenutna izbira: %1$s.</string>
+    <string name="select_for_point_scan">»Izbira«</string>
     <string name="select_setting_hint">Drugo nastavitev izberete s potezo »%1$s«</string>
     <string name="selecting_text_text">"V besedilnem polju premaknite kazalec na začetek besedila, ki ga želite izbrati.
 
@@ -1209,6 +1218,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="shortcut_media_control">Predvajaj ali zaustavi predvajanje predstavnosti</string>
     <string name="shortcut_next">Naslednji element</string>
     <string name="shortcut_next_granularity">Naslednja nastavitev pomikanja</string>
+    <string name="shortcut_next_window">Naslednje okno</string>
     <string name="shortcut_not_customizable">%1$s, ni prilagodljivo</string>
     <string name="shortcut_notifications">Obvestila</string>
     <string name="shortcut_overview">Pregled</string>
@@ -1221,6 +1231,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="shortcut_practice_gestures">Vadba uporabe potez</string>
     <string name="shortcut_previous">Prejšnji element</string>
     <string name="shortcut_previous_granularity">Prejšnja nastavitev pomikanja</string>
+    <string name="shortcut_previous_window">Prejšnje okno</string>
     <string name="shortcut_print_node_tree">Natisni drevo vozlišč</string>
     <string name="shortcut_print_performance_stats">Natisni statistične podatke o uspešnosti</string>
     <string name="shortcut_quick_settings">Hitre nastavitve</string>
@@ -1260,6 +1271,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
 • Stresanje za neprekinjeno branje"</string>
     <string name="six_hold_announcement">Vnašate lahko tudi tako, da telefon položite plosko na mizo. Preizkusite. Če ni nobene mize v bližini, povlecite navzdol, da preskočite ta korak.</string>
     <string name="slow_radio_button_title">Počasno (%1$s-sekundni zamik)</string>
+    <string name="slow_radio_button_title_content_description">Počasno (%1$s-sekundna zakasnitev)</string>
     <string name="sound_feedback_state">Zvočni odziv: %1$s</string>
     <string name="sound_feedback_summary">Predvajanje zvoka za opozarjanje, da se je nekaj spremenilo (npr. da se je spremenila vsebina zaslona)</string>
     <string name="speak_container_element_position_summary_off">Podatki iz seznama in mreže niso izgovorjeni</string>
@@ -1333,7 +1345,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="summary_pref_face_switches_debounce_time">Če se stikalo z uporabo fotoaparata v tem časovnem obdobju sproži večkrat, bo to obravnavano kot eno sproženje.</string>
     <string name="summary_pref_face_switches_enabled">Stikala za fotoaparat uporabljajo sprednji fotoaparat, da zaznajo, ali gledate zaslon, in da prepoznajo obrazne poteze. Slike se ne shranijo in ne pošljejo Googlu.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Predvajanje zvoka, ko se nekaj na zaslonu spremeni kot odziv na potezo.</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Prikaz vizualnega indikatorja za trajanje držanja poteze.</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Zaslon naj ostane vklopljen, ko so stikala za fotoaparat omogočena. Stikala za fotoaparat ne morejo odkleniti zaslona, če se izklopi.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Obraz ni zaznan.</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
@@ -1343,7 +1355,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="summary_pref_point_scan">S premikajočima se črtama izberete točno določeno vodoravno in navpično lokacijo. Če želite zagnati točkovno iskanje, pritisnite stikalo %1$s. %2$s</string>
     <string name="summary_pref_reverse_dots">Zamenjava položajev pik, tako da se zamenjata na primer mesti pik 1 in 4</string>
     <string name="summary_pref_revert_to_default_menu">Meni stikalnega dostopa ponastavite na privzeti seznam menijskih elementov.</string>
-    <string name="summary_pref_single_tap">(Preizkusno) Za aktiviranje se enkrat dotaknite elementa v fokusu</string>
+    <string name="summary_pref_single_tap">Za aktiviranje se enkrat dotaknite elementa v fokusu.</string>
     <string name="summary_pref_tree_debug_tv">Za prikaz drevesa vozlišč uporabi tipko za glasovno iskanje namesto iskanja</string>
     <string name="summary_pref_use_audio_focus">Zmanjšanje glasnosti drugega zvoka med govorjenjem</string>
     <string name="summary_read_from_current">Branje vseh elementov na zaslonu od naslednjega elementa</string>
@@ -1479,10 +1491,10 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="switched_to_contracted_announcement">Preklopljeno na skrčeno braillovo pisavo</string>
     <string name="switched_to_ueb_uncontracted_announcement">Preklopljeno na neskrčeno poenoteno angleško braillovo pisavo</string>
     <string name="switched_to_uncontracted_announcement">Preklopljeno na neskrčeno braillovo pisavo</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Skoraj enako</string>
     <string name="symbol_ampersand">Znak in</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Znak »manjše kot«</string>
+    <string name="symbol_angle_bracket_right">Znak »večje kot«</string>
     <string name="symbol_apostrophe">Opuščaj</string>
     <string name="symbol_approximately_equals">Približno enako</string>
     <string name="symbol_asterisk">Zvezdica</string>
@@ -1502,7 +1514,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_bullseye">Tarča</string>
     <string name="symbol_caret">Strešica</string>
     <string name="symbol_celsius_degree">Stopinja Celzija</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Znak za cent</string>
     <string name="symbol_circle_left_half_black">Krog s črno levo polovico</string>
     <string name="symbol_circle_right_half_black">Krog s črno desno polovico</string>
     <string name="symbol_colon">Dvopičje</string>
@@ -1511,7 +1523,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_curly_bracket_left">Levi zaviti oklepaj</string>
     <string name="symbol_curly_bracket_right">Desni zaviti oklepaj</string>
     <string name="symbol_currency_sign">Znak za valuto</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">znak za stopinje</string>
     <string name="symbol_division">Znak za deljenje</string>
     <string name="symbol_dollar_sign">Dolarski znak</string>
     <string name="symbol_downwards_arrow">Puščica navzdol</string>
@@ -1563,7 +1575,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_middle_dot">Sredinska pika</string>
     <string name="symbol_multiplication">Znak za množenje</string>
     <string name="symbol_new_line">Nova vrstica</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Ni enako</string>
     <string name="symbol_not_sign">Znak »ne«</string>
     <string name="symbol_paragraph_mark">Oznaka za odstavek</string>
     <string name="symbol_parenthesis_left">Oklepaj</string>
@@ -1574,7 +1586,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_plus_minus_sign">Znak minus/plus</string>
     <string name="symbol_postal_mark">Navpičnica</string>
     <string name="symbol_pound">Funt</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Znak za valuto funt</string>
     <string name="symbol_quarter_note">Četrtinka</string>
     <string name="symbol_question_mark">Vprašaj</string>
     <string name="symbol_quotation_mark">Narekovaj</string>
@@ -1600,7 +1612,7 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_trademark">Blagovna znamka</string>
     <string name="symbol_underscore">Podčrtaj</string>
     <string name="symbol_upwards_arrow">Puščica gor</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Navpična črta</string>
     <string name="symbol_white_circle">Bel krog</string>
     <string name="symbol_white_club_suit">Bel križ</string>
     <string name="symbol_white_diamond">Bel romb</string>
@@ -1614,8 +1626,8 @@ Poskusite izbrati besedo »Dobrodošli« v spodnjem besedilnem polju."</string>
     <string name="symbol_white_square">Bel kvadrat</string>
     <string name="symbol_white_star">Bela zvezda</string>
     <string name="symbol_white_up_pointing_triangle">Bel trikotnik, usmerjen navzgor</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Znak za valuto von</string>
+    <string name="symbol_won_sign">Znak za valuto von</string>
     <string name="symbol_yen">Jen</string>
     <string name="system_actions">Dejanja sistema</string>
     <string name="tabletop">Namizni način</string>
@@ -1930,7 +1942,7 @@ TalkBack izklopite tako:
     <string name="title_pref_show_context_menu_as_list">Prikaz kontekstnega menija kot seznama</string>
     <string name="title_pref_show_privacy_policy">Pravilnik o zasebnosti</string>
     <string name="title_pref_show_tos">Pogoji storitve</string>
-    <string name="title_pref_single_tap">Aktiviranje z enim dotikom</string>
+    <string name="title_pref_single_tap">Enkratni dotik za aktiviranje</string>
     <string name="title_pref_sound_and_vibration">Zvok in vibriranje</string>
     <string name="title_pref_soundback">Zvočni odziv</string>
     <string name="title_pref_soundback_volume">Glasnost zvočnih odzivov</string>
@@ -1975,6 +1987,7 @@ TalkBack izklopite tako:
     <string name="title_previous_screen">Prejšnji zaslon</string>
     <string name="title_read_from_top">Branje od vrha</string>
     <string name="title_repeat_last_spoken_phrase">Ponovitev nazadnje izgovorjene fraze</string>
+    <string name="title_request_phone_permission">TalkBack zahteva dovoljenje</string>
     <string name="title_screen_summary">Povzetek zaslona</string>
     <string name="title_seek_bar_controls">Drsnik</string>
     <string name="title_seek_bar_edit">Urejanje ravni drsnika</string>

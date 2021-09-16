@@ -341,13 +341,15 @@ Enheten er ikke tilordnet"</string>
 
 "<li>Alle andre brukere kan godta oppdaterte apptillatelser</li>"
 
-"<li>Du bør bare dele telefonen med folk du stoler på</li></ul>}TABLET{<b>Viktig:</b>"
+"<li>Du bør bare dele telefonen med folk du stoler på</li></ul>"
+}TABLET{"<b>Viktig:</b>"
 
 "<ul><li>Eieren av nettbrettet kan avinstallere appene dine eller fjerne brukerprofilen din helt</li>"
 
 "<li>Alle andre brukere kan godta oppdaterte apptillatelser</li>"
 
-"<li>Du bør bare dele nettbrettet med folk du stoler på</li></ul>}other{<b>Viktig:</b>"
+"<li>Du bør bare dele nettbrettet med folk du stoler på</li></ul>"
+}other{"<b>Viktig:</b>"
 
 "<ul><li>Eieren av enheten kan avinstallere appene dine eller fjerne brukerprofilen din helt</li>"
 
@@ -359,70 +361,47 @@ Enheten er ikke tilordnet"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere telefonen.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>få programvareoppdateringer</li>"
-
-"<li>konfigurere klokkeslett og dato automatisk</li>"}TABLET{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere nettbrettet.
+"<li>konfigurere klokkeslett og dato automatisk</li>"
+}TABLET{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere nettbrettet.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>få programvareoppdateringer</li>"
-
-"<li>konfigurere klokkeslett og dato automatisk</li>"}other{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere enheten.
+"<li>konfigurere klokkeslett og dato automatisk</li>"
+}other{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere enheten.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>få programvareoppdateringer</li>"
-
 "<li>konfigurere klokkeslett og dato automatisk</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere telefonen.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>laste ned et SIM-kort</li>"
-
 "<li>få programvareoppdateringer</li>"
-
-"<li>konfigurere klokkeslett og dato automatisk</li>"}TABLET{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere nettbrettet.
+"<li>konfigurere klokkeslett og dato automatisk</li>"
+}TABLET{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere nettbrettet.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>laste ned et SIM-kort</li>"
-
 "<li>få programvareoppdateringer</li>"
-
-"<li>konfigurere klokkeslett og dato automatisk</li>"}other{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere enheten.
+"<li>konfigurere klokkeslett og dato automatisk</li>"
+}other{Når du kobler til et Wi-Fi- eller mobilnettverk, går det raskt å konfigurere enheten.
 
 Hvis du ikke gjør det, kan du ikke
-
 "<li>logge på Google-kontoen din</li>"
-
 "<li>gjenopprette apper og data</li>"
-
 "<li>laste ned et SIM-kort</li>"
-
 "<li>få programvareoppdateringer</li>"
-
 "<li>konfigurere klokkeslett og dato automatisk</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunktet er midlertidig fullt</string>
     <string name="wifi_check_password_try_again">Sjekk passordet og prøv igjen</string>

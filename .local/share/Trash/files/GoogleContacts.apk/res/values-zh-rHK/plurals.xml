@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="addToGroup">
+        <item quantity="other">%1$d 位聯絡人已新增至標籤%2$s</item>
+        <item quantity="one">%1$d 位聯絡人已新增至標籤%2$s</item>
+    </plurals>
+    <plurals name="addToGroupTitle">
+        <item quantity="other">正在將 %1$d 名聯絡人新增至「%2$s」</item>
+        <item quantity="one">正在將 %1$d 名聯絡人新增至「%2$s」</item>
+    </plurals>
+    <plurals name="add_info_assistant_apply_all_title">
+        <item quantity="other">要更新 %d 位聯絡人嗎？</item>
+        <item quantity="one">要更新 %d 位聯絡人嗎？</item>
+    </plurals>
+    <plurals name="add_info_assistant_summary_body">
+        <item quantity="other">已找到 %d 位聯絡對象的新詳細資料</item>
+        <item quantity="one">已找到 %d 位聯絡對象的新詳細資料</item>
+    </plurals>
+    <plurals name="add_missing_names_title">
+        <item quantity="other">加入 &lt;xliff id="count">%d&lt;/xliff> 個未填寫的名稱</item>
+        <item quantity="one">加入 &lt;xliff id="count">%d&lt;/xliff> 個未填寫的名稱</item>
+    </plurals>
+    <plurals name="added_missing_names">
+        <item quantity="other">加入 &lt;xliff id="count">%d&lt;/xliff> 個未填寫的名稱</item>
+        <item quantity="one">加入 &lt;xliff id="count">%d&lt;/xliff> 個未填寫的名稱</item>
+    </plurals>
+    <plurals name="all_accounts_account_count">
+        <item quantity="other">%1$d 個帳戶</item>
+        <item quantity="one">1 個帳戶</item>
+    </plurals>
+    <plurals name="assistant_cleanup_body">
+        <item quantity="other">%d 個地址無法接收電郵</item>
+        <item quantity="one">%d 個地址無法接收電郵</item>
+    </plurals>
+    <plurals name="assistant_duplicates_body">
+        <item quantity="other">查看資訊重複的 %d 人</item>
+        <item quantity="one">查看資訊重複的 %d 人</item>
+    </plurals>
+    <plurals name="assistant_no_name_summary_card_body">
+        <item quantity="other">&lt;xliff id="count">%d&lt;/xliff> 名聯絡人缺少名稱</item>
+        <item quantity="one">&lt;xliff id="count">%d&lt;/xliff> 名聯絡人缺少名稱</item>
+    </plurals>
+    <plurals name="backup_and_sync_notification_headline">
+        <item quantity="other">%d 位聯絡人無法同步</item>
+        <item quantity="one">%d 位聯絡人無法同步</item>
+    </plurals>
+    <plurals name="block_numbers_dialog_title">
+        <item quantity="other">要封鎖號碼嗎？</item>
+        <item quantity="one">要封鎖號碼嗎？</item>
+    </plurals>
+    <plurals name="cleanup_fragment_title_count">
+        <item quantity="other">刪除 %d 個垃圾電郵</item>
+        <item quantity="one">刪除 %d 個垃圾電郵</item>
+    </plurals>
+    <plurals name="cleanup_number_deleted">
+        <item quantity="other">已刪除 %d 個</item>
+        <item quantity="one">已刪除 %d 個</item>
+    </plurals>
+    <plurals name="contact_names_added">
+        <item quantity="other">已新增 %d 個</item>
+        <item quantity="one">已新增 %d 個</item>
+    </plurals>
+    <plurals name="contacts_deleted_toast">
+        <item quantity="other">已刪除 %1$d 位聯絡人</item>
+        <item quantity="one">已刪除 %1$d 位聯絡人</item>
+    </plurals>
+    <plurals name="contacts_selected_title_fmt">
+        <item quantity="other">已選取 %d 個</item>
+        <item quantity="one">已選取 %d 個</item>
+    </plurals>
+    <plurals name="contacts_trashed_toast">
+        <item quantity="other">已將 %1$d 位聯絡人移至垃圾桶</item>
+        <item quantity="one">已將 %1$d 位聯絡人移至垃圾桶</item>
+    </plurals>
+    <plurals name="delete_confirmation_message">
+        <item quantity="other">這些聯絡人將會從您的裝置中永久刪除</item>
+        <item quantity="one">此聯絡人將會從您的裝置中永久刪除</item>
+    </plurals>
+    <plurals name="delete_confirmation_title">
+        <item quantity="other">要刪除聯絡人嗎？</item>
+        <item quantity="one">要刪除聯絡人嗎？</item>
+    </plurals>
+    <plurals name="delete_undeletable_contacts_failure_toast">
+        <item quantity="other">無法刪除唯讀聯絡人</item>
+        <item quantity="one">無法刪除唯讀聯絡人</item>
+    </plurals>
+    <plurals name="deletion_confirmation_message">
+        <item quantity="other">這些聯絡人將從「Google 通訊錄」及所有已同步的裝置移除</item>
+        <item quantity="one">此聯絡人將從「Google 通訊錄」及所有已同步的裝置移除</item>
+    </plurals>
+    <plurals name="duplicates_assistant_merge_all_success">
+        <item quantity="other">已合併 %d 個</item>
+        <item quantity="one">已合併 %d 個</item>
+    </plurals>
+    <plurals name="duplicates_assistant_merge_all_title">
+        <item quantity="other">要合併 %d 個重複叢集嗎？</item>
+        <item quantity="one">要合併 %d 個重複叢集嗎？</item>
+    </plurals>
+    <plurals name="duplicates_cluster_content_description">
+        <item quantity="other">有 %1$d 個重複的%2$s</item>
+        <item quantity="one">有 %1$d 個重複的%2$s</item>
+    </plurals>
+    <plurals name="emptyAccountSubtext">
+        <item quantity="other">您的其他帳戶內有 %1$d 位聯絡人</item>
+        <item quantity="one">您的其他帳戶內有 1 位聯絡人</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_contact_count_fmt">
+        <item quantity="other">%1$d 位聯絡人</item>
+        <item quantity="one">1 位聯絡人</item>
+    </plurals>
+    <plurals name="import_from_sim_secondary_template">
+        <item quantity="other">^1 位聯絡人 • ^2</item>
+        <item quantity="one">^1 位聯絡人 • ^2</item>
+    </plurals>
+    <plurals name="importing_sim_finished_title_with_count">
+        <item quantity="other">已從 SIM 卡匯入 %1$d 位聯絡人</item>
+        <item quantity="one">已從 SIM 卡匯入 %1$d 位聯絡人</item>
+    </plurals>
+    <plurals name="mixed_delete_confirmation_message">
+        <item quantity="other">這些聯絡人將會從您所有已同步的裝置中移除。與「Google 通訊錄」同步的聯絡人將移至垃圾桶。</item>
+        <item quantity="one">此聯絡人將會從您所有已同步的裝置中移除。與「Google 通訊錄」同步的聯絡人將移至垃圾桶。</item>
+    </plurals>
+    <plurals name="move_contacts_confirmation_message_fmt">
+        <item quantity="other">要將這 %1$d 位聯絡人移入「%2$s」嗎？</item>
+        <item quantity="one">要將此聯絡人移入「%2$s」嗎？</item>
+    </plurals>
+    <plurals name="move_contacts_success_toast">
+        <item quantity="other">已移動 %d 位聯絡人</item>
+        <item quantity="one">已移動 %d 位聯絡人</item>
+    </plurals>
+    <plurals name="moving_contacts_finished_title">
+        <item quantity="other">%1$d 位聯絡人移動完畢</item>
+        <item quantity="one">聯絡人移動完畢</item>
+    </plurals>
+    <plurals name="moving_contacts_in_progress_notification_title">
+        <item quantity="other">正在將 %1$d 個聯絡人移至 %2$s</item>
+        <item quantity="one">正在將聯絡人移至 %2$s</item>
+    </plurals>
+    <plurals name="moving_contacts_in_progress_title">
+        <item quantity="other">正在移動 %1$d 位聯絡人</item>
+        <item quantity="one">正在移動聯絡人</item>
+    </plurals>
+    <plurals name="new_contact_assistant_summary_card_body">
+        <item quantity="other">查看 %d 項建議</item>
+        <item quantity="one">查看 %d 項建議</item>
+    </plurals>
+    <plurals name="permanent_delete_progress_title">
+        <item quantity="other">正在永久刪除 %1$d 個聯絡人…</item>
+        <item quantity="one">正在永久刪除 %1$d 個聯絡人…</item>
+    </plurals>
+    <plurals name="permanent_delete_success_toast">
+        <item quantity="other">已永久刪除%1$d 位聯絡人</item>
+        <item quantity="one">已永久刪除%1$d 位聯絡人</item>
+    </plurals>
+    <plurals name="phone_repair_contacts_to_update">
+        <item quantity="other">影響 %d 個國家/地區的變更</item>
+        <item quantity="one">影響 %d 個國家/地區的變更</item>
+    </plurals>
+    <plurals name="phone_repair_number_updated">
+        <item quantity="other">已更新 %d 組</item>
+        <item quantity="one">已更新 %d 組</item>
+    </plurals>
+    <plurals name="phone_repair_updating_notification">
+        <item quantity="other">正在更新 %d 組電話號碼。變更可能要過一段時間才會生效。</item>
+        <item quantity="one">正在更新電話號碼。變更可能要過一段時間才會生效。</item>
+    </plurals>
+    <plurals name="restore_assistant_message">
+        <item quantity="other">%1$d 位聯絡人已備份到「%2$s」</item>
+        <item quantity="one">%1$d 位聯絡人已備份到「%2$s」</item>
+    </plurals>
+    <plurals name="restore_notification_title_fmt">
+        <item quantity="other">已準備好還原 %1$d 位聯絡人</item>
+        <item quantity="one">已準備好還原 %1$d 位聯絡人</item>
+    </plurals>
+    <plurals name="sheepdog_assistant_body">
+        <item quantity="other">可能無法備份此裝置上的 %d 位聯絡人</item>
+        <item quantity="one">可能無法備份此裝置上的 %d 位聯絡人</item>
+    </plurals>
+    <plurals name="sheepdog_assistant_body_2">
+        <item quantity="other">"%d device contacts aren't syncing with Google Contacts"</item>
+        <item quantity="zero">"%d device contacts aren't syncing with Google Contacts"</item>
+        <item quantity="one">"%d device contact isn't syncing with Google Contacts"</item>
+        <item quantity="two">"%d device contacts aren't syncing with Google Contacts"</item>
+        <item quantity="few">"%d device contacts aren't syncing with Google Contacts"</item>
+        <item quantity="many">"%d device contacts aren't syncing with Google Contacts"</item>
+    </plurals>
+    <plurals name="sheepdog_confirm_cancel_dialog_content">
+        <item quantity="other">可能無法備份此裝置上的 %d 位聯絡人</item>
+        <item quantity="one">可能無法備份此裝置上的 %d 位聯絡人</item>
+    </plurals>
+    <plurals name="sheepdog_sim_import_dialog_multiple_sim_title">
+        <item quantity="other">是否要一併同步處理多張 SIM 卡上的 %d 位聯絡人？</item>
+        <item quantity="one">是否要一併同步處理多張 SIM 卡上的 %d 位聯絡人？</item>
+    </plurals>
+    <plurals name="sheepdog_sim_import_dialog_single_sim_title">
+        <item quantity="other">是否要一併同步處理 SIM 卡上的 %d 位聯絡人？</item>
+        <item quantity="one">是否要一併同步處理 SIM 卡上的 %d 位聯絡人？</item>
+    </plurals>
+    <plurals name="sim_import_card_header">
+        <item quantity="other">從 SIM 卡匯入</item>
+        <item quantity="one">從 SIM 卡匯入</item>
+    </plurals>
+    <plurals name="sim_import_card_message_fmt">
+        <item quantity="other">%d 位聯絡人</item>
+        <item quantity="one">1 位聯絡人</item>
+    </plurals>
+    <plurals name="sim_import_notification_title">
+        <item quantity="other">要匯入 %d 位 SIM 卡聯絡人嗎？</item>
+        <item quantity="one">要匯入 %d 位 SIM 卡聯絡人嗎？</item>
+    </plurals>
+    <plurals name="sim_import_success_toast_fmt">
+        <item quantity="other">已匯入 %d 位 SIM 卡聯絡人</item>
+        <item quantity="one">已匯入 %d 位 SIM 卡聯絡人</item>
+    </plurals>
+    <plurals name="sim_import_success_with_delete_failure">
+        <item quantity="other">已匯入 %d 位聯絡人。無法從 SIM 卡中移除副本。</item>
+        <item quantity="one">已匯入 1 位聯絡人。無法從 SIM 卡中移除副本。</item>
+    </plurals>
+    <plurals name="sim_import_success_with_delete_success">
+        <item quantity="other">已匯入 %d 位聯絡人。已從 SIM 卡中移除副本。</item>
+        <item quantity="one">已匯入 %d 位聯絡人。已從 SIM 卡中移除副本。</item>
+    </plurals>
+    <plurals name="starred_contacts_activity_title">
+        <item quantity="other">%d 位已加星號的聯絡人</item>
+        <item quantity="one">%d 位已加星號的聯絡人</item>
+    </plurals>
+    <plurals name="trash_confirmation_message">
+        <item quantity="other">這些聯絡人將會從您所有已同步的裝置中移除</item>
+        <item quantity="one">此聯絡人將會從您所有已同步的裝置中移除</item>
+    </plurals>
+    <plurals name="trash_confirmation_positive_button">
+        <item quantity="other">移至垃圾桶</item>
+        <item quantity="one">移至垃圾桶</item>
+    </plurals>
+    <plurals name="trash_confirmation_title">
+        <item quantity="other">要移至垃圾桶嗎？</item>
+        <item quantity="one">要移至垃圾桶嗎？</item>
+    </plurals>
+    <plurals name="trash_list_banner_text">
+        <item quantity="other">系統將永久刪除位於垃圾桶內超過 %1$d 天的聯絡人</item>
+        <item quantity="one">系統將永久刪除位於垃圾桶內超過 %1$d 天的聯絡人</item>
+    </plurals>
+    <plurals name="unblock_numbers_dialog_title">
+        <item quantity="other">要解除封鎖號碼嗎？</item>
+        <item quantity="one">要解除封鎖號碼嗎？</item>
+    </plurals>
+    <plurals name="untrash_limit_dialog_message">
+        <item quantity="other">每次只能還原 %1$d 個聯絡人，但您可以重複此步驟以還原更多聯絡人</item>
+        <item quantity="one">每次只能還原 %1$d 個聯絡人，但您可以重複此步驟以還原更多聯絡人</item>
+    </plurals>
+    <plurals name="untrash_limit_dialog_title">
+        <item quantity="other">要還原 %1$d 個聯絡人嗎？</item>
+        <item quantity="one">要還原 %1$d 個聯絡人嗎？</item>
+    </plurals>
+    <plurals name="untrash_progress_title">
+        <item quantity="other">正在還原 %1$d 個聯絡人…</item>
+        <item quantity="one">正在還原 %1$d 個聯絡人…</item>
+    </plurals>
+    <plurals name="untrash_success_toast">
+        <item quantity="other">%1$d 位復原的聯絡人即將同步</item>
+        <item quantity="one">%1$d 位復原的聯絡人即將同步</item>
+    </plurals>
+</resources>

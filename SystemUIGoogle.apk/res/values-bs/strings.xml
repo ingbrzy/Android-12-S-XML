@@ -595,6 +595,8 @@ Odabir"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Morate ponovo pokrenuti uređaj da se ova promjena primijeni. Ponovo pokrenite odmah ili otkažite.</string>
     <string name="camera_hint">Prevucite od ikone da otvorite kameru</string>
     <string name="camera_label">otvori kameru</string>
+    <string name="camera_recording_announcement">Kamera snima</string>
+    <string name="camera_stopped_recording_announcement">Kamera je prestala snimati</string>
     <string name="cancel">Otkaži</string>
     <string name="carrier_network_change_mode">Promjena mreže mobilnog operatera</string>
     <string name="category_personal">Lično</string>
@@ -734,6 +736,10 @@ Ukoliko nastavite koristiti prijenos podataka na mobilnoj mreži, mogući su tro
     <string name="debug_monitoring_category">Praćenje</string>
     <string name="debug_networking_category">Umrežavanje</string>
     <string name="debug_view_attributes">Omogući pregled atributa prikaza</string>
+    <string name="defender_notify_des">Vaš telefon ograničava punjenje radi očuvanja baterije</string>
+    <string name="defender_notify_learn_more">Saznajte više</string>
+    <string name="defender_notify_resume_charge">Nastavi punjenje</string>
+    <string name="defender_notify_title">Punjenje je privremeno ograničeno</string>
     <string name="delete_blob_confirmation_text">Jeste li sigurni da želite izbrisati ove dijeljene podatke?</string>
     <string name="delete_blob_text">Izbriši dijeljene podatke</string>
     <string name="demo_mode">Način rada za demonstraciju Sistemskog UI-a</string>
@@ -1070,6 +1076,7 @@ Da dobijete drugu SIM karticu, obratite se pružaocu bežičnih usluga."</string
     <string name="keyguard_sim_unlock_progress_dialog_message">Otključavanje SIM kartice…</string>
     <string name="keyguard_try_fingerprint">Otvorite pomoću otiska prsta</string>
     <string name="keyguard_unlock">Prevucite da otvorite</string>
+    <string name="keyguard_unlock_press">Pritisnite da otvorite</string>
     <string name="keywords_adb_wireless">adb, otklanjanje grešaka, programer</string>
     <string name="keywords_alarms_and_reminders">raspored, alarm, podsjetnik, sat</string>
     <string name="kg_enter_confirm_pin_hint">Potvrdite željeni PIN</string>
@@ -1233,6 +1240,10 @@ Pokušajte ponovo za %2$d s."</string>
     <string name="menu_ime">Prebacivač tastatura</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon je aktivan</string>
+    <string name="mic_and_camera_recording_announcement">Kamera i mikrofon snimaju</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera i mikrofon su prestali snimati</string>
+    <string name="mic_recording_announcement">Mikrofon snima</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon je prestao snimati</string>
     <string name="missed_call">Propušteni poziv</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Prijenos podataka</string>
@@ -1706,8 +1717,6 @@ Ako imate pitanja, kontaktirajte organizaciju %2$s."</string>
     <string name="quick_settings_work_mode_label">Poslovne aplikacije</string>
     <string name="quick_step_accessibility_toggle_overview">Pregled uključivanja/isključivanja</string>
     <string name="recent_conversations">Nedavni razgovori</string>
-    <string name="recents_quick_scrub_onboarding">Prevucite udesno za brzu promjenu aplikacija</string>
-    <string name="recents_swipe_up_onboarding">Prevucite prema gore za promjenu aplikacije</string>
     <string name="remaining_length_format">Još otprilike %1$s</string>
     <string name="remote_input_image_insertion_text">je poslao/la sliku</string>
     <string name="remove_from_settings">Ukloni iz Postavki</string>
@@ -1859,7 +1868,7 @@ Ako imate pitanja, kontaktirajte organizaciju %2$s."</string>
     <string name="slice_permission_deny">Odbij</string>
     <string name="slice_permission_text_1">- Može čitati informacije iz aplikacije %1$s</string>
     <string name="slice_permission_text_2">- Može poduzeti radnje u aplikaciji %1$s</string>
-    <string name="slice_permission_title">Dozvoliti aplikaciji %1$s prikazivanje isječaka aplikacije %2$s?</string>
+    <string name="slice_permission_title">Dozvoliti aplikaciji %1$s da prikazuje isječke aplikacije %2$s?</string>
     <string name="smartspace_flight_card_gate_header">Izlaz</string>
     <string name="smartspace_flight_card_seat_header">Sjedište</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
@@ -2117,6 +2126,7 @@ Svaki korisnik može ažurirati aplikacije za sve ostale korisnike."</string>
     <string name="wallet_secondary_label_no_card">Dodajte karticu</string>
     <string name="wallet_secondary_label_updating">Ažuriranje</string>
     <string name="wallet_title">Novčanik</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pristupna tačka je privremeno puna</string>
     <string name="wifi_cant_connect">Nije se moguće povezati</string>
     <string name="wifi_cant_connect_to_ap">"Nije se moguće povezati na aplikaciju '%1$s'"</string>

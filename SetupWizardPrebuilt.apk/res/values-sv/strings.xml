@@ -341,13 +341,15 @@ Enhet tillhandahålls inte"</string>
 
 "<li>Alla andra användare kan godkänna uppdateringar av appars behörigheter</li>"
 
-"<li>Dela bara telefonen med personer som du litar på</li></ul>}TABLET{<b>Viktigt!</b>"
+"<li>Dela bara telefonen med personer som du litar på</li></ul>"
+}TABLET{"<b>Viktigt!</b>"
 
 "<ul><li>Surfplattans ägare kan avinstallera dina appar eller ta bort din användarprofil helt</li>"
 
 "<li>Alla andra användare kan godkänna uppdateringar av appars behörigheter</li>"
 
-"<li>Dela bara surfplattan med personer som du litar på</li></ul>}other{<b>Viktigt!</b>"
+"<li>Dela bara surfplattan med personer som du litar på</li></ul>"
+}other{"<b>Viktigt!</b>"
 
 "<ul><li>Enhetens ägare kan avinstallera dina appar eller ta bort din användarprofil helt</li>"
 
@@ -359,70 +361,47 @@ Enhet tillhandahålls inte"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera telefonen.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>uppdatera programvara</li>"
-
-"<li>ställa in tid och datum automatiskt.</li>"}TABLET{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera surfplattan.
+"<li>ställa in tid och datum automatiskt.</li>"
+}TABLET{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera surfplattan.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>uppdatera programvara</li>"
-
-"<li>ställa in tid och datum automatiskt.</li>"}other{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera enheten.
+"<li>ställa in tid och datum automatiskt.</li>"
+}other{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera enheten.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>uppdatera programvara</li>"
-
 "<li>ställa in tid och datum automatiskt.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera telefonen.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>ladda ned ett SIM-kort</li>"
-
 "<li>uppdatera programvara</li>"
-
-"<li>ställa in tid och datum automatiskt.</li>"}TABLET{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera surfplattan.
+"<li>ställa in tid och datum automatiskt.</li>"
+}TABLET{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera surfplattan.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>ladda ned ett SIM-kort</li>"
-
 "<li>uppdatera programvara</li>"
-
-"<li>ställa in tid och datum automatiskt.</li>"}other{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera enheten.
+"<li>ställa in tid och datum automatiskt.</li>"
+}other{Om du ansluter till ett wifi- eller mobilnätverk går det snabbt att konfigurera enheten.
 
 Utan anslutning kan du inte
-
 "<li>logga in på ditt Google-konto</li>"
-
 "<li>återställa appar och data</li>"
-
 "<li>ladda ned ett SIM-kort</li>"
-
 "<li>uppdatera programvara</li>"
-
 "<li>ställa in tid och datum automatiskt.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Åtkomstpunkten har inga platser över för tillfället</string>
     <string name="wifi_check_password_try_again">Kontrollera lösenordet och försök igen</string>

@@ -17,14 +17,21 @@
         <item>15 分钟</item>
         <item>20 分钟</item>
         <item>25 分钟</item>
-        <item>不停歇</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>就寝时间前 15 分钟</item>
+        <item>就寝时间前 30 分钟</item>
+        <item>就寝时间前 45 分钟</item>
+        <item>就寝时间前 1 小时</item>
+        <item>关闭</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>指针</item>
         <item>数字</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>不停歇</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 秒</item>
         <item>10 秒</item>
         <item>15 秒</item>
@@ -37,6 +44,35 @@
         <item>50 秒</item>
         <item>55 秒</item>
         <item>60 秒</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 分钟后停止</item>
+        <item>20 分钟后停止</item>
+        <item>30 分钟后停止</item>
+        <item>40 分钟后停止</item>
+        <item>50 分钟后停止</item>
+        <item>在 1 小时后停止</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>在 10 分钟后停止</item>
+        <item>在 20 分钟后停止</item>
+        <item>在 30 分钟后停止</item>
+        <item>在 40 分钟后停止</item>
+        <item>在 40 分钟后停止</item>
+        <item>在 1 小时后停止</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+        <item>40 分钟</item>
+        <item>50 分钟</item>
+        <item>1 小时</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 分钟</item>
@@ -69,18 +105,6 @@
         <item>28 分钟</item>
         <item>29 分钟</item>
         <item>30 分钟</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>您简直就像闪电侠。</item>
-        <item>享受一下您大汗淋漓的成果吧。</item>
-        <item>Android 以速度快著称，但还跟不上您！</item>
-        <item>哇噻！</item>
-        <item>果然是高手。</item>
-        <item>迅雷不及掩耳之势。</item>
-        <item>再来一次吧。</item>
-        <item>小菜一碟。</item>
-        <item>您简直比得上飞毛腿。</item>
-        <item>冲击光速！</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>马绍尔群岛</item>
@@ -170,7 +194,7 @@
         <item>雅加达</item>
     </string-array>
     <string-array name="volume_button_setting_entries">
-        <item>暂停</item>
+        <item>延后</item>
         <item>关闭</item>
         <item>控制音量</item>
     </string-array>

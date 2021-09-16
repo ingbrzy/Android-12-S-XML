@@ -24,6 +24,14 @@
         <item quantity="few">%s أيام</item>
         <item quantity="many">%s يومًا</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">قبل %s يوم</item>
+        <item quantity="zero">قبل %s يوم</item>
+        <item quantity="one">قبل يوم واحد</item>
+        <item quantity="two">قبل يومين (%s)</item>
+        <item quantity="few">قبل %s أيام</item>
+        <item quantity="many">قبل %s يومًا</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="other">%s من الساعات</item>
         <item quantity="zero">%s من الساعات</item>
@@ -55,6 +63,14 @@
         <item quantity="two">دقيقتان (%s)</item>
         <item quantity="few">%s دقائق</item>
         <item quantity="many">%s دقيقة</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s ثانية</item>

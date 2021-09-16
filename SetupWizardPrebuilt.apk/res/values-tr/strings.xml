@@ -165,7 +165,7 @@ Uçak modu açıkken kablosuz, mobil ve Bluetooth bağlantıları devre dışı 
     <string name="final_hold_description_text">Bu işlem birkaç dakika sürebilir</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Telefonunuz hazırlanıyor…}TABLET{Tabletiniz hazırlanıyor…}other{Cihazınız hazırlanıyor…}}</string>
     <string name="final_hold_title_setup_work_account">Telefon iş profili kurulumu için hazırlanıyor…</string>
-    <string name="gesture_intro_description">Ana ekrana gitme, geri dönme ve uygulama değiştirme hareketlerini öğrenin</string>
+    <string name="gesture_intro_description">Ana ekrana gitme, geri gitme ve uygulamalar arasında geçiş yapma hareketlerini öğrenin</string>
     <string name="gesture_intro_skip_button">Atla</string>
     <string name="gesture_intro_start_button">Dene</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Telefonunuzda gezinmek için kaydırın}TABLET{Tabletinizde gezinmek için kaydırın}other{Cihazınızda gezinmek için kaydırın}}</string>
@@ -339,15 +339,17 @@ Cihazda temel hazırlık yapılmadı"</string>
 
 "<ul><li>Telefonun sahibi, uygulamalarınızın yüklemelerini veya kullanıcı profilinizi tamamen kaldırabilir</li>"
 
-"<li>Herhangi bir kullanıcı, güncellenmiş uygulama izinlerini kabul edebilir</li>"
+"<li>Herhangi bir kullanıcı güncellenmiş uygulama izinlerini kabul edebilir</li>"
 
-"<li>Bu telefonu yalnızca güvendiğiniz kişilerle paylaşın</li></ul>}TABLET{<b>Önemli:</b>"
+"<li>Bu telefonu yalnızca güvendiğiniz kişilerle paylaşın</li></ul>"
+}TABLET{"<b>Önemli:</b>"
 
 "<ul><li>Tabletin sahibi, uygulamalarınızın yüklemelerini veya kullanıcı profilinizi tamamen kaldırabilir</li>"
 
 "<li>Herhangi bir kullanıcı, güncellenmiş uygulama izinlerini kabul edebilir</li>"
 
-"<li>Bu tableti yalnızca güvendiğiniz kişilerle paylaşın</li></ul>}other{<b>Önemli:</b>"
+"<li>Bu tableti yalnızca güvendiğiniz kişilerle paylaşın</li></ul>"
+}other{"<b>Önemli:</b>"
 
 "<ul><li>Cihazın sahibi, uygulamalarınızın yüklemelerini veya kullanıcı profilinizi tamamen kaldırabilir</li>"
 
@@ -356,73 +358,50 @@ Cihazda temel hazırlık yapılmadı"</string>
 "<li>Bu cihazı yalnızca güvendiğiniz kişilerle paylaşın</li></ul>}}</string>
     <string name="welcome_start_button_label">Başlat</string>
     <string name="wifi_add_new_network">Yeni ağ ekle</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Kablosuz veya mobil ağa bağlanmak telefonunuzun kurulumunu hızlıca yapmanızı sağlar.
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Kablosuz veya mobil ağa bağlanmak telefonunuzun hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
-"<li>Saat ve tarihi otomatik olarak ayarlama</li>"}TABLET{Kablosuz veya mobil ağa bağlanmak tabletinizin kurulumunu hızlıca yapmanızı sağlar.
+"<li>Saat ve tarihi otomatik olarak ayarlama</li>"
+}TABLET{Kablosuz veya mobil ağa bağlanmak tabletinizi hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
-"<li>Saat ve tarihi otomatik olarak ayarlama</li>"}other{Kablosuz veya mobil ağa bağlanmak cihazınızın kurulumunu hızlıca yapmanızı sağlar.
+"<li>Saat ve tarihi otomatik olarak ayarlama</li>"
+}other{Kablosuz veya mobil ağa bağlanmak cihazınızı hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
 "<li>Saat ve tarihi otomatik olarak ayarlama</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Kablosuz veya mobil ağa bağlanarak telefonunuzun kurulumunu hızlı bir şekilde yapabilirsiniz.
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Kablosuz veya mobil ağa bağlanmak telefonunuzu hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>SIM indirme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
-"<li>Saat ve tarihi otomatik olarak ayarlama</li>"}TABLET{Kablosuz veya mobil ağa bağlanarak tabletinizin kurulumunu hızlı bir şekilde yapabilirsiniz.
+"<li>Saat ve tarihi otomatik olarak ayarlama</li>"
+}TABLET{Kablosuz veya mobil ağa bağlanmak tabletinizi hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>SIM indirme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
-"<li>Saat ve tarihi otomatik olarak ayarlama</li>"}other{Kablosuz veya mobil ağa bağlanarak cihazınızın kurulumunu hızlı bir şekilde yapabilirsiniz.
+"<li>Saat ve tarihi otomatik olarak ayarlama</li>"
+}other{Kablosuz veya mobil ağa bağlanmak cihazınızı hızlı bir şekilde kurabilmenizi sağlar.
 
 Bağlantı olmadan şunları yapamazsınız:
-
 "<li>Google Hesabınızda oturum açma</li>"
-
 "<li>Uygulamaları ve verileri geri yükleme</li>"
-
 "<li>SIM indirme</li>"
-
 "<li>Yazılım güncellemeleri alma</li>"
-
 "<li>Saat ve tarihi otomatik olarak ayarlama</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Erişim noktası geçici olarak dolu</string>
     <string name="wifi_check_password_try_again">Şifreyi kontrol edin ve tekrar deneyin</string>

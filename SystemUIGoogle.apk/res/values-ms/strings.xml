@@ -595,6 +595,8 @@ Pilihan"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Peranti anda mesti dibut semula supaya perubahan ini berlaku. But semula sekarang atau batalkan.</string>
     <string name="camera_hint">Leret dari ikon untuk kamera</string>
     <string name="camera_label">buka kamera</string>
+    <string name="camera_recording_announcement">Kamera sedang merakam</string>
+    <string name="camera_stopped_recording_announcement">Kamera berhenti merakam</string>
     <string name="cancel">Batal</string>
     <string name="carrier_network_change_mode">Rangkaian pembawa berubah</string>
     <string name="category_personal">Peribadi</string>
@@ -734,6 +736,10 @@ Jika anda menyambung semula, caj mungkin digunakan untuk penggunaan data."</stri
     <string name="debug_monitoring_category">Memantau</string>
     <string name="debug_networking_category">Perangkaian</string>
     <string name="debug_view_attributes">Dayakan pemeriksaan atribut paparan</string>
+    <string name="defender_notify_des">Telefon anda mengehadkan pengecasan untuk membantu anda mengekalkan kesihatan bateri</string>
+    <string name="defender_notify_learn_more">Ketahui lebih lanjut</string>
+    <string name="defender_notify_resume_charge">Sambung semula pengecasan</string>
+    <string name="defender_notify_title">Pengecasan terhad buat sementara waktu</string>
     <string name="delete_blob_confirmation_text">Adakah anda pasti mahu memadamkan data dikongsi ini?</string>
     <string name="delete_blob_text">Padamkan data dikongsi</string>
     <string name="demo_mode">Mod tunjuk cara UI sistem</string>
@@ -1070,6 +1076,7 @@ sahaja"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Membuka kunci kad SIM…</string>
     <string name="keyguard_try_fingerprint">Gunakan cap jari untuk membuka</string>
     <string name="keyguard_unlock">Leret ke atas untuk buka</string>
+    <string name="keyguard_unlock_press">Tekan untuk buka</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">jadual, penggera, peringatan, jam</string>
     <string name="kg_enter_confirm_pin_hint">Sahkan kod PIN yang diingini</string>
@@ -1233,6 +1240,10 @@ Cuba lagi dalam %2$d saat."</string>
     <string name="menu_ime">Penukar papan kekunci</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon Aktif</string>
+    <string name="mic_and_camera_recording_announcement">Kamera dan Mikrofon sedang merakam</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera dan Mikrofon berhenti merakam</string>
+    <string name="mic_recording_announcement">Mikrofon sedang merakam</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon berhenti merakam</string>
     <string name="missed_call">Panggilan terlepas</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data">Data mudah alih</string>
@@ -1706,8 +1717,6 @@ Jika anda mempunyai pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_work_mode_label">Apl kerja</string>
     <string name="quick_step_accessibility_toggle_overview">Togol Ikhtisar</string>
     <string name="recent_conversations">Perbualan terbaharu</string>
-    <string name="recents_quick_scrub_onboarding">Seret ke kanan untuk beralih apl dengan pantas</string>
-    <string name="recents_swipe_up_onboarding">Leret ke atas untuk menukar apl</string>
     <string name="remaining_length_format">%1$s lagi</string>
     <string name="remote_input_image_insertion_text">menghantar imej</string>
     <string name="remove_from_settings">Alih keluar daripada Tetapan</string>
@@ -2117,6 +2126,7 @@ Mana-mana pengguna boleh mengemas kini apl untuk semua pengguna lain."</string>
     <string name="wallet_secondary_label_no_card">Tambahkan kad</string>
     <string name="wallet_secondary_label_updating">Mengemas kini</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Titik akses penuh buat sementara waktu</string>
     <string name="wifi_cant_connect">Tidak dapat bersambung</string>
     <string name="wifi_cant_connect_to_ap">"Tidak dapat bersambung ke '%1$s'"</string>

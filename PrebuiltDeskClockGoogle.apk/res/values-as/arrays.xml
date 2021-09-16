@@ -17,14 +17,21 @@
         <item>১৫ মিনিট</item>
         <item>২০ মিনিট</item>
         <item>২৫ মিনিট</item>
-        <item>কেতিয়াও নহয়</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>শোৱাৰ সময়ৰ ১৫ মিনিট আগতে</item>
+        <item>শোৱাৰ সময়ৰ ৩০ মিনিট আগতে</item>
+        <item>শোৱাৰ সময়ৰ ৪৫ মিনিট আগতে</item>
+        <item>শোৱাৰ সময়ৰ ১ ঘণ্টা আগতে</item>
+        <item>অফ কৰক</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>"এনাল'গ"</item>
         <item>ডিজিটেল</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>কেতিয়াও নহয়</item>
+        <item>@string/crescendo_entry_never</item>
         <item>৫ ছেকেণ্ড</item>
         <item>১০ ছেকেণ্ড</item>
         <item>১৫ ছেকেণ্ড</item>
@@ -37,6 +44,35 @@
         <item>৫০ ছেকেণ্ড</item>
         <item>৫৫ ছেকেণ্ড</item>
         <item>৬০ ছেকেণ্ড</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>১০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>২০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৩০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৪০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৫০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>১ ঘণ্টাৰ পাছত বন্ধ কৰক</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>১০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>২০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৩০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৪০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>৫০ মিনিটৰ পাছত বন্ধ কৰক</item>
+        <item>১ ঘণ্টাৰ পাছত বন্ধ কৰক</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>১০ মিনিট</item>
+        <item>২০ মিনিট</item>
+        <item>৩০ মিনিট</item>
+        <item>৪০ মিনিট</item>
+        <item>৫০ মিনিট</item>
+        <item>১ ঘণ্টা</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>১ মিনিট</item>
@@ -69,18 +105,6 @@
         <item>২৮ মিনিট</item>
         <item>২৯ মিনিট</item>
         <item>৩০ মিনিট</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>আপুনি নিশ্চয় গতি ভাল পায়।</item>
-        <item>নিজৰ কষ্টৰ ফল উপভোগ কৰক।</item>
-        <item>Androidবোৰক বেগী বুলি জনা যায়, কিন্তু এইবোৰ আপোনাৰ দৰে বেগী নহয়!</item>
-        <item>উহ।</item>
-        <item>L33t বাৰ।</item>
-        <item>ইমান বিস্ময়কৰ বেগ।</item>
-        <item>আহক সময়ক আকৌ সাঙুৰি লওঁ।</item>
-        <item>"এবাৰ বাওঁফালে গ'লেই হ’ল।"</item>
-        <item>আপোনাৰ লৰালৰিকৈ কাম কৰাৰ অভ্য়াস আছে।</item>
-        <item>"ফ'টোনিক বেগ।"</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>মাৰ্শ্বেল দ্ৱীপসমূহ</item>

@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Respon</string>
     <string name="a11y_call_incoming_decline_description">Rebutja</string>
+    <string name="a11y_callscreen_animation">Animació del filtratge de trucades</string>
     <string name="a11y_contact_menu_video_call_wifi">Fes una videotrucada mitjançant la Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Fes una trucada de veu mitjançant la Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">"L'última és una trucada resposta de: ^1"</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Gestiona les persones que truquen</string>
     <string name="a11y_expandedsheet_collapse">replega el menú</string>
     <string name="a11y_expandedsheet_expand">desplega el menú</string>
-    <string name="a11y_favorites_education_dismiss">tanca</string>
     <string name="a11y_feature_demo_next_page">Pàgina següent</string>
     <string name="a11y_feature_demo_page_indicator">Pàgina %d</string>
     <string name="a11y_feature_demo_prev_page">Pàgina anterior</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Funció de contacte ràpid per a ^1</string>
+    <string name="a11y_icon_hd">Trucada en HD</string>
+    <string name="a11y_icon_hd_plus">Trucada en HD+</string>
+    <string name="a11y_icon_shared_data_call">Trucada amb dades compartides</string>
+    <string name="a11y_icon_verified">Trucada verificada</string>
+    <string name="a11y_icon_vilte">Vídeo per trucada LTE</string>
+    <string name="a11y_icon_viwifi">Trucada de vídeo per Wi-Fi</string>
+    <string name="a11y_icon_volte">Veu per trucada LTE</string>
+    <string name="a11y_icon_voz4g">Veu per trucada 4G</string>
+    <string name="a11y_icon_wifi">Trucada per Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Llisca amb dos dits cap amunt per respondre a la trucada i cap avall per rebutjar-la.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Llisca cap amunt amb dos dits per respondre a la trucada o cap avall per rebutjar-la</string>
     <string name="a11y_new_call_log_entry_call_recording">trucada gravada</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">a ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">fes una trucada RTT amb ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Trucada amb dades compartides</string>
     <string name="a11y_new_call_log_entry_tap_action">desplega el menú</string>
     <string name="a11y_new_call_log_entry_video_call">fes una videotrucada amb ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">fes una videotrucada a ^1 mitjançant la Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Edita el número abans de trucar</string>
     <string name="action_menu_back_from_search">Atura la cerca.</string>
     <string name="action_menu_overflow_description">Més opcions</string>
+    <string name="activate_error_message">Hi ha hagut un problema en activar el filtratge de trucades</string>
+    <string name="activated_successfully">Filtratge de trucades activat</string>
     <string name="activity_not_available">No hi ha cap aplicació per a això en aquest dispositiu.</string>
     <string name="add_2sec_pause">Afegeix una pausa de 2 segons</string>
     <string name="add_contact_not_available">No hi ha cap contacte disponible</string>
@@ -159,9 +171,9 @@ Les gravacions s'emmagatzemen únicament al teu telèfon. ^1"</string>
     <string name="bm_suggest_call_button">Truca</string>
     <string name="bm_suggest_chat_button">Xateja</string>
     <string name="bm_suggest_wait_min">"Xat
-%1$d min d'espera"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s de no llegits</string>
+%1$d min d'espera"</string>
+    <string name="bm_suggest_wait_time_estimating">"Xateja
+Treballant…"</string>
     <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
     <string name="bubble_bottom_action_end_call">Penja</string>
     <string name="bubble_bottom_action_hide">Amaga</string>
@@ -170,7 +182,10 @@ Les gravacions s'emmagatzemen únicament al teu telèfon. ^1"</string>
     <string name="call">Trucada de veu</string>
     <string name="callFailed_simError">Cap SIM o error de la SIM</string>
     <string name="callHistoryIconLabel">Historial de trucades</string>
-    <string name="call_announcer_preference_footer_instruction_text">El nom i el número de la persona que truqui es llegiran en veu alta</string>
+    <string name="call_action_label_automatically_screen">Filtra automàticament. Rebutja les trucades automàtiques.</string>
+    <string name="call_action_label_ring_phone">Fes sonar el telèfon (opció predeterminada)</string>
+    <string name="call_action_label_silently_decline">Rebutja silenciosament</string>
+    <string name="call_announcer_preference_footer_instruction_text">El nom i el número de la persona que truqui es llegiran en veu alta.</string>
     <string name="call_announcer_preference_list_title">"Anuncia l'identificador de trucada"</string>
     <string name="call_announcer_preference_option_always">Sempre</string>
     <string name="call_announcer_preference_option_headset">Només en fer servir auriculars amb micro</string>
@@ -203,7 +218,7 @@ Les gravacions s'emmagatzemen únicament al teu telèfon. ^1"</string>
     <string name="call_incoming_answer">Respon</string>
     <string name="call_incoming_answer_rtt">Respon amb RTT</string>
     <string name="call_incoming_answer_voice">Respon amb un missatge de veu</string>
-    <string name="call_incoming_chip_answer_and_release">Respon/Finalitza trucada</string>
+    <string name="call_incoming_chip_answer_and_release">"Respon i finalitza l'altra trucada"</string>
     <string name="call_incoming_chip_answer_as_rtt">Respon amb una trucada RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Respon amb trucada de veu</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Respon amb vídeo desactivat</string>
@@ -219,7 +234,7 @@ Les gravacions s'emmagatzemen únicament al teu telèfon. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Llisca cap amunt per respondre</string>
     <string name="call_incoming_swipe_to_reject">Llisca cap avall per rebutjar</string>
     <string name="call_incoming_video_is_off">El teu vídeo està desactivat</string>
-    <string name="call_incoming_will_disconnect">Si respons a aquesta trucada, la videotrucada finalitzarà</string>
+    <string name="call_incoming_will_disconnect">"Si respons a aquesta trucada, l'altra trucada finalitzarà"</string>
     <string name="call_incoming_will_disconnect_app">En respondre, finalitzarà la trucada a %1$s</string>
     <string name="call_isdn">"Truca a l'XDSI"</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Bloqueja o marca com a brossa</string>
@@ -255,6 +270,7 @@ Les gravacions s'emmagatzemen únicament al teu telèfon. ^1"</string>
     <string name="call_reason_fragment_content_description">Motiu de la trucada: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">"S'ha desat la gravació"</string>
     <string name="call_recording_conversation_history_entry">Gravada</string>
+    <string name="call_recording_delete_snack_bar_undo">Desfés</string>
     <string name="call_recording_disclaimer_agreen_button_text">Inicia la gravació</string>
     <string name="call_recording_disclaimer_content">"És possible que tu o l'altra persona de la trucada us trobeu en un lloc que requereix el consentiment de totes les parts per poder gravar-la. Tothom rebrà amb antelació una notificació en què s'indica que es gravarà la trucada. És responsabilitat teva complir la legislació pertinent sobre la gravació de converses. Fes servir la gravació de trucades de manera responsable i activa-la només quan sigui necessari.
 ^1
@@ -291,6 +307,7 @@ Les gravacions s'emmagatzemen únicament al teu telèfon."</string>
 Ni l'àudio ni la transcripció de la trucada s'envien a ningú, tampoc a Google."</string>
     <string name="call_screen_demo_page_4_title">Estalvia temps i evita frustracions</string>
     <string name="call_screen_demo_setting_title">Mira una demostració</string>
+    <string name="call_screen_demo_settings_title">Mira una demostració</string>
     <string name="call_screen_demo_title">Com funciona el filtratge de trucades</string>
     <string name="call_screen_demo_unable_to_fetch_audio">"No es pot recollir l'àudio de mostra"</string>
     <string name="call_screen_demo_unable_to_play_audio">"No es pot reproduir l'àudio de mostra"</string>
@@ -298,6 +315,7 @@ Ni l'àudio ni la transcripció de la trucada s'envien a ningú, tampoc a Google
     <string name="call_screen_end_call_local_internal_message">Has finalitzat la trucada</string>
     <string name="call_screen_end_call_non_local_internal_message">"La trucada s'ha desconnectat"</string>
     <string name="call_screen_how_it_works_setting_title">El filtratge de trucades funciona al teu dispositiu sense Wi-Fi ni dades. Les transcripcions de converses es generen i emmagatzemen només al telèfon. %1$s</string>
+    <string name="call_screen_how_it_works_title">El filtratge de trucades funciona al teu dispositiu sense Wi-Fi ni dades. Les transcripcions de converses es generen i emmagatzemen només al telèfon. ^1</string>
     <string name="call_screen_incallui_chip_text">Filtra la trucada</string>
     <string name="call_screen_join_call_button_content_description">Uneix-me a la trucada</string>
     <string name="call_screen_join_call_internal_message">"T'has unit a la trucada"</string>
@@ -307,6 +325,7 @@ Ni l'àudio ni la transcripció de la trucada s'envien a ningú, tampoc a Google
     <string name="call_screen_saying_to_the_caller_state">"S'està dient a qui truca"</string>
     <string name="call_screen_screening_call_from">"S'està filtrant la trucada de"</string>
     <string name="call_screen_setting_title">Filtratge de trucades</string>
+    <string name="call_screen_settings_title">Filtratge de trucades</string>
     <string name="call_screen_speaker_toggle_button_content_description">"Botó de l'altaveu"</string>
     <string name="call_screen_suggestions_avatar_content_description">Logotip</string>
     <string name="call_screen_survey_cancel_button">Cancel·la</string>
@@ -331,6 +350,8 @@ Ni l'àudio ni la transcripció de la trucada s'envien a ningú, tampoc a Google
     <string name="call_work">Truca a la feina</string>
     <string name="call_work_mobile">Truca al mòbil de la feina</string>
     <string name="call_work_pager">Truca al cercapersones de la feina</string>
+    <string name="caller_action_error_cant_load_value">"No es pot obtenir el valor actual de l'opció %1$s"</string>
+    <string name="caller_action_error_cant_set_value">"No es pot desar el valor de l'opció %1$s"</string>
     <string name="caller_id_announcement_multi_sim">trucada entrant de %1$s, %2$s a la SIM %3$s</string>
     <string name="caller_id_announcement_single_sim">trucada entrant de %1$s, %2$s</string>
     <string name="caller_id_business_data_details">Google i els seus proveïdors de llicències són els encarregats de proporcionar les dades que es fan servir per a aquestes funcions. ^1</string>
@@ -370,6 +391,9 @@ Ni l'àudio ni la transcripció de la trucada s'envien a ningú, tampoc a Google
     <string name="calling_blocked_number_precall_dialog_title">Vols trucar a %s?</string>
     <string name="calllog_add_to_contact">Afegeix a un contacte</string>
     <string name="calllog_create_new_contact">Crea un contacte</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">"S'està activant el filtratge de trucades (requereix Wi-Fi)"</string>
+    <string name="callscreen_settings_voice_setting_title">Veu</string>
+    <string name="camera_permission_toast">"S'ha activat el permís d'accés a la càmera"</string>
     <string name="camera_privacy_text">"S'ha activat el permís d'accés a la càmera"</string>
     <string name="cannot_understand_description">"No t'entenc"</string>
     <string name="car_crash_emergency_intro">"S'està contactant amb tu mitjançant un servei de veu automàtic per a emergències en nom d'una persona que truca.
@@ -432,6 +456,9 @@ Envia ajuda, si us plau."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">"No s'han pogut configurar les trucades verificades. Pots tornar-les a activar a Configuració."</string>
     <string name="contact_card_video_icon_content_description">Fes una videotrucada a ^1</string>
     <string name="contact_grid_callback_number">"Número d'aquest dispositiu: %1$s"</string>
+    <string name="contact_grid_forward_icon_content_description">"S'ha desviat la trucada"</string>
+    <string name="contact_grid_hd_icon_content_description">Trucada en HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Trucada en HD+</string>
     <string name="contact_grid_incoming_bidirectional_video_call">"Videotrucada amb l'operador feta per"</string>
     <string name="contact_grid_incoming_reception_only_video_call">"Videotrucada unidireccional amb l'operador feta per"</string>
     <string name="contact_grid_incoming_rtt_call">Trucada RTT de</string>
@@ -442,9 +469,18 @@ Envia ajuda, si us plau."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">"Videotrucada per Wi-Fi amb l'operador feta per"</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">"Videotrucada unidireccional per Wi-Fi amb l'operador feta per"</string>
     <string name="contact_grid_incoming_work_call">Trucada de feina de</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Trucada amb dades compartides</string>
+    <string name="contact_grid_spam_icon_content_description">Trucada brossa</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operador</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Verificada per %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Número vàlid</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Vídeo per trucada LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Trucada de vídeo per Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Veu per trucada 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Veu per trucada LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Trucada de veu per Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Trucada per Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Trucada de feina</string>
     <string name="contact_menu_add_favorite">Afeg. a Preferits</string>
     <string name="contact_menu_contact_info">Dades de contacte</string>
     <string name="contact_menu_invite_video">Convida a una videotrucada</string>
@@ -479,8 +515,12 @@ Envia ajuda, si us plau."</string>
     <string name="conversation_history_call_details_header_today">Avui</string>
     <string name="conversation_history_call_details_snack_bar_deleted">"S'ha suprimit la trucada"</string>
     <string name="conversation_history_call_details_snack_bar_undo">Desfés</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Trucada important</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Mostra més informació sobre la trucada</string>
+    <string name="conversation_history_call_recording_deleted">"La gravació s'ha suprimit"</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transcripció i àudio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transcripció</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">"Mostra la transcripció i l'àudio"</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Filtratge de trucades</string>
     <string name="copy">Copia</string>
     <string name="copy_number">Copia el número</string>
@@ -499,12 +539,17 @@ Envia ajuda, si us plau."</string>
     <string name="custom_prefix_default_prefix_title">Prefix predeterminat</string>
     <string name="custom_prefix_prefixes_preference_title">Prefixos</string>
     <string name="dark_theme_label">Fosc</string>
+    <string name="default_changed_confirmation">"S'ha establert Telèfon com a opció predeterminada"</string>
+    <string name="default_image_content_description">Imatge de pantalla resistent als esquitxos</string>
     <string name="delete">Suprimeix</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Suprimeix totes les gravacions</string>
     <string name="delete_all_recordings_now_error_message">"Algunes gravacions no s'han pogut suprimir. Torna-ho a provar."</string>
     <string name="delete_button_label">Suprimeix totes les gravacions ara</string>
     <string name="delete_confirmation_dialog_negative_button_label">Cancel·la</string>
     <string name="delete_confirmation_dialog_positive_button_label">Suprimeix</string>
+    <string name="delete_old_recordings_error_cant_load_value">"No es pot obtenir el valor actual de l'opció %1$s"</string>
+    <string name="delete_old_recordings_error_cant_set_value">"No es pot desar el valor de l'opció %1$s"</string>
+    <string name="deleting_call_recording">"S'està suprimint la gravació…"</string>
     <string name="description_add_to_existing_contact_action">Afegeix ^1 a un contacte existent</string>
     <string name="description_blocked_number_list_delete">Desbloqueja el número</string>
     <string name="description_call_action">Truca a ^1</string>
@@ -607,6 +652,7 @@ Envia ajuda, si us plau."</string>
     <string name="emergency_sos_emergency_intro">"S'està contactant amb tu mitjançant un servei de veu automàtic per a emergències en nom d'una persona.
 La persona que truca ha indicat que es pot trobar en una situació d'emergència. 
 Envia ajuda."</string>
+    <string name="emergency_speaker">Altaveu</string>
     <string name="emergency_voice_assist_dialog_button_close">Cancel·la</string>
     <string name="emergency_voice_assist_dialog_title">"L'operador del servei d'emergència ho sentirà"</string>
     <string name="end_call_with_default_message_description">Penja</string>
@@ -636,9 +682,12 @@ Envia ajuda."</string>
     <string name="feedback_call_issue_quiet_audio">"L'àudio se sentia molt fluix"</string>
     <string name="feedback_call_issue_title">Quin problema has tingut?</string>
     <string name="feedback_title_please_rate">Puntua la qualitat de la trucada</string>
+    <string name="first_time_callers_action_preference_description">Trucades que no consten al registre de trucades</string>
+    <string name="first_time_callers_action_preference_title">Trucades rebudes per primera vegada</string>
     <string name="flip_to_shush_title">Silencia en girar</string>
     <string name="flip_to_silence_summary">Per silenciar una trucada entrant, posa el telèfon cap avall en una superfície plana</string>
     <string name="flip_to_silence_title">Desactiva el so en girar</string>
+    <string name="foreground_notification_title">"S'està actualitzant…"</string>
     <string name="frequent_contact_suggestion">Trucats sovint</string>
     <string name="general_learn_more">Més informació</string>
     <string name="generic_conference_call_name">En una trucada</string>
@@ -661,6 +710,7 @@ Envia ajuda."</string>
     <string name="how_it_works_storage_link_text">"Més informació sobre com s'emmagatzemen les gravacions"</string>
     <string name="how_it_works_storage_template">"La gravació de trucades se suspendrà si el telèfon es queda sense espai d'emmagatzematge. ^1"</string>
     <string name="icon_content_description">Icona del quadre de diàleg</string>
+    <string name="icon_description_shared_data_call">Trucada amb dades compartides</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Importa els números</string>
     <string name="ims_video_heading">Vídeo de Verizon</string>
@@ -804,6 +854,7 @@ Envia ajuda."</string>
     <string name="new_call_log_no_missed_calls">No tens cap trucada perduda</string>
     <string name="new_call_log_permission_no_calllog">Activa el permís Telèfon per veure el teu registre de trucades.</string>
     <string name="new_call_log_secondary_blocked">Bloquejats</string>
+    <string name="new_call_log_secondary_verified">Trucada verificada</string>
     <string name="new_call_log_snack_bar_deleted">"S'ha suprimit la trucada"</string>
     <string name="new_call_log_snack_bar_undo">Desfés</string>
     <string name="new_call_log_unknown">Desconegut</string>
@@ -818,8 +869,10 @@ Envia ajuda."</string>
     <string name="notification_action_answer_video">Vídeo</string>
     <string name="notification_action_dismiss">Rebutja</string>
     <string name="notification_action_end_call">Penja</string>
+    <string name="notification_action_mute_toggle">Silencia</string>
     <string name="notification_action_speaker_off">"Desactiva l'altaveu"</string>
     <string name="notification_action_speaker_on">"Activa l'altaveu"</string>
+    <string name="notification_action_speaker_toggle">Altaveu</string>
     <string name="notification_callReasonMsg">Motiu: %s</string>
     <string name="notification_call_wifi_brand">Trucada per Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Trucada de feina per Wi-Fi</string>
@@ -883,6 +936,8 @@ Envia ajuda."</string>
     <string name="place_ims_button_content_description">"Botó que es fa servir per fer una videotrucada amb l'operador."</string>
     <string name="play">Reprodueix</string>
     <string name="plus_code_line_format">Codi plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Trucades que poden ser emissors de contingut brossa que fan servir un número alterat</string>
+    <string name="possibly_faked_numbers_action_preference_title">Números possiblement falsos</string>
     <string name="post_call_message">Digues per què trucaves</string>
     <string name="post_call_message_1">"És urgent. Truca'm."</string>
     <string name="post_call_message_2">"Truca'm quan tinguis una estona."</string>
@@ -913,6 +968,8 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="privacy_policy_label">Política de privadesa</string>
     <string name="private_num_non_verizon">Número privat</string>
     <string name="private_num_verizon">Restringit</string>
+    <string name="private_or_hidden_action_preference_description">"Trucades en què s'amaga l'identificador"</string>
+    <string name="private_or_hidden_action_preference_title">Privat o ocult</string>
     <string name="quick_contact_checkbox_description">Selecciona un contacte</string>
     <string name="ready_for_recording">A punt…</string>
     <string name="record_greeting_cancel_label">Cancel·la</string>
@@ -928,6 +985,8 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="record_greeting_uploading_greeting_message">"S'està desant…"</string>
     <string name="record_voicemail_greeting_title">Grava una salutació</string>
     <string name="recording_category_title">Gravacions</string>
+    <string name="recording_deleted">"La gravació s'ha suprimit"</string>
+    <string name="recording_deletion_failed">"No s'ha pogut suprimir la gravació. Torna-ho a provar."</string>
     <string name="redo_button_text">Torna-ho a provar</string>
     <string name="remember_this_choice_label">Recorda aquesta selecció</string>
     <string name="report_not_spam_alert_button">Informa</string>
@@ -939,9 +998,20 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="request_call_back_description">"Truca'm"</string>
     <string name="request_email_description">"Envia'm un correu electrònic"</string>
     <string name="respond_via_sms_setting_title">Respostes ràpides</string>
+    <string name="revelio_callers_how_it_works_text">"Per desactivar el filtratge automàtic, selecciona Fes sonar el telèfon (opció predeterminada) per a les trucades desconegudes. Els teus contactes no es filtraran mai automàticament. El filtratge automàtic no funcionarà si el telèfon està connectat a uns auriculars o altaveus. 
+El filtratge de trucades no utilitza dades ni Wi-Fi, però sí minuts de trucades a través de l'operador. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Suprimeix al cap de 30 dies</string>
+    <string name="revelio_delete_old_recordings_setting_title">Suprimeix automàticament gravacions i transcripcions més antigues</string>
+    <string name="revelio_demo_setting_title">Com funciona el filtratge de trucades</string>
     <string name="revelio_demo_turn_on">Activa</string>
     <string name="revelio_end_call_reject_as_spam">"La trucada s'ha marcat com a brossa"</string>
     <string name="revelio_end_call_user_missed_internal_message">"La trucada s'ha perdut"</string>
+    <string name="revelio_pref_title">Filtratge de trucades</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Filtratge automàtic desactivat</string>
+    <string name="revelio_preference_summary_screening">"S'està filtrant %1$s"</string>
+    <string name="revelio_save_audio_setting_summary">"Desa l'àudio de les trucades respostes per l'Assistent"</string>
+    <string name="revelio_save_audio_setting_title">"Desa l'àudio del filtratge de trucades"</string>
+    <string name="revelio_setting_title">Filtratge de trucades</string>
     <string name="rtt_assist_default">La funció RTT ofereix assistència als usuaris que són sords, tenen deficiències auditives o alteracions de la parla, o bé que necessiten un text a banda de la veu. ^1</string>
     <string name="rtt_assist_for_att">El teclat de text en temps real (RTT) que es mostra en pantalla és una alternativa als teclats de TTY externs. Quan escriguis un missatge durant una trucada RTT, la persona amb qui parlis el veurà en temps real. ^1</string>
     <string name="rtt_assist_for_tmo">"El teclat de text en temps real (RTT) que es mostra en pantalla és una alternativa als teclats de TTY externs. La funció RTT envia a l'instant allò que escriguis durant una trucada telefònica, de manera que et permet comunicar-te utilitzant textos en temps real. Podràs veure respostes parcials abans que el missatge estigui complet. ^1"</string>
@@ -949,7 +1019,8 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="rtt_button_back">Enrere</string>
     <string name="rtt_button_downgrade">Canvia a trucada de veu</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">"La funció RTT no està disponible per a aquesta trucada. La trucada s'ha connectat com a trucada només de veu."</string>
+    <string name="rtt_call_downgraded_toast">"La trucada RTT s'ha canviat a una trucada només de veu"</string>
+    <string name="rtt_call_not_available_toast">La funció RTT no està disponible per a aquesta trucada</string>
     <string name="rtt_configuration_summary_always_visible">El botó de text en temps real està disponible a tot arreu</string>
     <string name="rtt_configuration_summary_not_visible">Permet les trucades entrants de text en temps real però amaga el botó de trucada</string>
     <string name="rtt_configuration_summary_visible_during_call">Mostra el botó de text en temps real durant les trucades</string>
@@ -978,6 +1049,8 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="rtt_transcript_link">Mostra la transcripció</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Aquest missatge es repetirà.</string>
+    <string name="save_audio_error_cant_load_value">"No es pot obtenir el valor actual de l'opció Desa l'àudio del filtratge de trucades"</string>
+    <string name="save_audio_error_cant_set_value">"No es pot desar el valor de l'opció Desa l'àudio del filtratge de trucades"</string>
     <string name="save_button_text">Desa</string>
     <string name="saved_voicemails_action_title">Missatges de veu desats (%1$s)</string>
     <string name="search_hint">Cerca als contactes de vídeo</string>
@@ -1004,8 +1077,11 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="send_a_message">Envia un missatge</string>
     <string name="send_to_voicemail_import_failed">Error en la importació</string>
     <string name="serial_number">Número de sèrie</string>
+    <string name="set_as_default_button_text">Estab. predeterm.</string>
     <string name="set_default_account">Utilitza sempre per a les trucades</string>
     <string name="set_default_account_description">La preferència de SIM es desa amb els contactes.</string>
+    <string name="set_phone_as_default_explanation_text">"Telèfon només pot fer i rebre trucades si és l'aplicació de telefonia predeterminada"</string>
+    <string name="set_phone_as_default_request_text">Estableix Telèfon com a opció predeterminada</string>
     <string name="settings">Configuració</string>
     <string name="settings_page_call_recording_feature_not_available_text">La gravació de trucades no està disponible a la teva ubicació</string>
     <string name="settings_page_crosby_feature_not_available_text">No està disponible a la teva ubicació</string>
@@ -1040,6 +1116,8 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="snackbar_undo">Desfés</string>
     <string name="snackbar_voicemail_deleted">Correu de veu suprimit</string>
     <string name="sounds_and_vibration_title">Sons i vibració</string>
+    <string name="spam_action_preference_description">Números que figuren a la base de dades de contingut brossa de Google</string>
+    <string name="spam_action_preference_title">Contingut brossa</string>
     <string name="spam_and_call_screen_settings_title">Filtratge de trucades i contingut brossa</string>
     <string name="spam_blocking_promo_action_dismiss">Ignora</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtra les trucades brossa</string>
@@ -1066,8 +1144,6 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="speed_dial_add_button_text">Afegeix</string>
     <string name="speed_dial_contacts_permission_description">"Activa el permís d'accés als contactes per activar el marcatge ràpid."</string>
     <string name="speed_dial_disambig_dialog_title">Tria com vols trucar a %s</string>
-    <string name="speed_dial_education_content">Mantén premut un contacte per canviar entre trucades i missatges</string>
-    <string name="speed_dial_education_title">"Més maneres d'estar en contacte"</string>
     <string name="speed_dial_no_contacts_action_text">Afegeix un preferit</string>
     <string name="speed_dial_no_contacts_description">Truca als teus contactes preferits amb un sol toc</string>
     <string name="speed_dial_remember_this_choice">Recorda aquesta selecció</string>
@@ -1084,6 +1160,45 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="suggestion_dialog_postive_snackbar_message">Gràcies pels teus suggeriments</string>
     <string name="suggestions_header">Freqüents</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">dades del compte i del sistema</string>
+    <string name="survey_app_id">"Identificador d'aplicació"</string>
+    <string name="survey_app_name">"Nom de l'aplicació"</string>
+    <string name="survey_app_version">"Versió de l'aplicació"</string>
+    <string name="survey_application_data">"Dades de l'aplicació"</string>
+    <string name="survey_brand">Marca</string>
+    <string name="survey_close_button_description">Tanca</string>
+    <string name="survey_default_prompt_title">Ajudeu-nos a millorar Google.</string>
+    <string name="survey_device_model">Model de dispositiu</string>
+    <string name="survey_email_address">Adreça electrònica</string>
+    <string name="survey_google_play_services_version">Versió de Serveis de Google Play</string>
+    <string name="survey_legal_text">"En continuar, accepteu que Google utilitzi les vostres respostes i les %1$s per millorar els serveis d'acord amb la nostra %2$s i les nostres %3$s."</string>
+    <string name="survey_library_version">Versió de la biblioteca</string>
+    <string name="survey_network_request_failed">La sol·licitud de xarxa ha fallat</string>
+    <string name="survey_neutral">Ni satisfet ni insatisfet</string>
+    <string name="survey_next">Següent</string>
+    <string name="survey_num_rating">%1$s de %2$s</string>
+    <string name="survey_ok">"D'acord"</string>
+    <string name="survey_open_text_hint">Introduïu els vostres comentaris aquí</string>
+    <string name="survey_open_text_no_pii">No inclogueu informació personal</string>
+    <string name="survey_operating_system">Sistema operatiu</string>
+    <string name="survey_operating_system_version">Versió del sistema operatiu</string>
+    <string name="survey_other_option_hint">Altres (especifiqueu-ho)</string>
+    <string name="survey_platform">Plataforma</string>
+    <string name="survey_privacy">política de privadesa</string>
+    <string name="survey_prompt_no_thanks">No, gràcies</string>
+    <string name="survey_prompt_take_our_survey">Mostra la pregunta</string>
+    <string name="survey_smiley_rating">Emoticona %1$s de %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Una mica insatisfet/a</string>
+    <string name="survey_somewhat_satisfied">Una mica satisfet/a</string>
+    <string name="survey_submit">Envia</string>
+    <string name="survey_system_info_dialog_title">Informació del compte i del sistema</string>
+    <string name="survey_terms">condicions del servei</string>
+    <string name="survey_thank_you_followup_message">Ajudeu-nos a millorar el producte responent a més preguntes</string>
+    <string name="survey_timezone_offset">Diferència respecte fus horari</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">"Agent d'usuari"</string>
+    <string name="survey_very_dissatisfied">Molt insatisfet</string>
+    <string name="survey_very_satisfied">Molt satisfet</string>
     <string name="system_default_theme_label">Opció predeterminada del sistema</string>
     <string name="tab_title_call_history">Recents</string>
     <string name="tab_title_contacts">Contactes</string>
@@ -1095,11 +1210,15 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="terms_of_service_label">Condicions del servei</string>
     <string name="textmessage_button_label">Envia missatge</string>
     <string name="theme_preference_label">Selecciona un tema</string>
+    <string name="tidepods_call_screen_settings_title">Filtratge de trucades</string>
+    <string name="tidepods_incall_label_record">Grava</string>
     <string name="toast_text_copied">"El text s'ha copiat"</string>
     <string name="toolbar_back">Enrere</string>
     <string name="toolbar_close">Tanca</string>
     <string name="transcript_audio_feedback_chip_text">"Ajuda'ns a millorar"</string>
+    <string name="transcript_audio_feedback_link_text">"Mostra la transcripció i l'àudio"</string>
     <string name="transcript_snippet_low_confidence_description">"(L'àudio no era nítid)"</string>
+    <string name="try_again_button">Torna-ho a provar</string>
     <string name="tty_configuration_title_tty_full">TTY complet</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY desactivat</string>
@@ -1121,7 +1240,6 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="type_outgoing_video_pulled">"La videotrucada sortint s'ha transferit a un altre dispositiu"</string>
     <string name="type_rejected">Trucada rebutjada</string>
     <string name="type_voicemail">Missatge de veu</string>
-    <string name="unable_change_value_error">"S'ha produït un problema en canviar la configuració de RTT. Torna enrere i prova-ho de nou."</string>
     <string name="unable_read_value_error">"S'ha produït un problema en llegir la configuració de RTT. Torna enrere i prova-ho de nou."</string>
     <string name="unblock_number">Desbloqueja</string>
     <string name="unblock_number_alert_details">"El número es desbloquejarà i s'indicarà que aquesta trucada (i les properes) no són brossa."</string>
@@ -1130,6 +1248,7 @@ No obstant això, pots fer videotrucades amb alguns números sense actualitzar l
     <string name="unblock_number_ok">Desbloqueja</string>
     <string name="unblock_report_number_alert_title">Vols desbloquejar el número %1$s?</string>
     <string name="unknown">Desconegut</string>
+    <string name="unknown_call_settings_category_preference_title">Configuració de trucades desconegudes</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">"Deixa de silenciar l'àudio entrant"</string>
     <string name="user_is_busy_description">Et trucaré</string>
@@ -1240,10 +1359,17 @@ Si continues la trucada, s'aplicaran càrrecs per l'ús de dades."</string>
     <string name="videocall_remote_video_on">Té el vídeo activat</string>
     <string name="videocall_remotely_held">Trucada en espera</string>
     <string name="videocall_remotely_resumed">Trucada represa</string>
+    <string name="videocall_settings_default_carrier">"Videotrucades amb l'operador de telefonia mòbil"</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Servei predeterminat de videotrucades</string>
+    <string name="videocall_settings_fallback_summary">"Canvia a Duo si les videotrucades amb l'operador de telefonia mòbil no estan disponibles"</string>
+    <string name="videocall_settings_fallback_title">Utilitza Duo com a mètode alternatiu</string>
+    <string name="videocall_settings_title">Videotrucades</string>
     <string name="videocall_show_preview_button_description">Mostra el feed de vídeo local</string>
     <string name="view">Mostra</string>
     <string name="view_location_settings">"Configuració d'ubicació"</string>
     <string name="vitle_label">Vídeo per LTE</string>
+    <string name="viwifi_label">Vídeo per Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">El PIN nou conté caràcters que no són vàlids.</string>
     <string name="vm_change_pin_error_mismatch">El PIN antic no coincideix.</string>
     <string name="vm_change_pin_error_system_error">No es pot canviar el PIN</string>
@@ -1253,8 +1379,11 @@ Si continues la trucada, s'aplicaran càrrecs per l'ús de dades."</string>
     <string name="vm_change_pin_progress_message">Un moment.</string>
     <string name="voice_call">Fes una trucada de veu</string>
     <string name="voice_call_button">Truca</string>
+    <string name="voice_display_name">Veu %1$d</string>
     <string name="voice_search_not_available">La cerca per veu no està disponible.</string>
     <string name="voice_selector_preference_title">Veus disponibles</string>
+    <string name="voice_settings_available_voices_text">Veus disponibles</string>
+    <string name="voice_settings_title">Veu</string>
     <string name="voicecall_button_label">Truca</string>
     <string name="voicecall_button_wifi_description">Fes una trucada mitjançant la Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s a les %2$s</string>
@@ -1289,7 +1418,6 @@ Si continues la trucada, s'aplicaran càrrecs per l'ús de dades."</string>
     <string name="voicemail_donation_promo_title">Vols contribuir a millorar la precisió de les transcripcions?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">"L'ús de la bústia de veu visual per a targetes SIM sense dades pot comportar càrrecs de l'operador"</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">La bústia de veu visual només està disponible per a la SIM de dades seleccionada</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">"Si tens diverses SIM i una d'elles és per a Fi, la de Fi s'utilitzarà per a la bústia de veu visual"</string>
     <string name="voicemail_error_activating_message">És possible que no rebis notificacions de missatges de veu fins que la bústia de veu visual estigui completament activada. Fins aleshores, truca a la bústia de veu per recuperar els missatges nous.</string>
     <string name="voicemail_error_activating_title">Activació de la bústia de veu visual</string>
     <string name="voicemail_error_activation_disabled_message">Truca a la bústia de veu per acabar de configurar-la</string>
@@ -1396,6 +1524,7 @@ Si continues la trucada, s'aplicaran càrrecs per l'ús de dades."</string>
     <string name="vvm3_error_vms_no_cellular_title">No es pot establir la connexió amb la bústia de veu</string>
     <string name="vvm3_error_vms_timeout_message">"Hem tingut un problema. Torna-ho a provar més tard. Si el problema continua, contacta amb el servei d'atenció al client al %1$s i indica'ls que el codi d'error és 9007."</string>
     <string name="vvm3_error_vms_timeout_title">"S'ha produït un error"</string>
+    <string name="vvm_config_title">Configuració de la bústia de veu visual</string>
     <string name="vvm_unsupported_message_format">"Aquest tipus de missatge no s'admet. Truca al %s per escoltar-lo."</string>
     <string name="wait_prompt_str">"Voleu enviar els codis següents?
 "</string>

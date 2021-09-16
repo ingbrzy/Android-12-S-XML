@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Дыбысты басу %1$s</string>
     <string name="auto_detect">Құрылғыны ұстау мәнеріңізге бейімдеу</string>
     <string name="auto_scan_action_description">Сканерлеуді бастау және таңдау</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Автоматты сканерлеу\" немесе \"Таңдау\"</string>
     <string name="available_devices_header">Қолжетімді Bluetooth құрылғылары</string>
     <string name="basic_navigation_link_subtext">Элементтер арасында жылжыңыз, айналдырыңыз, мәзірлерді пайдаланыңыз және т.б. әрекеттерді орындаңыз.</string>
     <string name="basic_navigation_link_text">Негізгі навигация</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Ешқандай Bluetooth құрылғысы жұпталмаған</string>
     <string name="bluetooth_not_enabled_message">Bluetooth ауыстырғышын жұптау үшін Bluetooth функциясын қосыңыз</string>
     <string name="bluetooth_peripheral_content_description">Перифериялық</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Орнату шеберінде Bluetooth ауыстырғышын жұптау үшін Bluetooth функциясын қосыңыз да, Android Accessibility Suite қолданбасына \"Маңайдағы құрылғылар\" мен \"Локация\" рұқсатын беріңіз.</string>
     <string name="bluetooth_phone_content_description">Телефон</string>
     <string name="bluetooth_switch_description_text">Ауыстырғышты Bluetooth арқылы сымсыз жұптау</string>
     <string name="bluetooth_switch_option_text">Bluetooth ауыстырғышы</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">Құрылғыңызды басқару үшін алдымен Switch Access-ті қосу керек.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Камера ауыстырғыштарын ашу</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Switch Access-ті ашу</string>
+    <string name="cam_switches_combined_preferences_title">\"%1$s\" параметрлері</string>
+    <string name="cam_switches_preferences_title">Камера ауыстырғышының параметрлері</string>
+    <string name="cam_switches_single_preferences_title">\"%s\" параметрлері</string>
     <string name="camera_switches_status_active">Камераның ауыстырғыштары қосулы.</string>
     <string name="camera_switches_status_error">Қате шықты.</string>
     <string name="camera_switches_status_no_face">Бет анықталмады.</string>
@@ -399,6 +402,7 @@ TalkBack уақытша тоқтатылса, құрылғыңыздан кер�
     <string name="fallback_menu_item_open_in_browser">Браузерден ашу</string>
     <string name="fallback_menu_item_share_link">Сілтемені бөлісу</string>
     <string name="fast_radio_button_title">Жылдам (кідіріс: %1$s с)</string>
+    <string name="fast_radio_button_title_content_description">Жылдам (%1$s секунд кідіріс)</string>
     <string name="find_finish_button_text">\"Аяқтау\" түймесін табу үшін оңға сырғытыңыз.</string>
     <string name="finish">Аяқтау</string>
     <string name="finish_tutorial_announcement">Брайль пернетақтасын көрсету. Телефонды аударып, экранын ары қаратыңыз. Телефонды көлденеңінен ұстаңыз. Содан кейін мәтін тере беруіңізге болады.</string>
@@ -747,6 +751,7 @@ TalkBack уақытша тоқтатылса, құрылғыңыздан кер�
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Құлып экраны</string>
     <string name="medium_radio_button_title">Орташа (кідіріс: %1$s с)</string>
+    <string name="medium_radio_button_title_content_description">Орташа (%1$s секунд кідіріс)</string>
     <string name="menu_category_reading_controls">Оқу</string>
     <string name="menu_category_special_features">Арнайы функциялар</string>
     <string name="menus_selector_text">"Бұл жылдам пәрмендер навигацияны таңбадан сөздерге ауыстыру немесе TalkBack-тің дыбыстау жылдамдығын өзгерту сияқты параметрлерді жылдам өңдеуге көмектеседі.
@@ -767,6 +772,7 @@ TalkBack мәзірі мен оқуды басқару элементтерін 
 Қазір экранды алдымен төменге, сосын оңға сырғытып, TalkBack мәзірін ашыңыз."</string>
     <string name="menus_title">Мәзір және басқару элементтері</string>
     <string name="message_in_reset_keymap_confirm_dialog">Осы пернетақта схемасы үшін пернелер тіркесімдерін әдепкі мәндеріне қайтару керек пе? Бұл әрекетті болдырмау мүмкін емес екенін ескеріңіз.</string>
+    <string name="message_request_phone_permission">TalkBack функциясы кедергі болатын хабарландыруларды азайту үшін телефон қоңырауының уақытын анықтай алуы керек.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Бұл – барлық қимылдарды әдепкі параметрлерге қайтарады.
 
 Бұған дейінгі өзгерістердің ешқайсысы сақталмайды."</string>
@@ -996,6 +1002,7 @@ TalkBack мәзірі мен оқуды басқару элементтерін 
     <string name="pref_reduce_window_delay_title">Терезелердің атауларын жылдам дыбыстау</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Камера ауыстырғыштарын қосу</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Физикалық ауыстырғыштарды өшіру</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">%s ауыстырғышының параметрлерін конфигурациялау</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Камера ауыстырғыштарын өзгерту</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Камера ауыстырғышы тағайындалмаған</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">\"%s\" әрекетіне камера ауыстырғыштарын тағайындау</string>
@@ -1016,9 +1023,9 @@ TalkBack мәзірі мен оқуды басқару элементтерін 
     <string name="pref_sa_face_playground_stop_preview_content_description">Алдын ала қарауды тоқтату</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Қосу</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Бұл сынақ аймағын пайдалану үшін камера ауыстырғыштары қосулы болу керек.</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Пайдаланып көру: бет қимылының барлық түрін, мысалы, ауыз ашуды, жымиюды және тағы басқаларды алдын ала қарау</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Пайдаланып көру</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Пайдаланып көру: %1$s бет үлгісін алдын ала қарау</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Сынақ аймағы кідіртілді. Оны қайта қосу үшін төмендегі түймені пайдаланыңыз.</string>
     <string name="pref_selector_summary">Параметрді таңдау үшін %1$s. Реттеу үшін %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">Параметрді таңдау үшін %1$s немесе %2$s. Реттеу үшін %3$s.</string>
@@ -1067,6 +1074,7 @@ TalkBack мәзірі мен оқуды басқару элементтерін 
     <string name="reduce_speed_button">Жылдамдықты азайту</string>
     <string name="remaining_calibration_finish_announcement">Барлық нүктенің орындары жаңартылды</string>
     <string name="reminder_announcement">Қосымша параметрлер үшін 3 саусақпен жоғары сырғытыңыз.</string>
+    <string name="remove_assigned_switch">%s үшін тағайындалған ауыстырғышты өшіру</string>
     <string name="report_gesture_description">Мұнда жақында қолданылған қимылдар көрсетілген. Олардың қайсысында қате шыққанын және ол нені білдіруі керек болғанын хабарлаңыз.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Қайтару</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Қалпына келтіру</string>
@@ -1147,6 +1155,7 @@ Select to Speak функциясын іске қосыңыз. Одан кейі�
     <string name="search_mode_hint_no_selection">Таңдалған элемент жоқ.</string>
     <string name="search_mode_hint_query">Ағымдағы сұрау: %1$s.</string>
     <string name="search_mode_hint_selection">Ағымдағы таңдау: %1$s.</string>
+    <string name="select_for_point_scan">\"Таңдау\"</string>
     <string name="select_setting_hint">Басқа параметрді таңдау үшін %1$s</string>
     <string name="selecting_text_text">"Мәтін өрісінде курсорды белгілегіңіз келетін мәтіннің басына жылжытыңыз.
 
@@ -1207,6 +1216,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="shortcut_media_control">Медиафайлды ойнату немесе кідірту</string>
     <string name="shortcut_next">Келесі элемент</string>
     <string name="shortcut_next_granularity">Келесі навигация параметрі</string>
+    <string name="shortcut_next_window">Келесі терезе</string>
     <string name="shortcut_not_customizable">%1$s, реттелмейді</string>
     <string name="shortcut_notifications">Хабарландырулар</string>
     <string name="shortcut_overview">Шолу</string>
@@ -1219,6 +1229,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="shortcut_practice_gestures">Қимылдарды үйрену</string>
     <string name="shortcut_previous">Алдыңғы элемент</string>
     <string name="shortcut_previous_granularity">Алдыңғы навигация параметрі</string>
+    <string name="shortcut_previous_window">Алдыңғы терезе</string>
     <string name="shortcut_print_node_tree">Түйін тармағын басып шығару</string>
     <string name="shortcut_print_performance_stats">Басып шығару бойынша өнімділік статистикасы</string>
     <string name="shortcut_quick_settings">Жылдам параметрлер</string>
@@ -1258,6 +1269,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
 • үздіксіз оқуды бастау үшін шайқау."</string>
     <string name="six_hold_announcement">Телефоныңызды үстелге жатқызып қойып теруіңізге де болады. Қазір байқап көріңіз. Жақын жерде үстел болмаса, төмен қарай сырғыту арқылы өткізіп жіберіңіз.</string>
     <string name="slow_radio_button_title">Баяу (кідіріс: %1$s с)</string>
+    <string name="slow_radio_button_title_content_description">Баяу (%1$s секунд кідіріс)</string>
     <string name="sound_feedback_state">Дыбыстық сигнал %1$s</string>
     <string name="sound_feedback_summary">Өзгерістер болғанда (мысалы, экран мазмұны өзгергенде), дыбыстық сигнал беру</string>
     <string name="speak_container_element_position_summary_off">Тізім және тор ақпараты дауыстап айтылмайды</string>
@@ -1331,17 +1343,17 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="summary_pref_face_switches_debounce_time">Осы уақыт ішінде камера ауыстырғышының бірнеше рет қосылуы бір рет қосылу болып есептеледі.</string>
     <string name="summary_pref_face_switches_enabled">Камера ауыстырғыштары алдыңғы камера арқылы адамның экранға қарап тұрғанын анықтап, бет қимылдарын таниды. Суреттер Google-ға жіберілмейді немесе сақталмайды.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Қимылға жауап ретінде экранда бірдеңе өзгерген кезде дыбыс шығару</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Қимылдың орындалу ұзақтығын индикатор арқылы көрсетеді.</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Камера ауыстырғыштары қосулы болған кезде, экран өшірілмейді. Ол өшіп қалса, камера ауыстырғыштары экранның құлпын аша алмайды.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Бет анықталмады.</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Кез келген бет қимылын орындаңыз. Ол тіркелген болса, қимыл атауы көрсетіледі. Шығу үшін %1$d секунд бойы кез келген қимылды орындаңыз.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Басыңызды қозғалтпай, камераға қараңыз. Содан кейін %s.</string>
     <string name="summary_pref_play_store">Ағымдағы TalkBack нұсқасы: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Белгілі бір көлденең және тік орынды таңдау үшін қозғалмалы сызықтарды пайдаланыңыз. Нүктелеп сканерлеуді бастау үшін %1$s ауыстырғышын басыңыз. %2$s</string>
     <string name="summary_pref_reverse_dots">Нүктенің орнын ауыстыру, мысалы, 1 мен 4.</string>
     <string name="summary_pref_revert_to_default_menu">Switch Access мәзірін мәзір элементтерінің әдепкі тізіміне қайтарады.</string>
-    <string name="summary_pref_single_tap">Ерекшеленген элементті бір рет түртіп, белсендіріңіз (эксперименттік).</string>
+    <string name="summary_pref_single_tap">Ерекшеленген элементті бір рет түртіп белсендіру</string>
     <string name="summary_pref_tree_debug_tv">Іздеудің орнына түйін тармағын басып шығару үшін дауыс арқылы іздеу кодын пайдаланыңыз</string>
     <string name="summary_pref_use_audio_focus">Сөйлеу кезінде басқа аудионың дыбыс деңгейін азайту</string>
     <string name="summary_read_from_current">Келесі элементтен бастап экрандағы барлық элементтерді оқу</string>
@@ -1438,10 +1450,10 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="switched_to_contracted_announcement">Кішірейтілген Брайль пернетақтасына ауыстырылды.</string>
     <string name="switched_to_ueb_uncontracted_announcement">Кішірейтілмеген Брайль пернетақтасына ауыстырылды.</string>
     <string name="switched_to_uncontracted_announcement">Кішірейтілмеген Брайль пернетақтасына ауыстырылды.</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Жуықтық белгісі</string>
     <string name="symbol_ampersand">Амперсанд</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Кішілік белгісі</string>
+    <string name="symbol_angle_bracket_right">Үлкендік белгісі</string>
     <string name="symbol_apostrophe">Апостроф</string>
     <string name="symbol_approximately_equals">Шамамен келесіге тең</string>
     <string name="symbol_asterisk">Жұлдызша</string>
@@ -1461,7 +1473,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_bullseye">Өгіздің көзі</string>
     <string name="symbol_caret">Кірістіру белгісі</string>
     <string name="symbol_celsius_degree">Цельсий градус</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Цент белгісі</string>
     <string name="symbol_circle_left_half_black">Сол жақ жартысы қара шеңбер</string>
     <string name="symbol_circle_right_half_black">Оң жақ жартысы қара шеңбер</string>
     <string name="symbol_colon">Қос нүкте</string>
@@ -1470,7 +1482,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_curly_bracket_left">Сол жақ ирек жақша</string>
     <string name="symbol_curly_bracket_right">Оң жақ ирек жақша</string>
     <string name="symbol_currency_sign">Валюта белгісі</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Градус белгісі</string>
     <string name="symbol_division">Бөлу белгісі</string>
     <string name="symbol_dollar_sign">Доллар белгісі</string>
     <string name="symbol_downwards_arrow">Төмен көрсеткі</string>
@@ -1522,7 +1534,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_middle_dot">Ортаңғы нүкте</string>
     <string name="symbol_multiplication">Көбейту белгісі</string>
     <string name="symbol_new_line">Жаңа жол</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Тең емес</string>
     <string name="symbol_not_sign">Емес белгісі</string>
     <string name="symbol_paragraph_mark">Еже белгі</string>
     <string name="symbol_parenthesis_left">Сол жақша</string>
@@ -1533,7 +1545,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_plus_minus_sign">Плюс минус белгісі</string>
     <string name="symbol_postal_mark">Пошта белгісі</string>
     <string name="symbol_pound">Фунт</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Фунт стерлинг белгісі</string>
     <string name="symbol_quarter_note">Ширек ескертпе</string>
     <string name="symbol_question_mark">Сұрақ белгісі</string>
     <string name="symbol_quotation_mark">Дәйексөз</string>
@@ -1559,7 +1571,7 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_trademark">Сауда белгісі</string>
     <string name="symbol_underscore">Астыңғы сызық</string>
     <string name="symbol_upwards_arrow">Жоғары көрсеткі</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Тік сызық</string>
     <string name="symbol_white_circle">Ақ шеңбер</string>
     <string name="symbol_white_club_suit">Ақ клуб костюмі</string>
     <string name="symbol_white_diamond">Ақ бриллиант</string>
@@ -1573,8 +1585,8 @@ TalkBack мәзірін қайта ашыңыз, одан кейін белгі�
     <string name="symbol_white_square">Ақ шаршы</string>
     <string name="symbol_white_star">Ақ жұлдыз</string>
     <string name="symbol_white_up_pointing_triangle">Ақ жоғары көрсететін үшбұрыш</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Вон валютасының белгісі</string>
+    <string name="symbol_won_sign">Вон валютасының белгісі</string>
     <string name="symbol_yen">Йена</string>
     <string name="system_actions">Жүйе әрекеттері</string>
     <string name="tabletop">Экранды жоғары қаратып қою режимі</string>
@@ -1742,7 +1754,7 @@ TalkBack функциясын өшіру үшін:
     <string name="title_pref_category_assign_switches">Ауыстырғыш тағайындау</string>
     <string name="title_pref_category_audio">Аудио</string>
     <string name="title_pref_category_auto_scan">Автоматты түрде сканерлеу</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Автоматты сканерлеу (нүктелеп сканерлеу)</string>
     <string name="title_pref_category_border_color">Түсі</string>
     <string name="title_pref_category_built_in_gestures">Кірістірілген қимылдар</string>
     <string name="title_pref_category_context_menu">Talkback мәзірін реттеу</string>
@@ -1826,7 +1838,7 @@ TalkBack функциясын өшіру үшін:
     <string name="title_pref_red">Қызыл</string>
     <string name="title_pref_resume_talkback">Жұмысын жалғастыру</string>
     <string name="title_pref_reverse_auto_scan_disabled">Автоматты кері сканерлеу (өшірулі)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Кері бағытта автоматты сканерлеу (нүктелеп сканерлеу)</string>
     <string name="title_pref_reverse_dots">Кері бағыттағы нүктелер</string>
     <string name="title_pref_revert_to_default_menu">Әдепкі мәзірге қайтару</string>
     <string name="title_pref_scan_non_actionable_items">Сипаттаушы мәтінді дауыстап айту</string>
@@ -1889,7 +1901,7 @@ TalkBack функциясын өшіру үшін:
     <string name="title_pref_show_context_menu_as_list">Мазмұн мəзірін тізіммен көрсету</string>
     <string name="title_pref_show_privacy_policy">Құпиялылық саясаты</string>
     <string name="title_pref_show_tos">Қызмет көрсету шарттары</string>
-    <string name="title_pref_single_tap">Бір рет түртумен белсендіру</string>
+    <string name="title_pref_single_tap">Белсендіру үшін бір рет түрту</string>
     <string name="title_pref_sound_and_vibration">Дыбыс және діріл</string>
     <string name="title_pref_soundback">Дыбыстық сигнал</string>
     <string name="title_pref_soundback_volume">Сигналдың дыбыс деңгейі</string>
@@ -1934,6 +1946,7 @@ TalkBack функциясын өшіру үшін:
     <string name="title_previous_screen">Алдыңғы экран</string>
     <string name="title_read_from_top">Жоғарыдан оқу</string>
     <string name="title_repeat_last_spoken_phrase">Соңғы айтылған фразаны қайталау</string>
+    <string name="title_request_phone_permission">TalkBack рұқсат сұрайды</string>
     <string name="title_screen_summary">Экран туралы қысқаша мәлімет</string>
     <string name="title_seek_bar_controls">Жүгірткі</string>
     <string name="title_seek_bar_edit">Жүгірткі деңгейін өзгерту</string>

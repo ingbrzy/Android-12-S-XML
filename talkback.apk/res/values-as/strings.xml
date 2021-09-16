@@ -105,7 +105,7 @@
     <string name="audio_focus_state">অডিঅ’ ডাকিং %1$s কৰা আছে</string>
     <string name="auto_detect">আপুনি ডিভাইচটো ধৰি ৰখাৰ ধৰণ অনুযায়ী খাপ খাই পৰক</string>
     <string name="auto_scan_action_description">স্কেন আৰম্ভ কৰি বাছনি কৰক</string>
-    <string name="auto_scan_or_select">"স্বয়ংক্ৰিয় স্কেন' অথবা 'বাছনি কৰক"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'স্বয়ংক্ৰিয় স্কেন' অথবা 'বাছনি কৰক'"</string>
     <string name="available_devices_header">উপলব্ধ ব্লুটুথ ডিভাইচসমূহ</string>
     <string name="basic_navigation_link_subtext">বস্তুবোৰৰ মাজত ইফাল সিফাল কৰক, স্ক্ৰ’ল কৰক, মেনু ব্যৱহাৰ কৰক আৰু বহুতো কৰক</string>
     <string name="basic_navigation_link_text">প্ৰাথমিক নেভিগেশ্বন</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">কোনো ব্লুটুথ ডিভাইচ যোৰা লগোৱা হোৱা নাই</string>
     <string name="bluetooth_not_enabled_message">কোনো ব্লুটুথ ছুইচ্চ যোৰা লগাবলৈ ব্লুটুথ অন কৰক</string>
     <string name="bluetooth_peripheral_content_description">বাহ্য</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">ছেটআপ ৱিজাৰ্ডত এটা ব্লুটুথ ছুইচ পেয়াৰ কৰিবলৈ ব্লুটুথ অন কৰক আৰু নিকটৱৰ্তী ডিভাইচসমূহক Android Accessibility Suiteৰ এক্সেছ আৰু অৱস্থানৰ অনুমতি প্ৰদান কৰক।</string>
     <string name="bluetooth_phone_content_description">ফ’ন</string>
     <string name="bluetooth_switch_description_text">ব্লুটুথৰ জৰিয়তে কোনো ছুইচ্চত বেঁতাৰ যোৰা লগাওক</string>
     <string name="bluetooth_switch_option_text">ব্লুটুথ ছুইচ্চ</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">আপোনাৰ ডিভাইচটো নিয়ন্ত্ৰণ কৰিবলৈ, আপুনি প্ৰথমে ছুইচেৰে এক্সেছ কৰাৰ সুবিধাটো অন কৰিব লাগিব।</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">কেমেৰাৰ ছুইচসমূহ খোলক</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">ছুইচেৰে এক্সেছ কৰাৰ সুবিধাটো খোলক</string>
+    <string name="cam_switches_combined_preferences_title">‘%1$s’ৰ ছেটিং</string>
+    <string name="cam_switches_preferences_title">কেমেৰা ছুইচৰ ছেটিং</string>
+    <string name="cam_switches_single_preferences_title">‘%s’ৰ ছেটিং</string>
     <string name="camera_switches_status_active">কেমেৰাৰ ছুইচ সক্ৰিয় হৈ আছে</string>
     <string name="camera_switches_status_error">আসোঁৱাহ</string>
     <string name="camera_switches_status_no_face">কোনো মুখাৱয়ব চিনাক্ত কৰা হোৱা নাই</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">কেমেৰাৰ চুইচ পজ কৰক</string>
     <string name="default_action_name_point_scan">পইণ্ট স্কেন কৰা সুবিধা</string>
     <string name="dialog_confirm_revert_to_default_menu">নিশ্চিত কৰক</string>
-    <string name="dialog_do_not_disturb_permission_message">ছুইচৰ দ্বাৰা এক্সেছ কৰাৰ মেনুৰ পৰা ভলিউম মিলাবলৈ Android সাধ্য সুবিধাৰ ছুইটৰ বাবে অসুবিধা নিদিব অন কৰক</string>
+    <string name="dialog_do_not_disturb_permission_message">এক্সেছ সলনি কৰাৰ মেনুৰ পৰা ভলিউম মিলাবলৈ Android Accessibility Suiteৰ বাবে অসুবিধা নিদিবৰ এক্সেছ অন কৰক</string>
     <string name="dialog_do_not_disturb_permission_title">ছুইচৰ দ্বাৰা এক্সেছ কৰাটোক ভলিউম মিলাবলৈ অনুমতিৰ আৱশ্যক হয়</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">ছেটিংসমূহ খোলক</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">কাম কৰিবলৈ কেমেৰাৰ ছুইচে প্ৰায় ১০ এমবি অতিৰিক্ত ডেটা ডাউনল’ড কৰিব লাগিব। আপোনাৰ নেটৱৰ্কৰ গতিৰ ওপৰত নিৰ্ভৰ কৰি ইয়াৰ বাবে প্ৰায় এক মিনিট সময় লাগিব।</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">ব্ৰাউজাৰত খোলক</string>
     <string name="fallback_menu_item_share_link">লিংক শ্বেয়াৰ কৰক</string>
     <string name="fast_radio_button_title">ক্ষিপ্ৰ (%1$s পলম)</string>
+    <string name="fast_radio_button_title_content_description">দ্ৰুত (%1$s ছেকেণ্ডৰ বিলম্ব)</string>
     <string name="find_finish_button_text">সম্পূৰ্ণ কৰক বুটামটো বিচাৰিবলৈ সোঁফাললৈ ছোৱাইপ কৰক।</string>
     <string name="finish">সম্পূর্ণ হ’ল</string>
     <string name="finish_tutorial_announcement">ব্ৰেইল কীব’ৰ্ড দেখুওৱা হৈছে। আপোনাৰ ফ’নটোৰ স্ক্ৰীনখন আপোনাৰ পৰা অন্য ফালে মুখ কৰি থকাকৈ ফ’নটো ঘূৰাওক। ফ’নটো লেণ্ডস্কেপ স্থানলৈ অনুভূমিকভাৱে ঘূৰাওক। তাৰ পাছত টাইপ কৰিবলৈ আৰম্ভ কৰক।</string>
@@ -610,11 +614,11 @@
     <string name="keycombo_menu_navigate_last">শেষৰ বস্তুলৈ যাওক</string>
     <string name="keycombo_menu_navigate_next">পৰৱর্তী বস্তুলৈ যাওক</string>
     <string name="keycombo_menu_navigate_next_character">পৰৱৰ্তী বৰ্ণলৈ যাওক</string>
-    <string name="keycombo_menu_navigate_next_window">"পৰৱৰ্তী ৱিণ্ড'লৈ যাওক"</string>
+    <string name="keycombo_menu_navigate_next_window">পৰৱৰ্তী ৱিণ্ড’লৈ যাওক</string>
     <string name="keycombo_menu_navigate_next_word">পৰৱর্তী শব্দলৈ যাওক</string>
     <string name="keycombo_menu_navigate_previous">পূর্ৱৱর্তী বস্তুলৈ যাওক</string>
     <string name="keycombo_menu_navigate_previous_character">পূৰ্বৱৰ্তী বৰ্ণলৈ যাওক</string>
-    <string name="keycombo_menu_navigate_previous_window">"পূৰ্বৱৰ্তী ৱিণ্ড'লৈ যাওক"</string>
+    <string name="keycombo_menu_navigate_previous_window">পূৰ্বৱৰ্তী ৱিণ্ড’লৈ যাওক</string>
     <string name="keycombo_menu_navigate_previous_word">পূৰ্বৱৰ্তী শব্দলৈ যাওক</string>
     <string name="keycombo_menu_navigate_up">ওপৰৰ বস্তুলৈ যাওক</string>
     <string name="keycombo_menu_other_custom_actions">কাৰ্যসমূহ দেখুৱাওক</string>
@@ -746,6 +750,7 @@
     <string name="list_index_template">%2$dৰ %1$d</string>
     <string name="lockscreen_label">লক স্ক্ৰীণ</string>
     <string name="medium_radio_button_title">মধ্য়মীয়া (%1$s পলম)</string>
+    <string name="medium_radio_button_title_content_description">মধ্যমীয়া (%1$s ছেকেণ্ডৰ বিলম্ব)</string>
     <string name="menu_category_reading_controls">পঢ়া</string>
     <string name="menu_category_special_features">বিশেষ সুবিধাসমূহ</string>
     <string name="menus_selector_text">"এই শ্বৰ্টকাটসমূহে আপোনাক ক্ষিপ্ৰতাৰে ছেটিং সলনি কৰাত সহায় কৰিব পাৰে, যেনে আপোনাৰ নেভিগেশ্বন বৰ্ণৰ পৰা শব্দলৈ সলনি কৰা অথবা টকবেক কথনৰ হাৰ সলনি কৰা।
@@ -766,6 +771,7 @@
 এতিয়া প্ৰথমে তললৈ আৰু তাৰ পাছত সোঁফালে ছোৱাইপ কৰি টকবেকৰ মেনুখন খোলক।"</string>
     <string name="menus_title">মেনু আৰু নিয়ন্ত্ৰণ</string>
     <string name="message_in_reset_keymap_confirm_dialog">এই কীমেপৰ শ্বৰ্টকাট কীবোৰ পূৰ্বনিৰ্দ্ধাৰিত ধৰণ অনুসৰি ৰিছেট কৰিব খোজে বুলি আপুনি নিশ্চিতনে? মন কৰিব, এই কাৰ্য শুধৰাব পৰা নাযাব।</string>
+    <string name="message_request_phone_permission">ফ’ন কল কৰিলে TalkBackএ জানিব খোজে, যাতে TalkBackএ বাধাৰ সৃষ্টি কৰা ঘোষণাসমূহ কমাব পাৰে।</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"এই কাৰ্যই সকলো নিৰ্দেশক সেইসমূহৰ ডিফ’ল্ট কাৰ্যলৈ ৰিছেট কৰিব।
 
 আপুনি আপোনাৰ দ্বাৰা কৰা সকলো সালসলনি হেৰুৱাব।"</string>
@@ -995,6 +1001,7 @@
     <string name="pref_reduce_window_delay_title">ৱিণ্ড ঘোষণাৰ বিলম্ব কম কৰক</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">কেমেৰাৰ ছুইচ যোগ দিয়ক</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">ভৌতিক ছুইচসমূহ মচক</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">%s ছুইচৰ বাবে ছেটিং কনফিগাৰ কৰক</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">কেমেৰাৰ ছুইচ সম্পাদনা কৰক</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">কোনো কেমেৰাৰ ছুইচ আবণ্টন কৰা হোৱা নাই</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s'ৰ বাবে কেমেৰাৰ ছুইচ আবণ্টন কৰক"</string>
@@ -1015,9 +1022,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">পূৰ্বদৰ্শনটো বন্ধ কৰক</string>
     <string name="pref_sa_face_playground_switch_on_content_description">অন কৰক</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">এই পৰীক্ষণৰ অঞ্চলটো ব্যৱহাৰ কৰিবলৈ কেমেৰাৰ ছুইচসমূহ অন কৰা থাকিবই লাগিব</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">এইটো কৰি চাওক: মুখ খোলা, মিচিকিয়াই হঁহা আদিকে ধৰি মুখাৱয়বৰ দ্বাৰা কৰা আটাইবোৰ নিৰ্দেশৰ পূৰ্বদৰ্শন কৰক</string>
+    <string name="pref_sa_face_playground_try_it_button_text">এইটো কৰি চাওক</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">এইটো কৰি চাওক: %1$sৰ জৰিয়তে কৰা মুখাৱয়বৰ দ্বাৰা কৰা নিৰ্দেশটোৰ পূৰ্বদৰ্শন কৰক</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">পৰীক্ষণৰ অঞ্চলটো পজ কৰা হৈছে। এইটো পুনৰ আৰম্ভ কৰিবলৈ তলৰ বুটামটো ব্যৱহাৰ কৰক।</string>
     <string name="pref_selector_summary">এটা ছেটিং বাছনি কৰিবলৈ %1$s। তাৰ পাছত ছেটিংটো মিলাবলৈ %2$s।</string>
     <string name="pref_selector_summary_two_select_gesture">এটা ছেটিং বাছনি কৰিবলৈ %1$s অথবা %2$s। তাৰ পাছত ছেটিংটো মিলাবলৈ %3$s।</string>
@@ -1066,6 +1073,7 @@
     <string name="reduce_speed_button">গতি হ্ৰাস কৰক</string>
     <string name="remaining_calibration_finish_announcement">"আটাইবোৰ বিন্দুৰ স্থান আপডে'ট কৰা হ'ল"</string>
     <string name="reminder_announcement">অধিক বিকল্পৰ বাবে ৩ টা আঙুলিৰে ওপৰলৈ ছোৱাইপ কৰক</string>
+    <string name="remove_assigned_switch">%sৰ বাবে ছুইচৰ আবণ্টন আঁতৰাওক</string>
     <string name="report_gesture_description">শেহতীয়াকৈ এইসমূহ নিৰ্দেশ ব্যৱহাৰ কৰা হৈছে, অনুগ্ৰহ কৰি কোনটো নিৰ্দেশ ভুল সেই বিষয়ে অভিযোগ দিয়ক আৰু সঠিক নিৰ্দেশ কি হোৱা উচিত সেয়া আমাক জনাওক।</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">ৰিছেট কৰক</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">ৰিছেট কৰক</string>
@@ -1146,6 +1154,7 @@
     <string name="search_mode_hint_no_selection">কোনো বস্তু বাছনি কৰা হোৱা নাই।</string>
     <string name="search_mode_hint_query">বর্তমানৰ কুৱেৰী: %1$s।</string>
     <string name="search_mode_hint_selection">বর্তমানৰ বাছনি: %1$s।</string>
+    <string name="select_for_point_scan">"'বাছনি কৰক'"</string>
     <string name="select_setting_hint">এটা বেলেগ ছেটিং বাছনি কৰিবলৈ %1$s</string>
     <string name="selecting_text_text">"কাৰ্ছৰডাল এটা পাঠ বাকচত আপুনি বাছনি কৰিব বিচৰা পাঠৰ আৰম্ভণিলৈ নিয়ক।
 
@@ -1206,6 +1215,7 @@
     <string name="shortcut_media_control">মিডিয়া প্লে’ অথবা পজ কৰক</string>
     <string name="shortcut_next">পৰৱৰ্তী বস্তু</string>
     <string name="shortcut_next_granularity">পৰৱৰ্তী নেভিগেশ্বনৰ ছেটিং</string>
+    <string name="shortcut_next_window">পৰৱৰ্তী ৱিণ্ড’</string>
     <string name="shortcut_not_customizable">%1$s, কাষ্টমাইজ কৰিব নোৱাৰি</string>
     <string name="shortcut_notifications">জাননী</string>
     <string name="shortcut_overview">ৰূপৰেখা</string>
@@ -1218,6 +1228,7 @@
     <string name="shortcut_practice_gestures">অনুশীলনৰ নিৰ্দেশ</string>
     <string name="shortcut_previous">পূর্বৱতী বস্তু</string>
     <string name="shortcut_previous_granularity">পূর্বৱর্তী নেভিগেশ্বনৰ ছেটিং</string>
+    <string name="shortcut_previous_window">পূৰ্বৱৰ্তী ৱিণ্ড’</string>
     <string name="shortcut_print_node_tree">"ন'ড ট্ৰী প্ৰিণ্ট কৰক"</string>
     <string name="shortcut_print_performance_stats">প্ৰিন্ট প্ৰদৰ্শনৰ তথ্য়</string>
     <string name="shortcut_quick_settings">ক্ষিপ্ৰ ছেটিং</string>
@@ -1257,6 +1268,7 @@
 • অবিৰতভাৱে পঢ়া আৰম্ভ কৰিবলৈ জোকাৰি দিয়ক"</string>
     <string name="six_hold_announcement">আপুনি নিজৰ ফ’নটো এখন টেবুলত সমতলীয়াকৈ ৰাখিও টাইপ কৰিব পাৰে। এতিয়াই চেষ্টা কৰি চাওক। যদি আপোনাৰ আশে-পাশে কোনো টেবুল নাই, তললৈ ছোৱাইপ কৰি আগবাঢ়ক।</string>
     <string name="slow_radio_button_title">মন্থৰ (%1$s পলম)</string>
+    <string name="slow_radio_button_title_content_description">লেহেমীয়া (%1$s ছেকেণ্ডৰ বিলম্ব)</string>
     <string name="sound_feedback_state">ধ্বনিৰ প্ৰতিক্ৰিয়া %1$s</string>
     <string name="sound_feedback_summary">কিবা এটা সলনি হোৱাটো দৰ্শাবলৈ এটা ধ্বনি প্লে’ কৰক (যেনে, স্ক্ৰীনত সমল সলনি হোৱা)</string>
     <string name="speak_container_element_position_summary_off">তালিকা আৰু গ্ৰিডৰ তথ্য় কোৱা নহয়</string>
@@ -1330,7 +1342,7 @@
     <string name="summary_pref_face_switches_debounce_time">এই সময়ছোৱাৰ ভিতৰত একাধিক বাৰ কেমেৰাৰ ছুইচ টিপিলে সেয়া এবাৰ টিপা বুলি গণ্য কৰা হ’ব।</string>
     <string name="summary_pref_face_switches_enabled">কেমেৰাৰ ছুইচে আপুনি স্ক্ৰীনখনলৈ চাই আছে নেকি সেয়া নিৰ্ধাৰণ কৰিবলৈ আৰু কোনো মুখাৱয়বৰ দ্বাৰা দিয়া নিৰ্দেশ চিনাক্ত কৰিবলৈ সন্মুখৰ কেমেৰাটো ব্যৱহাৰ কৰে। প্ৰতিচ্ছবিসমূহ ছেভ কৰা নহয় অথবা Googleলৈ পঠিওৱা নহয়।</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">এটা নিৰ্দেশৰ সঁহাৰি হিচাপে স্ক্ৰীনত কিবা সলনি হ’লে এটা ধ্বনি প্লে’ কৰক</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">আপুনি কিমান সময় ধৰি এটা নিৰ্দেশ দিছে তাৰ এটা ভিজুৱেল সংকেত দেখুৱায়</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">কেমেৰাৰ ছুইচ সক্ষম কৰা থাকিলে স্ক্ৰীনখন অন কৰি ৰাখক। কেমেৰাৰ ছুইচ অফ হৈ থাকিলে ই স্ক্ৰীনখন আনলক কৰিব নোৱাৰে।</string>
     <string name="summary_pref_face_switches_no_face_detected_message">কোনো মুখাৱয়ব চিনাক্ত কৰা হোৱা নাই</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
@@ -1340,7 +1352,7 @@
     <string name="summary_pref_point_scan">"কোনো বিশেষ অনুভূমিক আৰু উলম্ব অৱস্থান বাছনি কৰিবলৈ চলাচল কৰি থকা ৰেখাবোৰ ব্যৱহাৰ কৰক। পইণ্ট স্কেনিং আৰম্ভ কৰিবলৈ '%1$s' ছুইচটো টিপক। %2$s"</string>
     <string name="summary_pref_reverse_dots">বিন্দুৰ স্থানসমূহ ছোৱাইপ কৰক, যাতে বিন্দু ১ আৰু ৪ৰ স্থান সালসলনি হয়, যেনে</string>
     <string name="summary_pref_revert_to_default_menu">ছুইচৰ দ্বাৰা এক্সেছ কৰাৰ মেনুখন মেনুৰ বস্তুৰ ডিফ’ল্ট সূচীলৈ ৰিছেট কৰক।</string>
-    <string name="summary_pref_single_tap">(পৰীক্ষামূলক) সক্ৰিয় কৰিবৰ বাবে ফ’কাছত থকা এটা বস্তুত এবাৰ টিপক</string>
+    <string name="summary_pref_single_tap">সক্ৰিয় কৰিবৰ বাবে ফ’কাছত থকা এটা বস্তুত এবাৰ টিপক</string>
     <string name="summary_pref_tree_debug_tv">"ন'ড ট্ৰী প্ৰিণ্ট কৰিবলৈ সন্ধান কৰাৰ পৰিবৰ্তে কণ্ঠধ্বনিৰ সহায়ত সন্ধান কৰা কী ব্যৱহাৰ কৰক"</string>
     <string name="summary_pref_use_audio_focus">"কথা পতাৰ সময়ত অন্য অডিঅ'ৰ ভলিউম কমাওক"</string>
     <string name="summary_read_from_current">পৰৱৰ্তী বস্তুটোৰ পৰা আৰম্ভ কৰি স্ক্ৰীনখনত থকা সকলো বস্তু পঢ়ক</string>
@@ -1437,10 +1449,10 @@
     <string name="switched_to_contracted_announcement">সংকুচিত ব্ৰেইললৈ সলনি কৰক</string>
     <string name="switched_to_ueb_uncontracted_announcement">UEBৰ সংকুচিত নকৰা ম’ডলৈ সলনি কৰা হৈছে</string>
     <string name="switched_to_uncontracted_announcement">সংকোচন নকৰা ব্ৰেইললৈ সলনি কৰক</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">ইয়াৰ প্ৰায় সমান</string>
     <string name="symbol_ampersand">এম্পাৰচেণ্ড</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">ইয়াতকৈ কম সূচোৱা চিহ্ন</string>
+    <string name="symbol_angle_bracket_right">ইয়াতকৈ ডাঙৰ সূচোৱা চিহ্ন</string>
     <string name="symbol_apostrophe">উর্ধকমা</string>
     <string name="symbol_approximately_equals">অনুমানিকভাৱে সমান বুজোৱা চিহ্ন</string>
     <string name="symbol_asterisk">তৰাচিহ্ন</string>
@@ -1460,7 +1472,7 @@
     <string name="symbol_bullseye">নিখুঁত লক্ষ্যস্থানৰ চিহ্ন</string>
     <string name="symbol_caret">কাৰেট</string>
     <string name="symbol_celsius_degree">চেলছিয়াছ ডিগ্ৰী চিহ্ন</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">চেণ্টৰ চিহ্ন</string>
     <string name="symbol_circle_left_half_black">"বাওঁফালৰ আধা অংশ ক'লা ৰঙযুক্ত বৃত্ত"</string>
     <string name="symbol_circle_right_half_black">"সোঁফালৰ আধা অংশ ক'লা ৰঙযুক্ত বৃত্ত"</string>
     <string name="symbol_colon">"ক'লন"</string>
@@ -1469,7 +1481,7 @@
     <string name="symbol_curly_bracket_left">বাওঁ কুটিল বন্ধনী</string>
     <string name="symbol_curly_bracket_right">সোঁ কুটিল বন্ধনী</string>
     <string name="symbol_currency_sign">মুদ্ৰাৰ চিন</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">ডিগ্ৰীৰ চিহ্ন</string>
     <string name="symbol_division">হৰণ চিন</string>
     <string name="symbol_dollar_sign">ডলাৰ চিন</string>
     <string name="symbol_downwards_arrow">তলৰফালে নির্দেশ কৰা কাঁড়ৰ চিহ্ন</string>
@@ -1521,7 +1533,7 @@
     <string name="symbol_middle_dot">মধ্য বিন্দু</string>
     <string name="symbol_multiplication">পুৰণ চিন</string>
     <string name="symbol_new_line">নতুন ৰেখা</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">ইয়াৰ সমান নহয়</string>
     <string name="symbol_not_sign">নহয় বুজোৱা চিহ্ন</string>
     <string name="symbol_paragraph_mark">পেৰাগ্ৰাফ চিহ্ন</string>
     <string name="symbol_parenthesis_left">বাওঁফালৰ চন্দ্ৰ বন্ধনী</string>
@@ -1532,7 +1544,7 @@
     <string name="symbol_plus_minus_sign">যোগ বিয়োগৰ চিহ্ন</string>
     <string name="symbol_postal_mark">প’ষ্টেল চিহ্ন</string>
     <string name="symbol_pound">পাউণ্ড</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">পাউণ্ড মুদ্ৰাৰ চিহ্ন</string>
     <string name="symbol_quarter_note">গীতৰ স্বৰৰ চাৰিভাগৰ এভাগ বুজোৱা চিহ্ন</string>
     <string name="symbol_question_mark">প্ৰশ্নবোধক চিহ্ন</string>
     <string name="symbol_quotation_mark">উদ্ধৃতি</string>
@@ -1558,7 +1570,7 @@
     <string name="symbol_trademark">ট্ৰেডমার্ক</string>
     <string name="symbol_underscore">"আণ্ডাৰস্ক'ৰ"</string>
     <string name="symbol_upwards_arrow">ওপৰমুৱা কাঁড়ৰ চিন</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">উলম্ব ৰেখা</string>
     <string name="symbol_white_circle">বগা বৃত্তৰ চিহ্ন</string>
     <string name="symbol_white_club_suit">তাছৰ বগা চিড়িৰ চিহ্ন</string>
     <string name="symbol_white_diamond">বগা হীৰা চিহ্ন</string>
@@ -1572,8 +1584,8 @@
     <string name="symbol_white_square">বগা বর্গ</string>
     <string name="symbol_white_star">বগা তৰাৰ চিহ্ন</string>
     <string name="symbol_white_up_pointing_triangle">উর্ধমুখী বগা ত্ৰিভূজ</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">ৱন মুদ্ৰাৰ চিহ্ন</string>
+    <string name="symbol_won_sign">ৱন মুদ্ৰাৰ চিহ্ন</string>
     <string name="symbol_yen">য়েন চিহ্ন</string>
     <string name="system_actions">ছিষ্টেমৰ কাৰ্যসমূহ</string>
     <string name="tabletop">টেবুলটপ ম’ড</string>
@@ -1888,7 +1900,7 @@
     <string name="title_pref_show_context_menu_as_list">বিষয়সূচীৰ মেনুক তালিকা হিচাপে দেখুৱাওক</string>
     <string name="title_pref_show_privacy_policy">গোপনীয়তাৰ নীতি</string>
     <string name="title_pref_show_tos">সেৱাৰ চৰ্তাৱলী</string>
-    <string name="title_pref_single_tap">এবাৰ টিপি সক্ৰিয় কৰাৰ সুবিধা</string>
+    <string name="title_pref_single_tap">সক্ৰিয় কৰিবলৈ এবাৰ টিপক</string>
     <string name="title_pref_sound_and_vibration">ধ্বনি আৰু কম্পন</string>
     <string name="title_pref_soundback">ধ্বনিৰ প্ৰতিক্ৰিয়া</string>
     <string name="title_pref_soundback_volume">ধ্বনি প্ৰতিক্ৰিয়াৰ ভলিউম</string>
@@ -1933,6 +1945,7 @@
     <string name="title_previous_screen">পূৰ্বৰ স্ক্ৰীণ</string>
     <string name="title_read_from_top">শীৰ্ষৰ পৰা পঢ়ক</string>
     <string name="title_repeat_last_spoken_phrase">অন্তিম কথিত বাক্যাংশ পুনৰাবৃত্তি কৰক</string>
+    <string name="title_request_phone_permission">TalkBackএ অনুমতি বিচাৰি অনুৰোধ কৰা</string>
     <string name="title_screen_summary">স্ক্ৰীণৰ সাৰাংশ</string>
     <string name="title_seek_bar_controls">শ্লাইডাৰ</string>
     <string name="title_seek_bar_edit">শ্লাইডাৰৰ স্তৰ সম্পাদনা কৰক</string>

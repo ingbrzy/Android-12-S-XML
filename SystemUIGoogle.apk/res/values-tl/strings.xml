@@ -595,6 +595,8 @@ Bluetooth"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Dapat i-reboot ang iyong device para mailapat ang pagbabagong ito. Mag-reboot ngayon o kanselahin.</string>
     <string name="camera_hint">Mag-swipe mula sa icon para sa camera</string>
     <string name="camera_label">buksan ang camera</string>
+    <string name="camera_recording_announcement">Nagre-record ang Camera</string>
+    <string name="camera_stopped_recording_announcement">Huminto sa pag-record ang Camera</string>
     <string name="cancel">Kanselahin</string>
     <string name="carrier_network_change_mode">Nagpapalit ng carrier network</string>
     <string name="category_personal">Personal</string>
@@ -734,6 +736,10 @@ Kung magpapatuloy ka, maaaring may mga singil sa paggamit ng data."</string>
     <string name="debug_monitoring_category">Pagsubaybay</string>
     <string name="debug_networking_category">Networking</string>
     <string name="debug_view_attributes">I-enable ang pagsisiyasat sa attribute na view</string>
+    <string name="defender_notify_des">Nililimitahan ng iyong telepono ang pag-charge para makatulong na mapanatili ang tagal ng baterya</string>
+    <string name="defender_notify_learn_more">Matuto pa</string>
+    <string name="defender_notify_resume_charge">Ituloy ang pag-charge</string>
+    <string name="defender_notify_title">Pansamantalang limitado ang pag-charge</string>
     <string name="delete_blob_confirmation_text">Sigurado ka bang gusto mong i-delete ang pinaghahatiang data na ito?</string>
     <string name="delete_blob_text">I-delete ang pinaghahatiang data</string>
     <string name="demo_mode">Demo mode ng System UI</string>
@@ -1070,6 +1076,7 @@ lang"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Ina-unlock ang SIM card…</string>
     <string name="keyguard_try_fingerprint">Gamitin ang fingerprint para buksan</string>
     <string name="keyguard_unlock">Mag-swipe pataas para buksan</string>
+    <string name="keyguard_unlock_press">Pindutin para buksan</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">iskedyul, alarm, paalala, orasan</string>
     <string name="kg_enter_confirm_pin_hint">Kumpirmahin ang gustong PIN code</string>
@@ -1233,6 +1240,10 @@ Subukang muli sa loob ng %2$d (na) segundo."</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Aktibo ang Mikropono</string>
+    <string name="mic_and_camera_recording_announcement">Nagre-record ang Camera at Mikropono</string>
+    <string name="mic_camera_stopped_recording_announcement">Huminto sa pag-record ang Camera at Mikropono</string>
+    <string name="mic_recording_announcement">Nagre-record ang Mikropono</string>
+    <string name="mic_stopped_recording_announcement">Huminto sa pag-record ang Mikropono</string>
     <string name="missed_call">Hindi nasagot na tawag</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobile data</string>
@@ -1706,8 +1717,6 @@ Kung mayroon kang mga tanong, makipag-ugnayan sa %2$s."</string>
     <string name="quick_settings_work_mode_label">Mga app para sa trabaho</string>
     <string name="quick_step_accessibility_toggle_overview">I-toggle ang Overview</string>
     <string name="recent_conversations">Mga kamakailang pag-uusap</string>
-    <string name="recents_quick_scrub_onboarding">I-drag pakanan para mabilisang magpalipat-lipat ng app</string>
-    <string name="recents_swipe_up_onboarding">Mag-swipe pataas upang lumipat ng app</string>
     <string name="remaining_length_format">%1$s na lang</string>
     <string name="remote_input_image_insertion_text">nagpadala ng larawan</string>
     <string name="remove_from_settings">Alisin sa Mga Setting</string>
@@ -2117,6 +2126,7 @@ Ang sinumang user ay maaaring mag-update ng mga app para sa lahat ng iba pang us
     <string name="wallet_secondary_label_no_card">Magdagdag ng card</string>
     <string name="wallet_secondary_label_updating">Ina-update</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pansamantalang puno ang access point</string>
     <string name="wifi_cant_connect">Hindi makakonekta</string>
     <string name="wifi_cant_connect_to_ap">"Hindi makakonekta sa '%1$s'"</string>

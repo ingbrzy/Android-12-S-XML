@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_announcement_list_popup_shown">
+        <item quantity="other">%1$d Elemente werden angezeigt.</item>
+        <item quantity="one">%1$d Element wird angezeigt.</item>
+    </plurals>
+    <plurals name="action_comments_with_count">
+        <item quantity="other">%1$d Kommentare</item>
+        <item quantity="one">%1$d Kommentar</item>
+    </plurals>
+    <plurals name="action_header_shortcut_folder_targets">
+        <item quantity="other">Originalordner</item>
+        <item quantity="one">Originalordner</item>
+    </plurals>
+    <plurals name="action_header_shortcut_targets">
+        <item quantity="other">Originaldateien</item>
+        <item quantity="one">Originaldatei</item>
+    </plurals>
+    <plurals name="action_item_content_description">
+        <item quantity="other">Aufgaben: %1$d Einträge zur Nachverfolgung</item>
+        <item quantity="one">Aufgaben: %1$d Eintrag zur Nachverfolgung</item>
+    </plurals>
+    <plurals name="action_permanently_deleted">
+        <item quantity="other">%1$d Elemente endgültig gelöscht</item>
+        <item quantity="one">%2$s endgültig gelöscht</item>
+    </plurals>
+    <plurals name="add_collaborators_invalid_contact_address">
+        <item quantity="other">Ungültige E-Mail-Adressen: %s</item>
+        <item quantity="one">Ungültige E-Mail-Adresse: %s</item>
+    </plurals>
+    <plurals name="announce_folder_color_set">
+        <item quantity="other">%1$d Ordner aktualisiert. Farbe auf %2$s festgelegt.</item>
+        <item quantity="one">%1$d Ordner aktualisiert. Farbe auf %2$s festgelegt.</item>
+    </plurals>
+    <plurals name="apply_filters">
+        <item quantity="other">Meinten Sie:</item>
+        <item quantity="one">Meinten Sie:</item>
+    </plurals>
+    <plurals name="backup_entity_expires_in">
+        <item quantity="other">Läuft in %1$d Tagen ab</item>
+        <item quantity="one">Läuft in %1$d Tag ab</item>
+    </plurals>
+    <plurals name="backup_will_expire">
+        <item quantity="other">Wenn das Gerät weiterhin inaktiv bleibt, läuft die Sicherung in %1$d Tagen ab.</item>
+        <item quantity="one">Wenn das Gerät weiterhin inaktiv bleibt, läuft die Sicherung in %1$d Tag ab.</item>
+    </plurals>
+    <plurals name="delete_backup_success_message">
+        <item quantity="other">Die Sicherungen wurden gelöscht.</item>
+        <item quantity="one">Die Sicherung wurde gelöscht.</item>
+    </plurals>
+    <plurals name="desc_columns">
+        <item quantity="other">%1$d Spalten.</item>
+        <item quantity="one">%1$d Spalte.</item>
+    </plurals>
+    <plurals name="desc_frozen_columns">
+        <item quantity="other">%1$d fixierte Spalten.</item>
+        <item quantity="one">%1$d fixierte Spalte.</item>
+    </plurals>
+    <plurals name="desc_frozen_rows">
+        <item quantity="other">%1$d fixierte Zeilen.</item>
+        <item quantity="one">%1$d fixierte Zeile.</item>
+    </plurals>
+    <plurals name="desc_rows">
+        <item quantity="other">%1$d Zeilen.</item>
+        <item quantity="one">%1$d Zeile.</item>
+    </plurals>
+    <plurals name="discussion_card_replies_summary">
+        <item quantity="other">%1$s Antworten</item>
+        <item quantity="one">%1$s Antwort</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_include_current_user_text">
+        <item quantity="other">Sie und %1$d andere haben mit %2$s reagiert</item>
+        <item quantity="one">Sie und %1$d andere Person haben mit %2$s reagiert</item>
+    </plurals>
+    <plurals name="discussion_reactor_list_header_without_current_user_text">
+        <item quantity="other">%1$d Personen haben mit %2$s reagiert</item>
+        <item quantity="one">%1$d Person hat mit %2$s reagiert</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_active">
+        <item quantity="other">%d offene Kommentare</item>
+        <item quantity="one">%d offener Kommentar</item>
+    </plurals>
+    <plurals name="discussion_section_title_a11y_resolved">
+        <item quantity="other">%d geklärte Kommentare</item>
+        <item quantity="one">%d geklärter Kommentar</item>
+    </plurals>
+    <plurals name="download_message_all_failed">
+        <item quantity="other">Die Elemente konnten nicht heruntergeladen werden</item>
+        <item quantity="one">Das Element konnte nicht heruntergeladen werden</item>
+    </plurals>
+    <plurals name="download_message_success">
+        <item quantity="other">%1$d Elemente werden heruntergeladen. Details siehe Benachrichtigung.</item>
+        <item quantity="one">%1$d Element wird heruntergeladen. Details siehe Benachrichtigung.</item>
+    </plurals>
+    <plurals name="download_message_success_no_notification">
+        <item quantity="other">%1$d Elemente werden heruntergeladen.</item>
+        <item quantity="one">%1$d Element wird heruntergeladen.</item>
+    </plurals>
+    <plurals name="download_notification_complete_title">
+        <item quantity="other">%1$s und %2$d weitere Elemente</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="download_notification_failure_multiple">
+        <item quantity="other">Download von %1$s Elementen nicht möglich</item>
+        <item quantity="one">Download von %1$s Element nicht möglich</item>
+    </plurals>
+    <plurals name="download_notification_list_summary">
+        <item quantity="other">%1$d weitere Elemente</item>
+        <item quantity="one">%1$d weiteres Element</item>
+    </plurals>
+    <plurals name="download_notification_partial_failure_title">
+        <item quantity="other">%1$d von %2$d Downloads fehlgeschlagen</item>
+        <item quantity="one">1 von %2$d Downloads fehlgeschlagen</item>
+    </plurals>
+    <plurals name="download_notification_partial_success_title">
+        <item quantity="other">Fehler bei %1$d von %2$d Downloads</item>
+        <item quantity="one">Fehler bei %1$d von %2$d Downloads</item>
+    </plurals>
+    <plurals name="download_notification_title_total_failure">
+        <item quantity="other">%1$d Downloads fehlgeschlagen</item>
+        <item quantity="one">Ein Download fehlgeschlagen</item>
+    </plurals>
+    <plurals name="download_notification_title_total_success">
+        <item quantity="other">%1$d heruntergeladene Dateien</item>
+        <item quantity="one">1 heruntergeladene Datei</item>
+    </plurals>
+    <plurals name="duo_notification_list_summary">
+        <item quantity="other">und %1$d weitere Dateien</item>
+        <item quantity="one">und %1$d weitere Datei</item>
+    </plurals>
+    <plurals name="duo_notification_locate_file">
+        <item quantity="other">Dateien suchen</item>
+        <item quantity="one">Datei suchen</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_include_current_user_text">
+        <item quantity="other">Ich und %d andere Personen haben reagiert</item>
+        <item quantity="one">Ich und %d andere Person haben reagiert</item>
+    </plurals>
+    <plurals name="emoji_reactor_count_without_current_user_text">
+        <item quantity="other">%d Personen haben reagiert</item>
+        <item quantity="one">%d Person hat reagiert</item>
+    </plurals>
+    <plurals name="error_moving_file">
+        <item quantity="other">Fehler beim Verschieben der Dateien.</item>
+        <item quantity="one">Fehler beim Verschieben der Datei.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d Sekunden vorspulen</item>
+        <item quantity="one">%d Sekunde vorspulen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d Sekunden zurückspulen</item>
+        <item quantity="one">%d Sekunde zurückspulen</item>
+    </plurals>
+    <plurals name="guestNumber">
+        <item quantity="other">%d Gäste</item>
+        <item quantity="one">%d Gast</item>
+    </plurals>
+    <plurals name="make_shortcut_confirmation">
+        <item quantity="other">%2$d Verknüpfungen zu \"%1$s\" hinzugefügt</item>
+        <item quantity="one">Verknüpfung zu \"%1$s\" hinzugefügt</item>
+    </plurals>
+    <plurals name="make_shortcut_failure">
+        <item quantity="other">Verknüpfungen können nicht hinzugefügt werden Erneut versuchen.</item>
+        <item quantity="one">Verknüpfung kann nicht hinzugefügt werden. Erneut versuchen.</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_dlp_detections">
+        <item quantity="other">Einige Dateien, die in die Teamablage \"%1$s\" verschoben werden, haben die DLP-Erkennung ausgelöst. Möglicherweise enthalten sie vertrauliche Informationen.</item>
+        <item quantity="one">Die Datei, die in die Teamablage \"%1$s\" verschoben wird, hat die DLP-Erkennung ausgelöst. Möglicherweise enthält sie vertrauliche Informationen.</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_generic">
+        <item quantity="other">Wenn Sie diese Elemente verschieben, kann sich das auf die Zugriffsberechtigungen auswirken</item>
+        <item quantity="one">Wenn Sie dieses Element verschieben, kann sich das auf die Zugriffsberechtigungen auswirken</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_people_lose">
+        <item quantity="other">Jeder, der \"%1$s\" sehen kann, verliert den Zugriff auf diese Elemente, wenn sie nicht direkt für ihn freigegeben sind</item>
+        <item quantity="one">Jeder, der \"%1$s\" sehen kann, verliert den Zugriff auf dieses Element, wenn es nicht direkt für ihn freigegeben ist</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_message_within_shared_drive">
+        <item quantity="other">Wenn Sie diese Elemente innerhalb einer geteilten Ablage verschieben, kann sich das auf die Zugriffsberechtigungen auswirken</item>
+        <item quantity="one">Wenn Sie dieses Element innerhalb einer geteilten Ablage verschieben, kann sich das auf die Zugriffsberechtigungen auswirken</item>
+    </plurals>
+    <plurals name="move_confirm_dialog_title_generic">
+        <item quantity="other">Elemente verschieben?</item>
+        <item quantity="one">Element verschieben?</item>
+    </plurals>
+    <plurals name="move_error_no_permission_move_children_out_of_td_updated">
+        <item quantity="other">Sie sind nicht berechtigt, einige dieser Elemente aus der geteilten Ablage zu verschieben.</item>
+        <item quantity="one">Sie sind nicht berechtigt, dieses Element aus der geteilten Ablage zu verschieben.</item>
+    </plurals>
+    <plurals name="move_error_no_permission_src">
+        <item quantity="other">Sie sind nicht berechtigt, einige dieser Elemente zu verschieben.</item>
+        <item quantity="one">Sie sind nicht berechtigt, dieses Element zu verschieben.</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Diese Dateien lassen sich nicht verschieben, weil sich der Eigentümer außerhalb von %1$s befindet.</item>
+        <item quantity="one">Diese Datei lässt sich nicht verschieben, weil sich der Eigentümer außerhalb von %1$s befindet.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive">
+        <item quantity="other">%1$s \"%2$s\" hat jetzt Zugriff auf diese Elemente.</item>
+        <item quantity="one">%1$s \"%2$s\" hat jetzt Zugriff auf dieses Element.</item>
+    </plurals>
+    <plurals name="move_notice_granted_access_team_drive_fallback_updated">
+        <item quantity="other">%1$d Elemente in die geteilte Ablage verschoben. Die Mitglieder haben jetzt Zugriff darauf.</item>
+        <item quantity="one">1 Element in die geteilte Ablage verschoben. Die Mitglieder haben jetzt Zugriff darauf.</item>
+    </plurals>
+    <plurals name="move_notice_lost_access_team_drives_plural_updated">
+        <item quantity="other">%1$d Elemente aus der geteilten Ablage verschoben. Die Mitglieder haben keinen Zugriff mehr.</item>
+        <item quantity="one">%1$d Element aus der geteilten Ablage verschoben. Die Mitglieder haben keinen Zugriff mehr.</item>
+    </plurals>
+    <plurals name="move_to_trash_confirmation_dialog">
+        <item quantity="other">%1$d Elemente werden nach 30 Tagen endgültig gelöscht. %3$s</item>
+        <item quantity="one">\"%2$s\" wird nach 30 Tagen endgültig gelöscht. %3$s</item>
+    </plurals>
+    <plurals name="moved_to_trash_toast">
+        <item quantity="other">%1$d Elemente in den Papierkorb verschoben. %3$s</item>
+        <item quantity="one">%2$s in den Papierkorb verschoben. %3$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="multiselect_item_count_toolbar_title">
+        <item quantity="other">%1$d Elemente</item>
+        <item quantity="one">%1$d Element</item>
+    </plurals>
+    <plurals name="notification_completed_pin_title">
+        <item quantity="other">%1$d Dateien sind jetzt offline verfügbar</item>
+        <item quantity="one">1 Datei ist jetzt offline verfügbar</item>
+    </plurals>
+    <plurals name="notification_failed_pin_title">
+        <item quantity="other">%1$d Dateien konnten nicht offline verfügbar gemacht werden</item>
+        <item quantity="one">1 Datei konnte nicht offline verfügbar gemacht werden</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title">
+        <item quantity="other">%1$d Dateien werden offline verfügbar gemacht</item>
+        <item quantity="one">1 Datei wird offline verfügbar gemacht</item>
+    </plurals>
+    <plurals name="notification_ongoing_pin_title_with_bytes">
+        <item quantity="other">%1$d Dateien werden offline verfügbar gemacht (%2$s)</item>
+        <item quantity="one">1 Datei wird offline verfügbar gemacht (%2$s)</item>
+    </plurals>
+    <plurals name="notification_partially_failed_pin_title">
+        <item quantity="other">%1$d von %2$d Dateien konnten nicht offline verfügbar gemacht werden</item>
+        <item quantity="one">1 von %2$d Dateien konnte nicht offline verfügbar gemacht werden</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title">
+        <item quantity="other">Pausiert. %1$d von %2$d Dateien sind offline verfügbar.</item>
+        <item quantity="one">Pausiert. 1 von %2$d Dateien ist offline verfügbar.</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_partial_sync_title_with_bytes">
+        <item quantity="other">Pausiert – %1$d von %2$d Dateien offline verfügbar (%3$s)</item>
+        <item quantity="one">Pausiert – 1 von %2$d Dateien offline verfügbar (%3$s)</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title">
+        <item quantity="other">%1$d Dateien werden bald offline verfügbar gemacht</item>
+        <item quantity="one">Eine Datei wird bald offline verfügbar gemacht</item>
+    </plurals>
+    <plurals name="notification_pin_waiting_for_connectivity_title_with_bytes">
+        <item quantity="other">%1$d Dateien werden bald offline verfügbar gemacht (%2$s)</item>
+        <item quantity="one">Eine Datei wird bald offline verfügbar gemacht (%2$s)</item>
+    </plurals>
+    <plurals name="number_of_approvers">
+        <item quantity="other">%1$d Genehmiger</item>
+        <item quantity="one">1 Genehmiger</item>
+    </plurals>
+    <plurals name="permanently_delete_confirmation_message">
+        <item quantity="other">%1$d Elemente werden endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.</item>
+        <item quantity="one">„%2$s“ wird endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.</item>
+    </plurals>
+    <plurals name="permanently_deleted">
+        <item quantity="other">Elemente endgültig gelöscht</item>
+        <item quantity="one">Element endgültig gelöscht</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed">
+        <item quantity="other">%1$d von %2$s Dateien sind jetzt offline verfügbar</item>
+        <item quantity="one">%1$d von %2$s Dateien ist jetzt offline verfügbar</item>
+    </plurals>
+    <plurals name="pin_notification_sync_completed_all">
+        <item quantity="other">Alle %1$d Dateien sind jetzt offline verfügbar</item>
+        <item quantity="one">%1$d Datei ist jetzt offline verfügbar</item>
+    </plurals>
+    <plurals name="pin_notification_sync_failure">
+        <item quantity="other">Die Dateien können nicht offline verfügbar gemacht werden</item>
+        <item quantity="one">Die Datei kann nicht offline verfügbar gemacht werden</item>
+    </plurals>
+    <plurals name="pin_notification_sync_progress">
+        <item quantity="other">%1$d Dateien werden offline verfügbar gemacht</item>
+        <item quantity="one">%1$d Datei wird offline verfügbar gemacht</item>
+    </plurals>
+    <plurals name="pin_notification_sync_queued_files">
+        <item quantity="other">%1$d Dateien</item>
+        <item quantity="one">%1$d Datei</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_network_ticker">
+        <item quantity="other">Downloads angehalten, es wird auf eine Netzwerkverbindung gewartet…</item>
+        <item quantity="one">Download angehalten, es wird auf eine Netzwerkverbindung gewartet…</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_title">
+        <item quantity="other">%1$d Downloads wurden angehalten</item>
+        <item quantity="one">%1$d Download wurde angehalten</item>
+    </plurals>
+    <plurals name="pin_notification_waiting_wifi_ticker">
+        <item quantity="other">Downloads angehalten, es wird auf eine WLAN-Verbindung gewartet…</item>
+        <item quantity="one">Download angehalten, es wird auf eine WLAN-Verbindung gewartet…</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d neue Benachrichtigungen</item>
+        <item quantity="one">Du hast eine Benachrichtigung.</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_many_users">
+        <item quantity="other">Haben %1$d Dateien kommentiert</item>
+        <item quantity="one">Haben 1 Datei kommentiert</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_one_user">
+        <item quantity="other">Hat %1$d Dateien kommentiert</item>
+        <item quantity="one">Hat 1 Datei kommentiert</item>
+    </plurals>
+    <plurals name="recent_activity_type_commented_this_file">
+        <item quantity="other">Haben diese Datei kommentiert</item>
+        <item quantity="one">Hat diese Datei kommentiert</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_many_users">
+        <item quantity="other">Haben %1$d Elemente erstellt</item>
+        <item quantity="one">Haben 1 Element erstellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_one_user">
+        <item quantity="other">Hat %1$d Elemente erstellt</item>
+        <item quantity="one">Hat 1 Element erstellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_file">
+        <item quantity="other">Haben diese Datei erstellt</item>
+        <item quantity="one">Hat diese Datei erstellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_created_this_folder">
+        <item quantity="other">Haben diesen Ordner erstellt</item>
+        <item quantity="one">Hat diesen Ordner erstellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_many_users">
+        <item quantity="other">Haben %1$d Elemente bearbeitet</item>
+        <item quantity="one">Haben 1 Element bearbeitet</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_one_user">
+        <item quantity="other">Hat %1$d Elemente bearbeitet</item>
+        <item quantity="one">Hat 1 Element bearbeitet</item>
+    </plurals>
+    <plurals name="recent_activity_type_edited_this_file">
+        <item quantity="other">Haben diese Datei bearbeitet</item>
+        <item quantity="one">Hat diese Datei bearbeitet</item>
+    </plurals>
+    <plurals name="recent_activity_type_empty_trash">
+        <item quantity="other">Hat %1$d Elemente endgültig gelöscht</item>
+        <item quantity="one">Hat 1 Element endgültig gelöscht</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_many_users">
+        <item quantity="other">Haben %1$d Elemente verschoben nach:</item>
+        <item quantity="one">Haben 1 Element verschoben nach:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_extra_one_user">
+        <item quantity="other">Hat %1$d Elemente verschoben nach:</item>
+        <item quantity="one">Hat 1 Element verschoben nach:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_many_users">
+        <item quantity="other">Haben %1$d Elemente verschoben</item>
+        <item quantity="one">Haben 1 Element verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_one_user">
+        <item quantity="other">Hat %1$d Elemente verschoben</item>
+        <item quantity="one">Hat 1 Element verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file">
+        <item quantity="other">Haben diese Datei verschoben</item>
+        <item quantity="one">Hat diese Datei verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_file_extra">
+        <item quantity="other">Haben diese Datei verschoben nach:</item>
+        <item quantity="one">Hat diese Datei verschoben nach:</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder">
+        <item quantity="other">Haben diesen Ordner verschoben</item>
+        <item quantity="one">Hat diesen Ordner verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_moved_this_folder_extra">
+        <item quantity="other">Haben diesen Ordner verschoben nach:</item>
+        <item quantity="one">Hat diesen Ordner verschoben nach:</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_many_users">
+        <item quantity="other">Haben %1$d Elemente umbenannt</item>
+        <item quantity="one">Haben 1 Element umbenannt</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_one_user">
+        <item quantity="other">Hat %1$d Elemente umbenannt</item>
+        <item quantity="one">Hat 1 Element umbenannt</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_file">
+        <item quantity="other">Haben diese Datei umbenannt</item>
+        <item quantity="one">Hat diese Datei umbenannt</item>
+    </plurals>
+    <plurals name="recent_activity_type_renamed_this_folder">
+        <item quantity="other">Haben diesen Ordner umbenannt</item>
+        <item quantity="one">Hat diesen Ordner umbenannt</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_one_or_many_users">
+        <item quantity="other">Hat %1$d Elemente wiederhergestellt</item>
+        <item quantity="one">Hat ein Element wiederhergestellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_file">
+        <item quantity="other">Hat diese Datei wiederhergestellt</item>
+        <item quantity="one">Hat diese Datei wiederhergestellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_restore_this_folder">
+        <item quantity="other">Hat diesen Ordner wiederhergestellt</item>
+        <item quantity="one">Hat diesen Ordner wiederhergestellt</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_applied_one_or_many_users">
+        <item quantity="other">Sicherheitsupdate wurde auf %1$d Elemente angewendet</item>
+        <item quantity="one">Sicherheitsupdate wurde angewendet</item>
+    </plurals>
+    <plurals name="recent_activity_type_security_update_removed_one_or_many_users">
+        <item quantity="other">Sicherheitsupdate wurde für %1$d Elemente entfernt</item>
+        <item quantity="one">Sicherheitsupdate wurde entfernt</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_many_users">
+        <item quantity="other">Haben %1$d Elemente freigegeben</item>
+        <item quantity="one">Haben 1 Element freigegeben</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_one_user">
+        <item quantity="other">Hat %1$d Elemente freigegeben</item>
+        <item quantity="one">Hat 1 Element freigegeben</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_file">
+        <item quantity="other">Haben diese Datei freigegeben</item>
+        <item quantity="one">Hat diese Datei freigegeben</item>
+    </plurals>
+    <plurals name="recent_activity_type_shared_this_folder">
+        <item quantity="other">Haben diesen Ordner freigegeben</item>
+        <item quantity="one">Hat diesen Ordner freigegeben</item>
+    </plurals>
+    <plurals name="recent_activity_type_system_migrated">
+        <item quantity="other">Migriert</item>
+        <item quantity="one">Migriert</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_many_users">
+        <item quantity="other">Haben %1$d Elemente in den Papierkorb verschoben</item>
+        <item quantity="one">Haben 1 Element in den Papierkorb verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_one_user">
+        <item quantity="other">Hat %1$d Elemente in den Papierkorb verschoben</item>
+        <item quantity="one">Hat 1 Element in den Papierkorb verschoben</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_file">
+        <item quantity="other">Haben diese Datei entfernt</item>
+        <item quantity="one">Hat diese Datei entfernt</item>
+    </plurals>
+    <plurals name="recent_activity_type_trashed_this_folder">
+        <item quantity="other">Haben diesen Ordner entfernt</item>
+        <item quantity="one">Hat diesen Ordner entfernt</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_many_users">
+        <item quantity="other">Haben %1$d Elemente hochgeladen</item>
+        <item quantity="one">Haben 1 Element hochgeladen</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_one_user">
+        <item quantity="other">Hat %1$d Elemente hochgeladen</item>
+        <item quantity="one">Hat 1 Element hochgeladen</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_file">
+        <item quantity="other">Haben diese Datei hochgeladen</item>
+        <item quantity="one">Hat diese Datei hochgeladen</item>
+    </plurals>
+    <plurals name="recent_activity_type_uploaded_this_folder">
+        <item quantity="other">Haben diesen Ordner hochgeladen</item>
+        <item quantity="one">Hat diesen Ordner hochgeladen</item>
+    </plurals>
+    <plurals name="recent_activity_users_more">
+        <item quantity="other">%1$s und %2$d andere</item>
+        <item quantity="one">%1$s und eine weitere Person</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_files_text">
+        <item quantity="other">%1$d Dateien werden in den Papierkorb von \"%2$s\" verschoben und nach 30 Tagen endgültig gelöscht.</item>
+        <item quantity="one">Diese Datei wird in den Papierkorb von \"%2$s\" verschoben und nach 30 Tagen endgültig gelöscht.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_folders_text">
+        <item quantity="other">%1$d Ordner werden in den Papierkorb von \"%2$s\" verschoben und nach 30 Tagen endgültig gelöscht.</item>
+        <item quantity="one">Dieser Ordner wird in den Papierkorb von \"%2$s\" verschoben und nach 30 Tagen endgültig gelöscht.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_for_everyone_items_text">
+        <item quantity="other">%1$d Elemente werden in den Papierkorb von %2$s verschoben und nach 30 Tagen endgültig gelöscht.</item>
+        <item quantity="one">Dieses Element wird in den Papierkorb von \"%2$s\" verschoben und nach 30 Tagen endgültig gelöscht.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
+        <item quantity="other">Diese %1$d Dateien werden endgültig für alle Nutzer gelöscht. Sie können diese Aktion nicht rückgängig machen.</item>
+        <item quantity="one">Diese Datei wird endgültig für alle Nutzer gelöscht. Sie können diese Aktion nicht rückgängig machen.</item>
+    </plurals>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Diese %1$d Dateien werden endgültig gelöscht. Sie können diese Aktion nicht rückgängig machen.</item>
+        <item quantity="one">Diese Datei wird endgültig gelöscht. Sie können diese Aktion nicht rückgängig machen.</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog">
+        <item quantity="other">%1$d Elemente werden aus der Ansicht entfernt. %3$s</item>
+        <item quantity="one">\"%2$s\" wird aus der Ansicht entfernt. %3$s</item>
+    </plurals>
+    <plurals name="remove_from_view_confirmation_dialog_title">
+        <item quantity="other">Elemente entfernen?</item>
+        <item quantity="one">%1$s entfernen?</item>
+    </plurals>
+    <plurals name="remove_multiple_confirmation_dialog">
+        <item quantity="other">%1$d Elemente werden in den Papierkorb verschoben und nach 30 Tagen endgültig gelöscht. %3$s</item>
+        <item quantity="one">\"%2$s\" wird in den Papierkorb verschoben und nach 30 Tagen endgültig gelöscht. %3$s</item>
+    </plurals>
+    <plurals name="remove_multiple_entry_confirmation_dialog_message">
+        <item quantity="other">%1$d Elemente werden nach 30 Tagen endgültig gelöscht</item>
+        <item quantity="one">\"%1$s\" wird nach 30 Tagen endgültig gelöscht</item>
+    </plurals>
+    <plurals name="removed_toast">
+        <item quantity="other">%1$d Elemente entfernt. %3$s</item>
+        <item quantity="one">%2$s entfernt. %3$s</item>
+    </plurals>
+    <plurals name="selection_floating_handle_count">
+        <item quantity="other">%1$d Elemente</item>
+        <item quantity="one">%1$d Element</item>
+    </plurals>
+    <plurals name="selection_message_pin_num_items">
+        <item quantity="other">Dateien werden offline verfügbar gemacht</item>
+        <item quantity="one">Datei wird offline verfügbar gemacht</item>
+    </plurals>
+    <plurals name="selection_message_star_num_items">
+        <item quantity="other">%1$d Elemente markiert</item>
+        <item quantity="one">1 Element markiert</item>
+    </plurals>
+    <plurals name="selection_message_unpin_num_items">
+        <item quantity="other">Dateien sind nicht mehr offline verfügbar</item>
+        <item quantity="one">Datei ist nicht mehr offline verfügbar</item>
+    </plurals>
+    <plurals name="selection_message_unstar_num_items">
+        <item quantity="other">Markierung für %1$d Elemente aufgehoben</item>
+        <item quantity="one">Markierung für 1 Element aufgehoben</item>
+    </plurals>
+    <plurals name="selection_message_untrash_num_items">
+        <item quantity="other">%1$d Elemente wiederhergestellt</item>
+        <item quantity="one">1 Element wiederhergestellt</item>
+    </plurals>
+    <plurals name="selection_undo_complete_message_remove_num_items">
+        <item quantity="other">%1$d Elemente wiederhergestellt</item>
+        <item quantity="one">1 Element wiederhergestellt</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message">
+        <item quantity="other">%1$d Elemente aus \"%2$s\" entfernt</item>
+        <item quantity="one">1 Element aus \"%2$s\" entfernt</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_message_fallback">
+        <item quantity="other">%1$d Elemente aus Ordner entfernt</item>
+        <item quantity="one">1 Element aus Ordner entfernt</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_add_trashed_message">
+        <item quantity="other">%1$d Elemente entfernt</item>
+        <item quantity="one">1 Element entfernt</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_message">
+        <item quantity="other">%1$d Elemente zurück verschoben</item>
+        <item quantity="one">1 Element zurück verschoben</item>
+    </plurals>
+    <plurals name="selection_undo_complete_num_items_move_trashed_message">
+        <item quantity="other">%1$d Elemente zurück in den Papierkorb verschoben</item>
+        <item quantity="one">1 Element zurück in den Papierkorb verschoben</item>
+    </plurals>
+    <plurals name="selection_undo_message_remove_num_items">
+        <item quantity="other">%1$d Elemente entfernt</item>
+        <item quantity="one">1 Element entfernt</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d Elemente zu \"%2$s\" hinzugefügt</item>
+        <item quantity="one">1 Element zu \"%2$s\" hinzugefügt</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message_fallback">
+        <item quantity="other">%1$d Elemente hinzugefügt</item>
+        <item quantity="one">1 Element hinzugefügt</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d Elemente wiederhergestellt, jetzt in \"%2$s\"</item>
+        <item quantity="one">1 Element wiederhergestellt, jetzt in \"%2$s\"</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d Elemente in \"%2$s\" verschoben.</item>
+        <item quantity="one">1 Element in \"%2$s\" verschoben.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message_fallback">
+        <item quantity="other">%1$d Elemente verschoben</item>
+        <item quantity="one">1 Element verschoben</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d Elemente wiederhergestellt und in \"%2$s\" verschoben.</item>
+        <item quantity="one">1 Element wiederhergestellt und in \"%2$s\" verschoben.</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message_fallback">
+        <item quantity="other">%1$d Elemente wiederhergestellt.</item>
+        <item quantity="one">1 Element wiederhergestellt</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d Elemente in \"%2$s\" wiederhergestellt.</item>
+        <item quantity="one">1 Element in \"%2$s\" wiederhergestellt.</item>
+    </plurals>
+    <plurals name="send_files">
+        <item quantity="other">Dateien senden mit</item>
+        <item quantity="one">Datei senden mit</item>
+    </plurals>
+    <plurals name="sharing_people_added">
+        <item quantity="other">Personen hinzugefügt</item>
+        <item quantity="one">Person hinzugefügt</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d von %2$d Sternen</item>
+        <item quantity="one">%1$d von %2$d Sternen</item>
+    </plurals>
+    <plurals name="teamdrive_acl_info_summary">
+        <item quantity="other">%d Mitglieder</item>
+        <item quantity="one">1 Mitglied</item>
+    </plurals>
+    <plurals name="teamdrive_group_count">
+        <item quantity="other">%d Gruppen</item>
+        <item quantity="one">1 Gruppe</item>
+    </plurals>
+    <plurals name="teamdrive_people_count">
+        <item quantity="other">%d Personen</item>
+        <item quantity="one">1 Person</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_resume">
+        <item quantity="other">Alle jetzt fortsetzen</item>
+        <item quantity="one">Jetzt fortsetzen</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_all_failed">
+        <item quantity="other">%1$d Uploads fehlgeschlagen</item>
+        <item quantity="one">Ein Upload fehlgeschlagen</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_completed_successfully">
+        <item quantity="other">%1$d hochgeladene Dateien</item>
+        <item quantity="one">1 hochgeladene Datei</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_sync_progress">
+        <item quantity="other">%1$d Dateien werden hochgeladen</item>
+        <item quantity="one">Eine Datei wird hochgeladen</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_partial_title">
+        <item quantity="other">%1$d von %2$d Uploads pausiert</item>
+        <item quantity="one">1 von %2$d Uploads pausiert</item>
+    </plurals>
+    <plurals name="upload_notification_detailed_waiting_title">
+        <item quantity="other">%1$d Uploads angehalten</item>
+        <item quantity="one">1 Upload angehalten</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_canceled">
+        <item quantity="other">Upload von %1$d Dateien abgebrochen.</item>
+        <item quantity="one">Upload von %1$d Datei abgebrochen.</item>
+    </plurals>
+    <plurals name="upload_notification_prepare_upload_failures">
+        <item quantity="other">Planung des Uploads für %1$d Dateien nicht möglich.</item>
+        <item quantity="one">Planung des Uploads für %1$d Datei nicht möglich.</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_successfully">
+        <item quantity="other">%1$d Dateien wurden hochgeladen</item>
+        <item quantity="one">%1$d Datei wurde hochgeladen</item>
+    </plurals>
+    <plurals name="upload_notification_sync_completed_with_failures">
+        <item quantity="other">%1$d von %2$d Dateien konnten nicht hochgeladen werden</item>
+        <item quantity="one">%1$d von %2$d Dateien konnte nicht hochgeladen werden</item>
+    </plurals>
+    <plurals name="upload_notification_sync_progress">
+        <item quantity="other">%1$d Dateien werden hochgeladen</item>
+        <item quantity="one">%1$d Datei wird hochgeladen</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_network_ticker">
+        <item quantity="other">Uploads angehalten, es wird auf eine Netzwerkverbindung gewartet…</item>
+        <item quantity="one">Upload angehalten, es wird auf eine Netzwerkverbindung gewartet…</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_title">
+        <item quantity="other">%1$d Uploads wurden angehalten</item>
+        <item quantity="one">%1$d Upload wurde angehalten</item>
+    </plurals>
+    <plurals name="upload_notification_waiting_wifi_ticker">
+        <item quantity="other">Upload angehalten, es wird auf eine WLAN-Verbindung gewartet…</item>
+        <item quantity="one">Upload angehalten, es wird auf eine WLAN-Verbindung gewartet…</item>
+    </plurals>
+    <plurals name="upload_spinner_message">
+        <item quantity="other">%1$d Dateien werden für den Upload vorbereitet</item>
+        <item quantity="one">%1$d Datei wird für den Upload vorbereitet</item>
+    </plurals>
+    <plurals name="upload_toast_message">
+        <item quantity="other">Ihre %1$d Dateien werden in den Ordner \"%2$s\" hochgeladen</item>
+        <item quantity="one">Ihre %1$d Datei wird in den Ordner \"%2$s\" hochgeladen</item>
+    </plurals>
+    <plurals name="view_workspace_files">
+        <item quantity="other">%1$d Dateien ansehen</item>
+        <item quantity="one">%1$d Datei ansehen</item>
+    </plurals>
+    <plurals name="view_workspace_files_content_desc">
+        <item quantity="other">Alle %1$d Dateien in %2$s ansehen</item>
+        <item quantity="one">%1$d Datei in %2$s ansehen</item>
+    </plurals>
+</resources>

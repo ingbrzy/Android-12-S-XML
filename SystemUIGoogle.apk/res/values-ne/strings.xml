@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">यो परिवर्तन लागू गर्न तपाईंको यन्त्र अनिवार्य रूपमा रिबुट गर्नु पर्छ। अहिले रिबुट गर्नुहोस् वा रद्द गर्नुहोस्।</string>
     <string name="camera_hint">क्यामेराको लागि आइकनबाट स्वाइप गर्नुहोस्</string>
     <string name="camera_label">क्यामेरा खोल्नुहोस्</string>
+    <string name="camera_recording_announcement">क्यामेराले रेकर्ड गर्दै छ</string>
+    <string name="camera_stopped_recording_announcement">क्यामेराले रेकर्ड गर्न छाड्यो</string>
     <string name="cancel">रद्द गर्नुहोस्</string>
     <string name="carrier_network_change_mode">सेवा प्रदायकको नेटवर्क परिवर्तन गर्ने आइकन</string>
     <string name="category_personal">व्यक्तिगत</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">अनुगमन गर्दै</string>
     <string name="debug_networking_category">नेटवर्किङ</string>
     <string name="debug_view_attributes">भ्युको एट्रिब्युट हेर्ने सुविधा अन गरियोस्</string>
+    <string name="defender_notify_des">ब्याट्री टिक्ने समय घट्न नदिन तपाईंको फोन सीमित रूपमा चार्ज गरिँदै छ</string>
+    <string name="defender_notify_learn_more">थप जान्नुहोस्</string>
+    <string name="defender_notify_resume_charge">चार्जिङ सुचारु गर्नुहोस्</string>
+    <string name="defender_notify_title">चार्जिङ केही समयका लागि सीमित पारिएको छ</string>
     <string name="delete_blob_confirmation_text">तपाईंले यो साझा डेटा मेटाउन खोज्नुभएकै हो?</string>
     <string name="delete_blob_text">साझा डेटा मेट्नुहोस्</string>
     <string name="demo_mode">सिस्टम UI को डेमो मोड</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM कार्ड अनलक गरिँदै...</string>
     <string name="keyguard_try_fingerprint">फिंगरप्रिन्ट प्रयोग गरी खोल्नुहोस्</string>
     <string name="keyguard_unlock">खोल्न माथितिर स्वाइप गर्नुहोस्</string>
+    <string name="keyguard_unlock_press">अनलक गर्न प्रेस गर्नुहोस्</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">समयतालिका, अलार्म, रिमाइन्डर, घडी</string>
     <string name="kg_enter_confirm_pin_hint">रूचाइएको PIN कोड पुष्टि गर्नुहोस्</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">किबोर्ड स्विचर</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">माइक्रोफोन सक्रिय छ</string>
+    <string name="mic_and_camera_recording_announcement">क्यामेरा र माइक्रोफोनले रेकर्ड गर्दै छन्</string>
+    <string name="mic_camera_stopped_recording_announcement">क्यामेरा र माइक्रोफोनले रेकर्ड गर्न छाडे</string>
+    <string name="mic_recording_announcement">माइक्रोफोनले रेकर्ड गर्दै छ</string>
+    <string name="mic_stopped_recording_announcement">माइक्रोफोनले रेकर्ड गर्न छाड्यो</string>
     <string name="missed_call">मिस कल</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">मोबाइल डेटा</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">कामसम्बन्धी एपहरू</string>
     <string name="quick_step_accessibility_toggle_overview">परिदृश्य टगल गर्नुहोस्</string>
     <string name="recent_conversations">हालसालैका वार्तालापहरू</string>
-    <string name="recents_quick_scrub_onboarding">एपहरू बदल्न द्रुत गतिमा दायाँतिर ड्र्याग गर्नुहोस्</string>
-    <string name="recents_swipe_up_onboarding">एपहरू बदल्न माथितिर स्वाइप गर्नुहोस्</string>
     <string name="remaining_length_format">%1$s बाँकी</string>
     <string name="remote_input_image_insertion_text">कुनै छवि पठाइयो</string>
     <string name="remove_from_settings">सेटिङहरूबाट हटाउनुहोस्</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">कार्ड हाल्नुहोस्</string>
     <string name="wallet_secondary_label_updating">अपडेट गरिँदै छ</string>
     <string name="wallet_title">वालेट</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">पहुँचसम्बन्धी स्थान अस्थायी रूपमा भरिएको छ</string>
     <string name="wifi_cant_connect">जडान गर्न सकिँदैन</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' मा जडान गर्न सकिँदैन"</string>

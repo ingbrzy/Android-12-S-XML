@@ -105,7 +105,7 @@ Je kunt nu meer te weten komen over andere onderwerpen of deze informatie later 
     <string name="audio_focus_state">Audiovolume verlagen %1$s</string>
     <string name="auto_detect">Aanpassen aan hoe je het apparaat vasthoudt</string>
     <string name="auto_scan_action_description">Scan starten en selecteren</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Automatisch scannen of Selecteren</string>
     <string name="available_devices_header">Beschikbare Bluetooth-apparaten</string>
     <string name="basic_navigation_link_subtext">"Navigeer door items, scroll, gebruik menu's en meer"</string>
     <string name="basic_navigation_link_text">Basisnavigatie</string>
@@ -119,7 +119,7 @@ Je kunt nu meer te weten komen over andere onderwerpen of deze informatie later 
     <string name="bluetooth_no_devices_paired">Er zijn geen Bluetooth-apparaten gekoppeld</string>
     <string name="bluetooth_not_enabled_message">Zet Bluetooth aan om een Bluetooth-schakelaar te koppelen</string>
     <string name="bluetooth_peripheral_content_description">Randapparaat</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Als je een bluetooth-switch wilt koppelen in de instelwizard, zet je bluetooth aan en geef je Android Toegankelijkheidstools toegang tot de rechten Apparaten in de buurt en Locatie.</string>
     <string name="bluetooth_phone_content_description">Telefoon</string>
     <string name="bluetooth_switch_description_text">Een schakelaar draadloos koppelen via bluetooth</string>
     <string name="bluetooth_switch_option_text">Bluetooth-schakelaar</string>
@@ -157,6 +157,9 @@ Je kunt nu meer te weten komen over andere onderwerpen of deze informatie later 
     <string name="cam_switch_enable_banner_text_label_generic">"Je moet eerst 'Toegang via schakelaar' aanzetten als je je apparaat wilt bedienen."</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Cameraschakelaars openen</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">"'Toegang via schakelaar' openen"</string>
+    <string name="cam_switches_combined_preferences_title">Instellingen voor %1$s</string>
+    <string name="cam_switches_preferences_title">Instellingen voor cameraschakelaars</string>
+    <string name="cam_switches_single_preferences_title">Instellingen voor %s</string>
     <string name="camera_switches_status_active">Cameraschakelaars actief</string>
     <string name="camera_switches_status_error">Fout</string>
     <string name="camera_switches_status_no_face">Geen gezicht waargenomen</string>
@@ -399,6 +402,7 @@ Probeer dit nu door het scherm aan te raken en met je vinger naar de hoek linkso
     <string name="fallback_menu_item_open_in_browser">Openen in browser</string>
     <string name="fallback_menu_item_share_link">Link delen</string>
     <string name="fast_radio_button_title">Snel (vertraging van %1$ss)</string>
+    <string name="fast_radio_button_title_content_description">Snel (vertraging van %1$s seconden)</string>
     <string name="find_finish_button_text">Swipe naar rechts om de knop Voltooien te vinden.</string>
     <string name="finish">Voltooien</string>
     <string name="finish_tutorial_announcement">Brailletoetsenbord wordt getoond. Draai je telefoon zodat het scherm van je af is gericht. Draai de telefoon horizontaal naar de liggende apparaatstand. Begin dan te typen.</string>
@@ -747,6 +751,7 @@ Interne weergavenaam: %1$s"</string>
     <string name="list_index_template">%1$d van %2$d</string>
     <string name="lockscreen_label">Scherm vergrendelen</string>
     <string name="medium_radio_button_title">Gemiddeld (vertraging van %1$ss)</string>
+    <string name="medium_radio_button_title_content_description">Gemiddeld (vertraging van %1$s seconden)</string>
     <string name="menu_category_reading_controls">Lezen</string>
     <string name="menu_category_special_features">Speciale functies</string>
     <string name="menus_selector_text">"Met deze snelle acties kun je snel instellingen wijzigen, zoals schakelen van tekens naar woorden in je navigatie of de spreeksnelheid van TalkBack aanpassen.
@@ -767,6 +772,7 @@ Open het TalkBack-menu nu door met 3 vingers op het scherm te tikken."</string>
 Open het TalkBack-menu nu door omlaag en dan naar rechts te swipen."</string>
     <string name="menus_title">Menu en bedieningselementen</string>
     <string name="message_in_reset_keymap_confirm_dialog">Weet je zeker dat je de standaardinstellingen voor de sneltoetsen van deze toetsenbordindeling wilt resetten? Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="message_request_phone_permission">TalkBack wil weten wanneer je een telefoongesprek voert, zodat de functie storende aankondigingen kan beperken.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Hiermee worden alle gebaren gereset naar de standaardacties.
 
 Je raakt hiermee je aanpassingen kwijt."</string>
@@ -996,6 +1002,7 @@ Probeer een gebaar waarbij je met 2 swipes een rechte hoek maakt. Swipe bijvoorb
     <string name="pref_reduce_window_delay_title">Vertraging vensteraankondiging verkleinen</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Cameraschakelaars toevoegen</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Fysieke schakelaars wissen</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Instellingen kiezen voor schakelaar: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Cameraschakelaars bewerken</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Geen cameraschakelaar toegewezen</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Cameraschakelaars toewijzen aan %s</string>
@@ -1016,9 +1023,9 @@ Probeer een gebaar waarbij je met 2 swipes een rechte hoek maakt. Swipe bijvoorb
     <string name="pref_sa_face_playground_stop_preview_content_description">Voorbeeld stoppen</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Aanzetten</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Cameraschakelaars moeten aanstaan als je dit testgebied wilt gebruiken</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Proberen: bekijk een voorbeeld van alle typen gezichtsgebaren, waaronder open mond, glimlach en meer</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Proberen</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Proberen: bekijk een voorbeeld van gezichtsgebaren van het type %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Het testgebied is gepauzeerd. Gebruik de knop hieronder om het opnieuw te starten.</string>
     <string name="pref_selector_summary">%1$s om een instelling te selecteren. %2$s om de instelling aan te passen.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s of %2$s om een instelling te selecteren. %3$s om de instelling aan te passen.</string>
@@ -1069,6 +1076,7 @@ Als het apparaat nog steeds geen verbinding kan maken, ga je naar de Bluetooth-i
     <string name="reduce_speed_button">Snelheid verlagen</string>
     <string name="remaining_calibration_finish_announcement">Alle puntposities zijn geüpdated</string>
     <string name="reminder_announcement">Swipe met 3 vingers omhoog voor meer opties</string>
+    <string name="remove_assigned_switch">Schakelaartoewijzing verwijderen voor %s</string>
     <string name="report_gesture_description">Hier zijn recent uitgevoerde gebaren. Laat ons weten welk gebaar niet klopt en wat je had verwacht.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Resetten</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Resetten</string>
@@ -1149,6 +1157,7 @@ Probeer dit nu uit door met 2 vingers omhoog te swipen tot je naar het onderste 
     <string name="search_mode_hint_no_selection">Geen geselecteerd item.</string>
     <string name="search_mode_hint_query">Huidige zoekopdracht: %1$s.</string>
     <string name="search_mode_hint_selection">Huidige selectie: %1$s.</string>
+    <string name="select_for_point_scan">Selecteren</string>
     <string name="select_setting_hint">%1$s om een andere instelling te selecteren</string>
     <string name="selecting_text_text">"Plaats de cursor in een tekstvak aan het begin van de tekst die je wilt selecteren.
 
@@ -1209,6 +1218,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="shortcut_media_control">Media afspelen of onderbreken</string>
     <string name="shortcut_next">Volgend item</string>
     <string name="shortcut_next_granularity">Volgende navigatie-instelling</string>
+    <string name="shortcut_next_window">Volgend venster</string>
     <string name="shortcut_not_customizable">%1$s, niet aanpasbaar</string>
     <string name="shortcut_notifications">Meldingen</string>
     <string name="shortcut_overview">Overzicht</string>
@@ -1221,6 +1231,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="shortcut_practice_gestures">Gebaren oefenen</string>
     <string name="shortcut_previous">Vorig item</string>
     <string name="shortcut_previous_granularity">Vorige navigatie-instelling</string>
+    <string name="shortcut_previous_window">Vorig venster</string>
     <string name="shortcut_print_node_tree">Knooppuntstructuur afdrukken</string>
     <string name="shortcut_print_performance_stats">Prestatiestatistieken afdrukken</string>
     <string name="shortcut_quick_settings">Snelle instellingen</string>
@@ -1260,6 +1271,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
 • Schudden om doorlopend lezen te starten"</string>
     <string name="six_hold_announcement">Je kunt ook typen door de telefoon plat op een tafel te leggen. Probeer het nu. Als er geen tafel in de buurt is, kun je dit overslaan door omlaag te swipen.</string>
     <string name="slow_radio_button_title">Langzaam (vertraging van %1$ss)</string>
+    <string name="slow_radio_button_title_content_description">Langzaam (vertraging van %1$s seconden)</string>
     <string name="sound_feedback_state">Geluidsfeedback %1$s</string>
     <string name="sound_feedback_summary">Een geluid afspelen om aan te geven dat er iets is gewijzigd (bijvoorbeeld wanneer er content op het scherm is gewijzigd)</string>
     <string name="speak_container_element_position_summary_off">Informatie over lijsten en rasters wordt niet uitgesproken</string>
@@ -1313,7 +1325,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="summary_granularity">Lezen per teken, woord, regel en meer</string>
     <string name="summary_granularity_default">Eén item tegelijk lezen</string>
     <string name="summary_headings">Springen tussen koppen</string>
-    <string name="summary_hide_screen">Het scherm verbergen zodat anderen je scherm niet kunnen bekijken in openbare ruimten</string>
+    <string name="summary_hide_screen">Het scherm verbergen zodat anderen je scherm niet kunnen bekijken in openbare ruimtes</string>
     <string name="summary_labeling_controls">Wordt getoond als je een niet-gelabeld item selecteert</string>
     <string name="summary_landmarks">"Springen tussen herkenningspunten op webpagina's, zoals 'hoofd' of 'navigatie'"</string>
     <string name="summary_language">De gesproken taal wijzigen. Wordt alleen getoond als je meerdere talen voor tekst-naar-spraak hebt geïnstalleerd.</string>
@@ -1333,17 +1345,17 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="summary_pref_face_switches_debounce_time">Meerdere triggers voor cameraschakelaars binnen deze periode worden als één trigger behandeld.</string>
     <string name="summary_pref_face_switches_enabled">Cameraschakelaars gebruikt de camera aan de voorzijde om te zien of je naar het scherm kijkt en om gezichtsgebaren te herkennen. Er worden geen afbeeldingen opgeslagen of naar Google gestuurd.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Een geluid laten horen als iets op het scherm verandert in reactie op een gebaar</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Een visuele indicatie laten zien van hoelang je een gebaar hebt vastgehouden</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Houd het scherm aan wanneer cameraschakelaars aanstaan. Als het scherm uitgaat, kun je het niet ontgrendelen met cameraschakelaars.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Geen gezicht waargenomen</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Maak een van de gezichtsgebaren. Als het gebaar is geregistreerd, zie je de naam van het gebaar. Als je wilt afsluiten, houd je een gebaar %1$d seconden lang vast.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Houd je hoofd stil en kijk naar de camera. Daarna: %s.</string>
     <string name="summary_pref_play_store">Huidige TalkBack-versie: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Gebruik de bewegende lijnen om een specifieke horizontale en verticale locatie te selecteren. Druk op de schakelaar %1$s om te starten met puntscannen. %2$s</string>
     <string name="summary_pref_reverse_dots">Wissel de puntposities, zodat bijvoorbeeld punt 1 en 4 van plaats wisselen</string>
     <string name="summary_pref_revert_to_default_menu">Reset het menu voor toegang via schakelaar naar de standaardlijst met menu-items.</string>
-    <string name="summary_pref_single_tap">(Experimenteel) Tik één keer op een gefocust item om het te activeren</string>
+    <string name="summary_pref_single_tap">Tik 1 keer op een gefocust item om het te activeren</string>
     <string name="summary_pref_tree_debug_tv">Gebruik de toets voor gesproken zoekopdrachten om de knooppuntstructuur af te drukken in plaats van te zoeken</string>
     <string name="summary_pref_use_audio_focus">Overig audiovolume verlagen tijdens spreken</string>
     <string name="summary_read_from_current">Alle items op het scherm vanaf het volgende item lezen</string>
@@ -1351,7 +1363,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="summary_repeat_last_spoken_phrase">De laatste door TalkBack uitgesproken woordgroep opnieuw beluisteren</string>
     <string name="summary_selector_menu_punctuation">Aanpassen of interpunctie en symbolen worden voorgelezen</string>
     <string name="summary_selector_menu_verbosity">Wijzigen of getypte toetsen, gebruikstips, rasterinformatie en andere informatie worden voorgelezen</string>
-    <string name="summary_show_hide_screen">Scherm verbergen zodat anderen het niet kunnen bekijken in openbare ruimten. Zet het daarna terug naar normale status.</string>
+    <string name="summary_show_hide_screen">Scherm verbergen zodat anderen het niet kunnen bekijken in openbare ruimtes. Zet het daarna terug naar normale status.</string>
     <string name="summary_sound_feedback">Geluidseffecten horen terwijl je navigeert, zoals een pieptoon om een actie te bevestigen</string>
     <string name="summary_special_content">"Springen tussen speciale content op webpagina's, zoals tabellen"</string>
     <string name="summary_speech_rate">Wijzigen hoe snel TalkBack spreekt</string>
@@ -1479,10 +1491,10 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="switched_to_contracted_announcement">Overgeschakeld naar braille (kortschrift)</string>
     <string name="switched_to_ueb_uncontracted_announcement">Overgeschakeld naar volledige UEB</string>
     <string name="switched_to_uncontracted_announcement">Overgeschakeld naar braille (volledig)</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Bijna gelijk aan</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Minder dan-teken</string>
+    <string name="symbol_angle_bracket_right">Groter dan-teken</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Is ongeveer gelijk aan</string>
     <string name="symbol_asterisk">Sterretje</string>
@@ -1502,7 +1514,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_bullseye">Roos</string>
     <string name="symbol_caret">Inlasteken</string>
     <string name="symbol_celsius_degree">Celsius-gradenteken</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Cent-teken</string>
     <string name="symbol_circle_left_half_black">Cirkel met linkerhelft zwart</string>
     <string name="symbol_circle_right_half_black">Cirkel met rechterhelft zwart</string>
     <string name="symbol_colon">Dubbele punt</string>
@@ -1511,7 +1523,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_curly_bracket_left">Accolade links</string>
     <string name="symbol_curly_bracket_right">Accolade rechts</string>
     <string name="symbol_currency_sign">Valutasymbool</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Graden-teken</string>
     <string name="symbol_division">Deelteken</string>
     <string name="symbol_dollar_sign">Dollarteken</string>
     <string name="symbol_downwards_arrow">Pijl omlaag</string>
@@ -1563,7 +1575,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_middle_dot">Middenpunt</string>
     <string name="symbol_multiplication">Vermenigvuldigingsteken</string>
     <string name="symbol_new_line">Nieuwe regel</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Niet gelijk aan</string>
     <string name="symbol_not_sign">Is niet-teken</string>
     <string name="symbol_paragraph_mark">Alineateken</string>
     <string name="symbol_parenthesis_left">Haakje openen</string>
@@ -1574,7 +1586,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_plus_minus_sign">Plusminus-teken</string>
     <string name="symbol_postal_mark">Post-teken</string>
     <string name="symbol_pound">Hekje</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Pond-valutasymbool</string>
     <string name="symbol_quarter_note">Kwart-noot</string>
     <string name="symbol_question_mark">Vraagteken</string>
     <string name="symbol_quotation_mark">Aanhalingsteken</string>
@@ -1600,7 +1612,7 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_trademark">Handelsmerk</string>
     <string name="symbol_underscore">Onderstrepen</string>
     <string name="symbol_upwards_arrow">Pijl omhoog</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Verticale lijn</string>
     <string name="symbol_white_circle">Witte stip</string>
     <string name="symbol_white_club_suit">Witte klaveren</string>
     <string name="symbol_white_diamond">Witte ruiten</string>
@@ -1614,8 +1626,8 @@ Stap 2: Swipe omlaag om de focus van de navigatie verder te bewegen of een leeso
     <string name="symbol_white_square">Wit vierkant</string>
     <string name="symbol_white_star">Witte ster</string>
     <string name="symbol_white_up_pointing_triangle">Witte driehoek omhoog wijzend</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Won-valutasymbool</string>
+    <string name="symbol_won_sign">Won-valutasymbool</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Systeemacties</string>
     <string name="tabletop">Tafelbladmodus</string>
@@ -1783,7 +1795,7 @@ Zo zet je TalkBack uit:
     <string name="title_pref_category_assign_switches">Schakelaars toewijzen</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Automatisch scannen</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automatisch scannen (puntscannen)</string>
     <string name="title_pref_category_border_color">Kleur</string>
     <string name="title_pref_category_built_in_gestures">Ingebouwde gebaren</string>
     <string name="title_pref_category_context_menu">TalkBack-menu aanpassen</string>
@@ -1867,7 +1879,7 @@ Zo zet je TalkBack uit:
     <string name="title_pref_red">Rood</string>
     <string name="title_pref_resume_talkback">Hervatten na opschorten</string>
     <string name="title_pref_reverse_auto_scan_disabled">Automatisch scannen omkeren (uitgezet)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Automatisch scannen omkeren (puntscannen)</string>
     <string name="title_pref_reverse_dots">Punten omkeren</string>
     <string name="title_pref_revert_to_default_menu">Terugzetten naar standaardmenu</string>
     <string name="title_pref_scan_non_actionable_items">Beschrijvende tekst uitspreken</string>
@@ -1930,7 +1942,7 @@ Zo zet je TalkBack uit:
     <string name="title_pref_show_context_menu_as_list">Contextmenu als lijst tonen</string>
     <string name="title_pref_show_privacy_policy">Privacybeleid</string>
     <string name="title_pref_show_tos">Servicevoorwaarden</string>
-    <string name="title_pref_single_tap">Activeren met 1 tik</string>
+    <string name="title_pref_single_tap">Tik 1 keer om te activeren</string>
     <string name="title_pref_sound_and_vibration">Geluid en trillen</string>
     <string name="title_pref_soundback">Geluidsfeedback</string>
     <string name="title_pref_soundback_volume">Volume geluidsfeedback</string>
@@ -1975,6 +1987,7 @@ Zo zet je TalkBack uit:
     <string name="title_previous_screen">Vorig scherm</string>
     <string name="title_read_from_top">Lezen vanaf boven</string>
     <string name="title_repeat_last_spoken_phrase">Laatst uitgesproken woordgroep herhalen</string>
+    <string name="title_request_phone_permission">Rechten voor TalkBack-verzoeken</string>
     <string name="title_screen_summary">Schermoverzicht</string>
     <string name="title_seek_bar_controls">Schuifregelaar</string>
     <string name="title_seek_bar_edit">Niveau voor schuifregelaar bewerken</string>
@@ -2216,7 +2229,7 @@ Probeer het tekstvak hieronder te activeren en te sluiten."</string>
     <string name="voice_commands_help_find_text">[Opslaan] vinden</string>
     <string name="voice_commands_help_find_text_description">"Zoek het eerste item met de tekst 'opslaan' op het huidige scherm"</string>
     <string name="voice_commands_help_first_description">Ga naar het eerste item op het huidige scherm</string>
-    <string name="voice_commands_help_hide_screen_description">Het scherm verbergen zodat anderen je scherm niet kunnen bekijken in openbare ruimten</string>
+    <string name="voice_commands_help_hide_screen_description">Het scherm verbergen zodat anderen je scherm niet kunnen bekijken in openbare ruimtes</string>
     <string name="voice_commands_help_hint">Zeg voor de beste resultaten de exacte tekst op de volgende schermen.</string>
     <string name="voice_commands_help_label">[Indienen] labelen</string>
     <string name="voice_commands_help_label_description">"Voeg een aangepast label 'indienen' toe of bewerk het"</string>

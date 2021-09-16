@@ -186,7 +186,7 @@
     <string name="accessibility_no_wifi">Wi-Fi е исклучено.</string>
     <string name="accessibility_no_wimax">Нема WiMAX.</string>
     <string name="accessibility_not_connected">Не е поврзана</string>
-    <string name="accessibility_notification_dismissed">Известувањето е отфрлено.</string>
+    <string name="accessibility_notification_dismissed">Известувањето е отфрлено</string>
     <string name="accessibility_notification_section_header_gentle_clear_all">Избриши ги сите бесчујни известувања</string>
     <string name="accessibility_notifications_button">Известувања</string>
     <string name="accessibility_one_bar">Една цртичка.</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">За да се примени променава, уредот мора да се рестартира. Рестартирајте сега или откажете.</string>
     <string name="camera_hint">Повлечете од иконата за камерата</string>
     <string name="camera_label">отвори камера</string>
+    <string name="camera_recording_announcement">Камерата снима</string>
+    <string name="camera_stopped_recording_announcement">Камерата прекина со снимање</string>
     <string name="cancel">Откажи</string>
     <string name="carrier_network_change_mode">Променување на мрежата на операторот</string>
     <string name="category_personal">Лични</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Следење</string>
     <string name="debug_networking_category">Вмрежување</string>
     <string name="debug_view_attributes">Овозможете проверка на атрибутот на приказот</string>
+    <string name="defender_notify_des">Вашиот телефон го ограничува полнењето за да помогне да се зачува состојбата на батеријата</string>
+    <string name="defender_notify_learn_more">Дознајте повеќе</string>
+    <string name="defender_notify_resume_charge">Продолжи со полнење</string>
+    <string name="defender_notify_title">Полнењето е привремено ограничено</string>
     <string name="delete_blob_confirmation_text">Дали сигурно сакате да ги избришете споделениве податоци?</string>
     <string name="delete_blob_text">Избриши ги споделените податоци</string>
     <string name="demo_mode">Демо-режим на кориснички интерфејс на систем</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Се отклучува SIM-картичката…</string>
     <string name="keyguard_try_fingerprint">Користете отпечаток за да се отвори</string>
     <string name="keyguard_unlock">Повлечете за да отворите</string>
+    <string name="keyguard_unlock_press">Притиснете за да отворите</string>
     <string name="keywords_adb_wireless">adb, отстранува грешка, програмер</string>
     <string name="keywords_alarms_and_reminders">закажување, аларм, потсетник, часовник</string>
     <string name="kg_enter_confirm_pin_hint">Потврдете го саканиот PIN-код</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Менувач на тастатура</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофонот е активен</string>
+    <string name="mic_and_camera_recording_announcement">Камерата и микрофонот снимаат</string>
+    <string name="mic_camera_stopped_recording_announcement">Камерата и микрофонот прекинаа со снимање</string>
+    <string name="mic_recording_announcement">Микрофонот снима</string>
+    <string name="mic_stopped_recording_announcement">Микрофонот прекина со снимање</string>
     <string name="missed_call">Пропуштен повик</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобилен интернет</string>
@@ -1706,8 +1717,6 @@ YИсто така, поврзани сте на VPN којашто може д�
     <string name="quick_settings_work_mode_label">Работни апликации</string>
     <string name="quick_step_accessibility_toggle_overview">Вклучи/исклучи преглед</string>
     <string name="recent_conversations">Неодамнешни разговори</string>
-    <string name="recents_quick_scrub_onboarding">Повлечете надесно за брзо префрлање меѓу апликациите</string>
-    <string name="recents_swipe_up_onboarding">Повлечете нагоре за да се префрлите од една на друга апликација</string>
     <string name="remaining_length_format">Преостануваат %1$s</string>
     <string name="remote_input_image_insertion_text">испрати слика</string>
     <string name="remove_from_settings">Отстрани од поставки</string>
@@ -2117,6 +2126,7 @@ YИсто така, поврзани сте на VPN којашто може д�
     <string name="wallet_secondary_label_no_card">Додајте картичка</string>
     <string name="wallet_secondary_label_updating">Се ажурира</string>
     <string name="wallet_title">Паричник</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Пристапната точка привремено е преоптоварена</string>
     <string name="wifi_cant_connect">Не може да се поврзе</string>
     <string name="wifi_cant_connect_to_ap">Не може да се поврзе на „%1$s“</string>

@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s ਦੇ ਨਾਲ ਫੋਲਡਰ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="add_to_home_screen">"ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="added_to_folder">ਆਈਟਮ ਨੂੰ ਫੋਲਡਰ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ</string>
+    <string name="added_to_home_screen_accessibility_text">"%1$s ਵਿਜੇਟ ਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ"</string>
     <string name="all_apps_button_label">ਐਪ ਸੂਚੀ</string>
     <string name="all_apps_button_personal_label">ਨਿੱਜੀ ਐਪਾਂ ਦੀ ਸੂਚੀ</string>
     <string name="all_apps_button_work_label">ਕਾਰਜ-ਸਥਾਨ ਸੰਬੰਧੀ ਐਪਾਂ ਦੀ ਸੂਚੀ</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">ਜਦੋਂ ਫ਼ੋਨ ਘੁਮਾਇਆ ਜਾਂਦਾ ਹੈ</string>
     <string name="allow_rotation_title">ਹੋਮ ਸਕ੍ਰੀਨ ਨੂੰ ਘੁਮਾਉਣ ਦੀ ਆਗਿਆ ਦਿਓ</string>
     <string name="allset_description">ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ</string>
+    <string name="allset_hint">"ਹੋਮ 'ਤੇ ਜਾਣ ਲਈ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ"</string>
+    <string name="allset_navigation_settings"><annotation id="link">ਸਿਸਟਮ ਨੈਵੀਗੇਸ਼ਨ ਸੈਟਿੰਗਾਂ</annotation></string>
     <string name="allset_title">ਪੂਰੀ ਤਰ੍ਹਾਂ ਤਿਆਰ!</string>
     <string name="app_downloading_title">%1$s ਡਾਉਨਲੋਡ ਹੋਰ ਰਿਹਾ ਹੈ, %2$s ਸੰਪੂਰਣ</string>
     <string name="app_info_drop_target_label">ਐਪ ਜਾਣਕਾਰੀ</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s ਸਥਾਪਤ ਕਰਨ ਦੀ ਉਡੀਕ ਕਰ ਰਿਹਾ ਹੈ</string>
     <string name="auto_add_shortcuts_description">ਨਵੀਆਂ ਐਪਾਂ ਲਈ</string>
     <string name="auto_add_shortcuts_label">"ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਐਪ ਪ੍ਰਤੀਕਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ"</string>
+    <string name="back_gesture_feedback_cancelled">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਕਿਨਾਰੇ ਤੋਂ ਸਕ੍ਰੀਨ ਦੇ ਵਿਚਕਾਰ ਤੱਕ ਸਵਾਈਪ ਕਰਦੇ ਹੋ ਅਤੇ ਛੱਡ ਦਿੰਦੇ ਹੋ।</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">ਤੁਸੀਂ ਪਿੱਛੇ ਜਾਣ ਲਈ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਸਵਾਈਪ ਕਰਨ ਦਾ ਤਰੀਕਾ ਜਾਣਿਆ। ਅੱਗੇ, ਐਪਾਂ ਵਿਚਾਲੇ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਦਾ ਤਰੀਕਾ ਜਾਣੋ।</string>
     <string name="back_gesture_feedback_complete_without_follow_up">"ਤੁਸੀਂ 'ਵਾਪਸ ਜਾਓ' ਦਾ ਇਸ਼ਾਰਾ ਪੂਰਾ ਕੀਤਾ।"</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਲੇ ਹਿੱਸੇ ਦੇ ਬਹੁਤ ਨੇੜੇ ਸਵਾਈਪ ਨਾ ਕਰੋ।</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਪਾਸੇ ਦੇ ਬਿਲਕੁਲ ਕਿਨਾਰੇ ਤੋਂ ਸਵਾਈਪ ਕਰਦੇ ਹੋ।</string>
     <string name="back_gesture_intro_subtitle">"ਪਿਛਲੀ ਸਕ੍ਰੀਨ 'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ, ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਕਿਨਾਰੇ ਤੋਂ ਸਕ੍ਰੀਨ ਦੇ ਵਿਚਕਾਰ ਤੱਕ ਸਵਾਈਪ ਕਰੋ।"</string>
     <string name="back_gesture_intro_title">ਪਿੱਛੇ ਜਾਣ ਲਈ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="back_gesture_tutorial_confirm_subtitle">"ਪਿੱਛੇ ਜਾਣ ਦੇ ਸੰਕੇਤ ਦੀ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਬਦਲਣ ਲਈ, ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾਓ"</string>
@@ -119,7 +124,7 @@
     <string name="dismiss_prediction_label">ਐਪ ਦਾ ਸੁਝਾਅ ਨਾ ਦਿਓ</string>
     <string name="done">ਹੋ ਗਿਆ</string>
     <string name="expand_button_title">ਉੱਨਤ</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">ਵਿਚਾਰ</string>
     <string name="folder_closed">ਫੋਲਡਰ ਬੰਦ ਕੀਤਾ</string>
     <string name="folder_created">ਫੋਲਡਰ ਬਣਾਇਆ ਗਿਆ</string>
     <string name="folder_hint_text">ਨਾਮ ਦਾ ਸੰਪਾਦਨ ਕਰੋ</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">ਬਦਲੇ ਗਏ ਨਾਮ ਨੂੰ ਰੱਖਿਅਤ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="gadget_error_text">ਵਿਜੇਟ ਨੂੰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
     <string name="gadget_setup_text">ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="gesture_tutorial_action_button_label">ਹੋ ਗਿਆ</string>
     <string name="gesture_tutorial_action_button_label_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="gesture_tutorial_action_button_label_settings">ਸੈਟਿੰਗਾਂ</string>
     <string name="gesture_tutorial_action_button_label_skip">ਛੱਡੋ</string>
@@ -146,7 +152,7 @@
     <string name="home_gesture_feedback_overview_detected">ਪੱਕਾ ਕਰੋ ਕਿ ਸਕ੍ਰੀਨ ਨੂੰ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਰੁਕੋ ਨਾ।</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਲੇ ਕਿਨਾਰੇ ਤੋਂ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰਦੇ ਹੋ।</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਿੱਧੇ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰਦੇ ਹੋ।</string>
-    <string name="home_gesture_intro_subtitle">"ਆਪਣੀ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ। ਇਹ ਸੰਕੇਤ ਹਮੇਸ਼ਾਂ ਤੁਹਾਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।"</string>
+    <string name="home_gesture_intro_subtitle">"ਆਪਣੀ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ। ਇਹ ਇਸ਼ਾਰਾ ਹਮੇਸ਼ਾਂ ਤੁਹਾਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।"</string>
     <string name="home_gesture_intro_title">"ਹੋਮ 'ਤੇ ਜਾਣ ਲਈ ਸਵਾਈਪ ਕਰੋ"</string>
     <string name="home_screen">ਮੁੱਖ ਪੰਨਾ</string>
     <string name="hotsaet_tip_prediction_disabled">ਐਪ ਸੁਝਾਵਾਂ ਨੂੰ ਬੰਦ ਕੀਤਾ ਗਿਆ</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਵਿੰਡੋ ਨੂੰ ਕੁਝ ਸਮੇਂ ਲਈ ਦਬਾ ਕੇ ਰੱਖੋ।</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਲੇ ਕਿਨਾਰੇ ਤੋਂ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰਦੇ ਹੋ।</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਿੱਧੇ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰਦੇ ਹੋ, ਫਿਰ ਰੋਕੋ।</string>
+    <string name="overview_gesture_intro_subtitle">ਐਪਾਂ ਵਿਚਾਲੇ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਲਈ, ਆਪਣੀ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਤੋਂ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ ਅਤੇ ਫਿਰ ਛੱਡੋ।</string>
     <string name="overview_gesture_intro_title">ਐਪਾਂ ਵਿਚਾਲੇ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਲਈ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="overview_selection_pref_desc">ਐਪਾਂ ਵਿਚਾਲੇ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਵੇਲੇ ਕਾਰਵਾਈਆਂ ਨੂੰ ਦੇਖਣ ਲਈ ਲਿਖਤ ਅਤੇ ਚਿੱਤਰਾਂ ਨੂੰ ਸਪੱਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ</string>
     <string name="overview_selection_pref_title">ਰੂਪ-ਰੇਖਾ ਦੀ ਚੋਣ</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">ਸੀਟ</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">ਤਰਜੀਹਾਂ</string>
-    <string name="smartspace_preferences_in_settings">ਲਾਈਵ ਸਪੇਸ</string>
+    <string name="smartspace_preferences_in_settings">ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ</string>
     <string name="smartspace_preferences_in_settings_desc">"ਤੁਹਾਡੀ ਹੋਮ ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ 'ਤੇ"</string>
     <string name="smartspace_preferences_manage">ਵਿਉਂਤਬੱਧ ਕਰੋ</string>
     <string name="smartspace_preferences_turn_off_action">ਬੰਦ ਕਰੋ</string>

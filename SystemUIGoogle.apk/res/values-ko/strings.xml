@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">변경사항을 적용하려면 기기를 재부팅해야 합니다. 지금 재부팅하거나 취소하세요.</string>
     <string name="camera_hint">카메라를 사용하려면 아이콘에서 스와이프하세요.</string>
     <string name="camera_label">카메라 열기</string>
+    <string name="camera_recording_announcement">카메라 녹화 중</string>
+    <string name="camera_stopped_recording_announcement">카메라 녹화 중단됨</string>
     <string name="cancel">취소</string>
     <string name="carrier_network_change_mode">이동통신사 네트워크 변경</string>
     <string name="category_personal">개인</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">모니터링</string>
     <string name="debug_networking_category">네트워크</string>
     <string name="debug_view_attributes">보기 속성 검사 사용</string>
+    <string name="defender_notify_des">배터리 상태를 유지하기 위해 휴대전화가 충전을 제한하고 있습니다.</string>
+    <string name="defender_notify_learn_more">자세히 알아보기</string>
+    <string name="defender_notify_resume_charge">요금 청구 재개</string>
+    <string name="defender_notify_title">충전이 일시적으로 제한됨</string>
     <string name="delete_blob_confirmation_text">공유 데이터를 삭제하시겠습니까?</string>
     <string name="delete_blob_text">공유 데이터 삭제</string>
     <string name="demo_mode">시스템 UI 데모 모드</string>
@@ -855,7 +861,7 @@
     <string name="game_launch_change">변경</string>
     <string name="game_launch_dnd_on">게임 실행 시 방해 금지 모드 켜짐</string>
     <string name="game_launch_performance">성능에 최적화됨</string>
-    <string name="game_menu_game_mode_description">성능이나 절전 중 우선시할 항목을 선택하세요.</string>
+    <string name="game_menu_game_mode_description">성능 또는 절전 모드 중 선택</string>
     <string name="game_menu_game_mode_title">최적화</string>
     <string name="game_menu_youtube_live_stream_widget_description">내 게임플레이 스트림하기</string>
     <string name="game_menu_youtube_live_stream_widget_title">YouTube 실시간 스트리밍</string>
@@ -867,7 +873,7 @@
     <string name="game_mode_performance_title">성능</string>
     <string name="game_mode_restart_dialog_cancel">취소</string>
     <string name="game_mode_restart_dialog_confirm">다시 시작</string>
-    <string name="game_mode_restart_dialog_message_battery">게임이 다시 시작되면 배터리 수명을 위해 최적화를 진행합니다.</string>
+    <string name="game_mode_restart_dialog_message_battery">게임이 다시 시작되면 배터리 수명을 위해 최적화를 진행합니다</string>
     <string name="game_mode_restart_dialog_message_performance">게임이 다시 시작되면 성능을 위해 최적화를 진행합니다</string>
     <string name="game_mode_restart_dialog_message_standard">게임이 다시 시작되면 기본값을 사용합니다</string>
     <string name="game_mode_restart_dialog_title">게임을 다시 시작할까요?</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM 카드 잠금 해제 중...</string>
     <string name="keyguard_try_fingerprint">지문으로 열기</string>
     <string name="keyguard_unlock">위로 스와이프하여 열기</string>
+    <string name="keyguard_unlock_press">열려면 누르세요</string>
     <string name="keywords_adb_wireless">adb, 디버그, 개발자</string>
     <string name="keywords_alarms_and_reminders">일정 예약, 알람, 리마인더, 시계</string>
     <string name="kg_enter_confirm_pin_hint">원하는 PIN 코드 확인</string>
@@ -1188,7 +1195,7 @@
     <string name="lockscreen_shortcut_right">오른쪽 바로가기</string>
     <string name="lockscreen_unlock_left">왼쪽 바로가기도 잠금 해제 가능</string>
     <string name="lockscreen_unlock_right">오른쪽 바로가기도 잠금 해제 가능</string>
-    <string name="low_battery_label">배터리 전원 부족</string>
+    <string name="low_battery_label">배터리 잔량 부족</string>
     <string name="magnification_controls_title">확대 창 컨트롤</string>
     <string name="magnification_mode_switch_click_label">전환</string>
     <string name="magnification_mode_switch_description">확대 전환</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">키보드 전환 도구</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">마이크 사용 중</string>
+    <string name="mic_and_camera_recording_announcement">카메라 녹화 및 마이크 녹음 중</string>
+    <string name="mic_camera_stopped_recording_announcement">카메라 녹화 및 마이크 녹음 중단됨</string>
+    <string name="mic_recording_announcement">마이크 녹음 중</string>
+    <string name="mic_stopped_recording_announcement">마이크 녹음 중단됨</string>
     <string name="missed_call">부재중 전화</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">모바일 데이터</string>
@@ -1603,7 +1614,7 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="quick_settings_brightness_dialog_title">밝기</string>
     <string name="quick_settings_brightness_label">밝기</string>
     <string name="quick_settings_camera_label">카메라 액세스</string>
-    <string name="quick_settings_camera_mic_available">허용됨</string>
+    <string name="quick_settings_camera_mic_available">사용 가능</string>
     <string name="quick_settings_camera_mic_blocked">차단됨</string>
     <string name="quick_settings_cast_detail_empty_text">사용 가능한 기기가 없습니다.</string>
     <string name="quick_settings_cast_device_default_description">전송 준비 완료</string>
@@ -1706,8 +1717,6 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="quick_settings_work_mode_label">직장 앱</string>
     <string name="quick_step_accessibility_toggle_overview">최근 사용 버튼 전환</string>
     <string name="recent_conversations">최근 대화</string>
-    <string name="recents_quick_scrub_onboarding">앱을 빠르게 전환하려면 오른쪽으로 드래그</string>
-    <string name="recents_swipe_up_onboarding">위로 스와이프하여 앱 전환</string>
     <string name="remaining_length_format">%1$s 남음</string>
     <string name="remote_input_image_insertion_text">이미지 보냄</string>
     <string name="remove_from_settings">설정에서 삭제</string>
@@ -2117,6 +2126,7 @@ USB 포트를 다시 안전하게 사용할 수 있게 되면 알려 드리겠�
     <string name="wallet_secondary_label_no_card">카드 추가</string>
     <string name="wallet_secondary_label_updating">업데이트 중</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">액세스 포인트가 일시적으로 가득 참</string>
     <string name="wifi_cant_connect">연결할 수 없음</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s'에 연결할 수 없음"</string>

@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">За да бъде приложена тази промяна, устройството ви трябва да бъде рестартирано. Рестартирайте сега или анулирайте.</string>
     <string name="camera_hint">Плъзнете с пръст от иконата, за да включите камерата</string>
     <string name="camera_label">отваряне на камерата</string>
+    <string name="camera_recording_announcement">Камерата записва</string>
+    <string name="camera_stopped_recording_announcement">Камерата спря да записва</string>
     <string name="cancel">Отказ</string>
     <string name="carrier_network_change_mode">Промяна на мрежата на оператора</string>
     <string name="category_personal">Лични</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Наблюдение</string>
     <string name="debug_networking_category">Мрежи</string>
     <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
+    <string name="defender_notify_des">Телефонът ви ограничава зареждането с цел запазване на състоянието на батерията</string>
+    <string name="defender_notify_learn_more">Научете повече</string>
+    <string name="defender_notify_resume_charge">Възобновяване на зареждането</string>
+    <string name="defender_notify_title">Зареждането временно е ограничено</string>
     <string name="delete_blob_confirmation_text">Наистина ли искате да изтриете тези споделени данни?</string>
     <string name="delete_blob_text">Изтриване на споделените данни</string>
     <string name="demo_mode">Демонстрационен режим на системния ПИ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM картата се отключва...</string>
     <string name="keyguard_try_fingerprint">Използвайте отпечатък за отваряне</string>
     <string name="keyguard_unlock">Прекарайте пръст нагоре, за да отключите</string>
+    <string name="keyguard_unlock_press">Натиснете за отваряне</string>
     <string name="keywords_adb_wireless">adb, отстраняване на грешки, програмиране</string>
     <string name="keywords_alarms_and_reminders">график, будилник, напомняне, часовник</string>
     <string name="kg_enter_confirm_pin_hint">Потвърдете желания ПИН код</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Превключвател на клавиатурата</string>
     <string name="messages_count_overflow_indicator">Над %d</string>
     <string name="mic_active">Микрофонът е активен</string>
+    <string name="mic_and_camera_recording_announcement">Камерата и микрофонът записват</string>
+    <string name="mic_camera_stopped_recording_announcement">Камерата и микрофонът спряха да записват</string>
+    <string name="mic_recording_announcement">Микрофонът записва</string>
+    <string name="mic_stopped_recording_announcement">Микрофонът спря да записва</string>
     <string name="missed_call">Пропуснато обаждане</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобилни данни</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Служебни приложения</string>
     <string name="quick_step_accessibility_toggle_overview">Превключване на общия преглед</string>
     <string name="recent_conversations">Скорошни разговори</string>
-    <string name="recents_quick_scrub_onboarding">Плъзнете надясно за бързо превключване между приложенията</string>
-    <string name="recents_swipe_up_onboarding">Прекарайте пръст нагоре, за да превключите между приложенията</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>
     <string name="remote_input_image_insertion_text">изпратено изображение</string>
     <string name="remove_from_settings">Премахване от „Настройки“</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Добавяне на карта</string>
     <string name="wallet_secondary_label_updating">Актуализира се</string>
     <string name="wallet_title">Портфейл</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Точката за достъп временно е пълна</string>
     <string name="wifi_cant_connect">Не може да се установи връзка</string>
     <string name="wifi_cant_connect_to_ap">Не може да се установи връзка с/ъс %1$s</string>

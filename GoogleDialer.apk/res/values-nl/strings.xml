@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Beantwoorden</string>
     <string name="a11y_call_incoming_decline_description">Weigeren</string>
+    <string name="a11y_callscreen_animation">Animatie voor Gespreksscreening</string>
     <string name="a11y_contact_menu_video_call_wifi">Videobellen via wifi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Spraakgesprek via wifi</string>
     <string name="a11y_conversation_history_entry_answered_call">Het laatste is een beantwoord gesprek van ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Bellers beheren</string>
     <string name="a11y_expandedsheet_collapse">menu samenvouwen</string>
     <string name="a11y_expandedsheet_expand">menu uitvouwen</string>
-    <string name="a11y_favorites_education_dismiss">sluiten</string>
     <string name="a11y_feature_demo_next_page">Volgende pagina</string>
     <string name="a11y_feature_demo_page_indicator">Pagina %d</string>
     <string name="a11y_feature_demo_prev_page">Vorige pagina</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Snelcontact voor ^1</string>
+    <string name="a11y_icon_hd">HD-gesprek</string>
+    <string name="a11y_icon_hd_plus">HD Plus-gesprek</string>
+    <string name="a11y_icon_shared_data_call">Gedeelde-datagesprek</string>
+    <string name="a11y_icon_verified">Geverifieerd gesprek</string>
+    <string name="a11y_icon_vilte">Videogesprek via LTE</string>
+    <string name="a11y_icon_viwifi">Videogesprek via wifi</string>
+    <string name="a11y_icon_volte">Audiogesprek via LTE</string>
+    <string name="a11y_icon_voz4g">Audiogesprek via 4G</string>
+    <string name="a11y_icon_wifi">Wifi-gesprek</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Swipe met twee vingers omhoog om te beantwoorden. Swipe met twee vingers omlaag om te weigeren.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Swipe met twee vingers omhoog om het gesprek te beantwoorden of omlaag om het gesprek te weigeren</string>
     <string name="a11y_new_call_log_entry_call_recording">gesprek opgenomen</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">op ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">een RTT-gesprek starten met ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Gedeelde-datagesprek</string>
     <string name="a11y_new_call_log_entry_tap_action">menu uitvouwen</string>
     <string name="a11y_new_call_log_entry_video_call">een videogesprek starten met ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">^1 videobellen via wifi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Nummer bewerken vóór bellen</string>
     <string name="action_menu_back_from_search">stoppen met zoeken</string>
     <string name="action_menu_overflow_description">Meer opties</string>
+    <string name="activate_error_message">Probleem bij activeren van Gespreksscreening</string>
+    <string name="activated_successfully">Gespreksscreening geactiveerd</string>
     <string name="activity_not_available">Daarvoor is geen app beschikbaar op dit apparaat</string>
     <string name="add_2sec_pause">Pauze van 2 seconden toevoegen</string>
     <string name="add_contact_not_available">Geen app voor contacten beschikbaar</string>
@@ -159,9 +171,9 @@ Opnamen worden alleen op je telefoon opgeslagen. ^1"</string>
     <string name="bm_suggest_call_button">Bellen</string>
     <string name="bm_suggest_chat_button">Chatten</string>
     <string name="bm_suggest_wait_min">"Chat
-Wachttijd %1$d min"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ongelezen</string>
+%1$d min wachten"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Bezig…"</string>
     <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
     <string name="bubble_bottom_action_end_call">Gesprek beëindigen</string>
     <string name="bubble_bottom_action_hide">Verbergen</string>
@@ -170,7 +182,10 @@ Wachttijd %1$d min"</string>
     <string name="call">Audiobellen</string>
     <string name="callFailed_simError">Geen simkaart of fout met simkaart</string>
     <string name="callHistoryIconLabel">Gespreksgeschiedenis</string>
-    <string name="call_announcer_preference_footer_instruction_text">De naam en het nummer van de beller worden voorgelezen voor inkomende gesprekken</string>
+    <string name="call_action_label_automatically_screen">Automatisch screenen. Robocalls weigeren.</string>
+    <string name="call_action_label_ring_phone">Telefoon bellen (standaard)</string>
+    <string name="call_action_label_silently_decline">Stil weigeren</string>
+    <string name="call_announcer_preference_footer_instruction_text">De naam en het nummer van de beller worden voorgelezen voor inkomende gesprekken.</string>
     <string name="call_announcer_preference_list_title">Beller-ID voorlezen</string>
     <string name="call_announcer_preference_option_always">Altijd</string>
     <string name="call_announcer_preference_option_headset">Alleen bij gebruik van een headset</string>
@@ -203,7 +218,7 @@ Wachttijd %1$d min"</string>
     <string name="call_incoming_answer">Beantwoorden</string>
     <string name="call_incoming_answer_rtt">Beantwoorden met RTT</string>
     <string name="call_incoming_answer_voice">Beantwoorden met stem</string>
-    <string name="call_incoming_chip_answer_and_release">Opnemen en einde gesprek</string>
+    <string name="call_incoming_chip_answer_and_release">Beantwoorden en ander gesprek beëindigen</string>
     <string name="call_incoming_chip_answer_as_rtt">Beantwoorden via RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Beantwoorden als audiogesprek</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Antwoorden met mijn video uit</string>
@@ -219,7 +234,7 @@ Wachttijd %1$d min"</string>
     <string name="call_incoming_swipe_to_answer">Swipe omhoog om te beantwoorden</string>
     <string name="call_incoming_swipe_to_reject">Swipe omlaag om te weigeren</string>
     <string name="call_incoming_video_is_off">Je video is uit</string>
-    <string name="call_incoming_will_disconnect">Als je dit gesprek beantwoordt, wordt je videogesprek beëindigd</string>
+    <string name="call_incoming_will_disconnect">Als je dit gesprek beantwoordt, wordt je andere gesprek beëindigd</string>
     <string name="call_incoming_will_disconnect_app">Als je opneemt, wordt je %1$s-gesprek beëindigd</string>
     <string name="call_isdn">ISDN bellen</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Blokkeren/spam melden</string>
@@ -255,6 +270,7 @@ Wachttijd %1$d min"</string>
     <string name="call_reason_fragment_content_description">Reden voor gesprek: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Opname opgeslagen</string>
     <string name="call_recording_conversation_history_entry">Opgenomen</string>
+    <string name="call_recording_delete_snack_bar_undo">Ongedaan maken</string>
     <string name="call_recording_disclaimer_agreen_button_text">Opname starten</string>
     <string name="call_recording_disclaimer_content">"Jij of de andere persoon in het gesprek is misschien ergens waar iedereen toestemming moet geven om te worden opgenomen. Iedereen krijgt van tevoren een melding te horen dat het gesprek wordt opgenomen. Het is jouw verantwoordelijkheid om je aan de wetten voor gespreksopnamen te houden. Ga verantwoord om met de opnamefunctie voor gesprekken en zet deze alleen aan als het nodig is.
 ^1
@@ -291,6 +307,7 @@ Opnamen worden alleen op je telefoon opgeslagen."</string>
 De audio en het transcript van het gesprek worden niet verstuurd, ook niet naar Google."</string>
     <string name="call_screen_demo_page_4_title">Tijd besparen en frustratie voorkomen</string>
     <string name="call_screen_demo_setting_title">Een demo bekijken</string>
+    <string name="call_screen_demo_settings_title">Een demo bekijken</string>
     <string name="call_screen_demo_title">Hoe Gespreksscreening werkt</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Kan voorbeeldaudio niet ophalen</string>
     <string name="call_screen_demo_unable_to_play_audio">Kan voorbeeldaudio niet afspelen</string>
@@ -298,6 +315,7 @@ De audio en het transcript van het gesprek worden niet verstuurd, ook niet naar 
     <string name="call_screen_end_call_local_internal_message">Je hebt het gesprek beëindigd</string>
     <string name="call_screen_end_call_non_local_internal_message">De verbinding met het gesprek is verbroken</string>
     <string name="call_screen_how_it_works_setting_title">Gespreksscreening werkt op je apparaat zonder wifi of data. De transcripten van gesprekken worden alleen op je telefoon gegenereerd en opgeslagen. %1$s</string>
+    <string name="call_screen_how_it_works_title">Gespreksscreening werkt op je apparaat zonder wifi of data. De transcripten van gesprekken worden alleen op je telefoon gegenereerd en opgeslagen. ^1</string>
     <string name="call_screen_incallui_chip_text">Gesprek screenen</string>
     <string name="call_screen_join_call_button_content_description">Deelnemen aan gesprek</string>
     <string name="call_screen_join_call_internal_message">Je neemt deel aan het gesprek</string>
@@ -307,6 +325,7 @@ De audio en het transcript van het gesprek worden niet verstuurd, ook niet naar 
     <string name="call_screen_saying_to_the_caller_state">Wordt gezegd tegen de beller</string>
     <string name="call_screen_screening_call_from">Gespreksscreening voor</string>
     <string name="call_screen_setting_title">Gespreksscreening</string>
+    <string name="call_screen_settings_title">Gespreksscreening</string>
     <string name="call_screen_speaker_toggle_button_content_description">Knop Speaker</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Annuleren</string>
@@ -331,6 +350,8 @@ De audio en het transcript van het gesprek worden niet verstuurd, ook niet naar 
     <string name="call_work">Werk bellen</string>
     <string name="call_work_mobile">Mobiel nummer werk bellen</string>
     <string name="call_work_pager">Pager werk bellen</string>
+    <string name="caller_action_error_cant_load_value">Kan de huidige waarde voor %1$s niet ophalen</string>
+    <string name="caller_action_error_cant_set_value">Kan de waarde voor %1$s niet opslaan</string>
     <string name="caller_id_announcement_multi_sim">inkomend %1$sgesprek van %2$s op simkaart %3$s</string>
     <string name="caller_id_announcement_single_sim">inkomend %1$sgesprek van %2$s</string>
     <string name="caller_id_business_data_details">De gegevens die worden gebruikt in deze functies, worden geleverd door Google en zijn licentiegevers. ^1</string>
@@ -370,6 +391,9 @@ De audio en het transcript van het gesprek worden niet verstuurd, ook niet naar 
     <string name="calling_blocked_number_precall_dialog_title">%s bellen?</string>
     <string name="calllog_add_to_contact">Toevoegen aan een contact</string>
     <string name="calllog_create_new_contact">Nieuw contact maken</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Gespreksscreening activeren (vereist wifi)</string>
+    <string name="callscreen_settings_voice_setting_title">Spraak</string>
+    <string name="camera_permission_toast">Camerarechten aan</string>
     <string name="camera_privacy_text">Camerarechten ingeschakeld</string>
     <string name="cannot_understand_description">Ik versta je niet</string>
     <string name="car_crash_emergency_intro">"Dit is een gesprek via een automatische spraakservice voor noodgevallen die namens een beller is gestart.
@@ -392,7 +416,7 @@ Stuur de hulpdiensten."</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
     <string name="checkbox_report_as_spam_action">Gesprek melden als spam</string>
     <string name="child_number">via %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Contact kiezen</string>
     <string name="clear_button_content_description">Zoekopdracht wissen</string>
     <string name="clear_text_end_icon_content_description">Tekst wissen</string>
     <string name="cli_not_supported_text">Open telefoon om door te gaan</string>
@@ -432,6 +456,9 @@ Stuur de hulpdiensten."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Geverifieerd bellen kan niet worden ingesteld. Je kunt dit opnieuw inschakelen via Instellingen.</string>
     <string name="contact_card_video_icon_content_description">Videogesprek ^1</string>
     <string name="contact_grid_callback_number">Dit telefoonnummer: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Gesprek is doorgeschakeld</string>
+    <string name="contact_grid_hd_icon_content_description">HD-gesprek</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus-gesprek</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Videogesprek via je provider met</string>
     <string name="contact_grid_incoming_reception_only_video_call">Eenzijdig videogesprek via je provider met</string>
     <string name="contact_grid_incoming_rtt_call">RTT-gesprek van</string>
@@ -442,9 +469,18 @@ Stuur de hulpdiensten."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wifi-videogesprek via je provider met</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Eenzijdig wifi-videogesprek via je provider met</string>
     <string name="contact_grid_incoming_work_call">Zakelijk gesprek van</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Gedeelde-datagesprek</string>
+    <string name="contact_grid_spam_icon_content_description">Spamgesprek</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Provider</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Geverifieerd door %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Geldig nummer</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Videogesprek via LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Videogesprek via wifi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Audiogesprek via 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Audiogesprek via LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Audiogesprek via wifi</string>
+    <string name="contact_grid_wifi_icon_content_description">Wifi-gesprek</string>
+    <string name="contact_grid_work_icon_content_description">Werkgesprek</string>
     <string name="contact_menu_add_favorite">Favoriet toevoegen</string>
     <string name="contact_menu_contact_info">Contactgegevens</string>
     <string name="contact_menu_invite_video">Uitnodigen voor videogesprek</string>
@@ -479,8 +515,12 @@ Stuur de hulpdiensten."</string>
     <string name="conversation_history_call_details_header_today">Vandaag</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Gesprek verwijderd</string>
     <string name="conversation_history_call_details_snack_bar_undo">Ongedaan maken</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Belangrijk gesprek</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Toegevoegde gespreksgegevens weergeven</string>
+    <string name="conversation_history_call_recording_deleted">Opname verwijderd</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transcript en audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transcript</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Transcript en audio bekijken</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Gespreksscreening</string>
     <string name="copy">Kopiëren</string>
     <string name="copy_number">Nummer kopiëren</string>
@@ -499,12 +539,17 @@ Stuur de hulpdiensten."</string>
     <string name="custom_prefix_default_prefix_title">Standaard voorvoegsel</string>
     <string name="custom_prefix_prefixes_preference_title">Voorvoegsels</string>
     <string name="dark_theme_label">Donker</string>
+    <string name="default_changed_confirmation">Telefoon is ingesteld als standaard-app</string>
+    <string name="default_image_content_description">Afbeelding voor startscherm</string>
     <string name="delete">Verwijderen</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Alle opnamen verwijderen</string>
     <string name="delete_all_recordings_now_error_message">Sommige opnamen kunnen niet worden verwijderd. Probeer het opnieuw.</string>
     <string name="delete_button_label">Alle opnamen nu verwijderen</string>
     <string name="delete_confirmation_dialog_negative_button_label">Annuleren</string>
     <string name="delete_confirmation_dialog_positive_button_label">Verwijderen</string>
+    <string name="delete_old_recordings_error_cant_load_value">Kan de huidige waarde voor %1$s niet ophalen</string>
+    <string name="delete_old_recordings_error_cant_set_value">Kan de waarde voor %1$s niet opslaan</string>
+    <string name="deleting_call_recording">Opname verwijderen…</string>
     <string name="description_add_to_existing_contact_action">^1 toevoegen aan bestaand contact</string>
     <string name="description_blocked_number_list_delete">Blokkeren van nummer opheffen</string>
     <string name="description_call_action">^1 bellen</string>
@@ -607,6 +652,7 @@ Stuur de hulpdiensten."</string>
     <string name="emergency_sos_emergency_intro">"Dit is een gesprek via een automatische spraakservice voor noodgevallen die namens een beller is gestart.
 De beller heeft aangegeven dat er misschien een noodgeval is. 
 Stuur hulp."</string>
+    <string name="emergency_speaker">Speaker</string>
     <string name="emergency_voice_assist_dialog_button_close">Annuleren</string>
     <string name="emergency_voice_assist_dialog_title">Dit is wat de telefonist bij de alarmcentrale hoort</string>
     <string name="end_call_with_default_message_description">Gesprek beëindigen</string>
@@ -636,9 +682,12 @@ Stuur hulp."</string>
     <string name="feedback_call_issue_quiet_audio">Het geluid was te zacht</string>
     <string name="feedback_call_issue_title">Wat was het probleem?</string>
     <string name="feedback_title_please_rate">Beoordeel de kwaliteit van het gesprek</string>
+    <string name="first_time_callers_action_preference_description">Bellers die niet in je gesprekslijst staan</string>
+    <string name="first_time_callers_action_preference_title">Bellers die je voor het eerst bellen</string>
     <string name="flip_to_shush_title">Omdraaien voor Sst</string>
     <string name="flip_to_silence_summary">Als je een inkomend gesprek op stil wilt zetten, leg je de telefoon met het scherm naar beneden op een vlakke ondergrond</string>
     <string name="flip_to_silence_title">Omdraaien voor stilte</string>
+    <string name="foreground_notification_title">Updaten…</string>
     <string name="frequent_contact_suggestion">Vaak gebeld</string>
     <string name="general_learn_more">Meer informatie</string>
     <string name="generic_conference_call_name">In gesprek</string>
@@ -661,6 +710,7 @@ Stuur hulp."</string>
     <string name="how_it_works_storage_link_text">Meer informatie over hoe opnamen worden opgeslagen</string>
     <string name="how_it_works_storage_template">Opname van gesprekken wordt opgeschort als je telefoon geen opslagruimte meer heeft. ^1</string>
     <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="icon_description_shared_data_call">Gedeelde-datagesprek</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Nummers importeren</string>
     <string name="ims_video_heading">Verizon-video</string>
@@ -730,7 +780,7 @@ Stuur hulp."</string>
     <string name="launcherActivityLabel">Telefoon</string>
     <string name="learn_more_text_for_tmo">Ga naar T-Mobile voor meer informatie</string>
     <string name="libraries_material_featurehighlight_dismiss">Sluiten</string>
-    <string name="license_activity_label">Open-sourcelicenties</string>
+    <string name="license_activity_label">Opensource-licenties</string>
     <string name="light_theme_label">Licht</string>
     <string name="loading_intro_messages">Gespreksscreening activeren (vereist wifi)</string>
     <string name="local_search_dialog_text">De gegevens die worden gebruikt in deze functies, worden geleverd door Google en zijn licentieverleners. &lt;a href=\"%1$s\">Meer informatie&lt;/a> &lt;p> Als je deze functie wilt gebruiken, moet je toestaan dat Google-apps de locatie van je telefoon gebruiken. &lt;a href=\"%2$s\">Meer informatie&lt;/a></string>
@@ -804,6 +854,7 @@ Stuur hulp."</string>
     <string name="new_call_log_no_missed_calls">Je hebt geen gemiste gesprekken</string>
     <string name="new_call_log_permission_no_calllog">Als je je gesprekslijst wilt bekijken, moet je toegangsrechten tot de Telefoon verlenen.</string>
     <string name="new_call_log_secondary_blocked">Geblokkeerd</string>
+    <string name="new_call_log_secondary_verified">Geverifieerd gesprek</string>
     <string name="new_call_log_snack_bar_deleted">Gesprek verwijderd</string>
     <string name="new_call_log_snack_bar_undo">Ongedaan maken</string>
     <string name="new_call_log_unknown">Onbekend</string>
@@ -818,8 +869,10 @@ Stuur hulp."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Weigeren</string>
     <string name="notification_action_end_call">Ophangen</string>
+    <string name="notification_action_mute_toggle">Geluid uitzetten</string>
     <string name="notification_action_speaker_off">Luidspreker uitschakelen</string>
     <string name="notification_action_speaker_on">Luidspreker inschakelen</string>
+    <string name="notification_action_speaker_toggle">Speaker</string>
     <string name="notification_callReasonMsg">Reden: %s</string>
     <string name="notification_call_wifi_brand">Bellen via wifi</string>
     <string name="notification_call_wifi_work_brand">Zakelijk bellen via wifi</string>
@@ -883,6 +936,8 @@ Stuur hulp."</string>
     <string name="place_ims_button_content_description">Een knop waarmee een videogesprek via de provider wordt gestart.</string>
     <string name="play">Afspelen</string>
     <string name="plus_code_line_format">Pluscode: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Bellers die misschien spammers zijn die een aangepast nummer gebruiken</string>
+    <string name="possibly_faked_numbers_action_preference_title">Mogelijk vervalste nummers</string>
     <string name="post_call_message">Vertel waarom je hebt gebeld</string>
     <string name="post_call_message_1">Ik moet je dringend spreken, bel me terug.</string>
     <string name="post_call_message_2">Bel me terug als je tijd hebt.</string>
@@ -901,7 +956,7 @@ Stuur hulp."</string>
     <string name="pre_call_select_phone_account_remember">Deze keuze onthouden</string>
     <string name="pre_call_select_phone_account_remember_description">Simkaartvoorkeur is opgeslagen bij je contacten.</string>
     <string name="preference_copied">"'%1$s' is gekopieerd naar het klembord."</string>
-    <string name="preferences_license_title">Open-sourcelicenties</string>
+    <string name="preferences_license_title">Opensource-licenties</string>
     <string name="presence_optin_dialog_do_not_show_again_label">Niet meer laten zien</string>
     <string name="presence_optin_dialog_message">"Voordat je een videogesprek start, wil Verizon bevestigen welke telefoonnummers videogesprekken van Verizon kunnen ontvangen.
 
@@ -913,6 +968,8 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="privacy_policy_label">Privacybeleid</string>
     <string name="private_num_non_verizon">Privénummer</string>
     <string name="private_num_verizon">Beperkt</string>
+    <string name="private_or_hidden_action_preference_description">Bellers die hun beller-ID verbergen</string>
+    <string name="private_or_hidden_action_preference_title">Privé of verborgen</string>
     <string name="quick_contact_checkbox_description">Contact selecteren</string>
     <string name="ready_for_recording">Klaar…</string>
     <string name="record_greeting_cancel_label">Annuleren</string>
@@ -928,6 +985,8 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="record_greeting_uploading_greeting_message">Opslaan…</string>
     <string name="record_voicemail_greeting_title">Begroeting opnemen</string>
     <string name="recording_category_title">Opnamen</string>
+    <string name="recording_deleted">Opname verwijderd</string>
+    <string name="recording_deletion_failed">Kan opname niet verwijderen [Opnieuw proberen]</string>
     <string name="redo_button_text">Opnieuw proberen</string>
     <string name="remember_this_choice_label">Deze keuze onthouden</string>
     <string name="report_not_spam_alert_button">Melden</string>
@@ -939,9 +998,20 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="request_call_back_description">Bel me terug</string>
     <string name="request_email_description">Stuur me een e-mail</string>
     <string name="respond_via_sms_setting_title">Snelle reacties</string>
+    <string name="revelio_callers_how_it_works_text">"Als je automatisch screenen wilt uitzetten, selecteer je de instelling 'Telefoon bellen (standaard)' voor gesprekken van onbekende bellers. Je contacten worden nooit automatisch gescreend. Automatisch screenen werkt niet als je telefoon is verbonden met een hoofdtelefoon of speakers. 
+Voor Gespreksscreening worden geen data of wifi gebruikt, maar wel belminuten van de provider. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Verwijderen na 30 dagen</string>
+    <string name="revelio_delete_old_recordings_setting_title">Oudere opnamen en transcripties automatisch verwijderen</string>
+    <string name="revelio_demo_setting_title">Bekijken hoe Gespreksscreening werkt</string>
     <string name="revelio_demo_turn_on">Aanzetten</string>
     <string name="revelio_end_call_reject_as_spam">Het gesprek is gemarkeerd als spam</string>
     <string name="revelio_end_call_user_missed_internal_message">Je hebt het gesprek gemist</string>
+    <string name="revelio_pref_title">Gespreksscreening</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatisch screenen uit</string>
+    <string name="revelio_preference_summary_screening">%1$s screenen</string>
+    <string name="revelio_save_audio_setting_summary">Sla de audio op van gesprekken die door de Assistent worden beantwoord</string>
+    <string name="revelio_save_audio_setting_title">Audio van Gespreksscreening opslaan</string>
+    <string name="revelio_setting_title">Gespreksscreening</string>
     <string name="rtt_assist_default">RTT helpt dove en slechthorende bellers en bellers met een spraakbeperking. Deze functie kan ook handig zijn voor bellers die meer dan alleen gesproken communicatie nodig hebben. ^1</string>
     <string name="rtt_assist_for_att">"Het RTT-schermtoetsenbord (Realtime tekst) is een alternatief voor externe TTY-toetsenborden. Als je sms't tijdens een RTT-gesprek, kan de persoon met wie je praat, in realtime zien dat je je bericht typt. ^1"</string>
     <string name="rtt_assist_for_tmo">Het RTT-schermtoetsenbord (Realtime tekst) is een alternatief voor externe TTY-toetsenborden. RTT verstuurt direct wat je typt tijdens een telefoongesprek, zodat je in realtime kunt communiceren met tekstberichten. Je kunt gedeeltelijke reacties bekijken voordat het hele bericht voltooid is. ^1</string>
@@ -949,7 +1019,8 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="rtt_button_back">Terug</string>
     <string name="rtt_button_downgrade">Overschakelen naar audiogesprek</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT is niet beschikbaar voor dit gesprek. Je gesprek is verbonden als audiogesprek.</string>
+    <string name="rtt_call_downgraded_toast">Je RTT-gesprek is gewijzigd in een audiogesprek</string>
+    <string name="rtt_call_not_available_toast">RTT is niet beschikbaar voor dit gesprek</string>
     <string name="rtt_configuration_summary_always_visible">"De knop 'Realtime tekst' is overal beschikbaar"</string>
     <string name="rtt_configuration_summary_not_visible">"Inkomende 'Realtime tekst'-gesprekken toestaan, maar de knop 'Bellen' verbergen"</string>
     <string name="rtt_configuration_summary_visible_during_call">"De knop 'Realtime tekst' weergeven tijdens een gesprek"</string>
@@ -978,6 +1049,8 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="rtt_transcript_link">Transcript weergeven</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Dit bericht wordt herhaald.</string>
+    <string name="save_audio_error_cant_load_value">"Kan de huidige waarde voor 'Audio van Gespreksscreening opslaan' niet ophalen"</string>
+    <string name="save_audio_error_cant_set_value">"Kan de waarde voor 'Audio van Gespreksscreening opslaan' niet opslaan"</string>
     <string name="save_button_text">Opslaan</string>
     <string name="saved_voicemails_action_title">Opgeslagen voicemails (%1$s)</string>
     <string name="search_hint">Videocontacten zoeken</string>
@@ -1004,8 +1077,11 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="send_a_message">Een bericht verzenden</string>
     <string name="send_to_voicemail_import_failed">Importeren mislukt</string>
     <string name="serial_number">Serienummer</string>
+    <string name="set_as_default_button_text">Standaard instellen</string>
     <string name="set_default_account">Altijd gebruiken voor gesprekken</string>
     <string name="set_default_account_description">Simkaartvoorkeur is opgeslagen bij je contacten.</string>
+    <string name="set_phone_as_default_explanation_text">Je kunt alleen bellen en gebeld worden via Telefoon als dit je standaard telefoon-app is.</string>
+    <string name="set_phone_as_default_request_text">Telefoon instellen als standaard-app</string>
     <string name="settings">Instellingen</string>
     <string name="settings_page_call_recording_feature_not_available_text">Opname van gesprek is niet beschikbaar op jouw locatie</string>
     <string name="settings_page_crosby_feature_not_available_text">Niet beschikbaar op jouw locatie</string>
@@ -1040,6 +1116,8 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="snackbar_undo">Ongedaan</string>
     <string name="snackbar_voicemail_deleted">Voicemail verwijderd</string>
     <string name="sounds_and_vibration_title">Geluiden en trillingen</string>
+    <string name="spam_action_preference_description">Nummers die overeenkomen met de spamdatabase van Google</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam en gepreksscreening</string>
     <string name="spam_blocking_promo_action_dismiss">Sluiten</string>
     <string name="spam_blocking_promo_action_filter_spam">Spam filteren</string>
@@ -1066,8 +1144,6 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="speed_dial_add_button_text">Toevoegen</string>
     <string name="speed_dial_contacts_permission_description">Als je de snelkeuzefunctie wilt inschakelen, moet je toegangsrechten tot Contacten verlenen.</string>
     <string name="speed_dial_disambig_dialog_title">Kies hoe je %s wilt bellen</string>
-    <string name="speed_dial_education_content">Tik op een contact en houd dit vast om te schakelen tussen gesprekken en berichten</string>
-    <string name="speed_dial_education_title">Meer manieren om contact op te nemen</string>
     <string name="speed_dial_no_contacts_action_text">Een favoriet toevoegen</string>
     <string name="speed_dial_no_contacts_description">Bel je favoriete contacten met slechts één tik</string>
     <string name="speed_dial_remember_this_choice">Deze keuze onthouden</string>
@@ -1084,6 +1160,45 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="suggestion_dialog_postive_snackbar_message">Bedankt voor je feedback</string>
     <string name="suggestions_header">Veelgebruikt</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">account- en systeemgegevens</string>
+    <string name="survey_app_id">App-ID</string>
+    <string name="survey_app_name">App-naam</string>
+    <string name="survey_app_version">App-versie</string>
+    <string name="survey_application_data">Applicatiegegevens</string>
+    <string name="survey_brand">Merk</string>
+    <string name="survey_close_button_description">Sluiten</string>
+    <string name="survey_default_prompt_title">Help ons Google te verbeteren.</string>
+    <string name="survey_device_model">Apparaatmodel</string>
+    <string name="survey_email_address">E-mailadres</string>
+    <string name="survey_google_play_services_version">Versie van Google Play-services</string>
+    <string name="survey_legal_text">Als u doorgaat, stemt u ermee in dat Google uw antwoorden en %1$s gebruikt om services te verbeteren, in overeenstemming met ons %2$s en onze %3$s.</string>
+    <string name="survey_library_version">Bibliotheekversie</string>
+    <string name="survey_network_request_failed">Netwerkverzoek mislukt</string>
+    <string name="survey_neutral">Niet tevreden maar ook niet ontevreden</string>
+    <string name="survey_next">Volgende</string>
+    <string name="survey_num_rating">%1$s van %2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Voer hier uw opmerkingen in</string>
+    <string name="survey_open_text_no_pii">Geen persoonlijke informatie opnemen</string>
+    <string name="survey_operating_system">Besturingssysteem</string>
+    <string name="survey_operating_system_version">Versie besturingssysteem</string>
+    <string name="survey_other_option_hint">Anders (geef een toelichting)</string>
+    <string name="survey_platform">Platform</string>
+    <string name="survey_privacy">Privacy</string>
+    <string name="survey_prompt_no_thanks">Nee, bedankt</string>
+    <string name="survey_prompt_take_our_survey">Vraag weergeven</string>
+    <string name="survey_smiley_rating">Smiley %1$s van %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Enigszins ontevreden</string>
+    <string name="survey_somewhat_satisfied">Enigszins tevreden</string>
+    <string name="survey_submit">Indienen</string>
+    <string name="survey_system_info_dialog_title">Account- en systeemgegevens</string>
+    <string name="survey_terms">Voorwaarden</string>
+    <string name="survey_thank_you_followup_message">Help ons het product te verbeteren door meer vragen te beantwoorden</string>
+    <string name="survey_timezone_offset">Tijdsverschil</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">User-agent</string>
+    <string name="survey_very_dissatisfied">Zeer ontevreden</string>
+    <string name="survey_very_satisfied">Zeer tevreden</string>
     <string name="system_default_theme_label">Systeemstandaard</string>
     <string name="tab_title_call_history">Recent</string>
     <string name="tab_title_contacts">Contacten</string>
@@ -1095,11 +1210,15 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="terms_of_service_label">Servicevoorwaarden</string>
     <string name="textmessage_button_label">Bericht</string>
     <string name="theme_preference_label">Thema kiezen</string>
+    <string name="tidepods_call_screen_settings_title">Gespreksscreening</string>
+    <string name="tidepods_incall_label_record">Opnemen</string>
     <string name="toast_text_copied">Tekst gekopieerd</string>
     <string name="toolbar_back">Terug</string>
     <string name="toolbar_close">Sluiten</string>
     <string name="transcript_audio_feedback_chip_text">Help ons verbeteren</string>
+    <string name="transcript_audio_feedback_link_text">Transcript en audio bekijken</string>
     <string name="transcript_snippet_low_confidence_description">(Audio was niet duidelijk)</string>
+    <string name="try_again_button">Opnieuw proberen</string>
     <string name="tty_configuration_title_tty_full">TTY vol</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY uit</string>
@@ -1121,7 +1240,6 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="type_outgoing_video_pulled">Uitgaand videogesprek doorgeschakeld naar een ander apparaat</string>
     <string name="type_rejected">Geweigerd gesprek</string>
     <string name="type_voicemail">Voicemail</string>
-    <string name="unable_change_value_error">Er is een probleem opgetreden bij het wijzigen van de RTT-instellingen. Ga terug en probeer het opnieuw.</string>
     <string name="unable_read_value_error">Er is een probleem opgetreden bij het lezen van de RTT-instellingen Ga terug en probeer het opnieuw.</string>
     <string name="unblock_number">Blokkeren opheffen</string>
     <string name="unblock_number_alert_details">Nummerblokkering opgeheven, gemeld als geen spam. Nieuwe gesprekken worden niet aangemerkt als spam.</string>
@@ -1130,6 +1248,7 @@ Je kunt nog steeds bepaalde nummers videobellen zonder je instellingen te update
     <string name="unblock_number_ok">Blokkeren opheffen</string>
     <string name="unblock_report_number_alert_title">Blokkering van %1$s opheffen?</string>
     <string name="unknown">Onbekend</string>
+    <string name="unknown_call_settings_category_preference_title">Instellingen voor onbekende bellers</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Dempen van inkomende audio opheffen</string>
     <string name="user_is_busy_description">Ik bel je terug</string>
@@ -1241,10 +1360,17 @@ Je gebruikt data als je doorgaat met het gesprek."</string>
     <string name="videocall_remote_video_on">Zijn video is aan</string>
     <string name="videocall_remotely_held">Gesprek in de wacht</string>
     <string name="videocall_remotely_resumed">Gesprek hervat</string>
+    <string name="videocall_settings_default_carrier">Provider voor videobellen</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Standaardservice voor videobellen</string>
+    <string name="videocall_settings_fallback_summary">Schakel over naar Duo als videobellen via je provider niet beschikbaar is</string>
+    <string name="videocall_settings_fallback_title">Duo gebruiken als back-up</string>
+    <string name="videocall_settings_title">Videobellen</string>
     <string name="videocall_show_preview_button_description">Lokale videofeed tonen</string>
     <string name="view">Weergeven</string>
     <string name="view_location_settings">Locatie-instellingen</string>
     <string name="vitle_label">Video via LTE</string>
+    <string name="viwifi_label">Video via wifi</string>
     <string name="vm_change_pin_error_invalid">De nieuwe pincode bevat ongeldige tekens.</string>
     <string name="vm_change_pin_error_mismatch">De oude pincode komt niet overeen.</string>
     <string name="vm_change_pin_error_system_error">Kan pincode niet wijzigen</string>
@@ -1254,8 +1380,11 @@ Je gebruikt data als je doorgaat met het gesprek."</string>
     <string name="vm_change_pin_progress_message">Even geduld.</string>
     <string name="voice_call">Audiobellen</string>
     <string name="voice_call_button">Bellen</string>
+    <string name="voice_display_name">Stem %1$d</string>
     <string name="voice_search_not_available">Gesproken zoekopdracht niet beschikbaar</string>
     <string name="voice_selector_preference_title">Beschikbare stemmen</string>
+    <string name="voice_settings_available_voices_text">Beschikbare stemmen</string>
+    <string name="voice_settings_title">Stem</string>
     <string name="voicecall_button_label">Bellen</string>
     <string name="voicecall_button_wifi_description">Bellen via wifi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s om %2$s</string>
@@ -1290,7 +1419,6 @@ Je gebruikt data als je doorgaat met het gesprek."</string>
     <string name="voicemail_donation_promo_title">Wil je helpen de nauwkeurigheid van transcripties te verbeteren?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Als je visuele voicemail gebruikt voor simkaarten zonder data, kan de provider kosten in rekening brengen</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuele voicemail is alleen beschikbaar voor de geselecteerde gegevenssimkaart</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Als je meerdere simkaarten hebt en één voor Fi is, wordt je Fi-simkaart gebruikt voor visuele voicemail</string>
     <string name="voicemail_error_activating_message">Je ontvangt mogelijk geen voicemailmeldingen totdat visuele voicemail volledig is geactiveerd. Bel je voicemail om nieuwe berichten op te halen totdat visuele voicemail volledig is geactiveerd.</string>
     <string name="voicemail_error_activating_title">Visuele voicemail activeren</string>
     <string name="voicemail_error_activation_disabled_message">Bel de voicemail om het instellen te voltooien</string>
@@ -1397,6 +1525,7 @@ Je gebruikt data als je doorgaat met het gesprek."</string>
     <string name="vvm3_error_vms_no_cellular_title">Kan geen verbinding maken met je voicemailbox</string>
     <string name="vvm3_error_vms_timeout_message">Er is een probleem opgetreden. Probeer het later opnieuw. Blijft het probleem optreden, neem dan via %1$s contact op met de klantenservice en geef de foutcode 9007 door.</string>
     <string name="vvm3_error_vms_timeout_title">Er is iets misgegaan</string>
+    <string name="vvm_config_title">Visuele voicemail instellen</string>
     <string name="vvm_unsupported_message_format">Niet-ondersteund berichttype, bel %s om te luisteren.</string>
     <string name="wait_prompt_str">"De volgende tonen verzenden?
 "</string>

@@ -105,7 +105,7 @@ Aflați în continuare despre alte subiecte acum sau revedeți oricând aceste i
     <string name="audio_focus_state">Reducerea volumului audio %1$s</string>
     <string name="auto_detect">Adaptați-vă la cum țineți dispozitivul</string>
     <string name="auto_scan_action_description">Porniți scanarea și selectați</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">„Scanați automat” sau „Selectați”</string>
     <string name="available_devices_header">Dispozitive Bluetooth disponibile</string>
     <string name="basic_navigation_link_subtext">Parcurgeți pe rând elementele, derulați, folosiți meniuri și altele</string>
     <string name="basic_navigation_link_text">Navigarea de bază</string>
@@ -119,7 +119,7 @@ Aflați în continuare despre alte subiecte acum sau revedeți oricând aceste i
     <string name="bluetooth_no_devices_paired">Nu este asociat niciun dispozitiv Bluetooth</string>
     <string name="bluetooth_not_enabled_message">Pentru a asocia un comutator Bluetooth, activați funcția Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Dispozitiv periferic</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Pentru a asocia un comutator Bluetooth în asistentul de configurare, activați Bluetooth și acordați Android Accessibility Suite acces la dispozitivele din apropiere și la permisiunile pentru locație.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Asociați wireless un comutator prin Bluetooth</string>
     <string name="bluetooth_switch_option_text">Comutator Bluetooth</string>
@@ -157,6 +157,9 @@ Aflați în continuare despre alte subiecte acum sau revedeți oricând aceste i
     <string name="cam_switch_enable_banner_text_label_generic">Pentru a controla dispozitivul, mai întâi trebuie să activați Accesul prin comutare.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Deschideți Comutatoarele bazate pe cameră</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Deschideți Accesul prin comutare</string>
+    <string name="cam_switches_combined_preferences_title">Setări pentru %1$s</string>
+    <string name="cam_switches_preferences_title">Setări pentru Comutatoarele bazate pe camera foto</string>
+    <string name="cam_switches_single_preferences_title">Setări pentru %s</string>
     <string name="camera_switches_status_active">Comutatoare active bazate pe camera foto</string>
     <string name="camera_switches_status_error">Eroare</string>
     <string name="camera_switches_status_no_face">Nu s-a detectat nicio față</string>
@@ -399,6 +402,7 @@ Rostiți „%1$s” pentru lista completă a comenzilor vocale."</string>
     <string name="fallback_menu_item_open_in_browser">Deschideți în browser</string>
     <string name="fallback_menu_item_share_link">Trimiteți linkul</string>
     <string name="fast_radio_button_title">Rapid (întârziere %1$s s)</string>
+    <string name="fast_radio_button_title_content_description">Viteză mare (decalaj de %1$s secunde)</string>
     <string name="find_finish_button_text">Glisați spre dreapta ca să găsiți butonul de încheiere.</string>
     <string name="finish">Finalizați</string>
     <string name="finish_tutorial_announcement">Se afișează tastatura Braille. Întoarceți telefonul astfel încât ecranul să fie în direcția opusă dvs. Rotiți telefonul pe orizontală în poziția peisaj. Apoi începeți să tastați.</string>
@@ -747,6 +751,7 @@ Numele afișării interne: %1$s"</string>
     <string name="list_index_template">%1$d din %2$d</string>
     <string name="lockscreen_label">Ecran de blocare</string>
     <string name="medium_radio_button_title">Mediu (întârziere %1$s s)</string>
+    <string name="medium_radio_button_title_content_description">Viteză medie (decalaj de %1$s secunde)</string>
     <string name="menu_category_reading_controls">Lectură</string>
     <string name="menu_category_special_features">Funcții speciale</string>
     <string name="menus_selector_text">"Aceste comenzi rapide vă pot ajuta să modificați rapid setările, de exemplu să schimbați navigarea de la caractere la cuvinte sau să schimbați ritmul vorbirii din TalkBack.
@@ -767,6 +772,7 @@ Deschideți acum meniul TalkBack atingând ecranul cu trei degete."</string>
 Deschideți acum meniul TalkBack glisând în jos, apoi la dreapta."</string>
     <string name="menus_title">Meniu și comenzi</string>
     <string name="message_in_reset_keymap_confirm_dialog">Sigur doriți să resetați tastele de comenzi rapide pentru această aranjare a tastelor la valorile prestabilite? Rețineți că acțiunea este ireversibilă.</string>
+    <string name="message_request_phone_permission">TalkBack vrea să afle când se realizează un apel telefonic, astfel încât să reducă numărul de anunțuri care l-ar putea întrerupe.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Astfel, vor fi restabilite toate gesturile la acțiunile lor prestabilite.
 
 Veți pierde toate modificările aduse."</string>
@@ -996,6 +1002,7 @@ Mai puteți și să atingeți de două ori și să țineți apăsat cu 2, 3 sau 
     <string name="pref_reduce_window_delay_title">Reduceți întârzierea anunțului ferestrei</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Adăugați Comutatoare bazate pe cameră</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Ștergeți comutatoarele fizice</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Configurați setările pentru comutator: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Editați Comutatoarele bazate pe cameră</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Nu s-a atribuit niciun Comutator bazat pe cameră</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Atribuiți Comutatoare bazate pe cameră acțiunii %s</string>
@@ -1016,9 +1023,9 @@ Mai puteți și să atingeți de două ori și să țineți apăsat cu 2, 3 sau 
     <string name="pref_sa_face_playground_stop_preview_content_description">Opriți previzualizarea</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Activați</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Comutatoarele bazate pe camera foto trebuie să fie activate ca să folosiți această zonă de testare</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Încercați: previzualizați toate tipurile de expresii faciale, inclusiv gura deschisă, zâmbetul și așa mai departe</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Încercați</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Încercați: previzualizați %1$s expresie facială</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Zona de testare a fost întreruptă. Folosiți butonul de mai jos ca să o reactivați.</string>
     <string name="pref_selector_summary">%1$s pentru a selecta o setare. Apoi %2$s pentru a o ajusta.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s sau %2$s pentru a selecta o setare. Apoi %3$s pentru a o ajusta.</string>
@@ -1069,6 +1076,7 @@ Dacă în continuare dispozitivul nu se conectează, accesați setările Bluetoo
     <string name="reduce_speed_button">Reduceți viteza</string>
     <string name="remaining_calibration_finish_announcement">Toate pozițiile punctelor au fost actualizate</string>
     <string name="reminder_announcement">Glisați în sus cu trei degete pentru mai multe opțiuni</string>
+    <string name="remove_assigned_switch">Eliminați atribuirea comutatorului pentru %s</string>
     <string name="report_gesture_description">Acestea sunt gesturile făcute recent. Raportați gesturile incorecte și ce se așteaptă.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Resetați</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Resetați</string>
@@ -1149,6 +1157,7 @@ Porniți serviciul Selectați și ascultați. Apoi puteți:
     <string name="search_mode_hint_no_selection">Niciun element selectat.</string>
     <string name="search_mode_hint_query">Interogarea actuală: %1$s.</string>
     <string name="search_mode_hint_selection">Selecția actuală: %1$s.</string>
+    <string name="select_for_point_scan">„Selectați”</string>
     <string name="select_setting_hint">%1$s pentru a selecta altă setare</string>
     <string name="selecting_text_text">"Într-o casetă de text, mutați cursorul la începutul textului pe care vreți să îl selectați.
 
@@ -1209,6 +1218,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="shortcut_media_control">Redați sau întrerupeți conținutul media</string>
     <string name="shortcut_next">Elementul următor</string>
     <string name="shortcut_next_granularity">Setarea de navigare următoare</string>
+    <string name="shortcut_next_window">Fereastra următoare</string>
     <string name="shortcut_not_customizable">%1$s, nu se poate personaliza</string>
     <string name="shortcut_notifications">Notificări</string>
     <string name="shortcut_overview">Recente</string>
@@ -1221,6 +1231,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="shortcut_practice_gestures">Exersarea gesturilor</string>
     <string name="shortcut_previous">Elementul anterior</string>
     <string name="shortcut_previous_granularity">Setarea de navigare anterioară</string>
+    <string name="shortcut_previous_window">Fereastra anterioară</string>
     <string name="shortcut_print_node_tree">Printați arborele</string>
     <string name="shortcut_print_performance_stats">Printați statisticile de performanță</string>
     <string name="shortcut_quick_settings">Setări rapide</string>
@@ -1260,6 +1271,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
 • Scuturați pentru a începe citirea continuă"</string>
     <string name="six_hold_announcement">Puteți tasta și dacă așezați telefonul pe o masă. Încercați acum. Dacă nu aveți nicio masă în apropiere, glisați în jos ca să treceți mai departe.</string>
     <string name="slow_radio_button_title">Lent (întârziere %1$s s)</string>
+    <string name="slow_radio_button_title_content_description">Viteză mică (decalaj de %1$s secunde)</string>
     <string name="sound_feedback_state">Feedback prin sunet %1$s</string>
     <string name="sound_feedback_summary">Redă un sunet pentru a indica faptul că s-a schimbat ceva (de ex., s-a modificat conținutul de pe ecran)</string>
     <string name="speak_container_element_position_summary_off">Informațiile din liste și grile nu se rostesc</string>
@@ -1333,17 +1345,17 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="summary_pref_face_switches_debounce_time">Mai multe declanșatoare ale Comutatoarelor bazate pe cameră în acest interval vor fi considerate un singur declanșator.</string>
     <string name="summary_pref_face_switches_enabled">Comutatoarele bazate pe cameră folosesc camera frontală pentru a stabili dacă priviți spre ecran și pentru a recunoaște expresii faciale. Imaginile nu sunt stocate sau trimise la Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Setați un sunet de redat atunci când se schimbă un element de pe ecran ca răspuns la o expresie</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Afișați o indicație vizuală pentru durata de menținere a expresiei</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mențineți ecranul activat când este activată opțiunea Comutatoare bazate pe cameră. Comutatoarele bazate pe cameră nu pot debloca ecranul dacă se dezactivează.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nu s-a detectat nicio față</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Folosiți oricare dintre expresiile faciale. Dacă este înregistrată, se va afișa numele expresiei. Pentru a ieși, mențineți orice expresie timp de %1$d secunde.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Țineți capul nemișcat și stați cu fața la camera foto. Apoi %s.</string>
     <string name="summary_pref_play_store">Versiunea actuală TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Folosiți liniile mobile pentru a selecta o anumită locație orizontală și verticală. Apăsați comutatorul %1$s pentru a începe scanarea prin puncte. %2$s</string>
     <string name="summary_pref_reverse_dots">Inversați pozițiile punctelor, de exemplu, pentru ca punctele 1 și 4 să facă schimb de locuri</string>
     <string name="summary_pref_revert_to_default_menu">Resetați meniul Acces prin comutare la lista de elemente de meniu prestabilită.</string>
-    <string name="summary_pref_single_tap">(Experimental) Atingeți o dată elementul focalizat pentru a-l activa</string>
+    <string name="summary_pref_single_tap">Atingeți o dată elementul focalizat pentru a-l activa</string>
     <string name="summary_pref_tree_debug_tv">Utilizați tasta de căutare vocală pentru a printa arborele în loc să căutați</string>
     <string name="summary_pref_use_audio_focus">Redu volumul audio al altor aplicații în timpul rostirii</string>
     <string name="summary_read_from_current">Începând de la elementul următor, citiți toate elementele de pe ecran</string>
@@ -1479,10 +1491,10 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="switched_to_contracted_announcement">S-a trecut la tastatura Braille contractată</string>
     <string name="switched_to_ueb_uncontracted_announcement">Ați comutat la UEB necontractat</string>
     <string name="switched_to_uncontracted_announcement">S-a trecut la tastatura Braille necontractată</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Aproape egal cu</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Semnul mai mic decât</string>
+    <string name="symbol_angle_bracket_right">Semnul mai mare decât</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Aproximativ egal cu</string>
     <string name="symbol_asterisk">Asterisc</string>
@@ -1502,7 +1514,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_bullseye">Țintă</string>
     <string name="symbol_caret">Simbol de inserție</string>
     <string name="symbol_celsius_degree">Grad Celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Simbolul pentru cent</string>
     <string name="symbol_circle_left_half_black">Cerc cu jumătatea stângă neagră</string>
     <string name="symbol_circle_right_half_black">Cerc cu jumătatea dreaptă neagră</string>
     <string name="symbol_colon">Două puncte</string>
@@ -1511,7 +1523,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_curly_bracket_left">Acoladă stânga</string>
     <string name="symbol_curly_bracket_right">Acoladă dreapta</string>
     <string name="symbol_currency_sign">Semn pentru monedă</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Semnul pentru grad</string>
     <string name="symbol_division">Semnul împărțirii</string>
     <string name="symbol_dollar_sign">Dolar</string>
     <string name="symbol_downwards_arrow">Săgeată în jos</string>
@@ -1563,7 +1575,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_middle_dot">Interpunct</string>
     <string name="symbol_multiplication">Semnul înmulțirii</string>
     <string name="symbol_new_line">Rând nou</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Nu este egal cu</string>
     <string name="symbol_not_sign">Semn pentru negație logică</string>
     <string name="symbol_paragraph_mark">Semn pentru paragraf</string>
     <string name="symbol_parenthesis_left">Paranteză stânga</string>
@@ -1574,7 +1586,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_plus_minus_sign">Semn plus minus</string>
     <string name="symbol_postal_mark">Marcă poștală</string>
     <string name="symbol_pound">Diez</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Semnul de monedă pentru liră</string>
     <string name="symbol_quarter_note">Notă muzicală pătrime</string>
     <string name="symbol_question_mark">Semnul întrebării</string>
     <string name="symbol_quotation_mark">Semnul citării</string>
@@ -1600,7 +1612,7 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_trademark">Marcă comercială</string>
     <string name="symbol_underscore">Caracter de subliniere</string>
     <string name="symbol_upwards_arrow">Săgeată în sus</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Bară verticală</string>
     <string name="symbol_white_circle">Cerc alb</string>
     <string name="symbol_white_club_suit">Treflă albă</string>
     <string name="symbol_white_diamond">Romb alb</string>
@@ -1614,8 +1626,8 @@ Step 2: glisați în jos pentru a muta focalizarea navigării înainte sau pentr
     <string name="symbol_white_square">Pătrat alb</string>
     <string name="symbol_white_star">Stea albă</string>
     <string name="symbol_white_up_pointing_triangle">Triunghi alb orientat în sus</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Semnul de monedă pentru Won</string>
+    <string name="symbol_won_sign">Semnul de monedă pentru Won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Acțiuni asupra sistemului</string>
     <string name="tabletop">Modul Pe masă</string>
@@ -1783,7 +1795,7 @@ Pentru a dezactiva TalkBack:
     <string name="title_pref_category_assign_switches">Atribuiți comutatoare</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Scanare automată</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Scanarea automată (scanare prin puncte)</string>
     <string name="title_pref_category_border_color">Culoare</string>
     <string name="title_pref_category_built_in_gestures">Gesturi încorporate</string>
     <string name="title_pref_category_context_menu">Personalizați meniul TalkBack</string>
@@ -1867,7 +1879,7 @@ Pentru a dezactiva TalkBack:
     <string name="title_pref_red">Roșu</string>
     <string name="title_pref_resume_talkback">Reluați după suspendare</string>
     <string name="title_pref_reverse_auto_scan_disabled">Scanare automată inversă (dezactivată)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Scanarea automată inversă (scanare prin puncte)</string>
     <string name="title_pref_reverse_dots">Inversați punctele</string>
     <string name="title_pref_revert_to_default_menu">Reveniți la meniul prestabilit</string>
     <string name="title_pref_scan_non_actionable_items">Rostește text descriptiv</string>
@@ -1930,7 +1942,7 @@ Pentru a dezactiva TalkBack:
     <string name="title_pref_show_context_menu_as_list">Afișați meniul contextual ca listă</string>
     <string name="title_pref_show_privacy_policy">Politica de confidențialitate</string>
     <string name="title_pref_show_tos">Termeni și condiții</string>
-    <string name="title_pref_single_tap">Activare printr-o singură atingere</string>
+    <string name="title_pref_single_tap">Atingeți o singură dată pentru a activa</string>
     <string name="title_pref_sound_and_vibration">Sunet și vibrații</string>
     <string name="title_pref_soundback">Feedback prin sunet</string>
     <string name="title_pref_soundback_volume">Volum feedback prin sunet</string>
@@ -1975,6 +1987,7 @@ Pentru a dezactiva TalkBack:
     <string name="title_previous_screen">Ecranul precedent</string>
     <string name="title_read_from_top">Citiți începând de sus</string>
     <string name="title_repeat_last_spoken_phrase">Repetă ultima expresie rostită</string>
+    <string name="title_request_phone_permission">TalkBack solicită o permisiune</string>
     <string name="title_screen_summary">Rezumatul ecranului</string>
     <string name="title_seek_bar_controls">Glisor</string>
     <string name="title_seek_bar_edit">Modificați nivelul glisorului</string>

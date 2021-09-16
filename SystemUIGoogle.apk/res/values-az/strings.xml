@@ -595,6 +595,8 @@ Seçimini aktiv edin"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Bu dəyişikliyin tətbiq edilməsi üçün cihaz yenidən başladılmalıdır. İndi yenidən başladın və ya ləğv edin.</string>
     <string name="camera_hint">Kamera üçün ikonadan sürüşdürün</string>
     <string name="camera_label">kemaranı açın</string>
+    <string name="camera_recording_announcement">Kamera yazır</string>
+    <string name="camera_stopped_recording_announcement">Kamera yazmağı dayandırıb</string>
     <string name="cancel">Ləğv edin</string>
     <string name="carrier_network_change_mode">Operator şəbəkəsinin dəyişilməsi</string>
     <string name="category_personal">Şəxsi</string>
@@ -734,6 +736,10 @@ Davam etsəniz, data istifadəsi üçün ödəniş tutulacaq."</string>
     <string name="debug_monitoring_category">Monitorinq</string>
     <string name="debug_networking_category">Şəbəkələşmə</string>
     <string name="debug_view_attributes">Atributlar yoxlanılsın</string>
+    <string name="defender_notify_des">Batareyanı qorumaq üçün telefonunuz şarjı məhdudlaşdırır</string>
+    <string name="defender_notify_learn_more">Ətraflı məlumat</string>
+    <string name="defender_notify_resume_charge">Şarja davam edin</string>
+    <string name="defender_notify_title">Şarj müvəqqəti məhdudlaşdırılıb</string>
     <string name="delete_blob_confirmation_text">Bu paylaşılan datanı silmək istədiyinizə əminsiniz?</string>
     <string name="delete_blob_text">Paylaşılan datanı silin</string>
     <string name="demo_mode">Sistem interfeysi: demorejim</string>
@@ -1070,6 +1076,7 @@ prioritet"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM kartın kilidi açılır...</string>
     <string name="keyguard_try_fingerprint">Açmaq üçün barmaq izindən istifadə edin</string>
     <string name="keyguard_unlock">Açmaq üçün yuxarı sürüşdürün</string>
+    <string name="keyguard_unlock_press">Açmaq üçün basın</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">cədvəl, siqnal, xatırlatma, saat</string>
     <string name="kg_enter_confirm_pin_hint">İstədiyiniz PIN kodu təsdiqləyin</string>
@@ -1233,6 +1240,10 @@ prioritet"</string>
     <string name="menu_ime">Klaviatura dəyişdirici</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon Aktivdir</string>
+    <string name="mic_and_camera_recording_announcement">Kamera və mikrofon yazır</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera və mikrofon yazmağı dayandırıb</string>
+    <string name="mic_recording_announcement">Mikrofon yazır</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon yazmağı dayandırıb</string>
     <string name="missed_call">Buraxılmış zəng</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobil data</string>
@@ -1706,8 +1717,6 @@ Suallarınız varsa, %2$s ilə əlaqə saxlayın."</string>
     <string name="quick_settings_work_mode_label">İş tətbiqləri</string>
     <string name="quick_step_accessibility_toggle_overview">İcmala Keçin</string>
     <string name="recent_conversations">Son söhbətlər</string>
-    <string name="recents_quick_scrub_onboarding">Tətbiqləri cəld dəyişmək üçün sağa çəkin</string>
-    <string name="recents_swipe_up_onboarding">Tətbiqi dəyişmək üçün yuxarı sürüşdürün</string>
     <string name="remaining_length_format">%1$s qalıb</string>
     <string name="remote_input_image_insertion_text">şəkil göndərdi</string>
     <string name="remove_from_settings">Ayarlardan Silin</string>
@@ -2117,6 +2126,7 @@ Yeni istifadəçi əlavə etdiyiniz zaman həmin istifadəçi öz məkanını ay
     <string name="wallet_secondary_label_no_card">Kart əlavə edin</string>
     <string name="wallet_secondary_label_updating">Güncəllənir</string>
     <string name="wallet_title">Pulqabı</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Giriş nöqtəsi müvəqqəti olaraq doludur</string>
     <string name="wifi_cant_connect">Qoşulmaq mümkün deyil</string>
     <string name="wifi_cant_connect_to_ap">\"%1$s\" şəbəkəsinə qoşulmaq mümkün deyil</string>

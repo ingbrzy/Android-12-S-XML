@@ -17,14 +17,21 @@
         <item>15 λεπτά</item>
         <item>20 λεπτά</item>
         <item>25 λεπτά</item>
-        <item>Ποτέ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 λεπτά πριν την ώρα ύπνου</item>
+        <item>30 λεπτά πριν την ώρα ύπνου</item>
+        <item>45 λεπτά πριν την ώρα ύπνου</item>
+        <item>1 ώρα πριν την ώρα ύπνου</item>
+        <item>Ανενεργό</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Αναλογικό</item>
         <item>Ψηφιακό</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Ποτέ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 δευτερόλεπτα</item>
         <item>10 δευτερόλεπτα</item>
         <item>15 δευτερόλεπτα</item>
@@ -37,6 +44,35 @@
         <item>50 δευτερόλεπτα</item>
         <item>55 δευτερόλεπτα</item>
         <item>60 δευτερόλεπτα</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Διακοπή μετά από 10 λεπτά</item>
+        <item>Διακοπή μετά από 20 λεπτά</item>
+        <item>Διακοπή μετά από 30 λεπτά</item>
+        <item>Διακοπή μετά από 40 λεπτά</item>
+        <item>Διακοπή μετά από 50 λεπτά</item>
+        <item>Διακοπή μετά από 1 ώρα</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Διακοπή μετά από 10 λεπτά</item>
+        <item>Διακοπή μετά από 20 λεπτά</item>
+        <item>Διακοπή μετά από 30 λεπτά</item>
+        <item>Διακοπή μετά από 40 λεπτά</item>
+        <item>Διακοπή μετά από 50 λεπτά</item>
+        <item>Διακοπή μετά από 1 ώρα</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>40 λεπτά</item>
+        <item>50 λεπτά</item>
+        <item>1 ώρα</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 λεπτό</item>
@@ -69,18 +105,6 @@
         <item>28 λεπτά</item>
         <item>29 λεπτά</item>
         <item>30 λεπτά</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Είστε πάρα πολύ γρήγοροι.</item>
-        <item>Απολαύστε</item>
-        <item>Τα Android είναι γρήγορα, αλλά όχι τόσο όσο εσείς!</item>
-        <item>Ουφ.</item>
-        <item>Τρελοί χρόνοι.</item>
-        <item>Απίστευτη ταχύτητα.</item>
-        <item>Ας ξανακάνουμε ένα ταξίδι στο χρόνο.</item>
-        <item>Ένα απλό άλμα προς τα αριστερά.</item>
-        <item>Έχετε μια τάση να βιάζεστε.</item>
-        <item>Ταχύτητα φωτονίου.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Νήσοι Μάρσαλ</item>

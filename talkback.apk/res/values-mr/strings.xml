@@ -105,7 +105,7 @@
     <string name="audio_focus_state">ऑडिओ डकिंग %1$s</string>
     <string name="auto_detect">तुम्ही डिव्हाइस कसे धरता ते जाणून घ्या</string>
     <string name="auto_scan_action_description">स्कॅन सुरू करा आणि निवडा</string>
-    <string name="auto_scan_or_select">"ऑटो-स्कॅन' किंवा 'निवडणे"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'ऑटो-स्कॅन करा' किंवा 'निवडा'"</string>
     <string name="available_devices_header">उपलब्ध ब्लूटूथ डिव्हाइस</string>
     <string name="basic_navigation_link_subtext">आयटम दरम्यान स्विच करा, स्क्रोल करा, मेनू वापरा आणि आणखी बऱ्याच गोष्टी करा</string>
     <string name="basic_navigation_link_text">मूलभूत नेव्हिगेशन</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">ब्लूटूथ डिव्हाइस पेअर केले आहेत</string>
     <string name="bluetooth_not_enabled_message">ब्लूटूथ स्विच पेअर करण्यासाठी, ब्लूटूथ सुरू करा</string>
     <string name="bluetooth_peripheral_content_description">पेरिफेरल</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">सेटअप विझार्ड मध्ये ब्लूटूथ स्विच पेअर करण्यासाठी, ब्लूटूथ सुरू करा आणि जवळपासच्या डिव्हाइसना व स्थान परवानग्यांना Android Accessibility Suite चा अ‍ॅक्सेस द्या.</string>
     <string name="bluetooth_phone_content_description">फोन</string>
     <string name="bluetooth_switch_description_text">ब्लूटूथद्वारे स्विच वायरलेस पद्धतीने पेअर करा</string>
     <string name="bluetooth_switch_option_text">ब्लूटूथ स्विच</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">तुमचे डिव्हाइस नियंत्रित करण्यासाठी, तुम्ही सर्वप्रथम स्विच अ‍ॅक्सेस सुरू करणे आवश्यक आहे.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">कॅमेरा स्विच उघडा</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">स्विच अ‍ॅक्सेस उघडा</string>
+    <string name="cam_switches_combined_preferences_title">"'%1$s' सेटिंग्ज"</string>
+    <string name="cam_switches_preferences_title">कॅमेरा स्विच सेटिंग्ज</string>
+    <string name="cam_switches_single_preferences_title">"'%s' सेटिंग्ज"</string>
     <string name="camera_switches_status_active">कॅमेरा स्विच अ‍ॅक्टिव्ह</string>
     <string name="camera_switches_status_error">एरर</string>
     <string name="camera_switches_status_no_face">कोणताही चेहरा आढळला नाही</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">कॅमेरा स्विच थांबवा</string>
     <string name="default_action_name_point_scan">पॉइंट स्कॅन करा</string>
     <string name="dialog_confirm_revert_to_default_menu">कंफर्म करा</string>
-    <string name="dialog_do_not_disturb_permission_message">स्विच ॲक्सेस मेनूमधून आवाज ॲडजस्ट करण्यासाठी, व्यत्यय आणू नका ॲक्सेस सुरू करण्याकरिता Android Accessibility Suite ला अनुमती द्या</string>
+    <string name="dialog_do_not_disturb_permission_message">स्विच ॲक्सेस मेनूमधून आवाज ॲडजस्ट करण्यासाठी व्यत्यय आणू नका ॲक्सेस सुरू करण्याकरिता Android Accessibility Suite ला अनुमती द्या</string>
     <string name="dialog_do_not_disturb_permission_title">आवाज ॲडजस्ट करण्यासाठी स्विच ॲक्सेसला परवानगीची आवश्यकता आहे</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">सेटिंग्ज उघडा</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">काम करण्यासाठी, कॅमेरा स्विच नी साधारण १० MB चा अतिरिक्त डेटा डाउनलोड करणे आवश्यक आहे. तुमच्या नेटवर्कच्या वेगानुसार, यासाठी सुमारे एक मिनिट लागू शकतो.</string>
@@ -399,6 +402,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="fallback_menu_item_open_in_browser">ब्राउझरमध्ये उघडा</string>
     <string name="fallback_menu_item_share_link">लिंक शेअर करा</string>
     <string name="fast_radio_button_title">जलद (%1$sसे विलंब)</string>
+    <string name="fast_radio_button_title_content_description">जलद (%1$s सेकंद उशीर)</string>
     <string name="find_finish_button_text">संपवा बटण शोधण्यासाठी, उजवीकडे स्वाइप करा.</string>
     <string name="finish">समाप्‍त</string>
     <string name="finish_tutorial_announcement">ब्रेल कीबोर्ड दाखवत आहे. तुमचा फोन वळवा जेणेकरून स्क्रीन तुमच्या विरुद्ध दिशेला असेल. फोन आडवा फिरवून लँडस्केप स्थितीत आणा. त्यानंतर टाइप करणे सुरू करा.</string>
@@ -747,6 +751,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="list_index_template">%2$d पैकी %1$d</string>
     <string name="lockscreen_label">लॉक स्क्रीन</string>
     <string name="medium_radio_button_title">मध्यम (%1$sसे विलंब)</string>
+    <string name="medium_radio_button_title_content_description">मध्यम (%1$s सेकंद उशीर)</string>
     <string name="menu_category_reading_controls">वाचन</string>
     <string name="menu_category_special_features">विशेष वैशिष्ट्ये</string>
     <string name="menus_selector_text">"हे शॉर्टकट तुम्हाला तुमचे नेव्हिगेशन वर्णांकडून शब्दांकडे स्विच करणे किंवा TalkBack चा स्पीच रेट बदलणे यांसारखी सेटिंग्ज झटपट बदलण्यात मदत करू शकतात.
@@ -767,6 +772,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
  आता खाली त्यानंतर उजवीकडे स्वाइप करून TalkBack मेनू उघडा."</string>
     <string name="menus_title">मेनू आणि नियंत्रणे</string>
     <string name="message_in_reset_keymap_confirm_dialog">तुम्हाला खात्री आहे की या की नकाशासाठी तुम्ही तुमच्या शॉर्टकट की त्यांच्या डीफॉल्ट मूल्यांवर रीसेट करू इच्छिता? कृपया लक्षात ठेवा की, ही क्रिया पूर्ववत होऊ शकत नाही.</string>
+    <string name="message_request_phone_permission">फोन कॉल कधी सुरू आहे हे TalkBack ला जाणून घ्यायचे आहे जेणेकरून, TalkBack व्यत्यय आणणाऱ्या घोषणा कमी करू शकेल.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"यामुळे सर्व जेश्चर त्यांच्या डीफॉल्ट क्रियांमध्ये रीसेट केली जातील.
 
 तुम्ही केलेले कोणतेही बदल गमवाल."</string>
@@ -996,6 +1002,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="pref_reduce_window_delay_title">विंडो घोषणेचा विलंब कमी करा</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">कॅमेरा स्विच जोडा</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">प्रत्यक्ष स्विच साफ करा</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">या स्विचसाठी सेटिंग्ज कॉंफिगर करा: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">कॅमेरा स्विच संपादित करा</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">कोणतेही कॅमेरा स्विच असाइन केलेले नाही</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s' ला कॅमेरा स्विच असाइन करा"</string>
@@ -1016,9 +1023,9 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="pref_sa_face_playground_stop_preview_content_description">पूर्वावलोकन थांबवा</string>
     <string name="pref_sa_face_playground_switch_on_content_description">सुरू करा</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">चाचणीसाठीचा हा भाग वापरण्याकरिता कॅमेरा स्विच सुरू करणे आवश्यक आहे</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">हे वापरून पहा: सर्व फेस जेश्चर प्रकारांचे पूर्वावलोकन करा जसे की, उघडे तोंड, हास्य आणि इतर</string>
+    <string name="pref_sa_face_playground_try_it_button_text">हे वापरून पहा</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">हे वापरून पहा: %1$s या फेस जेश्चरचे पूर्वावलोकन करा</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">चाचणीसाठीचा भाग थांबवला आहे. तो पुन्हा सुरू करण्यासाठी खालील बटण वापरा.</string>
     <string name="pref_selector_summary">एखादे सेटिंग निवडण्यासाठी %1$s. त्यानंतर, सेटिंग अ‍ॅडजस्ट करण्यासाठी %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">एखादे सेटिंग निवडण्यासाठी %1$s किंवा%2$s. त्यानंतर, सेटिंग अ‍ॅडजस्ट करण्यासाठी %3$s.</string>
@@ -1069,6 +1076,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="reduce_speed_button">गती कमी करा</string>
     <string name="remaining_calibration_finish_announcement">सर्व बिंदूंची स्थाने अपडेट केली</string>
     <string name="reminder_announcement">आणखी पर्यायांसाठी तीन बोटांनी वर स्वाइप करा</string>
+    <string name="remove_assigned_switch">%s साठी स्विच असाइनमेंट काढून टाका</string>
     <string name="report_gesture_description">ही अलीकडे केलेली जेश्चर आहेत, कृपया कोणते जेश्चर चुकीचे आहे आणि काय अपेक्षित आहे हे कळवा.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">रीसेट करा</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">रीसेट करा</string>
@@ -1149,6 +1157,7 @@ TalkBack निलंबित असताना, तुमचे डिव्�
     <string name="search_mode_hint_no_selection">कोणताही निवडलेला आयटम नाही.</string>
     <string name="search_mode_hint_query">वर्तमान क्वेरी: %1$s.</string>
     <string name="search_mode_hint_selection">वर्तमान निवड: %1$s.</string>
+    <string name="select_for_point_scan">"'निवडा'"</string>
     <string name="select_setting_hint">एखादे वेगळे सेटिंग निवडण्यासाठी %1$s</string>
     <string name="selecting_text_text">"मजकूर बॉक्समध्ये, तुम्हाला जो मजकूर निवडायचा आहे त्याच्या सुरूवातीस कर्सर हलवा.
 
@@ -1209,6 +1218,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="shortcut_media_control">मीडिया प्ले करा किंवा थांबवा</string>
     <string name="shortcut_next">पुढील आयटम</string>
     <string name="shortcut_next_granularity">पुढील नेव्हिगेशन सेटिंग</string>
+    <string name="shortcut_next_window">पुढील विंडो</string>
     <string name="shortcut_not_customizable">%1$s, कस्टमाइझ करण्यायोग्य नाही</string>
     <string name="shortcut_notifications">सूचना</string>
     <string name="shortcut_overview">अवलोकन</string>
@@ -1221,13 +1231,14 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="shortcut_practice_gestures">जेश्चर वापरण्याचा सराव करा</string>
     <string name="shortcut_previous">मागील आयटम</string>
     <string name="shortcut_previous_granularity">मागील नेव्हिगेशन सेटिंग</string>
+    <string name="shortcut_previous_window">मागील विंडो</string>
     <string name="shortcut_print_node_tree">नोड ट्री मुद्रीत करा</string>
     <string name="shortcut_print_performance_stats">कार्यप्रदर्शन आकडेवारी प्रिंट</string>
     <string name="shortcut_quick_settings">क्विक सेटिंग्ज</string>
     <string name="shortcut_read_from_current">पुढील आयटमपासून वाचा</string>
     <string name="shortcut_read_from_top">वरून वाचा</string>
     <string name="shortcut_repeat_last_utterance">अंतिम उच्चारणाची पुनरावृत्ती करा</string>
-    <string name="shortcut_report_gesture">जेश्चर समस्येची तक्रार करा</string>
+    <string name="shortcut_report_gesture">जेश्चर समस्या नोंदवा</string>
     <string name="shortcut_scroll_back">मागे स्क्रोल करा</string>
     <string name="shortcut_scroll_down">खाली स्क्रोल करा</string>
     <string name="shortcut_scroll_forward">पुढे स्क्रोल करा</string>
@@ -1260,6 +1271,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
 • सलग वाचन करणे सुरू करण्यासाठी शेक करा"</string>
     <string name="six_hold_announcement">तुम्ही टेबलवर तुमचा फोन सपाट ठेवूनदेखील टाइप करू शकता. आता करून पहा. तुमच्या जवळपास टेबल नसल्यास, खाली स्वाइप करून पुढे जा.</string>
     <string name="slow_radio_button_title">मंद (%1$sसे विलंब)</string>
+    <string name="slow_radio_button_title_content_description">धीमा (%1$s सेकंद उशीर)</string>
     <string name="sound_feedback_state">आवाजाद्वारे फीडबॅक %1$s</string>
     <string name="sound_feedback_summary">काहीतरी बदलले आहे हे सूचित करण्यासाठी आवाज प्ले करा (उदा., स्क्रीनवरील आशय बदलला)</string>
     <string name="speak_container_element_position_summary_off">सूची आणि ग्रिड माहिती बोलली जात नाही</string>
@@ -1333,17 +1345,17 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="summary_pref_face_switches_debounce_time">या वेळेदरम्यान एकापेक्षा जास्त वेळा होणारी कॅमेरा स्विच ट्रिगर ही एकच ट्रिगर म्हणून गृहीत धरली जातील.</string>
     <string name="summary_pref_face_switches_enabled">तुम्ही स्क्रीनकडे पाहत आहात का हे जाणून घेण्यासाठी आणि फेशियल जेश्चर ओळखण्यासाठी कॅमेरा स्विच फ्रंट कॅमेरा वापरतात इमेज स्टोअर केल्या किंवा Google ला पाठवल्या जात नाहीत.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">जेश्चरला प्रतिसाद देताना स्क्रीनवरील एखादी गोष्ट बदलल्यास, आवाज प्ले करा</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">तुम्ही एखादे जेश्चर किती वेळ होल्ड केले होते याची व्हिज्युअल सूचना दाखवा</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">कॅमेरा स्विच सुरू केली जातील तेव्हा स्क्रीन सुरू ठेवा. स्क्रीन बंद झाल्यास कॅमेरा स्विच ती अनलॉक करू शकणार नाहीत.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">कोणताही चेहरा आढळला नाही</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">कोणतीही फेस जेश्चर परफॉर्म करा. नोंदणी केल्यास, जेश्चरचे नाव दिसेल. बाहेर पडण्यासाठी, कोणतेही जेश्चर %1$d सेकंदांसाठी होल्ड करा.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">तुमचे डोके स्थिर ठेवा आणि कॅमेराकडे पहा. त्यानंतर %s.</string>
     <string name="summary_pref_play_store">वर्तमान TalkBack आवृत्ती: %1$s</string>
-    <string name="summary_pref_point_scan">"विशिष्ट आडवे आणि उभे स्थान निवडण्यासाठी हलणार्‍या रेषा वापरा. पॉइंट स्कॅनिंग सुरू करण्यासाठी '%1$s' स्विच दाबा. %2$s"</string>
+    <string name="summary_pref_point_scan">विशिष्ट आडवे आणि उभे स्थान निवडण्यासाठी हलणार्‍या रेषा वापरा. पॉइंट स्कॅनिंग सुरू करण्यासाठी %1$s स्विच दाबा. %2$s</string>
     <string name="summary_pref_reverse_dots">बिंदू १ आणि ४ जागांची अदलाबदल करतील अशा प्रकारे बिंदूंच्या जागा स्वॅप करा, उदाहरणार्थ</string>
     <string name="summary_pref_revert_to_default_menu">मेनू आयटमच्या डीफॉल्ट सूचीवर स्विच अ‍ॅक्सेस मेनू रीसेट करा.</string>
-    <string name="summary_pref_single_tap">(प्रायोगिक) अ‍ॅक्टिव्हेट करण्यासाठी फोकस केलेल्या आयटमवर एकदा टॅप करा</string>
+    <string name="summary_pref_single_tap">अ‍ॅक्टिव्हेट करण्यासाठी फोकस केलेल्या आयटमवर एकदा टॅप करा</string>
     <string name="summary_pref_tree_debug_tv">नोड ट्री प्रिंट करण्‍यासाठी शोधण्‍याऐवजी व्हॉइस शोध की चा वापर करा</string>
     <string name="summary_pref_use_audio_focus">बोलताना अन्य ऑडिओ व्हॉल्‍यूम कमी करा</string>
     <string name="summary_read_from_current">पुढील आयटमपासून सुरुवात करून, स्क्रीनवरील सर्व आयटम वाचा</string>
@@ -1440,10 +1452,10 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="switched_to_contracted_announcement">संक्षिप्त ब्रेलवर स्विच केला आहे</string>
     <string name="switched_to_ueb_uncontracted_announcement">UEB विस्तारितवर स्विच केले</string>
     <string name="switched_to_uncontracted_announcement">विस्तारित ब्रेलवर स्विच केला आहे</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">जवळपस बरोबर</string>
     <string name="symbol_ampersand">जोडाक्षर</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">यापेक्षा कमीचे चिन्ह</string>
+    <string name="symbol_angle_bracket_right">यापेक्षा जास्तचे चिन्ह</string>
     <string name="symbol_apostrophe">ॲपॉस्ट्रॉफी</string>
     <string name="symbol_approximately_equals">अंदाजे समान</string>
     <string name="symbol_asterisk">ताराचिन्ह</string>
@@ -1463,7 +1475,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_bullseye">बुल्‍सआय</string>
     <string name="symbol_caret">कॅरेट</string>
     <string name="symbol_celsius_degree">सेल्‍सिअस अंश</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">सेंटचे चिन्ह</string>
     <string name="symbol_circle_left_half_black">डावे अर्धे काळे सह मंडळ</string>
     <string name="symbol_circle_right_half_black">उजवे अर्धे काळे सह मंडळ</string>
     <string name="symbol_colon">अपूर्ण विराम</string>
@@ -1472,7 +1484,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_curly_bracket_left">डावा महिरपी कंस</string>
     <string name="symbol_curly_bracket_right">उजवा महिरपी कंस</string>
     <string name="symbol_currency_sign">चलन आयकन</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">अंशाचे चिन्ह</string>
     <string name="symbol_division">भागिले आयकन</string>
     <string name="symbol_dollar_sign">डॉलर आयकन</string>
     <string name="symbol_downwards_arrow">खालील बाण</string>
@@ -1524,7 +1536,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_middle_dot">मधला बिंदू</string>
     <string name="symbol_multiplication">गुणिले आयकन</string>
     <string name="symbol_new_line">नवीन रेखा</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">बरोबर नाही</string>
     <string name="symbol_not_sign">आयकन नाही</string>
     <string name="symbol_paragraph_mark">परिच्छेद खूण</string>
     <string name="symbol_parenthesis_left">डावा कंस</string>
@@ -1535,7 +1547,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_plus_minus_sign">अधिक वजा आयकन</string>
     <string name="symbol_postal_mark">पोस्टल चिन्ह</string>
     <string name="symbol_pound">पाउंड</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">पाउंड या चलनाचे चिन्ह</string>
     <string name="symbol_quarter_note">एक चतुर्थांश</string>
     <string name="symbol_question_mark">प्रश्नचिन्ह</string>
     <string name="symbol_quotation_mark">अवतरण</string>
@@ -1561,7 +1573,7 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_trademark">ट्रेडमार्क</string>
     <string name="symbol_underscore">अंडरस्कोअर</string>
     <string name="symbol_upwards_arrow">वरदर्शी बाण</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">उभी रेष</string>
     <string name="symbol_white_circle">पांढरे मंडळ</string>
     <string name="symbol_white_club_suit">सफेद किलवर पत्ते</string>
     <string name="symbol_white_diamond">पांढरा हीरा</string>
@@ -1575,8 +1587,8 @@ TalkBack मेनू उघडण्यासाठी आधी खाली �
     <string name="symbol_white_square">पांढरा चौरस</string>
     <string name="symbol_white_star">पांढरा तारा</string>
     <string name="symbol_white_up_pointing_triangle">पांढरा वर निर्देशित करणारा त्रिकोण</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">वोन या चलनाचे चिन्ह</string>
+    <string name="symbol_won_sign">वोन या चलनाचे चिन्ह</string>
     <string name="symbol_yen">येन</string>
     <string name="system_actions">सिस्टम क्रिया</string>
     <string name="tabletop">टेबलटॉप मोड</string>
@@ -1891,7 +1903,7 @@ TalkBack बंद करण्यासाठी:
     <string name="title_pref_show_context_menu_as_list">सूची म्हणून संदर्भ मेनू दाखवा</string>
     <string name="title_pref_show_privacy_policy">गोपनीयता धोरण</string>
     <string name="title_pref_show_tos">सेवा अटी</string>
-    <string name="title_pref_single_tap">एकदा-टॅप करा अ‍ॅक्टिव्हेशन</string>
+    <string name="title_pref_single_tap">अ‍ॅक्टिव्हेट करण्यासाठी एकदा टॅप करा</string>
     <string name="title_pref_sound_and_vibration">आवाज आणि व्हायब्रेशन</string>
     <string name="title_pref_soundback">आवाज फीडबॅक</string>
     <string name="title_pref_soundback_volume">आवाज फीडबॅक व्‍हॉल्‍यूम</string>
@@ -1936,6 +1948,7 @@ TalkBack बंद करण्यासाठी:
     <string name="title_previous_screen">मागील स्क्रीन</string>
     <string name="title_read_from_top">वरून वाचा</string>
     <string name="title_repeat_last_spoken_phrase">शेवटी बोललेले शब्द रिपीट करा</string>
+    <string name="title_request_phone_permission">TalkBack विनंत्या यांसंबंधित परवानगी</string>
     <string name="title_screen_summary">स्क्रीन सारांश</string>
     <string name="title_seek_bar_controls">स्लायडर</string>
     <string name="title_seek_bar_edit">स्लायडर पातळी संपादित करा</string>

@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">応答</string>
     <string name="a11y_call_incoming_decline_description">拒否</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Wi-Fi を使用してビデオ通話を発信</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wi-Fi を使用して音声通話を発信</string>
     <string name="a11y_conversation_history_entry_answered_call">一番新しい通話は ^1 さんからの着信で、応答しました</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">発信者を管理</string>
     <string name="a11y_expandedsheet_collapse">メニューを折りたたむ</string>
     <string name="a11y_expandedsheet_expand">メニューを展開</string>
-    <string name="a11y_favorites_education_dismiss">閉じる</string>
     <string name="a11y_feature_demo_next_page">次のページ</string>
     <string name="a11y_feature_demo_page_indicator">%d ページ目</string>
     <string name="a11y_feature_demo_prev_page">前のページ</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1 さんのクイックコンタクト</string>
+    <string name="a11y_icon_hd">HD 通話</string>
+    <string name="a11y_icon_hd_plus">HD+ 通話</string>
+    <string name="a11y_icon_shared_data_call">もう一つのデータ通信接続を使用した通話</string>
+    <string name="a11y_icon_verified">確認済みの通話</string>
+    <string name="a11y_icon_vilte">ビデオオーバー LTE 通話</string>
+    <string name="a11y_icon_viwifi">ビデオオーバー Wi-Fi 通話</string>
+    <string name="a11y_icon_volte">ボイスオーバー LTE 通話</string>
+    <string name="a11y_icon_voz4g">ボイスオーバー 4G 通話</string>
+    <string name="a11y_icon_wifi">Wi-Fi 通話</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">応答するには 2 本の指で上にスワイプ、拒否するには 2 本の指で下にスワイプします。</string>
     <string name="a11y_incoming_call_swipe_to_answer">着信に応答するには上方向、着信を拒否するには下方向に 2 本の指でスワイプ</string>
     <string name="a11y_new_call_log_entry_call_recording">この通話は録音されています</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1、^2、^3、^4。</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 さん宛に RTT 通話を発信</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">もう一つのデータ通信接続を使用した通話</string>
     <string name="a11y_new_call_log_entry_tap_action">メニューを展開</string>
     <string name="a11y_new_call_log_entry_video_call">^1 さんにビデオ通話を発信</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">Wi-Fi を使用して ^1 さんにビデオ通話を発信</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">発信前に電話番号を編集</string>
     <string name="action_menu_back_from_search">検索を停止</string>
     <string name="action_menu_overflow_description">その他のオプション</string>
+    <string name="activate_error_message">通話スクリーニングを有効にできませんでした</string>
+    <string name="activated_successfully">通話スクリーニングが有効になりました</string>
     <string name="activity_not_available">この操作を行うアプリがデバイス上にありません</string>
     <string name="add_2sec_pause">2 秒間の停止を追加</string>
     <string name="add_contact_not_available">利用できる連絡先アプリがありません</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">通話</string>
     <string name="bm_suggest_chat_button">チャット</string>
     <string name="bm_suggest_wait_min">"チャット
-%1$d 分待ち"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s、未読 %2$s 件</string>
+待ち時間 %1$d 分"</string>
+    <string name="bm_suggest_wait_time_estimating">"チャット
+起動中…"</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
     <string name="bubble_bottom_action_end_call">通話を終了</string>
     <string name="bubble_bottom_action_hide">非表示にする</string>
@@ -170,7 +182,10 @@
     <string name="call">音声通話</string>
     <string name="callFailed_simError">SIMがない、またはSIMエラー</string>
     <string name="callHistoryIconLabel">通話履歴</string>
-    <string name="call_announcer_preference_footer_instruction_text">通話着信時に発信者の名前と電話番号が読み上げられます</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">通話着信時に発信者の名前と電話番号が読み上げられます。</string>
     <string name="call_announcer_preference_list_title">発信者番号の読み上げ</string>
     <string name="call_announcer_preference_option_always">常時</string>
     <string name="call_announcer_preference_option_headset">ヘッドセットを使用している場合のみ</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">応答</string>
     <string name="call_incoming_answer_rtt">RTT で応答</string>
     <string name="call_incoming_answer_voice">音声で応答</string>
-    <string name="call_incoming_chip_answer_and_release">応答して現在の通話を終了</string>
+    <string name="call_incoming_chip_answer_and_release">応答/他の通話を終了</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT 通話として応答</string>
     <string name="call_incoming_chip_answer_video_as_audio">音声通話として応答</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">ビデオをオフにして応答</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">上にスワイプして応答</string>
     <string name="call_incoming_swipe_to_reject">下にスワイプして拒否</string>
     <string name="call_incoming_video_is_off">ビデオがオフになっています</string>
-    <string name="call_incoming_will_disconnect">着信に応答するとビデオハングアウトは終了します</string>
+    <string name="call_incoming_will_disconnect">着信に応答すると、進行中の通話が終了します</string>
     <string name="call_incoming_will_disconnect_app">応答すると、%1$s の通話は終了します</string>
     <string name="call_isdn">ISDNに発信</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">ブロックして迷惑電話として報告</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">用件: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">録音ファイルを保存しました。</string>
     <string name="call_recording_conversation_history_entry">録音</string>
+    <string name="call_recording_delete_snack_bar_undo">元に戻す</string>
     <string name="call_recording_disclaimer_agreen_button_text">録音を開始</string>
     <string name="call_recording_disclaimer_content">"あなたまたは通話相手の国や地域によっては通話の参加者全員が 録音に同意する必要があるため、通話が録音される旨が事前に全員に通知されます。 会話の録音に関する法律に従うかどうかは、あなたの判断に委ねられます。通話の録音機能の使用には責任を持ち、 必要な場合のみオンにしてください。
 ^1
@@ -291,6 +307,7 @@
 通話音声と通話の文字起こしのどちらについても、Google を含む第三者に送信されることはありません。"</string>
     <string name="call_screen_demo_page_4_title">時間と手間を省けます</string>
     <string name="call_screen_demo_setting_title">デモを見る</string>
+    <string name="call_screen_demo_settings_title">デモを見る</string>
     <string name="call_screen_demo_title">通話スクリーニングの仕組み</string>
     <string name="call_screen_demo_unable_to_fetch_audio">サンプル音声を取得できません</string>
     <string name="call_screen_demo_unable_to_play_audio">サンプル音声を再生できません</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">この通話を終了しました</string>
     <string name="call_screen_end_call_non_local_internal_message">通話が切断されました</string>
     <string name="call_screen_how_it_works_setting_title">通話スクリーニングはご利用のデバイス上で動作するため、Wi-Fi もモバイルデータも必要ありません。会話の文字起こしが生成され、スマートフォン上にのみ保存されます。%1$s</string>
+    <string name="call_screen_how_it_works_title">通話スクリーニングはご利用のデバイス上で動作するため、Wi-Fi もモバイルデータも必要ありません。会話の文字起こしが生成され、スマートフォン上にのみ保存されます。^1</string>
     <string name="call_screen_incallui_chip_text">通話をスクリーニングする</string>
     <string name="call_screen_join_call_button_content_description">電話に出る</string>
     <string name="call_screen_join_call_internal_message">この通話に参加しました</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">発信者に対して発言中</string>
     <string name="call_screen_screening_call_from">着信をスクリーニング中</string>
     <string name="call_screen_setting_title">通話スクリーニング</string>
+    <string name="call_screen_settings_title">通話スクリーニング</string>
     <string name="call_screen_speaker_toggle_button_content_description">スピーカー ボタン</string>
     <string name="call_screen_suggestions_avatar_content_description">ロゴ</string>
     <string name="call_screen_survey_cancel_button">キャンセル</string>
@@ -331,6 +350,8 @@
     <string name="call_work">勤務先に発信</string>
     <string name="call_work_mobile">モバイルデバイス（勤務先）に発信</string>
     <string name="call_work_pager">ポケベル（勤務先）に発信</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">SIM %3$s で %2$s さんから%1$s通話を着信中</string>
     <string name="caller_id_announcement_single_sim">%2$s さんから%1$s通話を着信中</string>
     <string name="caller_id_business_data_details">これらの機能で使用されるデータは Google とそのライセンサーが提供しています。 ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">%s さんに発信しますか？</string>
     <string name="calllog_add_to_contact">既存の連絡先に追加</string>
     <string name="calllog_create_new_contact">新しい連絡先を作成</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">カメラへのアクセスを自動で許可しました</string>
     <string name="camera_privacy_text">カメラへのアクセスを自動で許可しました</string>
     <string name="cannot_understand_description">内容をよく理解できませんでした</string>
     <string name="car_crash_emergency_intro">"この緊急通報は自動緊急音声サービスを使用して発信されています。
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
     <string name="checkbox_report_as_spam_action">通話を迷惑電話として報告する</string>
     <string name="child_number">%sに着信</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">連絡先を選択</string>
     <string name="clear_button_content_description">検索をクリア</string>
     <string name="clear_text_end_icon_content_description">テキストを消去</string>
     <string name="cli_not_supported_text">通話アプリを開いて続行してください</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">通話の確認を設定できませんでした。[設定] で有効にしてください。</string>
     <string name="contact_card_video_icon_content_description">^1 さんにビデオ通話を発信</string>
     <string name="contact_grid_callback_number">この電話の番号: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">通話は転送されました</string>
+    <string name="contact_grid_hd_icon_content_description">HD 通話</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD+ 通話</string>
     <string name="contact_grid_incoming_bidirectional_video_call">携帯通信会社経由でビデオ通話を着信中</string>
     <string name="contact_grid_incoming_reception_only_video_call">携帯通信会社経由で単方向のビデオ通話を着信中</string>
     <string name="contact_grid_incoming_rtt_call">次の発信者からの RTT 通話:</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi 経由でビデオ通話を着信中</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi 経由で単方向のビデオ通話を着信中</string>
     <string name="contact_grid_incoming_work_call">仕事の通話の着信</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">もう片方のデータ通信接続を使用した通話</string>
+    <string name="contact_grid_spam_icon_content_description">迷惑電話</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">携帯通信会社</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s で確認済み</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">確認済みの電話番号</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">ビデオオーバー LTE 通話</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">ビデオオーバー Wi-Fi 通話</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">ボイスオーバー 4G 通話</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">ボイスオーバー LTE 通話</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">ボイスオーバー Wi-Fi 通話</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi 通話</string>
+    <string name="contact_grid_work_icon_content_description">仕事に関する通話</string>
     <string name="contact_menu_add_favorite">お気に入りに追加</string>
     <string name="contact_menu_contact_info">連絡先情報</string>
     <string name="contact_menu_invite_video">ビデオ通話に招待</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">今日</string>
     <string name="conversation_history_call_details_snack_bar_deleted">通話を削除しました</string>
     <string name="conversation_history_call_details_snack_bar_undo">元に戻す</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">重要な通話</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">追加された通話情報を表示</string>
+    <string name="conversation_history_call_recording_deleted">録音を削除しました</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">音声文字変換結果と音声</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">音声文字変換結果</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">通話スクリーニング</string>
     <string name="copy">コピー</string>
     <string name="copy_number">電話番号をコピー</string>
@@ -498,13 +538,18 @@
     <string name="custom_prefix_add_prefix_to_call_title">通話にプレフィックスを追加</string>
     <string name="custom_prefix_default_prefix_title">デフォルトのプレフィックス</string>
     <string name="custom_prefix_prefixes_preference_title">プレフィックス</string>
-    <string name="dark_theme_label">ダークテーマ</string>
+    <string name="dark_theme_label">ダークモード</string>
+    <string name="default_changed_confirmation">電話アプリがデフォルトとして設定されました</string>
+    <string name="default_image_content_description">スプラッシュ画像</string>
     <string name="delete">削除</string>
     <string name="delete_all_recordings_confirmation_dialog_title">通話の録音ファイルをすべて削除します</string>
     <string name="delete_all_recordings_now_error_message">削除できなかった録音ファイルがあります。もう一度お試しください。</string>
     <string name="delete_button_label">通話の録音ファイルをすべて削除</string>
     <string name="delete_confirmation_dialog_negative_button_label">キャンセル</string>
     <string name="delete_confirmation_dialog_positive_button_label">削除</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">録音を削除しています…</string>
     <string name="description_add_to_existing_contact_action">既存の連絡先に^1を追加します</string>
     <string name="description_blocked_number_list_delete">番号のブロックを解除</string>
     <string name="description_call_action">^1に発信します</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"この緊急通報は、通報者に代わって、自動緊急音声サービスから発信しています。
 通報者が危険にさらされている可能性があります。
 直ちに対応してください。"</string>
+    <string name="emergency_speaker">スピーカー</string>
     <string name="emergency_voice_assist_dialog_button_close">キャンセル</string>
     <string name="emergency_voice_assist_dialog_title">緊急サービスのオペレーターには次のように聞こえます</string>
     <string name="end_call_with_default_message_description">通話を終了</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">音量が小さすぎた</string>
     <string name="feedback_call_issue_title">どのような問題がありましたか？</string>
     <string name="feedback_title_please_rate">通話品質を評価してください</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">ふせるだけでサイレント モード</string>
-    <string name="flip_to_silence_summary">スマートフォンの画面を下にして平らな場所に置くと、着信通知がオフになります</string>
+    <string name="flip_to_silence_summary">着信音が鳴動中にスマートフォンの画面を下にして平らな場所に置くと、着信通知がオフになります</string>
     <string name="flip_to_silence_title">ふせるだけでサイレント モード</string>
+    <string name="foreground_notification_title">更新中…</string>
     <string name="frequent_contact_suggestion">よく使う連絡先</string>
     <string name="general_learn_more">詳細</string>
     <string name="generic_conference_call_name">通話中</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">録音ファイルの保存についての詳細をご覧ください</string>
     <string name="how_it_works_storage_template">スマートフォンの保存容量がなくなると、通話の録音が停止します。 ^1</string>
     <string name="icon_content_description">ダイアログ アイコン</string>
+    <string name="icon_description_shared_data_call">もう一つのデータ通信接続を使用した通話</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">番号をインポート</string>
     <string name="ims_video_heading">Verizon のビデオ通話</string>
@@ -731,7 +781,7 @@
     <string name="learn_more_text_for_tmo">詳しくは T-Mobile にアクセスしてください</string>
     <string name="libraries_material_featurehighlight_dismiss">閉じる</string>
     <string name="license_activity_label">オープンソース ライセンス</string>
-    <string name="light_theme_label">ライトテーマ</string>
+    <string name="light_theme_label">ライトモード</string>
     <string name="loading_intro_messages">通話スクリーニングを有効にしています（Wi-Fi が必要です）</string>
     <string name="local_search_dialog_text">これらの機能で使用するデータは Google とそのライセンサーが提供しています。 &lt;a href=\"%1$s\">詳細&lt;/a> &lt;p> この機能を利用するには、Google アプリがご利用のスマートフォンの位置情報にアクセスすることを許可してください。 &lt;a href=\"%2$s\">詳細&lt;/a></string>
     <string name="local_search_instruction_text">この設定をオンにすると、電話アプリからキーワードに一致する周辺の場所を検索する際にデバイスの位置情報が使用されるため、 連絡先にない場所でも見つけることができます。 %1$s</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">不在着信はありません</string>
     <string name="new_call_log_permission_no_calllog">通話履歴を表示するには、電話権限をONにしてください。</string>
     <string name="new_call_log_secondary_blocked">ブロック中</string>
+    <string name="new_call_log_secondary_verified">確認済みの通話</string>
     <string name="new_call_log_snack_bar_deleted">通話履歴を削除しました</string>
     <string name="new_call_log_snack_bar_undo">元に戻す</string>
     <string name="new_call_log_unknown">不明</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">ビデオ</string>
     <string name="notification_action_dismiss">拒否</string>
     <string name="notification_action_end_call">通話終了</string>
+    <string name="notification_action_mute_toggle">ミュート</string>
     <string name="notification_action_speaker_off">スピーカーを OFF にする</string>
     <string name="notification_action_speaker_on">スピーカーを ON にする</string>
+    <string name="notification_action_speaker_toggle">スピーカー</string>
     <string name="notification_callReasonMsg">用件: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi 経由で通話</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi 経由で仕事の通話</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">携帯通信会社のビデオ通話を発信するためのボタン</string>
     <string name="play">再生</string>
     <string name="plus_code_line_format">plus code: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">電話の理由を伝えられます</string>
     <string name="post_call_message_1">至急お伝えしたいことがあるので、折り返しお電話ください。</string>
     <string name="post_call_message_2">お時間のあるときにお電話ください。</string>
@@ -913,6 +968,8 @@
     <string name="privacy_policy_label">プライバシー ポリシー</string>
     <string name="private_num_non_verizon">非通知設定</string>
     <string name="private_num_verizon">制限されています</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">連絡先を選択する</string>
     <string name="ready_for_recording">準備しています…</string>
     <string name="record_greeting_cancel_label">キャンセル</string>
@@ -928,6 +985,8 @@
     <string name="record_greeting_uploading_greeting_message">保存中…</string>
     <string name="record_voicemail_greeting_title">応答メッセージを録音</string>
     <string name="recording_category_title">録音</string>
+    <string name="recording_deleted">録音を削除しました</string>
+    <string name="recording_deletion_failed">録音を削除できませんでした [再試行]</string>
     <string name="redo_button_text">再試行</string>
     <string name="remember_this_choice_label">この設定を記憶する</string>
     <string name="report_not_spam_alert_button">報告</string>
@@ -939,9 +998,20 @@
     <string name="request_call_back_description">後ほどおかけ直しください</string>
     <string name="request_email_description">ご用件をメールでお送りください</string>
     <string name="respond_via_sms_setting_title">クイック返信</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">オンにする</string>
     <string name="revelio_end_call_reject_as_spam">通話をスパムとしてマークしました</string>
     <string name="revelio_end_call_user_missed_internal_message">応答がありませんでした</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT は、聴覚障害や言語障害があるなど、音声だけではコミュニケーションを取ることが困難なユーザーをサポートする機能です。^1</string>
     <string name="rtt_assist_for_att">外付けの TTY キーボードの代わりに、画面に表示されるリアルタイム テキスト（RTT）キーボードを使用することができます。RTT 通話中にテキストを入力すると、入力されたメッセージがリアルタイムで通話相手に表示されます。^1</string>
     <string name="rtt_assist_for_tmo">外付けの TTY キーボードの代わりに、画面に表示されるリアルタイム テキスト（RTT）キーボードを使用できます。RTT は通話中に入力しているテキストを瞬時に送信するため、テキストを使用してリアルタイムでやり取りできます。メッセージ全体が入力される前に、部分的な返信を見ることができます。^1</string>
@@ -949,7 +1019,8 @@
     <string name="rtt_button_back">戻る</string>
     <string name="rtt_button_downgrade">音声通話に切り替える</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">この通話で RTT を利用することはできません。音声のみの通話として接続しました。</string>
+    <string name="rtt_call_downgraded_toast">RTT 通話を音声のみの通話に変更しました</string>
+    <string name="rtt_call_not_available_toast">この通話で RTT は使用できません</string>
     <string name="rtt_configuration_summary_always_visible">常にリアルタイム テキスト ボタンを表示する</string>
     <string name="rtt_configuration_summary_not_visible">リアルタイム テキスト通話の着信は許可するが、通話ボタンは非表示にする</string>
     <string name="rtt_configuration_summary_visible_during_call">通話中にリアルタイム テキスト ボタンを表示する</string>
@@ -978,6 +1049,8 @@
     <string name="rtt_transcript_link">音声を文字に変換する</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">このメッセージは繰り返し送信されます。</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">保存</string>
     <string name="saved_voicemails_action_title">保存済みボイスメール（%1$s 件）</string>
     <string name="search_hint">ビデオ通話ができる連絡先を検索</string>
@@ -1004,8 +1077,11 @@
     <string name="send_a_message">メッセージを送信</string>
     <string name="send_to_voicemail_import_failed">インポートに失敗しました</string>
     <string name="serial_number">シリアル番号</string>
+    <string name="set_as_default_button_text">デフォルトとして設定してください</string>
     <string name="set_default_account">このSIMを常に通話に使用する</string>
     <string name="set_default_account_description">連絡先に適用する SIM の設定が保存されます。</string>
+    <string name="set_phone_as_default_explanation_text">電話アプリで通話の発着信を行うには、これをデフォルトの通話アプリに設定する必要があります。</string>
+    <string name="set_phone_as_default_request_text">電話アプリをデフォルトとして設定してください</string>
     <string name="settings">設定</string>
     <string name="settings_page_call_recording_feature_not_available_text">現在の場所では通話の録音は使用できません</string>
     <string name="settings_page_crosby_feature_not_available_text">現在の場所では使用できません</string>
@@ -1040,6 +1116,8 @@
     <string name="snackbar_undo">元に戻す</string>
     <string name="snackbar_voicemail_deleted">ボイスメールの削除</string>
     <string name="sounds_and_vibration_title">音とバイブレーション</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">スパムの番号と通話スクリーニング</string>
     <string name="spam_blocking_promo_action_dismiss">閉じる</string>
     <string name="spam_blocking_promo_action_filter_spam">迷惑電話をフィルタリング</string>
@@ -1066,8 +1144,6 @@
     <string name="speed_dial_add_button_text">追加</string>
     <string name="speed_dial_contacts_permission_description">クイック アクセスを有効にするには、まず連絡帳へのアクセスを ON にしてください。</string>
     <string name="speed_dial_disambig_dialog_title">%s さんへの通話方法の選択</string>
-    <string name="speed_dial_education_content">連絡先を押し続けると、通話とメッセージの送信の操作を切り替えられます</string>
-    <string name="speed_dial_education_title">連絡方法を切り替える</string>
     <string name="speed_dial_no_contacts_action_text">連絡先をお気に入りに追加</string>
     <string name="speed_dial_no_contacts_description">ワンタップで連絡先に電話をかけられます</string>
     <string name="speed_dial_remember_this_choice">この設定を保存する</string>
@@ -1084,6 +1160,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">ありがとうございました</string>
     <string name="suggestions_header">よく使う連絡先</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="survey_account_and_system_info">アカウントとシステムに関する情報</string>
+    <string name="survey_app_id">アプリケーション ID</string>
+    <string name="survey_app_name">アプリ名</string>
+    <string name="survey_app_version">アプリのバージョン</string>
+    <string name="survey_application_data">アプリケーション データ</string>
+    <string name="survey_brand">ブランド</string>
+    <string name="survey_close_button_description">閉じる</string>
+    <string name="survey_default_prompt_title">Google のサービス改善にご協力ください。</string>
+    <string name="survey_device_model">端末のモデル</string>
+    <string name="survey_email_address">メールアドレス</string>
+    <string name="survey_google_play_services_version">Google Play 開発者サービスのバージョン</string>
+    <string name="survey_legal_text">続行すると、Google がサービス向上を目的として、お客様の回答と%1$sを%2$sと%3$sに則って使うことに同意したものとみなされます。</string>
+    <string name="survey_library_version">ライブラリのバージョン</string>
+    <string name="survey_network_request_failed">ネットワーク リクエストが失敗しました</string>
+    <string name="survey_neutral">どちらでもない</string>
+    <string name="survey_next">次へ</string>
+    <string name="survey_num_rating">%2$s 中 %1$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">ここにコメントを入力してください</string>
+    <string name="survey_open_text_no_pii">個人情報は入力しないでください</string>
+    <string name="survey_operating_system">オペレーティング システム</string>
+    <string name="survey_operating_system_version">オペレーティング システムのバージョン</string>
+    <string name="survey_other_option_hint">その他（具体的にご記入ください）</string>
+    <string name="survey_platform">プラットフォーム</string>
+    <string name="survey_privacy">プライバシー</string>
+    <string name="survey_prompt_no_thanks">回答しない</string>
+    <string name="survey_prompt_take_our_survey">質問を表示</string>
+    <string name="survey_smiley_rating">%2$s 件中 %1$s 番目の顔文字: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">やや不満</string>
+    <string name="survey_somewhat_satisfied">やや満足</string>
+    <string name="survey_submit">送信</string>
+    <string name="survey_system_info_dialog_title">アカウントとシステムに関する情報</string>
+    <string name="survey_terms">利用規約</string>
+    <string name="survey_thank_you_followup_message">他の質問に答えて、サービスの改善にご協力ください</string>
+    <string name="survey_timezone_offset">タイムゾーンのオフセット</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">ユーザー エージェント</string>
+    <string name="survey_very_dissatisfied">非常に不満</string>
+    <string name="survey_very_satisfied">非常に満足</string>
     <string name="system_default_theme_label">システムのデフォルト</string>
     <string name="tab_title_call_history">履歴</string>
     <string name="tab_title_contacts">連絡先</string>
@@ -1095,11 +1210,15 @@
     <string name="terms_of_service_label">利用規約</string>
     <string name="textmessage_button_label">メッセージ</string>
     <string name="theme_preference_label">テーマを選択</string>
+    <string name="tidepods_call_screen_settings_title">通話スクリーニング</string>
+    <string name="tidepods_incall_label_record">録画</string>
     <string name="toast_text_copied">テキストをコピーしました</string>
     <string name="toolbar_back">戻る</string>
     <string name="toolbar_close">閉じる</string>
     <string name="transcript_audio_feedback_chip_text">機能の改善にご協力ください</string>
+    <string name="transcript_audio_feedback_link_text">文字起こしと音声ファイルを表示</string>
     <string name="transcript_snippet_low_confidence_description">（音声が明瞭ではなかった）</string>
+    <string name="try_again_button">再試行</string>
     <string name="tty_configuration_title_tty_full">TTY フル</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY OFF</string>
@@ -1121,7 +1240,6 @@
     <string name="type_outgoing_video_pulled">別のデバイスに転送されたビデオ通話の発信</string>
     <string name="type_rejected">拒否した着信</string>
     <string name="type_voicemail">ボイスメール</string>
-    <string name="unable_change_value_error">RTT 設定の更新中にエラーが発生しました。戻ってもう一度お試しください。</string>
     <string name="unable_read_value_error">RTT 設定の読み取り中にエラーが発生しました。戻ってもう一度お試しください。</string>
     <string name="unblock_number">ブロックを解除</string>
     <string name="unblock_number_alert_details">この番号のブロックが解除され、迷惑電話ではないと報告されます（迷惑電話として識別されなくなります）。</string>
@@ -1130,6 +1248,7 @@
     <string name="unblock_number_ok">ブロックを解除</string>
     <string name="unblock_report_number_alert_title">%1$s のブロックを解除しますか？</string>
     <string name="unknown">不明</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">着信相手の音声ミュートを解除</string>
     <string name="user_is_busy_description">後ほど折り返す</string>
@@ -1241,10 +1360,17 @@
     <string name="videocall_remote_video_on">相手のビデオ: ON</string>
     <string name="videocall_remotely_held">通話保留中</string>
     <string name="videocall_remotely_resumed">通話が再開されました</string>
+    <string name="videocall_settings_default_carrier">携帯通信会社のビデオ通話</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">デフォルトのビデオ通話サービス</string>
+    <string name="videocall_settings_fallback_summary">携帯通信会社のビデオ通話サービスが利用できない場合は Duo に切り替える</string>
+    <string name="videocall_settings_fallback_title">Duo をバックアップとして使用する</string>
+    <string name="videocall_settings_title">ビデオ通話</string>
     <string name="videocall_show_preview_button_description">ローカル動画フィードを表示</string>
     <string name="view">表示</string>
     <string name="view_location_settings">位置情報の設定</string>
     <string name="vitle_label">LTE 経由のビデオ通話</string>
+    <string name="viwifi_label">ビデオオーバー Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">新しい PIN に無効な文字が含まれています。</string>
     <string name="vm_change_pin_error_mismatch">古い PIN が一致しません。</string>
     <string name="vm_change_pin_error_system_error">PIN を変更できませんでした</string>
@@ -1254,8 +1380,11 @@
     <string name="vm_change_pin_progress_message">お待ちください。</string>
     <string name="voice_call">音声通話</string>
     <string name="voice_call_button">音声通話</string>
+    <string name="voice_display_name">音声 %1$d</string>
     <string name="voice_search_not_available">音声検索を利用できません</string>
     <string name="voice_selector_preference_title">選択可能な音声</string>
+    <string name="voice_settings_available_voices_text">利用可能な音声</string>
+    <string name="voice_settings_title">音声</string>
     <string name="voicecall_button_label">通話</string>
     <string name="voicecall_button_wifi_description">Wi-Fi を使用して通話を発信</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s、%2$s</string>
@@ -1290,7 +1419,6 @@
     <string name="voicemail_donation_promo_title">音声文字変換機能の精度改善にご協力ください</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">データプランなしの SIM でビジュアル ボイスメールを使用すると、携帯通信会社の通信料がかかる場合があります</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ビジュアル ボイスメールは選択したデータ SIM でのみご利用いただけます</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">使用している複数の SIM の中に Fi の SIM がある場合、ビジュアル ボイスメールには Fi の SIM が使用されます</string>
     <string name="voicemail_error_activating_message">ビジュアル ボイスメールの有効化が完了するまでボイスメール通知を受信できません。新しいメッセージを取得するにはボイスメール サービスを呼び出してください。</string>
     <string name="voicemail_error_activating_title">ビジュアル ボイスメールを有効化中</string>
     <string name="voicemail_error_activation_disabled_message">セットアップを完了するには、ボイスメール サービスを呼び出してください</string>
@@ -1397,6 +1525,7 @@
     <string name="vvm3_error_vms_no_cellular_title">ボイス メールボックスに接続できません</string>
     <string name="vvm3_error_vms_timeout_message">エラーが発生しました。しばらくしてからもう一度お試しください。問題が解決しない場合は、カスタマー サービス（%1$s）にご連絡いただき、次のエラーコードをお伝えください。エラーコード: 9007</string>
     <string name="vvm3_error_vms_timeout_title">エラーが発生しました</string>
+    <string name="vvm_config_title">ビジュアル ボイスメールの設定</string>
     <string name="vvm_unsupported_message_format">サポートされていないメッセージ タイプです。%s 宛に電話をかけてメッセージをお聞きください。</string>
     <string name="wait_prompt_str">"次の番号を送信しますか？
 "</string>

@@ -17,14 +17,21 @@
         <item>15 минут</item>
         <item>20 минут</item>
         <item>25 минут</item>
-        <item>Хэзээ ч үгүй</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Унтлагын цагаас 15 мин өмнө</item>
+        <item>Унтлагын цагаас 30 мин өмнө</item>
+        <item>Унтлагын цагаас 45 мин өмнө</item>
+        <item>Унтлагын цагаас 1 цагийн өмнө</item>
+        <item>Унтраалттай</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Aналог</item>
         <item>Дижитал</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Хэзээ ч үгүй</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунд</item>
         <item>10 секунд</item>
         <item>15 секунд</item>
@@ -37,6 +44,35 @@
         <item>50 секунд</item>
         <item>55 секунд</item>
         <item>60 секунд</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 минутын дараа зогсооно</item>
+        <item>20 минутын дараа зогсооно</item>
+        <item>30 минутын дараа зогсооно</item>
+        <item>40 минутын дараа зогсооно</item>
+        <item>50 минутын дараа зогсооно</item>
+        <item>1 цагийн дараа зогсоох</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 минутын дараа зогсоох</item>
+        <item>20 минутын дараа зогсоох</item>
+        <item>30 минутын дараа зогсоох</item>
+        <item>40 минутын дараа зогсоох</item>
+        <item>50 минутын дараа зогсоох</item>
+        <item>1 цагийн дараа зогсоох</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>1 цаг</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минут</item>
@@ -69,18 +105,6 @@
         <item>28 минут</item>
         <item>29 минут</item>
         <item>30 минут</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Та хурдны мангас юм аа.</item>
-        <item>Хөдөлмөрийнхөө үр шимийг хүртээрэй.</item>
-        <item>Андройдууд хурдаараа алдартай, гэхдээ л таныг гүйцэхгүй юм байна!</item>
-        <item>Пүү.</item>
-        <item>L33t цаг.</item>
-        <item>Үнэхээр гайхалтай хурд.</item>
-        <item>Дахиад цаг хугацааг гажуудуулцгаая.</item>
-        <item>Зүгээр л зүүн талруугаа харай.</item>
-        <item>Та яарах ажилтай шүү.</item>
-        <item>Фотоны хурдтай.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалын арлууд</item>
@@ -148,7 +172,7 @@
         <item>Красноярск</item>
         <item>Бангкок</item>
         <item>Бэйжин</item>
-        <item>Хонг Конг</item>
+        <item>Хонконг</item>
         <item>Иркутск</item>
         <item>Куала Лумпур</item>
         <item>Перт</item>

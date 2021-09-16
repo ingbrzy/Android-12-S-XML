@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Щоб застосувати ці зміни, потрібний перезапуск. Перезапустіть пристрій або скасуйте зміни.</string>
     <string name="camera_hint">Камера: проведіть пальцем від значка</string>
     <string name="camera_label">відкрити камеру</string>
+    <string name="camera_recording_announcement">Камера записує</string>
+    <string name="camera_stopped_recording_announcement">Камера припинила запис</string>
     <string name="cancel">Скасувати</string>
     <string name="carrier_network_change_mode">Змінення мережі оператора</string>
     <string name="category_personal">Особисте</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Моніторинг</string>
     <string name="debug_networking_category">Мережі</string>
     <string name="debug_view_attributes">Увімкнути оцінку атрибуції переглядів</string>
+    <string name="defender_notify_des">Щоб допомогти подовжити термін роботи акумулятора, телефон обмежує заряджання</string>
+    <string name="defender_notify_learn_more">Докладніше</string>
+    <string name="defender_notify_resume_charge">Відновити заряджання</string>
+    <string name="defender_notify_title">Заряджання тимчасово обмежено</string>
     <string name="delete_blob_confirmation_text">Видалити ці спільні дані?</string>
     <string name="delete_blob_text">Видалити спільні дані</string>
     <string name="demo_mode">Демо-режим інтерфейсу системи</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Розблокування SIM-карти…</string>
     <string name="keyguard_try_fingerprint">Щоб відкрити, використайте відбиток пальця</string>
     <string name="keyguard_unlock">Проведіть пальцем угору, щоб відкрити</string>
+    <string name="keyguard_unlock_press">Натисніть, щоб відкрити</string>
     <string name="keywords_adb_wireless">adb, налагодження, розробка</string>
     <string name="keywords_alarms_and_reminders">запланувати, будильник, нагадування, годинник</string>
     <string name="kg_enter_confirm_pin_hint">Підтвердьте потрібний PIN-код</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Вибір клавіатури</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Мікрофон активовано</string>
+    <string name="mic_and_camera_recording_announcement">Камера й мікрофон записують</string>
+    <string name="mic_camera_stopped_recording_announcement">Камера й мікрофон припинили запис</string>
+    <string name="mic_recording_announcement">Мікрофон записує</string>
+    <string name="mic_stopped_recording_announcement">Мікрофон припинив запис</string>
     <string name="missed_call">Пропущений виклик</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобільний трафік</string>
@@ -1706,8 +1717,6 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_work_mode_label">Робочі додатки</string>
     <string name="quick_step_accessibility_toggle_overview">Увімкнути або вимкнути огляд</string>
     <string name="recent_conversations">Нещодавні розмови</string>
-    <string name="recents_quick_scrub_onboarding">Перетягуйте праворуч, щоб швидко переходити між додатками</string>
-    <string name="recents_swipe_up_onboarding">Проводьте пальцем угору, щоб переходити між додатками</string>
     <string name="remaining_length_format">Залишилося %1$s</string>
     <string name="remote_input_image_insertion_text">надіслане зображення</string>
     <string name="remove_from_settings">Видалити з додатка Налаштування</string>
@@ -2117,6 +2126,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="wallet_secondary_label_no_card">Додати картку</string>
     <string name="wallet_secondary_label_updating">Оновлення</string>
     <string name="wallet_title">Гаманець</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Точка доступу тимчасово переповнена</string>
     <string name="wifi_cant_connect">Не вдається під’єднатись</string>
     <string name="wifi_cant_connect_to_ap">Не вдається під’єднатися до мережі %1$s</string>

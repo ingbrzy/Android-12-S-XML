@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Бұл өзгеріс күшіне енуі үшін, құрылғыны қайта жүктеу керек. Қазір қайта жүктеңіз не бас тартыңыз.</string>
     <string name="camera_hint">Камераны ашу үшін белгішеден әрі қарай сырғытыңыз</string>
     <string name="camera_label">камераны ашу</string>
+    <string name="camera_recording_announcement">Камера жазып жатыр.</string>
+    <string name="camera_stopped_recording_announcement">Камера жазуды тоқтатты.</string>
     <string name="cancel">Бас тарту</string>
     <string name="carrier_network_change_mode">Оператор желісін өзгерту</string>
     <string name="category_personal">Жеке</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Бақылау</string>
     <string name="debug_networking_category">Желі орнату</string>
     <string name="debug_view_attributes">Көру төлсипатын тексеруді қосу</string>
+    <string name="defender_notify_des">Батарея жұмысын оңтайландыру үшін телефоныңыз зарядтауды шектеді.</string>
+    <string name="defender_notify_learn_more">Толығырақ</string>
+    <string name="defender_notify_resume_charge">Зарядтауды жалғастыру</string>
+    <string name="defender_notify_title">Зарядтау уақытша шектелген</string>
     <string name="delete_blob_confirmation_text">Осы ортақ деректерді шынымен жойғыңыз келе ме?</string>
     <string name="delete_blob_text">Ортақ деректерді жою</string>
     <string name="demo_mode">Жүйе интерфейсінің демо режимі</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM картасының құлпын ашуда…</string>
     <string name="keyguard_try_fingerprint">Ашу үшін саусақ ізін пайдаланыңыз.</string>
     <string name="keyguard_unlock">Ашу үшін жоғары қарай сырғытыңыз.</string>
+    <string name="keyguard_unlock_press">Ашу үшін басыңыз.</string>
     <string name="keywords_adb_wireless">adb, түзету, әзірлеуші</string>
     <string name="keywords_alarms_and_reminders">кесте, оятқыш, еске салғыш, сағат</string>
     <string name="kg_enter_confirm_pin_hint">Қажетті PIN кодын растаңыз</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Пернетақта ауыстырғышы</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофон қосулы</string>
+    <string name="mic_and_camera_recording_announcement">Камера мен микрофон жазып жатыр.</string>
+    <string name="mic_camera_stopped_recording_announcement">Камера мен микрофон жазуды тоқтатты.</string>
+    <string name="mic_recording_announcement">Микрофон жазып жатыр.</string>
+    <string name="mic_stopped_recording_announcement">Микрофон жазуды тоқтатты.</string>
     <string name="missed_call">Өткізіп алған қоңырау</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобильдік интернет</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Жұмыс қолданбалары</string>
     <string name="quick_step_accessibility_toggle_overview">Шолуды қосу/өшіру</string>
     <string name="recent_conversations">Соңғы әңгімелер</string>
-    <string name="recents_quick_scrub_onboarding">Қолданбаларды жылдам ауыстырып қосу үшін оңға қарай сүйреңіз</string>
-    <string name="recents_swipe_up_onboarding">Қолданбалар арасында ауысу үшін жоғары сырғытыңыз</string>
     <string name="remaining_length_format">%1$s қалды</string>
     <string name="remote_input_image_insertion_text">сурет жіберілді</string>
     <string name="remove_from_settings">Параметрлерден жою</string>
@@ -2117,6 +2126,7 @@ USB портын қайта пайдалануға болатын кезде х�
     <string name="wallet_secondary_label_no_card">Карта қосу</string>
     <string name="wallet_secondary_label_updating">Жаңартылуда</string>
     <string name="wallet_title">Әмиян</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Кіру нүктесі уақытша бос емес</string>
     <string name="wifi_cant_connect">Қосылу мүмкін емес</string>
     <string name="wifi_cant_connect_to_ap">\"%1$s\" қолданбасына қосылу мүмкін емес</string>

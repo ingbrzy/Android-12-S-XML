@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Javob berish</string>
     <string name="a11y_call_incoming_decline_description">Rad etish</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Wi-Fi orqali video muloqot qilish</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wi-Fi orqali ovozli chaqiruv qilish</string>
     <string name="a11y_conversation_history_entry_answered_call">Oxirgisi bu – ^1dan qabul qilingan chaqiruvdir.</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Qo‘ng‘iroq qiluvchilarni boshqarish</string>
     <string name="a11y_expandedsheet_collapse">menyuni yopish</string>
     <string name="a11y_expandedsheet_expand">menyuni ochish</string>
-    <string name="a11y_favorites_education_dismiss">yopish</string>
     <string name="a11y_feature_demo_next_page">Keyingi sahifa</string>
     <string name="a11y_feature_demo_page_indicator">%d-sahifa</string>
     <string name="a11y_feature_demo_prev_page">Avvalgi sahifa</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Tezkor chaqiruv, kontakt: ^1</string>
+    <string name="a11y_icon_hd">HD chaqiruv</string>
+    <string name="a11y_icon_hd_plus">HD Plus chaqiruv</string>
+    <string name="a11y_icon_shared_data_call">Umumiy mobil internet orqali chaqiruv</string>
+    <string name="a11y_icon_verified">Tasdiqlangan chaqiruv</string>
+    <string name="a11y_icon_vilte">Video chaqiruv (LTE)</string>
+    <string name="a11y_icon_viwifi">Video chaqiruv (Wi-Fi)</string>
+    <string name="a11y_icon_volte">Ovozli chaqiruv (LTE)</string>
+    <string name="a11y_icon_voz4g">Ovozli chaqiruv (4G)</string>
+    <string name="a11y_icon_wifi">Wi-Fi chaqiruv</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Chaqiruvga javob berish uchun ikki barmoq bilan tepaga, rad etish uchun ikki barmoq bilan pastga suring.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Chaqiruvga javob berish uchun ikki barmoq bilan tepaga, rad etish uchun esa pastga suring.</string>
     <string name="a11y_new_call_log_entry_call_recording">chaqiruv yozib olinmoqda</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 bilan RTT suhbat qilish</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Umumiy mobil internet orqali chaqiruv</string>
     <string name="a11y_new_call_log_entry_tap_action">menyuni ochish</string>
     <string name="a11y_new_call_log_entry_video_call">^1 bilan video suhbat boshlash</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">^1 bilan Wi-Fi orqali video muloqot qilish</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Chaqiruvdan oldin tahrirlash</string>
     <string name="action_menu_back_from_search">qidiruvni to‘xtatish</string>
     <string name="action_menu_overflow_description">Boshqa parametrlar</string>
+    <string name="activate_error_message">Chaqiruvlar filtri faollashtirilmadi</string>
+    <string name="activated_successfully">Chaqiruvlar filtri faollashtirildi</string>
     <string name="activity_not_available">Qurilmada buni bajaradigan ilova yo‘q</string>
     <string name="add_2sec_pause">2 soniyalik pauza qo‘shish</string>
     <string name="add_contact_not_available">Kontaktlarni ochadigan ilova yo‘q</string>
@@ -158,10 +170,10 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="blocked_numbers_disabled_emergency_header_label">Qo‘ng‘iroqlarni bloklash o‘chirilgan</string>
     <string name="bm_suggest_call_button">Chaqiruv</string>
     <string name="bm_suggest_chat_button">Chat</string>
-    <string name="bm_suggest_wait_min">"Kutish vaqti
-%1$d daq"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ta o‘qilmagan</string>
+    <string name="bm_suggest_wait_min">"Chat
+%1$d daqiqa kuting"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Kutib turing…"</string>
     <string name="bottomsheet_action_expand_halfway">Yarmiga kengaytirish</string>
     <string name="bubble_bottom_action_end_call">Chaqiruvni tugatish</string>
     <string name="bubble_bottom_action_hide">Berkitish</string>
@@ -170,7 +182,10 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="call">Ovozli chaqiruv</string>
     <string name="callFailed_simError">SIM karta yo‘q yoki SIM kartada xato</string>
     <string name="callHistoryIconLabel">Chaqiruvlar tarixi</string>
-    <string name="call_announcer_preference_footer_instruction_text">Kiruvchi chaqiruvlarda abonent ismi va raqami ovozli qilinadi</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Kiruvchi chaqiruvlarda abonent ismi va raqami talaffuz etiladi</string>
     <string name="call_announcer_preference_list_title">Abonent raqamini ovozli qilish</string>
     <string name="call_announcer_preference_option_always">Har doim</string>
     <string name="call_announcer_preference_option_headset">Faqat garnitura ishlatilayotganda</string>
@@ -203,7 +218,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="call_incoming_answer">Javob berish</string>
     <string name="call_incoming_answer_rtt">RTT yordamida javob berish</string>
     <string name="call_incoming_answer_voice">Ovoz bilan javob berish</string>
-    <string name="call_incoming_chip_answer_and_release">Tugatib, javob berish</string>
+    <string name="call_incoming_chip_answer_and_release">Javob berish va joyriy chaqiruvni tugatish</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT chaqiruvi sifatida</string>
     <string name="call_incoming_chip_answer_video_as_audio">Ovozli chaqiruvga javob berish</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Kamerani yoqmasdan javob berish</string>
@@ -219,7 +234,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="call_incoming_swipe_to_answer">Javob berish uchun tepaga suring</string>
     <string name="call_incoming_swipe_to_reject">Rad etish uchun pastga suring</string>
     <string name="call_incoming_video_is_off">Kamera yoqilmagan</string>
-    <string name="call_incoming_will_disconnect">Bu qo‘ng‘iroqqa javob berilsa, davom etayotgan video qo‘ng‘iroq tugatiladi.</string>
+    <string name="call_incoming_will_disconnect">Bu chaqiruvga javob berilsa, joriy chaqiruv tugatiladi</string>
     <string name="call_incoming_will_disconnect_app">Chaqiruvga javob berilsa, %1$s chaqiruvi tugatiladi.</string>
     <string name="call_isdn">ISDN telefon raqamiga qo‘ng‘iroq qilish</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Bloklash/spam deb belgilash</string>
@@ -255,6 +270,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos.^1"</string>
     <string name="call_reason_fragment_content_description">Chaqiruv sababi: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Yozuv saqlandi.</string>
     <string name="call_recording_conversation_history_entry">Yozib olingan</string>
+    <string name="call_recording_delete_snack_bar_undo">Bekor qilish</string>
     <string name="call_recording_disclaimer_agreen_button_text">Yozuvni boshlash</string>
     <string name="call_recording_disclaimer_content">"Siz yoki suhbatdoshingiz joylashuvi chaqiruvni yozib olish ruxsatini talab etadi. Chaqiruv yozib olinishidan avval undagi ishtirokchilar bu haqda xabardor qilinadi. Chaqiruv yozib olinishi talablariga rioya qilish sizga havola. Chaqiruvni yozib olish funksiyasidan mas’uliyat bilan va faqat kerakli paytda foydalaning 
 ^1
@@ -291,6 +307,7 @@ Yozib olingan chaqiruvlar faqat telefoningizga saqlanadi, xolos."</string>
 Chaqiruv audio yozuvi yoki uning transkripsiyasi Googlega yoki boshqalarga yuborilmaydi."</string>
     <string name="call_screen_demo_page_4_title">Keraksiz chaqiruvlarga javob bermang va vaqtingizni tejang</string>
     <string name="call_screen_demo_setting_title">Demo videoni tomosha qilish</string>
+    <string name="call_screen_demo_settings_title">Bu funksiyaga oid videoni tomosha qiling</string>
     <string name="call_screen_demo_title">Chaqiruvlar filtrining ishlash tartibi</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Audio namunasi olinmadi</string>
     <string name="call_screen_demo_unable_to_play_audio">Audio namunasini tinglash imkonsiz</string>
@@ -298,6 +315,7 @@ Chaqiruv audio yozuvi yoki uning transkripsiyasi Googlega yoki boshqalarga yubor
     <string name="call_screen_end_call_local_internal_message">Chaqiruvni yakunladingiz</string>
     <string name="call_screen_end_call_non_local_internal_message">Chaqiruv uzildi</string>
     <string name="call_screen_how_it_works_setting_title">Chaqiruvlar filtri ishida Wi-Fi yoki mobil internet ishlatilmaydi. Suhbat transkripsiyasi faqat telefoningizga saqlanadi. %1$s</string>
+    <string name="call_screen_how_it_works_title">Chaqiruvlar filtri ishida Wi-Fi yoki mobil internet ishlatilmaydi. Suhbat transkripsiyasi faqat telefoningizda yaratiladi va unga saqlanadi. ^1</string>
     <string name="call_screen_incallui_chip_text">Filtrlash</string>
     <string name="call_screen_join_call_button_content_description">Qabul qilish</string>
     <string name="call_screen_join_call_internal_message">Chaqiruvga javob berdingiz</string>
@@ -307,6 +325,7 @@ Chaqiruv audio yozuvi yoki uning transkripsiyasi Googlega yoki boshqalarga yubor
     <string name="call_screen_saying_to_the_caller_state">Abonentga deyapsiz</string>
     <string name="call_screen_screening_call_from">Chaqiruv tekshirilmoqda</string>
     <string name="call_screen_setting_title">Chaqiruvlar filtri</string>
+    <string name="call_screen_settings_title">Chaqiruvlar filtri</string>
     <string name="call_screen_speaker_toggle_button_content_description">Karnay tugmasi</string>
     <string name="call_screen_suggestions_avatar_content_description">Logotip</string>
     <string name="call_screen_survey_cancel_button">Bekor qilish</string>
@@ -331,6 +350,8 @@ Chaqiruv audio yozuvi yoki uning transkripsiyasi Googlega yoki boshqalarga yubor
     <string name="call_work">Ish telefoniga qo‘ng‘iroq qilish</string>
     <string name="call_work_mobile">Ishxona: mobil</string>
     <string name="call_work_pager">Ish peyjeriga qo‘ng‘iroq qilish</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">%3$s SIM-kartasiga kiruvchi %1$s chaqiruv, chaqiruvchi: %2$s</string>
     <string name="caller_id_announcement_single_sim">kiruvchi %1$s chaqiruv, chaqiruvchi: %2$s</string>
     <string name="caller_id_business_data_details">Bu funksiyalarda ishlatiladigan axborotlar Google va uning litsenziya beruvchilari tomonidan taqdim etiladi. ^1</string>
@@ -370,6 +391,9 @@ Chaqiruv audio yozuvi yoki uning transkripsiyasi Googlega yoki boshqalarga yubor
     <string name="calling_blocked_number_precall_dialog_title">%s raqamiga telefon qilinsimi?</string>
     <string name="calllog_add_to_contact">Kontaktga saqlash</string>
     <string name="calllog_create_new_contact">Kontakt yaratish</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Kameraga kirishga ruxsat berildi</string>
     <string name="camera_privacy_text">Kameraga kirishga ruxsat berildi</string>
     <string name="cannot_understand_description">Tushunmayapman</string>
     <string name="car_crash_emergency_intro">"Abonent siz bilan avtomatlashtirilgan favqulodda ovozli chaqiruvlar tizimi orqali bog‘landi.
@@ -392,7 +416,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="character_counter_overflowed_content_description">Harflar soni (%1$d) cheklovdan (%2$d) oshib ketdi</string>
     <string name="checkbox_report_as_spam_action">Spam haqida xabar berish</string>
     <string name="child_number">%s orqali</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Kontaktni tanlash</string>
     <string name="clear_button_content_description">Qidiruv maydonini tozalash</string>
     <string name="clear_text_end_icon_content_description">Matnni tozalash</string>
     <string name="cli_not_supported_text">Davom etish uchun telefonni oching</string>
@@ -432,6 +456,9 @@ Zudlik bilan yordam kerak."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Chaqiruvlarni tekshirish sozlanmadi. Uni sozlamalar orqali yoqing.</string>
     <string name="contact_card_video_icon_content_description">^1 bilan video muloqot qilish</string>
     <string name="contact_grid_callback_number">Bu telefonning raqami: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Chaqiruv uzatildi</string>
+    <string name="contact_grid_hd_icon_content_description">HD chaqiruvi</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus chaqiruvi</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Video chaqiruv</string>
     <string name="contact_grid_incoming_reception_only_video_call">1 tomonlama video chaqiruv:</string>
     <string name="contact_grid_incoming_rtt_call">Bu abonentdan RTT chaqiruv:</string>
@@ -442,9 +469,18 @@ Zudlik bilan yordam kerak."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi orqali video chaqiruv:</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi orqali 1 tomonlama video chaqiruv:</string>
     <string name="contact_grid_incoming_work_call">Ish telefoniga kimdan qo‘ng‘iroq:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Umumiy mobil internet orqali chaqiruv</string>
+    <string name="contact_grid_spam_icon_content_description">Spam chaqiruv</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Aloqa operatori</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s tasdiqladi</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Tekshirilgan raqam</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Video chaqiruv (LTE)</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Video chaqiruv (Wi-Fi)</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Ovozli chaqiruv (4G)</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Ovozli chaqiruv (LTE)</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Ovozli chaqiruv (Wi-Fi)</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi chaqiruv</string>
+    <string name="contact_grid_work_icon_content_description">Chaqiruv (ish)</string>
     <string name="contact_menu_add_favorite">Saralanganlarga</string>
     <string name="contact_menu_contact_info">Kontakt axboroti</string>
     <string name="contact_menu_invite_video">Video suhbatga taklif qilish</string>
@@ -479,8 +515,12 @@ Zudlik bilan yordam kerak."</string>
     <string name="conversation_history_call_details_header_today">Bugun</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Chaqiruv o‘chirildi</string>
     <string name="conversation_history_call_details_snack_bar_undo">Bekor qilish</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Muhim chaqiruv</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Batafsil axborotni chiqarish</string>
+    <string name="conversation_history_call_recording_deleted">Yozuv o‘chirildi</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkripsiya va audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkripsiya</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Audio transkripsiyasini ochish</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Chaqiruvlar filtri</string>
     <string name="copy">Nusxa olish</string>
     <string name="copy_number">Raqamni nusxalash</string>
@@ -499,12 +539,17 @@ Zudlik bilan yordam kerak."</string>
     <string name="custom_prefix_default_prefix_title">Birlamchi old qo‘shimcha</string>
     <string name="custom_prefix_prefixes_preference_title">Prefikslar</string>
     <string name="dark_theme_label">Tungi</string>
+    <string name="default_changed_confirmation">Telefon ilovasi birlamchi qilindi</string>
+    <string name="default_image_content_description">Ekran lavhasi tasviri</string>
     <string name="delete">O‘chirib tashlash</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Barcha yozuvlarni o‘chirish</string>
     <string name="delete_all_recordings_now_error_message">Ayrim yozuvlar o‘chirilmadi. Qayta urining.</string>
     <string name="delete_button_label">Barcha yozuvlarni tozalash</string>
     <string name="delete_confirmation_dialog_negative_button_label">Bekor qilish</string>
     <string name="delete_confirmation_dialog_positive_button_label">O‘chirish</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Yozuv o‘chirilmoqda…</string>
     <string name="description_add_to_existing_contact_action">Mavjud kontaktlarga qo‘shish: ^1</string>
     <string name="description_blocked_number_list_delete">Raqamni blokdan chiqarish</string>
     <string name="description_call_action">Chaqiruv: ^1</string>
@@ -607,6 +652,7 @@ Zudlik bilan yordam kerak."</string>
     <string name="emergency_sos_emergency_intro">"Abonent siz bilan avtomatlashtirilgan favqulodda ovozli chaqiruvlar tizimi orqali aloqaga chiqdi.
 Abonent favqulodda holatga tushgani haqida xabar berdi. 
 Unga yordam bering."</string>
+    <string name="emergency_speaker">Karnay</string>
     <string name="emergency_voice_assist_dialog_button_close">Bekor qilish</string>
     <string name="emergency_voice_assist_dialog_title">Favqulodda xizmatlar operatori bu matnni eshitadi</string>
     <string name="end_call_with_default_message_description">Tugatish</string>
@@ -636,9 +682,12 @@ Unga yordam bering."</string>
     <string name="feedback_call_issue_quiet_audio">Ovoz juda past edi</string>
     <string name="feedback_call_issue_title">Muammo nimada?</string>
     <string name="feedback_title_please_rate">Chaqiruv sifatini baholang</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Pastga qaratib jimlatish</string>
     <string name="flip_to_silence_summary">Kiruvchi chaqiruvlarni ovozsiz qilish uchun telefonni tekis yuzaga ekrani bilan pastga qaratib qo‘ying.</string>
     <string name="flip_to_silence_title">Ovozsiz rejimini yoqish</string>
+    <string name="foreground_notification_title">Yangilanmoqda…</string>
     <string name="frequent_contact_suggestion">Tez-tez aloqada</string>
     <string name="general_learn_more">Batafsil</string>
     <string name="generic_conference_call_name">Qo‘ng‘iroq davom etmoqda</string>
@@ -661,6 +710,7 @@ Unga yordam bering."</string>
     <string name="how_it_works_storage_link_text">Yozuvlar saqlab olinishi tartibi haqida batafsil</string>
     <string name="how_it_works_storage_template">Telefoningiz xotirasida joy qolmasa, suhbat yozib olinmaydi. ^1</string>
     <string name="icon_content_description">Muloqot ikonkasi</string>
+    <string name="icon_description_shared_data_call">Umumiy mobil internet orqali chaqiruv</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Raqamlarni import qilish</string>
     <string name="ims_video_heading">Verizon orqali video chaqiruv</string>
@@ -804,6 +854,7 @@ Unga yordam bering."</string>
     <string name="new_call_log_no_missed_calls">Hech qanday javobsiz chaqiruv topilmadi</string>
     <string name="new_call_log_permission_no_calllog">Chaqiruvlar jurnalini ko‘rish uchun ilovaga Telefon ruxsatnomasini bering.</string>
     <string name="new_call_log_secondary_blocked">Bloklanganlar</string>
+    <string name="new_call_log_secondary_verified">Tasdiqlangan chaqiruv</string>
     <string name="new_call_log_snack_bar_deleted">Chaqiruv o‘chirildi</string>
     <string name="new_call_log_snack_bar_undo">Bekor qilish</string>
     <string name="new_call_log_unknown">Noma’lum raqam</string>
@@ -818,8 +869,10 @@ Unga yordam bering."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Rad etish</string>
     <string name="notification_action_end_call">Suhbatni tugatish</string>
+    <string name="notification_action_mute_toggle">Ovozsiz qilish</string>
     <string name="notification_action_speaker_off">Karnayni oʻchirish</string>
     <string name="notification_action_speaker_on">Karnayni yoqish</string>
+    <string name="notification_action_speaker_toggle">Karnay</string>
     <string name="notification_callReasonMsg">Sababi: %s</string>
     <string name="notification_call_wifi_brand">Wi‑Fi chaqiruv</string>
     <string name="notification_call_wifi_work_brand">Wi-Fi qo‘ng‘iroq (ish)</string>
@@ -883,6 +936,8 @@ Unga yordam bering."</string>
     <string name="place_ims_button_content_description">Operator tarmog‘i orqali video chaqiruv qilish tugmasi.</string>
     <string name="play">Ijro</string>
     <string name="plus_code_line_format">+kod: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Chaqiruv maqsadini yozing</string>
     <string name="post_call_message_1">Bu juda shoshilinch. Menga qayta qo‘ng‘iroq qiling.</string>
     <string name="post_call_message_2">Imkoniyatingiz bo‘lganda, menga qayta qo‘ng‘iroq qiling.</string>
@@ -912,6 +967,8 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="privacy_policy_label">Maxfiylik siyosati</string>
     <string name="private_num_non_verizon">Maxfiy raqam</string>
     <string name="private_num_verizon">Yashirin raqam</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Kontaktni tanlang</string>
     <string name="ready_for_recording">Tayyorlanmoqda…</string>
     <string name="record_greeting_cancel_label">Bekor qilish</string>
@@ -927,6 +984,8 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="record_greeting_uploading_greeting_message">Saqlanmoqda…</string>
     <string name="record_voicemail_greeting_title">Salomlashuv yozib oling</string>
     <string name="recording_category_title">Audio yozuvlar</string>
+    <string name="recording_deleted">Yozuv o‘chirildi</string>
+    <string name="recording_deletion_failed">Yozuv o‘chirilmadi. [Qayta urining.]</string>
     <string name="redo_button_text">Qaytadan urinish</string>
     <string name="remember_this_choice_label">Shu tanlov eslab qolinsin</string>
     <string name="report_not_spam_alert_button">Xabar berish</string>
@@ -938,9 +997,20 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="request_call_back_description">Menga telefon qiling</string>
     <string name="request_email_description">Menga email yuboring</string>
     <string name="respond_via_sms_setting_title">Tezkor javoblar</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Yoqish</string>
     <string name="revelio_end_call_reject_as_spam">Chaqiruv spam deb belgilandi</string>
     <string name="revelio_end_call_user_missed_internal_message">Chaqiruvga javob berilmadi</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT kar, eshitish qobiliyati va nutqiy faoliyati buzilgan hamda ovozning o‘zi kifoya qilmaydigan shaxslar uchun mo‘ljallangan funksiyadir. ^1</string>
     <string name="rtt_assist_for_att">Real vaqt rejimida xabar almashinuv (RTT) funksiyasidagi ekran klaviaturasi tashqi TTY (teletayp) klaviaturasining muqobilidir. RTT chaqiruv vaqtida matnli xabar yuborsangiz, suhbatdoshingiz matn kiritayotganingizni real vaqtda kuzata oladi. ^1</string>
     <string name="rtt_assist_for_tmo">Ekranda real vaqt rejimida matn kiritish imkonini beruvchi klaviatura (RTT) tashqi TTY (teletayp) klaviaturasining muqobilidir. RTT chaqiruv paytida kiritilgan matnni ovozli xabarga tezkor o‘girib yuborish va shu bilan real vaqtda matnli xabar almashish imkonini beradi. Kiritilayotgan xabarni real vaqtda kuzatish imkoniyati mavjud. ^1</string>
@@ -948,7 +1018,8 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="rtt_button_back">Orqaga</string>
     <string name="rtt_button_downgrade">Ovozli suhbatga o‘tish</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Bu chaqiruvda RTT funksiyasidan foydalanish imkonsiz. Unda faqat ovozdan foydalanish mumkin, xolos.</string>
+    <string name="rtt_call_downgraded_toast">RTT chaqiruvingiz ovozli chaqiruvga almashtirildi</string>
+    <string name="rtt_call_not_available_toast">Bu chaqiruvda RTT funksiyasidan foydalanish imkonsiz</string>
     <string name="rtt_configuration_summary_always_visible">RTT tugmasidan xohlagan joydan turib foydalanish mumkin</string>
     <string name="rtt_configuration_summary_not_visible">Kiruvchi RTT chaqiruvlariga ruxsat berilsin, lekin chaqiruv tugmasi berkitilsin</string>
     <string name="rtt_configuration_summary_visible_during_call">Chaqiruv vaqtida RTT tugmasi berkitilmasin</string>
@@ -977,6 +1048,8 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="rtt_transcript_link">Transkripsiyani ko‘rish</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Bu xabar takrorlanadi.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Saqlash</string>
     <string name="saved_voicemails_action_title">Saqlangan ovozli pochta (%1$s)</string>
     <string name="search_hint">Video kontaktlar ichidan qidirish</string>
@@ -1003,8 +1076,11 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="send_a_message">Xabar yuborish</string>
     <string name="send_to_voicemail_import_failed">Import qilib bo‘lmadi</string>
     <string name="serial_number">Seriya raqami</string>
+    <string name="set_as_default_button_text">Birlamchi qilish</string>
     <string name="set_default_account">Har doim qo‘ng‘iroqlar u-n foyd-sin</string>
     <string name="set_default_account_description">Kontaktlar uchun SIM karta saqlandi.</string>
+    <string name="set_phone_as_default_explanation_text">Bu Telefon ilovasi birlamchi qilinsagina telefon qilish va chaqiruvlarni qabul qilish mumkin.</string>
+    <string name="set_phone_as_default_request_text">Telefon ilovasini birlamchi qilish</string>
     <string name="settings">Sozlamalar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Suhbatni yozib olish funksiyasi hududingizda ishlamaydi</string>
     <string name="settings_page_crosby_feature_not_available_text">Hududingizda ishlamaydi</string>
@@ -1039,6 +1115,8 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="snackbar_undo">Qaytarish</string>
     <string name="snackbar_voicemail_deleted">Ovozli pochta o‘chirildi</string>
     <string name="sounds_and_vibration_title">Tovushlar va tebranish</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam va chaqiruvlar filtri</string>
     <string name="spam_blocking_promo_action_dismiss">Yopish</string>
     <string name="spam_blocking_promo_action_filter_spam">Spamni filtrlash</string>
@@ -1065,8 +1143,6 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="speed_dial_add_button_text">Qo‘shish</string>
     <string name="speed_dial_contacts_permission_description">Tezkor raqam terish uchun Kontaktlar ilovasi ruxsatnomasini yoqing.</string>
     <string name="speed_dial_disambig_dialog_title">%s uchun birini tanlang</string>
-    <string name="speed_dial_education_content">Chaqiruv va xabarlar orasida almashish uchun kontakt ustiga bosib turing.</string>
-    <string name="speed_dial_education_title">Aloqaning boshqa usullari</string>
     <string name="speed_dial_no_contacts_action_text">Saralanganlarga kiritish</string>
     <string name="speed_dial_no_contacts_description">Saralangan kontaktlaringizga bir teginishda telefon qiling</string>
     <string name="speed_dial_remember_this_choice">Shu tanlov eslab qolinsin</string>
@@ -1094,11 +1170,15 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="terms_of_service_label">Foydalanish shartlari</string>
     <string name="textmessage_button_label">Xabar</string>
     <string name="theme_preference_label">Mavzuni tanlang</string>
+    <string name="tidepods_call_screen_settings_title">Chaqiruvlar filtri</string>
+    <string name="tidepods_incall_label_record">Yozib olish</string>
     <string name="toast_text_copied">Matn nusxalandi</string>
     <string name="toolbar_back">Orqaga</string>
     <string name="toolbar_close">Yopish</string>
     <string name="transcript_audio_feedback_chip_text">Yaxshilashga yordam bering</string>
+    <string name="transcript_audio_feedback_link_text">Audio transkripsiyasini ochish</string>
     <string name="transcript_snippet_low_confidence_description">(Audio aniq eshitilmadi)</string>
+    <string name="try_again_button">Qayta urinish</string>
     <string name="tty_configuration_title_tty_full">To‘liq funksiyali teletayp</string>
     <string name="tty_configuration_title_tty_hco">Suhbatdoshni eshitish imkoniyati bor teletayp</string>
     <string name="tty_configuration_title_tty_off">Teletayp yoqilmagan</string>
@@ -1120,7 +1200,6 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="type_outgoing_video_pulled">Chiquvchi videochaqiruv boshqa qurilmaga o‘tkazildi</string>
     <string name="type_rejected">Rad etilgan chaqiruv</string>
     <string name="type_voicemail">Ovozli pochta</string>
-    <string name="unable_change_value_error">RTT sozlamalarini o‘zgartirishda xatolik yuz berdi. Orqaga qayting va qayt urining.</string>
     <string name="unable_read_value_error">RTT sozlamalarini olishda xatolik yuz berdi. Orqaga qayting va qayt urining.</string>
     <string name="unblock_number">Blokdan chiqarish</string>
     <string name="unblock_number_alert_details">Bu raqam blokdan chiqariladi va undan keluvchi chaqiruvlar spam emas deb aniqlanadi.</string>
@@ -1129,6 +1208,7 @@ Ayrim telefon raqamlariga sozlamalarni o‘zgartirmasdan turib ham video chaqiru
     <string name="unblock_number_ok">Blokdan chiqarish</string>
     <string name="unblock_report_number_alert_title">%1$s raqami blokdan chiqarilsinmi?</string>
     <string name="unknown">Noma’lum</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Kiruvchi chaqiruvni ovozli qilish</string>
     <string name="user_is_busy_description">Keyinroq telefon qilaman</string>
@@ -1240,10 +1320,17 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="videocall_remote_video_on">Suhbatdosh kamerasi yoniq</string>
     <string name="videocall_remotely_held">Kutish holatida</string>
     <string name="videocall_remotely_resumed">Qo‘ng‘iroq tiklandi</string>
+    <string name="videocall_settings_default_carrier">Aloqa operatori orqali video chaqiruv</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Birlamchi video chaqiruv xizmati</string>
+    <string name="videocall_settings_fallback_summary">Aloqa operatori orqali video chaqiruv qilish imkonsizligida, Duo xizmatiga almashtirilsin</string>
+    <string name="videocall_settings_fallback_title">Duo xizmatini zaxira xizmati sifatida ishlatish</string>
+    <string name="videocall_settings_title">Video chaqiruv</string>
     <string name="videocall_show_preview_button_description">Shaxsiy video tasmani chiqarish</string>
     <string name="view">Ko‘rish</string>
     <string name="view_location_settings">Joylashuv sozlamalari</string>
     <string name="vitle_label">Video (LTE)</string>
+    <string name="viwifi_label">Video chaqiruv (Wi-Fi)</string>
     <string name="vm_change_pin_error_invalid">Yangi PIN kodda yaroqsiz belgilari bor.</string>
     <string name="vm_change_pin_error_mismatch">Eski PIN kod mos kelmayapti.</string>
     <string name="vm_change_pin_error_system_error">PIN kodni o‘zgartirib bo‘lmadi.</string>
@@ -1253,8 +1340,11 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="vm_change_pin_progress_message">Iltimos, kuting…</string>
     <string name="voice_call">Ovozli chaqiruv qilish</string>
     <string name="voice_call_button">Chaqiruv</string>
+    <string name="voice_display_name">%1$d-ovoz</string>
     <string name="voice_search_not_available">Ovozli qidiruv mavjud emas</string>
     <string name="voice_selector_preference_title">Mavjud ovozlar</string>
+    <string name="voice_settings_available_voices_text">Mavjud ovozlar</string>
+    <string name="voice_settings_title">Ovoz</string>
     <string name="voicecall_button_label">Chaqiruv</string>
     <string name="voicecall_button_wifi_description">Wi-Fi orqali chaqiruv</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s, %2$s</string>
@@ -1289,7 +1379,6 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="voicemail_donation_promo_title">Transkripsiya sifatini oshirishga yordam berasizmi?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Internet uchun to‘lovi oldindan qilinmagan SIM kartalar orqali vizual ovozli pochtadan foydalanilsa, operator tariflari asosida haq olinishi mumkin.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizual ovozli xabarlardan internet ulangan va tanlangan SIM karta orqali foydalanish mumkin, xolos.</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Agar bir nechta SIM kartangiz bo‘lib, ulardan bittasi Fi SIM kartasi bo‘lsa, vizual ovozli pochta uchun u ishlatiladi.</string>
     <string name="voicemail_error_activating_message">Vizual ovozli pochta xizmati faollashtirilmasa, yangi ovozli xabarlar haqida bildirishnoma kelmaydi. Ungacha ovozli pochta raqamiga terib, yangi xabarlarni tinglashingiz mumkin.</string>
     <string name="voicemail_error_activating_title">Vizual ovozli pochta faollashtirilmoqda</string>
     <string name="voicemail_error_activation_disabled_message">Xizmatni sozlashni tugallash uchun ovozli pochtaga telefon qiling.</string>
@@ -1396,6 +1485,7 @@ Bunda mobil trafik uchun haq olinadi."</string>
     <string name="vvm3_error_vms_no_cellular_title">Ovozli pochta qutisiga ulanib bo‘lmadi</string>
     <string name="vvm3_error_vms_timeout_message">Xatolik yuz berdi. Keyinroq qayta urining. Agar bu muammo hal bo‘lmasa, %1$s raqami orqali mijozlarga ko‘mak xizmatiga murojaat qiling va ularga xatolik kodi haqida xabar bering (kod: 9007).</string>
     <string name="vvm3_error_vms_timeout_title">Nimadir xato ketdi</string>
+    <string name="vvm_config_title">Vizual ovozli pochta sozlamasi</string>
     <string name="vvm_unsupported_message_format">Bunday xabar turi qo‘llab-quvvatlanmaydi. Uni eshitish uchun %s raqamiga qo‘ng‘iroq qiling.</string>
     <string name="wait_prompt_str">"Ushbu tovushlar jo‘natilsinmi?
 "</string>

@@ -17,14 +17,21 @@
         <item>15 ደቂቃዎች</item>
         <item>20 ደቂቃዎች</item>
         <item>25 ደቂቃዎች</item>
-        <item>በጭራሽ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>ከመኝታ ሰዓት 15 ደቂቃዎች በፊት</item>
+        <item>ከመኝታ ሰዓት 30 ደቂቃዎች በፊት</item>
+        <item>ከመኝታ ሰዓት 45 ደቂቃዎች በፊት</item>
+        <item>ከመኝታ ሰዓት 1 ሰዓት በፊት</item>
+        <item>ቅናሽ</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>አናሎግ</item>
         <item>ዲጂታል</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>በጭራሽ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 ሰከንዶች</item>
         <item>10 ሰከንዶች</item>
         <item>15 ሰከንዶች</item>
@@ -37,6 +44,35 @@
         <item>50 ሰከንዶች</item>
         <item>55 ሰከንዶች</item>
         <item>60 ሰከንዶች</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>ከ10 ደቂቃዎች በኋላ አቁም</item>
+        <item>ከ20 ደቂቃዎች በኋላ አቁም</item>
+        <item>ከ30 ደቂቃዎች በኋላ አቁም</item>
+        <item>ከ40 ደቂቃዎች በኋላ አቁም</item>
+        <item>ከ50 ደቂቃዎች በኋላ አቁም</item>
+        <item>ከ1 ሰዓት በኋላ አቁም</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>ከ10 ደቂቃ በኋላ አቁም</item>
+        <item>ከ20 ደቂቃ በኋላ አቁም</item>
+        <item>ከ30 ደቂቃ በኋላ አቁም</item>
+        <item>ከ40 ደቂቃ በኋላ አቁም</item>
+        <item>ከ50 ደቂቃ በኋላ አቁም</item>
+        <item>ከ1 ሰዓት በኋላ አቁም</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 ደቂቃዎች</item>
+        <item>20 ደቂቃዎች</item>
+        <item>30 ደቂቃዎች</item>
+        <item>40 ደቂቃዎች</item>
+        <item>50 ደቂቃዎች</item>
+        <item>1 ሰዓት</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 ደቂቃ</item>
@@ -69,18 +105,6 @@
         <item>28 ደቂቃዎች</item>
         <item>29 ደቂቃዎች</item>
         <item>30 ደቂቃዎች</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>ፈጣን ነዎት።</item>
-        <item>በልፋትዎ ውጤት ይደሰቱ።</item>
-        <item>Androidዎች ፈጣን በመሆን ይታወቃሉ፣ ግን የእርስዎን ያህል ፈጣን አይደሉም!</item>
-        <item>ኡፎይ።</item>
-        <item>L33t ጊዜ።</item>
-        <item>እንደዚህ ያለ እጅግ በጣም ከፍተኛ ፍጥነት።</item>
-        <item>የጊዜ ዋርፕ እንድገመው።</item>
-        <item>ወደ ግራ ዘለል ማለት ብቻ ነው።</item>
-        <item>የመጣደፍ ተሰጥዖ አለዎት</item>
-        <item>የብርሃን ፍጥነት።</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>የማርሻል ደሴቶች</item>

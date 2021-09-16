@@ -595,6 +595,8 @@ Auswahl"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Damit diese Änderung übernommen wird, musst du dein Gerät neu starten. Du kannst es jetzt neu starten oder den Vorgang abbrechen.</string>
     <string name="camera_hint">Zum Öffnen der Kamera vom Symbol wegwischen</string>
     <string name="camera_label">Kamera öffnen</string>
+    <string name="camera_recording_announcement">Kamera nimmt auf</string>
+    <string name="camera_stopped_recording_announcement">Aufnahme der Kamera gestoppt</string>
     <string name="cancel">Abbrechen</string>
     <string name="carrier_network_change_mode">Mobilfunknetzwerk wird gewechselt</string>
     <string name="category_personal">Privat</string>
@@ -653,7 +655,7 @@ Auswahl"</string>
     <string name="controls_in_progress">Läuft</string>
     <string name="controls_media_active_session">Die Mediensitzung kann nicht ausgeblendet werden.</string>
     <string name="controls_media_close_session">Diese Mediensitzung ausblenden?</string>
-    <string name="controls_media_dismiss_button">Ablehnen</string>
+    <string name="controls_media_dismiss_button">Ausblenden</string>
     <string name="controls_media_playing_item_description">%1$s von %2$s wird gerade über %3$s wiedergegeben</string>
     <string name="controls_media_resume">Fortsetzen</string>
     <string name="controls_media_settings_button">Einstellungen</string>
@@ -734,6 +736,10 @@ Wenn du weiterhin mobile Daten nutzt, können Gebühren anfallen."</string>
     <string name="debug_monitoring_category">Monitoring</string>
     <string name="debug_networking_category">Netzwerke</string>
     <string name="debug_view_attributes">Inspektion der Anzeigeattribute aktivieren</string>
+    <string name="defender_notify_des">Dein Smartphone schränkt das Laden ein, um deinen Akku zu schonen</string>
+    <string name="defender_notify_learn_more">Weitere Informationen</string>
+    <string name="defender_notify_resume_charge">Ladevorgang fortsetzen</string>
+    <string name="defender_notify_title">Laden vorübergehend eingeschränkt</string>
     <string name="delete_blob_confirmation_text">Bist du sicher, dass du diese geteilten Daten löschen möchtest?</string>
     <string name="delete_blob_text">Geteilte Daten löschen</string>
     <string name="demo_mode">Demomodus der System-UI</string>
@@ -1070,6 +1076,7 @@ wichtige"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM-Karte wird entsperrt...</string>
     <string name="keyguard_try_fingerprint">Mit Fingerabdruck öffnen</string>
     <string name="keyguard_unlock">Zum Öffnen nach oben wischen</string>
+    <string name="keyguard_unlock_press">Zum Öffnen klicken</string>
     <string name="keywords_adb_wireless">ADB, Debug, Dev</string>
     <string name="keywords_alarms_and_reminders">planen, Wecker, Erinnerung, Uhr</string>
     <string name="kg_enter_confirm_pin_hint">Gewünschten PIN-Code bestätigen</string>
@@ -1233,6 +1240,10 @@ Bitte versuche es in %2$d Sekunden noch einmal."</string>
     <string name="menu_ime">Tastaturwechsler</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon aktiv</string>
+    <string name="mic_and_camera_recording_announcement">Kamera und Mikrofon nehmen auf</string>
+    <string name="mic_camera_stopped_recording_announcement">Aufnahme von Kamera und Mikrofon gestoppt</string>
+    <string name="mic_recording_announcement">Mikrofon nimmt auf</string>
+    <string name="mic_stopped_recording_announcement">Aufnahme des Mikrofons gestoppt</string>
     <string name="missed_call">Verpasster Anruf</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobile Daten</string>
@@ -1706,8 +1717,6 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="quick_settings_work_mode_label">Geschäftliche Apps</string>
     <string name="quick_step_accessibility_toggle_overview">Übersicht ein-/ausblenden</string>
     <string name="recent_conversations">Neueste Unterhaltungen</string>
-    <string name="recents_quick_scrub_onboarding">Zum schnellen Wechseln der Apps nach rechts ziehen</string>
-    <string name="recents_swipe_up_onboarding">Nach oben wischen, um Apps zu wechseln</string>
     <string name="remaining_length_format">Restlaufzeit: %1$s</string>
     <string name="remote_input_image_insertion_text">Bild gesendet</string>
     <string name="remove_from_settings">Aus \"Einstellungen\" entfernen</string>
@@ -2117,6 +2126,7 @@ Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren."</string>
     <string name="wallet_secondary_label_no_card">Karte hinzufügen</string>
     <string name="wallet_secondary_label_updating">Wird aktualisiert</string>
     <string name="wallet_title">Geldbörse</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Zugangspunkt vorübergehend voll belegt</string>
     <string name="wifi_cant_connect">Verbindung nicht möglich</string>
     <string name="wifi_cant_connect_to_ap">Keine Verbindung zu \"%1$s\" möglich</string>

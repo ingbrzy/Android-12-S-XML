@@ -594,6 +594,8 @@ Selection"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Your device must be rebooted for this change to apply. Reboot now or cancel.</string>
     <string name="camera_hint">Swipe from icon for camera</string>
     <string name="camera_label">open camera</string>
+    <string name="camera_recording_announcement">Camera is recording</string>
+    <string name="camera_stopped_recording_announcement">Camera stopped recording</string>
     <string name="cancel">Cancel</string>
     <string name="carrier_network_change_mode">Operator network changing</string>
     <string name="category_personal">Personal</string>
@@ -728,6 +730,10 @@ If you resume, charges may apply for data usage."</string>
     <string name="debug_monitoring_category">Monitoring</string>
     <string name="debug_networking_category">Networking</string>
     <string name="debug_view_attributes">Enable view attribute inspection</string>
+    <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
+    <string name="defender_notify_learn_more">Learn more</string>
+    <string name="defender_notify_resume_charge">Resume charging</string>
+    <string name="defender_notify_title">Charging temporarily limited</string>
     <string name="delete_blob_confirmation_text">Are you sure that you want to delete this shared data?</string>
     <string name="delete_blob_text">Delete shared data</string>
     <string name="demo_mode">System UI demo mode</string>
@@ -1059,6 +1065,7 @@ only"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="keyguard_try_fingerprint">Use fingerprint to open</string>
     <string name="keyguard_unlock">Swipe up to open</string>
+    <string name="keyguard_unlock_press">Press to open</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">schedule, alarm, reminder, clock</string>
     <string name="kg_enter_confirm_pin_hint">Confirm desired PIN code</string>
@@ -1099,7 +1106,7 @@ only"</string>
     <string name="kg_prompt_reason_timeout_pin">PIN required for additional security</string>
     <string name="kg_prompt_reason_user_request">Device was locked manually</string>
     <string name="kg_puk_enter_pin_hint">Enter desired PIN code</string>
-    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact operator for details.</string>
     <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" is now disabled. Enter PUK code to continue. Contact operator for details.</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Disable eSIM to use device without mobile service.</string>
     <string name="kg_sim_pin_instructions">Enter SIM PIN.</string>
@@ -1210,6 +1217,10 @@ Try again in %2$d seconds."</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microphone active</string>
+    <string name="mic_and_camera_recording_announcement">Camera and microphone are recording</string>
+    <string name="mic_camera_stopped_recording_announcement">Camera and microphone stopped recording</string>
+    <string name="mic_recording_announcement">Microphone is recording</string>
+    <string name="mic_stopped_recording_announcement">Microphone stopped recording</string>
     <string name="missed_call">Missed call</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobile data</string>
@@ -1648,8 +1659,6 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_work_mode_label">Work apps</string>
     <string name="quick_step_accessibility_toggle_overview">Toggle Overview</string>
     <string name="recent_conversations">Recent conversations</string>
-    <string name="recents_quick_scrub_onboarding">Drag right to quickly switch apps</string>
-    <string name="recents_swipe_up_onboarding">Swipe up to switch apps</string>
     <string name="remaining_length_format">%1$s left</string>
     <string name="remote_input_image_insertion_text">sent an image</string>
     <string name="remove_from_settings">Remove from settings</string>
@@ -2056,6 +2065,7 @@ Any user can update apps for all other users."</string>
     <string name="wallet_secondary_label_no_card">Add a card</string>
     <string name="wallet_secondary_label_updating">Updating</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
     <string name="wifi_cant_connect">"Can't connect"</string>
     <string name="wifi_cant_connect_to_ap">"Can't connect to '%1$s'"</string>

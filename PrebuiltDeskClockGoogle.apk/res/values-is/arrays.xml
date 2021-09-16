@@ -17,14 +17,21 @@
         <item>15 mínútur</item>
         <item>20 mínútur</item>
         <item>25 mínútur</item>
-        <item>Aldrei</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 mínútum fyrir háttatíma</item>
+        <item>30 mínútum fyrir háttatíma</item>
+        <item>45 mínútum fyrir háttatíma</item>
+        <item>1 klukkustund fyrir háttatíma</item>
+        <item>Slökkt</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Með vísum</item>
         <item>Stafræn</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Aldrei</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekúndur</item>
         <item>10 sekúndur</item>
         <item>15 sekúndur</item>
@@ -37,6 +44,35 @@
         <item>50 sekúndur</item>
         <item>55 sekúndur</item>
         <item>60 sekúndur</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Stöðva eftir 10 mínútur</item>
+        <item>Stöðva eftir 20 mínútur</item>
+        <item>Stöðva eftir 30 mínútur</item>
+        <item>Stöðva eftir 40 mínútur</item>
+        <item>Stöðva eftir 50 mínútur</item>
+        <item>Stöðva eftir 1 klst.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Stöðva eftir 10 mín.</item>
+        <item>Stöðva eftir 20 mín.</item>
+        <item>Stöðva eftir 30 mín.</item>
+        <item>Stöðva eftir 40 mín.</item>
+        <item>Stöðva eftir 50 mín.</item>
+        <item>Stöðva eftir 1 klst.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 mínútur</item>
+        <item>20 mínútur</item>
+        <item>30 mínútur</item>
+        <item>40 mínútur</item>
+        <item>50 mínútur</item>
+        <item>1 klst.</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 mínúta</item>
@@ -69,18 +105,6 @@
         <item>28 mínútur</item>
         <item>29 mínútur</item>
         <item>30 mínútur</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Skolli ferðu hratt yfir.</item>
-        <item>Njóttu ávaxta erfiðisins.</item>
-        <item>Android er hraðvirkt en á ekkert í þig!</item>
-        <item>Hjúff.</item>
-        <item>Hér eru brögð í tafli.</item>
-        <item>Vonandi flýtirðu þér ekki svona mikið í öllu sem þú gerir.</item>
-        <item>Ég hljóp svo hratt að ég hrasaði og datt.</item>
-        <item>Bíddu, pabbi, bíddu mín.</item>
-        <item>Með háskólagráðu í hraða.</item>
-        <item>Á hraða ljóssins.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall-eyjar</item>

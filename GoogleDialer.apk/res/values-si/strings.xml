@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">පිළිතුරු දෙන්න</string>
     <string name="a11y_call_incoming_decline_description">ප්‍රතික්ෂේප කරන්න</string>
+    <string name="a11y_callscreen_animation">ඇමතුම් තිර සජීවනය</string>
     <string name="a11y_contact_menu_video_call_wifi">Wi-Fi භාවිතයෙන් වීඩියෝ ඇමතුමක් ගන්න</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wi-Fi භාවිතයෙන් හඬ ඇමතුමක් ගන්න</string>
     <string name="a11y_conversation_history_entry_answered_call">නවතම එක වන්නේ ^1 වෙතින් පිළිතුරු දුන් ඇමතුමකි</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">අමතන්නන් කළමනාකරණය කරන්න</string>
     <string name="a11y_expandedsheet_collapse">මෙනුව හකුළන්න</string>
     <string name="a11y_expandedsheet_expand">මෙනුව දිග හරින්න</string>
-    <string name="a11y_favorites_education_dismiss">වසන්න</string>
     <string name="a11y_feature_demo_next_page">ඊළඟ පිටුව</string>
     <string name="a11y_feature_demo_page_indicator">%d වෙනි පිටුව</string>
     <string name="a11y_feature_demo_prev_page">පෙර පිටුව</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1 සඳහා ඉක්මන් සම්බන්ධතාව</string>
+    <string name="a11y_icon_hd">HD ඇමතුම</string>
+    <string name="a11y_icon_hd_plus">HD ප්ලස් ඇමතුම</string>
+    <string name="a11y_icon_shared_data_call">බෙදා ගත් දත්ත ඇමතුම</string>
+    <string name="a11y_icon_verified">සත්‍යාපිත ඇමතුම</string>
+    <string name="a11y_icon_vilte">LTE ඇමතුම ඔස්සේ වීඩියෝව</string>
+    <string name="a11y_icon_viwifi">WiFi ඇමතුම ඔස්සේ වීඩියෝව</string>
+    <string name="a11y_icon_volte">LTE ඇමතුම ඔස්සේ කටහඬ</string>
+    <string name="a11y_icon_voz4g">4G ඇමතුම ඔස්සේ කටහඬ</string>
+    <string name="a11y_icon_wifi">WiFi ඇමතුම</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">පිළිතුරු දීමට ඇඟිලි දෙකකින් ඉහළට ස්වයිප් කරන්න, ප්‍රතික්ෂේප කිරීමට ඇඟිලි දෙකකින් පහළට ස්වයිප් කරන්න.</string>
     <string name="a11y_incoming_call_swipe_to_answer">ඇමතුමට පිළිතුරු දීමට ඇඟිලි දෙකකින් ඉහළට ස්වයිප් කරන්න නැතහොත් ප්‍රතික්ෂේප කිරීමට පහළට ස්වයිප් කරන්න</string>
     <string name="a11y_new_call_log_entry_call_recording">ඇමතුම පටිගත විය</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 මත</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 වෙත RTT ඇමතුමක් ගන්න</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">බෙදා ගත් දත්ත ඇමතුම</string>
     <string name="a11y_new_call_log_entry_tap_action">මෙනුව දිග හරින්න</string>
     <string name="a11y_new_call_log_entry_video_call">^1 හට වීඩියෝ ඇමතුමක් කරන්න</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">Wi-Fi භාවිතයෙන් ^1 වෙත වීඩියෝ ඇමතුමක් කරන්න</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">ඇමතීමට පෙර අංකය සංස්කරණය කරන්න</string>
     <string name="action_menu_back_from_search">සෙවීම අවසන් කරන්න</string>
     <string name="action_menu_overflow_description">තවත් විකල්ප</string>
+    <string name="activate_error_message">ඇමතුම් තිරය සක්‍රිය කිරීමේ ගැටලුවකි</string>
+    <string name="activated_successfully">ඇමතුම් තිරය සක්‍රියයි</string>
     <string name="activity_not_available">මෙම උපාංගයෙහි ඒ සඳහා යෙදුමක් නැත</string>
     <string name="add_2sec_pause">තත්පර 2ක විරාමයක් එක් කරන්න</string>
     <string name="add_contact_not_available">සබඳතා යෙදුම ලබා ගැනීමට නොහැකිය</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">අමතන්න</string>
     <string name="bm_suggest_chat_button">කතාබස්</string>
     <string name="bm_suggest_wait_min">"කතාබහ
-විනාඩි %1$d රැඳීම"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, නොකියවූ %2$s</string>
+වි%1$dක් රැඳීම"</string>
+    <string name="bm_suggest_wait_time_estimating">"කතාබහ
+වැඩ කරයි…"</string>
     <string name="bottomsheet_action_expand_halfway">අඩක් දිග හරින්න</string>
     <string name="bubble_bottom_action_end_call">ඇමතුම අවසන් කරන්න</string>
     <string name="bubble_bottom_action_hide">සඟවන්න</string>
@@ -170,7 +182,10 @@
     <string name="call">හඬ ඇමතුම</string>
     <string name="callFailed_simError">SIM නැත හෝ SIM දෝෂයක්</string>
     <string name="callHistoryIconLabel">ඇමතුම් ඉතිහාසය</string>
-    <string name="call_announcer_preference_footer_instruction_text">පැමිණෙන ඇමතුම් සඳහා අමතන්නාගේ නම සහ අංකය ශබ්ද නඟා කියවනු ලැබේ</string>
+    <string name="call_action_label_automatically_screen">ස්වයංක්‍රීයව තිරගත කරන්න. රොබෝ ඇමතුම් ප්‍රතික්ෂේප කරන්න.</string>
+    <string name="call_action_label_ring_phone">දුරකථනය නාද කරන්න (පෙරනිමි)</string>
+    <string name="call_action_label_silently_decline">නිහඬව ප්‍රතික්ෂේප කරන්න</string>
+    <string name="call_announcer_preference_footer_instruction_text">පැමිණෙන ඇමතුම් සඳහා අමතන්නාගේ නම සහ අංකය ශබ්ද නඟා කියවනු ලැබේ.</string>
     <string name="call_announcer_preference_list_title">අමතන්නාගේ ID නිවේදනය කරන්න</string>
     <string name="call_announcer_preference_option_always">සැම විට ම</string>
     <string name="call_announcer_preference_option_headset">හෙඩ්සෙටයක් භාවිතා කරන විට පමණි</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">පිළිතුරු දෙන්න</string>
     <string name="call_incoming_answer_rtt">RTT සහිතව පිළිතුරු දෙන්න</string>
     <string name="call_incoming_answer_voice">හඬ සහිතව පිළිතුරු දෙන්න</string>
-    <string name="call_incoming_chip_answer_and_release">ඇමතුමට පිළිතුරු දී අවසන් කරන්න</string>
+    <string name="call_incoming_chip_answer_and_release">පිළිතුරු දී අනෙක් ඇමතුම නිමා කරන්න</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT ඇමතුම ලෙස උත්තර දෙන්න</string>
     <string name="call_incoming_chip_answer_video_as_audio">හඬ ඇමතුම ලෙස පිළිතුරු දෙන්න</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">මගේ වීඩියෝව ක්‍රියාවිරහිතව පිළිතුරු දෙන්න</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">පිළිතුරු දීමට ඉහළට ස්වයිප් කරන්න</string>
     <string name="call_incoming_swipe_to_reject">ප්‍රතික්ෂේප කිරීමට පහළට ස්වයිප් කරන්න</string>
     <string name="call_incoming_video_is_off">ඔබේ වීඩියෝව ක්‍රියාවිරහිත කර ඇත</string>
-    <string name="call_incoming_will_disconnect">මෙම ඇමතුමට පිළිතුරු දීම ඔබේ වීඩියෝ ඇමතුම අවසන් කරනු ඇත</string>
+    <string name="call_incoming_will_disconnect">මෙම ඇමතුමට පිළිතුරු දීම ඔබේ අනෙක් ඇමතුම නිමා කරනු ඇත</string>
     <string name="call_incoming_will_disconnect_app">පිළිතුරු දීම ඔබේ %1$s ඇමතුම අවසන් කරනු ඇත</string>
     <string name="call_isdn">ISDN අමතන්න</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">අයාචිත අවහර කරන්න/වාර්තා කරන්න</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">ඇමතුමේ හේතුව: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">පටිගත කිරීම සුරැකිණි.</string>
     <string name="call_recording_conversation_history_entry">පටිගත කරන ලදි</string>
+    <string name="call_recording_delete_snack_bar_undo">පසුගමනය කරන්න</string>
     <string name="call_recording_disclaimer_agreen_button_text">පටිගත කිරීම ආරම්භ කරන්න</string>
     <string name="call_recording_disclaimer_content">"ඔබ හෝ ඔබේ ඇමතුමේ සිටින අනෙක් පුද්ගලයා පටිගත වීමට සියලු දෙනාම අනුමත කරන තැනක සිටීම අවශ්‍ය කෙරේ. ඇමතුම පටිගත කෙරෙන බව සියලු දෙනාටම කලින්ම දැනුම් දෙනු ලැබේ. සංවාද පටිගත කිරීම ගැන නීති අනුගමන කිරීම ඔබ සතු ය. ඇමතුම් පටිගත කිරීම වගකීමෙන් භාවිත කරන අතර අවශ්‍ය විට පමණක් එය සක්‍රීය කරන්න.
 ^1
@@ -291,6 +307,7 @@
 ඇමතුම් ශ්‍රව්‍ය හෝ ඇමතුමේ පිටපත Google ඇතුළු කිසිවෙකුට යවනු නොලැබේ."</string>
     <string name="call_screen_demo_page_4_title">කාලය ඉතිරි කර ගන්න සහ කලකිරීමෙන් වළකින්න</string>
     <string name="call_screen_demo_setting_title">ආදර්ශයක් බලන්න</string>
+    <string name="call_screen_demo_settings_title">ආදර්ශයක් බලන්න</string>
     <string name="call_screen_demo_title">ඇමතුම් තිරය ක්‍රියා කරන ආකාරය</string>
     <string name="call_screen_demo_unable_to_fetch_audio">නියැදි ශ්‍රව්‍යය ගෙන ඒමට නොහැකිය</string>
     <string name="call_screen_demo_unable_to_play_audio">නියැදි ශ්‍රව්‍යය වාදනය කළ නොහැකිය</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">ඔබ ඇමතුම අවසන් කළේය</string>
     <string name="call_screen_end_call_non_local_internal_message">ඇමතුම විසන්ධි විය</string>
     <string name="call_screen_how_it_works_setting_title">ඔබගේ උපාංගයේ Wi-Fi හෝ දත්ත නොමැතිව ඇමතුම් තිරය ක්‍රියා කරයි. සංවාද පිටපත් ජනනය කර ගබඩා කර ඇත්තේ ඔබගේ දුරකථනයේ පමණි. %1$s</string>
+    <string name="call_screen_how_it_works_title">ඔබේ උපාංගයෙහි Wi-Fi හෝ දත්ත නොමැතිව ඇමතුම් තිරය ක්‍රියා කරයි. සංවාද අනුපත් උත්පාදනය කර ගබඩා කර ඇත්තේ ඔබේ දුරකථනයෙහි පමණි. ^1</string>
     <string name="call_screen_incallui_chip_text">ඇමතුම පිරික්සන්න</string>
     <string name="call_screen_join_call_button_content_description">ඇමතුමට එක් වන්න</string>
     <string name="call_screen_join_call_internal_message">ඔබ ඇමතුමට සම්බන්ධ විය</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">අමතන්නාට කියන්නේ</string>
     <string name="call_screen_screening_call_from">වෙතින් ඇමතුම පරීක්ෂා කෙරේ</string>
     <string name="call_screen_setting_title">ඇමතුම් තිරය</string>
+    <string name="call_screen_settings_title">ඇමතුම් තිරය</string>
     <string name="call_screen_speaker_toggle_button_content_description">ස්පීකර බොත්තම</string>
     <string name="call_screen_suggestions_avatar_content_description">ලාංඡනය</string>
     <string name="call_screen_survey_cancel_button">අවලංගු කරන්න</string>
@@ -331,6 +350,8 @@
     <string name="call_work">කාර්යාලය අමතන්න</string>
     <string name="call_work_mobile">කාර්යාල ජංගම දුරකථනය අමතන්න</string>
     <string name="call_work_pager">කාර්යාල පේජරය අමතන්න</string>
+    <string name="caller_action_error_cant_load_value">වත්මන් %1$s අගය ලබා ගත නොහැකි වේ</string>
+    <string name="caller_action_error_cant_set_value">%1$s අගය සුරැකීමට නොහැකි වේ</string>
     <string name="caller_id_announcement_multi_sim">%3$s sim හි%2$s වෙතින් එන %1$s ඇමතුම</string>
     <string name="caller_id_announcement_single_sim">%2$s වෙතින් එන %1$s ඇමතුම</string>
     <string name="caller_id_business_data_details">මෙම විශේෂාංගවල භාවිත වන දත්ත Google සහ එහි බලපත්‍රලාභීන් විසින් සපයයි. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">%s අමතන්නද?</string>
     <string name="calllog_add_to_contact">සම්බන්ධතාවකට එක් කරන්න</string>
     <string name="calllog_create_new_contact">නව සම්බන්ධතාව තනන්න</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">ඇමතුම් තිරය සක්‍රිය කරමින් (WiFi අවශ්‍යයි)</string>
+    <string name="callscreen_settings_voice_setting_title">කටහඬ</string>
+    <string name="camera_permission_toast">කැමරා අවසර සබල කර ඇත</string>
     <string name="camera_privacy_text">කැමරා අවසර සබල කර ඇත</string>
     <string name="cannot_understand_description">මට නොතේරෙමි</string>
     <string name="car_crash_emergency_intro">"අමතන්නකු වෙනුවෙන් ස්වයංක්‍රිය හදිසි අවස්ථා හඬ සේවාවක් මගින් ඔබට අමතමින් තිබේ.
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">අනුලකුණු සීමාව %2$dකින් %1$d ඉක්ම විය</string>
     <string name="checkbox_report_as_spam_action">ඇමතුම අයාචිත ලෙස වාර්තා කරන්න</string>
     <string name="child_number">%s හරහා</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">සම්බන්ධතාවක් තෝරා ගන්න</string>
     <string name="clear_button_content_description">සෙවීම හිස් කරන්න</string>
     <string name="clear_text_end_icon_content_description">පෙළ හිස් කරන්න</string>
     <string name="cli_not_supported_text">ඉදිරියට යාමට දුරකථනය විවෘත කරන්න</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">සත්‍යාපිත ඇමතුම සැකසීමට නොහැකි විය. ඔබට සැකසීම් තුළ නැවත සබල කළ හැක.</string>
     <string name="contact_card_video_icon_content_description">^1 හට වීඩියෝ ඇමතුමක් දෙන්න</string>
     <string name="contact_grid_callback_number">මෙම දුරකථනයෙහි අංකය වන්නේ: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">ඇමතුම යොමු කරන ලදි</string>
+    <string name="contact_grid_hd_icon_content_description">HD ඇමතුම</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD ප්ලස් ඇමතුම</string>
     <string name="contact_grid_incoming_bidirectional_video_call">මොහු වෙතින් වාහක වීඩියෝ ඇමතුම</string>
     <string name="contact_grid_incoming_reception_only_video_call">මොහු වෙතින් වාහක පාර්ශ්ව 1 වීඩියෝ ඇමතුමකි</string>
     <string name="contact_grid_incoming_rtt_call">RTT ඇමතුම එන්නේ</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">මොහු වෙතින් Wi-Fi වාහක වීඩියෝ ඇමතුමකි</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">මොහු වෙතින් Wi-Fi වාහක පාර්ශ්ව 1 වීඩියෝ ඇමතුමකි</string>
     <string name="contact_grid_incoming_work_call">වෙතින් කාර්යාල ඇමතුම</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">බෙදා ගත් දත්ත ඇමතුම</string>
+    <string name="contact_grid_spam_icon_content_description">අයාචිත ඇමතුම</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">වාහකය</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s සත්‍යාපනය කරන ලදී</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">වලංගු අංකයකි</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE ඇමතුම ඔස්සේ වීඩියෝව</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">wifi ඇමතුම ඔස්සේ වීඩියෝව</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G ඇමතුම ඔස්සේ කටහඬ</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE ඇමතුම ඔස්සේ කටහඬ</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">wifi ඇමතුම ඔස්සේ කටහඬ</string>
+    <string name="contact_grid_wifi_icon_content_description">Wifi ඇමතුම</string>
+    <string name="contact_grid_work_icon_content_description">වැඩ ඇමතුම</string>
     <string name="contact_menu_add_favorite">ප්‍රියතමය එක්.</string>
     <string name="contact_menu_contact_info">සම්බන්ධතා තතු</string>
     <string name="contact_menu_invite_video">වීඩියෝ ඇමතුමට ආරාධනා කරන්න</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">අද</string>
     <string name="conversation_history_call_details_snack_bar_deleted">ඇමතුම මකන ලදී</string>
     <string name="conversation_history_call_details_snack_bar_undo">පසුගමනය කරන්න</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">වැදගත් ඇමතුම</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">එක් කළ ඇමතුම් තතු පෙන්වන්න</string>
+    <string name="conversation_history_call_recording_deleted">පටිගත කිරීම මැකිණි</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">පිටපත සහ ඕඩියෝ</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">පිටපත</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">අනුපත සහ ශ්‍රව්‍ය බලන්න</string>
     <string name="conversation_history_dropdown_menu_transcript_title">ඇමතුම් තිරය</string>
     <string name="copy">පිටපත් කරන්න</string>
     <string name="copy_number">අංකය පිටපත් කරන්න</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">පෙරනිමි උපසර්ගය</string>
     <string name="custom_prefix_prefixes_preference_title">උපසර්ග</string>
     <string name="dark_theme_label">අඳුරු</string>
+    <string name="default_changed_confirmation">දුරකථනය පෙරනිමිය ලෙස සකසා ඇත</string>
+    <string name="default_image_content_description">විසුරුම් රූපය</string>
     <string name="delete">මකන්න</string>
     <string name="delete_all_recordings_confirmation_dialog_title">පටිගත කිරීම් සියල්ල මකන්න</string>
     <string name="delete_all_recordings_now_error_message">සමහර පටිගත කිරීම් මැකීමට නොහැකි විය. නැවත උත්සාහ කරන්න.</string>
     <string name="delete_button_label">සියලු ම පටිගත කිරීම් දැන් මකන්න</string>
     <string name="delete_confirmation_dialog_negative_button_label">අවලංගු කරන්න</string>
     <string name="delete_confirmation_dialog_positive_button_label">මකන්න</string>
+    <string name="delete_old_recordings_error_cant_load_value">වත්මන් %1$s අගය ලබා ගත නොහැකි වේ</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$s අගය සුරැකීමට නොහැකි වේ</string>
+    <string name="deleting_call_recording">පටිගත කිරීම මකමින්…</string>
     <string name="description_add_to_existing_contact_action">පවතින සම්බන්ධතාව වෙත ^1 එක් කරන්න</string>
     <string name="description_blocked_number_list_delete">අංකය අවහිර නොකරන්න</string>
     <string name="description_call_action">^1 අමතන්න</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"අමතන්නකු වෙනුවෙන් ස්වයංක්‍රීය හදිසි අවස්ථා හඬ සේවාවක් ඔබව සම්බන්ධ කර ගනී.
 අමතන්නා ඔවුන් හදිසි අවස්ථාවක සිටිය හැකි බවට සංඥා කළේ ය. 
 කරුණාකර උදවු එවන්න."</string>
+    <string name="emergency_speaker">ස්පීකරය</string>
     <string name="emergency_voice_assist_dialog_button_close">අවලංගු කරන්න</string>
     <string name="emergency_voice_assist_dialog_title">හදිසි ක්‍රියාකරුට මෙය ඇසේ</string>
     <string name="end_call_with_default_message_description">ඇමතුම නිම කරන්න</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">ඕඩියෝ ඉතා නිහඬයි</string>
     <string name="feedback_call_issue_title">ගැටලුව කුමක් වුයේද?</string>
     <string name="feedback_title_please_rate">ඇමතුමෙහි ගුණත්වය අගයන්න</string>
+    <string name="first_time_callers_action_preference_description">ඔබේ ඇමතුම් ලොගයේ නොමැති අමතන්නන්</string>
+    <string name="first_time_callers_action_preference_title">පළමු-වර අමතන්නන්</string>
     <string name="flip_to_shush_title">ෂ් කිරීමට ෆ්ලිප් කරන්න</string>
     <string name="flip_to_silence_summary">එන ඇමතුමක් නිහඬ කිරීමට, ඔබේ දුරකථනය පැතලි මතුපිටක මුහුණත පහතට සිටින සේ තබන්න</string>
     <string name="flip_to_silence_title">නිහඬ කිරීමට ෆ්ලිප් කරන්න</string>
+    <string name="foreground_notification_title">යාවත්කාලීන කරමින්…</string>
     <string name="frequent_contact_suggestion">නිතරම අමතන ලද</string>
     <string name="general_learn_more">තව දැන ගන්න</string>
     <string name="generic_conference_call_name">ඇමතුමක</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">පටිගත කිරීම් ගබඩා කර ඇති ආකාරය පිළිබඳව තව දැන ගන්න</string>
     <string name="how_it_works_storage_template">ඔබේ දුරකථනයේ ආචයනය ඉවර වෙයි නම් ඇමතුම් පටිගත කිරීම අත්හිටුවනු ඇත. ^1</string>
     <string name="icon_content_description">සංවාද නිරූපකය</string>
+    <string name="icon_description_shared_data_call">බෙදා ගත් දත්ත ඇමතුම</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">අංක ආයාත කරන්න</string>
     <string name="ims_video_heading">Verizon වීඩියෝව</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">ඔබට මඟ හැරුණු ඇමතුම් නැත</string>
     <string name="new_call_log_permission_no_calllog">ඔබේ ඇමතුම් ලොගය බැලීමට, දුරකථන අවසරය ක්‍රියාත්මක කරන්න.</string>
     <string name="new_call_log_secondary_blocked">අවහිර කරන ලදි</string>
+    <string name="new_call_log_secondary_verified">සත්‍යාපිත ඇමතුම</string>
     <string name="new_call_log_snack_bar_deleted">ඇමතුම මකන ලදී</string>
     <string name="new_call_log_snack_bar_undo">පසුගමනය කරන්න</string>
     <string name="new_call_log_unknown">නොදන්නා</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">වීඩියෝව</string>
     <string name="notification_action_dismiss">ප්‍රතික්ෂේප කිරීම</string>
     <string name="notification_action_end_call">විසන්ධි කරන්න</string>
+    <string name="notification_action_mute_toggle">නිහඬ කරන්න</string>
     <string name="notification_action_speaker_off">ස්පීකරය ක්‍රියාවිරහිත කරන්න</string>
     <string name="notification_action_speaker_on">ස්පීකරය ක්‍රියාත්මක කරන්න</string>
+    <string name="notification_action_speaker_toggle">ස්පීකරය</string>
     <string name="notification_callReasonMsg">හේතුව: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi ඇමතුම</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi කාර්යාල ඇමතුම</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">වාහක වීඩියෝ ඇමතුමක් ආරම්භ කිරීමට භාවිත කරන බොත්තම</string>
     <string name="play">වාදනය කරන්න</string>
     <string name="plus_code_line_format">ප්ලස් කේතය %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">වෙනස් කළ අංකයක් භාවිතා කරමින් අයාචිත විය හැකි අමතන්නන්</string>
+    <string name="possibly_faked_numbers_action_preference_title">ව්‍යාජ විය හැකි අංක</string>
     <string name="post_call_message">ඔබ ඇමතුවේ ඇයිදැයි පවසන්න</string>
     <string name="post_call_message_1">මෙය හදිස්සියි. මට ආපසු අමතන්න.</string>
     <string name="post_call_message_2">ඔබට යම් වේලාවක් තිබෙන විට මට ආපසු අමතන්න.</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">රහස්‍යතා ප්‍රතිපත්තිය</string>
     <string name="private_num_non_verizon">පුද්ගලික අංකය</string>
     <string name="private_num_verizon">සීමා කළ</string>
+    <string name="private_or_hidden_action_preference_description">තම අමතුම්කරුගේ ID සඟවන අමතන්නන්</string>
+    <string name="private_or_hidden_action_preference_title">පෞද්ගලික හෝ සැඟවුණු</string>
     <string name="quick_contact_checkbox_description">සම්බන්ධතාව තෝරන්න</string>
     <string name="ready_for_recording">සුදානම් කරමින්…</string>
     <string name="record_greeting_cancel_label">අවලංගු කරන්න</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">සුරකිමින්…</string>
     <string name="record_voicemail_greeting_title">සුබ පැතුමක් පටිගත කරන්න</string>
     <string name="recording_category_title">පටිගත කිරීම්</string>
+    <string name="recording_deleted">පටිගත කිරීම මැකිණි</string>
+    <string name="recording_deletion_failed">පටිගත කිරීම මැකීමට නොහැකි විය [නැවත උත්සාහ කරන්න]</string>
     <string name="redo_button_text">නැවත උත්සාහ කරන්න</string>
     <string name="remember_this_choice_label">මෙම තේරීම මතක තබා ගන්න</string>
     <string name="report_not_spam_alert_button">වාර්තා කරන්න</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">නැවත මා අමතන්න</string>
     <string name="request_email_description">මට ඉ-තැපෑලක් එවන්න</string>
     <string name="respond_via_sms_setting_title">ක්ෂණික ප්‍රතිචාර</string>
+    <string name="revelio_callers_how_it_works_text">"ස්වයංක්‍රීය තිරගත කිරීම ක්‍රියා විරහිත කිරීම සඳහා, නොදන්නා ඇමතුම් සඳහා “දුරකථනය නාද කරන්න (පෙරනිමි)” සැකසීම තෝරන්න. ඔබේ සම්බන්ධතා කිසි විටෙක ස්වයංක්‍රීයව තිරගත නොවේ. ඔබේ දුරකථනය හෙඩ්ෆෝන් හෝ ස්පීකර් වෙත සම්බන්ධ වී ඇත්නම් ස්වයංක්‍රීය තිරගත කිරීම ක්‍රියා නොකරනු ඇත. 
+ඇමතුම් තිරය දත්ත හෝ Wi-Fi භාවිතා නොකරන නමුත් වාහක ඇමතුම් මිනිත්තු භාවිතා කරයි. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">දින 30කට පසුව මකන්න</string>
+    <string name="revelio_delete_old_recordings_setting_title">පැරණි පටිගත කිරීම් සහ අනුපත් ස්වයංක්‍රීයව මකන්න</string>
+    <string name="revelio_demo_setting_title">ඇමතුම් තිරය ක්‍රියා කරන ආකාරය බලන්න</string>
     <string name="revelio_demo_turn_on">සක්‍රීය කරන්න</string>
     <string name="revelio_end_call_reject_as_spam">ඇමතුම අයාචිත ලෙස සලකුණු කෙරිණි</string>
     <string name="revelio_end_call_user_missed_internal_message">ඇමතුම මග හැරුණි</string>
+    <string name="revelio_pref_title">ඇමතුම් තිරය</string>
+    <string name="revelio_preference_summary_automatic_screening_off">ස්වයංක්‍රීයව තිරගත කිරීම ක්‍රියාවිරහිතයි</string>
+    <string name="revelio_preference_summary_screening">තිරගත කිරීම %1$s</string>
+    <string name="revelio_save_audio_setting_summary">ඔබේ සහායක විසින් පිළිතුරු දුන් ඇමතුම්වලින් ශ්‍රව්‍ය සුරකින්න</string>
+    <string name="revelio_save_audio_setting_title">ඇමතුම් තිර ශ්‍රව්‍ය සුරකින්න</string>
+    <string name="revelio_setting_title">ඇමතුම් තිරය</string>
     <string name="rtt_assist_default">බිහිරි, ශ්‍රවණ දුර්වලතා, කථන ආබාධයක් හෝ හඬට වඩා වැඩි දෙයක් අවශ්‍ය අමතන්නන්ට RTT සහාය දක්වයි. ^1</string>
     <string name="rtt_assist_for_att">තිරය මත තථ්‍ය කාල පෙළ (RTT) යතුරු පුවරුව බාහිර TTY යතුරු පුවරු වෙත විකල්පයකි. RTT ඇමතුමක් අතරතුර ඔබ පෙළ යවන විගස, ඔබ කථා කරමින් සිටින පුද්ගලයාට ඔබ ඔබේ පණිවිඩය ටයිප් කරනවා තථ්‍ය කාලීනව බැලිය හැකිය. ^1</string>
     <string name="rtt_assist_for_tmo">තිරය මත තථ්‍ය කාල පෙළ (RTT) යතුරු පුවරුව බාහිර TTY යතුරු පුවරු වෙත විකල්පයකි. RTT දුරකථන ඇමතුමකදී ඔබ ටයිප් කරන දේ ක්ෂණිකව යවන අතර, තථ්‍ය කාලීනව පෙළ භාවිතා කරමින් සන්නිවේදනය කිරීමේ හැකියාව ලබා දෙයි. සම්පූර්ණ පණිවිඩය අවසන් වීමට පෙර ඔබට අර්ධ ප්‍රතිචාර දැකිය හැකිය. ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">ආපසු</string>
     <string name="rtt_button_downgrade">හඬ තැපෑල වෙත මාරු වන්න</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT මෙම ඇමතුම සඳහා ලබා ගත නොහැකිය. ඔබේ ඇමතුම හඬ පමණයි ඇමතුමක් ලෙස සම්බන්ධ කර ඇත.</string>
+    <string name="rtt_call_downgraded_toast">ඔබේ RTT ඇමතුම හඬ පමණි ඇමතුමකට වෙනස් කර ඇත</string>
+    <string name="rtt_call_not_available_toast">මෙම ඇමතුම සඳහා RTT ලබා ගත නොහැක</string>
     <string name="rtt_configuration_summary_always_visible">තථ්‍ය කාල පෙළ බොත්තම සෑම තැනම ලබා ගත හැකිය</string>
     <string name="rtt_configuration_summary_not_visible">පැමිණෙන තථ්‍ය කාල පෙළ ඇමතුම් ඉඩ දෙන්න නමුත් ඇමතුම් බොත්තම සඟවන්න</string>
     <string name="rtt_configuration_summary_visible_during_call">ඇමතුමක් අතරතුර තථ්‍ය කාල පෙළ බොත්තම පෙන්වන්න</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">පිටපත බලන්න</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">මෙම පණිවිඩය නැවත සිදු වනු ඇත.</string>
+    <string name="save_audio_error_cant_load_value">වත්මන් ඇමතුම් තිරයේ ශ්‍රව්‍ය සුරැකීමේ අගය ලබා ගත නොහැකි වේ</string>
+    <string name="save_audio_error_cant_set_value">ඇමතුම් තිරයේ ශ්‍රව්‍ය සුරැකීමේ අගය සුරැකීමට නොහැකි වේ</string>
     <string name="save_button_text">සුරකින්න</string>
     <string name="saved_voicemails_action_title">සුරකින ලද හඬ තැපැල් (%1$s)</string>
     <string name="search_hint">වීඩියෝ සම්බන්ධතා සොයන්න</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">පණිවිඩයක් යවන්න</string>
     <string name="send_to_voicemail_import_failed">අයාත කිරීම අසාර්ථක විය</string>
     <string name="serial_number">අනුක්‍රමික අංකය</string>
+    <string name="set_as_default_button_text">පෙරනිමි ලෙස සකසන්න</string>
     <string name="set_default_account">ඇමතුම් සඳහා මෙම එක සැමවිටම භාවිතා කරන්න</string>
     <string name="set_default_account_description">SIM මනාප ඔබේ සම්බන්ධතා සමගින් සුරැකේ.</string>
+    <string name="set_phone_as_default_explanation_text">එය ඔබේ පෙරනිමි දුරකථන යෙදුම නම් දුරකථනයට ඇමතුම් ආරම්භ කිරීමට සහ ලබා ගැනීමට පමණක් හැකිය</string>
+    <string name="set_phone_as_default_request_text">දුරකථනය පෙරනිමිය ලෙස සකසන්න</string>
     <string name="settings">සැකසීම්</string>
     <string name="settings_page_call_recording_feature_not_available_text">ඇමතුම් පටිගත කිරීම ඔබේ ස්ථානයේ නොමැත</string>
     <string name="settings_page_crosby_feature_not_available_text">ඔබේ ස්ථානයේ නොලැබේ</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">පසුගමනය ක.</string>
     <string name="snackbar_voicemail_deleted">හඬ තැපෑල මකන ලදී</string>
     <string name="sounds_and_vibration_title">ශබ්ද සහ කම්පන</string>
+    <string name="spam_action_preference_description">Google හි අයාචිත දත්ත සමුදායට ගැළපෙන අංක</string>
+    <string name="spam_action_preference_title">අයාචිත</string>
     <string name="spam_and_call_screen_settings_title">අයාචිත සහ ඇමතුම් තිරය</string>
     <string name="spam_blocking_promo_action_dismiss">ඉවත ලන්න</string>
     <string name="spam_blocking_promo_action_filter_spam">අයාචිත තැපැල් පෙරහන් කරන්න</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">එක් කරන්න</string>
     <string name="speed_dial_contacts_permission_description">වේග ඩයල් කිරීම සබල කිරීමට, සම්බන්ධතා අවසරය ක්‍රියාත්මක කරන්න.</string>
     <string name="speed_dial_disambig_dialog_title">%sට අමතන ආකාරය තෝරන්න</string>
-    <string name="speed_dial_education_content">ඇමතුම් සහ පණිවුඩ අතර මාරු වීමට ඕනෑම සම්බන්ධතාවක් ස්පර්ශ කර අල්ලාගෙන සිටින්න</string>
-    <string name="speed_dial_education_title">සම්බන්ධවී සිටීමට ක්‍රම රාශියකි</string>
     <string name="speed_dial_no_contacts_action_text">ප්‍රියතම ලෙස එක් කරන්න</string>
     <string name="speed_dial_no_contacts_description">හුදෙක් එක් තට්ටු කිරිමකින් ඔබගේ ප්‍රියතම සම්බන්ධතා අමතන්න</string>
     <string name="speed_dial_remember_this_choice">මෙම තේරීම මතක තබා ගන්න</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">සේවා නියම</string>
     <string name="textmessage_button_label">පණිවිඩය</string>
     <string name="theme_preference_label">තේමාව තෝරා ගන්න</string>
+    <string name="tidepods_call_screen_settings_title">ඇමතුම් තිරය</string>
+    <string name="tidepods_incall_label_record">පටිගත කරන්න</string>
     <string name="toast_text_copied">පෙළ පිටපත් කරන ලදී</string>
     <string name="toolbar_back">ආපසු</string>
     <string name="toolbar_close">වසන්න</string>
     <string name="transcript_audio_feedback_chip_text">අපට වැඩිදියුණු වීමට උදවු කරන්න</string>
+    <string name="transcript_audio_feedback_link_text">අනුපත සහ ශ්‍රව්‍ය බලන්න</string>
     <string name="transcript_snippet_low_confidence_description">(ඕඩියෝව පැහැදිලි නොවීය)</string>
+    <string name="try_again_button">නැවත උත්සාහ කරන්න</string>
     <string name="tty_configuration_title_tty_full">TTY පූර්ණ</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY අක්‍රියයි</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">යන වීඩියෝ ඇමතුම තවත් උපාංගයකට මාරු කෙරිණි</string>
     <string name="type_rejected">ප්‍රතික්ෂේප කළ ඇමතුම</string>
     <string name="type_voicemail">හඬ තැපෑල</string>
-    <string name="unable_change_value_error">RTT සැකසීම් වෙනස් කිරීමේ ගැටලුවක් විය. කරුණාකර ආපසු ගොස් නැවත උත්සාහ කරන්න.</string>
     <string name="unable_read_value_error">RTT සැකසීම් කියවීමේ ගැටලුවක් විය. කරුණාකර ආපසු ගොස් නැවත උත්සාහ කරන්න.</string>
     <string name="unblock_number">අවහිර කිරීම ඉවත් කරන්න</string>
     <string name="unblock_number_alert_details">මෙම අංකය අවහිර කිරීම ඉවත් කර අයාචිත නොවන ලෙස වාර්තා කරනු ඇත. අනාගත ඇමතුම් අයාචිත ලෙස හඳුනා නොගනු ඇත.</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">අවහිර කිරීම ඉවත් කරන්න</string>
     <string name="unblock_report_number_alert_title">%1$s අවහිර කිරීමෙන් ඉවත් කරන්නද?</string>
     <string name="unknown">නොදනී</string>
+    <string name="unknown_call_settings_category_preference_title">නොදන්නා ඇමතුම් සැකසීම්</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">පැමිණෙන ශ්‍රව්‍ය නිහඬ නොකරන්න</string>
     <string name="user_is_busy_description">මම ඔබට ආපසු අමතන්නම්</string>
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">ඔවුන්ගේ වීඩියෝව ක්‍රියාත්මකයි</string>
     <string name="videocall_remotely_held">ඇමතුම රඳවාගෙන ඇත</string>
     <string name="videocall_remotely_resumed">ඇමතුම නැවත ආරම්භ විය</string>
+    <string name="videocall_settings_default_carrier">වාහක වීඩියෝ ඇමතීම</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">පෙරනිමි වීඩියෝ ඇමතුම් සේවාව</string>
+    <string name="videocall_settings_fallback_summary">වාහක වීඩියෝ ඇමතුම් ලබා ගත නොහැකි නම් Duo වෙත මාරු වන්න</string>
+    <string name="videocall_settings_fallback_title">උපස්ථයක් ලෙස Duo භාවිතා කරන්න</string>
+    <string name="videocall_settings_title">වීඩියෝ ඇමතුම</string>
     <string name="videocall_show_preview_button_description">ස්ථානීය වීඩියෝ සංග්‍රහය පෙන්වන්න</string>
     <string name="view">බලන්න</string>
     <string name="view_location_settings">ස්ථානය් සැකසීම්</string>
     <string name="vitle_label">LTE ඔස්සේ වීඩියෝව</string>
+    <string name="viwifi_label">WiFi ඔස්සේ වීඩියෝව</string>
     <string name="vm_change_pin_error_invalid">නව PIN අංකයෙහි අවලංගු අනුලකුණු අන්තර්ගත වේ.</string>
     <string name="vm_change_pin_error_mismatch">පැරණි PIN අංකය නොගැළපේ.</string>
     <string name="vm_change_pin_error_system_error">PIN අංකය මාරු කිරීමට නොහැකිය</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">කරුණාකර රැඳී සිටින්න.</string>
     <string name="voice_call">හඬ ඇමතුම</string>
     <string name="voice_call_button">අමතන්න</string>
+    <string name="voice_display_name">හඬ %1$d</string>
     <string name="voice_search_not_available">හඬ සෙවුම ලබාගත නොහැකිය</string>
     <string name="voice_selector_preference_title">ලබා ගත හැකි හඬවල්</string>
+    <string name="voice_settings_available_voices_text">ලබා ගත හැකි හඬවල්</string>
+    <string name="voice_settings_title">Voice</string>
     <string name="voicecall_button_label">අමතන්න</string>
     <string name="voicecall_button_wifi_description">Wi-Fi භාවිතයෙන් අමතන්න</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s දින %2$sට</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">පිටපත් කිරීමේ නිරවද්‍යතාව වැඩිදියුණු කිරීමට උදව් වන්නද?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">දත්ත නැතිව SIMs සඳහා දෘශ්‍ය හඬ තැපෑල භාවිත කිරීමෙන් වාහක ගාස්තු ඇති විය හැකිය</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">දෘශ්‍ය හඬ තැපෑල තෝරා ගත් දත්ත SIM සඳහා පමණක් ලබා ගත හැකිය</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">ඔබට බහුවිධ SIMs තිබේ නම් සහ එකක් තිබෙන්නේ Fi සඳහා නම්, ඔබේ Fi SIM දෘශ්‍ය හඬ තැපෑල සඳහා භාවිත කෙරෙනු ඇත</string>
     <string name="voicemail_error_activating_message">දෘශ්‍ය හඬ තැපෑල සම්පූර්ණයෙන් සක්‍රිය කරන තෙක් ඔබට හඩ තැපැල් දැනුම් දීම් නොලැබීමට හැකිය. දෘශ්‍ය හඬ තැපෑල සම්පූර්ණයෙන් සක්‍රිය කරන තෙක් නව පණිවිඩ යළි ලබා ගැනීමට හඬ තැපෑල අමතන්න.</string>
     <string name="voicemail_error_activating_title">දෘශ්‍ය හඬ තැපෑල ක්‍රියාත්මක කිරීම</string>
     <string name="voicemail_error_activation_disabled_message">එය පිහිටුවීම අවසන් කිරීමට හඬ තැපෑල අමතන්න</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">ඔබේ හඬ තැපැල් පෙට්ටිය වෙත සම්බන්ධ විය නොහැකිය</string>
     <string name="vvm3_error_vms_timeout_message">කනගාටුයි, අපට දෝෂයක් ඇති විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න. තවම ගැටලුවක් තිබේ නම්, කරුණාකර %1$s අංකයට පාරිභෝගික සේවාව අමතා දෝෂ කේතය 9007 බව ඔවුන්ට පවසන්න.</string>
     <string name="vvm3_error_vms_timeout_title">යම් දෙයක් වැරදිණි</string>
+    <string name="vvm_config_title">දෘශ්‍ය හඬ තැපැල් වින්‍යාසය</string>
     <string name="vvm_unsupported_message_format">සහාය නොදක්වන පණිවිඩය වර්ගය, සවන් දීමට %s අමතන්න.</string>
     <string name="wait_prompt_str">"පහත නාද යවන්නද?
 "</string>

@@ -116,7 +116,7 @@
     <string name="accessibility_desc_recent_apps">Recientes</string>
     <string name="accessibility_desc_settings">Configuración</string>
     <string name="accessibility_desc_work_lock">Pantalla bloqueada del perfil de trabajo</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Ajusta cómo se muestran los colores en tu dispositivo. Esto puede ser útil cuando quieres:&lt;br/>&lt;br/> &lt;ol> &lt;li> Ver colores con más exactitud&lt;/li> &lt;li> Quitar colores para tener un enfoque más claro&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Ajusta cómo se muestran los colores en tu dispositivo. Esto puede ser útil cuando quieres:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;Ver colores con más exactitud&lt;/li> &lt;li>&amp;nbsp;Quitar colores para tener un enfoque más claro&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Corrección de color</string>
     <string name="accessibility_divider">Divisor de pantalla dividida</string>
     <string name="accessibility_enter_hint">ingresar al dispositivo</string>
@@ -595,6 +595,8 @@ Selección"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Debes reiniciar el dispositivo para que se aplique el cambio. Reinícialo ahora o cancela la acción.</string>
     <string name="camera_hint">Desliza el dedo para acceder a la cámara.</string>
     <string name="camera_label">abrir cámara</string>
+    <string name="camera_recording_announcement">La cámara está grabando</string>
+    <string name="camera_stopped_recording_announcement">La cámara dejó de grabar</string>
     <string name="cancel">Cancelar</string>
     <string name="carrier_network_change_mode">Cambio de proveedor de red</string>
     <string name="category_personal">Personal</string>
@@ -732,6 +734,10 @@ Si reanudas el servicio, es posible que se apliquen cargos."</string>
     <string name="debug_monitoring_category">Supervisión</string>
     <string name="debug_networking_category">Redes</string>
     <string name="debug_view_attributes">Habilitar inspección de atributos de vista</string>
+    <string name="defender_notify_des">El teléfono está limitando la carga para ayudar a preservar el estado de la batería</string>
+    <string name="defender_notify_learn_more">Más información</string>
+    <string name="defender_notify_resume_charge">Reanudar la carga</string>
+    <string name="defender_notify_title">Carga limitada temporalmente</string>
     <string name="delete_blob_confirmation_text">¿Seguro que quieres borrar estos datos compartidos?</string>
     <string name="delete_blob_text">Borrar datos compartidos</string>
     <string name="demo_mode">Modo demostración de la IU del sistema</string>
@@ -1067,6 +1073,7 @@ prioridad"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Desbloqueando tarjeta SIM…</string>
     <string name="keyguard_try_fingerprint">Usa la huella dactilar para abrir</string>
     <string name="keyguard_unlock">Desliza el dedo hacia arriba para abrir</string>
+    <string name="keyguard_unlock_press">Presiona para abrir</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">programar, alarma, recordatorio, reloj</string>
     <string name="kg_enter_confirm_pin_hint">Confirma el código PIN deseado</string>
@@ -1230,6 +1237,10 @@ Vuelve a intentarlo en %2$d segundos."</string>
     <string name="menu_ime">Cambio de teclado</string>
     <string name="messages_count_overflow_indicator">%d o más</string>
     <string name="mic_active">Micrófono activado</string>
+    <string name="mic_and_camera_recording_announcement">La cámara y el micrófono están grabando</string>
+    <string name="mic_camera_stopped_recording_announcement">La cámara y el micrófono dejaron de grabar</string>
+    <string name="mic_recording_announcement">El micrófono está grabando</string>
+    <string name="mic_stopped_recording_announcement">El micrófono dejó de grabar</string>
     <string name="missed_call">Llamada perdida</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Datos móviles</string>
@@ -1626,7 +1637,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_dark_mode_secondary_label_until_sunrise">Hasta el amanecer</string>
     <string name="quick_settings_disclosure_managed_profile_monitoring">Tu organización puede controlar el tráfico de red en tu perfil de trabajo</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Tu perfil de trabajo está conectado a %1$s</string>
-    <string name="quick_settings_disclosure_managed_profile_network_activity">El administrador de IT puede ver la actividad de red de tu perfil de trabajo</string>
+    <string name="quick_settings_disclosure_managed_profile_network_activity">El administrador de TI puede ver la actividad de red de tu perfil de trabajo</string>
     <string name="quick_settings_disclosure_management">Este dispositivo pertenece a tu organización</string>
     <string name="quick_settings_disclosure_management_monitoring">Tu organización es propietaria de este dispositivo y podría controlar el tráfico de red</string>
     <string name="quick_settings_disclosure_management_named_vpn">Este dispositivo pertenece a tu organización y está conectado a %1$s</string>
@@ -1702,8 +1713,6 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_work_mode_label">Apps de trabajo</string>
     <string name="quick_step_accessibility_toggle_overview">Ocultar o mostrar Recientes</string>
     <string name="recent_conversations">Conversaciones recientes</string>
-    <string name="recents_quick_scrub_onboarding">Arrastra a la derecha para cambiar aplicaciones rápidamente</string>
-    <string name="recents_swipe_up_onboarding">Desliza el dedo hacia arriba para cambiar de app</string>
     <string name="remaining_length_format">Tiempo restante: %1$s</string>
     <string name="remote_input_image_insertion_text">envió una imagen</string>
     <string name="remove_from_settings">Quitar de Configuración</string>
@@ -2110,6 +2119,7 @@ Cualquier usuario puede actualizar las aplicaciones del resto de los usuarios."<
     <string name="wallet_secondary_label_no_card">Agregar una tarjeta</string>
     <string name="wallet_secondary_label_updating">Actualizando</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">El punto de acceso está completo temporalmente</string>
     <string name="wifi_cant_connect">No se puede establecer la conexión</string>
     <string name="wifi_cant_connect_to_ap">No se puede establecer conexión con \"%1$s\"</string>

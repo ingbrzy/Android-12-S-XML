@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Отговаряне</string>
     <string name="a11y_call_incoming_decline_description">Отхвърляне</string>
+    <string name="a11y_callscreen_animation">Анимация за прегледа на повикванията</string>
     <string name="a11y_contact_menu_video_call_wifi">Видеообаждане през Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Гласово обаждане през Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Най-новият запис е отговорено обаждане от ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Управление на обаждащите се</string>
     <string name="a11y_expandedsheet_collapse">свиване на менюто</string>
     <string name="a11y_expandedsheet_expand">разгъване на менюто</string>
-    <string name="a11y_favorites_education_dismiss">затваряне</string>
     <string name="a11y_feature_demo_next_page">Следващата страница</string>
     <string name="a11y_feature_demo_page_indicator">Страница %d</string>
     <string name="a11y_feature_demo_prev_page">Предишната страница</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Бърз контакт за ^1</string>
+    <string name="a11y_icon_hd">Обаждане с HD</string>
+    <string name="a11y_icon_hd_plus">Обаждане с HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Обаждане със споделяне на връзката за данни</string>
+    <string name="a11y_icon_verified">Потвърдено обаждане</string>
+    <string name="a11y_icon_vilte">Видеообаждане през LTE</string>
+    <string name="a11y_icon_viwifi">Видеообаждане през Wi-Fi</string>
+    <string name="a11y_icon_volte">Гласово обаждане през LTE</string>
+    <string name="a11y_icon_voz4g">Гласово обаждане през 4G</string>
+    <string name="a11y_icon_wifi">Обаждане през Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Прекарайте два пръста нагоре за отговаряне, надолу за отхвърляне.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Прекарайте два пръста нагоре, за да отговорите, или надолу, за да отхвърлите това обаждане</string>
     <string name="a11y_new_call_log_entry_call_recording">обаждането бе записано</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">през ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">обаждане с ТСРВ до ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Обаждане със споделяне на връзката за данни</string>
     <string name="a11y_new_call_log_entry_tap_action">разгъване на менюто</string>
     <string name="a11y_new_call_log_entry_video_call">видеообаждане до ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">видеообаждане до ^1 през Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Редактиране преди обаждане</string>
     <string name="action_menu_back_from_search">спиране на търсенето</string>
     <string name="action_menu_overflow_description">Още опции</string>
+    <string name="activate_error_message">При активирането на прегледа на повикванията възникна проблем</string>
+    <string name="activated_successfully">Прегледът на повикванията бе активиран</string>
     <string name="activity_not_available">На устройството няма приложение за това действие</string>
     <string name="add_2sec_pause">Добавяне на пауза от 2 сек</string>
     <string name="add_contact_not_available">Няма налично приложение за контакти</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">Обаждане</string>
     <string name="bm_suggest_chat_button">Чат</string>
     <string name="bm_suggest_wait_min">"Чат
-%1$d мин изчакване"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, непрочетени: %2$s</string>
+%1$d мин чакане"</string>
+    <string name="bm_suggest_wait_time_estimating">"Чат
+Работи…"</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string name="bubble_bottom_action_end_call">Затваряне</string>
     <string name="bubble_bottom_action_hide">Скриване</string>
@@ -170,7 +182,10 @@
     <string name="call">Обаждане</string>
     <string name="callFailed_simError">Няма SIM карта или грешка в SIM картата</string>
     <string name="callHistoryIconLabel">История на обажданията</string>
-    <string name="call_announcer_preference_footer_instruction_text">При входящи обаждания ще бъдат произнасяни името и номерът на обаждащия се</string>
+    <string name="call_action_label_automatically_screen">Автоматичен преглед на повикванията и отхвърляне на автоматизираните.</string>
+    <string name="call_action_label_ring_phone">Позвъняване на телефона (по подразбиране)</string>
+    <string name="call_action_label_silently_decline">Отхвърляне без известяване</string>
+    <string name="call_announcer_preference_footer_instruction_text">При входящи обаждания ще бъдат произнасяни името и номерът на обаждащия се.</string>
     <string name="call_announcer_preference_list_title">Съобщаване на идент. на обаждащия се</string>
     <string name="call_announcer_preference_option_always">Винаги</string>
     <string name="call_announcer_preference_option_headset">Само при използване на слушалки</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Отговаряне</string>
     <string name="call_incoming_answer_rtt">Отговор с RTT</string>
     <string name="call_incoming_answer_voice">Отговор с глас</string>
-    <string name="call_incoming_chip_answer_and_release">Отговор и край на текущото обаждане</string>
+    <string name="call_incoming_chip_answer_and_release">Отговор и край на другото обаждане</string>
     <string name="call_incoming_chip_answer_as_rtt">Отговаряне като ТСРВ</string>
     <string name="call_incoming_chip_answer_video_as_audio">Отговор като гласово обаждане</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Отговор без видео</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Плъзнете нагоре за отговор</string>
     <string name="call_incoming_swipe_to_reject">Прекарайте пръст надолу за отхвърляне</string>
     <string name="call_incoming_video_is_off">Видеото ви е изключено</string>
-    <string name="call_incoming_will_disconnect">Ако отговорите на това обаждане, видеообаждането ви ще прекъсне</string>
+    <string name="call_incoming_will_disconnect">Ако отговорите на това обаждане, другото ви обаждане ще прекъсне</string>
     <string name="call_incoming_will_disconnect_app">Ако отговорите, обаждането ви през %1$s ще прекъсне</string>
     <string name="call_isdn">Обаждане на ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Блокиране/сигнал за спам</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Причина за обаждането: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Записът бе запазен.</string>
     <string name="call_recording_conversation_history_entry">Записано</string>
+    <string name="call_recording_delete_snack_bar_undo">Отмяна</string>
     <string name="call_recording_disclaimer_agreen_button_text">Стартиране на записа</string>
     <string name="call_recording_disclaimer_content">"Вие или другият участник в обаждането може да се намирате в място, където всички участници трябва да дадат съгласието си да бъдат записвани. Всички ще бъдат известени предварително, че обаждането се записва. Вие носите отговорност да спазвате законите относно записването на разговори. Използвайте записването на обаждания отговорно и го включвайте само когато е необходимо.
 ^1
@@ -291,6 +307,7 @@
 Нито аудиозапис на обаждането, нито негов препис се изпращат където и да е, включително до Google."</string>
     <string name="call_screen_demo_page_4_title">Пестете време и избягвайте раздразнения</string>
     <string name="call_screen_demo_setting_title">Показване на демонстрация</string>
+    <string name="call_screen_demo_settings_title">Показване на демонстрация</string>
     <string name="call_screen_demo_title">Как работи функцията за преглед на повикванията</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Примерният аудиозапис не може да бъде извлечен</string>
     <string name="call_screen_demo_unable_to_play_audio">Примерният аудиозапис не може да се пусне</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Приключихте обаждането</string>
     <string name="call_screen_end_call_non_local_internal_message">Обаждането прекъсна</string>
     <string name="call_screen_how_it_works_setting_title">Функцията за преглед на повикванията работи на устройството ви без Wi-Fi или връзка за данни. Преписите на разговорите се генерират и съхраняват само на телефона ви. %1$s</string>
+    <string name="call_screen_how_it_works_title">Функцията за преглед на повикванията работи на устройството ви без Wi-Fi или връзка за данни. Преписите на разговорите се генерират и съхраняват само на телефона ви. ^1</string>
     <string name="call_screen_incallui_chip_text">Преглед на пов.</string>
     <string name="call_screen_join_call_button_content_description">Присъединяване към обаждането</string>
     <string name="call_screen_join_call_internal_message">Присъединихте се към обаждането</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">Казвам на обаждащия се</string>
     <string name="call_screen_screening_call_from">Проверява се обаждане от</string>
     <string name="call_screen_setting_title">Преглед на повикванията</string>
+    <string name="call_screen_settings_title">Преглед на повикванията</string>
     <string name="call_screen_speaker_toggle_button_content_description">Бутон за високоговорител</string>
     <string name="call_screen_suggestions_avatar_content_description">Лого</string>
     <string name="call_screen_survey_cancel_button">Отказ</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Обаждане на служебен</string>
     <string name="call_work_mobile">Обаждане на служебен мобилен</string>
     <string name="call_work_pager">Обаждане на служебен пейджър</string>
+    <string name="caller_action_error_cant_load_value">Стойността на „%1$s“ не може да бъде извлечена</string>
+    <string name="caller_action_error_cant_set_value">Стойността на „%1$s“ не може да бъде запазена</string>
     <string name="caller_id_announcement_multi_sim">входящо %1$s от %2$s през SIM карта %3$s</string>
     <string name="caller_id_announcement_single_sim">входящо %1$s от %2$s</string>
     <string name="caller_id_business_data_details">Данните, които се използват в тези функции, са предоставени от Google и лицензодателите на Google. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">Искате ли да се обадите на %s?</string>
     <string name="calllog_add_to_contact">Добавяне към контакт</string>
     <string name="calllog_create_new_contact">Създаване на нов контакт</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Прегледът на повикванията се активира (изисква се Wi-Fi)</string>
+    <string name="callscreen_settings_voice_setting_title">Глас</string>
+    <string name="camera_permission_toast">Активирано бе разрешението за камерата</string>
     <string name="camera_privacy_text">Активирано бе разрешението за камерата</string>
     <string name="cannot_understand_description">Не разбирам</string>
     <string name="car_crash_emergency_intro">"С вас се свързва автоматизирана услуга за гласови обаждания за спешни случаи от името на обаждащия се.
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="checkbox_report_as_spam_action">Сигнал за спам за обаждането</string>
     <string name="child_number">чрез %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Избор на контакт</string>
     <string name="clear_button_content_description">Изчистване на търсенето</string>
     <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
     <string name="cli_not_supported_text">Отворете телефона, за да продължите</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Потвърдените обаждания не бяха настроени. Можете да ги активирате отново в настройките.</string>
     <string name="contact_card_video_icon_content_description">Видеообаждане до ^1</string>
     <string name="contact_grid_callback_number">Номерът на този телефон: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Обаждането е пренасочено</string>
+    <string name="contact_grid_hd_icon_content_description">Обаждане с HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Обаждане с HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Видеообаждане през оператора от</string>
     <string name="contact_grid_incoming_reception_only_video_call">Еднопосочно видеообаждане през оператора от</string>
     <string name="contact_grid_incoming_rtt_call">Обаждане с ТСРВ от</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Видеообаждане през Wi-Fi през оператора от</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Еднопосочно видеообаждане през Wi-Fi през оператора от</string>
     <string name="contact_grid_incoming_work_call">Служебно обаждане от</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Обаждане със споделяне на връзката за данни</string>
+    <string name="contact_grid_spam_icon_content_description">Обаждане, което е спам</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">оператора</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Потвърдено от %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Валиден номер</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Видеообаждане през LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Видеообаждане през Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Гласово обаждане през 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Гласово обаждане през LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Гласово обаждане през Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Обаждане през Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Служебно обаждане</string>
     <string name="contact_menu_add_favorite">Любим контакт</string>
     <string name="contact_menu_contact_info">Инф. за връзка</string>
     <string name="contact_menu_invite_video">Покана за видеообаждане</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">Днес</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Обаждането бе изтрито</string>
     <string name="conversation_history_call_details_snack_bar_undo">Отмяна</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Важно обаждане</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Показване на добавената информация</string>
+    <string name="conversation_history_call_recording_deleted">Записът бе изтрит</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Препис и аудио</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Препис</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Преглед на преписа и аудиозаписа</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Преглед на повикванията</string>
     <string name="copy">Копиране</string>
     <string name="copy_number">Копиране на номера</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">Префикс по подразбиране</string>
     <string name="custom_prefix_prefixes_preference_title">Префикси</string>
     <string name="dark_theme_label">Тъмна</string>
+    <string name="default_changed_confirmation">„Телефон“ бе зададено като стандартното приложение</string>
+    <string name="default_image_content_description">Първоначално изображение</string>
     <string name="delete">Изтриване</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Изтриване на всички записи</string>
     <string name="delete_all_recordings_now_error_message">Някои записи не бяха изтрити. Опитайте отново.</string>
     <string name="delete_button_label">Изтриване на всички записи сега</string>
     <string name="delete_confirmation_dialog_negative_button_label">Отказ</string>
     <string name="delete_confirmation_dialog_positive_button_label">Изтриване</string>
+    <string name="delete_old_recordings_error_cant_load_value">Стойността на „%1$s“ не може да бъде извлечена</string>
+    <string name="delete_old_recordings_error_cant_set_value">Стойността на „%1$s“ не може да бъде запазена</string>
+    <string name="deleting_call_recording">Записът се изтрива…</string>
     <string name="description_add_to_existing_contact_action">Добавяне на ^1 към съществуващ контакт</string>
     <string name="description_blocked_number_list_delete">Отблокиране на номера</string>
     <string name="description_call_action">Обаждане на ^1</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"С вас се свърза автоматизирана услуга за гласови обаждания за спешни случаи от името на човек.
 Човекът сигнализира, че е в извънредна ситуация. 
 Моля, изпратете помощ."</string>
+    <string name="emergency_speaker">Високоговорител</string>
     <string name="emergency_voice_assist_dialog_button_close">Отказ</string>
     <string name="emergency_voice_assist_dialog_title">Операторът от спешна помощ чува това</string>
     <string name="end_call_with_default_message_description">Край на обаждането</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">Звукът беше твърде тих</string>
     <string name="feedback_call_issue_title">Какъв бе проблемът?</string>
     <string name="feedback_title_please_rate">Моля, оценете качеството на обаждането</string>
+    <string name="first_time_callers_action_preference_description">Обаждащи се, които не се срещат в списъка ви с обажданията</string>
+    <string name="first_time_callers_action_preference_title">Обаждащи се за първи път</string>
     <string name="flip_to_shush_title">Завъртане за „Шшт“</string>
     <string name="flip_to_silence_summary">За да заглушите входящо обаждане, поставете телефона си с екрана надолу върху плоска повърхност.</string>
     <string name="flip_to_silence_title">Завъртане за заглушаване</string>
+    <string name="foreground_notification_title">Актуализира се…</string>
     <string name="frequent_contact_suggestion">Чести обаждания</string>
     <string name="general_learn_more">Научете повече</string>
     <string name="generic_conference_call_name">В разговор</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">Научете повече за начина на съхраняване на записите</string>
     <string name="how_it_works_storage_template">Записването на обажданията ще бъде спряно, ако мястото в хранилището на телефона ви свърши. ^1</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
+    <string name="icon_description_shared_data_call">Обаждане със споделяне на връзката за данни</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Импортиране на номерата</string>
     <string name="ims_video_heading">Видеообаждане през Verizon</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">Нямате пропуснати обаждания</string>
     <string name="new_call_log_permission_no_calllog">За да видите списъка с обажданията си, включете разрешението за Телефон.</string>
     <string name="new_call_log_secondary_blocked">Блокиран</string>
+    <string name="new_call_log_secondary_verified">Потвърдено обаждане</string>
     <string name="new_call_log_snack_bar_deleted">Обаждането бе изтрито</string>
     <string name="new_call_log_snack_bar_undo">Отмяна</string>
     <string name="new_call_log_unknown">Неизвестно</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">Видеообаждане</string>
     <string name="notification_action_dismiss">Отхвърляне</string>
     <string name="notification_action_end_call">Затваряне</string>
+    <string name="notification_action_mute_toggle">Спиране на звука</string>
     <string name="notification_action_speaker_off">Изключване на високоговорителя</string>
     <string name="notification_action_speaker_on">Включване на високоговорителя</string>
+    <string name="notification_action_speaker_toggle">Говорител</string>
     <string name="notification_callReasonMsg">Причина: %s</string>
     <string name="notification_call_wifi_brand">обаждане през Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">служебно обаждане през Wi-Fi</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">Бутон за видеообаждане през оператора.</string>
     <string name="play">Пускане</string>
     <string name="plus_code_line_format">Код Plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Обаждащи се, които може да разпространяват спам през променен номер</string>
+    <string name="possibly_faked_numbers_action_preference_title">Евентуално подправени номера</string>
     <string name="post_call_message">Кажете защо се обадихте</string>
     <string name="post_call_message_1">Спешно е. Обади ми се.</string>
     <string name="post_call_message_2">Обади ми се, когато имаш време.</string>
@@ -913,6 +968,8 @@
     <string name="privacy_policy_label">Декларация за поверителност</string>
     <string name="private_num_non_verizon">Частен номер</string>
     <string name="private_num_verizon">Ограничен</string>
+    <string name="private_or_hidden_action_preference_description">Обаждащи се, които крият идентификатора на обаждащия се</string>
+    <string name="private_or_hidden_action_preference_title">Скрити</string>
     <string name="quick_contact_checkbox_description">Избор на контакт</string>
     <string name="ready_for_recording">Готови…</string>
     <string name="record_greeting_cancel_label">Отказ</string>
@@ -928,6 +985,8 @@
     <string name="record_greeting_uploading_greeting_message">Запазва се…</string>
     <string name="record_voicemail_greeting_title">Запишете поздрав</string>
     <string name="recording_category_title">Записи</string>
+    <string name="recording_deleted">Записът бе изтрит</string>
+    <string name="recording_deletion_failed">Записът не бе изтрит. [Нов опит]</string>
     <string name="redo_button_text">Нов опит</string>
     <string name="remember_this_choice_label">Запомняне на този избор</string>
     <string name="report_not_spam_alert_button">Подаване на сигнал</string>
@@ -939,9 +998,20 @@
     <string name="request_call_back_description">Обадете ми се отново</string>
     <string name="request_email_description">Изпратете ми имейл</string>
     <string name="respond_via_sms_setting_title">Бързи отговори</string>
+    <string name="revelio_callers_how_it_works_text">"За да изключите автоматичния преглед, изберете настройката „Позвъняване на телефона (по подразбиране)“ за неизвестните обаждания. Обажданията от контактите ви никога не се преглеждат автоматично. Автоматичното преглеждане няма да работи, ако телефонът ви е свързан с високоговорители или слушалки. 
+Прегледът на повикванията не използва данни или Wi-Fi, но използва минутите за обаждания от оператора.%1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Изтриване след 30 дни</string>
+    <string name="revelio_delete_old_recordings_setting_title">Автоматично изтриване на по-старите записи и преписи</string>
+    <string name="revelio_demo_setting_title">Как работи прегледът на повикванията</string>
     <string name="revelio_demo_turn_on">Включване</string>
     <string name="revelio_end_call_reject_as_spam">Обаждането бе означено като спам</string>
     <string name="revelio_end_call_user_missed_internal_message">Пропуснахте обаждането</string>
+    <string name="revelio_pref_title">Преглед на повикванията</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Автоматичният преглед е изключен</string>
+    <string name="revelio_preference_summary_screening">Преглед на %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Запазване на аудиото от обажданията, на които е отговорил Асистент</string>
+    <string name="revelio_save_audio_setting_title">Аудио от прегледа на повикванията</string>
+    <string name="revelio_setting_title">Преглед на повикванията</string>
     <string name="rtt_assist_default">ТСРВ подпомага обаждащите се, които са глухи, с влошен слух, имат проблеми с говора или се нуждаят от повече от само глас. ^1</string>
     <string name="rtt_assist_for_att">Екранната клавиатура за текстови съобщения в реално време (ТСРВ) е алтернатива на външните TTY клавиатури. Докато изпращате текстови съобщения по време на обаждане с ТСРВ, събеседникът ви може да вижда в реално време, че въвеждате съобщението си. ^1</string>
     <string name="rtt_assist_for_tmo">Екранната клавиатура за текстови съобщения в реално време (ТСРВ) е алтернатива на външните TTY клавиатури. При ТСРВ нещата, които въвеждате по време на телефонен разговор, се изпращат незабавно, което ви дава възможност да общувате чрез текст в реално време. Ще можете да виждате частични отговори, преди да бъде завършено цялото съобщение. ^1</string>
@@ -949,7 +1019,8 @@
     <string name="rtt_button_back">Назад</string>
     <string name="rtt_button_downgrade">Към гласово обаждане</string>
     <string name="rtt_call_button">ТСРВ</string>
-    <string name="rtt_call_not_available_toast">ТСРВ не е налице за това обаждане. Обаждането е само гласово.</string>
+    <string name="rtt_call_downgraded_toast">Обаждането ви с ТСРВ бе променено до само гласово</string>
+    <string name="rtt_call_not_available_toast">ТСРВ не е налице за това обаждане</string>
     <string name="rtt_configuration_summary_always_visible">Бутонът за текстово съобщение в реално време е налице навсякъде</string>
     <string name="rtt_configuration_summary_not_visible">Разрешаване на входящи обаждания с текстови съобщения в реално време, но скриване на бутона за обаждания</string>
     <string name="rtt_configuration_summary_visible_during_call">Показване по време на обаждане на бутона за текстови съобщения в реално време</string>
@@ -978,6 +1049,8 @@
     <string name="rtt_transcript_link">Преглед на преписа</string>
     <string name="rttcall_button_label">ТСРВ</string>
     <string name="safety_emergency_repeat_message_alert">Това съобщение ще се повтори.</string>
+    <string name="save_audio_error_cant_load_value">Стойността на „Аудио от прегледа на повикванията“ не може да бъде извлечена</string>
+    <string name="save_audio_error_cant_set_value">Стойността на „Аудио от прегледа на повикванията“ не може да бъде запазена</string>
     <string name="save_button_text">Запазване</string>
     <string name="saved_voicemails_action_title">Запазени гласови съобщения (%1$s)</string>
     <string name="search_hint">Търсете видеоконтакти</string>
@@ -1004,8 +1077,11 @@
     <string name="send_a_message">Изпращане на съобщение</string>
     <string name="send_to_voicemail_import_failed">Импортирането не бе успешно</string>
     <string name="serial_number">Сериен номер</string>
+    <string name="set_as_default_button_text">Стандартно</string>
     <string name="set_default_account">Винаги да се използва за обаждания</string>
     <string name="set_default_account_description">Предпочитанието за SIM карта бе запазено с контактите ви.</string>
+    <string name="set_phone_as_default_explanation_text">„Телефон“ може да извърша и получава обаждания само ако е стандартното ви приложение за телефон</string>
+    <string name="set_phone_as_default_request_text">Задаване на „Телефон“ като стандартното приложение</string>
     <string name="settings">Настройки</string>
     <string name="settings_page_call_recording_feature_not_available_text">Записването на обаждането не е налице в местоположението ви</string>
     <string name="settings_page_crosby_feature_not_available_text">Не е налице в местоположението ви</string>
@@ -1040,6 +1116,8 @@
     <string name="snackbar_undo">Отмяна</string>
     <string name="snackbar_voicemail_deleted">Гл. поща е изтрита</string>
     <string name="sounds_and_vibration_title">Звуци и вибриране</string>
+    <string name="spam_action_preference_description">Номера, които са налице в базата от данни на Google за спам</string>
+    <string name="spam_action_preference_title">Спам</string>
     <string name="spam_and_call_screen_settings_title">Спам и преглед на повикванията</string>
     <string name="spam_blocking_promo_action_dismiss">Отхвърляне</string>
     <string name="spam_blocking_promo_action_filter_spam">Филтриране на спама</string>
@@ -1066,8 +1144,6 @@
     <string name="speed_dial_add_button_text">Добавяне</string>
     <string name="speed_dial_contacts_permission_description">За да активирате бързото набиране, включете разрешението за Контакти.</string>
     <string name="speed_dial_disambig_dialog_title">Изберете как да се обадите на %s</string>
-    <string name="speed_dial_education_content">Докоснете и задръжте който и да е контакт, за да превключвате между обаждания и съобщения</string>
-    <string name="speed_dial_education_title">Повече начини за връзка</string>
     <string name="speed_dial_no_contacts_action_text">Добавяне на любим контакт</string>
     <string name="speed_dial_no_contacts_description">Обаждайте се на любимите си контакти само с едно докосване</string>
     <string name="speed_dial_remember_this_choice">Запомняне на този избор</string>
@@ -1084,6 +1160,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">Благодарим ви за отзивите</string>
     <string name="suggestions_header">Често търсени</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">информация за профила и системата</string>
+    <string name="survey_app_id">Идент. № на приложението</string>
+    <string name="survey_app_name">Име на приложението</string>
+    <string name="survey_app_version">Версия на приложението</string>
+    <string name="survey_application_data">Данни за приложението</string>
+    <string name="survey_brand">Марка</string>
+    <string name="survey_close_button_description">Затваряне</string>
+    <string name="survey_default_prompt_title">Моля, помогнете ни да подобрим Google.</string>
+    <string name="survey_device_model">Модел на устройството</string>
+    <string name="survey_email_address">Имейл адрес</string>
+    <string name="survey_google_play_services_version">Услуги за Google Play – версия</string>
+    <string name="survey_legal_text">Продължавайки, приемате, че Google използва Вашите отговори, както и %1$s за подобряване на услугите в съответствие с %2$s и %3$s.</string>
+    <string name="survey_library_version">Версия на библиотеката</string>
+    <string name="survey_network_request_failed">Мрежовата заявка не бе успешна</string>
+    <string name="survey_neutral">Нито доволни, нито недоволни</string>
+    <string name="survey_next">Напред</string>
+    <string name="survey_num_rating">%1$s от %2$s</string>
+    <string name="survey_ok">ОК</string>
+    <string name="survey_open_text_hint">Въведете коментарите си тук</string>
+    <string name="survey_open_text_no_pii">Не включвайте лична информация</string>
+    <string name="survey_operating_system">Операционна система</string>
+    <string name="survey_operating_system_version">Версия на опер. система</string>
+    <string name="survey_other_option_hint">Друго (моля, посочете)</string>
+    <string name="survey_platform">Платформа</string>
+    <string name="survey_privacy">Декларация за поверителност</string>
+    <string name="survey_prompt_no_thanks">Не, благодаря</string>
+    <string name="survey_prompt_take_our_survey">Показване на въпр.</string>
+    <string name="survey_smiley_rating">Емотикон %1$s от %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Донякъде недоволни</string>
+    <string name="survey_somewhat_satisfied">Донякъде доволни</string>
+    <string name="survey_submit">Изпращане</string>
+    <string name="survey_system_info_dialog_title">Информация за профила и системата</string>
+    <string name="survey_terms">Общи условия</string>
+    <string name="survey_thank_you_followup_message">Помогнете ни да подобрим продукта си, като отговорите на още въпроси</string>
+    <string name="survey_timezone_offset">Отместване на часовата зона</string>
+    <string name="survey_url">URL адрес</string>
+    <string name="survey_user_agent">Потребителски агент</string>
+    <string name="survey_very_dissatisfied">Много недоволни</string>
+    <string name="survey_very_satisfied">Много доволни</string>
     <string name="system_default_theme_label">Стандартната за системата</string>
     <string name="tab_title_call_history">Скорошни</string>
     <string name="tab_title_contacts">Контакти</string>
@@ -1095,11 +1210,15 @@
     <string name="terms_of_service_label">Общи условия</string>
     <string name="textmessage_button_label">Съобщение</string>
     <string name="theme_preference_label">Избиране на тема</string>
+    <string name="tidepods_call_screen_settings_title">Преглед на повикванията</string>
+    <string name="tidepods_incall_label_record">Записване</string>
     <string name="toast_text_copied">Текстът бе копиран</string>
     <string name="toolbar_back">Назад</string>
     <string name="toolbar_close">Затваряне</string>
     <string name="transcript_audio_feedback_chip_text">Помогнете ни да се подобрим</string>
+    <string name="transcript_audio_feedback_link_text">Преглед на преписа и аудиозаписа</string>
     <string name="transcript_snippet_low_confidence_description">(Звукът не бе разбираем)</string>
+    <string name="try_again_button">Нов опит</string>
     <string name="tty_configuration_title_tty_full">Пълен TTY режим</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY е изключено</string>
@@ -1121,7 +1240,6 @@
     <string name="type_outgoing_video_pulled">Изходящото видеообаждане бе прехвърлено към друго устройство</string>
     <string name="type_rejected">Отхвърлено обаждане</string>
     <string name="type_voicemail">Гласова поща</string>
-    <string name="unable_change_value_error">Възникна проблем при промяната на настройките за ТСРВ. Моля, върнете се и опитайте отново.</string>
     <string name="unable_read_value_error">Възникна проблем при четене на настройките за ТСРВ. Моля, върнете се и опитайте отново.</string>
     <string name="unblock_number">Отблокиране</string>
     <string name="unblock_number_alert_details">Номерът ще бъде отблокиран. Той и бъдещите обаждания от него няма да бъдат спам.</string>
@@ -1130,6 +1248,7 @@
     <string name="unblock_number_ok">Отблокиране</string>
     <string name="unblock_report_number_alert_title">Да се отблокира ли %1$s?</string>
     <string name="unknown">Неизвестен номер</string>
+    <string name="unknown_call_settings_category_preference_title">Настройки за неизвестни обаждания</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Пускане на входящия звук</string>
     <string name="user_is_busy_description">Ще ви се обадя</string>
@@ -1241,10 +1360,17 @@
     <string name="videocall_remote_video_on">Видеото на другия участник е включено</string>
     <string name="videocall_remotely_held">Задържано обаждане</string>
     <string name="videocall_remotely_resumed">Възобновено обажд.</string>
+    <string name="videocall_settings_default_carrier">Видеообаждания от оператора</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Услуга за видеообаждания по подразбиране</string>
+    <string name="videocall_settings_fallback_summary">Превключване към Duo, ако видеообажданията от оператора не са налице</string>
+    <string name="videocall_settings_fallback_title">Използване на Duo като резервен вариант</string>
+    <string name="videocall_settings_title">Видеообаждания</string>
     <string name="videocall_show_preview_button_description">Показване на локалната видеокартина</string>
     <string name="view">Преглед</string>
     <string name="view_location_settings">Настройки за местоположението</string>
     <string name="vitle_label">Видео през LTE</string>
+    <string name="viwifi_label">Видеообаждане през Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Новият ПИН съдържа невалидни знаци.</string>
     <string name="vm_change_pin_error_mismatch">Старият ПИН не съответства.</string>
     <string name="vm_change_pin_error_system_error">Промяната на ПИН не е възможна</string>
@@ -1254,8 +1380,11 @@
     <string name="vm_change_pin_progress_message">Моля, изчакайте.</string>
     <string name="voice_call">Обаждане</string>
     <string name="voice_call_button">Обаждане</string>
+    <string name="voice_display_name">Глас %1$d</string>
     <string name="voice_search_not_available">Гласовото търсене не е налице</string>
     <string name="voice_selector_preference_title">Налични гласове</string>
+    <string name="voice_settings_available_voices_text">Налични гласове</string>
+    <string name="voice_settings_title">Глас</string>
     <string name="voicecall_button_label">Обаждане</string>
     <string name="voicecall_button_wifi_description">Обаждане през Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s в %2$s</string>
@@ -1290,7 +1419,6 @@
     <string name="voicemail_donation_promo_title">Ще помогнете ли за подобряване на точността на преписите?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Ако използвате визуална гласова поща със SIM карти без план за данни, операторът може да ви таксува</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Визуалната гласова поща е налице само за избраната SIM карта за данни</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Ако имате няколко SIM карти и една от тях е за Fi, тя ще се използва за визуалната гласова поща</string>
     <string name="voicemail_error_activating_message">Възможно е да не получавате известия за гласова поща, докато визуалната гласова поща не бъде напълно активирана. Обаждайте се на номера за гласова поща, за да получавате нови съобщения, докато гласовата поща не е активирана.</string>
     <string name="voicemail_error_activating_title">Визуалната гласова поща се активира</string>
     <string name="voicemail_error_activation_disabled_message">Обадете се на гласовата поща, за да завършите настройването й</string>
@@ -1397,6 +1525,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Не може да се установи връзка с гласовата ви пощенска кутия</string>
     <string name="vvm3_error_vms_timeout_message">За съжаление, възникна проблем. Моля, опитайте отново по-късно. Ако проблемът все още е налице, моля, свържете се с екипа за поддръжка на клиенти на телефон %1$s и кажете, че кодът на грешката е 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Нещо се обърка</string>
+    <string name="vvm_config_title">Конфигуриране на визуалната гласова поща</string>
     <string name="vvm_unsupported_message_format">Типът на съобщението не се поддържа. Обадете се на %s, за да го чуете.</string>
     <string name="wait_prompt_str">"Да се изпратят ли следните мелодии? 
 "</string>

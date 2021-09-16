@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Răspundeți</string>
     <string name="a11y_call_incoming_decline_description">Respingeți</string>
+    <string name="a11y_callscreen_animation">Animație cu funcția Screening de apeluri</string>
     <string name="a11y_contact_menu_video_call_wifi">Apelați video folosind Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Apelați vocal folosind Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Cel mai recent este un apel la care s-a răspuns de la ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Gestionați apelanții</string>
     <string name="a11y_expandedsheet_collapse">restrângeți meniul</string>
     <string name="a11y_expandedsheet_expand">extindeți meniul</string>
-    <string name="a11y_favorites_education_dismiss">închideți</string>
     <string name="a11y_feature_demo_next_page">Pagina următoare</string>
     <string name="a11y_feature_demo_page_indicator">Pagina %d</string>
     <string name="a11y_feature_demo_prev_page">Pagina anterioară</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Contact rapid pentru ^1</string>
+    <string name="a11y_icon_hd">Apel HD</string>
+    <string name="a11y_icon_hd_plus">Apel HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Apel cu date celulare la comun</string>
+    <string name="a11y_icon_verified">Apel confirmat</string>
+    <string name="a11y_icon_vilte">Voce prin apel LTE</string>
+    <string name="a11y_icon_viwifi">Apel video prin Wi-Fi</string>
+    <string name="a11y_icon_volte">Voce prin apel LTE</string>
+    <string name="a11y_icon_voz4g">Voce prin apel 4G</string>
+    <string name="a11y_icon_wifi">Apelare prin Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Glisați cu două degete în sus pentru a răspunde și în jos pentru a respinge.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Glisați în sus cu două degete pentru a răspunde sau glisați în jos pentru a respinge apelul.</string>
     <string name="a11y_new_call_log_entry_call_recording">apelul a fost înregistrat</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">inițiați un apel TTR cu ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Apel cu date celulare la comun</string>
     <string name="a11y_new_call_log_entry_tap_action">extindeți meniul</string>
     <string name="a11y_new_call_log_entry_video_call">inițiați un apel video către ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">apelați video ^1 folosind Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Editați numărul înainte de apel</string>
     <string name="action_menu_back_from_search">nu mai căutați</string>
     <string name="action_menu_overflow_description">Mai multe opțiuni</string>
+    <string name="activate_error_message">Problemă la activarea Screeningului de apeluri</string>
+    <string name="activated_successfully">Screeningul de apeluri a fost activat</string>
     <string name="activity_not_available">Pe dispozitiv nu există nicio aplicație pentru această acțiune</string>
     <string name="add_2sec_pause">Adăugați o pauză de 2 secunde</string>
     <string name="add_contact_not_available">Nu este disponibilă nicio aplicație pentru agendă</string>
@@ -158,10 +170,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">Blocarea apelurilor e dezactivată temporar</string>
     <string name="bm_suggest_call_button">Apelați</string>
     <string name="bm_suggest_chat_button">Chat</string>
-    <string name="bm_suggest_wait_min">"Așteptare Chat
-%1$d min"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s necitite</string>
+    <string name="bm_suggest_wait_min">"Chat
+așteptare: %1$d m"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Se procesează…"</string>
     <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
     <string name="bubble_bottom_action_end_call">Încheiați</string>
     <string name="bubble_bottom_action_hide">Ascundeți</string>
@@ -170,7 +182,10 @@
     <string name="call">Apel vocal</string>
     <string name="callFailed_simError">Nu există SIM sau eroare de SIM</string>
     <string name="callHistoryIconLabel">Istoricul apelurilor</string>
-    <string name="call_announcer_preference_footer_instruction_text">Numele și numărul apelantului va fi rostit pentru apelurile primite</string>
+    <string name="call_action_label_automatically_screen">Filtrați automat. Respingeți apelurile automate.</string>
+    <string name="call_action_label_ring_phone">Sunați la telefon (prestabilit)</string>
+    <string name="call_action_label_silently_decline">Refuzați silențios.</string>
+    <string name="call_announcer_preference_footer_instruction_text">Numele și numărul apelantului va fi rostit pentru apelurile primite.</string>
     <string name="call_announcer_preference_list_title">Anunțați ID-ul apelantului</string>
     <string name="call_announcer_preference_option_always">Întotdeauna</string>
     <string name="call_announcer_preference_option_headset">Doar când folosiți un set de căști-microfon</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Răspundeți</string>
     <string name="call_incoming_answer_rtt">Răspundeți cu TTR</string>
     <string name="call_incoming_answer_voice">Răspundeți vocal</string>
-    <string name="call_incoming_chip_answer_and_release">Răspundeți/închideți apel</string>
+    <string name="call_incoming_chip_answer_and_release">Răspundeți și încheiați celălalt apel</string>
     <string name="call_incoming_chip_answer_as_rtt">Răspundeți ca apel TTR</string>
     <string name="call_incoming_chip_answer_video_as_audio">Răspundeți ca apel vocal</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Răspundeți fără video</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Glisați în sus pentru a răspunde</string>
     <string name="call_incoming_swipe_to_reject">Glisați în jos pentru a respinge</string>
     <string name="call_incoming_video_is_off">Imaginea video este dezactivată</string>
-    <string name="call_incoming_will_disconnect">Dacă răspundeți la acest apel, se va încheia apelul video.</string>
+    <string name="call_incoming_will_disconnect">Dacă răspundeți la acest apel, celălalt apel se va încheia</string>
     <string name="call_incoming_will_disconnect_app">Dacă răspundeți, apelul din %1$s va fi încheiat.</string>
     <string name="call_isdn">Apelați ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Blocați/raportați ca spam</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Motivul apelului: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Înregistrarea a fost salvată.</string>
     <string name="call_recording_conversation_history_entry">Data înregistrării</string>
+    <string name="call_recording_delete_snack_bar_undo">Anulați</string>
     <string name="call_recording_disclaimer_agreen_button_text">Începeți înregistrarea</string>
     <string name="call_recording_disclaimer_content">"Dvs. sau cealaltă persoană din apel vă puteți afla într-un loc care solicită consimțământul tuturor participanților pentru a fi înregistrați. Toți participanții vor fi informați din timp că apelul va fi înregistrat. Vă revine responsabilitatea respectării legilor privind înregistrarea conversațiilor. Folosiți înregistrarea apelurilor în mod responsabil și activați-o doar când este necesar.
 ^1
@@ -291,6 +307,7 @@
 Înregistrarea audio a apelului și transcrierea acestuia nu sunt trimise nimănui, nici la Google."</string>
     <string name="call_screen_demo_page_4_title">Economisiți timp și evitați frustrările</string>
     <string name="call_screen_demo_setting_title">Vedeți o demonstrație</string>
+    <string name="call_screen_demo_settings_title">Vedeți o demonstrație</string>
     <string name="call_screen_demo_title">Cum funcționează Screeningul de apeluri</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Nu se poate prelua exemplul de conținut audio</string>
     <string name="call_screen_demo_unable_to_play_audio">Nu se poate reda exemplul de conținut audio</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Ați încheiat apelul</string>
     <string name="call_screen_end_call_non_local_internal_message">Apelul a fost deconectat</string>
     <string name="call_screen_how_it_works_setting_title">Screeningul de apeluri funcționează pe dispozitiv fără Wi-Fi sau date celulare. Transcrierile conversației sunt generate și stocate doar pe telefonul dvs. %1$s</string>
+    <string name="call_screen_how_it_works_title">Screeningul de apeluri funcționează pe dispozitiv fără Wi-Fi sau date celulare. Transcrierile conversației sunt generate și stocate doar pe telefonul dvs. ^1</string>
     <string name="call_screen_incallui_chip_text">Filtrați apelul</string>
     <string name="call_screen_join_call_button_content_description">Participați la apel</string>
     <string name="call_screen_join_call_internal_message">V-ați conectat la apel</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">I se spune apelantului</string>
     <string name="call_screen_screening_call_from">Apel filtrat de la</string>
     <string name="call_screen_setting_title">Screening de apeluri</string>
+    <string name="call_screen_settings_title">Screening de apeluri</string>
     <string name="call_screen_speaker_toggle_button_content_description">Butonul pentru difuzoare</string>
     <string name="call_screen_suggestions_avatar_content_description">Siglă</string>
     <string name="call_screen_survey_cancel_button">Anulați</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Apelați numărul de serviciu</string>
     <string name="call_work_mobile">Apelați numărul de mobil de la serviciu</string>
     <string name="call_work_pager">Apelați numărul de pager de serviciu</string>
+    <string name="caller_action_error_cant_load_value">Nu se poate prelua valoarea %1$s actuală</string>
+    <string name="caller_action_error_cant_set_value">Nu se poate salva valoarea %1$s</string>
     <string name="caller_id_announcement_multi_sim">apel %1$s primit de la %2$s pe cartela sim %3$s</string>
     <string name="caller_id_announcement_single_sim">apel %1$s primit de la %2$s</string>
     <string name="caller_id_business_data_details">Datele folosite în aceste funcții sunt oferite de Google și de furnizorii săi de licență. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">Apelați %s?</string>
     <string name="calllog_add_to_contact">Actualizare contact existent</string>
     <string name="calllog_create_new_contact">Contact nou</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Se activează Screeningul de apeluri (necesită WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Permisiunea pentru cameră a fost activată.</string>
     <string name="camera_privacy_text">Permisiunea pentru cameră a fost activată.</string>
     <string name="cannot_understand_description">Nu înțeleg</string>
     <string name="car_crash_emergency_intro">"Se ia legătura cu dvs. în numele apelantului printr-un serviciu vocal de urgențe automatizat.
@@ -392,7 +416,7 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
     <string name="checkbox_report_as_spam_action">Raportați apelul ca spam</string>
     <string name="child_number">pe %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Alegeți o persoană de contact</string>
     <string name="clear_button_content_description">Ștergeți căutarea</string>
     <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
     <string name="cli_not_supported_text">Deschideți telefonul pentru a continua</string>
@@ -432,6 +456,9 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Funcția de apeluri confirmate nu a putut fi configurată. O puteți activa din nou din setări.</string>
     <string name="contact_card_video_icon_content_description">Apel video ^1</string>
     <string name="contact_grid_callback_number">Numărul acestui telefon: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Apelul a fost redirecționat</string>
+    <string name="contact_grid_hd_icon_content_description">Apel HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Apel HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Apel video prin operator de la</string>
     <string name="contact_grid_incoming_reception_only_video_call">Apel video unidirecțional prin operator de la</string>
     <string name="contact_grid_incoming_rtt_call">Apel TTR de la</string>
@@ -442,9 +469,18 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Apel video prin operator Wi-Fi de la</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Apel video unidirecțional prin operator Wi-Fi de la</string>
     <string name="contact_grid_incoming_work_call">Apel de serviciu de la</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Apel cu date celulare la comun</string>
+    <string name="contact_grid_spam_icon_content_description">Apel spam</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operator</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s a fost confirmat</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Număr valid</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Voce prin apel LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Apel video prin Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Voce prin apel 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Voce prin apel LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Apel voce prin Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Apelare prin Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Apel de serviciu</string>
     <string name="contact_menu_add_favorite">Setați preferat</string>
     <string name="contact_menu_contact_info">Informații</string>
     <string name="contact_menu_invite_video">Invitați la un apel video</string>
@@ -479,8 +515,12 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="conversation_history_call_details_header_today">Astăzi</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Apelul a fost șters</string>
     <string name="conversation_history_call_details_snack_bar_undo">Anulați</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Apel important</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Afișați informațiile adăugate în apel</string>
+    <string name="conversation_history_call_recording_deleted">S-a șters înregistrarea</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transcriere și audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transcriere</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Vedeți transcrierea și conținutul audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Screening de apeluri</string>
     <string name="copy">Copiați</string>
     <string name="copy_number">Copiați numărul</string>
@@ -499,12 +539,17 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="custom_prefix_default_prefix_title">Prefixul prestabilit</string>
     <string name="custom_prefix_prefixes_preference_title">Prefixe</string>
     <string name="dark_theme_label">Întunecată</string>
+    <string name="default_changed_confirmation">Aplicația Telefon a fost setată ca prestabilită</string>
+    <string name="default_image_content_description">Imagine ecran de pornire</string>
     <string name="delete">Ștergeți</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Ștergeți toate înregistrările</string>
     <string name="delete_all_recordings_now_error_message">Unele înregistrări nu au putut fi șterse. Reîncercați.</string>
     <string name="delete_button_label">Ștergeți toate înregistrările acum</string>
     <string name="delete_confirmation_dialog_negative_button_label">Anulați</string>
     <string name="delete_confirmation_dialog_positive_button_label">Ștergeți</string>
+    <string name="delete_old_recordings_error_cant_load_value">Nu se poate prelua valoarea %1$s actuală</string>
+    <string name="delete_old_recordings_error_cant_set_value">Nu se poate salva valoarea %1$s</string>
+    <string name="deleting_call_recording">Se șterge înregistrarea…</string>
     <string name="description_add_to_existing_contact_action">Adăugați ^1 la o persoană de contact existentă</string>
     <string name="description_blocked_number_list_delete">Deblocați numărul</string>
     <string name="description_call_action">Apelați ^1</string>
@@ -607,6 +652,7 @@ Vă rugăm să trimiți ajutor."</string>
     <string name="emergency_sos_emergency_intro">"Se ia legătura cu dvs. în numele apelantului printr-un serviciu vocal de urgențe automatizat.
 Apelantul a semnalat că este posibil să se afle într-o situație de urgență. 
 Trimiteți ajutor."</string>
+    <string name="emergency_speaker">Difuzor</string>
     <string name="emergency_voice_assist_dialog_button_close">Anulați</string>
     <string name="emergency_voice_assist_dialog_title">Operatorul de urgență aude acest mesaj</string>
     <string name="end_call_with_default_message_description">Încheiați apelul</string>
@@ -636,9 +682,12 @@ Trimiteți ajutor."</string>
     <string name="feedback_call_issue_quiet_audio">Sunetul era prea încet</string>
     <string name="feedback_call_issue_title">Care a fost problema?</string>
     <string name="feedback_title_please_rate">Evaluați calitatea apelului</string>
+    <string name="first_time_callers_action_preference_description">Apelanți care nu se află în jurnalul de apeluri</string>
+    <string name="first_time_callers_action_preference_title">Apelanți care sună pentru prima dată</string>
     <string name="flip_to_shush_title">Întoarceți pentru a activa modul Shhh</string>
     <string name="flip_to_silence_summary">Pentru a dezactiva sunetul unui apel primit, plasați telefonul cu fața în jos pe o suprafață plană</string>
     <string name="flip_to_silence_title">Întoarceți pentru a dezactiva sunetul</string>
+    <string name="foreground_notification_title">Se actualizează…</string>
     <string name="frequent_contact_suggestion">Apelată frecvent</string>
     <string name="general_learn_more">Aflați mai multe</string>
     <string name="generic_conference_call_name">Apel în desfășurare</string>
@@ -661,6 +710,7 @@ Trimiteți ajutor."</string>
     <string name="how_it_works_storage_link_text">Aflați mai multe despre modul în care sunt stocate înregistrările</string>
     <string name="how_it_works_storage_template">Înregistrarea apelurilor va fi suspendată dacă spațiul de stocare al telefonului se epuizează. ^1</string>
     <string name="icon_content_description">Pictogramă de dialog</string>
+    <string name="icon_description_shared_data_call">Apel cu date celulare la comun</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Importați numere</string>
     <string name="ims_video_heading">Apel video Verizon</string>
@@ -804,6 +854,7 @@ Trimiteți ajutor."</string>
     <string name="new_call_log_no_missed_calls">Nu aveți niciun apel nepreluat</string>
     <string name="new_call_log_permission_no_calllog">Pentru a vedea jurnalul de apeluri, activați permisiunea pentru Telefon.</string>
     <string name="new_call_log_secondary_blocked">Blocate</string>
+    <string name="new_call_log_secondary_verified">Apel confirmat</string>
     <string name="new_call_log_snack_bar_deleted">Apelul a fost șters</string>
     <string name="new_call_log_snack_bar_undo">Anulați</string>
     <string name="new_call_log_unknown">Necunoscut</string>
@@ -818,8 +869,10 @@ Trimiteți ajutor."</string>
     <string name="notification_action_answer_video">Videoclip</string>
     <string name="notification_action_dismiss">Respingeți</string>
     <string name="notification_action_end_call">Încheiați apelul</string>
+    <string name="notification_action_mute_toggle">Dezactivați sunetul</string>
     <string name="notification_action_speaker_off">Opriți difuzorul</string>
     <string name="notification_action_speaker_on">Porniți difuzorul</string>
+    <string name="notification_action_speaker_toggle">Difuzor</string>
     <string name="notification_callReasonMsg">Motiv: %s</string>
     <string name="notification_call_wifi_brand">Apel Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Apel de serviciu prin Wi-Fi</string>
@@ -883,6 +936,8 @@ Trimiteți ajutor."</string>
     <string name="place_ims_button_content_description">Un buton iniția un apel video prin operator.</string>
     <string name="play">Redați</string>
     <string name="plus_code_line_format">Codul plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Apelanți care pot fi autori de spam și folosesc un număr schimbat</string>
+    <string name="possibly_faked_numbers_action_preference_title">Numere posibil false</string>
     <string name="post_call_message">Spuneți de ce ați sunat</string>
     <string name="post_call_message_1">Este ceva urgent. Sună-mă.</string>
     <string name="post_call_message_2">Sună-mă când ai puțin timp.</string>
@@ -913,6 +968,8 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="privacy_policy_label">Politică de confidențialitate</string>
     <string name="private_num_non_verizon">Număr privat</string>
     <string name="private_num_verizon">Restricționat</string>
+    <string name="private_or_hidden_action_preference_description">Apelanți care își ascund ID-ul apelantului</string>
+    <string name="private_or_hidden_action_preference_title">Privat sau ascuns</string>
     <string name="quick_contact_checkbox_description">Selectați persoana</string>
     <string name="ready_for_recording">Fiți gata…</string>
     <string name="record_greeting_cancel_label">Anulați</string>
@@ -928,6 +985,8 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="record_greeting_uploading_greeting_message">Se salvează…</string>
     <string name="record_voicemail_greeting_title">Înregistrați un mesaj</string>
     <string name="recording_category_title">Înregistrări</string>
+    <string name="recording_deleted">S-a șters înregistrarea</string>
+    <string name="recording_deletion_failed">Nu s-a șters înregistrarea [Încercați din nou]</string>
     <string name="redo_button_text">Încercați din nou</string>
     <string name="remember_this_choice_label">Rețineți această alegere</string>
     <string name="report_not_spam_alert_button">Raportați</string>
@@ -939,9 +998,20 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="request_call_back_description">Doresc să fiu apelat(ă)</string>
     <string name="request_email_description">Trimite-mi un e-mail</string>
     <string name="respond_via_sms_setting_title">Răspunsuri rapide</string>
+    <string name="revelio_callers_how_it_works_text">"Pentru a dezactiva filtrarea automată, selectați setarea „Sunați la telefon (prestabilit)” pentru apelurile necunoscute. Persoanele din agendă nu sunt filtrate niciodată automat. Filtrarea automată nu funcționează dacă telefonul este conectat la căști sau la difuzoare. 
+Funcția Screening de apeluri nu folosește date sau conexiunea Wi-Fi, însă folosește minutele de la operator pentru apeluri. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Ștergeți după 30 de zile</string>
+    <string name="revelio_delete_old_recordings_setting_title">Ștergeți automat înregistrări și transcrieri mai vechi</string>
+    <string name="revelio_demo_setting_title">Cum funcționează Screeningul de apeluri</string>
     <string name="revelio_demo_turn_on">Activați</string>
     <string name="revelio_end_call_reject_as_spam">Apelul a fost marcat ca spam</string>
     <string name="revelio_end_call_user_missed_internal_message">Apelul a fost pierdut</string>
+    <string name="revelio_pref_title">Screening de apeluri</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Filtrarea automată este dezactivată</string>
+    <string name="revelio_preference_summary_screening">Se filtrează %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Salvați preferința audio pentru apelurile la care răspunde Asistentul</string>
+    <string name="revelio_save_audio_setting_title">Salvați preferința audio pentru opțiune</string>
+    <string name="revelio_setting_title">Screening de apeluri</string>
     <string name="rtt_assist_default">TTR oferă asistență apelanților fără auz, cu deficiențe de auz, care au dizabilități de vorbire sau care au nevoie de mai mult decât vocea. ^1</string>
     <string name="rtt_assist_for_att">Tastatura pentru text în timp real (TTR) afișată pe ecran este o alternativă la tastaturile TTY externe. Când trimiteți mesaje text în timpul unui apel TTR, persoana cu care vorbiți poate vedea că scrieți mesajul în timp real. ^1</string>
     <string name="rtt_assist_for_tmo">Tastatura pentru text în timp real (TTR) afișată pe ecran este o alternativă la tastaturile TTY externe. Tastatura TTR trimite instantaneu textul pe care îl introduceți în timpul unui apel telefonic și vă oferă posibilitatea de a comunica folosind mesaje text în timp real. Veți putea vedea răspunsuri parțiale înainte de finalizarea întregului mesaj. ^1</string>
@@ -949,7 +1019,8 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="rtt_button_back">Înapoi</string>
     <string name="rtt_button_downgrade">Comutați la un apel vocal</string>
     <string name="rtt_call_button">TTR</string>
-    <string name="rtt_call_not_available_toast">Funcția TTR nu este disponibilă pentru acest apel. Apelul dvs. este efectuat doar ca apel vocal.</string>
+    <string name="rtt_call_downgraded_toast">Apelul dvs. RTT s-a schimbat în apel doar vocal</string>
+    <string name="rtt_call_not_available_toast">Opțiunea TTR nu este disponibilă pentru acest apel</string>
     <string name="rtt_configuration_summary_always_visible">Butonul Text în timp real este disponibil oriunde</string>
     <string name="rtt_configuration_summary_not_visible">Permite primirea apelurilor Text în timp real, dar ascunde butonul de apelare</string>
     <string name="rtt_configuration_summary_visible_during_call">Afișați butonul Text în timp real în timpul unui apel</string>
@@ -978,6 +1049,8 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="rtt_transcript_link">Vedeți transcrierea</string>
     <string name="rttcall_button_label">TTR</string>
     <string name="safety_emergency_repeat_message_alert">Mesajul se va repeta.</string>
+    <string name="save_audio_error_cant_load_value">Nu s-a putut prelua valoarea actuală pentru preferința audio a opțiunii Screening de apeluri</string>
+    <string name="save_audio_error_cant_set_value">Nu s-a putut salva valoarea pentru preferința audio a opțiunii Screening de apeluri</string>
     <string name="save_button_text">Salvați</string>
     <string name="saved_voicemails_action_title">Mesaje vocale salvate (%1$s)</string>
     <string name="search_hint">Căutați contacte video</string>
@@ -1004,8 +1077,11 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="send_a_message">Trimiteți un mesaj</string>
     <string name="send_to_voicemail_import_failed">Importul nu a reușit</string>
     <string name="serial_number">Număr de serie</string>
+    <string name="set_as_default_button_text">Setați ca standard</string>
     <string name="set_default_account">Utilizați mereu pentru apeluri</string>
     <string name="set_default_account_description">Preferința pentru SIM este salvată împreună cu Agenda.</string>
+    <string name="set_phone_as_default_explanation_text">Telefon poate să inițieze și să primească apeluri doar dacă este aplicația de telefonie prestabilită</string>
+    <string name="set_phone_as_default_request_text">Setați aplicația Telefon ca prestabilită</string>
     <string name="settings">Setări</string>
     <string name="settings_page_call_recording_feature_not_available_text">Înregistrarea apelurilor nu este disponibilă în locația dvs.</string>
     <string name="settings_page_crosby_feature_not_available_text">Nu este disponibil în locația dvs.</string>
@@ -1040,6 +1116,8 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="snackbar_undo">Anulați</string>
     <string name="snackbar_voicemail_deleted">Mesaj vocal șters</string>
     <string name="sounds_and_vibration_title">Sunete și vibrații</string>
+    <string name="spam_action_preference_description">Numere care corespund bazei de date Google cu numere spam</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Apeluri spam și Screening de apeluri</string>
     <string name="spam_blocking_promo_action_dismiss">Închideți</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrați mesajele spam</string>
@@ -1066,8 +1144,6 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="speed_dial_add_button_text">Adăugați</string>
     <string name="speed_dial_contacts_permission_description">Pentru a activa apelarea rapidă, activați permisiunea pentru Agendă.</string>
     <string name="speed_dial_disambig_dialog_title">Alegeți cum să apelați persoana %s</string>
-    <string name="speed_dial_education_content">Atingeți lung orice persoană de contact pentru a comuta între apeluri și mesaje.</string>
-    <string name="speed_dial_education_title">Mai multe modalități de contact</string>
     <string name="speed_dial_no_contacts_action_text">Adăugați o persoană de contact preferată</string>
     <string name="speed_dial_no_contacts_description">Apelați persoanele de contact preferate, cu o singură atingere</string>
     <string name="speed_dial_remember_this_choice">Rețineți această alegere</string>
@@ -1084,6 +1160,45 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="suggestion_dialog_postive_snackbar_message">Vă mulțumim pentru feedback</string>
     <string name="suggestions_header">Frecvente</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">informații cont și sistem</string>
+    <string name="survey_app_id">Codul aplicației</string>
+    <string name="survey_app_name">Numele aplicației</string>
+    <string name="survey_app_version">Versiunea aplicației</string>
+    <string name="survey_application_data">Datele aplicației</string>
+    <string name="survey_brand">Marcă</string>
+    <string name="survey_close_button_description">Închideți</string>
+    <string name="survey_default_prompt_title">Ajutați-ne să îmbunătățim serviciul Google.</string>
+    <string name="survey_device_model">Modelul dispozitivului</string>
+    <string name="survey_email_address">Adresa de e-mail</string>
+    <string name="survey_google_play_services_version">Versiune Servicii Google Play</string>
+    <string name="survey_legal_text">Dacă alegeți să continuați, acceptați ca Google să vă folosească răspunsurile și %1$s pentru a îmbunătăți serviciile, în conformitate cu %2$s și %3$s.</string>
+    <string name="survey_library_version">Versiunea bibliotecii</string>
+    <string name="survey_network_request_failed">Eroare la solicitarea rețelei</string>
+    <string name="survey_neutral">Nici mulțumit(ă), nici nemulțumit(ă)</string>
+    <string name="survey_next">Înainte</string>
+    <string name="survey_num_rating">%1$s din %2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Introduceți comentariile aici</string>
+    <string name="survey_open_text_no_pii">Nu includeți informații cu caracter personal</string>
+    <string name="survey_operating_system">Sistem de operare</string>
+    <string name="survey_operating_system_version">Versiune Sistem de operare</string>
+    <string name="survey_other_option_hint">Altă modalitate (vă rugăm să precizați)</string>
+    <string name="survey_platform">Platformă</string>
+    <string name="survey_privacy">Confidențialitate</string>
+    <string name="survey_prompt_no_thanks">Nu</string>
+    <string name="survey_prompt_take_our_survey">Afișați întrebarea</string>
+    <string name="survey_smiley_rating">Emoticonul %1$s din %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Oarecum nemulțumit(ă)</string>
+    <string name="survey_somewhat_satisfied">Oarecum mulțumit(ă)</string>
+    <string name="survey_submit">Trimiteți</string>
+    <string name="survey_system_info_dialog_title">Informații despre cont și sistem</string>
+    <string name="survey_terms">Termeni</string>
+    <string name="survey_thank_you_followup_message">Ajutați-ne să îmbunătățim produsul, răspunzând la mai multe întrebări</string>
+    <string name="survey_timezone_offset">Decalajul de fus orar</string>
+    <string name="survey_url">Adresă URL</string>
+    <string name="survey_user_agent">User agent</string>
+    <string name="survey_very_dissatisfied">Foarte nemulțumit(ă)</string>
+    <string name="survey_very_satisfied">Foarte mulțumit(ă)</string>
     <string name="system_default_theme_label">Temă prestabilită a sistemului</string>
     <string name="tab_title_call_history">Recente</string>
     <string name="tab_title_contacts">Agendă</string>
@@ -1095,11 +1210,15 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="terms_of_service_label">Termeni și condiții</string>
     <string name="textmessage_button_label">Mesaj</string>
     <string name="theme_preference_label">Alegeți tema</string>
+    <string name="tidepods_call_screen_settings_title">Screening de apeluri</string>
+    <string name="tidepods_incall_label_record">Înregistrați</string>
     <string name="toast_text_copied">Text copiat</string>
     <string name="toolbar_back">Înapoi</string>
     <string name="toolbar_close">Închideți</string>
     <string name="transcript_audio_feedback_chip_text">Ajutați-ne să ne îmbunătățim</string>
+    <string name="transcript_audio_feedback_link_text">Vedeți transcrierea și conținutul audio</string>
     <string name="transcript_snippet_low_confidence_description">(Partea audio nu a fost clară)</string>
+    <string name="try_again_button">Reîncercați</string>
     <string name="tty_configuration_title_tty_full">TTY integral</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY dezactivat</string>
@@ -1121,7 +1240,6 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="type_outgoing_video_pulled">Apel video efectuat transferat către alt dispozitiv</string>
     <string name="type_rejected">Apel respins</string>
     <string name="type_voicemail">Mesagerie vocală</string>
-    <string name="unable_change_value_error">A apărut o problemă la modificarea setărilor TTR. Reveniți și încercați din nou.</string>
     <string name="unable_read_value_error">A apărut o problemă la citirea setărilor TTR. Reveniți și încercați din nou.</string>
     <string name="unblock_number">Deblocați</string>
     <string name="unblock_number_alert_details">Acest număr va fi deblocat și raportat ca nefiind spam. Apelurile viitoare nu sunt considerate spam.</string>
@@ -1130,6 +1248,7 @@ Unele numere pot primi apeluri video fără să actualizați setările."</string
     <string name="unblock_number_ok">Deblocați</string>
     <string name="unblock_report_number_alert_title">Deblocați %1$s?</string>
     <string name="unknown">Necunoscut</string>
+    <string name="unknown_call_settings_category_preference_title">Setări pentru apeluri necunoscute</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Activați sunetul audio</string>
     <string name="user_is_busy_description">Te sun înapoi</string>
@@ -1241,10 +1360,17 @@ Dacă alegeți să continuați apelul, se aplică tarife pentru utilizarea datel
     <string name="videocall_remote_video_on">Imaginea sa video este activată.</string>
     <string name="videocall_remotely_held">Apel în așteptare</string>
     <string name="videocall_remotely_resumed">S-a reluat apelul.</string>
+    <string name="videocall_settings_default_carrier">Apelare video prin operator</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Serviciul de apelare video prestabilit</string>
+    <string name="videocall_settings_fallback_summary">Treceți la Duo dacă apelul video prin operator nu este disponibil</string>
+    <string name="videocall_settings_fallback_title">Folosiți Duo ca backup</string>
+    <string name="videocall_settings_title">Se apelează video</string>
     <string name="videocall_show_preview_button_description">Afișați feedul de videoclipuri locale</string>
     <string name="view">Afișați</string>
     <string name="view_location_settings">Setări privind locația</string>
     <string name="vitle_label">Video over LTE</string>
+    <string name="viwifi_label">Video prin Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Codul PIN nou conține caractere nevalide.</string>
     <string name="vm_change_pin_error_mismatch">Codul PIN vechi nu corespunde.</string>
     <string name="vm_change_pin_error_system_error">Nu se poate schimba codul PIN</string>
@@ -1254,8 +1380,11 @@ Dacă alegeți să continuați apelul, se aplică tarife pentru utilizarea datel
     <string name="vm_change_pin_progress_message">Așteptați.</string>
     <string name="voice_call">Apel vocal</string>
     <string name="voice_call_button">Apelați</string>
+    <string name="voice_display_name">Vocea %1$d</string>
     <string name="voice_search_not_available">Căutarea vocală nu este disponibilă</string>
     <string name="voice_selector_preference_title">Voci disponibile</string>
+    <string name="voice_settings_available_voices_text">Voci disponibile</string>
+    <string name="voice_settings_title">Voce</string>
     <string name="voicecall_button_label">Apelați</string>
     <string name="voicecall_button_wifi_description">Apelați folosind Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s la %2$s</string>
@@ -1290,7 +1419,6 @@ Dacă alegeți să continuați apelul, se aplică tarife pentru utilizarea datel
     <string name="voicemail_donation_promo_title">Vreți să contribuiți la îmbunătățirea acurateței transcrierii?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Folosirea mesajelor vocale vizuale pentru cartele SIM fără date poate atrage costuri impuse de operator</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Mesageria vocală vizuală este disponibilă numai pentru cardul SIM de date selectat</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Dacă aveți mai multe carduri SIM, iar unul este pentru Fi, cardul SIM pentru Fi va fi folosit pentru mesageria vocală vizuală.</string>
     <string name="voicemail_error_activating_message">E posibil să nu primiți notificări de la mesageria vocală până când mesageria vocală vizuală nu este activată complet. Apelați mesageria vocală pentru a prelua mesajele noi până la activarea completă a mesageriei.</string>
     <string name="voicemail_error_activating_title">Se activează mesageria vocală vizuală</string>
     <string name="voicemail_error_activation_disabled_message">Apelați mesageria vocală pentru a finaliza configurarea</string>
@@ -1397,6 +1525,7 @@ Dacă alegeți să continuați apelul, se aplică tarife pentru utilizarea datel
     <string name="vvm3_error_vms_no_cellular_title">Nu vă puteți conecta la căsuța de mesaje vocale</string>
     <string name="vvm3_error_vms_timeout_message">A apărut o problemă. Încercați din nou mai târziu. Dacă problema persistă, contactați Serviciul de asistență pentru clienți la %1$s și comunicați-le codul erorii: 9007.</string>
     <string name="vvm3_error_vms_timeout_title">A apărut o eroare</string>
+    <string name="vvm_config_title">Configurarea mesageriei vocale vizuale</string>
     <string name="vvm_unsupported_message_format">Tip de mesaj neacceptat. Sunați la %s pentru a-l asculta.</string>
     <string name="wait_prompt_str">"Trimiteți următoarele tonuri?
 "</string>

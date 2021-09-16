@@ -17,14 +17,21 @@
         <item>15 នាទី</item>
         <item>20 នាទី</item>
         <item>25 នាទី</item>
-        <item>កុំឲ្យសោះ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>មុន​ម៉ោងគេង 15 នាទី</item>
+        <item>មុន​ម៉ោងគេង 30 នាទី</item>
+        <item>មុន​ម៉ោងគេង 45 នាទី</item>
+        <item>មុន​ម៉ោងគេង 1 ម៉ោង</item>
+        <item>បិទ</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>អាណាឡូក</item>
         <item>ឌីជីថល</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>កុំឲ្យសោះ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 វិនាទី</item>
         <item>10 វិនាទី</item>
         <item>15 វិនាទី</item>
@@ -37,6 +44,35 @@
         <item>50 វិនាទី</item>
         <item>55 វិនាទី</item>
         <item>60 វិនាទី</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>បញ្ឈប់បន្ទាប់ពី 10 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 20 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 30 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 40 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 50 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 1 ម៉ោង</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>បញ្ឈប់បន្ទាប់ពី 10 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 20 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 30 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 40 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 50 នាទី</item>
+        <item>បញ្ឈប់បន្ទាប់ពី 1 ម៉ោង</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 នាទី</item>
+        <item>20 នាទី</item>
+        <item>30 នាទី</item>
+        <item>40 នាទី</item>
+        <item>50 នាទី</item>
+        <item>1 ម៉ោង</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 ​នាទី</item>
@@ -69,18 +105,6 @@
         <item>28 នាទី</item>
         <item>29 នាទី</item>
         <item>30 នាទី</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>អ្នក​កំពុង​ស្ថិត​ក្នុង​ល្បឿន​ដ៏​អស្ចារ្យ។</item>
-        <item>រីករាយ​ជាមួយ​លទ្ធផល​ការងារ​របស់​អ្នក។</item>
-        <item>Androids គឺ​លឿន ប៉ុន្តែ​មិន​លឿន​ដូច​អ្នក​ទេ!</item>
-        <item>ធុញ!</item>
-        <item>L33t ដង។</item>
-        <item>ល្បឿន​ដ៏​អស្ចារ្យ។</item>
-        <item>តោះ!​ប្ដូរ​ពេលវេលា​ម្ដងទៀត។</item>
-        <item>លោត​ទៅ​ឆ្វេង។</item>
-        <item>អ្នក​មាន​ក្ដារ​សម្រាប់​ល្បឿន។</item>
-        <item>ល្បឿន​ពន្លឺ។</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>កោះម៉ាសាល</item>

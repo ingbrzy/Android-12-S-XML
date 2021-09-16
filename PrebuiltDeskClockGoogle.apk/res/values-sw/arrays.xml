@@ -17,14 +17,21 @@
         <item>Dakika 15</item>
         <item>Dakika 20</item>
         <item>Dakika 25</item>
-        <item>Isirudie</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Dakika 15 kabla ya wakati wa kulala</item>
+        <item>Dakika 30 kabla ya wakati wa kulala</item>
+        <item>Dakika 45 kabla ya wakati wa kulala</item>
+        <item>Saa moja kabla ya wakati wa kulala</item>
+        <item>Imezimwa</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogi</item>
-        <item>Dijito</item>
+        <item>Dijitali</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Isirudie</item>
+        <item>@string/crescendo_entry_never</item>
         <item>Sekunde 5</item>
         <item>Sekunde 10</item>
         <item>Sekunde 15</item>
@@ -37,6 +44,35 @@
         <item>Sekunde 50</item>
         <item>Sekunde 55</item>
         <item>Sekunde 60</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Simamisha baada ya dakika 10</item>
+        <item>Simamisha baada ya dakika 20</item>
+        <item>Simamisha baada ya dakika 30</item>
+        <item>Simamisha baada ya dakika 40</item>
+        <item>Simamisha baada ya dakika 50</item>
+        <item>Simamisha baada ya saa moja</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Simamisha baada ya dakika 10</item>
+        <item>Simamisha baada ya dakika 20</item>
+        <item>Simamisha baada ya dakika 30</item>
+        <item>Simamisha baada ya dakika 40</item>
+        <item>Simamisha baada ya dakika 50</item>
+        <item>Simamisha baada ya saa moja</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>Dakika 10</item>
+        <item>Dakika 20</item>
+        <item>Dakika 30</item>
+        <item>Dakika 40</item>
+        <item>Dakika 50</item>
+        <item>Saa moja</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>Dakika 1</item>
@@ -69,18 +105,6 @@
         <item>Dakika 28</item>
         <item>Dakika 29</item>
         <item>Dakika 30</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Una kasi ya ajabu.</item>
-        <item>Furahia matunda ya kazi yako.</item>
-        <item>Androids zinajulikana kwa kasi, lakini si kasi kama yako!</item>
-        <item>Pumua.</item>
-        <item>Nyakati za L33t.</item>
-        <item>Kasi hiyo ya kupendeza.</item>
-        <item>Hebu tufanye mabadiliko ya muda tena.</item>
-        <item>Ruka tu kushoto.</item>
-        <item>Una safu ya rangi ya kasi.</item>
-        <item>Kasi ya picha.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Visiwa vya Marshall</item>

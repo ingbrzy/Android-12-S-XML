@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Antwoord</string>
     <string name="a11y_call_incoming_decline_description">Wys af</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Video-oproep met gebruik van Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Stemoproep met gebruik van Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">"Die jongste is 'n beantwoorde oproep vanaf ^1"</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Bestuur bellers</string>
     <string name="a11y_expandedsheet_collapse">vou kieslys in</string>
     <string name="a11y_expandedsheet_expand">vou kieslys uit</string>
-    <string name="a11y_favorites_education_dismiss">maak toe</string>
     <string name="a11y_feature_demo_next_page">Volgende bladsy</string>
     <string name="a11y_feature_demo_page_indicator">Bladsy %d</string>
     <string name="a11y_feature_demo_prev_page">Vorige bladsy</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Vinnige kontak vir ^1</string>
+    <string name="a11y_icon_hd">HD-oproep</string>
+    <string name="a11y_icon_hd_plus">HD Plus-oproep</string>
+    <string name="a11y_icon_shared_data_call">Gedeelde data-oproep</string>
+    <string name="a11y_icon_verified">Geverifieerde oproep</string>
+    <string name="a11y_icon_vilte">Video oor LTE-oproep</string>
+    <string name="a11y_icon_viwifi">Video oor wi-fi-oproep</string>
+    <string name="a11y_icon_volte">Stem oor LTE-oproep</string>
+    <string name="a11y_icon_voz4g">Stem oor 4G-oproep</string>
+    <string name="a11y_icon_wifi">Wi-fi-oproep</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Swiep op met twee vingers om te antwoord. Swiep af met twee vingers om af te wys.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Swiep op met twee vingers om te beantwoord of af om die oproep te weier</string>
     <string name="a11y_new_call_log_entry_call_recording">oproep word opgeneem</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">op ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">"maak 'n RTT-oproep na ^1"</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Gedeelde data-oproep</string>
     <string name="a11y_new_call_log_entry_tap_action">vou kieslys uit</string>
     <string name="a11y_new_call_log_entry_video_call">"maak 'n video-oproep na ^1"</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">"maak 'n video-oproep na ^1 met wi-fi"</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Wysig nommer voordat jy bel</string>
     <string name="action_menu_back_from_search">hou op soek</string>
     <string name="action_menu_overflow_description">Meer opsies</string>
+    <string name="activate_error_message">Kon nie oproepmonitor aktiveer nie</string>
+    <string name="activated_successfully">Oproepmonitor is geaktiveer</string>
     <string name="activity_not_available">Geen program daarvoor op hierdie toestel nie</string>
     <string name="add_2sec_pause">Voeg 2-sek.-pouse by</string>
     <string name="add_contact_not_available">Geen kontakte-program beskikbaar nie</string>
@@ -159,9 +171,9 @@ Opnames word slegs op jou foon geberg. ^1"</string>
     <string name="bm_suggest_call_button">Bel</string>
     <string name="bm_suggest_chat_button">Klets</string>
     <string name="bm_suggest_wait_min">"Klets
-%1$d minute wag"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ongelees</string>
+%1$dm wag"</string>
+    <string name="bm_suggest_wait_time_estimating">"Klets
+Werk tans …"</string>
     <string name="bottomsheet_action_expand_halfway">Vou halfpad uit</string>
     <string name="bubble_bottom_action_end_call">Beëindig oproep</string>
     <string name="bubble_bottom_action_hide">Versteek</string>
@@ -170,7 +182,10 @@ Opnames word slegs op jou foon geberg. ^1"</string>
     <string name="call">Stemoproep</string>
     <string name="callFailed_simError">Geen SIM of SIM-fout</string>
     <string name="callHistoryIconLabel">Oproepgeskiedenis</string>
-    <string name="call_announcer_preference_footer_instruction_text">Die beller se naam en nommer sal hardop gelees word vir inkomende oproepe</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Die beller se naam en nommer sal hardop gelees word vir inkomende oproepe.</string>
     <string name="call_announcer_preference_list_title">Kondig beller-ID aan</string>
     <string name="call_announcer_preference_option_always">Altyd</string>
     <string name="call_announcer_preference_option_headset">"Slegs wanneer 'n kopstuk gebruik word"</string>
@@ -203,7 +218,7 @@ Opnames word slegs op jou foon geberg. ^1"</string>
     <string name="call_incoming_answer">Antwoord</string>
     <string name="call_incoming_answer_rtt">Antwoord met RTT</string>
     <string name="call_incoming_answer_voice">Antwoord met Voice</string>
-    <string name="call_incoming_chip_answer_and_release">Stop oproep en antwoord</string>
+    <string name="call_incoming_chip_answer_and_release">Antwoord en beëindig ander oproep</string>
     <string name="call_incoming_chip_answer_as_rtt">Beantwoord as RTT-oproep</string>
     <string name="call_incoming_chip_answer_video_as_audio">Antwoord as stemoproep</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Beantwoord met my video af</string>
@@ -255,6 +270,7 @@ Opnames word slegs op jou foon geberg. ^1"</string>
     <string name="call_reason_fragment_content_description">Rede vir oproep: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Opname is gestoor.</string>
     <string name="call_recording_conversation_history_entry">Opgeneem</string>
+    <string name="call_recording_delete_snack_bar_undo">Ontdoen</string>
     <string name="call_recording_disclaimer_agreen_button_text">Begin opname</string>
     <string name="call_recording_disclaimer_content">"Jy of die ander persoon in jou oproep mag dalk iewers wees wat vereis dat almal hul toestemming gee om opgeneem te word. Almal sal voor die tyd in kennis gestel word dat die oproep opgeneem word. Jy moet self sorg dat jy wette oor die opneem van gesprekke nakom. Jy moet oproepopnames verantwoordelik gebruik en dit slegs aanskakel wanneer dit nodig is.
 ^1
@@ -291,6 +307,7 @@ Opnames word slegs op jou foon geberg."</string>
 Nie die oproepoudio óf die transkripsie van die oproep word aan enigiemand, insluitend Google, gestuur nie."</string>
     <string name="call_screen_demo_page_4_title">Bespaar tyd en vermy frustrasie</string>
     <string name="call_screen_demo_setting_title">"Sien 'n demonstrasie"</string>
+    <string name="call_screen_demo_settings_title">"Sien 'n demonstrasie"</string>
     <string name="call_screen_demo_title">Só werk Oproepmonitor</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Kan nie voorbeeldoudio gaan haal nie</string>
     <string name="call_screen_demo_unable_to_play_audio">Kan nie voorbeeldoudio speel nie</string>
@@ -298,6 +315,7 @@ Nie die oproepoudio óf die transkripsie van die oproep word aan enigiemand, ins
     <string name="call_screen_end_call_local_internal_message">Jy het die oproep beëindig</string>
     <string name="call_screen_end_call_non_local_internal_message">Die oproep is afgesny</string>
     <string name="call_screen_how_it_works_setting_title">Oproepmonitor werk op jou toestel sonder Wi-Fi of data. Die gesprektranskripsies word gegenereer en net op jou foon geberg. %1$s</string>
+    <string name="call_screen_how_it_works_title">Oproepmonitor werk sonder wi-fi of data op jou toestel. Die gesprektranskripsies word gegenereer en net op jou foon geberg. ^1</string>
     <string name="call_screen_incallui_chip_text">Keur oproep</string>
     <string name="call_screen_join_call_button_content_description">Sluit by oproep aan</string>
     <string name="call_screen_join_call_internal_message">Jy het by die oproep aangesluit</string>
@@ -307,6 +325,7 @@ Nie die oproepoudio óf die transkripsie van die oproep word aan enigiemand, ins
     <string name="call_screen_saying_to_the_caller_state">Sê tans vir die beller</string>
     <string name="call_screen_screening_call_from">Keur tans oproep van</string>
     <string name="call_screen_setting_title">Oproepmonitor</string>
+    <string name="call_screen_settings_title">Oproepmonitor</string>
     <string name="call_screen_speaker_toggle_button_content_description">Luidspreker-knoppie</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Kanselleer</string>
@@ -331,6 +350,8 @@ Nie die oproepoudio óf die transkripsie van die oproep word aan enigiemand, ins
     <string name="call_work">Bel werk</string>
     <string name="call_work_mobile">Bel werkselfoon</string>
     <string name="call_work_pager">Bel werkroeper</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">inkomende %1$s-oproep van %2$s af op SIM %3$s</string>
     <string name="caller_id_announcement_single_sim">inkomende %1$s-oproep van %2$s af</string>
     <string name="caller_id_business_data_details">Data wat in hierdie kenmerke gebruik word, word deur Google en sy lisensiegewers voorsien. ^1</string>
@@ -370,6 +391,9 @@ Nie die oproepoudio óf die transkripsie van die oproep word aan enigiemand, ins
     <string name="calling_blocked_number_precall_dialog_title">Bel %s?</string>
     <string name="calllog_add_to_contact">"Voeg by 'n kontak"</string>
     <string name="calllog_create_new_contact">Skep nuwe kontak</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Kameratoestemming is geaktiveer</string>
     <string name="camera_privacy_text">Kameratoestemming is geaktiveer</string>
     <string name="cannot_understand_description">Ek verstaan nie</string>
     <string name="car_crash_emergency_intro">"Jy word tans deur 'n geoutomatiseerde noodgeval-stemdiens namens 'n beller gekontak.
@@ -432,6 +456,9 @@ Stuur asseblief hulp."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Kon nie Geverifieerde Oproepe opstel nie. Jy kan dit weer in instellings aktiveer.</string>
     <string name="contact_card_video_icon_content_description">Bel ^1 via video-oproep</string>
     <string name="contact_grid_callback_number">Hierdie foon se nommer: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Oproep is aangestuur</string>
+    <string name="contact_grid_hd_icon_content_description">HD-oproep</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus-oproep</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Diensverskaffervideo-oproep vanaf</string>
     <string name="contact_grid_incoming_reception_only_video_call">Diensverskaffer-1-rigtingvideo-oproep vanaf</string>
     <string name="contact_grid_incoming_rtt_call">RTT-oproep van</string>
@@ -442,9 +469,18 @@ Stuur asseblief hulp."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi-diensverskaffervideo-oproep vanaf</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi-diensverskaffer-1-rigtingvideo-oproep vanaf</string>
     <string name="contact_grid_incoming_work_call">Werkoproep vanaf</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Gedeelde data-oproep</string>
+    <string name="contact_grid_spam_icon_content_description">strooipos-oproep</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Diensverskaffer</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Geverifieer deur %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Geldige nommer</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Video oor LTE-oproep</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Video oor wi-fi-oproep</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Stem oor 4G-oproep</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Stem oor LTE-oproep</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Stem oor wi-fi-oproep</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-fi-oproep</string>
+    <string name="contact_grid_work_icon_content_description">Werkoproep</string>
     <string name="contact_menu_add_favorite">Voeg gunsteling by</string>
     <string name="contact_menu_contact_info">Kontakinligting</string>
     <string name="contact_menu_invite_video">Nooi na video-oproep</string>
@@ -479,8 +515,12 @@ Stuur asseblief hulp."</string>
     <string name="conversation_history_call_details_header_today">Vandag</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Oproep is uitgevee</string>
     <string name="conversation_history_call_details_snack_bar_undo">Ontdoen</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Belangrike oproep</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Wys bygevoegde oproepinligting</string>
+    <string name="conversation_history_call_recording_deleted">Opname is uitgevee</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkripsie en oudio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkripsie</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Sien transkripsie en oudio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Oproepmonitor</string>
     <string name="copy">Kopieer</string>
     <string name="copy_number">Kopieer nommer</string>
@@ -499,12 +539,17 @@ Stuur asseblief hulp."</string>
     <string name="custom_prefix_default_prefix_title">Verstekvoorvoegsel</string>
     <string name="custom_prefix_prefixes_preference_title">Voorvoegsels</string>
     <string name="dark_theme_label">Donker</string>
+    <string name="default_changed_confirmation">Foon is as verstek gestel</string>
+    <string name="default_image_content_description">Water wat spat-prent</string>
     <string name="delete">Vee uit</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Vee alle opnames uit</string>
     <string name="delete_all_recordings_now_error_message">Sommige opnames kon nie uitgevee word nie. Probeer weer.</string>
     <string name="delete_button_label">Vee alle opnames nou uit</string>
     <string name="delete_confirmation_dialog_negative_button_label">Kanselleer</string>
     <string name="delete_confirmation_dialog_positive_button_label">Vee uit</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Vee tans opname uit …</string>
     <string name="description_add_to_existing_contact_action">"Voeg ^1 by 'n bestaande kontak"</string>
     <string name="description_blocked_number_list_delete">Deblokkeer nommer</string>
     <string name="description_call_action">Bel ^1</string>
@@ -607,6 +652,7 @@ Stuur asseblief hulp."</string>
     <string name="emergency_sos_emergency_intro">"Jy word namens 'n beller deur 'n noodstemdiens gekontak.
 Die beller het aangedui dat hulle moontlik 'n noodgeval het. 
 Stuur asseblief hulp."</string>
+    <string name="emergency_speaker">Luidspreker</string>
     <string name="emergency_voice_assist_dialog_button_close">Kanselleer</string>
     <string name="emergency_voice_assist_dialog_title">Die nood-operateur hoor dit</string>
     <string name="end_call_with_default_message_description">Beëindig oproep</string>
@@ -636,9 +682,12 @@ Stuur asseblief hulp."</string>
     <string name="feedback_call_issue_quiet_audio">Oudio was te stil</string>
     <string name="feedback_call_issue_title">Wat was die kwessie?</string>
     <string name="feedback_title_please_rate">Gradeer asseblief die gehalte van die oproep</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Sjuut met Omkeer</string>
     <string name="flip_to_silence_summary">"Sit jou foon met sy gesig na onder neer op 'n plat oppervlakte om 'n inkomende oproep stil te maak"</string>
     <string name="flip_to_silence_title">Stil met Omkeer</string>
+    <string name="foreground_notification_title">Dateer tans op …</string>
     <string name="frequent_contact_suggestion">Gereeld gebel</string>
     <string name="general_learn_more">Kom meer te wete</string>
     <string name="generic_conference_call_name">Besig met oproep</string>
@@ -661,6 +710,7 @@ Stuur asseblief hulp."</string>
     <string name="how_it_works_storage_link_text">Kom meer te wete oor hoe opnames geberg word</string>
     <string name="how_it_works_storage_template">Oproepopname sal opgeskort word as jou foon se berging vol is. ^1</string>
     <string name="icon_content_description">Dialoogikoon</string>
+    <string name="icon_description_shared_data_call">Gedeelde data-oproep</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Voer nommers in</string>
     <string name="ims_video_heading">Verizon-video</string>
@@ -804,6 +854,7 @@ Stuur asseblief hulp."</string>
     <string name="new_call_log_no_missed_calls">Jy het geen gemiste oproepe nie</string>
     <string name="new_call_log_permission_no_calllog">Skakel die foontoestemming aan om jou oproeprekord te sien.</string>
     <string name="new_call_log_secondary_blocked">Geblokkeer</string>
+    <string name="new_call_log_secondary_verified">Geverifieerde oproep</string>
     <string name="new_call_log_snack_bar_deleted">Oproep is uitgevee</string>
     <string name="new_call_log_snack_bar_undo">Ontdoen</string>
     <string name="new_call_log_unknown">Onbekend</string>
@@ -818,8 +869,10 @@ Stuur asseblief hulp."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Wys af</string>
     <string name="notification_action_end_call">Lui af</string>
+    <string name="notification_action_mute_toggle">Demp</string>
     <string name="notification_action_speaker_off">Skakel luidspreker af</string>
     <string name="notification_action_speaker_on">Skakel luidspreker aan</string>
+    <string name="notification_action_speaker_toggle">Luidspreker</string>
     <string name="notification_callReasonMsg">Rede: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi-oproep</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi-werkoproep</string>
@@ -883,6 +936,8 @@ Stuur asseblief hulp."</string>
     <string name="place_ims_button_content_description">"'n Knoppie wat gebruik word om video-oproep na 'n diensverskaffer te maak."</string>
     <string name="play">Speel</string>
     <string name="plus_code_line_format">Pluskode: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Sê waarom jy gebel het</string>
     <string name="post_call_message_1">Dit is dringend. Bel my terug.</string>
     <string name="post_call_message_2">"Bel my terug wanneer jy 'n tydjie het."</string>
@@ -913,6 +968,8 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="privacy_policy_label">Privaatheidsbeleid</string>
     <string name="private_num_non_verizon">Privaat nommer</string>
     <string name="private_num_verizon">Beperk</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Kies kontak</string>
     <string name="ready_for_recording">Gereed ...</string>
     <string name="record_greeting_cancel_label">Kanselleer</string>
@@ -928,6 +985,8 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="record_greeting_uploading_greeting_message">Stoor tans …</string>
     <string name="record_voicemail_greeting_title">"Neem 'n groetboodskap op"</string>
     <string name="recording_category_title">Opnames</string>
+    <string name="recording_deleted">Opname is uitgevee</string>
+    <string name="recording_deletion_failed">Kon opname nie uitvee nie. [Probeer weer]</string>
     <string name="redo_button_text">Probeer weer</string>
     <string name="remember_this_choice_label">Onthou hierdie keuse</string>
     <string name="report_not_spam_alert_button">Gee aan</string>
@@ -939,9 +998,20 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="request_call_back_description">Bel my terug</string>
     <string name="request_email_description">E-pos my</string>
     <string name="respond_via_sms_setting_title">Vinnige antwoorde</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Skakel aan</string>
     <string name="revelio_end_call_reject_as_spam">"Die oproep is as 'n strooi-oproep gemerk"</string>
     <string name="revelio_end_call_user_missed_internal_message">Die oproep is misgeloop</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">"RTT help bellers wat doof of gehoorgestremd is, 'n spraakgestremdheid het, of meer as net spraak benodig. ^1"</string>
     <string name="rtt_assist_for_att">"Die Intydse Teks (RTT)-sleutelbord op die skerm is 'n alternatief tot eksterne TTY-sleutelborde. Soos jy gedurende 'n RTT-oproep 'n SMS stuur, kan die persoon met wie jy praat intyds sien hoe jy jou boodskap tik. ^1"</string>
     <string name="rtt_assist_for_tmo">"Die Intydse Teks (RTT) -sleutelbord op die skerm is 'n alternatief vir eksterne TTY-sleutelborde. RTT stuur onmiddellik wat jy tik tydens 'n foonoproep, en gee jou so die vermoë om intyds te kommunikeer met gebruik van teksboodskappe. Jy sal gedeeltelike antwoorde kan sien voordat die hele boodskap voltooi is. ^1"</string>
@@ -949,7 +1019,8 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="rtt_button_back">Terug</string>
     <string name="rtt_button_downgrade">Skakel oor na stemoproep</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">"RTT is nie vir hierdie oproep beskikbaar nie. Jou oproep is as 'n slegs stem-oproep gekoppel."</string>
+    <string name="rtt_call_downgraded_toast">Jou RTT-oproep het na ’n stemalleenoproep verander</string>
+    <string name="rtt_call_not_available_toast">RTT is nie vir hierdie oproep beskikbaar nie</string>
     <string name="rtt_configuration_summary_always_visible">Intydse Teks-knoppie is oral beskikbaar</string>
     <string name="rtt_configuration_summary_not_visible">Laat inkomende Intydse Teks-oproepe toe, maar versteek die belknoppie</string>
     <string name="rtt_configuration_summary_visible_during_call">"Wys die Intydse Teks-knoppie gedurende 'n oproep"</string>
@@ -978,6 +1049,8 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="rtt_transcript_link">Sien transkripsie</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Hierdie boodskap sal herhaal word.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Stoor</string>
     <string name="saved_voicemails_action_title">Gestoorde stemboodskappe (%1$s)</string>
     <string name="search_hint">Deursoek videokontakte</string>
@@ -1004,8 +1077,11 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="send_a_message">"Stuur 'n boodskap"</string>
     <string name="send_to_voicemail_import_failed">Kon nie invoer nie</string>
     <string name="serial_number">Reeksnommer</string>
+    <string name="set_as_default_button_text">Stel as verstek</string>
     <string name="set_default_account">Gebruik dit altyd vir oproepe</string>
     <string name="set_default_account_description">SIM-voorkeure word saam met jou kontakte gestoor.</string>
+    <string name="set_phone_as_default_explanation_text">Foon kan slegs begin en oproepe ontvang as dit jou verstekfoonprogram is</string>
+    <string name="set_phone_as_default_request_text">Stel foon as verstek</string>
     <string name="settings">Instellings</string>
     <string name="settings_page_call_recording_feature_not_available_text">Oproepopname is nie in jou ligging beskikbaar nie</string>
     <string name="settings_page_crosby_feature_not_available_text">Nie in jou ligging beskikbaar nie</string>
@@ -1040,6 +1116,8 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="snackbar_undo">Ontdoen</string>
     <string name="snackbar_voicemail_deleted">Stemboodskap is uitgevee</string>
     <string name="sounds_and_vibration_title">Klanke en vibrasie</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Strooipos en Oproepmonitor</string>
     <string name="spam_blocking_promo_action_dismiss">Weier</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtreer strooipos</string>
@@ -1066,8 +1144,6 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="speed_dial_add_button_text">Voeg by</string>
     <string name="speed_dial_contacts_permission_description">Skakel die kontaktetoestemming aan om spoedbel te aktiveer.</string>
     <string name="speed_dial_disambig_dialog_title">Kies hoe om %s te bel</string>
-    <string name="speed_dial_education_content">Raak en hou enige kontak om tussen oproepe en boodskappe oor te skakel.</string>
-    <string name="speed_dial_education_title">Meer maniere om kontak te maak</string>
     <string name="speed_dial_no_contacts_action_text">"Voeg 'n gunsteling by"</string>
     <string name="speed_dial_no_contacts_description">Bel jou gunstelingkontakte met net een tik</string>
     <string name="speed_dial_remember_this_choice">Onthou hierdie keuse</string>
@@ -1095,11 +1171,15 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="terms_of_service_label">Diensbepalings</string>
     <string name="textmessage_button_label">Boodskap</string>
     <string name="theme_preference_label">Kies tema</string>
+    <string name="tidepods_call_screen_settings_title">Oproepmonitor</string>
+    <string name="tidepods_incall_label_record">Neem op</string>
     <string name="toast_text_copied">Teks gekopieer</string>
     <string name="toolbar_back">Terug</string>
     <string name="toolbar_close">Maak toe</string>
     <string name="transcript_audio_feedback_chip_text">Help ons om te verbeter</string>
+    <string name="transcript_audio_feedback_link_text">Sien transkripsie en oudio</string>
     <string name="transcript_snippet_low_confidence_description">(Oudio was nie duidelik nie)</string>
+    <string name="try_again_button">Probeer weer</string>
     <string name="tty_configuration_title_tty_full">TTY vol</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY af</string>
@@ -1121,7 +1201,6 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="type_outgoing_video_pulled">"Uitgaande video-oproep is na 'n ander toestel deurgeskakel"</string>
     <string name="type_rejected">Afgekeurde oproep</string>
     <string name="type_voicemail">Stemboodskap</string>
-    <string name="unable_change_value_error">Kon nie die RTT-instellings verander nie. Gaan asseblief terug en probeer weer.</string>
     <string name="unable_read_value_error">Kon nie die RTT-instellings lees nie. Gaan asseblief terug en probeer weer.</string>
     <string name="unblock_number">Deblokkeer</string>
     <string name="unblock_number_alert_details">Hierdie nommer sal gedeblokkeer word en aangegee word as nie strooipos nie. Toekomstige oproepe sal nie as strooipos geïdentifiseer word nie.</string>
@@ -1130,6 +1209,7 @@ Jy kan steeds sommige nommers met 'n video-oproep bel sonder om instellings op t
     <string name="unblock_number_ok">Deblokkeer</string>
     <string name="unblock_report_number_alert_title">Deblokkeer %1$s?</string>
     <string name="unknown">Onbekend</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Ontdemp inkomende oudio</string>
     <string name="user_is_busy_description">Ek sal jou terugbel</string>
@@ -1241,10 +1321,17 @@ Datagebruik sal van toepassing wees as jy met die oproep voortgaan."</string>
     <string name="videocall_remote_video_on">Hulle video is aan</string>
     <string name="videocall_remotely_held">Oproep gehou</string>
     <string name="videocall_remotely_resumed">Oproep is hervat</string>
+    <string name="videocall_settings_default_carrier">Diensverskaffervideo-oproepe</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Verstek- video-oproepdiens</string>
+    <string name="videocall_settings_fallback_summary">Skakel na Duo oor as diensverskaffervideo-oproepe nie beskikbaar is nie</string>
+    <string name="videocall_settings_fallback_title">Gebruik Duo as rugsteun</string>
+    <string name="videocall_settings_title">Video-oproep</string>
     <string name="videocall_show_preview_button_description">Wys plaaslike videostroom</string>
     <string name="view">Bekyk</string>
     <string name="view_location_settings">Ligginginstellings</string>
     <string name="vitle_label">Video oor LTE</string>
+    <string name="viwifi_label">Video oor wi-fi</string>
     <string name="vm_change_pin_error_invalid">Die nuwe PIN bevat ongeldige karakters.</string>
     <string name="vm_change_pin_error_mismatch">Die ou PIN pas nie.</string>
     <string name="vm_change_pin_error_system_error">Kan nie PIN verander nie</string>
@@ -1254,8 +1341,11 @@ Datagebruik sal van toepassing wees as jy met die oproep voortgaan."</string>
     <string name="vm_change_pin_progress_message">Wag asseblief.</string>
     <string name="voice_call">Stemoproep</string>
     <string name="voice_call_button">Bel</string>
+    <string name="voice_display_name">Stem %1$d</string>
     <string name="voice_search_not_available">Stemsoektog is nie beskikbaar nie</string>
     <string name="voice_selector_preference_title">Beskikbare stemme</string>
+    <string name="voice_settings_available_voices_text">Beskikbare stemme</string>
+    <string name="voice_settings_title">Stem</string>
     <string name="voicecall_button_label">Bel</string>
     <string name="voicecall_button_wifi_description">Bel met wi-fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s om %2$s</string>
@@ -1290,7 +1380,6 @@ Datagebruik sal van toepassing wees as jy met die oproep voortgaan."</string>
     <string name="voicemail_donation_promo_title">Help om transkripsie-akkuraatheid te verbeter?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Die gebruik van visuele stemboodskap vir SIM-kaarte sonder data kan diensverskafferheffings behels</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuele stemboodskapdiens is slegs beskikbaar vir die geselekteerde data-SIM</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">"As jy veelvuldige SIM's het en een vir Fi is, sal jou Fi-SIM vir visuele stemboodskapdiens gebruik word"</string>
     <string name="voicemail_error_activating_message">Jy sal dalk nie stemboodskapkennisgewings ontvang totdat visuele stemboodskapdiens heeltemal geaktiveer is nie. Bel stemboodskapdiens om nuwe boodskappe te kry totdat stemboodskapdiens volledig geaktiveer is.</string>
     <string name="voicemail_error_activating_title">Aktiveer tans visuele stemboodskapdiens</string>
     <string name="voicemail_error_activation_disabled_message">Bel stemboodskapdiens om dit klaar op te stel</string>
@@ -1397,6 +1486,7 @@ Datagebruik sal van toepassing wees as jy met die oproep voortgaan."</string>
     <string name="vvm3_error_vms_no_cellular_title">Kan nie aan jou stemboodskapdiens koppel nie</string>
     <string name="vvm3_error_vms_timeout_message">"Jammer, ons het 'n probleem teëgekom. Probeer asseblief later weer. As daar steeds 'n probleem is, kontak asseblief Kliëntediens by %1$s en gee vir hulle die foutkode 9007."</string>
     <string name="vvm3_error_vms_timeout_title">Iets het verkeerd geloop</string>
+    <string name="vvm_config_title">Opstelling van visuele stemboodskapdiens</string>
     <string name="vvm_unsupported_message_format">Ongesteunde soort boodskap; bel %s om te luister.</string>
     <string name="wait_prompt_str">"Stuur die volgende tone?
 "</string>

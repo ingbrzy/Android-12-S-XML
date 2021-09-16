@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"За да използвате ТСРВ, трябва да имате връзка с LTE мрежа или да сте включили „Обаждания през Wi-Fi“.
+"</item>
+        <item>"Можете да използвате ТСРВ, когато общувате с хора, чийто телефон поддържа ТСРВ или е свързан с TTY устройство.
+"</item>
+        <item>"За да виждате опцията за ТСРВ за входящи и изходящи обаждания, задайте „Винаги се вижда“ за опцията за обаждания с ТСРВ.
+"</item>
+        <item>"ТСРВ включва звук, така че спрете звука на обаждането, ако не искате или нямате нужда да споделяте звука.
+"</item>
+        <item>"Обажданията с ТСРВ използват минутите за разговори. Проверете плана си за подробности.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Обажданията с ТСРВ се запазват като преписи на съобщения.
+"</item>
+        <item>"ТСРВ не е налице за видеообаждания.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Трябва да имате връзка с 4G LTE или Wi-Fi мрежа.
+"</item>
+        <item>"Човекът, с когото говорите, трябва да е на телефон, който поддържа ТСРВ или е свързан с TTY устройство (текстов телефон).
+"</item>
+        <item>След като активирате ТСРВ, иконата на тази функция ще се показва с всички входящи обаждания.</item>
+    </string-array>
+</resources>

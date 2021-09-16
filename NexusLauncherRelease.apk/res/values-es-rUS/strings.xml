@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Agregar a la carpeta que contiene %1$s</string>
     <string name="add_to_home_screen">Agregar a pantalla principal</string>
     <string name="added_to_folder">Elemento agregado a la carpeta</string>
+    <string name="added_to_home_screen_accessibility_text">Se agregó el widget de %1$s a la pantalla principal</string>
     <string name="all_apps_button_label">Lista de apps</string>
     <string name="all_apps_button_personal_label">Lista de apps personales</string>
     <string name="all_apps_button_work_label">Lista de apps del trabajo</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Al girar el teléfono</string>
     <string name="allow_rotation_title">Permitir la rotación de la pantalla principal</string>
     <string name="allset_description">Ya puedes empezar a usar tu teléfono</string>
+    <string name="allset_hint">Desliza el dedo hacia arriba para ir a la pantalla principal</string>
+    <string name="allset_navigation_settings"><annotation id="link">Configuración de navegación del sistema</annotation></string>
     <string name="allset_title">Todo listo</string>
     <string name="app_downloading_title">Se completó el %2$s de la descarga de %1$s</string>
     <string name="app_info_drop_target_label">Información de app</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">Instalación de %1$s en espera</string>
     <string name="auto_add_shortcuts_description">Para nuevas apps</string>
     <string name="auto_add_shortcuts_label">Agrega íconos de apps a pantalla principal</string>
+    <string name="back_gesture_feedback_cancelled">Asegúrate de deslizar desde borde izquierdo o derecho hacia centro de la pantalla y, luego, soltar.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Aprendiste a deslizar el dedo desde la derecha para volver. Ahora, descubre cómo cambiar de app.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Completaste el gesto \"Atrás\".</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Asegúrate de no hacerlo muy cerca de la parte inferior de la pantalla.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Asegúrate de deslizar desde el extremo derecho o izquierdo.</string>
     <string name="back_gesture_intro_subtitle">Desliza el dedo desde el borde derecho o izquierdo para volver a la última pantalla.</string>
     <string name="back_gesture_intro_title">Desliza el dedo para volver</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Cambia sensibilidad de gesto \"Atrás\" en Configuración</string>
@@ -129,6 +134,7 @@
     <string name="folder_tap_to_rename">Presiona para guardar el cambio de nombre</string>
     <string name="gadget_error_text">No se puede cargar el widget</string>
     <string name="gadget_setup_text">Presiona para finalizar la configuración</string>
+    <string name="gesture_tutorial_action_button_label">Listo</string>
     <string name="gesture_tutorial_action_button_label_cancel">Cancelar</string>
     <string name="gesture_tutorial_action_button_label_settings">Configuración</string>
     <string name="gesture_tutorial_action_button_label_skip">Omitir</string>
@@ -142,8 +148,8 @@
     <string name="home_gesture_feedback_complete_with_follow_up">Completaste el gesto para ir a la página principal. A continuación, obtén información para volver.</string>
     <string name="home_gesture_feedback_complete_without_follow_up">Completaste el gesto para ir a la página principal.</string>
     <string name="home_gesture_feedback_overview_detected">Asegúrate de no detenerte antes de soltarlo.</string>
-    <string name="home_gesture_feedback_swipe_too_far_from_edge">Asegúrate de deslizar el dedo hacia arriba desde la borde inferior de la pantalla.</string>
-    <string name="home_gesture_feedback_wrong_swipe_direction">Asegúrate de deslizar el dedo derecho hacia arriba.</string>
+    <string name="home_gesture_feedback_swipe_too_far_from_edge">Desliza el dedo hacia arriba desde el borde inferior de la pantalla.</string>
+    <string name="home_gesture_feedback_wrong_swipe_direction">Desliza el dedo directamente hacia arriba.</string>
     <string name="home_gesture_intro_subtitle">Desliza el dedo hacia arriba desde la parte inferior de la pantalla. Este gesto te llevará siempre a la pantalla principal.</string>
     <string name="home_gesture_intro_title">Desliza el dedo para ir a la página principal</string>
     <string name="home_screen">Pantalla principal</string>
@@ -169,7 +175,7 @@
     <string name="item_moved">Elemento movido</string>
     <string name="item_removed">Se eliminó el elemento.</string>
     <string name="keyboard_hide">Siempre ocultar</string>
-    <string name="keyboard_show">Siempre mostrar</string>
+    <string name="keyboard_show">Siempre mostrar el teclado</string>
     <string name="label_application">App</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_search">Buscar</string>
@@ -203,8 +209,9 @@
     <string name="overview_gesture_feedback_complete_with_follow_up">Ya sabes cómo usar los gestos. Para desactivarlos, ve a Configuración.</string>
     <string name="overview_gesture_feedback_complete_without_follow_up">Completaste el gesto para cambiar de app.</string>
     <string name="overview_gesture_feedback_home_detected">Prueba mantener presionada la ventana más tiempo antes de soltarla.</string>
-    <string name="overview_gesture_feedback_swipe_too_far_from_edge">Asegúrate de deslizar el dedo hacia arriba desde la borde inferior de la pantalla.</string>
-    <string name="overview_gesture_feedback_wrong_swipe_direction">Asegúrate de deslizar el dedo derecho hacia arriba y, luego, detente.</string>
+    <string name="overview_gesture_feedback_swipe_too_far_from_edge">Desliza el dedo hacia arriba desde el borde inferior de la pantalla.</string>
+    <string name="overview_gesture_feedback_wrong_swipe_direction">Desliza el dedo directamente hacia arriba y luego detente.</string>
+    <string name="overview_gesture_intro_subtitle">Para cambiar de app, desliza hacia arriba desde parte inferior, mantén presionado y, luego, suelta.</string>
     <string name="overview_gesture_intro_title">Desliza el dedo para cambiar de app</string>
     <string name="overview_selection_pref_desc">Cuando cambies de app, mantén presionado el texto y las imágenes para ver las acciones</string>
     <string name="overview_selection_pref_title">Selección de Recientes</string>
@@ -275,15 +282,15 @@
     <string name="smartspace_flight_card_seat_header">Asiento</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferencias</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">De un vistazo</string>
     <string name="smartspace_preferences_in_settings_desc">En la parte superior de tu pantalla principal</string>
     <string name="smartspace_preferences_manage">Personalizar</string>
     <string name="smartspace_preferences_turn_off_action">Desactivar</string>
     <string name="smartspace_preferences_turn_off_description">Se dejará de mostrar el clima y la información sobre próximos eventos en la pantalla principal y en la de bloqueo.</string>
-    <string name="smartspace_preferences_turn_off_title">Apagar %1$s</string>
+    <string name="smartspace_preferences_turn_off_title">Desactivar %1$s</string>
     <string name="smartspace_preferences_turn_on_action">Activar</string>
     <string name="smartspace_preferences_turn_on_description">Se mostrará el clima y la información sobre próximos eventos en la pantalla principal y en la de bloqueo.</string>
-    <string name="smartspace_preferences_turn_on_title">Encender %1$s</string>
+    <string name="smartspace_preferences_turn_on_title">Activar %1$s</string>
     <string name="smartspace_shopping_list_overflow">Y %1$d más</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">Fondo de pantalla y estilo</string>
@@ -332,11 +339,11 @@
     <string name="work_apps_paused_body">Las apps de trabajo no pueden enviarte notificaciones, usar la batería ni acceder a tu ubicación</string>
     <string name="work_apps_paused_content_description">Las apps de trabajo están desactivadas y, por ende, no pueden enviarte notificaciones, usar la batería ni acceder a tu ubicación</string>
     <string name="work_apps_paused_edu_accept">Entendido</string>
-    <string name="work_apps_paused_edu_banner">Las apps de trabajo tienen una insignia y el administrador de IT las puede ver</string>
+    <string name="work_apps_paused_edu_banner">Las apps de trabajo tienen una insignia y el administrador de TI las puede ver</string>
     <string name="work_apps_paused_title">Las apps de trabajo están detenidas</string>
     <string name="work_folder_name">Trabajo</string>
     <string name="work_profile_edu_accept">Entendido</string>
-    <string name="work_profile_edu_work_apps">Las apps de trabajo tienen una insignia y el administrador de IT las puede ver</string>
+    <string name="work_profile_edu_work_apps">Las apps de trabajo tienen una insignia y el administrador de TI las puede ver</string>
     <string name="work_profile_toggle_label">Perfil de trabajo</string>
     <string name="workspace_new_page">Nueva página en la pantalla principal</string>
     <string name="workspace_scroll_format">Pantalla principal %1$d de %2$d</string>

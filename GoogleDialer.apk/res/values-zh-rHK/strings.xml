@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">接聽</string>
     <string name="a11y_call_incoming_decline_description">拒絕</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">使用 Wi-Fi 進行視像通話</string>
     <string name="a11y_contact_menu_voice_call_wifi">使用 Wi-Fi 進行語音通話</string>
     <string name="a11y_conversation_history_entry_answered_call">最新的一通是來自^1的已接來電</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">管理來電者</string>
     <string name="a11y_expandedsheet_collapse">收合選單</string>
     <string name="a11y_expandedsheet_expand">展開選單</string>
-    <string name="a11y_favorites_education_dismiss">關閉</string>
     <string name="a11y_feature_demo_next_page">下一頁</string>
     <string name="a11y_feature_demo_page_indicator">第 %d 頁</string>
     <string name="a11y_feature_demo_prev_page">上一頁</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">快速聯絡^1</string>
+    <string name="a11y_icon_hd">HD 通話</string>
+    <string name="a11y_icon_hd_plus">HD Plus 通話</string>
+    <string name="a11y_icon_shared_data_call">共用數據通話</string>
+    <string name="a11y_icon_verified">通過驗證的來電</string>
+    <string name="a11y_icon_vilte">LTE 視像通話</string>
+    <string name="a11y_icon_viwifi">Wi-Fi 視像通話</string>
+    <string name="a11y_icon_volte">LTE 語音通話</string>
+    <string name="a11y_icon_voz4g">4G 語音通話</string>
+    <string name="a11y_icon_wifi">Wi-Fi 通話</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">兩指向上滑動可接聽，向下滑動則可拒接。</string>
     <string name="a11y_incoming_call_swipe_to_answer">雙指向上滑動可接聽來電，向下滑動則可拒絕來電</string>
     <string name="a11y_new_call_log_entry_call_recording">已錄製通話</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1，^2，^3，^4。</string>
     <string name="a11y_new_call_log_entry_phone_account">在 ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">撥打 RTT 電話給^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">共用數據通話</string>
     <string name="a11y_new_call_log_entry_tap_action">展開選單</string>
     <string name="a11y_new_call_log_entry_video_call">撥打視像通話給^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">使用 Wi-Fi 與^1進行視像通話</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">在撥打前編輯號碼</string>
     <string name="action_menu_back_from_search">停止搜尋</string>
     <string name="action_menu_overflow_description">更多選項</string>
+    <string name="activate_error_message">啟用「來電過濾」時發生問題</string>
+    <string name="activated_successfully">已啟用「來電過濾」</string>
     <string name="activity_not_available">這部裝置上沒有可用的應用程式</string>
     <string name="add_2sec_pause">加入 2 秒暫停功能</string>
     <string name="add_contact_not_available">沒有可用的聯絡人應用程式</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">通話</string>
     <string name="bm_suggest_chat_button">即時通訊</string>
     <string name="bm_suggest_wait_min">"即時通訊
-等候 %1$d 分鐘"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s，%2$s 則未讀</string>
+請等候 %1$d 分鐘"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+正在運作…"</string>
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
     <string name="bubble_bottom_action_end_call">結束通話</string>
     <string name="bubble_bottom_action_hide">隱藏</string>
@@ -170,7 +182,10 @@
     <string name="call">語音通話</string>
     <string name="callFailed_simError">沒有 SIM 卡，或是 SIM 卡錯誤</string>
     <string name="callHistoryIconLabel">通話記錄</string>
-    <string name="call_announcer_preference_footer_instruction_text">有來電時會大聲讀出來電者的名稱和號碼</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">有來電時會大聲讀出來電者的名稱和號碼。</string>
     <string name="call_announcer_preference_list_title">讀出來電顯示</string>
     <string name="call_announcer_preference_option_always">一律開啟</string>
     <string name="call_announcer_preference_option_headset">只在使用耳機時開啟</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">接聽</string>
     <string name="call_incoming_answer_rtt">用即時文字短訊 (RTT) 回應</string>
     <string name="call_incoming_answer_voice">用語音回應</string>
-    <string name="call_incoming_chip_answer_and_release">接聽及結束進行中的通話</string>
+    <string name="call_incoming_chip_answer_and_release">接聽並結束其他通話</string>
     <string name="call_incoming_chip_answer_as_rtt">以 RTT 通話的形式接聽</string>
     <string name="call_incoming_chip_answer_video_as_audio">以語音通話的形式接聽</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">接聽時關閉視像功能</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">向上滑動即可接聽</string>
     <string name="call_incoming_swipe_to_reject">向下滑就可以拒接</string>
     <string name="call_incoming_video_is_off">您的視像已關閉</string>
-    <string name="call_incoming_will_disconnect">如果接聽此來電，視像通話就會停止</string>
+    <string name="call_incoming_will_disconnect">如果接聽此來電，其他通話就會停止</string>
     <string name="call_incoming_will_disconnect_app">如果接聽，您的「%1$s」通話就會結束</string>
     <string name="call_isdn">撥打 ISDN 電話號碼</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">封鎖/舉報為垃圾來電</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">來電原因：%1$s</string>
     <string name="call_recording_audio_saved_snackbar">已儲存錄音。</string>
     <string name="call_recording_conversation_history_entry">已錄音</string>
+    <string name="call_recording_delete_snack_bar_undo">復原</string>
     <string name="call_recording_disclaimer_agreen_button_text">開始錄音</string>
     <string name="call_recording_disclaimer_content">"您或通話中的另一人所在的地方可能需要 所有人都同意錄音。所有人都會在開始錄下通話前收到通知。您 必須負責遵守有關錄下對話的法律。請有責任地使用通話錄音功能，並 只在必要時加以開啟。
 ^1
@@ -291,6 +307,7 @@
 任何人都不會收到通話的音訊或轉錄文字，Google 也包含在內。"</string>
     <string name="call_screen_demo_page_4_title">節省寶貴時間，避開不速之客</string>
     <string name="call_screen_demo_setting_title">查看示範</string>
+    <string name="call_screen_demo_settings_title">查看示範</string>
     <string name="call_screen_demo_title">Call Screen 的運作方式</string>
     <string name="call_screen_demo_unable_to_fetch_audio">無法擷取範例音訊</string>
     <string name="call_screen_demo_unable_to_play_audio">無法播放範例音訊</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">您已結束通話</string>
     <string name="call_screen_end_call_non_local_internal_message">通話已中斷</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen 不需使用 Wi-Fi 或數據就能在您的裝置上運作。系統會產生對話轉錄文字，並只儲存在您的手機上。%1$s</string>
+    <string name="call_screen_how_it_works_title">「來電過濾」不需使用 Wi-Fi 或數據就能在您的裝置上運作。系統會產生對話轉錄文字，並只儲存在您的手機上。^1</string>
     <string name="call_screen_incallui_chip_text">過濾來電</string>
     <string name="call_screen_join_call_button_content_description">加入通話</string>
     <string name="call_screen_join_call_internal_message">您已加入通話</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">正在對來電者說</string>
     <string name="call_screen_screening_call_from">正在過濾下列來電者的來電：</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">來電過濾</string>
     <string name="call_screen_speaker_toggle_button_content_description">喇叭按鈕</string>
     <string name="call_screen_suggestions_avatar_content_description">標誌</string>
     <string name="call_screen_survey_cancel_button">取消</string>
@@ -331,6 +350,8 @@
     <string name="call_work">撥打公司電話號碼</string>
     <string name="call_work_mobile">撥打公司手機號碼</string>
     <string name="call_work_pager">撥打公司傳呼機號碼</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">「%2$s」的%1$s來電 (使用 SIM 卡「%3$s」)</string>
     <string name="caller_id_announcement_single_sim">「%2$s」的%1$s來電</string>
     <string name="caller_id_business_data_details">這些功能目前所使用的資料由 Google 及其授權者提供。 ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">要致電%s嗎？</string>
     <string name="calllog_add_to_contact">加至現有聯絡人資料</string>
     <string name="calllog_create_new_contact">建立新聯絡人</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">已啟用相機權限</string>
     <string name="camera_privacy_text">已啟用相機權限</string>
     <string name="cannot_understand_description">我無法理解</string>
     <string name="car_crash_emergency_intro">"現在是由自動化緊急語音服務代表來電者聯絡您。
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">無法設定通過驗證的來電。您可以在設定中再次啟用。</string>
     <string name="contact_card_video_icon_content_description">與^1進行視像通話</string>
     <string name="contact_grid_callback_number">這部手機的號碼：%1$s</string>
+    <string name="contact_grid_forward_icon_content_description">已轉駁來電</string>
+    <string name="contact_grid_hd_icon_content_description">HD 通話</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus 通話</string>
     <string name="contact_grid_incoming_bidirectional_video_call">流動網絡供應商視像通話來自</string>
     <string name="contact_grid_incoming_reception_only_video_call">流動網絡供應商單向視像通話撥入者</string>
     <string name="contact_grid_incoming_rtt_call">即時文字短訊 (RTT)，通話來自</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi 流動網絡供應商視像通話撥入者</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi 流動網絡供應商單向視像通話撥入者</string>
     <string name="contact_grid_incoming_work_call">工作通話來自</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">共用數據通話</string>
+    <string name="contact_grid_spam_icon_content_description">垃圾來電</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">流動網絡供應商</string>
     <string name="contact_grid_stir_shaken_validation_prefix">已通過「%1$s」驗證</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">有效號碼</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE 視像通話</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Wi-Fi 視像通話</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G 語音通話</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE 語音通話</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Wi-Fi 語音通話</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi 通話</string>
+    <string name="contact_grid_work_icon_content_description">工作來電</string>
     <string name="contact_menu_add_favorite">新增常用聯絡人</string>
     <string name="contact_menu_contact_info">聯絡資料</string>
     <string name="contact_menu_invite_video">邀請加入視像通話</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">今天</string>
     <string name="conversation_history_call_details_snack_bar_deleted">已刪除通話</string>
     <string name="conversation_history_call_details_snack_bar_undo">復原</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">重要來電</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">顯示已新增的來電資訊</string>
+    <string name="conversation_history_call_recording_deleted">錄音已刪除</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">轉錄文字和音訊</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">轉錄文字</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">複製</string>
     <string name="copy_number">複製號碼</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">預設冠碼</string>
     <string name="custom_prefix_prefixes_preference_title">冠碼</string>
     <string name="dark_theme_label">深色</string>
+    <string name="default_changed_confirmation">「電話」已設定為預設</string>
+    <string name="default_image_content_description">水花圖片</string>
     <string name="delete">刪除</string>
     <string name="delete_all_recordings_confirmation_dialog_title">刪除所有錄製內容</string>
     <string name="delete_all_recordings_now_error_message">無法刪除部分錄製內容。請再試一次。</string>
     <string name="delete_button_label">立即刪除所有錄製內容</string>
     <string name="delete_confirmation_dialog_negative_button_label">取消</string>
     <string name="delete_confirmation_dialog_positive_button_label">刪除</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">正在刪除錄音…</string>
     <string name="description_add_to_existing_contact_action">加入^1至現有的聯絡人</string>
     <string name="description_blocked_number_list_delete">解除封鎖號碼</string>
     <string name="description_call_action">致電 ^1</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"現在是由自動化緊急語音服務代表來電者聯絡您。
 來電者表示他們可能處於緊急情況。
 請提供協助。"</string>
+    <string name="emergency_speaker">喇叭</string>
     <string name="emergency_voice_assist_dialog_button_close">取消</string>
     <string name="emergency_voice_assist_dialog_title">緊急服務總機會聽到這段話</string>
     <string name="end_call_with_default_message_description">結束通話</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">音訊太小聲</string>
     <string name="feedback_call_issue_title">有什麼問題？</string>
     <string name="feedback_title_please_rate">請為通話品質評分</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">翻轉即開 Shhh</string>
     <string name="flip_to_silence_summary">如要將來電設為靜音，請在平坦表面上將手機朝下</string>
     <string name="flip_to_silence_title">翻轉靜音</string>
+    <string name="foreground_notification_title">正在更新…</string>
     <string name="frequent_contact_suggestion">常用聯絡人</string>
     <string name="general_learn_more">瞭解詳情</string>
     <string name="generic_conference_call_name">正在通話</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">進一步瞭解錄音的儲存方法</string>
     <string name="how_it_works_storage_template">如果您的手機儲存空間不足，通話錄音就會暫停。^1</string>
     <string name="icon_content_description">對話框圖示</string>
+    <string name="icon_description_shared_data_call">共用數據通話</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">匯入號碼</string>
     <string name="ims_video_heading">Verizon 影片</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">您沒有未接來電</string>
     <string name="new_call_log_permission_no_calllog">如要查看通話記錄，請開放「手機」權限。</string>
     <string name="new_call_log_secondary_blocked">已封鎖</string>
+    <string name="new_call_log_secondary_verified">通過驗證的來電</string>
     <string name="new_call_log_snack_bar_deleted">已刪除通話</string>
     <string name="new_call_log_snack_bar_undo">復原</string>
     <string name="new_call_log_unknown">不明</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">影片</string>
     <string name="notification_action_dismiss">拒絕</string>
     <string name="notification_action_end_call">掛斷</string>
+    <string name="notification_action_mute_toggle">靜音</string>
     <string name="notification_action_speaker_off">關閉揚聲器</string>
     <string name="notification_action_speaker_on">開啟揚聲器</string>
+    <string name="notification_action_speaker_toggle">喇叭</string>
     <string name="notification_callReasonMsg">原因：%s</string>
     <string name="notification_call_wifi_brand">Wi-Fi 通話</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi 工作通話</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">用來撥打流動網絡供應商視像通話的按鈕。</string>
     <string name="play">播放</string>
     <string name="plus_code_line_format">Plus 程式碼：%1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">說明來電原因</string>
     <string name="post_call_message_1">急事，請回電給我。</string>
     <string name="post_call_message_2">有空時請回電給我。</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">私隱權政策</string>
     <string name="private_num_non_verizon">私人號碼</string>
     <string name="private_num_verizon">受限制</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">選取聯絡人</string>
     <string name="ready_for_recording">準備就緒…</string>
     <string name="record_greeting_cancel_label">取消</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">正在儲存…</string>
     <string name="record_voicemail_greeting_title">錄製問候語</string>
     <string name="recording_category_title">錄製內容</string>
+    <string name="recording_deleted">錄音已刪除</string>
+    <string name="recording_deletion_failed">無法刪除錄音 [再試一次]</string>
     <string name="redo_button_text">重試</string>
     <string name="remember_this_choice_label">記住這個選擇</string>
     <string name="report_not_spam_alert_button">舉報</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">回電給我</string>
     <string name="request_email_description">發送電郵給我</string>
     <string name="respond_via_sms_setting_title">快速回應</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">開啟</string>
     <string name="revelio_end_call_reject_as_spam">通話已標示為垃圾內容</string>
     <string name="revelio_end_call_user_missed_internal_message">沒有接到這通來電</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">即時文字短訊 (RTT) 可協助失聰、聽障、語言障礙或不僅僅需要語音的通話者。^1</string>
     <string name="rtt_assist_for_att">畫面上顯示 RTT 鍵盤是外接式 TTY 鍵盤的替代選擇。在 RTT 通話期間傳訊短訊時，您的交談對象可以即時看到您正在輸入訊息。^1</string>
     <string name="rtt_assist_for_tmo">於螢幕顯示的「即時文字短訊 (RTT)」鍵盤是外接式 TTY 鍵盤的替代選擇。RTT 可以在通話期間傳送您即時輸入的訊息，讓您能即時透過文字進行通訊。您將可在輸入完整個訊息前查看部分回應。^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">上一步</string>
     <string name="rtt_button_downgrade">切換為語音通話</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT 不適用於此通話。您的通話已轉接為語音專用通話。</string>
+    <string name="rtt_call_downgraded_toast">您的 RTT 通話已變更為語音專用通話</string>
+    <string name="rtt_call_not_available_toast">RTT 不適用於此通話</string>
     <string name="rtt_configuration_summary_always_visible">「即時文字短訊」按鈕隨處都可使用</string>
     <string name="rtt_configuration_summary_not_visible">允許「即時文字短訊」來電，但隱藏通話按鈕</string>
     <string name="rtt_configuration_summary_visible_during_call">通話時顯示「即時文字短訊」按鈕</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">查看轉錄內容</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">這則訊息會重複。</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">儲存</string>
     <string name="saved_voicemails_action_title">已儲存的留言 (%1$s)</string>
     <string name="search_hint">搜尋視像聯絡人</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">傳送訊息</string>
     <string name="send_to_voicemail_import_failed">匯入失敗</string>
     <string name="serial_number">序號</string>
+    <string name="set_as_default_button_text">設定為預設</string>
     <string name="set_default_account">永遠使用這張 SIM 卡通話</string>
     <string name="set_default_account_description">SIM 卡偏好設定會與您的聯絡人一併儲存</string>
+    <string name="set_phone_as_default_explanation_text">「電話」必須是您的預設電話應用程式，才能撥打和接聽電話</string>
+    <string name="set_phone_as_default_request_text">將「電話」設定為預設</string>
     <string name="settings">設定</string>
     <string name="settings_page_call_recording_feature_not_available_text">通話錄音功能無法在您所在的地區使用</string>
     <string name="settings_page_crosby_feature_not_available_text">無法在您所在的地區使用</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">復原</string>
     <string name="snackbar_voicemail_deleted">已刪除留言信箱</string>
     <string name="sounds_and_vibration_title">聲音和震動</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">垃圾來電和 Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">關閉</string>
     <string name="spam_blocking_promo_action_filter_spam">過濾垃圾來電</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">新增</string>
     <string name="speed_dial_contacts_permission_description">如要啟用快速撥號功能，請開放「通訊錄」權限。</string>
     <string name="speed_dial_disambig_dialog_title">選擇致電%s的方式</string>
-    <string name="speed_dial_education_content">輕觸並按住任何聯絡人，即可在通話和訊息之間切換</string>
-    <string name="speed_dial_education_title">更多聯絡方式</string>
     <string name="speed_dial_no_contacts_action_text">新增常用聯絡人</string>
     <string name="speed_dial_no_contacts_description">只要輕按一下就能致電常用聯絡人</string>
     <string name="speed_dial_remember_this_choice">記住這個選擇</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">服務條款</string>
     <string name="textmessage_button_label">訊息</string>
     <string name="theme_preference_label">選擇主題背景</string>
+    <string name="tidepods_call_screen_settings_title">來電過濾</string>
+    <string name="tidepods_incall_label_record">錄影</string>
     <string name="toast_text_copied">文字已複製</string>
     <string name="toolbar_back">返回</string>
     <string name="toolbar_close">關閉</string>
     <string name="transcript_audio_feedback_chip_text">協助我們改善</string>
+    <string name="transcript_audio_feedback_link_text">查看轉錄文字和音訊</string>
     <string name="transcript_snippet_low_confidence_description">(音訊不清)</string>
+    <string name="try_again_button">再試一次</string>
     <string name="tty_configuration_title_tty_full">TTY 完整模式</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">關閉 TTY</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">撥出的視像通話已轉接至另一部裝置</string>
     <string name="type_rejected">拒接的來電</string>
     <string name="type_voicemail">留言</string>
-    <string name="unable_change_value_error">變更 RTT 設定時發生問題。請返回並重試。</string>
     <string name="unable_read_value_error">讀取 RTT 設定時發生問題。請返回並重試。</string>
     <string name="unblock_number">解除封鎖</string>
     <string name="unblock_number_alert_details">系統會將此號碼解除封鎖，並舉報為非垃圾號碼。此外，系統不會將日後的來電視為垃圾來電。</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">解除封鎖</string>
     <string name="unblock_report_number_alert_title">要解除封鎖 %1$s 嗎？</string>
     <string name="unknown">未知</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">取消將收到的語音設為靜音</string>
     <string name="user_is_busy_description">我會回電給您</string>
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">另一方已開啟視像功能</string>
     <string name="videocall_remotely_held">通話目前保留</string>
     <string name="videocall_remotely_resumed">通話繼續</string>
+    <string name="videocall_settings_default_carrier">流動網絡供應商視像通話</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">預設視像通話服務</string>
+    <string name="videocall_settings_fallback_summary">如果無法進行流動網絡供應商視像通話，則切換至 Duo</string>
+    <string name="videocall_settings_fallback_title">以 Duo 作為候補</string>
+    <string name="videocall_settings_title">視像通話</string>
     <string name="videocall_show_preview_button_description">顯示本地影片資訊提供</string>
     <string name="view">查看</string>
     <string name="view_location_settings">位置資訊設定</string>
     <string name="vitle_label">LTE 視像通訊</string>
+    <string name="viwifi_label">Wi-Fi 視像通話</string>
     <string name="vm_change_pin_error_invalid">新的 PIN 包含無效字元。</string>
     <string name="vm_change_pin_error_mismatch">舊的 PIN 不符。</string>
     <string name="vm_change_pin_error_system_error">無法變更 PIN</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">請稍候。</string>
     <string name="voice_call">語音通話</string>
     <string name="voice_call_button">通話</string>
+    <string name="voice_display_name">語音 %1$d</string>
     <string name="voice_search_not_available">無法使用語音搜尋</string>
     <string name="voice_selector_preference_title">可用的語音</string>
+    <string name="voice_settings_available_voices_text">可用的語音</string>
+    <string name="voice_settings_title">語音</string>
     <string name="voicecall_button_label">通話</string>
     <string name="voicecall_button_wifi_description">使用 Wi-Fi 致電</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s%2$s</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">想協助提高轉錄準確度嗎？</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">如果在不使用數據的情況下將視像留言用於 SIM 卡，可能就需要支付流動網絡供應商費用</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">視像留言僅可供所選數據連線 SIM 卡使用</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">如果您有多張 SIM 卡，而其中一張是供 Fi 使用，您的 Fi SIM 卡就會用於視像留言</string>
     <string name="voicemail_error_activating_message">視像留言完全啟用前，您可能無法接收留言通知。請致電留言信箱以取得新訊息，直至視像留言完全啟用。</string>
     <string name="voicemail_error_activating_title">正在啟用視像留言</string>
     <string name="voicemail_error_activation_disabled_message">請致電視像留言信箱以完成相關設定</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">無法連接您的留言信箱</string>
     <string name="vvm3_error_vms_timeout_message">抱歉，系統發生問題，請稍後再試。如果問題持續，請致電 %1$s 聯絡客戶服務，並提供錯誤代碼 9007。</string>
     <string name="vvm3_error_vms_timeout_title">發生問題</string>
+    <string name="vvm_config_title">視像留言設定</string>
     <string name="vvm_unsupported_message_format">不支援的訊息類型，撥打 %s 即可聆聽。</string>
     <string name="wait_prompt_str">"傳送下列鈴聲？ 
 "</string>

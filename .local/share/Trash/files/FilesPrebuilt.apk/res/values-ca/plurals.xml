@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">"(Cancel·lat) S'han desinstal·lat %1$d apps"</item>
+        <item quantity="one">"(Cancel·lat) S'ha desinstal·lat %1$d app"</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">"S'han desinstal·lat %1$d aplicacions de %2$d"</item>
+        <item quantity="one">"S'ha desinstal·lat %1$d aplicació"</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">"S'han copiat %1$d fitxers"</item>
+        <item quantity="one">"S'ha copiat %1$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">"S'han copiat %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'han copiat %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">"S'han copiat %1$d carpetes"</item>
+        <item quantity="one">"S'ha copiat %1$d carpeta"</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">"S'han copiat %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'han copiat %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">"S'han suprimit %1$d fitxers"</item>
+        <item quantity="one">"S'ha suprimit %1$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">"S'han suprimit %1$d fitxers de %2$d"</item>
+        <item quantity="one">"S'ha suprimit %1$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">"S'han suprimit %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'han suprimit %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">"S'han suprimit %1$d carpetes"</item>
+        <item quantity="one">"S'ha suprimit %1$d carpeta"</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">"S'han suprimit %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'han suprimit %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">"S'han mogut %1$d fitxers"</item>
+        <item quantity="one">"S'ha mogut %1$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">"S'han mogut %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'han mogut %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">"S'han mogut %1$d carpetes"</item>
+        <item quantity="one">"S'ha mogut %1$d carpeta"</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">"S'han mogut %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'han mogut %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">"S'han restaurat %1$d de %2$d fitxers"</item>
+        <item quantity="one">"S'ha restaurat %1$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">"S'han restaurat %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'han restaurat %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">"S'han restaurat %1$d carpetes"</item>
+        <item quantity="one">"S'ha restaurat %1$d carpeta"</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">"S'han restaurat %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'han restaurat %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">"S'han mogut %1$d de %2$d fitxers a la paperera"</item>
+        <item quantity="one">"S'ha mogut %1$d fitxer a la paperera"</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">"S'han mogut a la paperera %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'han mogut a la paperera %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">"S'han mogut a la paperera %1$d carpetes"</item>
+        <item quantity="one">"S'ha mogut a la paperera %1$d carpeta"</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">"S'han mogut a la paperera %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'han mogut a la paperera %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">Amb aquesta acció també se suprimiran permanentment %1$d fitxers de la carpeta</item>
+        <item quantity="one">Amb aquesta acció també se suprimirà permanentment %1$d fitxer de la carpeta</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">Aquesta acció és &lt;b>permanent&lt;/b> i no es pot &lt;b>desfer&lt;/b>. %1$d fitxers de la carpeta també se suprimiran permanentment.</item>
+        <item quantity="one">Aquesta acció és &lt;b>permanent&lt;/b> i no es pot &lt;b>desfer&lt;/b>. %1$d fitxer de la carpeta també se suprimirà permanentment.</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">Vols suprimir %1$d fitxers permanentment?</item>
+        <item quantity="one">Vols suprimir %1$d fitxer permanentment?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">Vols suprimir %1$d carpetes i %2$d fitxers permanentment?</item>
+        <item quantity="one">Vols suprimir 1 carpeta i %2$d fitxers permanentment?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">Vols suprimir %1$d carpetes i 1 fitxer permanentment?</item>
+        <item quantity="one">Vols suprimir 1 carpeta i 1 fitxer permanentment?</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">Vols suprimir %1$d carpetes permanentment?</item>
+        <item quantity="one">Vols suprimir %1$d carpeta permanentment?</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">Vols suprimir %1$d fitxers originals?</item>
+        <item quantity="one">Vols suprimir %1$d fitxer original?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">Vols suprimir %1$d fitxers originals i %2$d de duplicats?</item>
+        <item quantity="one">Vols suprimir %1$d fitxer original i %2$d de duplicats?</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">Vols suprimir %1$d fitxers originals i 1 de duplicat?</item>
+        <item quantity="one">Vols suprimir %1$d fitxer original i 1 de duplicat?</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">"Estàs a punt d'esborrar %1$d elements"</item>
+        <item quantity="one">"Estàs a punt d'esborrar %1$d element"</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">Vols moure %1$d fitxers?</item>
+        <item quantity="one">Vols moure %1$d fitxer?</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">"No s'han pogut copiar els fitxers. %1$s."</item>
+        <item quantity="one">"No s'ha pogut copiar el fitxer. %1$s."</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">"S'estan copiant %1$d fitxers"</item>
+        <item quantity="one">"S'està copiant %1$d fitxer"</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">"S'estan copiant %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'estan copiant %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">"S'estan copiant %1$d carpetes"</item>
+        <item quantity="one">"S'està copiant %1$d carpeta"</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">"S'estan copiant %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'estan copiant %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">Suprimeix %1$d fitxers duplicats</item>
+        <item quantity="one">Suprimeix %1$d fitxer duplicat</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">"No s'han pogut suprimir els fitxers. %1$s."</item>
+        <item quantity="one">"No s'ha pogut suprimir el fitxer. %1$s."</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">Suprimeix %1$d mems</item>
+        <item quantity="one">Suprimeix %1$d mem</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">"S'estan suprimint %1$d fitxers"</item>
+        <item quantity="one">"S'està suprimint %1$d fitxer"</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">"S'estan suprimint %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'estan suprimint %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">"S'estan suprimint %1$d carpetes"</item>
+        <item quantity="one">"S'està suprimint %1$d carpeta"</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">"S'estan suprimint %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'estan suprimint %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">Aquests elements ja són a %s</item>
+        <item quantity="one">Aquest element ja és a %s</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">"No s'han pogut extreure els fitxers. %1$s."</item>
+        <item quantity="one">"No s'ha pogut extreure el fitxer. %1$s."</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">"S'han extret %1$d fitxers"</item>
+        <item quantity="one">"S'ha extret %1$d fitxer"</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">%1$s no ha pogut enviar %2$d fitxers a %3$s</item>
+        <item quantity="one">%1$s no ha pogut enviar %2$d fitxer a %3$s</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">Hi ha %1$d fitxers que ja són a la ubicació seleccionada (%2$s) i no es copiaran</item>
+        <item quantity="one">Hi ha %1$d fitxer que ja és a la ubicació seleccionada (%2$s) i no es copiarà</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">Hi ha %1$d fitxers que ja són a la ubicació seleccionada (%2$s) i no es mouran</item>
+        <item quantity="one">Hi ha %1$d fitxer que ja és a la ubicació seleccionada (%2$s) i no es mourà</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">"No s'han pogut suprimir %1$d de %2$d fitxers. Es necessiten permisos d'accés a la targeta SD."</item>
+        <item quantity="one">"No s'ha pogut suprimir %1$d fitxer. Es necessiten permisos d'accés a la targeta SD."</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">%1$d fitxers seleccionats</item>
+        <item quantity="one">%1$d fitxer seleccionat</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">"%1$d fitxers no s'han copiat correctament."</item>
+        <item quantity="one">"%1$d fitxer no s'ha copiat correctament."</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s fitxers</item>
+        <item quantity="one">%1$s fitxer</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">Es copiaran %1$d fitxers</item>
+        <item quantity="one">Es copiarà %1$d fitxer</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">Es mouran %1$d fitxers</item>
+        <item quantity="one">Es mourà %1$d fitxer</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s: %2$d fitxers</item>
+        <item quantity="one">%1$s: %2$d fitxer</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">%1$d fitxers en total</item>
+        <item quantity="one">%1$d fitxer en total</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s carpetes</item>
+        <item quantity="one">%1$s carpeta</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">Google Play Protect ha trobat %1$s aplicacions perjudicials al dispositiu</item>
+        <item quantity="one">Google Play Protect ha trobat 1 aplicació perjudicial al dispositiu</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d hores</item>
+        <item quantity="one">%1$d hora</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">"No s'han pogut copiar %1$d de %2$d fitxers"</item>
+        <item quantity="one">"No s'ha pogut copiar %1$d fitxer"</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">"No s'han pogut suprimir %1$d de %2$d fitxers"</item>
+        <item quantity="one">"No s'ha pogut suprimir %1$d fitxer"</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">"No s'han pogut moure %1$d de %2$d fitxers"</item>
+        <item quantity="one">"No s'ha pogut moure %1$d fitxer"</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">"No s'han pogut restaurar %1$d de %2$d fitxers"</item>
+        <item quantity="one">"No s'ha pogut restaurar %1$d fitxer"</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">"No s'han enviat a la paperera %1$d de %2$d fitxers"</item>
+        <item quantity="one">"No s'ha pogut enviar a la paperera %1$d fitxer"</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">"S'han produït %d intents incorrectes des del darrer inici de sessió."</item>
+        <item quantity="one">"S'ha produït %d intent incorrecte des del darrer inici de sessió."</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">Suprimeix %1$d fitxers multimèdia</item>
+        <item quantity="one">Suprimeix %1$d fitxer multimèdia</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minuts</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">"No s'han pogut moure els fitxers. %1$s."</item>
+        <item quantity="one">"No s'ha pogut moure el fitxer. %1$s."</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">"S'estan movent %1$d fitxers"</item>
+        <item quantity="one">"S'està movent %1$d fitxer"</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">"S'estan movent %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'estan movent %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">"S'estan movent %1$d carpetes"</item>
+        <item quantity="one">"S'està movent %1$d carpeta"</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">"S'estan movent %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'estan movent %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">"Se suprimirà permanentment d'aquí a %1$d dies"</item>
+        <item quantity="one">"Se suprimirà permanentment d'aquí a %1$d dia"</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">"S'han suprimit dels Preferits, però encara els trobaràs als teus fitxers."</item>
+        <item quantity="one">"S'ha suprimit de Preferits, però encara el trobaràs als teus fitxers."</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">"No s'han pogut restaurar els fitxers. %1$s"</item>
+        <item quantity="one">"No s'ha pogut restaurar el fitxer. %1$s"</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">Restaura %1$d fitxers</item>
+        <item quantity="one">Restaura %1$d fitxer</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">"S'estan restaurant %1$d fitxers"</item>
+        <item quantity="one">"S'està restaurant %1$d fitxer"</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">"S'estan restaurant %1$d carpetes i %2$d fitxers"</item>
+        <item quantity="one">"S'estan restaurant %1$d carpetes i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">"S'estan restaurant %1$d carpetes"</item>
+        <item quantity="one">"S'està restaurant %1$d carpeta"</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">"S'estan restaurant %1$d carpeta i %2$d fitxers"</item>
+        <item quantity="one">"S'estan restaurant %1$d carpeta i %2$d fitxer"</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d segons</item>
+        <item quantity="one">%1$d segon</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">Només pots seleccionar %d fitxers com a màxim.</item>
+        <item quantity="one">Només pots seleccionar %d fitxer com a màxim.</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%1$s està enviant %2$d fitxers a %3$s</item>
+        <item quantity="one">%1$s està enviant %2$d fitxer a %3$s</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%1$s ha enviat %2$d fitxers a %3$s</item>
+        <item quantity="one">%1$s ha enviat %2$d fitxer a %3$s</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">Vols aturar la còpia dels %1$d fitxers?</item>
+        <item quantity="one">Vols aturar la còpia del fitxer %2$s?</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">Vols deixar de suprimir %1$d fitxers?</item>
+        <item quantity="one">Vols deixar de suprimir “%2$s”?</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">Vols aturar la transferència dels %1$d fitxers?</item>
+        <item quantity="one">Vols aturar la transferència del fitxer %2$s?</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">Vols aturar la restauració de %1$d fitxers?</item>
+        <item quantity="one">Vols aturar la restauració de \"%2$s\"?</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d estrelles de %2$d</item>
+        <item quantity="one">%1$d estrella de %2$d</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">Mou %1$d fitxers a la paperera</item>
+        <item quantity="one">Mou %1$d fitxer a la paperera</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">Queden %1$d dies</item>
+        <item quantity="one">Queda %1$d dia</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">"No s'han pogut moure els fitxers a la paperera. %1$s"</item>
+        <item quantity="one">"No s'ha pogut moure el fitxer a la paperera. %1$s"</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">"S'estan movent %1$d fitxers a la paperera"</item>
+        <item quantity="one">"S'està movent %1$d fitxer a la paperera"</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">"S'estan movent %1$d carpetes i %2$d fitxers a la paperera"</item>
+        <item quantity="one">"S'estan movent %1$d carpetes i %2$d fitxer a la paperera"</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">"S'estan movent %1$d carpetes a la paperera"</item>
+        <item quantity="one">"S'està movent %1$d carpeta a la paperera"</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">"S'estan movent %1$d carpeta i %2$d fitxers a la paperera"</item>
+        <item quantity="one">"S'estan movent %1$d carpeta i %2$d fitxer a la paperera"</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">Desinstal·la %1$d aplicacions que no has utilitzat recentment</item>
+        <item quantity="one">Desinstal·la %1$d aplicació que no has utilitzat recentment</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">"S'han extret %1$d fitxers."</item>
+        <item quantity="one">"S'ha extret %1$d fitxer."</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">%1$d fitxers més</item>
+        <item quantity="one">%1$d fitxer més</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">"S'extreuran %1$d fitxers i s'organitzaran per categories."</item>
+        <item quantity="one">"S'extreurà %1$d fitxer i s'organitzarà per categories."</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">Massa intents incorrectes. Espera %d segons abans de tornar-ho a provar.</item>
+        <item quantity="one">Massa intents incorrectes. Espera %d segon abans de tornar-ho a provar.</item>
+    </plurals>
+</resources>

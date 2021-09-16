@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$sのあるフォルダに追加</string>
     <string name="add_to_home_screen">ホーム画面に追加</string>
     <string name="added_to_folder">アイテムをフォルダに追加しました</string>
+    <string name="added_to_home_screen_accessibility_text">「%1$s」ウィジェットをホーム画面に追加しました</string>
     <string name="all_apps_button_label">アプリのリスト</string>
     <string name="all_apps_button_personal_label">個人用アプリのリスト</string>
     <string name="all_apps_button_work_label">仕事用アプリのリスト</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">スマートフォンの向きに合わせます</string>
     <string name="allow_rotation_title">ホーム画面の回転を許可</string>
     <string name="allset_description">スマートフォンを使い始めることができます</string>
+    <string name="allset_hint">ホームに移動するには上にスワイプします</string>
+    <string name="allset_navigation_settings"><annotation id="link">システム ナビゲーションの設定</annotation></string>
     <string name="allset_title">設定完了</string>
     <string name="app_downloading_title">%1$sをダウンロード中、%2$s完了</string>
     <string name="app_info_drop_target_label">アプリ情報</string>
@@ -98,11 +101,13 @@
     <string name="app_waiting_download_title">%1$sのインストール待ち</string>
     <string name="auto_add_shortcuts_description">新しいアプリをダウンロードしたときに自動で追加します</string>
     <string name="auto_add_shortcuts_label">ホーム画面にアプリのアイコンを追加</string>
+    <string name="back_gesture_feedback_cancelled">画面の右端または左端から中央に向かってスワイプし、指を離してください。</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">右側からスワイプして前の画面に戻る方法を学習しました。次は、アプリを切り替える方法を覚えましょう。</string>
-    <string name="back_gesture_feedback_complete_without_follow_up">「戻る」操作を完了しました。</string>
+    <string name="back_gesture_feedback_complete_without_follow_up">「戻る」操作を学習しました。</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">スワイプする際は画面の下部に近づきすぎないようにしましょう。</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">右端または左端からスワイプしてください。</string>
     <string name="back_gesture_intro_subtitle">直前の画面に戻るには、画面の左端または右端から中央に向かってスワイプします。</string>
-    <string name="back_gesture_intro_title">スワイプで戻りましょう</string>
+    <string name="back_gesture_intro_title">スワイプで戻る</string>
     <string name="back_gesture_tutorial_confirm_subtitle">「戻る」操作の感度を変更するには [設定] に移動します</string>
     <string name="blocked_by_policy">この操作はアプリまたは組織で許可されていません</string>
     <string name="close">閉じる</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">タップして変更後の名前を保存します</string>
     <string name="gadget_error_text">ウィジェットを読み込めません</string>
     <string name="gadget_setup_text">タップして設定を完了してください</string>
+    <string name="gesture_tutorial_action_button_label">完了</string>
     <string name="gesture_tutorial_action_button_label_cancel">キャンセル</string>
     <string name="gesture_tutorial_action_button_label_settings">設定</string>
     <string name="gesture_tutorial_action_button_label_skip">スキップ</string>
@@ -141,8 +147,8 @@
     <string name="gleam_tooltip_text">テキストや画像を選択するには押し続けてください</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">アプリなどを検索</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">「ホームに戻る」操作を完了しました。次は、前の画面に戻る方法を覚えましょう。</string>
-    <string name="home_gesture_feedback_complete_without_follow_up">「ホームに戻る」操作を完了しました。</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">「ホームに戻る」操作を学習しました。次は、前の画面に戻る方法を覚えましょう。</string>
+    <string name="home_gesture_feedback_complete_without_follow_up">「ホームに戻る」操作を学習しました。</string>
     <string name="home_gesture_feedback_overview_detected">指を離す前にいったん止めないでください。</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">画面の下端から上にスワイプしてください。</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">まっすぐ上にスワイプしてください。</string>
@@ -209,7 +215,8 @@
     <string name="overview_gesture_feedback_home_detected">ウィンドウをもう少し長く押してから指を離すようにしてみましょう。</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">画面の下端から上にスワイプしてください。</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">まっすぐ上にスワイプしてから、いったん指を止めてください。</string>
-    <string name="overview_gesture_intro_title">スワイプでアプリを切り替え</string>
+    <string name="overview_gesture_intro_subtitle">アプリを切り替えるには、画面を下から上にスワイプして長押しし、指を離します。</string>
+    <string name="overview_gesture_intro_title">スワイプでアプリを切り替える</string>
     <string name="overview_selection_pref_desc">アプリを切り替える場合は、テキストと画像を長押しして操作を表示する</string>
     <string name="overview_selection_pref_title">[最近] の選択内容</string>
     <string name="overview_suggestions_settings_summary">おすすめの操作とインジケーターを [最近] に表示します</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">ショートカットは使用できません</string>
     <string name="shortcuts_menu_with_notifications_description">ショートカットと通知</string>
     <string name="shorter_duration_less_than_one_minute">1 分未満</string>
-    <string name="skip_tutorial_dialog_subtitle">これは後から %1$s アプリで確認できます</string>
+    <string name="skip_tutorial_dialog_subtitle">チュートリアルは後から %1$s アプリで確認できます</string>
     <string name="skip_tutorial_dialog_title">操作チュートリアルをスキップしますか？</string>
     <string name="smartspace_calendar_event">%1$s、%2$s 分後</string>
     <string name="smartspace_calendar_event_now">%1$s、今すぐ</string>
@@ -280,15 +287,15 @@
     <string name="smartspace_flight_card_seat_header">座席</string>
     <string name="smartspace_hours_mins">%1$s%2$s</string>
     <string name="smartspace_preferences">設定</string>
-    <string name="smartspace_preferences_in_settings">ライブスペース</string>
+    <string name="smartspace_preferences_in_settings">At A Glance</string>
     <string name="smartspace_preferences_in_settings_desc">ホーム画面の上部</string>
     <string name="smartspace_preferences_manage">カスタマイズ</string>
     <string name="smartspace_preferences_turn_off_action">OFF にする</string>
     <string name="smartspace_preferences_turn_off_description">天気や今後の予定に関する情報が、ホーム画面やロック画面に表示されなくなります。</string>
-    <string name="smartspace_preferences_turn_off_title">%1$sを OFF にします</string>
+    <string name="smartspace_preferences_turn_off_title">%1$sを OFF にする</string>
     <string name="smartspace_preferences_turn_on_action">ON にする</string>
     <string name="smartspace_preferences_turn_on_description">天気や今後の予定に関する情報が、ホーム画面やロック画面に表示されるようになります。</string>
-    <string name="smartspace_preferences_turn_on_title">%1$sを ON にします</string>
+    <string name="smartspace_preferences_turn_on_title">%1$sを ON にする</string>
     <string name="smartspace_shopping_list_overflow">他 %1$d 件</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">壁紙とスタイル</string>

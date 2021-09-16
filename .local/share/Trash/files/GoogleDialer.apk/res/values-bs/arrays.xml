@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Da koristite RTT, morate biti povezani s LTE mrežom ili imati uključeno Pozivanje putem WiFi-ja.
+"</item>
+        <item>"RTT možete početi koristiti dok razgovarate s osobama čiji telefoni podržavaju RTT ili su povezani s TTY uređajem.
+"</item>
+        <item>"Da vidite opciju RTT-a za dolazne i odlazne pozive, postavite opciju RTT poziva na \"Uvijek vidljivo\".
+"</item>
+        <item>"RTT sadrži zvuk, tako da isključite zvuk poziva ako ne morate ili ne želite dijeliti zvuk.
+"</item>
+        <item>"RTT pozivi koriste minute razgovora. Detalje potražite u svom tarifnom paketu.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT pozivi se pohranjuju kao transkripti poruka.
+"</item>
+        <item>"RTT nije dostupan za video pozive.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Trebate biti povezani s 4G LTE ili WiFi mrežom.
+"</item>
+        <item>"Osoba s kojom razgovarate također mora koristiti telefon koji podržava RTT ili biti povezana s TTY uređajem (tekstualni telefon).
+"</item>
+        <item>Kada omogućite RTT, ikona RTT će se pojavljivati na svim dolaznim pozivima.</item>
+    </string-array>
+</resources>

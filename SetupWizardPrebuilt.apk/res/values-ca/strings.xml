@@ -335,19 +335,21 @@ Dispositiu no subministrat"</string>
     <string name="welcome_language_picker_dialog_title">Tria el teu idioma</string>
     <string name="welcome_message">Hola!</string>
     <string name="welcome_secondary_user_added_text">"{DEVICE_TYPE,select, PHONE{El teu compte s'ha afegit a aquest telèfon}TABLET{El teu compte s'ha afegit a aquesta tauleta}other{El teu compte s'ha afegit a aquest dispositiu}}"</string>
-    <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Important:</b>"
+    <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Important</b>":
 
 "<ul><li>"El propietari del telèfon pot desinstal·lar les teves aplicacions o suprimir el teu perfil d'usuari completament."</li>"
 
 "<li>Qualsevol altre usuari pot acceptar permisos actualitzats de les aplicacions.</li>"
 
-"<li>Comparteix aquest telèfon només amb persones en qui confiïs.</li></ul>}TABLET{<b>Important:</b>"
+"<li>Comparteix aquest telèfon només amb persones en qui confiïs.</li></ul>"
+}TABLET{"<b>Important</b>":
 
 "<ul><li>"El propietari de la tauleta pot desinstal·lar les teves aplicacions o suprimir el teu perfil d'usuari completament."</li>"
 
 "<li>Qualsevol altre usuari pot acceptar permisos actualitzats de les aplicacions.</li>"
 
-"<li>Comparteix aquesta tauleta només amb persones en qui confiïs.</li></ul>}other{<b>Important:</b>"
+"<li>Comparteix aquesta tauleta només amb persones en qui confiïs.</li></ul>"
+}other{"<b>Important</b>":
 
 "<ul><li>"El propietari del dispositiu pot desinstal·lar les teves aplicacions o suprimir el teu perfil d'usuari completament."</li>"
 
@@ -359,70 +361,47 @@ Dispositiu no subministrat"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el telèfon.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
-"<li>"Configurar automàticament la data i l'hora."</li>"}TABLET{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament la tauleta.
+"<li>"Configurar automàticament la data i l'hora."</li>"
+}TABLET{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament la tauleta.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
-"<li>"Configurar automàticament la data i l'hora."</li>"}other{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el dispositiu.
+"<li>"Configurar automàticament la data i l'hora."</li>"
+}other{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el dispositiu.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
 "<li>"Configurar automàticament la data i l'hora."</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el telèfon.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Baixar una SIM.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
-"<li>"Configurar automàticament la data i l'hora."</li>"}TABLET{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament la tauleta.
+"<li>"Configurar automàticament la data i l'hora."</li>"
+}TABLET{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament la tauleta.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Baixar una SIM.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
-"<li>"Configurar automàticament la data i l'hora."</li>"}other{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el dispositiu.
+"<li>"Configurar automàticament la data i l'hora."</li>"
+}other{Si et connectes a una xarxa Wi‑Fi o mòbil, pots configurar ràpidament el dispositiu.
 
 Sense connexió, no pots:
-
 "<li>Iniciar la sessió al teu Compte de Google.</li>"
-
 "<li>Restaurar aplicacions i dades.</li>"
-
 "<li>Baixar una SIM.</li>"
-
 "<li>Obtenir actualitzacions de programari.</li>"
-
 "<li>"Configurar automàticament la data i l'hora."</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"El punt d'accés està temporalment ple"</string>
     <string name="wifi_check_password_try_again">Comprova la contrasenya i torna-ho a provar</string>

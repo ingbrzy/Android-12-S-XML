@@ -17,14 +17,21 @@
         <item>१५ मिनेट</item>
         <item>२० मिनेट</item>
         <item>२५ मिनेट</item>
-        <item>कहिल्यै पनि होइन</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>सुत्ने समयभन्दा १५ मिनेटअघि</item>
+        <item>सुत्ने समयभन्दा ३० मिनेटअघि</item>
+        <item>सुत्ने समयभन्दा ४५ मिनेटअघि</item>
+        <item>सुत्ने समयभन्दा १ घन्टाअघि</item>
+        <item>निष्क्रिय</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>एनालग</item>
         <item>डिजिटल</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>कहिल्यै पनि होइन</item>
+        <item>@string/crescendo_entry_never</item>
         <item>५ सेकेन्ड</item>
         <item>१० सेकेन्ड</item>
         <item>१५ सेकेन्ड</item>
@@ -37,6 +44,35 @@
         <item>५० सेकेन्ड</item>
         <item>५५ सेकेन्ड</item>
         <item>६० सेकेन्ड</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>१० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>२० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>३० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>४० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>५० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>१ घन्टापछि बन्द गर्नुहोस्</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>१० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>२० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>३० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>४० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>५० मिनेटपछि बन्द गर्नुहोस्</item>
+        <item>१ घन्टापछि बन्द गर्नुहोस्</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>१० मिनेट</item>
+        <item>२० मिनेट</item>
+        <item>३० मिनेट</item>
+        <item>४० मिनेट</item>
+        <item>५० मिनेट</item>
+        <item>१ घन्टा</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>१ मिनेट</item>
@@ -69,18 +105,6 @@
         <item>२८ मिनेट</item>
         <item>२९ मिनेट</item>
         <item>३० मिनेट</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>तपाईं पक्कै पनि तेजिलो डेमन हुनुहुन्छ।</item>
-        <item>तपाईँको मेहेनतको फलको आनन्द लिनुहोस्।</item>
-        <item>एन्ड्रोइडहरू तेजिला मानिन्छन् तर तपाईं जत्तिको होइन!</item>
-        <item>उफ।</item>
-        <item>L33t पटक</item>
-        <item>यस्तो खतरा वेग</item>
-        <item>टाइम वार्प पुनः गरौं</item>
-        <item>दायाँतिर एउटा उफ्राइ मात्र।</item>
-        <item>तपाईँसँग हतारको प्यालेट छ।</item>
-        <item>फोटोनिक वेग</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>मार्सल टापु</item>

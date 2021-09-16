@@ -866,7 +866,7 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_pattern_instructions">Draw your pattern</string>
     <string name="kg_pin_instructions">Enter PIN</string>
     <string name="kg_puk_enter_pin_hint">Enter desired PIN code</string>
-    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact operator for details.</string>
     <string name="kg_reordering_delete_drop_target_text">Remove</string>
     <string name="kg_sim_pin_instructions">Enter SIM PIN</string>
     <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
@@ -1274,7 +1274,7 @@ Enhanced notifications can access notification content, including personal infor
     <string name="permdesc_answerPhoneCalls">Allows the app to answer an incoming phone call.</string>
     <string name="permdesc_audioWrite">Allows the app to modify your music collection.</string>
     <string name="permdesc_backgroundCamera">This app can take pictures and record videos using the camera at any time.</string>
-    <string name="permdesc_bindCarrierMessagingService">Allows the holder to bind to the top-level interface of a carrier messaging service. Should never be needed for normal apps.</string>
+    <string name="permdesc_bindCarrierMessagingService">Allows the holder to bind to the top-level interface of an operator messaging service. Should never be needed for normal apps.</string>
     <string name="permdesc_bindCarrierServices">Allows the holder to bind to operator services. Should never be needed for normal apps.</string>
     <string name="permdesc_bindCellBroadcastService">Allows the app to bind to the cell broadcast module in order to forward cell broadcast messages as they are received. Cell broadcast alerts are delivered in some locations to warn you of emergency situations. Malicious apps may interfere with the performance or operation of your device when an emergency cell broadcast is received.</string>
     <string name="permdesc_bindConditionProviderService">Allows the holder to bind to the top-level interface of a condition provider service. Should never be needed for normal apps.</string>
@@ -1314,7 +1314,7 @@ Enhanced notifications can access notification content, including personal infor
     <string name="permdesc_highSamplingRateSensors">Allows the app to sample sensor data at a rate greater than 200 Hz</string>
     <string name="permdesc_imagesWrite">Allows the app to modify your photo collection.</string>
     <string name="permdesc_install_shortcut">Allows an application to add Home screen shortcuts without user intervention.</string>
-    <string name="permdesc_invokeCarrierSetup">Allows the holder to invoke the carrier-provided configuration app. Should never be needed for normal apps.</string>
+    <string name="permdesc_invokeCarrierSetup">Allows the holder to invoke the operator-provided configuration app. Should never be needed for normal apps.</string>
     <string name="permdesc_killBackgroundProcesses">Allows the app to end background processes of other apps. This may cause other apps to stop running.</string>
     <string name="permdesc_manageFingerprint">Allows the app to invoke methods to add and delete fingerprint templates for use.</string>
     <string name="permdesc_manageNetworkPolicy">Allows the app to manage network policies and define app-specific rules.</string>
@@ -1437,7 +1437,7 @@ for account %s."</string>
     <string name="permlab_answerPhoneCalls">answer phone calls</string>
     <string name="permlab_audioWrite">modify your music collection</string>
     <string name="permlab_backgroundCamera">take pictures and videos in the background</string>
-    <string name="permlab_bindCarrierMessagingService">bind to a carrier messaging service</string>
+    <string name="permlab_bindCarrierMessagingService">bind to an operator messaging service</string>
     <string name="permlab_bindCarrierServices">bind to operator services</string>
     <string name="permlab_bindCellBroadcastService">Forward cell broadcast messages</string>
     <string name="permlab_bindConditionProviderService">bind to a condition provider service</string>
@@ -1477,7 +1477,7 @@ for account %s."</string>
     <string name="permlab_highSamplingRateSensors">access sensor data at a high sampling rate</string>
     <string name="permlab_imagesWrite">modify your photo collection</string>
     <string name="permlab_install_shortcut">Install shortcuts</string>
-    <string name="permlab_invokeCarrierSetup">invoke the carrier-provided configuration app</string>
+    <string name="permlab_invokeCarrierSetup">invoke the operator-provided configuration app</string>
     <string name="permlab_killBackgroundProcesses">close other apps</string>
     <string name="permlab_manageFingerprint">manage fingerprint hardware</string>
     <string name="permlab_manageNetworkPolicy">manage network policy</string>

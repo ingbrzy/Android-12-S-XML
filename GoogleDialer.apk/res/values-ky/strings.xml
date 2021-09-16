@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Жооп берүү</string>
     <string name="a11y_call_incoming_decline_description">Баш тартуу</string>
+    <string name="a11y_callscreen_animation">Чалууларды бөгөттөө анимациясы</string>
     <string name="a11y_contact_menu_video_call_wifi">Wifi аркылуу видео чалуу</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wifi аркылуу аудио чалуу</string>
     <string name="a11y_conversation_history_entry_answered_call">Акыркы болуп ^1 деген колдонуучудан келген чалууга жооп берилди</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Чалуучуларды башкаруу</string>
     <string name="a11y_expandedsheet_collapse">менюну жыйыштыруу</string>
     <string name="a11y_expandedsheet_expand">менюну жайып көрсөтүү</string>
-    <string name="a11y_favorites_education_dismiss">жабуу</string>
     <string name="a11y_feature_demo_next_page">Кийинки бет</string>
     <string name="a11y_feature_demo_page_indicator">%d-бет</string>
     <string name="a11y_feature_demo_prev_page">Мурунку бет</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1 үчүн тез байланыш</string>
+    <string name="a11y_icon_hd">HD форматындагы чалуу</string>
+    <string name="a11y_icon_hd_plus">HD Plus форматындагы чалуу</string>
+    <string name="a11y_icon_shared_data_call">Бөлүшүлгөн дайындар аркылуу чалуу</string>
+    <string name="a11y_icon_verified">Ырасталган чалуу</string>
+    <string name="a11y_icon_vilte">LTE аркылуу видео чалуу</string>
+    <string name="a11y_icon_viwifi">WiFi аркылуу видео чалуу</string>
+    <string name="a11y_icon_volte">LTE аркылуу аудио чалуу</string>
+    <string name="a11y_icon_voz4g">4G аркылуу аудио чалуу</string>
+    <string name="a11y_icon_wifi">Wi-Fi аркылуу чалуу</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Жооп берүү үчүн экранды өйдө сүрүп, четке кагуу үчүн ылдый сүрүп коюңуз.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Чалууга жооп берүү үчүн эки манжа менен өйдө сүрүңүз же жооп бергиңиз келбесе ылдый сүрүңүз</string>
     <string name="a11y_new_call_log_entry_call_recording">чалуу жаздырылды</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 деген колдонуучуга RTT чалуу</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Бөлүшүлгөн дайындар аркылуу чалуу</string>
     <string name="a11y_new_call_log_entry_tap_action">менюну жайып көрсөтүү</string>
     <string name="a11y_new_call_log_entry_video_call">^1 видео чалууну баштоо</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">wifi аркылуу ^1 менен видео чалуу</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Чалуудан мурун номерди түзөтүү</string>
     <string name="action_menu_back_from_search">издөөнү токтотуу</string>
     <string name="action_menu_overflow_description">Көбүрөөк мүмкүнчүлүктөр</string>
+    <string name="activate_error_message">Чалууларды бөгөттөөнү жандырууда ката кетти</string>
+    <string name="activated_successfully">Чалууларды бөгөттөө жандырылды</string>
     <string name="activity_not_available">Бул түзмөктө ал үчүн колдонмо жок</string>
     <string name="add_2sec_pause">2-сек. тыныгуу кошуу</string>
     <string name="add_contact_not_available">Жеткиликтүү байланыштар колдонмосу жок</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">Чалуу</string>
     <string name="bm_suggest_chat_button">Чат</string>
     <string name="bm_suggest_wait_min">"Чат
-%1$d мүн. күтүү"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s билдирме окула элек</string>
+%1$dмүн. күтө тур-з"</string>
+    <string name="bm_suggest_wait_time_estimating">"Чат
+Күтө туруңуз…"</string>
     <string name="bottomsheet_action_expand_halfway">Жарымын жайып көрсөтүү</string>
     <string name="bubble_bottom_action_end_call">Чалууну бүтүрүү</string>
     <string name="bubble_bottom_action_hide">Жашыруу</string>
@@ -170,7 +182,10 @@
     <string name="call">Аудио чалуу</string>
     <string name="callFailed_simError">SIM-карта жок же анда ката кетти</string>
     <string name="callHistoryIconLabel">Чалуулар таржымалы</string>
-    <string name="call_announcer_preference_footer_instruction_text">Кирүүчү чалуулар үчүн чалып жаткан абоненттин аты жана номери үн чыгарып окулат</string>
+    <string name="call_action_label_automatically_screen">Автоматтык түрдө иргөө. Автоматташтырылган телефон чалууларды четке кагуу.</string>
+    <string name="call_action_label_ring_phone">Телефонду шыңгыратуу (демейки)</string>
+    <string name="call_action_label_silently_decline">Тымызын четке кагуу</string>
+    <string name="call_announcer_preference_footer_instruction_text">Кирүүчү чалуулар үчүн чалып жаткан абоненттин аты жана номери үн чыгарып окулат.</string>
     <string name="call_announcer_preference_list_title">Чалуучунун идентификаторун жарыялоо</string>
     <string name="call_announcer_preference_option_always">Ар дайым</string>
     <string name="call_announcer_preference_option_headset">Гарнитураны колдонгондо гана</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Жооп берүү</string>
     <string name="call_incoming_answer_rtt">RTT текст менен жооп берүү</string>
     <string name="call_incoming_answer_voice">Оозеки айтып жооп берүү</string>
-    <string name="call_incoming_chip_answer_and_release">Чалууга жооп берүү жана аяктоо</string>
+    <string name="call_incoming_chip_answer_and_release">Жооп берүү жана башка чалууну бүтүрүү</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT чалуу катары жооп берүү</string>
     <string name="call_incoming_chip_answer_video_as_audio">Аудио режиминде жооп берүү</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Камераны өчүрүп жооп берүү</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Жооп берүү үчүн экранды өйдө сүрүп коюңуз</string>
     <string name="call_incoming_swipe_to_reject">Жооп бергиңиз келбесе, ылдый сүрүп коюңуз</string>
     <string name="call_incoming_video_is_off">Видеоңуз өчүк</string>
-    <string name="call_incoming_will_disconnect">Бул чалууга жооп берсеңиз, видео чалууңуз бүтүп калат</string>
+    <string name="call_incoming_will_disconnect">Бул чалууга жооп берсеңиз, башка чалууңуз бүтүп калат</string>
     <string name="call_incoming_will_disconnect_app">Бул чалууга жооп берсеңиз, %1$s чалууңуз бүтүп калат</string>
     <string name="call_isdn">ISDN телефонго чалуу</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Бөгөттөө/спам деп кабарлоо</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Чалуунун себеби: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Жаздыруу сакталды.</string>
     <string name="call_recording_conversation_history_entry">Жаздырылды</string>
+    <string name="call_recording_delete_snack_bar_undo">Кайтаруу</string>
     <string name="call_recording_disclaimer_agreen_button_text">Жаздырып баштоо</string>
     <string name="call_recording_disclaimer_content">"Сиз же башка киши жайгашкан жерде чалууну жаздыруу үчүн бардык катышуучулардан макулдук алуу керек болушу мүмкүн. Чалуу жаздырылып жаткандыгы тууралуу кабар бардык катышуучуларга алдын ала жөнөтүлөт. Сүйлөшүүлөрдү жаздыруу жөнүндө мыйзамдардын сакталышына сиз жооп бересиз. Жаздыруу функциясын жоопкерчиликтүү жана керек болгон учурда гана колдонуңуз.
 ^1
@@ -291,6 +307,7 @@
 Чалуунун аудио жаздыруусу же транскрипциясы үчүнчү тараптарга, Google'га дагы, жөнөтүлбөйт."</string>
     <string name="call_screen_demo_page_4_title">Убакытты үнөмдөп жана каалабаган чалууларга жооп бербеңиз</string>
     <string name="call_screen_demo_setting_title">Демо режимин көрүү</string>
+    <string name="call_screen_demo_settings_title">Демо режимин көрүү</string>
     <string name="call_screen_demo_title">Чалууларды бөгөттөө кантип иштейт</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Үлгү аудио жүктөлүп алынбай жатат</string>
     <string name="call_screen_demo_unable_to_play_audio">Үлгү аудио ойнотулбай жатат</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Чалууну бүтүрдүңүз</string>
     <string name="call_screen_end_call_non_local_internal_message">Чалуу ажыратылды</string>
     <string name="call_screen_how_it_works_setting_title">"Чалууларды бөгөттөө түзмөгүңүздө Wi-Fi'сыз же мобилдик Интернетсиз иштейт. Маектин транскрипциясы телефонуңузда гана сакталат. %1$s"</string>
+    <string name="call_screen_how_it_works_title">"Чалууларды бөгөттөө функциясы түзмөгүңүздө Wi-Fi'сыз же мобилдик Интернетсиз иштейт. Маектердин транскрипциялары телефонуңузда гана түзүлүп сакталат. ^1"</string>
     <string name="call_screen_incallui_chip_text">Чал-рды бөг-төө</string>
     <string name="call_screen_join_call_button_content_description">Чалууну кабыл алуу</string>
     <string name="call_screen_join_call_internal_message">Чалууга кошулдуңуз</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">Чалып жаткан абонентке айтылууда</string>
     <string name="call_screen_screening_call_from">Абоненттин чалуусу бөгөттөлүүдө</string>
     <string name="call_screen_setting_title">Чалууларды бөгөттөө</string>
+    <string name="call_screen_settings_title">Чалууларды бөгөттөө</string>
     <string name="call_screen_speaker_toggle_button_content_description">Динамик баскычы</string>
     <string name="call_screen_suggestions_avatar_content_description">Логотип</string>
     <string name="call_screen_survey_cancel_button">Жокко чыгаруу</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Жумушка чалуу</string>
     <string name="call_work_mobile">Жумушчу мобилге чалуу</string>
     <string name="call_work_pager">Жумушчу пейжерге чалуу</string>
+    <string name="caller_action_error_cant_load_value">Учурдагы %1$s мааниси алынбай жатат</string>
+    <string name="caller_action_error_cant_set_value">%1$s мааниси сакталбай жатат</string>
     <string name="caller_id_announcement_multi_sim">%3$s SIM-картасына %1$s кирүүчү чалуусу: %2$s</string>
     <string name="caller_id_announcement_single_sim">%1$s кирүүчү чалуусу: %2$s</string>
     <string name="caller_id_business_data_details">Бул функцияларда колдонулган дайын-даректер Google компаниясы жана анын лицензиарлары тарабынан камсыз кылынат. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">%s номерине чаласызбы?</string>
     <string name="calllog_add_to_contact">Байланышка кошуу</string>
     <string name="calllog_create_new_contact">Жаңы байланыш түзүү</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Чалууларды бөгөттөө жандырылууда (WiFi талап кылынат)</string>
+    <string name="callscreen_settings_voice_setting_title">Үн</string>
+    <string name="camera_permission_toast">Камераны колдонууга уруксат иштетилди</string>
     <string name="camera_privacy_text">Камеранын уруксаты иштетилди</string>
     <string name="cannot_understand_description">Түшүнбөй жатам</string>
     <string name="car_crash_emergency_intro">"Өзгөчө кырдаал учурундагы автоматтык үн кызматы сиз менен чалуучунун атынан байланышып жатат.
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">Символдордун саны коюлган %2$d чегинен %1$d символго ашып кетти</string>
     <string name="checkbox_report_as_spam_action">Чалууну спам деп кабарлоо</string>
     <string name="child_number">%s аркылуу</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Байланыш тандоо</string>
     <string name="clear_button_content_description">Издөө тилкесин тазалоо</string>
     <string name="clear_text_end_icon_content_description">Текстти тазалоо</string>
     <string name="cli_not_supported_text">Улантуу үчүн телефонду ачыңыз</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Чалууларды текшерүү жөндөлбөй койду. Жөндөөлөрдөн кайра аракет кылып көрүңүз.</string>
     <string name="contact_card_video_icon_content_description">^1 видео чалуу</string>
     <string name="contact_grid_callback_number">Бул телефондун номери: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Чалуу башка номерге багытталды</string>
+    <string name="contact_grid_hd_icon_content_description">HD форматындагы чалуу</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus форматындагы чалуу</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Видео чалуу:</string>
     <string name="contact_grid_incoming_reception_only_video_call">Бир тараптуу видео чалуу:</string>
     <string name="contact_grid_incoming_rtt_call">Кирүүчү RTT чалуу:</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi аркылуу видео чалуу:</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi аркылуу бир тараптуу видео чалуу:</string>
     <string name="contact_grid_incoming_work_call">Иш боюнча чалып жатат:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Бөлүшүлгөн дайындар аркылуу чалуу</string>
+    <string name="contact_grid_spam_icon_content_description">Спам чалуу</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Байланыш оператору</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s ырасталды</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Жарактуу номер</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE аркылуу видео чалуу</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Wifi аркылуу видео чалуу</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G аркылуу аудио чалуу</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE аркылуу аудио чалуу</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Wifi аркылуу видео чалуу</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi аркылуу чалуу</string>
+    <string name="contact_grid_work_icon_content_description">Жумуш чалуусу</string>
     <string name="contact_menu_add_favorite">Сүйүктлрг кошуу</string>
     <string name="contact_menu_contact_info">Байланыш маалыматы</string>
     <string name="contact_menu_invite_video">Видео режиминде чалууга чакыр</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">Бүгүн</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Чалуу өчүрүлдү</string>
     <string name="conversation_history_call_details_snack_bar_undo">Кайтаруу</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Маанилүү чалуу</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Чалуунун кошумча маалыматын көрсөтүү</string>
+    <string name="conversation_history_call_recording_deleted">Жаздыруу өчүрүлдү</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Кепти т-ке айл-руу жана аудио</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Кепти текстке айландыруу</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Транскрипция менен аудиону көрүү</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Чалууларды бөгөттөө</string>
     <string name="copy">Көчүрүү</string>
     <string name="copy_number">Номерди көчүрүү</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">Демейки префикс</string>
     <string name="custom_prefix_prefixes_preference_title">Префикстер</string>
     <string name="dark_theme_label">Караңгы</string>
+    <string name="default_changed_confirmation">Телефон демейки катары коюлду</string>
+    <string name="default_image_content_description">Экранга коюлуучу сүрөт</string>
     <string name="delete">Жок кылуу</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Бардык жаздырууларды өчүрүү</string>
     <string name="delete_all_recordings_now_error_message">Айрым жаздыруулар өчүрүлбөй койду. Кайталап көрүңүз.</string>
     <string name="delete_button_label">Бардык жаздырууларды өчүрүү</string>
     <string name="delete_confirmation_dialog_negative_button_label">Жокко чыгаруу</string>
     <string name="delete_confirmation_dialog_positive_button_label">Өчүрүү</string>
+    <string name="delete_old_recordings_error_cant_load_value">Учурдагы %1$s мааниси алынбай жатат</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$s мааниси сакталбай жатат</string>
+    <string name="deleting_call_recording">Жаздыруу өчүрүлүүдө…</string>
     <string name="description_add_to_existing_contact_action">^1 учурдагы байланышка кошуу</string>
     <string name="description_blocked_number_list_delete">Номерди бөгөттөн чыгаруу</string>
     <string name="description_call_action">^1 чалуу</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"Өзгөчө кырдаал учурундагы автоматтык үн кызматы сиз менен чалуучунун атынан байланышып жатат.
 Чалуучу алардын коопсуздугуна коркунуч жаралышы мүмкүн деп билдирди. 
 Жардам жөнөтүңүз."</string>
+    <string name="emergency_speaker">Динамик</string>
     <string name="emergency_voice_assist_dialog_button_close">Жокко чыгаруу</string>
     <string name="emergency_voice_assist_dialog_title">Шашылыш байланыш оператору угуп жатат</string>
     <string name="end_call_with_default_message_description">Чалууну бүтүрүү</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">Аудио угулбай койду</string>
     <string name="feedback_call_issue_title">Маселе эмнеде эле?</string>
     <string name="feedback_title_please_rate">Чалуунун сапатына баа бериңиз</string>
+    <string name="first_time_callers_action_preference_description">Чалуулар тизмеңизде жок болгон чалуучулар</string>
+    <string name="first_time_callers_action_preference_title">Биринчи жолку чалуучулар</string>
     <string name="flip_to_shush_title">Оодарып, \"Тынчымды алба\" режимин иштетүү</string>
     <string name="flip_to_silence_summary">Кирүүчү чалуунун үнүн басуу үчүн телефонуңузду түз жерге бет жагы менен коюңуз</string>
     <string name="flip_to_silence_title">Үнүн басуу үчүн оодаруу</string>
+    <string name="foreground_notification_title">Жаңыртылууда…</string>
     <string name="frequent_contact_suggestion">Көп чалынган</string>
     <string name="general_learn_more">Көбүрөөк маалымат</string>
     <string name="generic_conference_call_name">Чалууда</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">Жаздыруулар кандайча сакталары жөнүндө кененирээк маалымат алыңыз</string>
     <string name="how_it_works_storage_template">Телефонуңузда бош орун калбай калса, жаздыруу убактылуу токтотулат. ^1</string>
     <string name="icon_content_description">Диалог сүрөтчөсү</string>
+    <string name="icon_description_shared_data_call">Бөлүшүлгөн дайындар аркылуу чалуу</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Номерлерди импорттоо</string>
     <string name="ims_video_heading">Verizon видео чалуусу</string>
@@ -802,8 +852,9 @@
     <string name="new_call_log_make_a_call_action">Чалуу</string>
     <string name="new_call_log_missed_title">Кабыл алынбагандар</string>
     <string name="new_call_log_no_missed_calls">Кабыл алынбаган чалуулар жок</string>
-    <string name="new_call_log_permission_no_calllog">Чалуулар таржымалыңызды көрүү үчүн, \"Телефон\" колдонмосуна уруксат бериңиз.</string>
+    <string name="new_call_log_permission_no_calllog">Чалуулар таржымалыңызды көрүү үчүн \"Телефон\" колдонмосуна уруксат бериңиз.</string>
     <string name="new_call_log_secondary_blocked">Бөгөттөлдү</string>
+    <string name="new_call_log_secondary_verified">Ырасталган чалуу</string>
     <string name="new_call_log_snack_bar_deleted">Чалуу өчүрүлдү</string>
     <string name="new_call_log_snack_bar_undo">Кайтаруу</string>
     <string name="new_call_log_unknown">Белгисиз</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">Видео</string>
     <string name="notification_action_dismiss">Четке кагуу</string>
     <string name="notification_action_end_call">Телефонду коюу</string>
+    <string name="notification_action_mute_toggle">Үнүн басуу</string>
     <string name="notification_action_speaker_off">Катуу сүйлөткүчтү өчүрүү</string>
     <string name="notification_action_speaker_on">Катуу сүйлөткүчтү күйгүзүү</string>
+    <string name="notification_action_speaker_toggle">Динамик</string>
     <string name="notification_callReasonMsg">Себеп: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi чалуу</string>
     <string name="notification_call_wifi_work_brand">жумуш боюнча Wi-Fi чалуу</string>
@@ -871,8 +924,8 @@
     <string name="pause_prompt_no">Жок</string>
     <string name="pause_prompt_yes">Ооба</string>
     <string name="payphone">Таксофон</string>
-    <string name="permission_no_calllog">Чалуулар таржымалыңызды көрүү үчүн, \"Телефон\" колдонмосуна уруксат бериңиз.</string>
-    <string name="permission_no_contacts">Байланыштарыңызды көрүү үчүн, \"Байланыштар\" уруксатын күйгүзүңүз.</string>
+    <string name="permission_no_calllog">Чалуулар таржымалыңызды көрүү үчүн \"Телефон\" колдонмосуна уруксат бериңиз.</string>
+    <string name="permission_no_contacts">Байланыштарыңызды көрүү үчүн \"Байланыштар\" уруксатын күйгүзүңүз.</string>
     <string name="permission_single_turn_on">Күйгүзүү</string>
     <string name="personalized_results_setting_summary">Буга чейин изделген нерселердин негизинде издөө натыйжалары тагыраак болот.</string>
     <string name="personalized_results_setting_title">Жекелештирилген издөө натыйжалары</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">Оператор аркылуу видео чалууну аткаруу үчүн колдонулган баскыч.</string>
     <string name="play">Ойнотуу</string>
     <string name="plus_code_line_format">Плюс коду: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Өзгөртүлгөн номерди колдонгон спамдарды жөнөтүүчүлөр болушу мүмкүн чалуучулар</string>
+    <string name="possibly_faked_numbers_action_preference_title">Мүмкүн жалган болгон номерлер</string>
     <string name="post_call_message">Эмне үчүн чалганыңызды айтып бериңиз</string>
     <string name="post_call_message_1">Шашылыш чалып жатам. Кайра чалып коюңузчу.</string>
     <string name="post_call_message_2">Убактыңыз болсо, кайра чалып коюңузчу.</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">Купуялык саясаты</string>
     <string name="private_num_non_verizon">Купуя номер</string>
     <string name="private_num_verizon">Жашыруун номер</string>
+    <string name="private_or_hidden_action_preference_description">Чалуучунун идентификаторун жашырган чалуучулар</string>
+    <string name="private_or_hidden_action_preference_title">Купуя же жашырылган</string>
     <string name="quick_contact_checkbox_description">Байланышты тандоо</string>
     <string name="ready_for_recording">Даяр</string>
     <string name="record_greeting_cancel_label">Жок</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">Сакталууда…</string>
     <string name="record_voicemail_greeting_title">Саламдашууну жаздыруу</string>
     <string name="recording_category_title">Жаздыруулар</string>
+    <string name="recording_deleted">Жаздыруу өчүрүлдү</string>
+    <string name="recording_deletion_failed">Жаздыруу өчүрүлгөн жок [Кайталоо]</string>
     <string name="redo_button_text">Кайталоо</string>
     <string name="remember_this_choice_label">Бул тандоону эстеп калуу</string>
     <string name="report_not_spam_alert_button">Арыздануу</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">Мага кайра чалыңыз</string>
     <string name="request_email_description">Мага электрондук кат жөнөтүңүз</string>
     <string name="respond_via_sms_setting_title">Тез жооптор</string>
+    <string name="revelio_callers_how_it_works_text">"Автоматтык иргөөнү өчүрүү үчүн белгисиз чалууларга “Телефонду шыңгыратуу (демейки)” жөндөөсүн тандаңыз. Байланыштарыңыз автоматтык түрдө иргелбейт. Телефонуңуз гарнитурага же катуу сүйлөткүчкө байланышып турса, автоматтык иргөө иштебейт. 
+Чалууларды бөгөттөө дайын-даректерди же Wi-Fi'ды колдонбойт, бирок байланыш оператору аркылуу чалуу мүнөттөрүн пайдаланат. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">30 күндөн кийин өчүрүү</string>
+    <string name="revelio_delete_old_recordings_setting_title">Эски жаздырууларды жана транскрипцияларды автоматтык түрдө өчүрүү</string>
+    <string name="revelio_demo_setting_title">Чалууларды бөгөттөө кантип иштейт</string>
     <string name="revelio_demo_turn_on">Күйгүзүү</string>
     <string name="revelio_end_call_reject_as_spam">Чалуу спам деп белгиленген</string>
     <string name="revelio_end_call_user_missed_internal_message">Чалууга жооп берилген жок</string>
+    <string name="revelio_pref_title">Чалууларды бөгөттөө</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Автоматтык иргөө өчүк</string>
+    <string name="revelio_preference_summary_screening">Иргөө: %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Жардамчыңыз жооп берген чалуулардын аудиосун сактаңыз</string>
+    <string name="revelio_save_audio_setting_title">Чалууларды бөгөттөө аудиосун сактоо</string>
+    <string name="revelio_setting_title">Чалууларды бөгөттөө</string>
     <string name="rtt_assist_default">RTT функциясы угуу жана сүйлөө жөндөмдүүлүгү бузулган, ошондой эле үн гана жетишпеген адамдарга арналат. ^1</string>
     <string name="rtt_assist_for_att">Экрандагы анык убакыттагы билдирүү (RTT) баскычтобу тышкы TTY баскычтопторуна альтернатива болуп саналат. RTT функциясында чалуу учурунда SMS терип жатсаңыз, сиз менен сүйлөшүп жаткан киши билдирүүнү терип жатканыңызды анык убакытта көрө алат. ^1</string>
     <string name="rtt_assist_for_tmo">Экрандагы анык убакыттагы билдирүү (RTT) баскычтобу тышкы телетайп баскычтопторуна альтернатива болуп саналат. RTT функциясы тергениңизди чалуу учурунда дароо жөнөтүп, анык убакытта тексттер аркылуу байланышууга мүмкүнчүлүк берет. Билдирүү толугу менен бүткөнгө чейин жарым-жартылай жоопторду көрө аласыз. ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">Артка</string>
     <string name="rtt_button_downgrade">Аудио чалууга которулуу</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Бул чалуу үчүн RTT жеткиликсиз. Чалууңуз аудио чалуу катары гана туташкан.</string>
+    <string name="rtt_call_downgraded_toast">RTT чалууңуз аудио чалууга өзгөртүлдү</string>
+    <string name="rtt_call_not_available_toast">Бул чалуу үчүн RTT функциясы жеткиликсиз</string>
     <string name="rtt_configuration_summary_always_visible">Анык убакыттагы билдирүү баскычы бардык жерде жеткиликтүү</string>
     <string name="rtt_configuration_summary_not_visible">Кирүүчү чалуу учурунда анык убакыттагы билдирүүгө уруксат, бирок чалуу баскычын жашыруу</string>
     <string name="rtt_configuration_summary_visible_during_call">Чалуу учурунда анык убакыттагы билдирүү баскычын көрсөтүү</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">Транскрипцияны көрүү</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Бул билдирүү кайталанат.</string>
+    <string name="save_audio_error_cant_load_value">Учурдагы \"Чалууларды бөгөттөө аудиосун сактоо\" функциясынын мааниси алынбай жатат</string>
+    <string name="save_audio_error_cant_set_value">\"Чалууларды бөгөттөө аудиосун сактоо\" функциясынын мааниси сакталбай жатат</string>
     <string name="save_button_text">Сактоо</string>
     <string name="saved_voicemails_action_title">Сакталган үн почталары (%1$s)</string>
     <string name="search_hint">Видео байланыштардан издөө</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">Билдирүү жөнөтүү</string>
     <string name="send_to_voicemail_import_failed">Импорттолбой калды</string>
     <string name="serial_number">Сериялык номер</string>
+    <string name="set_as_default_button_text">Демейки катары коюу</string>
     <string name="set_default_account">Бул ар дайым чалуулр үчн колдонулсн</string>
     <string name="set_default_account_description">Ар бир байланыш менен бирге SIM-карта тууралуу маалыматты сактоо.</string>
+    <string name="set_phone_as_default_explanation_text">Телефон демейки телефон колдонмоңуз болсо гана башкаларга чалып, чалууларды кабыл алат</string>
+    <string name="set_phone_as_default_request_text">Телефонду демейки катары коюу</string>
     <string name="settings">Жөндөөлөр</string>
     <string name="settings_page_call_recording_feature_not_available_text">Жаздыруу сиз турган жерде жеткиликсиз</string>
     <string name="settings_page_crosby_feature_not_available_text">Сиз турган жерде жеткиликсиз</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">Кайтаруу</string>
     <string name="snackbar_voicemail_deleted">Үн почтасы жок кылнд</string>
     <string name="sounds_and_vibration_title">Үндөр жана дирилдөө</string>
+    <string name="spam_action_preference_description">"Google'дун спам дайындар базасына дал келген номерлер"</string>
+    <string name="spam_action_preference_title">Спам</string>
     <string name="spam_and_call_screen_settings_title">Cпамдар менен чалууларды бөгөттөө</string>
     <string name="spam_blocking_promo_action_dismiss">Жабуу</string>
     <string name="spam_blocking_promo_action_filter_spam">Спамды чыпкалоо</string>
@@ -1063,10 +1141,8 @@
     <string name="spam_notification_was_not_spam_action_text">Жок, спам эмес</string>
     <string name="speak_easy_data_link">Транскрипцияны көрүү</string>
     <string name="speed_dial_add_button_text">Кошуу</string>
-    <string name="speed_dial_contacts_permission_description">Тез терүүнү иштетүү үчүн, \"Байланыштар\" уруксатын күйгүзүңүз.</string>
+    <string name="speed_dial_contacts_permission_description">Тез терүүнү иштетүү үчүн \"Байланыштар\" уруксатын күйгүзүңүз.</string>
     <string name="speed_dial_disambig_dialog_title">%s байланышына кантип чаласыз</string>
-    <string name="speed_dial_education_content">Чалуулар менен билдирүүлөрдү которуштуруу үчүн, байланышты басып кармап туруңуз</string>
-    <string name="speed_dial_education_title">Байланышуунун жаңы жолдору</string>
     <string name="speed_dial_no_contacts_action_text">Сүйүктүү номер кошуу</string>
     <string name="speed_dial_no_contacts_description">Бир гана жолу таптап, тандалма байланыштарыңызга чалыңыз</string>
     <string name="speed_dial_remember_this_choice">Эстеп калуу</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">Тейлөө шарттары</string>
     <string name="textmessage_button_label">Билдирүү</string>
     <string name="theme_preference_label">Тема тандоо</string>
+    <string name="tidepods_call_screen_settings_title">Чалууларды бөгөттөө</string>
+    <string name="tidepods_incall_label_record">Жаздыруу</string>
     <string name="toast_text_copied">Текст көчүрүлдү</string>
     <string name="toolbar_back">Артка</string>
     <string name="toolbar_close">Жабуу</string>
     <string name="transcript_audio_feedback_chip_text">Кызм-ды жакш-га жардам бериңиз</string>
+    <string name="transcript_audio_feedback_link_text">Транскрипция жана аудиону көрүү</string>
     <string name="transcript_snippet_low_confidence_description">(Аудио түшүнүксүз)</string>
+    <string name="try_again_button">Кайталоо</string>
     <string name="tty_configuration_title_tty_full">Толук функционалдуу телетайп</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">Телетайп өчүк</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">Чыгуучу видео чалуу башка түзмөккө өткөрүлдү</string>
     <string name="type_rejected">Четке кагылган чалуу</string>
     <string name="type_voicemail">Үн почтасы</string>
-    <string name="unable_change_value_error">RTT жөндөөлөрүн өзгөртүүдө көйгөй келип чыкты. Артка кайтып, кайталап көрүңүз.</string>
     <string name="unable_read_value_error">RTT жөндөөлөрүн окууда көйгөй келип чыкты. Артка кайтып, кайталап көрүңүз.</string>
     <string name="unblock_number">Бөгөттөн чыгаруу</string>
     <string name="unblock_number_alert_details">Номер бөгөттөн чыгарылып, спам эмес деп белгиленет. Кийинки чалуулар спам болбойт.</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">Бөгөттөн чыгаруу</string>
     <string name="unblock_report_number_alert_title">%1$s бөгөттөн чыгарылсынбы?</string>
     <string name="unknown">Белгисиз</string>
+    <string name="unknown_call_settings_category_preference_title">Белгисиз чалуу жөндөөлөрү</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Кирүүчү чалуунун үнүн чыгаруу</string>
     <string name="user_is_busy_description">Кайра чалам</string>
@@ -1145,7 +1225,7 @@
     <string name="verified_call_settings_title">Ырасталган чалуулар</string>
     <string name="verified_call_verification_status_prefix">Тастыкталды</string>
     <string name="verizon_terms_and_conditions_decline_dialog_message">Эгер колдонуу жоболору менен шарттары четке кагылган болсо, визуалдык үн почтасы өчүрүлөт.</string>
-    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Үн почтасын угуу үчүн *86 номерине чалыңыз. Улантуу үчүн, үн почтасына жаңы PIN-кодду коюңуз.</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message">Үн почтасын угуу үчүн *86 номерине чалыңыз. Улантуу үчүн үн почтасына жаңы PIN-кодду коюңуз.</string>
     <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin">PIN-код коюу</string>
     <string name="verizon_terms_and_conditions_message">"%1$s Визуалдык үн почтасын күйгүзүү менен, сиз Verizon Wireless'тин жоболору менен шарттарына макулдугуңузду бересиз:
 
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">Алардын видеосу күйгүзүлгөн</string>
     <string name="videocall_remotely_held">Чалуу күтүүгө коюлду.</string>
     <string name="videocall_remotely_resumed">Чалуу улантылды</string>
+    <string name="videocall_settings_default_carrier">Байланыш оператору аркылуу видео чалуу</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Демейки видео чалуу кызматы</string>
+    <string name="videocall_settings_fallback_summary">"Байланыш оператору аркылуу видео чалуу жеткиликсиз болсо, Duo'го которулуу"</string>
+    <string name="videocall_settings_fallback_title">"Камдык көчүрмөнү сактоо катары Duo'ну колдонуу"</string>
+    <string name="videocall_settings_title">Видео чалуу</string>
     <string name="videocall_show_preview_button_description">Жергиликтүү видео түрмөгүн көрсөтүү</string>
     <string name="view">Карап көрүү</string>
     <string name="view_location_settings">Жайгашкан жерди анктоо жөндлрү</string>
     <string name="vitle_label">LTE а-уу видео чалуу</string>
+    <string name="viwifi_label">WiFi аркылуу видео</string>
     <string name="vm_change_pin_error_invalid">Жаңы PIN коддо жараксыз белгилер бар.</string>
     <string name="vm_change_pin_error_mismatch">Эски PIN код дал келген жок.</string>
     <string name="vm_change_pin_error_system_error">PIN код өзгөртүлгөн жок</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">Күтө туруңуз.</string>
     <string name="voice_call">Үн чалуусу</string>
     <string name="voice_call_button">Чалуу</string>
+    <string name="voice_display_name">Үн: %1$d</string>
     <string name="voice_search_not_available">Айтып издөө жеткиликтүү эмес</string>
     <string name="voice_selector_preference_title">Жеткиликтүү үндөр</string>
+    <string name="voice_settings_available_voices_text">Жеткиликтүү үндөр</string>
+    <string name="voice_settings_title">Үн</string>
     <string name="voicecall_button_label">Чалуу</string>
     <string name="voicecall_button_wifi_description">Wifi аркылуу чалуу</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s саат %2$s</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">Транскрипциянын тактыгын жакшыртууга жардам бересизби?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">SIM картанын колдонуучулары тарабынан визуалдык үн почтасын төлөнгөн мобилдик трафиксиз пайдалануу үчүн оператор акы алышы мүмкүн</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Визуалдык үн почтасы тандалган SIM карта үчүн гана жеткиликтүү</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Бир нече SIM-карталарыңыздын арасында бирөөсү Fi үчүн болсо, Fi SIM картаңыз визуалдык үн почтасы үчүн колдонулат</string>
     <string name="voicemail_error_activating_message">Визуалдык үн почтасы толук иштетилмейинче үн почтасынын эскертмелерин ала албайсыз. Үн почтасы толугу менен иштетилгенче жаңы билдирүүлөрдү алуу үчүн үн почтасына чалыңыз.</string>
     <string name="voicemail_error_activating_title">Визуалдык үн почтасын иштетүү</string>
     <string name="voicemail_error_activation_disabled_message">Жөндөөнү бүтүрүү үчүн үн почтасына чалыңыз</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Үн почтаңыздын кутусуна туташа албай жатабыз</string>
     <string name="vvm3_error_vms_timeout_message">Кечиресиз, көйгөйгө учурадык. Бир аздан кийин дагы аракет кылып көрүңүз. Көйгөй кайталана берсе, Кардарларды колдоо кызматынын %1$s номерине чалып, ката коду 9007 деп айтыңыз.</string>
     <string name="vvm3_error_vms_timeout_title">Бир жерден ката кетти</string>
+    <string name="vvm_config_title">Визуалдык үн почтасынын конфигурациясы</string>
     <string name="vvm_unsupported_message_format">Колдоого алынбаган билдирүү, угуу үчүн %s чалыңыз.</string>
     <string name="wait_prompt_str">"Төмөнкү номер жөнөтүлсүнбү?
 "</string>

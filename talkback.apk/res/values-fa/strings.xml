@@ -105,7 +105,7 @@
     <string name="audio_focus_state">کاهش صدای پس‌زمینه %1$s</string>
     <string name="auto_detect">تطبیق با نحوه نگه داشته شدن دستگاه</string>
     <string name="auto_scan_action_description">شروع اسکن و انتخاب</string>
-    <string name="auto_scan_or_select">اسکن خودکار» یا «انتخاب کردن</string>
+    <string name="auto_scan_or_select_for_point_scan">«اسکن خودکار» یا «انتخاب»</string>
     <string name="available_devices_header">دستگاه‌های بلوتوث دردسترس</string>
     <string name="basic_navigation_link_subtext">جابه‌جا شدن بین موارد، پیمایش، استفاده از منوها، و موارد دیگر</string>
     <string name="basic_navigation_link_text">پیمایش پایه</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">هیچ دستگاه بلوتوثی مرتبط نشده است</string>
     <string name="bluetooth_not_enabled_message">برای مرتبط کردن سوئیچ، بلوتوث را روشن کنید</string>
     <string name="bluetooth_peripheral_content_description">محیطی</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">‏برای مرتبط کردن کلید بلوتوث در «دستیار راه‌اندازی»، بلوتوث را روشن کنید و به «مجموعه دسترس‌پذیری Android» اجازه دهید به «دستگاه‌های اطراف» و «اجازه‌های مکان» دسترسی داشته باشد.</string>
     <string name="bluetooth_phone_content_description">تلفن</string>
     <string name="bluetooth_switch_description_text">مرتبط‌سازی سوئیچ بی‌سیم ازطریق بلوتوث</string>
     <string name="bluetooth_switch_option_text">سوئیچ بلوتوث</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">برای کنترل کردن دستگاهتان، ابتدا باید «دسترسی کلیدی» را روشن کنید.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">باز کردن کلیدهای دوربین</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">باز کردن دسترسی کلیدی</string>
+    <string name="cam_switches_combined_preferences_title">تنظیمات «%1$s»</string>
+    <string name="cam_switches_preferences_title">تنظیمات «کلید دوربین»</string>
+    <string name="cam_switches_single_preferences_title">تنظیمات «%s»</string>
     <string name="camera_switches_status_active">کلیدهای دوربین فعال است</string>
     <string name="camera_switches_status_error">خطا</string>
     <string name="camera_switches_status_no_face">چهره‌ای شناسایی نشد</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">بازکردن در مرورگر</string>
     <string name="fallback_menu_item_share_link">هم‌رسانی پیوند</string>
     <string name="fast_radio_button_title">سریع (%1$s ثانیه تأخیر)</string>
+    <string name="fast_radio_button_title_content_description">سریع (تأخیر %1$s ثانیه‌ای)</string>
     <string name="find_finish_button_text">برای پیدا کردن دکمه پایان، تند به‌سمت راست بکشید.</string>
     <string name="finish">پایان</string>
     <string name="finish_tutorial_announcement">درحال نمایش صفحه‌کلید بریل. تلفن را بچرخانید تا صفحه‌نمایش پشت به شما قرار گیرد؛ تلفن را افقی بچرخانید تا در حالت منظره قرار بگیرد؛ سپس شروع به تایپ کنید.</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d از %2$d</string>
     <string name="lockscreen_label">صفحه قفل</string>
     <string name="medium_radio_button_title">متوسط (%1$s ثانیه تأخیر)</string>
+    <string name="medium_radio_button_title_content_description">متوسط (تأخیر %1$s ثانیه‌ای)</string>
     <string name="menu_category_reading_controls">خواندن</string>
     <string name="menu_category_special_features">ویژگی‌های ویژه</string>
     <string name="menus_selector_text">"‏این میان‌برها می‌توانند به شما کمک کنند تنظیمات را به‌سرعت تغییر دهید، مثلاً پیمایش را از نویسه به کلمه تغییر دهید یا سرعت گفتار TalkBack را تغییر دهید.
@@ -767,6 +772,7 @@
 اکنون با تند کشیدن به پایین و سپس راست، منوی TalkBack را باز کنید."</string>
     <string name="menus_title">منو و کنترل‌ها</string>
     <string name="message_in_reset_keymap_confirm_dialog">مطمئنید می‌خواهید کلیدهای میان‌بر این نقشه‌کلید را به مقادیر پیش‌فرضشان بازنشانی کنید؟ لطفاً توجه داشته باشید، این اقدام قابل واگرد نیست.</string>
+    <string name="message_request_phone_permission">‏TalkBack می‌خواهد بداند چه‌زمانی تماس تلفنی انجام می‌شود تا بتواند وقفه در اعلامیه‌ها را کاهش دهد.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"‏با این کار همه اشاره‌ها به کنش‌های پیش‌فرض بازنشانی می‌شوند.
 
 همه تغییراتی را که اعمال کرده‌اید ازدست خواهید داد."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">کاهش تأخیر اعلان پنجره</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">افزودن کلیدهای دوربین</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">پاک کردن کلیدهای فیزیکی</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">پیکربندی تنظیمات کلید: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">ویرایش کلیدهای دوربین</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">هیچ «کلید دوربینی» اختصاص نیافته است</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">اختصاص دادن «کلیدهای دوربین» به «%s»</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">توقف پیش‌نما</string>
     <string name="pref_sa_face_playground_switch_on_content_description">روشن کردن</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">برای استفاده از این قسمت آزمایشی، «کلیدهای دوربین» باید روشن باشند</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">امتحان کنید: همه انواع اشاره‌های چهره (ازجمله دهان باز، لبخند، و غیره) را پیش‌دید کنید</string>
+    <string name="pref_sa_face_playground_try_it_button_text">امتحان کنید</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">امتحان کنید: اشاره‌های چهره %1$s را پبش‌دید کنید</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">قسمت آزمایشی موقتاً متوقف شده است. از دکمه زیر برای شروع مجدد استفاده کنید.</string>
     <string name="pref_selector_summary">برای انتخاب تنظیم، %1$s. سپس برای تغییر تنظیم، %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">برای انتخاب تنظیم، %1$s یا %2$s. سپس برای تغییر تنظیم، %3$s.</string>
@@ -1069,6 +1076,7 @@
     <string name="reduce_speed_button">کاهش سرعت</string>
     <string name="remaining_calibration_finish_announcement">موقعیت همه نقطه‌ها به‌روزرسانی شد</string>
     <string name="reminder_announcement">برای گزینه‌های بیشتر، با ۳ انگشت تند به‌بالا بکشید</string>
+    <string name="remove_assigned_switch">برداشتن اختصاص دکمه برای %s</string>
     <string name="report_gesture_description">این‌ها اشاره‌هایی هستند که اخیراً اجرا شده‌اند، لطفاً گزارش دهید که کدام اشتباه است و چه کنشی انتظار می‌رود.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">بازنشانی</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">بازنشانی</string>
@@ -1149,6 +1157,7 @@
     <string name="search_mode_hint_no_selection">موردی انتخاب نشده است.</string>
     <string name="search_mode_hint_query">جستار کنونی: %1$s</string>
     <string name="search_mode_hint_selection">انتخاب کنونی: %1$s</string>
+    <string name="select_for_point_scan">«انتخاب»</string>
     <string name="select_setting_hint">برای انتخاب تنظیمی دیگر، %1$s</string>
     <string name="selecting_text_text">"‏در چارگوش نوشتاری، نشانگر را به ابتدای نوشتاری که می‌خواهید انتخاب کنید ببرید.
 
@@ -1209,6 +1218,7 @@
     <string name="shortcut_media_control">پخش یا توقف موقت رسانه</string>
     <string name="shortcut_next">مورد بعدی</string>
     <string name="shortcut_next_granularity">تنظیم پیمایش بعدی</string>
+    <string name="shortcut_next_window">پنجره بعدی</string>
     <string name="shortcut_not_customizable">%1$s، سفارشی‌سازی نمی‌شود</string>
     <string name="shortcut_notifications">اعلان‌ها</string>
     <string name="shortcut_overview">نمای کلی</string>
@@ -1221,6 +1231,7 @@
     <string name="shortcut_practice_gestures">تمرین اشاره‌ها</string>
     <string name="shortcut_previous">مورد قبلی</string>
     <string name="shortcut_previous_granularity">تنظیم پیمایش قبلی</string>
+    <string name="shortcut_previous_window">پنجره قبلی</string>
     <string name="shortcut_print_node_tree">چاپ سر شاخه</string>
     <string name="shortcut_print_performance_stats">آمار عملکرد چاپ</string>
     <string name="shortcut_quick_settings">تنظیمات فوری</string>
@@ -1260,6 +1271,7 @@
 • تکان دادن برای شروع خواندن بی‌وقفه"</string>
     <string name="six_hold_announcement">می‌توانید با صاف گذاشتن تلفن روی میز هم تایپ کنید. اکنون امتحان کنید. اگر در اطرافتان میزی وجود ندارد، با تند کشیدن به‌سمت پایین رد شوید و به مرحله بعدی بروید.</string>
     <string name="slow_radio_button_title">آهسته (%1$s ثانیه تأخیر)</string>
+    <string name="slow_radio_button_title_content_description">آهسته (تأخیر %1$s ثانیه‌ای)</string>
     <string name="sound_feedback_state">بازخورد صوتی %1$s</string>
     <string name="sound_feedback_summary">پخش صدا برای نشان دادن اینکه چیزی تغییر کرده است (برای مثال تغییر محتوای روی صفحه)</string>
     <string name="speak_container_element_position_summary_off">اطلاعات فهرست و جدول خوانده نشود</string>
@@ -1333,17 +1345,17 @@
     <string name="summary_pref_face_switches_debounce_time">اگر در این بازه زمانی «کلید دوربین» چندین بار فعال شود، به‌عنوان یک بار فعال‌سازی درنظر گرفته می‌شود.</string>
     <string name="summary_pref_face_switches_enabled">‏«کلیدهای دوربین» بااستفاده از دوربین جلو متوجه می‌شود که به صفحه‌نمایش نگاه می‌کنید یا نه و اشاره با چهره را تشخیص می‌دهد. تصاویر ذخیره نمی‌شوند و به Google ارسال نمی‌شوند.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">وقتی چیزی در صفحه در پاسخ به اشاره تغییر می‌کند، صدایی پخش می‌شود</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">نشانه‌ای دیداری از مدت زمانی که اشاره‌ای را نگه داشته‌اید</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">وقتی «کلیدهای دوربین» فعال باشد، صفحه‌نمایش روشن نگه داشته می‌شود. اگر صفحه‌نمایش خاموش شود، «کلیدهای دوربین» نمی‌تواند قفل آن را باز کند.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">چهره‌ای شناسایی نشد</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">اشاره‌ای با چهره انجام دهید. اگر ثبت شده باشد، نام اشاره نشان داده می‌شود. برای خروج، یکی از اشاره‌ها را برای %1$d ثانیه نگه دارید.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">سرتان را ثابت و روبه دوربین نگه دارید. سپس %s.</string>
     <string name="summary_pref_play_store">‏نسخه کنونی TalkBack‏: %1$s</string>
-    <string name="summary_pref_point_scan">از خطوط متحرک برای انتخاب یک مکان افقی یا عمودی مشخص استفاده کنید. برای شروع «اسکن نقطه‌ای»، کلید «%1$s» را فشار دهید. %2$s</string>
+    <string name="summary_pref_point_scan">از خطوط متحرک برای انتخاب یک مکان افقی یا عمودی مشخص استفاده کنید. برای شروع «اسکن نقطه‌ای»، کلید %1$s را فشار دهید. %2$s</string>
     <string name="summary_pref_reverse_dots">موقعیت نقاط جابه‌جا می‌شود تا مثلاً جای نقاط ۱ و ۴ با هم عوض شود</string>
     <string name="summary_pref_revert_to_default_menu">منوی «دسترسی کلیدی» به فهرست پیش‌فرض گزینه‌های منو را بازنشانی کنید.</string>
-    <string name="summary_pref_single_tap">(آزمایشی) برای فعال کردن، روی مورد متمرکزشده یک‌بار ضربه بزنید</string>
+    <string name="summary_pref_single_tap">برای فعال کردن، روی مورد متمرکزشده یک‌بار ضربه بزنید</string>
     <string name="summary_pref_tree_debug_tv">استفاده از کلید جستجوی گفتاری برای چاپ کردن سرشاخه به‌جای جستجو کردن</string>
     <string name="summary_pref_use_audio_focus">کم کردن صداهای دیگر هنگام صحبت کردن</string>
     <string name="summary_read_from_current">خواندن همه موارد موجود در صفحه از مورد بعدی</string>
@@ -1440,10 +1452,10 @@
     <string name="switched_to_contracted_announcement">صفحه‌کلید به بریل اختصاری تغییر کرد</string>
     <string name="switched_to_ueb_uncontracted_announcement">‏به حالت «بریل انگلیسی یکپارچه» (UEB) غیراختصاری رفتید</string>
     <string name="switched_to_uncontracted_announcement">صفحه‌کلید به بریل غیراختصاری تغییر کرد</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">تقریباً مساوی با</string>
     <string name="symbol_ampersand">امپرساند</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">علامت کوچک‌تر</string>
+    <string name="symbol_angle_bracket_right">علامت بزرگ‌تر</string>
     <string name="symbol_apostrophe">اپاستروف</string>
     <string name="symbol_approximately_equals">تقریباً مساوی</string>
     <string name="symbol_asterisk">ستاره</string>
@@ -1463,7 +1475,7 @@
     <string name="symbol_bullseye">نقطه هدف مرکزی</string>
     <string name="symbol_caret">هشتک</string>
     <string name="symbol_celsius_degree">درجه سانتی‌گراد</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">علامت سنت</string>
     <string name="symbol_circle_left_half_black">دایره‌ای با نیمه چپ مشکی</string>
     <string name="symbol_circle_right_half_black">دایره‌ای با نیمه راست مشکی</string>
     <string name="symbol_colon">دو نقطه</string>
@@ -1472,7 +1484,7 @@
     <string name="symbol_curly_bracket_left">آکولاد چپ</string>
     <string name="symbol_curly_bracket_right">آکولاد راست</string>
     <string name="symbol_currency_sign">علامت ارز</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">علامت درجه</string>
     <string name="symbol_division">علامت تقسیم</string>
     <string name="symbol_dollar_sign">علامت دلار</string>
     <string name="symbol_downwards_arrow">پیکان رو به پایین</string>
@@ -1524,7 +1536,7 @@
     <string name="symbol_middle_dot">نقطه وسط</string>
     <string name="symbol_multiplication">علامت ضرب</string>
     <string name="symbol_new_line">خط جدید</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">نابرابر با</string>
     <string name="symbol_not_sign">علامت نفی</string>
     <string name="symbol_paragraph_mark">علامت پاراگراف</string>
     <string name="symbol_parenthesis_left">پرانتز چپ</string>
@@ -1535,7 +1547,7 @@
     <string name="symbol_plus_minus_sign">علامت بعلاوه منها</string>
     <string name="symbol_postal_mark">علامت پستی</string>
     <string name="symbol_pound">پوند</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">علامت واحد پول پوند</string>
     <string name="symbol_quarter_note">نت یک چهارم</string>
     <string name="symbol_question_mark">علامت سؤال</string>
     <string name="symbol_quotation_mark">نقل قول</string>
@@ -1561,7 +1573,7 @@
     <string name="symbol_trademark">علامت تجاری</string>
     <string name="symbol_underscore">زیرخط</string>
     <string name="symbol_upwards_arrow">پیکان رو به بالا</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">خط عمودی</string>
     <string name="symbol_white_circle">دایره سفید</string>
     <string name="symbol_white_club_suit">گشنیز سفید</string>
     <string name="symbol_white_diamond">خشت سفید</string>
@@ -1575,8 +1587,8 @@
     <string name="symbol_white_square">مربع سفید</string>
     <string name="symbol_white_star">ستاره سفید</string>
     <string name="symbol_white_up_pointing_triangle">مثلث سفید نشانگر بالا</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">علامت واحد پول وون</string>
+    <string name="symbol_won_sign">علامت واحد پول وون</string>
     <string name="symbol_yen">ین</string>
     <string name="system_actions">کنش‌های سیستم</string>
     <string name="tabletop">حالت افقی روبه‌صورت</string>
@@ -1936,6 +1948,7 @@
     <string name="title_previous_screen">صفحه قبل</string>
     <string name="title_read_from_top">خواندن از بالا</string>
     <string name="title_repeat_last_spoken_phrase">تکرار کردن آخرین عبارت گفته‌شده</string>
+    <string name="title_request_phone_permission">‏TalkBack اجازه می‌خواهد</string>
     <string name="title_screen_summary">خلاصه صفحه</string>
     <string name="title_seek_bar_controls">لغزنده</string>
     <string name="title_seek_bar_edit">ویرایش سطح لغزنده</string>

@@ -85,7 +85,7 @@
     <string name="all_set_text">"您可以使用 TalkBack 了。
 
 现在，您可以继续了解其他主题，也可以随时在 TalkBack 设置中复习本教程。"</string>
-    <string name="all_set_title">设置完毕！</string>
+    <string name="all_set_title">大功告成！</string>
     <string name="always_show_this_message_label">始终显示此消息</string>
     <string name="application_name">Android 无障碍套件</string>
     <string name="arc_android_window">应用窗口</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">降低其他应用音量功能%1$s</string>
     <string name="auto_detect">适应您拿握设备的方式</string>
     <string name="auto_scan_action_description">开始扫描并选择</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">“自动扫描”或“选择”</string>
     <string name="available_devices_header">可配对的蓝牙设备</string>
     <string name="basic_navigation_link_subtext">在各项内容之间移动、滚动、使用菜单等</string>
     <string name="basic_navigation_link_text">基本导航</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">目前未与任何蓝牙设备配对</string>
     <string name="bluetooth_not_enabled_message">要与蓝牙开关配对，请开启蓝牙</string>
     <string name="bluetooth_peripheral_content_description">外围设备</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">如需在设置向导中配对蓝牙开关，请开启蓝牙并向 Android 无障碍套件授予“附近的设备”和“位置”权限。</string>
     <string name="bluetooth_phone_content_description">手机</string>
     <string name="bluetooth_switch_description_text">通过蓝牙以无线方式配对开关</string>
     <string name="bluetooth_switch_option_text">蓝牙开关</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">如要控制您的设备，您首先需要开启“开关控制”。</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">打开“相机开关”</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">打开“开关控制”</string>
+    <string name="cam_switches_combined_preferences_title">“%1$s”设置</string>
+    <string name="cam_switches_preferences_title">相机开关设置</string>
+    <string name="cam_switches_single_preferences_title">“%s”设置</string>
     <string name="camera_switches_status_active">相机镜头切换开关处于启用状态</string>
     <string name="camera_switches_status_error">出错了</string>
     <string name="camera_switches_status_no_face">未检测到人脸</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">在浏览器中打开</string>
     <string name="fallback_menu_item_share_link">分享链接</string>
     <string name="fast_radio_button_title">快速（延迟 %1$s 秒）</string>
+    <string name="fast_radio_button_title_content_description">快（延迟 %1$s 秒）</string>
     <string name="find_finish_button_text">向右滑动可找到“完成”按钮。</string>
     <string name="finish">完成</string>
     <string name="finish_tutorial_announcement">目前显示的是盲文键盘。请翻转手机，让屏幕背对着您。将手机旋转至水平方向，使其处于横屏模式。然后开始输入。</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">第 %1$d 个，共 %2$d 个</string>
     <string name="lockscreen_label">锁定屏幕</string>
     <string name="medium_radio_button_title">中等（延迟 %1$s 秒）</string>
+    <string name="medium_radio_button_title_content_description">中（延迟 %1$s 秒）</string>
     <string name="menu_category_reading_controls">朗读</string>
     <string name="menu_category_special_features">特殊功能</string>
     <string name="menus_selector_text">"这些快捷方式有助于您快速更改设置，例如从按字符导航切换为按字词导航，或更改 TalkBack 的语速。
@@ -767,6 +772,7 @@
 现在，请先向下再向右滑动，打开 TalkBack 菜单。"</string>
     <string name="menus_title">菜单和控件</string>
     <string name="message_in_reset_keymap_confirm_dialog">确定要将此按键映射对应的快捷键重置为默认值吗？请注意，此操作无法撤消。</string>
+    <string name="message_request_phone_permission">TalkBack 希望知道您是否在进行通话，以便可以在您通话期间停止朗读内容，从而减少干扰。</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"这样做会将所有手势重置为其默认操作。
 
 您做过的所有更改都将失效。"</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">缩短窗口通知延迟时间</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">添加相机开关</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">清除物理开关</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">为开关配置设置：%s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">修改相机开关</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">未指定任何相机开关</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">为“%s”操作指定相机开关</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">停止预览</string>
     <string name="pref_sa_face_playground_switch_on_content_description">开启</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">必须开启“相机开关”，才能使用此测试区域</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">试试看：预览所有面部动作类型，包括张嘴、微笑等</string>
+    <string name="pref_sa_face_playground_try_it_button_text">试试看</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">试试看：预览%1$s面部动作</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">测试区域已暂停。使用下方按钮即可重新启动此区域。</string>
     <string name="pref_selector_summary">%1$s即可选择某项设置。然后%2$s即可调整该设置。</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s或%2$s即可选择某项设置。然后%3$s即可调整该设置。</string>
@@ -1037,8 +1044,8 @@
     <string name="pref_verbosity_preset_title">选择预设值</string>
     <string name="pref_verbosity_title">详细程度</string>
     <string name="preference_copied">已将“%1$s”复制到剪贴板。</string>
-    <string name="preference_off">关闭</string>
-    <string name="preference_on">开启</string>
+    <string name="preference_off">已关闭</string>
+    <string name="preference_on">已开启</string>
     <string name="preferences_license_summary">开放源代码软件的许可详情</string>
     <string name="preferences_license_title">开放源代码许可</string>
     <string name="previous_arrow_content_description">上一个</string>
@@ -1069,6 +1076,7 @@
     <string name="reduce_speed_button">降低速度</string>
     <string name="remaining_calibration_finish_announcement">已更新所有点的位置</string>
     <string name="reminder_announcement">如需了解更多选项，请用三根手指向上滑动</string>
+    <string name="remove_assigned_switch">移除为“%s”指定的开关</string>
     <string name="report_gesture_description">这些是您最近做过的手势，请报告出错的手势以及该手势应执行的操作。</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">重置</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">重置</string>
@@ -1149,6 +1157,7 @@
     <string name="search_mode_hint_no_selection">未选中任何项目。</string>
     <string name="search_mode_hint_query">当前的搜索查询：%1$s。</string>
     <string name="search_mode_hint_selection">当前选择的内容：%1$s。</string>
+    <string name="select_for_point_scan">“选择”</string>
     <string name="select_setting_hint">%1$s即可选择其他设置</string>
     <string name="selecting_text_text">"在文本框中，将光标移至您想选择的文字的开头。
 
@@ -1209,6 +1218,7 @@
     <string name="shortcut_media_control">播放或暂停播放媒体</string>
     <string name="shortcut_next">下一项</string>
     <string name="shortcut_next_granularity">下一个导航设置</string>
+    <string name="shortcut_next_window">下一个窗口</string>
     <string name="shortcut_not_customizable">%1$s，无法自定义</string>
     <string name="shortcut_notifications">通知</string>
     <string name="shortcut_overview">概览</string>
@@ -1221,6 +1231,7 @@
     <string name="shortcut_practice_gestures">练习手势</string>
     <string name="shortcut_previous">上一项</string>
     <string name="shortcut_previous_granularity">上一个导航设置</string>
+    <string name="shortcut_previous_window">上一个窗口</string>
     <string name="shortcut_print_node_tree">打印节点树</string>
     <string name="shortcut_print_performance_stats">打印性能统计信息</string>
     <string name="shortcut_quick_settings">快捷设置</string>
@@ -1260,6 +1271,7 @@
 • 摇晃设备启动持续朗读功能"</string>
     <string name="six_hold_announcement">此外，您也可以将手机平放在桌子上来进行输入。立即体验。如果您附近没有桌子，可向下滑动，跳过这一步。</string>
     <string name="slow_radio_button_title">缓慢（延迟 %1$s 秒）</string>
+    <string name="slow_radio_button_title_content_description">慢（延迟 %1$s 秒）</string>
     <string name="sound_feedback_state">声音反馈%1$s</string>
     <string name="sound_feedback_summary">发出声音以表示某些内容有所更改（例如，屏幕上的内容发生了更改）</string>
     <string name="speak_container_element_position_summary_off">系统不会读出列表和网格信息</string>
@@ -1333,17 +1345,17 @@
     <string name="summary_pref_face_switches_debounce_time">在这段时间内的多次相机开关触发动作将被视为一次。</string>
     <string name="summary_pref_face_switches_enabled">相机开关使用前置摄像头来判断您是否在看屏幕，以及识别面部动作。 系统不会存储相关图像，也不会将其发送给 Google。</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">在屏幕上的内容因响应某个动作而变化时播放音效</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">以直观形式显示您保持某个姿势的时间长度</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">在启用相机开关后让屏幕保持开启状态。屏幕关闭时，相机开关无法解锁屏幕。</string>
     <string name="summary_pref_face_switches_no_face_detected_message">未检测到人脸</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">！</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">做出任意面部动作。如果已注册，系统就会显示相应动作的名称。如要退出，请保持任意动作 %1$d 秒。</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">让头部保持不动，并面对相机。然后%s。</string>
     <string name="summary_pref_play_store">当前的 TalkBack 版本：%1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">通过正在移动的线条选择特定的水平和垂直位置。 按%1$s开关即可启动点扫描。 %2$s</string>
     <string name="summary_pref_reverse_dots">互换点的位置，比如将 1 点和 4 点互换位置</string>
     <string name="summary_pref_revert_to_default_menu">将“开关控制”菜单重置为默认菜单项列表。</string>
-    <string name="summary_pref_single_tap">（实验性功能）点按一下聚焦的项目即可将其激活</string>
+    <string name="summary_pref_single_tap">点按一次聚焦的项目即可将其启用</string>
     <string name="summary_pref_tree_debug_tv">将语音搜索键用于打印节点树（而非用于搜索）</string>
     <string name="summary_pref_use_audio_focus">朗读时降低其他应用的音量</string>
     <string name="summary_read_from_current">从下一项开始，朗读屏幕上的所有项</string>
@@ -1356,8 +1368,8 @@
     <string name="summary_special_content">在网页上的特殊内容（例如表格）之间跳转</string>
     <string name="summary_speech_rate">调整 TalkBack 的语速</string>
     <string name="summary_spell_last_spoken_phrase">拼写 TalkBack 最后朗读的词组</string>
-    <string name="summary_status_label_pref_category_face_switches_feature_off_main">关闭</string>
-    <string name="summary_status_label_pref_category_face_switches_feature_on_main">开启</string>
+    <string name="summary_status_label_pref_category_face_switches_feature_off_main">已关闭</string>
+    <string name="summary_status_label_pref_category_face_switches_feature_on_main">已开启</string>
     <string name="summary_support_change_a11y_volume">调高或调低无障碍功能音量</string>
     <string name="summary_support_scroll_seq">向前或向后滚动</string>
     <string name="summary_system_actions">依次转到“所有应用”和“快捷设置”部分</string>
@@ -1479,10 +1491,10 @@
     <string name="switched_to_contracted_announcement">盲文键盘已切换至简写模式</string>
     <string name="switched_to_ueb_uncontracted_announcement">键盘已切换至通用英语盲文 (UEB) 非简写模式</string>
     <string name="switched_to_uncontracted_announcement">盲文键盘已切换至非简写模式</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">约等于</string>
     <string name="symbol_ampersand">和符号</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">小于号</string>
+    <string name="symbol_angle_bracket_right">大于号</string>
     <string name="symbol_apostrophe">单引号</string>
     <string name="symbol_approximately_equals">约等号</string>
     <string name="symbol_asterisk">星号</string>
@@ -1502,7 +1514,7 @@
     <string name="symbol_bullseye">靶心符号</string>
     <string name="symbol_caret">脱字符号</string>
     <string name="symbol_celsius_degree">摄氏度符号</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">分币符号</string>
     <string name="symbol_circle_left_half_black">左半边实心的圆圈</string>
     <string name="symbol_circle_right_half_black">右半边实心的圆圈</string>
     <string name="symbol_colon">冒号</string>
@@ -1511,7 +1523,7 @@
     <string name="symbol_curly_bracket_left">左花括号</string>
     <string name="symbol_curly_bracket_right">右花括号</string>
     <string name="symbol_currency_sign">货币符号</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">度符号</string>
     <string name="symbol_division">除号</string>
     <string name="symbol_dollar_sign">美元符号</string>
     <string name="symbol_downwards_arrow">向下箭头</string>
@@ -1563,7 +1575,7 @@
     <string name="symbol_middle_dot">间隔号</string>
     <string name="symbol_multiplication">乘号</string>
     <string name="symbol_new_line">换行符号</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">不等于</string>
     <string name="symbol_not_sign">非符号</string>
     <string name="symbol_paragraph_mark">段落符号</string>
     <string name="symbol_parenthesis_left">左括号</string>
@@ -1574,7 +1586,7 @@
     <string name="symbol_plus_minus_sign">正负号</string>
     <string name="symbol_postal_mark">邮政符号</string>
     <string name="symbol_pound">井号</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">英镑货币符号</string>
     <string name="symbol_quarter_note">四分音符</string>
     <string name="symbol_question_mark">问号</string>
     <string name="symbol_quotation_mark">引号</string>
@@ -1600,7 +1612,7 @@
     <string name="symbol_trademark">商标符号</string>
     <string name="symbol_underscore">下划线</string>
     <string name="symbol_upwards_arrow">向上箭头</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">竖线</string>
     <string name="symbol_white_circle">空心圆圈</string>
     <string name="symbol_white_club_suit">空心梅花</string>
     <string name="symbol_white_diamond">空心方块</string>
@@ -1614,8 +1626,8 @@
     <string name="symbol_white_square">空心方形</string>
     <string name="symbol_white_star">空心星形</string>
     <string name="symbol_white_up_pointing_triangle">空心正三角</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">韩元货币符号</string>
+    <string name="symbol_won_sign">韩元货币符号</string>
     <string name="symbol_yen">日元符号</string>
     <string name="system_actions">系统操作</string>
     <string name="tabletop">桌面模式</string>
@@ -1783,7 +1795,7 @@
     <string name="title_pref_category_assign_switches">指定开关</string>
     <string name="title_pref_category_audio">音频</string>
     <string name="title_pref_category_auto_scan">自动扫描</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">自动扫描（点扫描）</string>
     <string name="title_pref_category_border_color">颜色</string>
     <string name="title_pref_category_built_in_gestures">内置手势</string>
     <string name="title_pref_category_context_menu">自定义 TalkBack 菜单</string>
@@ -1867,7 +1879,7 @@
     <string name="title_pref_red">红色</string>
     <string name="title_pref_resume_talkback">从暂停状态恢复启用</string>
     <string name="title_pref_reverse_auto_scan_disabled">反向自动扫描（已停用）</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">反向自动扫描（点扫描）</string>
     <string name="title_pref_reverse_dots">互换点的位置</string>
     <string name="title_pref_revert_to_default_menu">还原为默认菜单</string>
     <string name="title_pref_scan_non_actionable_items">读出说明性文字</string>
@@ -1930,7 +1942,7 @@
     <string name="title_pref_show_context_menu_as_list">以列表形式显示上下文菜单</string>
     <string name="title_pref_show_privacy_policy">隐私权政策</string>
     <string name="title_pref_show_tos">服务条款</string>
-    <string name="title_pref_single_tap">点按一次即激活</string>
+    <string name="title_pref_single_tap">点按一次即可启用</string>
     <string name="title_pref_sound_and_vibration">提示音和振动</string>
     <string name="title_pref_soundback">声音反馈</string>
     <string name="title_pref_soundback_volume">声音反馈音量</string>
@@ -1975,6 +1987,7 @@
     <string name="title_previous_screen">上一个屏幕</string>
     <string name="title_read_from_top">从顶部开始朗读</string>
     <string name="title_repeat_last_spoken_phrase">重复最后说出的词组</string>
+    <string name="title_request_phone_permission">TalkBack 请求获取权限</string>
     <string name="title_screen_summary">屏幕汇总</string>
     <string name="title_seek_bar_controls">滑块</string>
     <string name="title_seek_bar_edit">调节滑块位置</string>
@@ -2110,8 +2123,8 @@
     <string name="value_notification_shade_opened">系统栏已打开</string>
     <string name="value_num_lock_off">数字锁定模式已关闭。</string>
     <string name="value_num_lock_on">数字锁定模式已开启。</string>
-    <string name="value_off">关闭</string>
-    <string name="value_on">开启</string>
+    <string name="value_off">已关闭</string>
+    <string name="value_on">已开启</string>
     <string name="value_options_menu_open">选项。</string>
     <string name="value_pager">多页面视图</string>
     <string name="value_pager_page">页面</string>

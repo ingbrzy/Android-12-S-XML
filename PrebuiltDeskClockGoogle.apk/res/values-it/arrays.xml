@@ -17,14 +17,21 @@
         <item>15 minuti</item>
         <item>20 minuti</item>
         <item>25 minuti</item>
-        <item>Mai</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minuti prima del riposo</item>
+        <item>30 minuti prima del riposo</item>
+        <item>45 minuti prima del riposo</item>
+        <item>1 ora prima del riposo</item>
+        <item>Off</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogico</item>
         <item>Digitale</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Mai</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 secondi</item>
         <item>10 secondi</item>
         <item>15 secondi</item>
@@ -37,6 +44,35 @@
         <item>50 secondi</item>
         <item>55 secondi</item>
         <item>60 secondi</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Interrompi dopo 10 minuti</item>
+        <item>Interrompi dopo 20 minuti</item>
+        <item>Interrompi dopo 30 minuti</item>
+        <item>Interrompi dopo 40 minuti</item>
+        <item>Interrompi dopo 50 minuti</item>
+        <item>Interrompi dopo 1 ora</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Interrompi dopo 10 min</item>
+        <item>Interrompi dopo 20 min</item>
+        <item>Interrompi dopo 30 min</item>
+        <item>Interrompi dopo 40 min</item>
+        <item>Interrompi dopo 50 min</item>
+        <item>Interrompi dopo 1 ora</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>40 minuti</item>
+        <item>50 minuti</item>
+        <item>1 ora</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuto</item>
@@ -69,18 +105,6 @@
         <item>28 minuti</item>
         <item>29 minuti</item>
         <item>30 minuti</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Sei davvero un fulmine.</item>
-        <item>Goditi i frutti del tuo lavoro.</item>
-        <item>Si sa che gli androidi sono veloci, ma non quanto te.</item>
-        <item>Fiuuu!</item>
-        <item>L33t volte.</item>
-        <item>Che velocità portentosa.</item>
-        <item>Velocità di curvatura 5.</item>
-        <item>Veloce come un fulmine.</item>
-        <item>Più veloce della luce.</item>
-        <item>Velocità fotonica.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Isole Marshall</item>

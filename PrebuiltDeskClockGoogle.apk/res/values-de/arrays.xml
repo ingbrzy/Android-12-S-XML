@@ -17,14 +17,21 @@
         <item>15 Minuten</item>
         <item>20 Minuten</item>
         <item>25 Minuten</item>
-        <item>Nie</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 Minuten vor der Schlafenszeit</item>
+        <item>30 Minuten vor der Schlafenszeit</item>
+        <item>45 Minuten vor der Schlafenszeit</item>
+        <item>1 Stunde vor der Schlafenszeit</item>
+        <item>Aus</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Digital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nie</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 Sekunden</item>
         <item>10 Sekunden</item>
         <item>15 Sekunden</item>
@@ -37,6 +44,35 @@
         <item>50 Sekunden</item>
         <item>55 Sekunden</item>
         <item>60 Sekunden</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Nach 10 Minuten beenden</item>
+        <item>Nach 20 Minuten beenden</item>
+        <item>Nach 30 Minuten beenden</item>
+        <item>Nach 40 Minuten beenden</item>
+        <item>Nach 50 Minuten beenden</item>
+        <item>Beenden nach 1 Stunde</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Beenden nach 10 Min.</item>
+        <item>Beenden nach 20 Min.</item>
+        <item>Beenden nach 30 Min.</item>
+        <item>Beenden nach 40 Min.</item>
+        <item>Beenden nach 50 Min.</item>
+        <item>Beenden nach 1 Stunde</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 Minuten</item>
+        <item>20 Minuten</item>
+        <item>30 Minuten</item>
+        <item>40 Minuten</item>
+        <item>50 Minuten</item>
+        <item>1 Stunde</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 Minute</item>
@@ -69,18 +105,6 @@
         <item>28 Minuten</item>
         <item>29 Minuten</item>
         <item>30 Minuten</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Du bist teuflisch schnell.</item>
-        <item>Ernte die Früchte deiner Arbeit!</item>
-        <item>Du bist ja schneller als ein Roboter!</item>
-        <item>Puh!</item>
-        <item>L33t-Zeiten</item>
-        <item>Wahnsinnsgeschwindigkeit</item>
-        <item>"Let's do the time warp again!"</item>
-        <item>Just a jump to the left.</item>
-        <item>Du hast es ganz schön eilig.</item>
-        <item>Photonengeschwindigkeit</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshallinseln</item>

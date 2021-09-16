@@ -548,7 +548,7 @@
     <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP версиясын тандоо</string>
     <string name="bluetooth_select_map_version_string">Bluetooth MAP версиясы</string>
     <string name="bluetooth_show_devices_without_names">Аталышсыз Bluetooth түзмөктөрү көрүнсүн</string>
-    <string name="bluetooth_show_devices_without_names_summary">Аталышсыз Bluetooth түзмөктөрү (MAC даректери менен гана) көрсөтүлөт</string>
+    <string name="bluetooth_show_devices_without_names_summary">Аталышсыз Bluetooth түзмөктөрү (MAC даректери менен гана) көрүнөт</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
     <string name="bluetooth_talkback_computer">Компьютер</string>
     <string name="bluetooth_talkback_headphone">Кулакчын</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Бул өзгөрүү күчүнө кириши үчүн, түзмөктү өчүрүп күйгүзүңүз. Азыр же кийинчерээк өчүрүп күйгүзсөңүз болот.</string>
     <string name="camera_hint">Сүрөтчөнү сүрүп камерага өтүңүз</string>
     <string name="camera_label">камераны ачуу</string>
+    <string name="camera_recording_announcement">Камера жаздырууда</string>
+    <string name="camera_stopped_recording_announcement">Камера жаздырууну токтотту</string>
     <string name="cancel">Жокко чыгаруу</string>
     <string name="carrier_network_change_mode">Байланыш оператору өзгөртүлүүдө</string>
     <string name="category_personal">Жеке</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Мониторинг</string>
     <string name="debug_networking_category">Тармактар</string>
     <string name="debug_view_attributes">Аттрибуттарды текшерүүнү иштетүү</string>
+    <string name="defender_notify_des">Батареяны көбүрөөк убакытка жеткирүү үчүн телефонуңуз кубаттоону чектеп жатат</string>
+    <string name="defender_notify_learn_more">Кененирээк</string>
+    <string name="defender_notify_resume_charge">Кубаттоону улантуу</string>
+    <string name="defender_notify_title">Кубаттоо убактылуу чектелген</string>
     <string name="delete_blob_confirmation_text">Бул бөлүшүлгөн маалыматты чын эле жок кыласызбы?</string>
     <string name="delete_blob_text">Бөлүшүлгөн маалыматты жок кылуу</string>
     <string name="demo_mode">Тутум интерфейсинин демо режими</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM-карта бөгөттөн чыгарылууда…</string>
     <string name="keyguard_try_fingerprint">Манжаңыздын изи менен ачыңыз</string>
     <string name="keyguard_unlock">Ачуу үчүн өйдө сүрүңүз</string>
+    <string name="keyguard_unlock_press">Ачуу үчүн басыңыз</string>
     <string name="keywords_adb_wireless">adb, мүчүлүштүктөрдү оңдоо, иштеп чыгуу</string>
     <string name="keywords_alarms_and_reminders">график, ойготкуч, эстеткич, саат</string>
     <string name="kg_enter_confirm_pin_hint">Сиз каалаган PIN-кодду ырастаңыз</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Баскычтоп которуштургуч</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофон күйүк</string>
+    <string name="mic_and_camera_recording_announcement">Камера менен микрофон жаздырууда</string>
+    <string name="mic_camera_stopped_recording_announcement">Камера менен микрофон жаздырууну токтотту</string>
+    <string name="mic_recording_announcement">Микрофон жаздырууда</string>
+    <string name="mic_stopped_recording_announcement">Микрофон жаздырууну токтотту</string>
     <string name="missed_call">Жооп берилбеген чалуу</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобилдик Интернет</string>
@@ -1399,7 +1410,7 @@
     <string name="notification_channel_hints">Кеңештер</string>
     <string name="notification_channel_minimized">Бул билдирмелер кичирейтилет</string>
     <string name="notification_channel_screenshot">Скриншоттор</string>
-    <string name="notification_channel_silenced">Бул билдирмелер үнсүз көрсөтүлөт</string>
+    <string name="notification_channel_silenced">Бул билдирмелер үнсүз көрүнөт</string>
     <string name="notification_channel_storage">Сактагыч</string>
     <string name="notification_channel_summary_automatic">Билдирменин үнүн чыгартууну же басууну тутумга тапшырыңыз</string>
     <string name="notification_channel_summary_automatic_alerted">&lt;b>Абалы:&lt;/b> Демейкиге өзгөрдү</string>
@@ -1417,8 +1428,8 @@
     <string name="notification_channel_switch_accessibility">Бул каналдан келген эскертмелерге уруксат берүү</string>
     <string name="notification_channel_tv_pip">Сүрөттөгү сүрөт</string>
     <string name="notification_channel_unsilenced">Бул билдирмелер тууралуу кабарлап турабыз</string>
-    <string name="notification_content_gesture_nav_available">Тутум чабыттоосун жаңыртуу үчүн Жөндөөлөргө өтүңүз</string>
-    <string name="notification_content_system_nav_changed">Тутум чабыттоосу жаңырды. Өзгөртүү үчүн, Жөндөөлөргө өтүңүз.</string>
+    <string name="notification_content_gesture_nav_available">Тутум чабыттоосун жаңыртуу үчүн жөндөөлөргө өтүңүз</string>
+    <string name="notification_content_system_nav_changed">Тутум чабыттоосу жаңырды. Өзгөртүү үчүн, жөндөөлөргө өтүңүз.</string>
     <string name="notification_conversation_bubble">Калкып чыкма билдирмени көрсөтүү</string>
     <string name="notification_conversation_channel_settings">Жөндөөлөр</string>
     <string name="notification_conversation_favorite">Маанилүү сүйлөшүү</string>
@@ -1454,7 +1465,7 @@
     <string name="oem_unlock_enable">OEM бөгөттөн чыгаруу</string>
     <string name="oem_unlock_enable_summary">Кайра жүктөгүчтү бөгөттөн чыгарууга уруксат берүү</string>
     <string name="okay">Макул</string>
-    <string name="one_handed_tutorial_description">Чыгуу үчүн экранды ылдый жагынан өйдө көздөй сүрүңүз же колдонмонун өйдө жагын басыңыз</string>
+    <string name="one_handed_tutorial_description">Чыгуу үчүн экранды ылдый жагынан өйдө сүрүңүз же колдонмонун өйдө жагын басыңыз</string>
     <string name="one_handed_tutorial_title">Бир кол режимин колдонуу</string>
     <string name="one_week_timestamp">1 апта мурун</string>
     <string name="ongoing_phone_call_content_description">Учурдагы телефон чалуу</string>
@@ -1523,8 +1534,8 @@
     <string name="power_notification_controls_description">"Бул функциянын жардамы менен, ар бир колдонмо үчүн билдирменин маанилүүлүгүн 0дон 5ке чейин бааласаңыз болот. 
 
 "<b>5-деңгээл</b>" 
-- Билдирмелер тизмесинин өйдө жагында көрсөтүлөт 
-- Билдирмелер толук экранда көрсөтүлөт 
+- Билдирмелер тизмесинин өйдө жагында көрүнөт 
+- Билдирмелер толук экранда көрүнөт 
 - Калкып чыгуучу билдирмелерге уруксат берилет 
 
 "<b>4-деңгээл</b>" 
@@ -1545,7 +1556,7 @@
 - Калкып чыгуучу билдирмелерге тыюу салынат 
 - Эч качан үн чыкпайт же дирилдебейт 
 - Кулпуланган экрандан жана абал тилкесинен жашырылат 
-- Билдирмелер тизмесинин ылдый жагында көрсөтүлөт 
+- Билдирмелер тизмесинин ылдый жагында көрүнөт 
 
 "<b>0-деңгээл</b>" 
 - Колдонмодон алынган бардык билдирмелер бөгөттөлөт"</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Жумуш колдонмолору</string>
     <string name="quick_step_accessibility_toggle_overview">Назар режимин өчүрүү/күйгүзүү</string>
     <string name="recent_conversations">Акыркы сүйлөшүүлөр</string>
-    <string name="recents_quick_scrub_onboarding">Колдонмолорду тез которуштуруу үчүн, оңго сүйрөңүз</string>
-    <string name="recents_swipe_up_onboarding">Башка колдонмого которулуу үчүн өйдө сүрүңүз</string>
     <string name="remaining_length_format">%1$s калды</string>
     <string name="remote_input_image_insertion_text">сүрөт жөнөттү</string>
     <string name="remove_from_settings">Жөндөөлөрдөн алып салуу</string>
@@ -2117,6 +2126,7 @@ USB портун кайра колдонуу мүмкүн болгондо, би
     <string name="wallet_secondary_label_no_card">Картаны кошуу</string>
     <string name="wallet_secondary_label_updating">Жаңыртылууда</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Байланыш түйүнүнө өтө көп түзмөк туташып турат</string>
     <string name="wifi_cant_connect">Туташпай жатат</string>
     <string name="wifi_cant_connect_to_ap">\"%1$s\" тармагына туташпай койду</string>
@@ -2187,7 +2197,7 @@ Wi‑Fi дареги (BSSID)
     <string name="wifitrackerlib_tap_to_sign_up">Катталуу үчүн таптап коюңуз</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">Байланыш түйүнүнө өтө көп түзмөк туташып турат</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Сырсөздү текшерип, кайталап көрүңүз</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Түзмөккө туташты. Интернет жок.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Түзмөккө туташып турат. Интернет жок.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Өчүк</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">IP конфигурациясы бузулду</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Аутентификация маселеси бар</string>

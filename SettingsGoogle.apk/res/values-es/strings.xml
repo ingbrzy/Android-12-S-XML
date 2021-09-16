@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Idiomas e introducción de texto</string>
     <string name="lift_to_wake_title">Levantar el dispositivo para activarlo</string>
-    <string name="lockdown_settings_summary">Muestra una opción al pulsar el botón de encendido que desactiva Smart Lock, Desbloqueo facial, Desbloqueo con huella digital y las notificaciones en la pantalla de bloqueo</string>
-    <string name="lockdown_settings_title">Mostrar opción de bloqueo de seguridad</string>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
     <string name="locked_work_profile_notification_title">Con el perfil de trabajo bloqueado</string>
     <string name="lockscreen_bypass_summary">Después de desbloquear, ir a la última pantalla usada</string>
     <string name="lockscreen_bypass_title">Saltar pantalla de bloqueo</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notificaciones de trabajo</string>
     <string name="reset_dashboard_summary">Se pueden recuperar los ajustes de red, de las aplicaciones y del dispositivo</string>
     <string name="reset_dashboard_title">Opciones de recuperación</string>
-    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
     <string name="screensaver_settings_title">Salvapantallas</string>
     <string name="screen_timeout">Tiempo de espera de la pantalla</string>
     <string name="screen_zoom_title">Tamaño de visualización</string>
@@ -77,7 +77,7 @@
     <string name="system_update_settings_list_item_title">Actualizaciones del sistema</string>
     <string name="tap_to_wake">Tocar para activar</string>
     <string name="tap_to_wake_summary">Toca dos veces cualquier punto de la pantalla para activar el dispositivo</string>
-    <string name="title_font_size">Tamaño de la fuente</string>
+    <string name="title_font_size">Tamaño de fuente</string>
     <string name="touch_sensitivity_summary">Mejora la sensibilidad al usar protectores de pantalla</string>
     <string name="touch_sensitivity_title">Aumentar la sensibilidad táctil</string>
     <string name="user_add_on_lockscreen_menu">Añadir usuarios desde la pantalla de bloqueo</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Aumenta automáticamente la tasa de refresco de 60 a 90 Hz en determinados tipos de contenido. Aumenta el uso de la batería.</string>
     <string name="accessibility_vibration_settings_title">Vibración y respuesta táctil</string>
     <string name="emergency_gesture_screen_title">Emergencia SOS</string>
-    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_mode_done">Listo</string>
     <string name="vibrate_for_calls_category_title">Llamadas</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Mostrar cartera</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Mostrar controles del dispositivo</string>
     <string name="lockscreen_privacy_wallet_summary">Permite el acceso a la cartera desde la pantalla de bloqueo y los ajustes rápidos</string>
     <string name="lockscreen_privacy_controls_summary">Accede a los controles con la pantalla bloqueada</string>
-    <string name="abc_action_menu_overflow_description">Más opciones</string>
-    <string name="abc_action_mode_done">Listo</string>
     <string name="abc_activity_chooser_view_see_all">Ver todo</string>
     <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
     <string name="abc_capital_off">DESACTIVADO</string>
@@ -3300,7 +3298,7 @@ Hay otros usuarios presentes en este dispositivo.
     <string name="mobile_data_always_on">Datos móviles siempre activos</string>
     <string name="mobile_data_always_on_summary">Mantiene los datos móviles siempre activos aunque la conexión Wi‑Fi esté habilitada (para cambiar de red rápidamente)</string>
     <string name="mobile_data_ap_mode_disabled">No están disponibles en modo avión</string>
-    <string name="mobile_data_connection_active">Conectada</string>
+    <string name="mobile_data_connection_active">Conectado</string>
     <string name="mobile_data_disable_message">No tendrás acceso a los datos móviles ni a Internet a través de %s. Solo podrás conectarte a Internet mediante Wi‑Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">tu operador</string>
     <string name="mobile_data_disable_title">¿Desactivar los datos móviles?</string>
@@ -3896,7 +3894,7 @@ Pulsa las teclas de encendido y de subir volumen al mismo tiempo."</string>
     <string name="prevent_ringing_option_vibrate_summary">Vibrar</string>
     <string name="preview_page_indicator_content_description">Vista previa, página %1$d de %2$d</string>
     <string name="preview_pager_content_description">Vista previa</string>
-    <string name="previous_connected_see_all">Ver todos</string>
+    <string name="previous_connected_see_all">Ver todo</string>
     <string name="print_blocked_state_title_template">La impresora ha bloqueado %1$s</string>
     <string name="print_cancel">Cancelar</string>
     <string name="print_cancelling_state_title_template">Cancelando %1$s</string>
@@ -5019,7 +5017,7 @@ Prueba a utilizar una ^3 más rápida o utiliza esta ^4 como almacenamiento port
     <string name="storageuse_settings_title">Uso de almacenamiento</string>
     <string name="strict_mode">Modo estricto</string>
     <string name="strict_mode_summary">Hace parpadear la pantalla si las aplicaciones tardan mucho en el subproceso principal</string>
-    <string name="style_and_wallpaper_settings_title">Fondo de pantalla y estilo</string>
+    <string name="style_and_wallpaper_settings_title">Estilo y fondo de pantalla</string>
     <string name="style_suggestion_summary">Prueba diferentes estilos, fondos de pantalla y mucho más</string>
     <string name="style_suggestion_title">Personalizar el teléfono</string>
     <string name="subscription_available">Disponible</string>
@@ -5491,7 +5489,7 @@ Cualquier usuario puede actualizar las aplicaciones del resto de usuarios."</str
     <string name="vibrate_in_silent_title">Vibrar en modo silencio</string>
     <string name="vibrate_input_devices">Redirigir vibración</string>
     <string name="vibrate_input_devices_summary">Enviar vibración al mando para juegos cuando esté conectado</string>
-    <string name="vibrate_on_touch_summary">Respuesta táctil al tocar, usar el teclado y más</string>
+    <string name="vibrate_on_touch_summary">Vibración al pulsar, usar el teclado y más</string>
     <string name="vibrate_on_touch_title">Vibración al tocar la pantalla</string>
     <string name="vibrate_when_ringing_option_always_vibrate">Vibrar siempre</string>
     <string name="vibrate_when_ringing_option_never_vibrate">No vibrar nunca</string>

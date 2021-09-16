@@ -595,6 +595,8 @@ Atlase"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Lai šīs izmaiņas tiktu piemērotas, nepieciešama ierīces atkārtota palaišana. Atkārtoti palaidiet to tūlīt vai atceliet izmaiņas.</string>
     <string name="camera_hint">Lai lietotu kameru, velciet no ikonas</string>
     <string name="camera_label">atvērt kameru</string>
+    <string name="camera_recording_announcement">Notiek ierakstīšana ar kameru</string>
+    <string name="camera_stopped_recording_announcement">Ierakstīšana ar kameru apturēta</string>
     <string name="cancel">Atcelt</string>
     <string name="carrier_network_change_mode">Mobilo sakaru operatora tīkla mainīšana</string>
     <string name="category_personal">Privāts</string>
@@ -734,6 +736,10 @@ Ja atsāksiet, var tikt piemērota maksa par datu lietojumu."</string>
     <string name="debug_monitoring_category">Pārraudzība</string>
     <string name="debug_networking_category">Tīklošana</string>
     <string name="debug_view_attributes">Iespējot atribūtu pārbaudi</string>
+    <string name="defender_notify_des">Jūsu tālrunis ierobežo uzlādes līmeni, lai palīdzētu uzturēt akumulatoru darba kārtībā.</string>
+    <string name="defender_notify_learn_more">Uzzināt vairāk</string>
+    <string name="defender_notify_resume_charge">Atsākt uzlādi</string>
+    <string name="defender_notify_title">Uzlāde īslaicīgi ierobežota</string>
     <string name="delete_blob_confirmation_text">Vai tiešām vēlaties dzēst šos koplietotos datus?</string>
     <string name="delete_blob_text">Dzēst koplietotos datus</string>
     <string name="demo_mode">Sistēmas lietotāja saskarnes demonstrācijas režīms</string>
@@ -1070,6 +1076,7 @@ Sazinieties ar savu bezvadu pakalpojumu sniedzēju, lai iegūtu citu SIM karti.
     <string name="keyguard_sim_unlock_progress_dialog_message">Notiek SIM kartes atbloķēšana...</string>
     <string name="keyguard_try_fingerprint">Atvēršanai izmantojiet pirksta nospiedumu</string>
     <string name="keyguard_unlock">Velciet augšup, lai atvērtu</string>
+    <string name="keyguard_unlock_press">Nospiediet, lai atvērtu</string>
     <string name="keywords_adb_wireless">adb, atkļūdošana, izstrādātājiem</string>
     <string name="keywords_alarms_and_reminders">ieplānot, signāls, atgādinājums, pulkstenis</string>
     <string name="kg_enter_confirm_pin_hint">Apstipriniet vēlamo PIN kodu.</string>
@@ -1233,6 +1240,10 @@ Mēģiniet vēlreiz pēc %2$d sekundes(-ēm)."</string>
     <string name="menu_ime">Tastatūras pārslēdzējs</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofons ir aktīvs</string>
+    <string name="mic_and_camera_recording_announcement">Notiek ierakstīšana ar kameru un mikrofonu</string>
+    <string name="mic_camera_stopped_recording_announcement">Ierakstīšana ar kameru un mikrofonu apturēta</string>
+    <string name="mic_recording_announcement">Notiek ierakstīšana ar mikrofonu</string>
+    <string name="mic_stopped_recording_announcement">Ierakstīšana ar mikrofonu apturēta</string>
     <string name="missed_call">Neatbildēts zvans</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobilie dati</string>
@@ -1706,8 +1717,6 @@ Ja jums ir jautājumi, sazinieties ar organizāciju %2$s."</string>
     <string name="quick_settings_work_mode_label">Darba lietotnes</string>
     <string name="quick_step_accessibility_toggle_overview">Pārskata pārslēgšana</string>
     <string name="recent_conversations">Jaunākās sarunas</string>
-    <string name="recents_quick_scrub_onboarding">Lai ātri pārslēgtu lietotnes, velciet pa labi</string>
-    <string name="recents_swipe_up_onboarding">Velciet augšup, lai pārslēgtu lietotnes</string>
     <string name="remaining_length_format">Atlikušais laiks: %1$s</string>
     <string name="remote_input_image_insertion_text">nosūtīts attēls</string>
     <string name="remove_from_settings">Noņemt no iestatījumiem</string>
@@ -2117,6 +2126,7 @@ Ikviens lietotājs var atjaunināt lietotnes citu lietotāju vietā."</string>
     <string name="wallet_secondary_label_no_card">Pievienojiet karti</string>
     <string name="wallet_secondary_label_updating">Notiek atjaunināšana</string>
     <string name="wallet_title">Maks</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Piekļuves punkts īslaicīgi ir pilns</string>
     <string name="wifi_cant_connect">Nevar izveidot savienojumu</string>
     <string name="wifi_cant_connect_to_ap">Nevar izveidot savienojumu ar tīklu %1$s</string>

@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ທ່ານຕ້ອງປິດເປີດອຸປະກອນຄືນໃໝ່ເພື່ອນຳໃຊ້ການປ່ຽນແປງນີ້. ປິດເປີດໃໝ່ດຽວນີ້ ຫຼື ຍົກເລີກ.</string>
     <string name="camera_hint">ປັດ​ຈາກ​ໄອ​ຄອນ​ສຳ​ລັບ​ກ້ອງ​ຖ່າຍ​ຮູບ</string>
     <string name="camera_label">ເປີດ​ກ້ອງ</string>
+    <string name="camera_recording_announcement">ກ້ອງຖ່າຍຮູບກຳລັງບັນທຶກ</string>
+    <string name="camera_stopped_recording_announcement">ກ້ອງຖ່າຍຮູບຢຸດການບັນທຶກແລ້ວ</string>
     <string name="cancel">ຍົກເລີກ</string>
     <string name="carrier_network_change_mode">ການປ່ຽນເຄືອຂ່າຍຜູ້ໃຫ້ບໍລິການ</string>
     <string name="category_personal">​ສ່ວນ​ໂຕ</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">ກຳລັງກວດສອບ</string>
     <string name="debug_networking_category">ການ​ສ້າງເຄືອຂ່າຍ</string>
     <string name="debug_view_attributes">ເປີດ​ນຳ​ໃຊ້​ການກວດ​ສອບ​ຄຸນ​ສົມ​ບັດ​ມຸມມອງ</string>
+    <string name="defender_notify_des">ໂທລະສັບຂອງທ່ານກຳລັງຈຳກັດການສາກໄຟເພື່ອຊ່ວຍຖະໜອມສຸຂະພາບບັດເຕີຣີ.</string>
+    <string name="defender_notify_learn_more">ສຶກສາເພີ່ມເຕີມ</string>
+    <string name="defender_notify_resume_charge">ສືບຕໍ່ການສາກໄຟ</string>
+    <string name="defender_notify_title">ຈຳກັດການສາກໄຟຊົ່ວຄາວແລ້ວ</string>
     <string name="delete_blob_confirmation_text">ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບຂໍ້ມູນທີ່ແບ່ງປັນແລ້ວນີ້ອອກ?</string>
     <string name="delete_blob_text">ລຶບຂໍ້ມູນທີ່ແບ່ງປັນອອກ</string>
     <string name="demo_mode">ໂໝດເດໂມສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ລະບົບ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">ປົດລັອກ SIM card...</string>
     <string name="keyguard_try_fingerprint">ໃຊ້ລາຍນິ້ວມືເພື່ອເປີດ</string>
     <string name="keyguard_unlock">ປັດຂຶ້ນເພື່ອເປີດ</string>
+    <string name="keyguard_unlock_press">ກົດເພື່ອເປີດ</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">ກຳນົດເວລາ, ໂມງປຸກ, ການແຈ້ງເຕືອນ, ໂມງ</string>
     <string name="kg_enter_confirm_pin_hint">ຢືນຢັນລະຫັດ PIN ທີ່ຕ້ອງການ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">ຕົວສະຫຼັບແປ້ນພິມ</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">ໄມໂຄຣໂຟນເປີດໃຊ້ຢູ່</string>
+    <string name="mic_and_camera_recording_announcement">ກ້ອງຖ່າຍຮູບ ແລະ ໄມໂຄຣໂຟນກຳລັງບັນທຶກ</string>
+    <string name="mic_camera_stopped_recording_announcement">ກ້ອງຖ່າຍຮູບ ແລະ ໄມໂຄຣໂຟນຢຸດການບັນທຶກແລ້ວ</string>
+    <string name="mic_recording_announcement">ໄມໂຄຣໂຟນກຳລັງບັນທຶກ</string>
+    <string name="mic_stopped_recording_announcement">ໄມໂຄຣໂຟນຢຸດການບັນທຶກແລ້ວ</string>
     <string name="missed_call">ສາຍບໍ່ໄດ້ຮັບ</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ອິນເຕີເນັດມືຖື</string>
@@ -1706,8 +1717,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_work_mode_label">ແອັບບ່ອນເຮັດວຽກ</string>
     <string name="quick_step_accessibility_toggle_overview">ສະຫຼັບພາບຮວມ</string>
     <string name="recent_conversations">ການສົນທະນາຫຼ້າສຸດ</string>
-    <string name="recents_quick_scrub_onboarding">ລາກໄປຂວາເພື່ອສະຫຼັບແອັບດ່ວນ</string>
-    <string name="recents_swipe_up_onboarding">ປັດຂື້ນເພື່ອສະຫຼັບແອັບ</string>
     <string name="remaining_length_format">ຍັງເຫຼືອ %1$s</string>
     <string name="remote_input_image_insertion_text">ສົ່ງຮູບແລ້ວ</string>
     <string name="remove_from_settings">ເອົາອອກ​ຈາກ​ການ​ຕັ້ງ​ຄ່າ</string>
@@ -2117,6 +2126,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="wallet_secondary_label_no_card">ເພີ່ມບັດ</string>
     <string name="wallet_secondary_label_updating">ກຳລັງອັບເດດ</string>
     <string name="wallet_title">ກະເປົາ</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ຈຸດການເຂົ້າເຖິງເຕັມຊົ່ວຄາວ</string>
     <string name="wifi_cant_connect">ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້</string>
     <string name="wifi_cant_connect_to_ap">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາ '%1$s' ໄດ້"</string>

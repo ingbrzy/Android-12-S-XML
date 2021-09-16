@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s %2$s üzv əlavə etdi</item>
+        <item quantity="one">%1$s %2$s üzv əlavə etdi</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Onlar bu otağın olduğu Google Workspace təşkilatının üzvləri deyil.</item>
+        <item quantity="one">Onlar bu otağın olduğu Google Workspace təşkilatının üzvləri deyil.</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Bəzi istifadəçilər bu otağın olduğu Google Workspace təşkilatının üzvləri deyil.</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d üzv</item>
+        <item quantity="one">%d üzv</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s yeni mesaj</item>
+        <item quantity="one">%s yeni mesaj</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">Göndərilməsi planlaşdırılmış bəzi mesajlar ləğv edilmədi</item>
+        <item quantity="one">Göndərilməsi planlaşdırılmış mesaj ləğv edilmədi</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">Göndərilməsi planlaşdırılmış mesajlar ləğv edildi və qaralamaya çevrildi</item>
+        <item quantity="one">Göndərilməsi planlaşdırılmış mesaj ləğv edildi və qaralamaya çevrildi</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">%1$d göndərilməsi planlaşdırılmış mesaj ləğv edildi və qaralamaya çevrildi</item>
+        <item quantity="one">Göndərilməsi planlaşdırılmış mesaj ləğv edildi və qaralamaya çevrildi</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s alıcı</item>
+        <item quantity="one">1 alıcı</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 alıcı şifrələnmənidəstəkləməyən xidmətdən istifadə edir.. Şifrələmə olmadan, başqaları çatdırılma zamanı Sizin mesajınızı görə bilər. ^2</item>
+        <item quantity="one">^1 şifrələnməni dəstəkləməyən xidmətdən istifadə edir. Şifrələmə olmadan, başqaları çatdırılma zamanı Sizin mesajınızı görə bilər. ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">^1 və digərləri bu mesaj göndərilən zaman şifrələməni dəstəkləmirdi.</item>
+        <item quantity="one">^1 bu mesaj göndərilən zaman şifrələməni dəstəkləmirdi.</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s boş mesaj</item>
+        <item quantity="one">%1$s boş mesaj</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">Müzakirə otağı %d dəqiqə sonra başa çatır.</item>
+        <item quantity="one">Müzakirə otağı %d dəqiqə sonra başa çatır.</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">Zənginiz %1$d dəqiqə sonra başa çatacaq</item>
+        <item quantity="one">Zənginiz %1$d dəqiqə sonra başa çatacaq</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">%d digəri</item>
+        <item quantity="one">%d digəri</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">%d digəri</item>
+        <item quantity="one">%d digəri</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Bu %1$d söhbət arxivləşdirilsin?</item>
+        <item quantity="one">Bu söhbət arxivləşdirilsin?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Bu %1$d söhbət silinsin?</item>
+        <item quantity="one">Bu söhbət silinsin?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Qaralamalar bu %1$d söhbətdən silinsin?</item>
+        <item quantity="one">Qaralamalar bu söhbətdən silinsin?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> arxivləndi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> arxivləndi</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> silindi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> silindi</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Etiketlər dəyişdi.</item>
+        <item quantity="one">Etiket dəyişdi.</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> element önəmli kimi qeyd olundu</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> element önəmli kimi qeyd olundu</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">Bu söhbətdə %1$d silinmiş mesaj</item>
+        <item quantity="one">Bu söhbətdə %1$d silinmiş mesaj</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b> gələnlər qutusuna köçürüldü</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> gələnlər qutusuna köçürüldü</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> susduruldu</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> susduruldu</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> önəmsiz kimi qeyd olundu</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> önəmsiz kimi qeyd olundu</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> qeyri-spam kimi bildirildi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> qeyri-spam kimi bildirildi</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> oxunmuş olaraq qeyd edildi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> oxunmuş olaraq qeyd edildi</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> %2$s vaxtına qədər ertələndi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> %2$s vaxtına qədər ertələndi</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> nəfər spam kimi bildirildi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> nəfər spam kimi bildirildi</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d spam kimi bildirilib və abunəlikdən çıxarılıb</item>
+        <item quantity="one">%1$d spam kimi bildirilib və abunəlikdən çıxarılıb</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">%1$d söhbət ulduzlanır</item>
+        <item quantity="one">%1$d söhbət ulduzlanır</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> mesaj oxunmamış olaraq qeyd edildi</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> mesaj oxunmamış olaraq qeyd edildi</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> mürgü rejimindən çıxarıldı</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> mürgü rejimindən çıxarıldı</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d söhbətdən ulduz silinir.</item>
+        <item quantity="one">%1$d söhbətdən ulduz silinir.</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d nəfər abunəlikdən çıxdı</item>
+        <item quantity="one">%1$d nəfər abunəlikdən çıxdı</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">Hər %d gündən bir</item>
+        <item quantity="one">Gündəlik</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">%1$s developer tərəfindən deaktiv edildi.</item>
+        <item quantity="one">%1$s developer tərəfindən deaktiv edildi.</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Bu mesajlar spam olaraq qeyd olunacaq. Bu &lt;b>%2$d göndərən&lt;/b> şəxslərdən oxşar mesajları almağı dayandırmaq istəyirsiniz??%1$s</item>
+        <item quantity="one">Bu mesaj spam olaraq qeyd olunacaq. %1$s adlı şəxsdən oxşar mesajları almağı dayandırmaq istəyirsiniz?</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d dəqiqə</item>
+        <item quantity="one">%d dəqiqə</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Qaralamalar</item>
+        <item quantity="one">Qaralama</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s və %2$d digəri bu çata daxil edilə bilməz</item>
+        <item quantity="one">%1$s bu çata daxil edilə bilməz</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s söhbət həmişəlik silinəcək</item>
+        <item quantity="one">%1$s söhbət həmişəlik silinəcək</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; %d dəfəlik</item>
+        <item quantity="one">; bir dəfəlik</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Xarici qonaqlar əlavə edirsiniz</item>
+        <item quantity="one">Xarici qonaq əlavə edirsiniz</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Diskdən daxil etdiyiniz fayllara alıcılarınızın girişi olmaya bilər. Faylları Google Disk daxilindən paylaşmalısınız</item>
+        <item quantity="one">Diskdən daxil etdiyiniz fayla alıcılarınızın girişi olmaya bilər. Faylı Google Disk daxilindən paylaşmalısınız</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Diskdən daxil etdiyiniz fayllara alıcılarınızın girişi olmaya bilər. Faylları Google Disk daxilində paylaşmağınız tələb edilə bilər.</item>
+        <item quantity="one">Diskdən daxil etdiyiniz fayla alıcılarınızın girişi olmaya bilər. Faylı Google Disk daxilində paylaşmağınız tələb edilə bilər.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Qeyd: Bəzi alıcıların hələ də bu fayllara girişi olmaya bilər. Bu faylları Google Disk daxilindən paylaşmalısınız.</item>
+        <item quantity="one">Qeyd: Bəzi alıcıların hələ də bu fayla girişi olmaya bilər. Bu faylı Google Disk daxilindən paylaşmalısınız.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Qeyd: Bəzi alıcıların hələ də bu fayllara girişi olmaya bilər. Bu faylları Google Disk daxilində paylaşmağınız tələb oluna bilər.</item>
+        <item quantity="one">Qeyd: Bəzi alıcıların hələ də bu fayla girişi olmaya bilər. Bu faylı Google Disk daxilində paylaşmağınız tələb oluna bilər.</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Xəta: Bu faylları paylaşmaq mümkün olmadı.</item>
+        <item quantity="one">Xəta: Faylı paylaşmaq mümkün olmadı.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Alıcılarla paylaşırsınız:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>onlar bu faylların aid olduğu Google Workspace təşkilatının üzvü deyil."</item>
+        <item quantity="one">Alıcılarla paylaşırsınız:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>onlar bu faylın aid olduğu Google Workspace təşkilatının üzvü deyil.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Bu faylların aid olduğu Google Workspace təşkilatında olmayan %1$s ilə paylaşırsınız.</item>
+        <item quantity="one">Bu faylın aid olduğu Google Workspace təşkilatında olmayan %1$s ilə paylaşırsınız.</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">Aşağıdakı Yeni Mesajlar düyməsində %d mesaj var.</item>
+        <item quantity="one">Aşağıdakı Yeni Mesajlar düyməsində %d mesaj var.</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 alıcı şifrələnməni dəstəkləməyən xidmətdən istifadə edir. Şifrələmə olmadan, mesajınız çatdırılma zamanı oxuna bilər. ^2</item>
+        <item quantity="one">^1 şifrələnməni dəstəkləməyən xidmətdən istifadə edir. Şifrələmə olmadan, mesajınız çatdırılma zamanı oxuna bilər. ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d mesaj göstərilmir</item>
+        <item quantity="one">%d mesaj göstərilmir</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d şəxs</item>
+        <item quantity="one">%d şəxs</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s %2$s üzv dəvət etdi</item>
+        <item quantity="one">%1$s %2$s üzv dəvət etdi</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">%d baxılmamış otaq dəvəti</item>
+        <item quantity="one">%d baxılmamış otaq dəvəti</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">\"Otaq axtarın\" düyməsi. %d baxılmamış otaq dəvəti var</item>
+        <item quantity="one">\"Otaq axtarın\" düyməsi. %d baxılmamış otaq dəvəti var.</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d üzv</item>
+        <item quantity="one">%d üzv</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s qoşuldu</item>
+        <item quantity="one">%1$s qoşuldu</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d mesaj sorğusu</item>
+        <item quantity="one">%d mesaj sorğusu</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d baxılmamış mesaj sorğusu</item>
+        <item quantity="one">%d baxılmamış mesaj sorğusu</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d dəq</item>
+        <item quantity="one">%d dəq</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">Hər %1$d aydan bir</item>
+        <item quantity="one">Hər ay</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildiriş</item>
+        <item quantity="one">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d yeni mesaj</item>
+        <item quantity="one">%1$d yeni mesaj</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d yeni mesaj</item>
+        <item quantity="one">%1$d yeni mesaj</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">Aşağıdakı Yeni Mesajlar düyməsində %d mesaj var.</item>
+        <item quantity="one">Aşağıdakı Yeni Mesajlar düyməsində %d mesaj var.</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d yeni mesaj</item>
+        <item quantity="one">%d yeni mesaj</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d yeni mesaj</item>
+        <item quantity="one">%d yeni mesaj</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d qoşma</item>
+        <item quantity="one">%1$d qoşma</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d mesaj</item>
+        <item quantity="one">%1$d mesaj</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Bəzi alıcılar təşkilatınız xaricindədir və kontaktlarınızda yoxdur.</item>
+        <item quantity="one">%s təşkilatınız xaricindədir və kontaktlarınızda yoxdur.</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Xarici alıcılar</item>
+        <item quantity="one">Xarici alıcı</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d alıcı kopyalandı</item>
+        <item quantity="one">%d alıcı kopyalandı</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Təqvimlər paylaşılmadı</item>
+        <item quantity="one">Təqvim paylaşılmadı</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">%d simvol mesaj limitini keçir</item>
+        <item quantity="one">%d simvol mesaj limitini keçir</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d şəxs reaksiya verdi</item>
+        <item quantity="one">%1$d şəxs reaksiya verdi</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">%1$s nəfər hələ oxumayıb</item>
+        <item quantity="one">%1$s nəfər hələ oxumayıb</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">%1$s nəfər oxuyub</item>
+        <item quantity="one">%1$s nəfər oxuyub</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d köhnə mesajı genişləndirin</item>
+        <item quantity="one">Köhnə mesajı genişləndirin</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">%d gün əvvəl mürgü rejiminə qoyuldu</item>
+        <item quantity="one">%d gün əvvəl mürgü rejiminə qoyuldu</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">%d saat əvvəl mürgü rejiminə qoyuldu</item>
+        <item quantity="one">%d saat əvvəl mürgü rejiminə qoyuldu</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">%d ay əvvəl mürgü rejiminə qoyuldu</item>
+        <item quantity="one">%d ay əvvəl mürgü rejiminə qoyuldu</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">%d həftə əvvəl mürgü rejiminə qoyuldu</item>
+        <item quantity="one">%d həftə əvvəl mürgü rejiminə qoyuldu</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">%d il əvvəl mürgü rejiminə qoyuldu</item>
+        <item quantity="one">%d il əvvəl mürgü rejiminə qoyuldu</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d üzv</item>
+        <item quantity="one">%d üzv</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">%1$d köhnə mesaj genişləndi</item>
+        <item quantity="one">Bir köhnə mesaj genişləndi</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">Bir gün</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Son %1$d günün mesajları qoşulduqda endiriləcək</item>
+        <item quantity="one">Son günün mesajları qoşulduqda endiriləcək</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Son %1$d gün</item>
+        <item quantity="one">Son gün</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Bitmə vaxtı - %1$s - %2$d tapşırıq</item>
+        <item quantity="one">Bitmə vaxtı - %1$s - %2$d tapşırıq</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d alt tapşırıq</item>
+        <item quantity="one">+1 alt tapşırıq</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d gün əvvəl</item>
+        <item quantity="one">Dünən</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d həftə əvvəl</item>
+        <item quantity="one">1 həftə əvvəl</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d il əvvəl</item>
+        <item quantity="one">1 il əvvəl</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">Bu tapşırıq tamamlandıqda %1$d alt tapşırıq da tamamlanacaq.</item>
+        <item quantity="one">Bu tapşırıq tamamlandıqda 1 alt tapşırıq da tamamlanacaq.</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">%1$d tapşırıq tamamlanmış kimi qeyd edilsin?</item>
+        <item quantity="one">1 tapşırıq tamamlanmış kimi qeyd edilsin?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">%1$d dəqiqə ərzində</item>
+        <item quantity="one">%1$d dəqiqə ərzində</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d dəqiqə</item>
+        <item quantity="one">%1$d dəqiqə</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Günlər</item>
+        <item quantity="one">Gün</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Hər %1$d həftədən bir %2$s</item>
+        <item quantity="one">Həftəlik %2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">Hər %1$d ildən bir</item>
+        <item quantity="one">Hər il</item>
+    </plurals>
+</resources>

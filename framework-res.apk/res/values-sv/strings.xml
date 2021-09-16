@@ -355,7 +355,7 @@ Du kan ändra vilken funktion som ska aktiveras med genvägen under Inställning
     <string name="biometric_dialog_default_subtitle">Fortsätt med hjälp av din biometriska data</string>
     <string name="biometric_dialog_default_title">Verifiera din identitet</string>
     <string name="biometric_error_canceled">Autentiseringen avbröts</string>
-    <string name="biometric_error_device_not_secured">Pinkod, grafiskt lösenord eller lösenord har inte angetts</string>
+    <string name="biometric_error_device_not_secured">Pinkod, mönster eller lösenord har inte angetts</string>
     <string name="biometric_error_generic">Ett fel uppstod vid autentiseringen</string>
     <string name="biometric_error_hw_unavailable">Biometrisk maskinvara är inte tillgänglig</string>
     <string name="biometric_error_user_canceled">Autentiseringen avbröts</string>
@@ -815,8 +815,8 @@ Vill du verkligen navigera bort från den här sidan?"</string>
     <string name="keyguard_accessibility_expand_lock_area">Expandera upplåsningsytan.</string>
     <string name="keyguard_accessibility_face_unlock">Ansiktslås.</string>
     <string name="keyguard_accessibility_password_unlock">Lås upp med lösenord.</string>
-    <string name="keyguard_accessibility_pattern_area">Fält för grafiskt lösenord.</string>
-    <string name="keyguard_accessibility_pattern_unlock">Lås upp med grafiskt lösenord.</string>
+    <string name="keyguard_accessibility_pattern_area">Fält för mönster.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Lås upp med mönster.</string>
     <string name="keyguard_accessibility_pin_unlock">Lås upp med PIN-kod.</string>
     <string name="keyguard_accessibility_sim_pin_unlock">Lås upp med SIM-kortets pinkod.</string>
     <string name="keyguard_accessibility_sim_puk_unlock">Lås upp med SIM-kortets PUK-kod.</string>
@@ -859,7 +859,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_invalid_input">Ogiltigt användarnamn eller lösenord.</string>
     <string name="kg_login_password_hint">Lösenord</string>
     <string name="kg_login_submit_button">Logga in</string>
-    <string name="kg_login_too_many_attempts">För många försök med grafiskt lösenord</string>
+    <string name="kg_login_too_many_attempts">För många försök med mönster</string>
     <string name="kg_login_username_hint">Användarnamn (e-post)</string>
     <string name="kg_password_instructions">Ange lösenord</string>
     <string name="kg_password_wrong_pin_code">Fel PIN-kod.</string>
@@ -881,7 +881,7 @@ Försök igen om %2$d sekunder."</string>
 
 Försök igen om %2$d sekunder."</string>
     <string name="kg_wrong_password">Fel lösenord</string>
-    <string name="kg_wrong_pattern">Fel grafiskt lösenord</string>
+    <string name="kg_wrong_pattern">Fel mönster</string>
     <string name="kg_wrong_pin">Fel PIN-kod</string>
     <string name="kilobyteShort">kB</string>
     <string name="language_picker_section_all">Alla språk</string>
@@ -901,12 +901,12 @@ Försök igen om %2$d sekunder."</string>
     <string name="lock_to_app_unlock_password">Be om lösenord innan skärmen slutar fästas</string>
     <string name="lock_to_app_unlock_pattern">Be om upplåsningsmönster innan skärmen slutar fästas</string>
     <string name="lock_to_app_unlock_pin">Be om pinkod innan skärmen slutar fästas</string>
-    <string name="lockscreen_access_pattern_area">Fält för grafiskt lösenord.</string>
+    <string name="lockscreen_access_pattern_area">Fält för mönster.</string>
     <string name="lockscreen_access_pattern_cell_added">En cell har lagts till</string>
     <string name="lockscreen_access_pattern_cell_added_verbose">Cell %1$s har lagts till</string>
-    <string name="lockscreen_access_pattern_cleared">Grafiskt lösenord har tagits bort</string>
-    <string name="lockscreen_access_pattern_detected">Grafiskt lösenord har slutförts</string>
-    <string name="lockscreen_access_pattern_start">Skriver grafiskt lösenord</string>
+    <string name="lockscreen_access_pattern_cleared">Mönster har tagits bort</string>
+    <string name="lockscreen_access_pattern_detected">Mönster har slutförts</string>
+    <string name="lockscreen_access_pattern_start">Ritar mönster</string>
     <string name="lockscreen_carrier_default">Ingen tjänst</string>
     <string name="lockscreen_emergency_call">Nödsamtal</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Du har försökt låsa upp mobilen på fel sätt %1$d gånger. Efter %2$d misslyckade försök till kommer mobilen att återställas till fabriksinställningarna. Du förlorar då alla användardata.</string>
@@ -923,7 +923,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_glogin_invalid_input">Ogiltigt användarnamn eller lösenord.</string>
     <string name="lockscreen_glogin_password_hint">Lösenord</string>
     <string name="lockscreen_glogin_submit_button">Logga in</string>
-    <string name="lockscreen_glogin_too_many_attempts">För många försök med grafiskt lösenord</string>
+    <string name="lockscreen_glogin_too_many_attempts">För många försök med mönster</string>
     <string name="lockscreen_glogin_username_hint">Användarnamn (e-post)</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu för att låsa upp.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Tryck på Menu för att låsa upp eller ringa nödsamtal.</string>
@@ -934,7 +934,7 @@ Besök "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_network_locked_message">Nätverk låst</string>
     <string name="lockscreen_password_wrong">Försök igen</string>
     <string name="lockscreen_pattern_correct">Korrekt!</string>
-    <string name="lockscreen_pattern_instructions">Rita grafiskt lösenord för att låsa upp</string>
+    <string name="lockscreen_pattern_instructions">Rita mönster för att låsa upp</string>
     <string name="lockscreen_pattern_wrong">Försök igen</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">"SIM-kortet har inaktiverats permanent.
  Beställ ett nytt SIM-kort från din operatör."</string>

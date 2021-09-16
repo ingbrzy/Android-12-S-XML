@@ -105,7 +105,7 @@
     <string name="audio_focus_state">他の音量を下げる: %1$s</string>
     <string name="auto_detect">デバイスの持ち方に合わせる</string>
     <string name="auto_scan_action_description">スキャンを開始して選択する</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">[自動スキャン] または [選択]</string>
     <string name="available_devices_header">利用可能な Bluetooth デバイス</string>
     <string name="basic_navigation_link_subtext">項目間を移動したり、スクロールしたり、メニューを使用したりします</string>
     <string name="basic_navigation_link_text">基本操作</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">デバイスを操作するには、まずスイッチ アクセスを ON にする必要があります。</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">カメラスイッチを開く</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">スイッチ アクセスを開く</string>
+    <string name="cam_switches_combined_preferences_title">「%1$s」の設定</string>
+    <string name="cam_switches_preferences_title">カメラスイッチの設定</string>
+    <string name="cam_switches_single_preferences_title">「%s」の設定</string>
     <string name="camera_switches_status_active">カメラスイッチはアクティブです</string>
     <string name="camera_switches_status_error">エラー</string>
     <string name="camera_switches_status_no_face">顔を検出できません</string>
@@ -399,6 +402,7 @@ TalkBack が停止していると、デバイスからの音声応答がなく�
     <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
     <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="fast_radio_button_title">速い（%1$s 秒の遅延）</string>
+    <string name="fast_radio_button_title_content_description">高速（%1$s 秒の遅延）</string>
     <string name="find_finish_button_text">右にスワイプして [終了] ボタンを見つけます。</string>
     <string name="finish">終了</string>
     <string name="finish_tutorial_announcement">点字キーボードを表示しています。画面が自分とは反対側を向くようにスマートフォンを回します。スマートフォンを横向きにします。入力してください。</string>
@@ -747,6 +751,7 @@ TalkBack が停止していると、デバイスからの音声応答がなく�
     <string name="list_index_template">%2$d件中の%1$d件目です</string>
     <string name="lockscreen_label">ロック画面</string>
     <string name="medium_radio_button_title">普通（%1$s 秒の遅延）</string>
+    <string name="medium_radio_button_title_content_description">中速（%1$s 秒の遅延）</string>
     <string name="menu_category_reading_controls">読み上げ</string>
     <string name="menu_category_special_features">特別な機能</string>
     <string name="menus_selector_text">"これらのショートカットを使用すると、文字から単語への操作の切り替え、TalkBack の読み上げ速度の変更など、設定をすばやく変更できます。
@@ -767,6 +772,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
 では、下にスワイプしてから右にスワイプして TalkBack メニューを開きましょう。"</string>
     <string name="menus_title">メニューとコントロール</string>
     <string name="message_in_reset_keymap_confirm_dialog">このキーマップのショートカット キーを既定値にリセットしてもよろしいですか？この操作は元に戻せないのでご注意ください。</string>
+    <string name="message_request_phone_permission">電話がかかってきたことを認識できるよう TalkBack が求めてきています。これにより、通知が妨げられないようにします。</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"すべてのジェスチャーがデフォルトの操作にリセットされます。
 
 これまでに行った変更はすべて失われます。"</string>
@@ -996,6 +1002,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="pref_reduce_window_delay_title">ウィンドウに関するお知らせ通知の遅延を短縮する</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">カメラスイッチを追加</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">物理スイッチを削除</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">次のスイッチを設定します: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">カメラスイッチを編集</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">カメラスイッチが割り当てられていません</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">「%s」へのカメラスイッチの割り当て</string>
@@ -1016,9 +1023,9 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="pref_sa_face_playground_stop_preview_content_description">プレビューを停止</string>
     <string name="pref_sa_face_playground_switch_on_content_description">ON にする</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">このテストエリアを使用するにはカメラスイッチを ON にする必要があります</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">試してみる: 顔ジェスチャーの全種類（口を開く、笑うなど）を確認できます</string>
+    <string name="pref_sa_face_playground_try_it_button_text">試してみる</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">試してみる: %1$s の顔ジェスチャーを確認できます</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">テストエリアが一時停止しています。下のボタンを使ってやり直してください。</string>
     <string name="pref_selector_summary">%1$sして、設定を選択します。次に、%2$sして、設定を調整します。</string>
     <string name="pref_selector_summary_two_select_gesture">%1$sするか、%2$sして、設定を選択します。次に、%3$sして、設定を調整します。</string>
@@ -1069,6 +1076,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="reduce_speed_button">読み上げを遅くする</string>
     <string name="remaining_calibration_finish_announcement">すべてのドットの位置を更新しました</string>
     <string name="reminder_announcement">その他のオプションに移動するには、3本指で上にスワイプします。</string>
+    <string name="remove_assigned_switch">%s のスイッチの割り当てを削除します</string>
     <string name="report_gesture_description">最近行われた操作は次のとおりです。正しくない操作と本来の操作をお知らせください。</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">リセット</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">リセット</string>
@@ -1149,6 +1157,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="search_mode_hint_no_selection">アイテムが選択されていません。</string>
     <string name="search_mode_hint_query">現在のキーワードは%1$sです。</string>
     <string name="search_mode_hint_selection">現在選択されているのは%1$sです。</string>
+    <string name="select_for_point_scan">[選択]</string>
     <string name="select_setting_hint">別の設定を選択するには、%1$sします</string>
     <string name="selecting_text_text">"テキスト ボックス内で、選択したいテキストの先頭にカーソルを移動します。
 
@@ -1209,6 +1218,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="shortcut_media_control">メディアを再生または一時停止</string>
     <string name="shortcut_next">次の項目</string>
     <string name="shortcut_next_granularity">次のナビゲーション設定</string>
+    <string name="shortcut_next_window">次のウィンドウ</string>
     <string name="shortcut_not_customizable">%1$s（カスタマイズ不可）</string>
     <string name="shortcut_notifications">通知</string>
     <string name="shortcut_overview">概要</string>
@@ -1221,6 +1231,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="shortcut_practice_gestures">ジェスチャーの練習</string>
     <string name="shortcut_previous">前の項目</string>
     <string name="shortcut_previous_granularity">前のナビゲーション設定</string>
+    <string name="shortcut_previous_window">前のウィンドウ</string>
     <string name="shortcut_print_node_tree">ノードツリーを印刷</string>
     <string name="shortcut_print_performance_stats">パフォーマンスの統計情報を印刷</string>
     <string name="shortcut_quick_settings">クイック設定</string>
@@ -1260,6 +1271,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
 • シェイクして連続読み上げを開始"</string>
     <string name="six_hold_announcement">また、テーブルの上にスマートフォンを平らに置いて入力することもできます。今すぐやってみましょう。テーブルが近くにない場合は、下にスワイプしてスキップしてください。</string>
     <string name="slow_radio_button_title">遅い（%1$s 秒の遅延）</string>
+    <string name="slow_radio_button_title_content_description">低速（%1$s 秒の遅延）</string>
     <string name="sound_feedback_state">音によるフィードバック: %1$s</string>
     <string name="sound_feedback_summary">何かが変わったときに音で知らせます（たとえば、画面の内容が変わったとき）</string>
     <string name="speak_container_element_position_summary_off">リストやグリッドの情報は読み上げられません</string>
@@ -1333,17 +1345,17 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="summary_pref_face_switches_debounce_time">この時間内にカメラスイッチのトリガーが何回発生しても 1 回とみなされます。</string>
     <string name="summary_pref_face_switches_enabled">カメラスイッチは前面カメラを使用して、ユーザーが画面を見ているどうかを確認し、顔の動きを認識します。 画像が Google に保存されたり送信されたりすることはありません。</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">動きに反応して画面上の内容が変化すると音が鳴ります</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">動きの持続時間を一目で確認できます</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">カメラスイッチが有効なときに画面を表示したままにします。OFF の場合はカメラスイッチで画面のロックを解除することはできません。</string>
     <string name="summary_pref_face_switches_no_face_detected_message">顔を検出できません</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">！</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">顔の動きを行います。行った動きが登録されている場合、その動きの名前が表示されます。終了するには、%1$d 秒ほど動きを持続します。</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">頭を動かさずに、顔をカメラに向けます。次に、%s。</string>
     <string name="summary_pref_play_store">TalkBackの現在のバージョン: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">画面上を縦方向と横方向に移動する線を使って、特定の位置を選択します。 %1$s スイッチを押すとポイント スキャンが開始します。 %2$s</string>
     <string name="summary_pref_reverse_dots">ドットの位置を交換します（たとえば、ドット 1 と 4 の位置を交換します）</string>
     <string name="summary_pref_revert_to_default_menu">スイッチ アクセス メニューをリセットして、デフォルトのメニュー項目の一覧に戻します。</string>
-    <string name="summary_pref_single_tap">（試験運用版）フォーカスのある項目を 1 回タップすると有効になります</string>
+    <string name="summary_pref_single_tap">フォーカスのある項目を 1 回タップすると有効になります</string>
     <string name="summary_pref_tree_debug_tv">音声検索キーを使って検索ではなくノードツリーの印刷を行います</string>
     <string name="summary_pref_use_audio_focus">読み上げ時に他の音声の音量を下げる</string>
     <string name="summary_read_from_current">次の項目から順に、画面上のすべての項目を読み上げます</string>
@@ -1479,10 +1491,10 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="switched_to_contracted_announcement">縮約形点字に切り替えました</string>
     <string name="switched_to_ueb_uncontracted_announcement">UEB 非縮約形に切り替えました</string>
     <string name="switched_to_uncontracted_announcement">非縮約形点字に切り替えました</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">ニアリーイコール記号</string>
     <string name="symbol_ampersand">アンパサンド</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">小なり記号</string>
+    <string name="symbol_angle_bracket_right">大なり記号</string>
     <string name="symbol_apostrophe">アポストロフィ</string>
     <string name="symbol_approximately_equals">ほぼ等しい</string>
     <string name="symbol_asterisk">アスタリスク</string>
@@ -1502,7 +1514,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_bullseye">二重丸</string>
     <string name="symbol_caret">キャレット</string>
     <string name="symbol_celsius_degree">摂氏温度</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">セント記号</string>
     <string name="symbol_circle_left_half_black">左半分が黒い円</string>
     <string name="symbol_circle_right_half_black">右半分が黒い円</string>
     <string name="symbol_colon">コロン</string>
@@ -1511,7 +1523,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_curly_bracket_left">左中かっこ</string>
     <string name="symbol_curly_bracket_right">右中かっこ</string>
     <string name="symbol_currency_sign">通貨記号</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">度記号</string>
     <string name="symbol_division">除算記号</string>
     <string name="symbol_dollar_sign">ドル記号</string>
     <string name="symbol_downwards_arrow">下矢印</string>
@@ -1563,7 +1575,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_middle_dot">中黒</string>
     <string name="symbol_multiplication">乗算記号</string>
     <string name="symbol_new_line">改行</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">ノットイコール記号</string>
     <string name="symbol_not_sign">否定記号</string>
     <string name="symbol_paragraph_mark">段落記号</string>
     <string name="symbol_parenthesis_left">左かっこ</string>
@@ -1574,7 +1586,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_plus_minus_sign">プラスマイナス記号</string>
     <string name="symbol_postal_mark">郵便記号</string>
     <string name="symbol_pound">井げた</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">ポンド記号</string>
     <string name="symbol_quarter_note">4分音符</string>
     <string name="symbol_question_mark">疑問符</string>
     <string name="symbol_quotation_mark">引用符</string>
@@ -1600,7 +1612,7 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_trademark">商標</string>
     <string name="symbol_underscore">アンダースコア</string>
     <string name="symbol_upwards_arrow">上矢印</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">縦棒</string>
     <string name="symbol_white_circle">白丸</string>
     <string name="symbol_white_club_suit">白クローバー</string>
     <string name="symbol_white_diamond">白ダイヤ</string>
@@ -1614,8 +1626,8 @@ TalkBack メニューや読み上げコントロールのカスタマイズは�
     <string name="symbol_white_square">白四角</string>
     <string name="symbol_white_star">白星</string>
     <string name="symbol_white_up_pointing_triangle">上向き白三角</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">ウォン記号</string>
+    <string name="symbol_won_sign">ウォン記号</string>
     <string name="symbol_yen">円</string>
     <string name="system_actions">システム アクション</string>
     <string name="tabletop">テーブルトップ モード</string>
@@ -1783,7 +1795,7 @@ TalkBack を OFF にするには:
     <string name="title_pref_category_assign_switches">スイッチの割り当て</string>
     <string name="title_pref_category_audio">音声</string>
     <string name="title_pref_category_auto_scan">自動スキャン</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">自動スキャン（ポイント スキャン）</string>
     <string name="title_pref_category_border_color">色</string>
     <string name="title_pref_category_built_in_gestures">組み込み操作</string>
     <string name="title_pref_category_context_menu">TalkBack メニューをカスタマイズ</string>
@@ -1867,7 +1879,7 @@ TalkBack を OFF にするには:
     <string name="title_pref_red">赤</string>
     <string name="title_pref_resume_talkback">停止状態から再開</string>
     <string name="title_pref_reverse_auto_scan_disabled">後方自動スキャン（無効）</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">後方自動スキャン（ポイント スキャン）</string>
     <string name="title_pref_reverse_dots">ドットを反転させる</string>
     <string name="title_pref_revert_to_default_menu">デフォルト メニューに戻す</string>
     <string name="title_pref_scan_non_actionable_items">説明文の読み上げ</string>
@@ -1930,7 +1942,7 @@ TalkBack を OFF にするには:
     <string name="title_pref_show_context_menu_as_list">コンテキスト メニューをリストとして表示</string>
     <string name="title_pref_show_privacy_policy">プライバシー ポリシー</string>
     <string name="title_pref_show_tos">利用規約</string>
-    <string name="title_pref_single_tap">シングルタップで有効</string>
+    <string name="title_pref_single_tap">シングルタップで有効化</string>
     <string name="title_pref_sound_and_vibration">音とバイブレーション</string>
     <string name="title_pref_soundback">音によるフィードバック</string>
     <string name="title_pref_soundback_volume">音によるフィードバックの音量</string>
@@ -1975,6 +1987,7 @@ TalkBack を OFF にするには:
     <string name="title_previous_screen">前の画面</string>
     <string name="title_read_from_top">最上部から読み上げる</string>
     <string name="title_repeat_last_spoken_phrase">最後に読み上げたフレーズを繰り返す</string>
+    <string name="title_request_phone_permission">TalkBack リクエストの許可</string>
     <string name="title_screen_summary">画面の概要</string>
     <string name="title_seek_bar_controls">スライダー</string>
     <string name="title_seek_bar_edit">スライダー レベルを編集する</string>

@@ -595,6 +595,8 @@ Keuse"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Jou toestel moet herselflaai om hierdie verandering toe te pas. Herselflaai nou of kanselleer.</string>
     <string name="camera_hint">Swiep vanaf ikoon vir kamera</string>
     <string name="camera_label">maak kamera oop</string>
+    <string name="camera_recording_announcement">Kamera neem tans op</string>
+    <string name="camera_stopped_recording_announcement">Kamera het opname gestop</string>
     <string name="cancel">Kanselleer</string>
     <string name="carrier_network_change_mode">Diensverskaffernetwerk verander tans</string>
     <string name="category_personal">Persoonlik</string>
@@ -734,6 +736,10 @@ As jy voortgaan, kan heffings vir datagebruik geld."</string>
     <string name="debug_monitoring_category">Monitering</string>
     <string name="debug_networking_category">Inligtingruiling</string>
     <string name="debug_view_attributes">Aktiveer aansigkenmerkinspeksie</string>
+    <string name="defender_notify_des">Jou foon beperk tans die laaiproses om die battery gesond te hou</string>
+    <string name="defender_notify_learn_more">Kom meer te wete</string>
+    <string name="defender_notify_resume_charge">Hervat laaiproses</string>
+    <string name="defender_notify_title">Laaiproses word tydelik beperk</string>
     <string name="delete_blob_confirmation_text">Is jy seker jy wil hierdie gedeelde data uitvee?</string>
     <string name="delete_blob_text">Vee gedeelde data uit?</string>
     <string name="demo_mode">Stelsel-UI-demonstrasiemodus</string>
@@ -1070,6 +1076,7 @@ prioriteit"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Ontsluit tans SIM-kaart …</string>
     <string name="keyguard_try_fingerprint">Gebruik vingerafdruk om oop te maak</string>
     <string name="keyguard_unlock">Swiep op om oop te maak</string>
+    <string name="keyguard_unlock_press">Druk om oop te maak</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">skedule, wekker, onthounota, horlosie</string>
     <string name="kg_enter_confirm_pin_hint">Bevestig gewenste PIN-kode</string>
@@ -1233,6 +1240,10 @@ Probeer weer oor %2$d sekondes."</string>
     <string name="menu_ime">Sleutelbordwisselaar</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofoon aktief</string>
+    <string name="mic_and_camera_recording_announcement">Kamera en mikrofoon neem tans op</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera en mikrofoon het opname gestop</string>
+    <string name="mic_recording_announcement">Mikrofoon neem tans op</string>
+    <string name="mic_stopped_recording_announcement">Mikrofoon het opname gestop</string>
     <string name="missed_call">Gemiste oproep</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobiele data</string>
@@ -1706,8 +1717,6 @@ Kontak %2$s as jy enige vrae het."</string>
     <string name="quick_settings_work_mode_label">Werkprogramme</string>
     <string name="quick_step_accessibility_toggle_overview">Wissel oorsig</string>
     <string name="recent_conversations">Onlangse gesprekke</string>
-    <string name="recents_quick_scrub_onboarding">Sleep regs om programme vinnig te wissel</string>
-    <string name="recents_swipe_up_onboarding">Swiep op om programme te wissel</string>
     <string name="remaining_length_format">%1$s oor</string>
     <string name="remote_input_image_insertion_text">"het 'n prent gestuur"</string>
     <string name="remove_from_settings">Verwyder uit Instellings</string>
@@ -2117,6 +2126,7 @@ Enige gebruiker kan programme vir al die ander gebruikers opdateer."</string>
     <string name="wallet_secondary_label_no_card">"Voeg 'n kaart by"</string>
     <string name="wallet_secondary_label_updating">Dateer tans op</string>
     <string name="wallet_title">Beursie</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Toegangspunt is tydelik vol</string>
     <string name="wifi_cant_connect">Kan nie koppel nie</string>
     <string name="wifi_cant_connect_to_ap">Kan nie aan \"%1$s\" koppel nie</string>

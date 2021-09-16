@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Svara</string>
     <string name="a11y_call_incoming_decline_description">Hafna</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Hringja myndsímtal með Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Hringja með Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Það nýjasta er svarað símtal frá ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Hafa umsjón með hringjendum</string>
     <string name="a11y_expandedsheet_collapse">draga saman valmynd</string>
     <string name="a11y_expandedsheet_expand">stækka valmynd</string>
-    <string name="a11y_favorites_education_dismiss">loka</string>
     <string name="a11y_feature_demo_next_page">Næsta síða</string>
     <string name="a11y_feature_demo_page_indicator">Síða %d</string>
     <string name="a11y_feature_demo_prev_page">Fyrri síða</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Flýtitengiliður fyrir ^1</string>
+    <string name="a11y_icon_hd">HD-símtal</string>
+    <string name="a11y_icon_hd_plus">HD Plus-símtal</string>
+    <string name="a11y_icon_shared_data_call">Samnýtt gagnasímtal</string>
+    <string name="a11y_icon_verified">Staðfest símtal</string>
+    <string name="a11y_icon_vilte">LTE-myndsímtal</string>
+    <string name="a11y_icon_viwifi">WiFi-myndsímtal</string>
+    <string name="a11y_icon_volte">LTE-símtal</string>
+    <string name="a11y_icon_voz4g">4G-símtal</string>
+    <string name="a11y_icon_wifi">Wi-Fi símtal</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Strjúktu upp með tveimur fingrum til að svara. Strjúktu niður með tveimur fingrum til að hafna.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Strjúktu upp með tveimur fingrum til að svara eða niður til að hafna símtalinu</string>
     <string name="a11y_new_call_log_entry_call_recording">símtalið er tekið upp</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">á ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">hringja RTT-símtal í ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Samnýtt gagnasímtal</string>
     <string name="a11y_new_call_log_entry_tap_action">stækka valmynd</string>
     <string name="a11y_new_call_log_entry_video_call">hringja myndsímtal í ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">hringja myndsímtal í ^1 í gegnum Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Breyta númeri fyrir símtal</string>
     <string name="action_menu_back_from_search">hætta leit</string>
     <string name="action_menu_overflow_description">Fleiri valkostir</string>
+    <string name="activate_error_message">Vandamál kom upp við að virkja símtalasíu</string>
+    <string name="activated_successfully">Símtalasía er virk</string>
     <string name="activity_not_available">Ekkert forrit fyrir þetta er í tækinu</string>
     <string name="add_2sec_pause">Bæta við 2 sekúndna töf</string>
     <string name="add_contact_not_available">Ekkert tengiliðaforrit í boði</string>
@@ -159,9 +171,9 @@ Upptökurnar eru aðeins geymdar í símanum þínum. ^1"</string>
     <string name="bm_suggest_call_button">Hringja</string>
     <string name="bm_suggest_chat_button">Spjall</string>
     <string name="bm_suggest_wait_min">"Spjall
-%1$d mín. bið"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ólesið</string>
+%1$dmín. biðtími"</string>
+    <string name="bm_suggest_wait_time_estimating">"Spjall
+Í vinnslu…"</string>
     <string name="bottomsheet_action_expand_halfway">Stækka til hálfs</string>
     <string name="bubble_bottom_action_end_call">Ljúka símtali</string>
     <string name="bubble_bottom_action_hide">Fela</string>
@@ -170,7 +182,10 @@ Upptökurnar eru aðeins geymdar í símanum þínum. ^1"</string>
     <string name="call">Símtal</string>
     <string name="callFailed_simError">Ekkert SIM-kort eða villa á SIM-korti</string>
     <string name="callHistoryIconLabel">Símtalaferill</string>
-    <string name="call_announcer_preference_footer_instruction_text">Nafn og símanúmer hringjanda verður lesið upphátt fyrir móttekin símtöl</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Nafn og símanúmer hringjanda verður lesið upphátt fyrir móttekin símtöl.</string>
     <string name="call_announcer_preference_list_title">Lesa númerabirtingu upphátt</string>
     <string name="call_announcer_preference_option_always">Alltaf</string>
     <string name="call_announcer_preference_option_headset">Aðeins þegar höfuðtól eru notuð</string>
@@ -203,7 +218,7 @@ Upptökurnar eru aðeins geymdar í símanum þínum. ^1"</string>
     <string name="call_incoming_answer">Svara</string>
     <string name="call_incoming_answer_rtt">Svara með RTT</string>
     <string name="call_incoming_answer_voice">Svara með símtali</string>
-    <string name="call_incoming_chip_answer_and_release">Svara, ljúka núv. símtali</string>
+    <string name="call_incoming_chip_answer_and_release">Svara og ljúka hinu símtalinu</string>
     <string name="call_incoming_chip_answer_as_rtt">Svara sem RTT-símtali</string>
     <string name="call_incoming_chip_answer_video_as_audio">Svara sem símtali</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Svara með slökkt á mynd</string>
@@ -219,7 +234,7 @@ Upptökurnar eru aðeins geymdar í símanum þínum. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Strjúktu upp til að svara</string>
     <string name="call_incoming_swipe_to_reject">Strjúktu niður til að hafna</string>
     <string name="call_incoming_video_is_off">Slökkt er á mynd hjá þér</string>
-    <string name="call_incoming_will_disconnect">Ef þessu símtali er svarað lýkur myndsímtalinu</string>
+    <string name="call_incoming_will_disconnect">Ef þessu símtali er svarað lýkur hinu símtalinu</string>
     <string name="call_incoming_will_disconnect_app">Ef þessu er svarað lýkur símtalinu í %1$s</string>
     <string name="call_isdn">Hringja í ISDN-númer</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Setja á bannlista / tilkynna</string>
@@ -255,6 +270,7 @@ Upptökurnar eru aðeins geymdar í símanum þínum. ^1"</string>
     <string name="call_reason_fragment_content_description">Ástæða símtals: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Upptaka vistuð.</string>
     <string name="call_recording_conversation_history_entry">Upptaka</string>
+    <string name="call_recording_delete_snack_bar_undo">Afturkalla</string>
     <string name="call_recording_disclaimer_agreen_button_text">Hefja upptöku</string>
     <string name="call_recording_disclaimer_content">"Þú eða hinn aðili símtalsins kunnið að vera á stað þar sem skylda er að allir veiti samþykki sitt fyrir upptöku. Allir hlutaðeigandi fá fyrirfram tilkynningu um að símtalið sé tekið upp. Þú verður að fara að gildandi lögum um upptökur samtala. Notaðu símtalsupptökur á ábyrgan hátt og kveiktu aðeins á þeim þegar nauðsyn krefur.
 ^1
@@ -291,6 +307,7 @@ Upptökurnar eru aðeins geymdar í símanum þínum."</string>
 Enginn fær senda hljóðupptöku eða umritun á símtalinu, ekki heldur Google."</string>
     <string name="call_screen_demo_page_4_title">Sparaðu þér tíma og fyrirhöfn</string>
     <string name="call_screen_demo_setting_title">Sjá kynningu</string>
+    <string name="call_screen_demo_settings_title">Sjá kynningu</string>
     <string name="call_screen_demo_title">Svona virkar Call Screen</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Ekki er hægt að sækja hljóðdæmi</string>
     <string name="call_screen_demo_unable_to_play_audio">Ekki er hægt að spila hljóðdæmi</string>
@@ -298,6 +315,7 @@ Enginn fær senda hljóðupptöku eða umritun á símtalinu, ekki heldur Google
     <string name="call_screen_end_call_local_internal_message">Þú laukst símtalinu</string>
     <string name="call_screen_end_call_non_local_internal_message">Símtalið slitnaði</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen virkar í þínu tæki, án Wi-Fi eða farsímagagna. Umritun á samtölum fer aðeins fram í símanum og er vistuð þar. %1$s</string>
+    <string name="call_screen_how_it_works_title">Símtalasía virkar í þínu tæki, án Wi-Fi eða farsímagagna. Umritun á samtölum fer aðeins fram í símanum og er vistuð þar. ^1</string>
     <string name="call_screen_incallui_chip_text">Sía símtal</string>
     <string name="call_screen_join_call_button_content_description">Tengjast símtali</string>
     <string name="call_screen_join_call_internal_message">Þú tengdist símtalinu</string>
@@ -307,6 +325,7 @@ Enginn fær senda hljóðupptöku eða umritun á símtalinu, ekki heldur Google
     <string name="call_screen_saying_to_the_caller_state">Segir við hringjandann</string>
     <string name="call_screen_screening_call_from">Síar símtal frá</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Hátalarahnappur</string>
     <string name="call_screen_suggestions_avatar_content_description">Lógó</string>
     <string name="call_screen_survey_cancel_button">Hætta við</string>
@@ -331,6 +350,8 @@ Enginn fær senda hljóðupptöku eða umritun á símtalinu, ekki heldur Google
     <string name="call_work">Hringja í vinnusíma</string>
     <string name="call_work_mobile">Hringja í vinnufarsíma</string>
     <string name="call_work_pager">Hringja í vinnusímboða</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">%1$s berst frá %2$s á SIM-kortið %3$s</string>
     <string name="caller_id_announcement_single_sim">%1$s berst frá %2$s</string>
     <string name="caller_id_business_data_details">Gögn sem notuð eru í þessum eiginleikum koma frá Google og leyfisveitendum þess. ^1</string>
@@ -370,6 +391,9 @@ Enginn fær senda hljóðupptöku eða umritun á símtalinu, ekki heldur Google
     <string name="calling_blocked_number_precall_dialog_title">Hringja í %s?</string>
     <string name="calllog_add_to_contact">Bæta við tengilið</string>
     <string name="calllog_create_new_contact">Búa til nýjan tengilið</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Myndavélarheimild virk</string>
     <string name="camera_privacy_text">Myndavélarheimild virk</string>
     <string name="cannot_understand_description">Ég skil ekki</string>
     <string name="car_crash_emergency_intro">"Verið er að hafa samband við þig í gegnum sjálfvirka neyðarraddþjónustu af hálfu þess sem hringir.
@@ -392,7 +416,7 @@ Vinsamlega sendu hjálp."</string>
     <string name="character_counter_overflowed_content_description">Yfir hámarksstafafjölda, %1$d af %2$d</string>
     <string name="checkbox_report_as_spam_action">Tilkynna símtal sem ruslnúmer</string>
     <string name="child_number">úr %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Velja tengilið</string>
     <string name="clear_button_content_description">Hreinsa leit</string>
     <string name="clear_text_end_icon_content_description">Hreinsa texta</string>
     <string name="cli_not_supported_text">Opnaðu símann til að halda áfram</string>
@@ -432,6 +456,9 @@ Vinsamlega sendu hjálp."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Ekki var hægt að setja upp staðfest símtöl Hægt er að kveikja á þessu aftur í stillingum.</string>
     <string name="contact_card_video_icon_content_description">Hringja myndsímtal í ^1</string>
     <string name="contact_grid_callback_number">Símanúmer þessa síma: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Símtalið var framsent</string>
+    <string name="contact_grid_hd_icon_content_description">HD-símtal</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus-símtal</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Myndsímtal um símkerfi frá</string>
     <string name="contact_grid_incoming_reception_only_video_call">Myndsímtal um símkerfi í 1 átt frá</string>
     <string name="contact_grid_incoming_rtt_call">RTT-símtal frá</string>
@@ -442,9 +469,18 @@ Vinsamlega sendu hjálp."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi myndsímtal frá</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Myndsímtal um Wi-Fi í 1 átt frá</string>
     <string name="contact_grid_incoming_work_call">Vinnusímtal berst frá</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Samnýtt gagnasímtal</string>
+    <string name="contact_grid_spam_icon_content_description">Ruslsímtal</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Símafyrirtæki</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Staðfest af %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Gilt númer</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE-myndsímtal</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">WiFi-myndsímtal</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G-símtal</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE-símtal</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">WiFi-símtal</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi símtal</string>
+    <string name="contact_grid_work_icon_content_description">Vinnusímtal</string>
     <string name="contact_menu_add_favorite">Uppáhald</string>
     <string name="contact_menu_contact_info">Samskiptauppl.</string>
     <string name="contact_menu_invite_video">Bjóða í myndsímtal</string>
@@ -479,8 +515,12 @@ Vinsamlega sendu hjálp."</string>
     <string name="conversation_history_call_details_header_today">Í dag</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Símtali eytt</string>
     <string name="conversation_history_call_details_snack_bar_undo">Afturkalla</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Mikilvægt símtal</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Sýna viðbótarupplýsingar um símtal</string>
+    <string name="conversation_history_call_recording_deleted">Upptöku eytt</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Textauppskrift og hljóð</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Textauppskrift</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">Afrita</string>
     <string name="copy_number">Afrita númer</string>
@@ -499,12 +539,17 @@ Vinsamlega sendu hjálp."</string>
     <string name="custom_prefix_default_prefix_title">Default prefix</string>
     <string name="custom_prefix_prefixes_preference_title">Forskeyti</string>
     <string name="dark_theme_label">Dökkt</string>
+    <string name="default_changed_confirmation">Sími var valið sem sjálfgefið</string>
+    <string name="default_image_content_description">Mynd á biðskjá</string>
     <string name="delete">Eyða</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Eyða öllum upptökum</string>
     <string name="delete_all_recordings_now_error_message">Ekki var hægt að eyða tilteknum upptökum. Reyndu aftur.</string>
     <string name="delete_button_label">Eyða öllum upptökum núna</string>
     <string name="delete_confirmation_dialog_negative_button_label">Hætta við</string>
     <string name="delete_confirmation_dialog_positive_button_label">Eyða</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Eyðir upptöku…</string>
     <string name="description_add_to_existing_contact_action">Bæta ^1 við fyrirliggjandi tengilið</string>
     <string name="description_blocked_number_list_delete">Taka númer af bannlista</string>
     <string name="description_call_action">Hringja í ^1</string>
@@ -607,6 +652,7 @@ Vinsamlega sendu hjálp."</string>
     <string name="emergency_sos_emergency_intro">"Þetta er sjálfvirk neyðarraddþjónustu fyrir hönd hringjanda.
 Hringjandinn gaf til kynna að hann gæti verið í hættu. 
 Sendu aðstoð."</string>
+    <string name="emergency_speaker">Hátalari</string>
     <string name="emergency_voice_assist_dialog_button_close">Hætta við</string>
     <string name="emergency_voice_assist_dialog_title">Neyðarþjónustufulltrúinn heyrir þetta</string>
     <string name="end_call_with_default_message_description">Ljúka símtali</string>
@@ -636,9 +682,12 @@ Sendu aðstoð."</string>
     <string name="feedback_call_issue_quiet_audio">Hljóðið var of lágt</string>
     <string name="feedback_call_issue_title">Hvert var vandamálið?</string>
     <string name="feedback_title_please_rate">Gefðu gæðum símtalsins einkunn</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Snúa til að sussa</string>
     <string name="flip_to_silence_summary">Til að slökkva á hringingu móttekins símtals leggurðu símann niður á hvolf á flötu yfirborði</string>
     <string name="flip_to_silence_title">Snúa til að taka hljóð af</string>
+    <string name="foreground_notification_title">Uppfærir…</string>
     <string name="frequent_contact_suggestion">Oft hringt í</string>
     <string name="general_learn_more">Frekari upplýsingar</string>
     <string name="generic_conference_call_name">Í símtali</string>
@@ -661,6 +710,7 @@ Sendu aðstoð."</string>
     <string name="how_it_works_storage_link_text">Frekari upplýsingar um hvernig upptökur eru geymdar</string>
     <string name="how_it_works_storage_template">Lokað verður á símtalsupptöku ef geymslurými símans fyllist. ^1</string>
     <string name="icon_content_description">Gluggatákn</string>
+    <string name="icon_description_shared_data_call">Samnýtt gagnasímtal</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Flytja inn númer</string>
     <string name="ims_video_heading">Myndsímtal Verizon</string>
@@ -804,6 +854,7 @@ Sendu aðstoð."</string>
     <string name="new_call_log_no_missed_calls">Þú ert ekki með nein ósvöruð símtöl</string>
     <string name="new_call_log_permission_no_calllog">Kveiktu á heimild símaforritsins til að sjá símtalaskrána þína.</string>
     <string name="new_call_log_secondary_blocked">Á bannlista</string>
+    <string name="new_call_log_secondary_verified">Staðfest símtal</string>
     <string name="new_call_log_snack_bar_deleted">Símtali eytt</string>
     <string name="new_call_log_snack_bar_undo">Afturkalla</string>
     <string name="new_call_log_unknown">Óþekkt</string>
@@ -818,8 +869,10 @@ Sendu aðstoð."</string>
     <string name="notification_action_answer_video">Myndskeið</string>
     <string name="notification_action_dismiss">Hafna</string>
     <string name="notification_action_end_call">Leggja á</string>
+    <string name="notification_action_mute_toggle">Þagga</string>
     <string name="notification_action_speaker_off">Slökkva á hátalara</string>
     <string name="notification_action_speaker_on">Kveikja á hátalara</string>
+    <string name="notification_action_speaker_toggle">Hátalari</string>
     <string name="notification_callReasonMsg">Ástæða: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi símtal</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi vinnusímtal</string>
@@ -883,6 +936,8 @@ Sendu aðstoð."</string>
     <string name="place_ims_button_content_description">Hnappur til að hringja myndsímtal gegnum símafyrirtæki.</string>
     <string name="play">Spila</string>
     <string name="plus_code_line_format">Plúskóði: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Segðu hvers vegna þú hringdir</string>
     <string name="post_call_message_1">Þetta er áríðandi. Hringdu í mig.</string>
     <string name="post_call_message_2">Hringdu í mig þegar þú hefur tíma.</string>
@@ -913,6 +968,8 @@ Sendu aðstoð."</string>
     <string name="privacy_policy_label">Persónuverndarstefna</string>
     <string name="private_num_non_verizon">Leyninúmer</string>
     <string name="private_num_verizon">Einkanúmer</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Velja tengilið</string>
     <string name="ready_for_recording">Tilbúið…</string>
     <string name="record_greeting_cancel_label">Hætta við</string>
@@ -928,6 +985,8 @@ Sendu aðstoð."</string>
     <string name="record_greeting_uploading_greeting_message">Vistar…</string>
     <string name="record_voicemail_greeting_title">Taka upp kveðju</string>
     <string name="recording_category_title">Upptökur</string>
+    <string name="recording_deleted">Upptöku eytt</string>
+    <string name="recording_deletion_failed">Ekki tókst að eyða upptöku [Reyna aftur]</string>
     <string name="redo_button_text">Reyna aftur</string>
     <string name="remember_this_choice_label">Muna þetta val</string>
     <string name="report_not_spam_alert_button">Tilkynna</string>
@@ -939,9 +998,20 @@ Sendu aðstoð."</string>
     <string name="request_call_back_description">Hringdu í mig</string>
     <string name="request_email_description">Sendu mér tölvupóst</string>
     <string name="respond_via_sms_setting_title">Snarsvör</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Kveikja</string>
     <string name="revelio_end_call_reject_as_spam">Símtalið var merkt sem rusl</string>
     <string name="revelio_end_call_user_missed_internal_message">Þú misstir af símtalinu</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT (símtöl með texta í rauntíma) aðstoðar heyrnarlausa og fólk með heyrnarskerðingu eða skerta talgetu og þá sem þurfa að styðja sig við meira en bara hljóð. ^1</string>
     <string name="rtt_assist_for_att">Lyklaborð texta í rauntíma á skjánum (RTT) kemur í stað ytra lyklaborðs fjarrita. Þegar þú sendir skilaboð á meðan á RTT-símtali stendur getur einstaklingurinn sem þú talar við séð þig slá inn skilaboðin í rauntíma. ^1</string>
     <string name="rtt_assist_for_tmo">Lyklaborð texta í rauntíma á skjánum (RTT) kemur í stað ytra lyklaborðs fjarrita. RTT sendir það sem þú slærð inn samstundis meðan símtal stendur yfir, og þannig geturðu átt í textasamskiptum í rauntíma. Þú sérð hluta úr svörum áður en skilaboðunum er lokið. ^1</string>
@@ -949,7 +1019,8 @@ Sendu aðstoð."</string>
     <string name="rtt_button_back">Til baka</string>
     <string name="rtt_button_downgrade">Skipta yfir í símtal</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT er ekki í boði fyrir þetta símtal. Símtalið hefur verið tengt sem raddsímtal.</string>
+    <string name="rtt_call_downgraded_toast">RTT-símtalinu var breytt í raddsímtal</string>
+    <string name="rtt_call_not_available_toast">RTT er ekki í boði fyrir þetta símtal</string>
     <string name="rtt_configuration_summary_always_visible">Hnappur fyrir texta í rauntíma er aðgengilegur alls staðar</string>
     <string name="rtt_configuration_summary_not_visible">Leyfa móttekin símtöl með texta í rauntíma en fela símtalahnapp</string>
     <string name="rtt_configuration_summary_visible_during_call">Sýna hnapp fyrir texta í rauntíma meðan á símtali stendur</string>
@@ -978,6 +1049,8 @@ Sendu aðstoð."</string>
     <string name="rtt_transcript_link">Sjá textauppskrift</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Þessi skilaboð verða endurtekin.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Vista</string>
     <string name="saved_voicemails_action_title">Vistuð talhólfsskilaboð (%1$s)</string>
     <string name="search_hint">Leita að tengiliðum fyrir myndsímtal</string>
@@ -1004,8 +1077,11 @@ Sendu aðstoð."</string>
     <string name="send_a_message">Senda skilaboð</string>
     <string name="send_to_voicemail_import_failed">Innflutningur mistókst</string>
     <string name="serial_number">Raðnúmer</string>
+    <string name="set_as_default_button_text">Velja sem sjálfgefið</string>
     <string name="set_default_account">Nota þetta alltaf fyrir símtöl</string>
     <string name="set_default_account_description">Valið SIM-kort er vistað fyrir tengiliði þína.</string>
+    <string name="set_phone_as_default_explanation_text">Sími getur aðeins hafið og móttekið símtöl ef það er sjálfgefna símaforritið þitt</string>
+    <string name="set_phone_as_default_request_text">Velja Sími sem sjálfgefið</string>
     <string name="settings">Stillingar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Símtalsupptaka er ekki boði á þínu svæði</string>
     <string name="settings_page_crosby_feature_not_available_text">Ekki í boði á þínu svæði</string>
@@ -1040,6 +1116,8 @@ Sendu aðstoð."</string>
     <string name="snackbar_undo">Afturkalla</string>
     <string name="snackbar_voicemail_deleted">Talhólfi eytt</string>
     <string name="sounds_and_vibration_title">Hljóð og titringur</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Rusl og Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Hunsa</string>
     <string name="spam_blocking_promo_action_filter_spam">Sía símtöl úr ruslnúmerum</string>
@@ -1066,8 +1144,6 @@ Sendu aðstoð."</string>
     <string name="speed_dial_add_button_text">Bæta við</string>
     <string name="speed_dial_contacts_permission_description">Kveiktu á tengiliðaheimildinni til að gera hraðval virkt.</string>
     <string name="speed_dial_disambig_dialog_title">Veldu hvernig á að hringja í %s</string>
-    <string name="speed_dial_education_content">Haltu inni hvaða tengilið sem er til að skipta á milli símtala og skilaboða</string>
-    <string name="speed_dial_education_title">Fleiri leiðir til að hafa samband</string>
     <string name="speed_dial_no_contacts_action_text">Bæta uppáhaldi við</string>
     <string name="speed_dial_no_contacts_description">Hringdu í uppáhaldstengiliðina þína með einni snertingu</string>
     <string name="speed_dial_remember_this_choice">Muna þetta val</string>
@@ -1095,11 +1171,15 @@ Sendu aðstoð."</string>
     <string name="terms_of_service_label">Þjónustuskilmálar</string>
     <string name="textmessage_button_label">Skilaboð</string>
     <string name="theme_preference_label">Veldu þema</string>
+    <string name="tidepods_call_screen_settings_title">Símtalasía</string>
+    <string name="tidepods_incall_label_record">Taka upp</string>
     <string name="toast_text_copied">Texti afritaður</string>
     <string name="toolbar_back">Til baka</string>
     <string name="toolbar_close">Loka</string>
-    <string name="transcript_audio_feedback_chip_text">Help us improve</string>
+    <string name="transcript_audio_feedback_chip_text">Hjálpaðu okkur að gera betur</string>
+    <string name="transcript_audio_feedback_link_text">Sjá textauppskrift og hljóð</string>
     <string name="transcript_snippet_low_confidence_description">(Hljóð heyrðist illa)</string>
+    <string name="try_again_button">Reyna aftur</string>
     <string name="tty_configuration_title_tty_full">TTY að fullu</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">Slökkt á TTY</string>
@@ -1121,7 +1201,6 @@ Sendu aðstoð."</string>
     <string name="type_outgoing_video_pulled">Hringt myndsímtal flutt í annað tæki</string>
     <string name="type_rejected">Símtali hafnað</string>
     <string name="type_voicemail">Talhólf</string>
-    <string name="unable_change_value_error">Vandamál kom upp við að breyta RTT stillingum. Farðu til baka og reyndu aftur.</string>
     <string name="unable_read_value_error">Vandamál kom upp við að lesa RTT stillingar. Farðu til baka og reyndu aftur.</string>
     <string name="unblock_number">Taka af bannlista</string>
     <string name="unblock_number_alert_details">Þetta númer verður tekið af bannlista og ekki tilkynnt sem ruslnúmer. Ekki er lokað á símtöl.</string>
@@ -1130,6 +1209,7 @@ Sendu aðstoð."</string>
     <string name="unblock_number_ok">Taka af bannlista</string>
     <string name="unblock_report_number_alert_title">Taka %1$s af bannlista?</string>
     <string name="unknown">Óþekkt</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Kveikja á mótteknu hljóði</string>
     <string name="user_is_busy_description">Ég hringi til baka</string>
@@ -1241,10 +1321,17 @@ Gagnanotkun á við ef þú heldur símtalinu áfram."</string>
     <string name="videocall_remote_video_on">Kveikt er á myndskeiði viðkomandi</string>
     <string name="videocall_remotely_held">Símtal í bið</string>
     <string name="videocall_remotely_resumed">Símtal heldur áfram</string>
+    <string name="videocall_settings_default_carrier">Myndsímtöl um símkerfi</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Sjálfgefin þjónusta myndsímtala</string>
+    <string name="videocall_settings_fallback_summary">Skipta yfir í Duo ef myndsímtöl um símkerfi eru ekki í boði</string>
+    <string name="videocall_settings_fallback_title">Nota Duo til vara</string>
+    <string name="videocall_settings_title">Myndsímtal</string>
     <string name="videocall_show_preview_button_description">Sýna staðbundinn vídeóstraum</string>
     <string name="view">Skoða</string>
     <string name="view_location_settings">Staðsetningarstillingar</string>
     <string name="vitle_label">Mynd í LTE</string>
+    <string name="viwifi_label">WiFi-myndsímtal</string>
     <string name="vm_change_pin_error_invalid">Nýja PIN-númerið inniheldur ógilda stafi.</string>
     <string name="vm_change_pin_error_mismatch">Gamla PIN-númerið passar ekki.</string>
     <string name="vm_change_pin_error_system_error">Ekki var hægt að breyta PIN-númerinu</string>
@@ -1254,8 +1341,11 @@ Gagnanotkun á við ef þú heldur símtalinu áfram."</string>
     <string name="vm_change_pin_progress_message">Augnablik.</string>
     <string name="voice_call">Símtal</string>
     <string name="voice_call_button">Hringja</string>
+    <string name="voice_display_name">Rödd %1$d</string>
     <string name="voice_search_not_available">Raddleit er ekki í boði</string>
     <string name="voice_selector_preference_title">Raddir í boði</string>
+    <string name="voice_settings_available_voices_text">Raddir í boði</string>
+    <string name="voice_settings_title">Rödd</string>
     <string name="voicecall_button_label">Hringja</string>
     <string name="voicecall_button_wifi_description">Hringja með Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s kl. %2$s</string>
@@ -1290,7 +1380,6 @@ Gagnanotkun á við ef þú heldur símtalinu áfram."</string>
     <string name="voicemail_donation_promo_title">Viltu hjálpa okkur að gera uppskrift nákvæmari?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Símafyrirtæki kunna að rukka fyrir notkun myndræns talhólfs fyrir SIM-kort án gagna</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Myndrænt talhólf er aðeins í boði fyrir valið SIM-kort fyrir gögn</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Ef þú ert með mörg SIM-kort og eitt er fyrir Fi verður Fi SIM-kortið notað fyrir myndrænt talhólf</string>
     <string name="voicemail_error_activating_message">Þú getur ekki fengið tilkynningar um talhólfsskilaboð fyrr en myndrænt talhólf er virkjað að fullu. Hringdu í talhólfið til að sækja ný skilaboð þar til talhólfið hefur verið virkjað að fullu.</string>
     <string name="voicemail_error_activating_title">Virkjar myndrænt talhólf</string>
     <string name="voicemail_error_activation_disabled_message">Hringdu í talhólf til að ljúka uppsetningu þess</string>
@@ -1397,6 +1486,7 @@ Gagnanotkun á við ef þú heldur símtalinu áfram."</string>
     <string name="vvm3_error_vms_no_cellular_title">Ekki tókst að tengjast talhólfinu</string>
     <string name="vvm3_error_vms_timeout_message">Því miður kom upp vandamál. Reyndu aftur seinna. Ef vandamálið heldur áfram skaltu hafa samband við þjónustudeild í síma %1$s og gefa upp villukóðann 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Eitthvað fór úrskeiðis</string>
+    <string name="vvm_config_title">Stilling á myndrænu talhólfi</string>
     <string name="vvm_unsupported_message_format">Óstudd skilaboðagerð, hringdu í %s til að hlusta.</string>
     <string name="wait_prompt_str">"Senda eftirfarandi tóna?
 "</string>

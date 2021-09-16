@@ -341,13 +341,15 @@ Pajisja nuk u përgatit"</string>
 
 "<li>"Çdo përdorues tjetër mund t'i pranojë lejet e përditësuara të aplikacioneve"</li>"
 
-"<li>Ndaje këtë telefon vetëm me personat që u beson</li></ul>}TABLET{<b>E rëndësishme:</b>"
+"<li>Ndaje këtë telefon vetëm me personat që u beson</li></ul>"
+}TABLET{"<b>E rëndësishme:</b>"
 
 "<ul><li>Zotëruesi i tabletit mund të çinstalojë aplikacionet e tua ose ta heqë plotësisht profilin tënd të përdoruesit</li>"
 
 "<li>"Çdo përdorues tjetër mund t'i pranojë lejet e përditësuara të aplikacioneve"</li>"
 
-"<li>Ndaje këtë tablet vetëm me personat që u beson</li></ul>}other{<b>E rëndësishme:</b>"
+"<li>Ndaje këtë tablet vetëm me personat që u beson</li></ul>"
+}other{"<b>E rëndësishme:</b>"
 
 "<ul><li>Zotëruesi i pajisjes mund të çinstalojë aplikacionet e tua ose ta heqë plotësisht profilin tënd të përdoruesit</li>"
 
@@ -359,70 +361,47 @@ Pajisja nuk u përgatit"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të telefonit.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
-"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"}TABLET{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të tabletit.
+"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"
+}TABLET{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të tabletit.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
-"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"}other{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të pajisjes.
+"<li>mund të konfigurosh automatikisht orën dhe datën</li>"
+}other{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të pajisjes.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
 "<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të telefonit.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të shkarkosh një kartë SIM</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
-"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"}TABLET{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të tabletit.
+"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"
+}TABLET{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të tabletit.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të shkarkosh një kartë SIM</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
-"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"}other{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të pajisjes.
+"<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>"
+}other{Lidhja me një rrjet Wi‑Fi ose celular ndihmon në konfigurimin e shpejtë të pajisjes.
 
 Nëse nuk ke një lidhje:
-
 "<li>Nuk mund të identifikohesh në \"Llogarinë tënde të Google\"</li>"
-
 "<li>Nuk mund të restaurosh aplikacionet dhe të dhënat</li>"
-
 "<li>Nuk mund të shkarkosh një kartë SIM</li>"
-
 "<li>Nuk mund të marrësh përditësime të softuerëve</li>"
-
 "<li>Nuk mund të konfigurosh automatikisht orën dhe datën</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pika e qasjes është përkohësisht plot</string>
     <string name="wifi_check_password_try_again">Kontrollo fjalëkalimin dhe provo sërish</string>

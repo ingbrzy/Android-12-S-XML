@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">"Langues et modes d'entrée"</string>
     <string name="lift_to_wake_title">Soulever pour activer</string>
-    <string name="lockdown_settings_summary">"Affichez l'option de l'interrupteur qui désactive Smart Lock, le déverrouillage par reconnaissance faciale, le déverrouillage par empreinte digitale et les notifications sur l'écran de verrouillage"</string>
-    <string name="lockdown_settings_title">"Afficher l'option de verrouillage"</string>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_up_description">Revenir en arrière</string>
     <string name="locked_work_profile_notification_title">Lorsque le profil professionnel est verrouillé</string>
     <string name="lockscreen_bypass_summary">Après le déverrouillage, accéder directement au dernier écran utilisé</string>
     <string name="lockscreen_bypass_title">"Ignorer l'écran de verrouillage"</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notifications professionnelles</string>
     <string name="reset_dashboard_summary">"Vous pouvez réinitialiser le réseau, les applications ou l'appareil"</string>
     <string name="reset_dashboard_title">Options de réinitialisation</string>
-    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_menu_overflow_description">Autres options</string>
     <string name="screensaver_settings_title">Écran de veille</string>
     <string name="screen_timeout">"Mise en veille de l'écran"</string>
     <string name="screen_zoom_title">"Taille d'affichage"</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">"Augmente automatiquement la fréquence d'actualisation de 60 Hz à 90 Hz pour certains contenus. Cette fonction sollicite davantage la pile de l'appareil."</string>
     <string name="accessibility_vibration_settings_title">Vibrations et rétroactions haptiques</string>
     <string name="emergency_gesture_screen_title">"Appel d'urgence"</string>
-    <string name="abc_action_bar_up_description">Revenir en arrière</string>
+    <string name="abc_action_mode_done">Terminé</string>
     <string name="vibrate_for_calls_category_title">Appels</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Afficher le portefeuille</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Afficher les commandes des appareils</string>
     <string name="lockscreen_privacy_wallet_summary">"Autorisez l'accès au portefeuille à partir de l'écran de verrouillage et du menu Paramètres rapides"</string>
     <string name="lockscreen_privacy_controls_summary">"Accéder aux commandes lorsque l'écran est verrouillé"</string>
-    <string name="abc_action_menu_overflow_description">Autres options</string>
-    <string name="abc_action_mode_done">Terminé</string>
     <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
     <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
     <string name="abc_capital_off">DÉSACTIVER</string>
@@ -206,7 +204,7 @@ Ce ne sont pas toutes les applications qui prennent en charge ce paramètre."</s
     <string name="accessibility_disable_animations">Supprimer les animations</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">"Ajustez l'affichage des couleurs sur votre appareil. Ce paramètre peut être utile si vous voulez :&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;Mieux distinguer les couleurs&lt;/li> &lt;li>&amp;nbsp;Enlever les couleurs pour vous aider à vous concentrer&lt;/li> &lt;/ol>"</string>
     <string name="accessibility_display_daltonizer_preference_title">Correction des couleurs</string>
-    <string name="accessibility_display_inversion_preference_subtitle">"L'inversion des couleurs assombrit les écrans lumineux.&lt;br/>&lt;br/> Remarque : &lt;ol> &lt;li&amp;gtL'inversion des couleurs éclaircit aussi les écrans sombres.&lt;/li> &lt;li>Les couleurs changeront dans les éléments multimédias et les images.&lt;/li> &lt;li>Le thème sombre peut être utilisé pour afficher un arrière-plan sombre. Le thème sombre fonctionne avec les applications prises en charge. L'inversion des couleurs fonctionne avec toutes les applications.&lt;/li> &lt;/ol>"</string>
+    <string name="accessibility_display_inversion_preference_subtitle">"L'inversion des couleurs assombrit les écrans lumineux.&lt;br/>&lt;br/> Remarque : &lt;ol> &lt;li> L'inversion des couleurs éclaircit aussi les écrans sombres.&lt;/li> &lt;li> Les couleurs changeront dans les éléments multimédias et les images.&lt;/li> &lt;li> Le thème sombre peut être utilisé pour afficher un arrière-plan sombre. Le thème sombre fonctionne avec les applications prises en charge. L'inversion des couleurs fonctionne avec toutes les applications.&lt;/li> &lt;/ol>"</string>
     <string name="accessibility_display_inversion_preference_title">Inversion des couleurs</string>
     <string name="accessibility_display_inversion_switch_title">"Utiliser l'inversion des couleurs"</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
@@ -989,7 +987,7 @@ Une fois qu'il est réinitialisé, suivez le processus de configuration et chois
     <string name="battery_sugg_display">"Réduire la luminosité et/ou le délai de mise en veille de l'écran"</string>
     <string name="battery_sugg_radio">Passez en mode Avion pour économiser la batterie dans les zones sans couverture cellulaire.</string>
     <string name="battery_sugg_wifi">"Désactivez le Wi-Fi lorsque vous ne l'utilisez pas ou qu'il n'est pas disponible."</string>
-    <string name="battery_suggestion_summary">Activer le gestionnaire de pile adaptatif</string>
+    <string name="battery_suggestion_summary">Activez le gestionnaire de pile adaptatif</string>
     <string name="battery_suggestion_title">"Améliorer l'autonomie du téléphone"</string>
     <string name="battery_summary">Usage depuis la dernière charge complète : %1$s</string>
     <string name="battery_summary_24hr">"%1$s d'utilisation au cours des 24 dernières heures"</string>
@@ -1021,7 +1019,7 @@ Applications :"</string>
 
 Applications :
 %1$s."</string>
-    <string name="battery_tip_smart_battery_summary">Activer le gestionnaire de pile adaptatif</string>
+    <string name="battery_tip_smart_battery_summary">Activez le gestionnaire de pile adaptatif</string>
     <string name="battery_tip_smart_battery_title">"Améliorer l'autonomie de la pile"</string>
     <string name="battery_tip_summary_summary">"Le téléphone utilise une quantité normale d'énergie en arrière-plan"</string>
     <string name="battery_tip_summary_title">Les applications fonctionnent normalement</string>
@@ -3178,7 +3176,7 @@ D'autres personnes utilisent cet appareil.
     <string name="managed_profile_settings_title">Paramètres du profil professionnel</string>
     <string name="managed_user_title">Toutes les applis profess.</string>
     <string name="manager_battery_usage_footer">La modification de la manière dont une application utilise la pile peut avoir une incidence sur ses performances.</string>
-    <string name="manager_battery_usage_footer_limited">Cette application nécessite une utilisation de la pile %1$s.</string>
+    <string name="manager_battery_usage_footer_limited">Cette application nécessite une utilisation de la pile sans %1$s.</string>
     <string name="manager_battery_usage_link_a11y">"En savoir plus à propos des options d'utilisation de la pile"</string>
     <string name="manager_battery_usage_optimized_only">optimisée</string>
     <string name="manager_battery_usage_optimized_summary">Optimiser en fonction de votre usage. Ce réglage est recommandé pour la plupart des applications.</string>
@@ -4021,7 +4019,7 @@ Appuyez simultanément sur l'interrupteur et le bouton d'augmentation du volume.
     <string name="reduce_bright_colors_intensity_preference_title">Intensité</string>
     <string name="reduce_bright_colors_intensity_start_label">Diminuer</string>
     <string name="reduce_bright_colors_persist_preference_title">"Laisser activé après le redémarrage de l'appareil"</string>
-    <string name="reduce_bright_colors_preference_subtitle">"Rendez l'écran plus sombre pour qu'il soit plus facile à lire.&lt;br/>&lt;br/> Cela peut être pratique dans certains cas : &lt;ol> &lt;li> La luminosité minimale par défaut de votre téléphone est quand même trop intense&lt;/li> &lt;li> Vous utilisez votre téléphone dans un environnement sombre, comme la nuit ou dans une salle sombre avant d'aller vous coucher&lt;/li> &lt;/ol>"</string>
+    <string name="reduce_bright_colors_preference_subtitle">"Rendez l'écran plus sombre pour qu'il soit plus facile à lire.&lt;br/>&lt;br/> Cela peut être pratique dans certains cas : &lt;ol> &lt;li> La luminosité minimale par défaut de votre téléphone est quand même trop intense&lt;/li> &lt;li> Vous utilisez votre téléphone dans un environnement sombre, comme la nuit ou dans une salle sombre avant d'aller vous coucher&lt;/li> &lt;/ol>"</string>
     <string name="reduce_bright_colors_preference_summary">"Assombrir l'écran de votre téléphone au-delà de sa luminosité minimale"</string>
     <string name="reduce_bright_colors_preference_title">Réduction supplémentaire de la luminosité</string>
     <string name="reduce_bright_colors_switch_title">Activer la réduction suppl. de la luminosité</string>
@@ -4132,7 +4130,7 @@ Retournez votre appareil pour essayer."</string>
     <string name="reverse_charging_power_save_mode_is_on_message">"Cette option n'est pas accessible parce que l'économiseur de pile est activé"</string>
     <string name="reverse_charging_sharing_level_message">"Cette fonctionnalité n'est pas accessible parce que le niveau de charge de la pile est sous le seuil autorisé pour le partage"</string>
     <string name="reverse_charging_switch_summary">"Placez les appareils à l'arrière de votre Pixel"</string>
-    <string name="reverse_charging_switch_title">"Recharger d'autres appareils en les plaçant sur le dos de votre Pixel"</string>
+    <string name="reverse_charging_switch_title">"Rechargez d'autres appareils en les plaçant sur le dos de votre Pixel"</string>
     <string name="reverse_charging_switch_title_message">"Recharger d'autres appareils"</string>
     <string name="reverse_charging_title">Partage de la pile</string>
     <string name="reverse_charging_unplug_usb_cable_message">"Cette fonctionnalité n'est pas accessible parce qu'un appareil USB-C est branché"</string>
@@ -4744,7 +4742,7 @@ Le NIP est peut-être incorrect."</string>
     <string name="skip_lock_screen_dialog_button_label">Ignorer</string>
     <string name="slot_number">(Fente %1$d)</string>
     <string name="smart_battery_footer">"Pour prolonger l'autonomie de la pile, le gestionnaire de pile adaptatif peut réduire la performance ou l'activité en arrière-plan. Certaines notifications pourraient s'afficher plus tard."</string>
-    <string name="smart_battery_manager_title">Préférences du gestionnaire de pile adaptatif et de la recharge adaptative</string>
+    <string name="smart_battery_manager_title">Préférences adaptatives</string>
     <string name="smart_battery_summary">"Prolongez l'autonomie de la pile en fonction de l'usage que vous faites de votre téléphone"</string>
     <string name="smart_battery_title">Gestionnaire de pile adaptatif</string>
     <string name="smart_forwarding_failed_not_activated_text">"La carte SIM n'est pas activée."</string>
@@ -6000,7 +5998,7 @@ Donner cette autorisation à toutes les applications souhaitant activer la reche
     <string name="wifitrackerlib_speed_label_slow">Lente</string>
     <string name="wifitrackerlib_speed_label_very_fast">Très rapide</string>
     <string name="wifitrackerlib_speed_label_very_slow">Très lente</string>
-    <string name="wifitrackerlib_summary_separator">" : "</string>
+    <string name="wifitrackerlib_summary_separator">" / "</string>
     <string name="wifitrackerlib_tap_to_renew_subscription_and_connect">"Touchez pour renouveler l'abonnement et vous connecter"</string>
     <string name="wifitrackerlib_tap_to_sign_up">Toucher pour vous inscrire</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">"Le point d'accès est temporairement plein"</string>

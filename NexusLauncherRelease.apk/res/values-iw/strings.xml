@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">הוספה לתיקייה עם %1$s</string>
     <string name="add_to_home_screen">הוספה למסך הבית</string>
     <string name="added_to_folder">הפריט נוסף לתיקייה</string>
+    <string name="added_to_home_screen_accessibility_text">"הווידג'ט %1$s נוסף למסך הבית"</string>
     <string name="all_apps_button_label">רשימת אפליקציות</string>
     <string name="all_apps_button_personal_label">רשימת אפליקציות אישיות</string>
     <string name="all_apps_button_work_label">רשימת אפליקציות עבודה</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">כאשר הטלפון מסובב</string>
     <string name="allow_rotation_title">סיבוב של מסך הבית</string>
     <string name="allset_description">הכול מוכן ואפשר להתחיל להשתמש בטלפון</string>
+    <string name="allset_hint">כדי לעבור לדף הבית, מחליקים כלפי מעלה</string>
+    <string name="allset_navigation_settings"><annotation id="link">הגדרות הניווט של המערכת</annotation></string>
     <string name="allset_title">הכול מוכן!</string>
     <string name="app_downloading_title">הורדת %1$s מתבצעת, %2$s הושלמו</string>
     <string name="app_info_drop_target_label">פרטי אפליקציה</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">מחכה להתקנה של %1$s</string>
     <string name="auto_add_shortcuts_description">לאפליקציות חדשות</string>
     <string name="auto_add_shortcuts_label">הוספת סמלי אפליקציות למסך הבית</string>
+    <string name="back_gesture_feedback_cancelled">חשוב להקפיד להחליק מהקצה השמאלי או הימני למרכז המסך ואז לשחרר.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">למדת איך להחליק מצד ימין כדי לחזור אחורה. בשלב הבא לומדים איך לעבור בין אפליקציות.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">"השלמת את תנועת 'הקודם'."</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">חשוב להקפיד שלא להחליק קרוב מדי לתחתית המסך.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">חשוב להקפיד להחליק מהקצה השמאלי או הימני.</string>
     <string name="back_gesture_intro_subtitle">כדי לחזור למסך הקודם, יש להחליק מהקצה השמאלי או הימני למרכז המסך.</string>
     <string name="back_gesture_intro_title">יש להחליק כדי לחזור</string>
     <string name="back_gesture_tutorial_confirm_subtitle">כדי לשנות את מידת הרגישות של תנועת החזרה, יש לעבור להגדרות</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">יש להקיש כדי לשמור שינוי שם</string>
     <string name="gadget_error_text">"לא ניתן לטעון את הווידג'ט"</string>
     <string name="gadget_setup_text">צריך להקיש כדי לסיים את תהליך ההגדרה</string>
+    <string name="gesture_tutorial_action_button_label">סיום</string>
     <string name="gesture_tutorial_action_button_label_cancel">ביטול</string>
     <string name="gesture_tutorial_action_button_label_settings">הגדרות</string>
     <string name="gesture_tutorial_action_button_label_skip">דילוג</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">אפשר להחזיק את החלון זמן רב יותר לפני שמשחררים.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">חשוב להקפיד להחליק למעלה מהקצה התחתון של המסך.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">חשוב להקפיד להחליק ישר למעלה ואז להמתין.</string>
+    <string name="overview_gesture_intro_subtitle">כדי לעבור בין אפלקציות, יש להחליק למעלה מתחתית המסך, להחזיק ולאחר מכן לשחרר.</string>
     <string name="overview_gesture_intro_title">יש להחליק כדי לעבור בין אפליקציות</string>
     <string name="overview_selection_pref_desc">במעבר בין אפליקציות, ניתן ללחוץ לחיצה ארוכה על טקסט ועל תמונות כדי לראות פעולות</string>
     <string name="overview_selection_pref_title">בחירה במסכים אחרונים</string>
@@ -241,7 +248,7 @@
     <string name="search_edu_highlight_preferences">צריך להקיש כדי לבטל את הצגת המקלדת במסך.</string>
     <string name="search_input_action_clear_results">ניקוי של תיבת החיפוש</string>
     <string name="search_input_action_show_preferences">העדפות</string>
-    <string name="search_keyboard_snackbar_prompt">להציג תמיד את המקלדת במסך?</string>
+    <string name="search_keyboard_snackbar_prompt">להציג תמיד את המקלדת במסך הזה?</string>
     <string name="search_keyboard_snackbar_turn_off">סגירה</string>
     <string name="search_keyboard_snackbar_turn_on">כן</string>
     <string name="search_menu_title">חיפוש</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">מושב</string>
     <string name="smartspace_hours_mins">%1$s, %2$s</string>
     <string name="smartspace_preferences">העדפות</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">בקצרה</string>
     <string name="smartspace_preferences_in_settings_desc">בחלק העליון של מסך הבית</string>
     <string name="smartspace_preferences_manage">התאמה אישית</string>
     <string name="smartspace_preferences_turn_off_action">השבתה</string>

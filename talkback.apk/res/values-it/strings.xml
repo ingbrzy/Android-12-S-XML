@@ -87,7 +87,7 @@
 Ora puoi continuare a scoprire nuovi argomenti o rileggere queste informazioni in qualsiasi momento dalle impostazioni di TalkBack."</string>
     <string name="all_set_title">Finito.</string>
     <string name="always_show_this_message_label">Mostra sempre questo messaggio</string>
-    <string name="application_name">"Strumenti Android per l'accessibilità"</string>
+    <string name="application_name">Accessibilità di Android</string>
     <string name="arc_android_window">"Finestra dell'applicazione"</string>
     <string name="arc_navigation_hint">Premi il tasto Cerca insieme alle frecce per spostarti</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">"Premi %1$s per visualizzare l'elenco di scorciatoie"</string>
@@ -105,7 +105,7 @@ Ora puoi continuare a scoprire nuovi argomenti o rileggere queste informazioni i
     <string name="audio_focus_state">Attenuazione automatica audio %1$s</string>
     <string name="auto_detect">Adatta in base a come tieni il dispositivo</string>
     <string name="auto_scan_action_description">Avvia la scansione e seleziona</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Scansione automatica\" o \"Seleziona\"</string>
     <string name="available_devices_header">Dispositivi Bluetooth disponibili</string>
     <string name="basic_navigation_link_subtext">Spostati tra gli elementi, scorri, utilizza i menu e molto altro</string>
     <string name="basic_navigation_link_text">Navigazione di base</string>
@@ -119,7 +119,7 @@ Ora puoi continuare a scoprire nuovi argomenti o rileggere queste informazioni i
     <string name="bluetooth_no_devices_paired">Nessun dispositivo Bluetooth accoppiato</string>
     <string name="bluetooth_not_enabled_message">Per accoppiare un sensore Bluetooth, attiva il Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Periferica</string>
-    <string name="bluetooth_permissions_not_granted_message">"Per accoppiare un sensore Bluetooth durante la configurazione guidata, attiva il Bluetooth e concedi a Strumenti Android per l'accessibilità le autorizzazioni di accesso alla posizione e ai dispositivi nelle vicinanze."</string>
+    <string name="bluetooth_permissions_not_granted_message">Per accoppiare un sensore Bluetooth durante la configurazione guidata, attiva il Bluetooth e concedi ad Accessibilità di Android le autorizzazioni di accesso alla posizione e ai dispositivi nelle vicinanze.</string>
     <string name="bluetooth_phone_content_description">Telefono</string>
     <string name="bluetooth_switch_description_text">Accoppia un sensore tramite Bluetooth grazie alla tecnologia wireless</string>
     <string name="bluetooth_switch_option_text">Sensore Bluetooth</string>
@@ -157,6 +157,9 @@ Ora puoi continuare a scoprire nuovi argomenti o rileggere queste informazioni i
     <string name="cam_switch_enable_banner_text_label_generic">Per controllare il dispositivo devi prima attivare Switch Access.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Attiva Sensori fotocamera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Attiva Switch Access</string>
+    <string name="cam_switches_combined_preferences_title">Impostazioni \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Impostazioni sensore fotocamera</string>
+    <string name="cam_switches_single_preferences_title">Impostazioni \"%s\"</string>
     <string name="camera_switches_status_active">Sensori della videocamera attivi</string>
     <string name="camera_switches_status_error">Errore</string>
     <string name="camera_switches_status_no_face">Nessun volto rilevato</string>
@@ -263,7 +266,7 @@ Fai una prova incollando una parola nella casella di testo seguente."</string>
     <string name="default_action_name_pause">Metti in pausa il Sensore fotocamera</string>
     <string name="default_action_name_point_scan">Scansione per punto</string>
     <string name="dialog_confirm_revert_to_default_menu">Conferma</string>
-    <string name="dialog_do_not_disturb_permission_message">"Per regolare il volume dal menu di Switch Access, attiva l'accesso alla funzionalità Non disturbare per l'app Strumenti Android per l'accessibilità."</string>
+    <string name="dialog_do_not_disturb_permission_message">"Per regolare il volume dal menu di Switch Access, attiva l'accesso alla funzionalità Non disturbare per la suite di strumenti Accessibilità di Android."</string>
     <string name="dialog_do_not_disturb_permission_title">"Switch Access richiede l'autorizzazione per regolare il volume"</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Apri impostazioni</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Per funzionare, i Sensori fotocamera devono scaricare circa 10 MB di dati aggiuntivi. Questa operazione durerà circa un minuto, a seconda della velocità della tua rete.</string>
@@ -399,6 +402,7 @@ Prova subito questo gesto toccando lo schermo e trascinando verso l'angolo in ba
     <string name="fallback_menu_item_open_in_browser">Apri nel browser</string>
     <string name="fallback_menu_item_share_link">Condividi link</string>
     <string name="fast_radio_button_title">Veloce (%1$s s di ritardo)</string>
+    <string name="fast_radio_button_title_content_description">Veloce (%1$s secondi di ritardo)</string>
     <string name="find_finish_button_text">Scorri verso destra per trovare il pulsante Fine.</string>
     <string name="finish">Fine</string>
     <string name="finish_tutorial_announcement">"È visualizzata la tastiera braille. Gira il telefono in modo tale che lo schermo sia rivolto verso l'esterno. Gira il telefono in orizzontale e inizia a digitare."</string>
@@ -683,7 +687,7 @@ Nome interno: %1$s"</string>
     <string name="label_import">Importa etichette personalizzate</string>
     <string name="label_import_dialog_message">Scegli se sostituire o ignorare le etichette esistenti in caso di conflitto</string>
     <string name="label_import_dialog_override">Sostituisci</string>
-    <string name="label_import_dialog_skip">Ignora</string>
+    <string name="label_import_dialog_skip">Salta</string>
     <string name="label_import_dialog_title">Importa etichette personalizzate in TalkBack</string>
     <string name="label_import_failed">Importazione delle etichette non riuscita</string>
     <string name="label_manager_no_packages_message">"Al momento non ci sono etichette personalizzate. Puoi crearne una passando a un'immagine senza etichetta e aggiungendone una dal menu TalkBack."</string>
@@ -747,6 +751,7 @@ Nome interno: %1$s"</string>
     <string name="list_index_template">%1$d di %2$d</string>
     <string name="lockscreen_label">Schermata di blocco</string>
     <string name="medium_radio_button_title">Media (%1$s s di ritardo)</string>
+    <string name="medium_radio_button_title_content_description">Media (%1$s secondi di ritardo)</string>
     <string name="menu_category_reading_controls">Lettura</string>
     <string name="menu_category_special_features">Funzionalità speciali</string>
     <string name="menus_selector_text">"Queste scorciatoie possono aiutarti a modificare rapidamente le impostazioni, ad esempio per passare dalla navigazione per caratteri a quella per parole o cambiare la velocità della voce di TalkBack.
@@ -767,6 +772,7 @@ Apri subito il menu TalkBack toccando lo schermo con tre dita."</string>
 Apri subito il menu TalkBack scorrendo verso il basso e poi verso destra."</string>
     <string name="menus_title">Menu e controlli</string>
     <string name="message_in_reset_keymap_confirm_dialog">Vuoi ripristinare i valori predefiniti delle scorciatoie da tastiera di questa mappa dei tasti? Tieni presente che non è possibile annullare questa azione.</string>
+    <string name="message_request_phone_permission">TalkBack vorrebbe sapere quando è in corso una telefonata per poter ridurre gli annunci che interrompono la conversazione.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Verranno reimpostate le azioni predefinite di tutti i gesti.
 
 Perderai tutte le eventuali modifiche apportate."</string>
@@ -996,6 +1002,7 @@ Prova a usare un gesto qualsiasi formando un angolo retto scorrendo due volte. A
     <string name="pref_reduce_window_delay_title">Riduci ritardo comunicazione finestre</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Aggiungi Sensori fotocamera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Cancella i Sensori fisici</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Configura impostazioni per il sensore: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Modifica Sensori fotocamera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Nessun Sensore fotocamera assegnato</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Assegna i Sensori fotocamera a \"%s\"</string>
@@ -1016,9 +1023,9 @@ Prova a usare un gesto qualsiasi formando un angolo retto scorrendo due volte. A
     <string name="pref_sa_face_playground_stop_preview_content_description">Interrompi anteprima</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Attiva</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">"Per poter usare quest'area di prova è necessario attivare i sensori della fotocamera"</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">"Prova: visualizza l'anteprima di tutti i tipi di espressioni facciali, incluse Apri la bocca, Sorridi e così via"</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Prova</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">"Prova: visualizza l'anteprima dell'espressione facciale %1$s"</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">"L'area di prova è stata messa in pausa. Usa il pulsante sotto per avviarla nuovamente."</string>
     <string name="pref_selector_summary">"%1$s per selezionare un'impostazione, poi %2$s per modificare l'impostazione."</string>
     <string name="pref_selector_summary_two_select_gesture">"%1$s o %2$s per selezionare un'impostazione, poi %3$s per modificare l'impostazione."</string>
@@ -1069,6 +1076,7 @@ Se il dispositivo continua a non connettersi, vai alle impostazioni Bluetooth e 
     <string name="reduce_speed_button">Riduci velocità</string>
     <string name="remaining_calibration_finish_announcement">Tutte le posizioni dei punti sono state aggiornate</string>
     <string name="reminder_announcement">"Scorri verso l'alto con tre dita per altre opzioni"</string>
+    <string name="remove_assigned_switch">Rimuovi assegnazione sensore per %s</string>
     <string name="report_gesture_description">Ecco i gesti eseguiti di recente. Segnala il gesto sbagliato e come dovrebbe essere.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Reimposta</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Reimposta</string>
@@ -1149,6 +1157,7 @@ Prova subito questo gesto scorrendo con due dita verso l'alto finché non raggiu
     <string name="search_mode_hint_no_selection">Nessun elemento selezionato.</string>
     <string name="search_mode_hint_query">Query attuale: %1$s.</string>
     <string name="search_mode_hint_selection">Selezione attuale: %1$s.</string>
+    <string name="select_for_point_scan">\"Seleziona\"</string>
     <string name="select_setting_hint">"%1$s per selezionare un'altra impostazione"</string>
     <string name="selecting_text_text">"In una casella di testo, sposta il cursore all'inizio del testo che vuoi selezionare.
 
@@ -1209,6 +1218,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="shortcut_media_control">Riproduci o metti in pausa contenuti multimediali</string>
     <string name="shortcut_next">Elemento successivo</string>
     <string name="shortcut_next_granularity">Impostazione di navigazione successiva</string>
+    <string name="shortcut_next_window">Finestra successiva</string>
     <string name="shortcut_not_customizable">%1$s, non personalizzabile</string>
     <string name="shortcut_notifications">Notifiche</string>
     <string name="shortcut_overview">Panoramica</string>
@@ -1221,6 +1231,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="shortcut_practice_gestures">Esercitati con i gesti</string>
     <string name="shortcut_previous">Elemento precedente</string>
     <string name="shortcut_previous_granularity">Impostazione di navigazione precedente</string>
+    <string name="shortcut_previous_window">Finestra precedente</string>
     <string name="shortcut_print_node_tree">Stampa struttura ad albero dei nodi</string>
     <string name="shortcut_print_performance_stats">Stampa le statistiche sulle prestazioni</string>
     <string name="shortcut_quick_settings">Impostazioni rapide</string>
@@ -1260,6 +1271,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
 • Scuoti per avviare la lettura continua."</string>
     <string name="six_hold_announcement">Puoi anche digitare posizionando il telefono in orizzontale su un piano. Prova ora. Se non hai un piano a disposizione nelle vicinanze, salta questo passaggio scorrendo verso il basso.</string>
     <string name="slow_radio_button_title">Lenta (%1$s s di ritardo)</string>
+    <string name="slow_radio_button_title_content_description">Lenta (%1$s secondi di ritardo)</string>
     <string name="sound_feedback_state">Feedback audio %1$s</string>
     <string name="sound_feedback_summary">Viene riprodotto un suono per segnalare che qualcosa è cambiato (ad esempio i contenuti sullo schermo)</string>
     <string name="speak_container_element_position_summary_off">Le informazioni di elenchi e griglie non vengono lette</string>
@@ -1333,17 +1345,17 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="summary_pref_face_switches_debounce_time">Più attivazioni del Sensore fotocamera in questo periodo di tempo saranno considerate come una sola attivazione.</string>
     <string name="summary_pref_face_switches_enabled">I Sensori fotocamera utilizzano la fotocamera anteriore per vedere se stai guardando lo schermo e per riconoscere le tue espressioni facciali. Le immagini non vengono memorizzate né inviate a Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">"Riproduci un suono quando qualcosa sullo schermo si modifica in seguito a un'espressione."</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">"Mostra un'indicazione visiva del tempo in cui hai mantenuto un'espressione facciale"</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mantieni lo schermo attivo quando i Sensori fotocamera sono attivati. I Sensori fotocamera non possono sbloccare lo schermo se questo si spegne.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nessun volto riconosciuto</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">"Esegui una delle espressioni facciali. Se l'espressione è registrata, verrà mostrato il suo nome. Per uscire, mantieni qualsiasi espressione per %1$d secondi."</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Tieni la testa ferma e rivolgiti verso la fotocamera. Poi %s.</string>
     <string name="summary_pref_play_store">Versione attuale di TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Utilizza le linee mobili per selezionare una posizione orizzontale e verticale specifica. Premi il sensore %1$s per avviare la scansione per punto. %2$s</string>
     <string name="summary_pref_reverse_dots">Inverti la posizione dei punti, in modo tale che i punti 1 e 4, ad esempio, si scambino di posto</string>
     <string name="summary_pref_revert_to_default_menu">"Reimposta il menu di Switch Access all'elenco predefinito di voci di menu."</string>
-    <string name="summary_pref_single_tap">(Sperimentale) Tocca una volta un elemento attivo per attivarlo</string>
+    <string name="summary_pref_single_tap">Tocca una volta un elemento attivo per attivarlo</string>
     <string name="summary_pref_tree_debug_tv">Utilizza il tasto per la ricerca vocale per stampare la struttura ad albero dei nodi anziché cercare</string>
     <string name="summary_pref_use_audio_focus">"Abbassa volume degli altri suoni durante l'output vocale"</string>
     <string name="summary_read_from_current">Leggi tutti gli elementi sullo schermo a partire dal prossimo</string>
@@ -1479,10 +1491,10 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="switched_to_contracted_announcement">Passata alla modalità Braille contratto</string>
     <string name="switched_to_ueb_uncontracted_announcement">Passaggio a UEB esteso effettuato</string>
     <string name="switched_to_uncontracted_announcement">Passata alla modalità Braille esteso</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Quasi uguale a</string>
     <string name="symbol_ampersand">E commerciale</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Segno di minore</string>
+    <string name="symbol_angle_bracket_right">Segno di maggiore</string>
     <string name="symbol_apostrophe">Apostrofo</string>
     <string name="symbol_approximately_equals">Quasi uguale a</string>
     <string name="symbol_asterisk">Asterisco</string>
@@ -1502,7 +1514,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_bullseye">Bersaglio</string>
     <string name="symbol_caret">Accento circonflesso</string>
     <string name="symbol_celsius_degree">Grado Celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Simbolo dei centesimi</string>
     <string name="symbol_circle_left_half_black">Cerchio con metà sinistra nera</string>
     <string name="symbol_circle_right_half_black">Cerchio con metà destra nera</string>
     <string name="symbol_colon">Due punti</string>
@@ -1511,7 +1523,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_curly_bracket_left">Parentesi graffa aperta</string>
     <string name="symbol_curly_bracket_right">Parentesi graffa chiusa</string>
     <string name="symbol_currency_sign">Segno di valuta</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Simbolo dei gradi</string>
     <string name="symbol_division">Segno di divisione</string>
     <string name="symbol_dollar_sign">Simbolo del dollaro</string>
     <string name="symbol_downwards_arrow">Freccia giù</string>
@@ -1563,7 +1575,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_middle_dot">Punto centrale</string>
     <string name="symbol_multiplication">Segno di moltiplicazione</string>
     <string name="symbol_new_line">Nuova riga</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Non uguale a</string>
     <string name="symbol_not_sign">Segno di negazione</string>
     <string name="symbol_paragraph_mark">Segno di paragrafo</string>
     <string name="symbol_parenthesis_left">Parentesi aperta</string>
@@ -1574,7 +1586,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_plus_minus_sign">Segno più-o-meno</string>
     <string name="symbol_postal_mark">Simbolo postale</string>
     <string name="symbol_pound">Cancelletto</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Simbolo della sterlina</string>
     <string name="symbol_quarter_note">Semiminima</string>
     <string name="symbol_question_mark">Punto interrogativo</string>
     <string name="symbol_quotation_mark">Virgolette</string>
@@ -1600,7 +1612,7 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_trademark">Marchio</string>
     <string name="symbol_underscore">Carattere di sottolineatura</string>
     <string name="symbol_upwards_arrow">Freccia su</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Linea verticale</string>
     <string name="symbol_white_circle">Cerchio bianco</string>
     <string name="symbol_white_club_suit">Fiori (seme, bianco)</string>
     <string name="symbol_white_diamond">Rombo bianco</string>
@@ -1614,8 +1626,8 @@ Passaggio 2: scorri verso il basso per spostare la selezione in avanti o ridurre
     <string name="symbol_white_square">Quadrato bianco</string>
     <string name="symbol_white_star">Stella bianca</string>
     <string name="symbol_white_up_pointing_triangle">"Triangolo verso l'alto bianco"</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Simbolo del won</string>
+    <string name="symbol_won_sign">Simbolo del won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Azioni di sistema</string>
     <string name="tabletop">Modalità da tavolo</string>
@@ -1783,7 +1795,7 @@ Per disattivare TalkBack, procedi nel seguente modo:
     <string name="title_pref_category_assign_switches">Assegna i sensori</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Scansione automatica</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Scansione automatica (scansione per punto)</string>
     <string name="title_pref_category_border_color">Colore</string>
     <string name="title_pref_category_built_in_gestures">Gesti integrati</string>
     <string name="title_pref_category_context_menu">Personalizza il menu di TalkBack</string>
@@ -1867,7 +1879,7 @@ Per disattivare TalkBack, procedi nel seguente modo:
     <string name="title_pref_red">Rosso</string>
     <string name="title_pref_resume_talkback">Riprendi dopo sospensione</string>
     <string name="title_pref_reverse_auto_scan_disabled">Scansione automatica inversa (disattivata)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Scansione automatica inversa (scansione per punto)</string>
     <string name="title_pref_reverse_dots">Punti inversi</string>
     <string name="title_pref_revert_to_default_menu">Ripristina il menu predefinito</string>
     <string name="title_pref_scan_non_actionable_items">Leggi il testo descrittivo</string>
@@ -1930,7 +1942,7 @@ Per disattivare TalkBack, procedi nel seguente modo:
     <string name="title_pref_show_context_menu_as_list">Menu contestuale come elenco</string>
     <string name="title_pref_show_privacy_policy">Norme sulla privacy</string>
     <string name="title_pref_show_tos">Termini di servizio</string>
-    <string name="title_pref_single_tap">Attivazione con singolo tocco</string>
+    <string name="title_pref_single_tap">"Tocca una volta per attivare l'elemento"</string>
     <string name="title_pref_sound_and_vibration">Suoneria e vibrazione</string>
     <string name="title_pref_soundback">Feedback sonoro</string>
     <string name="title_pref_soundback_volume">Volume feedback sonoro</string>
@@ -1975,6 +1987,7 @@ Per disattivare TalkBack, procedi nel seguente modo:
     <string name="title_previous_screen">Schermata precedente</string>
     <string name="title_read_from_top">"Leggi dall'alto"</string>
     <string name="title_repeat_last_spoken_phrase">"Ripeti l'ultima frase pronunciata"</string>
+    <string name="title_request_phone_permission">Autorizzazione richieste di TalkBack</string>
     <string name="title_screen_summary">Riepilogo schermo</string>
     <string name="title_seek_bar_controls">Dispositivo di scorrimento</string>
     <string name="title_seek_bar_edit">Modifica livello dispositivo di scorrimento</string>

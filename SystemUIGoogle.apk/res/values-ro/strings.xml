@@ -595,6 +595,8 @@ Selecție"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Pentru ca modificarea să se aplice, trebuie să reporniți dispozitivul. Reporniți-l acum sau anulați.</string>
     <string name="camera_hint">Glisați pentru a fotografia</string>
     <string name="camera_label">deschideți camera foto</string>
+    <string name="camera_recording_announcement">Camera foto înregistrează</string>
+    <string name="camera_stopped_recording_announcement">Camera foto a oprit înregistrarea</string>
     <string name="cancel">Anulați</string>
     <string name="carrier_network_change_mode">Se schimbă rețeaua operatorului</string>
     <string name="category_personal">Personal</string>
@@ -734,6 +736,10 @@ Dacă reluați, este posibil să se aplice taxe pentru utilizarea datelor."</str
     <string name="debug_monitoring_category">Monitorizare</string>
     <string name="debug_networking_category">Conectare la rețele</string>
     <string name="debug_view_attributes">Activați inspectarea atributelor de vizualizare</string>
+    <string name="defender_notify_des">Telefonul dvs. limitează încărcarea pentru a conserva buna funcționare a bateriei</string>
+    <string name="defender_notify_learn_more">Aflați mai multe</string>
+    <string name="defender_notify_resume_charge">Reluați taxarea</string>
+    <string name="defender_notify_title">Încărcare limitată temporar</string>
     <string name="delete_blob_confirmation_text">Sigur ștergeți aceste date la care se permite accesul?</string>
     <string name="delete_blob_text">Ștergeți datele la care se permite accesul</string>
     <string name="demo_mode">Mod demonstrativ pentru IU sistem</string>
@@ -1070,6 +1076,7 @@ cu prioritate"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Se deblochează cardul SIM…</string>
     <string name="keyguard_try_fingerprint">Folosiți amprenta ca să deschideți</string>
     <string name="keyguard_unlock">Glisați în sus pentru a deschide</string>
+    <string name="keyguard_unlock_press">Apăsați pentru a deschide</string>
     <string name="keywords_adb_wireless">adb, remedierea erorilor, dev</string>
     <string name="keywords_alarms_and_reminders">programare, alarmă, memento, ceas</string>
     <string name="kg_enter_confirm_pin_hint">Confirmați codul PIN dorit</string>
@@ -1233,6 +1240,10 @@ cu prioritate"</string>
     <string name="menu_ime">Comutator tastatură</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microfon activ</string>
+    <string name="mic_and_camera_recording_announcement">Camera foto și microfonul înregistrează</string>
+    <string name="mic_camera_stopped_recording_announcement">Camera foto și microfonul nu mai înregistrează</string>
+    <string name="mic_recording_announcement">Microfonul înregistrează</string>
+    <string name="mic_stopped_recording_announcement">Microfonul nu mai înregistrează</string>
     <string name="missed_call">Apel nepreluat</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Date mobile</string>
@@ -1706,8 +1717,6 @@ Dacă aveți întrebări, luați legătura cu %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplicații pentru lucru</string>
     <string name="quick_step_accessibility_toggle_overview">Comutați secțiunea Recente</string>
     <string name="recent_conversations">Conversații recente</string>
-    <string name="recents_quick_scrub_onboarding">Glisați la dreapta pentru a comuta rapid între aplicații</string>
-    <string name="recents_swipe_up_onboarding">Glisați în sus pentru a comuta între aplicații</string>
     <string name="remaining_length_format">Timp rămas: %1$s</string>
     <string name="remote_input_image_insertion_text">a trimis o imagine</string>
     <string name="remove_from_settings">Eliminați din Setări</string>
@@ -2117,6 +2126,7 @@ Orice utilizator poate actualiza aplicațiile pentru toți ceilalți utilizatori
     <string name="wallet_secondary_label_no_card">Adăugați un card</string>
     <string name="wallet_secondary_label_updating">Se actualizează</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punctul de acces este temporar plin</string>
     <string name="wifi_cant_connect">Nu se poate conecta</string>
     <string name="wifi_cant_connect_to_ap">Nu se poate conecta la „%1$s”</string>

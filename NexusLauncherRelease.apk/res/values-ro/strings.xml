@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Adăugați în dosarul cu %1$s</string>
     <string name="add_to_home_screen">Adăugați pe ecranul de pornire</string>
     <string name="added_to_folder">Element adăugat în dosar</string>
+    <string name="added_to_home_screen_accessibility_text">Widgetul %1$s a fost adăugat pe ecranul de pornire</string>
     <string name="all_apps_button_label">Lista de aplicații</string>
     <string name="all_apps_button_personal_label">Lista de aplicații personale</string>
     <string name="all_apps_button_work_label">Lista de aplicații de serviciu</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Când telefonul este rotit</string>
     <string name="allow_rotation_title">Permite rotirea ecranului de pornire</string>
     <string name="allset_description">Sunteți gata să folosiți telefonul</string>
+    <string name="allset_hint">Glisați în sus pentru a accesa ecranul de pornire</string>
+    <string name="allset_navigation_settings"><annotation id="link">Setările de navigare ale sistemului</annotation></string>
     <string name="allset_title">Gata!</string>
     <string name="app_downloading_title">%1$s se descarcă (finalizat %2$s)</string>
     <string name="app_info_drop_target_label">Informații despre aplicații</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s așteaptă instalarea</string>
     <string name="auto_add_shortcuts_description">Pentru aplicații noi</string>
     <string name="auto_add_shortcuts_label">Adaugă pictograme de aplicații pe ecran</string>
+    <string name="back_gesture_feedback_cancelled">Glisați dinspre marginea dreaptă sau stângă spre mijlocul ecranului și eliberați.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Ați învățat cum să glisați dinspre dreapta pentru a reveni. În continuare, aflați cum să comutați aplicațiile.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Ați finalizat gestul „înapoi”.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Nu glisați prea aproape de partea de jos a ecranului.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Glisați dinspre marginea dreaptă îndepărtată sau dinspre marginea stângă îndepărtată.</string>
     <string name="back_gesture_intro_subtitle">Pentru a reveni la ultimul ecran, glisați de la marginea stângă sau dreaptă spre mijlocul ecranului.</string>
     <string name="back_gesture_intro_title">Glisați pentru a reveni</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Schimbați sensibilitatea gestului „Înapoi” accesând Setările</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Atingeți pentru a salva noul nume</string>
     <string name="gadget_error_text">Widgetul nu poate fi încărcat</string>
     <string name="gadget_setup_text">Atingeți pentru a finaliza configurarea</string>
+    <string name="gesture_tutorial_action_button_label">Gata</string>
     <string name="gesture_tutorial_action_button_label_cancel">Anulați</string>
     <string name="gesture_tutorial_action_button_label_settings">Setări</string>
     <string name="gesture_tutorial_action_button_label_skip">Omiteți</string>
@@ -141,13 +147,13 @@
     <string name="gleam_tooltip_text">Atingeți lung pentru a selecta orice text sau imagine</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">Căutați aplicații și altele</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">Ați finalizat gestul „înapoi la pagina de pornire”. În continuare, aflați cum să reveniți.</string>
-    <string name="home_gesture_feedback_complete_without_follow_up">Ați finalizat gestul „înapoi la pagina de pornire”.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">Ați finalizat gestul „accesați ecranul de pornire”. În continuare, aflați cum să reveniți.</string>
+    <string name="home_gesture_feedback_complete_without_follow_up">Ați finalizat gestul „accesați ecranul de pornire”.</string>
     <string name="home_gesture_feedback_overview_detected">Nu întrerupeți gestul înainte de a elibera.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Glisați în sus dinspre marginea de jos a ecranului.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Glisați direct în sus.</string>
     <string name="home_gesture_intro_subtitle">Glisați în sus din partea de jos a ecranului. Cu acest gest accesați întotdeauna ecranul de pornire.</string>
-    <string name="home_gesture_intro_title">Glisați pentru a accesa pagina de pornire</string>
+    <string name="home_gesture_intro_title">Glisați pentru a accesa ecranul de pornire</string>
     <string name="home_screen">Pagina de pornire</string>
     <string name="hotsaet_tip_prediction_disabled">Sugestiile de aplicații au fost dezactivate</string>
     <string name="hotsaet_tip_prediction_enabled">Sugestiile de aplicații au fost activate</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Încercați să țineți fereastra mai mult înainte s-o eliberați.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Glisați în sus dinspre marginea de jos a ecranului.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Glisați direct în sus, apoi întrerupeți.</string>
+    <string name="overview_gesture_intro_subtitle">Ca să comutați între aplicații, glisați în sus din partea de jos a ecranului, așteptați și eliberați.</string>
     <string name="overview_gesture_intro_title">Glisați pentru a comuta între aplicații</string>
     <string name="overview_selection_pref_desc">Când schimbați între aplicații, atingeți lung textul și imaginile pentru a vedea acțiunile</string>
     <string name="overview_selection_pref_title">Selecția Recente</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Locul</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferințe</string>
-    <string name="smartspace_preferences_in_settings">Spațiu live</string>
+    <string name="smartspace_preferences_in_settings">Pe scurt</string>
     <string name="smartspace_preferences_in_settings_desc">În partea de sus a ecranului de pornire</string>
     <string name="smartspace_preferences_manage">Personalizați</string>
     <string name="smartspace_preferences_turn_off_action">Dezactivați</string>

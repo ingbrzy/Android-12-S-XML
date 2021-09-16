@@ -165,7 +165,7 @@ Al activar el modo avión, la conexión, las redes móviles y el Bluetooth se de
     <string name="final_hold_description_text">Esto puede tardar unos minutos</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Preparando tu teléfono…}TABLET{Preparando tu tablet…}other{Preparando tu dispositivo…}}</string>
     <string name="final_hold_title_setup_work_account">Preparando para perfil de trabajo…</string>
-    <string name="gesture_intro_description">Aprende a usar gestos para ir a la pantalla de inicio, volver y cambiar de aplicación</string>
+    <string name="gesture_intro_description">Aprende a usar gestos para ir a la pantalla de inicio, volver atrás y cambiar de aplicación</string>
     <string name="gesture_intro_skip_button">Saltar</string>
     <string name="gesture_intro_start_button">Probar</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Desliza el dedo para desplazarte por tu teléfono}TABLET{Desliza el dedo para desplazarte por tu tablet}other{Desliza el dedo para desplazarte por tu dispositivo}}</string>
@@ -337,93 +337,72 @@ Dispositivo no suministrado"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Se te ha añadido a este teléfono}TABLET{Se te ha añadido a este tablet}other{Se te ha añadido a este dispositivo}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Importante:</b>"
 
-"<ul><li>El propietario del teléfono puede desinstalar tus aplicaciones o eliminar por completo tu perfil de usuario.</li>"
+"<ul><li>El propietario del teléfono puede desinstalar tus aplicaciones o quitar por completo tu perfil de usuario.</li>"
 
-"<li>Cualquier otro usuario puede aceptar los nuevos permisos de aplicaciones.</li>"
+"<li>Cualquier usuario puede aceptar los nuevos permisos que soliciten las aplicaciones.</li>"
 
-"<li>Comparte este teléfono solo con personas de confianza.</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Comparte este teléfono solo con personas de confianza.</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
-"<ul><li>El propietario del tablet puede desinstalar tus aplicaciones o eliminar por completo tu perfil de usuario.</li>"
+"<ul><li>El propietario del tablet puede desinstalar tus aplicaciones o quitar por completo tu perfil de usuario.</li>"
 
-"<li>Cualquier otro usuario puede aceptar los nuevos permisos de aplicaciones.</li>"
+"<li>Cualquier usuario puede aceptar los nuevos permisos que soliciten las aplicaciones.</li>"
 
-"<li>Comparte este tablet solo con personas de confianza.</li></ul>}other{<b>Importante:</b>"
+"<li>Comparte este tablet solo con personas de confianza.</li></ul>"
+}other{"<b>Importante:</b>"
 
-"<ul><li>El propietario del dispositivo puede desinstalar tus aplicaciones o eliminar por completo tu perfil de usuario.</li>"
+"<ul><li>El propietario del dispositivo puede desinstalar tus aplicaciones o quitar por completo tu perfil de usuario.</li>"
 
-"<li>Cualquier otro usuario puede aceptar los nuevos permisos de aplicaciones.</li>"
+"<li>Cualquier usuario puede aceptar los nuevos permisos que soliciten las aplicaciones.</li>"
 
 "<li>Comparte este dispositivo solo con personas de confianza.</li></ul>}}</string>
     <string name="welcome_start_button_label">Empezar</string>
     <string name="wifi_add_new_network">Añadir red nueva</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el teléfono rápidamente.
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu teléfono.
 
 Si no tienes conexión, no puedes hacer lo siguiente:
-
-"<li>Iniciar sesión en tu cuenta de Google</li>"
-
-"<li>Restaurar aplicaciones y datos</li>"
-
-"<li>Recibir actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>"}TABLET{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el tablet rápidamente.
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>"
+}TABLET{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu tablet.
 
 Si no tienes conexión, no puedes hacer lo siguiente:
-
-"<li>Iniciar sesión en tu cuenta de Google</li>"
-
-"<li>Restaurar aplicaciones y datos</li>"
-
-"<li>Recibir actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>"}other{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el dispositivo rápidamente.
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>"
+}other{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu dispositivo.
 
 Si no tienes conexión, no puedes hacer lo siguiente:
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>}}</string>
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red Wi‑Fi, o móvil, podrás configurar rápidamente tu teléfono.
 
-"<li>Iniciar sesión en tu cuenta de Google</li>"
+Si no tienes conexión, no puedes hacer lo siguiente:
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Descargar una tarjeta SIM.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>"
+}TABLET{Si te conectas a una red Wi‑Fi, o móvil, podrás configurar rápidamente tu tablet.
 
-"<li>Restaurar aplicaciones y datos</li>"
+Si no tienes conexión, no puedes hacer lo siguiente:
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Descargar una tarjeta SIM.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>"
+}other{Si te conectas a una red Wi‑Fi, o móvil, podrás configurar rápidamente tu dispositivo.
 
-"<li>Recibir actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el teléfono rápidamente.
-
-Si no tienes conexión, no puedes hacer lo siguiente: 
-
-"<li>Iniciar sesión en tu cuenta de Google</li>"
-
-"<li>Restaurar aplicaciones y datos</li>"
-
-"<li>Descargar una tarjeta SIM</li>"
-
-"<li>Descargar actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>"}TABLET{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el tablet rápidamente.
-
-Si no tienes conexión, no puedes hacer lo siguiente: 
-
-"<li>Iniciar sesión en tu cuenta de Google</li>"
-
-"<li>Restaurar aplicaciones y datos</li>"
-
-"<li>Descargar una tarjeta SIM</li>"
-
-"<li>Descargar actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>"}other{Si te conectas a una red móvil o Wi‑Fi, puedes configurar el dispositivo rápidamente.
-
-Si no tienes conexión, no puedes hacer lo siguiente: 
-
-"<li>Iniciar sesión en tu cuenta de Google</li>"
-
-"<li>Restaurar aplicaciones y datos</li>"
-
-"<li>Descargar una tarjeta SIM</li>"
-
-"<li>Descargar actualizaciones de software</li>"
-
-"<li>Configurar la fecha y la hora automáticamente</li>}}</string>
+Si no tienes conexión, no puedes hacer lo siguiente:
+"<li>Iniciar sesión en tu cuenta de Google.</li>"
+"<li>Restaurar aplicaciones y datos.</li>"
+"<li>Descargar una tarjeta SIM.</li>"
+"<li>Recibir actualizaciones de software.</li>"
+"<li>Configurar la fecha y la hora automáticamente.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punto de acceso temporalmente lleno</string>
     <string name="wifi_check_password_try_again">Comprueba la contraseña y vuelve a intentarlo</string>
     <string name="wifi_connected_no_internet">Conexión sin Internet</string>

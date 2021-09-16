@@ -94,7 +94,7 @@ Uspostavljanje mobilne podatkovne veze traje dulje. Možete se vratiti i pokuša
     <string name="connected_via_app">Povezan putem mreže %1$s</string>
     <string name="connected_via_carrier">Povezano putem mreže %1$s</string>
     <string name="connected_via_network_scorer_default">Automatski povezan putem ocjenjivača mreže</string>
-    <string name="consolidate_captive_portal_description_text">Može potrajati nekoliko minuta</string>
+    <string name="consolidate_captive_portal_description_text">To može potrajati nekoliko minuta</string>
     <string name="consolidate_captive_portal_title">{DEVICE_TYPE,select, PHONE{Pripremanje telefona…}TABLET{Pripremanje tableta…}other{Pripremanje uređaja…}}</string>
     <string name="continue_for_a11y">Nastavite dodirivati zaslon dok ne začujete zvučni signal kako biste omogućili način pristupačnosti.</string>
     <string name="dark_mode_description">Produljite trajanje baterije pomoću tamne pozadine</string>
@@ -168,7 +168,7 @@ Kada je uključen način rada u zrakoplovu, isključeni su Wi‑Fi, mobilne mre�
     <string name="gesture_intro_description">Naučite pokrete za otvaranje početnog zaslona, povratak i promjenu aplikacije</string>
     <string name="gesture_intro_skip_button">Preskoči</string>
     <string name="gesture_intro_start_button">Isprobaj</string>
-    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Prijeđite prstom da biste se kretali telefonom}TABLET{Prijeđite prstom da biste se kretali tabletom}other{Prijeđite prstom da biste se kretali uređajem}}</string>
+    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Povlačite prstom za kretanje telefonom}TABLET{Povlačite prstom za kretanje tabletom}other{Povlačite prstom za kretanje uređajem}}</string>
     <string name="gms_account_checkin_title">Dohvaćanje podataka o računu...</string>
     <string name="gms_checkin_description_text">To može potrajati nekoliko minuta</string>
     <string name="gms_checkin_description_text_timeout">Predugo traje? Pokušajte se vratiti i povezati s drugom mrežom.</string>
@@ -186,7 +186,7 @@ Kada je uključen način rada u zrakoplovu, isključeni su Wi‑Fi, mobilne mre�
     <string name="invalid_qr_code_content">Zatražite ispravan kôd od administratora</string>
     <string name="invalid_qr_code_retry">Pokušajte ponovo</string>
     <string name="invalid_qr_code_title">Pogrešan QR kôd</string>
-    <string name="ios_trademarks_disclaimer">iPhone, iPad, iOS, iMessage, iCloud, Safari i iTunes zaštitni su znakovi tvrtke Apple Inc. registrirane u SAD-u i drugim zemljama.</string>
+    <string name="ios_trademarks_disclaimer">iPhone, iPad, iOS, iMessage, iCloud, Safari i iTunes zaštitni su znakovi tvrtke Apple Inc. registrirani u SAD-u i drugim zemljama.</string>
     <string name="language_picker_section_all">Svi jezici</string>
     <string name="language_picker_section_suggested">Predloženo</string>
     <string name="migrate_from_ios_description">Slijedite ove korake:</string>
@@ -341,13 +341,15 @@ Uređaj nije omogućen"</string>
 
 "<li>Svi korisnici mogu prihvatiti ažurirana dopuštenja aplikacije.</li>"
 
-"<li>Telefon dijelite samo s ljudima kojima vjerujete.</li></ul>}TABLET{<b>Važno:</b>"
+"<li>Telefon dijelite samo s ljudima kojima vjerujete.</li></ul>"
+}TABLET{"<b>Važno:</b>"
 
 "<ul><li>vlasnik tableta može deinstalirati vaše aplikacije ili u cijelosti ukloniti vaš korisnički profil.</li>"
 
 "<li>Svi korisnici mogu prihvatiti ažurirana dopuštenja aplikacije.</li>"
 
-"<li>Tablet dijelite samo s ljudima kojima vjerujete.</li></ul>}other{<b>Važno:</b>"
+"<li>Tablet dijelite samo s ljudima kojima vjerujete.</li></ul>"
+}other{"<b>Važno:</b>"
 
 "<ul><li>vlasnik uređaja može deinstalirati vaše aplikacije ili u cijelosti ukloniti vaš korisnički profil.</li>"
 
@@ -359,70 +361,47 @@ Uređaj nije omogućen"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili telefon.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
-"<li>automatski postaviti vrijeme i datum.</li>"}TABLET{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili tablet.
+"<li>automatski postaviti vrijeme i datum.</li>"
+}TABLET{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili tablet.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
-"<li>automatski postaviti vrijeme i datum.</li>"}other{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili uređaj.
+"<li>automatski postaviti vrijeme i datum.</li>"
+}other{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili uređaj.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
 "<li>automatski postaviti vrijeme i datum.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili telefon.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti SIM</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
-"<li>automatski postaviti vrijeme i datum.</li>"}TABLET{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili tablet.
+"<li>automatski postaviti vrijeme i datum.</li>"
+}TABLET{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili tablet.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti SIM</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
-"<li>automatski postaviti vrijeme i datum.</li>"}other{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili uređaj.
+"<li>automatski postaviti vrijeme i datum.</li>"
+}other{Povežite se s Wi‑Fi ili mobilnom mrežom da biste brže postavili uređaj.
 
 Ako se ne povežete, ne možete učiniti sljedeće:
-
 "<li>prijaviti se na Google račun</li>"
-
 "<li>vratiti aplikacije i podatke</li>"
-
 "<li>preuzeti SIM</li>"
-
 "<li>preuzeti ažuriranja softvera</li>"
-
 "<li>automatski postaviti vrijeme i datum.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pristupna je točka privremeno puna</string>
     <string name="wifi_check_password_try_again">Provjerite zaporku i pokušajte ponovo</string>

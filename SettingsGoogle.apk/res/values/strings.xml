@@ -57,8 +57,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Languages &amp; input</string>
     <string name="lift_to_wake_title">Lift to wake</string>
-    <string name="lockdown_settings_summary">Display Power button option that turns off Smart Lock, Face Unlock, Fingerprint Unlock, and notifications on the lock screen</string>
-    <string name="lockdown_settings_title">Show lockdown option</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="locked_work_profile_notification_title">When work profile is locked</string>
     <string name="lockscreen_bypass_summary">After unlocking, go directly to last used screen</string>
     <string name="lockscreen_bypass_title">Skip lock screen</string>
@@ -72,7 +72,7 @@
     <string name="profile_section_header">Work notifications</string>
     <string name="reset_dashboard_summary">Network, apps, or device can be reset</string>
     <string name="reset_dashboard_title">Reset options</string>
-    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
     <string name="screensaver_settings_title">Screen saver</string>
     <string name="screen_timeout">Screen timeout</string>
     <string name="screen_zoom_title">Display size</string>
@@ -104,14 +104,12 @@
     <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
     <string name="columbus_title">@string/columbus_name</string>
     <string name="emergency_gesture_screen_title">Emergency SOS</string>
-    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_mode_done">Done</string>
     <string name="vibrate_for_calls_category_title">Calls</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Show wallet</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Show device controls</string>
     <string name="lockscreen_privacy_wallet_summary">Allow access to wallet from lock screen and quick settings</string>
     <string name="lockscreen_privacy_controls_summary">Access controls when locked</string>
-    <string name="abc_action_menu_overflow_description">More options</string>
-    <string name="abc_action_mode_done">Done</string>
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
@@ -1682,6 +1680,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="config_emergency_intent_action">com.google.android.safetyhub.SAFETY_HUB</string>
     <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollTrampoline</string>
+    <string name="config_face_enroll_traffic_light_package" />
     <string name="config_featureFactory">com.google.android.settings.overlay.FeatureFactoryImpl</string>
     <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
     <string name="config_images_storage_category_uri">content://com.android.providers.media.documents/root/images_root</string>
@@ -2610,7 +2609,7 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="gesture_aware_footer"><annotation link="link">Preferences</annotation></string>
     <string name="gesture_aware_off_dialog_content" />
     <string name="gesture_aware_off_dialog_title" />
-    <string name="gesture_double_twist_sensor_name">Double Twist</string>
+    <string name="gesture_double_twist_sensor_type">com.google.sensor.double_twist</string>
     <string name="gesture_double_twist_sensor_vendor">Google</string>
     <string name="gesture_not_supported_dialog_message">Not supported by your default home app, %s</string>
     <string name="gesture_not_supported_positive_button">Switch default home app</string>
@@ -3105,7 +3104,7 @@ You can change this later from Settings > Apps &amp; notifications."</string>
     <string name="location_scanning_wifi_always_scanning_description">Allow apps and services to scan for Wi‑Fi networks at any time, even when Wi‑Fi is off. This can be used, for example, to improve location-based features and services.</string>
     <string name="location_scanning_wifi_always_scanning_title">Wi‑Fi scanning</string>
     <string name="location_services_preference_title">Location services</string>
-    <string name="location_services_screen_title">Location Services</string>
+    <string name="location_services_screen_title">Location services</string>
     <string name="location_settings_footer_general">Apps with the Nearby devices permission can determine the relative position of connected devices.</string>
     <string name="location_settings_footer_learn_more_content_description">Learn more about Location Settings.</string>
     <string name="location_settings_footer_learn_more_link">https://support.google.com/android/answer/3467281</string>
@@ -6699,7 +6698,7 @@ Update settings to:
     <string name="zone_menu_by_region">Select by region</string>
     <string name="zone_time_type_dst">Daylight savings time</string>
     <string name="zone_time_type_standard">Standard time</string>
+    <item type="string" name="APKTOOL_DUMMY_9a3">false</item>
     <item type="string" name="APKTOOL_DUMMY_9a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_9a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a6">false</item>
 </resources>

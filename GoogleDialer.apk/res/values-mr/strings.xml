@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">उत्तर द्या</string>
     <string name="a11y_call_incoming_decline_description">नकार द्या</string>
+    <string name="a11y_callscreen_animation">कॉल स्क्रीन अ‍ॅनिमेशन</string>
     <string name="a11y_contact_menu_video_call_wifi">वायफाय वापरून व्हिडिओ कॉल करा</string>
     <string name="a11y_contact_menu_voice_call_wifi">वायफाय वापरून व्हॉइस कॉल करा</string>
     <string name="a11y_conversation_history_entry_answered_call">नवीनतम उत्तर दिलेला कॉल ^1 चा आहे</string>
@@ -20,15 +21,23 @@
     <string name="a11y_description_incall_label_manage_content">कॉलर व्यवस्थापित करा</string>
     <string name="a11y_expandedsheet_collapse">मेनू कोलॅप्स करा</string>
     <string name="a11y_expandedsheet_expand">मेनू विस्तारित करा</string>
-    <string name="a11y_favorites_education_dismiss">बंद करा</string>
     <string name="a11y_feature_demo_next_page">पुढील पेज</string>
     <string name="a11y_feature_demo_page_indicator">पेज %d</string>
     <string name="a11y_feature_demo_prev_page">मागील पेज</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1 साठी जलद संपर्क</string>
+    <string name="a11y_icon_hd">HD कॉल</string>
+    <string name="a11y_icon_hd_plus">HD प्लस कॉल</string>
+    <string name="a11y_icon_shared_data_call">डेटा शेअर करून केलेला कॉल</string>
+    <string name="a11y_icon_verified">पडताळणी केलेले कॉल</string>
+    <string name="a11y_icon_vilte">व्हॉइस ओव्हर LTE कॉल</string>
+    <string name="a11y_icon_viwifi">वायफायवर व्हिडिओ कॉल</string>
+    <string name="a11y_icon_volte">व्हॉइस ओव्हर LTE कॉल</string>
+    <string name="a11y_icon_voz4g">व्हॉइस ओव्हर 4G कॉल</string>
+    <string name="a11y_icon_wifi">वायफाय कॉल</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">उत्तर देण्यासाठी दोन बोटांनी वर स्वाइप करा. नकार देण्यासाठी दोन बोटांनी खाली स्वाइप करा.</string>
     <string name="a11y_incoming_call_swipe_to_answer">उत्तर देण्यासाठी दोन बोटांनी वर किंवा कॉलला नकार देण्यासाठी खाली स्वाइप करा</string>
     <string name="a11y_new_call_log_entry_call_recording">कॉल रेकॉर्ड केला आहे</string>
-    <string name="a11y_new_call_log_entry_callscreen_transcript">ट्रान्सस्क्रिप्ट: ^1</string>
+    <string name="a11y_new_call_log_entry_callscreen_transcript">ट्रान्स्क्रिप्ट: ^1</string>
     <string name="a11y_new_call_log_entry_full_description_with_phone_account_info">^1, ^2, ^3.</string>
     <string name="a11y_new_call_log_entry_full_description_with_phone_account_info_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_full_description_with_phone_account_info_with_transcript">^1, ^2, ^3, ^4.</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 वर</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 यांना एखादा RTT कॉल करा</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">डेटा शेअर करून केलेला कॉल</string>
     <string name="a11y_new_call_log_entry_tap_action">मेनू विस्तारित करा</string>
     <string name="a11y_new_call_log_entry_video_call">^1 ला व्हिडिओ कॉल करा</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">वायफाय वापरून ^1 यांना व्हिडिओ कॉल करा</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">कॉल करण्याआधी नंबर संपादित करा</string>
     <string name="action_menu_back_from_search">शोध थांबवा</string>
     <string name="action_menu_overflow_description">अधिक पर्याय</string>
+    <string name="activate_error_message">कॉल स्क्रीन अ‍ॅक्टिव्हेट करताना समस्या आली</string>
+    <string name="activated_successfully">कॉल स्क्रीन अ‍ॅक्टिव्हेट केली</string>
     <string name="activity_not_available">या डिव्हाइसवर त्यासाठी कोणताही ॲप नाही</string>
     <string name="add_2sec_pause">2-सेकंदांचा विराम जोडा</string>
     <string name="add_contact_not_available">कोणताही संपर्क ॲप उपलब्ध नाही</string>
@@ -97,7 +109,7 @@
     <string name="always_record_dialog_message">"तुम्ही किंवा तुमच्या कॉलमध्ये असणारी दुसरी व्यक्ती अशा ठिकाणी असू शकता जेथे, रेकॉर्ड करण्यासाठी प्रत्येकाची संमती आवश्यक असू शकते. कॉल रेकॉर्ड केला जात असल्याची सूचना प्रत्येकाला वेळेच्या आधी मिळेल. संभाषणे रेकॉर्ड करण्याशी संबंधित कायदे पाळणे ही तुमची जबाबदारी आहे. कॉल रेकॉर्डिंगची सुविधा जबाबदारीने वापरा आणि आवश्यक असेल तेव्हाच ते सुरू करा.
 
 रेकॉर्डिंग फक्त तुमच्या फोनमध्ये स्टोअर केली जातात. ^1"</string>
-    <string name="always_record_disabled_notification_message">वैशिष्ट्य तुमच्या स्थानी उपलब्ध नाही. अज्ञात आणि निवडलेल्या नंबरवरून येणारे कॉल रेकॉर्ड केले जाणार नाहीत.</string>
+    <string name="always_record_disabled_notification_message">वैशिष्ट्य तुमच्या स्थानी उपलब्ध नाही. अज्ञात आणि निवडलेल्या नंबरवरून इनकमिंग कॉल रेकॉर्ड केले जाणार नाहीत.</string>
     <string name="always_record_disabled_notification_title">“नेहमी रेकॉर्ड करा” बंद आहे</string>
     <string name="always_record_negative_button_label">रद्द करा</string>
     <string name="always_record_positive_button_label">नेहमी रेकॉर्ड करा</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">कॉल करा</string>
     <string name="bm_suggest_chat_button">चॅट करा</string>
     <string name="bm_suggest_wait_min">"चॅट करा
-%1$d मिनिटे प्रतीक्षा करा"</string>
-    <string name="bottom_nav_count_9_plus">९+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s न वाचलेले</string>
+%1$dमि थांबा"</string>
+    <string name="bm_suggest_wait_time_estimating">"चॅट करा
+काम सुरू आहे…"</string>
     <string name="bottomsheet_action_expand_halfway">पूर्णपणे विस्तृत करा</string>
     <string name="bubble_bottom_action_end_call">कॉल संपवा</string>
     <string name="bubble_bottom_action_hide">लपवा</string>
@@ -170,7 +182,10 @@
     <string name="call">व्हॉइस कॉल</string>
     <string name="callFailed_simError">सिम नाही किंवा सिम एरर</string>
     <string name="callHistoryIconLabel">कॉल इतिहास</string>
-    <string name="call_announcer_preference_footer_instruction_text">इनकमिंग कॉलसाठी कॉलरचे नाव आणि नंबर मोठ्याने वाचला जाईल</string>
+    <string name="call_action_label_automatically_screen">आपोआप स्क्रीन करा. रोबोकॉलला नकार द्या.</string>
+    <string name="call_action_label_ring_phone">फोन रिंग करा (डीफॉल्ट)</string>
+    <string name="call_action_label_silently_decline">शांतपणे नकार द्या</string>
+    <string name="call_announcer_preference_footer_instruction_text">इनकमिंग कॉलसाठी कॉलरचे नाव आणि नंबर मोठ्याने वाचला जाईल.</string>
     <string name="call_announcer_preference_list_title">कॉलर आयडीची घोषणा करा</string>
     <string name="call_announcer_preference_option_always">नेहमी</string>
     <string name="call_announcer_preference_option_headset">फक्त हेडसेट वापरताना</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">उत्तर द्या</string>
     <string name="call_incoming_answer_rtt">RTT सह उत्तर द्या</string>
     <string name="call_incoming_answer_voice">आवाजासह उत्तर द्या</string>
-    <string name="call_incoming_chip_answer_and_release">उत्तर देऊन हा कॉल बंद करा</string>
+    <string name="call_incoming_chip_answer_and_release">उत्तर द्या आणि दुसरा कॉल संपवा</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT कॉलला उत्तर द्या</string>
     <string name="call_incoming_chip_answer_video_as_audio">व्हॉईस कॉल ला उत्तर द्या</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">माझा व्हिडिओ बंद ठेवून उत्तर द्या</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">उत्तर देण्यासाठी वर स्वाइप करा</string>
     <string name="call_incoming_swipe_to_reject">नकार देण्यासाठी खाली स्वाइप करा</string>
     <string name="call_incoming_video_is_off">तुमचा व्हिडिओ बंद आहे</string>
-    <string name="call_incoming_will_disconnect">या कॉलला उत्तर देण्यामुळे तुमचा व्हिडिओ कॉल समाप्त होईल</string>
+    <string name="call_incoming_will_disconnect">या कॉलला उत्तर दिल्यामुळे तुमचा दुसरा कॉल संपेल</string>
     <string name="call_incoming_will_disconnect_app">उत्तर दिल्याने तुमचा %1$s कॉल संपेल</string>
     <string name="call_isdn">ISDN कॉल करा</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">ब्लॉक करा/स्पॅमचा अहवाल द्या</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">कॉल करण्याचे कारण: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">रेकॉर्डिंग सेव्ह केले.</string>
     <string name="call_recording_conversation_history_entry">रेकॉर्ड केला</string>
+    <string name="call_recording_delete_snack_bar_undo">पहिल्यासारखे करा</string>
     <string name="call_recording_disclaimer_agreen_button_text">रेकॉर्डिंग सुरू करा</string>
     <string name="call_recording_disclaimer_content">"तुम्ही किंवा तुमच्या कॉलमध्ये असणारी दुसरी व्यक्ती अशा ठिकाणी असू शकते जेथे रेकॉर्ड केले जाण्यासाठी प्रत्येकाची संमती असणे आवश्यक आहे. कॉल रेकॉर्ड केला जात असल्याची सूचना प्रत्येकाला वेळेच्या आधी मिळेल. संभाषणे रेकॉर्ड करण्याशी संबंधित कायदे पाळणे ही तुमची जबाबदारी आहे. कॉल रेकॉर्डिंगची सुविधा जबाबदारीने वापरा आणि आवश्यक असेल तेव्हाच ते सुरू करा.
 ^1
@@ -284,20 +300,22 @@
     <string name="call_screen_demo_page_1_title">उत्तर देण्यासाठी स्‍वाइप करण्याऐवजी, स्क्रीन कॉलवर टॅप करा</string>
     <string name="call_screen_demo_page_2_description">तुम्‍हाला कोण आणि का कॉल करत आहे हे शोधून काढण्यासाठी Google Assistant मदत करतो. रीअल टाइममध्ये कॉलर काय बोलतो ते तुम्‍ही पाहू शकता.</string>
     <string name="call_screen_demo_page_2_title">अज्ञात कॉलर कोण आहे याचा अंदाज लावण्याची आवश्यकता नाही</string>
-    <string name="call_screen_demo_page_3_description">पुढील प्रश्न विचारण्यासाठी, स्पॅम म्हणून तक्रार नोंदवण्यासाठी आणि आणखी बरेच काही करण्यासाठी झटपट उत्तरांपैकी एकावर टॅप करा.</string>
+    <string name="call_screen_demo_page_3_description">पुढील प्रश्न विचारण्यासाठी, स्पॅम म्हणून तक्रार करण्यासाठी आणि आणखी बरेच काही करण्यासाठी झटपट उत्तरांपैकी एकावर टॅप करा.</string>
     <string name="call_screen_demo_page_3_title">कॉल न उचलता अधिक माहिती मिळवा</string>
     <string name="call_screen_demo_page_4_description">"हा तुम्‍हाला अपेक्षित नसलेला कॉल असल्‍यास, त्‍यावर टॅप करून बंद करा.
 
-कॉल ऑडिओ किंवा कॉलचे ट्रान्सस्क्रिप्ट Google सह कोणालाही पाठवले जाणार नाही."</string>
+कॉल ऑडिओ किंवा कॉलचे ट्रान्स्क्रिप्ट Google सह कोणालाही पाठवले जाणार नाही."</string>
     <string name="call_screen_demo_page_4_title">वेळ वाचवा आणि तणाव टाळा</string>
     <string name="call_screen_demo_setting_title">डेमो पाहा</string>
+    <string name="call_screen_demo_settings_title">डेमो पहा</string>
     <string name="call_screen_demo_title">कॉल स्क्रीन कसे काम करते</string>
     <string name="call_screen_demo_unable_to_fetch_audio">नमुना ऑडिओ मिळवता आला नाही</string>
     <string name="call_screen_demo_unable_to_play_audio">नमुना ऑडिओ प्‍ले करता आला नाही</string>
     <string name="call_screen_end_call_button_content_description">कॉल संपवा</string>
     <string name="call_screen_end_call_local_internal_message">तुम्ही कॉल संपवला</string>
     <string name="call_screen_end_call_non_local_internal_message">कॉल डिस्कनेक्ट झाला होता</string>
-    <string name="call_screen_how_it_works_setting_title">कॉल स्क्रीन वाय-फाय किंवा डेटा यांशिवाय तुमच्‍या डिव्हाइसवर काम करते. संभाषण ट्रान्सस्क्रिप्ट तयार केले जातात आणि फक्‍त तुमच्‍या फोनवर स्‍टोअर केले जातात. %1$s</string>
+    <string name="call_screen_how_it_works_setting_title">कॉल स्क्रीन वाय-फाय किंवा डेटा यांशिवाय तुमच्‍या डिव्हाइसवर काम करते. संभाषण ट्रान्स्क्रिप्ट तयार केले जातात आणि फक्‍त तुमच्‍या फोनवर स्‍टोअर केले जातात. %1$s</string>
+    <string name="call_screen_how_it_works_title">कॉल स्क्रीन वाय-फाय किंवा डेटा यांशिवाय तुमच्‍या डिव्हाइसवर काम करते. संभाषण ट्रान्स्क्रिप्ट तयार केले जातात आणि फक्‍त तुमच्‍या फोनवर स्‍टोअर केले जातात. ^1</string>
     <string name="call_screen_incallui_chip_text">कॉल स्क्रीन करा</string>
     <string name="call_screen_join_call_button_content_description">कॉलमध्ये सामील व्हा</string>
     <string name="call_screen_join_call_internal_message">तुम्ही कॉलमध्ये सामील झालात</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">कॉलरला सांगत आहे</string>
     <string name="call_screen_screening_call_from">यांचा कॉल स्क्रीन करत आहे</string>
     <string name="call_screen_setting_title">कॉल स्क्रीन</string>
+    <string name="call_screen_settings_title">कॉल स्क्रीन</string>
     <string name="call_screen_speaker_toggle_button_content_description">स्पीकरचे बटण</string>
     <string name="call_screen_suggestions_avatar_content_description">लोगो</string>
     <string name="call_screen_survey_cancel_button">रद्द करा</string>
@@ -314,8 +333,8 @@
     <string name="call_screen_survey_notification_title">आम्हाला सुधारणा करण्यात मदत करा</string>
     <string name="call_screen_survey_submit_button">सबमिट करा</string>
     <string name="call_screen_survey_title">कॉल स्क्रीन मध्ये सुधारणा करण्यात मदत करा</string>
-    <string name="call_screen_transcription_latency_survey_description">तुमचे संभाषण किती लवकर ट्रान्सक्राइब केले गेले?</string>
-    <string name="call_screen_transcription_quality_survey_description">तुमचे संभाषण किती अचूकपणे ट्रान्सक्राइब केले गेले?</string>
+    <string name="call_screen_transcription_latency_survey_description">तुमचे संभाषण किती लवकर ट्रान्स्क्राइब केले गेले?</string>
+    <string name="call_screen_transcription_quality_survey_description">तुमचे संभाषण किती अचूकपणे ट्रान्स्क्राइब केले गेले?</string>
     <string name="call_screen_user_is_replying_status">कॉलरला सांगत आहे</string>
     <string name="call_screen_user_replied_status">कॉलरला सांगितले</string>
     <string name="call_screen_voice_setting_title">Voice</string>
@@ -331,6 +350,8 @@
     <string name="call_work">कार्यस्‍थानी कॉल करा</string>
     <string name="call_work_mobile">कार्यस्‍थानी मोबाईलवर कॉल करा</string>
     <string name="call_work_pager">कार्यस्‍थानी पेजरवर कॉल करा</string>
+    <string name="caller_action_error_cant_load_value">सध्याचे %1$s मूल्य मिळवता आले नाही</string>
+    <string name="caller_action_error_cant_set_value">%1$s मूल्य सेव्ह करता आले नाही</string>
     <string name="caller_id_announcement_multi_sim">%2$s यांच्याकडून %3$s सिमवर येणारा %1$s कॉल</string>
     <string name="caller_id_announcement_single_sim">%2$s यांच्याकडून येणारा %1$s कॉल</string>
     <string name="caller_id_business_data_details">या वैशिष्ट्यांमध्ये वापरला जाणारा डेटा Google आणि त्याच्या परवाना प्रदात्यांनी दिला आहे. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">%s ला कॉल करायचा का?</string>
     <string name="calllog_add_to_contact">संपर्कामध्‍ये जोडा</string>
     <string name="calllog_create_new_contact">नवीन संपर्क तयार करा</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">कॉल स्क्रीन अ‍ॅक्टिव्हेट करत आहे (वायफायची आवश्यकता आहे)</string>
+    <string name="callscreen_settings_voice_setting_title">आवाज</string>
+    <string name="camera_permission_toast">कॅमेराची परवानगी सुरू केली</string>
     <string name="camera_privacy_text">कॅमेरा परवानगी सुरू केली</string>
     <string name="cannot_understand_description">मला समजले नाही</string>
     <string name="car_crash_emergency_intro">"कॉलरच्या वतीने ऑटोमेटेड आणीबाणी व्हॉइस सेवेव्दारे तुमच्या संपर्क साधला जात आहे.
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">%2$d पैकी %1$d वर्णमर्यादा ओलांडली आहे</string>
     <string name="checkbox_report_as_spam_action">स्पॅम म्हणून कॉलची तक्रार करा</string>
     <string name="child_number">%s द्वारा</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">संपर्क निवडा</string>
     <string name="clear_button_content_description">शोध साफ करा</string>
     <string name="clear_text_end_icon_content_description">मजकूर साफ करा</string>
     <string name="cli_not_supported_text">पुढे सुरू ठेवण्यासाठी फोन उघडा</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">पडताळणी केलेले कॉलिंग सेट करता आले नाही. तुम्‍ही सेटिंग्जमधून पुन्‍हा सुरू करू शकता.</string>
     <string name="contact_card_video_icon_content_description">^1 ला व्हिडिओ कॉल करा</string>
     <string name="contact_grid_callback_number">या फोनचा क्रमांक: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">कॉल फॉरवर्ड केला</string>
+    <string name="contact_grid_hd_icon_content_description">HD कॉल</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD प्लस कॉल</string>
     <string name="contact_grid_incoming_bidirectional_video_call">या व्‍यक्‍तीकडून वाहक व्हिडिओ कॉल</string>
     <string name="contact_grid_incoming_reception_only_video_call">या व्‍यक्‍तीकडून वाहक वन-वे व्हिडिओ कॉल</string>
     <string name="contact_grid_incoming_rtt_call">कडून RTT कॉल</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">या व्‍यक्‍तीकडून वाय-फाय वाहक व्हिडिओ कॉल</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">या व्‍यक्‍तीकडून वाय-फाय वाहक वन-वे व्हिडिओ कॉल</string>
     <string name="contact_grid_incoming_work_call">कडून कार्य कॉल</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">डेटा शेअर करून केलेला कॉल</string>
+    <string name="contact_grid_spam_icon_content_description">स्पॅम कॉल</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">वाहक</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s यांनी पडताळणी केली आहे</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">वैध नंबर</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">व्हॉइस ओव्हर LTE कॉल</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">वायफायवर व्हिडिओ कॉल</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">व्हॉइस ओव्हर 4G कॉल</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">व्हॉइस ओव्हर LTE कॉल</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">वायफायवर व्हॉइस कॉल</string>
+    <string name="contact_grid_wifi_icon_content_description">वायफाय कॉल</string>
+    <string name="contact_grid_work_icon_content_description">ऑफिसचा कॉल</string>
     <string name="contact_menu_add_favorite">आवडता जोडा</string>
     <string name="contact_menu_contact_info">संपर्क माहिती</string>
     <string name="contact_menu_invite_video">व्हिडिओ कॉलसाठी आमंत्रित करा</string>
@@ -459,7 +495,7 @@
     <string name="content_description_overflow">आणखी पर्याय</string>
     <string name="content_description_rtt_chat_avatar">अवतार</string>
     <string name="content_description_rtt_check_button">पुढे जा</string>
-    <string name="content_description_rtt_transcript_advisory_icon">ट्रान्सस्क्रिप्ट सल्ला आयकन</string>
+    <string name="content_description_rtt_transcript_advisory_icon">ट्रान्स्क्रिप्ट सल्ला आयकन</string>
     <string name="conversation_history_button_add_contact">संपर्क जोडा</string>
     <string name="conversation_history_button_block">ब्लॉक करा</string>
     <string name="conversation_history_button_description_video_call_wifi">वायफाय वापरून व्हिडिओ कॉल करा</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">आज</string>
     <string name="conversation_history_call_details_snack_bar_deleted">कॉल हटवला</string>
     <string name="conversation_history_call_details_snack_bar_undo">पहिल्यासारखे करा</string>
-    <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">ट्रान्सस्क्रिप्ट आणि ऑडिओ</string>
-    <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">ट्रान्सस्क्रिप्ट</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">महत्त्वाचा कॉल</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">कॉलसंबंधित आणखी माहिती दाखवा</string>
+    <string name="conversation_history_call_recording_deleted">रेकॉर्डिंग हटवले</string>
+    <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">ट्रान्स्क्रिप्ट आणि ऑडिओ</string>
+    <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">ट्रान्स्क्रिप्ट</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">ट्रान्स्क्रिप्ट आणि ऑडिओ पहा</string>
     <string name="conversation_history_dropdown_menu_transcript_title">कॉल स्क्रीन</string>
     <string name="copy">कॉपी करा</string>
     <string name="copy_number">नंबर कॉपी करा</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">डीफॉल्ट उपसर्ग</string>
     <string name="custom_prefix_prefixes_preference_title">उपसर्ग</string>
     <string name="dark_theme_label">गडद</string>
+    <string name="default_changed_confirmation">फोन डीफॉल्ट म्हणून सेट केला होता</string>
+    <string name="default_image_content_description">स्पॅश इमेज</string>
     <string name="delete">हटवा</string>
     <string name="delete_all_recordings_confirmation_dialog_title">सर्व रेकॉर्डिंग हटवा</string>
     <string name="delete_all_recordings_now_error_message">काही रेकॉर्डिंग हटवता आली नाहीत. पुन्हा प्रयत्न करा.</string>
     <string name="delete_button_label">सर्व रेकॉर्डिंग आता हटवा</string>
     <string name="delete_confirmation_dialog_negative_button_label">रद्द करा</string>
     <string name="delete_confirmation_dialog_positive_button_label">हटवा</string>
+    <string name="delete_old_recordings_error_cant_load_value">सध्याचे %1$s मूल्य मिळवता आले नाही</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$s मूल्य सेव्ह करता आले नाही</string>
+    <string name="deleting_call_recording">रेकॉर्डिंग हटवत आहे…</string>
     <string name="description_add_to_existing_contact_action">विद्यमान संपर्कांमध्ये ^1 जोडा</string>
     <string name="description_blocked_number_list_delete">नंबर अनब्लॉक करा</string>
     <string name="description_call_action">^1 वर कॉल करा</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"तुमच्याशी कॉलरच्या वतीने ऑटोमेटेड आणीबाणी व्हॉइस सेवेद्वारे संपर्क साधला जात आहे.
  कॉलर आणीबाणी परिस्थितीमध्ये असेल असे त्याने सूचित केले आहे. 
 कृपया मदत पाठवा."</string>
+    <string name="emergency_speaker">स्पीकर</string>
     <string name="emergency_voice_assist_dialog_button_close">रद्द करा</string>
     <string name="emergency_voice_assist_dialog_title">आणीबाणी ऑपरेटरला हे ऐकू येते</string>
     <string name="end_call_with_default_message_description">कॉल संपवा</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">ऑडिओ खूप शांत होता</string>
     <string name="feedback_call_issue_title">कोणती समस्या होती?</string>
     <string name="feedback_title_please_rate">कॉलची गुणवत्ता रेट करा</string>
+    <string name="first_time_callers_action_preference_description">कॉलर तुमच्या कॉल लॉगमध्ये नाहीत</string>
+    <string name="first_time_callers_action_preference_title">पहिल्यांदा कॉल करणारे कॉलर</string>
     <string name="flip_to_shush_title">Shhh करण्यासाठी फ्लिप करा</string>
     <string name="flip_to_silence_summary">येणारा कॉल सायलंट करण्यासाठी तुमच्या फोनच्या स्क्रीनची बाजू सपाट पृष्ठभागावर खाली फ्लिप करा</string>
     <string name="flip_to_silence_title">सायलंट करण्यासाठी फ्लिप करा</string>
+    <string name="foreground_notification_title">अपडेट करत आहे…</string>
     <string name="frequent_contact_suggestion">वारंवार कॉल केलेले</string>
     <string name="general_learn_more">अधिक जाणून घ्या</string>
     <string name="generic_conference_call_name">कॉल मध्ये</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">रेकॉर्डिंग कशी स्टोअर केली जातात याविषयी अधिक जाणून घ्या</string>
     <string name="how_it_works_storage_template">तुमच्या फोनमधील स्टोरेज संपल्यास, कॉल रेकॉर्डिंग थांबवले जाईल. ^1</string>
     <string name="icon_content_description">डायलॉग आयकन</string>
+    <string name="icon_description_shared_data_call">डेटा शेअर करून केलेला कॉल</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">नंबर आयात करा</string>
     <string name="ims_video_heading">Verizon व्हिडिओ</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">तुमच्याकडे कोणतेही मिस्ड कॉल नाहीत</string>
     <string name="new_call_log_permission_no_calllog">तुमचा कॉल लॉग पाहण्‍यासाठी, फोन परवानगी सुरू करा.</string>
     <string name="new_call_log_secondary_blocked">ब्लॉक केला</string>
+    <string name="new_call_log_secondary_verified">पडताळणी केलेला कॉल</string>
     <string name="new_call_log_snack_bar_deleted">कॉल हटवला</string>
     <string name="new_call_log_snack_bar_undo">पहिल्यासारखे करा</string>
     <string name="new_call_log_unknown">अज्ञात</string>
@@ -818,12 +869,14 @@
     <string name="notification_action_answer_video">व्हिडिओ</string>
     <string name="notification_action_dismiss">नकार द्या</string>
     <string name="notification_action_end_call">हँग अप</string>
+    <string name="notification_action_mute_toggle">म्यूट करा</string>
     <string name="notification_action_speaker_off">स्पीकर बंद करा</string>
     <string name="notification_action_speaker_on">स्पीकर सुरू करा</string>
+    <string name="notification_action_speaker_toggle">स्पीकर</string>
     <string name="notification_callReasonMsg">कारण: %s</string>
     <string name="notification_call_wifi_brand">वाय-फाय कॉल</string>
     <string name="notification_call_wifi_work_brand">वाय-फाय कार्य कॉल</string>
-    <string name="notification_channel_incoming_call">येणारे कॉल</string>
+    <string name="notification_channel_incoming_call">इनकमिंग कॉल</string>
     <string name="notification_channel_low_priority">बॅकग्राउंड प्रक्रिया सुरू आहे</string>
     <string name="notification_channel_misc">डीफॉल्ट</string>
     <string name="notification_channel_missed_call">सुटलेले कॉल</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">वाहकावरून व्हिडिओ कॉल करण्यासाठीचे बटण</string>
     <string name="play">प्ले करा</string>
     <string name="plus_code_line_format">प्लस कोड: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">बदललेले नंबर वापरत असलेले स्पॅमर असू शकतात असे कॉलर</string>
+    <string name="possibly_faked_numbers_action_preference_title">संभाव्यतः फसवे नंबर</string>
     <string name="post_call_message">तुम्ही कॉल का केला ते सांगा</string>
     <string name="post_call_message_1">हे खूप महत्वाचे आहे. मला परत कॉल करा.</string>
     <string name="post_call_message_2">आपल्याकडे वेळ असेल तेव्हा मला परत कॉल करा.</string>
@@ -913,6 +968,8 @@
     <string name="privacy_policy_label">गोपनीयता धोरण</string>
     <string name="private_num_non_verizon">खाजगी नंबर</string>
     <string name="private_num_verizon">प्रतिबंधित</string>
+    <string name="private_or_hidden_action_preference_description">कॉलर त्यांचा कॉलर आयडी लपवत आहेत</string>
+    <string name="private_or_hidden_action_preference_title">खाजगी किंवा लपवलेला आहे</string>
     <string name="quick_contact_checkbox_description">संपर्क निवडा</string>
     <string name="ready_for_recording">तयार…</string>
     <string name="record_greeting_cancel_label">रद्द करा</string>
@@ -928,20 +985,33 @@
     <string name="record_greeting_uploading_greeting_message">सेव्ह करत आहे…</string>
     <string name="record_voicemail_greeting_title">शुभेच्छा रेकॉर्ड करा</string>
     <string name="recording_category_title">रेकॉर्डिंग</string>
+    <string name="recording_deleted">रेकॉर्डिंग हटवले</string>
+    <string name="recording_deletion_failed">रेकॉर्डिंग हटवता आले नाही [पुन्हा प्रयत्न करा]</string>
     <string name="redo_button_text">पुन्हा प्रयत्न करा</string>
     <string name="remember_this_choice_label">ही निवड लक्षात ठेवा</string>
-    <string name="report_not_spam_alert_button">नोंदवा</string>
+    <string name="report_not_spam_alert_button">तक्रार करा</string>
     <string name="report_not_spam_alert_details">%1$s वरील भविष्यातील कॉल यापुढे स्पॅम म्हणून ओळखले जाणार नाहीत.</string>
-    <string name="report_not_spam_alert_title">चूक झाल्याची तक्रार करायची?</string>
-    <string name="report_spam_and_block_alert_button">स्पॅमची तक्रार नोंदवा</string>
-    <string name="report_spam_and_block_alert_title">%1$s ची तक्रार नोंदवून तो ब्लॉक करायचा आहे का?</string>
+    <string name="report_not_spam_alert_title">चूक झाल्याची तक्रार करायची का?</string>
+    <string name="report_spam_and_block_alert_button">स्पॅमची तक्रार करा</string>
+    <string name="report_spam_and_block_alert_title">%1$s ची तक्रार करून तो ब्लॉक करायचा आहे का?</string>
     <string name="report_spam_description">स्पॅम म्हणून तक्रार करा</string>
     <string name="request_call_back_description">मला परत कॉल करा</string>
     <string name="request_email_description">मला ईमेल करा</string>
     <string name="respond_via_sms_setting_title">जलद प्रतिसाद</string>
+    <string name="revelio_callers_how_it_works_text">"ऑटोमॅटिक स्क्रीनिंग बंद करण्यासाठी, अनामित कॉलकरिता “फोन रिंग करा (डीफॉल्ट)” हे सेटिंग निवडा. तुमचे संपर्क कधीच आपोआप स्क्रीन केले जात नाहीत. तुमचा फोन हा हेडफोन किंवा स्पीकरशी कनेक्ट केलेला असल्यास, ऑटोमॅटिक स्क्रीनिंग काम करत नाही. 
+कॉल स्क्रीन हे डेटा किंवा वाय-फाय वापरत नाही, पण वाहक कॉल मिनिटे वापरते. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">३० दिवसांनंतर हटवा</string>
+    <string name="revelio_delete_old_recordings_setting_title">जुन्या रेकॉर्डिंग आणि ट्रान्स्क्रिप्ट आपोआप हटवा</string>
+    <string name="revelio_demo_setting_title">कॉल स्क्रीन कसे काम करते ते पहा</string>
     <string name="revelio_demo_turn_on">सुरू करा</string>
     <string name="revelio_end_call_reject_as_spam">कॉल स्पॅम म्हणून मार्क केला होता</string>
     <string name="revelio_end_call_user_missed_internal_message">कॉल मिस झाला होता</string>
+    <string name="revelio_pref_title">कॉल स्क्रीन</string>
+    <string name="revelio_preference_summary_automatic_screening_off">ऑटोमॅटिक स्क्रीनिंग बंद आहे</string>
+    <string name="revelio_preference_summary_screening">स्क्रीनिंग %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Assistant वापरून उत्तरे दिलेल्या कॉलचा ऑडिओ सेव्ह करा</string>
+    <string name="revelio_save_audio_setting_title">कॉल स्क्रीन ऑडिओ सेव्ह करा</string>
+    <string name="revelio_setting_title">कॉल स्क्रीन</string>
     <string name="rtt_assist_default">RTT, जे कर्णबधीर आहेत, ज्यांना कमी ऐकू येते, ज्यांना वाचिक अपंगत्व आहे किंवा ज्यांच्यासाठी फक्त आवाज ऐकू येणे पुरेसे नसते अशा कॉलरना साहाय्य करते.^1</string>
     <string name="rtt_assist_for_att">बाह्य TTY कीबोर्डना स्क्रीनवरील रीअल-टाइम टेक्‍स्‍ट (RTT) कीबोर्ड हा पर्याय आहे. तुम्ही RTT कॉल दरम्यान मेसेज पाठवता, तेव्हा तुम्ही ज्या व्यक्तीशी बोलत आहात ती तुम्हाला रिअल टाइममध्ये तुमचा मेसेज टाइप करताना पाहू शकते. ^1</string>
     <string name="rtt_assist_for_tmo">बाह्य TTY कीबोर्डना स्क्रीनवरील रीअल-टाइम टेक्‍स्‍ट (RTT) कीबोर्ड हा पर्याय आहे. RTT फोन कॉलदरम्यान तुम्ही टाइप करत असलेला मेसेज तत्काळ पाठवून, तुम्हाला रीअल टाइममध्ये मजकूर वापरून संभाषण करू देते. मेसेज पूर्ण होण्याआधी तुम्हाला अपूर्ण प्रतिसाद पाहता येतील. ^1</string>
@@ -949,7 +1019,8 @@
     <string name="rtt_button_back">मागे जा</string>
     <string name="rtt_button_downgrade">व्हॉइस कॉलवर स्विच करा</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">या कॉलसाठी RTT उपलब्ध नाही. तुमचा कॉल व्हॉइस कॉल म्हणून कनेक्ट केला गेला आहे.</string>
+    <string name="rtt_call_downgraded_toast">तुमचा RTT कॉल हा फक्त व्हॉइस कॉल वर बदलण्यात आला आहे</string>
+    <string name="rtt_call_not_available_toast">या कॉलसाठी RTT उपलब्ध नाही</string>
     <string name="rtt_configuration_summary_always_visible">रीअल-टाइम टेक्‍स्‍ट बटण सगळीकडे उपलब्ध आहे</string>
     <string name="rtt_configuration_summary_not_visible">येणाऱ्या रीअल-टाइम टेक्‍स्‍ट कॉलना अनुमती द्या पण कॉलिंग बटण लपवा</string>
     <string name="rtt_configuration_summary_visible_during_call">कॉलच्या दरम्यान रीअल-टाइम टेक्‍स्‍ट बटण दाखवा</string>
@@ -978,6 +1049,8 @@
     <string name="rtt_transcript_link">प्रतिलेखन पाहा</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">हा मेसेज पुन्हा येईल.</string>
+    <string name="save_audio_error_cant_load_value">कॉल स्क्रीन सेव्ह करा ऑडिओचे सध्याचे मूल्य मिळवता आले नाही</string>
+    <string name="save_audio_error_cant_set_value">कॉल स्क्रीन सेव्ह करा ऑडिओचे सध्याचे मूल्य सेव्ह करता आले नाही</string>
     <string name="save_button_text">सेव्ह करा</string>
     <string name="saved_voicemails_action_title">सेव्ह केलेले व्हॉइसमेल (%1$s)</string>
     <string name="search_hint">व्हिडिओ संपर्क शोधा</string>
@@ -1004,8 +1077,11 @@
     <string name="send_a_message">मेसेज पाठवा</string>
     <string name="send_to_voicemail_import_failed">इंपोर्ट अयशस्वी झाले</string>
     <string name="serial_number">सिरीअल नंबर</string>
+    <string name="set_as_default_button_text">डीफॉल्ट सेट करा</string>
     <string name="set_default_account">कॉलसाठी हे नेहमी वापरा</string>
     <string name="set_default_account_description">तुमच्या संपर्कांमध्ये सिम प्राधान्य सेव्ह केले आहे.</string>
+    <string name="set_phone_as_default_explanation_text">हा तुमचा डीफॉल्ट फोन ॲप असल्यावर फोन कॉल सुरू आणि मिळवू शकतो</string>
+    <string name="set_phone_as_default_request_text">फोन डीफॉल्ट म्हणून सेट करा</string>
     <string name="settings">सेटिंग्ज</string>
     <string name="settings_page_call_recording_feature_not_available_text">कॉल रेकॉर्डिंग हे तुमच्या स्थानामध्ये उपलब्ध नाही</string>
     <string name="settings_page_crosby_feature_not_available_text">तुमच्या स्थानामध्ये उपलब्ध नाही</string>
@@ -1040,6 +1116,8 @@
     <string name="snackbar_undo">पहिल्यासारखे करा</string>
     <string name="snackbar_voicemail_deleted">व्हॉइसमेल आढळले</string>
     <string name="sounds_and_vibration_title">ध्वनी आणि कंपने</string>
+    <string name="spam_action_preference_description">Google च्या स्पॅम डेटाबेसशी जुळणारे नंबर</string>
+    <string name="spam_action_preference_title">स्पॅम</string>
     <string name="spam_and_call_screen_settings_title">स्पॅम आणि कॉल स्क्रीन</string>
     <string name="spam_blocking_promo_action_dismiss">डिसमिस करा</string>
     <string name="spam_blocking_promo_action_filter_spam">स्पॅम फिल्टर करा</string>
@@ -1055,19 +1133,17 @@
     <string name="spam_notification_add_contact_action_text">संपर्क जोडा</string>
     <string name="spam_notification_block_spam_action_text">होय, क्रमांक ब्‍लॉक करा</string>
     <string name="spam_notification_dialog_add_contact_action_text">संपर्कांमध्ये जोडा</string>
-    <string name="spam_notification_dialog_block_report_spam_action_text">ब्लॉक करा आणि स्पॅम म्हणून तक्रार नोंदवा</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text">ब्लॉक करा आणि स्पॅम म्हणून तक्रार करा</string>
     <string name="spam_notification_non_spam_call_collapsed_text">संपर्कांमध्ये जोडण्यासाठी किंवा स्पॅम नंबर ब्लॉक करण्यासाठी टॅप करा.</string>
-    <string name="spam_notification_non_spam_call_expanded_text">तुम्हाला पहिल्यांदाच या नंबरवरून कॉल आला होता. हा कॉल स्पॅम असल्यास, तुम्ही हा नंबर ब्लॉक करू शकता आणि आणि तसे कळवू शकता.</string>
-    <string name="spam_notification_report_spam_action_text">ब्लॉक करा आणि अहवाल द्या</string>
-    <string name="spam_notification_spam_call_collapsed_text">स्पॅम नसल्याचे कळवण्यासाठी किंवा तो ब्लॉक करण्यासाठी टॅप करा</string>
+    <string name="spam_notification_non_spam_call_expanded_text">तुम्हाला पहिल्यांदाच या नंबरवरून कॉल आला होता. हा कॉल स्पॅम असल्यास, तुम्ही हा नंबर ब्लॉक करू शकता आणि आणि त्याची तक्रार करू शकता.</string>
+    <string name="spam_notification_report_spam_action_text">ब्लॉक करा आणि तक्रार करा</string>
+    <string name="spam_notification_spam_call_collapsed_text">स्पॅम नाही हे कळवण्यासाठी किंवा तो ब्लॉक करण्यासाठी टॅप करा</string>
     <string name="spam_notification_title">^1 स्‍पॅम कॉलर होता?</string>
     <string name="spam_notification_was_not_spam_action_text">नाही, स्‍पॅम नाही</string>
     <string name="speak_easy_data_link">प्रतिलेखन पाहा</string>
     <string name="speed_dial_add_button_text">जोडा</string>
     <string name="speed_dial_contacts_permission_description">स्पीड डायल सुरू करण्‍यासाठी, संपर्क परवानगी सुरू करा.</string>
     <string name="speed_dial_disambig_dialog_title">%s ला कसा कॉल करायचा ते निवडा</string>
-    <string name="speed_dial_education_content">कॉल आणि मेसेजमध्ये स्विच करण्यासाठी कोणत्याही संपर्कास स्पर्श करा आणि धरून ठेवा</string>
-    <string name="speed_dial_education_title">संपर्कात राहण्याचे आणखी मार्ग</string>
     <string name="speed_dial_no_contacts_action_text">आवडते जोडा</string>
     <string name="speed_dial_no_contacts_description">फक्त एका टॅपने तुमच्या आवडत्या संपर्कांना कॉल करा</string>
     <string name="speed_dial_remember_this_choice">ही निवड लक्षात ठेवा</string>
@@ -1095,11 +1171,15 @@
     <string name="terms_of_service_label">सेवा अटी</string>
     <string name="textmessage_button_label">मेसेज</string>
     <string name="theme_preference_label">थीम निवडा</string>
+    <string name="tidepods_call_screen_settings_title">कॉल स्क्रीन</string>
+    <string name="tidepods_incall_label_record">रेकॉर्ड करा</string>
     <string name="toast_text_copied">मजकूर कॉपी केला</string>
     <string name="toolbar_back">मागे</string>
     <string name="toolbar_close">बंद करा</string>
     <string name="transcript_audio_feedback_chip_text">सुधारणा करण्यात आमची मदत करा</string>
+    <string name="transcript_audio_feedback_link_text">ट्रान्स्क्रिप्ट आणि ऑडिओ पहा</string>
     <string name="transcript_snippet_low_confidence_description">(ऑडिओ स्पष्ट नव्हता)</string>
+    <string name="try_again_button">पुन्हा प्रयत्न करा</string>
     <string name="tty_configuration_title_tty_full">TTY पूर्ण</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY बंद</string>
@@ -1121,7 +1201,6 @@
     <string name="type_outgoing_video_pulled">केला जाणारा व्हिडिओ कॉल दुसर्‍या डिव्हाइसवर स्थानांतरित केला</string>
     <string name="type_rejected">नाकारलेला कॉल</string>
     <string name="type_voicemail">व्हॉइसमेल</string>
-    <string name="unable_change_value_error">RTT सेटिंग्ज बदलताना एक समस्या आली. कृपया परत मागे जा आणि पुन्हा प्रयत्न करा.</string>
     <string name="unable_read_value_error">RTT सेटिंग्ज मिळवताना एक समस्या आली. कृपया परत मागे जा आणि पुन्हा प्रयत्न करा.</string>
     <string name="unblock_number">अनब्लॉक करा</string>
     <string name="unblock_number_alert_details">हा नंबर अनब्‍लॉक केला जाईल आणि त्याचा स्पॅम नाही म्हणून अहवाल दिला जाईल. भविष्यातील कॉल स्पॅम म्हणून ओळखले जाणार नाहीत.</string>
@@ -1130,6 +1209,7 @@
     <string name="unblock_number_ok">अनब्लॉक करा</string>
     <string name="unblock_report_number_alert_title">%1$s अनब्‍लॉक करायचा?</string>
     <string name="unknown">अज्ञात</string>
+    <string name="unknown_call_settings_category_preference_title">अनामित कॉल सेटिंग्ज</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">येणाऱ्या कॉलचा आवाज अनम्यूट करा</string>
     <string name="user_is_busy_description">मी तुम्हाला परत कॉल करेन</string>
@@ -1241,10 +1321,17 @@
     <string name="videocall_remote_video_on">त्यांचा व्हिडिओ सुरू आहे</string>
     <string name="videocall_remotely_held">कॉल होल्डवर आहे</string>
     <string name="videocall_remotely_resumed">कॉल पुनः सुरू झाला</string>
+    <string name="videocall_settings_default_carrier">वाहक व्हिडिओ कॉलिंग</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">डीफॉल्ट व्हिडिओ कॉलिंग सेवा</string>
+    <string name="videocall_settings_fallback_summary">वाहक व्हिडिओ कॉलिंग उपलब्ध नसल्यास, Duo वर स्विच करा</string>
+    <string name="videocall_settings_fallback_title">बॅकअप म्हणून Duo वापरा</string>
+    <string name="videocall_settings_title">व्हिडिओ कॉल</string>
     <string name="videocall_show_preview_button_description">स्थानिक व्हिडिओ फीड दाखवा</string>
     <string name="view">पहा</string>
     <string name="view_location_settings">स्थान सेटिंग्ज</string>
     <string name="vitle_label">व्हिडिओ ओव्हर LTE</string>
+    <string name="viwifi_label">वायफाय वर व्हिडिओ</string>
     <string name="vm_change_pin_error_invalid">नवीन पिन मध्ये चुकीचे वर्ण आहेत.</string>
     <string name="vm_change_pin_error_mismatch">जुना पिन जुळत नाही.</string>
     <string name="vm_change_pin_error_system_error">पिन बदलू शकत नाही</string>
@@ -1254,8 +1341,11 @@
     <string name="vm_change_pin_progress_message">कृपया वाट पाहा.</string>
     <string name="voice_call">व्हॉइस कॉल</string>
     <string name="voice_call_button">कॉल करा</string>
+    <string name="voice_display_name">व्हॉइस %1$d</string>
     <string name="voice_search_not_available">व्हॉइस शोध उपलब्ध नाही</string>
     <string name="voice_selector_preference_title">उपलब्ध आवाज</string>
+    <string name="voice_settings_available_voices_text">उपलब्ध असलेले व्हॉइस</string>
+    <string name="voice_settings_title">Voice</string>
     <string name="voicecall_button_label">कॉल करा</string>
     <string name="voicecall_button_wifi_description">वायफाय वापरून कॉल करा</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s रोजी %2$s वाजता</string>
@@ -1290,7 +1380,6 @@
     <string name="voicemail_donation_promo_title">प्रतिलेखनाची अचूकता सुधारण्यात मदत करायची आहे का?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">डेटा नसलेल्या सिमवरून व्हिज्युअल व्हॉइसमेल वापरल्यास, वाहक शुल्क लागू शकते</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">व्हिज्युअल व्हॉइसमेल फक्त निवडक डेटा सिमसाठी उपलब्ध आहे</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">तुमच्याकडे एकाहून अधिक सिम असतील आणि त्यातील एक Fi साठी असल्यास, तुमचे Fi सिम व्हिज्युअल व्हॉइसमेलसाठी वापरले जाईल</string>
     <string name="voicemail_error_activating_message">व्हिज्युअल व्हॉइसमेल पूर्णपणे सुरू होईपर्यंत तुम्हाला कदाचित व्हॉइसमेल सूचना मिळणार नाहीत. व्हॉइसमेल पूर्णपणे सुरू होईपर्यंत नवीन मेसेज पुन्हा मिळवण्यासाठी व्हॉइसमेलवर कॉल करा.</string>
     <string name="voicemail_error_activating_title">व्हिज्युअल व्हॉइसमेल सुरू करत आहे</string>
     <string name="voicemail_error_activation_disabled_message">ते सेट करणे पूर्ण करण्यासाठी व्हॉइसमेलला कॉल करा</string>
@@ -1397,6 +1486,7 @@
     <string name="vvm3_error_vms_no_cellular_title">तुमच्या व्हॉइस मेलबॉक्सशी कनेक्ट करू शकत नाही</string>
     <string name="vvm3_error_vms_timeout_message">क्षमस्व, आम्हाला एक समस्या आली आहे. कृपया नंतर पुन्हा प्रयत्न करा. तरीही समस्या असल्यास, %1$s वर ग्राहक सेवेशी संपर्क साधा आणि त्यांना एरर कोड 9007 असल्याचे सांगा.</string>
     <string name="vvm3_error_vms_timeout_title">काहीतरी चूक झाली</string>
+    <string name="vvm_config_title">व्हिज्युअल व्हॉइसमेलचे कॉंफिगरेशन</string>
     <string name="vvm_unsupported_message_format">असमर्थित मेसेज प्रकार, ऐकण्यासाठी %s वर कॉल करा.</string>
     <string name="wait_prompt_str">"खालील टोन पाठवायचे?
 "</string>

@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">এই পরিবর্তনটি প্রয়োগ করার জন্য আপনার ডিভাইসটি অবশ্যই রিবুট করতে হবে। এখনই রিবুট করুন বা বাতিল করুন।</string>
     <string name="camera_hint">ক্যামেরার জন্য আইকন থেকে সোয়াইপ করুন</string>
     <string name="camera_label">ক্যামেরা খুলুন</string>
+    <string name="camera_recording_announcement">ক্যামেরায় রেকর্ড করা হচ্ছে</string>
+    <string name="camera_stopped_recording_announcement">ক্যামেরায় রেকর্ড করা বন্ধ হয়ে গেছে</string>
     <string name="cancel">বাতিল করুন</string>
     <string name="carrier_network_change_mode">পরিষেবা প্রদানকারীর নেটওয়ার্ক পরিবর্তন করা হচ্ছে</string>
     <string name="category_personal">ব্যক্তিগত</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">পর্যবেক্ষণে রাখা</string>
     <string name="debug_networking_category">নেটওয়ার্কিং</string>
     <string name="debug_view_attributes">অ্যাট্রিবিউট ইন্সপেকশন দেখা চালু করুন</string>
+    <string name="defender_notify_des">ব্যাটারির স্বাস্থ্য বজায় রাখার ব্যাপারে সাহায্য করতে, আপনার ফোনে চার্জ করা বন্ধ রাখা হচ্ছে</string>
+    <string name="defender_notify_learn_more">আরও জানুন</string>
+    <string name="defender_notify_resume_charge">চার্জ করা আবার চালু করুন</string>
+    <string name="defender_notify_title">চার্জ করা সাময়িকভাবে বন্ধ রাখা হয়েছে</string>
     <string name="delete_blob_confirmation_text">আপনি কি সত্যিই এই শেয়ার্ড ডেটা মুছে দিতে চান?</string>
     <string name="delete_blob_text">শেয়ার্ড ডেটা মুছে দিন</string>
     <string name="demo_mode">সিস্টেম UI ডেমো মোড</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">সিম কার্ড আনলক করা হচ্ছে…</string>
     <string name="keyguard_try_fingerprint">খুলতে ফিঙ্গারপ্রিন্ট ব্যবহার করুন</string>
     <string name="keyguard_unlock">খোলার জন্য উপরে সোয়াইপ করুন</string>
+    <string name="keyguard_unlock_press">আনলক করার জন্য প্রেস করুন</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">শিডিউল, অ্যালার্ম, রিমাইন্ডার, ঘড়ি</string>
     <string name="kg_enter_confirm_pin_hint">পছন্দের পিন কোড নিশ্চিত করুন</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">কিবোর্ড স্যুইচার</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">মাইক্রোফোন চালু আছে</string>
+    <string name="mic_and_camera_recording_announcement">ক্যামেরা ও মাইক্রোফোনে রেকর্ড করা হচ্ছে</string>
+    <string name="mic_camera_stopped_recording_announcement">ক্যামেরা ও মাইক্রোফোনে রেকর্ড করা বন্ধ হয়ে গেছে</string>
+    <string name="mic_recording_announcement">মাইক্রোফোনে রেকর্ড করা হচ্ছে</string>
+    <string name="mic_stopped_recording_announcement">মাইক্রোফোনে রেকর্ড করা বন্ধ হয়ে গেছে</string>
     <string name="missed_call">মিসড কল</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">মোবাইল ডেটা</string>
@@ -1490,6 +1501,7 @@
     <string name="paused_by_dnd">"'বিরক্ত করবে না' মোডের মাধ্যমে পজ করা আছে"</string>
     <string name="people_tile_description">সাম্প্রতিক মেসেজ, মিসড কল এবং স্ট্যাটাস সংক্রান্ত আপডেট দেখুন</string>
     <string name="people_tile_title">কথোপকথন</string>
+    <string name="person_available">উপস্থিত আছেন</string>
     <string name="phone_hint">ফোনের জন্য আইকন থেকে সোয়াইপ করুন</string>
     <string name="phone_label">ফোন খুলুন</string>
     <string name="picture_color_mode">ছবি রঙ মোড</string>
@@ -1705,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">অফিসের অ্যাপ</string>
     <string name="quick_step_accessibility_toggle_overview">"'এক নজরে' বৈশিষ্ট্যটি চালু বা বন্ধ করুন"</string>
     <string name="recent_conversations">সাম্প্রতিক কথোপকথন</string>
-    <string name="recents_quick_scrub_onboarding">একটি অ্যাপ ছেড়ে দ্রুত অন্য অ্যাপে যেতে ডান দিকে টেনে আনুন</string>
-    <string name="recents_swipe_up_onboarding">অন্য অ্যাপে যেতে উপরের দিকে সোয়াইপ করুন</string>
     <string name="remaining_length_format">%1$s বাকি আছে</string>
     <string name="remote_input_image_insertion_text">একটি ছবি পাঠানো হয়েছে</string>
     <string name="remove_from_settings">সেটিংস থেকে সরান</string>
@@ -2116,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">কার্ড যোগ করুন</string>
     <string name="wallet_secondary_label_updating">আপডেট করা হচ্ছে</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">এই মুহূর্তে অ্যাক্সেস পয়েন্টের কোনও কানেকশন ফাঁকা নেই</string>
     <string name="wifi_cant_connect">কানেক্ট স্থাপন করা যাচ্ছে না</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s'এ যোগ করা যায়নি"</string>

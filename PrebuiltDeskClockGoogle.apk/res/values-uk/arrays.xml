@@ -17,14 +17,21 @@
         <item>15 хвилин</item>
         <item>20 хвилин</item>
         <item>25 хвилин</item>
-        <item>Ніколи</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>За 15 хвилин до часу сну</item>
+        <item>За 30 хвилин до часу сну</item>
+        <item>За 45 хвилин до часу сну</item>
+        <item>За 1 годину до часу сну</item>
+        <item>Вимкнено</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Аналоговий</item>
         <item>Цифровий</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Ніколи</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунд</item>
         <item>10 секунд</item>
         <item>15 секунд</item>
@@ -37,6 +44,35 @@
         <item>50 секунд</item>
         <item>55 секунд</item>
         <item>60 секунд</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Зупинити через 10 хв</item>
+        <item>Зупинити через 20 хв</item>
+        <item>Зупинити через 30 хв</item>
+        <item>Зупинити через 40 хв</item>
+        <item>Зупинити через 50 хв</item>
+        <item>Зупинити через 1 год</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Зупинити через 10 хв</item>
+        <item>Зупинити через 20 хв</item>
+        <item>Зупинити через 30 хв</item>
+        <item>Зупинити через 40 хв</item>
+        <item>Зупинити через 50 хв</item>
+        <item>Зупинити через 1 год</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>40 хвилин</item>
+        <item>50 хвилин</item>
+        <item>1 год</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 хвилину</item>
@@ -69,18 +105,6 @@
         <item>28 хвилин</item>
         <item>29 хвилин</item>
         <item>30 хвилин</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Ну ви й швидкі!</item>
-        <item>Насолоджуйтесь плодами своєї праці.</item>
-        <item>Пристрої Android швидкі, але ви – швидші!</item>
-        <item>Фу.</item>
-        <item>Стільки разів: L33t.</item>
-        <item>Неймовірна швидкість.</item>
-        <item>Повторімо \"викривлення часу\".</item>
-        <item>Просто стрибніть ліворуч.</item>
-        <item>Ви дуже поспішаєте.</item>
-        <item>Швидкість світла.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршаллові острови</item>

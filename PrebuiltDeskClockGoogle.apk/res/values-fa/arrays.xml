@@ -17,14 +17,21 @@
         <item>۱۵ دقیقه</item>
         <item>۲۰ دقیقه</item>
         <item>۲۵ دقیقه</item>
-        <item>هیچ‌وقت</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>۱۵ دقیقه قبل از وقت خواب</item>
+        <item>۳۰ دقیقه قبل از وقت خواب</item>
+        <item>۴۵ دقیقه قبل از وقت خواب</item>
+        <item>۱ ساعت قبل از وقت خواب</item>
+        <item>خاموش</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>آنالوگ</item>
         <item>دیجیتال</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>هیچ‌وقت</item>
+        <item>@string/crescendo_entry_never</item>
         <item>۵ ثانیه</item>
         <item>۱۰ ثانیه</item>
         <item>۱۵ ثانیه</item>
@@ -37,6 +44,35 @@
         <item>۵۰ ثانیه</item>
         <item>۵۵ ثانیه</item>
         <item>۶۰ ثانیه</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>توقف بعد از ۱۰ دقیقه</item>
+        <item>توقف بعد از ۲۰ دقیقه</item>
+        <item>توقف بعد از ۳۰ دقیقه</item>
+        <item>توقف بعد از ۴۰ دقیقه</item>
+        <item>توقف بعد از ۵۰ دقیقه</item>
+        <item>توقف بعد از ۱ ساعت</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>توقف بعد از ۱۰ دقیقه</item>
+        <item>توقف بعد از ۲۰ دقیقه</item>
+        <item>توقف بعد از ۳۰ دقیقه</item>
+        <item>توقف بعد از ۴۰ دقیقه</item>
+        <item>توقف بعد از ۵۰ دقیقه</item>
+        <item>توقف بعد از ۱ ساعت</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>۱۰ دقیقه</item>
+        <item>۲۰ دقیقه</item>
+        <item>۳۰ دقیقه</item>
+        <item>۴۰ دقیقه</item>
+        <item>۵۰ دقیقه</item>
+        <item>۱ ساعت</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>۱ دقیقه</item>
@@ -69,18 +105,6 @@
         <item>۲۸ دقیقه</item>
         <item>۲۹ دقیقه</item>
         <item>۳۰ دقیقه</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>شما واقعاً خدای سرعت هستید.</item>
-        <item>از ثمره زحمات خود لذت ببرید.</item>
-        <item>‏Androidها به چالاکی معروفند، اما نه به اندازه شما!</item>
-        <item>اوف.</item>
-        <item>‏L33t بار.</item>
-        <item>عجب سرعت حیرت‌آوری.</item>
-        <item>بیایید توقف زمان را دوباره انجام دهیم.</item>
-        <item>فقط یک پرش به چپ.</item>
-        <item>شما پالتی برای سرعت دارید.</item>
-        <item>سرعت فوتونی.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>جزایر مارشال</item>

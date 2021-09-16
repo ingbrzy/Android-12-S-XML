@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Lugha na uingizaji data</string>
     <string name="lift_to_wake_title">Inua ili uondoe kifaa katika hali tuli</string>
-    <string name="lockdown_settings_summary">Onyesha chaguo la Kitufe cha kuwasha/kuzima ambacho huzima vipengele vya Smart Lock, Kufungua kwa uso, Kufungua kwa alama ya kidole na arifa kwenye skrini iliyofungwa</string>
-    <string name="lockdown_settings_title">Onyesha chaguo la kufunga</string>
+    <string name="abc_action_bar_home_description">Nenda mwanzo</string>
+    <string name="abc_action_bar_up_description">Sogeza juu</string>
     <string name="locked_work_profile_notification_title">Wakati umefunga wasifu wa kazini</string>
     <string name="lockscreen_bypass_summary">Ukishafungua, nenda moja kwa moja kwenye skrini iliyotumika mwisho</string>
     <string name="lockscreen_bypass_title">Kuruka skrini iliyofungwa</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Arifa za kazini</string>
     <string name="reset_dashboard_summary">Unaweza kubadilisha mipangilio ya mtandao, programu au kifaa</string>
     <string name="reset_dashboard_title">Chaguo za kubadili</string>
-    <string name="abc_action_bar_home_description">Nenda mwanzo</string>
+    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
     <string name="screensaver_settings_title">Taswira ya skrini</string>
     <string name="screen_timeout">Muda wa skrini kujizima</string>
     <string name="screen_zoom_title">Ukubwa wa vipengee</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Huinua kiotomatiki kiwango cha kuonyesha upya kutoka Hz 60 hadi 90 kwa baadhi ya maudhui. Huongeza matumizi ya betri.</string>
     <string name="accessibility_vibration_settings_title">Mtetemo na kuhisi</string>
     <string name="emergency_gesture_screen_title">Simu ya dharura</string>
-    <string name="abc_action_bar_up_description">Sogeza juu</string>
+    <string name="abc_action_mode_done">Nimemaliza</string>
     <string name="vibrate_for_calls_category_title">Simu</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Onyesha kipochi</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Onyesha vidhibiti vya vifaa</string>
     <string name="lockscreen_privacy_wallet_summary">Ruhusu kipochi kifikiwe kwenye skrini iliyofungwa na mipangilio ya haraka</string>
     <string name="lockscreen_privacy_controls_summary">Fikia vidhibiti wakati skrini imefungwa</string>
-    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
-    <string name="abc_action_mode_done">Nimemaliza</string>
     <string name="abc_activity_chooser_view_see_all">Angalia zote</string>
     <string name="abc_activitychooserview_choose_application">Chagua programu</string>
     <string name="abc_capital_off">IMEZIMWA</string>
@@ -2888,7 +2886,7 @@ Unaweza kubadilisha hali hii baadaye katika Mipangilio > Programu na arifa."</st
     <string name="location_scanning_wifi_always_scanning_description">Ruhusu programu na huduma zitafute mitandao ya Wi-Fi wakati wowote, hata wakati umezima Wi-Fi. Hali hii inaweza kutumika, kwa mfano, kuboresha huduma na vipengele vinavyohusiana na mahali.</string>
     <string name="location_scanning_wifi_always_scanning_title">Kutafuta Wi-Fi</string>
     <string name="location_services_preference_title">Huduma za mahali</string>
-    <string name="location_services_screen_title">Huduma za Mahali</string>
+    <string name="location_services_screen_title">Huduma za mahali</string>
     <string name="location_settings_footer_general">Programu zenye ruhusa ya Uhamishaji wa Karibu zinaweza kubainisha mahali vilipo vifaa vilivyounganishwa.</string>
     <string name="location_settings_footer_learn_more_content_description">Pata maelezo zaidi kuhusu Mipangilio ya Mahali.</string>
     <string name="location_settings_footer_location_off">Ruhusa za kufikia mahali zimezimwa kwenye programu na huduma. Bado maelezo ya mahali kilipo kifaa chako yanaweza kutumwa kwa wanaoshughulikia matukio ya dharura unapopiga simu au kutuma SMS kwa nambari ya dharura.</string>
@@ -3306,7 +3304,7 @@ Kuna watumiaji wengine waliopo kwenye kifaa hiki.
     <string name="mobile_data_disable_title">Ungependa kuzima data ya mtandao wa simu?</string>
     <string name="mobile_data_no_connection">Hakuna muunganisho</string>
     <string name="mobile_data_off">Umezima data ya mtandao wa simu</string>
-    <string name="mobile_data_off_summary">Data ya mtandao wa simu haitaunganishwa kiotomatiki</string>
+    <string name="mobile_data_off_summary">Data ya simu haitaunganishwa kiotomatiki</string>
     <string name="mobile_data_settings_summary">Tumia data ya mtandao wa simu</string>
     <string name="mobile_data_settings_summary_auto_switch">Simu itabadili kiotomatiki itumie mtoa huduma huyu inapokuwa karibu</string>
     <string name="mobile_data_settings_summary_unavailable">Hakuna SIM kadi inayopatikana</string>
@@ -4021,7 +4019,7 @@ Bonyeza Kuongeza Sauti na Kuzima/Kuwasha kwa wakati mmoja."</string>
     <string name="reduce_bright_colors_intensity_preference_title">Ukolezaji</string>
     <string name="reduce_bright_colors_intensity_start_label">"Punguza ung'aavu"</string>
     <string name="reduce_bright_colors_persist_preference_title">Iendelee kutumika baada ya kuzima na kuwasha kifaa</string>
-    <string name="reduce_bright_colors_preference_subtitle">"Punguza mwangaza wa skrini yako zaidi ili uweze kusoma bila tatizo.&lt;br/>&lt;br/> Hali hii inaweza kukusaidia wakati: &lt;ol> &lt;li> Ung'aavu chaguomsingi wa kiwango cha chini kwenye simu yako bado una mwangaza mkubwa&lt;/li> &lt;li> Unatumia simu yako katika hali zenye giza, kama vile usiku au katika chumba chenye giza kabla ya kulala&lt;/li> &lt;/ol>"</string>
+    <string name="reduce_bright_colors_preference_subtitle">"Punguza mwangaza wa skrini yako zaidi ili uweze kusoma bila tatizo.&lt;br/>&lt;br/> Hali hii inaweza kukusaidia wakati: &lt;ol> &lt;li> Ung'aavu chaguomsingi wa kiwango cha chini kwenye simu yako bado una mwangaza mkubwa&lt;/li> &lt;li> Unatumia simu yako katika hali zenye giza, kama vile usiku au katika chumba chenye giza kabla ya kulala&lt;/li> &lt;/ol>"</string>
     <string name="reduce_bright_colors_preference_summary">"Punguza mwangaza wa skrini zaidi ya kiwango cha chini cha ung'aavu wa simu yako"</string>
     <string name="reduce_bright_colors_preference_title">Kipunguza mwangaza zaidi</string>
     <string name="reduce_bright_colors_switch_title">Punguza mwangaza wa skrini zaidi</string>
@@ -6004,7 +6002,7 @@ Je, ungependa kuruhusu programu zote ambazo zingependa kukagua ziweza kufanya hi
     <string name="wifitrackerlib_tap_to_sign_up">Gusa ili ujisajili</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">Mlango wa mtandao una shughuli nyingi kwa sasa</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Angalia nenosiri na ujaribu tena</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Imeunganishwa kwenye kifaa. Imeshindwa kusambaza intaneti.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Kifaa kimeunganishwa. Imeshindwa kusambaza intaneti.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Umezimwa</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">Imeshindwa kuweka mipangilio ya IP</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Tatizo la uthibitishaji</string>

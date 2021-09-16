@@ -85,9 +85,9 @@
     <string name="all_set_text">"Handa ka nang gamitin ang TalkBack.
 
 Matuto pa tungkol sa ibang paksa ngayon, o suriin ang impormasyong ito anumang oras sa mga setting ng TalkBack."</string>
-    <string name="all_set_title">Handa na lahat!</string>
+    <string name="all_set_title">Handa na ang lahat!</string>
     <string name="always_show_this_message_label">Palaging ipakita ang mensaheng ito</string>
-    <string name="application_name">Android Accessibility Suite</string>
+    <string name="application_name">Accessibility Suite ng Android</string>
     <string name="arc_android_window">Application window</string>
     <string name="arc_navigation_hint">Pindutin ang paghahanap at gamitin ang mga arrow upang mag-navigate</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Pindutin ang %1$s upang makita ang listahan ng mga shortcut</string>
@@ -105,7 +105,7 @@ Matuto pa tungkol sa ibang paksa ngayon, o suriin ang impormasyong ito anumang o
     <string name="audio_focus_state">Audio ducking %1$s</string>
     <string name="auto_detect">Umangkop sa paghawak mo sa device</string>
     <string name="auto_scan_action_description">Simulan ang pag-scan at pagpili</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'I-autoscan' o 'Piliin'"</string>
     <string name="available_devices_header">Mga available na Bluetooth device</string>
     <string name="basic_navigation_link_subtext">Magpalipat-lipat sa mga item, mag-scroll, gumamit ng mga menu, at higit pa</string>
     <string name="basic_navigation_link_text">Basic na navigation</string>
@@ -119,7 +119,7 @@ Matuto pa tungkol sa ibang paksa ngayon, o suriin ang impormasyong ito anumang o
     <string name="bluetooth_no_devices_paired">Walang nakapares na Bluetooth device</string>
     <string name="bluetooth_not_enabled_message">Para magpares ng switch ng Bluetooth, i-on ang Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Peripheral</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Para magpares ng Bluetooth switch sa Setup Wizard, i-on ang Bluetooth at bigyan ang Accessibility Suite ng Android ng access sa mga pahintulot sa Mga Kalapit na Device at Lokasyon.</string>
     <string name="bluetooth_phone_content_description">Telepono</string>
     <string name="bluetooth_switch_description_text">Wireless na magpares ng switch sa pamamagitan ng Bluetooth</string>
     <string name="bluetooth_switch_option_text">Switch ng Bluetooth</string>
@@ -157,6 +157,9 @@ Matuto pa tungkol sa ibang paksa ngayon, o suriin ang impormasyong ito anumang o
     <string name="cam_switch_enable_banner_text_label_generic">Para makontrol ang iyong device, kailangan mo munang i-on ang Switch Access.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Buksan ang Mga Switch ng Camera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Buksan ang Switch Access</string>
+    <string name="cam_switches_combined_preferences_title">"Mga setting ng '%1$s'"</string>
+    <string name="cam_switches_preferences_title">Mga setting ng Switch ng Camera</string>
+    <string name="cam_switches_single_preferences_title">"Mga setting ng '%s'"</string>
     <string name="camera_switches_status_active">Aktibo ang Mga Switch ng Camera</string>
     <string name="camera_switches_status_error">Error</string>
     <string name="camera_switches_status_no_face">Walang na-detect na mukha</string>
@@ -399,6 +402,7 @@ Subukan ito ngayon sa pamamagitan ng pagpindot sa screen at pag-drag patungo sa 
     <string name="fallback_menu_item_open_in_browser">Buksan sa browser</string>
     <string name="fallback_menu_item_share_link">Ibahagi ang link</string>
     <string name="fast_radio_button_title">Mabilis (%1$s (na) segundong delay)</string>
+    <string name="fast_radio_button_title_content_description">Mabilis (%1$s (na) segundong pagkaantala)</string>
     <string name="find_finish_button_text">Mag-swipe pakanan para hanapin ang button na tapusin.</string>
     <string name="finish">Tapusin</string>
     <string name="finish_tutorial_announcement">Ipinapakita ang braille keyboard. Hawakan ang telepono mo nang nakatalikod sa iyo ang screen. I-rotate ang telepono nang pahalang papunta sa landscape na posisyon. Pagkatapos ay magsimulang mag-type.</string>
@@ -747,6 +751,7 @@ Pangalan ng internal na view: %1$s"</string>
     <string name="list_index_template">%1$d ng %2$d</string>
     <string name="lockscreen_label">Lock screen</string>
     <string name="medium_radio_button_title">Katamtaman (%1$s (na) segundong delay)</string>
+    <string name="medium_radio_button_title_content_description">Katamtaman (%1$s (na) segundong pagkaantala)</string>
     <string name="menu_category_reading_controls">Pagbabasa</string>
     <string name="menu_category_special_features">Mga espesyal na feature</string>
     <string name="menus_selector_text">"Matutulungan ka ng mga shortcut na ito na mabilisang baguhin ang mga setting, tulad ng kung gagawin mong mga salita ang iyong navigation mula sa mga character o kung babaguhin mo ang bilis ng pagsasalita ng TalkBack.
@@ -767,6 +772,7 @@ Buksan ang menu ng TalkBack ngayon sa pamamagitan ng pag-tap sa screen gamit ang
 Buksan ang menu ng TalkBack ngayon sa pamamagitan ng pag-swipe pababa pagkatapos ay pakanan."</string>
     <string name="menus_title">Menu at mga kontrol</string>
     <string name="message_in_reset_keymap_confirm_dialog">Sigurado ka bang gusto mong i-reset ang iyong mga shortcut key para sa keymap na ito sa mga default na value ng mga ito? Pakitandaan, hindi na maa-undo ang pagkilos na ito.</string>
+    <string name="message_request_phone_permission">Gustong malaman ng TalkBack kapag may nagaganap na tawag, para mabawasan ng TalkBack ang pagsagabal sa mga anunsyo.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Ire-reset nito ang lahat ng galaw sa mga default nitong pagkilos.
 
 Mawawala mo ang anumang pagbabagong iyong ginawa."</string>
@@ -996,6 +1002,7 @@ Subukan ang anumang galaw kung saan bumubuo ng right angle ang dalawang pag-swip
     <string name="pref_reduce_window_delay_title">Bawasan ang pagkaantala sa pag-anunsyo ng window</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Magdagdag ng Mga Switch ng Camera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">I-clear ang Mga pisikal na switch</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">I-configure ang mga setting para sa switch: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">I-edit ang Mga Switch ng Camera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Walang nakatalagang Switch ng Camera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Magtalaga ng Mga switch ng Camera sa '%s'"</string>
@@ -1016,9 +1023,9 @@ Subukan ang anumang galaw kung saan bumubuo ng right angle ang dalawang pag-swip
     <string name="pref_sa_face_playground_stop_preview_content_description">Ihinto ang preview</string>
     <string name="pref_sa_face_playground_switch_on_content_description">I-on</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Naka-on dapat ang Mga Switch ng Camera para gamitin ang test area na ito</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Subukan: tingnan ang lahat ng uri ng gesture ng mukha, kabilang ang pagnganga, pagngiti, at iba pa</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Subukan</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Subukan: tingnan ang mga gesture ng mukha ng %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Na-pause ang test area na ito. Gamitin ang button sa ibaba para simulan ulit ito.</string>
     <string name="pref_selector_summary">%1$s para pumili ng setting. Pagkatapos ay %2$s para isaayos ang setting.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s o %2$s para pumili ng setting. Pagkatapos ay %3$s para isaayos ang setting.</string>
@@ -1069,6 +1076,7 @@ Kung hindi pa rin kumokonekta ang iyong device, pumunta sa mga setting ng Blueto
     <string name="reduce_speed_button">Bawasan ang Bilis</string>
     <string name="remaining_calibration_finish_announcement">Na-update na ang lahat ng posisyon ng dot</string>
     <string name="reminder_announcement">Mag-swipe pataas gamit ang 3 daliri para sa higit pang opsyon</string>
+    <string name="remove_assigned_switch">Alisin ang pagtatalaga ng switch para sa %s</string>
     <string name="report_gesture_description">Narito ang mga galaw na isinagawa kamakailan, pakiulat kung anong galaw ang mali at kung ano ang inaasahan.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">I-reset</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">I-reset</string>
@@ -1149,6 +1157,7 @@ Subukan ito ngayon sa pamamagitan ng pag-swipe pataas gamit ang 2 daliri hanggan
     <string name="search_mode_hint_no_selection">Walang napiling item.</string>
     <string name="search_mode_hint_query">Kasalukuyang query: %1$s.</string>
     <string name="search_mode_hint_selection">Kasalukuyang seleksyon: %1$s.</string>
+    <string name="select_for_point_scan">"'Piliin'"</string>
     <string name="select_setting_hint">%1$s para pumili ng ibang setting</string>
     <string name="selecting_text_text">"Sa text box, ilipat ang cursor sa umpisa ng text na gusto mong piliin.
 
@@ -1209,6 +1218,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="shortcut_media_control">Mag-play o mag-pause ng media</string>
     <string name="shortcut_next">Susunod na item</string>
     <string name="shortcut_next_granularity">Susunod na setting ng navigation</string>
+    <string name="shortcut_next_window">Susunod na window</string>
     <string name="shortcut_not_customizable">%1$s, hindi naku-customize</string>
     <string name="shortcut_notifications">Mga Notification</string>
     <string name="shortcut_overview">Overview</string>
@@ -1221,6 +1231,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="shortcut_practice_gestures">Mag-ensayo ng mga galaw</string>
     <string name="shortcut_previous">Naunang item</string>
     <string name="shortcut_previous_granularity">Nakaraang setting ng navigation</string>
+    <string name="shortcut_previous_window">Nakaraang window</string>
     <string name="shortcut_print_node_tree">I-print ang node tree</string>
     <string name="shortcut_print_performance_stats">I-print ang istatistika ng performance</string>
     <string name="shortcut_quick_settings">Mga Mabilisang Setting</string>
@@ -1260,6 +1271,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
 • Kalugin para simulan ang tuloy-tuloy na pagbabasa"</string>
     <string name="six_hold_announcement">Puwede ka ring mag-type sa pamamagitan ng paglalapag ng iyong telepono nang naka-flat sa mesa. Subukan ito ngayon. Kung wala kang mesa sa malapit, lumaktaw sa pamamagitan ng pag-swipe pababa.</string>
     <string name="slow_radio_button_title">Mabagal (%1$s (na) segundong delay)</string>
+    <string name="slow_radio_button_title_content_description">Mabagal (%1$s (na) segundong pagkaantala)</string>
     <string name="sound_feedback_state">%1$s ang feedback ng tunog</string>
     <string name="sound_feedback_summary">Mag-play ng tunog para ipahiwatig na may nagbago (hal., nagbago ang content sa screen)</string>
     <string name="speak_container_element_position_summary_off">Hindi binibigkas ang impormasyon ng listahan at grid</string>
@@ -1333,17 +1345,17 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="summary_pref_face_switches_debounce_time">Ituturing na isang trigger ang maraming trigger ng Switch ng Camera sa loob ng oras na ito.</string>
     <string name="summary_pref_face_switches_enabled">Ginagamit ng Mga Switch ng Camera ang camera sa harap para makita kung nakatingin ka sa screen at para makilala ang mga galaw ng mukha. Hindi sino-store o ipinapadala sa Google ang mga larawan.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Mag-play ng tunog kapag may nagbago sa screen bilang sagot sa isang galaw</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Magpakita ng visual na indikasyon ng gaano katagal mong na-hold ang galaw</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Panatilihing naka-on ang screen kapag naka-enable ang Mga Switch ng Camera Hindi maa-unlock ng Mga Switch ng Camera ang screen kung mag-o-off ito.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Walang natukoy na mukha</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Isagawa ang alinman sa mga galaw ng mukha. Kung nakarehistro, lalabas ang pangalan ng galaw. Para lumabas, i-hold ang anumang galaw nang %1$d (na) segundo.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">I-steady ang iyong ulo at humarap sa camera. Pagkatapos %s.</string>
     <string name="summary_pref_play_store">Kasalukuyang Bersyon ng TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Gumamit ng mga lumilipat na linya para pumili ng partikular na pahalang at patayong lokasyon. Pindutin ang switch na %1$s para simulan ang Pag-point scan. %2$s</string>
     <string name="summary_pref_reverse_dots">Pagpalitin ang mga posisyon ng dot, halimbawa, para magpalitan ng pwesto ang dot 1 at dot 4</string>
     <string name="summary_pref_revert_to_default_menu">I-reset ang menu na Switch Access sa default na listahan ng mga item sa menu.</string>
-    <string name="summary_pref_single_tap">(Pang-eksperimento) Mag-tap nang isang beses sa naka-focus na item para i-activate</string>
+    <string name="summary_pref_single_tap">Mag-tap nang isang beses sa naka-focus na item para i-activate</string>
     <string name="summary_pref_tree_debug_tv">Gamitin ang key sa paghahanap gamit ang boses upang mag-print ng node tree sa halip na maghanap</string>
     <string name="summary_pref_use_audio_focus">Bawasan ang iba pang volume ng audio habang nagsasalita</string>
     <string name="summary_read_from_current">Simula sa susunod na item, basahin ang lahat ng item sa screen</string>
@@ -1479,10 +1491,10 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="switched_to_contracted_announcement">Lumipat sa contracted braille</string>
     <string name="switched_to_ueb_uncontracted_announcement">Lumipat sa UEB uncontracted</string>
     <string name="switched_to_uncontracted_announcement">Lumipat sa uncontracted braille</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Halos katumbas ng</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Simbolo ng less than</string>
+    <string name="symbol_angle_bracket_right">Simbolo ng greater than</string>
     <string name="symbol_apostrophe">Kudlit</string>
     <string name="symbol_approximately_equals">Tinatayang katumbas ng</string>
     <string name="symbol_asterisk">Asterisk</string>
@@ -1502,7 +1514,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_bullseye">Bullseye</string>
     <string name="symbol_caret">Caret</string>
     <string name="symbol_celsius_degree">Celsius degree</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Simbolo ng sentimo</string>
     <string name="symbol_circle_left_half_black">Bilog na may kalahating kaliwang itim</string>
     <string name="symbol_circle_right_half_black">Bilog na may kalahating kanang itim</string>
     <string name="symbol_colon">Tutuldok</string>
@@ -1511,7 +1523,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_curly_bracket_left">Kaliwang curly bracket</string>
     <string name="symbol_curly_bracket_right">Kanang curly bracket</string>
     <string name="symbol_currency_sign">Simbolo ng currency</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Simbolo ng degree</string>
     <string name="symbol_division">Simbolo ng paghahati</string>
     <string name="symbol_dollar_sign">Simbolo ng dolyar</string>
     <string name="symbol_downwards_arrow">Pababang Arrow</string>
@@ -1563,7 +1575,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_middle_dot">Gitnang tuldok</string>
     <string name="symbol_multiplication">Simbolo ng multiplication</string>
     <string name="symbol_new_line">Bagong linya</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Hindi katumbas ng</string>
     <string name="symbol_not_sign">Simbolo ng not</string>
     <string name="symbol_paragraph_mark">Marka ng talata</string>
     <string name="symbol_parenthesis_left">Kaliwang panaklong</string>
@@ -1574,7 +1586,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_plus_minus_sign">Sign ng plus minus</string>
     <string name="symbol_postal_mark">Postal mark</string>
     <string name="symbol_pound">Pound</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Simbolo ng currency na pound</string>
     <string name="symbol_quarter_note">Quarter Note</string>
     <string name="symbol_question_mark">Tandang pananong</string>
     <string name="symbol_quotation_mark">Panipi</string>
@@ -1600,7 +1612,7 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_trademark">Trademark</string>
     <string name="symbol_underscore">Underscore</string>
     <string name="symbol_upwards_arrow">Pataas na arrow</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Patayong linya</string>
     <string name="symbol_white_circle">Puting bilog</string>
     <string name="symbol_white_club_suit">Puting club suit</string>
     <string name="symbol_white_diamond">Puting diyamante</string>
@@ -1614,8 +1626,8 @@ Hakbang 2: Mag-swipe pababa para ilipat ang focus ng navigation pasulong o i-adj
     <string name="symbol_white_square">Puting parisukat</string>
     <string name="symbol_white_star">Puting bituin</string>
     <string name="symbol_white_up_pointing_triangle">Puting tatsulok na nakaturo sa itaas</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Simbolo ng currency na won</string>
+    <string name="symbol_won_sign">Simbolo ng currency na won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Mga pagkilos ng system</string>
     <string name="tabletop">Tabletop mode</string>
@@ -1867,7 +1879,7 @@ Para i-off ang TalkBack:
     <string name="title_pref_red">Pula</string>
     <string name="title_pref_resume_talkback">Magpatuloy mula sa pagkakasuspinde</string>
     <string name="title_pref_reverse_auto_scan_disabled">Reverse na auto-scan (naka-disable)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse na auto-scan (Point scan)</string>
     <string name="title_pref_reverse_dots">Mga reverse dot</string>
     <string name="title_pref_revert_to_default_menu">I-revert sa Default na Menu</string>
     <string name="title_pref_scan_non_actionable_items">Bigkasin ang naglalarawang text</string>
@@ -1930,7 +1942,7 @@ Para i-off ang TalkBack:
     <string name="title_pref_show_context_menu_as_list">Ipakita ang menu ng konteksto bilang listahan</string>
     <string name="title_pref_show_privacy_policy">Patakaran sa privacy</string>
     <string name="title_pref_show_tos">Mga tuntunin ng serbisyo</string>
-    <string name="title_pref_single_tap">Pag-activate na isang pag-tap lang</string>
+    <string name="title_pref_single_tap">I-tap nang isang beses para i-activate</string>
     <string name="title_pref_sound_and_vibration">Tunog at pag-vibrate</string>
     <string name="title_pref_soundback">Feedback ng tunog</string>
     <string name="title_pref_soundback_volume">Volume: feedback ng tunog</string>
@@ -1975,6 +1987,7 @@ Para i-off ang TalkBack:
     <string name="title_previous_screen">Nakaraang screen</string>
     <string name="title_read_from_top">Magbasa mula sa itaas</string>
     <string name="title_repeat_last_spoken_phrase">Ulitin ang huling sinabing parirala</string>
+    <string name="title_request_phone_permission">Humihiling ng Pahintulot ang TalkBack</string>
     <string name="title_screen_summary">Buod ng Screen</string>
     <string name="title_seek_bar_controls">Slider</string>
     <string name="title_seek_bar_edit">I-edit ang antas ng slider</string>

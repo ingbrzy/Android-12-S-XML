@@ -595,6 +595,8 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">ഈ മാറ്റം ബാധകമാകുന്നതിന് നിങ്ങളുടെ ഉപകരണം റീബൂട്ട് ചെയ്യേണ്ടതുണ്ട്. ഇപ്പോൾ റീബൂട്ട് ചെയ്യുകയോ റദ്ദാക്കുകയോ ചെയ്യുക.</string>
     <string name="camera_hint">ക്യാമറ ഐക്കണിൽ നിന്ന് സ്വൈപ്പുചെയ്യുക</string>
     <string name="camera_label">ക്യാമറ തുറക്കുക</string>
+    <string name="camera_recording_announcement">ക്യാമറ റെക്കോർഡ് ചെയ്യുകയാണ്</string>
+    <string name="camera_stopped_recording_announcement">ക്യാമറ റെക്കോർഡ് ചെയ്യുന്നത് നിർത്തി</string>
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="carrier_network_change_mode">കാരിയർ നെറ്റ്‌വർക്ക് മാറ്റൽ</string>
     <string name="category_personal">വ്യക്തിപരം</string>
@@ -734,6 +736,10 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="debug_monitoring_category">മോണിറ്ററിംഗ്</string>
     <string name="debug_networking_category">നെറ്റ്‍വര്‍ക്കിംഗ്</string>
     <string name="debug_view_attributes">ആട്രിബ്യൂട്ട് പരിശോധന കാണൽ പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="defender_notify_des">ബാറ്ററിയുടെ ആരോഗ്യം സംരക്ഷിക്കുന്നതിന് ചാർജ് ചെയ്യൽ നിങ്ങളുടെ ഫോൺ പരിമിതപ്പെടുത്തുന്നു</string>
+    <string name="defender_notify_learn_more">കൂടുതലറിയുക</string>
+    <string name="defender_notify_resume_charge">ചാർജ് ചെയ്യൽ പുനരാരംഭിക്കുക</string>
+    <string name="defender_notify_title">ചാർജ് ചെയ്യൽ താൽക്കാലികമായി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു</string>
     <string name="delete_blob_confirmation_text">പങ്കിട്ട ഈ ഡാറ്റ ഇല്ലാതാക്കണമെന്ന് തീർച്ചയാണോ?</string>
     <string name="delete_blob_text">പങ്കിട്ട ഡാറ്റ ഇല്ലാതാക്കുക</string>
     <string name="demo_mode">സിസ്റ്റം UI ഡെമോ മോഡ്</string>
@@ -1070,6 +1076,7 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">സിം കാർഡ് അൺലോക്കുചെയ്യുന്നു…</string>
     <string name="keyguard_try_fingerprint">തുറക്കുന്നതിന് നിങ്ങളുടെ ഫിംഗർപ്രിന്റ് ഉപയോഗിക്കുക</string>
     <string name="keyguard_unlock">തുറക്കാൻ മുകളിലോട്ട് സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="keyguard_unlock_press">തുറക്കാൻ അമർത്തുക</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">ഷെഡ്യൂൾ, അലാറം, റിമെെൻഡർ, ക്ലോക്ക്</string>
     <string name="kg_enter_confirm_pin_hint">താൽപ്പര്യപ്പെടുന്ന പിൻകോ‌ഡ് സ്ഥിരീകരിക്കുക</string>
@@ -1233,6 +1240,10 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="menu_ime">കീബോർഡ് സ്വിച്ചർ</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">മൈക്രോഫോൺ സജീവമാണ്</string>
+    <string name="mic_and_camera_recording_announcement">ക്യാമറയും മൈക്രോഫോണും റെക്കോർഡ് ചെയ്യുകയാണ്</string>
+    <string name="mic_camera_stopped_recording_announcement">ക്യാമറയും മൈക്രോഫോണും റെക്കോർഡ് ചെയ്യുന്നത് നിർത്തി</string>
+    <string name="mic_recording_announcement">മൈക്രോഫോൺ റെക്കോർഡ് ചെയ്യുകയാണ്</string>
+    <string name="mic_stopped_recording_announcement">മൈക്രോഫോൺ റെക്കോർഡ് ചെയ്യുന്നത് നിർത്തി</string>
     <string name="missed_call">മിസ്‌ഡ് കോൾ</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">മൊബൈൽ ഡാറ്റ</string>
@@ -1706,8 +1717,6 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="quick_settings_work_mode_label">ഔദ്യോഗിക ആപ്പുകൾ</string>
     <string name="quick_step_accessibility_toggle_overview">അവലോകനം മാറ്റുക</string>
     <string name="recent_conversations">അടുത്തിടെയുള്ള സംഭാഷണങ്ങൾ</string>
-    <string name="recents_quick_scrub_onboarding">ആപ്പുകൾ പെട്ടെന്ന് മാറാൻ വലത്തോട്ട് വലിച്ചിടുക</string>
-    <string name="recents_swipe_up_onboarding">ആപ്പുകൾ മാറാൻ മുകളിലേക്ക് സ്വൈപ്പ് ചെയ്യുക</string>
     <string name="remaining_length_format">%1$s ശേഷിക്കുന്നു</string>
     <string name="remote_input_image_insertion_text">ചിത്രം അയച്ചു</string>
     <string name="remove_from_settings">ക്രമീകരണത്തിൽ നിന്ന് നീക്കംചെയ്യുക</string>
@@ -2117,6 +2126,7 @@ Selection ട്രിഗ്ഗര്‍ ചെയ്യുക"</string>
     <string name="wallet_secondary_label_no_card">കാർഡ് ചേർക്കുക</string>
     <string name="wallet_secondary_label_updating">അപ്‌ഡേറ്റ് ചെയ്യുന്നു</string>
     <string name="wallet_title">വാലറ്റ്</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ആക്‌സസ് പോയിന്റ് താൽക്കാലികമായി നിറഞ്ഞിരിക്കുന്നു</string>
     <string name="wifi_cant_connect">കണക്റ്റുചെയ്യാനാകുന്നില്ല</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' എന്നതിലേക്ക് കണക്‌റ്റുചെയ്യാനാകുന്നില്ല"</string>

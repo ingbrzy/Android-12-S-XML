@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ამ ცვლილების ასამოქმედებლად თქვენი მოწყობილობა უნდა გადაიტვირთოს. გადატვირთეთ ახლავე ან გააუქმეთ.</string>
     <string name="camera_hint">კამერისთვის გადაფურცლეთ ხატულადან</string>
     <string name="camera_label">კამერის გახსნა</string>
+    <string name="camera_recording_announcement">კამერა იწერს</string>
+    <string name="camera_stopped_recording_announcement">კამერამ ჩაწერა შეწყვიტა</string>
     <string name="cancel">გაუქმება</string>
     <string name="carrier_network_change_mode">ოპერატორის ქსელის შეცვლა</string>
     <string name="category_personal">პირადი</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">მონიტორინგი</string>
     <string name="debug_networking_category">ქსელი</string>
     <string name="debug_view_attributes">ნახვის ატრიბუტის ინსპექტირების ჩართვა</string>
+    <string name="defender_notify_des">თქვენი ტელეფონი ზღუდავს დატენვას ბატარეის გამართული მუშაობის შესანარჩუნებლად</string>
+    <string name="defender_notify_learn_more">შეიტყვეთ მეტი</string>
+    <string name="defender_notify_resume_charge">დატენვის გაგრძელება</string>
+    <string name="defender_notify_title">დატენვა დროებით შეზღუდულია</string>
     <string name="delete_blob_confirmation_text">ნამდვილად გსურთ ამ გაზიარებული მონაცემების წაშლა?</string>
     <string name="delete_blob_text">გაზიარებული მონაცემების წაშლა</string>
     <string name="demo_mode">სისტემის UI-ს დემო-რეჟიმი</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">მიმდინარეობს SIM ბარათის განბლოკვა…</string>
     <string name="keyguard_try_fingerprint">გასახსნელად გამოიყენეთ თითის ანაბეჭდი</string>
     <string name="keyguard_unlock">გასახსნელად გადაფურცლეთ ზემოთ</string>
+    <string name="keyguard_unlock_press">დააჭირეთ გასახსნელად</string>
     <string name="keywords_adb_wireless">adb, შეცდომების გამართვა, დეველოპერული</string>
     <string name="keywords_alarms_and_reminders">განრიგი, მაღვიძარა, შეხსენება, საათი</string>
     <string name="kg_enter_confirm_pin_hint">დაადასტურეთ სასურველი PIN-კოდი</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">კლავიატურის გადამრთველი</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">მიკროფონი აქტიურია</string>
+    <string name="mic_and_camera_recording_announcement">კამერა და მიკროფონი იწერს</string>
+    <string name="mic_camera_stopped_recording_announcement">კამერამ და მიკროფონმა ჩაწერა შეწყვიტა</string>
+    <string name="mic_recording_announcement">მიკროფონი იწერს</string>
+    <string name="mic_stopped_recording_announcement">მიკროფონმა ჩაწერა შეწყვიტა</string>
     <string name="missed_call">გამოტოვებული ზარი</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">მობილური ინტერნეტი</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">სამსახურის აპები</string>
     <string name="quick_step_accessibility_toggle_overview">მიმოხილვის გადართვა</string>
     <string name="recent_conversations">ბოლო მიმოწერები</string>
-    <string name="recents_quick_scrub_onboarding">აპების სწრაფად გადასართავად ჩავლებით გადაიტანეთ მარჯვნივ</string>
-    <string name="recents_swipe_up_onboarding">გადაფურცლეთ ზემოთ აპების გადასართავად</string>
     <string name="remaining_length_format">დარჩენილია %1$s</string>
     <string name="remote_input_image_insertion_text">გაიგზავნა სურათი</string>
     <string name="remove_from_settings">პარამეტრებიდან წაშლა</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">ბარათის დამატება</string>
     <string name="wallet_secondary_label_updating">მიმდინარეობს განახლება</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">წვდომის წერტილი დროებით გადატვირთულია</string>
     <string name="wifi_cant_connect">დაკავშირება ვერ ხერხდება</string>
     <string name="wifi_cant_connect_to_ap">%1$s-თან დაკავშირება ვერ ხერხდება</string>

@@ -17,14 +17,21 @@
         <item>15 хвілін</item>
         <item>20 хвілін</item>
         <item>25 хвілін</item>
-        <item>Ніколі</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>За 15 хвілін да часу сну</item>
+        <item>За 30 хвілін да часу сну</item>
+        <item>За 45 хвілін да часу сну</item>
+        <item>За 1 гадзіну да часу сну</item>
+        <item>Выключана</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Са стрэлкамі</item>
         <item>Лічбавы</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Ніколі</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунд</item>
         <item>10 секунд</item>
         <item>15 секунд</item>
@@ -37,6 +44,35 @@
         <item>50 секунд</item>
         <item>55 секунд</item>
         <item>60 секунд</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Спыніць праз 10 хвілін</item>
+        <item>Спыніць праз 20 хвілін</item>
+        <item>Спыніць праз 30 хвілін</item>
+        <item>Спыніць праз 40 хвілін</item>
+        <item>Спыніць праз 50 хвілін</item>
+        <item>Спыніць праз 1 гадзіну</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Спыніць праз 10 хвілін</item>
+        <item>Спыніць праз 20 хвілін</item>
+        <item>Спыніць праз 30 хвілін</item>
+        <item>Спыніць праз 40 хвілін</item>
+        <item>Спыніць праз 50 хвілін</item>
+        <item>Спыніць праз 1 гадзіну</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 хвілін</item>
+        <item>20 хвілін</item>
+        <item>30 хвілін</item>
+        <item>40 хвілін</item>
+        <item>50 хвілін</item>
+        <item>1 гадзіну</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 хвіліна</item>
@@ -69,18 +105,6 @@
         <item>28 хвілін</item>
         <item>29 хвілін</item>
         <item>30 хвілін</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Ты хутчэй маланкi.</item>
-        <item>Атрымлівайце асалоду ад вынiкаў сваёй працы.</item>
-        <item>Андроiды хуткiя, але не настолькi!</item>
-        <item>Уф...</item>
-        <item>Разоў: L33t.</item>
-        <item>Хутка ты.</item>
-        <item>Паляцелi з касмiчнай хуткасцю!</item>
-        <item>Проста скокнiце ўлева.</item>
-        <item>Ёсць да чаго iмкнуцца.</item>
-        <item>Фатонная хуткасць.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалавы астравы</item>

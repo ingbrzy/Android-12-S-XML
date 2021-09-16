@@ -441,9 +441,9 @@ Försök igen om %d sekunder."</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_device">Enhetens data raderas om du anger fel lösenord vid nästa försök.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Din jobbprofil och dess data raderas om du anger fel lösenord vid nästa försök.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_user">Den här användaren raderas om du anger fel lösenord vid nästa försök.</string>
-    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Enhetens data raderas om du anger fel grafiskt lösenord vid nästa försök.</string>
-    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Jobbprofilen och dess data raderas om du anger fel grafiskt lösenord vid nästa försök.</string>
-    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Användaren raderas om du anger fel grafiskt lösenord vid nästa försök.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Enhetens data raderas om du ritar fel mönster vid nästa försök.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Jobbprofilen och dess data raderas om du ritar fel mönster vid nästa försök.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Användaren raderas om du ritar fel mönster vid nästa försök.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Enhetens data raderas om du anger fel pinkod vid nästa försök.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Jobbprofilen och dess data raderas om du anger fel pinkod vid nästa försök.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Användaren raderas om du anger fel pinkod vid nästa försök.</string>
@@ -451,10 +451,10 @@ Försök igen om %d sekunder."</string>
     <string name="biometric_dialog_tap_confirm">Slutför genom att trycka på Bekräfta</string>
     <string name="biometric_dialog_try_again">Försök igen</string>
     <string name="biometric_dialog_use_password">Använd lösenord</string>
-    <string name="biometric_dialog_use_pattern">Använd grafiskt lösenord</string>
+    <string name="biometric_dialog_use_pattern">Använd mönster</string>
     <string name="biometric_dialog_use_pin">Använd pinkod</string>
     <string name="biometric_dialog_wrong_password">Fel lösenord</string>
-    <string name="biometric_dialog_wrong_pattern">Fel grafiskt lösenord</string>
+    <string name="biometric_dialog_wrong_pattern">Fel mönster</string>
     <string name="biometric_dialog_wrong_pin">Fel pinkod</string>
     <string name="birthday_status">Födelsedag</string>
     <string name="birthday_status_content_description">%1$s fyller år</string>
@@ -595,6 +595,8 @@ Val"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Enheten måste startas om för att ändringen ska börja gälla. Starta om nu eller avbryt.</string>
     <string name="camera_hint">Svep från ikonen och öppna kameran</string>
     <string name="camera_label">öppna kameran</string>
+    <string name="camera_recording_announcement">Kameran spelar in</string>
+    <string name="camera_stopped_recording_announcement">Kameran slutade spela in</string>
     <string name="cancel">Avbryt</string>
     <string name="carrier_network_change_mode">Byter leverantörsnätverk</string>
     <string name="category_personal">Privat</string>
@@ -734,6 +736,10 @@ Om du fortsätter kan avgifter för dataanvändning tillkomma."</string>
     <string name="debug_monitoring_category">Övervakning</string>
     <string name="debug_networking_category">Nätverk</string>
     <string name="debug_view_attributes">Aktivera inspektion av visningsattribut</string>
+    <string name="defender_notify_des">Telefonen begränsar laddningen för att bevara batteriets livslängd</string>
+    <string name="defender_notify_learn_more">Läs mer</string>
+    <string name="defender_notify_resume_charge">Återuppta laddning</string>
+    <string name="defender_notify_title">Laddning har begränsats tillfälligt</string>
     <string name="delete_blob_confirmation_text">Vill du radera denna delade data?</string>
     <string name="delete_blob_text">Radera delad data</string>
     <string name="demo_mode">Demoläge för systemgränssnitt</string>
@@ -1070,6 +1076,7 @@ prioriterade"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Låser upp SIM-kort …</string>
     <string name="keyguard_try_fingerprint">Öppna med fingeravtryck</string>
     <string name="keyguard_unlock">Öppna genom att svepa uppåt</string>
+    <string name="keyguard_unlock_press">Tryck för att öppna</string>
     <string name="keywords_adb_wireless">adb, debug, dev, felsöka, felsökning</string>
     <string name="keywords_alarms_and_reminders">schema, alarm, påminnelse, klocka</string>
     <string name="kg_enter_confirm_pin_hint">Bekräfta önskad pinkod</string>
@@ -1089,7 +1096,7 @@ prioriterade"</string>
     <string name="kg_invalid_puk">Ange rätt PUK-kod. Om försöken upprepas inaktiveras SIM-kortet permanent.</string>
     <string name="kg_invalid_sim_pin_hint">Ange en pinkod med fyra till åtta siffror.</string>
     <string name="kg_invalid_sim_puk_hint">PUK-koden ska vara minst åtta siffror.</string>
-    <string name="kg_login_too_many_attempts">För många försök med grafiskt lösenord</string>
+    <string name="kg_login_too_many_attempts">För många försök med mönster</string>
     <string name="kg_password_instructions">Ange lösenord</string>
     <string name="kg_password_pin_failed">Det gick inte att låsa upp med pinkoden för SIM-kortet.</string>
     <string name="kg_password_puk_failed">Det gick inte att låsa upp med PUK-koden för SIM-kortet.</string>
@@ -1100,13 +1107,13 @@ prioriterade"</string>
     <string name="kg_pin_instructions">Ange pinkod</string>
     <string name="kg_prompt_reason_device_admin">Administratören har låst enheten</string>
     <string name="kg_prompt_reason_restart_password">Du måste ange lösenord när du har startat om enheten</string>
-    <string name="kg_prompt_reason_restart_pattern">Du måste ange grafiskt lösenord när du har startat om enheten</string>
+    <string name="kg_prompt_reason_restart_pattern">Du måste rita mönster när du har startat om enheten</string>
     <string name="kg_prompt_reason_restart_pin">Du måste ange pinkod när du har startat om enheten</string>
     <string name="kg_prompt_reason_switch_profiles_password">Du måste ange lösenord när du byter profil</string>
-    <string name="kg_prompt_reason_switch_profiles_pattern">Du måste ange grafiskt lösenord när du byter profil</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">Du måste rita mönster när du byter profil</string>
     <string name="kg_prompt_reason_switch_profiles_pin">Du måste ange pinkod när du byter profil</string>
     <string name="kg_prompt_reason_timeout_password">Du måste ange lösenord för ytterligare säkerhet</string>
-    <string name="kg_prompt_reason_timeout_pattern">Du måste ange grafiskt lösenord för ytterligare säkerhet</string>
+    <string name="kg_prompt_reason_timeout_pattern">Du måste rita mönster för ytterligare säkerhet</string>
     <string name="kg_prompt_reason_timeout_pin">Du måste ange pinkod för ytterligare säkerhet</string>
     <string name="kg_prompt_reason_user_request">Enheten har låsts manuellt</string>
     <string name="kg_puk_enter_pin_hint">Ange önskad pinkod</string>
@@ -1126,7 +1133,7 @@ Försök igen om %2$d sekunder."</string>
 
 Försök igen om %2$d sekunder."</string>
     <string name="kg_wrong_password">Fel lösenord</string>
-    <string name="kg_wrong_pattern">Fel grafiskt lösenord</string>
+    <string name="kg_wrong_pattern">Fel mönster</string>
     <string name="kg_wrong_pin">Fel pinkod</string>
     <string name="label_view">Visa</string>
     <string name="launch_defaults_none">Inga standardinställningar har angetts</string>
@@ -1233,6 +1240,10 @@ Försök igen om %2$d sekunder."</string>
     <string name="menu_ime">Byt mellan meny/tangentbord</string>
     <string name="messages_count_overflow_indicator">över %d</string>
     <string name="mic_active">Mikrofonen är aktiv</string>
+    <string name="mic_and_camera_recording_announcement">Kameran och mikrofonen spelar in</string>
+    <string name="mic_camera_stopped_recording_announcement">Kameran och mikrofonen slutade spelade in</string>
+    <string name="mic_recording_announcement">Mikrofonen spelar in</string>
+    <string name="mic_stopped_recording_announcement">Mikrofonen slutade spela in</string>
     <string name="missed_call">Missat samtal</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data">Mobildata</string>
@@ -1706,8 +1717,6 @@ Kontakta %2$s om du har frågor."</string>
     <string name="quick_settings_work_mode_label">Jobbappar</string>
     <string name="quick_step_accessibility_toggle_overview">Aktivera och inaktivera översikten</string>
     <string name="recent_conversations">Senaste konversationerna</string>
-    <string name="recents_quick_scrub_onboarding">Tryck och dra åt höger för att snabbt byta mellan appar</string>
-    <string name="recents_swipe_up_onboarding">Byt appar genom att svepa uppåt</string>
     <string name="remaining_length_format">%1$s kvar</string>
     <string name="remote_input_image_insertion_text">har skickat en bild</string>
     <string name="remove_from_settings">Ta bort från inställningarna</string>
@@ -2117,6 +2126,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="wallet_secondary_label_no_card">Lägg till ett kort</string>
     <string name="wallet_secondary_label_updating">Uppdaterar</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Åtkomstpunkten har inga platser över för tillfället</string>
     <string name="wifi_cant_connect">Det gick inte att ansluta</string>
     <string name="wifi_cant_connect_to_ap">Det gick inte att ansluta till %1$s</string>

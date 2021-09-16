@@ -357,9 +357,9 @@
     <string name="airplane_mode">Mode pesawat</string>
     <string name="alarm_template">pukul %1$s</string>
     <string name="alarm_template_far">pada %1$s</string>
-    <string name="alarms_and_reminders_footer_title">"Izinkan aplikasi ini menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, sehingga mungkin menggunakan lebih banyak daya baterai.
+    <string name="alarms_and_reminders_footer_title">"Izinkan aplikasi ini menyetel alarm dan menjadwalkan tindakan yang sensitif waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, sehingga mungkin menggunakan lebih banyak daya baterai.
 
-Jika izin ini dinonaktifkan, alarm dan acara berjangka waktu yang dijadwalkan oleh aplikasi ini tidak akan berfungsi."</string>
+Jika izin ini dinonaktifkan, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi ini tidak akan berfungsi."</string>
     <string name="alarms_and_reminders_label">Alarm dan pengingat</string>
     <string name="alarms_and_reminders_switch_title">Izinkan menyetel alarm dan pengingat</string>
     <string name="alarms_and_reminders_title">Alarm &amp; pengingat</string>
@@ -595,6 +595,8 @@ Pilihan"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Perangkat Anda harus di-reboot agar perubahan ini diterapkan. Reboot sekarang atau batalkan.</string>
     <string name="camera_hint">Geser dari ikon untuk kamera</string>
     <string name="camera_label">buka kamera</string>
+    <string name="camera_recording_announcement">Kamera sedang merekam</string>
+    <string name="camera_stopped_recording_announcement">Kamera berhenti merekam</string>
     <string name="cancel">Batal</string>
     <string name="carrier_network_change_mode">Jaringan operator berubah</string>
     <string name="category_personal">Pribadi</string>
@@ -734,6 +736,10 @@ Jika Anda melanjutkan, tarif penggunaan data mungkin berlaku."</string>
     <string name="debug_monitoring_category">Memantau</string>
     <string name="debug_networking_category">Jaringan</string>
     <string name="debug_view_attributes">Aktifkan inspeksi atribut tampilan</string>
+    <string name="defender_notify_des">Ponsel Anda membatasi pengisian daya untuk membantu menjaga kesehatan baterai</string>
+    <string name="defender_notify_learn_more">Pelajari lebih lanjut</string>
+    <string name="defender_notify_resume_charge">Lanjutkan pengisian daya</string>
+    <string name="defender_notify_title">Pengisian daya dibatasi untuk sementara</string>
     <string name="delete_blob_confirmation_text">Yakin ingin menghapus data bersama ini?</string>
     <string name="delete_blob_text">Hapus data bersama</string>
     <string name="demo_mode">Mode demo UI sistem</string>
@@ -1070,6 +1076,7 @@ prioritas"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Membuka kunci kartu SIM…</string>
     <string name="keyguard_try_fingerprint">Gunakan sidik jari untuk membuka</string>
     <string name="keyguard_unlock">Geser ke atas untuk membuka</string>
+    <string name="keyguard_unlock_press">Tekan untuk membuka</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">jadwal, alarm, pengingat, jam</string>
     <string name="kg_enter_confirm_pin_hint">Konfirmasi kode PIN yang diinginkan</string>
@@ -1233,6 +1240,10 @@ Coba lagi dalam %2$d detik."</string>
     <string name="menu_ime">Pengalih keyboard</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon Aktif</string>
+    <string name="mic_and_camera_recording_announcement">Kamera dan Mikrofon sedang merekam</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera dan Mikrofon berhenti merekam</string>
+    <string name="mic_recording_announcement">Mikrofon sedang merekam</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon berhenti merekam</string>
     <string name="missed_call">Panggilan tak terjawab</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Data seluler</string>
@@ -1706,8 +1717,6 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplikasi kerja</string>
     <string name="quick_step_accessibility_toggle_overview">Aktifkan Ringkasan</string>
     <string name="recent_conversations">Percakapan terbaru</string>
-    <string name="recents_quick_scrub_onboarding">Tarik ke kanan untuk beralih aplikasi dengan cepat</string>
-    <string name="recents_swipe_up_onboarding">Geser ke atas untuk beralih aplikasi</string>
     <string name="remaining_length_format">Tersisa %1$s</string>
     <string name="remote_input_image_insertion_text">mengirim gambar</string>
     <string name="remove_from_settings">Hapus dari Setelan</string>
@@ -2117,6 +2126,7 @@ Pengguna mana pun dapat mengupdate aplikasi untuk semua pengguna lain."</string>
     <string name="wallet_secondary_label_no_card">Tambahkan kartu</string>
     <string name="wallet_secondary_label_updating">Memperbarui</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Titik akses penuh untuk sementara</string>
     <string name="wifi_cant_connect">Tidak dapat tersambung</string>
     <string name="wifi_cant_connect_to_ap">"Tidak dapat tersambung ke '%1$s'"</string>

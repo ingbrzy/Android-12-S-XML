@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Απάντηση</string>
     <string name="a11y_call_incoming_decline_description">Απόρριψη</string>
+    <string name="a11y_callscreen_animation">Κινούμενη εικόνα Call Screen</string>
     <string name="a11y_contact_menu_video_call_wifi">Βιντεοκλήση μέσω Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Φωνητική κλήση μέσω Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Η πιο πρόσφατη, είναι μια απαντημένη κλήση από ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Διαχείριση καλούντων</string>
     <string name="a11y_expandedsheet_collapse">σύμπτυξη μενού</string>
     <string name="a11y_expandedsheet_expand">ανάπτυξη μενού</string>
-    <string name="a11y_favorites_education_dismiss">κλείσιμο</string>
     <string name="a11y_feature_demo_next_page">Επόμενη σελίδα</string>
     <string name="a11y_feature_demo_page_indicator">Σελίδα %d</string>
     <string name="a11y_feature_demo_prev_page">Προηγούμενη σελίδα</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Γρήγορη επαφή για ^1</string>
+    <string name="a11y_icon_hd">Κλήση HD</string>
+    <string name="a11y_icon_hd_plus">Κλήση HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Κλήση κοινόχρηστων δεδομένων</string>
+    <string name="a11y_icon_verified">Επαληθευμένη κλήση</string>
+    <string name="a11y_icon_vilte">Βίντεο μέσω κλήσης LTE</string>
+    <string name="a11y_icon_viwifi">Βιντεοκλήση μέσω WiFi</string>
+    <string name="a11y_icon_volte">Ομιλία μέσω κλήσης LTE</string>
+    <string name="a11y_icon_voz4g">Ομιλία μέσω κλήσης 4G</string>
+    <string name="a11y_icon_wifi">Κλήση μέσω Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Σύρετε με δύο δάχτυλα, προς τα επάνω για απάντηση και προς τα κάτω για απόρριψη.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Σύρετε με δύο δάχτυλα προς τα πάνω, για να απαντήσετε ή προς τα κάτω, για να απορρίψετε την κλήση.</string>
     <string name="a11y_new_call_log_entry_call_recording">η κλήση καταγράφηκε</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">σε ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">πραγματοποίηση κλήσης RTT προς ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Κλήση κοινόχρηστων δεδομένων</string>
     <string name="a11y_new_call_log_entry_tap_action">ανάπτυξη μενού</string>
     <string name="a11y_new_call_log_entry_video_call">πραγματοποίηση βιντεοκλήσης προς ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">βιντεοκλήση ^1 μέσω wifi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Επεξεργασία αριθμού πριν την κλήση</string>
     <string name="action_menu_back_from_search">τέλος αναζήτησης</string>
     <string name="action_menu_overflow_description">Περισσότερες επιλογές</string>
+    <string name="activate_error_message">Προέκυψε πρόβλημα κατά την ενεργοποίηση του Call Screen</string>
+    <string name="activated_successfully">Το Call Screen ενεργοποιήθηκε</string>
     <string name="activity_not_available">"Δεν υπάρχει εφαρμογή γι' αυτήν την ενέργεια σε αυτήν τη συσκευή"</string>
     <string name="add_2sec_pause">Προσθήκη παύσης 2 δευτερολέπτων</string>
     <string name="add_contact_not_available">Δεν υπάρχει διαθέσιμη εφαρμογή επαφών</string>
@@ -158,10 +170,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">Προσωρινά απενεργοποιημένη φραγή κλήσεων</string>
     <string name="bm_suggest_call_button">Κλήση</string>
     <string name="bm_suggest_chat_button">Chat</string>
-    <string name="bm_suggest_wait_min">"Chat
+    <string name="bm_suggest_wait_min">"Συζήτηση
 %1$d′ αναμονή"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s μη αναγνωσμένα</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Σε εξέλιξη…"</string>
     <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
     <string name="bubble_bottom_action_end_call">Τέλος κλήσης</string>
     <string name="bubble_bottom_action_hide">Απόκρυψη</string>
@@ -170,7 +182,10 @@
     <string name="call">Φωνητική κλήση</string>
     <string name="callFailed_simError">Δεν υπάρχει κάρτα SIM ή σφάλμα κάρτας SIM</string>
     <string name="callHistoryIconLabel">Ιστορικό κλήσεων</string>
-    <string name="call_announcer_preference_footer_instruction_text">Το όνομα και ο αριθμός του καλούντος θα αναγνωστούν δυνατά για εισερχόμενες κλήσεις</string>
+    <string name="call_action_label_automatically_screen">Αυτόματη διαλογή. Απόρριψη των αυτοματοποιημένων κλήσεων.</string>
+    <string name="call_action_label_ring_phone">Κλήση τηλεφώνου (προεπιλογή)</string>
+    <string name="call_action_label_silently_decline">Απόρριψη χωρίς ειδοποίηση</string>
+    <string name="call_announcer_preference_footer_instruction_text">Το όνομα και ο αριθμός του καλούντος θα αναγνωστούν δυνατά για τις εισερχόμενες κλήσεις.</string>
     <string name="call_announcer_preference_list_title">Ανακοίνωση αναγνώρισης κλήσης</string>
     <string name="call_announcer_preference_option_always">Πάντα</string>
     <string name="call_announcer_preference_option_headset">Μόνο όταν γίνεται χρήση ακουστικών</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Απάντηση</string>
     <string name="call_incoming_answer_rtt">Απάντηση με RTT</string>
     <string name="call_incoming_answer_voice">Απάντηση με φωνητικό μήνυμα</string>
-    <string name="call_incoming_chip_answer_and_release">Απάντηση &amp; τερμ. κλήσης</string>
+    <string name="call_incoming_chip_answer_and_release">Απάντηση και τερματισμός της άλλης κλήσης</string>
     <string name="call_incoming_chip_answer_as_rtt">Απάντηση ως κλήση RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Απάντηση ως φωνητική κλήση</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Απάντηση με το βίντεό μου απενεργοποιημένο</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Σύρετε προς τα επάνω για απάντηση</string>
     <string name="call_incoming_swipe_to_reject">Σύρετε προς τα κάτω για απόρριψη.</string>
     <string name="call_incoming_video_is_off">Το βίντεό σας είναι απενεργοποιημένο</string>
-    <string name="call_incoming_will_disconnect">Αν απαντήσετε σε αυτήν την κλήση θα τερματιστεί η βιντεοκλήση σας</string>
+    <string name="call_incoming_will_disconnect">Αν απαντήσετε σε αυτήν την κλήση θα τερματιστεί η άλλη κλήση σας</string>
     <string name="call_incoming_will_disconnect_app">Η απάντηση θα τερματίσει την κλήση μέσω της εφαρμογής %1$s</string>
     <string name="call_isdn">Κλήση ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Αποκλεισμός/ανεπιθύμητο</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Αιτία κλήσης: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Η εγγραφή αποθηκεύτηκε.</string>
     <string name="call_recording_conversation_history_entry">Έγινε εγγραφή</string>
+    <string name="call_recording_delete_snack_bar_undo">Αναίρεση</string>
     <string name="call_recording_disclaimer_agreen_button_text">Έναρξη εγγραφής</string>
     <string name="call_recording_disclaimer_content">"Εσείς ή ο συνομιλητής σας στην κλήση ενδέχεται να βρίσκεστε κάπου όπου απαιτείται η συναίνεση όλων για την εγγραφή. Όλοι θα ειδοποιηθούν εκ των προτέρων ότι η κλήση καταγράφεται. Εναπόκειται σε εσάς η τήρηση των νόμων που αφορούν την καταγραφή συζητήσεων Χρησιμοποιήστε τη λειτουργία ηχογράφησης κλήσης υπεύθυνα και ενεργοποιήστε την μόνο όταν χρειάζεται.
 ^1
@@ -291,6 +307,7 @@
 Ούτε ο ήχος ούτε η μεταγραφή της κλήσης θα αποσταλούν στον οποιονδήποτε, συμπεριλαμβανομένης της Google."</string>
     <string name="call_screen_demo_page_4_title">Εξοικονομήστε χρόνο και αποφύγετε τις απογοητεύσεις και τον εκνευρισμό</string>
     <string name="call_screen_demo_setting_title">Δείτε μια επίδειξη</string>
+    <string name="call_screen_demo_settings_title">Δείτε μια επίδειξη</string>
     <string name="call_screen_demo_title">Πώς λειτουργεί το Call Screen</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Δεν ήταν δυνατή η λήψη δείγματος ήχου</string>
     <string name="call_screen_demo_unable_to_play_audio">Δεν ήταν δυνατή η αναπαραγωγή δείγματος ήχου</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Τερματίσατε την κλήση</string>
     <string name="call_screen_end_call_non_local_internal_message">Η κλήση αποσυνδέθηκε</string>
     <string name="call_screen_how_it_works_setting_title">Το Call Screen λειτουργεί στη συσκευή σας χωρίς Wi-Fi ή δεδομένα. Οι μεταγραφές των συνομιλιών δημιουργούνται και διατηρούνται μόνο στο τηλέφωνό σας. %1$s</string>
+    <string name="call_screen_how_it_works_title">Το Call Screen λειτουργεί στη συσκευή σας χωρίς Wi-Fi ή δεδομένα. Οι μεταγραφές των συνομιλιών δημιουργούνται και διατηρούνται μόνο στο τηλέφωνό σας. ^1</string>
     <string name="call_screen_incallui_chip_text">Διαλογή κλήσης</string>
     <string name="call_screen_join_call_button_content_description">Συμμετοχή σε κλήση</string>
     <string name="call_screen_join_call_internal_message">Συμμετέχετε στην κλήση</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">Λέει στον καλούντα</string>
     <string name="call_screen_screening_call_from">Κλήση παρακολούθησης από</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Κουμπί ηχείου</string>
     <string name="call_screen_suggestions_avatar_content_description">Λογότυπο</string>
     <string name="call_screen_survey_cancel_button">Ακύρωση</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Κλήση εργασίας</string>
     <string name="call_work_mobile">Κλήση κινητού τηλεφώνου εργασίας</string>
     <string name="call_work_pager">Κλήση βομβητή εργασίας</string>
+    <string name="caller_action_error_cant_load_value">Δεν είναι δυνατή η λήψη της τρέχουσας τιμής %1$s</string>
+    <string name="caller_action_error_cant_set_value">Δεν είναι δυνατή η αποθήκευση της τιμής %1$s</string>
     <string name="caller_id_announcement_multi_sim">Εισερχόμενη %1$s από %2$s στη sim %3$s</string>
     <string name="caller_id_announcement_single_sim">Εισερχόμενη %1$s από %2$s</string>
     <string name="caller_id_business_data_details">Τα δεδομένα που χρησιμοποιούνται σε αυτές τις λειτουργίες παρέχονται από την Google και τους παρόχους αδειών της. ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">Κλήση %s;</string>
     <string name="calllog_add_to_contact">Προσθήκη σε μια επαφή</string>
     <string name="calllog_create_new_contact">Δημιουργία νέας επαφής</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Ενεργοποίηση Call Screen (απαιτείται WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Φωνή</string>
+    <string name="camera_permission_toast">Η άδεια για τη χρήση της κάμερας ενεργοποιήθηκε</string>
     <string name="camera_privacy_text">Το δικαίωμα χρήσης της κάμερας έχει ενεργοποιηθεί</string>
     <string name="cannot_understand_description">Δεν καταλαβαίνω</string>
     <string name="car_crash_emergency_intro">"Επικοινωνεί μαζί σας μια αυτοματοποιημένη υπηρεσία ομιλίας για επείγοντα περιστατικά, η οποία έχει εκκινηθεί από τον καλούντα.Το τηλέφωνο του καλούντος εντόπισε πιθανό αυτοκινητιστικό δυστύχημα, Ο καλών δεν αποκρίθηκε.
@@ -391,7 +415,7 @@
     <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
     <string name="checkbox_report_as_spam_action">Αναφορά ανεπιθύμητης κλήσης</string>
     <string name="child_number">μέσω %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Επιλέξτε μια επαφή</string>
     <string name="clear_button_content_description">Διαγραφή αναζήτησης</string>
     <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
     <string name="cli_not_supported_text">Ανοίξτε το τηλέφωνο για να συνεχίσετε.</string>
@@ -431,6 +455,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Αδύνατη ρύθμιση της επαληθευμένης κλήσης. Μπορείτε να την ενεργοποιήσετε ξανά στις ρυθμίσεις.</string>
     <string name="contact_card_video_icon_content_description">Βιντεοκλήση προς ^1</string>
     <string name="contact_grid_callback_number">Ο αριθμός αυτού του τηλεφώνου: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Η κλήση προωθήθηκε</string>
+    <string name="contact_grid_hd_icon_content_description">Κλήση HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Κλήση HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Βιντεοκλήση μέσω εταιρείας κινητής τηλεφωνίας από</string>
     <string name="contact_grid_incoming_reception_only_video_call">Μονόδρομη βιντεοκλήση μέσω εταιρείας κινητής τηλεφωνίας από</string>
     <string name="contact_grid_incoming_rtt_call">Κλήση RTT από</string>
@@ -441,9 +468,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Βιντεοκλήση Wi-Fi μέσω εταιρείας κινητής τηλεφωνίας από</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Μονόδρομη βιντεοκλήση Wi-Fi μέσω εταιρείας κινητής τηλεφωνίας από</string>
     <string name="contact_grid_incoming_work_call">Κλήση από το γραφείο από</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Κλήση κοινόχρηστων δεδομένων</string>
+    <string name="contact_grid_spam_icon_content_description">Ανεπιθύμητη κλήση</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Εταιρεία κινητής τηλεφωνίας</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Επαληθεύτηκε από %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Έγκυρος αριθμός</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Βίντεο μέσω κλήσης LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Βιντεοκλήση μέσω Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Ομιλία μέσω κλήσης 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Ομιλία μέσω κλήσης LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Φωνητική κλήση μέσω Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Κλήση μέσω Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Κλήση εργασίας</string>
     <string name="contact_menu_add_favorite">Προσθ. αγαπημ.</string>
     <string name="contact_menu_contact_info">Στοιχεία επικ.</string>
     <string name="contact_menu_invite_video">Πρόσκληση σε βιντεοκλήση</string>
@@ -478,8 +514,12 @@
     <string name="conversation_history_call_details_header_today">Σήμερα</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Η κλήση διαγράφηκε</string>
     <string name="conversation_history_call_details_snack_bar_undo">Αναίρεση</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Σημαντική κλήση</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Εμφάνιση πρόσθετων πληροφοριών κλήσης</string>
+    <string name="conversation_history_call_recording_deleted">Η εγγραφή διαγράφηκε</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Μεταγραφή και ήχος</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Μεταγραφή</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">Αντιγραφή</string>
     <string name="copy_number">Αντιγραφή αριθμού</string>
@@ -498,12 +538,17 @@
     <string name="custom_prefix_default_prefix_title">Προεπιλεγμένο πρόθεμα</string>
     <string name="custom_prefix_prefixes_preference_title">Προθέματα</string>
     <string name="dark_theme_label">Σκούρο</string>
+    <string name="default_changed_confirmation">Η εφαρμογή Τηλέφωνο ορίστηκε ως η προεπιλεγμένη</string>
+    <string name="default_image_content_description">Εικόνα υποδοχής</string>
     <string name="delete">Διαγραφή</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Διαγραφή όλων των εγγραφών</string>
     <string name="delete_all_recordings_now_error_message">Δεν ήταν δυνατή η διαγραφή μερικών εγγραφών. Δοκιμάστε ξανά.</string>
     <string name="delete_button_label">Διαγραφή όλων των εγγραφών τώρα</string>
     <string name="delete_confirmation_dialog_negative_button_label">Ακύρωση</string>
     <string name="delete_confirmation_dialog_positive_button_label">Διαγραφή</string>
+    <string name="delete_old_recordings_error_cant_load_value">Δεν είναι δυνατή η λήψη της τρέχουσας τιμής %1$s</string>
+    <string name="delete_old_recordings_error_cant_set_value">Δεν είναι δυνατή η αποθήκευση της τιμής %1$s</string>
+    <string name="deleting_call_recording">Διαγραφή εγγραφής…</string>
     <string name="description_add_to_existing_contact_action">Προσθήκη ^1 σε υπάρχουσα επαφή</string>
     <string name="description_blocked_number_list_delete">Κατάργηση αποκλεισμού αριθμού</string>
     <string name="description_call_action">Κλήση ^1</string>
@@ -606,6 +651,7 @@
     <string name="emergency_sos_emergency_intro">"Επικοινωνεί μαζί σας μια αυτοματοποιημένη υπηρεσία ομιλίας για επείγοντα περιστατικά, για λογαριασμό του καλούντα.
 Ο καλών ειδοποίησε ότι ενδέχεται να βρίσκεται σε επείγουσα κατάσταση. 
 Παρακαλούμε στείλτε βοήθεια."</string>
+    <string name="emergency_speaker">Ηχείο</string>
     <string name="emergency_voice_assist_dialog_button_close">Ακύρωση</string>
     <string name="emergency_voice_assist_dialog_title">Ο φορέας επείγουσας ανάγκης ακούει</string>
     <string name="end_call_with_default_message_description">Τέλος κλήσης</string>
@@ -635,9 +681,12 @@
     <string name="feedback_call_issue_quiet_audio">Η ένταση του ήχου ήταν πολύ χαμηλή</string>
     <string name="feedback_call_issue_title">Ποιο ήταν το πρόβλημα;</string>
     <string name="feedback_title_please_rate">Αξιολογήστε την ποιότητα της κλήσης</string>
+    <string name="first_time_callers_action_preference_description">Καλούντες που δεν βρίσκονται στο ιστορικό κλήσεών σας</string>
+    <string name="first_time_callers_action_preference_title">Καλούντες που δεν έχουν ξανακαλέσει</string>
     <string name="flip_to_shush_title">Αναστροφή για σίγαση</string>
     <string name="flip_to_silence_summary">Για να θέσετε μια εισερχόμενη κλήση σε σίγαση, τοποθετήστε το τηλέφωνο με την οθόνη προς τα κάτω, σε επίπεδη επιφάνεια.</string>
     <string name="flip_to_silence_title">Αναστροφή για σίγαση</string>
+    <string name="foreground_notification_title">Ενημέρωση…</string>
     <string name="frequent_contact_suggestion">Συχνές κλήσεις</string>
     <string name="general_learn_more">Μάθετε περισσότερα</string>
     <string name="generic_conference_call_name">Σε κλήση</string>
@@ -660,6 +709,7 @@
     <string name="how_it_works_storage_link_text">Μάθετε περισσότερα σχετικά με το πώς αποθηκεύονται οι εγγραφές</string>
     <string name="how_it_works_storage_template">Η λειτουργία ηχογράφησης κλήσης θα τεθεί σε αναστολή, εάν εξαντληθεί ο αποθηκευτικός χώρος της συσκευής σας. ^1</string>
     <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string name="icon_description_shared_data_call">Κλήση κοινόχρηστων δεδομένων</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Εισαγωγή αριθμών</string>
     <string name="ims_video_heading">Βίντεο Verizon</string>
@@ -803,6 +853,7 @@
     <string name="new_call_log_no_missed_calls">Δεν υπάρχουν αναπάντητες κλήσεις</string>
     <string name="new_call_log_permission_no_calllog">Για να δείτε το αρχείο καταγραφής κλήσεών σας, ενεργοποιήστε την άδεια τηλεφώνου.</string>
     <string name="new_call_log_secondary_blocked">Αποκλεισμένοι</string>
+    <string name="new_call_log_secondary_verified">Επαληθευμένη κλήση</string>
     <string name="new_call_log_snack_bar_deleted">Η κλήση διαγράφηκε</string>
     <string name="new_call_log_snack_bar_undo">Αναίρεση</string>
     <string name="new_call_log_unknown">Άγνωστος</string>
@@ -817,8 +868,10 @@
     <string name="notification_action_answer_video">Βίντεο</string>
     <string name="notification_action_dismiss">Απόρριψη</string>
     <string name="notification_action_end_call">Τερματισμός κλήσης</string>
+    <string name="notification_action_mute_toggle">Σίγαση</string>
     <string name="notification_action_speaker_off">Απενεργοποίηση ηχείου</string>
     <string name="notification_action_speaker_on">Ενεργοποίηση ηχείου</string>
+    <string name="notification_action_speaker_toggle">Ηχείο</string>
     <string name="notification_callReasonMsg">Αιτία: %s</string>
     <string name="notification_call_wifi_brand">κλήση μέσω Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">κλήση εργασίας μέσω Wi-Fi</string>
@@ -882,6 +935,8 @@
     <string name="place_ims_button_content_description">Ένα κουμπί που χρησιμοποιείται για πραγματοποίηση βιντεοκλήσης μέσω της εταιρείας κινητής τηλεφωνίας.</string>
     <string name="play">Αναπαραγωγή</string>
     <string name="plus_code_line_format">Κωδικός plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Καλούντες οι οποίοι μπορεί να είναι χρήστες ανεπιθύμητου περιεχομένου που χρησιμοποιούν έναν τροποποιημένο αριθμό</string>
+    <string name="possibly_faked_numbers_action_preference_title">Πιθανώς ψευδείς αριθμοί</string>
     <string name="post_call_message">Πείτε μου γιατί καλέσατε</string>
     <string name="post_call_message_1">Είναι επείγον. Καλέστε με.</string>
     <string name="post_call_message_2">Καλέστε με όταν έχετε λίγο χρόνο.</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">Πολιτική απορρήτου</string>
     <string name="private_num_non_verizon">Απόκρυψη αριθμού</string>
     <string name="private_num_verizon">Περιορισμένος</string>
+    <string name="private_or_hidden_action_preference_description">Καλούντες που αποκρύπτουν το αναγνωριστικό καλούντος τους</string>
+    <string name="private_or_hidden_action_preference_title">Ιδιωτικός ή κρυφός</string>
     <string name="quick_contact_checkbox_description">Επιλογή επαφής</string>
     <string name="ready_for_recording">Σε ετοιμότητα…</string>
     <string name="record_greeting_cancel_label">Ακύρωση</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">Αποθήκευση…</string>
     <string name="record_voicemail_greeting_title">Εγγραφή χαιρετισμού</string>
     <string name="recording_category_title">Εγγραφές</string>
+    <string name="recording_deleted">Η εγγραφή διαγράφηκε</string>
+    <string name="recording_deletion_failed">Δεν ήταν δυνατή η διαγραφή της εγγραφής [Δοκιμάστε ξανά]</string>
     <string name="redo_button_text">Επανάληψη</string>
     <string name="remember_this_choice_label">Απομνημόνευση επιλογής</string>
     <string name="report_not_spam_alert_button">Αναφορά</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">Καλέστε με</string>
     <string name="request_email_description">Στείλτε email</string>
     <string name="respond_via_sms_setting_title">Γρήγορες απαντήσεις</string>
+    <string name="revelio_callers_how_it_works_text">"Για να απενεργοποιήσετε την αυτόματη διαλογή, επιλέξτε τη ρύθμιση \"Κλήση τηλεφώνου (προεπιλογή)\" για τις άγνωστες κλήσεις. Δεν γίνεται ποτέ αυτόματη διαλογή για τις επαφές σας. Η αυτόματη διαλογή δεν λειτουργεί αν το τηλέφωνό σας είναι συνδεδεμένο σε ακουστικά ή ηχεία. 
+Το Call Screen δεν χρησιμοποιεί δεδομένα ή Wi-Fi αλλά χρησιμοποιεί λεπτά κλήσεων της εταιρείας κινητής τηλεφωνίας. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Διαγραφή μετά από 30 ημέρες</string>
+    <string name="revelio_delete_old_recordings_setting_title">Αυτόματη διαγραφή παλαιότερων ηχογραφήσεων και μεταγραφών</string>
+    <string name="revelio_demo_setting_title">Δείτε πώς λειτουργεί το Call Screen</string>
     <string name="revelio_demo_turn_on">Ενεργοποίηση</string>
     <string name="revelio_end_call_reject_as_spam">Η κλήση επισημάνθηκε ως ανεπιθύμητη</string>
     <string name="revelio_end_call_user_missed_internal_message">Η κλήση δεν απαντήθηκε</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Η αυτόματη διαλογή είναι απενεργοποιημένη</string>
+    <string name="revelio_preference_summary_screening">Διαλογή %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Αποθήκευση του ήχου των κλήσεων που απαντά ο Βοηθός σας</string>
+    <string name="revelio_save_audio_setting_title">Αποθήκευση ήχου Call Screen</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">Το RTT υποβοηθά καλούντες που είναι κωφοί ή αντιμετωπίζουν προβλήματα ακοής ή ομιλίας, καθώς και όσους χρειάζονται κάτι περισσότερο από απλή φωνητική επικοινωνία. ^1</string>
     <string name="rtt_assist_for_att">Το πληκτρολόγιο επί της οθόνης για τη λειτουργία Αποστολής κειμένου σε πραγματικό χρόνο (RTT) αποτελεί εναλλακτική λύση για εξωτερικά πληκτρολόγια TTY. Καθώς αποστέλλετε κάποιο μήνυμα κειμένου κατά τη διάρκεια μιας κλήσης RTT, ο συνομιλητής σας θα μπορεί να δει ότι πληκτρολογείτε το μήνυμά σας, σε πραγματικό χρόνο. ^1</string>
     <string name="rtt_assist_for_tmo">Το πληκτρολόγιο επί της οθόνης για τη λειτουργία Αποστολής κειμένου σε πραγματικό χρόνο (RTT) αποτελεί εναλλακτική λύση για εξωτερικά πληκτρολόγια TTY. Με τη λειτουργία RTT ό,τι πληκτρολογείτε αποστέλλεται αμέσως κατα τη διάρκεια μιας τηλεφωνικής κλήσης, παρέχοντάς σας τη δυνατότητα να επικοινωνείτε με μηνύματα κειμένου σε πραγματικό χρόνο. Θα μπορείτε να βλέπετε μέρος των απαντήσεων προτού ολοκληρωθεί το μήνυμα. ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">Πίσω</string>
     <string name="rtt_button_downgrade">Εναλλαγή σε φωνητική κλήση</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Το RTT δεν είναι διαθέσιμο για αυτήν την κλήση. Η κλήση σας έχει συνδεθεί αποκλειστικά ως φωνητική.</string>
+    <string name="rtt_call_downgraded_toast">Η κλήση σας RTT άλλαξε σε φωνητική μόνο</string>
+    <string name="rtt_call_not_available_toast">Το RTT δεν είναι διαθέσιμο για αυτήν την κλήση</string>
     <string name="rtt_configuration_summary_always_visible">Το κουμπί αποστολής κειμένου σε πραγματικό χρόνο είναι διαθέσιμο παντού</string>
     <string name="rtt_configuration_summary_not_visible">Να επιτρέπονται εισερχόμενες κλήσεις με αποστολή κειμένου σε πραγματικό χρόνο (RTT), αλλά με απόκρυψη του κουμπιού κλήσης</string>
     <string name="rtt_configuration_summary_visible_during_call">Εμφάνιση του κουμπιού αποστολής κειμένου σε πραγματικό χρόνο κατά τη διάρκεια μιας κλήσης</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">Εμφάνιση μεταγραφής</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Αυτό το μήνυμα θα επαναληφθεί.</string>
+    <string name="save_audio_error_cant_load_value">Δεν είναι δυνατή η λήψη της τρέχουσας τιμής της επιλογής Αποθήκευση ήχου Call Screen</string>
+    <string name="save_audio_error_cant_set_value">Δεν είναι δυνατή η αποθήκευση της τιμής της επιλογής Αποθήκευση ήχου Call Screen</string>
     <string name="save_button_text">Αποθήκευση</string>
     <string name="saved_voicemails_action_title">Αποθηκευμένα μηνύμ. αυτόμ. τηλεφωνητή (%1$s)</string>
     <string name="search_hint">Αναζήτηση επαφών βίντεο</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">Αποστολή μηνύματος</string>
     <string name="send_to_voicemail_import_failed">Αποτυχία εισαγωγής</string>
     <string name="serial_number">Σειριακός αριθμός</string>
+    <string name="set_as_default_button_text">Προεπιλογή</string>
     <string name="set_default_account">Χρήση πάντα για κλήσεις</string>
     <string name="set_default_account_description">Η προτίμηση για τη SIM αποθηκεύεται με τις επαφές σας.</string>
+    <string name="set_phone_as_default_explanation_text">Η εφαρμογή Τηλέφωνο έχει τη δυνατότητα έναρξης και λήψης κλήσεων μόνο εάν είναι η προεπιλεγμένη</string>
+    <string name="set_phone_as_default_request_text">Ορισμός εφαρμογής Τηλέφωνο ως προεπιλεγμένης</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="settings_page_call_recording_feature_not_available_text">Η ηχογράφηση κλήσεων δεν είναι διαθέσιμη στην τοποθεσία σας</string>
     <string name="settings_page_crosby_feature_not_available_text">Δεν είναι διαθέσιμο στην τοποθεσία σας</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">Αναίρεση</string>
     <string name="snackbar_voicemail_deleted">Μήν.αυτ. τηλ. διαγρ.</string>
     <string name="sounds_and_vibration_title">Ήχοι και δόνηση</string>
+    <string name="spam_action_preference_description">Αριθμοί που αντιστοιχούν στη βάση δεδομένων ανεπιθύμητων της Google</string>
+    <string name="spam_action_preference_title">Ανεπιθύμητες κλήσεις</string>
     <string name="spam_and_call_screen_settings_title">Ανεπιθύμητα και Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Απόρριψη</string>
     <string name="spam_blocking_promo_action_filter_spam">Φιλτράρισμα ανεπιθύμητων κλήσεων</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">Προσθήκη</string>
     <string name="speed_dial_contacts_permission_description">Για να ενεργοποιήσετε την ταχεία κλήση, ενεργοποιήστε την άδεια επαφών.</string>
     <string name="speed_dial_disambig_dialog_title">Τρόπος κλήσης: %s</string>
-    <string name="speed_dial_education_content">Αγγίξτε παρατεταμένα οποιαδήποτε επαφή για εναλλαγή μεταξύ κλήσεων και μηνυμάτων</string>
-    <string name="speed_dial_education_title">Περισσότεροι τρόποι για να έρθετε σε επαφή</string>
     <string name="speed_dial_no_contacts_action_text">Προσθέστε μια αγαπημένη</string>
     <string name="speed_dial_no_contacts_description">Καλέστε τις αγαπημένες σας επαφές με ένα μόνο πάτημα</string>
     <string name="speed_dial_remember_this_choice">Διατήρηση αυτής της ρύθμισης</string>
@@ -1083,6 +1159,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">Σας ευχαριστούμε για τα σχόλιά σας</string>
     <string name="suggestions_header">Συχνή επικοινωνία</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">πληροφορίες λογαριασμού και συστήματος</string>
+    <string name="survey_app_id">Αναγνωριστικό εφαρμογής</string>
+    <string name="survey_app_name">Όνομα εφαρμογής</string>
+    <string name="survey_app_version">Έκδοση εφαρμογής</string>
+    <string name="survey_application_data">Δεδομένα εφαρμογής</string>
+    <string name="survey_brand">Επωνυμία</string>
+    <string name="survey_close_button_description">Κλείσιμο</string>
+    <string name="survey_default_prompt_title">Βοηθήστε μας να βελτιώσουμε το Google.</string>
+    <string name="survey_device_model">Μοντέλο συσκευής</string>
+    <string name="survey_email_address">Διεύθ. ηλεκτρον. ταχυδρομείου</string>
+    <string name="survey_google_play_services_version">Έκδοση υπηρεσιών Google Play</string>
+    <string name="survey_legal_text">Συνεχίζοντας, συμφωνείτε ότι η Google χρησιμοποιεί τις απαντήσεις σας και τις %1$s για τη βελτίωση των υπηρεσιών, σύμφωνα με το %2$s και τους %3$s μας.</string>
+    <string name="survey_library_version">Έκδοση βιβλιοθήκης</string>
+    <string name="survey_network_request_failed">Το αίτημα δικτύου απέτυχε</string>
+    <string name="survey_neutral">Ουδέτερος/η</string>
+    <string name="survey_next">Επόμενο</string>
+    <string name="survey_num_rating">%1$s στα %2$s</string>
+    <string name="survey_ok">ΟΚ</string>
+    <string name="survey_open_text_hint">Εισαγάγετε τα σχόλιά σας εδώ</string>
+    <string name="survey_open_text_no_pii">Δεν πρέπει να συμπεριληφθούν προσωπικά στοιχεία</string>
+    <string name="survey_operating_system">Λειτουργικό σύστημα</string>
+    <string name="survey_operating_system_version">Έκδοση λειτουργικού συστήματος</string>
+    <string name="survey_other_option_hint">Άλλο (Προσδιορίστε)</string>
+    <string name="survey_platform">Πλατφόρμα</string>
+    <string name="survey_privacy">Απόρρητο</string>
+    <string name="survey_prompt_no_thanks">Όχι, ευχαριστώ</string>
+    <string name="survey_prompt_take_our_survey">Εμφάνιση ερώτησης</string>
+    <string name="survey_smiley_rating">Εικονίδιο smiley %1$s από %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Λίγο δυσαρεστημένος/η</string>
+    <string name="survey_somewhat_satisfied">Λίγο ικανοποιημένος/η</string>
+    <string name="survey_submit">Υποβολή</string>
+    <string name="survey_system_info_dialog_title">Πληροφορίες λογαριασμού και συστήματος</string>
+    <string name="survey_terms">Όρους</string>
+    <string name="survey_thank_you_followup_message">Βοηθήστε μας να βελτιώσουμε το προϊόν μας απαντώντας σε περισσότερες ερωτήσεις</string>
+    <string name="survey_timezone_offset">Μετατόπιση ζώνης ώρας</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">Παράγοντας χρήστη</string>
+    <string name="survey_very_dissatisfied">Πολύ δυσαρεστημένος/η</string>
+    <string name="survey_very_satisfied">Πολύ ικανοποιημένος/η</string>
     <string name="system_default_theme_label">Προεπιλογή συστήματος</string>
     <string name="tab_title_call_history">Πρόσφατα</string>
     <string name="tab_title_contacts">Επαφές</string>
@@ -1094,11 +1209,15 @@
     <string name="terms_of_service_label">Όροι Παροχής Υπηρεσιών</string>
     <string name="textmessage_button_label">Μήνυμα</string>
     <string name="theme_preference_label">Επιλογή θέματος</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Εγγραφή</string>
     <string name="toast_text_copied">Το κείμενο αντιγράφηκε</string>
     <string name="toolbar_back">Πίσω</string>
     <string name="toolbar_close">Κλείσιμο</string>
     <string name="transcript_audio_feedback_chip_text">Βοηθήστε μας να βελτιωθούμε</string>
+    <string name="transcript_audio_feedback_link_text">Εμφάνιση μεταγραφής και ήχου</string>
     <string name="transcript_snippet_low_confidence_description">(ο ήχος δεν ήταν ευκρινής)</string>
+    <string name="try_again_button">Επανάληψη</string>
     <string name="tty_configuration_title_tty_full">TTY πλήρες</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY Απενεργοποιήθηκε</string>
@@ -1120,7 +1239,6 @@
     <string name="type_outgoing_video_pulled">Η εξερχόμενη βιντεοκλήση έχει μεταφερθεί σε άλλη συσκευή</string>
     <string name="type_rejected">Απορριφθείσα κλήση</string>
     <string name="type_voicemail">Αυτόματος τηλεφωνητής</string>
-    <string name="unable_change_value_error">Προέκυψε πρόβλημα κατά την αλλαγή των ρυθμίσεων RTT. Επιστρέψτε και δοκιμάστε ξανά.</string>
     <string name="unable_read_value_error">Προέκυψε πρόβλημα κατά την ανάγνωση των ρυθμίσεων RTT. Επιστρέψτε και δοκιμάστε ξανά.</string>
     <string name="unblock_number">Κατάργηση αποκλεισμού</string>
     <string name="unblock_number_alert_details">Ο αποκλ. του αρ. θα καταργηθεί. Θα αναφερθεί ως μη ανεπιθ. Μελλοντικές κλ. δεν θα αναγν. ως ανεπιθ.</string>
@@ -1129,6 +1247,7 @@
     <string name="unblock_number_ok">Κατάργηση αποκλεισμού</string>
     <string name="unblock_report_number_alert_title">Να καταργηθεί ο αποκλεισμός του αριθμού %1$s;</string>
     <string name="unknown">Άγνωστος</string>
+    <string name="unknown_call_settings_category_preference_title">Άγνωστες ρυθμίσεις κλήσεων</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Κατάργηση σίγασης εισερχ. ήχου</string>
     <string name="user_is_busy_description">Θα σας καλέσω</string>
@@ -1240,10 +1359,17 @@
     <string name="videocall_remote_video_on">Το βίντεό τους είναι ενεργοποιημένο</string>
     <string name="videocall_remotely_held">Κλήση σε αναμονή</string>
     <string name="videocall_remotely_resumed">Συνέχιση κλήσης</string>
+    <string name="videocall_settings_default_carrier">Βιντεοκλήσεις μέσω εταιρείας κινητής τηλεφωνίας</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Προεπιλεγμένη υπηρεσία βιντεοκλήσεων</string>
+    <string name="videocall_settings_fallback_summary">Εναλλαγή σε Duo εάν οι βιντεοκλήσεις μέσω εταιρείας κινητής τηλεφωνίας δεν είναι διαθέσιμες</string>
+    <string name="videocall_settings_fallback_title">Χρήση Duo εφεδρικά</string>
+    <string name="videocall_settings_title">Βιντεοκλήσεις</string>
     <string name="videocall_show_preview_button_description">Εμφάνιση τοπικής ροής βίντεο</string>
     <string name="view">Προβολή</string>
     <string name="view_location_settings">Ρυθμίσεις τοποθεσίας</string>
     <string name="vitle_label">Βίντεο μέσω LTE</string>
+    <string name="viwifi_label">Βιντεοκλήση μέσω WiFi</string>
     <string name="vm_change_pin_error_invalid">Το νέο PIN περιέχει μη έγκυρους χαρακτήρες.</string>
     <string name="vm_change_pin_error_mismatch">Το παλιό PIN δεν αντιστοιχεί.</string>
     <string name="vm_change_pin_error_system_error">Δεν είναι δυνατή η αλλαγή του PIN</string>
@@ -1253,8 +1379,11 @@
     <string name="vm_change_pin_progress_message">Περιμένετε.</string>
     <string name="voice_call">Φωνητική κλήση</string>
     <string name="voice_call_button">Κλήση</string>
+    <string name="voice_display_name">Φωνή %1$d</string>
     <string name="voice_search_not_available">Η φωνητική αναζήτηση δεν είναι διαθέσιμη</string>
     <string name="voice_selector_preference_title">Διαθέσιμες φωνές</string>
+    <string name="voice_settings_available_voices_text">Διαθέσιμες φωνές</string>
+    <string name="voice_settings_title">Φωνή</string>
     <string name="voicecall_button_label">Κλήση</string>
     <string name="voicecall_button_wifi_description">Κλήση μέσω Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s στις %2$s</string>
@@ -1289,7 +1418,6 @@
     <string name="voicemail_donation_promo_title">Θέλετε να βοηθήσετε στη βελτίωση της ακρίβειας της μεταγραφής;</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Η χρήση του οπτικού αυτόματου τηλεφωνητή για SIM χωρίς δεδομένα ενδέχεται να επιφέρει χρεώσεις από την εταιρεία κινητής τηλεφωνίας.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Ο οπτικός αυτόματος τηλεφωνητής είναι διαθέσιμος μόνο για την επιλεγμένη SIM δεδομένων</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Εάν έχετε πολλές SIM και η μία είναι για το Fi, η SIM σας του Fi θα χρησιμοποιείται για τον οπτικό αυτόματο τηλεφωνητή</string>
     <string name="voicemail_error_activating_message">Ενδέχεται να μην λαμβάνετε ειδοποιήσεις αυτόματου τηλεφωνητή έως ότου ο οπτικός αυτόματος τηλεφωνητής ενεργοποιηθεί πλήρως. Καλέστε τον αυτόματο τηλεφωνητή για να ανακτήσετε νέα μηνύματα, έως ότου γίνει πλήρης ενεργοποίηση του οπτικού αυτόματου τηλεφωνητή.</string>
     <string name="voicemail_error_activating_title">Ενεργοποίηση οπτικού αυτόματου τηλεφωνητή</string>
     <string name="voicemail_error_activation_disabled_message">Καλέστε τον αυτόματο τηλεφωνητή για να ολοκληρώσετε τη ρύθμιση</string>
@@ -1396,6 +1524,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Δεν είναι δυνατή η σύνδεση στον αυτόματο τηλεφωνητή σας</string>
     <string name="vvm3_error_vms_timeout_message">Δυστυχώς, αντιμετωπίσαμε κάποιο πρόβλημα. Δοκιμάστε ξανά αργότερα. Εάν το πρόβλημα παραμένει, επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών στο %1$s και αναφέρετέ τους τον κωδικό σφάλματος 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Παρουσιάστηκε κάποιο πρόβλημα</string>
+    <string name="vvm_config_title">Διαμόρφωση οπτικού αυτόματου τηλεφωνητή</string>
     <string name="vvm_unsupported_message_format">Μη υποστηριζόμενος τύπος μηνύματος: καλέστε στο %s για να το ακούσετε.</string>
     <string name="wait_prompt_str">"Αποστολή των παρακάτω τόνων;
 "</string>

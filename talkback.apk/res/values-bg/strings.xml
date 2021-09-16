@@ -87,7 +87,7 @@
 Можете да продължите да учите за други теми сега или да прегледате тази информация по всяко време от настройките на TalkBack."</string>
     <string name="all_set_title">Готово!</string>
     <string name="always_show_this_message_label">Това съобщение да се показва винаги</string>
-    <string name="application_name">Пакет с услуги за достъпност на Android</string>
+    <string name="application_name">Достъпност на Android</string>
     <string name="arc_android_window">Прозорец на приложението</string>
     <string name="arc_navigation_hint">Натиснете клавиша за търсене и тези със стрелки, за да навигирате</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Натиснете „%1$s“, за да видите списъка с клавишните комбинации</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Заглъхването на аудиото е %1$s</string>
     <string name="auto_detect">Адаптиране спрямо ориентирането на устройството</string>
     <string name="auto_scan_action_description">Стартиране на сканирането и избиране</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">„Автоматично сканиране“ или „Избиране“</string>
     <string name="available_devices_header">Налични устройства с Bluetooth</string>
     <string name="basic_navigation_link_subtext">Придвижване между елементи, превъртане, използване на менюта и др.</string>
     <string name="basic_navigation_link_text">Основни положения при придвижване</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Няма сдвоени устройства с Bluetooth</string>
     <string name="bluetooth_not_enabled_message">За да сдвоите превключвател, включете Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Периферно устройство</string>
-    <string name="bluetooth_permissions_not_granted_message">За да сдвоите превключвател с Bluetooth в съветника за настройване, включете Bluetooth и предоставете достъп до устройствата в близост и разрешенията за достъп до местоположението на Пакета с услуги за достъпност на Android.</string>
+    <string name="bluetooth_permissions_not_granted_message">За да сдвоите превключвател с Bluetooth в съветника за настройване, включете Bluetooth и предоставете достъп до устройствата в близост и разрешенията за достъп до местоположението на „Достъпност на Android“.</string>
     <string name="bluetooth_phone_content_description">Телефон</string>
     <string name="bluetooth_switch_description_text">Безжично сдвояване на превключвател през Bluetooth</string>
     <string name="bluetooth_switch_option_text">Превключвател с Bluetooth</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">За да управлявате устройството си, първо трябва да включите „Достъп с превключване“.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Отваряне на „Жестове за превключване чрез камерата“</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Отваряне на „Достъп с превключване“</string>
+    <string name="cam_switches_combined_preferences_title">Настройки за „%1$s“</string>
+    <string name="cam_switches_preferences_title">Настройки за жестовете за превключване чрез камерата</string>
+    <string name="cam_switches_single_preferences_title">Настройки за „%s“</string>
     <string name="camera_switches_status_active">Превключвателите на камерата са активни</string>
     <string name="camera_switches_status_error">Грешка</string>
     <string name="camera_switches_status_no_face">Не е открито лице</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">Поставяне на пауза на жеста за превключване чрез камерата</string>
     <string name="default_action_name_point_scan">Точково сканиране</string>
     <string name="dialog_confirm_revert_to_default_menu">Потвърждаване</string>
-    <string name="dialog_do_not_disturb_permission_message">За да коригирате силата на звука от менюто на функцията „Достъп с превключване“, включете достъпа до режима „Не безпокойте“ за Пакет с услуги за достъпност на Android</string>
+    <string name="dialog_do_not_disturb_permission_message">За да коригирате силата на звука от менюто на функцията „Достъп с превключване“, включете достъпа до режима „Не безпокойте“ за „Достъпност на Android“</string>
     <string name="dialog_do_not_disturb_permission_title">Функцията „Достъп с превключване“ се нуждае от разрешение, за да коригира силата на звука</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Отваряне на настройките</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">За да работи функцията за жестове за превключване чрез камерата, трябва да бъдат изтеглени около 10 МБ допълнителни данни. В зависимост от скоростта на мрежата ви това би трябвало да отнеме около минута.</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
     <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="fast_radio_button_title">Бързо (забавяне от %1$s сек)</string>
+    <string name="fast_radio_button_title_content_description">Бързо (със закъснение от %1$s сек)</string>
     <string name="find_finish_button_text">Прекарайте пръст надясно, за да намерите бутона „Край“.</string>
     <string name="finish">Завършване</string>
     <string name="finish_tutorial_announcement">Показване на брайловата клавиатура. Обърнете телефона си така, че гърбът му да сочи към вас. След това го завъртете в хоризонтална позиция и започнете да въвеждате текст.</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d от %2$d</string>
     <string name="lockscreen_label">Заключен екран</string>
     <string name="medium_radio_button_title">Средно (забавяне от %1$s сек)</string>
+    <string name="medium_radio_button_title_content_description">Средно (със закъснение от %1$s сек)</string>
     <string name="menu_category_reading_controls">Четене</string>
     <string name="menu_category_special_features">Специални функции</string>
     <string name="menus_selector_text">"Тези клавишни комбинации могат да ви помогнат бързо да променяте настройките, като например да превключвате към навигиране по знаци или думи или да променяте скоростта на говора на TalkBack.
@@ -767,6 +772,7 @@
 Отворете го сега, като прекарате пръст надолу и след това надясно."</string>
     <string name="menus_title">Меню и контроли</string>
     <string name="message_in_reset_keymap_confirm_dialog">Наистина ли искате да възстановите стандартните стойности на клавишните комбинации за тази клавишна карта? Моля, обърнете внимание, че действието не може да бъде отменено.</string>
+    <string name="message_request_phone_permission">TalkBack иска да получава известие, когато се осъществява обаждане, така че услугата да може да намали прекъсващите съобщения.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Така ще се възстановят стандартните действия за всички жестове.
 
 Ще загубите всички направени от вас промени."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">Намаляване на забавянето при съобщаването на името на прозореца</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Добавяне на жестове за превключване чрез камерата</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Изчистване на физическите превключватели</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Конфигуриране на настройките за превключвателя: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Редактиране на жестовете за превключване чрез камерата</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Няма зададен жест за превключване чрез камерата</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Задаване на жестове за превключване чрез камерата за действието „%s“</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">Спиране на визуализацията</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Включване</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Жестовете за превключване чрез камерата трябва да са включени, за да използвате тази зона за тестване</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Изпробване: разгледайте всички типове жестове с лице, включително отворена уста, усмивка и т.н.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Изпробване</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Изпробване: разгледайте жестовете с лице от типа „%1$s“</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Зоната за тестване е поставена на пауза. За да я стартирате отново, използвайте бутона по-долу.</string>
     <string name="pref_selector_summary">%1$s, за да изберете настройка. След това %2$s за коригиране на настройката.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s или%2$s, за да изберете настройка. След това %3$s за коригиране на настройката.</string>
@@ -1069,6 +1076,7 @@
     <string name="reduce_speed_button">Намаляване на скоростта</string>
     <string name="remaining_calibration_finish_announcement">Всички позиции на точките са актуализирани</string>
     <string name="reminder_announcement">За повече опции прекарайте 3 пръста нагоре</string>
+    <string name="remove_assigned_switch">Премахване на задаването на превключвателя за %s</string>
     <string name="report_gesture_description">Ето наскоро използваните жестове. Моля, изберете грешния и посочете какъв очаквате да бъде.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Нулиране</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Нулиране</string>
@@ -1149,6 +1157,7 @@
     <string name="search_mode_hint_no_selection">Няма избран елемент.</string>
     <string name="search_mode_hint_query">Текуща заявка: „%1$s“.</string>
     <string name="search_mode_hint_selection">Текущ избор: %1$s.</string>
+    <string name="select_for_point_scan">„Избиране“</string>
     <string name="select_setting_hint">%1$s, за да изберете друга настройка</string>
     <string name="selecting_text_text">"В текстово поле преместете курсора в началото на съдържанието, което искате да изберете.
 
@@ -1209,6 +1218,7 @@
     <string name="shortcut_media_control">Пускане или пост. на пауза на мултимедия</string>
     <string name="shortcut_next">Следващ елемент</string>
     <string name="shortcut_next_granularity">Следваща настройка за навигиране</string>
+    <string name="shortcut_next_window">Следващ прозорец</string>
     <string name="shortcut_not_customizable">%1$s – не може да се персонализира</string>
     <string name="shortcut_notifications">Известия</string>
     <string name="shortcut_overview">Общ преглед</string>
@@ -1221,6 +1231,7 @@
     <string name="shortcut_practice_gestures">Упражняване на жестовете</string>
     <string name="shortcut_previous">Предишен елемент</string>
     <string name="shortcut_previous_granularity">Предишна настройка за навигиране</string>
+    <string name="shortcut_previous_window">Предишен прозорец</string>
     <string name="shortcut_print_node_tree">Отпечатване на дървото с възли</string>
     <string name="shortcut_print_performance_stats">Печат на статист. данни за ефективността</string>
     <string name="shortcut_quick_settings">Бързи настройки</string>
@@ -1260,6 +1271,7 @@
 • разтърсването за начало на четенето без прекъсване."</string>
     <string name="six_hold_announcement">Можете също да въвеждате текст, като поставите телефона си върху равна повърхност, като например маса. Изпробвайте сега. Ако наблизо няма равни повърхности, прекарайте пръст надолу, за да преминете напред.</string>
     <string name="slow_radio_button_title">Бавно (забавяне от %1$s сек)</string>
+    <string name="slow_radio_button_title_content_description">Бавно (със закъснение от %1$s сек)</string>
     <string name="sound_feedback_state">Звуковата обратна връзка е %1$s</string>
     <string name="sound_feedback_summary">Възпроизвеждане на аудио като знак за настъпила промяна (напр. съдържанието на екрана се е променило)</string>
     <string name="speak_container_element_position_summary_off">Позициите на списъчните и табличните елементи няма да бъдат изговаряни</string>
@@ -1333,17 +1345,17 @@
     <string name="summary_pref_face_switches_debounce_time">Многократните задействания на жест за превключване чрез камерата в рамките на този период от време ще се третират като едно задействане.</string>
     <string name="summary_pref_face_switches_enabled">Функцията за жестове за превключване чрез камерата използва предната камера, за да установи дали гледате в екрана и за разпознаване на жестове с лице. Изображенията не се съхраняват и не се изпращат до Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Възпроизвеждане на звук, когато нещо на екрана се промени след извършен жест</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Показване на визуален индикатор за продължителността на жестовете</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Екранът остава включен, когато функцията за жестове за превключване чрез камерата е активирана. Тя не може да се използва за отключване на екрана, ако е изключен.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Не е открито лице</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Извършете някой от жестовете с лице. Ако задействате жест, името му ще се покаже на екрана. За изход задръжте жест в продължение на %1$d секунди.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Дръжте главата си неподвижно с лице към камерата. След това %s.</string>
     <string name="summary_pref_play_store">Текуща версия на TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Използвайте движещите се линии, за да изберете конкретно хоризонтално и вертикално местоположение. Натиснете превключвателя с функция %1$s, за да стартирате точковото сканиране. %2$s</string>
     <string name="summary_pref_reverse_dots">Размяна на позициите на точките, например точка 1 и 4 да си сменят местата</string>
     <string name="summary_pref_revert_to_default_menu">Възстановяване на основния списък с елементи в менюто на „Достъп с превключване“.</string>
-    <string name="summary_pref_single_tap">(Експериментална функция) Докоснете веднъж елемент, върху който е поставен фокусът, за да активирате</string>
+    <string name="summary_pref_single_tap">Докоснете веднъж елемент, върху който е поставен фокусът, за да активирате</string>
     <string name="summary_pref_tree_debug_tv">Клавишът за гласово търсене ще се използва за отпечатване на дървото от възли вместо за търсене</string>
     <string name="summary_pref_use_audio_focus">Намаляване на силата на звука на другите аудиоизточници при говорене</string>
     <string name="summary_read_from_current">Четене на всички елементи на екрана, като се започва от следващия елемент</string>
@@ -1783,7 +1795,7 @@
     <string name="title_pref_category_assign_switches">Задаване на превключватели</string>
     <string name="title_pref_category_audio">Аудио</string>
     <string name="title_pref_category_auto_scan">Автоматично сканиране</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Автоматично сканиране (точково сканиране)</string>
     <string name="title_pref_category_border_color">Цвят</string>
     <string name="title_pref_category_built_in_gestures">Вградени жестове</string>
     <string name="title_pref_category_context_menu">Персонализиране на менюто на TalkBack</string>
@@ -1867,7 +1879,7 @@
     <string name="title_pref_red">червено</string>
     <string name="title_pref_resume_talkback">Възобновяване от спирането</string>
     <string name="title_pref_reverse_auto_scan_disabled">Обратно автоматично сканиране (деактивирано)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Обратно автоматично сканиране (точково сканиране)</string>
     <string name="title_pref_reverse_dots">Обръщане на точките</string>
     <string name="title_pref_revert_to_default_menu">Връщане към стандартното меню</string>
     <string name="title_pref_scan_non_actionable_items">Изговаряне на описателния текст</string>
@@ -1930,7 +1942,7 @@
     <string name="title_pref_show_context_menu_as_list">Контекстното меню като списък</string>
     <string name="title_pref_show_privacy_policy">Декларация за поверителност</string>
     <string name="title_pref_show_tos">Общи условия</string>
-    <string name="title_pref_single_tap">Активиране с едно докосване</string>
+    <string name="title_pref_single_tap">Докоснете един път, за да активирате</string>
     <string name="title_pref_sound_and_vibration">Звук и вибриране</string>
     <string name="title_pref_soundback">Звукова обратна връзка</string>
     <string name="title_pref_soundback_volume">Звук. обратна връзка: Сила на звука</string>
@@ -1975,6 +1987,7 @@
     <string name="title_previous_screen">Предишен екран</string>
     <string name="title_read_from_top">Четене от горната част</string>
     <string name="title_repeat_last_spoken_phrase">Повтаряне на последната фраза</string>
+    <string name="title_request_phone_permission">TalkBack изисква разрешение</string>
     <string name="title_screen_summary">Обобщение на екрана</string>
     <string name="title_seek_bar_controls">Плъзгач</string>
     <string name="title_seek_bar_edit">Редактиране на нивото на плъзгача</string>

@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ត្រូវតែ​ចាប់ផ្ដើម​ឧបករណ៍​របស់អ្នក​ឡើងវិញ ដើម្បីឱ្យ​ការផ្លាស់ប្ដូរ​នេះ​មានប្រសិទ្ធភាព។ ចាប់ផ្ដើមឡើងវិញ​ឥឡូវនេះ ឬ​បោះបង់​។</string>
     <string name="camera_hint">អូសចេញពីរូបតំណាងដើម្បីប្រើកាមេរ៉ា</string>
     <string name="camera_label">បើក​ម៉ាស៊ីន​ថត</string>
+    <string name="camera_recording_announcement">កាមេរ៉ាកំពុងថត</string>
+    <string name="camera_stopped_recording_announcement">កាមេរ៉ាបានឈប់ថត</string>
     <string name="cancel">បោះបង់</string>
     <string name="carrier_network_change_mode">បណ្តាញ​ក្រុមហ៊ុនសេវាទូរសព្ទ​កំពុងផ្លាស់ប្តូរ</string>
     <string name="category_personal">ផ្ទាល់ខ្លួន</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">តាមដាន</string>
     <string name="debug_networking_category">ការភ្ជាប់បណ្ដាញ</string>
     <string name="debug_view_attributes">បើក​ការ​ត្រួតពិនិត្យ​គុណ​លក្ខណៈ​ទិដ្ឋភាព</string>
+    <string name="defender_notify_des">ទូរសព្ទរបស់អ្នក​កំពុងដាក់កំហិតលើ​ការសាកថ្ម ដើម្បីជួយរក្សា​គុណភាពថ្ម</string>
+    <string name="defender_notify_learn_more">ស្វែងយល់បន្ថែម</string>
+    <string name="defender_notify_resume_charge">បន្តសាកថ្ម</string>
+    <string name="defender_notify_title">បានដាក់កំហិតលើ​ការសាកថ្មជា​បណ្ដោះអាសន្ន</string>
     <string name="delete_blob_confirmation_text">តើអ្នក​ប្រាកដថា​ចង់លុប​ទិន្នន័យ​ដែលបាន​ចែករំលែកនេះ​ដែរទេ?</string>
     <string name="delete_blob_text">លុបទិន្នន័យ​ដែលបាន​ចែករំលែក</string>
     <string name="demo_mode">មុខងារ​សាកល្បង​ UI ប្រព័ន្ធ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">កំពុង​ដោះ​សោ​ស៊ីមកាត...</string>
     <string name="keyguard_try_fingerprint">ប្រើស្នាមម្រាមដៃ ដើម្បីបើក</string>
     <string name="keyguard_unlock">អូសឡើងលើ​ដើម្បីបើក</string>
+    <string name="keyguard_unlock_press">ចុច ដើម្បីបើក</string>
     <string name="keywords_adb_wireless">adb, ជួសជុល, dev</string>
     <string name="keywords_alarms_and_reminders">កាលវិភាគ ម៉ោងរោទ៍ ការរំលឹក នាឡិកា</string>
     <string name="kg_enter_confirm_pin_hint">បញ្ជាក់​កូដ PIN ដែល​ចង់​បាន</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">កម្មវិធី​ប្តូរក្តារ​ចុច</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">មីក្រូហ្វូន​កំពុង​ដំណើរការ</string>
+    <string name="mic_and_camera_recording_announcement">កាមេរ៉ា និងមីក្រូហ្វូនកំពុងថត</string>
+    <string name="mic_camera_stopped_recording_announcement">កាមេរ៉ា និងមីក្រូហ្វូនបានឈប់ថត</string>
+    <string name="mic_recording_announcement">មីក្រូហ្វូនកំពុងថត</string>
+    <string name="mic_stopped_recording_announcement">មីក្រូហ្វូនបានឈប់ថត</string>
     <string name="missed_call">ខកខាន​ទទួល</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ទិន្នន័យ​ទូរសព្ទចល័ត</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">កម្មវិធីការងារ</string>
     <string name="quick_step_accessibility_toggle_overview">បិទ/បើក​ទិដ្ឋភាពរួម</string>
     <string name="recent_conversations">ការសន្ទនាថ្មីៗ</string>
-    <string name="recents_quick_scrub_onboarding">អូសទៅស្ដាំដើម្បីប្ដូរកម្មវិធីបានរហ័ស</string>
-    <string name="recents_swipe_up_onboarding">អូស​ឡើង​លើ​ដើម្បី​ប្តូរ​កម្មវិធី</string>
     <string name="remaining_length_format">នៅសល់ %1$s</string>
     <string name="remote_input_image_insertion_text">បាន​ផ្ញើរូបភាព</string>
     <string name="remove_from_settings">យកចេញពីការកំណត់</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">បញ្ចូល​កាត</string>
     <string name="wallet_secondary_label_updating">កំពុង​ធ្វើ​បច្ចុប្បន្នភាព</string>
     <string name="wallet_title">កាបូប</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ចំណុចចូលប្រើពេញជាបណ្តោះអាសន្ន</string>
     <string name="wifi_cant_connect">មិនអាច​ភ្ជាប់​បានទេ</string>
     <string name="wifi_cant_connect_to_ap">"មិនអាចភ្ជាប់ជាមួយ '%1$s' បានទេ"</string>

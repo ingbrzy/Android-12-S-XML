@@ -165,7 +165,7 @@ Kada je uključen način rada u avionu, WiFi, mobilne mreže i Bluetooth su iskl
     <string name="final_hold_description_text">Ovo može potrajati nekoliko minuta</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Pripremanje telefona…}TABLET{Pripremanje tableta…}other{Pripremanje uređaja…}}</string>
     <string name="final_hold_title_setup_work_account">Priprema telefona za postavljanje radnog profila…</string>
-    <string name="gesture_intro_description">Naučite pokrete za otvaranje Početnog ekrana, vraćanje i prebacivanje aplikacija</string>
+    <string name="gesture_intro_description">Naučite pokrete za otvaranje početnog ekrana, vraćanje i prebacivanje aplikacija</string>
     <string name="gesture_intro_skip_button">Preskoči</string>
     <string name="gesture_intro_start_button">Isprobajte</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Prevucite da navigirate telefonom}TABLET{Prevucite da navigirate tabletom}other{Prevucite da navigirate uređajem}}</string>
@@ -337,92 +337,71 @@ Uređaj nije dodijeljen"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Vaš račun je dodan na ovaj telefon}TABLET{Vaš račun je dodan na ovaj tablet}other{Vaš račun je dodan na ovaj uređaj}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Važno:</b>"
 
-"<ul><li>Vlasnik telefona može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil</li>"
+"<ul><li>Vlasnik telefona može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil.</li>"
 
-"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju</li>"
+"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju.</li>"
 
-"<li>Dijelite ovaj telefon samo s osobama kojima vjerujete</li></ul>}TABLET{<b>Važno:</b>"
+"<li>Ovaj telefon dijelite samo s osobama kojima vjerujete.</li></ul>"
+}TABLET{"<b>Važno:</b>"
 
-"<ul><li>Vlasnik Tableta može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil</li>"
+"<ul><li>Vlasnik tableta može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil.</li>"
 
-"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju</li>"
+"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju.</li>"
 
-"<li>Dijelite ovaj tablet samo s osobama kojima vjerujete</li></ul>}other{<b>Važno:</b>"
+"<li>Ovaj tablet dijelite samo s osobama kojima vjerujete.</li></ul>"
+}other{"<b>Važno:</b>"
 
-"<ul><li>Vlasnik uređaja može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil</li>"
+"<ul><li>Vlasnik uređaja može deinstalirati vaše aplikacije ili u potpunosti ukloniti vaš korisnički profil.</li>"
 
-"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju</li>"
+"<li>Svi korisnici mogu prihvatiti ažurirana odobrenja za aplikaciju.</li>"
 
-"<li>Dijelite ovaj uređaj samo s osobama kojima vjerujete</li></ul>}}</string>
+"<li>Ovaj uređaj dijelite samo s osobama kojima vjerujete.</li></ul>}}</string>
     <string name="welcome_start_button_label">Započni</string>
     <string name="wifi_add_new_network">Dodajte novu mrežu</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite telefon.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
 "<li>prijava na Google račun</li>"
-
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>ažuriranje softvera</li>"
-
-"<li>automatsko postavljanje vremena i datuma</li>"}TABLET{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite tablet.
+"<li>automatsko postavljanje vremena i datuma</li>"
+}TABLET{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite tablet.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
-"<li>arijava na Google račun</li>"
-
+"<li>prijava na Google račun</li>"
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>ažuriranje softvera</li>"
-
-"<li>automatsko postavljanje vremena i datuma</li>"}other{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite uređaj.
+"<li>automatsko postavljanje vremena i datuma</li>"
+}other{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite uređaj.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
 "<li>prijava na Google račun</li>"
-
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>ažuriranje softvera</li>"
-
 "<li>automatsko postavljanje vremena i datuma</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite svoj telefon.
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite telefon.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
 "<li>prijava na Google račun</li>"
-
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>preuzimanje SIM-a</li>"
-
-"<li>preuzimanje ažuriranja softvera</li>"
-
-"<li>automatsko postavljanje vremena i datuma</li>"}TABLET{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite svoj tablet.
+"<li>ažuriranje softvera</li>"
+"<li>automatsko postavljanje vremena i datuma</li>"
+}TABLET{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite tablet.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
 "<li>prijava na Google račun</li>"
-
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>preuzimanje SIM-a</li>"
-
-"<li>preuzimanje ažuriranja softvera</li>"
-
-"<li>automatsko postavljanje vremena i datuma</li>"}other{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite svoj uređaj.
+"<li>ažuriranje softvera</li>"
+"<li>automatsko postavljanje vremena i datuma</li>"
+}other{Povezivanje s WiFi ili mobilnom mrežom vam pomaže da brzo postavite uređaj.
 
 Bez povezanosti s mrežom nije moguće sljedeće:
-
 "<li>prijava na Google račun</li>"
-
 "<li>vraćanje aplikacija i podataka</li>"
-
 "<li>preuzimanje SIM-a</li>"
-
-"<li>preuzimanje ažuriranja softvera</li>"
-
+"<li>ažuriranje softvera</li>"
 "<li>automatsko postavljanje vremena i datuma</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pristupna tačka je privremeno puna</string>
     <string name="wifi_check_password_try_again">Provjerite lozinku i pokušajte ponovo</string>

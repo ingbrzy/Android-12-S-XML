@@ -597,6 +597,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">[Ýöûŕ ðéVîçé ḿûšţ ɓé ŕéɓööţéð ƒöŕ ţĥîš çĥåñĝé ţö åþþļý. Ŕéɓööţ ñöŵ öŕ çåñçéļ. one two three four five six seven eight]</string>
     <string name="camera_hint">[Šŵîþé ƒŕöḿ îçöñ ƒöŕ çåḿéŕå one two three four]</string>
     <string name="camera_label">[öþéñ çåḿéŕå one two]</string>
+    <string name="camera_recording_announcement">[Çåḿéŕå îš ŕéçöŕðîñĝ one two three]</string>
+    <string name="camera_stopped_recording_announcement">[Çåḿéŕå šţöþþéð ŕéçöŕðîñĝ one two three]</string>
     <string name="cancel">[Çåñçéļ one two]</string>
     <string name="carrier_network_change_mode">[Çåŕŕîéŕ ñéţŵöŕķ çĥåñĝîñĝ one two three]</string>
     <string name="category_personal">[Þéŕšöñåļ one two]</string>
@@ -738,6 +740,10 @@
     <string name="debug_monitoring_category">[Ḿöñîţöŕîñĝ one two]</string>
     <string name="debug_networking_category">[Ñéţŵöŕķîñĝ one two]</string>
     <string name="debug_view_attributes">[Éñåɓļé Vîéŵ åţţŕîɓûţé îñšþéçţîöñ one two three four]</string>
+    <string name="defender_notify_des">[Ýöûŕ þĥöñé îš ļîḿîţîñĝ çĥåŕĝîñĝ ţö ĥéļþ þŕéšéŕVé ɓåţţéŕý ĥéåļţĥ one two three four five six seven]</string>
+    <string name="defender_notify_learn_more">[Ļéåŕñ ḿöŕé one two]</string>
+    <string name="defender_notify_resume_charge">[Ŕéšûḿé çĥåŕĝîñĝ one two three]</string>
+    <string name="defender_notify_title">[Çĥåŕĝîñĝ ţéḿþöŕåŕîļý ļîḿîţéð one two three four]</string>
     <string name="delete_blob_confirmation_text">[Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš šĥåŕéð ðåţå¿ one two three four five six]</string>
     <string name="delete_blob_text">[Ðéļéţé šĥåŕéð ðåţå one two three]</string>
     <string name="demo_mode">[Šýšţéḿ ÛÎ ðéḿö ḿöðé one two three]</string>
@@ -1074,6 +1080,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">[Ûñļöçķîñĝ ŠÎḾ çåŕð… one two three]</string>
     <string name="keyguard_try_fingerprint">[Ûšé ƒîñĝéŕþŕîñţ ţö öþéñ one two three]</string>
     <string name="keyguard_unlock">[Šŵîþé ûþ ţö öþéñ one two three]</string>
+    <string name="keyguard_unlock_press">[Þŕéšš ţö öþéñ one two]</string>
     <string name="keywords_adb_wireless">[åðɓ, ðéɓûĝ, ðéV one two three]</string>
     <string name="keywords_alarms_and_reminders">[šçĥéðûļé, åļåŕḿ, ŕéḿîñðéŕ, çļöçķ one two three four]</string>
     <string name="kg_enter_confirm_pin_hint">[Çöñƒîŕḿ ðéšîŕéð ÞÎÑ çöðé one two three]</string>
@@ -1239,6 +1246,10 @@
     <string name="menu_ime">[Ķéýɓöåŕð šŵîţçĥéŕ one two three]</string>
     <string name="messages_count_overflow_indicator">[%d+ one]</string>
     <string name="mic_active">[Ḿîçŕöþĥöñé ÅçţîVé one two three]</string>
+    <string name="mic_and_camera_recording_announcement">[Çåḿéŕå åñð Ḿîçŕöþĥöñé åŕé ŕéçöŕðîñĝ one two three four]</string>
+    <string name="mic_camera_stopped_recording_announcement">[Çåḿéŕå åñð Ḿîçŕöþĥöñé šţöþþéð ŕéçöŕðîñĝ one two three four five]</string>
+    <string name="mic_recording_announcement">[Ḿîçŕöþĥöñé îš ŕéçöŕðîñĝ one two three]</string>
+    <string name="mic_stopped_recording_announcement">[Ḿîçŕöþĥöñé šţöþþéð ŕéçöŕðîñĝ one two three four]</string>
     <string name="missed_call">[Ḿîššéð çåļļ one two]</string>
     <string name="mland">[Ḿåŕšĥḿåļļöŵ Ļåñð one two three]</string>
     <string name="mobile_carrier_text_format">[%1$s, %2$s one]</string>
@@ -1715,8 +1726,6 @@ Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñ.
     <string name="quick_settings_work_mode_label">[Ŵöŕķ åþþš one two]</string>
     <string name="quick_step_accessibility_toggle_overview">[Ţöĝĝļé ÖVéŕVîéŵ one two three]</string>
     <string name="recent_conversations">[Ŕéçéñţ çöñVéŕšåţîöñš one two three]</string>
-    <string name="recents_quick_scrub_onboarding">[Ðŕåĝ ŕîĝĥţ ţö Qûîçķļý šŵîţçĥ åþþš one two three four]</string>
-    <string name="recents_swipe_up_onboarding">[Šŵîþé ûþ ţö šŵîţçĥ åþþš one two three]</string>
     <string name="regrettable_lack_of_easter_egg">[¯\\_(ツ)_/¯ one two]</string>
     <string name="remaining_length_format">[%1$s ļéƒţ one]</string>
     <string name="remote_input_image_insertion_text">[šéñţ åñ îḿåĝé one two]</string>
@@ -2128,6 +2137,7 @@ Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñ.
     <string name="wallet_secondary_label_no_card">[Åðð å çåŕð one two]</string>
     <string name="wallet_secondary_label_updating">[Ûþðåţîñĝ one two]</string>
     <string name="wallet_title">[Ŵåļļéţ one two]</string>
+    <string name="weather_description">[%1$s, %2$s one]</string>
     <string name="wifi_ap_unable_to_handle_new_sta">[Åççéšš þöîñţ ţéḿþöŕåŕîļý ƒûļļ one two three four]</string>
     <string name="wifi_cant_connect">"[Çåñ'ţ çöññéçţ one two]"</string>
     <string name="wifi_cant_connect_to_ap">[%1$s]</string>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">언어 및 입력</string>
     <string name="lift_to_wake_title">기기를 들어 대기 모드 해제</string>
-    <string name="lockdown_settings_summary">잠금 화면에 Smart Lock, 얼굴 인식 잠금 해제, 지문 잠금 해제, 알림을 사용 중지하는 전원 버튼 옵션 표시</string>
-    <string name="lockdown_settings_title">잠금 옵션 표시</string>
+    <string name="abc_action_bar_home_description">홈으로 이동</string>
+    <string name="abc_action_bar_up_description">위로 이동</string>
     <string name="locked_work_profile_notification_title">직장 프로필이 잠긴 경우</string>
     <string name="lockscreen_bypass_summary">잠금 해제 후 최근 사용한 화면으로 바로 이동</string>
     <string name="lockscreen_bypass_title">잠금 화면 건너뛰기</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">직장 알림</string>
     <string name="reset_dashboard_summary">네트워크, 앱, 기기를 재설정할 수 있음</string>
     <string name="reset_dashboard_title">옵션 초기화</string>
-    <string name="abc_action_bar_home_description">홈으로 이동</string>
+    <string name="abc_action_menu_overflow_description">추가 옵션</string>
     <string name="screensaver_settings_title">화면 보호기</string>
     <string name="screen_timeout">화면 자동 잠금 시간</string>
     <string name="screen_zoom_title">디스플레이 크기</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">일부 콘텐츠의 새로고침 빈도를 자동으로 60Hz에서 90Hz로 늘립니다. 이렇게 하면 배터리 사용량이 증가합니다.</string>
     <string name="accessibility_vibration_settings_title">진동 및 햅틱</string>
     <string name="emergency_gesture_screen_title">긴급 SOS</string>
-    <string name="abc_action_bar_up_description">위로 이동</string>
+    <string name="abc_action_mode_done">완료</string>
     <string name="vibrate_for_calls_category_title">전화</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">월렛 표시</string>
     <string name="lockscreen_privacy_controls_setting_toggle">기기 제어 표시</string>
     <string name="lockscreen_privacy_wallet_summary">잠금 화면 및 빠른 설정에서 월렛 액세스 허용</string>
     <string name="lockscreen_privacy_controls_summary">잠금 상태일 때 제어 기능에 액세스</string>
-    <string name="abc_action_menu_overflow_description">추가 옵션</string>
-    <string name="abc_action_mode_done">완료</string>
     <string name="abc_activity_chooser_view_see_all">전체 보기</string>
     <string name="abc_activitychooserview_choose_application">앱 선택</string>
     <string name="abc_capital_off">사용 중지</string>
@@ -948,7 +946,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="battery_saver_auto_percentage">백분율 기준</string>
     <string name="battery_saver_auto_percentage_summary">%1$s 도달 시 사용 설정</string>
     <string name="battery_saver_auto_routine">사용 습관 기준</string>
-    <string name="battery_saver_auto_routine_summary">배터리가 평소의 다음 충전 시간까지 버티지 못할 가능성이 큰 경우 절전 모드가 켜집니다.</string>
+    <string name="battery_saver_auto_routine_summary">배터리가 평소의 다음 충전 시간까지 버티지 못할 가능성이 큰 경우 절전 모드가 사용 설정됩니다.</string>
     <string name="battery_saver_auto_title">자동으로 사용 설정</string>
     <string name="battery_saver_button_turn_off">지금 끄기</string>
     <string name="battery_saver_button_turn_on">지금 켜기</string>
@@ -958,7 +956,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="battery_saver_off_scheduled_summary">%1$s 도달 시 사용 설정</string>
     <string name="battery_saver_off_summary">사용 안함</string>
     <string name="battery_saver_on_summary">사용</string>
-    <string name="battery_saver_pref_auto_routine_summary">루틴에 따라 사용 설정</string>
+    <string name="battery_saver_pref_auto_routine_summary">사용 습관 기준에 따라 사용 설정</string>
     <string name="battery_saver_schedule_settings_title">일정 설정</string>
     <string name="battery_saver_seekbar_title_placeholder">사용 설정</string>
     <string name="battery_saver_sticky_description_new">휴대전화가 ^1% 이상 충전되면 절전 기능을 사용 중지합니다.</string>
@@ -1003,7 +1001,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
 
 배터리가 부족하면 언제든지 절전 모드를 사용 설정하세요."</string>
     <string name="battery_tip_early_heads_up_done_summary">일부 기능이 제한될 수 있습니다.</string>
-    <string name="battery_tip_early_heads_up_done_title">절전 기능 사용 중</string>
+    <string name="battery_tip_early_heads_up_done_title">절전 모드 사용 중</string>
     <string name="battery_tip_early_heads_up_summary">배터리가 평소보다 빨리 소진될 수 있습니다.</string>
     <string name="battery_tip_early_heads_up_title">절전 모드 사용 설정</string>
     <string name="battery_tip_high_usage_summary">배터리 사용량이 가장 높은 앱을 확인하세요</string>
@@ -2787,7 +2785,7 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="keywords_profile_challenge">직장 보안 확인, 직장, 프로필</string>
     <string name="keywords_reduce_bright_colors">광과민성, 광선공포증, 어두운 테마, 편두통, 두통, 읽기 모드, 야간 모드, 밝기 낮추기, 화이트 포인트</string>
     <string name="keywords_reset_apps">재설정, 환경설정, 기본값</string>
-    <string name="keywords_reverse_charging_stop_threshold">배터리 공유를 중지할 휴대전화 배터리 수준:</string>
+    <string name="keywords_reverse_charging_stop_threshold">배터리 공유를 중지할 휴대전화 배터리 잔량:</string>
     <string name="keywords_rtt">난청, 청력 손실, 캡션, 텔레타이프, tty</string>
     <string name="keywords_select_to_speak">텍스트 듣기, 소리 내 읽기, 화면 읽기, 스크린 리더</string>
     <string name="keywords_sim_status">네트워크, 모바일 네트워크 상태, 서비스 상태, 신호 강도, 모바일 네트워크 유형, 로밍, ICCID, EID</string>
@@ -3120,7 +3118,7 @@ PIN을 사용하면 휴대전화를 분실하거나 도난당했을 때 휴대�
     <string name="lost_internet_access_switch">모바일로 전환</string>
     <string name="lost_internet_access_text">Wi-Fi 연결 상태가 좋지 않다면 언제든지 모바일 네트워크로 전환할 수 있습니다. 데이터 사용 요금이 부과될 수도 있습니다.</string>
     <string name="lost_internet_access_title">Wi‑Fi가 인터넷에 연결되어 있지 않음</string>
-    <string name="low_battery_summary">배터리 전원 부족</string>
+    <string name="low_battery_summary">배터리 잔량 부족</string>
     <string name="low_label">낮음</string>
     <string name="low_storage_summary">저장용량 부족. %1$s 사용 중 - %2$s 사용 가능</string>
     <string name="mah">%dmAh</string>
@@ -3184,7 +3182,7 @@ PIN을 사용하면 휴대전화를 분실하거나 도난당했을 때 휴대�
     <string name="manager_battery_usage_optimized_summary">사용량을 바탕으로 최적화합니다. 대부분의 앱에 권장됩니다.</string>
     <string name="manager_battery_usage_optimized_title">최적화</string>
     <string name="manager_battery_usage_restricted_summary">백그라운드에서의 배터리 사용을 제한합니다. 앱이 정상적으로 작동하지 않을 수 있습니다. 알림이 지연될 수도 있습니다.</string>
-    <string name="manager_battery_usage_restricted_title">배터리 사용 제한</string>
+    <string name="manager_battery_usage_restricted_title">제한됨</string>
     <string name="manager_battery_usage_unrestricted_only">제한 없음</string>
     <string name="manager_battery_usage_unrestricted_summary">백그라운드에서 배터리 사용을 제한하지 않습니다. 배터리 사용량이 증가할 수 있습니다.</string>
     <string name="manager_battery_usage_unrestricted_title">제한 없음</string>
@@ -4124,12 +4122,12 @@ PIN을 사용하면 휴대전화를 분실하거나 도난당했을 때 휴대�
     <string name="reverse_charging_is_off_summary">꺼짐</string>
     <string name="reverse_charging_is_on_and_charging_summary">배터리 공유 및 충전 중</string>
     <string name="reverse_charging_is_on_and_discharging_summary">배터리 공유 중</string>
-    <string name="reverse_charging_is_on_summary">켜짐 / 다른 기기 충전</string>
+    <string name="reverse_charging_is_on_summary">사용 / 다른 기기 충전</string>
     <string name="reverse_charging_main_switch">배터리 공유 허용</string>
     <string name="reverse_charging_off_low_battery_summary">꺼짐 / 휴대전화 배터리 %1$s 미만</string>
     <string name="reverse_charging_off_sharing_level_summary">꺼짐 / 공유 가능한 배터리 잔량 미만</string>
     <string name="reverse_charging_overheat_summary">Pixel 온도가 너무 높아 사용할 수 없습니다. 열이 식을 때까지 기다린 후 다시 시도해 보세요.</string>
-    <string name="reverse_charging_power_save_mode_is_on_message">절전 모드가 켜져 있으므로 사용할 수 없음</string>
+    <string name="reverse_charging_power_save_mode_is_on_message">절전 모드를 사용 중이므로 사용할 수 없음</string>
     <string name="reverse_charging_sharing_level_message">배터리가 공유 가능한 잔량 미만이므로 사용할 수 없음</string>
     <string name="reverse_charging_switch_summary">기기를 Pixel 뒷면에 올려놓아 충전</string>
     <string name="reverse_charging_switch_title">Pixel 뒷면에 다른 기기를 올려놓아 충전하세요.</string>

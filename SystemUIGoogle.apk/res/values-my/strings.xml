@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ဤအပြောင်းအလဲ ထည့်သွင်းရန် သင့်စက်ကို ပြန်လည်စတင်ရမည်။ ယခု ပြန်လည်စတင်ပါ သို့မဟုတ် ပယ်ဖျက်ပါ။</string>
     <string name="camera_hint">ကင်မရာအတွက် သင်္ကေတပုံအား ပွတ်ဆွဲပါ</string>
     <string name="camera_label">ကင်မရာ ဖွင့်ရန်</string>
+    <string name="camera_recording_announcement">ကင်မရာ မှတ်တမ်းတင်နေသည်</string>
+    <string name="camera_stopped_recording_announcement">ကင်မရာ မှတ်တမ်းတင်ခြင်းကို ရပ်ထားသည်</string>
     <string name="cancel">မလုပ်တော့</string>
     <string name="carrier_network_change_mode">ဝန်ဆောင်မှုပေးသူ ကွန်ရက် ပြောင်းလဲနေသည်။</string>
     <string name="category_personal">ကိုယ်ရေး</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">စောင့်ကြည့်စစ်ဆေးခြင်း</string>
     <string name="debug_networking_category">ချိတ်ဆက်ဆောင်ရွက်ခြင်း</string>
     <string name="debug_view_attributes">ရည်ညွှန်းချက်စိစစ်ခြင်း မြင်ကွင်း</string>
+    <string name="defender_notify_des">ဘက်ထရီအခြေအနေ ထိန်းသိမ်းနိုင်ရန် သင့်ဖုန်းက အားသွင်းခြင်းကို ကန့်သတ်ထားသည်</string>
+    <string name="defender_notify_learn_more">ပိုမိုလေ့လာရန်</string>
+    <string name="defender_notify_resume_charge">ဆက်အားသွင်းရန်</string>
+    <string name="defender_notify_title">အားသွင်းခြင်းကို လောလောဆယ် ကန့်သတ်ထားသည်</string>
     <string name="delete_blob_confirmation_text">ဤမျှဝေထားသောဒေတာကို ဖျက်လိုသည်မှာ သေချာသလား။</string>
     <string name="delete_blob_text">မျှဝေထားသော ဒေတာကို ဖျက်ရန်</string>
     <string name="demo_mode">စနစ် UI စရုပ်ပြမုဒ်</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">ဆင်းမ်ကဒ်ကို လော့ခ်ဖွင့်နေပါသည်…</string>
     <string name="keyguard_try_fingerprint">ဖွင့်ရန် လက်ဗွေကို သုံးပါ</string>
     <string name="keyguard_unlock">ဖွင့်ရန် အပေါ်သို့ပွတ်ဆွဲပါ</string>
+    <string name="keyguard_unlock_press">ဖွင့်ရန် နှိပ်ပါ</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">အချိန်ဇယား၊ နှိုးစက်၊ သတိပေးချက်၊ နာရီ</string>
     <string name="kg_enter_confirm_pin_hint">မိမိလိုလားသော ပင်နံပါတ်ကို အတည်ပြုပါ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">ကီးဘုတ် ပြောင်းလဲပေးသည့်စနစ်</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">မိုက်ခရိုဖုန်း ဖွင့်ထားသည်</string>
+    <string name="mic_and_camera_recording_announcement">ကင်မရာနှင့် မိုက်ခရိုဖုန်းက မှတ်တမ်းတင်နေသည်</string>
+    <string name="mic_camera_stopped_recording_announcement">ကင်မရာနှင့် မိုက်ခရိုဖုန်းက မှတ်တမ်းတင်ခြင်းကို ရပ်ထားသည်</string>
+    <string name="mic_recording_announcement">မိုက်ခရိုဖုန်း မှတ်တမ်းတင်နေသည်</string>
+    <string name="mic_stopped_recording_announcement">မိုက်ခရိုဖုန်း မှတ်တမ်းတင်ခြင်းကို ရပ်ထားသည်</string>
     <string name="missed_call">လွတ်သွားသောခေါ်ဆိုမှု</string>
     <string name="mobile_carrier_text_format">%1$s၊ %2$s</string>
     <string name="mobile_data">မိုဘိုင်းဒေတာ</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">အလုပ်သုံးအက်ပ်များ</string>
     <string name="quick_step_accessibility_toggle_overview">ဖွင့်၊ ပိတ် အနှစ်ချုပ်</string>
     <string name="recent_conversations">မကြာသေးမီက စကားဝိုင်းများ</string>
-    <string name="recents_quick_scrub_onboarding">အက်ပ်များကို ပြောင်းရန် ညာဘက်သို့ ဖိဆွဲပါ</string>
-    <string name="recents_swipe_up_onboarding">အက်ပ်များကို ဖွင့်ရန် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
     <string name="remaining_length_format">%1$s ကျန်</string>
     <string name="remote_input_image_insertion_text">ပုံပို့ထားသည်</string>
     <string name="remove_from_settings">ဆက်တင် အထဲမှ ဖယ်ရှားရန်</string>
@@ -2117,6 +2126,7 @@ USB ပို့တ်ကို ပြန်အသုံးပြုနိုင
     <string name="wallet_secondary_label_no_card">ကတ်ထည့်ရန်</string>
     <string name="wallet_secondary_label_updating">အပ်ဒိတ်လုပ်နေပါသည်</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s၊ %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ကွန်ရက်ချိတ်ဆက်မှု ယာယီပြည့်နေသည်</string>
     <string name="wifi_cant_connect">ချိတ်ဆက်၍ မရပါ</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' နှင့် ချိတ်ဆက်၍ မရပါ"</string>
@@ -2146,7 +2156,7 @@ Wi‑Fi လိပ်စာ (BSSID)
     <string name="wifi_fail_to_scan">ကွန်ယက်များကို စကင်မလုပ်နိုင်ပါ</string>
     <string name="wifi_hotspot_switch_off_text">ပိတ်</string>
     <string name="wifi_hotspot_switch_on_text">ဖွင့်</string>
-    <string name="wifi_is_off">Wi-Fi ကို ပိတ်ထားသည်</string>
+    <string name="wifi_is_off">Wi-Fi ပိတ်ထားသည်</string>
     <string name="wifi_limited_connection">ချိတ်ဆက်မှု ကန့်သတ်ထားသည်</string>
     <string name="wifi_metered_label">အခမဲ့ မဟုတ်ပါ</string>
     <string name="wifi_no_internet">အင်တာနက် ချိတ်ဆက်မှု မရှိပါ</string>

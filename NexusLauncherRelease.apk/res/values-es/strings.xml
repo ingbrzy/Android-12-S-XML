@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Añadir a la carpeta con %1$s</string>
     <string name="add_to_home_screen">Añadir a la pantalla de inicio</string>
     <string name="added_to_folder">Elemento añadido a carpeta</string>
+    <string name="added_to_home_screen_accessibility_text">Widget %1$s añadido a la pantalla de inicio</string>
     <string name="all_apps_button_label">Lista de aplicaciones</string>
     <string name="all_apps_button_personal_label">Lista de aplicaciones personales</string>
     <string name="all_apps_button_work_label">Lista de aplicaciones del trabajo</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Al girar el teléfono</string>
     <string name="allow_rotation_title">Permitir rotación de la pantalla de inicio</string>
     <string name="allset_description">Ya puedes empezar a usar tu teléfono</string>
+    <string name="allset_hint">Desliza el dedo hacia arriba para ir a la pantalla de inicio</string>
+    <string name="allset_navigation_settings"><annotation id="link">Ajustes de navegación del sistema</annotation></string>
     <string name="allset_title">¡Ya está!</string>
     <string name="app_downloading_title">Descargando %1$s (%2$s completado)</string>
     <string name="app_info_drop_target_label">Información de la aplicación</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">Esperando para instalar %1$s</string>
     <string name="auto_add_shortcuts_description">Añade el icono de una aplicación nueva instalada a la pantalla de inicio</string>
     <string name="auto_add_shortcuts_label">Añadir aplicaciones a la pantalla de inicio</string>
+    <string name="back_gesture_feedback_cancelled">Desliza el dedo desde el borde derecho o izquierdo de la pantalla hasta el centro y luego levántalo.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Ya sabes deslizar el dedo desde la derecha para ir atrás. Descubre ahora cómo cambiar de aplicación.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Has completado el gesto para volver.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">No deslices el dedo demasiado cerca de la parte inferior de la pantalla.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Desliza el dedo desde el borde derecho o izquierdo de la pantalla.</string>
     <string name="back_gesture_intro_subtitle">Para volver a la última pantalla, desliza el dedo desde un lateral de la pantalla hasta el centro.</string>
     <string name="back_gesture_intro_title">Desliza el dedo para volver</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Para cambiar la sensibilidad del gesto, ve a Ajustes</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Toca para guardar el nuevo nombre</string>
     <string name="gadget_error_text">No se puede cargar el widget</string>
     <string name="gadget_setup_text">Toca para finalizar la configuración</string>
+    <string name="gesture_tutorial_action_button_label">Hecho</string>
     <string name="gesture_tutorial_action_button_label_cancel">Cancelar</string>
     <string name="gesture_tutorial_action_button_label_settings">Ajustes</string>
     <string name="gesture_tutorial_action_button_label_skip">Saltar</string>
@@ -159,7 +165,7 @@
     <string name="hotseat_edu_message_migrate_landscape">Accede fácilmente a las aplicaciones que más usas desde la pantalla de inicio. Las sugerencias cambiarán según tus hábitos. Las aplicaciones de la fila de aplicaciones favoritas se moverán a la pantalla de inicio.</string>
     <string name="hotseat_edu_title_migrate">Obtén sugerencias de aplicaciones en la fila inferior de la pantalla de inicio</string>
     <string name="hotseat_edu_title_migrate_landscape">Recibe sugerencias de aplicaciones en la fila de aplicaciones favoritas de la pantalla de inicio</string>
-    <string name="hotseat_hint_qsb">Busca aplicaciones, webs y más…</string>
+    <string name="hotseat_hint_qsb">Buscar en aplicaciones, la Web, etc.</string>
     <string name="hotseat_out_of_space">La bandeja de favoritos está completa</string>
     <string name="hotseat_prediction_content_description">Aplicación sugerida: %1$s</string>
     <string name="hotseat_prediction_settings">Ajustes</string>
@@ -172,7 +178,7 @@
     <string name="item_moved">Elemento movido</string>
     <string name="item_removed">Elemento eliminado</string>
     <string name="keyboard_hide">Ocultar siempre</string>
-    <string name="keyboard_show">Mostrar siempre</string>
+    <string name="keyboard_show">Mostrar siempre el teclado</string>
     <string name="label_application">Aplicación</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_search">Buscar</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Prueba a mantener pulsada la ventana durante más tiempo antes de soltarla.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Desliza el dedo hacia arriba desde el borde inferior de la pantalla.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Desliza el dedo directamente hacia arriba y luego mantenlo pulsado.</string>
+    <string name="overview_gesture_intro_subtitle">Para cambiar de app, desliza el dedo hacia arriba desde el borde inferior y no lo levantes enseguida.</string>
     <string name="overview_gesture_intro_title">Deslizar el dedo para cambiar de aplicación</string>
     <string name="overview_selection_pref_desc">Al cambiar de aplicación, mantén pulsado el texto y las imágenes para ver las acciones</string>
     <string name="overview_selection_pref_title">Selección de aplicaciones recientes</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Asiento</string>
     <string name="smartspace_hours_mins">%1$s y %2$s</string>
     <string name="smartspace_preferences">Preferencias</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">De un vistazo</string>
     <string name="smartspace_preferences_in_settings_desc">En la parte superior de la pantalla de inicio</string>
     <string name="smartspace_preferences_manage">Personalizar</string>
     <string name="smartspace_preferences_turn_off_action">Desactivar</string>

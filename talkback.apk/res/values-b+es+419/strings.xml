@@ -60,7 +60,7 @@
 Descubre más sobre otros temas a continuación o revisa esta información cuando quieras desde la configuración de TalkBack."</string>
     <string name="all_set_title">Todo listo</string>
     <string name="always_show_this_message_label">Mostrar siempre este mensaje</string>
-    <string name="application_name">Kit de Accesibilidad Android</string>
+    <string name="application_name">Suite de Accesibilidad Android</string>
     <string name="arc_android_window">Ventana de la aplicación</string>
     <string name="arc_navigation_hint">Presiona la tecla de búsqueda y las flechas para navegar</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Presiona %1$s para ver la lista de combinaciones de teclas</string>
@@ -78,7 +78,7 @@ Descubre más sobre otros temas a continuación o revisa esta información cuand
     <string name="audio_focus_state">Autosilenciado de fondo %1$s</string>
     <string name="auto_detect">Adaptar a cómo sostienes el dispositivo</string>
     <string name="auto_scan_action_description">Inicia la búsqueda y selecciona elementos</string>
-    <string name="auto_scan_or_select">\"Búsqueda automática\" o \"Seleccionar\"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Búsqueda automática\" o \"Seleccionar\"</string>
     <string name="available_devices_header">Dispositivos Bluetooth disponibles</string>
     <string name="basic_navigation_link_subtext">Muévete entre los elementos, desplázate, utiliza menús y mucho más</string>
     <string name="basic_navigation_link_text">Navegación básica</string>
@@ -130,6 +130,9 @@ Descubre más sobre otros temas a continuación o revisa esta información cuand
     <string name="cam_switch_enable_banner_text_label_generic">Para controlar el dispositivo, primero debes activar la Accesibilidad con interruptores.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Abrir botones de cámara</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Abrir Accesibilidad con interruptores</string>
+    <string name="cam_switches_combined_preferences_title">Configuración de \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Configuración de los botones de cámara</string>
+    <string name="cam_switches_single_preferences_title">Configuración de \"%s\"</string>
     <string name="camera_switches_status_active">Interruptores de cámara activos</string>
     <string name="camera_switches_status_error">Error</string>
     <string name="camera_switches_status_no_face">No se detectó ningún rostro</string>
@@ -216,7 +219,7 @@ Prueba pegar una palabra en el cuadro de texto que se encuentra más abajo."</st
     <string name="default_action_name_pause">Pausar botón de cámara</string>
     <string name="default_action_name_point_scan">Búsqueda puntual</string>
     <string name="dialog_confirm_revert_to_default_menu">Confirmar</string>
-    <string name="dialog_do_not_disturb_permission_message">Para ajustar el volumen desde el menú de Accesibilidad con interruptores, activa el acceso al modo No interrumpir para el Kit de Accesibilidad Android</string>
+    <string name="dialog_do_not_disturb_permission_message">Para ajustar el volumen desde el menú de Accesibilidad con interruptores, activa el acceso al modo No interrumpir para la Suite de Accesibilidad Android</string>
     <string name="dialog_do_not_disturb_permission_title">Accesibilidad con interruptores necesita permiso para ajustar el volumen</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Abrir configuración</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Para funcionar, los botones de cámara necesitan descargar aproximadamente 10 MB de datos adicionales. Debería tardar alrededor de un minuto, según la velocidad de la red.</string>
@@ -348,6 +351,7 @@ Pruébalo ahora. Toca la pantalla y arrastra el dedo hacia la esquina inferior i
     <string name="face_switch_name_smiling_summary">Sonríe y, luego, relaja el rostro</string>
     <string name="face_switch_option_text">Botón de cámara</string>
     <string name="fast_radio_button_title">Rápida (demora de %1$s)</string>
+    <string name="fast_radio_button_title_content_description">Rápido (%1$s segundos de retraso)</string>
     <string name="find_finish_button_text">Desliza el dedo hacia la derecha hasta encontrar el botón Finalizar.</string>
     <string name="finish">Finalizar</string>
     <string name="finish_tutorial_announcement">Se está mostrando el teclado braille. Gira el teléfono para que la pantalla quede hacia afuera. Rota el teléfono a la posición horizontal. Luego, comienza a escribir.</string>
@@ -658,6 +662,7 @@ Nombre de visualización interna: %1$s"</string>
     <string name="list_index_template">%1$d de %2$d</string>
     <string name="lockscreen_label">Pantalla de bloqueo</string>
     <string name="medium_radio_button_title">Media (demora de %1$s s)</string>
+    <string name="medium_radio_button_title_content_description">Medio (%1$s segundos de retraso)</string>
     <string name="menu_category_reading_controls">Lectura</string>
     <string name="menu_category_special_features">Funciones especiales</string>
     <string name="menus_selector_text">"Estos atajos pueden ayudarte a cambiar rápidamente la configuración; por ejemplo, puedes pasar de la navegación por caracteres a palabras, o elegir la velocidad de voz de TalkBack.
@@ -678,6 +683,7 @@ Abre el menú de TalkBack ahora presionando la pantalla con 3 dedos."</string>
 Abre el menú de TalkBack ahora deslizando el dedo hacia abajo y, luego, hacia la derecha."</string>
     <string name="menus_title">Menú y controles</string>
     <string name="message_in_reset_keymap_confirm_dialog">¿Estás seguro de que deseas restablecer las combinaciones de teclas de este mapa de teclas a los valores predeterminados? Ten en cuenta que esta acción no se puede deshacer.</string>
+    <string name="message_request_phone_permission">TalkBack quiere saber cuándo estás en una llamada telefónica para enviarte menos avisos que te interrumpan.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Se restablecerán todos los gestos a sus acciones predeterminadas.
 
 Perderás todos los cambios que hayas hecho."</string>
@@ -905,6 +911,7 @@ Prueba cualquiera de los gestos que requieren deslizar el dedo dos veces para fo
     <string name="pref_reduce_window_delay_title">Reducir demora de anuncio de la ventana</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Agregar botones de cámara</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Borrar botones físicos</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Configurar ajustes de este botón: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Editar botones de cámara</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">No se asignó ningún botón de cámara</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Asignar botones de cámara a '%s'"</string>
@@ -925,9 +932,9 @@ Prueba cualquiera de los gestos que requieren deslizar el dedo dos veces para fo
     <string name="pref_sa_face_playground_stop_preview_content_description">Detener la vista previa</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Activar</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Se deben activar los botones de cámara para usar esta área de pruebas</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Probar: Obtén una vista previa de todos los tipos de gestos faciales, incluidos aquellos con la boca abierta, sonrisa, etcétera.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Probar</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Probar: Obtén una vista previa de los gestos faciales %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Se detuvo esta área de pruebas. Usa el siguiente botón para volver a iniciar.</string>
     <string name="pref_selector_summary">%1$s para seleccionar una opción de configuración. Luego, %2$s para ajustarla.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s o %2$s para seleccionar una opción de configuración. Luego, %3$s para ajustarla.</string>
@@ -975,6 +982,7 @@ Si todavía no puedes conectarte, ve a la configuración de Bluetooth y vuelve a
     <string name="reduce_speed_button">Reducir velocidad</string>
     <string name="remaining_calibration_finish_announcement">Se actualizaron todas las posiciones de puntos</string>
     <string name="reminder_announcement">Para ver más opciones, desliza 3 dedos hacia arriba</string>
+    <string name="remove_assigned_switch">Quita la asignación de botones para %s</string>
     <string name="report_gesture_description">Estos son los gestos que se realizaron recientemente. Informa qué gesto es incorrecto y cómo debería ser.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Restablecer</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Restablecer</string>
@@ -1054,6 +1062,7 @@ Pruébalo ahora. Desliza 2 dedos hacia arriba hasta que llegues al final de los
     <string name="search_mode_hint_no_selection">No se seleccionó ningún elemento.</string>
     <string name="search_mode_hint_query">Consulta actual: %1$s.</string>
     <string name="search_mode_hint_selection">Selección actual: %1$s.</string>
+    <string name="select_for_point_scan">\"Seleccionar\"</string>
     <string name="select_setting_hint">%1$s para seleccionar una opción diferente</string>
     <string name="selecting_text_text">"En un cuadro de texto, mueve el cursor al principio del texto que quieras seleccionar.
 
@@ -1114,6 +1123,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="shortcut_media_control">Reproducir o detener cont. multimedia</string>
     <string name="shortcut_next">Elemento siguiente</string>
     <string name="shortcut_next_granularity">Configuración de navegación siguiente</string>
+    <string name="shortcut_next_window">Siguiente ventana</string>
     <string name="shortcut_not_customizable">%1$s (no puede personalizarse)</string>
     <string name="shortcut_notifications">Notificaciones</string>
     <string name="shortcut_overview">Recientes</string>
@@ -1126,6 +1136,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="shortcut_practice_gestures">Practica los gestos</string>
     <string name="shortcut_previous">Elemento anterior</string>
     <string name="shortcut_previous_granularity">Configuración de navegación anterior</string>
+    <string name="shortcut_previous_window">Ventana anterior</string>
     <string name="shortcut_print_node_tree">Imprimir el árbol de nodos</string>
     <string name="shortcut_print_performance_stats">Imprimir estadísticas de rendimiento</string>
     <string name="shortcut_quick_settings">Configuración rápida</string>
@@ -1165,6 +1176,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
 • Agitar el dispositivo para iniciar la lectura continua"</string>
     <string name="six_hold_announcement">También puedes apoyar el teléfono sobre una mesa para escribir. Pruébalo ahora. Si no tienes una mesa cerca, desliza el dedo hacia abajo para omitir este paso.</string>
     <string name="slow_radio_button_title">Lenta (demora de %1$s s)</string>
+    <string name="slow_radio_button_title_content_description">Lento (%1$s segundos de retraso)</string>
     <string name="sound_feedback_state">Sonido: %1$s</string>
     <string name="sound_feedback_summary">Reproducir un sonido para indicar que algo cambió (por ejemplo, el contenido de la pantalla)</string>
     <string name="speak_container_element_position_summary_off">No se lee la posición de los elementos en cuadrículas y listas</string>
@@ -1236,17 +1248,17 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="summary_pref_face_switches_debounce_time">Si se activa varias veces el botón de cámara durante este tiempo, se contabilizará como si se hubiera activado una sola vez.</string>
     <string name="summary_pref_face_switches_enabled">Los botones de cámara usan la cámara frontal para confirmar que miras a la pantalla y reconocer los gestos faciales. Google no almacena ni recibe estas imágenes.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Reproduce un sonido cuando algo en la pantalla cambia en respuesta a un gesto</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Muestra una indicación visual de cuánto tiempo mantienes un gesto</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mantiene la pantalla encendida cuando se habilitan los botones de cámara. Los botones de cámara no pueden desbloquear la pantalla si está apagada.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">No se detectó ningún rostro</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Realiza cualquiera de estos gestos faciales. Si el gesto está registrado, aparecerá el nombre. Para salir, mantén cualquier gesto durante %1$d segundos.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">No muevas la cabeza y mira a la cámara. Luego, %s.</string>
     <string name="summary_pref_play_store">Versión actual de TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">Usa las líneas que se mueven para seleccionar una ubicación horizontal o vertical específica. Presiona el botón \"%1$s\" para iniciar una búsqueda puntual. %2$s</string>
+    <string name="summary_pref_point_scan">Usa las líneas que se mueven para seleccionar una ubicación horizontal o vertical específica. Presiona el botón %1$s para iniciar una búsqueda puntual. %2$s</string>
     <string name="summary_pref_reverse_dots">Cambia las posiciones de los puntos de manera que el 1 y el 4 intercambien su lugar, por ejemplo</string>
     <string name="summary_pref_revert_to_default_menu">Restablece el menú de Accesibilidad con interruptores a la lista predeterminada de elementos del menú.</string>
-    <string name="summary_pref_single_tap">Presiona un elemento destacado una vez para activarlo (experimental)</string>
+    <string name="summary_pref_single_tap">Presiona un elemento destacado una vez para activarlo</string>
     <string name="summary_pref_tree_debug_tv">Usa la tecla de Búsqueda por voz para imprimir el árbol de nodos en lugar de realizar la búsqueda</string>
     <string name="summary_pref_use_audio_focus">Reducir el volumen del audio de otras aplicaciones al hablar</string>
     <string name="summary_read_from_current">Leer todos los elementos de la pantalla desde el elemento siguiente</string>
@@ -1343,10 +1355,10 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="switched_to_contracted_announcement">Se cambió al teclado braille contraído</string>
     <string name="switched_to_ueb_uncontracted_announcement">Cambiar a UEB sin contraer</string>
     <string name="switched_to_uncontracted_announcement">Se cambió al teclado braille sin contraer</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Casi igual a</string>
     <string name="symbol_ampersand">Et</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Signo menor que</string>
+    <string name="symbol_angle_bracket_right">Signo mayor que</string>
     <string name="symbol_apostrophe">Apóstrofo</string>
     <string name="symbol_approximately_equals">Aproximadamente igual a</string>
     <string name="symbol_asterisk">Asterisco</string>
@@ -1366,7 +1378,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_bullseye">Ojo de buey</string>
     <string name="symbol_caret">Signo de intercalación</string>
     <string name="symbol_celsius_degree">Grado centígrado</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Signo de centavos</string>
     <string name="symbol_circle_left_half_black">Círculo con la mitad izquierda negra</string>
     <string name="symbol_circle_right_half_black">Círculo con la mitad derecha negra</string>
     <string name="symbol_colon">Dos puntos</string>
@@ -1375,7 +1387,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_curly_bracket_left">Llave de apertura</string>
     <string name="symbol_curly_bracket_right">Llave de cierre</string>
     <string name="symbol_currency_sign">Signo de moneda</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Signo de grados</string>
     <string name="symbol_division">Signo de división</string>
     <string name="symbol_dollar_sign">Signo de dólar</string>
     <string name="symbol_downwards_arrow">Flecha hacia abajo</string>
@@ -1427,7 +1439,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_middle_dot">Punto medio</string>
     <string name="symbol_multiplication">Signo de multiplicación</string>
     <string name="symbol_new_line">Nueva línea</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">No igual a</string>
     <string name="symbol_not_sign">Signo de negación</string>
     <string name="symbol_paragraph_mark">Marca de párrafo</string>
     <string name="symbol_parenthesis_left">Paréntesis de apertura</string>
@@ -1438,7 +1450,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_plus_minus_sign">Signo más y menos</string>
     <string name="symbol_postal_mark">Marca postal</string>
     <string name="symbol_pound">Numeral</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Símbolo de libra esterlina</string>
     <string name="symbol_quarter_note">Nota negra</string>
     <string name="symbol_question_mark">Signo de interrogación</string>
     <string name="symbol_quotation_mark">Comillas</string>
@@ -1464,7 +1476,7 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_trademark">Marca</string>
     <string name="symbol_underscore">Subrayado</string>
     <string name="symbol_upwards_arrow">Flecha hacia arriba</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Barra vertical</string>
     <string name="symbol_white_circle">Círculo blanco</string>
     <string name="symbol_white_club_suit">Palo de tréboles blanco</string>
     <string name="symbol_white_diamond">Diamante blanco</string>
@@ -1478,8 +1490,8 @@ Paso 2: Desliza el dedo hacia abajo para mover el enfoque de navegación hacia 
     <string name="symbol_white_square">Cuadrado blanco</string>
     <string name="symbol_white_star">Estrella blanca</string>
     <string name="symbol_white_up_pointing_triangle">Triángulo blanco hacia arriba</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Símbolo de la divisa won</string>
+    <string name="symbol_won_sign">Símbolo de la divisa won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Acciones del sistema</string>
     <string name="tabletop">Modo de mesa</string>
@@ -1794,7 +1806,7 @@ Para desactivar TalkBack, sigue estos pasos:
     <string name="title_pref_show_context_menu_as_list">Mostrar menú contextual como lista</string>
     <string name="title_pref_show_privacy_policy">Política de Privacidad</string>
     <string name="title_pref_show_tos">Condiciones del Servicio</string>
-    <string name="title_pref_single_tap">Presionar una vez para activar</string>
+    <string name="title_pref_single_tap">Presiona una vez para activar</string>
     <string name="title_pref_sound_and_vibration">Sonido y vibración</string>
     <string name="title_pref_soundback">Sonido</string>
     <string name="title_pref_soundback_volume">Volumen</string>
@@ -1839,6 +1851,7 @@ Para desactivar TalkBack, sigue estos pasos:
     <string name="title_previous_screen">Pantalla anterior</string>
     <string name="title_read_from_top">Leer desde la parte superior</string>
     <string name="title_repeat_last_spoken_phrase">Repetir la última frase leída</string>
+    <string name="title_request_phone_permission">TalkBack solicita un permiso</string>
     <string name="title_screen_summary">Resumen de pantalla</string>
     <string name="title_seek_bar_controls">Control deslizante</string>
     <string name="title_seek_bar_edit">Editar el nivel del control deslizante</string>

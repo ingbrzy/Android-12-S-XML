@@ -94,7 +94,7 @@ Povezovanje z mobilnim podatkovnim omrežjem traja kar nekaj časa. Lahko ga opu
     <string name="connected_via_app">Povezava vzpostavljena prek omrežja %1$s</string>
     <string name="connected_via_carrier">Vzpostavljena povezava prek: %1$s</string>
     <string name="connected_via_network_scorer_default">Samodejno vzpostavljena povezava prek ponudnika ocenjevanja omrežij</string>
-    <string name="consolidate_captive_portal_description_text">To lahko traja nekaj minut</string>
+    <string name="consolidate_captive_portal_description_text">To lahko traja nekaj minut.</string>
     <string name="consolidate_captive_portal_title">{DEVICE_TYPE,select, PHONE{Pripravljanje telefona …}TABLET{Pripravljanje tabličnega računalnika …}other{Pripravljanje naprave …}}</string>
     <string name="continue_for_a11y">Dotikajte se zaslona, dokler ne zaslišite zvočnega signala za omogočanje načina pripomočkov za ljudi s posebnimi potrebami.</string>
     <string name="dark_mode_description">S temnim ozadjem boste podaljšali čas delovanja baterije.</string>
@@ -341,13 +341,15 @@ Naprava ni omogočena za uporabo"</string>
 
 "<li>Kateri koli drug uporabnik lahko sprejme posodobljena dovoljenja za aplikacije.</li>"
 
-"<li>Souporabo tega telefona omogočite samo ljudem, ki jim zaupate.</li></ul>}TABLET{<b>Pomembno:</b>"
+"<li>Souporabo tega telefona omogočite samo ljudem, ki jim zaupate.</li></ul>"
+}TABLET{"<b>Pomembno:</b>"
 
 "<ul><li>Lastnik tabličnega računalnika lahko v celoti odmesti vaše aplikacije ali odstrani vaš uporabniški profil.</li>"
 
 "<li>Kateri koli drug uporabnik lahko sprejme posodobljena dovoljenja za aplikacije.</li>"
 
-"<li>Souporabo tega tabličnega računalnika omogočite samo ljudem, ki jim zaupate.</li></ul>}other{<b>Pomembno:</b>"
+"<li>Souporabo tega tabličnega računalnika omogočite samo ljudem, ki jim zaupate.</li></ul>"
+}other{"<b>Pomembno:</b>"
 
 "<ul><li>Lastnik naprave lahko v celoti odmesti vaše aplikacije ali odstrani vaš uporabniški profil.</li>"
 
@@ -359,70 +361,47 @@ Naprava ni omogočena za uporabo"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite telefon.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
-"<li>samodejna nastavitev datuma in ure.</li>"}TABLET{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite tablični računalnik.
+"<li>samodejna nastavitev datuma in ure.</li>"
+}TABLET{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite tablični računalnik.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
-"<li>samodejna nastavitev datuma in ure.</li>"}other{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite napravo.
+"<li>samodejna nastavitev datuma in ure.</li>"
+}other{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite napravo.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
 "<li>samodejna nastavitev datuma in ure.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite telefon.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos digitalne kartice e-SIM,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
-"<li>samodejna nastavitev datuma in ure.</li>"}TABLET{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite tablični računalnik.
+"<li>samodejna nastavitev datuma in ure.</li>"
+}TABLET{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite tablični računalnik.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos digitalne kartice e-SIM,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
-"<li>samodejna nastavitev datuma in ure.</li>"}other{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite napravo.
+"<li>samodejna nastavitev datuma in ure.</li>"
+}other{Če se povežete z omrežjem Wi-Fi ali mobilnim omrežjem, lahko hitro nastavite napravo.
 
 Brez povezave ta dejanja niso mogoča:
-
 "<li>prijava v račun Google,</li>"
-
 "<li>obnovitev aplikacij in podatkov,</li>"
-
 "<li>prenos digitalne kartice e-SIM,</li>"
-
 "<li>prenos posodobitev programske opreme,</li>"
-
 "<li>samodejna nastavitev datuma in ure.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Dostopna točka je trenutno zasedena</string>
     <string name="wifi_check_password_try_again">Preverite geslo in poskusite znova</string>

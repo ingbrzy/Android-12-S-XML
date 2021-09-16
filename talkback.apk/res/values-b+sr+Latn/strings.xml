@@ -87,7 +87,7 @@
 Nastavite da se upoznajte sa drugim temama ili pregledajte ove informacije u bilo kom trenutku u podešavanjima TalkBack-a."</string>
     <string name="all_set_title">Gotovo!</string>
     <string name="always_show_this_message_label">Uvek prikazuj ovu poruku</string>
-    <string name="application_name">Paket usluga za pristupačnost na Android-u</string>
+    <string name="application_name">Paristupačnost na Android-u</string>
     <string name="arc_android_window">Prozor aplikacije</string>
     <string name="arc_navigation_hint">Pritisnite taster za pretragu i tastere sa strelicama da biste se kretali</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Pritisnite %1$s da biste videli listu prečica</string>
@@ -105,7 +105,7 @@ Nastavite da se upoznajte sa drugim temama ili pregledajte ove informacije u bil
     <string name="audio_focus_state">Utišavanje zvuka u pozadini %1$s</string>
     <string name="auto_detect">Prilagodite načinu na koji držite uređaj</string>
     <string name="auto_scan_action_description">Započnite skeniranje i izaberite</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Automatsko skeniranje ili izaberite</string>
     <string name="available_devices_header">Dostupni Bluetooth uređaji</string>
     <string name="basic_navigation_link_subtext">Pomerajte se između stavki, pomerajte, koristite menije i drugo</string>
     <string name="basic_navigation_link_text">Osnovno kretanje</string>
@@ -119,7 +119,7 @@ Nastavite da se upoznajte sa drugim temama ili pregledajte ove informacije u bil
     <string name="bluetooth_no_devices_paired">Nije uparen nijedan Bluetooth uređaj</string>
     <string name="bluetooth_not_enabled_message">Da biste uparili Bluetooth prekidač, uključite Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Periferni</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Da biste uparili Bluetooth prekidač u čarobnjaku za podešavanje, uključite Bluetooth i odobrite pristup za Pristupačnost na Android-u uređajima u blizini i dozvolama za lokaciju.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Uparite prekidač bežično preko Bluetooth-a</string>
     <string name="bluetooth_switch_option_text">Bluetooth prekidač</string>
@@ -157,6 +157,9 @@ Nastavite da se upoznajte sa drugim temama ili pregledajte ove informacije u bil
     <string name="cam_switch_enable_banner_text_label_generic">Da biste kontrolisali uređaj, prvo treba da uključite pristup pomoću prekidača.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Otvori prekidače na kameri</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Otvori pristup pomoću prekidača</string>
+    <string name="cam_switches_combined_preferences_title">Podešavanja za „%1$s“</string>
+    <string name="cam_switches_preferences_title">Podešavanja prekidača za kameru</string>
+    <string name="cam_switches_single_preferences_title">Podešavanja za „%s“</string>
     <string name="camera_switches_status_active">Prekidači na kameri su aktivni</string>
     <string name="camera_switches_status_error">Greška</string>
     <string name="camera_switches_status_no_face">Nije otkriveno nijedno lice</string>
@@ -263,7 +266,7 @@ Probajte da nalepite reč koju ste kopirali u okviru za tekst u nastavku."</stri
     <string name="default_action_name_pause">Pauziraj prekidač na kameri</string>
     <string name="default_action_name_point_scan">Prelaženje sadržaja po tačkama</string>
     <string name="dialog_confirm_revert_to_default_menu">Potvrdi</string>
-    <string name="dialog_do_not_disturb_permission_message">Da biste prilagodili jačinu zvuka u meniju pristupa pomoću prekidača, uključite pristup opciji Ne uznemiravaj za Paket usluga za pristupačnost na Android-u</string>
+    <string name="dialog_do_not_disturb_permission_message">Da biste prilagodili jačinu zvuka u meniju pristupa pomoću prekidača, uključite pristup opciji Ne uznemiravaj za Pristupačnost na Android-u</string>
     <string name="dialog_do_not_disturb_permission_title">Pristupu pomoću prekidača je potrebna dozvola za prilagođavanje jačine zvuka</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Otvori podešavanja</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Da bi radila, funkcija Prekidači na kameri treba da preuzme oko 10 MB dodatnih podataka. To može da potraje oko jednog minuta, u zavisnosti od brzine mreže.</string>
@@ -399,6 +402,7 @@ Probajte to odmah tako što ćete dodirnuti ekran i prevlačiti ka donjem levom
     <string name="fallback_menu_item_open_in_browser">Otvori u pregledaču</string>
     <string name="fallback_menu_item_share_link">Deli link</string>
     <string name="fast_radio_button_title">Brzo (zadržavanje od %1$s sek)</string>
+    <string name="fast_radio_button_title_content_description">Brzo (kašnjenje od %1$s sek)</string>
     <string name="find_finish_button_text">Prevucite udesno da biste pronašli dugme Završi.</string>
     <string name="finish">Završi</string>
     <string name="finish_tutorial_announcement">Prikazuje se tastatura sa Brajevom azbukom. Okrenite telefon tako da je ekran okrenut od vas. Rotirajte telefon horizontalno u vodoravan položaj. Zatim počnite sa unosom teksta.</string>
@@ -747,6 +751,7 @@ Naziv internog prikaza: %1$s"</string>
     <string name="list_index_template">%1$d. od %2$d</string>
     <string name="lockscreen_label">Zaključan ekran</string>
     <string name="medium_radio_button_title">Srednje (zadržavanje od %1$s sek)</string>
+    <string name="medium_radio_button_title_content_description">Srednje (kašnjenje od %1$s sek)</string>
     <string name="menu_category_reading_controls">Čitanje</string>
     <string name="menu_category_special_features">Specijalne funkcije</string>
     <string name="menus_selector_text">"Ove prečice mogu da vam pomognu da brzo menjate podešavanja, poput prelaska sa znakova na reči u navigaciji ili menjanja brzine govora za TalkBack.
@@ -767,6 +772,7 @@ Otvorite TalkBack meni odmah tako što ćete dodirnuti ekran pomoću 3 prsta."
 Otvorite TalkBack meni odmah prevlačenjem nadole, pa udesno."</string>
     <string name="menus_title">Meni i kontrole</string>
     <string name="message_in_reset_keymap_confirm_dialog">Želite li stvarno da resetujete tasterske prečice za ovaj raspored tastera na podrazumevane vrednosti? Imajte na umu da ova radnja ne može da se opozove.</string>
+    <string name="message_request_phone_permission">TalkBack želi da zna kada je telefonski poziv u toku da bi smanjio ometajuća obaveštenja.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Ovim ćete resetovati sve pokrete na podrazumevane radnje.
 
 Izgubićete sve promene koje ste uneli."</string>
@@ -996,6 +1002,7 @@ Isprobajte bilo koji pokret pri kom dva prevlačenja formriraju pravi ugao. Na p
     <string name="pref_reduce_window_delay_title">Smanji zadržavanje najave za prozor</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Dodaj prekidače na kameri</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Obriši fizičke prekidače</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfigurišite podešavanja za prekidač: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Izmeni prekidače na kameri</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Nijedan prekidač na kameri nije dodeljen</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Dodelite prekidače na kameri radnji %s</string>
@@ -1016,9 +1023,9 @@ Isprobajte bilo koji pokret pri kom dva prevlačenja formriraju pravi ugao. Na p
     <string name="pref_sa_face_playground_stop_preview_content_description">Zaustavi pregled</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Uključite</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Prekidači za kameru moraju da budu uključeni da biste koristili ovo područje testiranja</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Isprobajte: Pregledajte sve tipove pokreta, uključujući otvorena usta, osmeh i druge</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Isprobajte</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Isprobajte: Pregledajte pokrete licem (%1$s)</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Područje testiranja je pauzirano. Pokrenite ga opet pomoću dugmeta u nastavku.</string>
     <string name="pref_selector_summary">%1$s da biste izabrali podešavanje. Zatim %2$s da biste prilagodili podešavanje.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s ili %2$s da biste izabrali podešavanje. Zatim %3$s da biste prilagodili podešavanje.</string>
@@ -1067,6 +1074,7 @@ Ako uređaj i dalje neće da se poveže, idite u Bluetooth podešavanja i proba
     <string name="reduce_speed_button">Smanji brzinu</string>
     <string name="remaining_calibration_finish_announcement">Položaji svih tačaka su ažurirani</string>
     <string name="reminder_announcement">Prevucite nagore pomoću 3 prsta da biste pronašli još opcija</string>
+    <string name="remove_assigned_switch">Uklonite dodeljenog prekidača za: %s</string>
     <string name="report_gesture_description">Evo nekih pokreta koje ste nedavno obavili. Prijavite pokret koji je netačan i šta se očekuje.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Resetuj</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Resetuj</string>
@@ -1147,6 +1155,7 @@ Probajte to odmah tako što ćete prevlačiti nagore pomoću 2 prsta dok ne do
     <string name="search_mode_hint_no_selection">Nije izabrana nijedna stavka.</string>
     <string name="search_mode_hint_query">Aktuelni upit: %1$s.</string>
     <string name="search_mode_hint_selection">Aktuelni izbor: %1$s.</string>
+    <string name="select_for_point_scan">Izaberite</string>
     <string name="select_setting_hint">%1$s da biste izabrali neko drugo podešavanje</string>
     <string name="selecting_text_text">"U okviru za tekst pomerite kursor na početak teksta koji želite da izaberete.
 
@@ -1207,6 +1216,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="shortcut_media_control">Pušta ili pauzira medijski sadržaj</string>
     <string name="shortcut_next">Sledeća stavka</string>
     <string name="shortcut_next_granularity">Sledeće podešavanje navigacije</string>
+    <string name="shortcut_next_window">Sledeći prozor</string>
     <string name="shortcut_not_customizable">%1$s, ne može da se prilagođava</string>
     <string name="shortcut_notifications">Obaveštenja</string>
     <string name="shortcut_overview">Pregled</string>
@@ -1219,6 +1229,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="shortcut_practice_gestures">Vežbanje pokreta</string>
     <string name="shortcut_previous">Prethodna stavka</string>
     <string name="shortcut_previous_granularity">Prethodno podešavanje navigacije</string>
+    <string name="shortcut_previous_window">Prethodni prozor</string>
     <string name="shortcut_print_node_tree">Štampa stablo sa čvorovima</string>
     <string name="shortcut_print_performance_stats">Statistika učinka štampanja</string>
     <string name="shortcut_quick_settings">Brza podešavanja</string>
@@ -1258,6 +1269,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
 • Prodrmajte za početak neprekidnog čitanja"</string>
     <string name="six_hold_announcement">Možete da unosite tekst i tako što ćete postaviti telefon ravno na sto. Isprobajte. Ako nemate sto u blizini, preskočite na sledeći korak tako što ćete prevući nadole.</string>
     <string name="slow_radio_button_title">Sporo (zadržavanje od %1$s sek)</string>
+    <string name="slow_radio_button_title_content_description">Sporo (kašnjenje od %1$s sek)</string>
     <string name="sound_feedback_state">Zvučna reakcija %1$s</string>
     <string name="sound_feedback_summary">Pušta zvuk koji označava da se nešto promenilo (npr. sadržaj na ekranu se promenio)</string>
     <string name="speak_container_element_position_summary_off">Informacije o listama i mrežama se ne izgovaraju</string>
@@ -1331,17 +1343,17 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="summary_pref_face_switches_debounce_time">Više aktiviranja prekidača na kameri u ovom periodu smatraju se jednim aktiviranjem.</string>
     <string name="summary_pref_face_switches_enabled">Prekidači na kameri koriste prednju kameru da bi se utvrdilo da li gledate u ekran i da bi se prepoznali pokreti licem. Slike se ne čuvaju niti šalju Google-u.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Čuje se zvučni signal kada se nešto promeni na ekranu zbog pokreta</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Prikazuje se vizuelni pokazatelj dužine zadržavanja pokreta</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Ekran ostaje uključen kada su prekidači na kameri omogućeni. Ako se ekran isključi, on ne može da se otključa pomoću prekidača na kameri.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nije otkriveno nijedno lice</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Napravite bilo koji pokret licem. Ako je pokret registrovan, prikazaće se njegov naziv. Da biste izašli, napravite pokret i izvodite ga %1$d sek.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Ne pomerajte glavu i okrenite se ka kameri. Zatim %s.</string>
     <string name="summary_pref_play_store">Aktuelna verzija TalkBack-a: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Koristite linije koje se pomeraju da biste izabrali određenu horizontalnu i vertikalnu lokaciju. Pritisnite prekidač %1$s da biste pokrenuli prelaženje sadržaja po tačkama. %2$s</string>
     <string name="summary_pref_reverse_dots">Zamenite položaje tačaka, na primer, tako da 1. i 4. tačka zamene mesta</string>
     <string name="summary_pref_revert_to_default_menu">Resetujte meni za pristup pomoću prekidača na podrazumevanu listu stavki menija.</string>
-    <string name="summary_pref_single_tap">(Eksperimentalno) Dodirnite fokusiranu stavku da biste je aktivirali</string>
+    <string name="summary_pref_single_tap">Dodirnite fokusiranu stavku da biste je aktivirali</string>
     <string name="summary_pref_tree_debug_tv">Koristi taster za glasovnu pretragu za štampanje stabla sa čvorovima umesto za pretragu</string>
     <string name="summary_pref_use_audio_focus">Smanjite jačinu drugog zvuka tokom govora</string>
     <string name="summary_read_from_current">Čita sve stavke na ekranu počev od sledeće stavke</string>
@@ -1438,10 +1450,10 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="switched_to_contracted_announcement">Prešli ste u režim kratkopisne Brajeve azbuke</string>
     <string name="switched_to_ueb_uncontracted_announcement">Prešli ste na UEB režim bez skraćivanja</string>
     <string name="switched_to_uncontracted_announcement">Prešli ste u režim pune Brajeve azbuke</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Približno jednako</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Znak za manje</string>
+    <string name="symbol_angle_bracket_right">Znak za Veće od</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Znak za približan iznos</string>
     <string name="symbol_asterisk">Zvezdica</string>
@@ -1470,7 +1482,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="symbol_curly_bracket_left">Otvorena vitičasta zagrada</string>
     <string name="symbol_curly_bracket_right">Zatvorena vitičasta zagrada</string>
     <string name="symbol_currency_sign">Znak valute</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Znak za stepen</string>
     <string name="symbol_division">Znak za deljenje</string>
     <string name="symbol_dollar_sign">Znak za dolar</string>
     <string name="symbol_downwards_arrow">Strelica nadole</string>
@@ -1522,7 +1534,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="symbol_middle_dot">Srednja tačka</string>
     <string name="symbol_multiplication">Znak za množenje</string>
     <string name="symbol_new_line">Novi red</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Nije jednako</string>
     <string name="symbol_not_sign">Znak Nije</string>
     <string name="symbol_paragraph_mark">Oznaka pasusa</string>
     <string name="symbol_parenthesis_left">Otvorena zagrada</string>
@@ -1533,7 +1545,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="symbol_plus_minus_sign">Znak plus minus</string>
     <string name="symbol_postal_mark">Poštanska oznaka</string>
     <string name="symbol_pound">Funta</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Znak valute za funtu</string>
     <string name="symbol_quarter_note">Četvrtina note</string>
     <string name="symbol_question_mark">Znak pitanja</string>
     <string name="symbol_quotation_mark">Navodnik</string>
@@ -1559,7 +1571,7 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="symbol_trademark">Žig</string>
     <string name="symbol_underscore">Donja crta</string>
     <string name="symbol_upwards_arrow">Strelica nagore</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Vertikalna linija</string>
     <string name="symbol_white_circle">Beli krug</string>
     <string name="symbol_white_club_suit">Beli simbol tref</string>
     <string name="symbol_white_diamond">Beli simbol karo</string>
@@ -1573,8 +1585,8 @@ Probajte da izaberete reč Dobro došli u okviru za tekst u nastavku."</string>
     <string name="symbol_white_square">Beli kvadrat</string>
     <string name="symbol_white_star">Bela zvezdica</string>
     <string name="symbol_white_up_pointing_triangle">Beli trougao usmeren nagore</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Znak valute za von</string>
+    <string name="symbol_won_sign">Znak valute za von</string>
     <string name="symbol_yen">Jen</string>
     <string name="system_actions">Sistemske radnje</string>
     <string name="tabletop">Stoni režim</string>
@@ -1742,7 +1754,7 @@ Da biste isključili TalkBack:
     <string name="title_pref_category_assign_switches">Dodelite prekidače</string>
     <string name="title_pref_category_audio">Zvuk</string>
     <string name="title_pref_category_auto_scan">Automatsko skeniranje sadržaja</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automatsko skeniranje (prelaženje sadržaja po tačkama)</string>
     <string name="title_pref_category_border_color">Boja</string>
     <string name="title_pref_category_built_in_gestures">Ugrađeni pokreti</string>
     <string name="title_pref_category_context_menu">Prilagodite TalkBack meni</string>
@@ -1826,7 +1838,7 @@ Da biste isključili TalkBack:
     <string name="title_pref_red">Crvena</string>
     <string name="title_pref_resume_talkback">Nastavi posle suspendovanja</string>
     <string name="title_pref_reverse_auto_scan_disabled">Obrnuto automatsko skeniranje sadržaja (onemogućeno)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Obrnuto automatsko skeniranje (prelaženje sadržaja po tačkama)</string>
     <string name="title_pref_reverse_dots">Obrni tačke</string>
     <string name="title_pref_revert_to_default_menu">Vratite se na podrazumevani meni</string>
     <string name="title_pref_scan_non_actionable_items">Izgovori opisni tekst</string>
@@ -1889,7 +1901,7 @@ Da biste isključili TalkBack:
     <string name="title_pref_show_context_menu_as_list">Prikaži kontekstualni meni kao listu</string>
     <string name="title_pref_show_privacy_policy">Politika privatnosti</string>
     <string name="title_pref_show_tos">Uslovi korišćenja usluge</string>
-    <string name="title_pref_single_tap">Aktivacija jednim dodirom</string>
+    <string name="title_pref_single_tap">Aktiviranje jednim dodirom</string>
     <string name="title_pref_sound_and_vibration">Zvuk i vibracija</string>
     <string name="title_pref_soundback">Obaveštenje zvukom</string>
     <string name="title_pref_soundback_volume">Jačina obaveštenja zvukom</string>
@@ -1934,6 +1946,7 @@ Da biste isključili TalkBack:
     <string name="title_previous_screen">Prethodni ekran</string>
     <string name="title_read_from_top">Čitaj od vrha</string>
     <string name="title_repeat_last_spoken_phrase">Ponovi poslednju izgovorenu frazu</string>
+    <string name="title_request_phone_permission">TalkBack traži dozvolu</string>
     <string name="title_screen_summary">Rezime ekrana</string>
     <string name="title_seek_bar_controls">Klizač</string>
     <string name="title_seek_bar_edit">Izmenite nivo klizača</string>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Для того чтобы использовать RTT, нужно подключение к сети LTE или должна быть активирована функция \"Звонки по Wi-Fi\".
+"</item>
+        <item>"Начать использовать RTT можно при общении с людьми, телефоны которых поддерживают RTT или подключены к устройству телетайпа.
+"</item>
+        <item>"Для того чтобы видеть возможность использования RTT для входящих и исходящих вызовов, выберите для параметра \"Вызов RTT\" вариант \"Отображается всегда\".
+"</item>
+        <item>"При использовании RTT передается аудио, поэтому отключите для вызова звук, если не хотите, чтобы собеседник слышал его.
+"</item>
+        <item>"При использовании вызовов через RTT расходуются минуты из тарифного плана. Проверьте сведения в своем плане.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Вызовы RTT сохраняются как расшифрованные сообщения.
+"</item>
+        <item>"RTT не поддерживается для видеовызовов.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Вам потребуется подключение к сети 4G LTE или Wi-Fi.
+"</item>
+        <item>"RTT можно применять при общении с людьми, телефоны которых поддерживают RTT или подключены к устройству телетайпа (текстового телефона).
+"</item>
+        <item>После включения RTT для всех входящих звонков будет отображаться соответствующий значок.</item>
+    </string-array>
+</resources>

@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">برای اعمال این تغییر، دستگاهتان باید راه‌اندازی مجدد شود. اکنون راه‌اندازی مجدد کنید یا لغو کنید.</string>
     <string name="camera_hint">انگشتتان را از نماد دوربین تند بکشید</string>
     <string name="camera_label">باز کردن دوربین</string>
+    <string name="camera_recording_announcement">دوربین درحال ضبط کردن است</string>
+    <string name="camera_stopped_recording_announcement">ضبط دوربین متوقف شد</string>
     <string name="cancel">لغو</string>
     <string name="carrier_network_change_mode">تغییر شبکه شرکت مخابراتی</string>
     <string name="category_personal">شخصی</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">نظارت</string>
     <string name="debug_networking_category">شبکه</string>
     <string name="debug_view_attributes">فعال کردن نمایش بازبینی ویژگی</string>
+    <string name="defender_notify_des">تلفن شما شارژ را محدود می‌کند تا به حفظ سلامت باتری کمک شود</string>
+    <string name="defender_notify_learn_more">بیشتر بدانید</string>
+    <string name="defender_notify_resume_charge">ازسرگیری احتساب هزینه</string>
+    <string name="defender_notify_title">شارژ موقتاً محدود شده است</string>
     <string name="delete_blob_confirmation_text">مطمئن هستید می‌خواهید این داده‌های هم‌رسانی‌شده را حذف کنید؟</string>
     <string name="delete_blob_text">حذف داده‌های هم‌رسانی‌شده</string>
     <string name="demo_mode">حالت نمایشی میانای کاربر سیستم</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">درحال باز کردن قفل سیم‌کارت...</string>
     <string name="keyguard_try_fingerprint">از اثر انگشت برای باز کردن قفل استفاده کنید</string>
     <string name="keyguard_unlock">برای باز کردن، انگشتتان را تند به‌بالا بکشید</string>
+    <string name="keyguard_unlock_press">برای باز کردن فشار دهید</string>
     <string name="keywords_adb_wireless">‏ADB (پل اشکال‌زدایی Android)، اشکال‌زدایی کردن، برنامه‌نویس</string>
     <string name="keywords_alarms_and_reminders">زمان‌بندی، زنگ ساعت، یادآوری، ساعت</string>
     <string name="kg_enter_confirm_pin_hint">تأیید کد پین دلخواه</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">تغییردهنده صفحه‌کلید</string>
     <string name="messages_count_overflow_indicator">بیش‌از %d</string>
     <string name="mic_active">میکروفون فعال است</string>
+    <string name="mic_and_camera_recording_announcement">دوربین و میکروفون درحال ضبط کردن هستند</string>
+    <string name="mic_camera_stopped_recording_announcement">ضبط دوربین و میکروفون متوقف شد</string>
+    <string name="mic_recording_announcement">میکروفون درحال ضبط کردن است</string>
+    <string name="mic_stopped_recording_announcement">ضبط میکروفون متوقف شد</string>
     <string name="missed_call">تماس بی‌پاسخ</string>
     <string name="mobile_carrier_text_format">%1$s، %2$s</string>
     <string name="mobile_data">داده تلفن همراه</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">برنامه‌های کاری</string>
     <string name="quick_step_accessibility_toggle_overview">تغییر وضعیت نمای کلی</string>
     <string name="recent_conversations">گفتگوهای اخیر</string>
-    <string name="recents_quick_scrub_onboarding">برای جابه‌جایی سریع میان برنامه‌ها، به چپ بکشید</string>
-    <string name="recents_swipe_up_onboarding">برای تغییر برنامه‌ها،‌ تند به‌بالا بکشید</string>
     <string name="remaining_length_format">%1$s باقی مانده است</string>
     <string name="remote_input_image_insertion_text">تصویری ارسال کرد</string>
     <string name="remove_from_settings">حذف از تنظیمات</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">افزودن کارت</string>
     <string name="wallet_secondary_label_updating">درحال به‌روزرسانی</string>
     <string name="wallet_title">کیف‌پول</string>
+    <string name="weather_description">%1$s، %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ظرفیت نقطه دسترسی موقتاً تکمیل شده است</string>
     <string name="wifi_cant_connect">برقراری اتصال ممکن نیست</string>
     <string name="wifi_cant_connect_to_ap">برقراری اتصال به «%1$s» ممکن نیست</string>

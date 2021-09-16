@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Адказаць</string>
     <string name="a11y_call_incoming_decline_description">Адхіліць</string>
+    <string name="a11y_callscreen_animation">Анімацыя Фільтра выклікаў</string>
     <string name="a11y_contact_menu_video_call_wifi">Пачаць відэавыклік праз Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Пачаць галасавы выклік праз Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Апошні элемент – прыняты выклік ад абанента ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Кіраваць выклікаючымі абанентамі</string>
     <string name="a11y_expandedsheet_collapse">згарнуць меню</string>
     <string name="a11y_expandedsheet_expand">разгарнуць меню</string>
-    <string name="a11y_favorites_education_dismiss">закрыць</string>
     <string name="a11y_feature_demo_next_page">Наступная старонка</string>
     <string name="a11y_feature_demo_page_indicator">Старонка %d</string>
     <string name="a11y_feature_demo_prev_page">Папярэдняя старонка</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Хуткі кантакт для карыстальніка ^1</string>
+    <string name="a11y_icon_hd">Выклік HD</string>
+    <string name="a11y_icon_hd_plus">Выклік HD+</string>
+    <string name="a11y_icon_shared_data_call">Выклік праз інтэрнэт-падключэнне іншай SIM-карты</string>
+    <string name="a11y_icon_verified">Спраўджаны выклік</string>
+    <string name="a11y_icon_vilte">Відэавыклік праз LTE</string>
+    <string name="a11y_icon_viwifi">Відэавыклік праз Wi-Fi</string>
+    <string name="a11y_icon_volte">Галасавы выклік праз LTE</string>
+    <string name="a11y_icon_voz4g">Галасавы выклік у сетцы 4G</string>
+    <string name="a11y_icon_wifi">Выклік праз Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Правядзіце двума пальцамі ўверх, каб адказаць; двума пальцамі ўніз – каб адхіліць.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Правядзіце двума пальцамі ўверх, каб адказаць, ці ўніз, каб адхіліць выклік</string>
     <string name="a11y_new_call_log_entry_call_recording">выклік запісаны</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">(^1)</string>
     <string name="a11y_new_call_log_entry_rtt_call">зрабіць выклік RTT да карыстальніка ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Выклік праз інтэрнэт-падключэнне іншай SIM-карты</string>
     <string name="a11y_new_call_log_entry_tap_action">разгарнуць меню</string>
     <string name="a11y_new_call_log_entry_video_call">зрабіць відэавыклік да карыстальніка ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">пачаць відэавыклік з карыстальнікам ^1 праз Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Змяніць нумар перад выклікам</string>
     <string name="action_menu_back_from_search">спыніць пошук</string>
     <string name="action_menu_overflow_description">Дадатковыя параметры</string>
+    <string name="activate_error_message">Не ўдалося актываваць Фільтр выклікаў</string>
+    <string name="activated_successfully">Фільтр выклікаў актываваны</string>
     <string name="activity_not_available">На прыладзе няма праграмы для гэтага</string>
     <string name="add_2sec_pause">Дадаць 2-секундную паўзу</string>
     <string name="add_contact_not_available">Праграмы для аперацый з кантактамі няма</string>
@@ -160,8 +172,8 @@
     <string name="bm_suggest_chat_button">Чат</string>
     <string name="bm_suggest_wait_min">"Чат
 Пачакайце %1$d хв"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, непрачытаных: %2$s</string>
+    <string name="bm_suggest_wait_time_estimating">"Чат
+Ідзе праца…"</string>
     <string name="bottomsheet_action_expand_halfway">Разгарнуць напалову</string>
     <string name="bubble_bottom_action_end_call">Завяршыць выклік</string>
     <string name="bubble_bottom_action_hide">Схаваць</string>
@@ -170,7 +182,10 @@
     <string name="call">Галасавы выклік</string>
     <string name="callFailed_simError">Няма SIM-карты або памылка яе чытання</string>
     <string name="callHistoryIconLabel">Гісторыя выклікаў</string>
-    <string name="call_announcer_preference_footer_instruction_text">Падчас уваходных выклікаў імя і нумар абанента будуць зачытвацца ўслых</string>
+    <string name="call_action_label_automatically_screen">Фільтраваць аўтаматычна. Адхіляць аўтаматызаваныя выклікі.</string>
+    <string name="call_action_label_ring_phone">Прайграць рынгтон (стандартна)</string>
+    <string name="call_action_label_silently_decline">Адхіляць бязгучна</string>
+    <string name="call_announcer_preference_footer_instruction_text">Падчас уваходных выклікаў імя і нумар абанента будуць зачытвацца ўслых.</string>
     <string name="call_announcer_preference_list_title">Агучваць ідэнтыфікатар абанента</string>
     <string name="call_announcer_preference_option_always">Заўсёды</string>
     <string name="call_announcer_preference_option_headset">Толькі падчас выкарыстання гарнітуры</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Адказаць</string>
     <string name="call_incoming_answer_rtt">Адказаць з дапамогай RTT</string>
     <string name="call_incoming_answer_voice">Адказаць голасам</string>
-    <string name="call_incoming_chip_answer_and_release">Адказаць і скончыць бягучы выклік</string>
+    <string name="call_incoming_chip_answer_and_release">Адказаць і завяршыць іншы выклік</string>
     <string name="call_incoming_chip_answer_as_rtt">Адказаць у рэжыме выкліку RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Адказаць у рэжыме галасавога выкліку</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Адказаць з выключаным уласным відэа</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Правядзіце пальцам уверх, каб адказаць</string>
     <string name="call_incoming_swipe_to_reject">Правядзіце пальцам уніз, каб адхіліць</string>
     <string name="call_incoming_video_is_off">Ваша відэа выключана</string>
-    <string name="call_incoming_will_disconnect">Калі адказаць на гэты выклік, то відэавыклік завершыцца</string>
+    <string name="call_incoming_will_disconnect">Калі вы адкажаце на гэты выклік, іншы выклік завершыцца</string>
     <string name="call_incoming_will_disconnect_app">Адказ на гэты выклік завершыць выклік праз праграму \"%1$s\"</string>
     <string name="call_isdn">Выклікаць ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Заблакіраваць/спам</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Прычына выкліку: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Запіс захаваны.</string>
     <string name="call_recording_conversation_history_entry">Запісана</string>
+    <string name="call_recording_delete_snack_bar_undo">Адрабіць</string>
     <string name="call_recording_disclaimer_agreen_button_text">Пачаць запіс</string>
     <string name="call_recording_disclaimer_content">"Магчыма, вы ці ваш суразмоўнік знаходзіцеся ў рэгіёне, дзе патрабуецца згода ўсіх удзельнікаў на запіс выкліку. Усе ўдзельнікі размовы атрымаюць папярэдняе апавяшчэнне пра тое, што выклік запісваецца. Вы адказваеце за выкананне законаў у дачыненні да запісу размоў. Выкарыстоўвайце функцыю запісу выклікаў з адказнасцю і ўключайце яе выключна пры неабходнасці.
 ^1
@@ -291,6 +307,7 @@
 Аўдыязапісы і расшыфроўкі выклікаў не адпраўляюцца , нават у Google."</string>
     <string name="call_screen_demo_page_4_title">Эканомце час і пазбягайце расчаравання</string>
     <string name="call_screen_demo_setting_title">Паглядзець дэманстрацыю</string>
+    <string name="call_screen_demo_settings_title">Паглядзець дэманстрацыю</string>
     <string name="call_screen_demo_title">Як працуе Фільтр выклікаў</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Не ўдалося загрузіць узор аўдыязапісу</string>
     <string name="call_screen_demo_unable_to_play_audio">Не ўдалося прайграць узор аўдыязапісу</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Вы завяршылі выклік</string>
     <string name="call_screen_end_call_non_local_internal_message">Выклік быў перарваны</string>
     <string name="call_screen_how_it_works_setting_title">Фільтр выклікаў працуе на прыладзе і не патрабуе Wi-Fi ці мабільнай перадачы даных. Расшыфроўкі размоў ствараюцца і захоўваюцца толькі на вашым тэлефоне. %1$s</string>
+    <string name="call_screen_how_it_works_title">Фільтр выклікаў працуе на прыладзе і не патрабуе Wi-Fi ці мабільнай перадачы даных. Расшыфроўкі размоў ствараюцца і захоўваюцца толькі на вашым тэлефоне. ^1</string>
     <string name="call_screen_incallui_chip_text">Фільтраваць</string>
     <string name="call_screen_join_call_button_content_description">Далучыцца да выкліку</string>
     <string name="call_screen_join_call_internal_message">Вы далучыліся да выкліку</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">Што паведамляецца абаненту</string>
     <string name="call_screen_screening_call_from">Фільтруецца выклік ад абанента</string>
     <string name="call_screen_setting_title">Фільтр выклікаў</string>
+    <string name="call_screen_settings_title">Фільтр выклікаў</string>
     <string name="call_screen_speaker_toggle_button_content_description">Кнопка ўключэння гучнай сувязі</string>
     <string name="call_screen_suggestions_avatar_content_description">Лагатып</string>
     <string name="call_screen_survey_cancel_button">Скасаваць</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Патэлефанаваць на працоўны нумар тэлефона</string>
     <string name="call_work_mobile">Патэлефанаваць на працоўны нумар мабільнага тэлефона</string>
     <string name="call_work_pager">Патэлефанаваць на працоўны пэйджар</string>
+    <string name="caller_action_error_cant_load_value">Не ўдалося атрымаць бягучае значэнне параметра \"%1$s\"</string>
+    <string name="caller_action_error_cant_set_value">Не ўдалося захаваць значэнне параметра \"%1$s\"</string>
     <string name="caller_id_announcement_multi_sim">уваходны %1$s ад карыстальніка %2$s на SIM-карту %3$s</string>
     <string name="caller_id_announcement_single_sim">уваходны %1$s ад карыстальніка %2$s</string>
     <string name="caller_id_business_data_details">"Крыніцамі даных для гэтых функцый з'яўляюцца кампанія Google і яе ліцэнзіяры. ^1"</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">Выклікаць абанента %s?</string>
     <string name="calllog_add_to_contact">Дадаць да кантакту</string>
     <string name="calllog_create_new_contact">Стварыць кантакт</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Актывацыя Фільтра выклікаў (патрабуецца Wi-Fi)</string>
+    <string name="callscreen_settings_voice_setting_title">Голас</string>
+    <string name="camera_permission_toast">Уключаны дазвол на выкарыстанне камеры</string>
     <string name="camera_privacy_text">Уключаны дазвол на выкарыстанне камеры</string>
     <string name="cannot_understand_description">Я не разумею</string>
     <string name="car_crash_emergency_intro">"Аўтаматызаваная сістэма экстранных галасавых выклікаў звязваецца з вамі ад імя абанента.
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Не ўдалося наладзіць спраўджанне выклікаў. Уключыць гэту функцыю зноў можна ў наладах.</string>
     <string name="contact_card_video_icon_content_description">Зрабіць відэавыклік да карыстальніка ^1</string>
     <string name="contact_grid_callback_number">Нумар гэтага тэлефона: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Выклік быў пераадрасаваны</string>
+    <string name="contact_grid_hd_icon_content_description">Выклік HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Выклік HD+</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Відэавыклік праз аператара ад абанента</string>
     <string name="contact_grid_incoming_reception_only_video_call">Аднабаковы відэавыклік праз аператара ад абанента</string>
     <string name="contact_grid_incoming_rtt_call">Выклік RTT ад абанента</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Відэавыклік праз аператара Wi-Fi ад абанента</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Аднабаковы відэавыклік праз аператара Wi-Fi ад абанента</string>
     <string name="contact_grid_incoming_work_call">Рабочы выклік ад</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Выклік праз інтэрнэт-падключэнне іншай SIM-карты</string>
+    <string name="contact_grid_spam_icon_content_description">Спамерскі выклік</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">аператарам</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Спраўджана %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Нумар правераны</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Відэавыклік праз LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Відэавыклік па Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Галасавы выклік у сетцы 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Галасавы выклік праз LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Галасавы выклік па Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Выклік праз Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Выклік па працы</string>
     <string name="contact_menu_add_favorite">У абраныя</string>
     <string name="contact_menu_contact_info">Кантактная інфармацыя</string>
     <string name="contact_menu_invite_video">Запрасіць у відэавыклік</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">Сёння</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Выклік выдалены</string>
     <string name="conversation_history_call_details_snack_bar_undo">Адрабіць</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Важны выклік</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Паказаць дадатковыя даныя выкліку</string>
+    <string name="conversation_history_call_recording_deleted">Запіс выдалены</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Расшыфроўка і аўдыя</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Расшыфроўка</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Азнаёміцца з расшыфроўкай і аўдыязапісам</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Фільтр выклікаў</string>
     <string name="copy">Капіраваць</string>
     <string name="copy_number">Капіраваць нумар</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">Стандартны прэфікс</string>
     <string name="custom_prefix_prefixes_preference_title">Прэфіксы</string>
     <string name="dark_theme_label">Цёмная</string>
+    <string name="default_changed_confirmation">Праграма \"Тэлефон\" зроблена стандартнай</string>
+    <string name="default_image_content_description">Відарыс застаўкі</string>
     <string name="delete">Выдаліць</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Выдаленне ўсіх запісаў</string>
     <string name="delete_all_recordings_now_error_message">Не ўдалося выдаліць некаторыя запісы. Паўтарыце спробу.</string>
     <string name="delete_button_label">Выдаліць усе запісы</string>
     <string name="delete_confirmation_dialog_negative_button_label">Скасаваць</string>
     <string name="delete_confirmation_dialog_positive_button_label">Выдаліць</string>
+    <string name="delete_old_recordings_error_cant_load_value">Не ўдалося атрымаць бягучае значэнне параметра \"%1$s\"</string>
+    <string name="delete_old_recordings_error_cant_set_value">Не ўдалося захаваць значэнне параметра \"%1$s\"</string>
+    <string name="deleting_call_recording">Запіс выдаляецца…</string>
     <string name="description_add_to_existing_contact_action">Дадаць ^1 да існуючага кантакту</string>
     <string name="description_blocked_number_list_delete">Разблакіраваць нумар</string>
     <string name="description_call_action">Выклікаць ^1</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"Ад імя абанента з вамі звязалася аўтаматызаваная сістэма экстранных галасавых выклікаў.
 Абанент падаў сігнал аб магчымай надзвычайнай сітуацыі. 
 Адпраўце дапамогу."</string>
+    <string name="emergency_speaker">Дынамік</string>
     <string name="emergency_voice_assist_dialog_button_close">Скасаваць</string>
     <string name="emergency_voice_assist_dialog_title">Аператар экстраннай службы чуе гэта</string>
     <string name="end_call_with_default_message_description">Завяршыць выклік</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">Надта ціхі гук</string>
     <string name="feedback_call_issue_title">У чым была праблема?</string>
     <string name="feedback_title_please_rate">Ацаніце якасць выкліку</string>
+    <string name="first_time_callers_action_preference_description">Абаненты, якіх няма ў вашым журнале выклікаў</string>
+    <string name="first_time_callers_action_preference_title">Абаненты, якія выклікаюць вас упершыню</string>
     <string name="flip_to_shush_title">Перавярнуць для рэжыму \"Тсс\"</string>
     <string name="flip_to_silence_summary">Каб выключыць гук уваходнага выкліку, пакладзіце тэлефон на роўную паверхню экранам уніз</string>
     <string name="flip_to_silence_title">Перавярнуць для бязгучнага рэжыму</string>
+    <string name="foreground_notification_title">Ідзе абнаўленне…</string>
     <string name="frequent_contact_suggestion">Часта выклікаюцца</string>
     <string name="general_learn_more">Даведацца больш</string>
     <string name="generic_conference_call_name">У выкліку</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">Даведацца больш пра тое, як захоўваюцца запісы</string>
     <string name="how_it_works_storage_template">Калі ў сховішчы тэлефона скончыцца месца, запіс выклікаў будзе прыпынены. ^1</string>
     <string name="icon_content_description">Значок дыялогавага акна</string>
+    <string name="icon_description_shared_data_call">Выклік праз інтэрнэт-падключэнне іншай SIM-карты</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Імпартаваць нумары</string>
     <string name="ims_video_heading">Відэавыклік Verizon</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">У вас няма прапушчаных выклікаў</string>
     <string name="new_call_log_permission_no_calllog">Каб прагледзець журнал выклікаў, дазвольце доступ да Тэлефона.</string>
     <string name="new_call_log_secondary_blocked">Заблакіравана</string>
+    <string name="new_call_log_secondary_verified">Спраўджаны выклік</string>
     <string name="new_call_log_snack_bar_deleted">Выклік выдалены</string>
     <string name="new_call_log_snack_bar_undo">Адрабіць</string>
     <string name="new_call_log_unknown">Невядома</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">Відэа</string>
     <string name="notification_action_dismiss">Адхіліць</string>
     <string name="notification_action_end_call">Скончыць размову</string>
+    <string name="notification_action_mute_toggle">Выключыць гук</string>
     <string name="notification_action_speaker_off">Выключыць дынамік</string>
     <string name="notification_action_speaker_on">Уключыць дынамік</string>
+    <string name="notification_action_speaker_toggle">Дынамік</string>
     <string name="notification_callReasonMsg">Прычына: %s</string>
     <string name="notification_call_wifi_brand">Выклік праз Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Выклік па працы праз Wi-Fi</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">Кнопка для відэавыкліку праз аператара.</string>
     <string name="play">Прайграць</string>
     <string name="plus_code_line_format">Плюс-код: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Абаненты, якія могуць быць спамерамі, што выкарыстоўваюць зменены нумар</string>
+    <string name="possibly_faked_numbers_action_preference_title">Патэнцыйна падробленыя нумары</string>
     <string name="post_call_message">Паведаміце прычыну выкліку</string>
     <string name="post_call_message_1">Гэта тэрмінова. Выклікайце мяне.</string>
     <string name="post_call_message_2">Выклікайце мяне, калі будзеце мець час.</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">Палітыка прыватнасці</string>
     <string name="private_num_non_verizon">Прыватны нумар</string>
     <string name="private_num_verizon">Абмежавана</string>
+    <string name="private_or_hidden_action_preference_description">Абаненты, якія хаваюць свой нумар</string>
+    <string name="private_or_hidden_action_preference_title">Прыватныя ці схаваныя нумары</string>
     <string name="quick_contact_checkbox_description">Выбраць кантакт</string>
     <string name="ready_for_recording">Гатова…</string>
     <string name="record_greeting_cancel_label">Скасаваць</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">Ідзе захаванне…</string>
     <string name="record_voicemail_greeting_title">Запісаць вітанне</string>
     <string name="recording_category_title">Запісы</string>
+    <string name="recording_deleted">Запіс выдалены</string>
+    <string name="recording_deletion_failed">Не ўдалося выдаліць запіс [Паўтарыце спробу]</string>
     <string name="redo_button_text">Паўтарыце спробу</string>
     <string name="remember_this_choice_label">Запомніць гэты выбар</string>
     <string name="report_not_spam_alert_button">Паведаміць</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">Перазваніце мне</string>
     <string name="request_email_description">Адпраўце мне ліст</string>
     <string name="respond_via_sms_setting_title">Хуткія адказы</string>
+    <string name="revelio_callers_how_it_works_text">"Каб выключыць аўтаматычнае фільтраванне, выберыце для невядомых нумароў варыянт \"Прайграць рынгтон (стандартна)\". Выклікі ад вашых кантактаў ніколі не фільтруюцца аўтаматычна. Аўтаматычнае фільтраванне не працуе, калі тэлефон падключаны да навушнікаў ці дынамікаў. 
+Падчас працы Фільтра выклікаў не выкарыстоўваецца мабільная перадача даных ці Wi-Fi, аднак расходуюцца хвіліны, уключаныя ў тарыфны план вашага аператара. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Выдаляць праз 30 дзён</string>
+    <string name="revelio_delete_old_recordings_setting_title">Аўтаматычна выдаляць старыя запісы і расшыфроўкі</string>
+    <string name="revelio_demo_setting_title">Як працуе Фільтр выклікаў</string>
     <string name="revelio_demo_turn_on">Уключыць</string>
     <string name="revelio_end_call_reject_as_spam">Выклік быў пазначаны як спам</string>
     <string name="revelio_end_call_user_missed_internal_message">Выклік быў прапушчаны</string>
+    <string name="revelio_pref_title">Фільтр выклікаў</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Аўтаматычнае фільтраванне выключана</string>
+    <string name="revelio_preference_summary_screening">Фільтраванне: %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Захоўваць аўдыязапісы выклікаў, на якія адказаў ваш Памочнік</string>
+    <string name="revelio_save_audio_setting_title">Захоўваць аўдыязапісы Фільтра выклікаў</string>
+    <string name="revelio_setting_title">Фільтр выклікаў</string>
     <string name="rtt_assist_default">Функцыя RTT дапамагае абанентам з парушэннямі слыху і маўлення. ^1</string>
     <string name="rtt_assist_for_att">"Экранная клавіятура для функцыі \"Тэкст у рэжыме рэальнага часу\" (RTT) з'яўляецца альтэрнатывай знешнім клавіятурам TTY. Калі вы адпраўляеце тэкставыя паведамленні падчас выкліку RTT, ваш суразмоўнік бачыць, што вы набіраеце тэкст, у рэжыме рэальнага часу. ^1"</string>
     <string name="rtt_assist_for_tmo">"Экранная клавіятура для функцыі \"Тэкст у рэжыме рэальнага часу\" (RTT) з'яўляецца альтэрнатывай знешнім клавіятурам TTY. Тэкст, які вы набіраеце падчас тэлефоннага выкліку, імгненна адпраўляецца вашаму суразмоўніку, што дазваляе абменьвацца тэкставымі паведамленнямі ў рэжыме рэальнага часу. Вы зможаце ўбачыць частковы адказ яшчэ да таго, як суразмоўнік дапіша паведамленне. ^1"</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">Назад</string>
     <string name="rtt_button_downgrade">Пераключыцца на галасавы выклік</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Функцыя RTT недаступная для гэтага выкліку. Выкарыстоўваецца галасавы выклік.</string>
+    <string name="rtt_call_downgraded_toast">Выклік RTT зменены на галасавы</string>
+    <string name="rtt_call_not_available_toast">Функцыя RTT недаступная для гэтага выкліку</string>
     <string name="rtt_configuration_summary_always_visible">"Кнопка тэксту ў рэжыме рэальнага часу з'яўляецца даступнай усюды"</string>
     <string name="rtt_configuration_summary_not_visible">Дазволіць уваходныя выклікі RTT, але схаваць кнопку выкліку</string>
     <string name="rtt_configuration_summary_visible_during_call">Паказваць кнопку тэксту ў рэжыме рэальнага часу, калі ідзе выклік</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">Глядзіце расшыфроўку</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Гэта паведамленне будзе паўтарацца.</string>
+    <string name="save_audio_error_cant_load_value">Не ўдалося атрымаць бягучае значэнне параметра \"Захоўваць аўдыязапісы Фільтра выклікаў\"</string>
+    <string name="save_audio_error_cant_set_value">Не ўдалося захаваць значэнне параметра \"Захоўваць аўдыязапісы Фільтра выклікаў\"</string>
     <string name="save_button_text">Захаваць</string>
     <string name="saved_voicemails_action_title">Захаваныя галасавыя паведамленні (%1$s)</string>
     <string name="search_hint">Пошук кантактаў для відэавыкліку</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">Адправіць паведамленне</string>
     <string name="send_to_voicemail_import_failed">Імпарт не ўдаўся</string>
     <string name="serial_number">Серыйны нумар</string>
+    <string name="set_as_default_button_text">Зрабіце стандартнай</string>
     <string name="set_default_account">Заўсёды выкарыст. гэта для выклікаў</string>
     <string name="set_default_account_description">Параметры SIM-карты захоўваюцца ў наладах кантактаў.</string>
+    <string name="set_phone_as_default_explanation_text">Каб рабіць і прымаць выклікі праз праграму \"Тэлефон\", зрабіце яе стандартнай праграмай для выклікаў</string>
+    <string name="set_phone_as_default_request_text">Зрабіце праграму \"Тэлефон\" стандартнай</string>
     <string name="settings">Налады</string>
     <string name="settings_page_call_recording_feature_not_available_text">Запіс выклікаў недаступны ў вашым рэгіёне</string>
     <string name="settings_page_crosby_feature_not_available_text">Недаступна ў вашым рэгіёне</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">Адрабіць</string>
     <string name="snackbar_voicemail_deleted">Павед.галасавой пошты выдалена</string>
     <string name="sounds_and_vibration_title">Гукі і вібрацыя</string>
+    <string name="spam_action_preference_description">Нумары з базы даных Google аб спамерах</string>
+    <string name="spam_action_preference_title">Спам</string>
     <string name="spam_and_call_screen_settings_title">Фільтр выклікаў і спам</string>
     <string name="spam_blocking_promo_action_dismiss">Адхіліць</string>
     <string name="spam_blocking_promo_action_filter_spam">Фільтраваць спам</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">Дадаць</string>
     <string name="speed_dial_contacts_permission_description">Каб уключыць хуткі набор, уключыце дазвол для Кантактаў.</string>
     <string name="speed_dial_disambig_dialog_title">Выберыце, як выклікаць абанента %s</string>
-    <string name="speed_dial_education_content">Для пераключэння паміж выклікамі і паведамленнямі націсніце і ўтрымлівайце любы кантакт</string>
-    <string name="speed_dial_education_title">Іншыя спосабы сувязі</string>
     <string name="speed_dial_no_contacts_action_text">Дадаць у абраныя</string>
     <string name="speed_dial_no_contacts_description">Выклікайце абраныя кантакты адным дотыкам</string>
     <string name="speed_dial_remember_this_choice">Запомніць гэты выбар</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">Умовы выкарыстання</string>
     <string name="textmessage_button_label">Паведамленне</string>
     <string name="theme_preference_label">Выбраць тэму</string>
+    <string name="tidepods_call_screen_settings_title">Фільтр выклікаў</string>
+    <string name="tidepods_incall_label_record">Запісаць</string>
     <string name="toast_text_copied">Тэкст скапіраваны</string>
     <string name="toolbar_back">Назад</string>
     <string name="toolbar_close">Закрыць</string>
     <string name="transcript_audio_feedback_chip_text">Дапамажыце палепшыць функцыю</string>
+    <string name="transcript_audio_feedback_link_text">Азнаёміцца з расшыфроўкай і аўдыязапісам</string>
     <string name="transcript_snippet_low_confidence_description">(Гук быў невыразным)</string>
+    <string name="try_again_button">Паўтарыць спробу</string>
     <string name="tty_configuration_title_tty_full">Поўнафункцыянальны TTY</string>
     <string name="tty_configuration_title_tty_hco">TTY з магчымасцю чуць суразмоўніка</string>
     <string name="tty_configuration_title_tty_off">TTY выключаны</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">Выходны відэавыклік пераведзены на іншую прыладу</string>
     <string name="type_rejected">Адхілены выклік</string>
     <string name="type_voicemail">Галасавая пошта</string>
-    <string name="unable_change_value_error">Не ўдалося змяніць налады RTT. Вярніцеся назад і паўтарыце спробу.</string>
     <string name="unable_read_value_error">Не ўдалося загрузіць налады RTT. Вярніцеся назад і паўтарыце спробу.</string>
     <string name="unblock_number">Разблакіраваць</string>
     <string name="unblock_number_alert_details">Нумар будзе разблакіраваны і пазначаны як не спам. Будучыя выклікі не будуць вызначацца як спам.</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">Разблакіраваць</string>
     <string name="unblock_report_number_alert_title">Разблакіраваць нумар %1$s?</string>
     <string name="unknown">Невядомы</string>
+    <string name="unknown_call_settings_category_preference_title">Налады для невядомых нумароў</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Уключыць гук уваходнага выкліку</string>
     <string name="user_is_busy_description">Я вам перазваню</string>
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">Відэа гэтага чалавека ўключана</string>
     <string name="videocall_remotely_held">Выклік на ўтрыманні</string>
     <string name="videocall_remotely_resumed">Выклік адноўлены</string>
+    <string name="videocall_settings_default_carrier">Відэавыклікі праз аператара</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Стандартны сэрвіс відэавыклікаў</string>
+    <string name="videocall_settings_fallback_summary">Пераключацца на Duo, калі відэавыклікі праз аператара недаступныя</string>
+    <string name="videocall_settings_fallback_title">Выкарыстоўваць Duo у якасці рэзервовага сэрвісу</string>
+    <string name="videocall_settings_title">Відэавыклікі</string>
     <string name="videocall_show_preview_button_description">Паказаць сваё відэа</string>
     <string name="view">Праглядзець</string>
     <string name="view_location_settings">Налады месцазнаходжання</string>
     <string name="vitle_label">Відэасувязь па LTE</string>
+    <string name="viwifi_label">Відэавыклік праз Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Новы PIN-код змяшчае няправільныя сімвалы.</string>
     <string name="vm_change_pin_error_mismatch">Стары PIN-код не падыходзіць.</string>
     <string name="vm_change_pin_error_system_error">Немагчыма змяніць PIN-код</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">Пачакайце.</string>
     <string name="voice_call">Галасавы выклік</string>
     <string name="voice_call_button">Выклікаць</string>
+    <string name="voice_display_name">Голас %1$d</string>
     <string name="voice_search_not_available">Галасавы пошук недаступны</string>
     <string name="voice_selector_preference_title">Даступныя галасы</string>
+    <string name="voice_settings_available_voices_text">Даступныя галасы</string>
+    <string name="voice_settings_title">Голас</string>
     <string name="voicecall_button_label">Выклік</string>
     <string name="voicecall_button_wifi_description">Выклікаць праз Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s у %2$s</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">Дапамажыце палепшыць якасць расшыфроўкі</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Пры выкарыстанні візуальнай галасавой пошты абанентамі SIM-карт, для якіх не аформлены план перадачы даных, аператар можа спаганяць плату</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Візуальная галасавая пошта даступная толькі для выбранай SIM-карты для перадачы даных</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Калі ў вас некалькі SIM-карт і адна з іх для Fi, ваша SIM-карта Fi будзе выкарыстоўвацца для візуальнай галасавой пошты</string>
     <string name="voicemail_error_activating_message">Апавяшчэнні галасавой пошты могуць вам не прыходзіць, пакуль візуальная галасавая пошта не будзе поўнасцю актывавана. Каб атрымаць новыя паведамленні да завяршэння актывацыі, пазваніце на галасавую пошту.</string>
     <string name="voicemail_error_activating_title">Актывацыя візуальнай галасавой пошты</string>
     <string name="voicemail_error_activation_disabled_message">Зрабіце выклік на галасавую пошту, каб завяршыць наладжванне</string>
@@ -1350,10 +1439,10 @@
     <string name="voicemail_visual_voicemail_donation_switch_title">Аналіз транскрыпцый галасавой пошты</string>
     <string name="voicemail_visual_voicemail_switch_title">Візуальная галасавая пошта</string>
     <string name="voicemail_visual_voicemail_transcription_switch_title">Расшыфроўка галасавой пошты</string>
-    <string name="votle_label">Галас. сувязь па LTE</string>
-    <string name="vowifi_label">Гал. сувязь па Wi-Fi</string>
-    <string name="voz4g_label">Галас. сувязь па 4G</string>
-    <string name="vozwifi_label">Гал. сувязь па Wi-Fi</string>
+    <string name="votle_label">Галасавая сувязь па LTE</string>
+    <string name="vowifi_label">Галасавая сувязь па Wi-Fi</string>
+    <string name="voz4g_label">Галасавая сувязь па 4G</string>
+    <string name="vozwifi_label">Галасавая сувязь па Wi-Fi</string>
     <string name="vvm3_error_imap_error_message">Звяжыцеся са Службай падтрымкі па нумары %1$s і паведаміце код памылкі 9999.</string>
     <string name="vvm3_error_imap_error_title">Нешта пайшло не так</string>
     <string name="vvm3_error_imap_getquota_error_message">Звяжыцеся са Службай падтрымкі па нумары %1$s і паведаміце код памылкі 9997.</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Не ўдалося падключыцца да вашай галасавой скрынкі</string>
     <string name="vvm3_error_vms_timeout_message">На жаль, узнікла праблема. Паўтарыце спробу пазней. Калі праблема не знікне, звяжыцеся са Службай падтрымкі па нумары %1$s і паведаміце код памылкі 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Нешта пайшло не так</string>
+    <string name="vvm_config_title">Налады візуальнай галасавой пошты</string>
     <string name="vvm_unsupported_message_format">Гэты тып паведамлення не падтрымліваецца; каб праслухаць, патэлефануйце на %s.</string>
     <string name="wait_prompt_str">"Адправіць наступныя тоны?
 "</string>

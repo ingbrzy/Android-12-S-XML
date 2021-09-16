@@ -87,7 +87,7 @@
 Diğer konularla ilgili bilgi almaya devam edebilir veya bu bilgileri TalkBack ayarlarında istediğiniz zaman inceleyebilirsiniz."</string>
     <string name="all_set_title">Hepsi bu kadar.</string>
     <string name="always_show_this_message_label">Bu mesajı her zaman göster</string>
-    <string name="application_name">Android Erişilebilirlik Araçları</string>
+    <string name="application_name">Android Erişilebilirlik Seti</string>
     <string name="arc_android_window">Uygulama penceresi</string>
     <string name="arc_navigation_hint">Gezinmek için ok tuşlarıyla aramaya basın</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Kısayolların listesini görmek için %1$s tuşlarına basın</string>
@@ -105,7 +105,7 @@ Diğer konularla ilgili bilgi almaya devam edebilir veya bu bilgileri TalkBack a
     <string name="audio_focus_state">Sesi kısma %1$s</string>
     <string name="auto_detect">Cihazı tutuş şeklime göre belirle</string>
     <string name="auto_scan_action_description">Taramayı başlatın ve seçin</string>
-    <string name="auto_scan_or_select">Otomatik tarama\" veya \"Seç</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Otomatik tarama\" veya \"Seç\"</string>
     <string name="available_devices_header">Kullanılabilir Bluetooth cihazları</string>
     <string name="basic_navigation_link_subtext">Öğeler arasında geçiş yapın, kaydırın, menüleri kullanın ve daha fazlasını yapın</string>
     <string name="basic_navigation_link_text">Temel gezinme</string>
@@ -157,6 +157,9 @@ Diğer konularla ilgili bilgi almaya devam edebilir veya bu bilgileri TalkBack a
     <string name="cam_switch_enable_banner_text_label_generic">"Cihazınızı kontrol etmek için önce Anahtar Erişimi'ni etkinleştirmeniz gerekir."</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">"Kamera Anahtarları'nı aç"</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">"Anahtar Erişimi'ni aç"</string>
+    <string name="cam_switches_combined_preferences_title">\"%1$s\" ayarları</string>
+    <string name="cam_switches_preferences_title">Kamera Anahtarı ayarları</string>
+    <string name="cam_switches_single_preferences_title">\"%s\" ayarları</string>
     <string name="camera_switches_status_active">Kamera Anahtarları Etkin</string>
     <string name="camera_switches_status_error">Hata</string>
     <string name="camera_switches_status_no_face">Yüz algılanmadı</string>
@@ -263,7 +266,7 @@ Aşağıdaki metin kutusuna bir kelime yapıştırmayı deneyin."</string>
     <string name="default_action_name_pause">Kamera Anahtarını duraklat</string>
     <string name="default_action_name_point_scan">Nokta taraması</string>
     <string name="dialog_confirm_revert_to_default_menu">Onayla</string>
-    <string name="dialog_do_not_disturb_permission_message">"Ses düzeyini Anahtar Erişimi menüsünden ayarlamak için Android Erişilebilirlik Araçları'nın Rahatsız Etmeyin erişimini açın"</string>
+    <string name="dialog_do_not_disturb_permission_message">"Ses düzeyini Anahtar Erişimi menüsünden ayarlamak için Android Erişilebilirlik Seti'nin Rahatsız Etmeyin erişimini açın"</string>
     <string name="dialog_do_not_disturb_permission_title">"Anahtar Erişimi'nin ses düzeyini ayarlamak için izne ihtiyacı var"</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Ayarları aç</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">"Kamera Anahtarları'nın çalışması için yaklaşık 10 MB'lık ek veri indirilmesi gerekiyor. Bu işlem ağ hızınıza bağlı olarak bir dakika kadar sürer."</string>
@@ -399,6 +402,7 @@ Bu hareketi şimdi ekrana dokunup sonraki düğmeyi bulana kadar parmağınızı
     <string name="fallback_menu_item_open_in_browser">Tarayıcıda aç</string>
     <string name="fallback_menu_item_share_link">Bağlantıyı paylaş</string>
     <string name="fast_radio_button_title">Hızlı (%1$s sn. gecikme)</string>
+    <string name="fast_radio_button_title_content_description">Hızlı (%1$s saniye gecikme)</string>
     <string name="find_finish_button_text">Bitir düğmesini bulmak için parmağınızı sağa kaydırın.</string>
     <string name="finish">Son</string>
     <string name="finish_tutorial_announcement">Braille klavye gösteriliyor. Telefonunuzu ekranı size dönük olmayacak şekilde çevirin. Telefonu döndürerek yatay konuma getirin. Ardından yazmaya başlayın.</string>
@@ -747,6 +751,7 @@ Dahili görünüm adı: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Kilit ekranı</string>
     <string name="medium_radio_button_title">Orta (%1$s sn. gecikme)</string>
+    <string name="medium_radio_button_title_content_description">Orta (%1$s saniye gecikme)</string>
     <string name="menu_category_reading_controls">Okuma</string>
     <string name="menu_category_special_features">Öne çıkan özellikler</string>
     <string name="menus_selector_text">"Bu kısayollar, gezinme tercihinizi karakter yerine kelime bazında yapmak veya TalkBack'in konuşma hızını değiştirmek gibi ayarları hızlıca değiştirmenize yardımcı olabilir.
@@ -767,6 +772,7 @@ TalkBack menüsünü ve okuma kontrollerinizi daha sonra TalkBack ayarlarında �
 Şimdi aşağıya, ardından sağa kaydırarak TalkBack menüsünü açın."</string>
     <string name="menus_title">Menü ve kontroller</string>
     <string name="message_in_reset_keymap_confirm_dialog">Bu tuş eşleme için kısayol tuşlarını varsayılan değerlerine sıfırlamak istediğinizden emin misiniz? Bu işlemin geri alınamayacağını lütfen unutmayın.</string>
+    <string name="message_request_phone_permission">TalkBack, görüşmeyi kesintiye uğratacak duyuruları azaltabilmek için gerçekleşen telefon aramalarını bilmek istiyor.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Tüm hareketler sıfırlanıp varsayılan işlemleri yapmaya başlayacak.
 
 Yaptığınız tüm değişiklikleri kaybedeceksiniz."</string>
@@ -996,6 +1002,7 @@ Ekrana 2 parmakla dokunun. 2, 3 veya 4 parmakla bir, iki veya üç kere dokunara
     <string name="pref_reduce_window_delay_title">Pencere duyuru gecikmesini azalt</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Kamera Anahtarı ekle</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Fiziksel anahtarları temizle</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Düğme için ayarları yapılandırın: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">"Kamera Anahtarları'nı düzenle"</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Atanmış Kamera Anahtarı yok</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">\"%s\" işlemine Kamera Anahtarları atayın</string>
@@ -1016,9 +1023,9 @@ Ekrana 2 parmakla dokunun. 2, 3 veya 4 parmakla bir, iki veya üç kere dokunara
     <string name="pref_sa_face_playground_stop_preview_content_description">Önizlemeyi durdur</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Etkinleştir</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">"Bu test alanını kullanabilmek için Kamera Anahtarları'nın etkinleştirilmiş olması gerekir"</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Deneyin: Ağzı açma, gülümseme ve benzeri tüm yüz hareket türlerini önizleyin</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Dene</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Deneyin: %1$s yüz hareketleri</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Test alanı duraklatıldı. Yeniden başlatmak için aşağıdaki düğmeyi kullanın.</string>
     <string name="pref_selector_summary">Ayar seçmek için %1$s hareketini yapın. Ardından ayarı düzenlemek için %2$s hareketini yapın.</string>
     <string name="pref_selector_summary_two_select_gesture">Bir ayar seçmek için %1$s veya %2$s hareketini yapın. Ardından ayarı düzenlemek için %3$s hareketini yapın.</string>
@@ -1069,6 +1076,7 @@ Cihazınız yine de bağlanmazsa Bluetooth ayarlarına gidin ve yeniden bağlanm
     <string name="reduce_speed_button">Hızı Azalt</string>
     <string name="remaining_calibration_finish_announcement">Tüm nokta konumları güncellendi</string>
     <string name="reminder_announcement">Diğer seçenekler için 3 parmağınızla ekranı yukarı doğru kaydırın</string>
+    <string name="remove_assigned_switch">%s için anahtar atamasını kaldırın</string>
     <string name="report_gesture_description">Son gerçekleştirilen hareketler aşağıda verilmiştir. Lütfen hangi hareketin yanlış olduğunu ve hareketten ne beklendiğini bildirin.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Sıfırla</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Sıfırla</string>
@@ -1149,6 +1157,7 @@ Liste öğelerinin alt kısmına gidene kadar 2 parmağınızla yukarıya kaydı
     <string name="search_mode_hint_no_selection">Seçili öğe yok.</string>
     <string name="search_mode_hint_query">Geçerli sorgu: %1$s.</string>
     <string name="search_mode_hint_selection">Geçerli seçim: %1$s.</string>
+    <string name="select_for_point_scan">\"Seçin\"</string>
     <string name="select_setting_hint">Farklı bir ayar seçmek için %1$s hareketini yapın</string>
     <string name="selecting_text_text">"İmleci, metin kutusunda seçmek istediğiniz metnin başladığı yere taşıyın.
 
@@ -1209,6 +1218,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="shortcut_media_control">Medyayı oynat veya duraklat</string>
     <string name="shortcut_next">Sonraki öğe</string>
     <string name="shortcut_next_granularity">Sonraki gezinme ayarı</string>
+    <string name="shortcut_next_window">Sonraki pencere</string>
     <string name="shortcut_not_customizable">%1$s, özelleştirilemez</string>
     <string name="shortcut_notifications">Bildirimler</string>
     <string name="shortcut_overview">Genel Bakış</string>
@@ -1221,6 +1231,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="shortcut_practice_gestures">Hareketler için alıştırma yap</string>
     <string name="shortcut_previous">Önceki öğe</string>
     <string name="shortcut_previous_granularity">Önceki gezinme ayarı</string>
+    <string name="shortcut_previous_window">Önceki pencere</string>
     <string name="shortcut_print_node_tree">Düğüm ağacını yazdır</string>
     <string name="shortcut_print_performance_stats">Performans istatistiklerini yazdır</string>
     <string name="shortcut_quick_settings">Hızlı Ayarlar</string>
@@ -1260,6 +1271,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
 • Kesintisiz okuma modunu başlatmak için sallama"</string>
     <string name="six_hold_announcement">Cihazınızı düz bir şekilde masanın üzerine koyarak da yazabilirsiniz. Şimdi deneyin. Yakınınızda bir masa yoksa aşağı kaydırarak ileri atlayın.</string>
     <string name="slow_radio_button_title">Yavaş (%1$s sn. gecikme)</string>
+    <string name="slow_radio_button_title_content_description">Yavaş (%1$s saniye gecikme)</string>
     <string name="sound_feedback_state">Sesli geri bildirim %1$s</string>
     <string name="sound_feedback_summary">Bir şeyin değiştiğini belirtmek için bir ses çal (ör. ekrandaki içerik değiştiğinde)</string>
     <string name="speak_container_element_position_summary_off">Liste ve kılavuz bilgileri sesli okunmaz</string>
@@ -1333,17 +1345,17 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="summary_pref_face_switches_debounce_time">Bu süre içinde algılanan birden fazla Kamera Anahtarı tetikleyici, tek bir tetikleyici olarak işlenir.</string>
     <string name="summary_pref_face_switches_enabled">"Kamera Anahtarları, ekrana baktığınızı algılamak ve yüz hareketlerinizi tanımak için ön kamerayı kullanır. Görüntüler saklanmaz veya Google'a gönderilmez."</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Bir hareket sonucunda ekranda değişen bir şey olduğunda ses duyulur</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Bir hareketi ne kadar sürdürdüğünüze dair görsel bir işaret gösterir</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Kamera Anahtarları etkin olduğu sürece ekranı açık tutar. Ekran kapanırsa Kamera Anahtarları ekran kilidini açamaz.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Yüz algılanmadı</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Herhangi bir yüz hareketini yapın. Kaydedilirse hareketin adı görünür. Çıkmak için herhangi bir hareketi %1$d saniye boyunca devam ettirin.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Başınızı sabit tutun ve yüzünüzü kameraya dönün. Ardından %s.</string>
     <string name="summary_pref_play_store">Geçerli TalkBack Sürümü: %1$s</string>
-    <string name="summary_pref_point_scan">Belirli bir yatay ve dikey konumu seçmek için hareketli çizgileri kullanın. Nokta taramasına başlamak için \"%1$s\" anahtarına basın. %2$s</string>
+    <string name="summary_pref_point_scan">Belirli bir yatay ve dikey konumu seçmek için hareketli çizgileri kullanın. Nokta taramasına başlamak için %1$s anahtarına basın. %2$s</string>
     <string name="summary_pref_reverse_dots">Nokta konumlarını, örneğin 1 ve 4. noktayı birbirlerinin yerine geçecek şekilde değiştirebilirsiniz</string>
     <string name="summary_pref_revert_to_default_menu">Anahtar Erişimi menüsünü, varsayılan menü öğeleri listesine sıfırlar.</string>
-    <string name="summary_pref_single_tap">(Deneysel) Etkinleştirmek için odaklanılan öğeye bir kez dokunun</string>
+    <string name="summary_pref_single_tap">Etkinleştirmek için, odaklanılan öğeye bir kez dokunun</string>
     <string name="summary_pref_tree_debug_tv">Aramak yerine düğüm ağacını yazdırmak için sesli arama tuşunu kullanın</string>
     <string name="summary_pref_use_audio_focus">Konuşurken diğer sesleri kıs</string>
     <string name="summary_read_from_current">Sonraki öğeden başlayarak ekrandaki tüm öğeleri okur</string>
@@ -1479,10 +1491,10 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="switched_to_contracted_announcement">Kısaltılmış braille moduna geçildi</string>
     <string name="switched_to_ueb_uncontracted_announcement">Kısaltılmamış UEB moduna geçildi</string>
     <string name="switched_to_uncontracted_announcement">Kısaltılmamış braille moduna geçildi</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Yaklaşık</string>
     <string name="symbol_ampersand">Ve işareti</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Küçüktür işareti</string>
+    <string name="symbol_angle_bracket_right">Büyüktür işareti</string>
     <string name="symbol_apostrophe">Kesme işareti</string>
     <string name="symbol_approximately_equals">Yaklaşık olarak eşit</string>
     <string name="symbol_asterisk">Yıldız işareti</string>
@@ -1502,7 +1514,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_bullseye">Hedefin ortası</string>
     <string name="symbol_caret">Düzeltme işareti</string>
     <string name="symbol_celsius_degree">Santigrat derece</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Sent simgesi</string>
     <string name="symbol_circle_left_half_black">Sol yarısı siyah daire</string>
     <string name="symbol_circle_right_half_black">Sağ yarısı siyah daire</string>
     <string name="symbol_colon">İki Nokta</string>
@@ -1511,7 +1523,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_curly_bracket_left">Sol kıvrık ayraç</string>
     <string name="symbol_curly_bracket_right">Sağ kıvrık ayraç</string>
     <string name="symbol_currency_sign">Para birimi işareti</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Derece işareti</string>
     <string name="symbol_division">Bölme işareti</string>
     <string name="symbol_dollar_sign">Dolar işareti</string>
     <string name="symbol_downwards_arrow">Aşağı Ok</string>
@@ -1563,7 +1575,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_middle_dot">Orta nokta</string>
     <string name="symbol_multiplication">Çarpma işareti</string>
     <string name="symbol_new_line">Yeni satır</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Eşit değildir</string>
     <string name="symbol_not_sign">Değil işareti</string>
     <string name="symbol_paragraph_mark">Paragraf işareti</string>
     <string name="symbol_parenthesis_left">Sol parantez</string>
@@ -1574,7 +1586,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_plus_minus_sign">Artı eksi işareti</string>
     <string name="symbol_postal_mark">Posta işareti</string>
     <string name="symbol_pound">Kare</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Sterlin para birimi simgesi</string>
     <string name="symbol_quarter_note">Çeyrek Nota</string>
     <string name="symbol_question_mark">Soru işareti</string>
     <string name="symbol_quotation_mark">Tırnak</string>
@@ -1600,7 +1612,7 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_trademark">Ticari marka</string>
     <string name="symbol_underscore">Alt çizgi</string>
     <string name="symbol_upwards_arrow">Yukarı ok</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Dikey çizgi</string>
     <string name="symbol_white_circle">Beyaz daire</string>
     <string name="symbol_white_club_suit">Beyaz ispati grubu</string>
     <string name="symbol_white_diamond">Beyaz karo</string>
@@ -1614,8 +1626,8 @@ Aşağıdaki metin kutusunda \"Hoş geldiniz\" kelimesini seçmeyi deneyin."</st
     <string name="symbol_white_square">Beyaz kare</string>
     <string name="symbol_white_star">Beyaz yıldız</string>
     <string name="symbol_white_up_pointing_triangle">Yukarıyı gösteren beyaz üçgen</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Won para birimi simgesi</string>
+    <string name="symbol_won_sign">Won para birimi simgesi</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Sistem işlemleri</string>
     <string name="tabletop">Masa üstünde modu</string>
@@ -1930,7 +1942,7 @@ TalkBack'i kapatmak için:
     <string name="title_pref_show_context_menu_as_list">İçerik menüsünü liste olarak göster</string>
     <string name="title_pref_show_privacy_policy">Gizlilik politikası</string>
     <string name="title_pref_show_tos">Hizmet şartları</string>
-    <string name="title_pref_single_tap">Bir kez dokunarak etkinleştir</string>
+    <string name="title_pref_single_tap">Etkinleştirmek için bir kez dokunun</string>
     <string name="title_pref_sound_and_vibration">Ses ve titreşim</string>
     <string name="title_pref_soundback">Sesli geri bildirim</string>
     <string name="title_pref_soundback_volume">Sesli geri bildirim ses düzeyi</string>
@@ -1975,6 +1987,7 @@ TalkBack'i kapatmak için:
     <string name="title_previous_screen">Önceki ekran</string>
     <string name="title_read_from_top">Baştan başlayarak oku</string>
     <string name="title_repeat_last_spoken_phrase">Son söylenen ifadeyi tekrarla</string>
+    <string name="title_request_phone_permission">TalkBack İzin İstiyor</string>
     <string name="title_screen_summary">Ekran Özeti</string>
     <string name="title_seek_bar_controls">Kaydırma çubuğu</string>
     <string name="title_seek_bar_edit">Kaydırma çubuğu seviyesini düzenleyin</string>

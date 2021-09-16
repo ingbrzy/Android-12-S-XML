@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_controlsPreferredPackages">
+        <item>com.google.android.apps.chromecast.app</item>
+    </string-array>
+    <integer-array name="config_nfc_conflict_with_usb_audio_productid">
+        <item>0x00005034</item>
+    </integer-array>
+    <integer-array name="config_nfc_conflict_with_usb_audio_vendorid">
+        <item>0x000018D1</item>
+    </integer-array>
+    <string-array name="config_pluginWhitelist">
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+    </string-array>
+</resources>

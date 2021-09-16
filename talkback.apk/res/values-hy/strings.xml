@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Հավելվածների ձայնի իջեցումը %1$s</string>
     <string name="auto_detect">Շրջել ձեռքումս սարքի դիրքին համապատասխան</string>
     <string name="auto_scan_action_description">Սկսել որոնումը և ընտրել</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">«Ավտոմատ սկանավորում» կամ «Ընտրել»</string>
     <string name="available_devices_header">Հասանելի Bluetooth սարքեր</string>
     <string name="basic_navigation_link_subtext">Անցեք մի տարրից մյուսին, ոլորեք, օգտագործեք ընտրացանկեր և ավելին</string>
     <string name="basic_navigation_link_text">Հիմնական նավիգացիա</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Զուգակցված Bluetooth սարքեր չկան</string>
     <string name="bluetooth_not_enabled_message">Bluetooth փոխանջատիչ զուգակցելու համար միացրեք Bluetooth-ը</string>
     <string name="bluetooth_peripheral_content_description">Արտաքին սարք</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Կարգավորման օգնականի էջում Bluetooth փոխանջատիչ զուգակցելու համար միացրեք Bluetooth-ը և Android-ի հատուկ գործառույթներին հասանելի դարձրեք մոտակա սարքերն ու տրամադրեք տեղորոշման թույլտվություններ։</string>
     <string name="bluetooth_phone_content_description">Հեռախոս</string>
     <string name="bluetooth_switch_description_text">Զուգակցել փոխանջատիչը Bluetooth-ի միջոցով</string>
     <string name="bluetooth_switch_option_text">Bluetooth փոխանջատիչ</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">Սարքը կառավարելու համար նախ անհրաժեշտ է միացնել Switch Access գործառույթը։</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Բացել «Տեսախցիկի փոխանջատիչներ» գործառույթը</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Բացել Switch Access-ը</string>
+    <string name="cam_switches_combined_preferences_title">«%1$s» գործողության կարգավորումներ</string>
+    <string name="cam_switches_preferences_title">Տեսախցիկի փոխանջատիչի կարգավորումներ</string>
+    <string name="cam_switches_single_preferences_title">«%s» փոխանջատիչի կարգավորումներ</string>
     <string name="camera_switches_status_active">Տեսախցիկի փոխանջատիչներն ակտիվ են</string>
     <string name="camera_switches_status_error">Սխալ</string>
     <string name="camera_switches_status_no_face">Դեմք չի հայտնաբերվել</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">Բացել դիտարկիչում</string>
     <string name="fallback_menu_item_share_link">Կիսվել հղումով</string>
     <string name="fast_radio_button_title">Արագ (%1$s վ հապաղում)</string>
+    <string name="fast_radio_button_title_content_description">Արագ (%1$s վայրկյան հապաղում)</string>
     <string name="find_finish_button_text">Մատը սահեցրեք աջ՝ «Ավարտել» կոճակը գտնելու համար։</string>
     <string name="finish">Ավարտել</string>
     <string name="finish_tutorial_announcement">Ցուցադրվում է բրայլյան ստեղնաշարը։ Պտտեք հեռախոսի էկրանը հակառակ ուղղությամբ։ Փոխեք հեռախոսի դիրքը հորիզոնականի։ Ապա սկսեք մուտքագրել։</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d-ը՝ %2$d-ից</string>
     <string name="lockscreen_label">Կողպէկրան</string>
     <string name="medium_radio_button_title">Միջին (%1$s վ հապաղում)</string>
+    <string name="medium_radio_button_title_content_description">Միջին (%1$s վայրկյան հապաղում)</string>
     <string name="menu_category_reading_controls">Ընթերցում</string>
     <string name="menu_category_special_features">Հատուկ գործառույթներ</string>
     <string name="menus_selector_text">"Այս դյուրանցումների օգնությամբ դուք կարող եք արագ փոփոխել կարգավորումները (օր․՝ նավիգացիան նիշերից դարձնել բառերով կամ փոխել TalkBack-ի խոսքի արագությունը)։
@@ -767,6 +772,7 @@
 Այժմ բացեք TalkBack-ի ընտրացանկը՝ մատը սահեցնելով ներքև, ապա աջ։"</string>
     <string name="menus_title">Ընտրացանկ և կառավարման տարրեր</string>
     <string name="message_in_reset_keymap_confirm_dialog">Վերականգնե՞լ կանխադրված արագ ստեղներն այս դասավորության համար։</string>
+    <string name="message_request_phone_permission">TalkBack-ին հարկավոր է իմանալ, երբ հեռախոսազանգ է տեղի ունենում, որպեսզի գործառույթը կարողանա նվազեցնել ծանուցումների քանակը։</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Բոլոր ժեստերի կանխադրված կարգավորումները կվերականգնվեն։
 
 Ձեր կատարած ոչ մի փոփոխություն չի պահպանվի։"</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">Արագ հնչեցնել պատուհանների անունները</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Ավելացնել փոխանջատիչներ</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Ջնջել ֆիզիկական փոխանջատիչները</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Կարգավորել փոխանջատիչը՝ %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Փոփոխել փոխանջատիչները</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Փոխանջատիչ նշանակված չէ</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Նշանակել տեսախցիկի փոխանջատիչներ «%s» գործողության համար</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">Կանգնեցնել նախադիտումը</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Միացնել</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Այս փորձնական գործառույթն օգտագործելու համար տեսախցիկի փոխանջատիչները պետք է միացված լինեն։</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Փորձել՝ դիտել միմիկական շարժումների բոլոր տեսակները, այդ թվում՝ բերանը բացելը, ժպիտը և այլն</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Փորձել</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Փորձել՝ դիտել %1$s միմիկական շարժում</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Փորձնական գործառույթի աշխատանքը դադարեցված է։ Այն նորից միացնելու համար սեղմեք ներքևի կոճակը։</string>
     <string name="pref_selector_summary">%1$s՝ կարգավորում ընտրելու համար։ Ապա %2$s՝ կարգավորումը փոփոխելու համար։</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s կամ %2$s՝ կարգավորում ընտրելու համար։ Ապա %3$s՝ կարգավորումը փոփոխելու համար։</string>
@@ -1067,6 +1074,7 @@
     <string name="reduce_speed_button">Նվազեցնել արագությունը</string>
     <string name="remaining_calibration_finish_announcement">Բոլոր կետերի դիրքերը թարմացվեցին</string>
     <string name="reminder_announcement">Այլ տարբերակների համար 3 մատը սահեցրեք էկրանի վրայով</string>
+    <string name="remove_assigned_switch">Չեղարկել «%s» փոխանջատիչի նշանակումը</string>
     <string name="report_gesture_description">Սրանք վերջերս արված ժեստերն են։ Խնդրում ենք հայտնել, թե որ ժեստն է սխալ և ինչ գործողություն էիք ակնկալում։</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Վերակայել</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Վերակայել</string>
@@ -1147,6 +1155,7 @@
     <string name="search_mode_hint_no_selection">Ընտրված տարր չկա:</string>
     <string name="search_mode_hint_query">Ներկայիս հարցումը՝ %1$s:</string>
     <string name="search_mode_hint_selection">Ներկայիս ընտրությունը՝ %1$s:</string>
+    <string name="select_for_point_scan">«Ընտրել»</string>
     <string name="select_setting_hint">Այլ կարգավորում ընտրելու համար %1$s</string>
     <string name="selecting_text_text">"Տեքստ ընտրելու համար տեքստային դաշտում նշորդը տեղաշարժեք դեպի տեքստի սկիզբ։
 
@@ -1207,6 +1216,7 @@
     <string name="shortcut_media_control">Նվագարկել/դադարեցնել մեդիաֆայլը</string>
     <string name="shortcut_next">Հաջորդ տարրը</string>
     <string name="shortcut_next_granularity">Նավիգացիայի հաջորդ կարգավորումը</string>
+    <string name="shortcut_next_window">Հաջորդ պատուհանը</string>
     <string name="shortcut_not_customizable">«%1$s» ժեստը հնարավոր չէ կարգավորել</string>
     <string name="shortcut_notifications">Ծանուցումներ</string>
     <string name="shortcut_overview">Ընդհանուր տեղեկություններ</string>
@@ -1219,6 +1229,7 @@
     <string name="shortcut_practice_gestures">Ժեստերի օգտագործման վարժություններ</string>
     <string name="shortcut_previous">Նախորդ տարրը</string>
     <string name="shortcut_previous_granularity">Նավիգացիայի նախորդ կարգավորումը</string>
+    <string name="shortcut_previous_window">Նախորդ պատուհանը</string>
     <string name="shortcut_print_node_tree">Տպել հանգույցի ծառը</string>
     <string name="shortcut_print_performance_stats">Տպել վիճակագրությունը</string>
     <string name="shortcut_quick_settings">Արագ կարգավորումներ</string>
@@ -1258,6 +1269,7 @@
 • «Թափահարել՝ ընթերցելու համար» գործառույթ"</string>
     <string name="six_hold_announcement">Դուք նաև կարող եք մուտքագրել՝ հեռախոսը դնելով սեղանին։ Փորձեք հիմա։ Եթե մոտակայքում սեղան չկա, մատը սահեցրեք ներքև՝ այս քայլը բաց թողնելու համար։</string>
     <string name="slow_radio_button_title">Դանդաղ (%1$s վ հապաղում)</string>
+    <string name="slow_radio_button_title_content_description">Դանդաղ (%1$s վայրկյան հապաղում)</string>
     <string name="sound_feedback_state">Ձայնային արձագանք՝ %1$s</string>
     <string name="sound_feedback_summary">Նվագարկվում է ձայն՝ հասկացնելու, որ ինչ-որ բան փոխվել է (օր.՝ եթե էկրանի բովանդակությունը փոխվի)</string>
     <string name="speak_container_element_position_summary_off">Ցանկում և ցանցում տարրի դիրքի մասին տեղեկությունները չեն հնչեցվում</string>
@@ -1331,17 +1343,17 @@
     <string name="summary_pref_face_switches_debounce_time">Կրկնվող միմիկաները կդիտարկվեն որպես մեկ գործարկում։</string>
     <string name="summary_pref_face_switches_enabled">Գործառույթն օգտագործում է առջևի տեսախցիկը, որպեսզի ճանաչի միմիկաներն ու որոշի՝ արդյոք դուք նայում եք էկրանին։ Պատկերները չեն պահվում և չեն ուղարկվում Google-ին։</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Հնչեցնել ձայն, երբ միմիկայի միջոցով էկրանին գործողություն է գործարկվում</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Ցույց տալ ժեստի կատարման տևողության ցուցիչը</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Չանջատել էկրանը, երբ «Տեսախցիկի փոխանջատիչներ» գործառույթը միացված է։ Գործառույթը չի աշխատում կողպված էկրանին։</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Դեմք չի հայտնաբերվել</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Կատարեք որևէ միմիկական ժեստ։ Եթե միմիկան գրանցված է, կհայտնվի դրա անվանումը։ Դուրս գալու համար կատարեք ցանկացած միմիկական ժեստ %1$d վայրկյանի ընթացքում։</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Անշարժ պահեք գլուխը և նայեք տեսախցիկին։ Ապա %s։</string>
     <string name="summary_pref_play_store">TalkBack-ի ներկայիս տարբերակը՝ %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Տեղաշարժվող գծերի օգնությամբ ընտրեք ձեր ուզած հորիզոնական և ուղղաձիգ դիրքը։ Սեղմեք %1$s փոխանջատիչը՝ կետային սկանավորումը սկսելու համար։ %2$s</string>
     <string name="summary_pref_reverse_dots">Փոխարինել կետերը՝ օրինակ այնպես, որ 1-ն ու 4-ը տեղերով փոխվեն</string>
     <string name="summary_pref_revert_to_default_menu">Վերականգնել Switch Access ընտրացանկի տարրերի կանխադրված ցուցակը</string>
-    <string name="summary_pref_single_tap">Ակտիվացնելու համար մեկ անգամ հպեք ընդգծված տարրին (փորձնական)</string>
+    <string name="summary_pref_single_tap">Մեկ անգամ հպեք ընդգծված տարրին՝ այն ակտիվացնելու համար</string>
     <string name="summary_pref_tree_debug_tv">Ձայնային որոնման ստեղնը օգտագործել հանգույցի ծառը տպելու համար՝ որոնելու փոխարեն</string>
     <string name="summary_pref_use_audio_focus">Խոսելու ընթացքում ցածրացնել մյուս ձայները</string>
     <string name="summary_read_from_current">Ընթերցում է էկրանի բոլոր տարրերը՝ հաջորդ տարրից սկսած։</string>
@@ -1438,10 +1450,10 @@
     <string name="switched_to_contracted_announcement">Միացված է բրայլյան ստեղնաշարի կրճատված ռեժիմը</string>
     <string name="switched_to_ueb_uncontracted_announcement">Անցում կատարվեց UEB ստեղնաշարի հիմնական ռեժիմին</string>
     <string name="switched_to_uncontracted_announcement">Միացված է բրայլյան ստեղնաշարի հիմնական ռեժիմը</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Մոտավոր հավասարության նշան</string>
     <string name="symbol_ampersand">Ամպերսանդ</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Փոքրի նշան</string>
+    <string name="symbol_angle_bracket_right">Մեծի նշան</string>
     <string name="symbol_apostrophe">Ապաթարց</string>
     <string name="symbol_approximately_equals">Մոտավորապես հավասար է</string>
     <string name="symbol_asterisk">Աստղանիշ</string>
@@ -1461,7 +1473,7 @@
     <string name="symbol_bullseye">Թիրախ</string>
     <string name="symbol_caret">Տանիք</string>
     <string name="symbol_celsius_degree">Ցելսիուսի սանդղակ</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Ցենտի նշան</string>
     <string name="symbol_circle_left_half_black">Շրջանակ, որի ձախ կեսը սև է</string>
     <string name="symbol_circle_right_half_black">Շրջանակ, որի աջ կեսը սև է</string>
     <string name="symbol_colon">Միջակետ</string>
@@ -1470,7 +1482,7 @@
     <string name="symbol_curly_bracket_left">Ձախ ձևավոր փակագիծ</string>
     <string name="symbol_curly_bracket_right">Աջ ձևավոր փակագիծ</string>
     <string name="symbol_currency_sign">Փոխարժեքի նշան</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Աստիճանի նշան</string>
     <string name="symbol_division">Բաժանարարի նշան</string>
     <string name="symbol_dollar_sign">Դոլարի նշան</string>
     <string name="symbol_downwards_arrow">Ներքևի սլաք</string>
@@ -1522,7 +1534,7 @@
     <string name="symbol_middle_dot">Միջնակետ</string>
     <string name="symbol_multiplication">Բազմապատկման նշան</string>
     <string name="symbol_new_line">Նոր տող</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Անհավասարության նշան</string>
     <string name="symbol_not_sign">Անհամար</string>
     <string name="symbol_paragraph_mark">Պարբերության նշան</string>
     <string name="symbol_parenthesis_left">Ձախ փակագիծ</string>
@@ -1533,7 +1545,7 @@
     <string name="symbol_plus_minus_sign">«Գումարած-հանած» նշան</string>
     <string name="symbol_postal_mark">Փոստային նշան</string>
     <string name="symbol_pound">Ֆունտ</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Ֆունտ արտարժույթի նշան</string>
     <string name="symbol_quarter_note">Քառորդ նոտա</string>
     <string name="symbol_question_mark">Հարցական նշան</string>
     <string name="symbol_quotation_mark">Չակերտ</string>
@@ -1559,7 +1571,7 @@
     <string name="symbol_trademark">Ապրանքանիշ</string>
     <string name="symbol_underscore">Ընդգծում</string>
     <string name="symbol_upwards_arrow">Դեպի վեր սլաք</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Ուղղաձիգ գիծ</string>
     <string name="symbol_white_circle">Սպիտակ շրջանակ</string>
     <string name="symbol_white_club_suit">Սպիտակ խաչի նշան</string>
     <string name="symbol_white_diamond">Սպիտակ քյարփինջի նշան</string>
@@ -1573,8 +1585,8 @@
     <string name="symbol_white_square">Սպիտակ քառակուսի</string>
     <string name="symbol_white_star">Սպիտակ աստղ</string>
     <string name="symbol_white_up_pointing_triangle">Սպիտակ, դեպի վերև ուղղված եռանկյունի</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Վոն արտարժույթի նշան</string>
+    <string name="symbol_won_sign">Վոն արտարժույթի նշան</string>
     <string name="symbol_yen">Յեն</string>
     <string name="system_actions">Համակարգային գործողություններ</string>
     <string name="tabletop">Սեղանի ռեժիմ</string>
@@ -1742,7 +1754,7 @@ TalkBack-ի կարգավորումներում դուք կարող եք փոփե
     <string name="title_pref_category_assign_switches">Փոխանջատիչների նշանակում</string>
     <string name="title_pref_category_audio">Աուդիո</string>
     <string name="title_pref_category_auto_scan">Ավտոմատ սկանավորում</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Ավտոմատ սկանավորում (կետային սկանավորում)</string>
     <string name="title_pref_category_border_color">Գույն</string>
     <string name="title_pref_category_built_in_gestures">Ներկառուցված ժեստեր</string>
     <string name="title_pref_category_context_menu">Հարմարեցնել TalkBack-ի ընտրացանկը</string>
@@ -1826,7 +1838,7 @@ TalkBack-ի կարգավորումներում դուք կարող եք փոփե
     <string name="title_pref_red">Կարմիր</string>
     <string name="title_pref_resume_talkback">Վերսկսում կասեցումից հետո</string>
     <string name="title_pref_reverse_auto_scan_disabled">Հետադարձ ավտոմատ սկանավորում (անջատված է)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Հետադարձ ավտոմատ սկանավորում (կետային սկանավորում)</string>
     <string name="title_pref_reverse_dots">Կետերի հակառակ հերթականություն</string>
     <string name="title_pref_revert_to_default_menu">Վերադառնալ ընտրացանկի կանխադրված կարգավորումներին</string>
     <string name="title_pref_scan_non_actionable_items">Հնչեցնել նկարագրությունները</string>
@@ -1889,7 +1901,7 @@ TalkBack-ի կարգավորումներում դուք կարող եք փոփե
     <string name="title_pref_show_context_menu_as_list">Տեղային ընտրացանկը ցանկի տեսքով</string>
     <string name="title_pref_show_privacy_policy">Գաղտնիության քաղաքականություն</string>
     <string name="title_pref_show_tos">Օգտագործման պայմաններ</string>
-    <string name="title_pref_single_tap">Ակտիվացում մեկ հպումով</string>
+    <string name="title_pref_single_tap">Մեկ անգամ հպեք՝ ակտիվացնելու համար</string>
     <string name="title_pref_sound_and_vibration">Ձայն և թրթռոց</string>
     <string name="title_pref_soundback">Ձայնային արձագանք</string>
     <string name="title_pref_soundback_volume">Ազդանշանի բարձրությունը</string>
@@ -1934,6 +1946,7 @@ TalkBack-ի կարգավորումներում դուք կարող եք փոփե
     <string name="title_previous_screen">Նախորդ էկրանը</string>
     <string name="title_read_from_top">Ընթերցել վերևից</string>
     <string name="title_repeat_last_spoken_phrase">Կրկնել վերջին հնչեցված արտահայտությունը</string>
+    <string name="title_request_phone_permission">TalkBack-ը թույլտվություն է հայցում</string>
     <string name="title_screen_summary">Էկրանի բնութագիր</string>
     <string name="title_seek_bar_controls">Սահիչ</string>
     <string name="title_seek_bar_edit">Փոփոխել սահիչի մակարդակը</string>

@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Pridať do priečinka %1$s</string>
     <string name="add_to_home_screen">Pridať na plochu</string>
     <string name="added_to_folder">Položka bola pridaná do priečinka</string>
+    <string name="added_to_home_screen_accessibility_text">Na plochu bola pridaná miniaplikácia %1$s</string>
     <string name="all_apps_button_label">Zoznam aplikácií</string>
     <string name="all_apps_button_personal_label">Zoznam osobných aplikácií</string>
     <string name="all_apps_button_work_label">Zoznam pracovných aplikácií</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Pri otočení telefónu</string>
     <string name="allow_rotation_title">Povoliť otáčanie plochy</string>
     <string name="allset_description">Telefón môžete začať používať</string>
+    <string name="allset_hint">Potiahnutím nahor prejdete na plochu</string>
+    <string name="allset_navigation_settings"><annotation id="link">Nastavenia navigácie systémom</annotation></string>
     <string name="allset_title">Hotovo</string>
     <string name="app_downloading_title">Sťahuje sa aplikácia %1$s. Stiahnuté: %2$s</string>
     <string name="app_info_drop_target_label">Info o aplikácii</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">Aplikácia %1$s čaká na inštaláciu</string>
     <string name="auto_add_shortcuts_description">Pri inštalácii novej aplikácie</string>
     <string name="auto_add_shortcuts_label">Pridať ikony aplikácií na plochu</string>
+    <string name="back_gesture_feedback_cancelled">Musíte potiahnuť z pravého alebo ľavého okraja do stredu obrazovky a potom uvoľniť.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Naučili ste sa prejsť späť potiahnutím sprava. V ďalšom kroku sa naučíte prepínať aplikácie.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Dokončili ste gesto na prechod späť.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Nesmiete potiahnuť príliš blízko dolnej časti obrazovky.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Musite potiahnuť z úplne krajného pravého alebo ľavého okraja.</string>
     <string name="back_gesture_intro_subtitle">Na poslednú obrazovku prejdete potiahnutím z ľavého alebo pravého okraja do stredu obrazovky.</string>
     <string name="back_gesture_intro_title">Prejdite späť potiahnutím</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Ak chcete zmeniť citlivosť gesta Späť, prejdite do Nastavení</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Nový názov uložíte klepnutím</string>
     <string name="gadget_error_text">Miniaplikáciu sa nepodarilo načítať</string>
     <string name="gadget_setup_text">Nastavenie dokončíte klepnutím</string>
+    <string name="gesture_tutorial_action_button_label">Hotovo</string>
     <string name="gesture_tutorial_action_button_label_cancel">Zrušiť</string>
     <string name="gesture_tutorial_action_button_label_settings">Nastavenia</string>
     <string name="gesture_tutorial_action_button_label_skip">Preskočiť</string>
@@ -146,7 +152,7 @@
     <string name="home_gesture_feedback_overview_detected">Pred uvoľnením nesmiete zastať.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Musíte potiahnuť nahor z dolného okraja obrazovky.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Musíte potiahnuť priamo hore.</string>
-    <string name="home_gesture_intro_subtitle">Potiahnite nahor z dolného okraja obrazovky. Týmto gestom sa vždy vrátite na plochu.</string>
+    <string name="home_gesture_intro_subtitle">Potiahnite nahor zdola obrazovky. Týmto gestom sa vždy vrátite na plochu.</string>
     <string name="home_gesture_intro_title">Prechod na plochu potiahnutím</string>
     <string name="home_screen">Domov</string>
     <string name="hotsaet_tip_prediction_disabled">Návrhy aplikácií vypnuté</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Skúste okno pred uvoľnením podržať dlhšie.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Musíte potiahnuť nahor z dolného okraja obrazovky.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Musite potiahnuť priamo hore a potom zastať.</string>
+    <string name="overview_gesture_intro_subtitle">Aplikácie môžete prepínať potiahnutím obrazovky zdola nahor, pridržaním a následným uvoľnením.</string>
     <string name="overview_gesture_intro_title">Prepínanie aplikácií potiahnutím</string>
     <string name="overview_selection_pref_desc">Pri prepínaní aplikácií si môžete zobraziť akcie pridržaním textu a obrázkov</string>
     <string name="overview_selection_pref_title">Výber v Prehľade</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Sedadlo</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Predvoľby</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Prehľad udalostí</string>
     <string name="smartspace_preferences_in_settings_desc">V hornej časti plochy</string>
     <string name="smartspace_preferences_manage">Prispôsobiť</string>
     <string name="smartspace_preferences_turn_off_action">Vypnúť</string>

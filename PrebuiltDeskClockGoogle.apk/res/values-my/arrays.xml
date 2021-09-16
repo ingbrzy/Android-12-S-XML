@@ -17,14 +17,21 @@
         <item>၁၅ မိနစ်</item>
         <item>၂၀ မိနစ်</item>
         <item>၂၅ မိနစ်</item>
-        <item>ဘယ်တော့မှ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>အိပ်ချိန်မတိုင်မီ ၁၅ မိနစ်</item>
+        <item>အိပ်ချိန်မတိုင်မီ မိနစ် ၃၀</item>
+        <item>အိပ်ချိန်မတိုင်မီ ၄၅ မိနစ်</item>
+        <item>အိပ်ချိန်မတိုင်မီ ၁ နာရီ</item>
+        <item>ပိတ်</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>လက်တံနာရီ</item>
         <item>ဒစ်ဂျစ်တယ်</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ဘယ်တော့မှ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>၅ စက္ကန့်</item>
         <item>၁၀ စက္ကန့်</item>
         <item>၁၅ စက္ကန့်</item>
@@ -37,6 +44,35 @@
         <item>၅၀ စက္ကန့်</item>
         <item>၅၅ စက္ကန့်</item>
         <item>၆၀ စက္ကန့်</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>၁၀ မိနစ် အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၂၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၃၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၄၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၅၀ အကြာတွင် ရပ်ရန်</item>
+        <item>၁ နာရီ အကြာတွင် ရပ်ရန်</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>၁၀ မိနစ်အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၂၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၃၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၄၀ အကြာတွင် ရပ်ရန်</item>
+        <item>မိနစ် ၅၀ အကြာတွင် ရပ်ရန်</item>
+        <item>၁ နာရီ အကြာတွင် ရပ်ရန်</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>၁၀ မိနစ်</item>
+        <item>၂၀ မိနစ်</item>
+        <item>၃၀ မိနစ်</item>
+        <item>မိနစ် ၄၀</item>
+        <item>မိနစ် ၅၀</item>
+        <item>၁ နာရီ</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>၁ မိနစ်</item>
@@ -69,18 +105,6 @@
         <item>၂၈ မိနစ်</item>
         <item>၂၉ မိနစ်</item>
         <item>၃၀ မိနစ်</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>သင်၏ အတော့်ကို နှုန်း မြန်လွန်းနေသည်။</item>
-        <item>သင် ကြိုးစားခဲ့မှု အသီးအပွင့်များကို ခံစားနိုင်ပါပြီ။</item>
-        <item>Android များ မြန်ဆန်ခြင်းကို အားလုံးသိကြပေမည့်၊ သင့်လို မမြန်လှပါ!</item>
-        <item>ဝှူး။</item>
-        <item>L33t အချိန်များ</item>
-        <item>သိပ်ကို များလွန်းနေသည့် အရှိန်အဟုန်။</item>
-        <item>အချိန် မူမမှန်မှုများကို ပြန်ပြီး လုပ်ကိုင်ကြရအောင်။</item>
-        <item>ဘယ်ဘက်ကို ခုန်လိုက်ရုံပါပဲ။</item>
-        <item>သင့်ဆီမှာ ရွေးစရာ တစ်ပုံကြီးပဲ။</item>
-        <item>အလင်း၏ အမြန်နှုန်း။</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>မာရှယ်ကျွန်းစု</item>

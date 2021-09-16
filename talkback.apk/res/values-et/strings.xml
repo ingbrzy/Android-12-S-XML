@@ -105,7 +105,7 @@ Võite praegu muude teemadega tutvumist jätkata, samuti saate TalkBacki seadete
     <string name="audio_focus_state">Heli vaigistamine %1$s</string>
     <string name="auto_detect">Kohanda seadme hoidmise viisi alusel</string>
     <string name="auto_scan_action_description">Skannimise alustamine ja valimine</string>
-    <string name="auto_scan_or_select">Lüliti Automaatne skannimine või Vali</string>
+    <string name="auto_scan_or_select_for_point_scan">Lüliti „Automaatne skannimine“ või „Vali“</string>
     <string name="available_devices_header">Saadaolevad Bluetoothi seaded</string>
     <string name="basic_navigation_link_subtext">Üksuste vahel liikumine, kerimine, menüüde kasutamine jms</string>
     <string name="basic_navigation_link_text">Navigeerimise põhitõed</string>
@@ -119,7 +119,7 @@ Võite praegu muude teemadega tutvumist jätkata, samuti saate TalkBacki seadete
     <string name="bluetooth_no_devices_paired">Bluetoothi seadmeid pole seotud</string>
     <string name="bluetooth_not_enabled_message">Bluetoothi lüliti sidumiseks lülitage Bluetooth sisse</string>
     <string name="bluetooth_peripheral_content_description">Välisseade</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">"Seadistusviisardis Bluetoothi lüliti sidumiseks lülitage Bluetooth sisse ja andke Android Accessibility Suite'ile läheduses olevatele seadmetele ja asukohale juurdepääsemise load."</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Lüliti sidumine juhtmevabalt Bluetoothi kaudu</string>
     <string name="bluetooth_switch_option_text">Bluetoothi lüliti</string>
@@ -157,6 +157,9 @@ Võite praegu muude teemadega tutvumist jätkata, samuti saate TalkBacki seadete
     <string name="cam_switch_enable_banner_text_label_generic">Seadme juhtimiseks peate esmalt sisse lülitama lülitiga juurdepääsu.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Ava kaamera lülitid</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Ava lülitiga juurdepääs</string>
+    <string name="cam_switches_combined_preferences_title">Toimingu „%1$s“ seaded</string>
+    <string name="cam_switches_preferences_title">Kaamera lüliti seaded</string>
+    <string name="cam_switches_single_preferences_title">Üksuse „%s“ seaded</string>
     <string name="camera_switches_status_active">Kaameraga lülitamine on aktiivne</string>
     <string name="camera_switches_status_error">Viga</string>
     <string name="camera_switches_status_no_face">Nägu ei tuvastatud</string>
@@ -399,6 +402,7 @@ Proovige seda kohe – puudutage ekraani ja lohistage sõrme vasaku alanurga poo
     <string name="fallback_menu_item_open_in_browser">Ava brauseris</string>
     <string name="fallback_menu_item_share_link">Jaga linki</string>
     <string name="fast_radio_button_title">Kiire (%1$s s viivitus)</string>
+    <string name="fast_radio_button_title_content_description">Kiire (%1$s-sekundiline viide)</string>
     <string name="find_finish_button_text">Pühkige paremale ja leidke lõpetamisnupp.</string>
     <string name="finish">Lõpeta</string>
     <string name="finish_tutorial_announcement">"Kuvatud on Braille' klaviatuur. Pöörake telefon nii, et ekraan oleks teist eemale suunatud. Pöörake telefon horisontaalasendisse. Seejärel alustage sisestamist."</string>
@@ -747,6 +751,7 @@ Kuva sisemine nimi: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Lukustuskuva</string>
     <string name="medium_radio_button_title">Keskmine (%1$s s viivitus)</string>
+    <string name="medium_radio_button_title_content_description">Keskmine (%1$s-sekundiline viide)</string>
     <string name="menu_category_reading_controls">Lugemine</string>
     <string name="menu_category_special_features">Erifunktsioonid</string>
     <string name="menus_selector_text">"Need otseteed aitavad teil kiirelt seadeid muuta, näiteks lülitada navigeerimist tähemärkidelt sõnadele või muuta TalkBacki kõne kiirust.
@@ -767,6 +772,7 @@ Puudutage nüüd ekraani kolme sõrmega, et avada TalkBacki menüü."</string>
 TalkBacki menüü avamiseks pühkide alla ja siis paremale."</string>
     <string name="menus_title">Menüü ja juhtelemendid</string>
     <string name="message_in_reset_keymap_confirm_dialog">Kas soovite kindlasti selle klahvitabeli otseteeklahvid lähtestada vaikeväärtustele? Pange tähele, et seda toimingut ei saa tagasi võtta.</string>
+    <string name="message_request_phone_permission">TalkBack soovib teada, millal toimub telefonikõne, et TalkBack saaks segavaid märguandeid vähendada.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"See lähtestab kõik liigutused vaiketoimingutele.
 
 Kaotate kõik tehtud muudatused."</string>
@@ -996,6 +1002,7 @@ Proovige mis tahes liigutust, kus kaks pühkimisliigutust moodustavad täisnurga
     <string name="pref_reduce_window_delay_title">Akna teadaande viivituse vähendamine</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Kaamera lülitite lisamine</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Füüsiliste lülitite kustutamine</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Seadistage lüliti %s seadeid</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Kaamera lülitite muutmine</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Ühtegi kaamera lülitit pole määratud</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Toimingule „%s“ kaamera lülitite määramine</string>
@@ -1016,9 +1023,9 @@ Proovige mis tahes liigutust, kus kaks pühkimisliigutust moodustavad täisnurga
     <string name="pref_sa_face_playground_stop_preview_content_description">Peata eelvaade</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Lülita sisse</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Selle testimisala kasutamiseks peavad kaameralülitid olema sisse lülitatud</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Proovige: vaadake kõikide näoliigutuste tüüpide eelvaadet (sh avatud suu, naeratus jne)</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Proovin</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Proovige: vaadake näoliigutust %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Testimisala on peatatud. Selle uuesti käivitamiseks kasutage allolevat nuppu.</string>
     <string name="pref_selector_summary">%1$s, et valida seade. %2$s seejärel, et seadet kohandada.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s või %2$s, et valida seade. %3$s seejärel, et seadet kohandada.</string>
@@ -1069,6 +1076,7 @@ Kui seadet ei saa endiselt ühendada, avage Bluetoothi seaded ja proovige uuesti
     <string name="reduce_speed_button">Vähenda kiirust</string>
     <string name="remaining_calibration_finish_announcement">Kõiki punktide asukohti värskendati</string>
     <string name="reminder_announcement">Lisavalikute avamiseks pühkige kolme sõrmega üles</string>
+    <string name="remove_assigned_switch">Lülitile %s määratud toimingu eemaldamine</string>
     <string name="report_gesture_description">Siin on hiljuti tehtud liigutused. Teavitage, milline liigutus on vale ja mida liigutuselt ootate.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Lähtesta</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Lähtesta</string>
@@ -1149,6 +1157,7 @@ Proovige seda kohe – pühkige kahe sõrmega üles, kuni kerite üksuste loendi
     <string name="search_mode_hint_no_selection">Valitud üksust pole.</string>
     <string name="search_mode_hint_query">Praegune päring: %1$s.</string>
     <string name="search_mode_hint_selection">Praegune valik: %1$s.</string>
+    <string name="select_for_point_scan">„Vali“</string>
     <string name="select_setting_hint">%1$s muu seade valimiseks</string>
     <string name="selecting_text_text">"Teisaldage kursor tekstikastis valitava teksti algusesse.
 
@@ -1209,6 +1218,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="shortcut_media_control">Meedia esitamine või peatamine</string>
     <string name="shortcut_next">Järgmine üksus</string>
     <string name="shortcut_next_granularity">Järgmine navigeerimisseade</string>
+    <string name="shortcut_next_window">Järgmine aken</string>
     <string name="shortcut_not_customizable">%1$s, ei ole kohandatav</string>
     <string name="shortcut_notifications">Märguanded</string>
     <string name="shortcut_overview">Ülevaade</string>
@@ -1221,6 +1231,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="shortcut_practice_gestures">Liigutuste harjutamine</string>
     <string name="shortcut_previous">Eelmine üksus</string>
     <string name="shortcut_previous_granularity">Eelmine navigeerimisseade</string>
+    <string name="shortcut_previous_window">Eelmine aken</string>
     <string name="shortcut_print_node_tree">Prindi sõlmepuu</string>
     <string name="shortcut_print_performance_stats">Prindi toimivusstatistika</string>
     <string name="shortcut_quick_settings">Kiirseaded</string>
@@ -1260,6 +1271,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
 • Raputamine pideva lugemise alustamiseks"</string>
     <string name="six_hold_announcement">Saate teksti sisestada ka nii, et telefon on laual. Proovige kohe. Kui lauda ei ole käepärast, jätke see vahele, pühkides alla.</string>
     <string name="slow_radio_button_title">Aeglane (%1$s s viivitus)</string>
+    <string name="slow_radio_button_title_content_description">Aeglane (%1$s-sekundiline viide)</string>
     <string name="sound_feedback_state">Helitagasiside: %1$s</string>
     <string name="sound_feedback_summary">Esita heli, et millegi muutumisest märku anda (nt ekraanil kuvatud sisu muutus)</string>
     <string name="speak_container_element_position_summary_off">Loendi ja ruudustiku teavet ei loeta ette</string>
@@ -1333,7 +1345,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="summary_pref_face_switches_debounce_time">Selles ajavahemikus aktiveeritud mitut kaamera lüliti päästikut arvestatakse ühe päästikuna.</string>
     <string name="summary_pref_face_switches_enabled">"Kaamera lülitid kasutavad esikaamerat, et näha, kas vaatate ekraani, ja tuvastada näoilmeid. Pilte ei salvestata ega saadeta Google'ile."</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Esitatakse heli, kui miski ekraanikuval näoilme tõttu muutub.</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Kuvatakse visuaalne näidik selle kohta, kui kaua olete näoliigutust hoidnud</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Kui kaamera lülitid on lubatud, hoitakse ekraanikuva sisselülitatuna. Kaamera lülitid ei saa ekraanikuva avada, kui need on välja lülitatud.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nägu ei tuvastatud</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
@@ -1343,7 +1355,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="summary_pref_point_scan">Kasutage liikuvaid jooni, et valida horisontaal- ja vertikaalteljel konkreetne asukoht. Punkti skannimise alustamiseks vajutage lülitit %1$s. %2$s</string>
     <string name="summary_pref_reverse_dots">Vahetab punktide asukohti, nii et punktid 1 ja 4 vahetavad kohta</string>
     <string name="summary_pref_revert_to_default_menu">Lähtestage lülitiga juurdepääsu menüü selle üksuste vaikeloendile.</string>
-    <string name="summary_pref_single_tap">(Katseline.) Aktiveerimiseks puudutage esile tõstetud üksust ühe korra</string>
+    <string name="summary_pref_single_tap">Aktiveerimiseks puudutage esile tõstetud üksust ühe korra</string>
     <string name="summary_pref_tree_debug_tv">Kasutage otsimise asemel sõlmepuu printimiseks häälotsingu klahvi</string>
     <string name="summary_pref_use_audio_focus">Helitugevuse vähendamine rääkimise ajal</string>
     <string name="summary_read_from_current">Kõigi ekraanil kuvatud üksuste lugemine alates järgmisest</string>
@@ -1440,10 +1452,10 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="switched_to_contracted_announcement">Lühendatud Braille on aktiveeritud</string>
     <string name="switched_to_ueb_uncontracted_announcement">Lülituti UEB-punktkirjale</string>
     <string name="switched_to_uncontracted_announcement">Lühendamata Braille on aktiveeritud</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Ligikaudu võrdne</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Märk Väiksem kui</string>
+    <string name="symbol_angle_bracket_right">Märk Suurem kui</string>
     <string name="symbol_apostrophe">Ülakoma</string>
     <string name="symbol_approximately_equals">Võrdub umbes</string>
     <string name="symbol_asterisk">Tärn</string>
@@ -1463,7 +1475,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_bullseye">Märklaua keskkoht</string>
     <string name="symbol_caret">Sisestusmärk</string>
     <string name="symbol_celsius_degree">Celsiuse kraadimärk</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Sendi märk</string>
     <string name="symbol_circle_left_half_black">Ring, mille vasak pool on must</string>
     <string name="symbol_circle_right_half_black">Ring, mille parem pool on must</string>
     <string name="symbol_colon">Koolon</string>
@@ -1472,7 +1484,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_curly_bracket_left">Vasak looksulg</string>
     <string name="symbol_curly_bracket_right">Parem looksulg</string>
     <string name="symbol_currency_sign">Valuutamärk</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Kraadi märk</string>
     <string name="symbol_division">Jagamismärk</string>
     <string name="symbol_dollar_sign">Dollarimärk</string>
     <string name="symbol_downwards_arrow">Allanool</string>
@@ -1524,7 +1536,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_middle_dot">Keskmine punkt</string>
     <string name="symbol_multiplication">Korrutusmärk</string>
     <string name="symbol_new_line">Uus rida</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Pole võrdne</string>
     <string name="symbol_not_sign">Ei-märk</string>
     <string name="symbol_paragraph_mark">Lõigumärk</string>
     <string name="symbol_parenthesis_left">Vasak ümarsulg</string>
@@ -1535,7 +1547,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_plus_minus_sign">Pluss-miinusmärk</string>
     <string name="symbol_postal_mark">Postmark</string>
     <string name="symbol_pound">Nael</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Naelsterlingi märk</string>
     <string name="symbol_quarter_note">Veerandnoot</string>
     <string name="symbol_question_mark">Küsimärk</string>
     <string name="symbol_quotation_mark">Tsitaat</string>
@@ -1561,7 +1573,7 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_trademark">Kaubamärk</string>
     <string name="symbol_underscore">Alljoon</string>
     <string name="symbol_upwards_arrow">Ülesnool</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Vertikaaljoon</string>
     <string name="symbol_white_circle">Valge ring</string>
     <string name="symbol_white_club_suit">Valge risti</string>
     <string name="symbol_white_diamond">Valge ruutu</string>
@@ -1575,8 +1587,8 @@ Proovige allolevas tekstikastis valida tekst „Tere tulemast“."</string>
     <string name="symbol_white_square">Valge ruut</string>
     <string name="symbol_white_star">Valge täht</string>
     <string name="symbol_white_up_pointing_triangle">Valge üles osutav kolmnurk</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Vonni märk</string>
+    <string name="symbol_won_sign">Vonni märk</string>
     <string name="symbol_yen">Jeen</string>
     <string name="system_actions">Süsteemitoimingud</string>
     <string name="tabletop">Režiim Laual</string>
@@ -1891,7 +1903,7 @@ TalkBacki väljalülitamiseks toimige järgmiselt.
     <string name="title_pref_show_context_menu_as_list">Kontekstimenüü kuvamine loendina</string>
     <string name="title_pref_show_privacy_policy">Privaatsuseeskirjad</string>
     <string name="title_pref_show_tos">Teenusetingimused</string>
-    <string name="title_pref_single_tap">Ühe puudutusega aktiveerimine</string>
+    <string name="title_pref_single_tap">Üks puudutus aktiveerimiseks</string>
     <string name="title_pref_sound_and_vibration">Heli ja vibreerimine</string>
     <string name="title_pref_soundback">Helitagasiside</string>
     <string name="title_pref_soundback_volume">Helitagasiside helitugev.</string>
@@ -1936,6 +1948,7 @@ TalkBacki väljalülitamiseks toimige järgmiselt.
     <string name="title_previous_screen">Eelmine ekraanikuva</string>
     <string name="title_read_from_top">Lugemine alates ülalt</string>
     <string name="title_repeat_last_spoken_phrase">Viimasena kõneldud fraasi kordamine</string>
+    <string name="title_request_phone_permission">TalkBack taotleb luba</string>
     <string name="title_screen_summary">Ekraani kokkuvõte</string>
     <string name="title_seek_bar_controls">Liugur</string>
     <string name="title_seek_bar_edit">Liuguri taseme muutmine</string>

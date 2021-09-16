@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Toevoegen aan map met %1$s</string>
     <string name="add_to_home_screen">Toevoegen aan startscherm</string>
     <string name="added_to_folder">Item toegevoegd aan map</string>
+    <string name="added_to_home_screen_accessibility_text">Widget %1$s toegevoegd aan startscherm</string>
     <string name="all_apps_button_label">Lijst met apps</string>
     <string name="all_apps_button_personal_label">Lijst met persoonlijke apps</string>
     <string name="all_apps_button_work_label">Lijst met werk-apps</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Wanneer de telefoon gedraaid is</string>
     <string name="allow_rotation_title">Draaien van startscherm toestaan</string>
     <string name="allset_description">Je bent klaar om je telefoon te gebruiken</string>
+    <string name="allset_hint">Swipe omhoog om naar het startscherm te gaan</string>
+    <string name="allset_navigation_settings"><annotation id="link">Navigatie-instellingen van systeem</annotation></string>
     <string name="allset_title">Klaar</string>
     <string name="app_downloading_title">%1$s wordt gedownload, %2$s voltooid</string>
     <string name="app_info_drop_target_label">App-info</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s wacht op installatie</string>
     <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
     <string name="auto_add_shortcuts_label">App-iconen toevoegen aan startscherm</string>
+    <string name="back_gesture_feedback_cancelled">Swipe vanaf de rechter- of linkerrand naar het midden van het scherm en laat los.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Je weet nu hoe je vanaf rechts kunt swipen om terug te gaan. Ontdek nu hoe je tussen apps schakelt.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Je weet nu hoe je het gebaar Terug maakt.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Swipe niet te dicht bij de onderkant van het scherm.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Swipe helemaal vanaf de rechter- of linkerrand.</string>
     <string name="back_gesture_intro_subtitle">Swipe vanaf de linker- of rechterrand naar het midden om terug te gaan naar het vorige scherm.</string>
     <string name="back_gesture_intro_title">Swipe om terug te gaan</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Open Instellingen om de gevoeligheid van Terug te wijzigen</string>
@@ -131,18 +136,19 @@
     <string name="folder_tap_to_rename">Tik om de gewijzigde naam op te slaan</string>
     <string name="gadget_error_text">Kan widget niet laden</string>
     <string name="gadget_setup_text">Tik om het instellen af te ronden</string>
+    <string name="gesture_tutorial_action_button_label">Klaar</string>
     <string name="gesture_tutorial_action_button_label_cancel">Annuleren</string>
     <string name="gesture_tutorial_action_button_label_settings">Instellingen</string>
     <string name="gesture_tutorial_action_button_label_skip">Overslaan</string>
     <string name="gesture_tutorial_confirm_title">Klaar</string>
     <string name="gesture_tutorial_nice">Dat gaat lekker.</string>
     <string name="gesture_tutorial_step">Tutorial %1$d/%2$d</string>
-    <string name="gesture_tutorial_try_again">Opnieuw</string>
+    <string name="gesture_tutorial_try_again">Probeer opnieuw</string>
     <string name="gleam_tooltip_text">Tik en houd vast om tekst of afbeelding te selecteren</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">Apps zoeken en meer</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">Je weet nu hoe je het gebaar Naar startscherm maakt. Ontdek als volgende hoe je kunt teruggaan.</string>
-    <string name="home_gesture_feedback_complete_without_follow_up">Je weet nu hoe je het gebaar Naar startscherm maakt.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">Je weet nu hoe je weer naar het startscherm gaat. Ontdek als volgende hoe je weer teruggaat.</string>
+    <string name="home_gesture_feedback_complete_without_follow_up">Je weet nu hoe je teruggaat naar het startscherm.</string>
     <string name="home_gesture_feedback_overview_detected">Pauzeer niet voordat je loslaat.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Swipe vanaf de onderrand van het scherm omhoog.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Swipe recht omhoog.</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Houd het venster langer vast voordat je loslaat.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Swipe vanaf de onderrand van het scherm omhoog.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Swipe recht omhoog en pauzeer dan.</string>
+    <string name="overview_gesture_intro_subtitle">Swipe omhoog vanaf de onderkant van het scherm, houd vast en laat los om tussen apps te schakelen.</string>
     <string name="overview_gesture_intro_title">Swipe om tussen apps te schakelen</string>
     <string name="overview_selection_pref_desc">Tik op tekst en afbeeldingen en houd deze vast om acties te zien wanneer je wisselt tussen apps</string>
     <string name="overview_selection_pref_title">Selecteren in Overzicht</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Stoel</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Voorkeuren</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Snel overzicht</string>
     <string name="smartspace_preferences_in_settings_desc">Bovenaan het startscherm</string>
     <string name="smartspace_preferences_manage">Aanpassen</string>
     <string name="smartspace_preferences_turn_off_action">Uitzetten</string>

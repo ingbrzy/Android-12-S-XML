@@ -116,7 +116,7 @@
     <string name="accessibility_desc_recent_apps">סקירה.</string>
     <string name="accessibility_desc_settings">הגדרות</string>
     <string name="accessibility_desc_work_lock">מסך נעילה של עבודה</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">‏ניתן לשנות את האופן שבו צבעים מוצגים במכשיר. שינוי כזה עשוי לעזור:&lt;br/>&lt;br/> &lt;ol> &lt;li> להבחין בצבעים בצורה יותר מדויקת&lt;/li> &lt;li> להסיר צבעים מסוימים כדי להתמקד&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">‏ניתן לשנות את האופן שבו צבעים מוצגים במכשיר. שינוי כזה עשוי לעזור:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;להבחין בצבעים בצורה יותר מדויקת&lt;/li> &lt;li>&amp;nbsp;להסיר צבעים מסוימים כדי להתמקד&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">תיקון צבע</string>
     <string name="accessibility_divider">מחלק מסך מפוצל</string>
     <string name="accessibility_enter_hint">הזנת מכשיר</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">צריך להפעיל מחדש את המכשיר כדי להחיל את השינוי. יש להפעיל מחדש עכשיו או לבטל.</string>
     <string name="camera_hint">צריך להחליק מהסמל כדי להפעיל את המצלמה</string>
     <string name="camera_label">פתיחת המצלמה</string>
+    <string name="camera_recording_announcement">המצלמה מקליטה</string>
+    <string name="camera_stopped_recording_announcement">המצלמה הפסיקה להקליט</string>
     <string name="cancel">ביטול</string>
     <string name="carrier_network_change_mode">רשת ספק משתנה</string>
     <string name="category_personal">אישי</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">מעקב</string>
     <string name="debug_networking_category">תקשורת רשתות</string>
     <string name="debug_view_attributes">לאפשר בדיקת תכונת תצוגה</string>
+    <string name="defender_notify_des">הטעינה בטלפון מוגבלת כדי לשמור על תקינות הסוללה</string>
+    <string name="defender_notify_learn_more">מידע נוסף</string>
+    <string name="defender_notify_resume_charge">המשך הטעינה</string>
+    <string name="defender_notify_title">הטעינה מוגבלת באופן זמני</string>
     <string name="delete_blob_confirmation_text">הנתונים המשותפים יימחקו. להמשיך?</string>
     <string name="delete_blob_text">מחיקת הנתונים המשותפים</string>
     <string name="demo_mode">מצב הדגמה בממשק המשתמש של המערכת</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">‏בתהליך ביטול נעילה של כרטיס ה-SIM…</string>
     <string name="keyguard_try_fingerprint">שימוש בטביעת אצבע כדי לפתוח</string>
     <string name="keyguard_unlock">צריך להחליק כדי לפתוח</string>
+    <string name="keyguard_unlock_press">יש להקיש כדי לפתוח</string>
     <string name="keywords_adb_wireless">‏adb, ניפוי באגים, פיתוח</string>
     <string name="keywords_alarms_and_reminders">תזמון, שעון מעורר, תזכורת, שעון</string>
     <string name="kg_enter_confirm_pin_hint">צריך לאשר את קוד האימות הרצוי</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">מחליף מקלדת</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">המיקרופון פעיל</string>
+    <string name="mic_and_camera_recording_announcement">המצלמה והמיקרופון מקליטים</string>
+    <string name="mic_camera_stopped_recording_announcement">המצלמה והמיקרופון הפסיקו להקליט</string>
+    <string name="mic_recording_announcement">המיקרופון מקליט</string>
+    <string name="mic_stopped_recording_announcement">המיקרופון הפסיק להקליט</string>
     <string name="missed_call">שיחה שלא נענתה</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">חבילת גלישה</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">אפליקציות לעבודה</string>
     <string name="quick_step_accessibility_toggle_overview">החלפת מצב של מסכים אחרונים</string>
     <string name="recent_conversations">שיחות אחרונות</string>
-    <string name="recents_quick_scrub_onboarding">יש לגרור ימינה כדי לעבור במהירות בין אפליקציות</string>
-    <string name="recents_swipe_up_onboarding">יש להחליק מעלה כדי להחליף אפליקציות</string>
     <string name="remaining_length_format">נשארו %1$s</string>
     <string name="remote_input_image_insertion_text">נשלחה תמונה</string>
     <string name="remove_from_settings">הסרה מההגדרות</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">הוספת כרטיס</string>
     <string name="wallet_secondary_label_updating">מתבצע עדכון</string>
     <string name="wallet_title">ארנק</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">נקודת הגישה מלאה באופן זמני</string>
     <string name="wifi_cant_connect">לא ניתן להתחבר</string>
     <string name="wifi_cant_connect_to_ap">לא ניתן להתחבר אל %1$s</string>

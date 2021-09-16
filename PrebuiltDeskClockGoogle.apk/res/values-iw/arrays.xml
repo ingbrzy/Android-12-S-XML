@@ -17,14 +17,21 @@
         <item>15 דקות</item>
         <item>20 דקות</item>
         <item>25 דקות</item>
-        <item>לעולם לא</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 דקות לפני שעת השינה</item>
+        <item>30 דקות לפני שעת השינה</item>
+        <item>45 דקות לפני שעת השינה</item>
+        <item>1 שעה לפני שעת השינה</item>
+        <item>כיבוי</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>אנלוגי</item>
         <item>דיגיטלי</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>לעולם לא</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 שניות</item>
         <item>10 שניות</item>
         <item>15 שניות</item>
@@ -37,6 +44,35 @@
         <item>50 שניות</item>
         <item>55 שניות</item>
         <item>60 שניות</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>הפסקה לאחר 10 דקות</item>
+        <item>הפסקה לאחר 20 דקות</item>
+        <item>הפסקה לאחר 30 דקות</item>
+        <item>הפסקה לאחר 40 דקות</item>
+        <item>הפסקה לאחר 50 דקות</item>
+        <item>הפסקה לאחר שעה אחת</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>הפסקה לאחר 10 דקות</item>
+        <item>הפסקה לאחר 20 דקות</item>
+        <item>הפסקה לאחר 30 דקות</item>
+        <item>הפסקה לאחר 40 דקות</item>
+        <item>הפסקה לאחר 50 דקות</item>
+        <item>הפסקה לאחר שעה אחת</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 דקות</item>
+        <item>20 דקות</item>
+        <item>30 דקות</item>
+        <item>40 דקות</item>
+        <item>50 דקות</item>
+        <item>שעה אחת</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>דקה</item>
@@ -69,18 +105,6 @@
         <item>28 דקות</item>
         <item>29 דקות</item>
         <item>30 דקות</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>אתה מהיר כשד משחת.</item>
-        <item>תיהנה מפירות עמלך.</item>
-        <item>ידוע שאנדרואידים מהירים, אבל לא מהירים כמוך!</item>
-        <item>אוף.</item>
-        <item>‏זמני L33t.</item>
-        <item>איזו מהירות עצומה.</item>
-        <item>"Let's do the time warp again."</item>
-        <item>Just a jump to the left.</item>
-        <item>יש לך תאבון לחיפזון.</item>
-        <item>מהירות פוטונית.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>איי מרשל</item>

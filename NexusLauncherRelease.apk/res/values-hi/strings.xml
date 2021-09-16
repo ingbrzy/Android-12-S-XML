@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s के साथ फ़ोल्डर में जोड़ें</string>
     <string name="add_to_home_screen">होम स्क्रीन पर जोड़ें</string>
     <string name="added_to_folder">आइटम फ़ोल्डर में जोड़ा गया</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s विजेट को होम स्क्रीन पर जोड़ा गया</string>
     <string name="all_apps_button_label">ऐप्लिकेशन सूची</string>
     <string name="all_apps_button_personal_label">निजी ऐप्लिकेशन की सूची</string>
     <string name="all_apps_button_work_label">काम से जुड़े ऐप्लिकेशन की सूची</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">फ़ोन घुुमाए जाने पर</string>
     <string name="allow_rotation_title">होमस्क्रीन घुमाने की अनुमति दें</string>
     <string name="allset_description">अब आप अपना फ़ोन इस्तेमाल कर सकते हैं</string>
+    <string name="allset_hint">होम स्क्रीन पर जाने के लिए, ऊपर की ओर स्वाइप करें</string>
+    <string name="allset_navigation_settings"><annotation id="link">सिस्टम नेविगेशन सेटिंग</annotation></string>
     <string name="allset_title">हो गया!</string>
     <string name="app_downloading_title">%1$s डाउनलोड हो रहा है, %2$s पूरी हुई</string>
     <string name="app_info_drop_target_label">ऐप्लिकेशन की जानकारी</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s के इंस्टॉल होने की प्रतीक्षा की जा रही है</string>
     <string name="auto_add_shortcuts_description">नए ऐप्लिकेशन के लिए</string>
     <string name="auto_add_shortcuts_label">होम स्क्रीन पर ऐप्लिकेशन के आइकॉन जोड़ें</string>
+    <string name="back_gesture_feedback_cancelled">स्क्रीन के दाएं या बाएं किनारे से स्क्रीन के बीच तक स्वाइप करें और अपनी उंगली उठा लें.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">आपने स्क्रीन के दाएं किनारे से स्वाइप करके, पिछली स्क्रीन पर वापस जाने का तरीका सीख लिया है. अब, एक ऐप से दूसरे ऐप पर जाने का तरीका सीखें.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">आपने पेज पर पीछे ले जाने वाले हाथ के जेस्चर (हाव-भाव) के बारे में जान लिया है.</string>
-    <string name="back_gesture_feedback_swipe_in_nav_bar">देखे लें कि आप स्क्रीन पर बिल्कुल नीचे तक स्वाइप न कर रहे हों.</string>
+    <string name="back_gesture_feedback_swipe_in_nav_bar">देख लें कि आप स्क्रीन पर बिल्कुल नीचे तक स्वाइप न कर रहे हों.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">पक्का करें कि आप स्क्रीन की दाईं या बाईं ओर के बिल्कुल किनारे से स्वाइप कर रहे हों.</string>
     <string name="back_gesture_intro_subtitle">पिछली स्क्रीन पर वापस जाने के लिए, स्क्रीन के बाएं या दाएं किनारे से बीचों-बीच तक स्वाइप करें.</string>
     <string name="back_gesture_intro_title">पिछली स्क्रीन पर वापस जाने के लिए स्वाइप करें</string>
     <string name="back_gesture_tutorial_confirm_subtitle">"'सेटिंग' में जाकर, पीछे जाने के लिए इस्तेमाल होने वाले हाथ के जेस्चर (हाव-भाव) की संवेदनशीलता बदलें"</string>
@@ -131,9 +136,10 @@
     <string name="folder_tap_to_rename">नाम बदलना सहेजने के लिए टैप करें</string>
     <string name="gadget_error_text">विजेट को लोड नहीं किया जा सका</string>
     <string name="gadget_setup_text">सेट अप पूरा करने के लिए टैप करें</string>
+    <string name="gesture_tutorial_action_button_label">हो गया</string>
     <string name="gesture_tutorial_action_button_label_cancel">अभी नहीं</string>
     <string name="gesture_tutorial_action_button_label_settings">सेटिंग</string>
-    <string name="gesture_tutorial_action_button_label_skip">छोड़ें</string>
+    <string name="gesture_tutorial_action_button_label_skip">अभी नहीं</string>
     <string name="gesture_tutorial_confirm_title">आप पूरी तरह तैयार हैं</string>
     <string name="gesture_tutorial_nice">बहुत बढ़िया!</string>
     <string name="gesture_tutorial_step">ट्यूटोरियल %1$d/%2$d</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">कोशिश करें कि स्क्रीन से उंगली उठाने से पहले, इसे कुछ देर स्क्रीन पर दबाकर रखें.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">देख लें कि आप स्क्रीन के निचले किनारे से ऊपर की ओर स्वाइप कर रहे हों.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">देख लें कि आप स्क्रीन पर ऊपर की तरफ़, बिल्कुल सीधे स्वाइप कर रहे हों और फिर रुकें.</string>
+    <string name="overview_gesture_intro_subtitle">एक ऐप से दूसरे पर जाने के लिए, स्क्रीन पर नीचे से ऊपर की ओर स्वाइप करें, दबाकर रखें, और फिर छोड़ दें.</string>
     <string name="overview_gesture_intro_title">एक ऐप्लिकेशन से दूसरे पर जाने के लिए स्वाइप करें</string>
     <string name="overview_selection_pref_desc">एक ऐप्लिकेशन से दूसरे ऐप्लिकेशन में जाते समय, कार्रवाइयां देखने के लिए लेख और इमेज को दबाकर रखें</string>
     <string name="overview_selection_pref_title">खास जानकारी वाली स्क्रीन में से चुनना</string>
@@ -232,7 +239,7 @@
     <string name="recents_empty_message">हाल ही में इस्तेमाल किया गया कोई ऐप्लिकेशन नहीं है</string>
     <string name="reconfigurable_widget_education_tip">विजेट की सेटिंग में बदलाव करने के लिए टैप करें</string>
     <string name="remote_action_failed">पूरा नहीं हुआ: %1$s</string>
-    <string name="remove_drop_target_label">निकालें</string>
+    <string name="remove_drop_target_label">हटाएं</string>
     <string name="safemode_shortcut_error">डाउनलोड किए गए ऐप्लिकेशन सुरक्षित मोड में अक्षम है</string>
     <string name="safemode_widget_error">विजेट सुरक्षित मोड में अक्षम हैं</string>
     <string name="saved_images_snackbar_action">खोलें</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">शॉर्टकट उपलब्ध नहीं है</string>
     <string name="shortcuts_menu_with_notifications_description">शॉर्टकट और सूचनाएं</string>
     <string name="shorter_duration_less_than_one_minute">&lt;1 मिनट</string>
-    <string name="skip_tutorial_dialog_subtitle">आप बाद में, %1$s ऐप्लिकेशन पर इसे देख सकते हैं</string>
+    <string name="skip_tutorial_dialog_subtitle">आप बाद में %1$s ऐप्लिकेशन पर इसे देख सकते हैं</string>
     <string name="skip_tutorial_dialog_title">नेविगेशन ट्यूटोरियल छोड़ना चाहते हैं?</string>
     <string name="smartspace_calendar_event">%2$s में %1$s</string>
     <string name="smartspace_calendar_event_now">अभी %1$s</string>
@@ -280,15 +287,15 @@
     <string name="smartspace_flight_card_seat_header">सीट</string>
     <string name="smartspace_hours_mins">%1$s घंटे %2$s मिनट</string>
     <string name="smartspace_preferences">प्राथमिकताएं</string>
-    <string name="smartspace_preferences_in_settings">लाइव स्पेस</string>
+    <string name="smartspace_preferences_in_settings">एक नज़र में</string>
     <string name="smartspace_preferences_in_settings_desc">आपकी होम स्क्रीन में सबसे ऊपर</string>
     <string name="smartspace_preferences_manage">कस्टमाइज़ करें</string>
     <string name="smartspace_preferences_turn_off_action">बंद करें</string>
     <string name="smartspace_preferences_turn_off_description">मौसम और आने वाले इवेंट की जानकारी, आपकी होम स्क्रीन और लॉक स्क्रीन पर दिखना बंद हो जाएगी.</string>
-    <string name="smartspace_preferences_turn_off_title">%1$s को बंद करें</string>
+    <string name="smartspace_preferences_turn_off_title">%1$s की सुविधा को बंद करें</string>
     <string name="smartspace_preferences_turn_on_action">चालू करें</string>
     <string name="smartspace_preferences_turn_on_description">मौसम और आने वाले इवेंट की जानकारी, आपकी होम स्क्रीन और लॉक स्क्रीन पर दिखेगी.</string>
-    <string name="smartspace_preferences_turn_on_title">%1$s को चालू करें</string>
+    <string name="smartspace_preferences_turn_on_title">%1$s की सुविधा को चालू करें</string>
     <string name="smartspace_shopping_list_overflow">+ %1$d और</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">वॉलपेपर और स्टाइल</string>

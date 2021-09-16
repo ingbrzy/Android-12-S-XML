@@ -87,7 +87,7 @@
 දැන් වෙනත් මාතෘකා ගැන ඉගෙන ගැනීම දිගටම කර ගෙන යන්න, නැතහොත් ඕනෑම වේලාවක මෙම තොරතුරු TalkBack සැකසීම් තුළ සමාලෝචනය කරන්න."</string>
     <string name="all_set_title">සියල්ල සූදානම්!</string>
     <string name="always_show_this_message_label">සැම විටම මෙම පණිවිඩය පෙන්වන්න</string>
-    <string name="application_name">Android ප්‍රවේශ්‍යතා කට්ටලය</string>
+    <string name="application_name">Android Accessibility Suite</string>
     <string name="arc_android_window">යෙදුම් කවුළුව</string>
     <string name="arc_navigation_hint">සංචාලනය කිරීමට ඊතළ සමඟින් සොයන්න ඔබන්න</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">කෙටිමං ලැයිස්තුව බැලීමට %1$s ඔබන්න</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">ඕඩියෝ ඩකිං %1$s</string>
     <string name="auto_detect">ඔබ උපාංගය අල්ලන ආකාරයට අනුවර්තනය වන්න</string>
     <string name="auto_scan_action_description">ස්කෑන් කිරීම සහ තේරීම අරඹන්න</string>
-    <string name="auto_scan_or_select">"ස්වයං ස්කෑන් කරන්න' හෝ 'තෝරන්න"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'ස්වයං ස්කෑන් කරන්න' හෝ 'තෝරන්න'"</string>
     <string name="available_devices_header">තිබෙන බ්ලූටූත් උපාංග</string>
     <string name="basic_navigation_link_subtext">අයිතම අතර යන්න, අනුචලනය කරන්න, මෙනු භාවිත කරන්න සහ තවත් දේවල්</string>
     <string name="basic_navigation_link_text">මූලික සංචාලනය</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">ඔබගේ උපාංගය පාලනය කිරීම සඳහා, ඔබ පළමුව ස්විච ප්‍රවේශය ක්‍රියාත්මක කිරීම අවශ්‍ය වේ.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">කැමරා ස්විච විවෘත කරන්න</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">ස්විච ප්‍රවේශය කරන්න</string>
+    <string name="cam_switches_combined_preferences_title">"'%1$s' සැකසීම්"</string>
+    <string name="cam_switches_preferences_title">කැමරා ස්විච සැකසීම්</string>
+    <string name="cam_switches_single_preferences_title">"'%s' සැකසීම්"</string>
     <string name="camera_switches_status_active">සක්‍රිය කැමරා ස්විච</string>
     <string name="camera_switches_status_error">දෝෂය</string>
     <string name="camera_switches_status_no_face">මුහුණක් හඳුනා නොගන්නා ලදි</string>
@@ -399,6 +402,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="fallback_menu_item_open_in_browser">බ්‍රව්සරයේ විවෘත කරන්න</string>
     <string name="fallback_menu_item_share_link">සබැඳිය බෙදා ගන්න</string>
     <string name="fast_radio_button_title">ඉක්මන් (%1$sක ප්‍රමාදය)</string>
+    <string name="fast_radio_button_title_content_description">වේගවත් (තත්පර %1$s පමාව)</string>
     <string name="find_finish_button_text">අවසන් කිරීමේ බොත්තම සොයා ගැනීමට දකුණට ස්වයිප් කරන්න</string>
     <string name="finish">අවසන් කරන්න</string>
     <string name="finish_tutorial_announcement">බ්රේල් යතුරු පුවරුව පෙන්වමින්. තිරය ඔබෙන් ඉවතට මුහුණලා සිටින සේ ඔබේ දුරකථනය හරවන්න. භූදර්ශන පිහිටීම වෙත දුරකථනය තිරස්ව කරකවන්න. අනතුරුව ටයිප් කිරීම ආරම්භ කරන්න.</string>
@@ -611,11 +615,11 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="keycombo_menu_navigate_last">අවසන් අයිතමය වෙත සංචාලනය කරන්න</string>
     <string name="keycombo_menu_navigate_next">ඊළඟ අයිතමය වෙත සංචාලනය කරන්න</string>
     <string name="keycombo_menu_navigate_next_character">ඊළඟ අනුලකුණ වෙත සංචලනය කරන්න</string>
-    <string name="keycombo_menu_navigate_next_window">ඊළඟ කවුළුව වෙත සංචලනය කරන්න</string>
+    <string name="keycombo_menu_navigate_next_window">ඊළඟ කවුළුව වෙත සංචාලනය කරන්න</string>
     <string name="keycombo_menu_navigate_next_word">ඊළඟ වචනය වෙත සංචලනය කරන්න</string>
     <string name="keycombo_menu_navigate_previous">පෙර අයිතමය වෙත සංචාලනය කරන්න</string>
     <string name="keycombo_menu_navigate_previous_character">පෙර අනුලකුණ වෙත සංචලනය කරන්න</string>
-    <string name="keycombo_menu_navigate_previous_window">පෙර කවුළුව වෙත සංචලනය කරන්න</string>
+    <string name="keycombo_menu_navigate_previous_window">පෙර කවුළුව වෙත සංචාලනය කරන්න</string>
     <string name="keycombo_menu_navigate_previous_word">පෙර වචනය වෙත සංචලනය කරන්න</string>
     <string name="keycombo_menu_navigate_up">ඉහත අයිතමය වෙත සංචලනය කරන්න</string>
     <string name="keycombo_menu_other_custom_actions">ක්‍රියා පෙන්වන්න</string>
@@ -747,6 +751,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="list_index_template">%2$d න් %1$d</string>
     <string name="lockscreen_label">අගුලු තිරය</string>
     <string name="medium_radio_button_title">මධ්‍යම (%1$sක ප්‍රමාදය)</string>
+    <string name="medium_radio_button_title_content_description">මධ්‍යම (තත්පර %1$s පමාව)</string>
     <string name="menu_category_reading_controls">කියවීම</string>
     <string name="menu_category_special_features">විශේෂ විශේෂාංග</string>
     <string name="menus_selector_text">"මෙම කෙටි මං ඔබගේ සංචාලනය අනුලකුණුවලින් වචනවලට මාරු කිරීම හෝ TalkBack හි කථන වේගය වෙනස් කිරීම වැනි සැකසීම් ඉක්මනින් වෙනස් කිරීමට ඔබට උපකාරී වේ.
@@ -767,6 +772,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
 පහළට අනතුරුව දකුණට ස්වයිප් කිරීමෙන් දැන් TalkBack මෙනුව විවෘත කරන්න."</string>
     <string name="menus_title">මෙනු සහ පාලන</string>
     <string name="message_in_reset_keymap_confirm_dialog">ඔබ මෙම යතුරු සිතියම සඳහා ඔබේ කෙටි මං යතුරු යළි සැකසීමට කැමති බව විශ්වාසද? මෙම ක්‍රියාව පසුගමනය කළ නොහැකි බව කරුණාකර සටහන් කර ගන්න.</string>
+    <string name="message_request_phone_permission">දුරකථන ඇමතුමක් සිදු වන්නේ කවර විටද යන්න දැන ගැනීමට TalkBack හට අවශ්‍යයි, එවිට TalkBack හට බාධාකාරී නිවේදන අඩු කළ හැකිය.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"මෙය සියලු ඉංගිත ඒවායෙහි පෙරනිමි ක්‍රියා වෙත යළි සකසනු ඇත.
 
 ඔබට ඔබ සිදු කළ කිනම් හෝ වෙනස් කිරීම් අහිමි වනු ඇත."</string>
@@ -996,6 +1002,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="pref_reduce_window_delay_title">කවුළු නිවේදන ප්‍රමාදය අඩු කරන්න</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">කැමරා ස්විච එක් කරන්න</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">භෞතික ස්විච හිස් කරන්න</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">ස්විචය සඳහා සැකසීම් වින්‍යාස කරන්න: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">කැමරා ස්විච සංස්කරණය කරන්න</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">කැමරා ස්විච පවරා නොමැත</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s' වෙත කැමරා ස්විච පවරන්න"</string>
@@ -1016,9 +1023,9 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="pref_sa_face_playground_stop_preview_content_description">පෙරදසුන නවත්වන්න</string>
     <string name="pref_sa_face_playground_switch_on_content_description">ක්‍රියාත්මක කරන්න</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">මෙම පරීක්ෂණ ප්‍රදේශය භාවිත කිරීම සඳහා කැමරා ස්විච ක්‍රියාත්මක කළ යුතුය</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">එය උත්සාහ කරන්න: විවෘත මුඛය, සිනහව සහ තවත් ඒවා යනාදි සියලු මුහුණු ඉංගිත වර්ග පෙරදසුන් කරන්න</string>
+    <string name="pref_sa_face_playground_try_it_button_text">එය උත්සාහ කරන්න</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">එය උත්සාහ කරන්න: %1$s මුහුණු ඉංගිත පෙරදසුන් කරන්න</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">පරීක්ෂණ ප්‍රදේශය විරාම කර ඇත. එය නැවත ආරම්භ කිරීමට පහත බොත්තම භාවිත කරන්න.</string>
     <string name="pref_selector_summary">සැකසීමක් තේරීමට %1$s. අනතුරුව සැකසීම සීරුමාරු කිරීමට %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">සැකසීමක් තේරීමට %1$s හෝ %2$s. අනතුරුව සැකසීම සීරුමාරු කිරීමට %3$s.</string>
@@ -1067,6 +1074,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="reduce_speed_button">වේගය අඩු කරන්න</string>
     <string name="remaining_calibration_finish_announcement">සියලු තිත් ස්ථාන යාවත්කාලීන කරන ලදි</string>
     <string name="reminder_announcement">තව විකල්ප සඳහා ඇඟිලි 3 කින් ඉහළට ස්වයිප් කරන්න</string>
+    <string name="remove_assigned_switch">%s සඳහා ස්විච පැවරීම ඉවත් කරන්න</string>
     <string name="report_gesture_description">මේ මෑතකදී සිදු කරන ලද ඉංගිත වේ, කරුණාකර කුමන ඉංගිතය වැරදිද යන්න සහ අපේක්ෂා කරන්නේ කුමක්ද යන්න වාර්තා කරන්න.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">යළි සකසන්න</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">යළි පිහිටුවන්න</string>
@@ -1147,6 +1155,7 @@ TalkBack අත්හිටුවා ඇති විට, ප්‍රතිච�
     <string name="search_mode_hint_no_selection">අයිතම තෝරා නැත.</string>
     <string name="search_mode_hint_query">දැන් විමසුම: %1$s.</string>
     <string name="search_mode_hint_selection">දැන් තේරීම: %1$s.</string>
+    <string name="select_for_point_scan">"'තෝරන්න'"</string>
     <string name="select_setting_hint">වෙනත් සැකසීමක් තෝරා ගැනීමට %1$s</string>
     <string name="selecting_text_text">"පෙළ කොටුවක, ඔබට තෝරා ගැනීමට අවශ්‍ය පෙළෙහි ආරම්භයට කර්සරය ගෙන යන්න.
 
@@ -1207,6 +1216,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="shortcut_media_control">මාධ්‍ය වාදනය කරන්න නැතහොත් විරාම කරන්න</string>
     <string name="shortcut_next">ඊළඟ අයිතමය</string>
     <string name="shortcut_next_granularity">ඊළඟ සංචාලන සැකසීම</string>
+    <string name="shortcut_next_window">ඊළඟ කවුළුව</string>
     <string name="shortcut_not_customizable">%1$s, අභිරුචිකරණය කළ නොහැකිය</string>
     <string name="shortcut_notifications">දැනුම්දීම්</string>
     <string name="shortcut_overview">දළ විශ්ලේෂණය</string>
@@ -1219,6 +1229,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="shortcut_practice_gestures">ඉංගිත පුහුණු වන්න</string>
     <string name="shortcut_previous">පසුගිය අයිතමය</string>
     <string name="shortcut_previous_granularity">පෙර සංචාලන සැකසීම</string>
+    <string name="shortcut_previous_window">පෙර කවුළුව</string>
     <string name="shortcut_print_node_tree">නෝඩු රුක මුද්‍රණය කරන්න</string>
     <string name="shortcut_print_performance_stats">මුද්‍රණ කාර්ය සාධන සංඛ්‍යාලේඛන</string>
     <string name="shortcut_quick_settings">ඉක්මන් සැකසීම්</string>
@@ -1258,6 +1269,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
 • අඛණ්ඩ කියවීම ආරම්භ කිරීමට සොලවන්න"</string>
     <string name="six_hold_announcement">ඔබගේ දුරකථනය පැතලි මේසයක් මත තැබීමෙන්ද ඔබට ටයිප් කළ හැකිය. දැන් එය උත්සාහ කරන්න. ඔබට ළඟ මේසයක් නොමැති නම්, පහළට ස්වයිප් කිරීමෙන් ඉදිරියට යන්න.</string>
     <string name="slow_radio_button_title">මන්දගාමී (%1$sක ප්‍රමාදය)</string>
+    <string name="slow_radio_button_title_content_description">මන්දගාමී (තත්පර %1$s පමාව)</string>
     <string name="sound_feedback_state">හඬ ප්‍රතිපෝෂණ %1$s</string>
     <string name="sound_feedback_summary">යම් දෙයක් වෙනස් වී ඇති බව පෙන්වීමට හඬක් වාදනය කරන්න (උදා. තිරයේ අන්තර්ගතය වෙනස් වී ඇත)</string>
     <string name="speak_container_element_position_summary_off">ලැයිස්තු සහ ජාලක තොරතුරු කථනය නොකරයි</string>
@@ -1338,10 +1350,10 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="summary_pref_face_switches_playground_gesture_detection_label">මුහුණු ඉංගිතවලින් කිනම් හෝ එකක් සිදු කරන්න. ලියාපදිංචි වී ඇත්නම්, ඉංගිතයෙහි නම පෙන්වනු ඇත. පිටවීමට, කිනම් හෝ ඉංගිතයක් තත්පර %1$dක් අල්ලාගෙන සිටින්න.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">ඔබගේ හිස නිශ්චලව තබා ගෙන කැමරාවට මුහුණ දෙන්න. අනතුරුව %s.</string>
     <string name="summary_pref_play_store">දැන් තිබෙන TalkBack අනුවාදය: %1$s</string>
-    <string name="summary_pref_point_scan">"නිශ්චිත තිරස් හා සිරස් ස්ථානයක් තෝරා ගැනීම සඳහා චලනය වන රේඛා භාවිත කරන්න. පොයින්ට් ස්කෑන් කිරීම ආරම්භ කිරීමට '%1$s' ස්විචය ඔබන්න. %2$s"</string>
+    <string name="summary_pref_point_scan">නිශ්චිත තිරස් හා සිරස් ස්ථානයක් තෝරා ගැනීම සඳහා චලනය වන රේඛා භාවිත කරන්න. පොයින්ට් ස්කෑන් කිරීම ආරම්භ කිරීමට %1$s ස්විචය ඔබන්න. %2$s</string>
     <string name="summary_pref_reverse_dots">තිත් ස්ථාන මාරු කරන්න, තිත් 1 සහ 4 ස්ථාන මාරු වන ලෙස, උදාහරණ වශයෙන්</string>
     <string name="summary_pref_revert_to_default_menu">ප්‍රවේශය මාරු කිරීමේ මෙනුව මෙනු අයිතමවල පෙරනිමි ලැයිස්තුවට යළි සකසන්න.</string>
-    <string name="summary_pref_single_tap">(පරීක්ෂණාත්මක) සක්‍රිය කිරීමට නාභිගත අයිතමයක් මත එක් වරක් තට්ටු කරන්න</string>
+    <string name="summary_pref_single_tap">සක්‍රිය කිරීමට නාභිගත අයිතමයක් මත එක් වරක් තට්ටු කරන්න</string>
     <string name="summary_pref_tree_debug_tv">නෝඩු රුක මුද්‍රණය කිරීමට සෙවීම වෙනුවට හඬ සෙවීම් යතුර භාවිත කරන්න</string>
     <string name="summary_pref_use_audio_focus">කථා කරන අතරතුර වෙනත් ශ්‍රව්‍ය හඬ තීව්‍රතා අඩු කරන්න</string>
     <string name="summary_read_from_current">ඊළඟ අයිතමයෙහි සිට ආරම්භ කර, තිරයේ ඇති සියලු අයිතම කියවන්න</string>
@@ -1438,10 +1450,10 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="switched_to_contracted_announcement">හකුළන ලද බ්රේල් වෙත මාරු කරන ලදී</string>
     <string name="switched_to_ueb_uncontracted_announcement">නොහකුළන ලද UEB වෙත මාරු විය</string>
     <string name="switched_to_uncontracted_announcement">නොහකුළන ලද බ්රේල් වෙත මාරු කරන ලදී</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">බොහෝ දුරට සමාන</string>
     <string name="symbol_ampersand">ඇම්පර්සෑන්ඩ්</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">වඩා කුඩා ලකුණ</string>
+    <string name="symbol_angle_bracket_right">වඩා විශාල ලකුණ</string>
     <string name="symbol_apostrophe">අපෝස්ට්‍රොෆි</string>
     <string name="symbol_approximately_equals">ආසන්නව සමාන</string>
     <string name="symbol_asterisk">තරු ලකුණ</string>
@@ -1461,7 +1473,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_bullseye">බුල්ස්අයි</string>
     <string name="symbol_caret">කාකපාදය</string>
     <string name="symbol_celsius_degree">සෙල්සියස් අංශක</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">ශත ලකුණ</string>
     <string name="symbol_circle_left_half_black">වම් අර්ධය කලු කවය</string>
     <string name="symbol_circle_right_half_black">දකුණු අර්ධය කලු කවය</string>
     <string name="symbol_colon">දෙතිත</string>
@@ -1470,7 +1482,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_curly_bracket_left">වම් සඟල වරහන</string>
     <string name="symbol_curly_bracket_right">දකුණු සඟල වරහන</string>
     <string name="symbol_currency_sign">වලංගු මුදල් ලකුණ</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">අංශක ලකුණ</string>
     <string name="symbol_division">බෙදීමේ ලකුණ</string>
     <string name="symbol_dollar_sign">ඩොලර් ලකුණ</string>
     <string name="symbol_downwards_arrow">පහළ ඊතලය</string>
@@ -1522,7 +1534,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_middle_dot">මැද තිත</string>
     <string name="symbol_multiplication">ගුණිත ලකුණ</string>
     <string name="symbol_new_line">නව පේළිය</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">සමාන නොවන</string>
     <string name="symbol_not_sign">අසමාන ලකුණ</string>
     <string name="symbol_paragraph_mark">නව ඡේදාරම්භ ලකුණ</string>
     <string name="symbol_parenthesis_left">වම් සුළු වරහන</string>
@@ -1533,7 +1545,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_plus_minus_sign">ධන සෘණ ලකුණ</string>
     <string name="symbol_postal_mark">තැපැල් ලකුණ</string>
     <string name="symbol_pound">පවුම</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">පවුම් ව්‍යවහාර මුදල් ලකුණ</string>
     <string name="symbol_quarter_note">ක්වාටර් නෝට්</string>
     <string name="symbol_question_mark">ප්‍රශ්නයාර්ථ ලකුණ</string>
     <string name="symbol_quotation_mark">උද්ධරණය</string>
@@ -1559,7 +1571,7 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_trademark">වෙළඳ ලකුණ</string>
     <string name="symbol_underscore">යටි ඉර</string>
     <string name="symbol_upwards_arrow">උඩුකුරු ඊතලය</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">සිරස් රේඛාව</string>
     <string name="symbol_white_circle">සුදු කවය</string>
     <string name="symbol_white_club_suit">වයිට් ක්ලබ් සූට්</string>
     <string name="symbol_white_diamond">සුදු දියමන්තිය</string>
@@ -1573,8 +1585,8 @@ TalkBack මෙනුව නැවත විවෘත කරන්න, ඉන්
     <string name="symbol_white_square">සුදු චතුරස්‍රය</string>
     <string name="symbol_white_star">සුදු තරුව</string>
     <string name="symbol_white_up_pointing_triangle">සුදු ඉහළට යොමු වූ ත්‍රිකෝණය</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">වොන් ව්‍යවහාර මුදල් ලකුණ</string>
+    <string name="symbol_won_sign">වොන් ව්‍යවහාර මුදල් ලකුණ</string>
     <string name="symbol_yen">යෙන්</string>
     <string name="system_actions">පද්ධති ක්‍රියා</string>
     <string name="tabletop">ටේබල්ටොප් ප්‍රකාරය</string>
@@ -1889,7 +1901,7 @@ TalkBack අක්‍රිය කරන්න:
     <string name="title_pref_show_context_menu_as_list">ලැයිස්තුවක් ලෙස ප්‍රකරණ මෙනුව පෙන්වන්න</string>
     <string name="title_pref_show_privacy_policy">රහස්‍යතා ප්‍රතිපත්තිය</string>
     <string name="title_pref_show_tos">සේවා නියම</string>
-    <string name="title_pref_single_tap">තනි-තට්ටු කිරීමෙන් සක්‍රිය කිරීම</string>
+    <string name="title_pref_single_tap">සක්‍රිය කිරීමට එක් වරක් තට්ටු කරන්න</string>
     <string name="title_pref_sound_and_vibration">හඬ සහ කම්පනය</string>
     <string name="title_pref_soundback">හඬ ප්‍රතිපෝෂණ</string>
     <string name="title_pref_soundback_volume">හඬ ප්‍රතිපෝෂණ පරිමාව</string>
@@ -1934,6 +1946,7 @@ TalkBack අක්‍රිය කරන්න:
     <string name="title_previous_screen">පෙර තිරය</string>
     <string name="title_read_from_top">ඉහළ සිට කියවන්න</string>
     <string name="title_repeat_last_spoken_phrase">අවසන් වරට කථනය කළ වැකිකඩ පුනරාවර්තනය කරන්න</string>
+    <string name="title_request_phone_permission">TalkBack අවසරය ඉල්ලයි</string>
     <string name="title_screen_summary">තිර සාරාංශය</string>
     <string name="title_seek_bar_controls">ස්ලයිඩරය</string>
     <string name="title_seek_bar_edit">ස්ලයිඩර මට්ටම සංස්කරණය කරන්න</string>

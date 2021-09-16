@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Gehitu %1$s duen karpetan</string>
     <string name="add_to_home_screen">Gehitu hasierako pantailan</string>
     <string name="added_to_folder">Elementua karpetan gehitu da</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s widgeta hasierako pantailan gehitu da</string>
     <string name="all_apps_button_label">Aplikazioen zerrenda</string>
     <string name="all_apps_button_personal_label">Aplikazio pertsonalen zerrenda</string>
     <string name="all_apps_button_work_label">Laneko aplikazioen zerrenda</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Telefonoa biratzean</string>
     <string name="allow_rotation_title">Eman hasierako pantaila biratzeko baimena</string>
     <string name="allset_description">Prest zaude telefonoa erabiltzen hasteko</string>
+    <string name="allset_hint">Pasatu hatza gora hasierako pantailara joateko</string>
+    <string name="allset_navigation_settings"><annotation id="link">Sisteman nabigatzeko ezarpenak</annotation></string>
     <string name="allset_title">Dena prest!</string>
     <string name="app_downloading_title">%1$s deskargatzen, %2$s osatuta</string>
     <string name="app_info_drop_target_label">Aplikazioaren informazioa</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s instalatzeko zain</string>
     <string name="auto_add_shortcuts_description">Aplikazio berrien kasuan</string>
     <string name="auto_add_shortcuts_label">Gehitu aplikazioen ikonoak hasierako pantailan</string>
+    <string name="back_gesture_feedback_cancelled">Ziurtatu hatza pantailaren eskuineko edo ezkerreko ertzetik erdialdera pasatzen eta altxatzen duzula.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Hatza eskuinetik pasatuta atzera egiten ikasi duzu. Jarraian, ikasi aplikazioa aldatzen.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Ikasi duzu atzera egiteko keinua.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Ziurtatu hatza ez duzula pantailaren behealdetik gertuegi pasatzen.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Ziurtatu hatza pantailaren eskuineko edo ezkerreko ertzetik hasten zarela pasatzen.</string>
     <string name="back_gesture_intro_subtitle">Aurreko pantailara itzultzeko, pasatu hatza pantailaren ezkerreko edo eskuineko ertzetik erdialdera.</string>
     <string name="back_gesture_intro_title">Pasatu hatza atzera egiteko</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Keinuaren sentikortasuna aldatzeko, joan ezarpenetara</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Izen berria gordetzeko, sakatu hau</string>
     <string name="gadget_error_text">Ezin da kargatu widgeta</string>
     <string name="gadget_setup_text">Konfiguratzen amaitzeko, sakatu hau</string>
+    <string name="gesture_tutorial_action_button_label">Eginda</string>
     <string name="gesture_tutorial_action_button_label_cancel">Utzi</string>
     <string name="gesture_tutorial_action_button_label_settings">Ezarpenak</string>
     <string name="gesture_tutorial_action_button_label_skip">Saltatu</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Eduki sakatuta leihoa luzaroago hatza altxatu aurretik.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Ziurtatu hatza pantailaren beheko ertzetik gora pasatzen duzula.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Ziurtatu hatza zuzen gora pasatzen duzula; ondoren, gelditu.</string>
+    <string name="overview_gesture_intro_subtitle">Aplikazio batetik bestera joateko, pasatu hatza pantailaren behealdetik gora, eduki pantaila sakatuta eta altxatu hatza.</string>
     <string name="overview_gesture_intro_title">Pasatu hatza aplikazioa aldatzeko</string>
     <string name="overview_selection_pref_desc">Aplikazio batetik bestera aldatzean, eduki sakatuta testua eta irudiak haietan egin ditzakezun ekintzak ikusteko</string>
     <string name="overview_selection_pref_title">Ikuspegi orokorreko hautapena</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">Lasterbideak ez daude erabilgarri</string>
     <string name="shortcuts_menu_with_notifications_description">Lasterbideak eta jakinarazpenak</string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 min</string>
-    <string name="skip_tutorial_dialog_subtitle">Tutorial hau %1$s aplikazioan aurki dezakezu geroago</string>
+    <string name="skip_tutorial_dialog_subtitle">%1$s aplikazioan dago eskuragarri tutoriala</string>
     <string name="skip_tutorial_dialog_title">Nabigazio-tutoriala saltatu nahi duzu?</string>
     <string name="smartspace_calendar_event">%1$s, %2$s barru</string>
     <string name="smartspace_calendar_event_now">%1$s, orain</string>
@@ -280,14 +287,14 @@
     <string name="smartspace_flight_card_seat_header">Eserlekua</string>
     <string name="smartspace_hours_mins">%1$s eta %2$s</string>
     <string name="smartspace_preferences">Hobespenak</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Begi-kolpean</string>
     <string name="smartspace_preferences_in_settings_desc">Hasierako pantailaren goialdean</string>
     <string name="smartspace_preferences_manage">Pertsonalizatu</string>
     <string name="smartspace_preferences_turn_off_action">Desaktibatu</string>
-    <string name="smartspace_preferences_turn_off_description">Hasierako pantailan eta pantaila blokeatuan ez dira erakutsiko eguraldia eta hurrengo gertaerei buruzko informazioa.</string>
+    <string name="smartspace_preferences_turn_off_description">Hasierako pantailan eta pantaila blokeatuan ez dira erakutsiko eguraldia eta datozen gertaerei buruzko informazioa.</string>
     <string name="smartspace_preferences_turn_off_title">Desaktibatu %1$s</string>
     <string name="smartspace_preferences_turn_on_action">Aktibatu</string>
-    <string name="smartspace_preferences_turn_on_description">Hasierako pantailan eta pantaila blokeatuan erakutsiko dira eguraldia eta hurrengo gertaerei buruzko informazioa.</string>
+    <string name="smartspace_preferences_turn_on_description">Hasierako pantailan eta pantaila blokeatuan erakutsiko dira eguraldia eta datozen gertaerei buruzko informazioa.</string>
     <string name="smartspace_preferences_turn_on_title">Aktibatu %1$s</string>
     <string name="smartspace_shopping_list_overflow">Beste %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>

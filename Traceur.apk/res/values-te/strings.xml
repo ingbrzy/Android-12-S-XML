@@ -70,7 +70,7 @@
     <string name="adb_pairing_device_dialog_pairing_code_label">Wi‑Fi పెయిరింగ్ కోడ్</string>
     <string name="adb_pairing_device_dialog_title">పరికరంతో పెయిర్ చేయండి</string>
     <string name="adb_qrcode_pairing_device_failed_msg">పరికరాన్ని పెయిర్ చేయడం విఫలమైంది. QR కోడ్ తప్పుగా ఉండడం గాని, లేదా పరికరం అదే నెట్‌వర్క్‌కు కనెక్ట్ అయి లేకపోవడం గాని జరిగింది.</string>
-    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో అనువర్తనాలను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
+    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో యాప్‌లను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
     <string name="adb_warning_title">USB డీబగ్గింగ్‌ను అనుమతించాలా?</string>
     <string name="adb_wireless_connection_failed_message">%1$s సరైన నెట్‌వర్క్‌కు కనెక్ట్ అయ్యేలా చూడండి.</string>
     <string name="adb_wireless_connection_failed_title">కనెక్షన్ విఫలమైంది</string>
@@ -173,7 +173,7 @@
     <string name="bluetooth_profile_a2dp">మీడియా ఆడియో</string>
     <string name="bluetooth_profile_a2dp_high_quality">HD ఆడియో: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD ఆడియో</string>
-    <string name="bluetooth_profile_headset">ఫోన్ కాల్‌లు</string>
+    <string name="bluetooth_profile_headset">ఫోన్ కాల్స్‌</string>
     <string name="bluetooth_profile_hearing_aid">వినికిడి మద్దతు ఉపకరణాలు</string>
     <string name="bluetooth_profile_hid">ఇన్‌పుట్ పరికరం</string>
     <string name="bluetooth_profile_map">వచన సందేశాలు</string>
@@ -247,8 +247,8 @@
     <string name="connected_to_metered_access_point">డేటా నియంత్రణ నెట్‌వర్క్‌కు కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_app">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_carrier">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer">%1$s ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer">%1$s ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_passpoint">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="content_description_menu_button">మెనూ</string>
     <string name="convert_to_fbe_warning">"డేటా భాగాన్ని ఫైల్ ఆధారిత గుప్తీకరణకు మార్చండి.
@@ -359,7 +359,7 @@
     <string name="help_label">సహాయం &amp; ఫీడ్‌బ్యాక్</string>
     <string name="home">సెట్టింగ్‌ల హోమ్</string>
     <string name="icon_content_description">డైలాగ్ చిహ్నం</string>
-    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s అనువర్తనంలో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
+    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s యాప్‌లో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
     <string name="immediately_destroy_activities">యాక్టివిటీస్‌ను ఉంచవద్దు</string>
     <string name="immediately_destroy_activities_summary">యూజర్ నిష్క్రమించాక పూర్తి యాక్టివిటీ తొలగింపు</string>
     <string name="ims_reg_status_not_registered">నమోదు కాలేదు</string>
@@ -415,7 +415,7 @@
     <string name="lb_search_bar_hint_speech">శోధించడానికి మాటల ద్వారా చెప్పండి</string>
     <string name="lb_search_bar_hint_with_title">%1$s కోసం వెతకండి</string>
     <string name="lb_search_bar_hint_with_title_speech">%1$sలో శోధించడానికి మాటల ద్వారా చెప్పండి</string>
-    <string name="link_to_traces">ట్రేస్ ఫైల్‌లను చూడండి</string>
+    <string name="link_to_traces">ట్రేస్ ఫైళ్లను చూడండి</string>
     <string name="loading_injected_setting_summary">లోడ్ చేస్తోంది…</string>
     <string name="local_backup_password_summary_change">డెస్క్‌టాప్ పూర్తి బ్యాకప్‌ల కోసం పాస్‌వర్డ్‌ను మార్చడానికి లేదా తీసివేయడానికి నొక్కండి</string>
     <string name="local_backup_password_summary_none">డెస్క్‌టాప్ పూర్తి బ్యాకప్‌లు ప్రస్తుతం రక్షించబడలేదు</string>
@@ -635,7 +635,7 @@
     <string name="strict_mode">ఖచ్చితమైన మోడ్ ప్రారంభించబడింది</string>
     <string name="strict_mode_summary">యాప్‌లు ప్రధాన థ్రెడ్‌లో సుదీర్ఘ చర్యలు చేసేటప్పుడు స్క్రీన్‌ను ఫ్లాష్ చేయండి</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="system_trace_sensitive_data">సిస్టమ్ స్థితిగతిని కనుగొనే ఫైల్‌లు- గోప్యమైన సిస్టమ్, యాప్ డేటాను (యాప్ వినియోగం వంటివి) కలిగి ఉండవచ్చు. కేవలం మీకు నమ్మకం ఉన్న వ్యక్తుల‌కు, యాప్‌లకు మాత్రమే సిస్టమ్ స్థితిగతులను షేర్ చేయండి.</string>
+    <string name="system_trace_sensitive_data">సిస్టమ్ స్థితిగతిని కనుగొనే ఫైళ్లు- గోప్యమైన సిస్టమ్, యాప్ డేటాను (యాప్ వినియోగం వంటివి) కలిగి ఉండవచ్చు. కేవలం మీకు నమ్మకం ఉన్న వ్యక్తుల‌కు, యాప్‌లకు మాత్రమే సిస్టమ్ స్థితిగతులను షేర్ చేయండి.</string>
     <string name="system_traces_storage_title">సిస్టమ్ స్థితిగతులు</string>
     <string name="system_tracing">సిస్టమ్ స్థితిగతి కనుగొనుట</string>
     <string name="tap_to_share">మీ స్థితిగతిని షేర్ చేయడానికి నొక్కండి</string>
@@ -704,9 +704,9 @@
     <string name="usb_audio_disable_routing_summary">USB ఆడియో ప‌రిక‌రాల‌కు ఆటోమేటిక్ రూటింగ్‌ను నిలిపివేయండి</string>
     <string name="use_perfetto_beta">Perfetto (బీటా)ని ఉపయోగించండి</string>
     <string name="use_system_language_to_select_input_method_subtypes">సిస్టమ్ భాషలను ఉపయోగించు</string>
-    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి అనువర్తనాలకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
+    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి యాప్‌లకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
     <string name="user_add_profile_item_title">పరిమితం చేయబడిన ప్రొఫైల్</string>
-    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత అనువర్తనాలను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
+    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత యాప్‌లను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
     <string name="user_add_user_item_title">యూజర్</string>
     <string name="user_add_user_message_long">"అదనపు యూజర్‌లను సృష్టించడం ద్వారా మీరు ఈ దేవైజ్‌ను ఇతరులతో షేర్ చేయవచ్చు. ప్రతి యూజర్‌కు‌ వారికంటూ ప్రత్యేక స్థలం ఉంటుంది, వారు ఆ స్థలాన్ని యాప్‌లు, వాల్‌పేపర్ మొదలైనవాటితో అనుకూలీకరించవచ్చు. యూజర్‌లు ప్రతి ఒక్కరిపై ప్రభావం చూపే Wi‑Fi వంటి పరికర సెట్టింగ్‌లను కూడా సర్దుబాటు చేయవచ్చు.
 
@@ -763,7 +763,7 @@
     <string name="wifi_limited_connection">పరిమిత కనెక్షన్</string>
     <string name="wifi_metered_label">గణించబడుతోంది</string>
     <string name="wifi_no_internet">ఇంటర్నెట్ యాక్సెస్ లేదు</string>
-    <string name="wifi_no_internet_no_reconnect">స్వయంచాలకంగా కనెక్ట్ కాదు</string>
+    <string name="wifi_no_internet_no_reconnect">ఆటోమేటిక్‌గా కనెక్ట్ కాదు</string>
     <string name="wifi_not_in_range">పరిధిలో లేదు</string>
     <string name="wifi_passpoint_expired">గడువు ముగిసింది</string>
     <string name="wifi_remembered">సేవ్ చేయబడింది</string>

@@ -17,14 +17,21 @@
         <item>15 минути</item>
         <item>20 минути</item>
         <item>25 минути</item>
-        <item>Никогаш</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 мин. пред времето за спиење</item>
+        <item>30 мин. пред времето за спиење</item>
+        <item>45 мин. пред времето за спиење</item>
+        <item>1 час пред времето за спиење</item>
+        <item>Исклучено</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Аналоген</item>
         <item>Дигитален</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Никогаш</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунди</item>
         <item>10 секунди</item>
         <item>15 секунди</item>
@@ -37,6 +44,35 @@
         <item>50 секунди</item>
         <item>55 секунди</item>
         <item>60 секунди</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Сопри по 10 минути</item>
+        <item>Сопри по 20 минути</item>
+        <item>Сопри по 30 минути</item>
+        <item>Сопри по 40 минути</item>
+        <item>Сопри по 50 минути</item>
+        <item>Сопри по 1 час</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Сопри по 10 мин.</item>
+        <item>Сопри по 20 мин.</item>
+        <item>Сопри по 30 мин.</item>
+        <item>Сопри по 40 мин.</item>
+        <item>Сопри по 50 мин.</item>
+        <item>Сопри по 1 час</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 минути</item>
+        <item>20 минути</item>
+        <item>30 минути</item>
+        <item>40 минути</item>
+        <item>50 минути</item>
+        <item>1 час</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минута</item>
@@ -70,24 +106,12 @@
         <item>29 минути</item>
         <item>30 минути</item>
     </string-array>
-    <string-array name="sw_share_strings">
-        <item>Брзи сте како молња.</item>
-        <item>Уживајте во плодовите од вашата работа.</item>
-        <item>Андроидите се познати по својата брзина, но не се толку брзи како вас!</item>
-        <item>Ах.</item>
-        <item>Најбрзи времиња.</item>
-        <item>Каква неверојатна брзина.</item>
-        <item>Ајде повторно да ја постигнеме оваа ворп-брзина.</item>
-        <item>Само скок на лево.</item>
-        <item>Имате со што да се пофалите.</item>
-        <item>Фотонска брзина.</item>
-    </string-array>
     <string-array name="timezone_labels">
         <item>Маршалски Острови</item>
         <item>Остров Мидвеј</item>
         <item>Хаваи</item>
         <item>Алјаска</item>
-        <item>Пацифичко време</item>
+        <item>Тихоокеанско време</item>
         <item>Тихуана</item>
         <item>Аризона</item>
         <item>Чивава</item>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_deletion_canceled_title">
+        <item quantity="other">(ยกเลิกแล้ว) ถอนการติดตั้งแล้ว %1$d แอป</item>
+        <item quantity="one">(ยกเลิกแล้ว) ถอนการติดตั้งแล้ว %1$d แอป</item>
+    </plurals>
+    <plurals name="app_deletion_finish_title_new">
+        <item quantity="other">ถอนการติดตั้งแล้ว %1$d จาก %2$d แอป</item>
+        <item quantity="one">ถอนการติดตั้งแล้ว %1$d แอป</item>
+    </plurals>
+    <plurals name="complete_copy_files_text">
+        <item quantity="other">คัดลอกแล้ว %1$d ไฟล์</item>
+        <item quantity="one">คัดลอกแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="complete_copy_folders_and_files_text">
+        <item quantity="other">คัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">คัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_copy_folders_text">
+        <item quantity="other">คัดลอก %1$d โฟลเดอร์แล้ว</item>
+        <item quantity="one">คัดลอก %1$d โฟลเดอร์แล้ว</item>
+    </plurals>
+    <plurals name="complete_copy_one_folder_and_files_text">
+        <item quantity="other">คัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">คัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_delete_files_text">
+        <item quantity="other">ลบไฟล์ %1$d ไฟล์แล้ว</item>
+        <item quantity="one">ลบไฟล์ %1$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_delete_files_text_new">
+        <item quantity="other">ลบแล้ว %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">ลบแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="complete_delete_folders_and_files_text">
+        <item quantity="other">ลบ %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">ลบ %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_delete_folders_text">
+        <item quantity="other">ลบ %1$d โฟลเดอร์แล้ว</item>
+        <item quantity="one">ลบ %1$d โฟลเดอร์แล้ว</item>
+    </plurals>
+    <plurals name="complete_delete_one_folder_and_files_text">
+        <item quantity="other">ลบ %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">ลบ %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_move_files_text">
+        <item quantity="other">ย้ายแล้ว %1$d ไฟล์</item>
+        <item quantity="one">ย้ายแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="complete_move_folders_and_files_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_move_folders_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์แล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์แล้ว</item>
+    </plurals>
+    <plurals name="complete_move_one_folder_and_files_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_restore_files_text">
+        <item quantity="other">คืนค่า %1$d จาก %2$d ไฟล์แล้ว</item>
+        <item quantity="one">คืนค่า %1$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_restore_folders_and_files_text">
+        <item quantity="other">คืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">คืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_restore_folders_text">
+        <item quantity="other">คืนค่า %1$d โฟลเดอร์แล้ว</item>
+        <item quantity="one">คืนค่า %1$d โฟลเดอร์แล้ว</item>
+    </plurals>
+    <plurals name="complete_restore_one_folder_and_files_text">
+        <item quantity="other">คืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+        <item quantity="one">คืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="complete_trash_files_text">
+        <item quantity="other">ย้าย %1$d จาก %2$d ไฟล์ไปยังถังขยะแล้ว</item>
+        <item quantity="one">ย้าย %1$d ไฟล์ไปยังถังขยะแล้ว</item>
+    </plurals>
+    <plurals name="complete_trash_folders_and_files_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะแล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะแล้ว</item>
+    </plurals>
+    <plurals name="complete_trash_folders_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์ไปที่ถังขยะแล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์ไปที่ถังขยะแล้ว</item>
+    </plurals>
+    <plurals name="complete_trash_one_folder_and_files_text">
+        <item quantity="other">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะแล้ว</item>
+        <item quantity="one">ย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะแล้ว</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle">
+        <item quantity="other">การดำเนินการนี้จะลบ %1$d ไฟล์ภายในโฟลเดอร์ออกอย่างถาวรด้วย</item>
+        <item quantity="one">การดำเนินการนี้จะลบ %1$d ไฟล์ภายในโฟลเดอร์ออกอย่างถาวรด้วย</item>
+    </plurals>
+    <plurals name="confirm_delete_file_inside_folder_subtitle_new">
+        <item quantity="other">การดำเนินการนี้มีผล&lt;b>ถาวร&lt;/b>และ&lt;b>ยกเลิก&lt;/b>ไม่ได้ และระบบจะลบไฟล์จำนวน %1$d รายการที่อยู่ในโฟลเดอร์อย่างถาวรด้วย</item>
+        <item quantity="one">การดำเนินการนี้มีผล&lt;b>ถาวร&lt;/b>และ&lt;b>ยกเลิก&lt;/b>ไม่ได้ ระบบจะลบไฟล์จำนวน %1$d รายการที่อยู่ในโฟลเดอร์อย่างถาวรด้วย</item>
+    </plurals>
+    <plurals name="confirm_delete_file_title">
+        <item quantity="other">ลบ %1$d ไฟล์ถาวรใช่ไหม</item>
+        <item quantity="one">ลบ %1$d ไฟล์ถาวรใช่ไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_multiple_files_title">
+        <item quantity="other">ลบ %1$d โฟลเดอร์และ %2$d ไฟล์ถาวรใช่ไหม</item>
+        <item quantity="one">ลบ 1 โฟลเดอร์และ %2$d ไฟล์ถาวรใช่ไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_and_one_file_title">
+        <item quantity="other">ลบ %1$d โฟลเดอร์และ 1 ไฟล์ถาวรใช่ไหม</item>
+        <item quantity="one">ลบ 1 โฟลเดอร์และ 1 ไฟล์ถาวรใช่ไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_folder_title">
+        <item quantity="other">ลบ %1$d โฟลเดอร์ถาวรใช่ไหม</item>
+        <item quantity="one">ลบ %1$d โฟลเดอร์ถาวรใช่ไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_original_files_title">
+        <item quantity="other">ลบ %1$d ไฟล์ต้นฉบับไหม</item>
+        <item quantity="one">ลบ %1$d ไฟล์ต้นฉบับไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_duplicates_title">
+        <item quantity="other">ลบ %1$d ไฟล์ต้นฉบับและ %2$d ไฟล์ซ้ำไหม</item>
+        <item quantity="one">ลบ %1$d ไฟล์ต้นฉบับและ %2$d ไฟล์ซ้ำไหม</item>
+    </plurals>
+    <plurals name="confirm_delete_originals_and_one_duplicate_file_title">
+        <item quantity="other">ลบ %1$d ไฟล์ต้นฉบับและ 1 ไฟล์ซ้ำไหม</item>
+        <item quantity="one">ลบ %1$d ไฟล์ต้นฉบับและ 1 ไฟล์ซ้ำไหม</item>
+    </plurals>
+    <plurals name="confirm_dialog_junk_files_subtitle">
+        <item quantity="other">คุณกำลังจะล้าง %1$d รายการ</item>
+        <item quantity="one">คุณกำลังจะล้าง %1$d รายการ</item>
+    </plurals>
+    <plurals name="confirm_dialog_move_text">
+        <item quantity="other">ย้าย %1$d ไฟล์ใช่ไหม</item>
+        <item quantity="one">ย้าย %1$d ไฟล์ใช่ไหม</item>
+    </plurals>
+    <plurals name="copy_file_fail">
+        <item quantity="other">คัดลอกไฟล์ไม่ได้ %1$s</item>
+        <item quantity="one">คัดลอกไฟล์ไม่ได้ %1$s</item>
+    </plurals>
+    <plurals name="copying_files_text">
+        <item quantity="other">กำลังคัดลอกไฟล์ %1$d ไฟล์</item>
+        <item quantity="one">กำลังคัดลอกไฟล์ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="copying_folders_and_files_text">
+        <item quantity="other">กำลังคัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังคัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="copying_folders_text">
+        <item quantity="other">กำลังคัดลอก %1$d โฟลเดอร์</item>
+        <item quantity="one">กำลังคัดลอก %1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="copying_one_folder_and_files_text">
+        <item quantity="other">กำลังคัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังคัดลอก %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="delete_duplicate_files_notification_title_num_of_files">
+        <item quantity="other">ลบไฟล์ที่ซ้ำกัน %1$d ไฟล์</item>
+        <item quantity="one">ลบไฟล์ที่ซ้ำกัน %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="delete_file_fail">
+        <item quantity="other">ลบไฟล์ไม่ได้ %1$s</item>
+        <item quantity="one">ลบไฟล์ไม่ได้ %1$s</item>
+    </plurals>
+    <plurals name="delete_memes_low_res_notification_title_num_of_files">
+        <item quantity="other">ลบมีม %1$d มีม</item>
+        <item quantity="one">ลบมีม %1$d มีม</item>
+    </plurals>
+    <plurals name="deleting_files_text">
+        <item quantity="other">กำลังลบไฟล์ %1$d ไฟล์</item>
+        <item quantity="one">กำลังลบไฟล์ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="deleting_folders_and_files_text">
+        <item quantity="other">กำลังลบ %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังลบ %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="deleting_folders_text">
+        <item quantity="other">กำลังลบ %1$d โฟลเดอร์</item>
+        <item quantity="one">กำลังลบ %1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="deleting_one_folder_and_files_text">
+        <item quantity="other">กำลังลบ %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังลบ %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="error_move_to_same_directory">
+        <item quantity="other">มีรายการเหล่านี้อยู่แล้วใน %s</item>
+        <item quantity="one">มีรายการนี้อยู่แล้วใน %s</item>
+    </plurals>
+    <plurals name="extract_file_fail">
+        <item quantity="other">แตกข้อมูลไฟล์ไม่ได้ %1$s</item>
+        <item quantity="one">แตกข้อมูลไฟล์ไม่ได้ %1$s</item>
+    </plurals>
+    <plurals name="extracted_files_on_cancel">
+        <item quantity="other">แตกแล้ว %1$d ไฟล์</item>
+        <item quantity="one">แตกแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="failed_files_label">
+        <item quantity="other">%1$s ส่งไฟล์ %2$d ไฟล์ให้ %3$s ไม่สำเร็จ</item>
+        <item quantity="one">%1$s ส่งไฟล์ %2$d ไฟล์ให้ %3$s ไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="file_already_present_copy_subtitle">
+        <item quantity="other">มี %1$d ไฟล์อยู่ใน%2$sอยู่แล้วและจะไม่มีการคัดลอกไป</item>
+        <item quantity="one">มี %1$d ไฟล์อยู่ใน%2$sอยู่แล้วและจะไม่มีการคัดลอกไป</item>
+    </plurals>
+    <plurals name="file_already_present_move_subtitle">
+        <item quantity="other">มี %1$d ไฟล์อยู่ใน%2$sอยู่แล้วและจะไม่มีการย้ายไฟล์</item>
+        <item quantity="one">มี %1$d ไฟล์อยู่ใน%2$sอยู่แล้วและจะไม่มีการย้ายไฟล์</item>
+    </plurals>
+    <plurals name="file_browser_sd_write_permission_required_to_delete">
+        <item quantity="other">ลบไฟล์ %1$d จาก %2$d ไม่ได้ ต้องมีสิทธิ์การ์ด SD</item>
+        <item quantity="one">ลบไฟล์ %1$d ไม่ได้ ต้องมีสิทธิ์การ์ด SD</item>
+    </plurals>
+    <plurals name="file_browser_selection_mode_title">
+        <item quantity="other">เลือกแล้ว %1$d</item>
+        <item quantity="one">เลือกแล้ว %1$d</item>
+    </plurals>
+    <plurals name="file_fail_error_copy">
+        <item quantity="other">คัดลอกไม่ถูกต้อง %1$d ไฟล์</item>
+        <item quantity="one">คัดลอกไม่ถูกต้อง %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$s ไฟล์</item>
+        <item quantity="one">%1$s ไฟล์</item>
+    </plurals>
+    <plurals name="files_copy_subtitle">
+        <item quantity="other">ระบบจะคัดลอก %1$d ไฟล์</item>
+        <item quantity="one">ระบบจะคัดลอก %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="files_move_subtitle">
+        <item quantity="other">ระบบจะย้าย %1$d ไฟล์</item>
+        <item quantity="one">ระบบจะย้าย %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="files_number_and_total_sizes">
+        <item quantity="other">%1$s, %2$d ไฟล์</item>
+        <item quantity="one">%1$s, %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="files_total_number">
+        <item quantity="other">ทั้งหมด %1$d ไฟล์</item>
+        <item quantity="one">ทั้งหมด %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="folders">
+        <item quantity="other">%1$s โฟลเดอร์</item>
+        <item quantity="one">%1$s โฟลเดอร์</item>
+    </plurals>
+    <plurals name="harmful_apps_found_subtitle">
+        <item quantity="other">Google Play Protect พบแอปอันตราย %1$s รายการในอุปกรณ์</item>
+        <item quantity="one">Google Play Protect พบแอปอันตราย 1 รายการในอุปกรณ์</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d ชั่วโมง</item>
+        <item quantity="one">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="incomplete_copy_files_text">
+        <item quantity="other">คัดลอกไม่ได้ %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">คัดลอกไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="incomplete_delete_files_text">
+        <item quantity="other">ลบไม่ได้ %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">ลบไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="incomplete_move_files_text">
+        <item quantity="other">ย้ายไม่ได้ %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">ย้ายไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="incomplete_restore_files_text">
+        <item quantity="other">กู้คืนไม่ได้ %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">กู้คืนไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="incomplete_trash_files_text">
+        <item quantity="other">ทิ้งไม่ได้ %1$d จาก %2$d ไฟล์</item>
+        <item quantity="one">ทิ้งไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="incorrect_attempt_message">
+        <item quantity="other">ทำไม่ถูกต้อง %d ครั้งตั้งแต่เปิดครั้งล่าสุด</item>
+        <item quantity="one">ทำไม่ถูกต้อง %d ครั้งตั้งแต่เปิดครั้งล่าสุด</item>
+    </plurals>
+    <plurals name="media_notification_title_num_of_files">
+        <item quantity="other">ลบไฟล์สื่อ %1$d ไฟล์</item>
+        <item quantity="one">ลบไฟล์สื่อ %1$d ไฟลฺ์</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d นาที</item>
+        <item quantity="one">%1$d นาที</item>
+    </plurals>
+    <plurals name="move_file_fail">
+        <item quantity="other">ย้ายไฟล์ไม่ได้ %1$s</item>
+        <item quantity="one">ย้ายไฟล์ไม่ได้ %1$s</item>
+    </plurals>
+    <plurals name="moving_files_text">
+        <item quantity="other">กำลังย้าย %1$d ไฟล์</item>
+        <item quantity="one">กำลังย้าย %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="moving_folders_and_files_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="moving_folders_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="moving_one_folder_and_files_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="permanently_delete_info">
+        <item quantity="other">ลบออกถาวรใน %1$d วัน</item>
+        <item quantity="one">ลบออกถาวรใน %1$d วัน</item>
+    </plurals>
+    <plurals name="removed_from_favorites">
+        <item quantity="other">นำออกจากรายการโปรดแล้ว แต่ยังมีอยู่ในไฟล์</item>
+        <item quantity="one">นำออกจากรายการโปรดแล้ว แต่ยังมีอยู่ในไฟล์</item>
+    </plurals>
+    <plurals name="restore_file_fail">
+        <item quantity="other">คืนค่าไฟล์ไม่สำเร็จ %1$s</item>
+        <item quantity="one">คืนค่าไฟล์ไม่สำเร็จ %1$s</item>
+    </plurals>
+    <plurals name="restore_files_label">
+        <item quantity="other">คืนค่า %1$d ไฟล์</item>
+        <item quantity="one">คืนค่า %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="restoring_files_text">
+        <item quantity="other">กำลังคืนค่า %1$d ไฟล์</item>
+        <item quantity="one">กำลังคืนค่า %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="restoring_folders_and_files_text">
+        <item quantity="other">กำลังคืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังคืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="restoring_folders_text">
+        <item quantity="other">กำลังคืนค่า %1$d โฟลเดอร์</item>
+        <item quantity="one">กำลังคืนค่า %1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="restoring_one_folder_and_files_text">
+        <item quantity="other">กำลังคืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+        <item quantity="one">กำลังคืนค่า %1$d โฟลเดอร์และ %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d วินาที</item>
+        <item quantity="one">%1$d วินาที</item>
+    </plurals>
+    <plurals name="selection_reaches_limit">
+        <item quantity="other">คุณจะเลือกได้เพียง %d ไฟล์เท่านั้น</item>
+        <item quantity="one">คุณจะเลือกได้เพียง %d ไฟล์เท่านั้น</item>
+    </plurals>
+    <plurals name="sending_files_label">
+        <item quantity="other">%1$s กำลังส่งไฟล์ %2$d ไฟล์ให้ %3$s</item>
+        <item quantity="one">%1$s กำลังส่งไฟล์ %2$d ไฟล์ให้ %3$s</item>
+    </plurals>
+    <plurals name="sent_files_label">
+        <item quantity="other">%1$s ส่งไฟล์ %2$d ไฟล์ให้ %3$s แล้ว</item>
+        <item quantity="one">%1$s ส่งไฟล์ %2$d ไฟล์ให้ %3$s แล้ว</item>
+    </plurals>
+    <plurals name="stop_copy_to_sd_message">
+        <item quantity="other">หยุดคัดลอก %1$d ไฟล์ไหม</item>
+        <item quantity="one">หยุดคัดลอก “%2$s” ไหม</item>
+    </plurals>
+    <plurals name="stop_delete_message">
+        <item quantity="other">หยุดลบ %1$d ไฟล์ไหม</item>
+        <item quantity="one">หยุดลบ “%2$s” ไหม</item>
+    </plurals>
+    <plurals name="stop_move_to_sd_message">
+        <item quantity="other">หยุดการย้าย %1$d ไฟล์ไหม</item>
+        <item quantity="one">หยุดการย้าย “%2$s” ไหม</item>
+    </plurals>
+    <plurals name="stop_restore_message">
+        <item quantity="other">หยุดคืนค่า %1$d ไฟล์ใช่ไหม</item>
+        <item quantity="one">หยุดคืนค่า \"%2$s\" ใช่ไหม</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d จาก %2$d ดาว</item>
+        <item quantity="one">%1$d จาก %2$d ดาว</item>
+    </plurals>
+    <plurals name="trash_button_text_with_file_count">
+        <item quantity="other">ย้าย %1$d ไฟล์ไปยังถังขยะ</item>
+        <item quantity="one">ย้าย %1$d ไฟล์ไปยังถังขยะ</item>
+    </plurals>
+    <plurals name="trash_expiry_days_left">
+        <item quantity="other">เหลืออีก %1$d วัน</item>
+        <item quantity="one">เหลืออีก %1$d วัน</item>
+    </plurals>
+    <plurals name="trash_file_fail">
+        <item quantity="other">ย้าย %1$s ไฟล์ไปยังถังขยะไม่สำเร็จ</item>
+        <item quantity="one">ย้าย %1$s ไฟล์ไปยังถังขยะไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="trashing_files_text">
+        <item quantity="other">กำลังย้าย %1$d ไฟล์ไปยังถังขยะ</item>
+        <item quantity="one">กำลังย้าย %1$d ไฟล์ไปยังถังขยะ</item>
+    </plurals>
+    <plurals name="trashing_folders_and_files_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะ</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะ</item>
+    </plurals>
+    <plurals name="trashing_folders_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์ไปที่ถังขยะ</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์ไปที่ถังขยะ</item>
+    </plurals>
+    <plurals name="trashing_one_folder_and_files_text">
+        <item quantity="other">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะ</item>
+        <item quantity="one">กำลังย้าย %1$d โฟลเดอร์และ %2$d ไฟล์ไปที่ถังขยะ</item>
+    </plurals>
+    <plurals name="unused_apps_notification_title_num_of_files">
+        <item quantity="other">ถอนการติดตั้งแอปที่คุณไม่ค่อยได้ใช้ %1$d แอป</item>
+        <item quantity="one">ถอนการติดตั้งแอปที่คุณไม่ค่อยได้ใช้ %1$d แอป</item>
+    </plurals>
+    <plurals name="unzip_browser_extracted_subtitle">
+        <item quantity="other">แตกแล้ว %1$d ไฟล์</item>
+        <item quantity="one">แตกแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="unzip_browser_more_files">
+        <item quantity="other">และอีก %1$d ไฟล์</item>
+        <item quantity="one">และอีก %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="unzip_browser_subtitle">
+        <item quantity="other">ระบบจะแตกและจัดเบียบไฟล์ตามหมวดหมู่ %1$d ไฟล์</item>
+        <item quantity="one">ระบบจะแตกและจัดเบียบไฟล์ตามหมวดหมู่ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="wait_time_message">
+        <item quantity="other">ทำไม่ถูกต้องหลายครั้งเกินไป โปรดรอ %d วินาทีแล้วลองอีกครั้ง</item>
+        <item quantity="one">ทำไม่ถูกต้องหลายครั้งเกินไป โปรดรอ %d วินาทีแล้วลองอีกครั้ง</item>
+    </plurals>
+</resources>

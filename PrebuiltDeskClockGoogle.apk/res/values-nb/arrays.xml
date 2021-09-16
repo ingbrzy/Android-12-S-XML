@@ -17,14 +17,21 @@
         <item>15 minutter</item>
         <item>20 minutter</item>
         <item>25 minutter</item>
-        <item>Aldri</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minutter før sengetid</item>
+        <item>30 minutter før sengetid</item>
+        <item>45 minutter før sengetid</item>
+        <item>1 time før sengetid</item>
+        <item>Av</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Digital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Aldri</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekunder</item>
         <item>10 sekunder</item>
         <item>15 sekunder</item>
@@ -37,6 +44,35 @@
         <item>50 sekunder</item>
         <item>55 sekunder</item>
         <item>60 sekunder</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Stopp etter 10 minutter</item>
+        <item>Stopp etter 20 minutter</item>
+        <item>Stopp etter 30 minutter</item>
+        <item>Stopp etter 40 minutter</item>
+        <item>Stopp etter 50 minutter</item>
+        <item>Stopp etter 1 time</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Stopp etter 10 min</item>
+        <item>Stopp etter 20 min</item>
+        <item>Stopp etter 30 min</item>
+        <item>Stopp etter 40 min</item>
+        <item>Stopp etter 50 min</item>
+        <item>Stopp etter 1 time</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minutter</item>
+        <item>20 minutter</item>
+        <item>30 minutter</item>
+        <item>40 minutter</item>
+        <item>50 minutter</item>
+        <item>1 time</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minutt</item>
@@ -69,18 +105,6 @@
         <item>28 minutter</item>
         <item>29 minutter</item>
         <item>30 minutter</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Du er litt av et fartsmonster.</item>
-        <item>Høst fruktene av arbeidet ditt.</item>
-        <item>Androider er kjent for å være raske, men ikke så raske som deg!</item>
-        <item>Puh.</item>
-        <item>L33t-tider.</item>
-        <item>Kolossalt høy hastighet.</item>
-        <item>La oss gjøre tidsspranget igjen.</item>
-        <item>Bare et hopp til venstre.</item>
-        <item>Du liker å ha hastverk</item>
-        <item>Lysets hastighet.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshalløyene</item>

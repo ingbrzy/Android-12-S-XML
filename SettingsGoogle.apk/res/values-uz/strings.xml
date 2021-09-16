@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Tillar va matn kiritish</string>
     <string name="lift_to_wake_title">Tik holatda faollashtirish</string>
-    <string name="lockdown_settings_summary">Smart Lock, yuz va barmoq izi bilan ochish va ekran qulfidagi bildirishnomalarni faolsizlantiradigan quvvat tugmasini chiqarish</string>
-    <string name="lockdown_settings_title">Qulflash tugmasini chiqarish</string>
+    <string name="abc_action_bar_home_description">Boshiga o‘tish</string>
+    <string name="abc_action_bar_up_description">Yopish</string>
     <string name="locked_work_profile_notification_title">Ish profili qulflanganda</string>
     <string name="lockscreen_bypass_summary">Qulf yechilganda oxirgi ekranni oching</string>
     <string name="lockscreen_bypass_title">Ekran qulfini tashlab ketish</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Ishga oid bildirishnomalar</string>
     <string name="reset_dashboard_summary">Tarmoq, ilova yoki qurilma sozlamalarini asliga qaytarishingiz mumkin</string>
     <string name="reset_dashboard_title">Asliga qaytarish</string>
-    <string name="abc_action_bar_home_description">Boshiga o‘tish</string>
+    <string name="abc_action_menu_overflow_description">Yana</string>
     <string name="screensaver_settings_title">Ekran lavhasi</string>
     <string name="screen_timeout">Ekranning kutish vaqti</string>
     <string name="screen_zoom_title">Ekrandagi tasvir masshtabi</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Ayrim kontent uchun ekranning yangilanish chastotasi 60-90 Gs orasida almashib turadi. Batareya tezroq sarflanadi.</string>
     <string name="accessibility_vibration_settings_title">Tebranish va sezuvchanlik</string>
     <string name="emergency_gesture_screen_title">Favqulodda holat</string>
-    <string name="abc_action_bar_up_description">Yopish</string>
+    <string name="abc_action_mode_done">OK</string>
     <string name="vibrate_for_calls_category_title">Chaqiruvlar</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Hamyonni chiqarish</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Qurilma boshqaruv elementlarini chiqarish</string>
     <string name="lockscreen_privacy_wallet_summary">Ekran qulfi va tezkor sozlamalardan hamyonga kirish uchun ruxsat bering</string>
     <string name="lockscreen_privacy_controls_summary">Qulflanganda boshqaruv elementlaridan foydalanish</string>
-    <string name="abc_action_menu_overflow_description">Yana</string>
-    <string name="abc_action_mode_done">OK</string>
     <string name="abc_activity_chooser_view_see_all">Hammasi</string>
     <string name="abc_activitychooserview_choose_application">Ilovani tanlang</string>
     <string name="abc_capital_off">YOQILMAGAN</string>
@@ -2888,7 +2886,7 @@ Buni keyinroq Sozlamalar > Ilovalar va bildirishnomalar orqali o‘zgartirishing
     <string name="location_scanning_wifi_always_scanning_description">Wi-Fi yoniq emasligida ham ilovalar va xizmatlarga Wi-Fi tarmoqlarni qidirish uchun ruxsat. Shunda joylashuv axborotiga asoslangan funksiya va xizmatlarning ishlashi yanada yaxshilanadi.</string>
     <string name="location_scanning_wifi_always_scanning_title">Wi-Fi tarmoqlarni qidirish</string>
     <string name="location_services_preference_title">Joylashuvni aniqlash xizmatlari</string>
-    <string name="location_services_screen_title">Joylashuvni aniqlash xizmati</string>
+    <string name="location_services_screen_title">Joylashuvni aniqlash xizmatlari</string>
     <string name="location_settings_footer_general">Yaqin-atrofdagi qurilmalarga ruxsati bor ilovalar ulangan qurilmalarning nisbiy holatini aniqlay oladi.</string>
     <string name="location_settings_footer_learn_more_content_description">Joylashuv sozlamalari haqida batafsil.</string>
     <string name="location_settings_footer_location_off">Ilovalar va xizmatlar uchun joylashuv axborotiga ruxsat yoqilmagan. Favqulodda holatlar raqamiga murojaat qilganingizda, qurilmangiz favqulodda xizmatlarga joylashuvingizni yuborishi mumkin.</string>
@@ -3306,7 +3304,7 @@ Bu qurilmada boshqa foydalanuvchilar ham bor.
     <string name="mobile_data_disable_title">Mobil internet uzilsinmi?</string>
     <string name="mobile_data_no_connection">Internetga ulanmagansiz</string>
     <string name="mobile_data_off">Mobil internet yoniq emas</string>
-    <string name="mobile_data_off_summary">Mobil internetga avtomatik ulanmaydi</string>
+    <string name="mobile_data_off_summary">Mobil internet avtomatik ulanmaydi</string>
     <string name="mobile_data_settings_summary">Mobil tarmoq orqali internetdan foydalanish</string>
     <string name="mobile_data_settings_summary_auto_switch">Telefon xizmat doirasida avtomatik ravishda bu aloqa operatoriga almashtiriladi</string>
     <string name="mobile_data_settings_summary_unavailable">Hech qanday SIM karta mavjud emas</string>
@@ -4021,7 +4019,7 @@ Bir vaqtda quvvat va tovushni balandlatish.tugmalarini bosib turing."</string>
     <string name="reduce_bright_colors_intensity_preference_title">Intensivlik</string>
     <string name="reduce_bright_colors_intensity_start_label">Xiraroq</string>
     <string name="reduce_bright_colors_persist_preference_title">Qurilma qayta ishga tushganidan keyin ham qolsin</string>
-    <string name="reduce_bright_colors_preference_subtitle">Qulayroq oʻqish uchun ekranni xiralashtiring.&lt;br>&lt;br>Qachon foydali:&lt;ol>&lt;li>Telefondagi standart minimal yorqinlik juda baland&lt;/li>&lt;li>Telefon tunda va uxlashdan oldin kabi qorongʻi muhitda ishlatilganda&lt;/li>&lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">Qulayroq oʻqish uchun ekranni xiralashtiring.&lt;br>&lt;br>Qachon foydali:&lt;ol>&lt;li> Telefondagi standart minimal yorqinlik juda baland&lt;/li>&lt;li> Telefon tunda va uxlashdan oldin kabi qorongʻi muhitda ishlatilganda&lt;/li>&lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">Telefon ekranidagi minimal yorqinlikni yanada xiralashtirish</string>
     <string name="reduce_bright_colors_preference_title">Juda xira</string>
     <string name="reduce_bright_colors_switch_title">Ekranni juda xira qilish</string>

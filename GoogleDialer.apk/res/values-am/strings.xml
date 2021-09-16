@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">ይመልሱ</string>
     <string name="a11y_call_incoming_decline_description">አይቀበሉ</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">wifiን በመጠቀም የቪዲዮ ጥሪ አድርግ</string>
     <string name="a11y_contact_menu_voice_call_wifi">wifiን በመጠቀም የድምጽ ጥሪ አድርግ</string>
     <string name="a11y_conversation_history_entry_answered_call">የቅርብ ጊዜው ምላሽ የተሰጠው ጥሪ ከ^1 ነው</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">ደዋዮችን ያስተዳድሩ</string>
     <string name="a11y_expandedsheet_collapse">ምናሌ ሰብስብ</string>
     <string name="a11y_expandedsheet_expand">ምናሌ ዘርጋ</string>
-    <string name="a11y_favorites_education_dismiss">ዝጋ</string>
     <string name="a11y_feature_demo_next_page">ቀጣይ ገጽ</string>
     <string name="a11y_feature_demo_page_indicator">ገጽ %d</string>
     <string name="a11y_feature_demo_prev_page">ቀዳሚ ገጽ</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">ፈጣን ዕውቂያ ለ^1</string>
+    <string name="a11y_icon_hd">የኤችዲ ጥሪ</string>
+    <string name="a11y_icon_hd_plus">የኤችዲ ፕላስ ጥሪ</string>
+    <string name="a11y_icon_shared_data_call">የተጋራ ውሂብ ጥሪ</string>
+    <string name="a11y_icon_verified">የተረጋገጠ ጥሪ</string>
+    <string name="a11y_icon_vilte">ቪድዮ በLTE ጥሪ</string>
+    <string name="a11y_icon_viwifi">ቪድዮ በWiFi ጥሪ</string>
+    <string name="a11y_icon_volte">ድምጽ በLTE ጥሪ</string>
+    <string name="a11y_icon_voz4g">ድምጽ በ4G ጥሪ</string>
+    <string name="a11y_icon_wifi">የWi-Fi ጥሪ</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">ለመመለስ በሁለት ጣት ወደ ላይ ያንሸራቱ። ላለመቀበል በሁለት ጣት ወደ ታች ያንሸራቱ።</string>
     <string name="a11y_incoming_call_swipe_to_answer">ጥሪውን ለመመለስ በሁለት ጣትዎ ወደላይ ይጥረጉ፣ ላለመቀበል ደግሞ ወደታች ይጥረጉ።</string>
     <string name="a11y_new_call_log_entry_call_recording">የተቀዳ ጥሪ</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1፣ ^2፣ ^3፣ ^4።</string>
     <string name="a11y_new_call_log_entry_phone_account">በ ^1 ላይ</string>
     <string name="a11y_new_call_log_entry_rtt_call">የአርቲቲ ጥሪ ለ^1 ያድርጉ</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">የተጋራ ውሂብ ጥሪ</string>
     <string name="a11y_new_call_log_entry_tap_action">ምናሌ ዘርጋ</string>
     <string name="a11y_new_call_log_entry_video_call">ለ ^1 የቪዲዮ ጥሪ ያድርጉ</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">wifiን በመጠቀም ወደ ^1 የቪዲዮ ጥሪን አድርግ</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">ከመደወል በፊት ቁጥር አርትዕ</string>
     <string name="action_menu_back_from_search">መፈለግ አቁም</string>
     <string name="action_menu_overflow_description">ተጨማሪ አማራጮች</string>
+    <string name="activate_error_message">ጥሪ ማሳያን ማግበር ላይ ችግር ነበር</string>
+    <string name="activated_successfully">የጥሪ ማሳያ ገቢር ተደርጓል</string>
     <string name="activity_not_available">ለዚያ የሚሆን መተግበሪያ በዚህ መሣሪያ ላይ የለም</string>
     <string name="add_2sec_pause">2 ሴኮንድ ፋታ አክል</string>
     <string name="add_contact_not_available">ምንም የእውቂያዎች መተግበሪያ አይገኝም</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">ጥሪ</string>
     <string name="bm_suggest_chat_button">ውይይት</string>
     <string name="bm_suggest_wait_min">"ውይይት
-የ%1$d ደቂቃ ጥበቃ"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s፣ %2$s ያልተነበቡ</string>
+%1$dደ ጥበቃ"</string>
+    <string name="bm_suggest_wait_time_estimating">"ውይይት
+በመስራት ላይ…"</string>
     <string name="bottomsheet_action_expand_halfway">ግማሽ መንገድ ዘርጋ</string>
     <string name="bubble_bottom_action_end_call">ጥሪ ጨርስ</string>
     <string name="bubble_bottom_action_hide">ደብቅ</string>
@@ -170,7 +182,10 @@
     <string name="call">የድምጽ ጥሪ</string>
     <string name="callFailed_simError">ምንም SIM ፣ ወይም የSIM ስህተት የለም</string>
     <string name="callHistoryIconLabel">የጥሪ ታሪክ</string>
-    <string name="call_announcer_preference_footer_instruction_text">ለገቢ ጥሪዎች የደዋዩ ስም እና ቁጥር ጮክ ተብሎ ይነበባል</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">ለገቢ ጥሪዎች የደዋዩ ስም እና ቁጥር ጮክ ተብሎ ይነበባል።</string>
     <string name="call_announcer_preference_list_title">የደዋይ መታወቂያን አሳውቅ</string>
     <string name="call_announcer_preference_option_always">ሁልጊዜ</string>
     <string name="call_announcer_preference_option_headset">ማዳመጫን በሚጠቀሙ ጊዜ ብቻ</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">ይመልሱ</string>
     <string name="call_incoming_answer_rtt">በአርቲቲ ይመልሱ</string>
     <string name="call_incoming_answer_voice">በድምጽ ይመልሱ</string>
-    <string name="call_incoming_chip_answer_and_release">እየተካሄደ ያለውን ጥሪ ይመልሱ እና ያብቁ</string>
+    <string name="call_incoming_chip_answer_and_release">ይመልሱ እና ሌላውን ጥሪ ያብቁ</string>
     <string name="call_incoming_chip_answer_as_rtt">እንደ RTT ጥሪ መልስ</string>
     <string name="call_incoming_chip_answer_video_as_audio">እንደ ድምጽ ጥሪ መልስ</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">ቪድዮዬ ጠፍቶ እያለ መልስ</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">ለመመለስ ወደላይ ያንሸራቱ</string>
     <string name="call_incoming_swipe_to_reject">ላለመቀበል ወደ ታች ያንሸራትቱ</string>
     <string name="call_incoming_video_is_off">የእርስዎ ቪዲዮ ጠፍቷል</string>
-    <string name="call_incoming_will_disconnect">ይህን ጥሪ መመለስ የቪዲዮ ጥሪዎን ያቋርጣል።</string>
+    <string name="call_incoming_will_disconnect">ይህን ጥሪ መመለስ ሌላው ጥሪዎን ያቋርጣል</string>
     <string name="call_incoming_will_disconnect_app">መልስ መስጠት የእርስዎን %1$s ጥሪ ይጨርሳል</string>
     <string name="call_isdn">ለISDN ይደውሉ</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">አይፈለጌ አግድ/ሪፖርት አድርግ</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">የጥሪው ምክንያት፦ %1$s</string>
     <string name="call_recording_audio_saved_snackbar">ቀረጻው ተቀምጧል።</string>
     <string name="call_recording_conversation_history_entry">የተቀዳ</string>
+    <string name="call_recording_delete_snack_bar_undo">ቀልብስ</string>
     <string name="call_recording_disclaimer_agreen_button_text">መቅረጽ ጀምር</string>
     <string name="call_recording_disclaimer_content">"እርስዎ ወይም በጥሪዎ ውስጥ ያሉት ሌላው ሰው ያሉበት ቦታ ለመቀረጽ የሁሉም ሰው ፈቃደኝነት የሚያስፈልግበት ሊሆን ይችላል። ይህ ጥሪ እየተቀረጸ እንደሆነ ሁሉም ሰው በቅድሚያ ማሳወቂያ ይደርሳቸዋል። ውይይቶችን መቅረጽ የተመለከቱ ህጎችን መከተል የእርስዎ ኃላፊነት ነው። የጥሪ ቀረጻን በኃላፊነት ይጠቀሙ እንዲሁም በሚያስፈልግበት ጊዜ ብቻ ያብሩት።
 ^1
@@ -291,6 +307,7 @@
 የጥሪው ኦዲዮም ሆነ የጥሪው ትራንስክሪፕት፣ Googleን ጨምሮ፣ ወደ ማንኛውም ሰው አይላክም።"</string>
     <string name="call_screen_demo_page_4_title">ጊዜ ይቆጥቡ እንዲሁም ብስጭትን ያስወግዱ</string>
     <string name="call_screen_demo_setting_title">ማሳያ ይመልከቱ</string>
+    <string name="call_screen_demo_settings_title">አንድ ማሳያ ይመልከቱ</string>
     <string name="call_screen_demo_title">የጥሪ ማሳያ እንዴት እንደሚሰራ</string>
     <string name="call_screen_demo_unable_to_fetch_audio">የኦዲዮ ናሙና ማምጣት አልተቻለም</string>
     <string name="call_screen_demo_unable_to_play_audio">የኦዲዮ ናሙና ማጫወት አልተቻለም</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">እርስዎ ጥሪውን አጠናቀዋል</string>
     <string name="call_screen_end_call_non_local_internal_message">የጥሪ ግንኙነት ተቋርጧል</string>
     <string name="call_screen_how_it_works_setting_title">የጥሪ ማሳያ በመሳሪያዎ ላይ ያለ Wi-Fi ወይም ውሂብ ይሰራል። የውይይቱ ትራንስክሪፕቶች የሚመነጩት እና የሚከማቹት በስልክዎ ላይ ብቻ ነው። %1$s</string>
+    <string name="call_screen_how_it_works_title">የጥሪ ማሳያ በመሳሪያዎ ላይ ያለ Wi-Fi ወይም ውሂብ ይሰራል። የውይይቱ ትራንስክሪፕቶች የሚመነጩት እና የሚከማቹት በስልክዎ ላይ ብቻ ነው። ^1</string>
     <string name="call_screen_incallui_chip_text">ጥሪ አጣራ</string>
     <string name="call_screen_join_call_button_content_description">ጥሪን ተቀላቀል</string>
     <string name="call_screen_join_call_internal_message">እርስዎ ጥሪውን ተቀላቅለዋል</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">ለደዋዩ ይህን በማለት ላይ</string>
     <string name="call_screen_screening_call_from">በመጣራት ላይ ያለ ጥሪ ከ</string>
     <string name="call_screen_setting_title">ጥሪ ማሳያ</string>
+    <string name="call_screen_settings_title">ጥሪ ማሳያ</string>
     <string name="call_screen_speaker_toggle_button_content_description">የድምጽ ማውጫ አዝራር</string>
     <string name="call_screen_suggestions_avatar_content_description">አርማ</string>
     <string name="call_screen_survey_cancel_button">ይቅር</string>
@@ -331,6 +350,8 @@
     <string name="call_work">ለሥራ ይደውሉ</string>
     <string name="call_work_mobile">ለየስራ ተንቀሳቃሽ ስልክ ይደውሉ</string>
     <string name="call_work_pager">ለየሥራ ጥሪ ምልክት ማድረጊያ ይደውሉ</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">ገቢ የ%1$s ጥሪ ከ%2$s በ%3$s ሲም ላይ</string>
     <string name="caller_id_announcement_single_sim">ገቢ የ%1$s ጥሪ ከ%2$s</string>
     <string name="caller_id_business_data_details">በእነዚህ ባህሪዎች ውስጥ ጥቅም ላይ የሚውለው ውሂብ በGoogle እና ፈቃድ ሰጪዎቹ የቀረበ ነው። ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">ወደ %s ይደወል?</string>
     <string name="calllog_add_to_contact">ወደ እውቂያ አክል</string>
     <string name="calllog_create_new_contact">አዲስ እውቂያ ፍጠር</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">የካሜራ ፈቃድ ነቅቷል</string>
     <string name="camera_privacy_text">የካሜራ ፈቃድ ነቅቷል</string>
     <string name="cannot_understand_description">መረዳት አልቻልኩም</string>
     <string name="car_crash_emergency_intro">"ራስሰር በተደረገ የአስቸኳይ ድምጽ አገልግሎት ደዋዩን በመወከል እያገኘዎ ነው።
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">የተረጋገጠ ጥሪን ማዋቀር አልተቻለም። በቅንብሮች ውስጥ እንደገና ማንቃት ይችላሉ።</string>
     <string name="contact_card_video_icon_content_description">የቪዲዮ ጥሪ ^1</string>
     <string name="contact_grid_callback_number">የዚህ ፎቶ ቁጥር፦ %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">ጥሪ ተላልፏል</string>
+    <string name="contact_grid_hd_icon_content_description">የኤችዲ ጥሪ</string>
+    <string name="contact_grid_hd_plus_icon_content_description">የኤችዲ ፕላስ ጥሪ</string>
     <string name="contact_grid_incoming_bidirectional_video_call">የአገልግሎት አቅራቢ የቪዲዮ ጥሪ ከ</string>
     <string name="contact_grid_incoming_reception_only_video_call">የአገልግሎት አቅራቢ ባለ 1 መንገድ የቪዲዮ ጥሪ ከ</string>
     <string name="contact_grid_incoming_rtt_call">የአርቲቲ ጥሪ ከ</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">የWi-Fi የአገልግሎት አቅራቢ የቪዲዮ ጥሪ ከ</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">የWi-Fi የአገልግሎት አቅራቢ ባለ 1 መንገድ የቪዲዮ ጥሪ ከ</string>
     <string name="contact_grid_incoming_work_call">የሥራ ጥሪ ከ</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">የተጋራ ውሂብ ጥሪ</string>
+    <string name="contact_grid_spam_icon_content_description">የአይፈለጌ መልዕክት ጥሪ</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">አገልግሎት አቅራቢ</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s ተረጋግጧል</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">የሚሠራ ቁጥር</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">ቪድዮ በLTE ጥሪ</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">ቪድዮ በWiFi ጥሪ</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">ድምጽ በ4G ጥሪ</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">ድምጽ በLTE ጥሪ</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">ድምጽ በWiFi ጥሪ</string>
+    <string name="contact_grid_wifi_icon_content_description">የWi-Fi ጥሪ</string>
+    <string name="contact_grid_work_icon_content_description">የሥራ ጥሪ</string>
     <string name="contact_menu_add_favorite">ተወዳጅ አክል</string>
     <string name="contact_menu_contact_info">የዕውቂያ መረጃ</string>
     <string name="contact_menu_invite_video">ወደ የቪዲዮ ጥሪ ይጋብዙ</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">ዛሬ</string>
     <string name="conversation_history_call_details_snack_bar_deleted">ጥሪ ተሰርዟል</string>
     <string name="conversation_history_call_details_snack_bar_undo">ቀልብስ</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">አስፈላጊ ጥሪ</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">የታከለ የጥሪ መረጃን አሳይ</string>
+    <string name="conversation_history_call_recording_deleted">ቀረጻ ተሰርዟል</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">የንግግር ጽሁፍ እና ኦዲዮ</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">የንግግር ጽሑፍ</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">ጥሪ ማጣሪያ</string>
     <string name="copy">ቅዳ</string>
     <string name="copy_number">ቁጥር ቅዳ</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">ነባሪ ቅድመ ቅጥያ</string>
     <string name="custom_prefix_prefixes_preference_title">ቅድመ ቅጥያዎች</string>
     <string name="dark_theme_label">ጨለማ</string>
+    <string name="default_changed_confirmation">ስልክ ነባሪ ሆኖ ተዘጋጅቷል</string>
+    <string name="default_image_content_description">መግቢያ ምስል</string>
     <string name="delete">ሰርዝ</string>
     <string name="delete_all_recordings_confirmation_dialog_title">ሁሉንም ቀረጻዎች ሰርዝ</string>
     <string name="delete_all_recordings_now_error_message">አንዳንድ ቀረጻዎች ሊሰረዙ አልቻሉም። እንደገና ይሞክሩ።</string>
     <string name="delete_button_label">ሁሉንም ቀረጻዎች አሁን ሰርዝ</string>
     <string name="delete_confirmation_dialog_negative_button_label">ይቅር</string>
     <string name="delete_confirmation_dialog_positive_button_label">ሰርዝ</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">ቀረጻን በመሰረዝ ላይ…</string>
     <string name="description_add_to_existing_contact_action">^1ን ወደ አሁን ያለ እውቂያ አክል</string>
     <string name="description_blocked_number_list_delete">ቁጥርን አታግድ</string>
     <string name="description_call_action">ወደ ^1 ይደውሉ</string>
@@ -581,11 +626,11 @@
     <string name="disambig_option_voice_call">የድምጽ ጥሪ</string>
     <string name="display_dec">%s DEC፦</string>
     <string name="display_hex">%s HEX፦</string>
-    <string name="display_options_sort_by_family_name">የመጨረሻ ስም</string>
+    <string name="display_options_sort_by_family_name">የአያት ስም</string>
     <string name="display_options_sort_by_given_name">የመጀመሪያ ስም</string>
     <string name="display_options_sort_list_by">ደርድር በ</string>
     <string name="display_options_title">የማሳያ አማራጮች</string>
-    <string name="display_options_view_family_name_first">የመጨረሻ ስም መጀመሪያ</string>
+    <string name="display_options_view_family_name_first">የአያት ስም መጀመሪያ</string>
     <string name="display_options_view_given_name_first">የመጀመሪያ ስም መጀመሪያ</string>
     <string name="display_options_view_names_as">የስም ቅርጸት</string>
     <string name="do_not_show_again">ዳግም አታሳይ</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"የራስሰር የአደጋ ጊዜ የድምጽ አገልግሎት አንድ ደዋይን በመወከል ነው እያነጋገረዎ ያለው።
 የድንገተኛ አደጋ ሁኔታ ውስጥ ሊሆኑ እንደሚችሉ ደዋዩ ምልክት ሰጥተዋል። 
 እባክዎ እገዛን ይላኩ።"</string>
+    <string name="emergency_speaker">ድምጽ ማውጫ</string>
     <string name="emergency_voice_assist_dialog_button_close">ተወው</string>
     <string name="emergency_voice_assist_dialog_title">የአስቸኳይ ጊዜ አከናዋኙ ይህን ያዳምጣል</string>
     <string name="end_call_with_default_message_description">ጥሪን ጨርስ</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">ኦዲዮ በጣም ጸጥ ያለ ነበር</string>
     <string name="feedback_call_issue_title">ችግሩ ምን ነበር?</string>
     <string name="feedback_title_please_rate">እባክዎ የጥሪውን ጥራት ደረጃ ይስጡት</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">ጸጥ ለማሰኘት ይገልብጡ</string>
     <string name="flip_to_silence_summary">ገቢ ጥሪን ጸጥ ለማሰኘት፣ ስልክዎን በጠፍጣፋ ቦታ ላይ ፊቱን ወደ ታች አድርገው ያስቀምጡት</string>
     <string name="flip_to_silence_title">ጸጥ ለማሰኘት ይገልብጡ</string>
+    <string name="foreground_notification_title">በማዘመን ላይ…</string>
     <string name="frequent_contact_suggestion">በተደጋጋሚ የተደወለ</string>
     <string name="general_learn_more">የበለጠ ለመረዳት</string>
     <string name="generic_conference_call_name">በጥሪ ላይ</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">ቀረጻዎች እንዴት እንደሚከማቹ የበለጠ ይረዱ</string>
     <string name="how_it_works_storage_template">የስልክዎ ማከማቻ ካለቀ የጥሪ ቀረጻ ይታገዳል። ^1</string>
     <string name="icon_content_description">የንግግር አዶ</string>
+    <string name="icon_description_shared_data_call">የተጋራ ውሂብ ጥሪ</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">ቁጥሮችን አስመጣ</string>
     <string name="ims_video_heading">የVerizon ቪድዮ</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">ምንም ያመለጡ ጥሪዎች የሉዎትም</string>
     <string name="new_call_log_permission_no_calllog">የጥሪ ምዝግብ ማስታወሻዎን ለማየት የስልክ ፍቃዱን ያብሩ።</string>
     <string name="new_call_log_secondary_blocked">የታገደ</string>
+    <string name="new_call_log_secondary_verified">የተረጋገጠ ጥሪ</string>
     <string name="new_call_log_snack_bar_deleted">ጥሪ ተሰርዟል</string>
     <string name="new_call_log_snack_bar_undo">ቀልብስ</string>
     <string name="new_call_log_unknown">ያልታወቀ</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">ቪድዮ</string>
     <string name="notification_action_dismiss">አትቀበል</string>
     <string name="notification_action_end_call">ዝጋ</string>
+    <string name="notification_action_mute_toggle">ድምጸ-ከል አድርግ</string>
     <string name="notification_action_speaker_off">ድምጽ ማጉያን አጥፋ</string>
     <string name="notification_action_speaker_on">ድምጽ ማጉያን አብራ</string>
+    <string name="notification_action_speaker_toggle">ድምጽ ማውጫ</string>
     <string name="notification_callReasonMsg">ምክንያት፦ %s</string>
     <string name="notification_call_wifi_brand">የWi-Fi ጥሪ</string>
     <string name="notification_call_wifi_work_brand">የWi‑Fi የሥራ ጥሪ</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">የአገልግሎት አቅራቢ ቪዲዮ ጥሪን ለማድረግ የሚጠቅም አዘራር።</string>
     <string name="play">አጫውት</string>
     <string name="plus_code_line_format">ፕላስ ኮድ፦ %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">ለምን እንደደወሉ ይንገሩን</string>
     <string name="post_call_message_1">ይህ አስቸኳይ ነው። መልሰው ይደውሉልኝ።</string>
     <string name="post_call_message_2">ጊዜ ሲኖርዎት መልሰው ይደውሉልኝ።</string>
@@ -913,6 +968,8 @@
     <string name="privacy_policy_label">የግላዊነት መመሪያ</string>
     <string name="private_num_non_verizon">የግል ቁጥር</string>
     <string name="private_num_verizon">ተገድቧል</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">እውቂያ ይምረጡ</string>
     <string name="ready_for_recording">ዝግጁ…</string>
     <string name="record_greeting_cancel_label">ይቅር</string>
@@ -928,6 +985,8 @@
     <string name="record_greeting_uploading_greeting_message">በማስቀመጥ ላይ…</string>
     <string name="record_voicemail_greeting_title">ሰላምታ ቅረጽ</string>
     <string name="recording_category_title">ቀረጻዎች</string>
+    <string name="recording_deleted">ቀረጻ ተሰርዟል</string>
+    <string name="recording_deletion_failed">ቀረጻን መሰረዝ አልተቻለም [እንደገና ይሞክሩ]</string>
     <string name="redo_button_text">እንደገና ሞክር</string>
     <string name="remember_this_choice_label">ይህን ምርጫ አስታውስ</string>
     <string name="report_not_spam_alert_button">ሪፖርት አድርግ</string>
@@ -939,9 +998,20 @@
     <string name="request_call_back_description">መልሰው ይደውሉልኝ</string>
     <string name="request_email_description">ኢሜይል ይላኩልኝ</string>
     <string name="respond_via_sms_setting_title">ፈጣን ምላሾች</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">አብራ</string>
     <string name="revelio_end_call_reject_as_spam">ጥሪው አይፈለጌ መልዕክት ተብሎ ምልክት ተደርጎበታል</string>
     <string name="revelio_end_call_user_missed_internal_message">ጥሪው አምልጧል</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">አርቲቲ መስማት የተሳናቸው፣ የመስማት ችግር ያለባቸው እና የንግግር አካል ጉዳት ያለባቸው ወይም ከድምጽ ብቻ በላይ የሚያስፈልጋቸውን ደዋዮች ያግዛል። ^1</string>
     <string name="rtt_assist_for_att">የማያ ገጽ ላይ ቅጽበታዊ ጽሑፍ (አርቲቲ) የቁልፍ ሰሌዳ የውጫዊ TTY የቁልፍ ሰሌዳዎች አማራጭ ነው። የአርቲቲ ጥሪ ወቅት ጽሁፍ ሲጽፉ፣ እያወሩት ያለው ሰው መልዕክትዎን ሲጽፉ በቅጽበት ማየት ይችላል። ^1</string>
     <string name="rtt_assist_for_tmo">የማያ ገጽ ላይ ቅጽበታዊ ጽሑፍ (አርቲቲ) የቁልፍ ሰሌዳ የውጫዊ TTY የቁልፍ ሰሌዳዎች አማራጭ ነው። በስልክ ጥሪ ወቅት አርቲቲ እርስዎ እየተየቡ ያሉትን በቅፅበት በመላክ፣ ጽሁፍን ተጠቅመው በእውነተኛ ጊዜ ውስጥ መልዕክት ለመለዋወጥ ያስችልዎታል። መላው መልዕክት ከመጠናቀቁ በፊት ከፊል ምላሾችን ማየት ይችላሉ። ^1</string>
@@ -949,7 +1019,8 @@
     <string name="rtt_button_back">ተመለስ</string>
     <string name="rtt_button_downgrade">ወደ ድምፅ ጥሪ ቀይር</string>
     <string name="rtt_call_button">አርቲቲ</string>
-    <string name="rtt_call_not_available_toast">አርቲቲ ለዚህ ጥሪ አይገኝም ጥሪዎ እንደ የድምጽ-ብቻ ጥሪ ተገናኝቷል።</string>
+    <string name="rtt_call_downgraded_toast">የአርቲቲ ጥሪዎ ወደ የድምጽ-ብቻ ጥሪ ተቀይሯል</string>
+    <string name="rtt_call_not_available_toast">አርቲቲ ለዚህ ጥሪ አይገኝም</string>
     <string name="rtt_configuration_summary_always_visible">የቅጽበታዊ ጽሑፍ አዝራር በሁሉም ቦታ ይገኛል</string>
     <string name="rtt_configuration_summary_not_visible">ገቢ የቅጽበታዊ ጽሑፍ ጥሪዎችን ፍቀድ ነገር ግን የጥሪ አዝርዝሩን ደብቅ</string>
     <string name="rtt_configuration_summary_visible_during_call">የቅጽበታዊ ጽሑፍ አዝራሩን በጥሪ ጊዜ አሳይ</string>
@@ -978,6 +1049,8 @@
     <string name="rtt_transcript_link">ወደ ጽሁፍ ገልብጥ ተመልከት</string>
     <string name="rttcall_button_label">አርቲቲ</string>
     <string name="safety_emergency_repeat_message_alert">ይህ መልዕክት ይደገማል።</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">አስቀምጥ</string>
     <string name="saved_voicemails_action_title">የተቀመጡ የድምፅ መልዕክቶች (%1$s)</string>
     <string name="search_hint">የቪድዮ ዕውቅያዎችን ይፈልጉ</string>
@@ -1004,8 +1077,11 @@
     <string name="send_a_message">መልዕክት ላክ</string>
     <string name="send_to_voicemail_import_failed">ማስመጣት አልተሳካም</string>
     <string name="serial_number">መለያ ቁጥር</string>
+    <string name="set_as_default_button_text">በነባሪነት ያዘጋጁ</string>
     <string name="set_default_account">ለጥሪዎች ሁልጊዜ ይህንን ተጠቀም</string>
     <string name="set_default_account_description">የሲም ምርጫ ለዕውቂያዎችዎ ተቀምጧል።</string>
+    <string name="set_phone_as_default_explanation_text">ስልክ መነሳትና ጥሪ መቀበል የሚጀምረው የእርስዎ ነባሪ የስልክ መተግበሪያ ከሆነ ብቻ ነው።</string>
+    <string name="set_phone_as_default_request_text">ስልክን በነባሪነት ያዘጋጁ</string>
     <string name="settings">ቅንብሮች</string>
     <string name="settings_page_call_recording_feature_not_available_text">የጥሪ ቀረጻ በእርስዎ አካባቢ አይገኝም</string>
     <string name="settings_page_crosby_feature_not_available_text">በእርስዎ አካባቢ አይገኝም</string>
@@ -1040,6 +1116,8 @@
     <string name="snackbar_undo">ቀልብስ</string>
     <string name="snackbar_voicemail_deleted">የድምጽ ፖስታ ተፈልጎ ተገኝቷል</string>
     <string name="sounds_and_vibration_title">ድምጾች እና ንዝረት</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">አይፈለጌ እና የጥሪ ማያ ገጽ</string>
     <string name="spam_blocking_promo_action_dismiss">አሰናብት</string>
     <string name="spam_blocking_promo_action_filter_spam">አይፈለጌ መልዕክትን አጣራ</string>
@@ -1066,8 +1144,6 @@
     <string name="speed_dial_add_button_text">አክል</string>
     <string name="speed_dial_contacts_permission_description">ፈጥኖ መደወያን ለማንቃት የእውቂያዎች ፍቃዱን ያብሩ።</string>
     <string name="speed_dial_disambig_dialog_title">እንዴት እንደሚደውሉ ይምረጡ %s</string>
-    <string name="speed_dial_education_content">በጥሪዎች እና መልዕክቶች መካከል ለመቀያየር ማንኛውንም እውቂያ ይንኩ እና ይያዙ</string>
-    <string name="speed_dial_education_title">ለመገናኘት ተጨማሪ መንገዶች</string>
     <string name="speed_dial_no_contacts_action_text">ተወዳጅ አክል</string>
     <string name="speed_dial_no_contacts_description">አንዴ መታ በማድረግ ብቻ ወደ ተወዳጅ እውቂያዎችዎ ይደውሉ</string>
     <string name="speed_dial_remember_this_choice">ይህን ምርጫ አስታውስ</string>
@@ -1095,11 +1171,15 @@
     <string name="terms_of_service_label">የአገልግሎት ውል</string>
     <string name="textmessage_button_label">መልዕክት</string>
     <string name="theme_preference_label">ገጽታ ይምረጡ</string>
+    <string name="tidepods_call_screen_settings_title">ጥሪ ማሳያ</string>
+    <string name="tidepods_incall_label_record">ቅረጽ</string>
     <string name="toast_text_copied">ፅሁፍ ተገልብጧል</string>
     <string name="toolbar_back">ተመለስ</string>
     <string name="toolbar_close">ዝጋ</string>
     <string name="transcript_audio_feedback_chip_text">እንድናሻሽል ያግዙን</string>
+    <string name="transcript_audio_feedback_link_text">ትራንስክሪፕት እና ኦዲዮን ይመልከቱ</string>
     <string name="transcript_snippet_low_confidence_description">(ኦዲዮ ግልጽ አልነበረም)</string>
+    <string name="try_again_button">እንደገና ሞክር</string>
     <string name="tty_configuration_title_tty_full">TTY ሙሉ</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY ጠፍቷል</string>
@@ -1121,7 +1201,6 @@
     <string name="type_outgoing_video_pulled">ወጪ የቪዲዮ ጥሪ ወደ ሌላ መሣሪያ ተዘዋውሯል</string>
     <string name="type_rejected">ያልተነሳ ጥሪ</string>
     <string name="type_voicemail">የድምፅ መልዕክት</string>
-    <string name="unable_change_value_error">የአርቲቲ ቅንብሮችን በመቀየር ላይ ችግር ነበር። እባክዎ ይመለሱ እና እንደገና ይሞክሩ።</string>
     <string name="unable_read_value_error">የአርቲቲ ቅንብሮችን በማንበብ ላይ ችግር ነበር። እባክዎ ይመለሱ እና እንደገና ይሞክሩ።</string>
     <string name="unblock_number">እገዳውን አንሳ</string>
     <string name="unblock_number_alert_details">ይህ ቁጥር እግዱ ይነሳለታል እንዲሁም አይፈለጌ እንዳልሆነ ሪፖርት ይደረጋል። የወደፊት ጥሪዎች እና የድምፅ መልዕክቶች እንደ አይፈለጌ አይቆጠሩም።</string>
@@ -1130,6 +1209,7 @@
     <string name="unblock_number_ok">እገዳውን አንሳ</string>
     <string name="unblock_report_number_alert_title">ከ%1$s እግድ ይነሳ?</string>
     <string name="unknown">ያልታወቀ</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">የገቢ ኦዲዮን ድምፅ-ከል አንሳ</string>
     <string name="user_is_busy_description">መልሼ እደውልልዎታለሁ</string>
@@ -1241,10 +1321,17 @@
     <string name="videocall_remote_video_on">የእነሱ ቪዲዮ በርቷል</string>
     <string name="videocall_remotely_held">ጥሪ በይቆይ ላይ</string>
     <string name="videocall_remotely_resumed">ጥሪ ከቆመበት ቀጥሏል</string>
+    <string name="videocall_settings_default_carrier">የአገልግሎት አቅራቢ የቪዲዮ ጥሪ</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">ነባሪ የቪዲዮ ጥሪ የማድረግ አገልግሎት</string>
+    <string name="videocall_settings_fallback_summary">የአገልግሎት አቅራቢ የቪዲዮ ጥሪ የማይገኝ ከሆነ ወደ Duo ይቀይሩ</string>
+    <string name="videocall_settings_fallback_title">Duoን እንደ ምትኬ ይጠቀሙ</string>
+    <string name="videocall_settings_title">የቪዲዮ ጥሪ ማድረግ</string>
     <string name="videocall_show_preview_button_description">አካባቢያዊ የቪዲዮ ምግብን አሳይ</string>
     <string name="view">አሳይ</string>
     <string name="view_location_settings">የአካባቢ ቅንብሮች</string>
     <string name="vitle_label">ቪድዮ በLTE</string>
+    <string name="viwifi_label">ቪድዮ በWiFi</string>
     <string name="vm_change_pin_error_invalid">አዲሱ ፒን ልክ ያልሆኑ ቁምፊዎችን ይዟል።</string>
     <string name="vm_change_pin_error_mismatch">የቀድሞው ፒን አይዛመድም።</string>
     <string name="vm_change_pin_error_system_error">ፒን መቀየር አልተቻለም</string>
@@ -1254,8 +1341,11 @@
     <string name="vm_change_pin_progress_message">እባክዎ ይጠብቁ።</string>
     <string name="voice_call">የድምጽ ጥሪ</string>
     <string name="voice_call_button">ደውል</string>
+    <string name="voice_display_name">ድምጽ %1$d</string>
     <string name="voice_search_not_available">የድምጽ ፍለጋ አይገኝም</string>
     <string name="voice_selector_preference_title">የሚገኙ ድምፆች</string>
+    <string name="voice_settings_available_voices_text">የሚገኙ ድምጾች</string>
+    <string name="voice_settings_title">ድምጽ</string>
     <string name="voicecall_button_label">ጥሪ</string>
     <string name="voicecall_button_wifi_description">wifiን በመጠቀም ደውል</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s %2$s ላይ</string>
@@ -1290,7 +1380,6 @@
     <string name="voicemail_donation_promo_title">ወደ ጽሁፍ ግልበጣን ጥራት ለማሻሻል ያግዛሉ?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">ዕይታዊ የድምፅ መልዕክትን ውሂብ በሌላቸው ሲሞች መጠቀም የአገልግሎት አቅራቢ ክፍያን የሚያስከትል ሊሆን ይችላል</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ዕይታዊ የድምጽ መልዕክት ለተመረጠው የውሂብ ሲም ብቻ ይገኛል</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">በርካታ ሲሞች ካሉዎት እና አንዱ ለ Fi ከሆነ፣ የእርስዎ Fi ሲም ለዕይታዊ የድምጽ መልዕክት ጥቅም ላይ ይውላል።</string>
     <string name="voicemail_error_activating_message">እይታዊ የድምጽ መልዕክት ሙሉ ለሙሉ እስከሚነቃ ድረስ የድምፅ መልዕክት ማሳወቂያዎችን ላይቀበሉ ይችላሉ። የድምጽ መልዕክት ሙሉ ለሙሉ እስኪያገብር ድረስ አዲስ መልዕክቶችን ለማምጣት ወደ ድምፅ መልዕክት ይደውሉ።</string>
     <string name="voicemail_error_activating_title">እይታዊ የድምጽ መልዕክት በማግበር ላይ</string>
     <string name="voicemail_error_activation_disabled_message">ማዘጋጀትዎን ለመጨረስ እባክዎ ለድምጽ መልዕክት ይደውሉ</string>
@@ -1397,6 +1486,7 @@
     <string name="vvm3_error_vms_no_cellular_title">ከድምጽ መልዕክት ሳጥንዎ ጋር መገናኘት አይቻልም</string>
     <string name="vvm3_error_vms_timeout_message">ይቅርታ፣ ችግር አጋጥሞናል። እባክዎ ቆይተው እንደገና ይሞክሩ። አሁንም ችግር ካለ የደንበኛ አገልግሎትን በ%1$s ላይ ያግኙና የስህተት ቁጥሩ 9007 እንደሆነ ይንገሯቸው።</string>
     <string name="vvm3_error_vms_timeout_title">የሆነ ችግር ተፈጥሯል</string>
+    <string name="vvm_config_title">ዕይታዊ የድምፅ መልዕክት ውቅረት</string>
     <string name="vvm_unsupported_message_format">የማይደገፍ የመልዕክት አይነት፤ ለማዳመጥ ወደ %s ይደውሉ።</string>
     <string name="wait_prompt_str">"የሚከተሉትንድምፆች ላክ?
 "</string>

@@ -17,14 +17,21 @@
         <item>15 minut</item>
         <item>20 minut</item>
         <item>25 minut</item>
-        <item>Nikdy</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minut před večerkou</item>
+        <item>30 minut před večerkou</item>
+        <item>45 minut před večerkou</item>
+        <item>hodinu před večerkou</item>
+        <item>Vypnout</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogový</item>
         <item>Digitální</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nikdy</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekund</item>
         <item>10 sekund</item>
         <item>15 sekund</item>
@@ -37,6 +44,35 @@
         <item>50 sekund</item>
         <item>55 sekund</item>
         <item>60 sekund</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Zastavit po 10 minutách</item>
+        <item>Zastavit po 20 minutách</item>
+        <item>Zastavit po 30 minutách</item>
+        <item>Zastavit po 40 minutách</item>
+        <item>Zastavit po 50 minutách</item>
+        <item>Zastavit po 1 h</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Zastavit po 10 min</item>
+        <item>Zastavit po 20 min</item>
+        <item>Zastavit po 30 min</item>
+        <item>Zastavit po 40 min</item>
+        <item>Zastavit po 50 min</item>
+        <item>Zastavit po 1 h</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>40 minut</item>
+        <item>50 minut</item>
+        <item>1 h</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuta</item>
@@ -69,18 +105,6 @@
         <item>28 minut</item>
         <item>29 minut</item>
         <item>30 minut</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Jste rychlí jako ďas.</item>
-        <item>Vychutnejte si plody své práce.</item>
-        <item>Androidy jsou rychlé, ale ne tak rychlé jako vy.</item>
-        <item>Uf.</item>
-        <item>Časy tajných kódů.</item>
-        <item>Taková úžasná rychlost.</item>
-        <item>Pojďme si zase hrát s časem.</item>
-        <item>Jen skok doleva.</item>
-        <item>Máte proč pospíchat.</item>
-        <item>Fotonická rychlost.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshallovy ostrovy</item>

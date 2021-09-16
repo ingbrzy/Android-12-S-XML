@@ -87,7 +87,7 @@
 Qhubeka nokufunda ngezinye izihloko manje, noma buyekeza lolu lwazi noma kunini kumasethingi we-TalkBack."</string>
     <string name="all_set_title">Konke kusethiwe!</string>
     <string name="always_show_this_message_label">Njalo bonisa lo mlayezo</string>
-    <string name="application_name">I-Android Accessibility Suite</string>
+    <string name="application_name">Uhlelo Lokusebenzisa i-Android</string>
     <string name="arc_android_window">Iwindi lohlelo lokusebenza</string>
     <string name="arc_navigation_hint">Cindezela usesho nemicibisholo ukuze uzulazule</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Cindezela ku-%1$s ukuze ubone uhlu lwezinqamuleli</string>
@@ -105,7 +105,7 @@ Qhubeka nokufunda ngezinye izihloko manje, noma buyekeza lolu lwazi noma kunini 
     <string name="audio_focus_state">Ukwehliswa komsindo %1$s</string>
     <string name="auto_detect">Jwayelana nendlela obamba ngayo idivayisi</string>
     <string name="auto_scan_action_description">Qala ukuskena bese ukhethe</string>
-    <string name="auto_scan_or_select">"Skena ngokuzenzakalelayo' noma 'Khetha"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'Skena ngokuzenzakalelayo' noma 'Khetha'"</string>
     <string name="available_devices_header">Amadivayisi atholakalayo e-Bluetooth</string>
     <string name="basic_navigation_link_subtext">Hambisa phakathi kwezinto, skrola, sebenzisa amamenyu, nokuningi</string>
     <string name="basic_navigation_link_text">Ukuzulazula Okuyisisekelo</string>
@@ -119,7 +119,7 @@ Qhubeka nokufunda ngezinye izihloko manje, noma buyekeza lolu lwazi noma kunini 
     <string name="bluetooth_no_devices_paired">Awekho amadivayisi e-Bluetooth abhanqiwe</string>
     <string name="bluetooth_not_enabled_message">Ukuze ubhangqe iswishi ye-Bluetooth, vula i-Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">I-Peripheral</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Ukuze ubhangqe iswishi ye-Bluetooth Kwisilekeleli sokusetha, vula i-Bluetooth bese unikeza Uhlelo Lokusebenzisa i-Android ukufinyelela Kumadivayisi Aseduze nezimvume zendawo.</string>
     <string name="bluetooth_phone_content_description">Ifoni</string>
     <string name="bluetooth_switch_description_text">Bhangqa iswishi ngaphandle kwentambo nge-Bluetooth</string>
     <string name="bluetooth_switch_option_text">Ukushintsha i-Bluetooth</string>
@@ -157,6 +157,9 @@ Qhubeka nokufunda ngezinye izihloko manje, noma buyekeza lolu lwazi noma kunini 
     <string name="cam_switch_enable_banner_text_label_generic">Ukuze ulawule idivayisi yakho, kokuqala udinga ukuvula okuthi Ukushintsha Ukufinyelela.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Vula Ukushintsha Ikhamera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Vula Ukufinyelela Kokushintsha</string>
+    <string name="cam_switches_combined_preferences_title">"Amasethingi we-'%1$s'"</string>
+    <string name="cam_switches_preferences_title">Amasethingi Wokushintsha Ikhamera</string>
+    <string name="cam_switches_single_preferences_title">"Amasethingi we-'%s'"</string>
     <string name="camera_switches_status_active">Ikhamera Ishintsha Ukusebenza</string>
     <string name="camera_switches_status_error">Iphutha</string>
     <string name="camera_switches_status_no_face">Abukho ubuso obutholiwe</string>
@@ -263,7 +266,7 @@ Zama ukunamathisela igama ebhokisini lombhalo ngezansi."</string>
     <string name="default_action_name_pause">Misa Ukushintsha Kwekhamera</string>
     <string name="default_action_name_point_scan">Ukuskena kwendawo</string>
     <string name="dialog_confirm_revert_to_default_menu">Qinisekisa</string>
-    <string name="dialog_do_not_disturb_permission_message">Ukuze ulungise ivolomu kusuka kumenyu yokushintsha ukufinyelela, vula ukufinyelela kokuthi Ungaphazamisi ku-Android Accessibility Suite</string>
+    <string name="dialog_do_not_disturb_permission_message">Ukuze ulungise ivolomu kusuka kumenyu yokushintsha ukufinyelela, vula ukufinyelela kokuthi Ungaphazamisi kuHlelo Lokusebenzisa i-Android</string>
     <string name="dialog_do_not_disturb_permission_title">Ukushintsha ukufinyelela kuding imvume yokulungisa ivolomu</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Vula izilungiselelo</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Ukuze isebenze, Ukushintsha Kwekhamera kudinga ukulanda cishe idatha engeziwe engu-10 MB. Lokhu kufanele kuthathe cishe umzuzu, kuye ngesivinini senethiwekhi yakho.</string>
@@ -399,6 +402,7 @@ Zama lokhu manje ngokuthinta isikrini nokuhudulela kwinkinobho ephansi ekhoneni 
     <string name="fallback_menu_item_open_in_browser">Vula kusiphequluli</string>
     <string name="fallback_menu_item_share_link">Yabelana ngesixhumanisi</string>
     <string name="fast_radio_button_title">Ukushesha (%1$ss ukubambezeleka)</string>
+    <string name="fast_radio_button_title_content_description">Iyashesha (ibambezeleka ngomzuzwana ongu-%1$s)</string>
     <string name="find_finish_button_text">Swayiphela kwesokudla ukuze uthole inkinobho yokuqeda.</string>
     <string name="finish">Qeda</string>
     <string name="finish_tutorial_announcement">Ibonisa ikhibhodi ye-braille. Jikisa ifoni yakho ukuze isikrini sibheke kude nawe. Zungezisa ifoni ngokuvundlile ngokuma kokwakheka kwezwe. Bese uqala ukuthayipha.</string>
@@ -747,6 +751,7 @@ Igama lokubuka langaphakathi: %1$s"</string>
     <string name="list_index_template">%1$d ku-%2$d</string>
     <string name="lockscreen_label">Khiya isikrini</string>
     <string name="medium_radio_button_title">Okumaphakathi (%1$ss ukubambezeleka)</string>
+    <string name="medium_radio_button_title_content_description">Imaphakathi (ibambezeleka ngomzuzwana ongu-%1$s)</string>
     <string name="menu_category_reading_controls">Ukufunda</string>
     <string name="menu_category_special_features">Izici ezikhethekile</string>
     <string name="menus_selector_text">"Lezi zinqamuleli zingakusiza ukuba ushintshe amasethingi ngokushesha, njengokushintsha ukuzulazula kwakho kusukela ezinhlamvini ukuya emazwini noma ukushintsha izinga lenkulumo ye-TalkBack.
@@ -767,6 +772,7 @@ Vula imenyu ye-TalkBack manje ngokuthepha isikrini ngeminwe emi-3."</string>
 Vula imenyu ye-TalkBack manje ngokuswayiphela phansi bese ngakwesokudla."</string>
     <string name="menus_title">Imenyu nezilawuli</string>
     <string name="message_in_reset_keymap_confirm_dialog">Ingabe uqinisekile ukuthi ungathanda ukusetha kabusha okhiye bakho besinqamuleli balo khiye wemephu ubabuyisele kumanani abo okuzenzakalela? Sicela wazi, lesi senzo asikwazi ukuhlehliswa.</string>
+    <string name="message_request_phone_permission">I-TalkBack ifuna ukwazi ukuthi ikholi izokwenzeka nini, i-TalkBack inganciphisa izimemezelo eziphazamisayo.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Lokhu kuzosetha kabusha konke ukuthintwa kubuyele kulokho obekwenzeka ngokuzenzakalela kwasekuqaleni.
 
 Uzolahlekelwa yinoma yiziphi izinguquko osuzenzile."</string>
@@ -996,6 +1002,7 @@ Zama noma yikuphi ukuthinta lapho ukuswayipha okubili kwenza i-engeli engakwesok
     <string name="pref_reduce_window_delay_title">Nciphisa ukulibaziseka kwesimemezelo sewindi</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Engeza ukushintsha Kwekhamera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Sula ukushintsha komzimba</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Lungiselela amasethingi weswishi: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Hlela Ukushintsha Kwekhamera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Akukho Ukushintsha Kwekhamera okunikiwe</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Nika Ukushintsha Kwekhamera ku-'%s'"</string>
@@ -1016,9 +1023,9 @@ Zama noma yikuphi ukuthinta lapho ukuswayipha okubili kwenza i-engeli engakwesok
     <string name="pref_sa_face_playground_stop_preview_content_description">Misa ukubuka kuqala</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Vula</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Iswishi yekhamera kufanele ivulwe ukuze usebenzise le ndawo yokuhlola</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Yizame: buka kuqala zonke izinhlobo zokufaka ngokuthinta, kuhlanganise nokuvula umlomo, ukumamatheka, njalo njalo</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Yizame</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Yizame: buka kuqala i-%1$s yokuthinta kobuso</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Indawo yokuhlola imisiwe. Sebenzisa inkinobho ngezansi ukuze uqale futhi.</string>
     <string name="pref_selector_summary">I-%1$s ukuze ukhethe isethingi. Bese i-%2$s ukuze ulungise isethingi.</string>
     <string name="pref_selector_summary_two_select_gesture">I-%1$s noma i-%2$s ukuze ukhethe isethingi. Bese i-%3$s ukuze ulungise isethingi.</string>
@@ -1069,6 +1076,7 @@ Uma ngabe idivayisi yakho isengaxhumeki, hamba kuzilungiselelo ze-Bluetooth bese
     <string name="reduce_speed_button">Yehlisa isivinini</string>
     <string name="remaining_calibration_finish_announcement">Zonke izindawo zamachashazi zibuyekeziwe</string>
     <string name="reminder_announcement">Swayipha phezulu ngeminwe engu-3 ukuthola izinketho ezengeziwe</string>
+    <string name="remove_assigned_switch">Susa umsebenzi ozokwenziwa ukushintsha mayelana ne-%s</string>
     <string name="report_gesture_description">Nakhu ukuthinta okwenziwe kamuva, sicela ubike ukuthi yikuphi ukuthinta okungalungile nokuthi yini elindelekile.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Setha kabusha</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Setha kabusha</string>
@@ -1148,6 +1156,7 @@ Zama lokhu manje ngokuswayiphela phezulu ngeminwe emi-2 kuze kube yilapho uskrol
     <string name="search_mode_hint_no_selection">Ayikho into ekhethiwe.</string>
     <string name="search_mode_hint_query">Umbuzo wamanje: %1$s</string>
     <string name="search_mode_hint_selection">Ukukhethwa kwamanje: %1$s</string>
+    <string name="select_for_point_scan">"'Khetha'"</string>
     <string name="select_setting_hint">%1$s ukuze ukhethe isethingi elihlukile</string>
     <string name="selecting_text_text">"Ebhokisini lombhalo, hambisa i-cursor ekuqaleni kombhalo ofuna ukuwukhetha.
 
@@ -1208,6 +1217,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="shortcut_media_control">Dlala noma phumuza imidiya</string>
     <string name="shortcut_next">Into elandelayo</string>
     <string name="shortcut_next_granularity">Isilungiselo sokuzula esilandelayo</string>
+    <string name="shortcut_next_window">Iwindi elilandelayo</string>
     <string name="shortcut_not_customizable">%1$s, ayenzeki ngokwezifiso</string>
     <string name="shortcut_notifications">Izaziso</string>
     <string name="shortcut_overview">Buka konke</string>
@@ -1220,6 +1230,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="shortcut_practice_gestures">Phinda phinda ukuthinta</string>
     <string name="shortcut_previous">Into yangaphambilini</string>
     <string name="shortcut_previous_granularity">Isilungiselelo sokuzula sangaphambilini</string>
+    <string name="shortcut_previous_window">Iwindi eledlule</string>
     <string name="shortcut_print_node_tree">Phrinta inodi yesihlahla</string>
     <string name="shortcut_print_performance_stats">Phrinta izibalo zokusebenza</string>
     <string name="shortcut_quick_settings">Amasethingi Asheshayo</string>
@@ -1259,6 +1270,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
 • Khuhluza ukuze uqale ukufunda okuqhubekayo"</string>
     <string name="six_hold_announcement">Ungase futhi uthayiphe ngokubeka ifoni yakho phansi etafuleni. Izame manje. Uma ungenalo itafula eduze, yeqela phambili ngokuswayiphela phansi.</string>
     <string name="slow_radio_button_title">Ukungasheshi (%1$ss ukubambezeleka)</string>
+    <string name="slow_radio_button_title_content_description">Iyanensa (ibambezeleka ngomzuzwana ongu-%1$s)</string>
     <string name="sound_feedback_state">Impendulo yomsindo %1$s</string>
     <string name="sound_feedback_summary">Dlala umsindo ukuze ubonise ukuthi okuthile kushintshile (isb., okuqukethwe kusikrini kushintshile)</string>
     <string name="speak_container_element_position_summary_off">Ulwazi lohlu nolwegridi alukhulunywa</string>
@@ -1332,17 +1344,17 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="summary_pref_face_switches_debounce_time">Ukucupha Kokushintsha Kwekhamera okuningi ngaphakathi kwalesi sikhathi kuzophathwa njengokucupha okukodwa.</string>
     <string name="summary_pref_face_switches_enabled">Ukushintsha Kwekhamera kusebenzisa ikhamera yangaphambili ukubona ukuthi ingabe ubheke isikrini nokuhlela ukuthinta kobuso. Izithombe azilondoloza noma zithunyelwe ku-Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Dlala umsindo uma okuthile esikrinini kushintsha ngokuphendula kokuthinta</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Bnisa isibonisi sokubukwayo sendlela obambe isikhathi eside ngaso ukuthinta</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Gcina isikrini sivuliwe uma Ukushintsha Kwekhamera kunikwe amandla. Ukushintsha Kwekhamera akukwazi ukuvula isikrini uma kuvaliwe.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Abukho ubuso obutholiwe</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Yenza noma yikuphi ukuthinta kobuso. Uma kubhalisiwe, igama lokuthinta lizobonisa. Ukuze uphume, bamba noma yikuphi ukuthinta amasekhondi angu-%1$d.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Gcina ikhanda lakho liqinile futhi ubheke ikhamera. Bese i-%s.</string>
     <string name="summary_pref_play_store">Inguqulo ye-TalkBack yamanje: %1$s</string>
-    <string name="summary_pref_point_scan">"Sebenzisa olayini abahambayo ukuze ukhethe indawo ethile emile nevundlile. Cindezela iswishi ye-'%1$s' ukuqala Ukuskena kwephoyinti. %2$s"</string>
+    <string name="summary_pref_point_scan">Sebenzisa olayini abahambayo ukuze ukhethe indawo ethile emile nevundlile. Cindezela iswishi ye-%1$s ukuqala Ukuskena kwephoyinti. %2$s</string>
     <string name="summary_pref_reverse_dots">Ngokwesibonelo, shintsha izindawo zechashazi, ukuze amachashazi 1 no-4 ashintshe izindawo</string>
     <string name="summary_pref_revert_to_default_menu">Setha kabusha imenyu Yeswishi Yokufinyelela ohlwini oluzenzakalelayo lwezinto zemenyu.</string>
-    <string name="summary_pref_single_tap">(Kokuhlola) Thepha kanye entweni okugxilwe kuyo ukuze usebenzise</string>
+    <string name="summary_pref_single_tap">Thepha kanye entweni okugxilwe kuyo ukuze usebenzise</string>
     <string name="summary_pref_tree_debug_tv">Sebenzisa ukhiye wokusesha izwi ukuze uphrinte isihlahla se-node esikhundleni sokusesha</string>
     <string name="summary_pref_use_audio_focus">Yehlisa enye ivolumu yomsindo ngenkathi kukhulunywa</string>
     <string name="summary_read_from_current">Kusukela entweni elandelayo, funda zonke izinto kusikrini</string>
@@ -1439,10 +1451,10 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="switched_to_contracted_announcement">Ishintshele ku-braille enenkontileka</string>
     <string name="switched_to_ueb_uncontracted_announcement">Ishintshele kwi-UEB engenayo inkontileka</string>
     <string name="switched_to_uncontracted_announcement">Ishintshele ku-braille engenayo inkontileka</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Cishe kulingana ne-</string>
     <string name="symbol_ampersand">I-Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Uphawu lokuncane kunokunye</string>
+    <string name="symbol_angle_bracket_right">Uphawu lokukhulu kunokunye</string>
     <string name="symbol_apostrophe">I-aphostrofi</string>
     <string name="symbol_approximately_equals">Cishe kuyalingana</string>
     <string name="symbol_asterisk">I-Asterisk</string>
@@ -1462,7 +1474,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_bullseye">Bullseye</string>
     <string name="symbol_caret">Ikharethi</string>
     <string name="symbol_celsius_degree">I-Celsius degree</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Uphawu lwesenti</string>
     <string name="symbol_circle_left_half_black">Indingilizi enohhafu omnyama ngakwesokunxele</string>
     <string name="symbol_circle_right_half_black">Indingilizi enohhafu omnyama ngakwesokudla</string>
     <string name="symbol_colon">Ikholoni</string>
@@ -1471,7 +1483,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_curly_bracket_left">Ubakaki ojikayo ongakwesobunxele</string>
     <string name="symbol_curly_bracket_right">Ubakaki ojikayo ongakwesokudla</string>
     <string name="symbol_currency_sign">Uphawu lwemali</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Uphawu lwe-degree</string>
     <string name="symbol_division">Uphawu lokuhlukanisa</string>
     <string name="symbol_dollar_sign">Uphawu ledola</string>
     <string name="symbol_downwards_arrow">Umcibisholo oya phansi</string>
@@ -1523,7 +1535,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_middle_dot">Icashaza eliphakathi</string>
     <string name="symbol_multiplication">Uphawu lokuphindaphinda</string>
     <string name="symbol_new_line">Umugqa omusha</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Akulingani ne-</string>
     <string name="symbol_not_sign">Akulona uphawu</string>
     <string name="symbol_paragraph_mark">Umaki wepharagrafu</string>
     <string name="symbol_parenthesis_left">Umkaki wangakwesokunxele</string>
@@ -1534,7 +1546,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_plus_minus_sign">Uphawu lokuhlanganisa nokukhipha</string>
     <string name="symbol_postal_mark">Uphawu lweposi</string>
     <string name="symbol_pound">Iphawundi</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Uphawu lohlobo lwemali lephawundi</string>
     <string name="symbol_quarter_note">Inothi yekhotha</string>
     <string name="symbol_question_mark">Uphawu lombuzo</string>
     <string name="symbol_quotation_mark">Izicaphuni</string>
@@ -1560,7 +1572,7 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_trademark">Uphawu lomkhiqizo</string>
     <string name="symbol_underscore">I-Underscore</string>
     <string name="symbol_upwards_arrow">Umcibisholo waphezulu</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Umugqa omile</string>
     <string name="symbol_white_circle">Indingilizi emhlophe</string>
     <string name="symbol_white_club_suit">Insudu yeklabhu emnyama</string>
     <string name="symbol_white_diamond">Idayimondi emhlophe</string>
@@ -1574,8 +1586,8 @@ Isinyathelo 2: Swayiphela phansi ukuze uhambise ukugxila kokuzulazula phambili n
     <string name="symbol_white_square">Isikwele esimhlophe</string>
     <string name="symbol_white_star">Inkanyezi emhlophe</string>
     <string name="symbol_white_up_pointing_triangle">Unxantathu okhombe phezulu omhlophe</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Uphawu lwemali lwe-Won</string>
+    <string name="symbol_won_sign">Uwine uphawu lohlobo lwemali</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Izenzo zesistimu</string>
     <string name="tabletop">Imodi ye-tabletop</string>
@@ -1890,7 +1902,7 @@ Ukuze uvale i-TalkBack:
     <string name="title_pref_show_context_menu_as_list">Bonisa imenyu yokuqukethwe njengohlu</string>
     <string name="title_pref_show_privacy_policy">Inqubomgomo yobumfihlo</string>
     <string name="title_pref_show_tos">Imigomo yesevisi</string>
-    <string name="title_pref_single_tap">Ukwenza kusebenze kokuthepha okukodwa</string>
+    <string name="title_pref_single_tap">Thepha kanye ukuze usebenzise</string>
     <string name="title_pref_sound_and_vibration">Umsindo nokudlidliza</string>
     <string name="title_pref_soundback">Impendulo yomsindo</string>
     <string name="title_pref_soundback_volume">Ivolumu yempendulo yomsindo</string>
@@ -1935,6 +1947,7 @@ Ukuze uvale i-TalkBack:
     <string name="title_previous_screen">Isikrini sangaphambilini</string>
     <string name="title_read_from_top">Funda kusukela phezulu</string>
     <string name="title_repeat_last_spoken_phrase">Phinda umshwana okhulunyiwe wokugcina</string>
+    <string name="title_request_phone_permission">Imvume Yezicelo Ze-TalkBack</string>
     <string name="title_screen_summary">Isifinyezo sesikrini</string>
     <string name="title_seek_bar_controls">Isilayida</string>
     <string name="title_seek_bar_edit">Hlela ileveli yesilayida</string>

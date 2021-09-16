@@ -17,14 +17,21 @@
         <item>15 минут</item>
         <item>20 минут</item>
         <item>25 минут</item>
-        <item>Никогда</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>За 15 минут до сна</item>
+        <item>За 30 минут до сна</item>
+        <item>За 45 минут до сна</item>
+        <item>За 1 час до сна</item>
+        <item>Отключено</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Стрелки</item>
         <item>Цифры</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Никогда</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунд</item>
         <item>10 секунд</item>
         <item>15 секунд</item>
@@ -37,6 +44,35 @@
         <item>50 секунд</item>
         <item>55 секунд</item>
         <item>60 секунд</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Остановить через 10 минут</item>
+        <item>Остановить через 20 минут</item>
+        <item>Остановить через 30 минут</item>
+        <item>Остановить через 40 минут</item>
+        <item>Остановить через 50 минут</item>
+        <item>Остановить через 1 ч.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Остановить через 10 мин.</item>
+        <item>Остановить через 20 мин.</item>
+        <item>Остановить через 30 мин.</item>
+        <item>Остановить через 40 мин.</item>
+        <item>Остановить через 50 мин.</item>
+        <item>Остановить через 1 ч.</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>1 ч.</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минута</item>
@@ -69,18 +105,6 @@
         <item>28 минут</item>
         <item>29 минут</item>
         <item>30 минут</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Да вы просто Шумахер!</item>
-        <item>Вы славно потрудились!</item>
-        <item>Вы даже быстрее, чем Android!</item>
-        <item>Уф!</item>
-        <item>L33t раз(а)</item>
-        <item>Вот это скорость!</item>
-        <item>Искажение времени – то, что нам нужно!</item>
-        <item>Прыжок влево</item>
-        <item>Вы времени даром не теряете!</item>
-        <item>Быстрее света!</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалловы Острова</item>

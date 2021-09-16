@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Atbildēt</string>
     <string name="a11y_call_incoming_decline_description">Noraidīt</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Veikt videozvanu, izmantojot Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Veikt balss zvanu, izmantojot Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Pēdējais zvans ir atbildēts zvans no lietotāja ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Pārvaldīt zvanītājus</string>
     <string name="a11y_expandedsheet_collapse">sakļaut izvēlni</string>
     <string name="a11y_expandedsheet_expand">izvērst izvēlni</string>
-    <string name="a11y_favorites_education_dismiss">aizvērt</string>
     <string name="a11y_feature_demo_next_page">Nākamā lapa</string>
     <string name="a11y_feature_demo_page_indicator">%d. lapa</string>
     <string name="a11y_feature_demo_prev_page">Iepriekšējā lapa</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Ātrā saziņa ar kontaktpersonu ^1</string>
+    <string name="a11y_icon_hd">HD zvans</string>
+    <string name="a11y_icon_hd_plus">HD Plus zvans</string>
+    <string name="a11y_icon_shared_data_call">Koplietotu datu zvans</string>
+    <string name="a11y_icon_verified">Verificēts zvans</string>
+    <string name="a11y_icon_vilte">Videozvans, izmantojot LTE</string>
+    <string name="a11y_icon_viwifi">Videozvans, izmantojot Wi-Fi</string>
+    <string name="a11y_icon_volte">Balss zvans, izmantojot LTE</string>
+    <string name="a11y_icon_voz4g">Balss zvans, izmantojot 4G</string>
+    <string name="a11y_icon_wifi">Wi-Fi zvans</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Ar diviem pirkstiem velciet augšup, lai atbildētu. Ar diviem pirkstiem velciet lejup, lai noraidītu.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Velciet augšup ar diviem pirkstiem, lai atbildētu uz zvanu, vai velciet lejup, lai noraidītu zvanu.</string>
     <string name="a11y_new_call_log_entry_call_recording">zvans ierakstīts</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">šeit: ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">veikt RTT zvanu: ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Koplietotu datu zvans</string>
     <string name="a11y_new_call_log_entry_tap_action">izvērst izvēlni</string>
     <string name="a11y_new_call_log_entry_video_call">veikt videozvanu: ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">veikt videozvanu ar lietotāju ^1, izmantojot Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Rediģēt numuru pirms zvanīšanas</string>
     <string name="action_menu_back_from_search">pārtraukt meklēšanu</string>
     <string name="action_menu_overflow_description">Vairāk opciju</string>
+    <string name="activate_error_message">Aktivizējot funkciju Call Screen, radās problēma.</string>
+    <string name="activated_successfully">Funkcija Call Screen ir aktivizēta.</string>
     <string name="activity_not_available">Šajā ierīcē nav nevienas šai darbībai piemērotas lietotnes.</string>
     <string name="add_2sec_pause">Pievienot 2 sekundes ilgu pauzi</string>
     <string name="add_contact_not_available">Nav pieejama neviena kontaktpersonu lietotne.</string>
@@ -158,10 +170,10 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī. ^1"</string>
     <string name="blocked_numbers_disabled_emergency_header_label">Zvanu bloķēšana ir īslaicīgi izslēgta</string>
     <string name="bm_suggest_call_button">Zvanīt</string>
     <string name="bm_suggest_chat_button">Tērzēt</string>
-    <string name="bm_suggest_wait_min">"Tērzēšanas gaidīšana
-%1$d min"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, nelasīti: %2$s</string>
+    <string name="bm_suggest_wait_min">"Sarunas gaidīš.
+%1$dmin"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Darbojas…"</string>
     <string name="bottomsheet_action_expand_halfway">Izvērst līdz pusei</string>
     <string name="bubble_bottom_action_end_call">Beigt zvanu</string>
     <string name="bubble_bottom_action_hide">Paslēpt</string>
@@ -170,6 +182,9 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī. ^1"</string>
     <string name="call">Balss zvans</string>
     <string name="callFailed_simError">Nav SIM, vai SIM kļūda</string>
     <string name="callHistoryIconLabel">Zvanu vēsture</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
     <string name="call_announcer_preference_footer_instruction_text">Ienākošajiem zvaniem tiks skaļi nosaukts zvanītāja vārds un tālruņa numurs.</string>
     <string name="call_announcer_preference_list_title">Zvanītāja ID paziņošana</string>
     <string name="call_announcer_preference_option_always">Vienmēr</string>
@@ -203,7 +218,7 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī. ^1"</string>
     <string name="call_incoming_answer">Atbildēt</string>
     <string name="call_incoming_answer_rtt">Atbildēt ar RTT</string>
     <string name="call_incoming_answer_voice">Atbildēt ar balsi</string>
-    <string name="call_incoming_chip_answer_and_release">Atbildiet un beidziet zvanu</string>
+    <string name="call_incoming_chip_answer_and_release">Atbildēt un beigt otru zvanu</string>
     <string name="call_incoming_chip_answer_as_rtt">Atbildēt RTT zvanā</string>
     <string name="call_incoming_chip_answer_video_as_audio">Atbildēt balss zvanā</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Atbildēt ar izslēgtu video</string>
@@ -219,7 +234,7 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Velciet augšup, lai atbildētu</string>
     <string name="call_incoming_swipe_to_reject">Velciet lejup, lai noraidītu</string>
     <string name="call_incoming_video_is_off">Jūsu video ir izslēgts</string>
-    <string name="call_incoming_will_disconnect">Atbildot uz šo zvanu, tiks beigts videozvans.</string>
+    <string name="call_incoming_will_disconnect">Atbildot uz šo zvanu, tiks beigts otrs zvans.</string>
     <string name="call_incoming_will_disconnect_app">Atbildot uz zvanu, tiks beigts %1$s zvans</string>
     <string name="call_isdn">Zvanīt uz ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Bloķēt numuru/ziņot par to</string>
@@ -255,6 +270,7 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī. ^1"</string>
     <string name="call_reason_fragment_content_description">Zvana iemesls: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Ieraksts ir saglabāts.</string>
     <string name="call_recording_conversation_history_entry">Ieraksts</string>
+    <string name="call_recording_delete_snack_bar_undo">Atsaukt</string>
     <string name="call_recording_disclaimer_agreen_button_text">Sāk ierakstīšanu</string>
     <string name="call_recording_disclaimer_content">"Jūs vai cita persona, kas piedalās zvanā, var atrasties vietā, kur nepieciešama visu personu piekrišana ierakstīšanai. Visas personas iepriekš tiks informētas, ka zvans tiek ierakstīts. Par tiesību aktu ievērošanu, ierakstot sarunas, atbildat jūs. Zvanu ierakstīšanu izmantojiet atbildīgi un ieslēdziet to tikai tad, kad tas nepieciešams.
 ^1
@@ -291,6 +307,7 @@ Ieraksti tiek saglabāti tikai jūsu tālrunī."</string>
 Zvana audio un atšifrējums netiek sūtīts nevienam, arī ne uzņēmumam Google."</string>
     <string name="call_screen_demo_page_4_title">Ietaupiet laiku un izvairieties no nepatīkamām sarunām</string>
     <string name="call_screen_demo_setting_title">Skatīt demonstrāciju</string>
+    <string name="call_screen_demo_settings_title">Skatiet demonstrāciju</string>
     <string name="call_screen_demo_title">Call Screen darbības principi</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Nevar ienest audio paraugu</string>
     <string name="call_screen_demo_unable_to_play_audio">Nevar atskaņot audio paraugu</string>
@@ -298,6 +315,7 @@ Zvana audio un atšifrējums netiek sūtīts nevienam, arī ne uzņēmumam Googl
     <string name="call_screen_end_call_local_internal_message">Jūs beidzāt zvanu.</string>
     <string name="call_screen_end_call_non_local_internal_message">Zvans tika pārtraukts.</string>
     <string name="call_screen_how_it_works_setting_title">Funkcija Call Screen darbojas jūsu ierīcē bez Wi-Fi vai datu savienojuma. Sarunu atšifrējumi tiek ģenerēti un glabāti tikai jūsu tālrunī. %1$s</string>
+    <string name="call_screen_how_it_works_title">Funkcija Call Screen darbojas jūsu ierīcē bez Wi-Fi vai datu savienojuma. Sarunu atšifrējumi tiek ģenerēti un glabāti tikai jūsu tālrunī. ^1</string>
     <string name="call_screen_incallui_chip_text">Pārvaldīt zvanu</string>
     <string name="call_screen_join_call_button_content_description">Pievienoties zvanam</string>
     <string name="call_screen_join_call_internal_message">Jūs pievienojāties zvanam.</string>
@@ -307,6 +325,7 @@ Zvana audio un atšifrējums netiek sūtīts nevienam, arī ne uzņēmumam Googl
     <string name="call_screen_saying_to_the_caller_state">Tiek teikts zvanītājam</string>
     <string name="call_screen_screening_call_from">Tiek rādīts zvans no</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Poga “Skaļrunis”</string>
     <string name="call_screen_suggestions_avatar_content_description">Logotips</string>
     <string name="call_screen_survey_cancel_button">Atcelt</string>
@@ -331,6 +350,8 @@ Zvana audio un atšifrējums netiek sūtīts nevienam, arī ne uzņēmumam Googl
     <string name="call_work">Zvanīt uz darba tālruni</string>
     <string name="call_work_mobile">Zvanīt uz darba mobilo tālruni</string>
     <string name="call_work_pager">Zvanīt uz darba peidžeri</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">ienākošs %1$s no: %2$s (%3$s)</string>
     <string name="caller_id_announcement_single_sim">ienākošs %1$s no: %2$s</string>
     <string name="caller_id_business_data_details">Šajās funkcijās izmantotos datus nodrošina Google un tā licences devēji. ^1</string>
@@ -370,6 +391,9 @@ Zvana audio un atšifrējums netiek sūtīts nevienam, arī ne uzņēmumam Googl
     <string name="calling_blocked_number_precall_dialog_title">Vai zvanīt %s?</string>
     <string name="calllog_add_to_contact">Pievienot kontaktpersonai</string>
     <string name="calllog_create_new_contact">Izveidot kontaktpersonu</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Kameras atļauja iespējota</string>
     <string name="camera_privacy_text">Kameras atļauja iespējota</string>
     <string name="cannot_understand_description">Nesaprotu</string>
     <string name="car_crash_emergency_intro">"Zvanītāja vārdā tiek izmantots automātisks ārkārtas balss pakalpojums, lai sazinātos ar jums.
@@ -392,7 +416,7 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
     <string name="checkbox_report_as_spam_action">Atzīmēt zvanu kā nevēlamu</string>
     <string name="child_number">no numura %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Izvēlēties kontaktpersonu</string>
     <string name="clear_button_content_description">Notīrīt meklēšanas vaicājumu</string>
     <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>
     <string name="cli_not_supported_text">Atbloķējiet tālruni, lai turpinātu</string>
@@ -432,6 +456,9 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Nevarēja iestatīt verificētos zvanus. Iestatījumos varat tos iespējot vēlreiz.</string>
     <string name="contact_card_video_icon_content_description">Video zvans ar: ^1</string>
     <string name="contact_grid_callback_number">Šis tālruņa numurs: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Zvans tika pāradresēts</string>
+    <string name="contact_grid_hd_icon_content_description">HD zvans</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus zvans</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Mobilo sakaru operatora videozvans no</string>
     <string name="contact_grid_incoming_reception_only_video_call">Vienpusējs videozvans, izmantojot mobilo sakaru operatoru, no:</string>
     <string name="contact_grid_incoming_rtt_call">RTT zvans no</string>
@@ -442,9 +469,18 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi pakalpojuma nodrošinātāja videozvans no</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Vienpusējs videozvans, izmantojot Wi-Fi pakalpojuma nodrošinātāju, no:</string>
     <string name="contact_grid_incoming_work_call">Darba zvans no:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Koplietotu datu zvans</string>
+    <string name="contact_grid_spam_icon_content_description">Nevēlams zvans</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Mobilo sakaru operators</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Verificēja %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Derīgs numurs</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Videozvans, izmantojot LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Videozvans, izmantojot Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Balss zvans, izmantojot 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Balss zvans, izmantojot LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Balss zvans, izmantojot Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi zvans</string>
+    <string name="contact_grid_work_icon_content_description">Darba zvans</string>
     <string name="contact_menu_add_favorite">Pievienot izlasei</string>
     <string name="contact_menu_contact_info">Kontaktinf.</string>
     <string name="contact_menu_invite_video">Uzaicināt uz videozvanu</string>
@@ -479,8 +515,12 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="conversation_history_call_details_header_today">Šodien</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Zvans ir dzēsts</string>
     <string name="conversation_history_call_details_snack_bar_undo">Atsaukt</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Svarīgs zvans</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Rādīt zvanam pievienoto informāciju</string>
+    <string name="conversation_history_call_recording_deleted">Ieraksts ir izdzēsts.</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Atšifrējums un audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Atšifrējums</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Zvanu pārvaldība</string>
     <string name="copy">Kopēt</string>
     <string name="copy_number">Kopēt numuru</string>
@@ -499,12 +539,17 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="custom_prefix_default_prefix_title">Noklusējuma prefikss</string>
     <string name="custom_prefix_prefixes_preference_title">Prefiksi</string>
     <string name="dark_theme_label">Tumšs</string>
+    <string name="default_changed_confirmation">Lietotne Tālrunis tika iestatīta kā noklusējums.</string>
+    <string name="default_image_content_description">Uzplaiksnījuma ekrāna attēls</string>
     <string name="delete">Dzēst</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Visu ierakstu dzēšana</string>
     <string name="delete_all_recordings_now_error_message">Dažus ierakstus neizdevās izdzēst. Mēģiniet vēlreiz.</string>
     <string name="delete_button_label">Dzēst visus ierakstus tūlīt</string>
     <string name="delete_confirmation_dialog_negative_button_label">Atcelt</string>
     <string name="delete_confirmation_dialog_positive_button_label">Dzēst</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Notiek ieraksta dzēšana…</string>
     <string name="description_add_to_existing_contact_action">Pievienojiet vienumu ^1 esošai kontaktpersonai.</string>
     <string name="description_blocked_number_list_delete">Atbloķēt numuru</string>
     <string name="description_call_action">Zvanīt: ^1</string>
@@ -607,6 +652,7 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="emergency_sos_emergency_intro">"Zvanītāja vārdā tiek izmantots automātisks ārkārtas balss pakalpojums, lai sazinātos ar jums.
 Zvanītājs signalizēja, ka varētu būt kritiskā stāvoklī. 
 Lūdzu, nosūtiet palīdzību."</string>
+    <string name="emergency_speaker">Skaļrunis</string>
     <string name="emergency_voice_assist_dialog_button_close">Atcelt</string>
     <string name="emergency_voice_assist_dialog_title">Avārijas dienesta operators dzird šo tekstu</string>
     <string name="end_call_with_default_message_description">Beigt zvanu</string>
@@ -636,9 +682,12 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="feedback_call_issue_quiet_audio">Skaņa bija pārāk klusa</string>
     <string name="feedback_call_issue_title">Kāda problēma radās?</string>
     <string name="feedback_title_please_rate">Lūdzu, novērtējiet zvana kvalitāti.</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Apvēršanas žests “Kuš”</string>
     <string name="flip_to_silence_summary">Lai apklusinātu ienākošu zvanu, nolieciet tālruni uz līdzenas virsmas, ekrānu pavēršot lejup.</string>
     <string name="flip_to_silence_title">Apvēršanas žests “Apklusināt”</string>
+    <string name="foreground_notification_title">Notiek atjaunināšana…</string>
     <string name="frequent_contact_suggestion">Bieži zvanītās</string>
     <string name="general_learn_more">Uzzināt vairāk</string>
     <string name="generic_conference_call_name">Notiek zvans</string>
@@ -661,6 +710,7 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="how_it_works_storage_link_text">Uzzināt vairāk par ierakstu glabāšanu</string>
     <string name="how_it_works_storage_template">Zvana ierakstīšana tiks apturēta, ja tālruņa krātuvē vairs nebūs brīvas vietas. ^1</string>
     <string name="icon_content_description">Dialoglodziņa ikona</string>
+    <string name="icon_description_shared_data_call">Koplietotu datu zvans</string>
     <string name="imei_number">IMEI, %s</string>
     <string name="import_send_to_voicemail_numbers_label">Importēt numurus</string>
     <string name="ims_video_heading">Verizon video</string>
@@ -804,6 +854,7 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="new_call_log_no_missed_calls">Jums nav neatbildētu zvanu.</string>
     <string name="new_call_log_permission_no_calllog">Lai skatītu savu zvanu žurnālu, ieslēdziet atļauju Tālrunis.</string>
     <string name="new_call_log_secondary_blocked">Bloķēti</string>
+    <string name="new_call_log_secondary_verified">Verificēts zvans</string>
     <string name="new_call_log_snack_bar_deleted">Zvans ir izdzēsts</string>
     <string name="new_call_log_snack_bar_undo">Atsaukt</string>
     <string name="new_call_log_unknown">Nezināms</string>
@@ -818,8 +869,10 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Noraidīt</string>
     <string name="notification_action_end_call">Pārtraukt</string>
+    <string name="notification_action_mute_toggle">Izslēgt skaņu</string>
     <string name="notification_action_speaker_off">Izslēgt skaļruni</string>
     <string name="notification_action_speaker_on">Ieslēgt skaļruni</string>
+    <string name="notification_action_speaker_toggle">Skaļrunis</string>
     <string name="notification_callReasonMsg">Iemesls: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi zvans</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi darba zvans</string>
@@ -883,6 +936,8 @@ Lūdzu, nosūtiet palīdzību."</string>
     <string name="place_ims_button_content_description">Poga mobilo sakaru operatora videozvana veikšanai.</string>
     <string name="play">Atskaņot</string>
     <string name="plus_code_line_format">Plus kods: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Pastāstiet, kāpēc zvanījāt</string>
     <string name="post_call_message_1">Tas ir steidzami. Piezvaniet man!</string>
     <string name="post_call_message_2">Piezvaniet man, kad būs brīdis laika.</string>
@@ -913,6 +968,8 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="privacy_policy_label">Konfidencialitātes politika</string>
     <string name="private_num_non_verizon">Privāts numurs</string>
     <string name="private_num_verizon">Ierobežots</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Atlasīt kontaktpersonu</string>
     <string name="ready_for_recording">Gatavošanās…</string>
     <string name="record_greeting_cancel_label">Atcelt</string>
@@ -928,6 +985,8 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="record_greeting_uploading_greeting_message">Notiek saglabāšana…</string>
     <string name="record_voicemail_greeting_title">Ierakstiet sveicienu</string>
     <string name="recording_category_title">Ieraksti</string>
+    <string name="recording_deleted">Ieraksts ir izdzēsts.</string>
+    <string name="recording_deletion_failed">Nevarēja izdzēst ierakstu. [Mēģināt vēlreiz]</string>
     <string name="redo_button_text">Mēģināt vēlreiz</string>
     <string name="remember_this_choice_label">Atcerēties šo izvēli</string>
     <string name="report_not_spam_alert_button">Ziņot</string>
@@ -939,9 +998,20 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="request_call_back_description">Atzvanīt man</string>
     <string name="request_email_description">Sūtīt e-pasta ziņojumu</string>
     <string name="respond_via_sms_setting_title">Ātrās atbildes</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Ieslēgt</string>
     <string name="revelio_end_call_reject_as_spam">Zvans tika atzīmēts kā nevēlams.</string>
     <string name="revelio_end_call_user_missed_internal_message">Uz zvanu netika atbildēts.</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT funkcionalitāte palīdz nedzirdīgiem un vājdzirdīgiem zvanītājiem, kā arī zvanītājiem, kuriem ir runas traucējumi vai ir nepieciešama ne tikai balss skaņa. ^1</string>
     <string name="rtt_assist_for_att">Ekrānā rādāmā reāllaika teksta (Real-Time Text — RTT) tastatūra ir alternatīva ārējām teksta tālruņu tastatūrām. Kad RTT zvana laikā rakstāt ziņojumu, persona, ar kuru runājat, var jūs redzēt reāllaikā. ^1</string>
     <string name="rtt_assist_for_tmo">Ekrānā rādāmā reāllaika teksta (Real-Time Text — RTT) tastatūra ir alternatīva ārējām teksta tālruņu tastatūrām. Tālruņa zvana laikā RTT nekavējoties nosūta jūsu rakstīto tekstu, dodot jums iespēju reāllaikā sazināties ar īsziņām. Jūs varēsiet redzēt daļējas atbildes, pirms viss ziņojums būs uzrakstīts. ^1</string>
@@ -949,7 +1019,8 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="rtt_button_back">Atpakaļ</string>
     <string name="rtt_button_downgrade">Pārslēgties uz balss zvanu</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT nav pieejams šim zvanam. Jūsu zvans ir savienots kā tikai balss zvans.</string>
+    <string name="rtt_call_downgraded_toast">RTT zvans ir pārvērsts par tikai balss zvanu.</string>
+    <string name="rtt_call_not_available_toast">Šim zvanam rakstīšana reāllaikā (RTT) nav pieejama.</string>
     <string name="rtt_configuration_summary_always_visible">Reāllaika teksta poga ir pieejama visur</string>
     <string name="rtt_configuration_summary_not_visible">Atļaut ienākošos reāllaika teksta zvanus, taču paslēpt zvanīšanas pogu</string>
     <string name="rtt_configuration_summary_visible_during_call">Rādīt reāllaika teksta pogu zvana laikā</string>
@@ -978,6 +1049,8 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="rtt_transcript_link">Skatīt transkripciju</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Šis ziņojums tiks atkārtots.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Saglabāt</string>
     <string name="saved_voicemails_action_title">Saglabātie balss pasta ziņojumi (%1$s)</string>
     <string name="search_hint">Meklēt kontaktpersonas videozvanam</string>
@@ -1004,8 +1077,11 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="send_a_message">Sūtīt īsziņu</string>
     <string name="send_to_voicemail_import_failed">Importēšana neizdevās</string>
     <string name="serial_number">Sērijas numurs</string>
+    <string name="set_as_default_button_text">Iest. kā noklusējumu</string>
     <string name="set_default_account">Vienmēr izmantot zvaniem</string>
     <string name="set_default_account_description">Jūsu kontaktpersonām tiek saglabāta vēlamā SIM karte.</string>
+    <string name="set_phone_as_default_explanation_text">Lietotnē Tālrunis var veikt un saņemt zvanus tikai tad, ja tā iestatīta kā noklusējuma lietotne.</string>
+    <string name="set_phone_as_default_request_text">Iestatiet lietotni Tālrunis kā noklusējumu.</string>
     <string name="settings">Iestatījumi</string>
     <string name="settings_page_call_recording_feature_not_available_text">Jūsu atrašanās vietā zvana ierakstīšana nav pieejama</string>
     <string name="settings_page_crosby_feature_not_available_text">Nav pieejams jūsu atrašanās vietā</string>
@@ -1040,6 +1116,8 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="snackbar_undo">Atsaukt</string>
     <string name="snackbar_voicemail_deleted">Balss pasts dzēsts</string>
     <string name="sounds_and_vibration_title">Skaņas un vibrācija</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Nevēlami zvani un zvanu pārvaldība</string>
     <string name="spam_blocking_promo_action_dismiss">Nerādīt</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrēt nevēlamos zvanus</string>
@@ -1066,8 +1144,6 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="speed_dial_add_button_text">Pievienot</string>
     <string name="speed_dial_contacts_permission_description">Lai iespējotu ātros zvanus, ieslēdziet atļauju Kontaktpersonas.</string>
     <string name="speed_dial_disambig_dialog_title">Izvēlieties, kā zvanīt kontaktpersonai %s</string>
-    <string name="speed_dial_education_content">Pieskarieties jebkurai kontaktpersonai un turiet to, lai pārslēgtos starp zvaniem un īsziņām.</string>
-    <string name="speed_dial_education_title">Citi saziņas veidi</string>
     <string name="speed_dial_no_contacts_action_text">Pievienot izlasei</string>
     <string name="speed_dial_no_contacts_description">Zvaniet savām izlases kontaktpersonām tikai ar vienu pieskārienu.</string>
     <string name="speed_dial_remember_this_choice">Atcerēties šo izvēli</string>
@@ -1084,6 +1160,45 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="suggestion_dialog_postive_snackbar_message">Paldies par atsauksmēm!</string>
     <string name="suggestions_header">Biežāk izmantotās</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">konta un sistēmas informācija</string>
+    <string name="survey_app_id">Lietotnes ID</string>
+    <string name="survey_app_name">Lietotnes nosaukums</string>
+    <string name="survey_app_version">Lietotnes versija</string>
+    <string name="survey_application_data">Lietojumprogrammas dati</string>
+    <string name="survey_brand">Zīmols</string>
+    <string name="survey_close_button_description">Aizvērt</string>
+    <string name="survey_default_prompt_title">Lūdzu, palīdziet uzlabot Google pakalpojumus!</string>
+    <string name="survey_device_model">Ierīces modelis</string>
+    <string name="survey_email_address">E-pasta adrese</string>
+    <string name="survey_google_play_services_version">Google Play pakalp. versija</string>
+    <string name="survey_legal_text">Turpinot darbu, jūs apliecināt savu piekrišanu tam, ka pakalpojumu uzlabošanas nolūkā Google izmanto jūsu atbildes un šo: %1$s atbilstoši mūsu dokumentiem: %2$s un %3$s.</string>
+    <string name="survey_library_version">Bibliotēkas versija</string>
+    <string name="survey_network_request_failed">Neizdevās izpildīt tīkla pieprasījumu</string>
+    <string name="survey_neutral">Ne apmierināts, ne neapmierināts</string>
+    <string name="survey_next">Tālāk</string>
+    <string name="survey_num_rating">%1$s no %2$s</string>
+    <string name="survey_ok">Labi</string>
+    <string name="survey_open_text_hint">Šeit ievadiet savus komentārus</string>
+    <string name="survey_open_text_no_pii">Neietveriet personas informāciju.</string>
+    <string name="survey_operating_system">Operētājsistēma</string>
+    <string name="survey_operating_system_version">Operētājsistēmas versija</string>
+    <string name="survey_other_option_hint">Cits (lūdzu, norādiet)</string>
+    <string name="survey_platform">Platforma</string>
+    <string name="survey_privacy">Konfidencialitāte</string>
+    <string name="survey_prompt_no_thanks">Nē, paldies</string>
+    <string name="survey_prompt_take_our_survey">Rādīt jautājumu</string>
+    <string name="survey_smiley_rating">%1$s. no %2$s smaidiņiem: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Diezgan neapmierināts</string>
+    <string name="survey_somewhat_satisfied">Diezgan apmierināts</string>
+    <string name="survey_submit">Iesniegt</string>
+    <string name="survey_system_info_dialog_title">Konta un sistēmas informācija</string>
+    <string name="survey_terms">Noteikumi</string>
+    <string name="survey_thank_you_followup_message">Palīdziet uzlabot mūsu produktus, atbildot uz papildu jautājumiem.</string>
+    <string name="survey_timezone_offset">Laika joslas nobīde</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">Lietotāja aģents</string>
+    <string name="survey_very_dissatisfied">Ļoti neapmierināts</string>
+    <string name="survey_very_satisfied">Ļoti apmierināts</string>
     <string name="system_default_theme_label">Sistēmas noklusējums</string>
     <string name="tab_title_call_history">Nesenie</string>
     <string name="tab_title_contacts">Kontaktp.</string>
@@ -1095,11 +1210,15 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="terms_of_service_label">Pakalpojumu sniegšanas noteikumi</string>
     <string name="textmessage_button_label">Sūtīt īsziņu</string>
     <string name="theme_preference_label">Izvēlēties motīvu</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Ierakstīt</string>
     <string name="toast_text_copied">Teksts ir nokopēts</string>
     <string name="toolbar_back">Atpakaļ</string>
     <string name="toolbar_close">Aizvērt</string>
     <string name="transcript_audio_feedback_chip_text">Palīdziet veikt uzlabojumus!</string>
+    <string name="transcript_audio_feedback_link_text">Skatīt audio atšifrējumu</string>
     <string name="transcript_snippet_low_confidence_description">(Skaņa nebija skaidra)</string>
+    <string name="try_again_button">Mēģināt vēlreiz</string>
     <string name="tty_configuration_title_tty_full">Viss teletaips</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">Teletaips ir izslēgts</string>
@@ -1121,7 +1240,6 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="type_outgoing_video_pulled">Izejošais videozvans tika pāradresēts uz citu ierīci</string>
     <string name="type_rejected">Noraidīts zvans</string>
     <string name="type_voicemail">Balss pasta ziņojums</string>
-    <string name="unable_change_value_error">Mainot RTT iestatījumus, radās problēma. Lūdzu, atgriezieties un mēģiniet vēlreiz.</string>
     <string name="unable_read_value_error">Lasot RTT iestatījumus, radās problēma. Lūdzu, atgriezieties un mēģiniet vēlreiz.</string>
     <string name="unblock_number">Atbloķēt</string>
     <string name="unblock_number_alert_details">Numurs tiks atbloķēts un netiks atzīmēts kā nevēlams. Turpmākie zvani netiks atzīmēti kā nevēlami.</string>
@@ -1130,6 +1248,7 @@ Jūs joprojām varat veikt videozvanus uz noteiktiem numuriem, neatjauninot iest
     <string name="unblock_number_ok">Atbloķēt</string>
     <string name="unblock_report_number_alert_title">Vai atbloķēt numuru %1$s?</string>
     <string name="unknown">Nezināms</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Ieslēgt ienākošā audio skaņu</string>
     <string name="user_is_busy_description">Atzvanīšu</string>
@@ -1241,10 +1360,17 @@ Ja turpināsiet zvanu, tiks lietoti mobilie dati."</string>
     <string name="videocall_remote_video_on">Dalībnieku video ir ieslēgts</string>
     <string name="videocall_remotely_held">Zvans aizturēts</string>
     <string name="videocall_remotely_resumed">Zvans ir atsākts</string>
+    <string name="videocall_settings_default_carrier">Mobilo sakaru operatora videozvani</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Videozvanu noklusējuma pakalpojums</string>
+    <string name="videocall_settings_fallback_summary">Pārslēgt uz Duo, ja mobilo sakaru operatora videozvani nav pieejami</string>
+    <string name="videocall_settings_fallback_title">Izmantot lietotni Duo kā rezervi</string>
+    <string name="videocall_settings_title">Videozvani</string>
     <string name="videocall_show_preview_button_description">Rādīt lokālo video plūsmu</string>
     <string name="view">Skatīt</string>
     <string name="view_location_settings">Atrašanās vietas iestatījumi</string>
     <string name="vitle_label">Video, izmant. LTE</string>
+    <string name="viwifi_label">Video, izmantojot Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Jaunajā PIN ir ietvertas nederīgas rakstzīmes.</string>
     <string name="vm_change_pin_error_mismatch">Iepriekšējais PIN neatbilst.</string>
     <string name="vm_change_pin_error_system_error">Neizdevās nomainīt PIN.</string>
@@ -1254,8 +1380,11 @@ Ja turpināsiet zvanu, tiks lietoti mobilie dati."</string>
     <string name="vm_change_pin_progress_message">Lūdzu, uzgaidiet!</string>
     <string name="voice_call">Balss zvans</string>
     <string name="voice_call_button">Zvanīt</string>
+    <string name="voice_display_name">Balss: %1$d</string>
     <string name="voice_search_not_available">Meklēšana ar balsi nav pieejama.</string>
     <string name="voice_selector_preference_title">Pieejamās balsis</string>
+    <string name="voice_settings_available_voices_text">Pieejamās balsis</string>
+    <string name="voice_settings_title">Balss</string>
     <string name="voicecall_button_label">Zvanīt</string>
     <string name="voicecall_button_wifi_description">Zvanīt, izmantojot Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s plkst. %2$s</string>
@@ -1290,7 +1419,6 @@ Ja turpināsiet zvanu, tiks lietoti mobilie dati."</string>
     <string name="voicemail_donation_promo_title">Palīdziet uzlabot transkripcijas precizitāti!</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Izmantojot vizuālo balss pastu SIM kartēm bez apmaksātiem datiem, mobilo sakaru operators var iekasēt maksu.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizuālais balss pasts ir pieejams tikai atlasītajai datu SIM kartei.</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Ja jums ir vairākas SIM kartes un viena ir paredzēta pakalpojumam Fi, jūsu Fi SIM karte tiks izmantota vizuālajam balss pastam.</string>
     <string name="voicemail_error_activating_message">Kamēr vizuālais balss pasts nebūs pilnībā aktivizēts, iespējams, nesaņemsiet balss pasta paziņojumus. Lai izgūtu jaunus ziņojumus, kamēr balss pasts nav pilnībā aktivizēts, zvaniet balss pastam.</string>
     <string name="voicemail_error_activating_title">Vizuālā balss pasta aktivizēšana</string>
     <string name="voicemail_error_activation_disabled_message">Zvaniet balss pastam, lai pabeigtu tā iestatīšanu.</string>
@@ -1397,6 +1525,7 @@ Ja turpināsiet zvanu, tiks lietoti mobilie dati."</string>
     <string name="vvm3_error_vms_no_cellular_title">Nevar izveidot savienojumu ar jūsu balss pastkasti</string>
     <string name="vvm3_error_vms_timeout_message">Diemžēl radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar klientu apkalpošanas dienestu, izmantojot tālruņa numuru %1$s, un nosauciet kļūdas kodu “9007”.</string>
     <string name="vvm3_error_vms_timeout_title">Radās problēma</string>
+    <string name="vvm_config_title">Vizuālā balss pasta konfigurācija</string>
     <string name="vvm_unsupported_message_format">Neatbalstīts ziņojuma veids. Lai to noklausītos, zvaniet uz numuru %s.</string>
     <string name="wait_prompt_str">"Vai sūtīt tālāk norādītos signālus?
 "</string>

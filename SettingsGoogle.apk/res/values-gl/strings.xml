@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Idiomas e introdución de texto</string>
     <string name="lift_to_wake_title">Levantar para acender</string>
-    <string name="lockdown_settings_summary">Mostra a opción do botón de acendido que desactiva Smart Lock, o desbloqueo facial, o desbloqueo mediante impresión dixital e as notificacións da pantalla de bloqueo</string>
-    <string name="lockdown_settings_title">Mostrar a opción de bloqueo</string>
+    <string name="abc_action_bar_home_description">Vai ao inicio</string>
+    <string name="abc_action_bar_up_description">Vai cara arriba</string>
     <string name="locked_work_profile_notification_title">Perfil de traballo bloqueado</string>
     <string name="lockscreen_bypass_summary">Tras o desbloqueo, vai á última pantalla usada</string>
     <string name="lockscreen_bypass_title">Omitir a pantalla de bloqueo</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notificacións do traballo</string>
     <string name="reset_dashboard_summary">Pódense restablecer a rede, as aplicacións ou o dispositivo</string>
     <string name="reset_dashboard_title">Opcións de restablecemento</string>
-    <string name="abc_action_bar_home_description">Vai ao inicio</string>
+    <string name="abc_action_menu_overflow_description">Máis opcións</string>
     <string name="screensaver_settings_title">Protector de pantalla</string>
     <string name="screen_timeout">Tempo de espera da pantalla</string>
     <string name="screen_zoom_title">Tamaño de visualización</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Incrementa automaticamente a frecuencia de actualización de 60 a 90 Hz en determinados tipos de contido. Aumenta o uso da batería.</string>
     <string name="accessibility_vibration_settings_title">Vibración e tecnoloxía táctil</string>
     <string name="emergency_gesture_screen_title">Emerxencia SOS</string>
-    <string name="abc_action_bar_up_description">Vai cara arriba</string>
+    <string name="abc_action_mode_done">Feito</string>
     <string name="vibrate_for_calls_category_title">Chamadas</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Mostrar moedeiro</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Mostrar control de dispositivos</string>
     <string name="lockscreen_privacy_wallet_summary">Permite o acceso ao moedeiro desde a pantalla de bloqueo e o menú Configuración rápida</string>
     <string name="lockscreen_privacy_controls_summary">Accede aos controis cando a pantalla estea bloqueada</string>
-    <string name="abc_action_menu_overflow_description">Máis opcións</string>
-    <string name="abc_action_mode_done">Feito</string>
     <string name="abc_activity_chooser_view_see_all">Ver todo</string>
     <string name="abc_activitychooserview_choose_application">Selecciona unha aplicación</string>
     <string name="abc_capital_off">DESACTIVAR</string>
@@ -2770,8 +2768,8 @@ Podes cambiar esta opción máis tarde en Configuración > Aplicacións e notifi
     <string name="keywords_install_other_apps">instalar aplicacións fontes descoñecidas</string>
     <string name="keywords_internet">conexión de rede, Internet, sen fíos, datos, wifi, móbil, operador, 4G, 3G, 2G, LTE</string>
     <string name="keywords_keyboard_and_ime">corrección ortográfica, correcto, son, vibrar, automático, idioma, xesto, suxerir, suxestión, tema, ofensivo, palabra, escribir, emoji, internacional</string>
-    <string name="keywords_live_caption">Subtítulos, subtitulado, Transcrición instantánea, problemas auditivos, perda de audición, subtitulado en tempo real, CART, síntese de voz, subtítulo</string>
-    <string name="keywords_live_transcribe">Subtítulos, subtitulado, Subtítulos instantáneos, problemas auditivos, perda de audición, subtitulado en tempo real, CART, síntese de voz, subtítulo</string>
+    <string name="keywords_live_caption">Subtítulos, subtitulado, Transcrición instantánea, problemas auditivos, perda de audición, subtitulado en tempo real, CART, conversión de voz a texto, subtítulo</string>
+    <string name="keywords_live_transcribe">Subtítulos, subtitulado, Subtítulos instantáneos, problemas auditivos, perda de audición, subtitulado en tempo real, CART, conversión de voz a texto, subtítulo</string>
     <string name="keywords_location">cerca, localización, historial, informes, GPS</string>
     <string name="keywords_lockscreen">pasar o dedo para desbloquear, contrasinal, padrón, PIN</string>
     <string name="keywords_lockscreen_bypass">Pantalla de bloqueo, bloquear pantalla, omitir, saltar</string>
@@ -3896,7 +3894,7 @@ Preme as teclas de acendido e de subir volume ao mesmo tempo."</string>
     <string name="prevent_ringing_option_vibrate_summary">Vibrar</string>
     <string name="preview_page_indicator_content_description">Vista previa, páxina %1$d de %2$d</string>
     <string name="preview_pager_content_description">Vista previa</string>
-    <string name="previous_connected_see_all">Ver todos os dispositivos</string>
+    <string name="previous_connected_see_all">Ver todo</string>
     <string name="print_blocked_state_title_template">Impresora bloqueou %1$s</string>
     <string name="print_cancel">Cancelar</string>
     <string name="print_cancelling_state_title_template">Cancelando %1$s</string>
@@ -5085,7 +5083,7 @@ Un método de Google que che permite sincronizar datos para que poidas acceder a
     <string name="system_package">Non se poden instalar actualizacións do sistema en soportes externos.</string>
     <string name="system_ui_settings">Mostrar sintonizador da IU do sistema</string>
     <string name="system_update_settings_list_item_summary" />
-    <string name="take_call_on_title">Responder chamada en</string>
+    <string name="take_call_on_title">Contestar chamada en</string>
     <string name="talkback_summary">O lector de pantalla está destinado principalmente a persoas cegas e con pouca visión</string>
     <string name="talkback_title">TalkBack</string>
     <string name="tap_a_network_to_connect">Toca unha rede para conectarte a ela</string>
@@ -5510,7 +5508,7 @@ Calquera usuario pode actualizar as aplicacións para todos os demais usuarios."
     <string name="voice_input_settings_title">Entrada de voz</string>
     <string name="voice_interaction_security_warning">Este servizo de entrada de voz poderá supervisar que a voz sempre estea activada e controlar as aplicacións compatibles coa voz no teu nome. Procede da aplicación %s. Queres activar o uso deste servizo?</string>
     <string name="voice_interactor_preference_summary">Interacción e palabra de activación completa</string>
-    <string name="voice_recognizer_preference_summary">Síntese de voz simple</string>
+    <string name="voice_recognizer_preference_summary">Conversión simple de voz a texto</string>
     <string name="voice_search_settings_title">Busca por voz</string>
     <string name="voice_service_preference_section_title">Servizos de entrada de voz</string>
     <string name="volte_5G_limited_text">"Ao realizar esta acción, tamén se desactivará a conexión 5G.

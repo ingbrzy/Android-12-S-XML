@@ -17,14 +17,21 @@
         <item>15 daqiqa</item>
         <item>20 daqiqa</item>
         <item>25 daqiqa</item>
-        <item>Hech qachon</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Uyqu vaqtidan 15 daqiqa oldin</item>
+        <item>Uyqu vaqtidan 30 daqiqa oldin</item>
+        <item>Uyqu vaqtidan 45 daqiqa oldin</item>
+        <item>Uyqu vaqtidan 1 soat oldin</item>
+        <item>Yoqilmagan</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Raqamli</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Hech qachon</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 soniya</item>
         <item>10 soniya</item>
         <item>15 soniya</item>
@@ -37,6 +44,35 @@
         <item>50 soniya</item>
         <item>55 soniya</item>
         <item>60 soniya</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 daqiqadan keyin toʻxtatish</item>
+        <item>20 daqiqadan keyin toʻxtatish</item>
+        <item>30 daqiqadan keyin toʻxtatish</item>
+        <item>40 daqiqadan keyin toʻxtatish</item>
+        <item>50 daqiqadan keyin toʻxtatish</item>
+        <item>1 soatdan keyin toʻxtatish</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 daqiqadan keyin toʻxtatish</item>
+        <item>20 daqiqadan keyin toʻxtatish</item>
+        <item>30 daqiqadan keyin toʻxtatish</item>
+        <item>40 daqiqadan keyin toʻxtatish</item>
+        <item>50 daqiqadan keyin toʻxtatish</item>
+        <item>1 soatdan keyin toʻxtatish</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 daqiqa</item>
+        <item>20 daqiqa</item>
+        <item>30 daqiqa</item>
+        <item>40 daqiqa</item>
+        <item>50 daqiqa</item>
+        <item>1 soat</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 daqiqa</item>
@@ -69,18 +105,6 @@
         <item>28 daqiqa</item>
         <item>29 daqiqa</item>
         <item>30 daqiqa</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Siz haqiqatan ham Shumaxer ekansiz!</item>
-        <item>Siz juda yaxshi mehnat qildingiz.</item>
-        <item>Siz Androiddan ham tezkor ekansiz!</item>
-        <item>Uff!</item>
-        <item>L33t marta.</item>
-        <item>Mana buni tezlik desa bo‘ladi!</item>
-        <item>Vaqtdan og‘ish – shu bizga kerak!</item>
-        <item>Chapga sakrash.</item>
-        <item>Siz vaqtingizni behuda sarflamas ekansiz.</item>
-        <item>Yorug‘likdan ham tezroq!</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall orollari</item>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Язык и ввод</string>
     <string name="lift_to_wake_title">Активация в вертикальном положении</string>
-    <string name="lockdown_settings_summary">Добавить в меню кнопки питания возможность отключения Smart Lock, фейсконтроля, разблокировки по отпечатку пальца и уведомлений на заблокированном экране</string>
-    <string name="lockdown_settings_title">Добавить кнопку блокировки</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
     <string name="locked_work_profile_notification_title">Рабочий профиль заблокирован</string>
     <string name="lockscreen_bypass_summary">После разблокировки сразу переходить к последнему открытому экрану</string>
     <string name="lockscreen_bypass_title">Пропуск заблок. экрана</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Рабочие уведомления</string>
     <string name="reset_dashboard_summary">Вы можете сбросить настройки сети, приложений или устройства</string>
     <string name="reset_dashboard_title">Сброс настроек</string>
-    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
     <string name="screensaver_settings_title">Заставка</string>
     <string name="screen_timeout">Время отключения экрана</string>
     <string name="screen_zoom_title">Масштаб изображения на экране</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Автоматически увеличивать частоту обновления экрана с 60 до 90 Гц для некоторых типов контента (при этом батарея разряжается быстрее)</string>
     <string name="accessibility_vibration_settings_title">Вибрация и тактильный отклик</string>
     <string name="emergency_gesture_screen_title">Экстренный вызов</string>
-    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_mode_done">Готово</string>
     <string name="vibrate_for_calls_category_title">Звонки</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Показывать кошелек</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Показывать виджеты управления устройством</string>
     <string name="lockscreen_privacy_wallet_summary">Разрешить доступ к кошельку на заблокированном экране и в быстрых настройках</string>
     <string name="lockscreen_privacy_controls_summary">Разрешить доступ к виджетам управления устройством на заблокированном экране</string>
-    <string name="abc_action_menu_overflow_description">Ещё</string>
-    <string name="abc_action_mode_done">Готово</string>
     <string name="abc_activity_chooser_view_see_all">Показать все</string>
     <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
     <string name="abc_capital_off">ВЫКЛ</string>
@@ -206,7 +204,7 @@
     <string name="accessibility_disable_animations">Убрать анимации</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">Настройте коррекцию цвета на экране устройства. Вы можете:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;улучшить цветопередачу;&lt;/li> &lt;li>&amp;nbsp;переключиться в черно-белый режим, чтобы вам проще было сфокусироваться.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Коррекция цвета</string>
-    <string name="accessibility_display_inversion_preference_subtitle">Инверсия цветов позволяет сделать светлые цвета тёмными.&lt;br/>&lt;br/> Обратите внимание: &lt;ol> &lt;li> Тёмные цвета станут светлыми.&lt;/li> &lt;li> Инверсия цветов будет также применяться и в медиаконтенте и изображениях.&lt;/li> &lt;li> Чтобы сделать фон экрана тёмным, включите тёмную тему. Тёмная тема поддерживается только в некоторых приложениях, а инверсия цветов – во всех.&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">Инверсия цветов позволяет сделать светлые цвета тёмными.&lt;br/>&lt;br/> Обратите внимание: &lt;ol> &lt;li> Тёмные цвета станут светлыми.&lt;/li> &lt;li> Инверсия цветов будет также применяться и в медиаконтенте и изображениях.&lt;/li> &lt;li> Чтобы сделать фон экрана тёмным, включите тёмную тему. Тёмная тема поддерживается только в некоторых приложениях, а инверсия цветов – во всех.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">Инверсия цветов</string>
     <string name="accessibility_display_inversion_switch_title">Использовать инверсию цветов</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
@@ -891,7 +889,7 @@
     <string name="battery_action_wifi">Настройки Wi-Fi</string>
     <string name="battery_active_for">Время работы: ^1</string>
     <string name="battery_app_usage_for">Использование приложениями за %s</string>
-    <string name="battery_app_usage_for_past_24">Расход со стороны приложений за 24 часа</string>
+    <string name="battery_app_usage_for_past_24">Расход приложениями за 24 часа</string>
     <string name="battery_auto_restriction_summary">Выявлять приложения, быстро расходующие заряд батареи</string>
     <string name="battery_auto_restriction_title">Использовать Battery Manager</string>
     <string name="battery_bg_usage">^1 в фоновом режиме с момента последней полной зарядки</string>
@@ -994,7 +992,7 @@
     <string name="battery_summary">Использовано с момента последней полной зарядки: %1$s</string>
     <string name="battery_summary_24hr">Использовано за последние 24 часа: %1$s</string>
     <string name="battery_system_usage_for">Использование системой за %s</string>
-    <string name="battery_system_usage_for_past_24">Расход со стороны системы за последние 24 часа</string>
+    <string name="battery_system_usage_for_past_24">Расход системой за 24 часа</string>
     <string name="battery_tip_dialog_message">"Вы использовали телефон больше, чем обычно, поэтому батарея может разрядиться быстрее.
 
 Приложения с высоким потреблением энергии:"</string>
@@ -1604,7 +1602,7 @@
     <string name="columbus_setting_sensitivity_title">Уменьшить чувствительность</string>
     <string name="computing_size">Вычисление...</string>
     <string name="condition_airplane_summary">Сети недоступны</string>
-    <string name="condition_airplane_title">Режим полета включен</string>
+    <string name="condition_airplane_title">Включен режим полета</string>
     <string name="condition_battery_summary">Некоторые функции ограничены</string>
     <string name="condition_battery_title">Режим энергосбережения включен</string>
     <string name="condition_bg_data_summary">Некоторые функции ограничены</string>
@@ -3304,7 +3302,7 @@
     <string name="mobile_data_disable_message">Вы не сможете передавать данные или выходить в интернет через оператора \"%s\". Интернет будет доступен только по сети Wi-Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">ваш оператор</string>
     <string name="mobile_data_disable_title">Отключить мобильный интернет?</string>
-    <string name="mobile_data_no_connection">Нет подключения к интернету</string>
+    <string name="mobile_data_no_connection">Нет подключения</string>
     <string name="mobile_data_off">Мобильный Интернет отключен</string>
     <string name="mobile_data_off_summary">Без автоподключения к мобильному интернету</string>
     <string name="mobile_data_settings_summary">Доступ к интернету по мобильной сети</string>
@@ -3546,7 +3544,7 @@
     <string name="no_sim_card">Нет SIM-карты.</string>
     <string name="no_trust_agents">Нет агентов доверия.</string>
     <string name="no_vr_listeners">Установленные приложения не запрашивали доступ для работы в качестве вспомогательного VR-сервиса.</string>
-    <string name="non_carrier_data_usage">Передача данных не через оператора связи</string>
+    <string name="non_carrier_data_usage">Передача данных не по мобильной сети</string>
     <string name="non_carrier_data_usage_warning">Без учета трафика, переданного через сети оператора связи.</string>
     <string name="non_carrier_network_unavailable">Нет других доступных сетей</string>
     <string name="not_allowed">Ваша SIM-карта не поддерживает подключение к этой сети.</string>
@@ -4021,7 +4019,7 @@
     <string name="reduce_bright_colors_intensity_preference_title">Интенсивность</string>
     <string name="reduce_bright_colors_intensity_start_label">Темнее</string>
     <string name="reduce_bright_colors_persist_preference_title">Не отключать после перезагрузки устройства</string>
-    <string name="reduce_bright_colors_preference_subtitle">Сделайте экран темнее для удобства чтения.&lt;br/>&lt;br/> Это может помочь, если: &lt;ol>&lt;li> при минимальной яркости экран телефона все равно слишком яркий;&lt;/li> &lt;li> вы используете телефон в темноте, например ночью или в темной комнате перед сном.&lt;/li>&lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">Сделайте экран темнее для удобства чтения.&lt;br/>&lt;br/> Это может помочь, если: &lt;ol>&lt;li> при минимальной яркости экран телефона все равно слишком яркий;&lt;/li> &lt;li> вы используете телефон в темноте, например ночью или в темной комнате перед сном.&lt;/li>&lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">Сделать экран телефона темнее, чем при минимальной яркости</string>
     <string name="reduce_bright_colors_preference_title">Дополнительное уменьшение яркости</string>
     <string name="reduce_bright_colors_switch_title">Дополнительно уменьшить яркость экрана</string>
@@ -6005,7 +6003,7 @@
     <string name="wifitrackerlib_tap_to_sign_up">Нажмите, чтобы зарегистрироваться</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">К точке доступа подключено слишком много устройств</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Похоже, вы указали неверный пароль. Повторите попытку.</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Подключено к устройству. Нет доступа к Интернету.</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Подключено к устройству. Нет доступа к интернету.</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Отключено</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">Ошибка конфигурации IP</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Ошибка аутентификации</string>

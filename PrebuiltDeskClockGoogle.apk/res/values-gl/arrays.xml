@@ -17,14 +17,21 @@
         <item>15 minutos</item>
         <item>20 minutos</item>
         <item>25 minutos</item>
-        <item>Nunca</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 min antes da hora de durmir</item>
+        <item>30 min antes da hora de durmir</item>
+        <item>45 min antes da hora de durmir</item>
+        <item>1 h antes da hora de durmir</item>
+        <item>Desactivada</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analóxico</item>
         <item>Dixital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nunca</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 segundos</item>
         <item>10 segundos</item>
         <item>15 segundos</item>
@@ -37,6 +44,35 @@
         <item>50 segundos</item>
         <item>55 segundos</item>
         <item>60 segundos</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Detén a reprodución en 10 minutos</item>
+        <item>Detén a reprodución en 20 minutos</item>
+        <item>Detén a reprodución en 30 minutos</item>
+        <item>Detén a reprodución en 40 minutos</item>
+        <item>Detén a reprodución en 50 minutos</item>
+        <item>Detén a reprodución en 1 h</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Detén a reprodución en 10 min</item>
+        <item>Detén a reprodución en 20 min</item>
+        <item>Detén a reprodución en 30 min</item>
+        <item>Detén a reprodución en 40 min</item>
+        <item>Detén a reprodución en 50 min</item>
+        <item>Detén a reprodución en 1 h</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>40 minutos</item>
+        <item>50 minutos</item>
+        <item>1 h</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuto</item>
@@ -69,18 +105,6 @@
         <item>28 minutos</item>
         <item>29 minutos</item>
         <item>30 minutos</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Es o rei da velocidade.</item>
-        <item>Goza dos froitos do teu traballo.</item>
-        <item>Os dispositivos Android son coñecidos por ser rápidos, pero non tan rápidos coma ti.</item>
-        <item>Uf!</item>
-        <item>L33t veces</item>
-        <item>Que velocidade tan prodixiosa.</item>
-        <item>Repitámolo de novo.</item>
-        <item>Só un salto á esquerda.</item>
-        <item>Es moi veloz</item>
-        <item>Velocidade fotónica.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Illas Marshall</item>

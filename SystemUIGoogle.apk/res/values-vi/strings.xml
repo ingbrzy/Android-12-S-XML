@@ -595,6 +595,8 @@ Hãy thử lại sau %d giây."</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Bạn phải khởi động lại thiết bị để áp dụng sự thay đổi này. Hãy khởi động lại ngay hoặc hủy.</string>
     <string name="camera_hint">Vuốt từ biểu tượng để mở máy ảnh</string>
     <string name="camera_label">mở máy ảnh</string>
+    <string name="camera_recording_announcement">Máy ảnh đang ghi</string>
+    <string name="camera_stopped_recording_announcement">Máy ảnh đã dừng ghi</string>
     <string name="cancel">Hủy</string>
     <string name="carrier_network_change_mode">Thay đổi mạng của nhà mạng</string>
     <string name="category_personal">Cá nhân</string>
@@ -734,6 +736,10 @@ Nếu tiếp tục, bạn có thể bị tính phí sử dụng dữ liệu."</s
     <string name="debug_monitoring_category">Giám sát</string>
     <string name="debug_networking_category">Mạng</string>
     <string name="debug_view_attributes">Cho phép kiểm tra thuộc tính của chế độ xem</string>
+    <string name="defender_notify_des">Điện thoại của bạn đang hạn chế sạc để duy trì độ bền của pin</string>
+    <string name="defender_notify_learn_more">Tìm hiểu thêm</string>
+    <string name="defender_notify_resume_charge">Tiếp tục sạc</string>
+    <string name="defender_notify_title">Tạm thời hạn chế sạc</string>
     <string name="delete_blob_confirmation_text">Bạn có chắc chắn muốn xóa dữ liệu được chia sẻ này không?</string>
     <string name="delete_blob_text">Xóa dữ liệu được chia sẻ</string>
     <string name="demo_mode">Chế độ thử nghiệm giao diện người dùng hệ thống</string>
@@ -1070,6 +1076,7 @@ tắt tiếng"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Đang mở khóa thẻ SIM…</string>
     <string name="keyguard_try_fingerprint">Dùng vân tay để mở</string>
     <string name="keyguard_unlock">Vuốt lên để mở</string>
+    <string name="keyguard_unlock_press">Nhấn để mở</string>
     <string name="keywords_adb_wireless">adb, gỡ lỗi, nhà phát triển</string>
     <string name="keywords_alarms_and_reminders">lịch biểu, chuông báo, lời nhắc, đồng hồ</string>
     <string name="kg_enter_confirm_pin_hint">Xác nhận mã PIN mong muốn</string>
@@ -1233,6 +1240,10 @@ Hãy thử lại sau %2$d giây."</string>
     <string name="menu_ime">Trình chuyển đổi bàn phím</string>
     <string name="messages_count_overflow_indicator">Hơn %d</string>
     <string name="mic_active">Micrô đang hoạt động</string>
+    <string name="mic_and_camera_recording_announcement">Máy ảnh và micrô đang ghi</string>
+    <string name="mic_camera_stopped_recording_announcement">Máy ảnh và micrô đã dừng ghi</string>
+    <string name="mic_recording_announcement">Micrô đang ghi</string>
+    <string name="mic_stopped_recording_announcement">Micrô đã dừng ghi</string>
     <string name="missed_call">Cuộc gọi nhỡ</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dữ liệu di động</string>
@@ -1706,8 +1717,6 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_work_mode_label">Ứng dụng công việc</string>
     <string name="quick_step_accessibility_toggle_overview">Bật/tắt chế độ xem Tổng quan</string>
     <string name="recent_conversations">Cuộc trò chuyện gần đây</string>
-    <string name="recents_quick_scrub_onboarding">Kéo sang phải để chuyển đổi nhanh giữa các ứng dụng</string>
-    <string name="recents_swipe_up_onboarding">Vuốt lên để chuyển đổi ứng dụng</string>
     <string name="remaining_length_format">Còn %1$s</string>
     <string name="remote_input_image_insertion_text">đã gửi hình ảnh</string>
     <string name="remove_from_settings">Xóa khỏi Cài đặt</string>
@@ -2117,6 +2126,7 @@ Mọi người dùng đều có thể cập nhật ứng dụng cho tất cả n
     <string name="wallet_secondary_label_no_card">Thêm thẻ</string>
     <string name="wallet_secondary_label_updating">Đang cập nhật</string>
     <string name="wallet_title">Ví</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Điểm truy cập tạm thời đã đạt đến giới hạn số lượng thiết bị truy cập.</string>
     <string name="wifi_cant_connect">Không thể kết nối</string>
     <string name="wifi_cant_connect_to_ap">"Không thể kết nối với '%1$s'"</string>

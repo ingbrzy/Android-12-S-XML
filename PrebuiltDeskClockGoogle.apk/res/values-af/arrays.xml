@@ -17,14 +17,21 @@
         <item>15 minute</item>
         <item>20 minute</item>
         <item>25 minute</item>
-        <item>Nooit</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minute voor slaaptyd</item>
+        <item>30 minute voor slaaptyd</item>
+        <item>45 minute voor slaaptyd</item>
+        <item>1 uur voor slaaptyd</item>
+        <item>Af</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analoog</item>
         <item>Digitaal</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nooit</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekondes</item>
         <item>10 sekondes</item>
         <item>15 sekondes</item>
@@ -37,6 +44,35 @@
         <item>50 sekondes</item>
         <item>55 sekondes</item>
         <item>60 sekondes</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Stop ná 10 minute</item>
+        <item>Stop ná 20 minute</item>
+        <item>Stop ná 30 minute</item>
+        <item>Stop ná 40 minute</item>
+        <item>Stop ná 50 minute</item>
+        <item>Stop ná 1 uur</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Stop ná 10 minute</item>
+        <item>Stop ná 20 minute</item>
+        <item>Stop ná 30 minute</item>
+        <item>Stop ná 40 minute</item>
+        <item>Stop ná 50 minute</item>
+        <item>Stop ná 1 uur</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minute</item>
+        <item>20 minute</item>
+        <item>30 minute</item>
+        <item>40 minute</item>
+        <item>50 minute</item>
+        <item>1 uur</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuut</item>
@@ -69,18 +105,6 @@
         <item>28 minute</item>
         <item>29 minute</item>
         <item>30 minute</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>"Jy's 'n regte spoedduiwel."</item>
-        <item>Geniet die vrugte van jou arbeid.</item>
-        <item>Androids is bekend daarvoor om vinnig te wees, maar nie so vinnig soos jy nie!</item>
-        <item>Sjoe.</item>
-        <item>L33t keer.</item>
-        <item>Sulke ontsaglike snelheid.</item>
-        <item>Kom ons doen die tydverwringing weer.</item>
-        <item>"Net 'n sprong na links."</item>
-        <item>"Jy het 'n smaak vir haastigheid."</item>
-        <item>Fototoniese snelheid.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshalleilande</item>

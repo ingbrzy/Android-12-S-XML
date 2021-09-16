@@ -341,13 +341,15 @@ Kifaa hakijatolewa"</string>
 
 "<li>Mtumiaji mwingine yeyote anaweza kukubali ruhusa za programu zilizosasishwa</li>"
 
-"<li>Shiriki simu hii na watu unaowaamini pekee</li></ul>}TABLET{<b>Muhimu:</b>"
+"<li>Shiriki simu hii na watu unaowaamini pekee</li></ul>"
+}TABLET{"<b>Muhimu:</b>"
 
 "<ul><li>Mmiliki wa kompyuta kibao anaweza kuondoa programu zako au kuondoa wasifu wako wa mtumiaji kabisa</li>"
 
 "<li>Mtumiaji mwingine yeyote anaweza kukubali ruhusa za programu zilizosasishwa</li>"
 
-"<li>Shiriki kompyuta hii kibao na watu unaowaamini pekee</li></ul>}other{<b>Muhimu:</b>"
+"<li>Shiriki kompyuta hii kibao na watu unaowaamini pekee</li></ul>"
+}other{"<b>Muhimu:</b>"
 
 "<ul><li>Mmiliki wa kifaa anaweza kuondoa programu zako au kuondoa wasifu wako wa mtumiaji kabisa</li>"
 
@@ -356,73 +358,50 @@ Kifaa hakijatolewa"</string>
 "<li>Shiriki kifaa hiki na watu unaowaamini pekee</li></ul>}}</string>
     <string name="welcome_start_button_label">Anza</string>
     <string name="wifi_add_new_network">Ongeza mtandao mpya</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya simu yako haraka.
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya simu yako.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
-"<li>Kuweka saa na tarehe kiotomatiki</li>"}TABLET{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya kompyuta yako kibao haraka.
+"<li>Kuweka saa na tarehe kiotomatiki</li>"
+}TABLET{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya kompyuta yako kibao.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
-"<li>Kuweka saa na tarehe kiotomatiki</li>"}other{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya kifaa chako haraka.
+"<li>Kuweka saa na tarehe kiotomatiki</li>"
+}other{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya kifaa chako.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
 "<li>Kuweka saa na tarehe kiotomatiki</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya simu yako haraka.
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya simu yako.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupakua SIM</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
-"<li>Kuweka saa na tarehe kiotomatiki</li>"}TABLET{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya kompyuta yako kibao haraka.
+"<li>Kuweka saa na tarehe kiotomatiki</li>"
+}TABLET{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya kompyuta yako kibao.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupakua SIM</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
-"<li>Kuweka saa na tarehe kiotomatiki</li>"}other{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke mipangilio ya kifaa chako haraka.
+"<li>Kuweka saa na tarehe kiotomatiki</li>"
+}other{Kuunganisha kwenye mtandao wa Wi‑Fi au wa simu hukusaidia uweke haraka mipangilio ya kifaa chako.
 
 Bila muunganisho, huwezi:
-
 "<li>Kuingia katika Akaunti yako ya Google</li>"
-
 "<li>Kurejesha programu na data</li>"
-
 "<li>Kupakua SIM</li>"
-
 "<li>Kupata masasisho ya programu</li>"
-
 "<li>Kuweka saa na tarehe kiotomatiki</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Lango la mtandao lina shughuli nyingi kwa sasa</string>
     <string name="wifi_check_password_try_again">Angalia nenosiri na ujaribu tena</string>

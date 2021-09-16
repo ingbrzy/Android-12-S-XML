@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"RTT を利用するには、LTE に接続するか、Wi-Fi 通話をオンにしておく必要があります。
+"</item>
+        <item>"RTT に対応しているスマートフォンや TTY デバイスに接続しているスマートフォンで通信している場合は、いつでも RTT の利用を開始できます。
+"</item>
+        <item>"着信や発信の RTT オプションを表示するには、RTT の通話オプションを [常に表示] に設定します。
+"</item>
+        <item>"RTT には音声が含まれているため、音声を共有したくない場合は通話をミュートしてください。
+"</item>
+        <item>"RTT 通話には通話料がかかります。詳しくは、料金プランをご確認ください。
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT 通話は文字起こしされ、メッセージとして保存されます。
+"</item>
+        <item>"RTT はビデオ通話では使用できません。
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"4G LTE または Wi-Fi ネットワークに接続する必要があります。
+"</item>
+        <item>通話相手が使用するスマートフォンも RTT をサポートしているか、TTY（テキスト電話）デバイスに接続されている必要があります。</item>
+        <item>RTT を有効にすると、すべての着信で RTT アイコンが表示されます。</item>
+    </string-array>
+</resources>

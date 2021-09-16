@@ -341,13 +341,15 @@ Enheden er ikke provisioneret"</string>
 
 "<li>Andre brugere kan acceptere opdaterede apptilladelser</li>"
 
-"<li>Del kun denne telefon med personer, du har tillid til</li></ul>}TABLET{<b>Vigtigt!</b>"
+"<li>Del kun denne telefon med personer, du har tillid til</li></ul>"
+}TABLET{"<b>Vigtigt!</b>"
 
 "<ul><li>Denne tablets ejer kan afinstallere dine apps eller fjerne din brugerprofil helt</li>"
 
 "<li>Andre brugere kan acceptere opdaterede apptilladelser</li>"
 
-"<li>Del kun denne tablet med personer, du har tillid til</li></ul>}other{<b>Vigtigt!</b>"
+"<li>Del kun denne tablet med personer, du har tillid til</li></ul>"
+}other{"<b>Vigtigt!</b>"
 
 "<ul><li>Enhedens ejer kan afinstallere dine apps eller fjerne din brugerprofil helt</li>"
 
@@ -358,71 +360,48 @@ Enheden er ikke provisioneret"</string>
     <string name="wifi_add_new_network">Tilføj nyt netværk</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Du kan hurtigt konfigurere din telefon ved at oprette forbindelse til et Wi‑Fi- eller mobilnetværk.
 
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Få softwareopdateringer</li>"
+"<li>Konfigurere dato og klokkeslæt automatisk</li>"
+}TABLET{Du kan hurtigt konfigurere din tablet ved at oprette forbindelse til et Wi‑Fi- eller mobilnetværk.
 
-"<li>Konfigurere dato og klokkeslæt automatisk</li>"}TABLET{Du kan hurtigt konfigurere din tablet ved at oprette forbindelse til et Wi‑Fi- eller mobilnetværk.
-
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Få softwareopdateringer</li>"
+"<li>Konfigurere dato og klokkeslæt automatisk</li>"
+}other{Du kan hurtigt konfigurere din enhed ved at oprette forbindelse til et Wi‑Fi- eller mobilnetværk.
 
-"<li>Konfigurere dato og klokkeslæt automatisk</li>"}other{Du kan hurtigt konfigurere din enhed ved at oprette forbindelse til et Wi‑Fi- eller mobilnetværk.
-
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Få softwareopdateringer</li>"
-
 "<li>Konfigurere dato og klokkeslæt automatisk</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Du kan hurtigt konfigurere din telefon ved at oprette forbindelse til et Wi-Fi- eller mobilnetværk.
 
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Downloade et SIM-kort</li>"
+"<li>Få softwareopdateringer</li>"
+"<li>Konfigurere dato og klokkeslæt automatisk</li>"
+}TABLET{Du kan hurtigt konfigurere din tablet ved at oprette forbindelse til et Wi-Fi- eller mobilnetværk.
 
-"<li>Få software-opdateringer</li>"
-
-"<li>Konfigurere dato og klokkeslæt automatisk</li>"}TABLET{Du kan hurtigt konfigurere din tablet ved at oprette forbindelse til et Wi-Fi- eller mobilnetværk.
-
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Downloade et SIM-kort</li>"
+"<li>Få softwareopdateringer</li>"
+"<li>Konfigurere dato og klokkeslæt automatisk</li>"
+}other{Du kan hurtigt konfigurere din enhed ved at oprette forbindelse til et Wi-Fi- eller mobilnetværk.
 
-"<li>Få software-opdateringer</li>"
-
-"<li>Konfigurere dato og klokkeslæt automatisk</li>"}other{Du kan hurtigt konfigurere din enhed ved at oprette forbindelse til et Wi-Fi- eller mobilnetværk.
-
-Uden forbindelse kan du ikke:
-
+Hvis du ikke har forbindelse, kan du ikke:
 "<li>Logge ind på din Google-konto</li>"
-
 "<li>Gendanne apps og data</li>"
-
 "<li>Downloade et SIM-kort</li>"
-
 "<li>Få software-opdateringer</li>"
-
 "<li>Konfigurere dato og klokkeslæt automatisk</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Adgangspunktet er midlertidigt fuldt</string>
     <string name="wifi_check_password_try_again">Tjek adgangskoden, og prøv igen</string>

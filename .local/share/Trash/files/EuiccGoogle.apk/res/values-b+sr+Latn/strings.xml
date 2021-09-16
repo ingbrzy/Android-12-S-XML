@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Idite na početnu</string>
+    <string name="abc_action_bar_up_description">Idite nagore</string>
+    <string name="abc_action_menu_overflow_description">Još opcija</string>
+    <string name="abc_action_mode_done">Gotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Prikaži sve</string>
+    <string name="abc_activitychooserview_choose_application">Izaberite aplikaciju</string>
+    <string name="abc_capital_off">ISKLJUČENO</string>
+    <string name="abc_capital_on">UKLJUČENO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">taster za razmak</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pretražite…</string>
+    <string name="abc_searchview_description_clear">Obrišite upit</string>
+    <string name="abc_searchview_description_query">Pretražite upit</string>
+    <string name="abc_searchview_description_search">Pretražite</string>
+    <string name="abc_searchview_description_submit">Pošaljite upit</string>
+    <string name="abc_searchview_description_voice">Glasovna pretraga</string>
+    <string name="abc_shareactionprovider_share_with">Delite pomoću</string>
+    <string name="abc_shareactionprovider_share_with_application">Delite pomoću aplikacije %s</string>
+    <string name="abc_toolbar_collapse_description">Skupi</string>
+    <string name="activation_code_scan_button">Skeniraj QR kôd</string>
+    <string name="activation_code_text">Unesite kôd koji vam je dao operater</string>
+    <string name="activation_code_title">Dodajte mrežnog operatera</string>
+    <string name="add_another_carrier_msg1">Ne vidite svog mobilnog operatera? %1$s</string>
+    <string name="add_another_carrier_msg2">Dodajte nekog drugog</string>
+    <string name="add_profile_title">Dodajte mobilnog operatera</string>
+    <string name="asked_for_eid">Aktivirate ovo u prodavnici? Ako vam zaposleni zatraži EID broj, možete da ga %1$s.</string>
+    <string name="available_space">Dostupan prostor</string>
+    <string name="back_button_error_msg">Da bi se izbegle greške, nije moguće izaći iz ovog ekrana dok je podešavanje u toku</string>
+    <string name="body_check_qr_code_or_go_back">Proverite da li skenirate ispravan QR kôd. Da biste ponovo pokušali da skenirate, vratite se na prethodni ekran.</string>
+    <string name="body_device_is_locked">Mobilni operater %1$s je zaključao uređaj.</string>
+    <string name="body_device_is_locked_no_name">Uređaj je zaključan.</string>
+    <string name="body_issue_with_sim_profile">Postoji problem sa vašim SIM profilom. Da biste rešili problem, obratite se mobilnom operateru %1$s na %2$s.</string>
+    <string name="body_issue_with_sim_profile_no_name">Postoji problem sa vašim SIM profilom. Da biste rešili problem, obratite se mobilnom operateru.</string>
+    <string name="body_issue_with_sim_profile_no_tel">Postoji problem sa vašim SIM profilom. Da biste rešili problem, obratite se mobilnom operateru %1$s.</string>
+    <string name="body_make_sure_not_already_downloaded">"Uverite se da izabrani SIM profil nije preuzet na ovom ili nekom drugom uređaju.
+
+Za dodatnu pomoć obratite se mobilnom operateru %1$s na %2$s"</string>
+    <string name="body_make_sure_not_already_downloaded_no_name">"Uverite se da izabrani SIM profil nije preuzet na ovom ili nekom drugom uređaju.
+
+Za dodatnu pomoć obratite se mobilnom operateru."</string>
+    <string name="body_make_sure_not_already_downloaded_no_tel">"Uverite se da izabrani SIM profil nije preuzet na ovom ili nekom drugom uređaju.
+
+Za dodatnu pomoć obratite se mobilnom operateru %1$s"</string>
+    <string name="body_need_wifi_connection">Treba vam WiFi veza da biste preuzeli SIM profil.</string>
+    <string name="body_need_wifi_or_mobile_connection">Treba vam WiFi ili mobilna veza da biste preuzeli SIM profil.</string>
+    <string name="body_not_enough_space_to_download">Nema dovoljno prostora za preuzimanje ovog SIM profila.</string>
+    <string name="body_something_went_wrong">Došlo je do greške pri pokušaju aktiviranja broja.</string>
+    <string name="button_text_close">Zatvori</string>
+    <string name="button_text_settings">Podešavanja</string>
+    <string name="cancel_button">Otkaži</string>
+    <string name="cant_get_eid_please_contact_carrier">Došlo je do greške, pa za sada ne možemo da nađemo EID broj uređaja. Kontaktirajte mobilnog operatera da biste zatražili pomoć.</string>
+    <string name="carrier_confirm_subtitle">Već bi trebalo da ste registrovani na mreži</string>
+    <string name="carrier_confirm_title">Potvrdite mrežu</string>
+    <string name="carrier_policy_info_1">Nijedan drugi mobilni operater ne može da bude aktiviran na ovom uređaju ako ne resetujete mobilne operatere.</string>
+    <string name="carrier_policy_info_2">Ovaj mobilni operater ne može da bude uklonjen sa ovog uređaja ako ne resetujete mobilne operatere.</string>
+    <string name="carrier_policy_info_3">U bilo kom trenutku možete da resetujete mobilnog operatera u Podešavanjima, ali ćete time ukloniti sve mobilne operatere sa uređaja.</string>
+    <string name="carrier_policy_text">Mobilni operater %1$s je pripremio eSIM koji možete da preuzmete na uređaj. Ako nastavite, prihvatate smernice mobilnog operatera %1$s:</string>
+    <string name="carrier_selection_msg">Odaberite mobilnog operatera kod koga već imate nalog i koga želite da koristite na ovom telefonu</string>
+    <string name="carrier_selection_psim">Bolje koristite SIM karticu</string>
+    <string name="carrier_selection_title">Potvrdite mobilnog operatera</string>
+    <string name="choose_carrier_title">Odaberite mobilne operatere koje ćete koristiti</string>
+    <string name="choose_number_activating">Aktivira se…</string>
+    <string name="choose_number_could_not_activate">Aktiviranje nije uspelo</string>
+    <string name="choose_number_error_no_space">Da biste koristili druge brojeve ili mreže, prvo treba da oslobodite prostor tako što ćete izbrisati 1 ili više postojećih brojeva u Podešavanjima</string>
+    <string name="choose_number_error_perm">Da biste koristili druge brojeve ili mreže, zatražite pomoć od mrežnih operatera</string>
+    <string name="choose_number_error_temp">Da biste koristili druge brojeve ili mreže, aktivirajte ih kasnije u Podešavanjima</string>
+    <string name="choose_number_item_summary_unknown">Nepoznat broj</string>
+    <string name="choose_number_subtitle">{count,plural, =1{1 broj je dodat na ovaj uređaj, ali u datom trenutku može da se koristi samo 1}one{# broj je dodat na ovaj uređaj, ali u datom trenutku može da se koristi samo 1}few{# broja su dodata na ovaj uređaj, ali u datom trenutku može da se koristi samo 1}other{# brojeva je dodato na ovaj uređaj, ali u datom trenutku može da se koristi samo 1}}</string>
+    <string name="choose_number_title">Odaberite broj za korišćenje</string>
+    <string name="choose_second_number_subtitle">Možete da koristite još jedan broj na ovom uređaju pored trenutnog broja</string>
+    <string name="choose_second_number_subtitle_with_psim_carrier_name">Možete da koristite još jedan broj na ovom uređaju pored svog %1$s broja</string>
+    <string name="choose_second_number_subtitle_with_psim_phone_number">Možete da koristite još jedan broj na ovom uređaju pored %1$s</string>
+    <string name="choose_second_number_title">Odaberite drugi broj</string>
+    <string name="common_google_play_services_enable_button">Omogući</string>
+    <string name="common_google_play_services_enable_text">%1$s neće funkcionisati ako ne omogućite Google Play usluge.</string>
+    <string name="common_google_play_services_enable_title">Omogućite Google Play usluge</string>
+    <string name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">%1$s ne može da se pokrene bez Google Play usluga, koje nisu instalirane na uređaju.</string>
+    <string name="common_google_play_services_install_title">Preuzmite Google Play usluge</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost Google Play usluga</string>
+    <string name="common_google_play_services_notification_ticker">Greška Google Play usluga</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ima problema sa Google Play uslugama. Probajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne može da se pokrene bez Google Play usluga, koje uređaj ne podržava.</string>
+    <string name="common_google_play_services_update_button">Ažuriraj</string>
+    <string name="common_google_play_services_update_text">%1$s ne može da se pokrene ako ne ažurirate Google Play usluge.</string>
+    <string name="common_google_play_services_update_title">Ažurirajte Google Play usluge</string>
+    <string name="common_google_play_services_updating_text">%1$s ne može da se pokrene bez Google Play usluga, koje se trenutno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija Google Play usluga. Uskoro će se ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="common_signin_button_text">Prijavi me</string>
+    <string name="common_signin_button_text_long">Prijavi me na Google</string>
+    <string name="complete_service_setup_text">Aktivirali ste uslugu mobilnog operatera %1$s</string>
+    <string name="complete_service_setup_title">Podešavanje mobilnog operatera %1$s je završeno</string>
+    <string name="complete_update_esim_notification_body_text">Dodirnite da biste dovršili ažuriranje softvera</string>
+    <string name="complete_update_esim_notification_title">Dovršite povezivanje sa mobilnom mrežom</string>
+    <string name="confirm_acti_no_space_sub1">Da biste koristili druge brojeve, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa uređaja. To možete da obavite kasnije u Podešavanjima.</string>
+    <string name="confirm_acti_no_space_sub1_multi">Da biste koristili druge brojeve ili mreže, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa uređaja. To možete da obavite kasnije u Podešavanjima.</string>
+    <string name="confirm_acti_perm_error_sub1">Da biste koristili druge brojeve, zatražite pomoć od operatera %1$s na %2$s. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_perm_error_sub1_multi">Da biste koristili druge brojeve ili mreže, zatražite pomoć od operatera %1$s na %2$s. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_perm_error_sub1_multi_no_carrier_name">Da biste koristili druge brojeve ili mreže, zatražite pomoć od mrežnog operatera. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_perm_error_sub1_multi_no_phone">Da biste koristili druge brojeve ili mreže, zatražite pomoć od operatera %1$s. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_perm_error_sub1_no_carrier_name">Da biste koristili druge brojeve, zatražite pomoć od mrežnog operatera. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid">Da biste koristili druge brojeve, zatražite pomoć od operatera %1$s na %2$s</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid_multi">Da biste koristili druge brojeve ili mreže, zatražite pomoć od operatera %1$s na %2$s</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid_multi_no_carrier_name">Da biste koristili druge brojeve ili mreže, zatražite pomoć od mrežnog operatera</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid_multi_no_phone">Da biste koristili druge brojeve ili mreže, zatražite pomoć od operatera %1$s</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid_no_carrier_name">Da biste koristili druge brojeve, zatražite pomoć od mrežnog operatera</string>
+    <string name="confirm_acti_perm_error_sub1_no_eid_no_phone">Da biste koristili druge brojeve, zatražite pomoć od operatera %1$s</string>
+    <string name="confirm_acti_perm_error_sub1_no_phone">Da biste koristili druge brojeve, zatražite pomoć od operatera %1$s. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="confirm_acti_success_sub_title">Broj %1$s bi trebalo da je spreman za korišćenje</string>
+    <string name="confirm_acti_success_sub_title_no_phone">Broj bi trebalo da je spreman za korišćenje</string>
+    <string name="confirm_acti_success_sub_title_w_app">Da biste dovršili aktiviranje broja %1$s, treba da preuzmete %2$s aplikaciju. Hajde da za sada dovršimo podešavanje telefona.</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_name">Da biste dovršili aktiviranje broja %1$s, treba da preuzmete aplikaciju mrežnog operatera. Hajde da za sada dovršimo podešavanje telefona.</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_name_setting">Da biste dovršili aktiviranje broja %1$s, treba da preuzmete aplikaciju mrežnog operatera</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_phone">Da biste dovršili aktiviranje broja, treba da preuzmete %1$s aplikaciju. Hajde da za sada dovršimo podešavanje telefona.</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_phone_no_name">Da biste dovršili aktiviranje broja, treba da preuzmete aplikaciju mrežnog operatera. Hajde da za sada dovršimo podešavanje telefona.</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_phone_no_name_setting">Da biste dovršili aktiviranje broja, treba da preuzmete aplikaciju mrežnog operatera</string>
+    <string name="confirm_acti_success_sub_title_w_app_no_phone_setting">Da biste dovršili aktiviranje broja, treba da preuzmete %1$s aplikaciju</string>
+    <string name="confirm_acti_success_sub_title_w_app_setting">Da biste dovršili aktiviranje broja %1$s, treba da preuzmete %2$s aplikaciju</string>
+    <string name="confirm_acti_success_title">Mobilni operater %1$s je aktivan</string>
+    <string name="confirm_acti_success_title_no_carrier_name">Mreža je aktivna</string>
+    <string name="confirm_acti_success_title_with_app">Povežite se sa mobilnim operaterom %1$s kasnije</string>
+    <string name="confirm_acti_success_title_with_app_no_name">Povežite se na mrežu kasnije</string>
+    <string name="confirm_acti_temp_error_sub1">Da biste koristili druge brojeve, aktivirajte ih kasnije u Podešavanjima</string>
+    <string name="confirm_acti_temp_error_sub1_multi">Da biste koristili druge brojeve ili mreže, aktivirajte ih kasnije u Podešavanjima</string>
+    <string name="confirm_code_try_again">Pogrešan kôd. Probajte ponovo.</string>
+    <string name="confirm_download_title">Želite li da aktivirate operatera %1$s?</string>
+    <string name="confirm_transfer_single_carrier_dsds_msg">Kada prenesete broj %1$s, on više neće raditi na starom uređaju. Možete da prenesete i drugi broj posle podešavanja ako umetnete SIM karticu.</string>
+    <string name="confirm_transfer_single_carrier_msg">Kada prenesete broj %1$s, on više neće raditi na starom uređaju</string>
+    <string name="confirm_transfer_single_carrier_title">Želite li da prenesete %1$s broj?</string>
+    <string name="confirmation_code_body_text">Trebalo bi da imate kôd za potvrdu dobavljača mobilne mreže. Unesite ga da biste aktivirali broj.</string>
+    <string name="confirmation_code_body_text_with_carrier">Trebalo bi da imate kôd za potvrdu mobilnog operatera %1$s. Unesite ga da biste aktivirali broj.</string>
+    <string name="confirmation_code_title">Kôd za potvrdu mobilnog operatera</string>
+    <string name="confirmation_code_what">Šta je ovo?</string>
+    <string name="connect_button">Poveži</string>
+    <string name="connect_carrier_confirm_title">Želite li da se povežete sa %1$s mobilnom mrežom?</string>
+    <string name="continue_button">Nastavi</string>
+    <string name="continue_download_esim_notification_body_text">Dodirnite da biste preuzeli SIM</string>
+    <string name="copy">Kopiraj</string>
+    <string name="copy_toast_msg">Link je kopiran u privremenu memoriju</string>
+    <string name="customer_service_activate_service">Predstavnik korisničke podrške može da koristi ovaj EID broj da bi vam pomogao da aktivirate uslugu:</string>
+    <string name="data_plan_select_subtitle">Kada ga prenesete, broj više neće raditi na starom uređaju</string>
+    <string name="data_plan_select_title">Izaberite broj koji ćete preneti</string>
+    <string name="def_notif_activating_title">%1$s broj se aktivira…</string>
+    <string name="def_notif_activation_fail_subtitle">Dodirnite da biste videli detalje</string>
+    <string name="def_notif_activation_fail_title">Aktiviranje %1$s broja nije uspelo</string>
+    <string name="def_notif_activation_success_dsds_subtitle">Odaberite podešavanja za pozive, SMS-ove i podatke</string>
+    <string name="def_notif_activation_success_dsds_title">Brojevi treba da budu spremni za korišćenje</string>
+    <string name="def_notif_activation_success_title">%1$s broj je aktiviran</string>
+    <string name="default_display_name">SIM</string>
+    <string name="default_profile_nickname_format">%1$s %2$d</string>
+    <string name="detail_contact_carrier_for_more_help">Obratite se mobilnom operateru za dodatnu pomoć.</string>
+    <string name="detail_contact_carrier_to_unlock">Obratite se mobilnom operateru %1$s na %2$s da biste videli da li uređaj može da se otključa.</string>
+    <string name="detail_contact_carrier_to_unlock_no_name">Obratite se mobilnom operateru da biste videli da li uređaj može da se otključa.</string>
+    <string name="detail_contact_carrier_to_unlock_no_tel">Obratite se mobilnom operateru %1$s da biste videli da li uređaj može da se otključa.</string>
+    <string name="detail_delete_a_profile_before_retrying">Izbrišite profil u Podešavanjima, pa probajte ponovo.</string>
+    <string name="detail_may_need_eid_number">Može da vam zatreba %1$s za ovaj uređaj.</string>
+    <string name="detail_provide_info_to_carrier">"Mobilnom operateru možete da dostavite sledeće informacije:
+%1$s
+%2$s"</string>
+    <string name="detail_try_adding_again">Kada se povežete, ponovo pokušajte da dodate mobilnu mrežu.</string>
+    <string name="device_locked_dialog_text">Pitajte operatera %1$s da li ovaj uređaj može da se otključa.</string>
+    <string name="device_locked_dialog_title">Preuzimanje eSIM-a nije uspelo</string>
+    <string name="device_password_text">Unesite lozinku uređaja da biste nastavili.</string>
+    <string name="device_password_title">Potvrdite lozinku</string>
+    <string name="disable_carrier_dialog_text">"Veza ovog uređaja sa mrežom će se odmah prekinuti.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="disable_carrier_dialog_text_with_carrier">"Veza ovog uređaja sa mobilnim operaterom %1$s će se odmah prekinuti.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="disable_carrier_dialog_title">Želite li da onemogućite mobilnog operatera?</string>
+    <string name="disable_fail_text">Došlo je do greške i onemogućavanje mobilnog operatera nije uspelo.</string>
+    <string name="disable_fail_title">Onemogućavanje mobilnog operatera nije uspelo</string>
+    <string name="disable_profile_title">Onemogući</string>
+    <string name="disabled_profiles_title">Dostupni mobilni operateri</string>
+    <string name="disabling_carrier">Mobilni operater se onemogućava…</string>
+    <string name="done_button">Gotovo</string>
+    <string name="download_complete_text">Uključite ovaj SIM u Podešavanjima</string>
+    <string name="download_complete_title">Preuzimanje je završeno</string>
+    <string name="download_fail_dialog_text">Preuzimanje eSIM-a nije uspelo zbog greške. Probajte ponovo, a ako se problem i dalje javlja, kontaktirajte %1$s.</string>
+    <string name="download_fail_dialog_text_no_carrier_name">Preuzimanje eSIM-a nije uspelo zbog greške. Probajte ponovo, a ako se problem i dalje javlja, kontaktirajte mobilnog operatera.</string>
+    <string name="download_fail_dialog_title">Preuzimanje eSIM-a nije uspelo</string>
+    <string name="download_sub_multi_carriers_text">{count,plural, =1{Preuzimamo brojeve (&lt;b>%2$d&lt;/b>) od mobilnog operatera %1$s i još 1 mobilnog operatera. To može malo da potraje.}one{Preuzimamo brojeve (&lt;b>%2$d&lt;/b>) od mobilnog operatera %1$s i još %3$d mobilnog operatera. To može malo da potraje.}few{Preuzimamo brojeve (&lt;b>%2$d&lt;/b>) od mobilnog operatera %1$s i još %3$d mobilna operatera. To može malo da potraje.}other{Preuzimamo brojeve (&lt;b>%2$d&lt;/b>) od mobilnog operatera %1$s i još %3$d mobilnih operatera. To može malo da potraje.}}</string>
+    <string name="download_sub_text">{count,plural, =1{Preuzimamo broj od mobilnog operatera %1$s. To može malo da potraje.}one{Preuzimamo &lt;b>%2$d broj&lt;/b> od mobilnog operatera %1$s. To može malo da potraje.}few{Preuzimamo &lt;b>%2$d broja&lt;/b> od mobilnog operatera %1$s. To može malo da potraje.}other{Preuzimamo &lt;b>%2$d brojeva&lt;/b> od mobilnog operatera %1$s. To može malo da potraje.}}</string>
+    <string name="download_sub_title">{count,plural, =1{Dodaje se broj…}one{Dodaju se brojevi…}few{Dodaju se brojevi…}other{Dodaju se brojevi…}}</string>
+    <string name="download_sub_transform_title">Usluga se proverava…</string>
+    <string name="download_web_sub_text">Može da traje minut ili dva, ponekad duže</string>
+    <string name="download_web_sub_title">Podešava se usluga…</string>
+    <string name="downloading_no_carrier_name_title">Preuzima se…</string>
+    <string name="downloading_with_carrier_name_title">%1$s se preuzima…</string>
+    <string name="dsds_activation_failure_body_msg1">Uklonite SIM karticu, pa je stavite ponovo. Ako se problem i dalje javlja, restartujte uređaj.</string>
+    <string name="dsds_activation_failure_body_msg2">Probajte ponovo da uključite SIM karticu. Ako se problem i dalje javlja, restartujte uređaj.</string>
+    <string name="dsds_activation_failure_title">Aktiviranje SIM kartice nije uspelo</string>
+    <string name="dsds_activation_notification_after_suw_text">Dodirnite da biste aktivirali SIM karticu</string>
+    <string name="dsds_activation_text">Aktiviranje SIM kartice…</string>
+    <string name="dsds_activation_text_in_esim_activation">Ažurira se…</string>
+    <string name="dsds_choose_number_text">Više brojeva (%1$d) je dostupno na ovom uređaju, ali mogu da se koriste samo po jedan</string>
+    <string name="dsds_choose_number_title">Odaberite broj koji ćete koristiti</string>
+    <string name="dsds_choose_second_number_text">Na ovom uređaju možete da koristite 2 broja istovremeno. Broj %1$s je već aktivan.</string>
+    <string name="dsds_choose_second_number_title">Odaberite drugi broj</string>
+    <string name="dsds_learn_more_button">Saznajte više</string>
+    <string name="dsds_notification_after_reboot_text">Dodirnite da biste ažurirali podešavanja SIM-a</string>
+    <string name="dsds_notification_after_reboot_text_carrier">Dodirnite da biste ažurirali podešavanja za %1$s</string>
+    <string name="dsds_notification_after_reboot_title_carrier">Mobilni operater %1$s je aktivan</string>
+    <string name="dsds_notification_after_reboot_title_phone">Mobilni operater %1$s je aktivan</string>
+    <string name="dsds_notification_after_suw_text">Odaberite aktivan SIM ili koristite 2 SIM-a istovremeno</string>
+    <string name="dsds_notification_after_suw_title">Podesite drugi SIM</string>
+    <string name="dsds_switch_dialog_no_switch_text">Da biste kasnije koristili mobilne podatke, funkcije poziva i SMS, idite na podešavanja mreže</string>
+    <string name="dsds_switch_dialog_no_switch_title">Nije dostupan nijedan aktivan SIM</string>
+    <string name="dsds_switch_dialog_progress_text">Prebacujete se na %1$s…</string>
+    <string name="dsds_switch_dialog_text">%1$s će se koristiti za mobilne podatke, pozive i SMS.</string>
+    <string name="dsds_switch_dialog_title">Želite li da koristite %1$s?</string>
+    <string name="eid_not_found">Nismo uspeli da nađemo EID uređaja</string>
+    <string name="eid_number">EID broj</string>
+    <string name="eid_qr_code_dialog_error_msg">QR kôd za EID nije dostupan.</string>
+    <string name="eid_qr_code_dialog_title">EID uređaja</string>
+    <string name="enable_carrier_dialog_text">"Ovaj uređaj će se povezati sa mobilnim operaterom %1$s i prekinuti vezu sa mobilnim operaterom %2$s.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="enable_carrier_dialog_text_from_removable">"Ovaj uređaj će se povezati sa mobilnim operaterom %1$s i prekinuti vezu sa umetnutom SIM karticom.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="enable_carrier_dialog_text_to_removable">"Ovaj uređaj će se povezati sa umetnutom SIM karticom i prekinuti vezu sa mobilnim operaterom %1$s.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="enable_carrier_dialog_title">Želite li da promenite mobilnog operatera?</string>
+    <string name="enable_fail_policy_text">Zbog smernica mobilnog operatera %1$s nećete moći da omogućite ovog novog operatera ako prvo ne resetujete mobilne operatere.</string>
+    <string name="enable_fail_text">Promena mobilnog operatera nije uspela zbog greške.</string>
+    <string name="enable_fail_title">Promena mobilnog operatera nije uspela</string>
+    <string name="enable_profile_title">Omogući</string>
+    <string name="enabling_carrier">Povezuje se na mrežu…</string>
+    <string name="enter_manually_button">Unesite ga ručno</string>
+    <string name="enter_qr_code_button_title">Unesite kôd ručno</string>
+    <string name="erase_sim_confirm_button">Obriši</string>
+    <string name="erase_sim_dialog_text">"Brisanjem ove SIM kartice uklonićete uslugu mobilnog operatera %1$s sa ovog uređaja.
+
+Usluga mobilnog operatera %1$s neće biti otkazana."</string>
+    <string name="erase_sim_dialog_title">Želite li da obrišete preuzeti SIM?</string>
+    <string name="erase_sim_fail_text">"Brisanje ove SIM kartice nije uspelo zbog greške.
+
+Restartujte uređaj i probajte ponovo."</string>
+    <string name="erase_sim_fail_title">Brisanje SIM-a nije uspelo</string>
+    <string name="erasing_carriers">Mobilni operateri se resetuju…</string>
+    <string name="erasing_sim">SIM se briše…</string>
+    <string name="error_screen_title_multiple_carrier">Mreže nisu aktivirane</string>
+    <string name="error_screen_title_single_carrier">Mobilni operater %1$s nije aktiviran</string>
+    <string name="error_screen_title_single_carrier_no_name">Mreža nije aktivirana</string>
+    <string name="esim_setup_channel_id">Aktivacija mreže</string>
+    <string name="esim_warning_title">Preuzmite SIM</string>
+    <string name="esim_warning_txt_default">Povežite se na mobilnu mrežu tako što ćete preuzeti informacije koje se obično nalaze na SIM kartici. To zamenjuje standardne SIM kartice, a proces je jednako bezbedan.</string>
+    <string name="euicc_settings_title">Podešavanja hardvera</string>
+    <string name="euicc_title">Menadžer SIM kartica</string>
+    <string name="expand_button_title">Napredno</string>
+    <string name="fallback_menu_item_copy_link">Kopiraj link</string>
+    <string name="fallback_menu_item_open_in_browser">Otvori u pregledaču</string>
+    <string name="fallback_menu_item_share_link">Deli link</string>
+    <string name="find_it_here">pronađete ovde</string>
+    <string name="fireware_version">Verzija firmvera</string>
+    <string name="get_default_sub_title">Proveravaju se informacije o mreži…</string>
+    <string name="get_help_ask_for_eid">Mobilni operater može da vam zatraži %1$s, koji identifikuje ovaj telefon</string>
+    <string name="get_help_ask_for_eid_v2">Mobilni operater može da vam zatraži %1$s, koji identifikuje ovaj telefon.</string>
+    <string name="get_help_skip_mobile_setup">Preskoči podešavanje mobilnog uređaja</string>
+    <string name="get_help_text">Ne vidite svoj broj? Pomoć potražite od mobilnog operatera %1$s na broj %2$s</string>
+    <string name="get_help_text_multiple_carriers_no_phone">Ako neki od mobilnih operatera ima više brojeva nego što ste očekivali, obratite mu se za pomoć</string>
+    <string name="get_help_text_no_phone">Ne vidite svoj broj? Obratite se mobilnom operateru %1$s za pomoć.</string>
+    <string name="get_help_text_single_carrier">Ako niste očekivali ovoliko brojeva (%3$d), obratite se mobilnom operateru %1$s za pomoć na %2$s</string>
+    <string name="get_help_text_single_carrier_no_phone">Ako niste očekivali ovoliko brojeva (%2$d), obratite se mobilnom operateru %1$s za pomoć</string>
+    <string name="get_help_text_single_carrier_no_phone_with_eid">Ako niste očekivali ovoliko brojeva (%2$d), zatražite pomoć od mobilnog operatera %1$s. Može da vam zatreba EID broj za ovaj uređaj:</string>
+    <string name="get_help_title">Pronađite pomoć za podešavanje</string>
+    <string name="get_metadata_fail_title">Učitavanje informacija o mobilnoj mreži nije uspelo</string>
+    <string name="help_add_network_info1_msg1">"Imate problema sa skeniranjem QR koda?
+%1$s"</string>
+    <string name="help_add_network_info1_msg1_v2">Imate problema sa skeniranjem QR koda? %1$s</string>
+    <string name="help_add_network_info2_msg1">Možete da se povežete na mrežu i ako izaberete %1$s</string>
+    <string name="help_add_network_info3">I dalje imate problema? Pomoć potražite od mrežnog operatera na %1$s</string>
+    <string name="help_add_network_info3_no_phone">I dalje imate problema? Pomoć potražite od mrežnog operatera</string>
+    <string name="help_add_network_subtitle">Potražite QR kôd na parčetu papira koje ste dobili uz uređaj ili u imejlu koji ste dobili od mrežnog operatera.</string>
+    <string name="help_add_network_title">Pomoć u dodavanju mreže</string>
+    <string name="insert_psim_button">umetanje standardnog SIM-a</string>
+    <string name="insert_skip_button">Preskoči</string>
+    <string name="insert_text">Ako imate SIM karticu, stavite je odmah</string>
+    <string name="insert_title">Povežite se sa mobilnom mrežom</string>
+    <string name="install_system_update_dialog_body_text">Da biste preuzeli SIM, treba vam najnovije ažuriranje sistema za ovaj telefon. To će potrajati samo par minuta.</string>
+    <string name="install_system_update_dialog_title">Želite da instalirate ažuriranje sistema?</string>
+    <string name="install_update_button">Instaliraj ažuriranje</string>
+    <string name="insufficient_memory_list_title"><b>Aktuelni brojevi</b></string>
+    <string name="insufficient_memory_screen_title">Koristite nekog drugog mobilnog operatera</string>
+    <string name="insufficient_memory_subtitle">{count,plural, =1{&lt;b>%1$d novi broj&lt;/b> je spreman za dodavanje na telefon. Da biste ga videli, morate da izbrišete jedan od aktuelnih brojeva.}one{&lt;b>%1$d novi broj&lt;/b> je spreman za dodavanje na telefon. Da biste ga videli, morate da izbrišete jedan od aktuelnih brojeva.}few{&lt;b>%1$d nova broja&lt;/b> su spremna za dodavanje na telefon. Da biste ih videli, morate da izbrišete jedan od aktuelnih brojeva.}other{&lt;b>%1$d novih brojeva&lt;/b> je spremno za dodavanje na telefon. Da biste ih videli, morate da izbrišete jedan od aktuelnih brojeva.}}</string>
+    <string name="insufficient_space_description_q">{count,plural, =1{Da biste koristili broj, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa ovog uređaja. To možete da obavite kasnije u Podešavanjima.}one{Da biste koristili brojeve, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa ovog uređaja. To možete da obavite kasnije u Podešavanjima.}few{Da biste koristili brojeve, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa ovog uređaja. To možete da obavite kasnije u Podešavanjima.}other{Da biste koristili brojeve, prvo treba da oslobodite prostor tako što ćete izbrisati postojeće brojeve sa ovog uređaja. To možete da obavite kasnije u Podešavanjima.}}</string>
+    <string name="item_view_role_description">Kartica</string>
+    <string name="legal_notices">%1$s, %2$s i %3$s</string>
+    <string name="low_battery_alert_body_text">Da ne biste prekinuli ažuriranje, povežite telefon sa izvorom napajanja.</string>
+    <string name="low_battery_alert_title">Baterija telefona je skoro prazna</string>
+    <string name="manually_add_msg1">Ako imate QR kôd, %1$s. Ako vam zaposleni u prodavnici zatraži EID broj, možete da ga %2$s.</string>
+    <string name="manually_add_msg1_v2">Ako imate QR kôd, %1$s. Ako vam zaposleni u prodavnici zatraži EID broj, možete da ga %2$s.</string>
+    <string name="msg_choose_download_type">Odaberite način za bezbedno aktiviranje broja na ovom uređaju</string>
+    <string name="msg_install_app_notification">Dodirnite da biste nastavili</string>
+    <string name="msg_portal_intro">Morate da se prijavite pomoću %1$s korisničkog imena i lozinke</string>
+    <string name="msg_sign_in_button">Prijavite se na %1$s</string>
+    <string name="msg_transfer_type_portal">Treba vam korisničko ime i lozinka</string>
+    <string name="msg_transfer_type_qr">%1$s vam je možda poslao kôd</string>
+    <string name="multiple_carrier_download_number_count">{count,plural, =1{1 broj}one{# broj}few{# broja}other{# brojeva}}</string>
+    <string name="multiple_carrier_download_primary_carrier">Primarni mobilni operater</string>
+    <string name="multiple_carrier_download_subtitle">{count,plural, =1{&lt;b>%1$d broj telefona&lt;/b> ovog mobilnog operatera je spreman za dodavanje}one{&lt;b>%1$d broj telefona&lt;/b> ovih mobilnih operatera je spreman za dodavanje}few{&lt;b>%1$d broja telefona&lt;/b> ovih mobilnih operatera su spremna za dodavanje}other{&lt;b>%1$d brojeva telefona&lt;/b> ovih mobilnih operatera je spremno za dodavanje}}</string>
+    <string name="multiple_carrier_download_tap_primary">Dodirnite ga da bi bio primarni</string>
+    <string name="next_button">Dalje</string>
+    <string name="nickname_title">Nadimak</string>
+    <string name="no_licenses_found_error">Licence nisu pronađene zbog greške.</string>
+    <string name="no_qr_code_info_insert_btn">Možete i da umetnete svoju SIM karticu</string>
+    <string name="no_qr_code_info_text">Potražite QR kôd na parčetu papira koje ste dobili uz uređaj ili u imejlu koji ste dobili od mobilnog operatera. Dodajte mobilnog operatera kasnije ako nemate QR kôd.</string>
+    <string name="no_qr_code_scan_button">Skeniraj QR kôd</string>
+    <string name="no_qr_code_skip_button">Preskoči</string>
+    <string name="no_qr_code_title">Opcije podešavanja</string>
+    <string name="no_wifi_dialog_message">Potreban vam je da biste preuzeli SIM</string>
+    <string name="no_wifi_dialog_text">Ne možete da dodate mobilnog operatera ako se prvo ne povežete na Wi‑Fi mrežu.</string>
+    <string name="no_wifi_dialog_title">Povežite se sa WiFi mrežom</string>
+    <string name="not_set">Nije podešeno</string>
+    <string name="notification_carrier_unknown">{count,plural, =1{1 dodatni broj je spreman za dodavanje}one{# dodatni broj je spreman za dodavanje}few{# dodatna broja su spremna za dodavanje}other{# dodatnih brojeva je spremno za dodavanje}}</string>
+    <string name="notification_channel_ota_update">Ažuriranja mobilnog operatera</string>
+    <string name="notification_multiple_carrier_name_known">{count,plural, =1{Broj mobilnog operatera %1$s i još %2$d broj su spremni za dodavanje}one{Broj mobilnog operatera %1$s i još %2$d broj su spremni za dodavanje}few{Broj mobilnog operatera %1$s i još %2$d broja su spremna za dodavanje}other{Broj mobilnog operatera %1$s i još %2$d brojeva je spremno za dodavanje}}</string>
+    <string name="notification_single_carrier_name_known">{count,plural, =1{Broj mobilnog operatera %1$s je spreman za dodavanje}one{Brojevi mobilnog operatera %1$s su spremni za dodavanje}few{Brojevi mobilnog operatera %1$s su spremni za dodavanje}other{Brojevi mobilnog operatera %1$s su spremni za dodavanje}}</string>
+    <string name="notification_tap_setup">Dodirnite da biste podesili</string>
+    <string name="open_source_licenses">Licence otvorenog koda</string>
+    <string name="os_version">Verzija OS-a</string>
+    <string name="ota_error_notification_msg">Mobilna usluga će se nastaviti posle restartovanja.</string>
+    <string name="ota_error_notification_title">Ažuriranje mobilnog operatera nije uspelo</string>
+    <string name="ota_notification_msg">Mobilna usluga će se nastaviti posle ažuriranja</string>
+    <string name="ota_notification_title">Ažuriranje mobilnog operatera se dovršava…</string>
+    <string name="perm_error_description">{count,plural, =1{Došlo je do greške pri pokušaju aktiviranja usluge. Pomoć potražite od mrežnog operatera %1$s.}one{Došlo je do greške pri pokušaju aktiviranja usluge. Pomoć potražite od mrežnih operatera.}few{Došlo je do greške pri pokušaju aktiviranja usluge. Pomoć potražite od mrežnih operatera.}other{Došlo je do greške pri pokušaju aktiviranja usluge. Pomoć potražite od mrežnih operatera.}}</string>
+    <string name="perm_error_description_q">{count,plural, =1{Došlo je do greške pri pokušaju aktiviranja broja. Pomoć potražite od mobilnog operatera %1$s na %2$s.}one{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s na %2$s.}few{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s na %2$s.}other{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s na %2$s.}}</string>
+    <string name="perm_error_description_q_multi_carrier">Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mrežnih operatera.</string>
+    <string name="perm_error_description_q_no_phone">{count,plural, =1{Došlo je do greške pri pokušaju aktiviranja broja. Pomoć potražite od mobilnog operatera %1$s.}one{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s.}few{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s.}other{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mobilnog operatera %1$s.}}</string>
+    <string name="perm_error_description_q_no_phone_no_carrier_name">{count,plural, =1{Došlo je do greške pri pokušaju aktiviranja broja. Pomoć potražite od mrežnog operatera.}one{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mrežnih operatera.}few{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mrežnih operatera.}other{Došlo je do greške pri pokušaju aktiviranja brojeva. Pomoć potražite od mrežnih operatera.}}</string>
+    <string name="perm_error_q_sub2_eid">Može da vam zatreba %1$s za ovaj uređaj</string>
+    <string name="phone_number_title">Broj telefona</string>
+    <string name="pixel_support_page_button">Stranica podrške za Pixel</string>
+    <string name="pre_activation_ota_update_complete_subtitle">Softver je ažuriran. Možete da nastavite sa preuzimanjem SIM-a.</string>
+    <string name="pre_activation_ota_update_complete_title">Ažuranje je završeno</string>
+    <string name="pre_activation_ota_update_error_msg1">Ovaj telefon ne može da preuzme SIM.</string>
+    <string name="pre_activation_ota_update_error_msg2">Možete da koristite SIM karticu ili da se obratite Google korisničkoj podršci na %1$s.</string>
+    <string name="pre_activation_ota_update_error_msg2_v2">"Možete da koristite SIM karticu ili da potražite pomoć na
+%1$s."</string>
+    <string name="pre_activation_ota_update_error_title">Ažuriranje nije dovršeno</string>
+    <string name="pre_activation_ota_update_subtitle">Dovršeno je %1$d%%. Ne napuštajte ovaj ekran dok traje ažuriranje.</string>
+    <string name="pre_activation_ota_update_title">Ažurira se…</string>
+    <string name="pre_activation_ota_user_consent_msg1">Treba vam najnoviji menadžer SIM profila da biste preuzeli SIM. To će potrajati 4–5 minuta.</string>
+    <string name="pre_activation_ota_user_consent_msg2">Ne napuštajte ovaj ekran da ne biste prekinuli ažuriranje. Možete da obavljate samo hitne pozive tokom ažuriranja.</string>
+    <string name="pre_activation_ota_user_consent_title">Želite li da ažurirate softver za SIM?</string>
+    <string name="preference_copied">Rezime „%1$s“ je kopiran u privremenu memoriju.</string>
+    <string name="privacy_policy">Politika privatnosti</string>
+    <string name="privacy_warning_message">Ako nastavite, dozvolićete mobilnom operateru %1$s da verifikuje informacije koje identifikuju ovaj uređaj na mreži.</string>
+    <string name="privileged_action_disable_sub_dialog_progress">SIM se isključuje…</string>
+    <string name="privileged_action_disable_sub_dialog_text">Ako isključite %1$s SIM karticu, %2$s će postati aktivni mobilni operater.</string>
+    <string name="privileged_action_disable_sub_dialog_title">Želite li da isključite uslugu %1$s?</string>
+    <string name="privileged_action_enable_sub_dialog_title">Želite li da uključite uslugu %1$s?</string>
+    <string name="privileged_action_switch_psim_dialog_title">Želite li da pređete na SIM karticu?</string>
+    <string name="privileged_action_switch_sub_dialog_confirm">Pređi na %1$s</string>
+    <string name="privileged_action_switch_sub_dialog_progress">Prebacujete se na %1$s</string>
+    <string name="privileged_action_switch_sub_dialog_text">"U datom trenutku može da bude aktivna samo jedna SIM kartica.
+
+Prebacivanje na mobilnog operatera %1$s neće otkazati uslugu operatera %2$s."</string>
+    <string name="privileged_action_switch_sub_dialog_text_downloaded">"U datom trenutku može da bude aktivna samo jedna preuzeta SIM kartica.
+
+Prebacivanje na mobilnog operatera %1$s neće otkazati uslugu operatera %2$s."</string>
+    <string name="privileged_action_switch_sub_dialog_text_no_to">"U datom trenutku može da bude aktivna samo jedna SIM kartica.
+
+Prebacivanje neće otkazati uslugu mobilnog operatera %1$s."</string>
+    <string name="privileged_action_switch_sub_dialog_title">Želite li da pređete na %1$s?</string>
+    <string name="privileged_action_turn_on_sub_dialog_progress">%1$s se uključuje</string>
+    <string name="profile_disabled">Onemogućeno</string>
+    <string name="profile_disabled_confirmation_body_text">Da biste aktivirali preuzetu SIM karticu, unesite PIN</string>
+    <string name="profile_disabled_confirmation_title">Preuzeta SIM kartica je onemogućena</string>
+    <string name="profile_enabled">Omogućeno je</string>
+    <string name="profile_enabled_with_phone_number">Omogućeno, %1$s</string>
+    <string name="profile_list_action_bar_title">Mobilni operater</string>
+    <string name="q_download_sub_text">Ovo može da potraje par minuta</string>
+    <string name="q_download_sub_title">Aktivira se %1$s…</string>
+    <string name="q_multiple_carrier_confirm_title">Odaberite mreže koje ćete aktivirati</string>
+    <string name="q_multiple_carrier_metadata_confirm_subtitle">{count,plural, =1{1 broj je dostupan za ovaj uređaj. Mrežni operater će početi da vam naplaćuje uslugu kada je aktivirate.}one{# broj je dostupan za ovaj uređaj. Mrežni operater će početi da vam naplaćuje uslugu kada je aktivirate.}few{# broja su dostupna za ovaj uređaj. Mrežni operater će početi da vam naplaćuje uslugu kada je aktivirate.}other{# brojeva je dostupno za ovaj uređaj. Mrežni operater će početi da vam naplaćuje uslugu kada je aktivirate.}}</string>
+    <string name="q_result_download_metadata_text">{count,plural, =1{1 broj mobilnog operatera %1$s je dostupan za ovaj uređaj. %1$s će početi da vam naplaćuje uslugu kada je aktivirate.}one{# broj mobilnog operatera %1$s je dostupan za ovaj uređaj. %1$s će početi da vam naplaćuje uslugu kada je aktivirate.}few{# broja mobilnog operatera %1$s su dostupna za ovaj uređaj. %1$s će početi da vam naplaćuje uslugu kada je aktivirate.}other{# brojeva mobilnog operatera %1$s je dostupno za ovaj uređaj. %1$s će početi da vam naplaćuje uslugu kada je aktivirate.}}</string>
+    <string name="qr_scanner_end_button">Ne možete da ga nađete?</string>
+    <string name="qr_scanner_failed_msg">Došlo je do greške sa kamerom. Probajte ponovo kasnije.</string>
+    <string name="qr_scanner_failed_title">Kamera nije dostupna</string>
+    <string name="qr_scanner_msg">Ako vam je mobilni operater dao QR kôd, skenirajte ga tako što ćete ga postaviti u centar okvira</string>
+    <string name="qr_scanner_msg_q">Ako vam je mrežni operater %1$s dao QR kôd, skenirajte ga tako što ćete ga postaviti u centar okvira</string>
+    <string name="qr_scanner_msg_q_no_carrier_name">Ako vam je mrežni operater dao QR kôd, postavite ga u centar okvira i skenirajte</string>
+    <string name="qr_scanner_title">Dodajte mobilnog operatera pomoću QR koda</string>
+    <string name="qr_scanner_title_q">Skenirajte QR kôd mrežnog operatera %1$s</string>
+    <string name="qr_scanner_title_q_no_carrier_name">Skenirajte QR kôd sa mreže</string>
+    <string name="reactivate_error_dialog_body">Došlo je do greške pri pokušaju aktiviranja broja. Probajte ponovo kasnije ili stavite ponovo SIM karticu.</string>
+    <string name="reactivate_error_dialog_title_with_carrier_name">Mobilni operater %1$s nije aktiviran</string>
+    <string name="reactivate_error_dialog_title_without_carrier_name">SIM kartica nije aktivirana</string>
+    <string name="reboot_button_title">Restartuj telefon</string>
+    <string name="remove_carrier_dialog_text_disabled">"Ovaj uređaj više neće moći da se poveže sa mobilnim operaterom %1$s.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="remove_carrier_dialog_text_enabled">"Veza ovog uređaja sa mobilnim operaterom %1$s će se odmah prekinuti.
+
+Time se neće otkazati nijedan tarifni paket."</string>
+    <string name="remove_carrier_dialog_title">Želite li da izbrišete mobilnog operatera?</string>
+    <string name="remove_fail_policy_text">Zbog smernica mobilnog operatera %1$s nećete moći da izbrišete ovog operatera ako ne resetujete mobilne operatere.</string>
+    <string name="remove_fail_text">Došlo je do greške i brisanje mobilnog operatera nije uspelo.</string>
+    <string name="remove_fail_title">Brisanje mobilnog operatera nije uspelo</string>
+    <string name="remove_profile_title">Izbriši</string>
+    <string name="removing_carrier">Mobilni operater se briše…</string>
+    <string name="res_activate_profile_later_button">Aktivirajte kasnije</string>
+    <string name="res_activation_button">Aktiviraj</string>
+    <string name="res_continue_info1_general_multi_carriers">{count,plural, =1{Nažalost, nismo uspeli da dodamo brojeve mobilnog operatera %1$s i još %2$d mobilnog operatera.}one{Nažalost, nismo uspeli da dodamo brojeve mobilnog operatera %1$s i još %2$d mobilnog operatera.}few{Nažalost, nismo uspeli da dodamo brojeve mobilnog operatera %1$s i još %2$d mobilna operatera.}other{Nažalost, nismo uspeli da dodamo brojeve mobilnog operatera %1$s i još %2$d mobilnih operatera.}}</string>
+    <string name="res_continue_info1_general_no_carrier">{count,plural, =1{Nažalost, nismo uspeli da dodamo &lt;b>1 broj&lt;/b> vašeg mobilnog operatera.}one{Nažalost, nismo uspeli da dodamo brojeve nijednog vašeg mobilnog operatera.}few{Nažalost, nismo uspeli da dodamo brojeve nijednog vašeg mobilnog operatera.}other{Nažalost, nismo uspeli da dodamo brojeve nijednog vašeg mobilnog operatera.}}</string>
+    <string name="res_continue_info1_general_single_carrier">{count,plural, =1{Nažalost, nismo uspeli da dodamo &lt;b>%2$d broj&lt;/b> mobilnog operatera %1$s.}one{Nažalost, nismo uspeli da dodamo &lt;b>%2$d broj&lt;/b> mobilnog operatera %1$s.}few{Nažalost, nismo uspeli da dodamo &lt;b>%2$d broja&lt;/b> mobilnog operatera %1$s.}other{Nažalost, nismo uspeli da dodamo &lt;b>%2$d brojeva&lt;/b> mobilnog operatera %1$s.}}</string>
+    <string name="res_continue_info1_no_mem_multi_carriers">{count,plural, =1{Nije bilo dovoljno prostora za dodavanje brojeva mobilnog operatera %1$s i još %2$d mobilnog operatera.}one{Nije bilo dovoljno prostora za dodavanje brojeva mobilnog operatera %1$s i još %2$d mobilnog operatera.}few{Nije bilo dovoljno prostora za dodavanje brojeva mobilnog operatera %1$s i još %2$d mobilna operatera.}other{Nije bilo dovoljno prostora za dodavanje brojeva mobilnog operatera %1$s i još %2$d mobilnih operatera.}}</string>
+    <string name="res_continue_info1_no_mem_no_carrier">{count,plural, =1{Nije bilo dovoljno prostora za dodavanje &lt;b>1 broja&lt;/b>.}one{Nije bilo dovoljno prostora za dodavanje brojeva nijednog vašeg mobilnog operatera.}few{Nije bilo dovoljno prostora za dodavanje brojeva nijednog vašeg mobilnog operatera.}other{Nije bilo dovoljno prostora za dodavanje brojeva nijednog vašeg mobilnog operatera.}}</string>
+    <string name="res_continue_info1_no_mem_single_carrier">{count,plural, =1{Nije bilo dovoljno prostora za dodavanje &lt;b>%2$d broja&lt;/b> mobilnog operatera %1$s.}one{Nije bilo dovoljno prostora za dodavanje &lt;b>%2$d broja&lt;/b> mobilnog operatera %1$s.}few{Nije bilo dovoljno prostora za dodavanje &lt;b>%2$d broja&lt;/b> mobilnog operatera %1$s.}other{Nije bilo dovoljno prostora za dodavanje &lt;b>%2$d brojeva&lt;/b> mobilnog operatera %1$s.}}</string>
+    <string name="res_continue_info_item_1">"Možda ćete morati da obavite još jedan korak da biste aktivirali uslugu
+"</string>
+    <string name="res_continue_info_item_2">Ako nemate uslugu, obratite se operateru %1$s za pomoć</string>
+    <string name="res_continue_info_item_2_no_carrier_name">Ako usluga nije dostupna, kontaktirajte mobilnog operatera za pomoć.</string>
+    <string name="res_continue_text_partial_complete_multiple_carriers">{count,plural, =1{Dodali ste brojeve (&lt;b>%1$d&lt;/b>) mobilnih operatera %2$s i %3$s}=2{Dodali ste brojeve (&lt;b>%1$d&lt;/b>) mobilnih operatera %2$s, %3$s i još %4$d mobilna operatera}one{Dodali ste brojeve (&lt;b>%1$d&lt;/b>) mobilnih operatera %2$s, %3$s i još %4$d mobilnog operatera}few{Dodali ste brojeve (&lt;b>%1$d&lt;/b>) mobilnih operatera %2$s, %3$s i još %4$d mobilna operatera}other{Dodali ste brojeve (&lt;b>%1$d&lt;/b>) mobilnih operatera %2$s, %3$s i još %4$d mobilnih operatera}}</string>
+    <string name="res_continue_text_partial_complete_single_carrier">{count,plural, =1{Dodali ste &lt;b>%1$d broj&lt;/b> mobilnog operatera %2$s}one{Dodali ste &lt;b>%1$d broj&lt;/b> mobilnog operatera %2$s}few{Dodali ste &lt;b>%1$d broja&lt;/b> mobilnog operatera %2$s}other{Dodali ste &lt;b>%1$d brojeva&lt;/b> mobilnog operatera %2$s}}</string>
+    <string name="res_continue_title_all_success">{count,plural, =1{Broj telefona je dodat}one{# broj je dodat}few{# broja su dodata}other{# brojeva je dodato}}</string>
+    <string name="res_continue_title_partial_success">Dodati brojevi: %1$d od %2$d</string>
+    <string name="res_download_button">Preuzmi</string>
+    <string name="res_enter_pin_button">Unesite PIN</string>
+    <string name="res_need_help_button">Treba vam pomoć?</string>
+    <string name="res_start_button">Počni</string>
+    <string name="reset_button">Resetuj</string>
+    <string name="reset_dialog_carriers_body">Želite li da obrišete sve mobilne operatere sa uređaja? Ovu radnju ne možete da opozovete.</string>
+    <string name="reset_dialog_carriers_title">Želite li da resetujete mobilne operatere?</string>
+    <string name="reset_fail_text">Došlo je do greške i mobilni operateri nisu resetovani.</string>
+    <string name="reset_fail_title">Resetovanje mobilnih operatera nije uspelo</string>
+    <string name="reset_screen_enabled_carrier_name">%1$s (omogućeno)</string>
+    <string name="reset_screen_text_bottom">Time se neće otkazati nijedan tarifni paket.</string>
+    <string name="reset_screen_text_top">Ovim ćete ukloniti sve mobilne operatere sa uređaja:</string>
+    <string name="reset_screen_title">Resetujte mobilne operatere</string>
+    <string name="result_download_metadata_text">{count,plural, =1{1 broj mobilnog operatera %1$s je dostupan za ovaj uređaj.}one{# broj mobilnog operatera %1$s je dostupan za ovaj uređaj.}few{# broja mobilnog operatera %1$s su dostupna za ovaj uređaj.}other{# brojeva mobilnog operatera %1$s je dostupno za ovaj uređaj.}}</string>
+    <string name="result_download_text">{count,plural, =1{Broj mobilnog operatera %1$s je spreman za dodavanje na telefon}one{&lt;b>%2$d broj&lt;/b> mobilnog operatera %1$s je spreman za dodavanje na ovaj telefon}few{&lt;b>%2$d broja&lt;/b> mobilnog operatera %1$s su spremna za dodavanje na ovaj telefon}other{&lt;b>%2$d brojeva&lt;/b> mobilnog operatera %1$s je spremno za dodavanje na ovaj telefon}}</string>
+    <string name="result_download_title">Želite li da koristite %1$s?</string>
+    <string name="scan_it_now">skenirajte ga</string>
+    <string name="search_menu_title">Pretražite</string>
+    <string name="send_feedback">Pošaljite povratne informacije</string>
+    <string name="settings_gear_label">Podešavanja</string>
+    <string name="sim_card_label">SIM kartica</string>
+    <string name="sim_illustration_bottom_alt_text">Dok držite ekran okrenut ka sebi, pronađite port za punjenje. Držač SIM kartice se nalazi levo od porta za punjenje duž dna telefona. Držač je ravan sa malim rubovima na svakoj strani. Na levoj strani držača postoji mala rupa. Da biste otvorili držač, umetnite kraj spajalice ili alatku za izbacivanje SIM-a u rupu. Da biste umetnuli SIM karticu, poravnajte njen urez sa držačem. SIM kartica može da stane samo u jednom smeru.</string>
+    <string name="sim_illustration_bottom_left_alt_text">Dok držite ekran okrenut ka sebi, pronađite port za punjenje. Pomerajte prst nagore po levoj strani telefona. Držač SIM kartice je ravan sa malim rubovima na svakoj strani. Blizu vrha držača postoji mala rupa. Da biste otvorili držač, umetnite kraj spajalice ili alatku za izbacivanje SIM-a u rupu. Da biste umetnuli SIM karticu, poravnajte njen urez sa držačem. SIM kartica može da stane samo u jednom smeru.</string>
+    <string name="sim_illustration_top_left_alt_text">Dok držite ekran okrenut ka sebi, pronađite port za punjenje. Pomerajte prst nagore po levoj strani telefona. Držač SIM kartice je ravan sa malim rubovima na svakoj strani. Blizu vrha držača postoji mala rupa. Da biste otvorili držač, umetnite kraj spajalice ili alatku za izbacivanje SIM-a u rupu. Da biste umetnuli SIM karticu, poravnajte njen urez sa držačem. SIM kartica može da stane samo u jednom smeru.</string>
+    <string name="sim_missing_activity_esim_button_summary">Dodajte broj pomoću eSIM-a</string>
+    <string name="sim_missing_activity_esim_button_title">Želite li da preuzmete SIM umesto toga?</string>
+    <string name="sim_missing_activity_reactivate_progress_text">Aktivira se…</string>
+    <string name="sim_missing_activity_reactivate_subtitle">Ponovo aktivirajte SIM karticu koja je trenutno umetnuta. Ako želite da koristite neku drugu SIM karticu, izvadite aktuelnu SIM karticu i stavite novu.</string>
+    <string name="sim_missing_activity_reactivate_with_carrier_name">Ponovo aktiviraj %1$s</string>
+    <string name="sim_missing_activity_reactivate_without_carrier_name">Ponovo aktiviraj SIM karticu</string>
+    <string name="sim_missing_activity_subtitle_with_psim">Da biste koristili novu SIM karticu, morate da uklonite onu koja je već u uređaju</string>
+    <string name="sim_missing_activity_text_no_psim">Ako imate SIM karticu, stavite je odmah</string>
+    <string name="skip_button">Preskoči</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_title">Status</string>
+    <string name="sud_back_button_label">Nazad</string>
+    <string name="sud_more_button_label">Još</string>
+    <string name="sud_next_button_label">Dalje</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="suw_activate_notification_text">Koristite aplikaciju mobilnog operatera %1$s da biste podesili pozive, SMS-ove i podatke.</string>
+    <string name="suw_activate_notification_title">Aktivirajte uslugu</string>
+    <string name="suw_carrier_support_failed_msg">Nažalost, trenutno ne možemo da aktiviramo uslugu. Da biste dovršili podešavanje, zatražite pomoć od mobilnog operatera %1$s na %2$s.</string>
+    <string name="suw_carrier_support_to_complete_activation">Da biste aktivirali uslugu, obratite se mobilnom operateru %1$s za pomoć na %2$s</string>
+    <string name="suw_carrier_support_to_complete_activation_no_carrier">Da biste aktivirali uslugu, kontaktirajte mobilnog operatera za pomoć</string>
+    <string name="suw_carrier_support_to_complete_activation_no_carrier_v2">Da biste aktivirali uslugu, kontaktirajte mobilnog operatera za pomoć.</string>
+    <string name="suw_carrier_support_to_complete_activation_no_phone">Da biste aktivirali uslugu, obratite se mobilnom operateru %1$s za pomoć</string>
+    <string name="suw_default_failed_msg">Nažalost, trenutno ne možemo da aktiviramo uslugu.</string>
+    <string name="suw_default_failed_msg_no_carrier">Nažalost, došlo je do greške i broj telefona nije dodat</string>
+    <string name="suw_failed_msg">Nažalost, trenutno ne može da se aktivira usluga mobilnog operatera %1$s.</string>
+    <string name="suw_failed_title">Podešavanje nije dovršeno</string>
+    <string name="suw_setting_up_phone_info">Preostalo je manje od minuta</string>
+    <string name="suw_setting_up_phone_title">Telefon se podešava…</string>
+    <string name="switch_button">Promeni</string>
+    <string name="switch_carrier_confirm_title">Želite li da pređete na %1$s mobilnu mrežu?</string>
+    <string name="switch_confirm_message">Veza sa mobilnim operaterom%1$s će za sada biti prekinuta</string>
+    <string name="switch_confirm_message_no_carrier">Veza sa mobilnom mrežom će za sada biti prekinuta</string>
+    <string name="switch_confirm_new_title">Preuzmite SIM preko Wi‑Fi mreže</string>
+    <string name="switch_confirm_no_active_profile_message">Omogućite dobavljaču mreže da preuzme SIM</string>
+    <string name="switch_confirm_no_active_profile_title">SIM će se uskoro preuzeti</string>
+    <string name="switch_confirm_no_wifi_message">To vam omogućava da koristite neku drugu mrežu</string>
+    <string name="switch_confirm_no_wifi_title">Želite li da prekinete vezu sa mobilnim operaterom %1$s?</string>
+    <string name="switch_confirm_no_wifi_title_no_carrier">Želite li da prekinete vezu sa mobilnom mrežom?</string>
+    <string name="switch_confirm_text">Time se neće otkazati nijedan tarifni paket.</string>
+    <string name="switch_restriction_message_to_connect_to">Da biste se povezali sa mobilnim operaterom %2$s umesto operatera %1$s, prvo uklonite SIM karticu operatera %1$s, pa probajte ponovo.</string>
+    <string name="switch_restriction_message_to_switch_from">Da biste prešli sa mobilnog operatera %1$s, prvo uklonite SIM karticu operatera %1$s, pa probajte ponovo.</string>
+    <string name="switch_restriction_title_remove_sim">Uklonite SIM karticu</string>
+    <string name="sys_notification_5g_enable_dsds_text">"2 SIM-a mogu da budu aktivna istovremeno na ovom uređaju.
+
+Ovaj telefon je ograničen na 4G kada koristite 2 SIM-a. %1$s"</string>
+    <string name="sys_notification_after_dsds_reboot_text">Dodirnite da biste završili aktiviranje drugog SIM-a</string>
+    <string name="sys_notification_after_dsds_reboot_title">Spremni ste da koristite 2 SIM-a istovremeno</string>
+    <string name="sys_notification_enable_dsds_text">Na ovom uređaju 2 SIM-a mogu da budu aktivna istovremeno. Da biste nastavili da koristite samo jedan SIM, dodirnite „Ne, hvala“.</string>
+    <string name="sys_notification_enable_dsds_title">Želite li da koristite 2 SIM-a?</string>
+    <string name="sys_notification_no_thanks">Ne, hvala</string>
+    <string name="sys_notification_reboot">Restartuj</string>
+    <string name="sys_notification_restart_text">Da biste započeli, restartujte uređaj. Zatim možete da dodate još jedan SIM.</string>
+    <string name="sys_notification_restart_title">Želite li da restartujete uređaj?</string>
+    <string name="sys_notification_selected_text">Mobilna mreža je promenjena</string>
+    <string name="sys_notification_switched_title">Prešli ste na %1$s</string>
+    <string name="sys_notification_switched_title_no_carrier_name">Prešli ste na drugog mobilnog operatera</string>
+    <string name="sys_notification_title">Prelazak na drugog mobilnog operatera</string>
+    <string name="temp_error_description">Nažalost, trenutno ne možemo da aktiviramo uslugu. Probajte ponovo kasnije.</string>
+    <string name="temp_error_description_q">{count,plural, =1{Došlo je do greške pri pokušaju aktiviranja broja. Možete ponovo da probate kasnije u Podešavanjima.}one{Došlo je do greške pri pokušaju aktiviranja brojeva. Možete ponovo da probate kasnije u Podešavanjima.}few{Došlo je do greške pri pokušaju aktiviranja brojeva. Možete ponovo da probate kasnije u Podešavanjima.}other{Došlo je do greške pri pokušaju aktiviranja brojeva. Možete ponovo da probate kasnije u Podešavanjima.}}</string>
+    <string name="terms">Uslovi</string>
+    <string name="terms_of_service">Uslovi korišćenja usluge</string>
+    <string name="title_app_required">Kasnije se povežite sa mobilnim operaterom %1$s</string>
+    <string name="title_choose_download_type">Aktivirajte %1$s broj</string>
+    <string name="title_choose_transfer_type">Odaberite način za prenos %1$s broja</string>
+    <string name="title_connect_to_wifi">Povežite se na WiFi mrežu</string>
+    <string name="title_couldnt_activate_carrier">Aktiviranje operatera %1$s nije uspelo</string>
+    <string name="title_couldnt_activate_carrier_no_name">Aktiviranje usluge nije uspelo</string>
+    <string name="title_incorrect_qr_code">Netačan QR kôd</string>
+    <string name="title_install_app_notification">Preuzmite aplikaciju mobilnog operatera %1$s da biste podesili broj</string>
+    <string name="title_network_not_activated">Mreža nije aktivirana</string>
+    <string name="title_no_connection">Veza nije uspostavljena</string>
+    <string name="title_portal_intro">Prenesite %1$s broj</string>
+    <string name="title_profile_already_downloaded">Profil je već preuzet</string>
+    <string name="title_transfer_type_portal">Prijavite se na %1$s nalog</string>
+    <string name="title_transfer_type_qr">Skeniraj QR kôd</string>
+    <string name="transfer_button">Prenesi</string>
+    <string name="update_button">Ažuriraj</string>
+    <string name="use_different_network">Koristite drugu mrežu</string>
+    <string name="use_different_network_button">Koristite drugu mrežu</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
+    <string name="wrong_code_dialog_text">Neki mobilni operateri traže kôd za potvrdu radi povećanja bezbednosti. Kôd se možda nalazi na parčetu papira koji je došao sa uređajem ili u imejlu koji ste dobili od mobilnog operatera.</string>
+    <string name="yes_button">Da</string>
+</resources>

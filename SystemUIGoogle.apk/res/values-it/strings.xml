@@ -595,6 +595,8 @@ Selezione"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Per applicare questa modifica, devi riavviare il dispositivo. Riavvia ora o annulla.</string>
     <string name="camera_hint">"Scorri dall'icona per accedere alla fotocamera"</string>
     <string name="camera_label">apri fotocamera</string>
+    <string name="camera_recording_announcement">Registrazione in corso con la fotocamera</string>
+    <string name="camera_stopped_recording_announcement">Registrazione con la fotocamera interrotta</string>
     <string name="cancel">Annulla</string>
     <string name="carrier_network_change_mode">"Cambio della rete dell'operatore"</string>
     <string name="category_personal">Personali</string>
@@ -734,6 +736,10 @@ Se li riattivi, potrebbero essere applicati costi per l'utilizzo dei dati."</str
     <string name="debug_monitoring_category">Monitoraggio</string>
     <string name="debug_networking_category">Reti</string>
     <string name="debug_view_attributes">Attiva controllo attributi visualizzazione</string>
+    <string name="defender_notify_des">"La ricarica del telefono è limitata per aiutare a preservare l'integrità della batteria"</string>
+    <string name="defender_notify_learn_more">Scopri di più</string>
+    <string name="defender_notify_resume_charge">Riprendi la ricarica</string>
+    <string name="defender_notify_title">Ricarica momentaneamente limitata</string>
     <string name="delete_blob_confirmation_text">Eliminare i dati condivisi?</string>
     <string name="delete_blob_text">Elimina dati condivisi</string>
     <string name="demo_mode">"Modalità demo dell'interfaccia utente di sistema"</string>
@@ -875,7 +881,7 @@ I dati del volto usati dallo sblocco con il volto verranno eliminati in modo def
     <string name="game_mode_standard_title">Standard</string>
     <string name="game_mode_subtitle">Seleziona la priorità per questo gioco</string>
     <string name="game_mode_unsupported_description">Non disponibile per questo gioco</string>
-    <string name="game_screen_record_saved">Registrazione schermo salvata</string>
+    <string name="game_screen_record_saved">Registrazione dello schermo salvata</string>
     <string name="game_status">Gioco in corso</string>
     <string name="global_action_lock_message">Sblocca il telefono per visualizzare altre opzioni</string>
     <string name="global_action_screenshot">Screenshot</string>
@@ -1070,6 +1076,7 @@ priorità"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Sblocco SIM…</string>
     <string name="keyguard_try_fingerprint">"Usa l'impronta per aprire"</string>
     <string name="keyguard_unlock">"Scorri verso l'alto per aprire"</string>
+    <string name="keyguard_unlock_press">Premi per aprire</string>
     <string name="keywords_adb_wireless">ADB, debug, sviluppatori</string>
     <string name="keywords_alarms_and_reminders">programmare, sveglia, promemoria, orologio</string>
     <string name="kg_enter_confirm_pin_hint">Conferma il codice PIN desiderato</string>
@@ -1233,6 +1240,10 @@ Riprova tra %2$d secondi."</string>
     <string name="menu_ime">Selettore tastiera</string>
     <string name="messages_count_overflow_indicator">+%d</string>
     <string name="mic_active">Microfono attivo</string>
+    <string name="mic_and_camera_recording_announcement">Registrazione in corso con fotocamera e microfono</string>
+    <string name="mic_camera_stopped_recording_announcement">Registrazione con fotocamera e microfono interrotta</string>
+    <string name="mic_recording_announcement">Registrazione in corso con il microfono</string>
+    <string name="mic_stopped_recording_announcement">Registrazione con il microfono interrotta</string>
     <string name="missed_call">Chiamata persa</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data">Dati mobili</string>
@@ -1557,7 +1568,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="power_remaining_less_than_duration">Carica residua: meno di %1$s (%2$s)</string>
     <string name="power_remaining_less_than_duration_only">Carica residua: meno di %1$s</string>
     <string name="power_remaining_more_than_subtext">Tempo residuo: più di %1$s (%2$s)</string>
-    <string name="power_remaining_only_more_than_subtext">Tempo residuo: più di %1$s</string>
+    <string name="power_remaining_only_more_than_subtext">Tempo rimanente: più di %1$s</string>
     <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_suggestion_battery_run_out">La batteria potrebbe esaurirsi entro le %1$s</string>
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
@@ -1706,8 +1717,6 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="quick_settings_work_mode_label">App di lavoro</string>
     <string name="quick_step_accessibility_toggle_overview">Attiva/disattiva la panoramica</string>
     <string name="recent_conversations">Conversazioni recenti</string>
-    <string name="recents_quick_scrub_onboarding">Trascina verso destra per cambiare velocemente app</string>
-    <string name="recents_swipe_up_onboarding">"Scorri verso l'alto per passare ad altre app"</string>
     <string name="remaining_length_format">%1$s rimanenti</string>
     <string name="remote_input_image_insertion_text">"è stata inviata un'immagine"</string>
     <string name="remove_from_settings">Rimuovi dalle impostazioni</string>
@@ -2117,6 +2126,7 @@ Qualsiasi utente può aggiornare le app per tutti gli altri."</string>
     <string name="wallet_secondary_label_no_card">Aggiungi una carta</string>
     <string name="wallet_secondary_label_updating">Aggiornamento in corso…</string>
     <string name="wallet_title">Portafoglio</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punto di accesso momentaneamente al completo</string>
     <string name="wifi_cant_connect">Impossibile stabilire una connessione</string>
     <string name="wifi_cant_connect_to_ap">Impossibile connettersi a \"%1$s\"</string>

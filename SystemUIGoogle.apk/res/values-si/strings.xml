@@ -595,6 +595,8 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">මෙම වෙනස යෙදීමට ඔබේ උපාංගය නැවත පණ ගැන්විය යුතුය. දැන් නැවත පණ ගන්වන්න හෝ අවලංගු කරන්න.</string>
     <string name="camera_hint">කැමරාව සඳහා නිරූපකය වෙතින් ස්වයිප් කරන්න</string>
     <string name="camera_label">කැමරාව විවෘත කරන්න</string>
+    <string name="camera_recording_announcement">කැමරාව පටිගත කරයි</string>
+    <string name="camera_stopped_recording_announcement">කැමරාව පටිගත කිරීම නැවැත්වීය</string>
     <string name="cancel">අවලංගු කරන්න</string>
     <string name="carrier_network_change_mode">වාහක ජාලය වෙනස් වෙමින්</string>
     <string name="category_personal">පෞද්ගලික</string>
@@ -734,6 +736,10 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="debug_monitoring_category">නිරීක්ෂණය</string>
     <string name="debug_networking_category">ජාලකරණය</string>
     <string name="debug_view_attributes">උපලක්ෂණ පරික්ෂාව බැලීම සබල කරන්න</string>
+    <string name="defender_notify_des">ඔබගේ දුරකථනය බැටරි සෞඛ්‍යය ආරක්ෂා කර ගැනීම සඳහා ආරෝපණය සීමා කරයි</string>
+    <string name="defender_notify_learn_more">තව දැන ගන්න</string>
+    <string name="defender_notify_resume_charge">ආරෝපණය යළි ආරම්භ කරන්න</string>
+    <string name="defender_notify_title">ආරෝපණය කිරීම තාවකාලිකව සීමා කර ඇත</string>
     <string name="delete_blob_confirmation_text">ඔබට මෙම බෙදා ගත් දත්ත මැකීමට අවශ්‍ය බව විශ්වාසද?</string>
     <string name="delete_blob_text">බෙදා ගත් දත්ත මකන්න</string>
     <string name="demo_mode">පද්ධති UI ආදර්ශන ප්‍රකාරය</string>
@@ -1070,6 +1076,7 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM පත අගුළු හරිමින්...</string>
     <string name="keyguard_try_fingerprint">විවෘත කිරීමට ඇඟිලි සලකුණ භාවිත කරන්න</string>
     <string name="keyguard_unlock">විවෘත කිරීමට ස්වයිප් කරන්න</string>
+    <string name="keyguard_unlock_press">විවෘත කිරීමට ඔබන්න</string>
     <string name="keywords_adb_wireless">adb, දෝෂාවෙක්ෂණ, dev</string>
     <string name="keywords_alarms_and_reminders">කාල සටහන, එලාමය, සිහිකැඳවීම, ඔරලෝසුව</string>
     <string name="kg_enter_confirm_pin_hint">අපේක්ෂිත PIN කේතය ස්ථිර කරන්න</string>
@@ -1233,6 +1240,10 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="menu_ime">යතුරු පුවරු මාරුව</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">මයික්‍රොෆෝනය සක්‍රියයි</string>
+    <string name="mic_and_camera_recording_announcement">කැමරාව සහ මයික්‍රෆෝනය පටිගත කරයි</string>
+    <string name="mic_camera_stopped_recording_announcement">කැමරාව සහ මයික්‍රෆෝනය පටිගත කිරීම නැවැත්වීය</string>
+    <string name="mic_recording_announcement">මයික්‍රෆෝනය පටිගත කරයි</string>
+    <string name="mic_stopped_recording_announcement">මයික්‍රෆෝනය පටිගත කිරීම නැවැත්වීය</string>
     <string name="missed_call">මඟ හැරුණු ඇමතුම</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ජංගම දත්ත</string>
@@ -1706,8 +1717,6 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="quick_settings_work_mode_label">කාර්යාල යෙදුම්</string>
     <string name="quick_step_accessibility_toggle_overview">දළ විශ්ලේෂණය ටොගල කරන්න</string>
     <string name="recent_conversations">මෑත සංවාද</string>
-    <string name="recents_quick_scrub_onboarding">ඉක්මනින් යෙදුම් මාරු කිරීමට දකුණට අදින්න</string>
-    <string name="recents_swipe_up_onboarding">යෙදුම් මාරු කිරීමට ස්වයිප් කරන්න</string>
     <string name="remaining_length_format">%1$sක් ඉතිරිය</string>
     <string name="remote_input_image_insertion_text">රූපයක් එවන ලදී</string>
     <string name="remove_from_settings">සැකසීම් වෙතින් ඉවත් කරන්න</string>
@@ -2117,6 +2126,7 @@ Codec තේරීම: පසුධාවන ගුණත්වය"</string>
     <string name="wallet_secondary_label_no_card">කාඩ්පතක් එක් කරන්න</string>
     <string name="wallet_secondary_label_updating">යාවත්කාලීන වේ</string>
     <string name="wallet_title">පසුම්බිය</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">ප්‍රවේශ ලක්ෂ්‍ය තාවකාලිකව පිරී ඇත</string>
     <string name="wifi_cant_connect">සම්බන්ධ විය නොහැකිය</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' වෙත සම්බන්ධ විය නොහැකිය"</string>

@@ -295,7 +295,7 @@
     <string name="skip_toast">已跳过设置向导</string>
     <string name="slots_selection_item_summary_activating">正在启用…</string>
     <string name="slots_selection_item_summary_error">目前无法启用</string>
-    <string name="slots_selection_title">选择要使用的数字</string>
+    <string name="slots_selection_title">选择要使用的电话号码</string>
     <string name="speed_label_fast">快</string>
     <string name="speed_label_okay">良好</string>
     <string name="speed_label_slow">慢</string>
@@ -341,13 +341,15 @@
 
 "<li>其他任何用户均可接受更新后的应用权限</li>"
 
-"<li>请只与您信任的人共用此手机</li></ul>}TABLET{<b>重要提示：</b>"
+"<li>请只与您信任的人共用此手机</li></ul>"
+}TABLET{"<b>重要提示：</b>"
 
 "<ul><li>平板电脑的机主可以卸载您的应用或完全移除您的用户个人资料</li>"
 
 "<li>其他任何用户均可接受更新后的应用权限</li>"
 
-"<li>请只与您信任的人共用此平板电脑</li></ul>}other{<b>重要提示：</b>"
+"<li>请只与您信任的人共用此平板电脑</li></ul>"
+}other{"<b>重要提示：</b>"
 
 "<ul><li>设备的机主可以卸载您的应用或完全移除您的用户个人资料</li>"
 
@@ -359,70 +361,47 @@
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{连接到 WLAN 或移动网络有助于您快速设置手机。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>获取软件更新</li>"
-
-"<li>让系统自动设置时间和日期</li>"}TABLET{连接到 WLAN 或移动网络有助于您快速设置平板电脑。
+"<li>让系统自动设置时间和日期</li>"
+}TABLET{连接到 WLAN 或移动网络有助于您快速设置平板电脑。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>获取软件更新</li>"
-
-"<li>让系统自动设置时间和日期</li>"}other{连接到 WLAN 或移动网络有助于您快速设置设备。
+"<li>让系统自动设置时间和日期</li>"
+}other{连接到 WLAN 或移动网络有助于您快速设置设备。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>获取软件更新</li>"
-
 "<li>让系统自动设置时间和日期</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{连接到 WLAN 或移动网络有助于您快速设置手机。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>下载 SIM 卡</li>"
-
 "<li>获取软件更新</li>"
-
-"<li>让系统自动设置时间和日期</li>"}TABLET{连接到 WLAN 或移动网络有助于您快速设置平板电脑。
+"<li>让系统自动设置时间和日期</li>"
+}TABLET{连接到 WLAN 或移动网络有助于您快速设置平板电脑。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>下载 SIM 卡</li>"
-
 "<li>获取软件更新</li>"
-
-"<li>让系统自动设置时间和日期</li>"}other{连接到 WLAN 或移动网络有助于您快速设置设备。
+"<li>让系统自动设置时间和日期</li>"
+}other{连接到 WLAN 或移动网络有助于您快速设置设备。
 
 如果您没有连接到网络，则无法：
-
 "<li>登录 Google 帐号</li>"
-
 "<li>恢复应用和数据</li>"
-
 "<li>下载 SIM 卡</li>"
-
 "<li>获取软件更新</li>"
-
 "<li>让系统自动设置时间和日期</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">接入点暂时满载</string>
     <string name="wifi_check_password_try_again">请检查密码，然后重试</string>

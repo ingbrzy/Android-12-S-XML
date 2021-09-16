@@ -167,7 +167,7 @@ Khi chế độ trên máy bay bật, Wi‑Fi, các mạng di động và Blueto
     <string name="final_hold_title_setup_work_account">Đang chuẩn bị điện thoại cho quá trình thiết lập công việc…</string>
     <string name="gesture_intro_description">Tìm hiểu các cử chỉ dùng để chuyển đến Màn hình chính, quay lại và chuyển đổi ứng dụng</string>
     <string name="gesture_intro_skip_button">Bỏ qua</string>
-    <string name="gesture_intro_start_button">Xem thử</string>
+    <string name="gesture_intro_start_button">Thử ngay</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Vuốt để thao tác trên điện thoại}TABLET{Vuốt để thao tác trên máy tính bảng}other{Vuốt để thao tác trên thiết bị}}</string>
     <string name="gms_account_checkin_title">Đang lấy thông tin tài khoản…</string>
     <string name="gms_checkin_description_text">Quá trình này có thể mất vài phút</string>
@@ -341,13 +341,15 @@ Thiết bị chưa được cấp phép"</string>
 
 "<li>Mọi người dùng khác đều có thể chấp nhận các quyền mới cho ứng dụng</li>"
 
-"<li>Chỉ dùng chung điện thoại này với người bạn tin tưởng</li></ul>}TABLET{<b>Lưu ý quan trọng:</b>"
+"<li>Chỉ dùng chung điện thoại này với người bạn tin tưởng</li></ul>"
+}TABLET{"<b>Lưu ý quan trọng:</b>"
 
 "<ul><li>Chủ sở hữu máy tính bảng này có thể gỡ cài đặt các ứng dụng hoặc xóa toàn bộ hồ sơ người dùng của bạn</li>"
 
 "<li>Mọi người dùng khác đều có thể chấp nhận các quyền mới cho ứng dụng</li>"
 
-"<li>Chỉ dùng chung máy tính bảng này với người bạn tin tưởng</li></ul>}other{<b>Lưu ý quan trọng:</b>"
+"<li>Chỉ dùng chung máy tính bảng này với người bạn tin tưởng</li></ul>"
+}other{"<b>Lưu ý quan trọng:</b>"
 
 "<ul><li>Chủ sở hữu thiết bị này có thể gỡ cài đặt các ứng dụng hoặc xóa toàn bộ hồ sơ người dùng của bạn</li>"
 
@@ -359,70 +361,47 @@ Thiết bị chưa được cấp phép"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập điện thoại của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
-"<li>Tự động thiết lập ngày và giờ</li>"}TABLET{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập máy tính bảng của mình.
+"<li>Tự động thiết lập ngày và giờ</li>"
+}TABLET{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập máy tính bảng của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
-"<li>Tự động thiết lập ngày và giờ</li>"}other{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập thiết bị của mình.
+"<li>Tự động thiết lập ngày và giờ</li>"
+}other{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập thiết bị của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
 "<li>Tự động thiết lập ngày và giờ</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập điện thoại của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải một SIM xuống</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
-"<li>Tự động thiết lập ngày và giờ</li>"}TABLET{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập máy tính bảng của mình.
+"<li>Tự động thiết lập ngày và giờ</li>"
+}TABLET{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập máy tính bảng của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải một SIM xuống</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
-"<li>Tự động thiết lập ngày và giờ</li>"}other{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập thiết bị của mình.
+"<li>Tự động thiết lập ngày và giờ</li>"
+}other{Việc kết nối với một mạng di động hoặc Wi-Fi sẽ giúp bạn nhanh chóng thiết lập thiết bị của mình.
 
 Nếu không có kết nối mạng, bạn sẽ không thể:
-
 "<li>Đăng nhập vào Tài khoản Google</li>"
-
 "<li>Khôi phục các ứng dụng và dữ liệu</li>"
-
 "<li>Tải một SIM xuống</li>"
-
 "<li>Tải bản cập nhật phần mềm</li>"
-
 "<li>Tự động thiết lập ngày và giờ</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Điểm truy cập tạm thời đã đạt đến giới hạn số lượng thiết bị truy cập.</string>
     <string name="wifi_check_password_try_again">Kiểm tra mật khẩu và thử lại</string>

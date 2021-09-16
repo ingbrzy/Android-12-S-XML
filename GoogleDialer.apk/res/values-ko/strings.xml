@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">통화</string>
     <string name="a11y_call_incoming_decline_description">거부</string>
+    <string name="a11y_callscreen_animation">선택 통화 애니메이션</string>
     <string name="a11y_contact_menu_video_call_wifi">Wi-Fi를 사용하여 영상 통화 걸기</string>
     <string name="a11y_contact_menu_voice_call_wifi">Wi-Fi를 사용하여 음성 통화 걸기</string>
     <string name="a11y_conversation_history_entry_answered_call">최근 전화는 ^1님이 걸어서 받은 전화입니다</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">발신자 관리</string>
     <string name="a11y_expandedsheet_collapse">메뉴 접기</string>
     <string name="a11y_expandedsheet_expand">메뉴 펼치기</string>
-    <string name="a11y_favorites_education_dismiss">닫기</string>
     <string name="a11y_feature_demo_next_page">다음 페이지</string>
     <string name="a11y_feature_demo_page_indicator">%d페이지</string>
     <string name="a11y_feature_demo_prev_page">이전 페이지</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1님의 빠른 주소록</string>
+    <string name="a11y_icon_hd">HD 통화</string>
+    <string name="a11y_icon_hd_plus">HD Plus 통화</string>
+    <string name="a11y_icon_shared_data_call">공유된 데이터 통화</string>
+    <string name="a11y_icon_verified">확인된 통화</string>
+    <string name="a11y_icon_vilte">영상 통화(LTE)</string>
+    <string name="a11y_icon_viwifi">Wi-Fi를 통한 영상 통화</string>
+    <string name="a11y_icon_volte">음성 통화(LTE)</string>
+    <string name="a11y_icon_voz4g">음성 통화(4G)</string>
+    <string name="a11y_icon_wifi">Wi-Fi 통화</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">받으려면 두 손가락을 위로 스와이프하고 거부하려면 두 손가락을 아래로 스와이프하세요.</string>
     <string name="a11y_incoming_call_swipe_to_answer">전화를 받으려면 두 손가락을 사용하여 위로 스와이프하고 거부하려면 아래로 스와이프하세요.</string>
     <string name="a11y_new_call_log_entry_call_recording">통화 녹음 중</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 계정 사용</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1님에게 RTT 전화 걸기</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">공유된 데이터 통화</string>
     <string name="a11y_new_call_log_entry_tap_action">메뉴 펼치기</string>
     <string name="a11y_new_call_log_entry_video_call">^1에게 화상 통화 걸기</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">Wi-Fi를 사용하여 ^1님과 영상 통화하기</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">통화하기 전에 번호 수정</string>
     <string name="action_menu_back_from_search">검색 중지</string>
     <string name="action_menu_overflow_description">옵션 더보기</string>
+    <string name="activate_error_message">선택 통화를 활성화하는 중에 문제가 발생했습니다.</string>
+    <string name="activated_successfully">선택 통화가 활성화되었습니다.</string>
     <string name="activity_not_available">이 기기에 작업을 처리할 수 있는 앱이 없습니다.</string>
     <string name="add_2sec_pause">2초간 일시중지 추가</string>
     <string name="add_contact_not_available">사용할 수 있는 연락처 앱이 없습니다.</string>
@@ -158,10 +170,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">통화 차단 기능이 일시적으로 중지됨</string>
     <string name="bm_suggest_call_button">통화</string>
     <string name="bm_suggest_chat_button">채팅</string>
-    <string name="bm_suggest_wait_min">"Chat
-대기 시간: %1$d분"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s 읽지 않음</string>
+    <string name="bm_suggest_wait_min">"채팅
+대기 시간 %1$d분"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+작업 중…"</string>
     <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
     <string name="bubble_bottom_action_end_call">통화 종료</string>
     <string name="bubble_bottom_action_hide">숨기기</string>
@@ -170,6 +182,9 @@
     <string name="call">음성 통화</string>
     <string name="callFailed_simError">SIM이 없거나 SIM에 오류가 있습니다.</string>
     <string name="callHistoryIconLabel">통화 기록</string>
+    <string name="call_action_label_automatically_screen">자동 차단. 자동녹음전화 거부</string>
+    <string name="call_action_label_ring_phone">전화벨 울리기(기본값)</string>
+    <string name="call_action_label_silently_decline">무음으로 거부</string>
     <string name="call_announcer_preference_footer_instruction_text">수신 전화의 발신자 이름과 번호가 음성으로 안내됩니다.</string>
     <string name="call_announcer_preference_list_title">발신번호 표시 음성 안내</string>
     <string name="call_announcer_preference_option_always">항상</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">통화</string>
     <string name="call_incoming_answer_rtt">RTT로 응답</string>
     <string name="call_incoming_answer_voice">음성으로 응답</string>
-    <string name="call_incoming_chip_answer_and_release">현재 통화 종료 및 전화받기</string>
+    <string name="call_incoming_chip_answer_and_release">현재 통화를 종료하고 전화 받기</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT 통화로 받기</string>
     <string name="call_incoming_chip_answer_video_as_audio">음성 통화로 받기</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">내 영상 끄고 받기</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">받으려면 위로 스와이프하세요.</string>
     <string name="call_incoming_swipe_to_reject">아래로 스와이프하여 거부</string>
     <string name="call_incoming_video_is_off">영상이 꺼짐</string>
-    <string name="call_incoming_will_disconnect">이 전화를 받으면 화상 통화가 종료됩니다.</string>
+    <string name="call_incoming_will_disconnect">이 전화를 받으면 진행 중인 다른 통화가 종료됩니다.</string>
     <string name="call_incoming_will_disconnect_app">전화를 받으면 %1$s 통화가 종료됩니다.</string>
     <string name="call_isdn">ISDN으로 전화걸기</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">스팸 차단/신고</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">통화 이유: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">녹음 파일이 저장되었습니다.</string>
     <string name="call_recording_conversation_history_entry">녹음됨</string>
+    <string name="call_recording_delete_snack_bar_undo">실행취소</string>
     <string name="call_recording_disclaimer_agreen_button_text">녹음 시작</string>
     <string name="call_recording_disclaimer_content">"본인 또는 상대방이 모든 통화 참여자의 녹음 동의를 받아야 하는 지역에 거주할 수도 있습니다. 통화 녹음이 시작되기 전에 모든 참여자에게 녹음 사실이 안내됩니다. 대화 녹음에 관한 법을 준수할 책임은 본인에게 있습니다. 통화 녹음은 꼭 필요할 때만 주의해서 사용하시기 바랍니다.
 ^1
@@ -291,6 +307,7 @@
 Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 전송되지 않습니다."</string>
     <string name="call_screen_demo_page_4_title">시간을 절약하고 답답한 상황에서 벗어나세요</string>
     <string name="call_screen_demo_setting_title">데모 보기</string>
+    <string name="call_screen_demo_settings_title">데모 보기</string>
     <string name="call_screen_demo_title">선택 통화 작동 원리</string>
     <string name="call_screen_demo_unable_to_fetch_audio">샘플 오디오를 가져올 수 없음</string>
     <string name="call_screen_demo_unable_to_play_audio">샘플 오디오를 재생할 수 없음</string>
@@ -298,6 +315,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="call_screen_end_call_local_internal_message">통화를 종료했습니다.</string>
     <string name="call_screen_end_call_non_local_internal_message">통화가 끊겼습니다.</string>
     <string name="call_screen_how_it_works_setting_title">선택 통화 기능은 기기 자체에서 작동하므로 Wi-Fi 또는 데이터를 사용하지 않습니다. 대화 스크립트는 휴대전화에서 생성되어 휴대전화에만 저장됩니다. %1$s</string>
+    <string name="call_screen_how_it_works_title">선택 통화 기능은 기기 자체에서 작동하므로 Wi-Fi 또는 데이터를 사용하지 않습니다. 대화 스크립트는 휴대전화에서 생성되어 휴대전화에만 저장됩니다. ^1</string>
     <string name="call_screen_incallui_chip_text">통화 선택</string>
     <string name="call_screen_join_call_button_content_description">통화에 참여</string>
     <string name="call_screen_join_call_internal_message">통화에 참여했습니다.</string>
@@ -307,6 +325,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="call_screen_saying_to_the_caller_state">발신자에게 말하는 중</string>
     <string name="call_screen_screening_call_from">다음 사용자로부터 통화 수신됨</string>
     <string name="call_screen_setting_title">선택 통화</string>
+    <string name="call_screen_settings_title">선택 통화</string>
     <string name="call_screen_speaker_toggle_button_content_description">스피커 버튼</string>
     <string name="call_screen_suggestions_avatar_content_description">로고</string>
     <string name="call_screen_survey_cancel_button">취소</string>
@@ -331,6 +350,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="call_work">직장으로 전화걸기</string>
     <string name="call_work_mobile">직장 휴대전화로 전화걸기</string>
     <string name="call_work_pager">직장 호출기로 전화 걸기</string>
+    <string name="caller_action_error_cant_load_value">기존 %1$s 값을 가져올 수 없습니다.</string>
+    <string name="caller_action_error_cant_set_value">%1$s 값을 저장할 수 없습니다.</string>
     <string name="caller_id_announcement_multi_sim">%2$s님의 %3$s에서부터 걸려온 %1$s 통화</string>
     <string name="caller_id_announcement_single_sim">%2$s님으로부터 걸려온 %1$s 통화</string>
     <string name="caller_id_business_data_details">이 기능에 사용되는 데이터는 Google 및 라이선스 제공자가 제공합니다. ^1</string>
@@ -370,6 +391,9 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="calling_blocked_number_precall_dialog_title">%s님에게 전화하시겠습니까?</string>
     <string name="calllog_add_to_contact">연락처에 추가</string>
     <string name="calllog_create_new_contact">새 연락처 만들기</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">선택 통화 활성화 중(Wi-Fi 필요)</string>
+    <string name="callscreen_settings_voice_setting_title">음성</string>
+    <string name="camera_permission_toast">카메라 권한이 사용 설정됨</string>
     <string name="camera_privacy_text">카메라 권한 사용 설정됨</string>
     <string name="cannot_understand_description">이해하지 못했습니다.</string>
     <string name="car_crash_emergency_intro">"발신자를 대신한 자동 비상 음성 서비스로부터 통화를 수신했습니다.
@@ -392,7 +416,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
     <string name="checkbox_report_as_spam_action">스팸 전화번호로 신고</string>
     <string name="child_number">수신 번호: %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">연락처 선택</string>
     <string name="clear_button_content_description">검색어 지우기</string>
     <string name="clear_text_end_icon_content_description">텍스트 삭제</string>
     <string name="cli_not_supported_text">계속하려면 휴대전화를 여세요.</string>
@@ -432,6 +456,9 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="constellation_onboarding_unsuccessful_snackbar_message">확인된 통화를 설정할 수 없습니다. 설정에서 다시 사용 설정할 수 있습니다.</string>
     <string name="contact_card_video_icon_content_description">^1님과 영상 통화 시작</string>
     <string name="contact_grid_callback_number">이 휴대전화의 번호: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">전화 전달됨</string>
+    <string name="contact_grid_hd_icon_content_description">HD 통화</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus 통화</string>
     <string name="contact_grid_incoming_bidirectional_video_call">이동통신사 영상 통화 발신자:</string>
     <string name="contact_grid_incoming_reception_only_video_call">다음 사용자로부터 온 이동통신사 단방향 영상 통화:</string>
     <string name="contact_grid_incoming_rtt_call">다음 사용자로부터 수신한 RTT 통화</string>
@@ -442,9 +469,18 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">다음 사용자에게서 온 Wi-Fi 이동통신사 영상 통화:</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">다음 사용자에게서 온 Wi-Fi 이동통신사 단방향 영상 통화:</string>
     <string name="contact_grid_incoming_work_call">업무 통화 수신:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">공유된 데이터 통화</string>
+    <string name="contact_grid_spam_icon_content_description">스팸 전화</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">이동통신사</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s에서 인증함</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">올바른 번호</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">영상 통화(LTE)</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Wi-Fi를 통한 영상 통화</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">음성 통화(4G)</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">음성 통화(LTE)</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Wi-Fi를 통한 음성 통화</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi 통화</string>
+    <string name="contact_grid_work_icon_content_description">업무 전화</string>
     <string name="contact_menu_add_favorite">즐겨찾기에 추가</string>
     <string name="contact_menu_contact_info">연락처 정보</string>
     <string name="contact_menu_invite_video">화상 통화에 초대</string>
@@ -479,8 +515,12 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="conversation_history_call_details_header_today">오늘</string>
     <string name="conversation_history_call_details_snack_bar_deleted">통화 삭제됨</string>
     <string name="conversation_history_call_details_snack_bar_undo">실행취소</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">중요한 전화</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">추가된 통화 정보 표시</string>
+    <string name="conversation_history_call_recording_deleted">녹음 파일 삭제됨</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">스크립트 및 오디오</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">스크립트</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">선택 통화</string>
     <string name="copy">복사</string>
     <string name="copy_number">전화번호 복사</string>
@@ -499,12 +539,17 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="custom_prefix_default_prefix_title">기본 접두어</string>
     <string name="custom_prefix_prefixes_preference_title">접두어</string>
     <string name="dark_theme_label">어둡게</string>
+    <string name="default_changed_confirmation">전화 앱이 기본 앱으로 설정되었습니다.</string>
+    <string name="default_image_content_description">스플래시 이미지</string>
     <string name="delete">삭제</string>
     <string name="delete_all_recordings_confirmation_dialog_title">모든 녹화 파일 삭제</string>
     <string name="delete_all_recordings_now_error_message">일부 녹음을 삭제할 수 없습니다. 다시 시도하세요.</string>
     <string name="delete_button_label">지금 모든 녹음 파일 삭제</string>
     <string name="delete_confirmation_dialog_negative_button_label">취소</string>
     <string name="delete_confirmation_dialog_positive_button_label">삭제</string>
+    <string name="delete_old_recordings_error_cant_load_value">기존 %1$s 값을 가져올 수 없습니다.</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$s 값을 저장할 수 없습니다.</string>
+    <string name="deleting_call_recording">녹음 파일 삭제 중…</string>
     <string name="description_add_to_existing_contact_action">^1님을 기존 연락처에 추가합니다.</string>
     <string name="description_blocked_number_list_delete">번호 차단 해제</string>
     <string name="description_call_action">^1에 전화 걸기</string>
@@ -607,6 +652,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="emergency_sos_emergency_intro">"발신자를 대신한 자동 긴급 음성 서비스의 전화입니다.
 발신자가 위급한 상황에 처했을 수 있습니다. 
 구조를 요청해 주세요."</string>
+    <string name="emergency_speaker">스피커</string>
     <string name="emergency_voice_assist_dialog_button_close">취소</string>
     <string name="emergency_voice_assist_dialog_title">긴급 전화 교환원이 듣는 내용</string>
     <string name="end_call_with_default_message_description">통화 종료</string>
@@ -636,9 +682,12 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="feedback_call_issue_quiet_audio">오디오가 너무 작음</string>
     <string name="feedback_call_issue_title">어떤 문제가 있었나요?</string>
     <string name="feedback_title_please_rate">통화 품질을 평가해 주세요.</string>
+    <string name="first_time_callers_action_preference_description">통화 기록에 없는 발신자</string>
+    <string name="first_time_callers_action_preference_title">최초 발신자</string>
     <string name="flip_to_shush_title">뒤집어서 방해 금지</string>
     <string name="flip_to_silence_summary">휴대전화를 평평한 곳에 뒤집어 놓으면 수신 전화 벨소리가 음소거됩니다.</string>
     <string name="flip_to_silence_title">뒤집어서 음소거</string>
+    <string name="foreground_notification_title">업데이트 중…</string>
     <string name="frequent_contact_suggestion">자주 연락함</string>
     <string name="general_learn_more">자세히 알아보기</string>
     <string name="generic_conference_call_name">통화 중</string>
@@ -661,6 +710,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="how_it_works_storage_link_text">녹음 파일이 어떻게 저장되는지 자세히 알아보기</string>
     <string name="how_it_works_storage_template">휴대전화 저장용량이 부족하면 통화 녹음이 중단됩니다. ^1</string>
     <string name="icon_content_description">대화상자 아이콘</string>
+    <string name="icon_description_shared_data_call">공유된 데이터 통화</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">번호 가져오기</string>
     <string name="ims_video_heading">Verizon 영상 통화</string>
@@ -804,6 +854,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="new_call_log_no_missed_calls">부재중 전화가 없습니다.</string>
     <string name="new_call_log_permission_no_calllog">통화 기록을 보려면 전화 권한을 사용 설정하세요.</string>
     <string name="new_call_log_secondary_blocked">차단됨</string>
+    <string name="new_call_log_secondary_verified">확인된 통화</string>
     <string name="new_call_log_snack_bar_deleted">통화 삭제됨</string>
     <string name="new_call_log_snack_bar_undo">실행취소</string>
     <string name="new_call_log_unknown">알 수 없음</string>
@@ -818,8 +869,10 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="notification_action_answer_video">동영상</string>
     <string name="notification_action_dismiss">거부</string>
     <string name="notification_action_end_call">전화 끊기</string>
+    <string name="notification_action_mute_toggle">음소거</string>
     <string name="notification_action_speaker_off">스피커 끄기</string>
     <string name="notification_action_speaker_on">스피커 켜기</string>
+    <string name="notification_action_speaker_toggle">스피커</string>
     <string name="notification_callReasonMsg">이유: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi 통화</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi 업무 통화</string>
@@ -883,6 +936,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="place_ims_button_content_description">이동통신사 영상 통화를 거는 데 사용되는 버튼입니다.</string>
     <string name="play">재생</string>
     <string name="plus_code_line_format">플러스 코드: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">다른 번호를 사용하는 스팸 발송자일 가능성이 있는 발신자</string>
+    <string name="possibly_faked_numbers_action_preference_title">가짜일 가능성이 있는 번호</string>
     <string name="post_call_message">전화한 이유를 알려주세요.</string>
     <string name="post_call_message_1">급한 용무이니 전화해 주세요.</string>
     <string name="post_call_message_2">시간 나실 때 전화해 주세요.</string>
@@ -913,6 +968,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="privacy_policy_label">개인정보처리방침</string>
     <string name="private_num_non_verizon">비공개 번호</string>
     <string name="private_num_verizon">제한됨</string>
+    <string name="private_or_hidden_action_preference_description">발신번호 표시를 제한한 발신자</string>
+    <string name="private_or_hidden_action_preference_title">번호 표시 제한 발신자</string>
     <string name="quick_contact_checkbox_description">연락처 선택</string>
     <string name="ready_for_recording">준비 중…</string>
     <string name="record_greeting_cancel_label">취소</string>
@@ -928,6 +985,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="record_greeting_uploading_greeting_message">저장 중…</string>
     <string name="record_voicemail_greeting_title">인사말 녹음</string>
     <string name="recording_category_title">녹음</string>
+    <string name="recording_deleted">녹음 파일 삭제됨</string>
+    <string name="recording_deletion_failed">녹음 파일을 삭제할 수 없음 [다시 시도]</string>
     <string name="redo_button_text">다시 시도</string>
     <string name="remember_this_choice_label">이 선택사항 저장</string>
     <string name="report_not_spam_alert_button">신고</string>
@@ -938,10 +997,21 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="report_spam_description">스팸 신고</string>
     <string name="request_call_back_description">다시 전화해 주세요.</string>
     <string name="request_email_description">이메일을 보내 주세요.</string>
-    <string name="respond_via_sms_setting_title">통화 거절 메시지</string>
+    <string name="respond_via_sms_setting_title">전화 거절 메시지</string>
+    <string name="revelio_callers_how_it_works_text">"자동 차단을 사용 중지하려면 알 수 없는 통화의 설정을 '전화벨 울리기(기본값)'로 선택하세요. 연락처에 저장된 번호는 절대 자동 차단되지 않습니다. 휴대전화가 헤드폰이나 스피커에 연결되어 있으면 자동 차단이 실행되지 않습니다. 
+선택 통화는 데이터 또는 Wi-Fi를 사용하지 않으나 이동통신사 이용 통화 시간을 사용합니다. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">30일 후 삭제합니다.</string>
+    <string name="revelio_delete_old_recordings_setting_title">오래된 녹음 및 스크립트 자동 삭제</string>
+    <string name="revelio_demo_setting_title">선택 통화 작동 방식 보기</string>
     <string name="revelio_demo_turn_on">사용 설정</string>
     <string name="revelio_end_call_reject_as_spam">통화가 스팸으로 표시되었습니다.</string>
     <string name="revelio_end_call_user_missed_internal_message">부재중 통화입니다.</string>
+    <string name="revelio_pref_title">선택 통화</string>
+    <string name="revelio_preference_summary_automatic_screening_off">자동 차단 사용 안 함</string>
+    <string name="revelio_preference_summary_screening">%1$s 차단</string>
+    <string name="revelio_save_audio_setting_summary">어시스턴트가 응답한 통화의 오디오 저장합니다.</string>
+    <string name="revelio_save_audio_setting_title">선택 통화 오디오 저장</string>
+    <string name="revelio_setting_title">선택 통화</string>
     <string name="rtt_assist_default">RTT는 청각 장애, 난청, 언어 장애가 있거나 음성 이외의 의사소통 수단이 필요한 발신자에게 도움이 됩니다. ^1</string>
     <string name="rtt_assist_for_att">화면에 표시되는 실시간 문자 메시지(RTT) 키보드를 외장 TTY 키보드 대신 사용할 수 있습니다. RTT 통화 중에 텍스트를 입력하면 상대방이 나의 메시지를 실시간으로 볼 수 있습니다. ^1</string>
     <string name="rtt_assist_for_tmo">화면에 표시되는 실시간 문자 메시지(RTT) 키보드를 외장 TTY 키보드 대신 사용할 수 있습니다. RTT는 전화 통화 중에 내가 입력하는 내용을 전송하여 텍스트를 통해 실시간으로 소통할 수 있도록 합니다. 또한 전체 메시지가 완료되기 전에 부분적인 응답을 볼 수 있습니다. ^1</string>
@@ -949,7 +1019,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="rtt_button_back">뒤로</string>
     <string name="rtt_button_downgrade">음성 통화로 전환</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">이 통화에는 RTT를 사용할 수 없습니다. 따라서 음성 전용 통화로 연결되었습니다.</string>
+    <string name="rtt_call_downgraded_toast">RTT 통화가 음성 전용 통화로 변경되었습니다.</string>
+    <string name="rtt_call_not_available_toast">이 통화에서 RTT를 사용할 수 없습니다.</string>
     <string name="rtt_configuration_summary_always_visible">실시간 문자 메시지 버튼이 어디서나 표시됩니다.</string>
     <string name="rtt_configuration_summary_not_visible">실시간 문자 메시지 통화의 수신을 허용하되 통화 버튼을 숨깁니다.</string>
     <string name="rtt_configuration_summary_visible_during_call">통화 중에 실시간 문자 메시지 버튼을 표시합니다.</string>
@@ -978,6 +1049,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="rtt_transcript_link">스크립트 보기</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">이 메시지는 반복됩니다.</string>
+    <string name="save_audio_error_cant_load_value">기존 선택 통화 오디오 저장 값을 가져올 수 없습니다.</string>
+    <string name="save_audio_error_cant_set_value">선택 통화 오디오 저장 값을 저장할 수 없습니다.</string>
     <string name="save_button_text">저장</string>
     <string name="saved_voicemails_action_title">저장된 음성메시지(%1$s개)</string>
     <string name="search_hint">영상 통화 연락처 검색</string>
@@ -1004,8 +1077,11 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="send_a_message">메시지 보내기</string>
     <string name="send_to_voicemail_import_failed">가져오지 못했습니다.</string>
     <string name="serial_number">일련번호</string>
+    <string name="set_as_default_button_text">기본 앱으로 설정</string>
     <string name="set_default_account">통화에 항상 사용</string>
     <string name="set_default_account_description">연락처에 SIM 환경설정이 저장되었습니다.</string>
+    <string name="set_phone_as_default_explanation_text">전화 앱이 기본 앱으로 설정되어 있어야 전화를 걸고 받을 수 있습니다.</string>
+    <string name="set_phone_as_default_request_text">전화 앱을 기본 앱으로 설정</string>
     <string name="settings">설정</string>
     <string name="settings_page_call_recording_feature_not_available_text">현재 위치에서는 통화 녹음을 사용할 수 없음</string>
     <string name="settings_page_crosby_feature_not_available_text">현재 위치에서 사용할 수 없음</string>
@@ -1040,6 +1116,8 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="snackbar_undo">실행취소</string>
     <string name="snackbar_voicemail_deleted">음성사서함 삭제됨</string>
     <string name="sounds_and_vibration_title">소리 및 진동</string>
+    <string name="spam_action_preference_description">Google의 스팸 데이터베이스와 일치하는 번호</string>
+    <string name="spam_action_preference_title">스팸</string>
     <string name="spam_and_call_screen_settings_title">스팸 및 전화 차단</string>
     <string name="spam_blocking_promo_action_dismiss">닫기</string>
     <string name="spam_blocking_promo_action_filter_spam">스팸 필터링</string>
@@ -1066,8 +1144,6 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="speed_dial_add_button_text">추가</string>
     <string name="speed_dial_contacts_permission_description">단축번호를 사용하려면 주소록 권한을 사용하도록 설정하세요.</string>
     <string name="speed_dial_disambig_dialog_title">%s님과 통화할 방법 선택</string>
-    <string name="speed_dial_education_content">통화와 메시지 간에 전환하려면 아무 연락처나 길게 터치하세요.</string>
-    <string name="speed_dial_education_title">다양한 연락 방법</string>
     <string name="speed_dial_no_contacts_action_text">즐겨찾는 연락처 추가</string>
     <string name="speed_dial_no_contacts_description">자주 연락하는 사람들과 탭 한 번으로 통화하세요.</string>
     <string name="speed_dial_remember_this_choice">전화번호 선택사항 저장</string>
@@ -1084,6 +1160,45 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="suggestion_dialog_postive_snackbar_message">의견을 보내주셔서 감사합니다.</string>
     <string name="suggestions_header">자주 연락하는 사람</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">계정 및 시스템 정보</string>
+    <string name="survey_app_id">앱 ID</string>
+    <string name="survey_app_name">앱 이름</string>
+    <string name="survey_app_version">앱 버전</string>
+    <string name="survey_application_data">애플리케이션 데이터</string>
+    <string name="survey_brand">브랜드</string>
+    <string name="survey_close_button_description">닫기</string>
+    <string name="survey_default_prompt_title">Google 서비스를 개선할 수 있도록 의견을 보내주세요.</string>
+    <string name="survey_device_model">기기 모델</string>
+    <string name="survey_email_address">이메일 주소</string>
+    <string name="survey_google_play_services_version">Google Play 서비스 버전</string>
+    <string name="survey_legal_text">계속하면 Google에서 서비스 개선을 위해 Google의 %2$s 및 %3$s에 따라 내 답변, %1$s을(를) 사용하는 데 동의하는 것으로 간주됩니다.</string>
+    <string name="survey_library_version">라이브러리 버전</string>
+    <string name="survey_network_request_failed">네트워크 요청 실패</string>
+    <string name="survey_neutral">보통</string>
+    <string name="survey_next">다음</string>
+    <string name="survey_num_rating">총 %2$s점 중 %1$s점</string>
+    <string name="survey_ok">확인</string>
+    <string name="survey_open_text_hint">여기에 의견을 입력하세요.</string>
+    <string name="survey_open_text_no_pii">개인정보를 입력하지 마세요.</string>
+    <string name="survey_operating_system">운영체제</string>
+    <string name="survey_operating_system_version">운영체제 버전</string>
+    <string name="survey_other_option_hint">기타(구체적으로 기재)</string>
+    <string name="survey_platform">플랫폼</string>
+    <string name="survey_privacy">개인정보처리방침</string>
+    <string name="survey_prompt_no_thanks">나중에 하기</string>
+    <string name="survey_prompt_take_our_survey">질문 보기</string>
+    <string name="survey_smiley_rating">이모티콘 %2$s개 중 %1$s개: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">다소 불만족</string>
+    <string name="survey_somewhat_satisfied">다소 만족</string>
+    <string name="survey_submit">제출</string>
+    <string name="survey_system_info_dialog_title">계정 및 시스템 정보</string>
+    <string name="survey_terms">약관</string>
+    <string name="survey_thank_you_followup_message">Google의 제품을 개선할 수 있도록 더 많은 질문에 답변해 주세요.</string>
+    <string name="survey_timezone_offset">시간대 오프셋</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">사용자 에이전트</string>
+    <string name="survey_very_dissatisfied">매우 불만족</string>
+    <string name="survey_very_satisfied">매우 만족</string>
     <string name="system_default_theme_label">시스템 기본값</string>
     <string name="tab_title_call_history">최근 통화</string>
     <string name="tab_title_contacts">연락처</string>
@@ -1095,11 +1210,15 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="terms_of_service_label">서비스 약관</string>
     <string name="textmessage_button_label">메시지</string>
     <string name="theme_preference_label">테마 선택</string>
+    <string name="tidepods_call_screen_settings_title">선택 통화</string>
+    <string name="tidepods_incall_label_record">녹화</string>
     <string name="toast_text_copied">텍스트 복사됨</string>
     <string name="toolbar_back">뒤로</string>
     <string name="toolbar_close">닫기</string>
     <string name="transcript_audio_feedback_chip_text">품질 개선에 참여하기</string>
+    <string name="transcript_audio_feedback_link_text">스크립트 및 오디오 보기</string>
     <string name="transcript_snippet_low_confidence_description">(오디오 품질이 좋지 않음)</string>
+    <string name="try_again_button">다시 시도</string>
     <string name="tty_configuration_title_tty_full">TTY 전체</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY 사용 안함</string>
@@ -1121,7 +1240,6 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="type_outgoing_video_pulled">발신 화상 통화가 다른 기기로 전환됨</string>
     <string name="type_rejected">거부된 통화</string>
     <string name="type_voicemail">음성사서함</string>
-    <string name="unable_change_value_error">RTT 설정을 변경하는 중에 문제가 발생했습니다. 뒤로 이동하여 다시 시도해 주세요.</string>
     <string name="unable_read_value_error">RTT 설정을 읽는 중에 문제가 발생했습니다. 뒤로 이동하여 다시 시도해 주세요.</string>
     <string name="unblock_number">차단 해제</string>
     <string name="unblock_number_alert_details">이 번호에 대한 차단이 해제되며 스팸이 아닌 것으로 신고됩니다. 앞으로 이 번호에서 전화가 오면 스팸으로 인식되지 않습니다.</string>
@@ -1130,6 +1248,7 @@ Google을 포함해 그 누구에게도 통화 오디오 또는 스크립트가 
     <string name="unblock_number_ok">차단 해제</string>
     <string name="unblock_report_number_alert_title">%1$s번을 차단 해제하시겠습니까?</string>
     <string name="unknown">알 수 없음</string>
+    <string name="unknown_call_settings_category_preference_title">알 수 없는 통화 설정</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">수신 오디오 음소거 해제</string>
     <string name="user_is_busy_description">다시 전화드리겠습니다.</string>
@@ -1241,10 +1360,17 @@ Data통화를 계속하면 데이터가 사용됩니다."</string>
     <string name="videocall_remote_video_on">동영상이 켜져 있음</string>
     <string name="videocall_remotely_held">통화 대기 중</string>
     <string name="videocall_remotely_resumed">통화 재개됨</string>
+    <string name="videocall_settings_default_carrier">이동통신사 영상 통화</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">기본 영상 통화 서비스</string>
+    <string name="videocall_settings_fallback_summary">이동통신사 영상 통화를 사용할 수 없는 경우 Duo를 사용합니다.</string>
+    <string name="videocall_settings_fallback_title">Duo를 백업으로 사용</string>
+    <string name="videocall_settings_title">영상 통화</string>
     <string name="videocall_show_preview_button_description">로컬 동영상 피드 표시</string>
     <string name="view">보기</string>
     <string name="view_location_settings">위치 설정</string>
     <string name="vitle_label">영상 통화(LTE)</string>
+    <string name="viwifi_label">Wi-Fi를 통한 영상 통화</string>
     <string name="vm_change_pin_error_invalid">새 PIN에 잘못된 문자가 있습니다.</string>
     <string name="vm_change_pin_error_mismatch">이전 PIN이 일치하지 않습니다.</string>
     <string name="vm_change_pin_error_system_error">PIN을 변경할 수 없습니다</string>
@@ -1254,8 +1380,11 @@ Data통화를 계속하면 데이터가 사용됩니다."</string>
     <string name="vm_change_pin_progress_message">기다려 주세요.</string>
     <string name="voice_call">음성 통화</string>
     <string name="voice_call_button">통화</string>
+    <string name="voice_display_name">음성 %1$d</string>
     <string name="voice_search_not_available">음성검색이 지원되지 않습니다.</string>
     <string name="voice_selector_preference_title">사용 가능한 음성</string>
+    <string name="voice_settings_available_voices_text">사용 가능한 음성</string>
+    <string name="voice_settings_title">음성</string>
     <string name="voicecall_button_label">통화</string>
     <string name="voicecall_button_wifi_description">Wi-Fi를 사용하여 통화하기</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s %2$s</string>
@@ -1290,7 +1419,6 @@ Data통화를 계속하면 데이터가 사용됩니다."</string>
     <string name="voicemail_donation_promo_title">텍스트 변환 정확성 개선에 참여하시겠습니까?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">데이터 없이 SIM의 시각적 음성사서함을 사용하면 이동통신사에서 요금을 부과할 수 있습니다.</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">시각적 음성사서함을 사용하려면 특정 데이터 SIM이 필요합니다.</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">여러 개의 SIM이 있고 그중 하나가 Fi에 사용되면 Fi SIM이 시각적 음성사서함에 사용됩니다.</string>
     <string name="voicemail_error_activating_message">시각적 음성사서함이 완전히 활성화되기 전에는 음성사서함 알림을 받지 못할 수 있습니다. 그동안은 음성사서함으로 전화하여 새 메시지를 가져오세요.</string>
     <string name="voicemail_error_activating_title">시각적 음성사서함 활성화 중</string>
     <string name="voicemail_error_activation_disabled_message">음성사서함으로 전화를 걸어 설정을 완료하세요.</string>
@@ -1397,6 +1525,7 @@ Data통화를 계속하면 데이터가 사용됩니다."</string>
     <string name="vvm3_error_vms_no_cellular_title">음성사서함에 연결할 수 없음</string>
     <string name="vvm3_error_vms_timeout_message">문제가 발생했습니다. 나중에 다시 시도해 주세요. 문제가 지속되면 고객 서비스 담당자(%1$s)에게 문의하여 오류 코드가 9007임을 알려주시기 바랍니다.</string>
     <string name="vvm3_error_vms_timeout_title">문제 발생</string>
+    <string name="vvm_config_title">시각적 음성사서함 설정</string>
     <string name="vvm_unsupported_message_format">지원되지 않는 메시지 유형입니다. 들으려면 %s번으로 전화하세요.</string>
     <string name="wait_prompt_str">"다음 톤을 보내시겠습니까?
 "</string>

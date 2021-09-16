@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Lingue e immissione</string>
     <string name="lift_to_wake_title">Solleva per riattivare</string>
-    <string name="lockdown_settings_summary">"Viene visualizzata l'opzione Tasto di accensione, che consente di disattivare Smart Lock, lo sblocco con il volto, lo sblocco con l'impronta e le notifiche nella schermata di blocco"</string>
-    <string name="lockdown_settings_title">Mostra opzione di blocco</string>
+    <string name="abc_action_bar_home_description">Portami a casa</string>
+    <string name="abc_action_bar_up_description">Torna indietro</string>
     <string name="locked_work_profile_notification_title">Con profilo di lavoro bloccato</string>
     <string name="lockscreen_bypass_summary">"Dopo lo sblocco, vai direttamente all'ultima schermata usata"</string>
     <string name="lockscreen_bypass_title">Ignora schermata di blocco</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notifiche di lavoro</string>
     <string name="reset_dashboard_summary">È possibile reimpostare la rete, le app o il dispositivo</string>
     <string name="reset_dashboard_title">Opzioni di ripristino</string>
-    <string name="abc_action_bar_home_description">Portami a casa</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
     <string name="screensaver_settings_title">Salvaschermo</string>
     <string name="screen_timeout">Spegnimento schermo</string>
     <string name="screen_zoom_title">Dimensioni di visualizzazione</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">"Aumenta automaticamente la frequenza di aggiornamento da 60 a 90 Hz per alcuni contenuti. Aumenta l'utilizzo della batteria."</string>
     <string name="accessibility_vibration_settings_title">Vibrazione e feedback aptico</string>
     <string name="emergency_gesture_screen_title">SOS emergenze</string>
-    <string name="abc_action_bar_up_description">Torna indietro</string>
+    <string name="abc_action_mode_done">Fine</string>
     <string name="vibrate_for_calls_category_title">Chiamate</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Mostra portafoglio</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Mostra controlli dei dispositivi</string>
     <string name="lockscreen_privacy_wallet_summary">"Consenti l'accesso al portafoglio dalla schermata di blocco e dalle impostazioni rapide"</string>
     <string name="lockscreen_privacy_controls_summary">Accedi ai controlli quando i dispositivi sono bloccati</string>
-    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
-    <string name="abc_action_mode_done">Fine</string>
     <string name="abc_activity_chooser_view_see_all">Mostra tutto</string>
     <string name="abc_activitychooserview_choose_application">"Scelta di un'app"</string>
     <string name="abc_capital_off">OFF</string>
@@ -3306,7 +3304,7 @@ Sono presenti altri utenti su questo dispositivo.
     <string name="mobile_data_disable_title">Disattivare i dati mobili?</string>
     <string name="mobile_data_no_connection">Nessuna connessione</string>
     <string name="mobile_data_off">Dati mobili disattivati</string>
-    <string name="mobile_data_off_summary">Impossibile connettere automaticamente dati mobili</string>
+    <string name="mobile_data_off_summary">La rete mobile non si connetterà automaticamente</string>
     <string name="mobile_data_settings_summary">Accedi ai dati tramite la rete mobile</string>
     <string name="mobile_data_settings_summary_auto_switch">Il telefono passerà automaticamente a questo operatore quando si trova in portata</string>
     <string name="mobile_data_settings_summary_unavailable">Nessuna scheda SIM disponibile</string>
@@ -3822,7 +3820,7 @@ premi contemporaneamente il tasto di accensione e il tasto alza il volume"</stri
     <string name="power_remaining_less_than_duration">Carica residua: meno di %1$s (%2$s)</string>
     <string name="power_remaining_less_than_duration_only">Carica residua: meno di %1$s</string>
     <string name="power_remaining_more_than_subtext">Tempo residuo: più di %1$s (%2$s)</string>
-    <string name="power_remaining_only_more_than_subtext">Tempo residuo: più di %1$s</string>
+    <string name="power_remaining_only_more_than_subtext">Tempo rimanente: più di %1$s</string>
     <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Schermo</string>
     <string name="power_suggestion_battery_run_out">La batteria potrebbe esaurirsi entro le %1$s</string>
@@ -3896,7 +3894,7 @@ premi contemporaneamente il tasto di accensione e il tasto alza il volume"</stri
     <string name="prevent_ringing_option_vibrate_summary">Vibrazione</string>
     <string name="preview_page_indicator_content_description">Anteprima, pagina %1$d di %2$d</string>
     <string name="preview_pager_content_description">Anteprima</string>
-    <string name="previous_connected_see_all">Mostra tutti</string>
+    <string name="previous_connected_see_all">Mostra tutte</string>
     <string name="print_blocked_state_title_template">La stampante ha bloccato %1$s</string>
     <string name="print_cancel">Annulla</string>
     <string name="print_cancelling_state_title_template">Annullamento di %1$s</string>

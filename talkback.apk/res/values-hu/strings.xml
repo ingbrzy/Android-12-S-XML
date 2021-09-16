@@ -105,7 +105,7 @@ Tájékozódhat most a többi témáról, vagy bármikor újra áttekintheti eze
     <string name="audio_focus_state">Hang automatikus halkítása: %1$s</string>
     <string name="auto_detect">Igazítás az eszköz tartásához</string>
     <string name="auto_scan_action_description">Keresés és kiválasztás indítása</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">„Automatikus keresés” vagy „Kiválasztás”</string>
     <string name="available_devices_header">Rendelkezésre álló Bluetooth-eszközök</string>
     <string name="basic_navigation_link_subtext">Mozgás az elemek között, görgetés, menühasználat stb.</string>
     <string name="basic_navigation_link_text">A navigáció alapjai</string>
@@ -119,7 +119,7 @@ Tájékozódhat most a többi témáról, vagy bármikor újra áttekintheti eze
     <string name="bluetooth_no_devices_paired">Nincsenek párosított Bluetooth-eszközök</string>
     <string name="bluetooth_not_enabled_message">Bluetooth-kapcsoló párosításához kapcsolja be a Bluetooth-t</string>
     <string name="bluetooth_peripheral_content_description">Perifériás</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">A Bluetooth-kapcsoló telepítővarázslóban való párosításához kapcsolja be a Bluetooth-t, és engedélyezze, hogy a Kisegítő csomag Androidhoz szolgáltatás hozzáférjen a közeli eszközökhöz és a helymeghatározási jogosultságokhoz.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Kapcsoló vezeték nélküli párosítása Bluetooth-on keresztül</string>
     <string name="bluetooth_switch_option_text">Bluetooth-kapcsoló</string>
@@ -157,6 +157,9 @@ Tájékozódhat most a többi témáról, vagy bármikor újra áttekintheti eze
     <string name="cam_switch_enable_banner_text_label_generic">Az eszköz vezérléséhez előbb engedélyeznie kell a kapcsolóalapú hozzáférést.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Kamerakapcsolók engedélyezése</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Kapcsolóalapú hozzáférés engedélyezése</string>
+    <string name="cam_switches_combined_preferences_title">„%1$s“ beállításai</string>
+    <string name="cam_switches_preferences_title">A kamerakapcsolók beállításai</string>
+    <string name="cam_switches_single_preferences_title">„%s“ beállításai</string>
     <string name="camera_switches_status_active">Kamerakapcsoló-műveletek engedélyezve</string>
     <string name="camera_switches_status_error">Hiba</string>
     <string name="camera_switches_status_no_face">Nem ismerhető fel arc</string>
@@ -399,6 +402,7 @@ Próbálja ki most. Érintse meg a képernyőt, és húzza ujját a bal alsó sa
     <string name="fallback_menu_item_open_in_browser">Megnyitás böngészőben</string>
     <string name="fallback_menu_item_share_link">Link megosztása</string>
     <string name="fast_radio_button_title">Gyors (%1$s másodperc késleltetés)</string>
+    <string name="fast_radio_button_title_content_description">Gyors (%1$s másodperces késés)</string>
     <string name="find_finish_button_text">Csúsztasson jobbra a Befejezés gomb megkereséséhez.</string>
     <string name="finish">Befejezés</string>
     <string name="finish_tutorial_announcement">A Braille-billentyűzet látható. Fordítsa úgy a telefonját, hogy a hátlapja nézzen Ön felé. Fordítsa a telefont fekvő pozícióba. Majd kezdjen el gépelni.</string>
@@ -747,6 +751,7 @@ Belső nézet neve: %1$s"</string>
     <string name="list_index_template">Jelenlegi elem pozíciója: %1$d., összes elem: %2$d</string>
     <string name="lockscreen_label">Lezárási képernyő</string>
     <string name="medium_radio_button_title">Közepes (%1$s másodperc késleltetés)</string>
+    <string name="medium_radio_button_title_content_description">Közepes (%1$s másodperces késés)</string>
     <string name="menu_category_reading_controls">Olvasás</string>
     <string name="menu_category_special_features">Speciális funkciók</string>
     <string name="menus_selector_text">"A billentyűparancsok segítségével gyorsan módosíthatja a beállításokat (pl. a karakterek szerinti navigációról szavak szerinti navigációra válthat, illetve módosíthatja a TalkBack beszédsebességét).
@@ -767,6 +772,7 @@ Nyissa meg most a TalkBack-menüt, koppintson három ujjával a képernyőn."</s
 Nyissa meg most a TalkBack-menüt úgy, hogy lefelé, majd jobbra csúsztatja ujját."</string>
     <string name="menus_title">Menü és vezérlők</string>
     <string name="message_in_reset_keymap_confirm_dialog">Biztosan visszaállítja a billentyűzetkiosztás billentyűkódjait az alapértelmezett értékekre? Felhívjuk figyelmét, hogy ezt a műveletet nem lehet visszavonni.</string>
+    <string name="message_request_phone_permission">A TalkBack szeretné tudni, hogy mikor zajlik telefonhívás, mert ezáltal a TalkBack csökkentheti a tevékenységeket megszakító értesítések számát.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Ezzel az összes kézmozdulatot az alapértelmezett műveletekre állítja vissza.
 
 Az elvégzett módosítások így elvesznek."</string>
@@ -996,6 +1002,7 @@ Kipróbálhatja bármelyik olyan kézmozdulatot, ahol két csúsztatás deréksz
     <string name="pref_reduce_window_delay_title">Az ablak ismertetésére vonatkozó késleltetés csökkentése</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Kamerakapcsolók hozzáadása</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Fizikai kapcsolók törlése</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">A következő kapcsoló beállításainak konfigurálása: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Kamerakapcsolók szerkesztése</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Nincs hozzárendelve kamerakapcsoló</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Kamerakapcsolók hozzárendelése a következő művelethez: %s</string>
@@ -1016,9 +1023,9 @@ Kipróbálhatja bármelyik olyan kézmozdulatot, ahol két csúsztatás deréksz
     <string name="pref_sa_face_playground_stop_preview_content_description">Előnézet leállítása</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Bekapcsolás</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">A kamerakapcsolóknak bekapcsolva kell lenniük a tesztelési terület használatához.</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Próbálja ki: az összes arckifejezéstípus kipróbálása, köztük a nyitott szájjal, a mosollyal stb.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Kipróbálom</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Próbálja ki: %1$s arckifejezés kipróbálása</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Ez a tesztelési terület szüneteltetve van. Az alábbi gombbal újrakezdheti a tesztelést.</string>
     <string name="pref_selector_summary">%1$s a beállítás kiválasztásához. Majd %2$s a beállítás módosításához.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s vagy %2$s a beállítás kiválasztásához. Majd %3$s a beállítás módosításához.</string>
@@ -1069,6 +1076,7 @@ Ha eszköze továbbra sem csatlakozik, nyissa meg a Bluetooth-beállításokat, 
     <string name="reduce_speed_button">Sebesség csökkentése</string>
     <string name="remaining_calibration_finish_announcement">Az összes pontpozíció frissítve</string>
     <string name="reminder_announcement">Csúsztassa felfelé három ujját a további lehetőségekért</string>
+    <string name="remove_assigned_switch">A következő kapcsoló-hozzárendelésének törlése: %s</string>
     <string name="report_gesture_description">Itt láthatja a nemrég végzett kézmozdulatokat. Kérjük, jelentse a problémás kézmozdulatokat, és számoljon be arról, mit várt tőlük.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Visszaállítás</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Visszaállítás</string>
@@ -1149,6 +1157,7 @@ Próbálja ki most. Csúsztasson felfelé két ujjal, amíg a listaelemek aljái
     <string name="search_mode_hint_no_selection">Nincs kiválasztva elem.</string>
     <string name="search_mode_hint_query">Jelenlegi lekérdezés: %1$s.</string>
     <string name="search_mode_hint_selection">Jelenlegi kijelölés: %1$s.</string>
+    <string name="select_for_point_scan">„Kiválasztás”</string>
     <string name="select_setting_hint">%1$s más beállítás kiválasztásához</string>
     <string name="selecting_text_text">"A szövegmezőben helyezze a kurzort a kijelölni kívánt szöveg elejére.
 
@@ -1209,6 +1218,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="shortcut_media_control">Médiatartalom lejátszása/szüneteltetése</string>
     <string name="shortcut_next">Következő elem</string>
     <string name="shortcut_next_granularity">Következő navigációs beállítás</string>
+    <string name="shortcut_next_window">Következő ablak</string>
     <string name="shortcut_not_customizable">%1$s, nem szabható személyre</string>
     <string name="shortcut_notifications">Értesítések</string>
     <string name="shortcut_overview">Áttekintés</string>
@@ -1221,6 +1231,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="shortcut_practice_gestures">Kézmozdulatok gyakorlása</string>
     <string name="shortcut_previous">Előző elem</string>
     <string name="shortcut_previous_granularity">Előző navigációs beállítás</string>
+    <string name="shortcut_previous_window">Előző ablak</string>
     <string name="shortcut_print_node_tree">Csomópont-hierarchia nyomtatása</string>
     <string name="shortcut_print_performance_stats">Teljesítménytatisztikák nyomtatása</string>
     <string name="shortcut_quick_settings">Gyorsbeállítások</string>
@@ -1260,6 +1271,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
 • Rázás a folyamatos olvasás megkezdéséhez"</string>
     <string name="six_hold_announcement">Úgy is gépelhet, hogy asztalra fekteti a telefont. Próbálja ki most. Ha a közelben nincs asztal, lefelé csúsztatva lépjen tovább.</string>
     <string name="slow_radio_button_title">Lassú (%1$s másodperc késleltetés)</string>
+    <string name="slow_radio_button_title_content_description">Lassú (%1$s másodperces késés)</string>
     <string name="sound_feedback_state">Visszajelzés hanggal %1$s</string>
     <string name="sound_feedback_summary">Hangjelzés lejátszása a módosítások jelzéséhez (pl. amikor módosul a képernyő tartalma)</string>
     <string name="speak_container_element_position_summary_off">A lista- és rácsinformációk nem lesznek kimondva</string>
@@ -1333,17 +1345,17 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="summary_pref_face_switches_debounce_time">A kamerakapcsolók ezen idő alatti többszöri aktiválását a rendszer egy aktiválásnak tekinti.</string>
     <string name="summary_pref_face_switches_enabled">A kamerakapcsolók az előlapi kamerát használják annak észleléséhez, hogy Ön a képernyőt nézi-e, valamint az arckifejezések felismeréséhez. A rendszer nem tárol képeket, és nem küldi el őket a Google-nak.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Hang lejátszása, ha megváltozik valami a képernyőn az arckifejezése hatására.</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Vizuálisan jelzi, hogy mennyi ideig tartotta arckifejezését</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">A képernyő bekapcsolva tartása, amikor engedélyezve vannak a kamerakapcsolók. A kamerakapcsolókkal nem lehetséges a kikapcsolt képernyő feloldása.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nem ismerhető fel arc</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Mutassa be bármelyik arckifejezést. Ha a rendszer felismeri, megjelenik az arckifejezés neve. A kilépéshez tartsa az arckifejezést %1$d másodpercig.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Ne mozgassa a fejét, és nézzen a kamerába. Majd %s.</string>
     <string name="summary_pref_play_store">A TalkBack jelenlegi verziószáma: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">A mozgó vonalak segítségével kiválaszthatja a kívánt vízszintes és függőleges helyet. Nyomja meg a(z) %1$s kapcsolót a pontkeresés elindításához. %2$s</string>
     <string name="summary_pref_reverse_dots">A pontok pozíciójának megcserélésére, pl. az 1. és a 4. pont cseréjével</string>
     <string name="summary_pref_revert_to_default_menu">A kapcsolóalapú hozzáférés menüjének visszaállítása a menüelemek alapértelmezett listájára.</string>
-    <string name="summary_pref_single_tap">Az aktiváláshoz koppintson egyszer az éppen kijelölt elemre (kísérleti funkció)</string>
+    <string name="summary_pref_single_tap">Az aktiváláshoz koppintson egyszer az éppen kijelölt elemre</string>
     <string name="summary_pref_tree_debug_tv">A hangalapú keresés gombjának használata a keresés helyett a csomópontfa nyomtatására</string>
     <string name="summary_pref_use_audio_focus">A hangerő csökkentése beszéd közben</string>
     <string name="summary_read_from_current">A következő elemtől kezdve a képernyőn megjelenő összes elemet felolvassa.</string>
@@ -1479,10 +1491,10 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="switched_to_contracted_announcement">Rövidített Braille-re váltott</string>
     <string name="switched_to_ueb_uncontracted_announcement">Nem összevont UEB-re váltott</string>
     <string name="switched_to_uncontracted_announcement">Teljes Braille-re váltott</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Majdnem egyenlő</string>
     <string name="symbol_ampersand">És jel</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Kisebb, mint jel</string>
+    <string name="symbol_angle_bracket_right">Nagyobb, mint jel</string>
     <string name="symbol_apostrophe">Aposztróf</string>
     <string name="symbol_approximately_equals">Körülbelül egyenlő</string>
     <string name="symbol_asterisk">Csillag</string>
@@ -1502,7 +1514,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_bullseye">Célkör</string>
     <string name="symbol_caret">Kalap</string>
     <string name="symbol_celsius_degree">Celsius-fok</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Cent jele</string>
     <string name="symbol_circle_left_half_black">Kör, amelynek a bal fele fekete</string>
     <string name="symbol_circle_right_half_black">Kör, amelynek a jobb fele fekete</string>
     <string name="symbol_colon">Kettőspont</string>
@@ -1511,7 +1523,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_curly_bracket_left">Bal kapcsos zárójel</string>
     <string name="symbol_curly_bracket_right">Jobb kapcsos zárójel</string>
     <string name="symbol_currency_sign">Pénznem jel</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Fokjel</string>
     <string name="symbol_division">Osztásjel</string>
     <string name="symbol_dollar_sign">Dollár jel</string>
     <string name="symbol_downwards_arrow">Lefelé mutató nyíl</string>
@@ -1563,7 +1575,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_middle_dot">Középső pont</string>
     <string name="symbol_multiplication">Szorzásjel</string>
     <string name="symbol_new_line">Új sor</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Nem egyenlő</string>
     <string name="symbol_not_sign">Tagadás jel</string>
     <string name="symbol_paragraph_mark">Bekezdésjel</string>
     <string name="symbol_parenthesis_left">Bal zárójel</string>
@@ -1574,7 +1586,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_plus_minus_sign">Pluszmínusz-jel</string>
     <string name="symbol_postal_mark">Postai jel</string>
     <string name="symbol_pound">Kettős kereszt</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Font pénznem jele</string>
     <string name="symbol_quarter_note">Negyedhangjegy</string>
     <string name="symbol_question_mark">Kérdőjel</string>
     <string name="symbol_quotation_mark">Idézőjel</string>
@@ -1600,7 +1612,7 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_trademark">Védjegy</string>
     <string name="symbol_underscore">Aláhúzás</string>
     <string name="symbol_upwards_arrow">Felfelé nyíl</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Függőleges vonal</string>
     <string name="symbol_white_circle">Fehér kör</string>
     <string name="symbol_white_club_suit">Fehér treff</string>
     <string name="symbol_white_diamond">Fehér káró</string>
@@ -1614,8 +1626,8 @@ Próbálja meg kijelölni a lenti szövegmezőben található „Üdvözli” sz
     <string name="symbol_white_square">Fehér négyzet</string>
     <string name="symbol_white_star">Fehér csillag</string>
     <string name="symbol_white_up_pointing_triangle">Fehér, felfelé mutató háromszög</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Won pénznem jele</string>
+    <string name="symbol_won_sign">Won pénznem jele</string>
     <string name="symbol_yen">Jen</string>
     <string name="system_actions">Rendszerműveletek</string>
     <string name="tabletop">Vízszintes mód</string>
@@ -1783,7 +1795,7 @@ A TalkBack kikapcsolása:
     <string name="title_pref_category_assign_switches">Kapcsolók hozzárendelése</string>
     <string name="title_pref_category_audio">Hang</string>
     <string name="title_pref_category_auto_scan">Automatikus keresés</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automatikus keresés (pontkeresés)</string>
     <string name="title_pref_category_border_color">Szín</string>
     <string name="title_pref_category_built_in_gestures">Beépített kézmozdulatok</string>
     <string name="title_pref_category_context_menu">A TalkBack-menü személyre szabása</string>
@@ -1867,7 +1879,7 @@ A TalkBack kikapcsolása:
     <string name="title_pref_red">Piros</string>
     <string name="title_pref_resume_talkback">Folytatás felfüggesztett állapotból</string>
     <string name="title_pref_reverse_auto_scan_disabled">Automatikus keresés visszafelé (letiltva)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Automatikus keresés visszafelé (pontkeresés)</string>
     <string name="title_pref_reverse_dots">Pontok megfordítása</string>
     <string name="title_pref_revert_to_default_menu">Visszaállítás az alapértelmezett menüre</string>
     <string name="title_pref_scan_non_actionable_items">Leíró jellegű szöveg felolvasása</string>
@@ -1930,7 +1942,7 @@ A TalkBack kikapcsolása:
     <string name="title_pref_show_context_menu_as_list">Helyi menü megjelenítése listaként</string>
     <string name="title_pref_show_privacy_policy">Adatvédelmi irányelvek</string>
     <string name="title_pref_show_tos">Általános Szerződési Feltételek</string>
-    <string name="title_pref_single_tap">Egykoppintásos aktiválás</string>
+    <string name="title_pref_single_tap">Koppintson egyszer az aktiváláshoz</string>
     <string name="title_pref_sound_and_vibration">Hangok és rezgések</string>
     <string name="title_pref_soundback">Visszajelzés hanggal</string>
     <string name="title_pref_soundback_volume">Visszajelzés hangereje</string>
@@ -1975,6 +1987,7 @@ A TalkBack kikapcsolása:
     <string name="title_previous_screen">Előző képernyő</string>
     <string name="title_read_from_top">Olvasás a tetejétől</string>
     <string name="title_repeat_last_spoken_phrase">Az utolsó felolvasott mondat ismétlése</string>
+    <string name="title_request_phone_permission">TalkBack-kérelmek engedélye</string>
     <string name="title_screen_summary">Képernyő összegzése</string>
     <string name="title_seek_bar_controls">Csúszka</string>
     <string name="title_seek_bar_edit">Csúszka szintjének módosítása</string>

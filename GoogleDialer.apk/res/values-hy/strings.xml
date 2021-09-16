@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Պատասխանել</string>
     <string name="a11y_call_incoming_decline_description">Մերժել</string>
+    <string name="a11y_callscreen_animation">Զանգերի զտիչի շարժանկար</string>
     <string name="a11y_contact_menu_video_call_wifi">Սկսել տեսազանգ Wi-Fi-ի միջոցով</string>
     <string name="a11y_contact_menu_voice_call_wifi">Զանգել Wi-Fi-ի միջոցով</string>
     <string name="a11y_conversation_history_entry_answered_call">Վերջինը ընդունված զանգ է ^1-ից</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Զանգողների կառավարում</string>
     <string name="a11y_expandedsheet_collapse">ծալել ընտրացանկը</string>
     <string name="a11y_expandedsheet_expand">ծավալել ընտրացանկը</string>
-    <string name="a11y_favorites_education_dismiss">փակել</string>
     <string name="a11y_feature_demo_next_page">Հաջորդ էջ</string>
     <string name="a11y_feature_demo_page_indicator">Էջ %d</string>
     <string name="a11y_feature_demo_prev_page">Նախորդ էջ</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Արագ կապ ^1-ի հետ</string>
+    <string name="a11y_icon_hd">HD զանգ</string>
+    <string name="a11y_icon_hd_plus">HD Plus զանգ</string>
+    <string name="a11y_icon_shared_data_call">Զանգ բջջային ինտերնետով</string>
+    <string name="a11y_icon_verified">Ստուգված զանգ</string>
+    <string name="a11y_icon_vilte">Տեսազանգ (LTE)</string>
+    <string name="a11y_icon_viwifi">Տեսազանգ (Wi-Fi)</string>
+    <string name="a11y_icon_volte">Ձայնային զանգ (LTE)</string>
+    <string name="a11y_icon_voz4g">Ձայնային զանգ (4G)</string>
+    <string name="a11y_icon_wifi">Զանգ Wi-Fi-ի միջոցով</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Պատասխանելու համար երկու մատը սահեցրեք վերև, մերժելու համար՝ ներքև:</string>
     <string name="a11y_incoming_call_swipe_to_answer">Երկու մատը սահեցրեք վերև՝ զանգն ընդունելու համար, ներքև՝ մերժելու համար</string>
     <string name="a11y_new_call_log_entry_call_recording">զանգը ձայնագրվում է</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4։</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">RTT զանգ կատարել ^1-ին</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Զանգ բջջային ինտերնետով</string>
     <string name="a11y_new_call_log_entry_tap_action">ծավալել ընտրացանկը</string>
     <string name="a11y_new_call_log_entry_video_call">սկսել տեսազանգ ^1-ի հետ</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">սկսել տեսազանգ ^1-ի հետ Wi-Fi-ի միջոցով</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Փոփոխել համարը զանգելուց առաջ</string>
     <string name="action_menu_back_from_search">դադարեցնել որոնումը</string>
     <string name="action_menu_overflow_description">Այլ ընտրանքներ</string>
+    <string name="activate_error_message">Չհաջողվեց ակտիվացնել զանգերի զտիչը</string>
+    <string name="activated_successfully">Զանգերի զտիչն ակտիվացվեց</string>
     <string name="activity_not_available">Սարքի վրա համապատասխան հավելված չկա</string>
     <string name="add_2sec_pause">Ավելացնել 2 վայրկյան դադար</string>
     <string name="add_contact_not_available">Կոնտակտների հավելված չկա</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">Զանգել</string>
     <string name="bm_suggest_chat_button">Զրույց</string>
     <string name="bm_suggest_wait_min">"Զրուցել
-%1$d ր սպասել"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s չկարդացված</string>
+Սպասեք %1$d ր"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Սպասեք…"</string>
     <string name="bottomsheet_action_expand_halfway">Ծավալել կիսով չափ</string>
     <string name="bubble_bottom_action_end_call">Ավարտել զանգը</string>
     <string name="bubble_bottom_action_hide">Թաքցնել</string>
@@ -170,7 +182,10 @@
     <string name="call">Զանգ</string>
     <string name="callFailed_simError">SIM- բացակայում է կամ SIM քարտի սխալ</string>
     <string name="callHistoryIconLabel">Զանգերի պատմություն</string>
-    <string name="call_announcer_preference_footer_instruction_text">Մուտքային զանգերի ժամանակ զանգողի անունն ու համարը բարձրաձայն կհայտարարվի</string>
+    <string name="call_action_label_automatically_screen">Ավտոմատ զտում․ մերժել ավտոմատ զանգերը։</string>
+    <string name="call_action_label_ring_phone">Նվագարկել զանգերանգ (կանխադրված)</string>
+    <string name="call_action_label_silently_decline">Մերժել անձայն</string>
+    <string name="call_announcer_preference_footer_instruction_text">Մուտքային զանգերի ժամանակ զանգողի անունն ու համարը բարձրաձայն կհայտարարվի։</string>
     <string name="call_announcer_preference_list_title">Զանգողի անվան/համարի հայտարարում</string>
     <string name="call_announcer_preference_option_always">Միշտ</string>
     <string name="call_announcer_preference_option_headset">Միայն ականջակալ օգտագործելիս</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Պատասխանել</string>
     <string name="call_incoming_answer_rtt">Պատասխանել RTT-ով</string>
     <string name="call_incoming_answer_voice">Պատասխանել ձայնային հաղորդագրությամբ</string>
-    <string name="call_incoming_chip_answer_and_release">Ավարտել զանգը և պատասխանել</string>
+    <string name="call_incoming_chip_answer_and_release">Պատասխանել և ավարտել ընթացիկ զանգը</string>
     <string name="call_incoming_chip_answer_as_rtt">Պատասխանել RTT զանգով</string>
     <string name="call_incoming_chip_answer_video_as_audio">Պատասխանել որպես ձայնային զանգի</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Պատասխանել անջատված տեսախցիկով</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Պատասխանելու համար սահեցրեք վերև</string>
     <string name="call_incoming_swipe_to_reject">Մերժելու համար սահեցրեք ներքև</string>
     <string name="call_incoming_video_is_off">Ձեր տեսախցիկն անջատված է</string>
-    <string name="call_incoming_will_disconnect">Եթե պատասխանեք այս զանգին, տեսազանգը կընդհատվի</string>
+    <string name="call_incoming_will_disconnect">Եթե պատասխանեք այս զանգին, ընթացիկ զանգը կավարտվի</string>
     <string name="call_incoming_will_disconnect_app">Եթե պատասխանեք այս զանգին, %1$s-ի ընթացիկ զանգը կընդհատվի</string>
     <string name="call_isdn">Զանգել ISDN համարին</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Արգելափակել/նշել որպես սպամ</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Զանգի պատճառը՝ %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Ձայնագրությունը պահվեց։</string>
     <string name="call_recording_conversation_history_entry">Ձայնագրված է</string>
+    <string name="call_recording_delete_snack_bar_undo">Հետարկել</string>
     <string name="call_recording_disclaimer_agreen_button_text">Սկսել ձայնագրումը</string>
     <string name="call_recording_disclaimer_content">"Հնարավոր է՝ դուք կամ ձեր զրուցակիցներից որևէ մեկը գտնվում է այնպիսի վայրում, որտեղ ձայնագրման համար պահանջվում է զանգի բոլոր մասնակիցների համաձայնությունը։ Բոլոր մասնակիցները նախապես կտեղեկացվեն, որ զանգը ձայնագրվում է։ Զրույցների ձայնագրման հետ կապված օրենքներին հետևելը թողնված է ձեր հայեցողությանը։ Օգտագործեք զանգի ձայնագրման գործառույթը պատասխանատու կերպով և միայն անհրաժեշտության դեպքում։
 ^1
@@ -291,6 +307,7 @@
 Ո՛չ զանգի ձայնագրությունը, ո՛չ էլ տեքստը չեն ուղարկվում որևէ մեկին (ներառյալ Google-ին)։"</string>
     <string name="call_screen_demo_page_4_title">Խնայեք ժամանակը և խուսափեք հիասթափությունից</string>
     <string name="call_screen_demo_setting_title">Տեսնել դեմո տարբերակը</string>
+    <string name="call_screen_demo_settings_title">Տեսնել դեմո տարբերակը</string>
     <string name="call_screen_demo_title">Ինչպես է աշխատում զանգերի զտիչը</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Հնարավոր չէ բեռնել ձայնային նմուշը</string>
     <string name="call_screen_demo_unable_to_play_audio">Հնարավոր չէ նվագարկել ձայնային նմուշը</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">Դուք ավարտեցիք զանգը</string>
     <string name="call_screen_end_call_non_local_internal_message">Զանգն ընդհատվեց</string>
     <string name="call_screen_how_it_works_setting_title">Զանգերի զտիչն աշխատում է ձեր սարքում առանց Wi-Fi-ի կամ բջջային ինտերնետի։ Զրույցների տեքստը ստեղծվում և պահվում է միայն ձեր հեռախոսում։ %1$s</string>
+    <string name="call_screen_how_it_works_title">Զանգերի զտիչն աշխատում է ձեր սարքում առանց Wi-Fi-ի կամ բջջային ինտերնետի։ Զրույցների տեքստը ստեղծվում և պահվում է միայն ձեր հեռախոսում։ ^1</string>
     <string name="call_screen_incallui_chip_text">Զտել զանգը</string>
     <string name="call_screen_join_call_button_content_description">Միանալ զանգին</string>
     <string name="call_screen_join_call_internal_message">Դուք միացաք զանգին</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">Բաժանորդին հաղորդվում է</string>
     <string name="call_screen_screening_call_from">Հետևյալ բաժանորդի զանգը զտվոմ է՝</string>
     <string name="call_screen_setting_title">Զանգերի զտիչ</string>
+    <string name="call_screen_settings_title">Զանգերի զտիչ</string>
     <string name="call_screen_speaker_toggle_button_content_description">«Բարձրախոս» կոճակ</string>
     <string name="call_screen_suggestions_avatar_content_description">Լոգո</string>
     <string name="call_screen_survey_cancel_button">Չեղարկել</string>
@@ -331,6 +350,8 @@
     <string name="call_work">Զանգել աշխաատավայր</string>
     <string name="call_work_mobile">Զանգել աշխատավայրի բջջայինին</string>
     <string name="call_work_pager">Զանգել աշխատավայրի փեյջերին</string>
+    <string name="caller_action_error_cant_load_value">Չհաջողվեց ստանալ ընթացիկ %1$s արժեքը</string>
+    <string name="caller_action_error_cant_set_value">Չհաջողվեց պահել ընթացիկ %1$s արժեքը</string>
     <string name="caller_id_announcement_multi_sim">մուտքային %1$s %2$s-ից %3$s SIM քարտին</string>
     <string name="caller_id_announcement_single_sim">մուտքային %1$s %2$s-ից</string>
     <string name="caller_id_business_data_details">Այս գործառույթներում օգտագործվող տվյալները տրամադրվում են Google-ի և իր լիցենզատուների կողմից։ ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">Զանգե՞լ %s-ին</string>
     <string name="calllog_add_to_contact">Ավելացնել կոնտակտին</string>
     <string name="calllog_create_new_contact">Ստեղծել նոր կոնտակտ</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Զանգերի զտիչի ակտիվացում (անհրաժեշտ է WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Ձայն</string>
+    <string name="camera_permission_toast">Տեսախցիկից օգտվելու թույլտվությունը տրամադրված է</string>
     <string name="camera_privacy_text">Տեսախցիկից օգտվելու թույլտվությունը տրամադրված է</string>
     <string name="cannot_understand_description">Չեմ հասկանում</string>
     <string name="car_crash_emergency_intro">"Բաժանորդը կապվել է ձեզ հետ արտակարգ իրավիճակների ավտոմատ ձայնային ծառայության միջոցով:
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Չհաջողվեց կարգավորել զանգերի ստուգման գործառույթը։ Կարգավորումներում կարող եք նորից միացնել այն։</string>
     <string name="contact_card_video_icon_content_description">Տեսազանգել ^1-ին</string>
     <string name="contact_grid_callback_number">Այս հեռախոսի համարը՝ %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Զանգը վերահասցեավորվել է</string>
+    <string name="contact_grid_hd_icon_content_description">HD զանգ</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus զանգ</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Տեսազանգ հետևյալ բաժանորդից՝</string>
     <string name="contact_grid_incoming_reception_only_video_call">Միակողմանի տեսազանգ հետևյալ բաժանորդից (բջջային ցանցով)՝</string>
     <string name="contact_grid_incoming_rtt_call">RTT զանգ բաժանորդից՝</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Տեսազանգ հետևյալ բաժանորդից (Wi-Fi-ով)՝</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Միակողմանի տեսազանգ հետևյալ բաժանորդից (Wi-Fi-ով)՝</string>
     <string name="contact_grid_incoming_work_call">Գործնական զանգ հետևյալ բաժանորդից՝</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Զանգ բջջային ինտերնետով</string>
+    <string name="contact_grid_spam_icon_content_description">Սպամային զանգ</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Օպերատոր</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Հաստատված է %1$s-ի կողմից</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Վավեր հեռախոսահամար</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Տեսազանգ (LTE)</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Տեսազանգ (Wi-Fi)</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Ձայնային զանգ (4G)</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Ձայնային զանգ (LTE)</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Ձայնային զանգ (Wi-Fi)</string>
+    <string name="contact_grid_wifi_icon_content_description">Զանգ Wi-Fi-ի միջոցով</string>
+    <string name="contact_grid_work_icon_content_description">Աշխատանքային զանգ</string>
     <string name="contact_menu_add_favorite">Նշել նախընտրած</string>
     <string name="contact_menu_contact_info">Տվյալներ</string>
     <string name="contact_menu_invite_video">Հրավիրել տեսազանգի</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">Այսօր</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Զանգը ջնջվեց</string>
     <string name="conversation_history_call_details_snack_bar_undo">Հետարկել</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Կարևոր զանգ</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Տեղեկություններ ավելացված զանգի մասին</string>
+    <string name="conversation_history_call_recording_deleted">Ձայնագրությունը ջնջվեց</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Տառադարձում և աուդիո</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Տառադարձում</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Ցուցադրել տառադարձումն ու ձայնագրությունը</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Զանգերի զտիչ</string>
     <string name="copy">Պատճենել</string>
     <string name="copy_number">Պատճենել համարը</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">Կանխադրված հեռախոսային կոդ</string>
     <string name="custom_prefix_prefixes_preference_title">Հեռախոսային կոդեր</string>
     <string name="dark_theme_label">Մուգ</string>
+    <string name="default_changed_confirmation">«Հեռախոս» հավելվածը նշվեց որպես կանխադրված</string>
+    <string name="default_image_content_description">Ցայտյունի պատկեր</string>
     <string name="delete">Ջնջել</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Ջնջել բոլոր ձայնագրությունները</string>
     <string name="delete_all_recordings_now_error_message">Որոշ ձայնագրություններ չհաջողվեց ջնջել։ Նորից փորձեք։</string>
     <string name="delete_button_label">Ջնջել բոլոր ձայնագրությունները</string>
     <string name="delete_confirmation_dialog_negative_button_label">Չեղարկել</string>
     <string name="delete_confirmation_dialog_positive_button_label">Ջնջել</string>
+    <string name="delete_old_recordings_error_cant_load_value">Չհաջողվեց ստանալ ընթացիկ %1$s արժեքը</string>
+    <string name="delete_old_recordings_error_cant_set_value">Չհաջողվեց պահել ընթացիկ %1$s արժեքը</string>
+    <string name="deleting_call_recording">Ձայնագրությունը ջնջվում է…</string>
     <string name="description_add_to_existing_contact_action">Ավելացնել ^1-ը առկա կոնտակտին</string>
     <string name="description_blocked_number_list_delete">Արգելահանել համարը</string>
     <string name="description_call_action">Զանգել ^1-ին</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"Բաժանորդը կապվել է ձեզ հետ արտակարգ իրավիճակների ավտոմատ ձայնային ծառայության միջոցով։
 Հնարավոր է՝ նա արտակարգ իրավիճակում է հայտնվել։ 
 Խնդրում ենք օգնություն ուղարկել նրան։"</string>
+    <string name="emergency_speaker">Բարձրախոս</string>
     <string name="emergency_voice_assist_dialog_button_close">Չեղարկել</string>
     <string name="emergency_voice_assist_dialog_title">Արտակարգ իրավիճակների ծառայության օպերատորը լսում է սա</string>
     <string name="end_call_with_default_message_description">Ավարտել զանգը</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">Ձայնը չափազանց ցածր էր</string>
     <string name="feedback_call_issue_title">Ի՞նչն էր խնդիրը</string>
     <string name="feedback_title_please_rate">Գնահատեք զանգի որակը</string>
+    <string name="first_time_callers_action_preference_description">Զանգողներ, որոնք չկան ձեր զանգերի մատյանում</string>
+    <string name="first_time_callers_action_preference_title">Առաջին անգամ զանգողներ</string>
     <string name="flip_to_shush_title">Շրջել «Շշշ» ռեժիմի համար</string>
     <string name="flip_to_silence_summary">Մուտքային զանգի ձայնն անջատելու համար հեռախոսը էկրանի կողմով դրեք հարթ մակերևույթի վրա։</string>
     <string name="flip_to_silence_title">Շրջել՝ ձայնն անջատելու համար</string>
+    <string name="foreground_notification_title">Թարմացվում է…</string>
     <string name="frequent_contact_suggestion">Հաճախակի կանչվող</string>
     <string name="general_learn_more">Իմանալ ավելին</string>
     <string name="generic_conference_call_name">Զանգ</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">Իմանալ ավելին ձայնագրությունների պահման մասին</string>
     <string name="how_it_works_storage_template">Զանգի ձայնագրումը կդադարեցվի, եթե հեռախոսի տարածքը սպառվի։ ^1</string>
     <string name="icon_content_description">Երկխոսության պատուհանի պատկերակ</string>
+    <string name="icon_description_shared_data_call">Զանգ բջջային ինտերնետով</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Ներմուծել համարները</string>
     <string name="ims_video_heading">Verizon-ի տեսազանգ</string>
@@ -730,7 +780,7 @@
     <string name="launcherActivityLabel">Հեռախոս</string>
     <string name="learn_more_text_for_tmo">Մանրամասն տեղեկություններ կարող եք ստանալ T-Mobile-ի կայքում</string>
     <string name="libraries_material_featurehighlight_dismiss">Փակել</string>
-    <string name="license_activity_label">Բաց կոդով ծրագրակազմի արտոնագրեր</string>
+    <string name="license_activity_label">Բաց կոդով ծրագրակազմի լիցենզիաներ</string>
     <string name="light_theme_label">Բաց</string>
     <string name="loading_intro_messages">Զանգերի զտիչի ակտիվացում (անհրաժեշտ է Wi-Fi)</string>
     <string name="local_search_dialog_text">Այս գործառույթներում օգտագործվող տվյալները տրամադրվում են Google-ի և իր լիցենզատուների կողմից: &lt;a href=\"%1$s\">Մանրամասն&lt;/a> &lt;p> Այս գործառույթից օգտվելու համար թույլատրեք Google Apps-ին օգտագործել ձեր հեռախոսի տեղադրությունը: &lt;a href=\"%2$s\">Մանրամասն&lt;/a></string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">Բաց թողնված զանգեր չունեք</string>
     <string name="new_call_log_permission_no_calllog">Ձեր զանգերի մատյանը տեսնելու համար միացրեք Հեռախոսի թույլտվությունը:</string>
     <string name="new_call_log_secondary_blocked">Արգելափակված</string>
+    <string name="new_call_log_secondary_verified">Ստուգված զանգ</string>
     <string name="new_call_log_snack_bar_deleted">Զանգը ջնջվեց։</string>
     <string name="new_call_log_snack_bar_undo">Հետարկել</string>
     <string name="new_call_log_unknown">Անհայտ</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">Տեսազանգ</string>
     <string name="notification_action_dismiss">Մերժել</string>
     <string name="notification_action_end_call">Վայր դնել</string>
+    <string name="notification_action_mute_toggle">Անջատել ձայնը</string>
     <string name="notification_action_speaker_off">Անջատել բարձրախոսը</string>
     <string name="notification_action_speaker_on">Միացնել բարձրախոսը</string>
+    <string name="notification_action_speaker_toggle">Բարձրախոս</string>
     <string name="notification_callReasonMsg">Պատճառը՝ %s</string>
     <string name="notification_call_wifi_brand">Զանգ Wi-Fi-ի միջոցով</string>
     <string name="notification_call_wifi_work_brand">Աշխատանքային զանգ Wi-Fi-ի միջոցով</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">Բջջային կապի միջոցով տեսազանգ կատարելու կոճակ։</string>
     <string name="play">Լսել</string>
     <string name="plus_code_line_format">Plus կոդ՝ %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Զանգողներ, որոնք հնարավոր է սպամերներ են և օգտագործում են փոփոխված հեռախոսահամար</string>
+    <string name="possibly_faked_numbers_action_preference_title">Թվեր, որոնք կարող են կեղծ լինել</string>
     <string name="post_call_message">Գրեք, թե ինչու էիք զանգել</string>
     <string name="post_call_message_1">Շտապ է: Հետ զանգիր ինձ:</string>
     <string name="post_call_message_2">Հետ զանգիր, երբ ժամանակ ունենաս:</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">Գաղտնիության քաղաքականություն</string>
     <string name="private_num_non_verizon">Փակ համար</string>
     <string name="private_num_verizon">Փակ համար</string>
+    <string name="private_or_hidden_action_preference_description">Զանգողներ, որոնք թաքցնում են իրենց համարը</string>
+    <string name="private_or_hidden_action_preference_title">Փակ կամ թաքցված</string>
     <string name="quick_contact_checkbox_description">Ընտրեք կոնտակտ</string>
     <string name="ready_for_recording">Նախապատրաստում…</string>
     <string name="record_greeting_cancel_label">Չեղարկել</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">Պահվում է…</string>
     <string name="record_voicemail_greeting_title">Ձայնագրեք ողջույնի խոսք</string>
     <string name="recording_category_title">Ձայնագրություններ</string>
+    <string name="recording_deleted">Ձայնագրությունը ջնջվեց</string>
+    <string name="recording_deletion_failed">Չհաջողվեց ջնջել ձայնագրությունը [Նորից փորձել]</string>
     <string name="redo_button_text">Նորից փորձել</string>
     <string name="remember_this_choice_label">Հիշել այս ընտրությունը</string>
     <string name="report_not_spam_alert_button">Բողոքել</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">Զանգեք ինձ</string>
     <string name="request_email_description">Գրեք էլ․ հասցեիս</string>
     <string name="respond_via_sms_setting_title">Արագ պատասխաններ</string>
+    <string name="revelio_callers_how_it_works_text">"Որպեսզի անծանոթ բաժանորդներից ստացվող զանգերի համար անջատեք ավտոմատ զտումը, ընտրեք «Նվագարկել զանգերանգ (կանխադրված)» կարգավորումը։ Ձեր կոնտակտներն ավտոմատ չեն զտվում։ Այս գործառույթը չի աշխատի, եթե ձեր հեռախոսին ականջակալ կամ բարձրախոս է միացված։ 
+Զանգերի զտիչը չի օգտագործում բջջային ինտերնետ կամ Wi-Fi, սակայն օգտագործում է կապի օպերատորի սակագնային փաթեթում ներառված րոպեները։ %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Ջնջել 30 օր հետո</string>
+    <string name="revelio_delete_old_recordings_setting_title">Ավտոմատ հեռացնել հին ձայնագրություններն ու տառադարձումները</string>
+    <string name="revelio_demo_setting_title">Ինչպես է աշխատում Զանգերի զտիչը</string>
     <string name="revelio_demo_turn_on">Միացնել</string>
     <string name="revelio_end_call_reject_as_spam">Զանգը նշվեց որպես սպամ</string>
     <string name="revelio_end_call_user_missed_internal_message">Դուք զանգ եք բաց թողել</string>
+    <string name="revelio_pref_title">Զանգերի զտիչ</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Ավտոմատ զտումն անջատված է</string>
+    <string name="revelio_preference_summary_screening">Զտում՝ %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Դուք կարող եք պահել այն զանգերի ձայնագրությունները, որոնց պատասխանել է ձեր Օգնականը։</string>
+    <string name="revelio_save_audio_setting_title">Պահել Զանգերի զտիչի ձայնագրությունները</string>
+    <string name="revelio_setting_title">Զանգերի զտիչ</string>
     <string name="rtt_assist_default">RTT-ն օգնում է այն բաժանորդներին, ովքեր լսողության և խոսքի դժվարություններ ունեն, կամ ովքեր լոկ ձայնով չեն բավարարվում։ ^1</string>
     <string name="rtt_assist_for_att">Արտաքին TTY ստեղնաշարի փոխարեն կարող եք օգտագործել իրական ժամանակում հաղորդագրության (RTT) էկրանային ստեղծաշարը։ Երբ RTT զանգի ընթացքում տեքստ մուտքագրեք, ձեր զրուցակիցը կտեսնի, թե ինչպես եք իրական ժամանակում հաղորդագրություն գրում։ ^1</string>
     <string name="rtt_assist_for_tmo">Արտաքին TTY ստեղնաշարի փոխարեն կարող եք օգտագործել իրական ժամանակում հաղորդագրության (RTT) էկրանային ստեղծաշարը։ RTT-ն ակնթարթորեն ուղարկում է հեռախոսազանգի ընթացքում ձեր մուտքագրած տեքստը՝ ձեզ իրական ժամանակում հաղորդագրություններով շփվելու հնարավորություն տալով։ Դուք կկարողանաք տեսնել մասնակի պատասխանները, նախքան հաղորդագրության ամբողջական դառնալը։ ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">Հետ</string>
     <string name="rtt_button_downgrade">Փոխել ձայնային զանգի</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT գործառույթը հասանելի չէ այս զանգի համար: Աջակցվում է միայն ձայնային կապը:</string>
+    <string name="rtt_call_downgraded_toast">Ձեր RTT զանգը փոխվել է սովորական զանգի</string>
+    <string name="rtt_call_not_available_toast">RTT գործառույթը հասանելի չէ այս զանգի համար</string>
     <string name="rtt_configuration_summary_always_visible">«Տեքստ իրական ժամանակում» կոճակը հասանելի է ամենուր</string>
     <string name="rtt_configuration_summary_not_visible">Թույլատրել RTT զանգերը, սակայն թաքցնել զանգի կոճակը</string>
     <string name="rtt_configuration_summary_visible_during_call">Ցուցադրել «Տեքստ իրական ժամանակում» կոճակը զանգի ժամանակ</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">Տեսնել տառադարձումը</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Այս հաղորդագրությունը կկրկնվի։</string>
+    <string name="save_audio_error_cant_load_value">Չհաջողվեց ստանալ «Պահել Զանգերի զտիչի ձայնագրությունները» գործառույթի ընթացիկ արժեքը</string>
+    <string name="save_audio_error_cant_set_value">Չհաջողվեց պահել «Պահել Զանգերի զտիչի ձայնագրությունները» գործառույթի արժեքը</string>
     <string name="save_button_text">Պահել</string>
     <string name="saved_voicemails_action_title">Պահված ձայնային հաղորդագրություններ (%1$s)</string>
     <string name="search_hint">Որոնեք կոնտակտներ</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">Ուղարկել հաղորդագրություն</string>
     <string name="send_to_voicemail_import_failed">Ներմուծումը չհաջողվեց</string>
     <string name="serial_number">Սերիական համարը</string>
+    <string name="set_as_default_button_text">Նշել որպես կանխադրված</string>
     <string name="set_default_account">Միշտ օգտագործել սա՝ զանգերի համար</string>
     <string name="set_default_account_description">Հաջորդ անգամ միևնույն կոնտակտին զանգելիս SIM քարտի նախապատվությունը կմնա նույնը:</string>
+    <string name="set_phone_as_default_explanation_text">«Հեռախոս» հավելվածով կարող եք զանգեր կատարել և ստանալ միայն, եթե այն հեռախոսի կանխադրված հավելվածն է։</string>
+    <string name="set_phone_as_default_request_text">Նշեք «Հեռախոս» հավելվածը որպես կանխադրված</string>
     <string name="settings">Կարգավորումներ</string>
     <string name="settings_page_call_recording_feature_not_available_text">Զանգի ձայնագրումը հասանելի չէ ձեր երկրում</string>
     <string name="settings_page_crosby_feature_not_available_text">Հասանելի չէ ձեր երկրում</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">Հետարկել</string>
     <string name="snackbar_voicemail_deleted">Ձայնային փոստը ջնջվեց</string>
     <string name="sounds_and_vibration_title">Ձայներ և թրթռոց</string>
+    <string name="spam_action_preference_description">Համարներ, որոնք ներառված են Google-ի՝ սպամային տվյալների շտեմարանում</string>
+    <string name="spam_action_preference_title">Սպամ</string>
     <string name="spam_and_call_screen_settings_title">Սպամի և զանգերի զտիչ</string>
     <string name="spam_blocking_promo_action_dismiss">Փակել</string>
     <string name="spam_blocking_promo_action_filter_spam">Զտել սպամը</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">Ավելացնել</string>
     <string name="speed_dial_contacts_permission_description">Արագ համարհավաքման գործառույթից օգտվելու համար միացրեք «Կոնտակտներ» թույլտվությունը:</string>
     <string name="speed_dial_disambig_dialog_title">Ընտրեք %s-ին զանգելու եղանակը</string>
-    <string name="speed_dial_education_content">Հպեք և պահեք կոնտակտը՝ զանգերի և հաղորդագրությունների միջև փոխարկելու համար:</string>
-    <string name="speed_dial_education_title">Կապվելու այլ եղանակներ</string>
     <string name="speed_dial_no_contacts_action_text">Ավելացնել կոնտակտ</string>
     <string name="speed_dial_no_contacts_description">Զանգեք ձեր նախընտրած կոնտակտներին մեկ հպումով</string>
     <string name="speed_dial_remember_this_choice">Հիշել այս ընտրությունը</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">Օգտագործման պայմաններ</string>
     <string name="textmessage_button_label">SMS</string>
     <string name="theme_preference_label">Ընտրեք թեմա</string>
+    <string name="tidepods_call_screen_settings_title">Զանգերի զտիչ</string>
+    <string name="tidepods_incall_label_record">Ձայնագրել</string>
     <string name="toast_text_copied">Տեքստը պատճենվեց</string>
     <string name="toolbar_back">Հետ</string>
     <string name="toolbar_close">Փակել</string>
     <string name="transcript_audio_feedback_chip_text">Օգնեք բարելավել ծառայությունը</string>
+    <string name="transcript_audio_feedback_link_text">Ցուցադրել տառադարձումն ու ձայնագրությունը</string>
     <string name="transcript_snippet_low_confidence_description">(Ձայնը մաքուր չէր)</string>
+    <string name="try_again_button">Նորից փորձել</string>
     <string name="tty_configuration_title_tty_full">Լիարժեք TTY</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY-ն անջատված է</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">Ելքային տեսազանգը փոխանցվեց մեկ այլ սարքի</string>
     <string name="type_rejected">Մերժված զանգ</string>
     <string name="type_voicemail">Ձայնային փոստ</string>
-    <string name="unable_change_value_error">Չհաջողվեց փոխել RTT-ի կարգավորումները։ Վերադարձեք և նորից փորձեք։</string>
     <string name="unable_read_value_error">Չհաջողվեց ընթերցել RTT-ի կարգավորումները։ Վերադարձեք և նորից փորձեք։</string>
     <string name="unblock_number">Արգելահանել</string>
     <string name="unblock_number_alert_details">Այս համարը կարգելահանվի և կնշվի որպես ոչ սպամ: Այս համարից եկող զանգերն այլևս չեն նշվի որպես սպամ:</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">Արգելահանել</string>
     <string name="unblock_report_number_alert_title">Արգելահանե՞լ %1$s համարը</string>
     <string name="unknown">Անհայտ</string>
+    <string name="unknown_call_settings_category_preference_title">Անծանոթ զանգերի կարգավորումներ</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Միացնել մուտքային զանգի ձայնը</string>
     <string name="user_is_busy_description">Ես ձեզ կզանգեմ</string>
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">Զրուցակցի խցիկը միացած է</string>
     <string name="videocall_remotely_held">Զանգը սպասման մեջ է</string>
     <string name="videocall_remotely_resumed">Զանգը վերսկսվեց</string>
+    <string name="videocall_settings_default_carrier">Տեսազանգեր բջջային ցանցի միջոցով</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Տեսազանգի կանխադրված ծառայություն</string>
+    <string name="videocall_settings_fallback_summary">Անցում կատարել Duo-ին, եթե բջջային ցանցի միջոցով տեսազանգերը հասանելի չեն։</string>
+    <string name="videocall_settings_fallback_title">Օգտագործել Duo-ն որպես պահեստային տարբերակ</string>
+    <string name="videocall_settings_title">Տեսազանգ</string>
     <string name="videocall_show_preview_button_description">Ցուցադրել սեփական տեսահոսքը</string>
     <string name="view">Դիտել</string>
     <string name="view_location_settings">Տեղադրության կարգավորումներ</string>
     <string name="vitle_label">ViLTE</string>
+    <string name="viwifi_label">Տեսազանգ (Wi-Fi)</string>
     <string name="vm_change_pin_error_invalid">Նոր PIN կոդը պարունակում է անվավեր նիշեր:</string>
     <string name="vm_change_pin_error_mismatch">Հին PIN կոդը սխալ է:</string>
     <string name="vm_change_pin_error_system_error">Չհաջողվեց փոխել PIN կոդը</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">Սպասեք:</string>
     <string name="voice_call">Զանգ</string>
     <string name="voice_call_button">Զանգ</string>
+    <string name="voice_display_name">Ձայն %1$d</string>
     <string name="voice_search_not_available">Ձայնային որոնումը հասանելի չէ</string>
     <string name="voice_selector_preference_title">Հասանելի ձայներ</string>
+    <string name="voice_settings_available_voices_text">Հասանելի ձայներ</string>
+    <string name="voice_settings_title">Ձայն</string>
     <string name="voicecall_button_label">Զանգ</string>
     <string name="voicecall_button_wifi_description">Զանգել Wi-Fi-ի միջոցով</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s-ին, ժամը %2$s-ին</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">Կօգնե՞ք բարելավել տառադարձման ճշգրտությունը</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Առանց ինտերնետ փաթեթի SIM քարտերում վիզուալ ձայնային փոստի օգտագործման դեպքում օպերատորը կարող է լրացուցիչ գումար գանձել</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Վիզուալ ձայնային փոստը միայն հասանելի է տվյալների փոխանցման համար նախատեսված որոշ SIM քարտերի համար</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Եթե մի քանի SIM քարտ ունեք, որոնցից մեկը Fi է, ապա հենց այդ քարտը կօգտագործվի վիզուալ ձայնային փոստի համար</string>
     <string name="voicemail_error_activating_message">Ձայնային հաղորդագրությունների մասին ծանուցումներ չեք ստանա, քանի որ չեք ակտիվացրել վիզուալ ձայնային փոստը: Մինչ այդ, նոր հաղորդագրությունները լսելու համար զանգեք ձայնային փոստի ծառայություն:</string>
     <string name="voicemail_error_activating_title">Վիզուալ ձայնային փոստի ակտիվացում</string>
     <string name="voicemail_error_activation_disabled_message">Զանգեք ձայնային փոստին՝ կարգավորումն ավարտելու համար</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">Չհաջողվեց միանալ ձայնային փոստարկղին</string>
     <string name="vvm3_error_vms_timeout_message">Սխալ առաջացավ: Փորձեք ավելի ուշ: Եթե խնդիրը չվերանա, %1$s համարով կապվեք hաճախորդների սպասարկման ծառայության հետ և հայտնեք սխալի 9007 կոդը:</string>
     <string name="vvm3_error_vms_timeout_title">Սխալ առաջացավ</string>
+    <string name="vvm_config_title">Վիզուալ ձայնային փոստի կարգավորում</string>
     <string name="vvm_unsupported_message_format">Հաղորդագրության չաջակցվող տեսակ, զանգեք %s համարին՝ լսելու համար:</string>
     <string name="wait_prompt_str">"Ուղարկե՞լ հետևյալ ձայներանգները:
 "</string>

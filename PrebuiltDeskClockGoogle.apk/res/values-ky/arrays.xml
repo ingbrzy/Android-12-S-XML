@@ -17,14 +17,21 @@
         <item>15 мүнөт</item>
         <item>20 мүнөт</item>
         <item>25 мүнөт</item>
-        <item>Эч качан</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Уктаар маалга 15 мүн. калганда</item>
+        <item>Уктаар маалга 30 мүн. калганда</item>
+        <item>Уктаар маалга 45 мүн. калганда</item>
+        <item>Уктаар маалга 1 саат калганда</item>
+        <item>Өчүк</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Аналог</item>
         <item>Санариптик</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Эч качан</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунд</item>
         <item>10 секунд</item>
         <item>15 секунд</item>
@@ -37,6 +44,35 @@
         <item>50 секунд</item>
         <item>55 секунд</item>
         <item>60 секунд</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 мүнөттөн кийин токтотуу</item>
+        <item>20 мүнөттөн кийин токтотуу</item>
+        <item>30 мүнөттөн кийин токтотуу</item>
+        <item>40 мүнөттөн кийин токтотуу</item>
+        <item>50 мүнөттөн кийин токтотуу</item>
+        <item>1 сааттан кийин токтотуу</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 мүн. кийин токтотуу</item>
+        <item>20 мүн. кийин токтотуу</item>
+        <item>30 мүн. кийин токтотуу</item>
+        <item>40 мүн. кийин токтотуу</item>
+        <item>50 мүн. кийин токтотуу</item>
+        <item>1 сааттан кийин токтотуу</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 мүнөт</item>
+        <item>20 мүнөт</item>
+        <item>30 мүнөт</item>
+        <item>40 мүнөт</item>
+        <item>50 мүнөт</item>
+        <item>1 саат</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 мүнөт</item>
@@ -69,18 +105,6 @@
         <item>28 мүнөт</item>
         <item>29 мүнөт</item>
         <item>30 мүнөт</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Чагылгандай тездик менен кыймылдайсыз го?!</item>
-        <item>Эмгегиңиздин акыбетин көрүңүз.</item>
-        <item>Андроиддер тез иштейт, бирок сизге жетпейт!</item>
-        <item>Өх.</item>
-        <item>L33t жолу.</item>
-        <item>Таң калаарлык ылдамдык.</item>
-        <item>Убакытты кайра бурмалайлы.</item>
-        <item>Жөн гана солго секирип коюңуз.</item>
-        <item>Шашылыш колдонула турган түстөр топтому бар.</item>
-        <item>Фотондук тездик.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршал аралдары</item>

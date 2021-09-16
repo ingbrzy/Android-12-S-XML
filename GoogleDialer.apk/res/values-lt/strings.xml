@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Atsakyti</string>
     <string name="a11y_call_incoming_decline_description">Atmesti</string>
+    <string name="a11y_callscreen_animation">„Call Screen“ animacija</string>
     <string name="a11y_contact_menu_video_call_wifi">Vaizdo skambutis naudojant „Wi-Fi“</string>
     <string name="a11y_contact_menu_voice_call_wifi">Balso skambutis naudojant „Wi-Fi“</string>
     <string name="a11y_conversation_history_entry_answered_call">Paskutinis yra atsakytas skambutis nuo ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Tvarkyti skambintojus</string>
     <string name="a11y_expandedsheet_collapse">sutraukti meniu</string>
     <string name="a11y_expandedsheet_expand">išskleisti meniu</string>
-    <string name="a11y_favorites_education_dismiss">uždaryti</string>
     <string name="a11y_feature_demo_next_page">Kitas puslapis</string>
     <string name="a11y_feature_demo_page_indicator">%d psl.</string>
     <string name="a11y_feature_demo_prev_page">Ankstesnis puslapis</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Spartusis ^1 kontaktas</string>
+    <string name="a11y_icon_hd">HD skambutis</string>
+    <string name="a11y_icon_hd_plus">„HD Plus“ skambutis</string>
+    <string name="a11y_icon_shared_data_call">Bendras duomenų ryšio skambutis</string>
+    <string name="a11y_icon_verified">Patvirtintas skambutis</string>
+    <string name="a11y_icon_vilte">Vaizdo skambučiai naudojant LTE</string>
+    <string name="a11y_icon_viwifi">Vaizdo skambutis naudojant „Wi-Fi“</string>
+    <string name="a11y_icon_volte">Balso skambučiai naudojant LTE</string>
+    <string name="a11y_icon_voz4g">Balso skambučiai naudojant 4G</string>
+    <string name="a11y_icon_wifi">„Wi-Fi“ skambutis</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Perbraukite dviem pirštais aukštyn, kad atsakytumėte. Perbraukite dviem pirštais žemyn, kad atmestumėte.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Perbraukite dviem pirštais aukštyn, kad atsilieptumėte, arba žemyn, kad atmestumėte skambutį</string>
     <string name="a11y_new_call_log_entry_call_recording">skambutis įrašytas</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1; ^2; ^3; ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">atlikti RTT skambutį kam: ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Bendras duomenų ryšio skambutis</string>
     <string name="a11y_new_call_log_entry_tap_action">išskleisti meniu</string>
     <string name="a11y_new_call_log_entry_video_call">atlikti vaizdo skambutį ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">atlikti vaizdo skambutį ^1 naudojant „Wi-Fi“</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Redaguoti numerį prieš skambinant</string>
     <string name="action_menu_back_from_search">sustabdyti paiešką</string>
     <string name="action_menu_overflow_description">Daugiau parinkčių</string>
+    <string name="activate_error_message">Suaktyvinant „Call Screen“ iškilo problemų</string>
+    <string name="activated_successfully">„Call Screen“ suaktyvinta</string>
     <string name="activity_not_available">Šiame įrenginyje nėra tam skirtos programos</string>
     <string name="add_2sec_pause">Pridėti 2 sek. pauzę</string>
     <string name="add_contact_not_available">Nepasiekiama jokia kontaktų programa</string>
@@ -158,10 +170,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">Skamb. blokavimo funkcija laikinai išj.</string>
     <string name="bm_suggest_call_button">Skambutis</string>
     <string name="bm_suggest_chat_button">Pokalbis</string>
-    <string name="bm_suggest_wait_min">"Pok.
-Laukti %1$d min."</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, neskaityta: %2$s</string>
+    <string name="bm_suggest_wait_min">"Kalbėti
+%1$dmin. laukti"</string>
+    <string name="bm_suggest_wait_time_estimating">"Pokalbis
+vyksta…"</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
     <string name="bubble_bottom_action_end_call">Baigti skambutį</string>
     <string name="bubble_bottom_action_hide">Slėpti</string>
@@ -170,7 +182,10 @@ Laukti %1$d min."</string>
     <string name="call">Balso skambutis</string>
     <string name="callFailed_simError">Nėra SIM kortelės arba įvyko SIM kortelės klaida</string>
     <string name="callHistoryIconLabel">Skambučių istorija</string>
-    <string name="call_announcer_preference_footer_instruction_text">Skambintojo vardas ir numeris bus garsiai skaitomi esant gaunamiesiems skambučiams</string>
+    <string name="call_action_label_automatically_screen">Tikrinti automatiškai. Atmesti automatinius skambučius.</string>
+    <string name="call_action_label_ring_phone">Skambinti į telefoną (numatytasis)</string>
+    <string name="call_action_label_silently_decline">Tyliai atmesti</string>
+    <string name="call_announcer_preference_footer_instruction_text">Skambintojo vardas ir numeris bus garsiai skaitomi esant gaunamiesiems skambučiams.</string>
     <string name="call_announcer_preference_list_title">Pranešti skambintojo ID</string>
     <string name="call_announcer_preference_option_always">Visada</string>
     <string name="call_announcer_preference_option_headset">Tik naudojant ausines</string>
@@ -203,7 +218,7 @@ Laukti %1$d min."</string>
     <string name="call_incoming_answer">Atsakyti</string>
     <string name="call_incoming_answer_rtt">Atsiliepti RTT pranešimu</string>
     <string name="call_incoming_answer_voice">Atsiliepti balsu</string>
-    <string name="call_incoming_chip_answer_and_release">Atsakyti ir baigti skamb.</string>
+    <string name="call_incoming_chip_answer_and_release">Atsakyti ir užbaigti kitą skambutį</string>
     <string name="call_incoming_chip_answer_as_rtt">Atsiliepti kaip į RTT sk.</string>
     <string name="call_incoming_chip_answer_video_as_audio">Atsiliepti kaip į balso skambutį</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Atsakyti išjungus vaizdą</string>
@@ -219,7 +234,7 @@ Laukti %1$d min."</string>
     <string name="call_incoming_swipe_to_answer">Perbraukite, kad atsakytumėte</string>
     <string name="call_incoming_swipe_to_reject">Perbraukite žemyn, kad atmestumėte</string>
     <string name="call_incoming_video_is_off">Vaizdas išjungtas</string>
-    <string name="call_incoming_will_disconnect">Atsakius į šį skambutį, vaizdo skambutis bus baigtas</string>
+    <string name="call_incoming_will_disconnect">Atsakius į šį skambutį kitas skambutis bus baigtas</string>
     <string name="call_incoming_will_disconnect_app">Atsakius bus užbaigtas „%1$s“ skambutis</string>
     <string name="call_isdn">Skambinti ISDN telefono numeriu</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Blokuoti / pran. apie šlamštą</string>
@@ -255,6 +270,7 @@ Laukti %1$d min."</string>
     <string name="call_reason_fragment_content_description">Skambinimo priežastis: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Įrašas išsaugotas.</string>
     <string name="call_recording_conversation_history_entry">Įrašyta</string>
+    <string name="call_recording_delete_snack_bar_undo">Anuliuoti</string>
     <string name="call_recording_disclaimer_agreen_button_text">Pradėti įrašymą</string>
     <string name="call_recording_disclaimer_content">"Jūs arba kitas skambutyje dalyvaujantis asmuo esate kažkur, kur visiems žmonėms būtina sutikti, kad būtų įrašoma. Visiems žmonėms bus iš anksto pranešta, kad skambutis bus įrašomas. Jūs esate atsakingi, kad būtų laikomasi įstatymų dėl pokalbių įrašymo. Atsakingai naudokitės skambučių įrašymo funkcija ir įjunkite ją tik prireikus.
 ^1
@@ -291,6 +307,7 @@ Laukti %1$d min."</string>
 Nei skambučio garso įrašas, nei skambučio transkribuotas tekstas nėra niekam siunčiami, įskaitant „Google“."</string>
     <string name="call_screen_demo_page_4_title">Sutaupykite laiko ir išvenkite nesėkmių</string>
     <string name="call_screen_demo_setting_title">Žr. demonstracinę versiją</string>
+    <string name="call_screen_demo_settings_title">Žr. demonstraciją</string>
     <string name="call_screen_demo_title">Kaip veikia „Call Screen“</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Nepavyko gauti pavyzdinio garso įrašo</string>
     <string name="call_screen_demo_unable_to_play_audio">Nepavyko paleisti pavyzdinio garso įrašo</string>
@@ -298,6 +315,7 @@ Nei skambučio garso įrašas, nei skambučio transkribuotas tekstas nėra nieka
     <string name="call_screen_end_call_local_internal_message">Užbaigėte skambutį</string>
     <string name="call_screen_end_call_non_local_internal_message">Skambutis nutrūko</string>
     <string name="call_screen_how_it_works_setting_title">„Call Screen“ veikia įrenginyje be „Wi-Fi“ ar mobiliojo ryšio duomenų. Pokalbių transkribuotas tekstas generuojamas ir saugomas tik telefone. %1$s</string>
+    <string name="call_screen_how_it_works_title">„Call Screen“ veikia įrenginyje be „Wi-Fi“ ar mobiliojo ryšio duomenų. Pokalbių transkribuotas tekstas generuojamas ir saugomas tik telefone. ^1</string>
     <string name="call_screen_incallui_chip_text">Stebėti skamb.</string>
     <string name="call_screen_join_call_button_content_description">Prisijungti prie skambučio</string>
     <string name="call_screen_join_call_internal_message">Prisijungėte prie skambučio</string>
@@ -307,6 +325,7 @@ Nei skambučio garso įrašas, nei skambučio transkribuotas tekstas nėra nieka
     <string name="call_screen_saying_to_the_caller_state">Sakoma skambintojui</string>
     <string name="call_screen_screening_call_from">Stebimas skambutis nuo</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Mygtukas „Garsiakalbis“</string>
     <string name="call_screen_suggestions_avatar_content_description">Logotipas</string>
     <string name="call_screen_survey_cancel_button">Atšaukti</string>
@@ -331,6 +350,8 @@ Nei skambučio garso įrašas, nei skambučio transkribuotas tekstas nėra nieka
     <string name="call_work">Skambinti darbo telefono numeriu</string>
     <string name="call_work_mobile">Skambinti darbo mobiliojo telefono numeriu</string>
     <string name="call_work_pager">Skambinti darbo pranešimų gaviklio numeriu</string>
+    <string name="caller_action_error_cant_load_value">Negalima gauti dabartinės %1$s reikšmės</string>
+    <string name="caller_action_error_cant_set_value">Negalima išsaugoti %1$s reikšmės</string>
     <string name="caller_id_announcement_multi_sim">gautasis %1$s skambutis nuo %2$s (SIM kortelė: %3$s)</string>
     <string name="caller_id_announcement_single_sim">gautasis %1$s skambutis nuo %2$s</string>
     <string name="caller_id_business_data_details">Šiose funkcijose naudojamus duomenis teikia „Google“ ir licencijos išdavėjai. ^1</string>
@@ -370,6 +391,9 @@ Nei skambučio garso įrašas, nei skambučio transkribuotas tekstas nėra nieka
     <string name="calling_blocked_number_precall_dialog_title">Skambinti %s?</string>
     <string name="calllog_add_to_contact">Pridėti prie kontakto</string>
     <string name="calllog_create_new_contact">Sukurti naują kontaktą</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">„Call Screen“ suaktyvinimas (reikalingas „Wi-Fi“ ryšys)</string>
+    <string name="callscreen_settings_voice_setting_title">Balsas</string>
+    <string name="camera_permission_toast">Fotoaparato leidimas įgalintas</string>
     <string name="camera_privacy_text">Fotoaparato leidimas įgalintas</string>
     <string name="cannot_understand_description">Nesuprantu</string>
     <string name="car_crash_emergency_intro">"Su jumis susisiekta naudojant automatinę kritinės padėties balso paslaugą skambintojo vardu.
@@ -392,7 +416,7 @@ Prašome atsiųsti pagalbą."</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="checkbox_report_as_spam_action">Pr. apie skamb. kaip apie šl.</string>
     <string name="child_number">naudojant %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Kontakto pasirinkimas</string>
     <string name="clear_button_content_description">Išvalyti paiešką</string>
     <string name="clear_text_end_icon_content_description">Išvalyti tekstą</string>
     <string name="cli_not_supported_text">Atidarykite telefoną, kad galėtumėte tęsti</string>
@@ -432,6 +456,9 @@ Prašome atsiųsti pagalbą."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Patvirtinto skambinimo nustatyti nepavyko. Tai galite įjungti iš naujo nustatymuose.</string>
     <string name="contact_card_video_icon_content_description">Vaizdo skambutis kam: ^1</string>
     <string name="contact_grid_callback_number">Šio telefono numeris: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Skambutis peradresuotas</string>
+    <string name="contact_grid_hd_icon_content_description">HD skambutis</string>
+    <string name="contact_grid_hd_plus_icon_content_description">„HD Plus“ skambutis</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Operatoriaus vaizdo skambutis nuo</string>
     <string name="contact_grid_incoming_reception_only_video_call">Operatoriaus vienkryptis vaizdo skambutis nuo</string>
     <string name="contact_grid_incoming_rtt_call">RTT skambutis iš</string>
@@ -442,9 +469,18 @@ Prašome atsiųsti pagalbą."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">„Wi-Fi“ operatoriaus vaizdo skambutis nuo</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">„Wi-Fi“ operatoriaus vienkryptis vaizdo skambutis nuo</string>
     <string name="contact_grid_incoming_work_call">Darbo skambutis nuo</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Bendras duomenų ryšio skambutis</string>
+    <string name="contact_grid_spam_icon_content_description">Šlamšto skambutis</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operatorius</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Patvirtino operatorius „%1$s“</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Tinkamas numeris</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Vaizdo skambučiai naudojant LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Vaizdo skambutis naudojant „Wi-Fi“</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Balso skambučiai naudojant 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Balso skambučiai naudojant LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Balso skambutis naudojant „Wi-Fi“</string>
+    <string name="contact_grid_wifi_icon_content_description">„Wi-Fi“ skambutis</string>
+    <string name="contact_grid_work_icon_content_description">Darbo skambutis</string>
     <string name="contact_menu_add_favorite">Pridėti mėgst.</string>
     <string name="contact_menu_contact_info">Kont. inform.</string>
     <string name="contact_menu_invite_video">Pakviesti į vaizdo skambutį</string>
@@ -479,8 +515,12 @@ Prašome atsiųsti pagalbą."</string>
     <string name="conversation_history_call_details_header_today">Šiandien</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Skambutis ištrintas</string>
     <string name="conversation_history_call_details_snack_bar_undo">Anuliuoti</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Svarbus skambutis</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Rodyti pridėto skambučio informaciją</string>
+    <string name="conversation_history_call_recording_deleted">Įrašas ištrintas</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkr. tekstas ir garso įr.</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkribuotas tekstas</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">Kopijuoti</string>
     <string name="copy_number">Kopijuoti numerį</string>
@@ -499,12 +539,17 @@ Prašome atsiųsti pagalbą."</string>
     <string name="custom_prefix_default_prefix_title">Numatytasis priešdėlis</string>
     <string name="custom_prefix_prefixes_preference_title">Priešdėliai</string>
     <string name="dark_theme_label">Tamsioji tema</string>
+    <string name="default_changed_confirmation">Telefono programa nustatyta kaip numatytoji</string>
+    <string name="default_image_content_description">Prisistatymo lango vaizdas</string>
     <string name="delete">Ištrinti</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Visų įrašų ištrynimas</string>
     <string name="delete_all_recordings_now_error_message">Kai kurių įrašų nepavyko ištrinti. Bandykite dar kartą.</string>
     <string name="delete_button_label">Ištrinti visus įrašus dabar</string>
     <string name="delete_confirmation_dialog_negative_button_label">Atšaukti</string>
     <string name="delete_confirmation_dialog_positive_button_label">Ištrinti</string>
+    <string name="delete_old_recordings_error_cant_load_value">Negalima gauti dabartinės %1$s reikšmės</string>
+    <string name="delete_old_recordings_error_cant_set_value">Negalima išsaugoti %1$s reikšmės</string>
+    <string name="deleting_call_recording">Ištrinamas įrašas…</string>
     <string name="description_add_to_existing_contact_action">Pridėti ^1 prie esamo kontakto</string>
     <string name="description_blocked_number_list_delete">Panaikinti numerio blokavimą</string>
     <string name="description_call_action">Skambinti ^1</string>
@@ -607,6 +652,7 @@ Prašome atsiųsti pagalbą."</string>
     <string name="emergency_sos_emergency_intro">"Su jumis susisiekta naudojant automatinę kritinės padėties balso paslaugą skambintojo vardu.
 Skambintojas suaktyvino pagalbos iškvietimą kritiniu atveju. 
 Išsiųskite pagalbą."</string>
+    <string name="emergency_speaker">Garsiakalbis</string>
     <string name="emergency_voice_assist_dialog_button_close">Atšaukti</string>
     <string name="emergency_voice_assist_dialog_title">Skubios pagalbos operatorius girdi</string>
     <string name="end_call_with_default_message_description">Baigti skambutį</string>
@@ -636,9 +682,12 @@ Išsiųskite pagalbą."</string>
     <string name="feedback_call_issue_quiet_audio">Garsas buvo per tylus</string>
     <string name="feedback_call_issue_title">Kokių kilo problemų?</string>
     <string name="feedback_title_please_rate">Įvertinkite skambučio kokybę</string>
+    <string name="first_time_callers_action_preference_description">Skambintojai, kurių nėra skambučių žurnale</string>
+    <string name="first_time_callers_action_preference_title">Skambinantys pirmą kartą</string>
     <string name="flip_to_shush_title">Nutildymas apverčiant</string>
     <string name="flip_to_silence_summary">Norėdami nutildyti gaunamąjį skambutį, padėkite telefoną ekranu žemyn ant lygaus paviršiaus</string>
     <string name="flip_to_silence_title">Nutildymas apverčiant</string>
+    <string name="foreground_notification_title">Atnaujinama…</string>
     <string name="frequent_contact_suggestion">Dažniausiai skambinta</string>
     <string name="general_learn_more">Sužinoti daugiau</string>
     <string name="generic_conference_call_name">Skambinant</string>
@@ -661,6 +710,7 @@ Išsiųskite pagalbą."</string>
     <string name="how_it_works_storage_link_text">Sužinokite daugiau, kaip saugomi įrašai</string>
     <string name="how_it_works_storage_template">Skambučių įrašymas bus laikinai sustabdytas, jei baigsis vieta telefono saugykloje. ^1</string>
     <string name="icon_content_description">Dialogo lango piktograma</string>
+    <string name="icon_description_shared_data_call">Bendras duomenų ryšio skambutis</string>
     <string name="imei_number">%s IMEI</string>
     <string name="import_send_to_voicemail_numbers_label">Importuoti numerius</string>
     <string name="ims_video_heading">„Verizon“ vaizdo skambutis</string>
@@ -804,6 +854,7 @@ Išsiųskite pagalbą."</string>
     <string name="new_call_log_no_missed_calls">Nėra jokių praleistų skambučių</string>
     <string name="new_call_log_permission_no_calllog">Jei norite peržiūrėti skambučių žurnalą, įjunkite Telefono programos leidimą.</string>
     <string name="new_call_log_secondary_blocked">Užblokuota</string>
+    <string name="new_call_log_secondary_verified">Patvirtintas skambutis</string>
     <string name="new_call_log_snack_bar_deleted">Skambutis ištrintas</string>
     <string name="new_call_log_snack_bar_undo">Anuliuoti</string>
     <string name="new_call_log_unknown">Nežinoma</string>
@@ -818,8 +869,10 @@ Išsiųskite pagalbą."</string>
     <string name="notification_action_answer_video">Vaizdo skam.</string>
     <string name="notification_action_dismiss">Atmesti</string>
     <string name="notification_action_end_call">Padėti ragelį</string>
+    <string name="notification_action_mute_toggle">Nutildyti</string>
     <string name="notification_action_speaker_off">Išjungti garsiakalbį</string>
     <string name="notification_action_speaker_on">Įjungti garsiakalbį</string>
+    <string name="notification_action_speaker_toggle">Garsiakalbis</string>
     <string name="notification_callReasonMsg">Priežastis: %s</string>
     <string name="notification_call_wifi_brand">„Wi-Fi“ skambutis</string>
     <string name="notification_call_wifi_work_brand">„Wi‑Fi“ darbo skambutis</string>
@@ -883,6 +936,8 @@ Išsiųskite pagalbą."</string>
     <string name="place_ims_button_content_description">Mygtukas, naudojamas operatoriaus vaizdo skambučiui atlikti.</string>
     <string name="play">Leisti</string>
     <string name="plus_code_line_format">Pliuso kodas: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Skambintojai, kurie gali būti pakeistą numerį naudojantys šlamšto siuntėjai</string>
+    <string name="possibly_faked_numbers_action_preference_title">Galimai netikri numeriai</string>
     <string name="post_call_message">Pasakykite, kodėl paskambinote</string>
     <string name="post_call_message_1">Tai skubu. Atskambinkite.</string>
     <string name="post_call_message_2">Atskambinkite, kai turėsite šiek tiek laiko.</string>
@@ -913,6 +968,8 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="privacy_policy_label">Privatumo politika</string>
     <string name="private_num_non_verizon">Privatus numeris</string>
     <string name="private_num_verizon">Apriboti</string>
+    <string name="private_or_hidden_action_preference_description">Skambintojai, kurie slepia savo skambintojo ID</string>
+    <string name="private_or_hidden_action_preference_title">Privatus arba paslėptas</string>
     <string name="quick_contact_checkbox_description">Pasirinkite kontaktą</string>
     <string name="ready_for_recording">Parengta…</string>
     <string name="record_greeting_cancel_label">Atšaukti</string>
@@ -928,6 +985,8 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="record_greeting_uploading_greeting_message">Išsaugoma…</string>
     <string name="record_voicemail_greeting_title">Įrašyti balso pašto atsakiklio žinutę</string>
     <string name="recording_category_title">Įrašai</string>
+    <string name="recording_deleted">Įrašas ištrintas</string>
+    <string name="recording_deletion_failed">Nepavyko ištrinti įrašo [Bandykite dar kartą]</string>
     <string name="redo_button_text">Bandyti dar kartą</string>
     <string name="remember_this_choice_label">Prisiminti šį pasirinkimą</string>
     <string name="report_not_spam_alert_button">Pranešti</string>
@@ -939,9 +998,20 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="request_call_back_description">Atskambinkite man</string>
     <string name="request_email_description">Atsiųsti el. laišką</string>
     <string name="respond_via_sms_setting_title">Greiti atsakai</string>
+    <string name="revelio_callers_how_it_works_text">"Jei norite išjungti automatinį tikrinimą, nežinomiems skambučiams pasirinkite nustatymą „Skambinti į telefoną“ (numatytasis). Jūsų kontaktai niekada automatiškai netikrinami. Automatinis tikrinimas neveiks, jei telefonas prijungtas prie ausinių arba garsiakalbių. 
+„Call Screen“ nenaudoja duomenų ar „Wi-Fi“, bet naudoja operatoriaus skambučių minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Ištrinti po 30 d.</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatiškai ištrinti senesnius įrašymus ir transkribavimus</string>
+    <string name="revelio_demo_setting_title">Žr., kaip veikia „Call Screen“</string>
     <string name="revelio_demo_turn_on">Įjungti</string>
     <string name="revelio_end_call_reject_as_spam">Skambutis pažymėtas kaip šlamštas</string>
     <string name="revelio_end_call_user_missed_internal_message">Praleistas skambutis</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatinis tikrinimas išjungtas</string>
+    <string name="revelio_preference_summary_screening">%1$s tikrinimas</string>
+    <string name="revelio_save_audio_setting_summary">Išsaugoti Asistento atsakytų skambučių garsą</string>
+    <string name="revelio_save_audio_setting_title">Išsaugoti „Call Screen“ garsą</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT padeda skambintojams, kurie yra kurti, neprigirdintys, sunkiai kalba arba kuriems reikia ne tik kalbėti. ^1</string>
     <string name="rtt_assist_for_att">Ekrane pateikiama Tikralaikio teksto pranešimo (RTT) klaviatūra yra išorinių TTY klaviatūrų alternatyva. Kai atlikdami RTT skambutį vedate tekstą, asmuo, su kuriuo kalbate, gali realiuoju laiku matyti jūsų vedamą pranešimą. ^1</string>
     <string name="rtt_assist_for_tmo">Ekrane pateikiama Tikralaikio teksto pranešimo (RTT) klaviatūra yra išorinių TTY klaviatūrų alternatyva. RTT iškart siunčia vykstant telefono skambučiui vedamą tekstą, kad galėtumėte bendrauti teksto pranešimais realiuoju laiku. Galėsite matyti dalinius atsakymus, prieš siuntėjui užbaigiant visą pranešimą. ^1</string>
@@ -949,7 +1019,8 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="rtt_button_back">Atgal</string>
     <string name="rtt_button_downgrade">Perjungti į balso skambutį</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Atliekant šį skambutį RTT paslauga nepasiekiama. Jūsų skambutis sujungtas kaip tik balso skambutis.</string>
+    <string name="rtt_call_downgraded_toast">RTT skambutis pakeistas tik balso skambučiu</string>
+    <string name="rtt_call_not_available_toast">RTT funkcija šiam skambučiui nepasiekiama</string>
     <string name="rtt_configuration_summary_always_visible">Tikralaikių teksto pranešimų mygtukas pasiekiamas visur</string>
     <string name="rtt_configuration_summary_not_visible">Leisti gaunamuosius skambučius tikralaikiuose teksto pranešimuose, bet paslėpti skambinimo mygtuką</string>
     <string name="rtt_configuration_summary_visible_during_call">Rodyti tikralaikių teksto pranešimų mygtuką per skambutį</string>
@@ -978,6 +1049,8 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="rtt_transcript_link">Žr. nuorašą</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Šis pranešimas bus kartojamas.</string>
+    <string name="save_audio_error_cant_load_value">Negalima gauti dabartinės parinkties „Išsaugoti „Call Screen“ garso reikšmės</string>
+    <string name="save_audio_error_cant_set_value">Negalima išsaugoti parinkties „Išsaugoti „Call Screen“ garso reikšmės</string>
     <string name="save_button_text">Išsaugoti</string>
     <string name="saved_voicemails_action_title">Išsaugoti balso pašto pranešimai (%1$s)</string>
     <string name="search_hint">Iešk. kont., su kuriais gal. atl. vaizdo sk.</string>
@@ -1004,8 +1077,11 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="send_a_message">Siųsti pranešimą</string>
     <string name="send_to_voicemail_import_failed">Importuoti nepavyko</string>
     <string name="serial_number">Serijos numeris</string>
+    <string name="set_as_default_button_text">Nust. kaip numat.</string>
     <string name="set_default_account">Visada naudoti tai skambučiams</string>
     <string name="set_default_account_description">SIM kortelės nuostata išsaugota kontaktuose.</string>
+    <string name="set_phone_as_default_explanation_text">Naudojant Telefono progr. galima tik pradėti ir gauti skamb., jei tai yra numatytoji telef. programa</string>
+    <string name="set_phone_as_default_request_text">Nustatykite Telefono programą kaip numatytąją</string>
     <string name="settings">Nustatymai</string>
     <string name="settings_page_call_recording_feature_not_available_text">Skambučių įrašymas nepasiekiamas jūsų vietovėje</string>
     <string name="settings_page_crosby_feature_not_available_text">Nepasiekiama jūsų vietovėje</string>
@@ -1040,6 +1116,8 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="snackbar_undo">Anuliuoti</string>
     <string name="snackbar_voicemail_deleted">Balso pšt. ištrintas</string>
     <string name="sounds_and_vibration_title">Garsai ir vibravimas</string>
+    <string name="spam_action_preference_description">Numeriai, kurie atitinka „Google“ šlamšto duomenų bazę</string>
+    <string name="spam_action_preference_title">Šlamštas</string>
     <string name="spam_and_call_screen_settings_title">Šlamštas ir „Call Screen“</string>
     <string name="spam_blocking_promo_action_dismiss">Atsisakyti</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtruoti šlamštą</string>
@@ -1066,8 +1144,6 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="speed_dial_add_button_text">Pridėti</string>
     <string name="speed_dial_contacts_permission_description">Jei norite įgalinti spartųjį rinkimą, įjunkite Kontaktų leidimą.</string>
     <string name="speed_dial_disambig_dialog_title">Pasirinkite, kaip norite skambinti kontaktui %s</string>
-    <string name="speed_dial_education_content">Palieskite ir palaikykite bet kurį kontaktą, kad perjungtumėte iš skambučių į pranešimus ir atvirkščiai</string>
-    <string name="speed_dial_education_title">Daugiau būdų susisiekti</string>
     <string name="speed_dial_no_contacts_action_text">Pridėti mėgstamiausią</string>
     <string name="speed_dial_no_contacts_description">Paskambinkite mėgstamiausiems kontaktams vos vienu palietimu</string>
     <string name="speed_dial_remember_this_choice">Prisiminti šį pasirinkimą</string>
@@ -1084,6 +1160,45 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="suggestion_dialog_postive_snackbar_message">Dėkojame už atsiliepimą</string>
     <string name="suggestions_header">Dažniausiai naudojami</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">paskyros ir sistemos informac.</string>
+    <string name="survey_app_id">Programos ID</string>
+    <string name="survey_app_name">Programos pavadinimas</string>
+    <string name="survey_app_version">Programos versija</string>
+    <string name="survey_application_data">Programos duomenys</string>
+    <string name="survey_brand">Prekės ženklas</string>
+    <string name="survey_close_button_description">Uždaryti</string>
+    <string name="survey_default_prompt_title">Padėkite mums tobulinti „Google“.</string>
+    <string name="survey_device_model">Įrenginio modelis</string>
+    <string name="survey_email_address">El. pašto adresas</string>
+    <string name="survey_google_play_services_version">„Google Play“ paslaugų versija</string>
+    <string name="survey_legal_text">Tęsdami sutinkate, kad „Google“ naudotų jūsų atsakymus bei %1$s tobulindama paslaugas, kaip numatyta pagal %2$s ir %3$s.</string>
+    <string name="survey_library_version">Bibliotekos versija</string>
+    <string name="survey_network_request_failed">Tinklo užklausa nepavyko</string>
+    <string name="survey_neutral">Nei patenkinti, nei nepatenkinti</string>
+    <string name="survey_next">Kita</string>
+    <string name="survey_num_rating">%1$s iš %2$s</string>
+    <string name="survey_ok">Gerai</string>
+    <string name="survey_open_text_hint">Komentarus įveskite čia</string>
+    <string name="survey_open_text_no_pii">Neįtraukite asmens informacijos</string>
+    <string name="survey_operating_system">Operacinė sistema</string>
+    <string name="survey_operating_system_version">Operacinės sistemos versija</string>
+    <string name="survey_other_option_hint">Kita (nurodykite)</string>
+    <string name="survey_platform">Platforma</string>
+    <string name="survey_privacy">privatumo nuostatomis</string>
+    <string name="survey_prompt_no_thanks">Ne, ačiū</string>
+    <string name="survey_prompt_take_our_survey">Rodyti klausimą</string>
+    <string name="survey_smiley_rating">%1$s jaustuk. iš %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Šiek tiek nepatenkinti</string>
+    <string name="survey_somewhat_satisfied">Šiek tiek patenkinti</string>
+    <string name="survey_submit">Pateikti</string>
+    <string name="survey_system_info_dialog_title">Paskyros ir sistemos informacija</string>
+    <string name="survey_terms">sąlygomis</string>
+    <string name="survey_thank_you_followup_message">Padėkite mums tobulinti savo produktus atsakę į daugiau klausimų</string>
+    <string name="survey_timezone_offset">Laiko juostos nuokrypis</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">Naudotojo priemonė</string>
+    <string name="survey_very_dissatisfied">Labai nepatenkinti</string>
+    <string name="survey_very_satisfied">Labai patenkinti</string>
     <string name="system_default_theme_label">Sistemos numatytieji nustatymai</string>
     <string name="tab_title_call_history">Naujausi</string>
     <string name="tab_title_contacts">Kontaktai</string>
@@ -1095,11 +1210,15 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="terms_of_service_label">Paslaugų teikimo sąlygos</string>
     <string name="textmessage_button_label">Pranešimas</string>
     <string name="theme_preference_label">Pasirinkti temą</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Įrašyti</string>
     <string name="toast_text_copied">Tekstas nukopijuotas</string>
     <string name="toolbar_back">Atgal</string>
     <string name="toolbar_close">Uždaryti</string>
     <string name="transcript_audio_feedback_chip_text">Padėkite tobulėti</string>
+    <string name="transcript_audio_feedback_link_text">Peržiūrėti transkribuotą tekstą su garsu</string>
     <string name="transcript_snippet_low_confidence_description">(Garsas buvo neaiškus)</string>
+    <string name="try_again_button">Bandyti dar kartą</string>
     <string name="tty_configuration_title_tty_full">Visas TTY</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY išjungtas</string>
@@ -1121,7 +1240,6 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="type_outgoing_video_pulled">Siunčiamasis vaizdo skambutis perkeltas į kitą įrenginį</string>
     <string name="type_rejected">Atmestas skambutis</string>
     <string name="type_voicemail">Balso paštas</string>
-    <string name="unable_change_value_error">Keičiant RTT nustatymus iškilo problema. Grįžkite atgal ir bandykite dar kartą.</string>
     <string name="unable_read_value_error">Skaitant RTT nustatymus iškilo problema. Grįžkite atgal ir bandykite dar kartą.</string>
     <string name="unblock_number">Panaikinti blokavimą</string>
     <string name="unblock_number_alert_details">Šio nr. blok. bus pan. ir apie jį bus pran. kaip ne apie šl. siunt. Būs. sk. nebus nust. kaip šl.</string>
@@ -1130,6 +1248,7 @@ Kai kuriais numeriais vis tiek galite atlikti vaizdo skambučius neatnaujinę nu
     <string name="unblock_number_ok">Panaikinti blokavimą</string>
     <string name="unblock_report_number_alert_title">Panaikinti numerio %1$s blokavimą?</string>
     <string name="unknown">Nežinomas</string>
+    <string name="unknown_call_settings_category_preference_title">Nežinomų skambučių nustatymai</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Įjungti gaunamojo skamb. garsą</string>
     <string name="user_is_busy_description">Atskambinsiu jums</string>
@@ -1241,10 +1360,17 @@ Jei tęsite skambutį, bus taikomas mokestis už duomenų naudojimą."</string>
     <string name="videocall_remote_video_on">Jų vaizdo įrašas rodomas</string>
     <string name="videocall_remotely_held">Skambutis sulaikytas</string>
     <string name="videocall_remotely_resumed">Skambutis tęsiamas</string>
+    <string name="videocall_settings_default_carrier">Operatoriaus vaizdo skambučiai</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Numatytosios vaizdo skambučių paslaugos</string>
+    <string name="videocall_settings_fallback_summary">Perjungti „Duo“, jei operatoriaus vaizdo skambutis nepasiekiamas</string>
+    <string name="videocall_settings_fallback_title">Naudoti „Duo“ atsarginiam kopijavimui</string>
+    <string name="videocall_settings_title">Vaizdo skambučiai</string>
     <string name="videocall_show_preview_button_description">Rodyti vietinę vaizdo transliaciją</string>
     <string name="view">Peržiūrėti</string>
     <string name="view_location_settings">Vietovės nustatymai</string>
     <string name="vitle_label">Vaizdas naud. LTE</string>
+    <string name="viwifi_label">Vaizdas naudojant „Wi-Fi“</string>
     <string name="vm_change_pin_error_invalid">Naujame PIN kode yra netinkamų simbolių.</string>
     <string name="vm_change_pin_error_mismatch">Senas PIN kodas nesutampa.</string>
     <string name="vm_change_pin_error_system_error">Nepavyko pakeisti PIN kodo</string>
@@ -1254,8 +1380,11 @@ Jei tęsite skambutį, bus taikomas mokestis už duomenų naudojimą."</string>
     <string name="vm_change_pin_progress_message">Palaukite.</string>
     <string name="voice_call">Balso skambutis</string>
     <string name="voice_call_button">Skambinti</string>
+    <string name="voice_display_name">Balsų: %1$d</string>
     <string name="voice_search_not_available">Paieška balsu nepasiekiama</string>
     <string name="voice_selector_preference_title">Pasiekiami balsai</string>
+    <string name="voice_settings_available_voices_text">Pasiekiami balsai</string>
+    <string name="voice_settings_title">Balsas</string>
     <string name="voicecall_button_label">Skambinti</string>
     <string name="voicecall_button_wifi_description">Skambinti naudojant „Wi-Fi“</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s, %2$s</string>
@@ -1290,7 +1419,6 @@ Jei tęsite skambutį, bus taikomas mokestis už duomenų naudojimą."</string>
     <string name="voicemail_donation_promo_title">Norite padėti tobulinti transkribavimo tikslumą?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Naudojant vaizdinį balso paštą su SIM kortelėmis be duomenų ryšio, gali būti apmokestinama operatoriaus mokesčiais</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vaizdinis balso paštas pasiekiamas tik naudojant pasirinktą duomenų SIM kortelę</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Jei turite kelias SIM korteles ir viena iš jų skirta „Fi“, jūsų „Fi“ SIM kortelė bus naudojama vaizdiniam balso paštui</string>
     <string name="voicemail_error_activating_message">Kol vaizdinis balso paštas nebus visiškai suaktyvintas, galite negauti balso pašto pranešimų. Jei norite gauti naujus pranešimus, kol jis nėra visiškai suaktyvintas, paskambinkite į balso paštą.</string>
     <string name="voicemail_error_activating_title">Suaktyvinamas vaizdinis balso paštas</string>
     <string name="voicemail_error_activation_disabled_message">Paskambinkite į balso paštą, kad užbaigtumėte sąranką</string>
@@ -1397,6 +1525,7 @@ Jei tęsite skambutį, bus taikomas mokestis už duomenų naudojimą."</string>
     <string name="vvm3_error_vms_no_cellular_title">Nepavyko prisijungti prie balso pašto dėžutės</string>
     <string name="vvm3_error_vms_timeout_message">Deja, kilo problema. Vėliau bandykite dar kartą. Jei problema išlieka, susisiekite su klientų aptarnavimo komanda numeriu %1$s ir pasakykite klaidos kodą 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Kažkas nepavyko</string>
+    <string name="vvm_config_title">Vaizdinio balso pašto konfigūracija</string>
     <string name="vvm_unsupported_message_format">Nepalaikomas pranešimo tipas. Paskambinkite numeriu %s ir išklausykite.</string>
     <string name="wait_prompt_str">"Siųsti šiuo tonus?
 "</string>

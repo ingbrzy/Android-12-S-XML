@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਇਨਪੁੱਟ</string>
     <string name="lift_to_wake_title">ਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਲਈ ਚੁੱਕੋ</string>
-    <string name="lockdown_settings_summary">"ਪਾਵਰ ਬਟਨ ਵਿਕਲਪ ਦਿਖਾਓ ਜੋ Smart Lock, ਫ਼ੇਸ ਅਣਲਾਕ, ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਣਲਾਕ ਅਤੇ ਲਾਕ ਸਕ੍ਰੀਨ 'ਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਬੰਦ ਕਰਦਾ ਹੈ"</string>
-    <string name="lockdown_settings_title">ਲਾਕਡਾਊਨ ਵਿਕਲਪ ਦਿਖਾਓ</string>
+    <string name="abc_action_bar_home_description">"ਹੋਮ 'ਤੇ ਜਾਓ"</string>
+    <string name="abc_action_bar_up_description">ਉੱਪਰ ਜਾਓ</string>
     <string name="locked_work_profile_notification_title">"ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਲਾਕ ਹੋਣ 'ਤੇ"</string>
     <string name="lockscreen_bypass_summary">"ਅਣਲਾਕ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਸਿੱਧਾ ਪਿਛਲੀ ਵਾਰ ਵਰਤੀ ਸਕ੍ਰੀਨ 'ਤੇ ਜਾਓ"</string>
     <string name="lockscreen_bypass_title">ਲਾਕ ਸਕ੍ਰੀਨ ਛੱਡੋ</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">ਕੰਮ ਸਬੰਧੀ ਸੂਚਨਾਵਾਂ</string>
     <string name="reset_dashboard_summary">ਨੈੱਟਵਰਕ, ਐਪਾਂ, ਜਾਂ ਡੀਵਾਈਸ ਨੂੰ ਰੀਸੈੱਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ</string>
     <string name="reset_dashboard_title">ਰੀਸੈੱਟ ਵਿਕਲਪ</string>
-    <string name="abc_action_bar_home_description">"ਹੋਮ 'ਤੇ ਜਾਓ"</string>
+    <string name="abc_action_menu_overflow_description">ਹੋਰ ਵਿਕਲਪ</string>
     <string name="screensaver_settings_title">ਸਕ੍ਰੀਨ ਸੇਵਰ</string>
     <string name="screen_timeout">ਸਕ੍ਰੀਨ ਦੇ ਬੰਦ ਹੋਣ ਦਾ ਸਮਾਂ</string>
     <string name="screen_zoom_title">ਡਿਸਪਲੇ ਆਕਾਰ</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">"ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਕੁਝ ਸਮੱਗਰੀਆਂ ਲਈ ਰਿਫ੍ਰੈਸ਼ ਦਰ ਨੂੰ 60 ਤੋਂ ਵਧਾ ਕੇ 90 Hz ਕਰ ਦਿੰਦਾ ਹੈ। ਬੈਟਰੀ ਵਰਤੋਂ ਵੱਧ ਜਾਂਦੀ ਹੈ।"</string>
     <string name="accessibility_vibration_settings_title">ਥਰਥਰਾਹਟ ਅਤੇ ਸਪਰਸ਼ ਸੰਵੇਦਕ</string>
     <string name="emergency_gesture_screen_title">ਸੰਕਟਕਾਲੀਨ ਸਹਾਇਤਾ</string>
-    <string name="abc_action_bar_up_description">ਉੱਪਰ ਜਾਓ</string>
+    <string name="abc_action_mode_done">ਹੋ ਗਿਆ</string>
     <string name="vibrate_for_calls_category_title">ਕਾਲਾਂ</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">ਵਾਲੇਟ ਦਿਖਾਓ</string>
     <string name="lockscreen_privacy_controls_setting_toggle">ਡੀਵਾਈਸ ਕੰਟਰੋਲ ਦਿਖਾਓ</string>
     <string name="lockscreen_privacy_wallet_summary">ਲਾਕ ਸਕ੍ਰੀਨ ਅਤੇ ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ ਤੋਂ ਵਾਲੇਟ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦਿਓ</string>
     <string name="lockscreen_privacy_controls_summary">"ਲਾਕ ਹੋਣ 'ਤੇ ਕੰਟਰੋਲਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰੋ"</string>
-    <string name="abc_action_menu_overflow_description">ਹੋਰ ਵਿਕਲਪ</string>
-    <string name="abc_action_mode_done">ਹੋ ਗਿਆ</string>
     <string name="abc_activity_chooser_view_see_all">ਸਭ ਦੇਖੋ</string>
     <string name="abc_activitychooserview_choose_application">ਇੱਕ ਐਪ ਚੁਣੋ</string>
     <string name="abc_capital_off">ਬੰਦ</string>
@@ -1604,7 +1602,7 @@
     <string name="columbus_setting_sensitivity_title">ਮਜ਼ਬੂਤ ਟੈਪਾਂ ਦੀ ਲੋੜ ਹੈ</string>
     <string name="computing_size">ਹਿਸਾਬ ਲਗਾ ਰਿਹਾ ਹੈ…</string>
     <string name="condition_airplane_summary">ਨੈੱਟਵਰਕ ਉਪਲਬਧ ਨਹੀਂ ਹਨ</string>
-    <string name="condition_airplane_title">ਜਹਾਜ਼ ਮੋਡ ਚਾਲੂ ਹੈ</string>
+    <string name="condition_airplane_title">ਹਵਾਈ-ਜਹਾਜ਼ ਮੋਡ ਚਾਲੂ ਹੈ</string>
     <string name="condition_battery_summary">ਪ੍ਰਤਿਬੰਧਿਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
     <string name="condition_battery_title">ਬੈਟਰੀ ਸੇਵਰ ਚਾਲੂ ਹੈ</string>
     <string name="condition_bg_data_summary">ਪ੍ਰਤਿਬੰਧਿਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
@@ -1731,7 +1729,7 @@
     <string name="credentials_settings_not_available">ਇਸ ਵਰਤੋਂਕਾਰ ਲਈ ਕ੍ਰੀਡੈਂਸ਼ੀਅਲ ਉਪਲਬਧ ਨਹੀਂ ਹਨ</string>
     <string name="credentials_title">ਕ੍ਰੀਡੈਂਸ਼ੀਅਲ ਸਟੋਰੇਜ</string>
     <string name="cross_profile_calendar_summary">"ਤੁਹਾਡੇ ਨਿੱਜੀ ਕੈਲੰਡਰ 'ਤੇ ਕਾਰਜ-ਸਥਾਨ ਦੇ ਇਵੈਂਟ ਦਿਖਾਓ"</string>
-    <string name="cross_profile_calendar_title">ਕਰਾਸ-ਪ੍ਰੋਫਾਈਲ ਕੈਲੰਡਰ</string>
+    <string name="cross_profile_calendar_title">ਕ੍ਰਾਸ-ਪ੍ਰੋਫਾਈਲ ਕੈਲੰਡਰ</string>
     <string name="crypt_keeper_button_text">ਫ਼ੋਨ ਇਨਕ੍ਰਿਪਟ ਕਰੋ</string>
     <string name="crypt_keeper_confirm_title">ਕੀ ਇਨਕ੍ਰਿਪਟ ਕਰਨਾ ਹੈ?</string>
     <string name="crypt_keeper_data_corrupt_summary">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਦਰਜ ਕੀਤਾ ਪਾਸਵਰਡ ਸਹੀ ਹੈ, ਪਰੰਤੂ ਅਫ਼ਸੋਸ ਨਾਲ ਡਾਟਾ ਕਰਪਟ ਹੈ। 
@@ -1979,7 +1977,7 @@
     <string name="default_assist_title">ਡਿਜੀਟਲ ਸਹਾਇਕ ਐਪ</string>
     <string name="default_browser_title">ਬ੍ਰਾਊਜ਼ਰ ਐਪ</string>
     <string name="default_browser_title_none">ਕੋਈ ਪੂਰਵ-ਨਿਰਧਾਰਤ ਬ੍ਰਾਊਜ਼ਰ ਨਹੀਂ</string>
-    <string name="default_calendar_app_title">ਕੈਲੰਡਰ ਐਪ</string>
+    <string name="default_calendar_app_title">Calendar ਐਪ</string>
     <string name="default_contacts_app_title">ਸੰਪਰਕ ਐਪ</string>
     <string name="default_digital_assistant_title">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਡਿਜੀਟਲ ਸਹਾਇਕ ਐਪ</string>
     <string name="default_emergency_app">ਆਪਾਤਕਾਲ ਐਪ</string>
@@ -4760,6 +4758,7 @@ g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
     <string name="smart_forwarding_summary_enabled">ਸਮਾਰਟ ਫਾਰਵਰਡਿੰਗ ਦੀ ਸੁਵਿਧਾ ਚਾਲੂ ਹੈ</string>
     <string name="smart_forwarding_title">ਸਮਾਰਟ ਫਾਰਵਰਡਿੰਗ</string>
     <string name="smart_notifications_title">ਅਡੈਪਟਿਵ ਸੂਚਨਾਵਾਂ</string>
+    <string name="smart_rotate_text_headline">"ਚਿਹਰਾ ਪਛਾਣ 'ਸਵੈ-ਘੁਮਾਓ' ਸਟੀਕਤਾ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨ ਲਈ ਮੂਹਰਲੇ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ। ਚਿੱਤਰ ਕਦੇ ਵੀ ਸਟੋਰ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ ਅਤੇ ਨਾ ਹੀ Google ਨੂੰ ਭੇਜੇ ਜਾਂਦੇ ਹਨ।"</string>
     <string name="sms_application_title">SMS ਐਪ</string>
     <string name="sms_change_default_dialog_text">ਕੀ ਆਪਣੇ SMS ਐਪ ਦੇ ਤੌਰ ਤੇ %2$s ਦੀ ਬਜਾਏ %1$s ਨੂੰ ਵਰਤਣਾ ਹੈ?</string>
     <string name="sms_change_default_dialog_title">ਕੀ SMS ਐਪ ਬਦਲਣੀ ਹੈ?</string>
@@ -5627,6 +5626,9 @@ g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
 ਸੰਕਟਕਾਲੀਨ ਕਾਲ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਸੈਲਿਊਲਰ ਨੈੱਟਵਰਕ 'ਤੇ ਬਦਲ ਜਾਂਦਾ ਹੈ।
 ਸੰਕਟਕਾਲੀਨ ਕਾਲਾਂ ਸਿਰਫ਼ ਸੈਲਿਊਲਰ ਕਵਰੇਜ ਵਾਲੇ ਖੇਤਰਾਂ ਵਿੱਚ ਸੰਭਵ ਹਨ।"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text">ਸੰਕਟਕਾਲੀਨ ਕਾਲਾਂ</string>
+    <string name="wfc_disclaimer_location_desc_text">"ਜਦੋਂ ਤੁਸੀਂ ਸੰਕਟਕਾਲੀਨ ਕਾਲਾਂ ਲਈ ਇਹ ਸੇਵਾ ਵਰਤਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡਾ ਕੈਰੀਅਰ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਇਕੱਤਰ ਕਰ ਸਕਦਾ ਹੈ।
+
+ਵੇਰਵਿਆਂ ਲਈ ਆਪਣੇ ਕੈਰੀਅਰ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਦੇਖੋ।"</string>
     <string name="wfc_disclaimer_location_title_text">ਟਿਕਾਣਾ</string>
     <string name="wfc_disclaimer_title_text">ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ</string>
     <string name="widget_picker_title">ਵਿਜੇਟ ਚੁਣੋ</string>

@@ -337,93 +337,72 @@ Dispositivo senza provisioning"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Il tuo account è stato aggiunto a questo telefono}TABLET{Il tuo account è stato aggiunto a questo tablet}other{Il tuo account è stato aggiunto a questo dispositivo}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Importante:</b>"
 
-"<ul><li>Il proprietario del telefono può disinstallare le tue app o rimuovere completamente il tuo profilo utente.</li>"
+"<ul><li>Il proprietario del telefono può disinstallare le tue app o rimuovere completamente il tuo profilo utente</li>"
 
-"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate.</li>"
+"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate</li>"
 
-"<li>Condividi questo telefono soltanto con persone di cui ti fidi.</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Condividi questo telefono soltanto con persone di cui ti fidi</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
-"<ul><li>Il proprietario del tablet può disinstallare le tue app o rimuovere completamente il tuo profilo utente.</li>"
+"<ul><li>Il proprietario del tablet può disinstallare le tue app o rimuovere completamente il tuo profilo utente</li>"
 
-"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate.</li>"
+"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate</li>"
 
-"<li>Condividi questo tablet soltanto con persone di cui ti fidi.</li></ul>}other{<b>Importante:</b>"
+"<li>Condividi questo tablet soltanto con persone di cui ti fidi</li></ul>"
+}other{"<b>Importante:</b>"
 
-"<ul><li>Il proprietario del dispositivo può disinstallare le tue app o rimuovere completamente il tuo profilo utente.</li>"
+"<ul><li>Il proprietario del dispositivo può disinstallare le tue app o rimuovere completamente il tuo profilo utente</li>"
 
-"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate.</li>"
+"<li>Qualsiasi altro utente può accettare le autorizzazioni app aggiornate</li>"
 
-"<li>Condividi questo dispositivo soltanto con persone di cui ti fidi.</li></ul>}}</string>
+"<li>Condividi questo dispositivo soltanto con persone di cui ti fidi</li></ul>}}</string>
     <string name="welcome_start_button_label">Inizia</string>
     <string name="wifi_add_new_network">Aggiungi nuova rete</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo telefono.
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo telefono.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>"}TABLET{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo tablet.
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>"
+}TABLET{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo tablet.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>"}other{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo dispositivo.
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>"
+}other{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo dispositivo.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo telefono.
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>}}</string>
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo telefono.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare una SIM.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>"}TABLET{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo tablet.
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare una SIM</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>"
+}TABLET{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo tablet.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare una SIM.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>"}other{Se ti connetti a una rete mobile o Wi‑Fi, puoi configurare rapidamente il tuo dispositivo.
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare una SIM</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>"
+}other{Se ti colleghi a una rete mobile o Wi‑Fi puoi configurare rapidamente il tuo dispositivo.
 
 Senza connessione non puoi:
-
-"<li>Accedere al tuo Account Google.</li>"
-
-"<li>Ripristinare app e dati.</li>"
-
-"<li>Scaricare una SIM.</li>"
-
-"<li>Scaricare aggiornamenti software.</li>"
-
-"<li>Impostare automaticamente data e ora.</li>}}</string>
+"<li>Accedere al tuo Account Google</li>"
+"<li>Ripristinare app e dati</li>"
+"<li>Scaricare una SIM</li>"
+"<li>Scaricare aggiornamenti software</li>"
+"<li>Impostare automaticamente data e ora</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punto di accesso momentaneamente al completo</string>
     <string name="wifi_check_password_try_again">Controlla la password e riprova</string>
     <string name="wifi_connected_no_internet">Connesso, senza Internet</string>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Hizkuntza eta idazketa</string>
     <string name="lift_to_wake_title">Aktibatu eskuetan hartzen denean</string>
-    <string name="lockdown_settings_summary">Bistaratu etengailu bat pantaila blokeatuan; Smart Lock, aurpegi eta hatz-marka bidez desblokeatzeko eginbideak nahiz jakinarazpenak desaktibatzeko aukera ematen du etengailuak</string>
-    <string name="lockdown_settings_title">Erakutsi blokeatzeko aukera</string>
+    <string name="abc_action_bar_home_description">Joan orri nagusira</string>
+    <string name="abc_action_bar_up_description">Joan gora</string>
     <string name="locked_work_profile_notification_title">Laneko profila blokeatu bada</string>
     <string name="lockscreen_bypass_summary">Desblokeatu ondoren, joan zuzenean erabilitako azken pantailara</string>
     <string name="lockscreen_bypass_title">Saltatu pantaila blokeatua</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Laneko jakinarazpenak</string>
     <string name="reset_dashboard_summary">Sarea, aplikazioak edota gailua berrezar daitezke</string>
     <string name="reset_dashboard_title">Berrezartzeko aukerak</string>
-    <string name="abc_action_bar_home_description">Joan orri nagusira</string>
+    <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
     <string name="screensaver_settings_title">Pantaila-babeslea</string>
     <string name="screen_timeout">Pantailaren denbora-muga</string>
     <string name="screen_zoom_title">Bistaratzeko tamaina</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Automatikoki igotzen du freskatze-abiadura 60 Hz-etik 90 Hz-era zenbait edukitarako. Bateria-erabilera luzatzen du.</string>
     <string name="accessibility_vibration_settings_title">Dardara eta ukipen bidezko interakzioa</string>
     <string name="emergency_gesture_screen_title">SOS larrialdia</string>
-    <string name="abc_action_bar_up_description">Joan gora</string>
+    <string name="abc_action_mode_done">Eginda</string>
     <string name="vibrate_for_calls_category_title">Deiak</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Erakutsi diru-zorroa</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Erakutsi gailuak kontrolatzeko widgetak</string>
     <string name="lockscreen_privacy_wallet_summary">Eman diru-zorroa atzitzeko baimena pantaila blokeatuan eta ezarpen bizkorretan</string>
     <string name="lockscreen_privacy_controls_summary">Atzitu kontrolatzeko aukerak gailua blokeatuta dagoenean</string>
-    <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
-    <string name="abc_action_mode_done">Eginda</string>
     <string name="abc_activity_chooser_view_see_all">Ikusi guztiak</string>
     <string name="abc_activitychooserview_choose_application">Aukeratu aplikazio bat</string>
     <string name="abc_capital_off">DESAKTIBATU</string>
@@ -1604,7 +1602,7 @@ Burbuilak erabiltzeko aukera duten beste aplikazio eta elkarrizketei ere aplikat
     <string name="columbus_setting_sensitivity_title">Eskatu indar handiagoz sakatzeko</string>
     <string name="computing_size">Kalkulatzen…</string>
     <string name="condition_airplane_summary">Sareak ez daude erabilgarri</string>
-    <string name="condition_airplane_title">Hegaldi modua aktibatuta</string>
+    <string name="condition_airplane_title">Hegaldi modua aktibatuta dago</string>
     <string name="condition_battery_summary">Eginbide batzuk mugatuta daude</string>
     <string name="condition_battery_title">Bateria-aurrezlea aktibatuta</string>
     <string name="condition_bg_data_summary">Eginbide batzuk mugatuta daude</string>
@@ -3306,7 +3304,7 @@ Badaude erabiltzaile gehiago gailu honetan.
     <string name="mobile_data_disable_title">Datu-konexioa desaktibatu nahi duzu?</string>
     <string name="mobile_data_no_connection">Konexiorik gabe</string>
     <string name="mobile_data_off">Datu-konexioa desaktibatuta dago</string>
-    <string name="mobile_data_off_summary">Ez da automatikoki aktibatuko datu-konexioa</string>
+    <string name="mobile_data_off_summary">Datu konexioa ez da automatikoki aktibatuko</string>
     <string name="mobile_data_settings_summary">Atzitu datuak datu-konexioaren bidez</string>
     <string name="mobile_data_settings_summary_auto_switch">Barrutian dagoenean, automatikoki aldatuko da telefonoa operadore honetara</string>
     <string name="mobile_data_settings_summary_unavailable">Ez dago SIM txartelik erabilgarri</string>
@@ -5503,7 +5501,7 @@ Edozein erabiltzailek egunera ditzake beste erabiltzaile guztien aplikazioak."</
     <string name="virtual_keyboards_for_work_title">Lanerako pantailako teklatua</string>
     <string name="vision_settings_description">Doitu gailua zure beharretara. Ezarpenak atalean alda ditzakezu Erabilerraztasun-eginbideak.</string>
     <string name="vision_settings_suggestion_title">Aldatu letra-tamaina</string>
-    <string name="vision_settings_title">Ikusmen-ezarpenak</string>
+    <string name="vision_settings_title">Ikusmen-­ezarpenak</string>
     <string name="voice_input_output_settings">Ahots-sarrera eta -irteera</string>
     <string name="voice_input_output_settings_title">Ahots-sarreraren eta -irteeraren ezarpenak</string>
     <string name="voice_input_settings">Ahozko idazketaren ezarpenak</string>
@@ -5581,7 +5579,7 @@ Ahots-dei bat egiten duzun bitartean, ezingo duzu erabili Internet, eta baliteke
     <string name="vpn_require_connection_title">VPN konexioak erabiltzera derrigortu?</string>
     <string name="vpn_routes">Desbideratze-ibilbideak (adibidez, 10.0.0.0/8)</string>
     <string name="vpn_save">Gorde</string>
-    <string name="vpn_save_login">Gorde kontuaren informazioa</string>
+    <string name="vpn_save_login">Gorde kontuari buruzko informazioa</string>
     <string name="vpn_search_domains">DNS bilaketa-domeinuak</string>
     <string name="vpn_server">Zerbitzariaren helbidea</string>
     <string name="vpn_set_vpn_title">VPNa beti aktibatuta egoteko aukera ezarri nahi duzu?</string>

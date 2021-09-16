@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Για χρήση του RTT, πρέπει να είστε συνδεδεμένοι μέσω LTE ή να έχετε ενεργοποιημένη τη λειτουργία Κλήσης Wi-Fi.
+"</item>
+        <item>"Μπορείτε να αρχίσετε να χρησιμοποιείτε RTT όποτε επικοινωνείτε με χρήστες των οποίων τα τηλέφωνα υποστηρίζουν RTT ή συνδέονται με κάποια συσκευή TTY.
+"</item>
+        <item>"Για να δείτε την επιλογή RTT για εισερχόμενες και εξερχόμενες κλήσεις, ορίστε την επιλογή κλήσεων RTT σε \"Πάντα ορατό\".
+"</item>
+        <item>"Η λειτουργία RTT περιλαμβάνει ήχο, οπότε θέστε την κλήση σε σίγαση, εάν δεν χρειάζεστε ή δεν επιθυμείτε κοινοποίηση του ήχου.
+"</item>
+        <item>"Οι κλήσεις RTT χρησιμοποιούν λεπτά από το πρόγραμμα ομιλίας σας. Για λεπτομέρειες, ανατρέξτε στον πίνακα χρεώσεων του προγράμματος ή πακέτου κινητής τηλεφωνίας που χρησιμοποιείτε.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"Οι κλήσεις RTT αποθηκεύονται ως μεταγραφή μηνύματος.
+"</item>
+        <item>"Το RTT δεν είναι διαθέσιμο για βιντεοκλήσεις.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Θα πρέπει να είστε συνδεδεμένοι σε δίκτυο 4G LTE ή Wi-Fi.
+"</item>
+        <item>"Το άτομο με το οποίο μιλάτε πρέπει να διαθέτει τηλέφωνο που υποστηρίζει λειτουργία RTT ή είναι συνδεδεμένο σε συσκευή TTY (τηλέφωνο κειμένου).
+"</item>
+        <item>Αφού ενεργοποιήσετε τη λειτουργία RTT, το εικονίδιο RTT θα εμφανίζεται σε όλες τις εισερχόμενες κλήσεις.</item>
+    </string-array>
+</resources>

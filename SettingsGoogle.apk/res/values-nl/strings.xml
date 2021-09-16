@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Talen en invoer</string>
     <string name="lift_to_wake_title">Optillen om te activeren</string>
-    <string name="lockdown_settings_summary">Toon optie voor aan/uit-knop waarmee Smart Lock, Ontgrendelen via gezichtsherkenning, Ontgrendelen met vingerafdruk en meldingen op het vergrendelscherm worden uitgezet.</string>
-    <string name="lockdown_settings_title">Lockdown-optie tonen</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
     <string name="locked_work_profile_notification_title">Als werkprofiel is vergrendeld</string>
     <string name="lockscreen_bypass_summary">Ga na ontgrendeling rechtstreeks naar het laatst gebruikte scherm</string>
     <string name="lockscreen_bypass_title">Vergrendelscherm overslaan</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Werkmeldingen</string>
     <string name="reset_dashboard_summary">Netwerk, apps of apparaat kunnen worden gereset</string>
     <string name="reset_dashboard_title">Opties voor resetten</string>
-    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
     <string name="screensaver_settings_title">Screensaver</string>
     <string name="screen_timeout">Time-out voor scherm</string>
     <string name="screen_zoom_title">Weergavegrootte</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Verhoogt de vernieuwingssnelheid automatisch van 60 naar 90 Hz voor bepaalde content. Het batterijgebruik neemt toe.</string>
     <string name="accessibility_vibration_settings_title">Trillen en haptische feedback</string>
     <string name="emergency_gesture_screen_title">SOS</string>
-    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_mode_done">Klaar</string>
     <string name="vibrate_for_calls_category_title">Gesprekken</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Portemonnee tonen</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Apparaatbediening tonen</string>
     <string name="lockscreen_privacy_wallet_summary">Toegang tot portemonnee toestaan via vergrendelscherm en snelle instellingen</string>
     <string name="lockscreen_privacy_controls_summary">Toegangsbeheer indien vergrendeld</string>
-    <string name="abc_action_menu_overflow_description">Meer opties</string>
-    <string name="abc_action_mode_done">Klaar</string>
     <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
     <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
     <string name="abc_capital_off">UIT</string>
@@ -218,7 +216,7 @@ Deze instelling wordt niet door alle apps ondersteund."</string>
     <string name="accessibility_hearingaid_adding_summary">Hoortoestellen toevoegen</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Doorgaan</string>
     <string name="accessibility_hearingaid_not_connected_summary">Geen hoortoestellen verbonden</string>
-    <string name="accessibility_hearingaid_pair_instructions_message">Als je je hoortoestellen wilt koppelen, zoek je op het volgende scherm naar je apparaat en tik je erop. Controleer of je hoortoestel zich in de koppelingsmodus bevindt.</string>
+    <string name="accessibility_hearingaid_pair_instructions_message">Als je je hoortoestellen wilt koppelen, zoek je op het volgende scherm naar je apparaat en tik je erop. Zorg dat je hoortoestel in de koppelingsstand staat.</string>
     <string name="accessibility_hearingaid_title">Hoortoestellen</string>
     <string name="accessibility_introduction_title">Over %1$s</string>
     <string name="accessibility_keyboard_haptics_title">Haptische feedback voor toetsenbord</string>
@@ -1008,7 +1006,7 @@ Je kunt Batterijbesparing altijd aanzetten als de batterij bijna leeg is."</stri
     <string name="battery_tip_early_heads_up_title">Batterijbesparing aanzetten</string>
     <string name="battery_tip_high_usage_summary">Apps met het hoogste verbruik bekijken</string>
     <string name="battery_tip_high_usage_title">Hoger batterijverbruik</string>
-    <string name="battery_tip_limited_temporarily_summary">Je batterij sparen. Meer informatie</string>
+    <string name="battery_tip_limited_temporarily_summary">Om batterij te sparen. Meer informatie</string>
     <string name="battery_tip_limited_temporarily_title">Opladen tijdelijk beperkt</string>
     <string name="battery_tip_low_battery_summary">Zet Batterijbesparing aan om de batterijduur te verlengen</string>
     <string name="battery_tip_low_battery_title">Laag batterijniveau</string>
@@ -1604,7 +1602,7 @@ Als je een CA-certificaat installeert, kan de eigenaar van het certificaat toega
     <string name="columbus_setting_sensitivity_title">Intensievere tikken vereisen</string>
     <string name="computing_size">Berekenen…</string>
     <string name="condition_airplane_summary">Netwerken niet beschikbaar</string>
-    <string name="condition_airplane_title">Vliegmodus staat aan</string>
+    <string name="condition_airplane_title">Vliegtuigmodus staat aan</string>
     <string name="condition_battery_summary">Functies zijn beperkt</string>
     <string name="condition_battery_title">Batterijbesparing aan</string>
     <string name="condition_bg_data_summary">Functies zijn beperkt</string>
@@ -2722,7 +2720,7 @@ Je kunt dit later wijzigen via Instellingen > Apps en meldingen."</string>
     <string name="keywords_backup">back-up, back-up maken, back-uppen</string>
     <string name="keywords_backup_calling">reserveoptie voor bellen</string>
     <string name="keywords_battery">stroomverbruik, opladen</string>
-    <string name="keywords_battery_adaptive_preferences">adaptieve voorkeuren, aangepast batterijgebruik</string>
+    <string name="keywords_battery_adaptive_preferences">aangepaste voorkeuren, aangepast batterijgebruik</string>
     <string name="keywords_battery_saver">batterijbesparing, energiebesparing, besparing</string>
     <string name="keywords_battery_saver_schedule">routine, planning, batterijbesparing, energiebesparing, batterij, automatisch, procent</string>
     <string name="keywords_battery_saver_sticky">batterijbesparing, sticky, actief blijven, energiebesparing, batterij</string>
@@ -2908,7 +2906,7 @@ Je kunt dit later wijzigen via Instellingen > Apps en meldingen."</string>
     <string name="location_time_zone_detection_not_supported">Tijdzonedetectie op basis van locatie wordt niet ondersteund</string>
     <string name="location_time_zone_detection_toggle_title">Locatie gebruiken om tijdzone in te stellen</string>
     <string name="location_title">Mijn locatie</string>
-    <string name="lock_after_timeout">Vergrendelen na time-out van scherm</string>
+    <string name="lock_after_timeout">Vergrendelen na time-out scherm</string>
     <string name="lock_after_timeout_summary">%1$s na time-out</string>
     <string name="lock_after_timeout_summary_with_exception">%1$s na time-out, behalve wanneer ontgrendeld gehouden door %2$s</string>
     <string name="lock_failed_attempts_before_wipe">Probeer het opnieuw. Poging %1$d van %2$d.</string>
@@ -2997,7 +2995,7 @@ Een pincode beschermt de telefoon bij verlies of diefstal."</string>
     <string name="lock_settings_picker_new_profile_lock_title">Vergrendeling werk-apps kiezen</string>
     <string name="lock_settings_picker_profile_message">Als je deze vergrendeling vergeet, kan je IT-beheerder deze resetten</string>
     <string name="lock_settings_picker_title">Scherm­vergrendeling kiezen</string>
-    <string name="lock_settings_picker_update_lock_title">Nieuwe schermvergrendeling</string>
+    <string name="lock_settings_picker_update_lock_title">Nieuwe scherm­vergrendeling</string>
     <string name="lock_settings_picker_update_profile_lock_title">Nieuwe vergrendeling werk-apps kiezen</string>
     <string name="lock_settings_profile_screen_lock_title">Schermvergrendeling voor werkprofiel</string>
     <string name="lock_settings_profile_title">Beveiliging voor werkprofiel</string>
@@ -4021,7 +4019,7 @@ druk tegelijkertijd op de aan/uit-knop en de knop Volume omhoog."</string>
     <string name="reduce_bright_colors_intensity_preference_title">Intensiteit</string>
     <string name="reduce_bright_colors_intensity_start_label">Helderheid lager</string>
     <string name="reduce_bright_colors_persist_preference_title">Aanhouden nadat het apparaat opnieuw is opgestart</string>
-    <string name="reduce_bright_colors_preference_subtitle">"Dim je scherm extra zodat je het prettiger kunt lezen.&lt;br/>&lt;br/> Dit kan in de volgende situaties handig zijn: &lt;ol> &lt;li> De standaard minimumhelderheid van je telefoon is te helder voor je.&lt;/li> &lt;li> Je gebruikt je telefoon in een donkere omgeving, zoals 's avonds laat of in een donkere kamer voordat je gaat slapen.&lt;/li> &lt;/ol>"</string>
+    <string name="reduce_bright_colors_preference_subtitle">"Dim je scherm extra zodat je het prettiger kunt lezen.&lt;br/>&lt;br/> Dit kan in de volgende situaties handig zijn: &lt;ol> &lt;li> De standaard minimumhelderheid van je telefoon is te helder voor je.&lt;/li> &lt;li> Je gebruikt je telefoon in een donkere omgeving, zoals 's avonds laat of in een donkere kamer voordat je gaat slapen.&lt;/li> &lt;/ol>"</string>
     <string name="reduce_bright_colors_preference_summary">Dim het scherm meer dan de minimumhelderheid van je telefoon</string>
     <string name="reduce_bright_colors_preference_title">Extra gedimd</string>
     <string name="reduce_bright_colors_switch_title">Scherm extra dimmen</string>
@@ -4111,14 +4109,14 @@ Start je apparaat opnieuw en probeer het nogmaals."</string>
     <string name="retail_demo_reset_title">Wachtwoord vereist</string>
     <string name="retry">Opnieuw proberen</string>
     <string name="reverse_charging_charging_wirelessly_message">Niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
-    <string name="reverse_charging_detail_charging_overheat_message">"'Batterij delen' is niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw."</string>
-    <string name="reverse_charging_detail_charging_wirelessly_message">"'Batterij delen' is niet beschikbaar omdat de telefoon draadloos wordt opgeladen"</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Batterij delen is niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw.</string>
+    <string name="reverse_charging_detail_charging_wirelessly_message">Batterij delen is niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
     <string name="reverse_charging_detail_footer_title">"De batterij van je telefoon raakt sneller leeg als je de functie 'Batterij delen' gebruikt. 'Batterij delen' werkt met geschikte oordopjes, horloges, telefoons en meer. Verwijder de case van je telefoon voor beter opladen."</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Batterij delen werkt met geschikte oordopjes, telefoons en meer.
 
 De batterij van je telefoon raakt sneller leeg als je deze functie gebruikt. Batterij delen wordt na enkele minuten automatisch uitgezet als er geen ander apparaat wordt gedetecteerd. Voor beter opladen verwijder je de case van je telefoon en andere items die storing kunnen veroorzaken."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Batterij delen is niet beschikbaar omdat batterijbesparing aanstaat</string>
-    <string name="reverse_charging_detail_unplug_usb_cable_message">"'Batterij delen' is niet beschikbaar omdat er een USB-C-apparaat is aangesloten"</string>
+    <string name="reverse_charging_detail_unplug_usb_cable_message">Batterij delen is niet beschikbaar omdat er een USB-C-apparaat is aangesloten</string>
     <string name="reverse_charging_instructions_title">"Laad andere apparaten op met je Pixel.
 Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_is_off_summary">Uit</string>
@@ -4137,7 +4135,7 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_title">Batterij delen</string>
     <string name="reverse_charging_unplug_usb_cable_message">Niet beschikbaar omdat er een USB-C-apparaat is aangesloten</string>
     <string name="reverse_charging_warning_summary">Niet beschikbaar omdat de batterij minder dan %1$s lading heeft</string>
-    <string name="reverse_charging_warning_title">"'Batterij delen' is niet beschikbaar omdat de batterij minder dan %1$s lading heeft"</string>
+    <string name="reverse_charging_warning_title">Batterij delen is niet beschikbaar omdat de batterij minder dan %1$s lading heeft</string>
     <string name="right_edge">Rechterrand</string>
     <string name="ring_volume_option_title">Volume ringtone en meldingen</string>
     <string name="ring_volume_title">Volume ringtone en meldingen</string>
@@ -4744,7 +4742,7 @@ Pincode mogelijk onjuist."</string>
     <string name="skip_lock_screen_dialog_button_label">Overslaan</string>
     <string name="slot_number">(Positie %1$d)</string>
     <string name="smart_battery_footer">Aangepast batterijgebruik kan achtergrondactiviteit uitzetten of beperken om de batterijduur te verlengen. Sommige meldingen kunnen vertraagd zijn.</string>
-    <string name="smart_battery_manager_title">Adaptieve voorkeuren</string>
+    <string name="smart_battery_manager_title">Aangepaste voorkeuren</string>
     <string name="smart_battery_summary">Verleng de batterijduur op basis van je telefoongebruik</string>
     <string name="smart_battery_title">Aangepast batterijgebruik</string>
     <string name="smart_forwarding_failed_not_activated_text">Simkaart is niet geactiveerd.</string>
@@ -5275,7 +5273,7 @@ Hierdoor wordt ook het vingerafdrukmodel verwijderd dat op je apparaat is opgesl
     <string name="unlock_set_unlock_launch_picker_enable_summary">Kies een methode voor schermvergrendeling</string>
     <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout">%1$s/%2$s na slaapstand</string>
     <string name="unlock_set_unlock_launch_picker_summary_lock_immediately">%1$s/direct na slaapstand</string>
-    <string name="unlock_set_unlock_launch_picker_title">Schermvergrendeling</string>
+    <string name="unlock_set_unlock_launch_picker_title">Scherm­vergrendeling</string>
     <string name="unlock_set_unlock_launch_picker_title_profile">Werkprofiel­vergrendeling</string>
     <string name="unlock_set_unlock_mode_none">Swipen</string>
     <string name="unlock_set_unlock_mode_off">Geen</string>

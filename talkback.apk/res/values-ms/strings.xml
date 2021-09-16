@@ -105,7 +105,7 @@ Terus belajar tentang topik lain sekarang atau semak maklumat ini pada bila-bila
     <string name="audio_focus_state">Pembenaman audio %1$s</string>
     <string name="auto_detect">Sesuaikan dengan cara anda memegang peranti</string>
     <string name="auto_scan_action_description">Mulakan imbas dan pilih</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'Autoimbas' atau 'Pilih'"</string>
     <string name="available_devices_header">Peranti Bluetooth yang tersedia</string>
     <string name="basic_navigation_link_subtext">Beralih antara item, tatal, guna menu dan banyak lagi</string>
     <string name="basic_navigation_link_text">Navigasi asas</string>
@@ -119,7 +119,7 @@ Terus belajar tentang topik lain sekarang atau semak maklumat ini pada bila-bila
     <string name="bluetooth_no_devices_paired">Tiada peranti Bluetooth yang digandingkan</string>
     <string name="bluetooth_not_enabled_message">Untuk menggandingkan suis Bluetooth, hidupkan Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Persisian</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Untuk menggandingkan suis Bluetooth dalam Wizard Persediaan, hidupkan Bluetooth dan berikan akses Android Accessibility Suite kepada Peranti Berdekatan dan kebenaran Lokasi.</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Gandingkan suis secara wayarles melalui Bluetooth</string>
     <string name="bluetooth_switch_option_text">Suis Bluetooth</string>
@@ -157,6 +157,9 @@ Terus belajar tentang topik lain sekarang atau semak maklumat ini pada bila-bila
     <string name="cam_switch_enable_banner_text_label_generic">Untuk mengawal peranti anda, anda perlu menghidupkan Akses Suis terlebih dahulu.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Buka Suis Kamera</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Buka Akses Suis</string>
+    <string name="cam_switches_combined_preferences_title">"Tetapan '%1$s'"</string>
+    <string name="cam_switches_preferences_title">Tetapan Suis Kamera</string>
+    <string name="cam_switches_single_preferences_title">"Tetapan '%s'"</string>
     <string name="camera_switches_status_active">Suis Kamera Aktif</string>
     <string name="camera_switches_status_error">Ralat</string>
     <string name="camera_switches_status_no_face">Tiada wajah dikesan</string>
@@ -399,6 +402,7 @@ Cuba ini sekarang dengan menyentuh skrin dan menyeret ke arah penjuru kiri bawah
     <string name="fallback_menu_item_open_in_browser">Buka dalam penyemak imbas</string>
     <string name="fallback_menu_item_share_link">Kongsi pautan</string>
     <string name="fast_radio_button_title">Laju (lengah %1$ss)</string>
+    <string name="fast_radio_button_title_content_description">Pantas (penangguhan %1$s saat)</string>
     <string name="find_finish_button_text">Leret ke kanan untuk menemukan butang tamat.</string>
     <string name="finish">Selesai</string>
     <string name="finish_tutorial_announcement">Menunjukkan papan kekunci braille. Pusingkan telefon anda supaya skrin membelakangi anda. Pusingkan telefon secara mendatar kepada kedudukan landskap. Kemudian, mula taip.</string>
@@ -747,6 +751,7 @@ Nama paparan dalaman: %1$s"</string>
     <string name="list_index_template">%1$d daripada %2$d</string>
     <string name="lockscreen_label">Kunci skrin</string>
     <string name="medium_radio_button_title">Sederhana (lengah %1$ss)</string>
+    <string name="medium_radio_button_title_content_description">Sederhana (penangguhan %1$s saat)</string>
     <string name="menu_category_reading_controls">Membaca</string>
     <string name="menu_category_special_features">Ciri khas</string>
     <string name="menus_selector_text">"Pintasan ini boleh membantu anda menukar tetapan dengan pantas seperti menukar navigasi anda daripada aksara kepada perkataan atau menukar kadar pertuturan TalkBack.
@@ -767,6 +772,7 @@ Buka menu TalkBack sekarang dengan mengetik skrin menggunakan 3 jari."</string>
 Buka menu TalkBack sekarang dengan meleret ke bawah dan kemudian ke kanan."</string>
     <string name="menus_title">Menu dan kawalan</string>
     <string name="message_in_reset_keymap_confirm_dialog">Adakah anda pasti ingin menetapkan semula kekunci pintasan untuk peta kekunci ini kepada nilai asalnya? Sila ambil perhatian bahawa tindakan ini tidak boleh dibuat asal.</string>
+    <string name="message_request_phone_permission">TalkBack ingin mengetahui apabila terdapat panggilan telefon, supaya TalkBack dapat mengurangkan pengumuman yang mengganggu.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Ini akan menetapkan semula semua gerak isyarat kepada tindakan lalai.
 
 Anda akan kehilangan apa-apa perubahan yang telah anda buat."</string>
@@ -996,6 +1002,7 @@ Cuba mana-mana gerak isyarat yang membentuk sudut tepat dengan dua leretan. Seba
     <string name="pref_reduce_window_delay_title">Kurangkan lengah pengumuman tetingkap</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Tambahkan Suis Kamera</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Kosongkan suis Fizikal</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfigurasikan tetapan untuk suis: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Edit Suis Kamera</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Tiada Suis Kamera ditetapkan</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"Tetapkan Suis Kamera kepada '%s'"</string>
@@ -1016,9 +1023,9 @@ Cuba mana-mana gerak isyarat yang membentuk sudut tepat dengan dua leretan. Seba
     <string name="pref_sa_face_playground_stop_preview_content_description">Hentikan pratonton</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Hidupkan</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Suis Kamera mesti dihidupkan untuk menggunakan kawasan ujian ini</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Cubalah: pratonton semua jenis gerak isyarat wajah, termasuk mulut terbuka, senyuman dan sebagainya</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Cuba</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Cubalah: pratonton gerak isyarat wajah %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Kawasan ujian telah dijeda. Gunakan butang di bawah untuk memulakan semula.</string>
     <string name="pref_selector_summary">%1$s untuk memilih tetapan. Kemudian %2$s untuk melaraskan tetapan.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s atau %2$s untuk memilih tetapan. Kemudian %3$s untuk melaraskan tetapan.</string>
@@ -1069,6 +1076,7 @@ Jika peranti anda masih tidak dapat disambungkan, pergi ke tetapan Bluetooth dan
     <string name="reduce_speed_button">Kurangkan Kelajuan</string>
     <string name="remaining_calibration_finish_announcement">Semua kedudukan titik dikemas kini</string>
     <string name="reminder_announcement">Leret ke atas menggunakan 3 jari untuk mendapatkan lagi pilihan</string>
+    <string name="remove_assigned_switch">Alih keluar tentuan suis untuk %s</string>
     <string name="report_gesture_description">Berikut ialah gerak isyarat yang dilakukan baru-baru ini. Sila laporkan gerak isyarat yang salah dan perkara yang dijangkakan.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Tetapkan semula</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Tetapkan semula</string>
@@ -1149,6 +1157,7 @@ Cuba ini sekarang dengan meleret ke atas menggunakan 2 jari anda sehingga anda m
     <string name="search_mode_hint_no_selection">Tiada item yang dipilih.</string>
     <string name="search_mode_hint_query">Pertanyaan semasa: %1$s.</string>
     <string name="search_mode_hint_selection">Pilihan semasa: %1$s.</string>
+    <string name="select_for_point_scan">"'Pilih'"</string>
     <string name="select_setting_hint">%1$s untuk memilih tetapan yang berbeza</string>
     <string name="selecting_text_text">"Dalam kotak teks, gerakkan kursor ke bahagian awal teks yang ingin anda pilih.
 
@@ -1209,6 +1218,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="shortcut_media_control">Main atau jeda media</string>
     <string name="shortcut_next">Item seterusnya</string>
     <string name="shortcut_next_granularity">Tetapan navigasi seterusnya</string>
+    <string name="shortcut_next_window">Tetingkap seterusnya</string>
     <string name="shortcut_not_customizable">%1$s, tidak boleh disesuaikan</string>
     <string name="shortcut_notifications">Pemberitahuan</string>
     <string name="shortcut_overview">Ikhtisar</string>
@@ -1221,6 +1231,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="shortcut_practice_gestures">Gerak isyarat latihan</string>
     <string name="shortcut_previous">Item sebelumnya</string>
     <string name="shortcut_previous_granularity">Tetapan navigasi sebelumnya</string>
+    <string name="shortcut_previous_window">Tetingkap sebelumnya</string>
     <string name="shortcut_print_node_tree">Cetak pokok nod</string>
     <string name="shortcut_print_performance_stats">Cetak statistik prestasi</string>
     <string name="shortcut_quick_settings">Tetapan Pantas</string>
@@ -1260,6 +1271,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
 • Goyang untuk memulakan pembacaan berterusan"</string>
     <string name="six_hold_announcement">Anda juga boleh menaip dengan meletakkan telefon anda mendatar di atas meja. Cubalah sekarang. Jika anda tidak mempunyai meja berdekatan, langkau dengan meleret ke bawah.</string>
     <string name="slow_radio_button_title">Perlahan (lengah %1$ss)</string>
+    <string name="slow_radio_button_title_content_description">Perlahan (penangguhan %1$s saat)</string>
     <string name="sound_feedback_state">Maklum balas bunyi %1$s</string>
     <string name="sound_feedback_summary">Mainkan bunyi untuk menunjukkan bahawa sesuatu telah berubah (mis., kandungan pada skrin berubah)</string>
     <string name="speak_container_element_position_summary_off">Maklumat senarai dan grid tidak dituturkan</string>
@@ -1333,17 +1345,17 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="summary_pref_face_switches_debounce_time">Berbilang Suis Kamera yang dicetuskan dalam masa ini akan dianggap sebagai satu pencetus.</string>
     <string name="summary_pref_face_switches_enabled">Suis Kamera menggunakan kamera depan untuk melihat jika anda sedang melihat skrin dan untuk mengecam gerak isyarat wajah. Imej tidak disimpan atau dihantar kepada Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Mainkan bunyi apabila sesuatu benda pada skrin berubah sebagai respons kepada gerak isyarat</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Tunjukkan penunjuk visual tentang tempoh anda menahan gerak isyarat</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Pastikan skrin hidup apabila Suis Kamera didayakan. Suis Kamera tidak boleh membuka kunci skrin jika ia dimatikan.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Tiada wajah dikesan</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Lakukan apa-apa gerak isyarat wajah. Jika didaftarkan, nama gerak isyarat akan ditunjukkan. Untuk keluar, tahan apa-apa gerak isyarat selama %1$d saat.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Pastikan kepala anda tidak bergerak dan hadap kamera. Kemudian, %s.</string>
     <string name="summary_pref_play_store">Versi semasa TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Gunakan garisan bergerak untuk memilih lokasi mendatar dan menegak yang khusus. Tekan suis %1$s untuk memulakan pengimbasan Titik. %2$s</string>
     <string name="summary_pref_reverse_dots">Tukar kedudukan titik supaya titik 1 dan 4 mengambil tempat satu sama lain, contohnya</string>
     <string name="summary_pref_revert_to_default_menu">Tetapkan semula menu Akses Suis kepada senarai lalai item menu.</string>
-    <string name="summary_pref_single_tap">(Percubaan) Ketik sekali pada item yang difokuskan untuk pengaktifan</string>
+    <string name="summary_pref_single_tap">Ketik sekali pada item yang difokuskan untuk pengaktifan</string>
     <string name="summary_pref_tree_debug_tv">Gunakan kunci carian suara untuk mencetak pohon nod dan bukannya mencari</string>
     <string name="summary_pref_use_audio_focus">Kurangkan kelantangan audio lain semasa bercakap</string>
     <string name="summary_read_from_current">Bermula dari item seterusnya, baca semua item pada skrin</string>
@@ -1440,10 +1452,10 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="switched_to_contracted_announcement">Bertukar kepada braille singkat</string>
     <string name="switched_to_ueb_uncontracted_announcement">Bertukar kepada UEB panjang</string>
     <string name="switched_to_uncontracted_announcement">Bertukar kepada braille panjang</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Hampir sama dengan</string>
     <string name="symbol_ampersand">Ampersan</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Tanda kurang daripada</string>
+    <string name="symbol_angle_bracket_right">Tanda lebih besar daripada</string>
     <string name="symbol_apostrophe">Koma terbalik</string>
     <string name="symbol_approximately_equals">Lebih kurang sama</string>
     <string name="symbol_asterisk">Asterisk</string>
@@ -1463,7 +1475,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_bullseye">Pusat sasaran</string>
     <string name="symbol_caret">Tanda tinggi</string>
     <string name="symbol_celsius_degree">Darjah celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Tanda sen</string>
     <string name="symbol_circle_left_half_black">Bulatan dengan separuh kirinya hitam</string>
     <string name="symbol_circle_right_half_black">Bulatan dengan separuh kanannya hitam</string>
     <string name="symbol_colon">Titik bertindih</string>
@@ -1472,7 +1484,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_curly_bracket_left">Tanda kurung siku kiri</string>
     <string name="symbol_curly_bracket_right">Tanda kurung siku kanan</string>
     <string name="symbol_currency_sign">Tanda mata wang</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Tanda darjah</string>
     <string name="symbol_division">Tanda bahagi</string>
     <string name="symbol_dollar_sign">Tanda dolar</string>
     <string name="symbol_downwards_arrow">Anak Panah ke Bawah</string>
@@ -1524,7 +1536,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_middle_dot">Titik tengah</string>
     <string name="symbol_multiplication">Tanda darab</string>
     <string name="symbol_new_line">Baris baharu</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Tidak sama dengan</string>
     <string name="symbol_not_sign">Tanda bukan</string>
     <string name="symbol_paragraph_mark">Tanda perenggan</string>
     <string name="symbol_parenthesis_left">Tanda kurung kiri</string>
@@ -1535,7 +1547,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_plus_minus_sign">Tanda campur tolak</string>
     <string name="symbol_postal_mark">Tanda pos</string>
     <string name="symbol_pound">Paun</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Tanda mata wang paun</string>
     <string name="symbol_quarter_note">Not Suku</string>
     <string name="symbol_question_mark">Tanda soal</string>
     <string name="symbol_quotation_mark">Petikan</string>
@@ -1561,7 +1573,7 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_trademark">Tanda dagangan</string>
     <string name="symbol_underscore">Garis bawah</string>
     <string name="symbol_upwards_arrow">Anak panah ke atas</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Garis menegak</string>
     <string name="symbol_white_circle">Bulatan putih</string>
     <string name="symbol_white_club_suit">Set kelawar putih</string>
     <string name="symbol_white_diamond">Daiman putih</string>
@@ -1575,8 +1587,8 @@ Langkah 2: Leret ke bawah untuk menggerakkan fokus navigasi ke hadapan atau mela
     <string name="symbol_white_square">Segi empat putih</string>
     <string name="symbol_white_star">Bintang putih</string>
     <string name="symbol_white_up_pointing_triangle">Segi tiga menuding ke atas putih</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Tanda mata wang Won</string>
+    <string name="symbol_won_sign">Tanda mata wang Won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Tindakan sistem</string>
     <string name="tabletop">Mod atas meja</string>
@@ -1744,7 +1756,7 @@ Untuk mematikan TalkBack:
     <string name="title_pref_category_assign_switches">Tentukan suis</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Autoimbas</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Autoimbas (Imbasan titik)</string>
     <string name="title_pref_category_border_color">Warna</string>
     <string name="title_pref_category_built_in_gestures">Gerak isyarat terbina dalam</string>
     <string name="title_pref_category_context_menu">Sesuaikan menu Talkback</string>
@@ -1828,7 +1840,7 @@ Untuk mematikan TalkBack:
     <string name="title_pref_red">Merah</string>
     <string name="title_pref_resume_talkback">Disambung daripada penangguhan</string>
     <string name="title_pref_reverse_auto_scan_disabled">Autoimbas songsang (dilumpuhkan)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Autoimbas songsang (Imbasan titik)</string>
     <string name="title_pref_reverse_dots">Terbalikkan titik</string>
     <string name="title_pref_revert_to_default_menu">Berbalik kepada Menu Lalai</string>
     <string name="title_pref_scan_non_actionable_items">Tuturkan teks deskriptif</string>
@@ -1891,7 +1903,7 @@ Untuk mematikan TalkBack:
     <string name="title_pref_show_context_menu_as_list">Tunjukkan menu konteks sebagai senarai</string>
     <string name="title_pref_show_privacy_policy">Dasar privasi</string>
     <string name="title_pref_show_tos">Syarat perkhidmatan</string>
-    <string name="title_pref_single_tap">Pengaktifan satu ketikan</string>
+    <string name="title_pref_single_tap">Satu ketikan untuk mengaktifkan</string>
     <string name="title_pref_sound_and_vibration">Bunyi dan getaran</string>
     <string name="title_pref_soundback">Maklum balas bunyi</string>
     <string name="title_pref_soundback_volume">Kelantangn mklm bls bunyi</string>
@@ -1936,6 +1948,7 @@ Untuk mematikan TalkBack:
     <string name="title_previous_screen">Skrin sebelumnya</string>
     <string name="title_read_from_top">Baca dari atas</string>
     <string name="title_repeat_last_spoken_phrase">Ulang ungkapan terakhir yang dituturkan</string>
+    <string name="title_request_phone_permission">Kebenaran Permintaan TalkBack</string>
     <string name="title_screen_summary">Ringkasan Skrin</string>
     <string name="title_seek_bar_controls">Peluncur</string>
     <string name="title_seek_bar_edit">Edit tahap peluncur</string>

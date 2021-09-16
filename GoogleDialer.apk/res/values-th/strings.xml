@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">รับสาย</string>
     <string name="a11y_call_incoming_decline_description">ปฏิเสธ</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">โทรวิดีโอคอลผ่าน Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">โทรด้วยเสียงผ่าน Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">สายล่าสุดคือสายที่รับจาก ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">จัดการผู้โทร</string>
     <string name="a11y_expandedsheet_collapse">ยุบเมนู</string>
     <string name="a11y_expandedsheet_expand">ขยายเมนู</string>
-    <string name="a11y_favorites_education_dismiss">ปิด</string>
     <string name="a11y_feature_demo_next_page">หน้าถัดไป</string>
     <string name="a11y_feature_demo_page_indicator">หน้า %d</string>
     <string name="a11y_feature_demo_prev_page">หน้าที่แล้ว</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">สมุดโทรศัพท์ด่วนสำหรับ ^1</string>
+    <string name="a11y_icon_hd">โทร HD</string>
+    <string name="a11y_icon_hd_plus">โทร HD Plus</string>
+    <string name="a11y_icon_shared_data_call">การโทรโดยใช้อินเทอร์เน็ตที่แชร์</string>
+    <string name="a11y_icon_verified">การโทรที่ยืนยันแล้ว</string>
+    <string name="a11y_icon_vilte">วิดีโอคอลผ่าน LTE</string>
+    <string name="a11y_icon_viwifi">วิดีโอคอลผ่าน Wi-Fi</string>
+    <string name="a11y_icon_volte">โทรผ่าน LTE</string>
+    <string name="a11y_icon_voz4g">โทรผ่าน 4G</string>
+    <string name="a11y_icon_wifi">การโทรผ่าน Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">ใช้สองนิ้วเลื่อนขึ้นเพื่อรับสายและเลื่อนลงเพื่อตัดสาย</string>
     <string name="a11y_incoming_call_swipe_to_answer">ใช้ 2 นิ้วเลื่อนขึ้นเพื่อรับสายหรือเลื่อนลงเพื่อปฏิเสธ</string>
     <string name="a11y_new_call_log_entry_call_recording">บันทึกการโทรนี้แล้ว</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4</string>
     <string name="a11y_new_call_log_entry_phone_account">ใน ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">โทรหา ^1 แบบ RTT</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">การโทรโดยใช้อินเทอร์เน็ตที่แชร์</string>
     <string name="a11y_new_call_log_entry_tap_action">ขยายเมนู</string>
     <string name="a11y_new_call_log_entry_video_call">โทรวิดีโอคอลไปหา ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">โทรหา ^1 แบบวิดีโอคอลด้วย Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">แก้ไขหมายเลขก่อนโทร</string>
     <string name="action_menu_back_from_search">หยุดการค้นหา</string>
     <string name="action_menu_overflow_description">ตัวเลือกเพิ่มเติม</string>
+    <string name="activate_error_message">เกิดปัญหาขณะเปิดใช้งาน Call Screen</string>
+    <string name="activated_successfully">เปิดใช้ Call Screen แล้ว</string>
     <string name="activity_not_available">ไม่มีแอปสำหรับการทำงานนั้นบนอุปกรณ์นี้</string>
     <string name="add_2sec_pause">เพิ่มช่วงคั่น 2 วินาที</string>
     <string name="add_contact_not_available">ไม่มีแอปรายชื่อติดต่อที่พร้อมใช้งาน</string>
@@ -158,10 +170,10 @@
     <string name="blocked_numbers_disabled_emergency_header_label">การบล็อกสายเรียกเข้าปิดชั่วคราว</string>
     <string name="bm_suggest_call_button">โทร</string>
     <string name="bm_suggest_chat_button">แชท</string>
-    <string name="bm_suggest_wait_min">"รอ
-แชท%1$d นาที"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">ยังไม่อ่าน %1$s %2$s</string>
+    <string name="bm_suggest_wait_min">"Chat
+%1$dm รอ"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Working…"</string>
     <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
     <string name="bubble_bottom_action_end_call">วางสาย</string>
     <string name="bubble_bottom_action_hide">ซ่อน</string>
@@ -170,6 +182,9 @@
     <string name="call">การโทรด้วยเสียง</string>
     <string name="callFailed_simError">ไม่มีซิมหรือเกิดข้อผิดพลาดกับซิม</string>
     <string name="callHistoryIconLabel">ประวัติการโทร</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
     <string name="call_announcer_preference_footer_instruction_text">ระบบจะอ่านออกเสียงชื่อและหมายเลขของผู้โทรเมื่อมีสายเรียกเข้า</string>
     <string name="call_announcer_preference_list_title">แจ้งหมายเลขผู้โทร</string>
     <string name="call_announcer_preference_option_always">เสมอ</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">รับสาย</string>
     <string name="call_incoming_answer_rtt">รับสายด้วย RTT</string>
     <string name="call_incoming_answer_voice">รับสายด้วยเสียง</string>
-    <string name="call_incoming_chip_answer_and_release">รับและวางสายที่สนทนาอยู่</string>
+    <string name="call_incoming_chip_answer_and_release">รับและวางสายอื่น</string>
     <string name="call_incoming_chip_answer_as_rtt">รับสายเป็นการโทรแบบ RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">รับสายแบบการโทรด้วยเสียง</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">รับสายโดยปิดวิดีโอของฉันเอาไว้</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">เลื่อนขึ้นเพื่อรับสาย</string>
     <string name="call_incoming_swipe_to_reject">เลื่อนลงเพื่อตัดสาย</string>
     <string name="call_incoming_video_is_off">วิดีโอปิดอยู่</string>
-    <string name="call_incoming_will_disconnect">Hangouts วิดีโอจะสิ้นสุดหากรับสายเรียกเข้านี้</string>
+    <string name="call_incoming_will_disconnect">การรับสายนี้จะเป็นการวางสายการโทรอื่น</string>
     <string name="call_incoming_will_disconnect_app">การรับสายนี้จะวางสายของ %1$s</string>
     <string name="call_isdn">โทรหา ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">บล็อก/รายงานสแปม</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">เหตุผลที่โทร: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">บันทึกการอัดเสียงแล้ว</string>
     <string name="call_recording_conversation_history_entry">มีบันทึก</string>
+    <string name="call_recording_delete_snack_bar_undo">เลิกทำ</string>
     <string name="call_recording_disclaimer_agreen_button_text">เริ่มบันทึก</string>
     <string name="call_recording_disclaimer_content">"คุณหรือบุคคลอื่นในสายอาจอยู่ในที่ที่กำหนดให้ทุกคนต้องยินยอม ให้บันทึกการโทร ทุกคนจะได้รับการแจ้งก่อนว่าจะมีการบันทึกการโทร ทั้งนี้ คุณมีหน้าที่ในการปฏิบัติตามกฎหมายเกี่ยวกับการบันทึกการสนทนา ใช้การบันทึกการโทรอย่างมีความรับผิดชอบ และ เปิดใช้งานเมื่อจำเป็นเท่านั้น
 ^1
@@ -291,6 +307,7 @@
 ทั้งนี้จะไม่มีการส่งเสียงการโทรและข้อความถอดเสียงให้ใครทั้งสิ้นซึ่งรวมถึง Google ด้วย"</string>
     <string name="call_screen_demo_page_4_title">ประหยัดเวลาและป้องกันความสับสน</string>
     <string name="call_screen_demo_setting_title">ดูการสาธิต</string>
+    <string name="call_screen_demo_settings_title">ดูการสาธิต</string>
     <string name="call_screen_demo_title">วิธีการทำงานของ Call Screen</string>
     <string name="call_screen_demo_unable_to_fetch_audio">ดึงข้อมูลเสียงตัวอย่างไม่ได้</string>
     <string name="call_screen_demo_unable_to_play_audio">เล่นเสียงตัวอย่างไม่ได้</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">คุณวางสายแล้ว</string>
     <string name="call_screen_end_call_non_local_internal_message">สายหลุด</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen จะทำงานในอุปกรณ์โดยไม่ใช้ Wi-Fi หรืออินเทอร์เน็ต ระบบจะสร้างและเก็บข้อความถอดเสียงการสนทนาไว้ในโทรศัพท์ของคุณเท่านั้น %1$s</string>
+    <string name="call_screen_how_it_works_title">Call Screen จะทำงานในอุปกรณ์โดยไม่ใช้ Wi-Fi หรืออินเทอร์เน็ต ระบบจะสร้างและเก็บข้อความถอดเสียงการสนทนาไว้ในโทรศัพท์ของคุณเท่านั้น ^1</string>
     <string name="call_screen_incallui_chip_text">สกรีนสายเรียกเข้า</string>
     <string name="call_screen_join_call_button_content_description">เข้าร่วมการโทร</string>
     <string name="call_screen_join_call_internal_message">คุณเข้าร่วมในสายแล้ว</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">กำลังพูดกับผู้โทร</string>
     <string name="call_screen_screening_call_from">กำลังคัดกรองสายจาก</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">ปุ่มลำโพง</string>
     <string name="call_screen_suggestions_avatar_content_description">โลโก้รูปภาพ</string>
     <string name="call_screen_survey_cancel_button">ยกเลิก</string>
@@ -331,6 +350,8 @@
     <string name="call_work">โทรหาที่ทำงาน</string>
     <string name="call_work_mobile">โทรเข้ามือถือที่ทำงาน</string>
     <string name="call_work_pager">โทรเข้าเพจเจอร์ที่ทำงาน</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">สายเรียกเข้าจาก %1$s, %2$s ในซิม %3$s</string>
     <string name="caller_id_announcement_single_sim">สายเรียกเข้าจาก %1$s, %2$s</string>
     <string name="caller_id_business_data_details">ข้อมูลที่ใช้ในฟีเจอร์เหล่านี้มาจาก Google และผู้อนุญาต ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">โทรหา %s ไหม</string>
     <string name="calllog_add_to_contact">เพิ่มในรายชื่อติดต่อ</string>
     <string name="calllog_create_new_contact">สร้างรายชื่อติดต่อใหม่</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">ให้สิทธิ์เข้าถึงกล้องแล้ว</string>
     <string name="camera_privacy_text">ให้สิทธิ์เข้าถึงกล้องถ่ายรูปแล้ว</string>
     <string name="cannot_understand_description">ฉันไม่เข้าใจ</string>
     <string name="car_crash_emergency_intro">"บริการข้อความเสียงฉุกเฉินอัตโนมัติกำลังติดต่อคุณแทนผู้โทร
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
     <string name="checkbox_report_as_spam_action">รายงานสายนี้ว่าเป็นสแปม</string>
     <string name="child_number">ผ่านหมายเลข %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">เลือกรายชื่อติดต่อ</string>
     <string name="clear_button_content_description">ล้างการค้นหา</string>
     <string name="clear_text_end_icon_content_description">ล้างข้อความ</string>
     <string name="cli_not_supported_text">เปิดโทรศัพท์ทำต่อ</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">ตั้งค่าการโทรที่ยืนยันแล้วไม่ได้ คุณจะเปิดใช้ได้อีกครั้งในการตั้งค่า</string>
     <string name="contact_card_video_icon_content_description">วิดีโอคอล ^1</string>
     <string name="contact_grid_callback_number">หมายเลขโทรศัพท์เครื่องนี้: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">โอนสายแล้ว</string>
+    <string name="contact_grid_hd_icon_content_description">โทร HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">โทร HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">วิดีโอคอลผ่านผู้ให้บริการจาก</string>
     <string name="contact_grid_incoming_reception_only_video_call">วิดีโอคอลทางเดียวผ่านผู้ให้บริการจาก</string>
     <string name="contact_grid_incoming_rtt_call">การโทรแบบ RTT จาก</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">วิดีโอคอลผ่านผู้ให้บริการ Wi-Fi จาก</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">วิดีโอคอลทางเดียวผ่านผู้ให้บริการ Wi-Fi จาก</string>
     <string name="contact_grid_incoming_work_call">โทรเรื่องงานจาก</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">การโทรโดยใช้อินเทอร์เน็ตที่แชร์</string>
+    <string name="contact_grid_spam_icon_content_description">การโทรสแปม</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">ผู้ให้บริการ</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s ยืนยันแล้ว</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">หมายเลขที่ถูกต้อง</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">วิดีโอคอลผ่าน LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">วิดีโอคอลผ่าน Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">โทรผ่าน 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">โทรผ่าน LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">โทรผ่าน Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">การโทรผ่าน Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">สายจากที่ทำงาน</string>
     <string name="contact_menu_add_favorite">เพิ่มรายการโปรด</string>
     <string name="contact_menu_contact_info">ข้อมูลติดต่อ</string>
     <string name="contact_menu_invite_video">เชิญเข้าร่วมวิดีโอคอล</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">วันนี้</string>
     <string name="conversation_history_call_details_snack_bar_deleted">ลบการโทรแล้ว</string>
     <string name="conversation_history_call_details_snack_bar_undo">เลิกทำ</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">สายสำคัญ</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">แสดงข้อมูลสายที่เพิ่มเข้ามา</string>
+    <string name="conversation_history_call_recording_deleted">ลบเสียงบันทึกแล้ว</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">ข้อความถอดเสียงและเสียง</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">ข้อความถอดเสียง</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">คัดลอก</string>
     <string name="copy_number">คัดลอกหมายเลข</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">ตัวเลขนำหน้าเริ่มต้น</string>
     <string name="custom_prefix_prefixes_preference_title">รหัสนำหน้า</string>
     <string name="dark_theme_label">สีเข้ม</string>
+    <string name="default_changed_confirmation">ตั้งโทรศัพท์เป็นค่าเริ่มต้นแล้ว</string>
+    <string name="default_image_content_description">รูปภาพหน้าจอที่แนะนำ</string>
     <string name="delete">ลบ</string>
     <string name="delete_all_recordings_confirmation_dialog_title">ลบไฟล์บันทึกทั้งหมด</string>
     <string name="delete_all_recordings_now_error_message">ลบบันทึกบางรายการไม่ได้ ลองใหม่</string>
     <string name="delete_button_label">ลบการบันทึกทั้งหมด</string>
     <string name="delete_confirmation_dialog_negative_button_label">ยกเลิก</string>
     <string name="delete_confirmation_dialog_positive_button_label">ลบ</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">กำลังลบเสียงบันทึก…</string>
     <string name="description_add_to_existing_contact_action">เพิ่ม ^1 ไปยังรายชื่อติดต่อที่มีอยู่</string>
     <string name="description_blocked_number_list_delete">เลิกบล็อกหมายเลข</string>
     <string name="description_call_action">โทรไปที่ ^1</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"บริการข้อความเสียงฉุกเฉินอัตโนมัติกำลังติดต่อคุณแทนผู้โทร
 ผู้โทรส่งสัญญาณว่าพวกเขาอาจอยู่ในภาวะฉุกเฉิน 
 โปรดส่งความช่วยเหลือ"</string>
+    <string name="emergency_speaker">ลำโพง</string>
     <string name="emergency_voice_assist_dialog_button_close">ยกเลิก</string>
     <string name="emergency_voice_assist_dialog_title">โอเปอเรเตอร์ฉุกเฉินได้ยินที่คุณพูด</string>
     <string name="end_call_with_default_message_description">วางสาย</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">เสียงเบาเกินไป</string>
     <string name="feedback_call_issue_title">เกิดปัญหาอะไรขึ้น</string>
     <string name="feedback_title_please_rate">โปรดให้คะแนนคุณภาพการโทร</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">พลิกเพื่อปิดเสียง</string>
     <string name="flip_to_silence_summary">หากต้องการปิดเสียงเรียกเข้า ให้พลิกโทรศัพท์คว่ำหน้าลงบนพื้นผิวเรียบ</string>
     <string name="flip_to_silence_title">พลิกให้เสียงเงียบ</string>
+    <string name="foreground_notification_title">กำลังอัปเดต…</string>
     <string name="frequent_contact_suggestion">โทรติดต่อบ่อย</string>
     <string name="general_learn_more">ดูข้อมูลเพิ่มเติม</string>
     <string name="generic_conference_call_name">อยู่ในสาย</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีเก็บข้อมูลการบันทึก</string>
     <string name="how_it_works_storage_template">ระบบจะระงับบันทึกการโทรหากโทรศัพท์ของคุณไม่มีพื้นที่เก็บข้อมูลเหลืออยู่ ^1</string>
     <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string name="icon_description_shared_data_call">การโทรโดยใช้อินเทอร์เน็ตที่แชร์</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">นำเข้าหมายเลข</string>
     <string name="ims_video_heading">วิดีโอคอลผ่าน Verizon</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">คุณไม่มีสายที่ไม่ได้รับ</string>
     <string name="new_call_log_permission_no_calllog">หากต้องการดูประวัติการโทร ให้เปิดสิทธิ์เข้าถึงโทรศัพท์</string>
     <string name="new_call_log_secondary_blocked">ถูกบล็อก</string>
+    <string name="new_call_log_secondary_verified">การโทรที่ยืนยันแล้ว</string>
     <string name="new_call_log_snack_bar_deleted">ลบการโทรแล้ว</string>
     <string name="new_call_log_snack_bar_undo">เลิกทำ</string>
     <string name="new_call_log_unknown">ไม่ทราบ</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">วิดีโอ</string>
     <string name="notification_action_dismiss">ปฏิเสธ</string>
     <string name="notification_action_end_call">วางสาย</string>
+    <string name="notification_action_mute_toggle">ปิดเสียง</string>
     <string name="notification_action_speaker_off">ปิดลำโพง</string>
     <string name="notification_action_speaker_on">เปิดลำโพง</string>
+    <string name="notification_action_speaker_toggle">ลำโพง</string>
     <string name="notification_callReasonMsg">เหตุผล: %s</string>
     <string name="notification_call_wifi_brand">การโทรผ่าน Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">สายจากที่ทำงานผ่าน Wi‑Fi</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">ปุ่มที่ใช้เพื่อวิดีโอคอลผ่านผู้ให้บริการ</string>
     <string name="play">เล่น</string>
     <string name="plus_code_line_format">โค้ด Plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">บอกเหตุผลที่โทรหา</string>
     <string name="post_call_message_1">มีเรื่องด่วน โปรดโทรกลับ</string>
     <string name="post_call_message_2">ว่างแล้วโปรดโทรกลับ</string>
@@ -913,6 +968,8 @@
     <string name="privacy_policy_label">นโยบายความเป็นส่วนตัว</string>
     <string name="private_num_non_verizon">หมายเลขส่วนตัว</string>
     <string name="private_num_verizon">ถูกจำกัด</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">เลือกรายชื่อติดต่อ</string>
     <string name="ready_for_recording">พร้อมใช้งาน</string>
     <string name="record_greeting_cancel_label">ยกเลิก</string>
@@ -928,6 +985,8 @@
     <string name="record_greeting_uploading_greeting_message">กำลังบันทึก…</string>
     <string name="record_voicemail_greeting_title">บันทึกเสียงคำทักทาย</string>
     <string name="recording_category_title">การบันทึก</string>
+    <string name="recording_deleted">ลบเสียงบันทึกแล้ว</string>
+    <string name="recording_deletion_failed">ลบเสียงบันทึกไม่ได้ [ลองอีกครั้ง]</string>
     <string name="redo_button_text">ลองอีกครั้ง</string>
     <string name="remember_this_choice_label">จำตัวเลือกนี้</string>
     <string name="report_not_spam_alert_button">รายงาน</string>
@@ -939,9 +998,20 @@
     <string name="request_call_back_description">โทรกลับฉันด้วย</string>
     <string name="request_email_description">ส่งอีเมลถึงฉัน</string>
     <string name="respond_via_sms_setting_title">คำตอบด่วน</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">เปิด</string>
     <string name="revelio_end_call_reject_as_spam">ทำเครื่องหมายสายนี้ว่าเป็นสแปมแล้ว</string>
     <string name="revelio_end_call_user_missed_internal_message">ไม่ได้รับสาย</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT ช่วยเหลือผู้โทรที่หูหนวก ได้ยินไม่ชัด มีความบกพร่องในการพูด หรือต้องการการสื่อสารที่นอกเหนือจากเสียงพูด ^1</string>
     <string name="rtt_assist_for_att">แป้นพิมพ์ข้อความแบบเรียลไทม์ (RTT) บนหน้าจอเป็นอีกทางเลือกแทนคีย์บอร์ด TTY ภายนอก เมื่อคุณส่งข้อความระหว่างการโทร RTT บุคคลที่คุณกำลังสนทนาด้วยจะเห็นว่าคุณพิมพ์ข้อความของคุณแบบเรียลไทม์ ^1</string>
     <string name="rtt_assist_for_tmo">แป้นพิมพ์ข้อความแบบเรียลไทม์ (RTT) บนหน้าจอเป็นอีกทางเลือกแทนคีย์บอร์ด TTY ภายนอก RTT ส่งสิ่งที่คุณพิมพ์ได้ทันทีในระหว่างการโทร เพื่อช่วยให้คุณสื่อสารด้วยข้อความแบบเรียลไทม์ได้ คุณจะเห็นข้อความบางส่วนได้ก่อนที่จะพิมพ์จบ ^1</string>
@@ -949,7 +1019,8 @@
     <string name="rtt_button_back">กลับ</string>
     <string name="rtt_button_downgrade">เปลี่ยนเป็นการโทรด้วยเสียง</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT ไม่พร้อมใช้งานสำหรับการโทรนี้ ระบบเชื่อมต่อการโทรของคุณเป็นแบบเสียงเท่านั้น</string>
+    <string name="rtt_call_downgraded_toast">การโทร RTT ของคุณถูกเปลี่ยนเป็นการโทรแบบระบบเสียงอย่างเดียว</string>
+    <string name="rtt_call_not_available_toast">ใช้ RTT ในการโทรครั้งนี้ไม่ได้</string>
     <string name="rtt_configuration_summary_always_visible">ปุ่มข้อความแบบเรียลไทม์จะพร้อมใช้งานในทุกที่</string>
     <string name="rtt_configuration_summary_not_visible">อนุญาตสายโทรเข้าข้อความแบบเรียลไทม์ แต่ซ่อนปุ่มโทร</string>
     <string name="rtt_configuration_summary_visible_during_call">แสดงปุ่มข้อความแบบเรียลไทม์ระหว่างการโทร</string>
@@ -978,6 +1049,8 @@
     <string name="rtt_transcript_link">ดูข้อความถอดเสียง</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">ข้อความนี้จะปรากฏซ้ำ</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">บันทึก</string>
     <string name="saved_voicemails_action_title">ข้อความเสียงที่บันทึกไว้ (%1$s)</string>
     <string name="search_hint">ค้นหารายชื่อติดต่อทางวิดีโอคอล</string>
@@ -1004,8 +1077,11 @@
     <string name="send_a_message">ส่งข้อความ</string>
     <string name="send_to_voicemail_import_failed">การนำเข้าล้มเหลว</string>
     <string name="serial_number">หมายเลขซีเรียล</string>
+    <string name="set_as_default_button_text">ตั้งเป็นค่าเริ่มต้น</string>
     <string name="set_default_account">ใช้ในการโทรทุกครั้ง</string>
     <string name="set_default_account_description">ซิมที่ต้องการใช้งานจะบันทึกไว้กับรายชื่อติดต่อ</string>
+    <string name="set_phone_as_default_explanation_text">โทรศัพท์จะโทรออกและรับสายได้เมื่อตั้งเป็นแอปโทรศัพท์เริ่มต้นเท่านั้น</string>
+    <string name="set_phone_as_default_request_text">ตั้งโทรศัพท์เป็นค่าเริ่มต้น</string>
     <string name="settings">การตั้งค่า</string>
     <string name="settings_page_call_recording_feature_not_available_text">การบันทึกการโทรยังไม่พร้อมใช้งานในสถานที่ตั้งของคุณ</string>
     <string name="settings_page_crosby_feature_not_available_text">ไม่พร้อมใช้งานในสถานที่ตั้งของคุณ</string>
@@ -1040,6 +1116,8 @@
     <string name="snackbar_undo">เลิกทำ</string>
     <string name="snackbar_voicemail_deleted">ลบข้อความเสียงแล้ว</string>
     <string name="sounds_and_vibration_title">เสียงและการสั่น</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">สแปมและ Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">ปิด</string>
     <string name="spam_blocking_promo_action_filter_spam">กรองสแปม</string>
@@ -1066,8 +1144,6 @@
     <string name="speed_dial_add_button_text">เพิ่ม</string>
     <string name="speed_dial_contacts_permission_description">หากต้องการเปิดใช้การโทรด่วน ให้เปิดสิทธิ์เข้าถึงรายชื่อติดต่อ</string>
     <string name="speed_dial_disambig_dialog_title">เลือกวิธีโทรหา %s</string>
-    <string name="speed_dial_education_content">แตะรายชื่อติดต่อค้างไว้เพื่อสลับระหว่างการโทรและข้อความ</string>
-    <string name="speed_dial_education_title">วิธีการเพิ่มเติมในการติดต่อ</string>
     <string name="speed_dial_no_contacts_action_text">เพิ่มรายการโปรด</string>
     <string name="speed_dial_no_contacts_description">โทรหารายชื่อติดต่อโปรดได้ด้วยการแตะเพียงครั้งเดียว</string>
     <string name="speed_dial_remember_this_choice">จำตัวเลือกนี้</string>
@@ -1084,6 +1160,45 @@
     <string name="suggestion_dialog_postive_snackbar_message">ขอขอบคุณสำหรับความคิดเห็นของคุณ</string>
     <string name="suggestions_header">ผู้ที่ติดต่อบ่อย</string>
     <string name="summary_collapsed_preference_list">%1$s %2$s</string>
+    <string name="survey_account_and_system_info">ข้อมูลบัญชีและระบบ</string>
+    <string name="survey_app_id">รหัสแอปพลิเคชัน</string>
+    <string name="survey_app_name">ชื่อแอป</string>
+    <string name="survey_app_version">เวอร์ชันของแอป</string>
+    <string name="survey_application_data">ข้อมูลแอปพลิเคชัน</string>
+    <string name="survey_brand">แบรนด์</string>
+    <string name="survey_close_button_description">ปิด</string>
+    <string name="survey_default_prompt_title">โปรดช่วยเราปรับปรุง Google</string>
+    <string name="survey_device_model">รุ่นอุปกรณ์</string>
+    <string name="survey_email_address">อีเมล</string>
+    <string name="survey_google_play_services_version">เวอร์ชันของบริการ Google Play</string>
+    <string name="survey_legal_text">การดำเนินการต่อหมายความว่าคุณยินยอมให้ Google ใช้คำตอบและ%1$sของคุณในการปรับปรุงบริการตาม%2$sและ%3$sของเรา</string>
+    <string name="survey_library_version">เวอร์ชันของไลบรารี</string>
+    <string name="survey_network_request_failed">คำขอเครือข่ายล้มเหลว</string>
+    <string name="survey_neutral">เฉยๆ</string>
+    <string name="survey_next">ถัดไป</string>
+    <string name="survey_num_rating">%1$s จาก %2$s</string>
+    <string name="survey_ok">ตกลง</string>
+    <string name="survey_open_text_hint">ป้อนความคิดเห็นที่นี่</string>
+    <string name="survey_open_text_no_pii">อย่าใส่ข้อมูลส่วนบุคคล</string>
+    <string name="survey_operating_system">ระบบปฏิบัติการ</string>
+    <string name="survey_operating_system_version">เวอร์ชันของระบบปฏิบัติการ</string>
+    <string name="survey_other_option_hint">อื่นๆ (โปรดระบุ)</string>
+    <string name="survey_platform">แพลตฟอร์ม</string>
+    <string name="survey_privacy">ความเป็นส่วนตัว</string>
+    <string name="survey_prompt_no_thanks">ไม่เป็นไร</string>
+    <string name="survey_prompt_take_our_survey">แสดงคำถาม</string>
+    <string name="survey_smiley_rating">หน้ายิ้มที่ %1$s จาก %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">ค่อนข้างไม่พอใจ</string>
+    <string name="survey_somewhat_satisfied">ค่อนข้างพอใจ</string>
+    <string name="survey_submit">ส่ง</string>
+    <string name="survey_system_info_dialog_title">ข้อมูลบัญชีและระบบ</string>
+    <string name="survey_terms">ข้อกำหนด</string>
+    <string name="survey_thank_you_followup_message">ช่วยเราปรับปรุงผลิตภัณฑ์ด้วยการตอบคำถามเพิ่มเติม</string>
+    <string name="survey_timezone_offset">ออฟเซ็ตเขตเวลา</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">User Agent</string>
+    <string name="survey_very_dissatisfied">ไม่พอใจมาก</string>
+    <string name="survey_very_satisfied">พอใจมาก</string>
     <string name="system_default_theme_label">ค่าเริ่มต้นของระบบ</string>
     <string name="tab_title_call_history">ล่าสุด</string>
     <string name="tab_title_contacts">รายชื่อติดต่อ</string>
@@ -1095,11 +1210,15 @@
     <string name="terms_of_service_label">ข้อกำหนดในการให้บริการ</string>
     <string name="textmessage_button_label">ข้อความ</string>
     <string name="theme_preference_label">เลือกธีม</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">บันทึก</string>
     <string name="toast_text_copied">คัดลอกข้อความแล้ว</string>
     <string name="toolbar_back">กลับ</string>
     <string name="toolbar_close">ปิด</string>
     <string name="transcript_audio_feedback_chip_text">ช่วยเราปรับปรุง</string>
+    <string name="transcript_audio_feedback_link_text">ดูข้อความถอดเสียงและไฟล์เสียง</string>
     <string name="transcript_snippet_low_confidence_description">(เสียงไม่ชัดเจน)</string>
+    <string name="try_again_button">ลองอีกครั้ง</string>
     <string name="tty_configuration_title_tty_full">TTY เต็ม</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">ปิด TTY</string>
@@ -1121,7 +1240,6 @@
     <string name="type_outgoing_video_pulled">โอนสายโทรออก Hangouts วิดีโอไปยังอุปกรณ์เครื่องอื่นแล้ว</string>
     <string name="type_rejected">สายที่ถูกปฏิเสธ</string>
     <string name="type_voicemail">ข้อความเสียง</string>
-    <string name="unable_change_value_error">เกิดปัญหาในการเปลี่ยนแปลงการตั้งค่า RTT โปรดย้อนกลับไปและลองอีกครั้ง</string>
     <string name="unable_read_value_error">เกิดปัญหาในการอ่านการตั้งค่า RTT โปรดย้อนกลับไปและลองอีกครั้ง</string>
     <string name="unblock_number">เลิกบล็อก</string>
     <string name="unblock_number_alert_details">ระบบจะเลิกบล็อกหมายเลขนี้และรายงานว่าไม่ใช่สแปม การโทรเข้ามาหลังจากนี้จะไม่ถูกระบุว่าเป็นสแปม</string>
@@ -1130,6 +1248,7 @@
     <string name="unblock_number_ok">เลิกบล็อก</string>
     <string name="unblock_report_number_alert_title">เลิกบล็อก %1$s ไหม</string>
     <string name="unknown">ไม่ทราบ</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">ยกเลิกการปิดเสียงเรียกเข้า</string>
     <string name="user_is_busy_description">เดี๋ยวโทรกลับ</string>
@@ -1241,10 +1360,17 @@
     <string name="videocall_remote_video_on">วิดีโอของผู้ใช้เปิดอยู่</string>
     <string name="videocall_remotely_held">มีการพักสาย</string>
     <string name="videocall_remotely_resumed">โทรต่อ</string>
+    <string name="videocall_settings_default_carrier">วิดีโอคอลผ่านผู้ให้บริการ</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">บริการวิดีโอคอลค่าเริ่มต้น</string>
+    <string name="videocall_settings_fallback_summary">สลับไปเป็น Duo หากวิดีโอคอลของผู้ให้บริการไม่พร้อมใช้งาน</string>
+    <string name="videocall_settings_fallback_title">ใช้ Duo เป็นตัวสำรอง</string>
+    <string name="videocall_settings_title">วิดีโอคอล</string>
     <string name="videocall_show_preview_button_description">แสดงฟีดวิดีโอเฉพาะพื้นที่</string>
     <string name="view">ดู</string>
     <string name="view_location_settings">การตั้งค่าตำแหน่ง</string>
     <string name="vitle_label">วิดีโอคอลผ่าน LTE</string>
+    <string name="viwifi_label">วิดีโอผ่าน Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">PIN ใหม่มีอักขระที่ไม่ถูกต้อง</string>
     <string name="vm_change_pin_error_mismatch">PIN เก่าไม่ถูกต้อง</string>
     <string name="vm_change_pin_error_system_error">เปลี่ยน PIN ไม่ได้</string>
@@ -1254,8 +1380,11 @@
     <string name="vm_change_pin_progress_message">โปรดรอสักครู่</string>
     <string name="voice_call">การโทรด้วยเสียง</string>
     <string name="voice_call_button">โทร</string>
+    <string name="voice_display_name">เสียง %1$d</string>
     <string name="voice_search_not_available">การค้นหาด้วยเสียงไม่พร้อมใช้งาน</string>
     <string name="voice_selector_preference_title">เสียงที่มีให้</string>
+    <string name="voice_settings_available_voices_text">เสียงที่มีให้</string>
+    <string name="voice_settings_title">เสียง</string>
     <string name="voicecall_button_label">โทร</string>
     <string name="voicecall_button_wifi_description">โทรผ่าน Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">วันที่ %1$s เวลา %2$s</string>
@@ -1290,7 +1419,6 @@
     <string name="voicemail_donation_promo_title">ต้องการช่วยปรับปรุงความถูกต้องของการถอดเสียงใช่ไหม</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">ในกรณีที่ซิมไม่มีแพ็กเกจอินเทอร์เน็ต การใช้ข้อความเสียงแบบมีอินเทอร์เฟซอาจมีค่าใช้จ่ายที่เรียกเก็บโดยผู้ให้บริการ</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">ข้อความเสียงพร้อมภาพพร้อมใช้งานผ่านซิมอินเทอร์เน็ตที่เลือกเท่านั้น</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">ถ้าคุณมีหลายซิมและหนึ่งในนั้นใช้สำหรับ Fi ซิม Fi นั้นจะใช้สำหรับข้อความเสียงที่มีภาพ</string>
     <string name="voicemail_error_activating_message">คุณอาจไม่ได้รับการแจ้งเตือนข้อความเสียงจนกว่าจะเปิดใช้ข้อความเสียงพร้อมภาพแบบเต็มรูปแบบ โทรฟังข้อความเสียงเพื่อเรียกข้อความใหม่จนกว่าจะเปิดใช้ข้อความเสียงพร้อมภาพแบบเต็มรูปแบบ</string>
     <string name="voicemail_error_activating_title">กำลังเปิดใช้ข้อความเสียงพร้อมภาพ</string>
     <string name="voicemail_error_activation_disabled_message">โทรข้อความเสียงเพื่อตั้งค่าเสร็จสิ้น</string>
@@ -1397,6 +1525,7 @@
     <string name="vvm3_error_vms_no_cellular_title">เชื่อมต่อกล่องข้อความเสียงไม่ได้</string>
     <string name="vvm3_error_vms_timeout_message">ขออภัย เราพบว่ามีปัญหาเกิดขึ้น โปรดลองอีกครั้งในภายหลัง หากยังพบปัญหาอยู่ โปรดติดต่อฝ่ายสนับสนุนลูกค้าที่หมายเลข %1$s และแจ้งรหัสข้อผิดพลาด 9007</string>
     <string name="vvm3_error_vms_timeout_title">เกิดข้อผิดพลาด</string>
+    <string name="vvm_config_title">กำหนดค่าข้อความเสียงพร้อมภาพ</string>
     <string name="vvm_unsupported_message_format">ไม่รองรับข้อความประเภทนี้ โปรดโทร %s เพื่อฟังข้อความเสียง</string>
     <string name="wait_prompt_str">"ส่งโทนเสียงต่อไปนี้หรือไม่ 
 "</string>

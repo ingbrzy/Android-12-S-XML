@@ -165,9 +165,9 @@ Kada je režim rada u avionu uključen, veza sa Wi‑Fi-jem, mobilnim mrežama i
     <string name="final_hold_description_text">To može da potraje par minuta</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Telefon se priprema…}TABLET{Tablet se priprema…}other{Uređaj se priprema…}}</string>
     <string name="final_hold_title_setup_work_account">Telefon se priprema za podešavanje za posao…</string>
-    <string name="gesture_intro_description">Otkrijte pokrete za povratak na početni ekran, vraćanje i menjanje aplikacija</string>
+    <string name="gesture_intro_description">Otkrijte pokrete za povratak na početni ekran, vraćanje unazad i zamenu aplikacija</string>
     <string name="gesture_intro_skip_button">Preskoči</string>
-    <string name="gesture_intro_start_button">Isprobaću</string>
+    <string name="gesture_intro_start_button">Isprobaj</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Prevucite da biste se kretali telefonom}TABLET{Prevucite da biste se kretali tabletom}other{Prevucite da biste se kretali uređajem}}</string>
     <string name="gms_account_checkin_title">Preuzimamo informacije o nalogu…</string>
     <string name="gms_checkin_description_text">To može da potraje par minuta</string>
@@ -341,13 +341,15 @@ Uređaj nije dodeljen"</string>
 
 "<li>Bilo koji drugi korisnik može da prihvata ažurirane dozvole za aplikacije</li>"
 
-"<li>Ovaj telefon delite samo sa pouzdanim osobama</li></ul>}TABLET{<b>Važno:</b>"
+"<li>Ovaj telefon delite samo sa pouzdanim osobama</li></ul>"
+}TABLET{"<b>Važno:</b>"
 
 "<ul><li>Vlasnik tableta može da deinstalira aplikacije ili ukloni ceo korisnički profil</li>"
 
 "<li>Bilo koji drugi korisnik može da prihvata ažurirane dozvole za aplikacije</li>"
 
-"<li>Ovaj tablet delite samo sa pouzdanim osobama</li></ul>}other{<b>Važno:</b>"
+"<li>Ovaj tablet delite samo sa pouzdanim osobama</li></ul>"
+}other{"<b>Važno:</b>"
 
 "<ul><li>Vlasnik uređaja može da deinstalira aplikacije ili ukloni ceo korisnički profil</li>"
 
@@ -359,70 +361,47 @@ Uređaj nije dodeljen"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Ako se povežete na WiFi ili mobilnu mrežu, možete brzo da podesite telefon.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
-"<li>da vratite aplikacije i podatke</li>"
-
-"<li>da dobijete ažuriranja softvera</li>"
-
-"<li>da automatski podešavate vreme i datum</li>"}TABLET{Ako se povežete na WiFi ili mobilnu mrežu, možete brzo da podesite tablet.
+"<li>da vraćate aplikacije i podatke</li>"
+"<li>da dobijate ažuriranja softvera</li>"
+"<li>da automatski podešavate vreme i datum</li>"
+}TABLET{Ako se povežete na WiFi ili mobilnu mrežu, možete brzo da podesite tablet.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
-"<li>da vratite aplikacije i podatke</li>"
-
-"<li>da dobijete ažuriranja softvera</li>"
-
-"<li>da automatski podešavate vreme i datum</li>"}other{Ako se povežete na WiFi ili mobilnu mrežu, možete brzo da podesite uređaj.
+"<li>da vraćate aplikacije i podatke</li>"
+"<li>da dobijate ažuriranja softvera</li>"
+"<li>da automatski podešavate vreme i datum</li>"
+}other{Ako se povežete na WiFi ili mobilnu mrežu, možete brzo da podesite uređaj.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
-"<li>da vratite aplikacije i podatke</li>"
-
-"<li>da dobijete ažuriranja softvera</li>"
-
+"<li>da vraćate aplikacije i podatke</li>"
+"<li>da dobijate ažuriranja softvera</li>"
 "<li>da automatski podešavate vreme i datum</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Povezivanje na WiFi ili mobilnu mrežu pomaže vam da brzo podesite telefon.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
 "<li>da vraćate aplikacije i podatke</li>"
-
 "<li>da preuzmete SIM</li>"
-
 "<li>da dobijate ažuriranja softvera</li>"
-
-"<li>da automatski podešavate vreme i datum</li>"}TABLET{Povezivanje na WiFi ili mobilnu mrežu pomaže vam da brzo podesite tablet.
+"<li>da automatski podešavate vreme i datum</li>"
+}TABLET{Povezivanje na WiFi ili mobilnu mrežu pomaže vam da brzo podesite tablet.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
 "<li>da vraćate aplikacije i podatke</li>"
-
 "<li>da preuzmete SIM</li>"
-
 "<li>da dobijate ažuriranja softvera</li>"
-
-"<li>da automatski podešavate vreme i datum</li>"}other{Povezivanje na WiFi ili mobilnu mrežu pomaže vam da brzo podesite uređaj.
+"<li>da automatski podešavate vreme i datum</li>"
+}other{Povezivanje na WiFi ili mobilnu mrežu pomaže vam da brzo podesite uređaj.
 
 Ako ne uspostavite vezu, ne možete:
-
 "<li>da se prijavite na Google nalog</li>"
-
 "<li>da vraćate aplikacije i podatke</li>"
-
 "<li>da preuzmete SIM</li>"
-
 "<li>da dobijate ažuriranja softvera</li>"
-
 "<li>da automatski podešavate vreme i datum</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pristupna tačka je privremeno zauzeta</string>
     <string name="wifi_check_password_try_again">Proverite lozinku i probajte ponovo</string>

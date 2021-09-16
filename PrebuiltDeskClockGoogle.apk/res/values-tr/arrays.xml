@@ -17,14 +17,21 @@
         <item>15 dakika</item>
         <item>20 dakika</item>
         <item>25 dakika</item>
-        <item>Hiçbir zaman</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Uyku vaktinden 15 dakika önce</item>
+        <item>Uyku vaktinden 30 dakika önce</item>
+        <item>Uyku vaktinden 45 dakika önce</item>
+        <item>Uyku vaktinden 1 saat önce</item>
+        <item>Kapalı</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analog</item>
         <item>Dijital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Hiçbir zaman</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 saniye</item>
         <item>10 saniye</item>
         <item>15 saniye</item>
@@ -37,6 +44,35 @@
         <item>50 saniye</item>
         <item>55 saniye</item>
         <item>60 saniye</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 dakika sonra durdur</item>
+        <item>20 dakika sonra durdur</item>
+        <item>30 dakika sonra durdur</item>
+        <item>40 dakika sonra durdur</item>
+        <item>50 dakika sonra durdur</item>
+        <item>1 saat sonra durdur</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 dk. sonra durdur</item>
+        <item>20 dk. sonra durdur</item>
+        <item>30 dk. sonra durdur</item>
+        <item>40 dk. sonra durdur</item>
+        <item>50 dk. sonra durdur</item>
+        <item>1 saat sonra durdur</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>40 dakika</item>
+        <item>50 dakika</item>
+        <item>1 saat</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 dakika</item>
@@ -69,18 +105,6 @@
         <item>28 dakika</item>
         <item>29 dakika</item>
         <item>30 dakika</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Oldukça yüksek hız tutkunusunuz.</item>
-        <item>Çalışmanızın meyvesini toplayabilirsiniz.</item>
-        <item>"Android'ler hızlarıyla bilinir, ancak sizin kadar hızlı değiller!"</item>
-        <item>Vay canına.</item>
-        <item>L33t kez.</item>
-        <item>Olağanüstü bir hız.</item>
-        <item>Zaman atlamasını yine yapalım.</item>
-        <item>Yalnızca sola bir atlama.</item>
-        <item>Aceleci bir yapınız var.</item>
-        <item>Işık hızı.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall Adaları</item>

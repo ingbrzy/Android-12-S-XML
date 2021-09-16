@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Морате да рестартујете уређај да би се ова промена применила. Рестартујте га одмах или откажите.</string>
     <string name="camera_hint">Превуците од иконе за камеру</string>
     <string name="camera_label">отвори камеру</string>
+    <string name="camera_recording_announcement">Камера снима</string>
+    <string name="camera_stopped_recording_announcement">Снимање камером је заустављено</string>
     <string name="cancel">Откажи</string>
     <string name="carrier_network_change_mode">Промена мреже мобилног оператера</string>
     <string name="category_personal">Лично</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Надгледање</string>
     <string name="debug_networking_category">Умрежавање</string>
     <string name="debug_view_attributes">Омогући проверу атрибута за преглед</string>
+    <string name="defender_notify_des">Телефон ограничава пуњење ради бољег стања батерије</string>
+    <string name="defender_notify_learn_more">Сазнајте више</string>
+    <string name="defender_notify_resume_charge">Настави са пуњењем</string>
+    <string name="defender_notify_title">Пуњење је привремено ограничено</string>
     <string name="delete_blob_confirmation_text">Желите ли стварно да избришете ове дељене податке?</string>
     <string name="delete_blob_text">Избриши дељене податке</string>
     <string name="demo_mode">Режим демонстрације за кориснички интерфејс система</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM картица се откључава…</string>
     <string name="keyguard_try_fingerprint">Отворите помоћу отиска прста</string>
     <string name="keyguard_unlock">Превуците нагоре да бисте отворили</string>
+    <string name="keyguard_unlock_press">Притисните да бисте отворили</string>
     <string name="keywords_adb_wireless">adb, отклањање грешака, програмер</string>
     <string name="keywords_alarms_and_reminders">заказати, аларм, подсетник, сат</string>
     <string name="kg_enter_confirm_pin_hint">Потврдите жељени PIN кôд</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Пребацивач за тастатуру</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофон је активан</string>
+    <string name="mic_and_camera_recording_announcement">Камера и микрофон снимају</string>
+    <string name="mic_camera_stopped_recording_announcement">Снимање камером и микрофоном је заустављено</string>
+    <string name="mic_recording_announcement">Микрофон снима</string>
+    <string name="mic_stopped_recording_announcement">Снимање микрофоном је заустављено</string>
     <string name="missed_call">Пропуштен позив</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобилни подаци</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Пословне апликације</string>
     <string name="quick_step_accessibility_toggle_overview">Укључи/искључи преглед</string>
     <string name="recent_conversations">Недавне конверзације</string>
-    <string name="recents_quick_scrub_onboarding">Превуците удесно да бисте брзо променили апликације</string>
-    <string name="recents_swipe_up_onboarding">Превуците нагоре да бисте мењали апликације</string>
     <string name="remaining_length_format">Још %1$s</string>
     <string name="remote_input_image_insertion_text">је послао/ла слику</string>
     <string name="remove_from_settings">Уклони из Подешавања</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Додајте картицу</string>
     <string name="wallet_secondary_label_updating">Ажурира се</string>
     <string name="wallet_title">Новчаник</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено заузета</string>
     <string name="wifi_cant_connect">Повезивање није успело</string>
     <string name="wifi_cant_connect_to_ap">Повезивање са „%1$s“ није успело</string>

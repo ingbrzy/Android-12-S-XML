@@ -87,7 +87,7 @@
 Bạn có thể tiếp tục tìm hiểu về các chủ đề khác ngay bây giờ hoặc xem lại thông tin này bất cứ lúc nào trong phần Cài đặt TalkBack."</string>
     <string name="all_set_title">Đã xong!</string>
     <string name="always_show_this_message_label">Luôn hiển thị thông báo này</string>
-    <string name="application_name">Gói hỗ trợ tiếp cận của Android</string>
+    <string name="application_name">Bộ hỗ trợ tiếp cận của Android</string>
     <string name="arc_android_window">Cửa sổ ứng dụng</string>
     <string name="arc_navigation_hint">Nhấn tìm kiếm cùng với các mũi tên để điều hướng</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Nhấn %1$s để xem danh sách phím tắt</string>
@@ -105,7 +105,7 @@ Bạn có thể tiếp tục tìm hiểu về các chủ đề khác ngay bây g
     <string name="audio_focus_state">Tính năng Giảm âm thanh đang %1$s</string>
     <string name="auto_detect">Thích ứng với cách bạn cầm thiết bị</string>
     <string name="auto_scan_action_description">Bắt đầu quét và chọn</string>
-    <string name="auto_scan_or_select">\"Tự động quét\" hoặc \"Chọn\"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Tự động quét\" hoặc \"Chọn\"</string>
     <string name="available_devices_header">Các thiết bị Bluetooth hiện có</string>
     <string name="basic_navigation_link_subtext">Di chuyển giữa các mục, cuộn, sử dụng trình đơn và nhiều thao tác khác</string>
     <string name="basic_navigation_link_text">Cách di chuyển cơ bản</string>
@@ -119,7 +119,7 @@ Bạn có thể tiếp tục tìm hiểu về các chủ đề khác ngay bây g
     <string name="bluetooth_no_devices_paired">Chưa ghép nối thiết bị Bluetooth nào</string>
     <string name="bluetooth_not_enabled_message">Để ghép nối một công tắc Bluetooth, hãy bật Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Ngoại vi</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Để ghép nối một công tắc Bluetooth trong Trình hướng dẫn thiết lập, hãy bật Bluetooth và cấp cho Bộ hỗ trợ tiếp cận của Android quyền truy cập vào Thiết bị ở gần và Quyền truy cập thông tin vị trí.</string>
     <string name="bluetooth_phone_content_description">Điện thoại</string>
     <string name="bluetooth_switch_description_text">Ghép nối một công tắc không dây qua Bluetooth</string>
     <string name="bluetooth_switch_option_text">Công tắc Bluetooth</string>
@@ -157,6 +157,9 @@ Bạn có thể tiếp tục tìm hiểu về các chủ đề khác ngay bây g
     <string name="cam_switch_enable_banner_text_label_generic">Để điều khiển thiết bị, trước tiên, bạn cần bật tính năng Tiếp cận bằng công tắc.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Bật Công tắc dùng để thao tác với máy ảnh</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Bật tính năng Tiếp cận bằng công tắc</string>
+    <string name="cam_switches_combined_preferences_title">Cài đặt \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Cài đặt công tắc máy ảnh</string>
+    <string name="cam_switches_single_preferences_title">Cài đặt \"%s\"</string>
     <string name="camera_switches_status_active">Công tắc dùng để thao tác với máy ảnh đang hoạt động</string>
     <string name="camera_switches_status_error">Lỗi</string>
     <string name="camera_switches_status_no_face">Không phát hiện thấy khuôn mặt nào</string>
@@ -263,7 +266,7 @@ Hãy thử dán một từ vào hộp văn bản bên dưới."</string>
     <string name="default_action_name_pause">Tạm dừng Công tắc dùng để thao tác với máy ảnh</string>
     <string name="default_action_name_point_scan">Quét điểm</string>
     <string name="dialog_confirm_revert_to_default_menu">Xác nhận</string>
-    <string name="dialog_do_not_disturb_permission_message">Để điều chỉnh âm lượng từ trình đơn Tiếp cận bằng công tắc, hãy cấp cho Gói Hỗ trợ Android quyền truy cập khi chế độ Không làm phiền đang bật</string>
+    <string name="dialog_do_not_disturb_permission_message">Để điều chỉnh âm lượng từ trình đơn Tiếp cận bằng công tắc, hãy cấp cho Bộ hỗ trợ tiếp cận của Android quyền truy cập khi chế độ Không làm phiền đang bật</string>
     <string name="dialog_do_not_disturb_permission_title">Tính năng Tiếp cận bằng công tắc cần có quyền để điều chỉnh âm lượng</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Mở phần cài đặt</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Công tắc dùng để thao tác với máy ảnh cần tải thêm khoảng 10 MB dữ liệu xuống thì mới hoạt động được. Quá trình này có thể mất vài phút tùy vào tốc độ mạng của bạn.</string>
@@ -399,6 +402,7 @@ Bây giờ, hãy thử thực hiện thao tác này bằng cách chạm vào mà
     <string name="fallback_menu_item_open_in_browser">Mở trong trình duyệt</string>
     <string name="fallback_menu_item_share_link">Chia sẻ liên kết</string>
     <string name="fast_radio_button_title">Nhanh (độ trễ %1$s giây)</string>
+    <string name="fast_radio_button_title_content_description">Nhanh (trễ %1$s giây)</string>
     <string name="find_finish_button_text">Vuốt sang phải để tìm nút kết thúc.</string>
     <string name="finish">Hoàn tất</string>
     <string name="finish_tutorial_announcement">Đang hiển thị bàn phím chữ nổi. Xoay điện thoại sao cho màn hình hướng ra phía ngoài. Xoay điện thoại sao cho điện thoại nằm ngang. Sau đó, hãy bắt đầu nhập.</string>
@@ -747,6 +751,7 @@ Tên chế độ xem nội bộ: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Màn hình khóa</string>
     <string name="medium_radio_button_title">Trung bình (độ trễ %1$s giây)</string>
+    <string name="medium_radio_button_title_content_description">Trung bình (trễ %1$s giây)</string>
     <string name="menu_category_reading_controls">Đọc</string>
     <string name="menu_category_special_features">Tính năng đặc biệt</string>
     <string name="menus_selector_text">"Những phím tắt này có thể giúp bạn nhanh chóng thay đổi các tùy chọn cài đặt, chẳng hạn như chuyển đổi cách di chuyển từ ký tự sang từ hoặc thay đổi tốc độ nói của TalkBack.
@@ -767,6 +772,7 @@ Bây giờ, hãy mở trình đơn TalkBack bằng cách dùng 3 ngón tay nhấ
 Bây giờ, hãy mở trình đơn TalkBack bằng cách vuốt xuống rồi vuốt sang phải."</string>
     <string name="menus_title">Trình đơn và các thành phần điều khiển</string>
     <string name="message_in_reset_keymap_confirm_dialog">Bạn có chắc chắn muốn đặt lại các phím tắt của mình cho sơ đồ bàn phím này về các giá trị mặc định không? Xin lưu ý rằng bạn không thể hoàn tác hành động này.</string>
+    <string name="message_request_phone_permission">TalkBack muốn biết thời điểm diễn ra cuộc gọi để có thể giảm số lượng thông báo gây gián đoạn.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Thao tác này sẽ đặt lại tất cả cử chỉ về hành động mặc định.
 
 Bạn sẽ mất mọi thay đổi đã thực hiện."</string>
@@ -996,6 +1002,7 @@ Thử cử chỉ bất kỳ trong đó 2 lượt vuốt hình thành nên một 
     <string name="pref_reduce_window_delay_title">Giảm thời gian trì hoãn thông báo tiêu đề cửa sổ</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Thêm Công tắc dùng để thao tác với máy ảnh</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Xóa các công tắc vật lý</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Định cấu hình chế độ cài đặt cho công tắc: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Chỉnh sửa Công tắc dùng để thao tác với máy ảnh</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Chưa chỉ định Công tắc dùng để thao tác với máy ảnh</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Chỉ định Công tắc dùng để thao tác với máy ảnh cho \"%s\"</string>
@@ -1016,9 +1023,9 @@ Thử cử chỉ bất kỳ trong đó 2 lượt vuốt hình thành nên một 
     <string name="pref_sa_face_playground_stop_preview_content_description">Ngừng xem trước</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Bật</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Bạn phải bật Công tắc máy ảnh để được trải nghiệm dùng thử</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Dùng thử: thử tất cả các loại cử chỉ khuôn mặt, bao gồm mở miệng, cười, v.v.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Dùng thử</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Dùng thử: thử các cử chỉ khuôn mặt %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Đã tạm dừng trải nghiệm dùng thử. Hãy nhấn vào nút bên dưới để bắt đầu lại.</string>
     <string name="pref_selector_summary">%1$s để chọn một tùy chọn cài đặt. Sau đó, %2$s để điều chỉnh tùy chọn cài đặt này.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s hoặc %2$s để chọn một tùy chọn cài đặt. Sau đó, %3$s để điều chỉnh tùy chọn cài đặt này.</string>
@@ -1069,6 +1076,7 @@ Nếu thiết bị của bạn vẫn chưa kết nối, hãy chuyển tới mụ
     <string name="reduce_speed_button">Giảm tốc độ</string>
     <string name="remaining_calibration_finish_announcement">Đã cập nhật tất cả các vị trí dấu chấm</string>
     <string name="reminder_announcement">Vuốt lên bằng 3 ngón tay để xem thêm tùy chọn</string>
+    <string name="remove_assigned_switch">Xóa thao tác gán nút chuyển đối với %s</string>
     <string name="report_gesture_description">Đây là các cử chỉ được thực hiện gần đây, vui lòng báo cáo cử chỉ sai và mô tả cử chỉ đúng.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Đặt lại</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Đặt lại</string>
@@ -1149,6 +1157,7 @@ Bây giờ, hãy thử thực hiện thao tác này bằng cách dùng 2 ngón t
     <string name="search_mode_hint_no_selection">Không có mục nào được chọn.</string>
     <string name="search_mode_hint_query">Truy vấn hiện tại: %1$s.</string>
     <string name="search_mode_hint_selection">Lựa chọn hiện tại: %1$s.</string>
+    <string name="select_for_point_scan">\"Chọn\"</string>
     <string name="select_setting_hint">%1$s để chọn một tùy chọn cài đặt khác</string>
     <string name="selecting_text_text">"Trong một hộp văn bản, hãy di chuyển con trỏ đến đầu văn bản mà bạn muốn chọn.
 
@@ -1209,6 +1218,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="shortcut_media_control">Phát hoặc tạm dừng nhạc/video</string>
     <string name="shortcut_next">Mục tiếp theo</string>
     <string name="shortcut_next_granularity">Chế độ cài đặt cách di chuyển tiếp theo</string>
+    <string name="shortcut_next_window">Cửa sổ tiếp theo</string>
     <string name="shortcut_not_customizable">%1$s, không tùy chỉnh được</string>
     <string name="shortcut_notifications">Thông báo</string>
     <string name="shortcut_overview">Tổng quan</string>
@@ -1221,6 +1231,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="shortcut_practice_gestures">Thực hành cử chỉ</string>
     <string name="shortcut_previous">Mục trước</string>
     <string name="shortcut_previous_granularity">Chế độ cài đặt cách di chuyển trước</string>
+    <string name="shortcut_previous_window">Cửa sổ trước</string>
     <string name="shortcut_print_node_tree">In cây nút</string>
     <string name="shortcut_print_performance_stats">In thống kê hiệu suất</string>
     <string name="shortcut_quick_settings">Cài đặt nhanh</string>
@@ -1260,6 +1271,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
 • Lắc để bắt đầu đọc liên tục"</string>
     <string name="six_hold_announcement">Bạn cũng có thể nhập bằng cách đặt điện thoại nằm trên bàn. Hãy thử ngay. Nếu không có chiếc bàn nào ở gần, hãy bỏ qua bằng cách vuốt xuống.</string>
     <string name="slow_radio_button_title">Chậm (độ trễ %1$s giây)</string>
+    <string name="slow_radio_button_title_content_description">Chậm (trễ %1$s giây)</string>
     <string name="sound_feedback_state">Phản hồi bằng âm thanh %1$s</string>
     <string name="sound_feedback_summary">Phát âm thanh báo hiệu khi có sự thay đổi (ví dụ: thay đổi nội dung trên màn hình)</string>
     <string name="speak_container_element_position_summary_off">Thông tin danh sách và lưới không được đọc</string>
@@ -1333,17 +1345,17 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="summary_pref_face_switches_debounce_time">Nhiều lần kích hoạt Công tắc dùng để thao tác với máy ảnh trong khoảng thời gian này sẽ được xem là một lần kích hoạt.</string>
     <string name="summary_pref_face_switches_enabled">Công tắc dùng để thao tác với máy ảnh sử dụng máy ảnh mặt trước để xem bạn có đang nhìn vào màn hình hay không và nhận dạng các cử chỉ khuôn mặt. Các hình ảnh sẽ không được lưu trữ hay gửi đến Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Phát âm thanh khi có nội dung trên màn hình thay đổi theo cử chỉ</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Hiện chỉ báo trực quan về khoảng thời gian bạn giữ nguyên một cử chỉ</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Luôn bật màn hình khi Công tắc dùng để thao tác với máy ảnh đang bật. Công tắc dùng để thao tác với máy ảnh không thể mở khóa màn hình nếu đang tắt.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Không phát hiện thấy khuôn mặt nào</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Thực hiện bất kỳ cử chỉ khuôn mặt nào. Nếu đã đăng ký, tên cử chỉ sẽ hiển thị. Để thoát, hãy duy trì cử chỉ bất kỳ trong %1$d giây.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Giữ đầu cố định và hướng về phía máy ảnh. Sau đó %s.</string>
     <string name="summary_pref_play_store">Phiên bản TalkBack hiện tại: %1$s</string>
-    <string name="summary_pref_point_scan">Sử dụng các đường di chuyển để chọn một vị trí ngang và dọc cụ thể. Nhấn vào nút chuyển \"%1$s\" để bắt đầu Quét điểm. %2$s</string>
+    <string name="summary_pref_point_scan">Sử dụng các đường di chuyển để chọn một vị trí ngang và dọc cụ thể. Nhấn vào nút chuyển %1$s để bắt đầu Quét điểm. %2$s</string>
     <string name="summary_pref_reverse_dots">Hoán đổi vị trí dấu chấm, chẳng hạn như đổi vị trí của dấu chấm 1 cho dấu chấm 4</string>
     <string name="summary_pref_revert_to_default_menu">Đặt lại trình đơn Tiếp cận bằng công tắc về danh sách mặc định gồm các mục trong trình đơn.</string>
-    <string name="summary_pref_single_tap">(Thử nghiệm) Hãy nhấn một lần vào mục được đặt tiêu điểm để kích hoạt</string>
+    <string name="summary_pref_single_tap">Nhấn một lần vào mục được đặt tiêu điểm để kích hoạt</string>
     <string name="summary_pref_tree_debug_tv">Sử dụng phím tìm kiếm bằng giọng nói để in cây nút thay vì tìm kiếm</string>
     <string name="summary_pref_use_audio_focus">Giảm âm lượng của âm thanh khác trong khi nói</string>
     <string name="summary_read_from_current">Đọc mọi mục trên màn hình, bắt đầu từ mục tiếp theo</string>
@@ -1479,10 +1491,10 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="switched_to_contracted_announcement">Đã chuyển sang chế độ chữ nổi rút gọn</string>
     <string name="switched_to_ueb_uncontracted_announcement">Đã chuyển sang chế độ Chữ nổi tiếng Anh hợp nhất (UEB) không bị rút gọn</string>
     <string name="switched_to_uncontracted_announcement">Đã chuyển sang chế độ chữ nổi không bị rút gọn</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Xấp xỉ</string>
     <string name="symbol_ampersand">Ký hiệu &amp;</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Dấu nhỏ hơn</string>
+    <string name="symbol_angle_bracket_right">Dấu lớn hơn</string>
     <string name="symbol_apostrophe">Dấu móc lửng</string>
     <string name="symbol_approximately_equals">Xấp xỉ bằng</string>
     <string name="symbol_asterisk">Dấu hoa thị</string>
@@ -1502,7 +1514,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_bullseye">Hồng tâm</string>
     <string name="symbol_caret">Dấu mũ</string>
     <string name="symbol_celsius_degree">Độ C</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Ký hiệu đồng cent</string>
     <string name="symbol_circle_left_half_black">Vòng tròn có nửa trái màu đen</string>
     <string name="symbol_circle_right_half_black">Vòng tròn có nửa phải màu đen</string>
     <string name="symbol_colon">Dấu hai chấm</string>
@@ -1511,7 +1523,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_curly_bracket_left">Dấu ngoặc cong trái</string>
     <string name="symbol_curly_bracket_right">Dấu ngoặc cong phải</string>
     <string name="symbol_currency_sign">Ký hiệu tiền tệ</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Ký hiệu độ</string>
     <string name="symbol_division">Dấu chia</string>
     <string name="symbol_dollar_sign">Ký hiệu $</string>
     <string name="symbol_downwards_arrow">Mũi tên hướng xuống</string>
@@ -1563,7 +1575,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_middle_dot">Dấu chấm giữa</string>
     <string name="symbol_multiplication">Dấu nhân</string>
     <string name="symbol_new_line">Dòng mới</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Không bằng</string>
     <string name="symbol_not_sign">Ký hiệu không</string>
     <string name="symbol_paragraph_mark">Dấu phân đoạn</string>
     <string name="symbol_parenthesis_left">Dấu ngoặc đơn trái</string>
@@ -1574,7 +1586,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_plus_minus_sign">Dấu cộng trừ</string>
     <string name="symbol_postal_mark">Dấu bưu điện</string>
     <string name="symbol_pound">Dấu thăng</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Ký hiệu đồng bảng Anh</string>
     <string name="symbol_quarter_note">Dấu móc</string>
     <string name="symbol_question_mark">Dấu chấm hỏi</string>
     <string name="symbol_quotation_mark">Dấu ngoặc kép</string>
@@ -1600,7 +1612,7 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_trademark">Ký hiệu nhãn hiệu</string>
     <string name="symbol_underscore">Gạch dưới</string>
     <string name="symbol_upwards_arrow">Mũi tên lên trên</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Dấu gạch đứng</string>
     <string name="symbol_white_circle">Hình tròn màu trắng</string>
     <string name="symbol_white_club_suit">Quân tép màu trắng</string>
     <string name="symbol_white_diamond">Kim cương màu trắng</string>
@@ -1614,8 +1626,8 @@ Bước 2: Vuốt xuống để đưa tiêu điểm di chuyển về phía trư�
     <string name="symbol_white_square">Hình vuông màu trắng</string>
     <string name="symbol_white_star">Hình ngôi sao màu trắng</string>
     <string name="symbol_white_up_pointing_triangle">Hình tam giác trỏ lên màu trắng</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Ký hiệu đồng won</string>
+    <string name="symbol_won_sign">Ký hiệu đồng won</string>
     <string name="symbol_yen">Yên</string>
     <string name="system_actions">Thao tác trên hệ thống</string>
     <string name="tabletop">Chế độ trên mặt bàn</string>
@@ -1930,7 +1942,7 @@ Cách tắt TalkBack:
     <string name="title_pref_show_context_menu_as_list">Hiển thị menu ngữ cảnh dạng danh sách</string>
     <string name="title_pref_show_privacy_policy">Chính sách quyền riêng tư</string>
     <string name="title_pref_show_tos">Điều khoản dịch vụ</string>
-    <string name="title_pref_single_tap">Kích hoạt bằng cách nhấn một lần</string>
+    <string name="title_pref_single_tap">Nhấn một lần để kích hoạt</string>
     <string name="title_pref_sound_and_vibration">Âm thanh và rung</string>
     <string name="title_pref_soundback">Phản hồi bằng âm thanh</string>
     <string name="title_pref_soundback_volume">Âm lượng phản hồi bằng âm thanh</string>
@@ -1975,6 +1987,7 @@ Cách tắt TalkBack:
     <string name="title_previous_screen">Màn hình trước</string>
     <string name="title_read_from_top">Đọc từ đầu</string>
     <string name="title_repeat_last_spoken_phrase">Nhắc lại cụm từ được nói gần đây nhất</string>
+    <string name="title_request_phone_permission">TalkBack yêu cầu quyền</string>
     <string name="title_screen_summary">Tóm tắt màn hình</string>
     <string name="title_seek_bar_controls">Thanh trượt</string>
     <string name="title_seek_bar_edit">Chỉnh sửa mức độ thanh trượt</string>

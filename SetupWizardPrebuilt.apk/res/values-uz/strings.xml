@@ -168,7 +168,7 @@ Parvoz rejimida Wi-Fi, mobil internet va Bluetooth faolsizlantiriladi."</string>
     <string name="gesture_intro_description">Bosh ekranga chiqish, orqaga qaytish va ilovalarni almashtirish uchun ishoralarni oʻrganing</string>
     <string name="gesture_intro_skip_button">Tashlab ketish</string>
     <string name="gesture_intro_start_button">Sinash</string>
-    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Telefonda keyingi sahifaga oʻtish uchun suring}TABLET{Planshetda keyingi sahifaga oʻtish uchun suring}other{Qurilmada keyingi sahifaga oʻtish uchun suring}}</string>
+    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Telefonni ishoralar yordamida boshqarish}TABLET{Planshetni ishoralar yordamida boshqarish}other{Qurilmani ishoralar yordamida boshqarish}}</string>
     <string name="gms_account_checkin_title">Hisob ma’lumotlari yuklanmoqda…</string>
     <string name="gms_checkin_description_text">Bu bir necha daqiqa vaqt olishi mumkin</string>
     <string name="gms_checkin_description_text_timeout">Uzoq vaqt olyaptimi? Unday bo‘lsa, orqaga qayting va boshqa tarmoqqa ulanib ko‘ring.</string>
@@ -341,13 +341,15 @@ Sinxronlashda xatolik yuz berdi"</string>
 
 "<li>Har qanday foydalanuvchi yangilangan ilova ruxsatnomalarini qabul qilishi mumkin </li>"
 
-"<li>Bu telefonni faqat ishonchli odamlarga bering</li></ul>}TABLET{<b>Muhim:</b>"
+"<li>Bu telefonni faqat ishonchli odamlarga bering</li></ul>"
+}TABLET{"<b>Muhim:</b>"
 
 "<ul><li>Planshetning egasi ilovalaringizni oʻchirib tashlashi hamda sizga ajratilgan joyni olib tashlashi mumkin </li>"
 
 "<li>Har qanday foydalanuvchi yangilangan ilova ruxsatnomalarini qabul qilishi mumkin </li>"
 
-"<li>Bu planshetni faqat ishonchli odamlarga bering</li></ul>}other{<b>Muhim:</b>"
+"<li>Bu planshetni faqat ishonchli odamlarga bering</li></ul>"
+}other{"<b>Muhim:</b>"
 
 "<ul><li>Qurilmaning egasi ilovalaringizni oʻchirib tashlashi hamda sizga ajratilgan joyni olib tashlashi mumkin </li>"
 
@@ -359,70 +361,47 @@ Sinxronlashda xatolik yuz berdi"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wi‑Fi yoki mobil tarmoqqa ulanib, telefoningizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
-"<li>Google hisobingizga kira olmaysiz </li>"
-
+"<li>Google hisobingizga kira olmaysiz</li>"
 "<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
-
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
-"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"}TABLET{Wi‑Fi yoki mobil tarmoqqa ulanib, planshetingizni tezkor sozlashingiz mumkin.
+"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"
+}TABLET{Wi‑Fi yoki mobil tarmoqqa ulanib, planshetingizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
-"<li>Google hisobingizga kira olmaysiz </li>"
-
-"<li>Ilova va maʼlumotlaringizni tiklay olmaysiz </li>"
-
+"<li>Google hisobingizga kira olmaysiz</li>"
+"<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
-"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"}other{Wi‑Fi yoki mobil tarmoqqa ulanib, qurilmangizni tezkor sozlashingiz mumkin.
+"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"
+}other{Wi‑Fi yoki mobil tarmoqqa ulanib, qurilmangizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
-"<li>Google hisobingizga kira olmaysiz </li>"
-
-"<li>Ilova va maʼlumotlaringizni tiklay olmaysiz </li>"
-
+"<li>Google hisobingizga kira olmaysiz</li>"
+"<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
 "<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wi‑Fi yoki mobil tarmoqqa ulanib, telefoningizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
 "<li>Google hisobingizga kira olmaysiz</li>"
-
 "<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
-
 "<li>SIM kartani yuklab ololmaysiz</li>"
-
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
-"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"}TABLET{Wi‑Fi yoki mobil tarmoqqa ulanib, planshetingizni tezkor sozlashingiz mumkin.
+"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"
+}TABLET{Wi‑Fi yoki mobil tarmoqqa ulanib, planshetingizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
 "<li>Google hisobingizga kira olmaysiz</li>"
-
 "<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
-
 "<li>SIM kartani yuklab ololmaysiz</li>"
-
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
-"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"}other{Wi‑Fi yoki mobil tarmoqqa ulanib, qurilmangizni tezkor sozlashingiz mumkin.
+"<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>"
+}other{Wi‑Fi yoki mobil tarmoqqa ulanib, qurilmangizni tezkor sozlashingiz mumkin.
 
 Internetga ulanmasangiz, quyidagi amallarni bajara olmaysiz:
-
 "<li>Google hisobingizga kira olmaysiz</li>"
-
 "<li>Ilova va maʼlumotlaringizni tiklay olmaysiz</li>"
-
 "<li>SIM kartani yuklab ololmaysiz</li>"
-
 "<li>Dasturiy yangilanishlarni ololmaysiz</li>"
-
 "<li>Sana va vaqtni avtomatik yangilay olmaysiz</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Internet kirish nuqtasi vaqtinchalik to‘lgan</string>
     <string name="wifi_check_password_try_again">Parolni tekshirib, qaytadan urining</string>

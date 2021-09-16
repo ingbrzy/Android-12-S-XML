@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Додати в папку з додатком %1$s</string>
     <string name="add_to_home_screen">Додати на головний екран</string>
     <string name="added_to_folder">Елемент додано в папку</string>
+    <string name="added_to_home_screen_accessibility_text">Віджет %1$s додано на головний екран</string>
     <string name="all_apps_button_label">Список додатків</string>
     <string name="all_apps_button_personal_label">Список особистих додатків</string>
     <string name="all_apps_button_work_label">Список робочих додатків</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Коли телефон обертається</string>
     <string name="allow_rotation_title">Дозволити обертання головного екрана</string>
     <string name="allset_description">Тепер ви можете користуватися телефоном</string>
+    <string name="allset_hint">Щоб перейти на головний екран, проведіть пальцем угору</string>
+    <string name="allset_navigation_settings"><annotation id="link">Системні налаштування навігації</annotation></string>
     <string name="allset_title">Готово.</string>
     <string name="app_downloading_title">%1$s завантажується, %2$s</string>
     <string name="app_info_drop_target_label">Про додаток</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s очікує на завантаження</string>
     <string name="auto_add_shortcuts_description">Для нових додатків</string>
     <string name="auto_add_shortcuts_label">Додавати значки додатків на головний екран</string>
-    <string name="back_gesture_feedback_complete_with_overview_follow_up">Ви вмієте проводити пальцем справа наліво, щоб повертатися. Дізнайтеся, як переходити між додатками.</string>
+    <string name="back_gesture_feedback_cancelled">Проведіть пальцем від правого або лівого краю до середини екрана й підніміть палець.</string>
+    <string name="back_gesture_feedback_complete_with_overview_follow_up">Тепер ви знаєте, як повернутися на попередній екран, провівши пальцем справа наліво. Дізнайтеся, як переключатися між додатками.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Ви виконали жест \"Назад\".</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Не проводьте пальцем надто близько до нижнього краю екрана.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Проведіть пальцем саме від правого або лівого краю екрана.</string>
     <string name="back_gesture_intro_subtitle">Щоб перейти на попередній екран, проведіть пальцем від лівого чи правого краю до середини екрана.</string>
     <string name="back_gesture_intro_title">Щоб повернутися, проведіть пальцем по екрану</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Щоб змінити чутливість жесту \"Назад\", відкрийте налаштування</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Торкніться, щоб зберегти зміни</string>
     <string name="gadget_error_text">Не вдається завантажити віджет</string>
     <string name="gadget_setup_text">Торкніться, щоб завершити налаштування</string>
+    <string name="gesture_tutorial_action_button_label">Готово</string>
     <string name="gesture_tutorial_action_button_label_cancel">Скасувати</string>
     <string name="gesture_tutorial_action_button_label_settings">Налаштування</string>
     <string name="gesture_tutorial_action_button_label_skip">Пропустити</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Спробуйте втримувати вікно довше, перш ніж відпустити.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Проведіть пальцем угору від нижнього краю екрана.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Проведіть пальцем вертикально вгору, а тоді зробіть паузу.</string>
+    <string name="overview_gesture_intro_subtitle">Щоб переключатися між додатками, проведіть знизу вгору по екрану, утримуйте палець, а потім відпустіть.</string>
     <string name="overview_gesture_intro_title">Проведіть пальцем, щоб перейти в інший додаток</string>
     <string name="overview_selection_pref_desc">Перемикаючи додатки, натискайте й утримуйте текст і зображення, щоб побачити дії</string>
     <string name="overview_selection_pref_title">Вибір на екрані \"Огляд\"</string>
@@ -261,8 +268,8 @@
     <string name="search_pref_result_shortcuts_title">Швидкі команди</string>
     <string name="search_pref_result_tips_title">Поради</string>
     <string name="search_pref_result_widgets_title">Віджети</string>
-    <string name="search_pref_screen_desc">Пошук пристрою зі всіх додатків</string>
-    <string name="search_pref_screen_title">Пошук телефона</string>
+    <string name="search_pref_screen_desc">Пошук на пристрої з усіх додатків</string>
+    <string name="search_pref_screen_title">Пошук на телефоні</string>
     <string name="select_tooltip">Виберіть текст і зображення, щоб скопіювати, поділитися тощо</string>
     <string name="selectable_url_description">URL-адреса, яку можна вибрати</string>
     <string name="settings">Налаштування</string>

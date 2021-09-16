@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">ਇਸ ਤਬਦੀਲੀ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਡੀਵਾਈਸ ਨੂੰ ਰੀਬੂਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਹੁਣੇ ਰੀਬੂਟ ਕਰੋ ਜਾਂ ਰੱਦ ਕਰੋ।</string>
     <string name="camera_hint">ਕੈਮਰੇ ਲਈ ਪ੍ਰਤੀਕ ਤੋਂ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="camera_label">ਕੈਮਰਾ ਖੋਲ੍ਹੋ</string>
+    <string name="camera_recording_announcement">ਕੈਮਰਾ ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ ਹੈ</string>
+    <string name="camera_stopped_recording_announcement">ਕੈਮਰੇ ਨੇ ਰਿਕਾਰਡ ਕਰਨਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਹੈ</string>
     <string name="cancel">ਰੱਦ ਕਰੋ</string>
     <string name="carrier_network_change_mode">ਕੈਰੀਅਰ ਨੈੱਟਵਰਕ ਦੀ ਬਦਲੀ</string>
     <string name="category_personal">ਨਿੱਜੀ</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">ਨਿਰੀਖਣ ਕਰਨਾ</string>
     <string name="debug_networking_category">ਨੈੱਟਵਰਕਿੰਗ</string>
     <string name="debug_view_attributes">"'ਵਿਸ਼ੇਸ਼ਤਾ ਨਿਰੀਖਣ ਦੇਖੋ' ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
+    <string name="defender_notify_des">ਬੈਟਰੀ ਦੀ ਸਥਿਤੀ ਬਚਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ, ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੀ ਚਾਰਜਿੰਗ ਰੋਕੀ ਜਾ ਰਹੀ ਹੈ</string>
+    <string name="defender_notify_learn_more">ਹੋਰ ਜਾਣੋ</string>
+    <string name="defender_notify_resume_charge">ਚਾਰਜਿੰਗ ਮੁੜ-ਚਾਲੂ ਕਰੋ</string>
+    <string name="defender_notify_title">ਚਾਰਜਿੰਗ ਕੁਝ ਸਮੇਂ ਲਈ ਰੋਕੀ ਗਈ</string>
     <string name="delete_blob_confirmation_text">ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਸਾਂਝਾ ਕੀਤੇ ਡਾਟੇ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="delete_blob_text">ਸਾਂਝਾ ਕੀਤੇ ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ</string>
     <string name="demo_mode">ਸਿਸਟਮ UI ਡੈਮੋ ਮੋਡ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM ਕਾਰਡ ਨੂੰ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
     <string name="keyguard_try_fingerprint">ਖੋਲ੍ਹਣ ਲਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤੋ</string>
     <string name="keyguard_unlock">ਖੋਲ੍ਹਣ ਲਈ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ</string>
+    <string name="keyguard_unlock_press">ਖੋਲ੍ਹਣ ਲਈ ਦਬਾਓ</string>
     <string name="keywords_adb_wireless">adb, ਡੀਬੱਗ, dev</string>
     <string name="keywords_alarms_and_reminders">ਸਮਾਂ-ਸੂਚੀ, ਅਲਾਰਮ, ਰਿਮਾਈਂਡਰ, ਘੜੀ</string>
     <string name="kg_enter_confirm_pin_hint">ਇੱਛਤ ਪਿੰਨ ਕੋਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">ਕੀ-ਬੋਰਡ ਸਵਿੱਚਰ</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਕਿਰਿਆਸ਼ੀਲ</string>
+    <string name="mic_and_camera_recording_announcement">ਕੈਮਰਾ ਅਤੇ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਰਿਕਾਰਡ ਕਰ ਰਹੇ ਹਨ</string>
+    <string name="mic_camera_stopped_recording_announcement">ਕੈਮਰੇ ਅਤੇ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਨੇ ਰਿਕਾਰਡ ਕਰਨਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਹੈ</string>
+    <string name="mic_recording_announcement">ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਰਿਕਾਰਡ ਕਰ ਰਿਹਾ ਹੈ</string>
+    <string name="mic_stopped_recording_announcement">ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਨੇ ਰਿਕਾਰਡ ਕਰਨਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਹੈ</string>
     <string name="missed_call">ਮਿਸ ਕਾਲ</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ਮੋਬਾਈਲ ਡਾਟਾ</string>
@@ -1490,6 +1501,7 @@
     <string name="paused_by_dnd">"'ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ' ਵਿਸ਼ੇਸ਼ਤਾ ਨੇ ਰੋਕ ਦਿੱਤਾ"</string>
     <string name="people_tile_description">ਹਾਲੀਆ ਸੁਨੇਹੇ, ਮਿਸ ਕਾਲਾਂ ਅਤੇ ਸਥਿਤੀ ਸੰਬੰਧੀ ਅੱਪਡੇਟ ਦੇਖੋ</string>
     <string name="people_tile_title">ਗੱਲਬਾਤ</string>
+    <string name="person_available">ਉਪਲਬਧ</string>
     <string name="phone_hint">ਫ਼ੋਨ ਲਈ ਪ੍ਰਤੀਕ ਤੋਂ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="phone_label">ਫ਼ੋਨ ਖੋਲ੍ਹੋ</string>
     <string name="picture_color_mode">ਤਸਵੀਰ ਰੰਗ ਮੋਡ</string>
@@ -1705,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ</string>
     <string name="quick_step_accessibility_toggle_overview">ਰੂਪ-ਰੇਖਾ ਨੂੰ ਟੌਗਲ ਕਰੋ</string>
     <string name="recent_conversations">ਹਾਲੀਆ ਗੱਲਾਂਬਾਤਾਂ</string>
-    <string name="recents_quick_scrub_onboarding">ਐਪਾਂ ਵਿਚਾਲੇ ਤੇਜ਼ੀ ਨਾਲ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਲਈ ਸੱਜੇ ਪਾਸੇ ਵੱਲ ਘਸੀਟੋ</string>
-    <string name="recents_swipe_up_onboarding">ਐਪਾਂ ਵਿਚਾਲੇ ਅਦਲਾ-ਬਦਲੀ ਕਰਨ ਲਈ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="remaining_length_format">%1$s ਬਾਕੀ</string>
     <string name="remote_input_image_insertion_text">ਚਿੱਤਰ ਭੇਜਿਆ ਗਿਆ</string>
     <string name="remove_from_settings">ਸੈਟਿੰਗਾਂ ਤੋਂ ਹਟਾਓ</string>
@@ -2116,6 +2126,7 @@ USB ਪੋਰਟ ਨੂੰ ਦੁਬਾਰਾ ਵਰਤਣਾ ਠੀਕ ਹੋ�
     <string name="wallet_secondary_label_no_card">ਕੋਈ ਕਾਰਡ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="wallet_secondary_label_updating">ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
     <string name="wallet_title">ਵਾਲੇਟ</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"ਐਕਸੈੱਸ ਪੁਆਇੰਟ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਸੰਪੂਰਨ ਰੁਝੇਂਵੇਂ ਵਿੱਚ ਹੈ"</string>
     <string name="wifi_cant_connect">ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"</string>

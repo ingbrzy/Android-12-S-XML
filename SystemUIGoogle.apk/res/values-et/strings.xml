@@ -357,7 +357,7 @@
     <string name="airplane_mode">Lennukirežiim</string>
     <string name="alarm_template">kell %1$s</string>
     <string name="alarm_template_far">kell %1$s</string>
-    <string name="alarms_and_reminders_footer_title">"Lubage sellel rakendusel määrata alarme ja ajastada kiire tähtajaga toiminguid. See võimaldab rakendusel töötada taustal, mistõttu võib akukasutus olla suurem.
+    <string name="alarms_and_reminders_footer_title">"Lubage sellel rakendusel määrata alarme ja ajastada ajakriitilisi toiminguid. See võimaldab rakendusel töötada taustal, mistõttu võib akukasutus olla suurem.
 
 Kui see luba on välja lülitatud, siis olemasolevad alarmid ja selle rakenduse ajastatud ajapõhised sündmused ei tööta."</string>
     <string name="alarms_and_reminders_label">Alarmid ja meeldetuletused</string>
@@ -595,6 +595,8 @@ Valik"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Selle muudatuse rakendamiseks tuleb seade taaskäivitada. Taaskäivitage kohe või tühistage.</string>
     <string name="camera_hint">Kaamera kasutamiseks pühkige ikoonilt eemale</string>
     <string name="camera_label">ava kaamera</string>
+    <string name="camera_recording_announcement">Kaamera salvestab</string>
+    <string name="camera_stopped_recording_announcement">Kaamera peatas salvestamise</string>
     <string name="cancel">Tühista</string>
     <string name="carrier_network_change_mode">Operaatori võrku muudetakse</string>
     <string name="category_personal">Isiklik</string>
@@ -734,6 +736,10 @@ Jätkamisel võib andmekasutus olla tasuline."</string>
     <string name="debug_monitoring_category">Jälgimine</string>
     <string name="debug_networking_category">Võrgundus</string>
     <string name="debug_view_attributes">Luba kuva atribuudi hindamine</string>
+    <string name="defender_notify_des">Teie telefon piirab laadimist, et kaitsta aku seisukorda</string>
+    <string name="defender_notify_learn_more">Lisateave</string>
+    <string name="defender_notify_resume_charge">Jätka laadimist</string>
+    <string name="defender_notify_title">Laadimine on ajutiselt piiratud</string>
     <string name="delete_blob_confirmation_text">Kas soovite kindlasti need jagatud andmed kustutada?</string>
     <string name="delete_blob_text">Kustuta jagatud andmed</string>
     <string name="demo_mode">Süsteemi kasutajaliidese demorežiim</string>
@@ -1070,6 +1076,7 @@ prioriteetsed"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM-kaardi avamine …</string>
     <string name="keyguard_try_fingerprint">Kasutage avamiseks sõrmejälge</string>
     <string name="keyguard_unlock">Pühkige avamiseks üles</string>
+    <string name="keyguard_unlock_press">Avamiseks vajutage</string>
     <string name="keywords_adb_wireless">adb, silumine, arendus</string>
     <string name="keywords_alarms_and_reminders">ajakava, äratus, meeldetuletus, kell</string>
     <string name="kg_enter_confirm_pin_hint">Kinnitage soovitud PIN-kood</string>
@@ -1233,6 +1240,10 @@ Proovige %2$d sekundi pärast uuesti."</string>
     <string name="menu_ime">Klaviatuuri vahetaja</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon on aktiivne</string>
+    <string name="mic_and_camera_recording_announcement">Kaamera ja mikrofon salvestavad</string>
+    <string name="mic_camera_stopped_recording_announcement">Kaamera ja mikrofon peatasid salvestamise</string>
+    <string name="mic_recording_announcement">Mikrofon salvestab</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon peatas salvestamise</string>
     <string name="missed_call">Vastamata kõne</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobiilne andmeside</string>
@@ -1706,8 +1717,6 @@ Kui teil on küsimusi, võtke ühendust organisatsiooniga %2$s."</string>
     <string name="quick_settings_work_mode_label">Töörakendused</string>
     <string name="quick_step_accessibility_toggle_overview">Lehe Ülevaade sisse- ja väljalülitamine</string>
     <string name="recent_conversations">Hiljutised vestlused</string>
-    <string name="recents_quick_scrub_onboarding">Lohistage paremale, et rakendusi kiiresti vahetada</string>
-    <string name="recents_swipe_up_onboarding">Rakenduste vahetamiseks pühkige üles</string>
     <string name="remaining_length_format">%1$s on jäänud</string>
     <string name="remote_input_image_insertion_text">saatis kujutise</string>
     <string name="remove_from_settings">Eemalda seadetest</string>
@@ -2117,6 +2126,7 @@ Iga kasutaja saab värskendada rakendusi kõigi kasutajate jaoks."</string>
     <string name="wallet_secondary_label_no_card">Lisage kaart</string>
     <string name="wallet_secondary_label_updating">Värskendamine</string>
     <string name="wallet_title">Rahakott</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pääsupunkt on ajutiselt täis</string>
     <string name="wifi_cant_connect">Ei saa ühendada</string>
     <string name="wifi_cant_connect_to_ap">Võrguga „%1$s” ei saa ühendada</string>

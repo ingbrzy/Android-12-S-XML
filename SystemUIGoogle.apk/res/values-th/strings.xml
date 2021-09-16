@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">คุณต้องรีบูตอุปกรณ์เพื่อให้การเปลี่ยนแปลงนี้มีผล รีบูตเลยหรือยกเลิก</string>
     <string name="camera_hint">เลื่อนไอคอนกล้อง</string>
     <string name="camera_label">เปิดกล้อง</string>
+    <string name="camera_recording_announcement">กล้องกำลังบันทึก</string>
+    <string name="camera_stopped_recording_announcement">กล้องหยุดบันทึกแล้ว</string>
     <string name="cancel">ยกเลิก</string>
     <string name="carrier_network_change_mode">การเปลี่ยนเครือข่ายผู้ให้บริการ</string>
     <string name="category_personal">ส่วนตัว</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">การตรวจสอบ</string>
     <string name="debug_networking_category">เครือข่าย</string>
     <string name="debug_view_attributes">เปิดใช้การตรวจสอบแอตทริบิวต์มุมมอง</string>
+    <string name="defender_notify_des">โทรศัพท์จำกัดการชาร์จเพื่อช่วยรักษาประสิทธิภาพของแบตเตอรี่</string>
+    <string name="defender_notify_learn_more">ดูข้อมูลเพิ่มเติม</string>
+    <string name="defender_notify_resume_charge">ชาร์จต่อ</string>
+    <string name="defender_notify_title">จำกัดการชาร์จชั่วคราว</string>
     <string name="delete_blob_confirmation_text">คุณแน่ใจไหมว่าต้องการลบข้อมูลที่แชร์นี้</string>
     <string name="delete_blob_text">ลบข้อมูลที่แชร์</string>
     <string name="demo_mode">โหมดสาธิต UI ของระบบ</string>
@@ -850,7 +856,7 @@
     <string name="game_dashboard_game_menu_title">แดชบอร์ดเกม</string>
     <string name="game_dashboard_game_mode_off">โหมดเกมปิดอยู่</string>
     <string name="game_dashboard_record_shortcut_available">ทางลัดการบันทึกพร้อมใช้งาน</string>
-    <string name="game_dashboard_screenshot_shortcut_available">ทางลัดภาพหน้าจอพร้อมใช้งาน</string>
+    <string name="game_dashboard_screenshot_shortcut_available">ทางลัดสำหรับการจับภาพหน้าจอพร้อมใช้งาน</string>
     <string name="game_launch_battery">เพิ่มประสิทธิภาพอายุการใช้งานแบตเตอรี่แล้ว</string>
     <string name="game_launch_change">เปลี่ยน</string>
     <string name="game_launch_dnd_on">โหมดห้ามรบกวนสำหรับเกมเปิดอยู่</string>
@@ -867,9 +873,9 @@
     <string name="game_mode_performance_title">ประสิทธิภาพ</string>
     <string name="game_mode_restart_dialog_cancel">ยกเลิก</string>
     <string name="game_mode_restart_dialog_confirm">รีสตาร์ท</string>
-    <string name="game_mode_restart_dialog_message_battery">เราจะเพิ่มประสิทธิภาพอายุการใช้งานแบตเตอรี่เมื่อเกมรีสตาร์ท</string>
-    <string name="game_mode_restart_dialog_message_performance">เราจะเพิ่มประสิทธิภาพของการเล่นเมื่อเกมรีสตาร์ท</string>
-    <string name="game_mode_restart_dialog_message_standard">เราจะใช้ค่าเริ่มต้นของเกมเมื่อเกมรีสตาร์ท</string>
+    <string name="game_mode_restart_dialog_message_battery">ประสิทธิภาพอายุการใช้งานแบตเตอรี่จะเพิ่มขึ้นเมื่อเกมรีสตาร์ท</string>
+    <string name="game_mode_restart_dialog_message_performance">ประสิทธิภาพของการเล่นจะเพิ่มขึ้นเมื่อเกมรีสตาร์ท</string>
+    <string name="game_mode_restart_dialog_message_standard">ค่าเริ่มต้นของเกมจะถูกใช้เมื่อเกมรีสตาร์ท</string>
     <string name="game_mode_restart_dialog_title">รีสตาร์ทเกมนี้ไหม</string>
     <string name="game_mode_standard_description">ใช้ค่าเริ่มต้นของเกม</string>
     <string name="game_mode_standard_title">มาตรฐาน</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">กำลังปลดล็อกซิมการ์ด…</string>
     <string name="keyguard_try_fingerprint">ใช้ลายนิ้วมือเพื่อเปิด</string>
     <string name="keyguard_unlock">เลื่อนขึ้นเพื่อเปิด</string>
+    <string name="keyguard_unlock_press">กดเพื่อเปิด</string>
     <string name="keywords_adb_wireless">adb, แก้ไขข้อบกพร่อง, พัฒนา</string>
     <string name="keywords_alarms_and_reminders">กำหนดเวลา การปลุก การช่วยเตือน นาฬิกา</string>
     <string name="kg_enter_confirm_pin_hint">ยืนยันรหัส PIN ที่ต้องการ</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">ปุ่มสลับแป้นพิมพ์</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">ไมโครโฟนเปิดใช้งานอยู่</string>
+    <string name="mic_and_camera_recording_announcement">กล้องและไมโครโฟนกำลังบันทึก</string>
+    <string name="mic_camera_stopped_recording_announcement">กล้องและไมโครโฟนหยุดบันทึกแล้ว</string>
+    <string name="mic_recording_announcement">ไมโครโฟนกำลังบันทึก</string>
+    <string name="mic_stopped_recording_announcement">ไมโครโฟนหยุดบันทึกแล้ว</string>
     <string name="missed_call">สายที่ไม่ได้รับ</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data">เน็ตมือถือ</string>
@@ -1603,7 +1614,7 @@
     <string name="quick_settings_brightness_dialog_title">ความสว่าง</string>
     <string name="quick_settings_brightness_label">ความสว่าง</string>
     <string name="quick_settings_camera_label">สิทธิ์เข้าถึงกล้อง</string>
-    <string name="quick_settings_camera_mic_available">มี</string>
+    <string name="quick_settings_camera_mic_available">พร้อมให้ใช้งาน</string>
     <string name="quick_settings_camera_mic_blocked">ถูกบล็อก</string>
     <string name="quick_settings_cast_detail_empty_text">ไม่มีอุปกรณ์ที่สามารถใช้ได้</string>
     <string name="quick_settings_cast_device_default_description">พร้อมที่จะส่ง</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">แอปงาน</string>
     <string name="quick_step_accessibility_toggle_overview">สลับภาพรวม</string>
     <string name="recent_conversations">การสนทนาล่าสุด</string>
-    <string name="recents_quick_scrub_onboarding">ลากไปทางขวาเพื่อสลับแอปอย่างรวดเร็ว</string>
-    <string name="recents_swipe_up_onboarding">เลื่อนขึ้นเพื่อสลับแอป</string>
     <string name="remaining_length_format">เหลือ %1$s</string>
     <string name="remote_input_image_insertion_text">ส่งรูปภาพ</string>
     <string name="remove_from_settings">นำออกจากการตั้งค่า</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">เพิ่มบัตร</string>
     <string name="wallet_secondary_label_updating">กำลังอัปเดต</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">จุดเข้าใช้งานเต็มชั่วคราว</string>
     <string name="wifi_cant_connect">ไม่สามารถเชื่อมต่อ</string>
     <string name="wifi_cant_connect_to_ap">ไม่สามารถเชื่อมต่อกับ \"%1$s\"</string>

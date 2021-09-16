@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Lägg till i mappen med %1$s</string>
     <string name="add_to_home_screen">Lägg till på startskärmen</string>
     <string name="added_to_folder">Objektet har lagts till i mappen</string>
+    <string name="added_to_home_screen_accessibility_text">Widget för %1$s har lagts till på startskärmen</string>
     <string name="all_apps_button_label">Applista</string>
     <string name="all_apps_button_personal_label">Listan Personliga appar</string>
     <string name="all_apps_button_work_label">Listan Jobbappar</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">När mobilen vrids</string>
     <string name="allow_rotation_title">Tillåt rotering av startskärmen</string>
     <string name="allset_description">Nu kan du börja använda telefonen</string>
+    <string name="allset_hint">Svep uppåt för att öppna startskärmen</string>
+    <string name="allset_navigation_settings"><annotation id="link">Systemnavigeringsinställningar</annotation></string>
     <string name="allset_title">Klart!</string>
     <string name="app_downloading_title">%1$s laddas ned, %2$s klart</string>
     <string name="app_info_drop_target_label">Info om appen</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s väntar på installation</string>
     <string name="auto_add_shortcuts_description">För nya appar</string>
     <string name="auto_add_shortcuts_label">Lägg till appikoner på startskärmen</string>
+    <string name="back_gesture_feedback_cancelled">Se till att du sveper från den högra eller vänstra kanten till mitten av skärmen och sedan släpper.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Nu kan du svepa från höger för att gå tillbaka. Nu ska du få lära dig hur du byter mellan appar.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Du är klar med rörelsen för att gå tillbaka.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Se till att du inte sveper för nära skärmens nederkant.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Se till att du sveper ända från högerkanten eller vänsterkanten.</string>
     <string name="back_gesture_intro_subtitle">Återgå till den senaste skärmen genom att svepa från skärmens vänster- eller högerkant till mitten.</string>
     <string name="back_gesture_intro_title">Svep för att återgå</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Öppna inställningarna om du vill ändra rörelsens känslighet</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Tryck för att spara namnändringen</string>
     <string name="gadget_error_text">Det gick inte att läsa in widgeten</string>
     <string name="gadget_setup_text">Tryck för att slutföra konfigureringen</string>
+    <string name="gesture_tutorial_action_button_label">Klar</string>
     <string name="gesture_tutorial_action_button_label_cancel">Avbryt</string>
     <string name="gesture_tutorial_action_button_label_settings">Inställningar</string>
     <string name="gesture_tutorial_action_button_label_skip">Hoppa över</string>
@@ -146,7 +152,7 @@
     <string name="home_gesture_feedback_overview_detected">Se till att du sveper i en jämn rörelse innan du släpper.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Se till att du sveper från nederkanten på skärmen.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Se till att du sveper rakt uppåt.</string>
-    <string name="home_gesture_intro_subtitle">Svep uppåt från skärmens nederkant. Du kan alltid återgå startskärmen med den här rörelsen.</string>
+    <string name="home_gesture_intro_subtitle">Svep uppåt från skärmens nederkant. Du kan alltid återgå till startskärmen med den här rörelsen.</string>
     <string name="home_gesture_intro_title">Svep för att öppna startskärmen</string>
     <string name="home_screen">Startskärm</string>
     <string name="hotsaet_tip_prediction_disabled">Appförslag har inaktiverats</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Testa att trycka längre på fönstret innan du släpper.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Se till att du sveper från nederkanten på skärmen.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Se till att du sveper rakt uppåt och sedan pausar.</string>
+    <string name="overview_gesture_intro_subtitle">Byt mellan appar genom att svepa uppåt från skärmens nederkant. Håll fingret nedtryckt och släpp.</string>
     <string name="overview_gesture_intro_title">Svep för att byta mellan appar</string>
     <string name="overview_selection_pref_desc">Tryck länge på text och bilder om du vill visa åtgärder när du byter appar</string>
     <string name="overview_selection_pref_title">Markering på översikten</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">Genvägen är inte tillgänglig</string>
     <string name="shortcuts_menu_with_notifications_description">Genvägar och aviseringar</string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 min</string>
-    <string name="skip_tutorial_dialog_subtitle">Du kan hitta det här igen i %1$s-appen</string>
+    <string name="skip_tutorial_dialog_subtitle">Du hittar det här igen i %1$s-appen</string>
     <string name="skip_tutorial_dialog_title">Vill du hoppa över självstudierna?</string>
     <string name="smartspace_calendar_event">%1$s om %2$s</string>
     <string name="smartspace_calendar_event_now">%1$s nu</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Plats</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Inställningar</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Snabböversikt</string>
     <string name="smartspace_preferences_in_settings_desc">Högst upp på startskärmen</string>
     <string name="smartspace_preferences_manage">Anpassa</string>
     <string name="smartspace_preferences_turn_off_action">Inaktivera</string>

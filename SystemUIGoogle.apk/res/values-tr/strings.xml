@@ -595,6 +595,8 @@ Seçimi"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Bu değişikliğin geçerli olması için cihazınızın yeniden başlatılması gerekir. Şimdi yeniden başlatın veya iptal edin.</string>
     <string name="camera_hint">Kamera için, simgeden hızlıca kaydırın</string>
     <string name="camera_label">kamerayı aç</string>
+    <string name="camera_recording_announcement">Kamera kaydediyor</string>
+    <string name="camera_stopped_recording_announcement">Kamera kaydı durdu</string>
     <string name="cancel">İptal</string>
     <string name="carrier_network_change_mode">Operatör ağı değiştiriliyor</string>
     <string name="category_personal">Kişisel</string>
@@ -734,6 +736,10 @@ Devam ettirirseniz veri kullanımı için sizden ödeme alınabilir."</string>
     <string name="debug_monitoring_category">İzleme</string>
     <string name="debug_networking_category">Ağ işlemleri</string>
     <string name="debug_view_attributes">Görünüm özelliği incelemeyi etkinleştir</string>
+    <string name="defender_notify_des">Telefonunuz pil sağlığını korumaya yardımcı olmak için şarjı sınırlandırmaktadır</string>
+    <string name="defender_notify_learn_more">Daha fazla bilgi</string>
+    <string name="defender_notify_resume_charge">Şarja devam et</string>
+    <string name="defender_notify_title">Şarj etme geçici olarak sınırlı</string>
     <string name="delete_blob_confirmation_text">Bu paylaşılan verileri silmek istediğinizden emin misiniz?</string>
     <string name="delete_blob_text">Paylaşılan verileri sil</string>
     <string name="demo_mode">Sistem kullanıcı arayüzü demo modu</string>
@@ -1070,6 +1076,7 @@ sessiz"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM kart kilidi açılıyor…</string>
     <string name="keyguard_try_fingerprint">Açmak için parmak izi kullanın</string>
     <string name="keyguard_unlock">Açmak için yukarı kaydırın</string>
+    <string name="keyguard_unlock_press">Açmak için basın</string>
     <string name="keywords_adb_wireless">adb, hata ayıklama, dev</string>
     <string name="keywords_alarms_and_reminders">program, alarm, hatırlatıcı, saat</string>
     <string name="kg_enter_confirm_pin_hint">İstenen PIN kodunu onaylayın</string>
@@ -1233,6 +1240,10 @@ sessiz"</string>
     <string name="menu_ime">Klavye değiştirici</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon Etkin</string>
+    <string name="mic_and_camera_recording_announcement">Kamera ve Mikrofon kaydediyor</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamera ve Mikrofon kaydı durdu</string>
+    <string name="mic_recording_announcement">Mikrofon kaydediyor</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon kaydı durdu</string>
     <string name="missed_call">Cevapsız arama</string>
     <string name="mobile_carrier_text_format">%2$s, %1$s</string>
     <string name="mobile_data">Mobil veri</string>
@@ -1706,8 +1717,6 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="quick_settings_work_mode_label">İş uygulamaları</string>
     <string name="quick_step_accessibility_toggle_overview">Genel bakışı aç/kapat</string>
     <string name="recent_conversations">Son görüşmeler</string>
-    <string name="recents_quick_scrub_onboarding">Uygulamaları hızlıca değiştirmek için sağa kaydırın</string>
-    <string name="recents_swipe_up_onboarding">Uygulamalar arasında geçiş yapmak için yukarı kaydırın</string>
     <string name="remaining_length_format">%1$s kaldı</string>
     <string name="remote_input_image_insertion_text">bir resim gönderildi</string>
     <string name="remove_from_settings">"Ayarlar'dan kaldır"</string>
@@ -2117,6 +2126,7 @@ Herhangi bir kullanıcı, diğer tüm kullanıcılar için uygulamaları güncel
     <string name="wallet_secondary_label_no_card">Kart ekleyin</string>
     <string name="wallet_secondary_label_updating">Güncelleniyor</string>
     <string name="wallet_title">Cüzdan</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Erişim noktası geçici olarak dolu</string>
     <string name="wifi_cant_connect">Bağlanılamıyor</string>
     <string name="wifi_cant_connect_to_ap">\"%1$s\" ağına bağlanılamıyor</string>

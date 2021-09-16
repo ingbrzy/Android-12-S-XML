@@ -17,14 +17,21 @@
         <item>15 minutu</item>
         <item>20 minutu</item>
         <item>25 minutu</item>
-        <item>Inoiz ez</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>Lo egiteko garaia baino 15 min lehenago</item>
+        <item>Lo egiteko garaia baino 30 min lehenago</item>
+        <item>Lo egiteko garaia baino 45 min lehenago</item>
+        <item>Lo egiteko garaia baino 1 ordu lehenago</item>
+        <item>Desaktibatuta</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogikoa</item>
         <item>Digitala</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Inoiz ez</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 segundo</item>
         <item>10 segundo</item>
         <item>15 segundo</item>
@@ -37,6 +44,35 @@
         <item>50 segundo</item>
         <item>55 segundo</item>
         <item>60 segundo</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Gelditu 10 minutu igarotakoan</item>
+        <item>Gelditu 20 minutu igarotakoan</item>
+        <item>Gelditu 30 minutu igarotakoan</item>
+        <item>Gelditu 40 minutu igarotakoan</item>
+        <item>Gelditu 50 minutu igarotakoan</item>
+        <item>Gelditu ordubete igarotakoan</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Gelditu 10 minutu igarotakoan</item>
+        <item>Gelditu 20 minutu igarotakoan</item>
+        <item>Gelditu 30 minutu igarotakoan</item>
+        <item>Gelditu 40 minutu igarotakoan</item>
+        <item>Gelditu 50 minutu igarotakoan</item>
+        <item>Gelditu ordubete igarotakoan</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minutu</item>
+        <item>20 minutu</item>
+        <item>30 minutu</item>
+        <item>40 minutu</item>
+        <item>50 minutu</item>
+        <item>ordubete igarotakoan</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minutu</item>
@@ -69,18 +105,6 @@
         <item>28 minutu</item>
         <item>29 minutu</item>
         <item>30 minutu</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Suziria bezain bizkorra zara.</item>
-        <item>Gozatu zure lanaren fruituez.</item>
-        <item>Ezaguna da Androideen abiadura, baina ez dira zu bezain bizkorrak!</item>
-        <item>Uf!</item>
-        <item>Elitearen denborak.</item>
-        <item>Abiadura miragarria.</item>
-        <item>Ireki dezagun berriro denbora-espazioaren tunela.</item>
-        <item>Saltotxo bat ezkerretara.</item>
-        <item>Hori da hori abiadura.</item>
-        <item>Argiaren abiadura.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall uharteak</item>

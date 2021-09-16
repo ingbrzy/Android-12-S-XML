@@ -595,6 +595,8 @@ Ukukhethwa"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Kufanele idivayisi yakho iqaliswe ukuze lolu shintsho lusebenze. Qalisa manje noma khansela.</string>
     <string name="camera_hint">Swayiphela ikhamela kusukela kusithonjana</string>
     <string name="camera_label">vula ikhamera</string>
+    <string name="camera_recording_announcement">Ikhamera iyarekhoda</string>
+    <string name="camera_stopped_recording_announcement">Ikhamera iyeke ukurekhoda</string>
     <string name="cancel">Khansela</string>
     <string name="carrier_network_change_mode">Inethiwekhi yenkampani yenethiwekhi iyashintsha</string>
     <string name="category_personal">Okomuntu siqu</string>
@@ -734,6 +736,10 @@ Uma uqhubeka futhi, izindleko zingasebenza ekusetshenzisweni kwedatha."</string>
     <string name="debug_monitoring_category">Ukwengamela</string>
     <string name="debug_networking_category">Ukunethiwekha</string>
     <string name="debug_view_attributes">Nika amandla ukubuka</string>
+    <string name="defender_notify_des">Ifoni yakho ikhawulela ukushaja ukukusiza wonge impilo yebhethri</string>
+    <string name="defender_notify_learn_more">Funda kabanzi</string>
+    <string name="defender_notify_resume_charge">Qalisa kabusha ukukhokhisa</string>
+    <string name="defender_notify_title">Ukushaja kukhawulelwe okwesikhashana</string>
     <string name="delete_blob_confirmation_text">Uyaqiniseka yini ngokuthi ufuna ukususa le datha eyabiwe?</string>
     <string name="delete_blob_text">Susa idatha eyabiwe</string>
     <string name="demo_mode">Imodi yedemo ye-UI yesistimu</string>
@@ -1070,6 +1076,7 @@ kuphela"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Ivula ikhadi le-SIM...</string>
     <string name="keyguard_try_fingerprint">Sebenzisa izigxivizo zeminwe ukuvula</string>
     <string name="keyguard_unlock">Swayiphela phezulu ukuze uvule</string>
+    <string name="keyguard_unlock_press">Chofoza ukuze uvule</string>
     <string name="keywords_adb_wireless">i-adb, ukulungisa amaphutha, i-dev</string>
     <string name="keywords_alarms_and_reminders">ishejuli, i-alamu, isikhumbuzi, iwashi</string>
     <string name="kg_enter_confirm_pin_hint">Qinisekisa iphinikhodi oyithandayo</string>
@@ -1233,6 +1240,10 @@ Zama futhi emasekhondini angu-%2$d."</string>
     <string name="menu_ime">Isishintshi sekhibhodi</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Imakrofoni iyasebenza</string>
+    <string name="mic_and_camera_recording_announcement">Ikhamera nemakrofoni kuyarekhoda</string>
+    <string name="mic_camera_stopped_recording_announcement">Ikhemera nemakrofoni kuyekile ukurekhoda</string>
+    <string name="mic_recording_announcement">Imakrofoni iyarekhoda</string>
+    <string name="mic_stopped_recording_announcement">Imakrofoni iyekile ukurekhoda</string>
     <string name="missed_call">Ikholi ephuthiwe</string>
     <string name="mobile_carrier_text_format">I-%1$s, %2$s</string>
     <string name="mobile_data">Idatha yeselula</string>
@@ -1706,8 +1717,6 @@ Uma unemibuzo, xhumana ne-%2$s."</string>
     <string name="quick_settings_work_mode_label">Ama-app omsebenzi</string>
     <string name="quick_step_accessibility_toggle_overview">Guqula ukubuka konke</string>
     <string name="recent_conversations">Izingxoxo zakamuva</string>
-    <string name="recents_quick_scrub_onboarding">Hudula ngqo ukuze ushintshe ngokushesha izinhlelo zokusebenza</string>
-    <string name="recents_swipe_up_onboarding">Swayiphela phezulu ukuze ushintshe izinhlelo zokusebenza</string>
     <string name="remaining_length_format">%1$s osele</string>
     <string name="remote_input_image_insertion_text">uthumele isithombe</string>
     <string name="remove_from_settings">Susa kusuka kuzilungiselelo</string>
@@ -2117,6 +2126,7 @@ Noma yimuphi umsebenzisi angabuyekeza izinhlelo zokusebenza kubo bonke abasebenz
     <string name="wallet_secondary_label_no_card">Engeza ikhadi</string>
     <string name="wallet_secondary_label_updating">Iyabuyekeza</string>
     <string name="wallet_title">I-wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Iphoyinti lokufinyelela ligcwele okwesikhashana</string>
     <string name="wifi_cant_connect">Ayikwazi ukuxhuma</string>
     <string name="wifi_cant_connect_to_ap">"Ayikwazi ukuxhumeka ku-'%1$s'"</string>

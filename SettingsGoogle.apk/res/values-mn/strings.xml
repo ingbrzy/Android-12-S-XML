@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Хэл, оролт</string>
     <string name="lift_to_wake_title">Сэрээхийн тулд өргөх</string>
-    <string name="lockdown_settings_summary">Ухаалаг түгжээ, Царайгаар түгжээ тайлах, Хурууны хээгээр түгжээ тайлах болон түгжигдсэн дэлгэц дээрх мэдэгдлийг унтраадаг Асаах/Унтраах товчийн сонголтыг харуулна</string>
-    <string name="lockdown_settings_title">Аюулгүйгээр түгжих (lockdown) сонголтыг харуулах</string>
+    <string name="abc_action_bar_home_description">Нүүр хуудас уруу шилжих</string>
+    <string name="abc_action_bar_up_description">Дээш шилжих</string>
     <string name="locked_work_profile_notification_title">Ажлын профайлыг түгжсэн үед</string>
     <string name="lockscreen_bypass_summary">Түгжээг тайлсны дараа хамгийн сүүлд ашигласан дэлгэц рүү шууд очно уу</string>
     <string name="lockscreen_bypass_title">Түгжигдсэн дэлгэцийг алгасах</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Ажлын мэдэгдэл</string>
     <string name="reset_dashboard_summary">Сүлжээ, апп эсвэл төхөөрөмжийг шинэчлэх боломжтой</string>
     <string name="reset_dashboard_title">Сонголтыг шинэчлэх</string>
-    <string name="abc_action_bar_home_description">Нүүр хуудас уруу шилжих</string>
+    <string name="abc_action_menu_overflow_description">Бусад сонголт</string>
     <string name="screensaver_settings_title">Дэлгэц амраагч</string>
     <string name="screen_timeout">Дэлгэцийн завсарлага</string>
     <string name="screen_zoom_title">Дэлгэцийн хэмжээ</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Зарим контентын сэргээх хурдыг автоматаар 60-с 90 Гц болгож өсгөнө. Батарей ашиглалтыг нэмэгдүүлнэ.</string>
     <string name="accessibility_vibration_settings_title">Чичиргээ болон хүртэхүй</string>
     <string name="emergency_gesture_screen_title">Яаралтай тусламж</string>
-    <string name="abc_action_bar_up_description">Дээш шилжих</string>
+    <string name="abc_action_mode_done">Болсон</string>
     <string name="vibrate_for_calls_category_title">Дуудлагууд</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Түрийвч харуулах</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Төхөөрөмжийн хяналтыг харуулах</string>
     <string name="lockscreen_privacy_wallet_summary">Түгжигдсэн дэлгэц болон шуурхай тохиргооноос түрийвчид хандахыг зөвшөөрнө</string>
     <string name="lockscreen_privacy_controls_summary">Түгжсэн үед хяналтад хандана</string>
-    <string name="abc_action_menu_overflow_description">Бусад сонголт</string>
-    <string name="abc_action_mode_done">Болсон</string>
     <string name="abc_activity_chooser_view_see_all">Бүгдийг харах</string>
     <string name="abc_activitychooserview_choose_application">Аппыг сонгох</string>
     <string name="abc_capital_off">ИДЭВХГҮЙ</string>
@@ -204,9 +202,9 @@
     <string name="accessibility_dialog_button_deny">Татгалзах</string>
     <string name="accessibility_dialog_button_stop">Зогсоох</string>
     <string name="accessibility_disable_animations">Анимацийг устгах</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Таны төхөөрөмж дээр өнгийг хэрхэн үзүүлэхийг тохируулна уу. Энэ нь танд дараахыг хийхийг хүссэн үед хэрэг болж магадгүй:&lt;br/>&lt;br/> &lt;ol> &lt;li>Өнгийг илүү оновчтой харах&lt;/li> &lt;li>Танд төвлөрөхөд туслахын тулд өнгийг хасах&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Таны төхөөрөмж дээр өнгийг хэрхэн үзүүлэхийг тохируулна уу. Энэ нь танд дараахыг хийхийг хүссэн үед хэрэг болж магадгүй:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;Өнгийг илүү оновчтой харах&lt;/li> &lt;li>&amp;nbsp;Танд төвлөрөхөд туслахын тулд өнгийг хасах&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Өнгө тохируулах</string>
-    <string name="accessibility_display_inversion_preference_subtitle">Өнгө хувиргалт нь цайвар дэлгэцийг бараан болгодог.&lt;br/>&lt;br/> Тэмдэглэл: &lt;ol> &lt;li> Өнгө хувиргалт нь мөн бараан дэлгэцийг цайвар болгодог.&lt;/li> &lt;li> Медиа болон зургийн өнгийг өөрчилнө.&lt;/li> &lt;li>Бараан дэвсгэрийг үзүүлэхийн тулд Бараан загварыг ашиглах боломжтой. Бараан загвар нь дэмждэг аппууд дээр ажилладаг. Өнгө хувиргалт нь бүх апп дээр ажилладаг.&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">Өнгө хувиргалт нь цайвар дэлгэцийг бараан болгодог.&lt;br/>&lt;br/> Тэмдэглэл: &lt;ol> &lt;li> Өнгө хувиргалт нь мөн бараан дэлгэцийг цайвар болгодог.&lt;/li> &lt;li> Медиа болон зургийн өнгийг өөрчилнө.&lt;/li> &lt;li> Бараан дэвсгэрийг үзүүлэхийн тулд Бараан загварыг ашиглах боломжтой. Бараан загвар нь дэмждэг аппууд дээр ажилладаг. Өнгө хувиргалт нь бүх апп дээр ажилладаг.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">Өнгө хувиргалт</string>
     <string name="accessibility_display_inversion_switch_title">Өнгө хувиргалтыг ашиглах</string>
     <string name="accessibility_ethernet_connected">Этернэт.</string>
@@ -3426,7 +3424,7 @@
     <string name="n_cacrts">%d CA сертификат</string>
     <string name="network_4G">4G (санал болгосон)</string>
     <string name="network_5G_recommended">5G (санал болгосон)</string>
-    <string name="network_and_internet_preferences_summary">Олон нийтийн Wi-Fi сүлжээнд холбогдох</string>
+    <string name="network_and_internet_preferences_summary">Нийтийн Wi-Fi сүлжээнд холбогдох</string>
     <string name="network_and_internet_preferences_title">Сүлжээний тохиргоо</string>
     <string name="network_changed_notification_text">Таны мобайл сүлжээг өөрчилсөн</string>
     <string name="network_connected">Холбогдсон</string>
@@ -5172,7 +5170,7 @@ Ta хурууны хээгээ ашиглан худалдан авалт бол
     <string name="tts_default_rate_summary">Текстийг унших хурд</string>
     <string name="tts_default_rate_title">Ярианы түвшин</string>
     <string name="tts_default_sample_string">Энэ бол яриа үүсгэх жишээ юм.</string>
-    <string name="tts_engine_network_required">Энэ хэл нь текстээс дуунд хөрвүүлэхэд ажлын сүлжээний холболтыг шаарддаг.</string>
+    <string name="tts_engine_network_required">Энэ хэл нь бичвэрийг ярианд хувиргахад ажлын сүлжээний холболт шаардана.</string>
     <string name="tts_engine_preference_section_title">Давуу үүсгүүр</string>
     <string name="tts_engine_preference_title">Давуу систем</string>
     <string name="tts_engine_section_title">Хөдөлгүүр</string>
@@ -5195,8 +5193,8 @@ Ta хурууны хээгээ ашиглан худалдан авалт бол
     <string name="tts_reset">Шинэчлэх</string>
     <string name="tts_reset_speech_pitch_summary">Текст унших хоолойн өнгийг өгөгдмөл байдал руу нь дахин тохируулах.</string>
     <string name="tts_reset_speech_pitch_title">Ярианы өнгийг дахин тохируулах</string>
-    <string name="tts_settings">Текст-ярианы тохиргоо</string>
-    <string name="tts_settings_title">Текстийг яриа болгон гаргах</string>
+    <string name="tts_settings">Бичвэрийг ярианд хувиргах тохиргоо</string>
+    <string name="tts_settings_title">Бичвэрийг ярианд хувиргах</string>
     <string name="tts_sliders_title">Ярианы түвшин, өнгө</string>
     <string name="tts_spoken_language">Ярианы хэл</string>
     <string name="tts_status_checking">Шалгаж байна...</string>
@@ -5377,7 +5375,7 @@ Ta хурууны хээгээ ашиглан худалдан авалт бол
     <string name="use_open_wifi_automatically_summary">Өндөр чанартай нийтийн сүлжээнд автоматаар холбогдох</string>
     <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Ашиглахын тулд тохирох сүлжээний үнэлгээ үзүүлэгчийг сонгоно уу</string>
     <string name="use_open_wifi_automatically_summary_scoring_disabled">Ашиглахын тулд сүлжээний үнэлгээ үзүүлэгчийг сонгоно уу</string>
-    <string name="use_open_wifi_automatically_title">Олон нийтийн Wi-Fi сүлжээнд холбогдох</string>
+    <string name="use_open_wifi_automatically_title">Нийтийн Wi-Fi сүлжээнд холбогдох</string>
     <string name="use_system_language_to_select_input_method_subtypes">Системийн хэлүүдийг ашиглах</string>
     <string name="use_wifi_hotsopt_main_switch_title">Wi-Fi сүлжээний цэгийг ашиглах</string>
     <string name="user_account_title">Контентын бүртгэл</string>
@@ -5510,7 +5508,7 @@ Ta хурууны хээгээ ашиглан худалдан авалт бол
     <string name="voice_input_settings_title">Дуугаар оруулах</string>
     <string name="voice_interaction_security_warning">Энэ дуун оруулгын үйлчилгээ нь дуун хяналтыг байнга ажиллуулах болон дуугаар ажиллах апп-уудыг таны өмнөөс хянах боломжтой болно.Үүнийг %s аппликейшн нийлүүлдэг. Энэ үйлчилгээг идэвхжүүлэх үү?</string>
     <string name="voice_interactor_preference_summary">Бүрэн хотворд болон харилцан үйлчлэл</string>
-    <string name="voice_recognizer_preference_summary">Энгийн яриаг текст болголт</string>
+    <string name="voice_recognizer_preference_summary">Энгийн яриаг бичвэрт буулгах</string>
     <string name="voice_search_settings_title">Дуут хайлт</string>
     <string name="voice_service_preference_section_title">Дуун оруулгын үйлчилгээ</string>
     <string name="volte_5G_limited_text">"Энэ нь мөн таны 5G холболтыг унтраана.

@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s-тай хавтас нэмэх</string>
     <string name="add_to_home_screen">Үндсэн нүүрэнд нэмэх</string>
     <string name="added_to_folder">Хавтсанд нэмэгдсэн зүйл</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s виджетийг үндсэн нүүрэнд нэмсэн</string>
     <string name="all_apps_button_label">Апп-н жагсаалт</string>
     <string name="all_apps_button_personal_label">Хувийн аппын жагсаалт</string>
     <string name="all_apps_button_work_label">Ажлын аппын жагсаалт</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Утсыг эргүүлсэн үед</string>
     <string name="allow_rotation_title">Нүүр дэлгэцийг эргүүлэхийг зөвшөөрөх</string>
     <string name="allset_description">Та утсаа ашиглаж эхлэхэд бэлэн боллоо</string>
+    <string name="allset_hint">Нүүр хуудас руу очихын тулд дээш шударна уу</string>
+    <string name="allset_navigation_settings"><annotation id="link">Системийн навигацын тохиргоо</annotation></string>
     <string name="allset_title">Тохируулж дууслаа!</string>
     <string name="app_downloading_title">%1$s-г татаж байна, %2$s татсан</string>
     <string name="app_info_drop_target_label">Аппын мэдээлэл</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s нь суулгахыг хүлээж байна</string>
     <string name="auto_add_shortcuts_description">Шинэ аппад зориулсан</string>
     <string name="auto_add_shortcuts_label">Аппын дүрс тэмдгийг Үндсэн нүүрэнд нэмэх</string>
-    <string name="back_gesture_feedback_complete_with_overview_follow_up">Та буцахын тулд баруунаас хэрхэн шудрахыг мэдэж авлаа Дараа нь аппыг хэрхэн сэлгэхийг мэдэж аваарай.</string>
+    <string name="back_gesture_feedback_cancelled">Та баруун эсвэл зүүн булангаас дэлгэцийн дунд хэсэг хүртэл шударч, суллана уу.</string>
+    <string name="back_gesture_feedback_complete_with_overview_follow_up">Та буцахын тулд баруунаас хэрхэн шудрахыг мэдэж авлаа. Дараа нь аппууд хооронд хэрхэн сэлгэхийг мэдэж аваарай.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Та буцах зангааг гүйцэтгэлээ.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Та дэлгэцийн доод хэсэгтэй хэт ойр бүү шудраарай.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Та баруун зах эсвэл зүүн захын булангаас шударна уу.</string>
     <string name="back_gesture_intro_subtitle">Сүүлийн дэлгэц рүү буцахын тулд дэлгэцийн зүүн эсвэл баруун булангаас дунд хэсэг рүү шударна уу.</string>
     <string name="back_gesture_intro_title">Буцахын тулд шудрах</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Буцах зангааны мэдрэгшлийг өөрчлөх бол Тохиргоо руу очно уу</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Шинэ нэрийг хадгалахын тулд дарна уу.</string>
     <string name="gadget_error_text">Жижиг хэрэгслийг ачаалах боломжгүй</string>
     <string name="gadget_setup_text">Тохируулгыг дуусгахын тулд товшино уу</string>
+    <string name="gesture_tutorial_action_button_label">Дууссан</string>
     <string name="gesture_tutorial_action_button_label_cancel">Цуцлах</string>
     <string name="gesture_tutorial_action_button_label_settings">Тохиргоо</string>
     <string name="gesture_tutorial_action_button_label_skip">Алгасах</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Суллахаасаа өмнө цонхыг илүү удаан дарж үзнэ үү.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Та дэлгэцийн доод булангаас дээш шударна уу.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Та чигээрээ шударч, дараа нь түр зогсооно уу.</string>
+    <string name="overview_gesture_intro_subtitle">Аппуудын хооронд сэлгэхийн тулд дэлгэцийнхээ доод хэсгээс дээш шударч, удаан дараад, суллана уу.</string>
     <string name="overview_gesture_intro_title">Аппуудыг сэлгэхийн тулд шудрах</string>
     <string name="overview_selection_pref_desc">Аппуудыг сэлгэж байх үедээ үйлдлүүдийг харахын тулд текст болон зургийг удаан дарна уу</string>
     <string name="overview_selection_pref_title">Тойм сонголт</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Суудал</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Сонголт</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Гүйлгэж харах</string>
     <string name="smartspace_preferences_in_settings_desc">Таны Үндсэн нүүрний дээд хэсэгт</string>
     <string name="smartspace_preferences_manage">Өөрчлөх</string>
     <string name="smartspace_preferences_turn_off_action">Унтраах</string>

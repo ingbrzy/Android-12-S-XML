@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Dillər və yazı dili</string>
     <string name="lift_to_wake_title">Oyatmaq üçün qaldırın</string>
-    <string name="lockdown_settings_summary">Kilid ekranında Ağıllı Kilid, Üz ilə kiliddən çıxarma, Barmaq izi ilə kiliddən çıxarma və bildirişləri deaktiv edən Qidalanma düyməsini göstərin</string>
-    <string name="lockdown_settings_title">Kilid seçimini göstərin</string>
+    <string name="abc_action_bar_home_description">Əsas səhifəyə keçin</string>
+    <string name="abc_action_bar_up_description">Yuxarı keçin</string>
     <string name="locked_work_profile_notification_title">İş profili kilidləndikdə</string>
     <string name="lockscreen_bypass_summary">Kiliddən çıxardıqdan sonra birbaşa sonuncu istifadə edilmiş ekrana keçin</string>
     <string name="lockscreen_bypass_title">Kilid ekranını adlayın</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">İş bildirişləri</string>
     <string name="reset_dashboard_summary">Şəbəkə, tətbiqlər və ya cihazı sıfırlamaq mümkündür</string>
     <string name="reset_dashboard_title">Seçimləri sıfırlayın</string>
-    <string name="abc_action_bar_home_description">Əsas səhifəyə keçin</string>
+    <string name="abc_action_menu_overflow_description">Digər seçimlər</string>
     <string name="screensaver_settings_title">Ekran qoruyucu</string>
     <string name="screen_timeout">Avtomatik ekran sönməsi</string>
     <string name="screen_zoom_title">Ekran ölçüsü</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Bəzi məzmun üçün təzələnmə tezliyini 60 Hs-dən 90 Hs-ə avtomatik yüksəldir. Enerji sərfiyyatını artırır.</string>
     <string name="accessibility_vibration_settings_title">Vibrasiya və taktil reaksiya</string>
     <string name="emergency_gesture_screen_title">Fövqəladə halda SOS</string>
-    <string name="abc_action_bar_up_description">Yuxarı keçin</string>
+    <string name="abc_action_mode_done">Hazırdır</string>
     <string name="vibrate_for_calls_category_title">Zənglər</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Pulqabını göstərin</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Cihaz nizamlayıcılarını göstərin</string>
     <string name="lockscreen_privacy_wallet_summary">Kilid ekranından və sürətli ayarlardan pulqabına girişə icazə verin</string>
     <string name="lockscreen_privacy_controls_summary">Kilidli olduqda nizamlayıcılara giriş edin</string>
-    <string name="abc_action_menu_overflow_description">Digər seçimlər</string>
-    <string name="abc_action_mode_done">Hazırdır</string>
     <string name="abc_activity_chooser_view_see_all">Hamısına baxın</string>
     <string name="abc_activitychooserview_choose_application">Tətbiq seçin</string>
     <string name="abc_capital_off">DEAKTİV</string>
@@ -206,7 +204,7 @@ Bu ayarı bütün tətbiqlər dəstəkləmir."</string>
     <string name="accessibility_disable_animations">Animasiyalar silinsin</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">Ekranda rəngi korreksiya edə bilərsiniz. Mümkün olanlar:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;rəng ötürülməsinin yaxşılaşdırılması;&lt;/li> &lt;li>&amp;nbsp;rahat fokuslanmaq üçün ağ-qara rejimə keçid.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Rəng korreksiyası</string>
-    <string name="accessibility_display_inversion_preference_subtitle">İnversiya açıq rəngləri tünd edir.&lt;br/>&lt;br/> Diqqət edin: &lt;ol> &lt;li> Tünd rənglər açıq olacaq.&lt;/li> &lt;li> Rənglər həmçinin mediakontent və təsvirlərdə konversiya ediləcək.&lt;/li> &lt;li> Tünd ekran fonu üçün tünd tema seçin. Tünd tema bəzi tətbiqlərdə, rənglərin inversiyası hamısında dəstəklənir.&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">İnversiya açıq rəngləri tünd edir.&lt;br/>&lt;br/> Diqqət edin: &lt;ol> &lt;li> Tünd rənglər açıq olacaq.&lt;/li> &lt;li> Rənglər həmçinin mediakontent və təsvirlərdə konversiya ediləcək.&lt;/li> &lt;li> Tünd ekran fonu üçün tünd tema seçin. Tünd tema bəzi tətbiqlərdə, rənglərin inversiyası hamısında dəstəklənir.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">Rəng inversiyası</string>
     <string name="accessibility_display_inversion_switch_title">Rəng inversiyasından istifadə edin</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
@@ -2888,7 +2886,7 @@ Bunu daha sonra Ayarlar >Tətbiqlər və bildirişlər bölməsindən dəyişə 
     <string name="location_scanning_wifi_always_scanning_description">Wi-Fi deaktiv olanda da tətbiqlərə və xidmətlərə Wi-Fi axtarmağa icazə verin. Bununla da məkan haqqında məlumata ehtiyacı olan funksiya və xidmətlərin iş keyfiyyəti artmış olur.</string>
     <string name="location_scanning_wifi_always_scanning_title">Wi-Fi axtarışı</string>
     <string name="location_services_preference_title">Məkan xidmətləri</string>
-    <string name="location_services_screen_title">Məkan Xidmətləri</string>
+    <string name="location_services_screen_title">Məkan xidmətləri</string>
     <string name="location_settings_footer_general">\"Yaxınlıqdakı cihazlar\" icazəsi olan tətbiqlər qoşulmuş cihazların nisbi mövqeyini təyin edə bilər.</string>
     <string name="location_settings_footer_learn_more_content_description">Məkan Ayarları haqqında daha ətraflı.</string>
     <string name="location_settings_footer_location_off">Tətbiqlər və xidmətlər üçün məkan girişi deaktivdir. Təcili yardım nömrəsinə zəng etdikdə və ya mesaj göndərdikdə cihazınızın məkanı hələ də təcili yardım əməkdaşlarına göndərilə bilər.</string>
@@ -4021,7 +4019,7 @@ Qidalanma və Səsin artırılması düymələrini eyni anda basın."</string>
     <string name="reduce_bright_colors_intensity_preference_title">İntensivlik</string>
     <string name="reduce_bright_colors_intensity_start_label">Daha tutqun</string>
     <string name="reduce_bright_colors_persist_preference_title">Cihaz təkrar başladılandan sonra söndürülməsin</string>
-    <string name="reduce_bright_colors_preference_subtitle">Rahat oxumaq üçün ekranı tündləşdirin.&lt;br/>&lt;br/> Bu hallarda faydalıdır: &lt;ol>&lt;li> minimal parlaqlıqda ekran yenə çox parlaqdır;&lt;/li> &lt;li> telefonu qaranlıqda işlədirsiniz.&lt;/li>&lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">Rahat oxumaq üçün ekranı tündləşdirin.&lt;br/>&lt;br/> Bu hallarda faydalıdır: &lt;ol>&lt;li> minimal parlaqlıqda ekran yenə çox parlaqdır;&lt;/li> &lt;li> telefonu qaranlıqda işlədirsiniz.&lt;/li>&lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">Telefon ekranı minimal parlaqlıqdan tünd olsun</string>
     <string name="reduce_bright_colors_preference_title">Əlavə tündləşmə</string>
     <string name="reduce_bright_colors_switch_title">Parlaqlıq daha da azaldılsın</string>

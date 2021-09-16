@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">שפות וקלט</string>
     <string name="lift_to_wake_title">אפשר להרים כדי להוציא ממצב שינה</string>
-    <string name="lockdown_settings_summary">"‏הצגת אפשרות של לחצן ההפעלה שמשבית את Smart Lock, את התכונות 'פתיחה ע\"י זיהוי הפנים' ו'ביטול הנעילה בטביעת אצבע' ואת ההתראות המוצגות במסך הנעילה"</string>
-    <string name="lockdown_settings_title">הצגת אפשרות סגירה</string>
+    <string name="abc_action_bar_home_description">ניווט לדף הבית</string>
+    <string name="abc_action_bar_up_description">ניווט למעלה</string>
     <string name="locked_work_profile_notification_title">כשפרופיל העבודה נעול</string>
     <string name="lockscreen_bypass_summary">לאחר ביטול הנעילה, עוברים ישירות למסך האחרון שהיה בשימוש</string>
     <string name="lockscreen_bypass_title">דילוג על מסך הנעילה</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">התראות עבודה</string>
     <string name="reset_dashboard_summary">ניתן לאפס את הרשת, את האפליקציות או את המכשיר</string>
     <string name="reset_dashboard_title">אפשרויות איפוס</string>
-    <string name="abc_action_bar_home_description">ניווט לדף הבית</string>
+    <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
     <string name="screensaver_settings_title">שומר מסך</string>
     <string name="screen_timeout">זמן קצוב לכיבוי המסך</string>
     <string name="screen_zoom_title">גודל תצוגה</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">‏קצב הרענון עולה באופן אוטומטי מ-Hz‏60 ל-Hz‏90 לחלק מהתוכן. הפעולה הזו מגבירה את השימוש בסוללה.</string>
     <string name="accessibility_vibration_settings_title">רטט ומגע פיזי</string>
     <string name="emergency_gesture_screen_title">מצב חירום</string>
-    <string name="abc_action_bar_up_description">ניווט למעלה</string>
+    <string name="abc_action_mode_done">סיום</string>
     <string name="vibrate_for_calls_category_title">שיחות</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">הצגת הארנק</string>
     <string name="lockscreen_privacy_controls_setting_toggle">הצגת פקדי המכשיר</string>
     <string name="lockscreen_privacy_wallet_summary">אישור גישה אל הארנק ממסך הנעילה ומההגדרות המהירות</string>
     <string name="lockscreen_privacy_controls_summary">גישה לפקדים כשהמכשיר נעול</string>
-    <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
-    <string name="abc_action_mode_done">סיום</string>
     <string name="abc_activity_chooser_view_see_all">הצגת הכול</string>
     <string name="abc_activitychooserview_choose_application">בחירת אפליקציה</string>
     <string name="abc_capital_off">כבוי</string>
@@ -204,7 +202,7 @@
     <string name="accessibility_dialog_button_deny">עדיף שלא</string>
     <string name="accessibility_dialog_button_stop">עצירה</string>
     <string name="accessibility_disable_animations">הסרת אנימציות</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">‏ניתן לשנות את האופן שבו צבעים מוצגים במכשיר. שינוי כזה עשוי לעזור:&lt;br/>&lt;br/> &lt;ol> &lt;li> להבחין בצבעים בצורה יותר מדויקת&lt;/li> &lt;li> להסיר צבעים מסוימים כדי להתמקד&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">‏ניתן לשנות את האופן שבו צבעים מוצגים במכשיר. שינוי כזה עשוי לעזור:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;להבחין בצבעים בצורה יותר מדויקת&lt;/li> &lt;li>&amp;nbsp;להסיר צבעים מסוימים כדי להתמקד&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">תיקון צבע</string>
     <string name="accessibility_display_inversion_preference_subtitle">‏באמצעות היפוך צבעים, מסכים בהירים הופכים לכהים.&lt;br/>&lt;br/> הערות: &lt;ol> &lt;li> היפוך צבעים גם הופך מסכים כהים לבהירים.&lt;/li> &lt;li> הצבעים ישתנו במדיה ובתמונות.&lt;/li> &lt;li> אפשר להשתמש בעיצוב כהה כדי להציג רקע כהה. עיצוב כהה פועל עם אפליקציות נתמכות. היפוך צבעים פועל עם כל האפליקציות.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">היפוך צבעים</string>
@@ -3306,7 +3304,7 @@
     <string name="mobile_data_disable_title">לכבות את חבילת הגלישה?</string>
     <string name="mobile_data_no_connection">אין חיבור</string>
     <string name="mobile_data_off">חבילת הגלישה כבויה</string>
-    <string name="mobile_data_off_summary">החיבור לנתונים סלולריים לא מתבצע באופן אוטומטי</string>
+    <string name="mobile_data_off_summary">"אין חיבור אוטו' לחבילת הגלישה"</string>
     <string name="mobile_data_settings_summary">גישה לאינטרנט דרך הרשת הסלולרית</string>
     <string name="mobile_data_settings_summary_auto_switch">הטלפון יעבור באופן אוטומטי לספק הזה כשיהיה בטווח</string>
     <string name="mobile_data_settings_summary_unavailable">‏אין כרטיס SIM זמין</string>
@@ -3675,7 +3673,7 @@
     <string name="notification_summary_channel">%1$s • %2$s</string>
     <string name="notification_summary_level">‏רמה %d</string>
     <string name="notification_summary_none">מופעלות לכל האפליקציות</string>
-    <string name="notification_switch_label">כל ההתראות של‌‌ %1$s</string>
+    <string name="notification_switch_label">כל ההתראות של​ %1$s</string>
     <string name="notification_toggle_off">כבוי</string>
     <string name="notification_toggle_on">מופעל</string>
     <string name="notification_unknown_sound_title">צליל שסיפקה האפליקציה</string>
@@ -6208,7 +6206,7 @@
     <string name="zen_mode_none_calls">אף שיחה</string>
     <string name="zen_mode_none_messages">אף הודעה</string>
     <string name="zen_mode_other_options">אפשרויות אחרות</string>
-    <string name="zen_mode_other_sounds_summary">{count,plural,offset:2 =0{שום דבר לא יכול להפריע}=1{הקטגוריה {sound_category_1} יכולה להפריע}=2{הקטגוריות {sound_category_1} וגם {sound_category_2} יכולות להפריע}=3{הקטגוריות {sound_category_1}, {sound_category_2} וגם {sound_category_3} יכולות להפריע}many{האפליקציות {sound_category_1}, {sound_category_2} ועוד # יכולות להפריע}other{האפליקציות {sound_category_1}, {sound_category_2} ועוד # יכולות להפריע}}</string>
+    <string name="zen_mode_other_sounds_summary">{count,plural,offset:2 =0{שום דבר לא יכול להפריע}=1{הקטגוריה {sound_category_1} יכולה להפריע}=2{הקטגוריות {sound_category_1} ו{sound_category_2} יכולות להפריע}=3{הקטגוריות {sound_category_1}, {sound_category_2} ו{sound_category_3} יכולות להפריע}many{הקטגוריות {sound_category_1}, {sound_category_2} ועוד # יכולות להפריע}other{הקטגוריות {sound_category_1}, {sound_category_2} ועוד # יכולות להפריע}}</string>
     <string name="zen_mode_people_all">כל אחד יכול להפריע</string>
     <string name="zen_mode_people_calls_messages_section_title">מי יכול להפריע</string>
     <string name="zen_mode_people_none">אף אחד לא יכול להפריע</string>

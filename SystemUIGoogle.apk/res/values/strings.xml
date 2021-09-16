@@ -605,6 +605,8 @@ Selection"</string>
     <string name="calendar_component_name">com.google.android.calendar/com.android.calendar.AllInOneActivity</string>
     <string name="camera_hint">Swipe from icon for camera</string>
     <string name="camera_label">open camera</string>
+    <string name="camera_recording_announcement">Camera is recording</string>
+    <string name="camera_stopped_recording_announcement">Camera stopped recording</string>
     <string name="cancel">Cancel</string>
     <string name="carrier_network_change_mode">Carrier network changing</string>
     <string name="category_personal">Personal</string>
@@ -773,6 +775,11 @@ If you resume, charges may apply for data usage."</string>
     <string name="debug_networking_category">Networking</string>
     <string name="debug_view_attributes">Enable view attribute inspection</string>
     <string name="default_theme">Default</string>
+    <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
+    <string name="defender_notify_help_url">https://support.google.com/pixelphone?p=overheat_emergency</string>
+    <string name="defender_notify_learn_more">Learn more</string>
+    <string name="defender_notify_resume_charge">Resume charging</string>
+    <string name="defender_notify_title">Charging temporarily limited</string>
     <string name="delete_blob_confirmation_text">Are you sure you want to delete this shared data?</string>
     <string name="delete_blob_text">Delete shared data</string>
     <string name="demo_mode">System UI demo mode</string>
@@ -1082,6 +1089,7 @@ only"</string>
     <string name="keyguard_enter_your_password">Enter your password</string>
     <string name="keyguard_enter_your_pattern">Enter your pattern</string>
     <string name="keyguard_enter_your_pin">Enter your PIN</string>
+    <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_fancy_colon" />
     <string name="keyguard_indication_charging_time">%2$s • Charging • Full in %1$s</string>
     <string name="keyguard_indication_charging_time_fast">%2$s • Charging rapidly • Full in %1$s</string>
@@ -1122,6 +1130,7 @@ only"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="keyguard_try_fingerprint">Use fingerprint to open</string>
     <string name="keyguard_unlock">Swipe up to open</string>
+    <string name="keyguard_unlock_press">Press to open</string>
     <string name="keyguard_widget_12_hours_format">h:mm</string>
     <string name="keyguard_widget_24_hours_format">kk:mm</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
@@ -1296,6 +1305,10 @@ Try again in %2$d seconds."</string>
     <string name="menu_ime">Keyboard switcher</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microphone Active</string>
+    <string name="mic_and_camera_recording_announcement">Camera and Microphone are recording</string>
+    <string name="mic_camera_stopped_recording_announcement">Camera and Microphone stopped recording</string>
+    <string name="mic_recording_announcement">Microphone is recording</string>
+    <string name="mic_stopped_recording_announcement">Microphone stopped recording</string>
     <string name="missed_call">Missed call</string>
     <string name="mland">Marshmallow Land</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
@@ -1784,7 +1797,7 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_tiles">default</string>
     <string name="quick_settings_tiles_default">internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService),mictoggle,cameratoggle</string>
     <string name="quick_settings_tiles_retail_mode">night,dark,dnd,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">internet,wifi,cell,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness</string>
+    <string name="quick_settings_tiles_stock">internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,battery,cast,screenrecord,mictoggle,cameratoggle,location,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness</string>
     <string name="quick_settings_time_label">Time</string>
     <string name="quick_settings_ui_mode_night_label">Dark theme</string>
     <string name="quick_settings_user_label">Me</string>
@@ -1800,8 +1813,6 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_work_mode_label">Work apps</string>
     <string name="quick_step_accessibility_toggle_overview">Toggle Overview</string>
     <string name="recent_conversations">Recent conversations</string>
-    <string name="recents_quick_scrub_onboarding">Drag right to quickly switch apps</string>
-    <string name="recents_swipe_up_onboarding">Swipe up to switch apps</string>
     <string name="regrettable_lack_of_easter_egg">¯\\_(ツ)_/¯</string>
     <string name="remaining_length_format">%1$s left</string>
     <string name="remote_input_image_insertion_text">sent an image</string>
@@ -2240,6 +2251,7 @@ Any user can update apps for all other users."</string>
     <string name="wallet_secondary_label_no_card">Add a card</string>
     <string name="wallet_secondary_label_updating">Updating</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
     <string name="wifi_cant_connect">"Can't connect"</string>
     <string name="wifi_cant_connect_to_ap">"Can't connect to '%1$s'"</string>

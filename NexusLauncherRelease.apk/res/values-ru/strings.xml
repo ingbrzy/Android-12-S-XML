@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Добавить в папку с приложением \"%1$s\"</string>
     <string name="add_to_home_screen">Добавить на главный экран</string>
     <string name="added_to_folder">Элемент добавлен в папку.</string>
+    <string name="added_to_home_screen_accessibility_text">Виджет \"%1$s\" добавлен на главный экран</string>
     <string name="all_apps_button_label">Список приложений</string>
     <string name="all_apps_button_personal_label">Открыть список личных приложений</string>
     <string name="all_apps_button_work_label">Открыть список приложений для работы</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">При повороте телефона</string>
     <string name="allow_rotation_title">Разрешить поворачивать главный экран</string>
     <string name="allset_description">Теперь вы можете использовать телефон.</string>
+    <string name="allset_hint">Чтобы перейти на главный экран, проведите вверх.</string>
+    <string name="allset_navigation_settings"><annotation id="link">Системные настройки навигации</annotation></string>
     <string name="allset_title">Готово!</string>
     <string name="app_downloading_title">Скачивается \"%1$s\" (%2$s)</string>
     <string name="app_info_drop_target_label">О приложении</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">Ожидание установки \"%1$s\"</string>
     <string name="auto_add_shortcuts_description">Добавлять значки установленных приложений на главный экран</string>
     <string name="auto_add_shortcuts_label">Добавлять значки на главный экран</string>
+    <string name="back_gesture_feedback_cancelled">Проведите от правого или левого края экрана до середины дисплея и отпустите палец.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Теперь вы знаете, как вернуться, проведя справа налево. Далее мы расскажем, как переключаться между приложениями.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Вы выполнили жест для перехода назад.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Проведите пальцем не слишком близко к нижнему краю экрана.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Проведите справа налево или слева направо от самого края экрана.</string>
     <string name="back_gesture_intro_subtitle">Чтобы вернуться к предыдущему экрану, проведите от левого или правого края дисплея к центру.</string>
     <string name="back_gesture_intro_title">Возврат к предыдущему экрану</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Уровень чувствительности можно изменить в настройках.</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Нажмите, чтобы подтвердить переименование</string>
     <string name="gadget_error_text">Не удается загрузить виджет.</string>
     <string name="gadget_setup_text">Нажмите, чтобы завершить настройку.</string>
+    <string name="gesture_tutorial_action_button_label">Готово</string>
     <string name="gesture_tutorial_action_button_label_cancel">Отмена</string>
     <string name="gesture_tutorial_action_button_label_settings">Настройки</string>
     <string name="gesture_tutorial_action_button_label_skip">Пропустить</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Прежде чем отпускать палец, задержите его на дисплее подольше.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Проведите снизу вверх от самого края экрана.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Проведите по экрану ровно вверх, а затем задержите палец в крайнем положении.</string>
+    <string name="overview_gesture_intro_subtitle">Чтобы переключиться между приложениями‚ проведите по экрану снизу вверх, задержите палец, а затем отпустите.</string>
     <string name="overview_gesture_intro_title">Переключение между приложениями</string>
     <string name="overview_selection_pref_desc">При переключении между приложениями нажмите на текст или изображение и удерживайте, чтобы увидеть доступные действия</string>
     <string name="overview_selection_pref_title">Выбор на экране обзора</string>
@@ -232,7 +239,7 @@
     <string name="recents_empty_message">Здесь пока ничего нет.</string>
     <string name="reconfigurable_widget_education_tip">Нажмите, чтобы изменить настройки виджета</string>
     <string name="remote_action_failed">Не удалось выполнить действие (%1$s).</string>
-    <string name="remove_drop_target_label">Убрать</string>
+    <string name="remove_drop_target_label">Удалить</string>
     <string name="safemode_shortcut_error">Скачанное приложение отключено в безопасном режиме</string>
     <string name="safemode_widget_error">Виджеты отключены в безопасном режиме</string>
     <string name="saved_images_snackbar_action">Открыть</string>
@@ -284,10 +291,10 @@
     <string name="smartspace_preferences_in_settings_desc">В верхней части главного экрана</string>
     <string name="smartspace_preferences_manage">Настроить</string>
     <string name="smartspace_preferences_turn_off_action">Выключить</string>
-    <string name="smartspace_preferences_turn_off_description">На главном и заблокированном экране больше не будет показываться информация о погоде и предстоящих мероприятиях.</string>
+    <string name="smartspace_preferences_turn_off_description">На главном и заблокированном экранах больше не будет показываться информация о погоде и предстоящих мероприятиях.</string>
     <string name="smartspace_preferences_turn_off_title">Выключить \"%1$s\"</string>
     <string name="smartspace_preferences_turn_on_action">Включить</string>
-    <string name="smartspace_preferences_turn_on_description">На главном и заблокированном экране будет показываться информация о погоде и предстоящих мероприятиях.</string>
+    <string name="smartspace_preferences_turn_on_description">На главном и заблокированном экранах будет показываться информация о погоде и предстоящих мероприятиях.</string>
     <string name="smartspace_preferences_turn_on_title">Включить \"%1$s\"</string>
     <string name="smartspace_shopping_list_overflow">и ещё %1$d</string>
     <string name="status_bar_notification_info_overflow">>999</string>

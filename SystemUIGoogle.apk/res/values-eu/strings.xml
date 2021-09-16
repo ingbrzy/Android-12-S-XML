@@ -595,6 +595,8 @@ Hautapena"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Aldaketa aplikatzeko, berrabiarazi egin behar da gailua. Berrabiaraz ezazu orain, edo utzi bertan behera.</string>
     <string name="camera_hint">Pasatu hatza ikonotik, kamera irekitzeko</string>
     <string name="camera_label">ireki kamera</string>
+    <string name="camera_recording_announcement">Kamera grabatzen ari da</string>
+    <string name="camera_stopped_recording_announcement">Kamerak grabatzeari utzi dio</string>
     <string name="cancel">Utzi</string>
     <string name="carrier_network_change_mode">Operadorearen sarea aldatzen</string>
     <string name="category_personal">Pertsonalak</string>
@@ -734,6 +736,10 @@ Datu-konexioa erabiltzeari berrekiten badiozu, datuen erabileragatiko gastuak iz
     <string name="debug_monitoring_category">Kontrola</string>
     <string name="debug_networking_category">Sareak</string>
     <string name="debug_view_attributes">Gaitu ikuspegiaren atributuak ikuskatzeko aukera</string>
+    <string name="defender_notify_des">Telefonoak kargatzea eten du bateria honda ez dadin</string>
+    <string name="defender_notify_learn_more">Lortu informazio gehiago</string>
+    <string name="defender_notify_resume_charge">Jarraitu kargatzen</string>
+    <string name="defender_notify_title">Kargatzeari utzi zaio aldi baterako</string>
     <string name="delete_blob_confirmation_text">Ziur partekatutako datuak ezabatu nahi dituzula?</string>
     <string name="delete_blob_text">Ezabatu partekatutako datuak</string>
     <string name="demo_mode">Sistemaren erabiltzaile-interfazearen demo modua</string>
@@ -1070,6 +1076,7 @@ soilik"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM txartela desblokeatzen…</string>
     <string name="keyguard_try_fingerprint">Erabili hatz-marka irekitzeko</string>
     <string name="keyguard_unlock">Pasatu hatza gora irekitzeko</string>
+    <string name="keyguard_unlock_press">Sakatu irekitzeko</string>
     <string name="keywords_adb_wireless">adb, araztu, gailua</string>
     <string name="keywords_alarms_and_reminders">programazioa, alarma, abisua, erlojua</string>
     <string name="kg_enter_confirm_pin_hint">Berretsi erabili nahi duzun PIN kodea</string>
@@ -1233,6 +1240,10 @@ Saiatu berriro %2$d segundo barru."</string>
     <string name="menu_ime">Teklatu-aldatzailea</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofonoa aktibatuta dago</string>
+    <string name="mic_and_camera_recording_announcement">Kamera eta mikrofonoa grabatzen ari dira</string>
+    <string name="mic_camera_stopped_recording_announcement">Kamerak eta mikrofonoak grabatzeari utzi diote</string>
+    <string name="mic_recording_announcement">Mikrofonoa grabatzen ari da</string>
+    <string name="mic_stopped_recording_announcement">Mikrofonoak grabatzeari utzi dio</string>
     <string name="missed_call">Dei galdua</string>
     <string name="mobile_carrier_text_format">%1$s (%2$s)</string>
     <string name="mobile_data">Datu-konexioa</string>
@@ -1286,7 +1297,7 @@ Informazio gehiago lortzeko, jarri administratzailearekin harremanetan."</string
     <string name="monitoring_description_parental_controls">Zure gurasoak kudeatzen du gailua. Zure gurasoak gailuko informazioa ikusi eta kudea dezake; besteak beste, zer aplikazio erabiltzen dituzun, zure kokapena zein den eta pantaila aurrean zenbat eta noiz egoten zaren.</string>
     <string name="monitoring_description_personal_profile_named_vpn">%1$s aplikaziora konektatuta daukazu profil pertsonala, eta aplikazio horrek sareko jarduerak gainbegira ditzake, mezu elektronikoak, aplikazioak eta webguneak barne.</string>
     <string name="monitoring_description_two_named_vpns">%1$s eta %2$s aplikazioetara konektatuta zaude, eta haiek sareko jarduerak gainbegira ditzakete, mezu elektronikoak, aplikazioak eta webguneak barne.</string>
-    <string name="monitoring_description_vpn">"Aplikazio bati VPN konexio bat konfiguratzeko baimena eman diozu.
+    <string name="monitoring_description_vpn">"Aplikazio bati VPN bidezko konexio bat konfiguratzeko baimena eman diozu.
 
 Aplikazio horrek gailuko eta sareko jarduerak kontrola ditzake, mezu elektronikoak, aplikazioak eta webguneak barne."</string>
     <string name="monitoring_description_vpn_profile_owned">"%1$s erakundeak kudeatzen du zure laneko profila.
@@ -1706,8 +1717,6 @@ Galderarik baduzu, jarri harremanetan %2$s erakundearekin."</string>
     <string name="quick_settings_work_mode_label">Laneko aplikazioak</string>
     <string name="quick_step_accessibility_toggle_overview">Aldatu ikuspegi orokorra</string>
     <string name="recent_conversations">Azken elkarrizketak</string>
-    <string name="recents_quick_scrub_onboarding">Arrastatu eskuinera aplikazioa azkar aldatzeko</string>
-    <string name="recents_swipe_up_onboarding">Egin gora aplikazioa aldatzeko</string>
     <string name="remaining_length_format">%1$s geratzen dira</string>
     <string name="remote_input_image_insertion_text">erabiltzaileak irudi bat bidali du</string>
     <string name="remove_from_settings">Kendu Ezarpenak ataletik</string>
@@ -2019,7 +2028,7 @@ Jakinarazpen bat jasoko duzu USB ataka berriz erabiltzeko moduan dagoenean."</st
     <string name="usb_contaminant_title">Desgaitu egin da USB ataka</string>
     <string name="usb_debugging_allow">Eman baimena</string>
     <string name="usb_debugging_always">Eman beti ordenagailu honetatik arazteko baimena</string>
-    <string name="usb_debugging_message">"Ordenagailuaren RSA gakoaren erreferentzia-gako digitala hau da:
+    <string name="usb_debugging_message">"Ordenagailuaren RSA gakoaren aztarna digitala hau da:
 %1$s"</string>
     <string name="usb_debugging_secondary_user_message">Gailu honetan saioa hasita daukan erabiltzaileak ezin du aktibatu USB bidezko arazketa. Eginbide hori erabiltzeko, aldatu erabiltzaile nagusira.</string>
     <string name="usb_debugging_secondary_user_title">Ez da onartzen USB bidezko arazketa</string>
@@ -2117,6 +2126,7 @@ Edozein erabiltzailek egunera ditzake beste erabiltzaile guztien aplikazioak."</
     <string name="wallet_secondary_label_no_card">Gehitu txartel bat</string>
     <string name="wallet_secondary_label_updating">Eguneratzen</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Sarbide-puntua beteta dago aldi baterako</string>
     <string name="wifi_cant_connect">Ezin da konektatu</string>
     <string name="wifi_cant_connect_to_ap">Ezin da konektatu \"%1$s\" sarera</string>

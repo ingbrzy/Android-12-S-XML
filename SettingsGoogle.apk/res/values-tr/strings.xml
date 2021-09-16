@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Diller ve giriş</string>
     <string name="lift_to_wake_title">Kaldırarak uyandır</string>
-    <string name="lockdown_settings_summary">Kilit ekranında Smart Lock, Yüz Tanıma Kilidi, Parmak İzi Kilidi ve bildirimler özelliğini kapatan Güç düğmesi seçeneğini görüntüleyin</string>
-    <string name="lockdown_settings_title">Kilitleme seçeneğini göster</string>
+    <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
     <string name="locked_work_profile_notification_title">İş profili kilitli olduğunda</string>
     <string name="lockscreen_bypass_summary">Kilit açıldıktan sonra, doğrudan son kullanılan ekrana git</string>
     <string name="lockscreen_bypass_title">Kilit ekranını atla</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">İş bildirimleri</string>
     <string name="reset_dashboard_summary">Ağ, uygulamalar veya cihaz sıfırlanabilir</string>
     <string name="reset_dashboard_title">Sıfırlama seçenekleri</string>
-    <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
     <string name="screensaver_settings_title">Ekran koruyucu</string>
     <string name="screen_timeout">Ekran zaman aşımı</string>
     <string name="screen_zoom_title">Görüntü boyutu</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">"Bazı içerikler için yenileme hızını otomatik olarak 60 Hz'den 90 Hz'e yükseltir. Pil kullanımını artırır."</string>
     <string name="accessibility_vibration_settings_title">Titreşim ve dokunma teknolojisi</string>
     <string name="emergency_gesture_screen_title">Acil Yardım</string>
-    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_mode_done">Bitti</string>
     <string name="vibrate_for_calls_category_title">Aramalar</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Cüzdanı göster</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Cihaz denetimlerini göster</string>
     <string name="lockscreen_privacy_wallet_summary">Kilit ekranından ve hızlı ayarlardan cüzdana erişime izin verin</string>
     <string name="lockscreen_privacy_controls_summary">Ekran kilitliyken kontrollere erişin</string>
-    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
-    <string name="abc_action_mode_done">Bitti</string>
     <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
     <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
     <string name="abc_capital_off">KAPAT</string>
@@ -2888,7 +2886,7 @@ Bunu daha sonra Ayarlar > Uygulamalar ve bildirimler seçeneğinden değiştireb
     <string name="location_scanning_wifi_always_scanning_description">Uygulamaların ve hizmetlerin kablosuz ağları Kablosuz özelliği kapalıyken bile her zaman taramasına izin verin. Bu özellik, örneğin, konuma dayalı özellikleri ve hizmetleri iyileştirmek için kullanılabilir.</string>
     <string name="location_scanning_wifi_always_scanning_title">Kablosuz ağ taraması</string>
     <string name="location_services_preference_title">Konum hizmetleri</string>
-    <string name="location_services_screen_title">Konum Hizmetleri</string>
+    <string name="location_services_screen_title">Konum hizmetleri</string>
     <string name="location_settings_footer_general">Yakındaki cihazlarla bağlanma izni olan uygulamalar, bağlı cihazların göreli konumunu belirleyebilir.</string>
     <string name="location_settings_footer_learn_more_content_description">Konum Ayarları hakkında daha fazla bilgi edinin.</string>
     <string name="location_settings_footer_location_off">Uygulamaların ve hizmetlerin konum erişimi kapalı. Yine de arayarak veya mesaj göndererek bir acil durum numarasına ulaştığınızda cihazınızın konumu acil durum müdahale ekiplerine gönderilebilir.</string>
@@ -4021,7 +4019,7 @@ Güç ve sesi artırma tuşlarına aynı anda basın."</string>
     <string name="reduce_bright_colors_intensity_preference_title">Yoğunluk</string>
     <string name="reduce_bright_colors_intensity_start_label">Daha loş</string>
     <string name="reduce_bright_colors_persist_preference_title">Cihaz yeniden başladığında devam et</string>
-    <string name="reduce_bright_colors_preference_subtitle">Daha rahat okuyabilmek için ekranınızın parlaklığını azaltın.&lt;br/>&lt;br/> Bu özelliğin kullanışlı olacağı durumlar: &lt;ol> &lt;li> Telefonunuzun varsayılan minimum parlaklığı çok açık&lt;/li> &lt;li> Telefonunuzu gece veya uyumadan önce, karanlık bir oda gibi ışıksız ortamda kullanıyorsunuz&lt;/li> &lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">Daha rahat okuyabilmek için ekranınızın parlaklığını azaltın.&lt;br/>&lt;br/> Bu özelliğin kullanışlı olacağı durumlar: &lt;ol> &lt;li> Telefonunuzun varsayılan minimum parlaklığı çok açık&lt;/li> &lt;li> Telefonunuzu gece veya uyumadan önce, karanlık bir oda gibi ışıksız ortamda kullanıyorsunuz&lt;/li> &lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">Ekranı, telefonunuzun minimum parlaklığından daha loş yapın</string>
     <string name="reduce_bright_colors_preference_title">Ekstra loş</string>
     <string name="reduce_bright_colors_switch_title">Ekranı ekstra loş yap</string>

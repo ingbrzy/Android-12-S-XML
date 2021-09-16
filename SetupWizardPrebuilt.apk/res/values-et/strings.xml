@@ -165,7 +165,7 @@ Kui lennurežiim on sisse lülitatud, on WiFi-, mobiilsidevõrkude ja Bluetoothi
     <string name="final_hold_description_text">See võib võtta mõne minuti</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Telefoni ettevalmistamine …}TABLET{Tahvelarvuti ettevalmistamine …}other{Seadme ettevalmistamine …}}</string>
     <string name="final_hold_title_setup_work_account">Telefoni tööprofiili sead. ettevalm. …</string>
-    <string name="gesture_intro_description">Vaadake, kuidas kasutada avalehele ja tagasi liikumise ning rakenduste vahel vahetamise liigutusi</string>
+    <string name="gesture_intro_description">Vaadake, kuidas kasutada avalehele ja tagasi liikumise ning rakenduste vahel vahetamise liigutusi.</string>
     <string name="gesture_intro_skip_button">Jäta vahele</string>
     <string name="gesture_intro_start_button">Proovin</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Pühkige telefonis navigeerimiseks}TABLET{Pühkige tahvelarvutis navigeerimiseks}other{Pühkige seadmes navigeerimiseks}}</string>
@@ -341,13 +341,15 @@ Seade on lähtestamata"</string>
 
 "<li>Kõik teised kasutajad saavad nõustuda rakenduse värskendatud lubadega.</li>"
 
-"<li>Jagage seda telefoni ainult usaldusväärsete inimestega.</li></ul>}TABLET{<b>Tähtis.</b>"
+"<li>Jagage seda telefoni ainult usaldusväärsete inimestega.</li></ul>"
+}TABLET{"<b>Tähtis.</b>"
 
 "<ul><li>Tahvelarvuti omanik võib teie rakendused desinstallida või teie kasutajaprofiili täielikult eemaldada.</li>"
 
 "<li>Kõik teised kasutajad saavad nõustuda rakenduse värskendatud lubadega.</li>"
 
-"<li>Jagage seda tahvelarvutit ainult usaldusväärsete inimestega.</li></ul>}other{<b>Tähtis.</b>"
+"<li>Jagage seda tahvelarvutit ainult usaldusväärsete inimestega.</li></ul>"
+}other{"<b>Tähtis.</b>"
 
 "<ul><li>Seadme omanik võib teie rakendused desinstallida või teie kasutajaprofiili täielikult eemaldada.</li>"
 
@@ -359,70 +361,47 @@ Seade on lähtestamata"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma telefoni seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ja andmeid;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
-"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"}TABLET{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma tahvelarvuti seadistada.
+"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"
+}TABLET{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma tahvelarvuti seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ja andmeid;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
-"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"}other{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma seadme seadistada.
+"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"
+}other{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma seadme seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ja andmeid;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
 "<li>seadistada automaatselt kuupäeva ja kellaaega.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma telefoni seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ega andmeid;</li>"
-
 "<li>laadida alla SIM-kaarti;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
-"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"}TABLET{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma tahvelarvuti seadistada.
+"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"
+}TABLET{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma tahvelarvuti seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ega andmeid;</li>"
-
 "<li>laadida alla SIM-kaarti;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
-"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"}other{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma seadme seadistada.
+"<li>seadistada automaatselt kuupäeva ja kellaaega.</li>"
+}other{WiFi- või mobiilsidevõrguga ühendamine aitab teil kiiresti oma seadme seadistada.
 
 Ilma ühenduseta ei saa te:
-
 "<li>"logida sisse oma Google'i kontole;"</li>"
-
 "<li>taastada rakendusi ega andmeid;</li>"
-
 "<li>laadida alla SIM-kaarti;</li>"
-
 "<li>hankida tarkvaravärskendusi;</li>"
-
 "<li>seadistada automaatselt kuupäeva ja kellaaega.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pääsupunkt on ajutiselt täis</string>
     <string name="wifi_check_password_try_again">Kontrollige parooli ja proovige uuesti</string>

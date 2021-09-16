@@ -105,7 +105,7 @@
     <string name="audio_focus_state">နောက်ခံသံလျှော့ချခြင်း %1$s</string>
     <string name="auto_detect">စက်ပစ္စည်းကိုင်ပုံကိုလိုက်၍ မုဒ်ရွေးပါ</string>
     <string name="auto_scan_action_description">စကင်စတင်ဖတ်၍ ရွေးချယ်ပါ</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'အလိုအလျောက် ရှာဖွေရန်' (သို့) 'ရွေးရန်'"</string>
     <string name="available_devices_header">ရနိုင်သည့် ဘလူးတုသ်စက်များ</string>
     <string name="basic_navigation_link_subtext">အကြောင်းအရာများအကြား ရွှေ့ခြင်း၊ လှိမ့်ခြင်းနှင့် မီနူးများ အသုံးပြုခြင်း စသည်</string>
     <string name="basic_navigation_link_text">အခြေခံလမ်းညွှန်မှု</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">ဘလူးတုသ်စက်များ တွဲချိတ်မထားပါ</string>
     <string name="bluetooth_not_enabled_message">ဘလူးတုသ်ခလုတ် တွဲချိတ်ရန် ဘလူးတုသ်ကို ဖွင့်ပါ</string>
     <string name="bluetooth_peripheral_content_description">ချိတ်ဆက်ပစ္စည်း</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">‘စနစ်ထည့်သွင်းမှု ဝစ်ဇတ်’ တွင် ဘလူးတုသ်ခလုတ် တွဲချိတ်ရန် ဘလူးတုသ်ဖွင့်ပြီး Android Accessibility Suite ကို အနီးတစ်ဝိုက်ရှိ စက်များနှင့် တည်နေရာ ခွင့်ပြုချက်များ သုံးခွင့်ပေးပါ။</string>
     <string name="bluetooth_phone_content_description">ဖုန်း</string>
     <string name="bluetooth_switch_description_text">ဘလူးတုသ် မှတစ်ဆင့် ခလုတ်ကို ကြိုးမဲ့တွဲချိတ်ရန်</string>
     <string name="bluetooth_switch_option_text">ဘလူးတုသ် ခလုတ်</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">သင့်စက်ကို ထိန်းချုပ်ရန် ဦးစွာ ‘ခလုတ်သုံးခြင်း’ ကို ဖွင့်ရန် လိုအပ်သည်။</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">ကင်မရာ ခလုတ်များကို ဖွင့်ရန်</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">ခလုတ်သုံးခြင်းကို ဖွင့်ရန်</string>
+    <string name="cam_switches_combined_preferences_title">‘%1$s’ ဆက်တင်များ</string>
+    <string name="cam_switches_preferences_title">‘ကင်မရာ ခလုတ်’ ဆက်တင်များ</string>
+    <string name="cam_switches_single_preferences_title">‘%s’ ဆက်တင်များ</string>
     <string name="camera_switches_status_active">ကင်မရာခလုတ်များကို သုံးနေသည်</string>
     <string name="camera_switches_status_error">အမှား</string>
     <string name="camera_switches_status_no_face">မျက်နှာတစ်ခုမျှ မတွေ့ပါ</string>
@@ -399,6 +402,7 @@ TalkBack ကို ရပ်ဆိုင်းလိုက်သည့်အခ�
     <string name="fallback_menu_item_open_in_browser">ဘရောင်ဇာတွင် ဖွင့်ရန်</string>
     <string name="fallback_menu_item_share_link">လင့်ခ်ကို မျှဝေရန်</string>
     <string name="fast_radio_button_title">မြန်ဆန်သည် (%1$s စက္ကန့်သာ နှောင့်နှေးသည်)</string>
+    <string name="fast_radio_button_title_content_description">မြန် (%1$s စက္ကန့် နှောင့်နှေးသည်)</string>
     <string name="find_finish_button_text">အဆုံးသတ်ခလုတ် ရှာရန် ညာဘက်သို့ ပွတ်ဆွဲပါ။</string>
     <string name="finish">အပြီးသတ်ရန်</string>
     <string name="finish_tutorial_announcement">မျက်မမြင်စာရေးစနစ် လက်ကွက်ကို ပြနေသည်။ သင်၏ အခြားတစ်ဘက်သို့ ဖုန်းကိုလှည့်ပါ။ အလျားလိုက်ဖြစ်ရန် သင့်ဖုန်းကို လှည့်ပါ။ ထို့နောက် စာစရိုက်ပါ။</string>
@@ -747,6 +751,7 @@ TalkBack ကို ရပ်ဆိုင်းလိုက်သည့်အခ�
     <string name="list_index_template">%2$d ၏ %1$d</string>
     <string name="lockscreen_label">လော့ခ်မျက်နှာပြင်</string>
     <string name="medium_radio_button_title">အလယ်အလတ် (%1$s စက္ကန့် နှောင့်နှေးသည်)</string>
+    <string name="medium_radio_button_title_content_description">အလယ်အလတ် (%1$s စက္ကန့် နှောင့်နှေးသည်)</string>
     <string name="menu_category_reading_controls">စာဖတ်ခြင်း</string>
     <string name="menu_category_special_features">အထူး ဝန်ဆောင်မှုများ</string>
     <string name="menus_selector_text">"လမ်းညွှန်မှုကို အက္ခရာအရမှ စကားလုံးအရသို့ ပြောင်းခြင်း သို့မဟုတ် TalkBack ၏ ပြောနှုန်းကို ပြောင်းခြင်းကဲ့သို့ ဆက်တင်များကို အမြန်ပြောင်းနိုင်ရန် ဤဖြတ်လမ်းလင့်ခ်များက ကူညီပေးနိုင်သည်။
@@ -767,6 +772,7 @@ TalkBack ဆက်တင်များတွင် TalkBack မီနူးန�
 အောက်သို့ ပွတ်ဆွဲပြီးနောက် ညာဘက်သို့ ပွတ်ဆွဲ၍ TalkBack မီနူးကို ယခုဖွင့်ပါ။"</string>
     <string name="menus_title">မီနူးနှင့် ထိန်းချုပ်မှုများ</string>
     <string name="message_in_reset_keymap_confirm_dialog">ဤခလုတ်ပြမြေပုံအတွက် ဖြတ်လမ်းခလုတ်များကို ၎င်းတို့၏မူရင်းသို့ ပြန်လည်သတ်မှတ်လိုသည်မှာ သေချာပါသလား။ မှတ်ချက်၊ ဤလုပ်ဆောင်ချက်ကို ပြန်ပြောင်း၍မရပါ။</string>
+    <string name="message_request_phone_permission">ဖုန်းပြောနေကြောင်းကို TalkBack က သိထားမှသာ အနှောင့်အယှက်ပေးသည့် ကြေညာချက်များကို TalkBack က လျှော့ချပေးနိုင်မည်။</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"လက်ဟန်များအားလုံးကို ယင်းတို့၏ မူလလုပ်ဆောင်ချက်များသို့ ပြင်ဆင်သတ်မှတ်ပေးသည်။
 
 သင်ပြုလုပ်ထားသော ပြောင်းလဲမှုများကို ဆုံးရှုံးပါမည်။"</string>
@@ -996,6 +1002,7 @@ TalkBack ဆက်တင်များတွင် TalkBack မီနူးန�
     <string name="pref_reduce_window_delay_title">ဝင်းဒိုးကြေညာချက် နှောင့်နှေးမှု လျှော့ချခြင်း</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">ကင်မရာ ခလုတ်များ ထည့်ရန်</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">ပြင်ပ ခလုတ်များကို ရှင်းရန်</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">ဤအသွင်တူ ခလုတ်အတွက် ဆက်တင်များ စီစဉ်သတ်မှတ်ရန်- %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">ကင်မရာ ခလုတ်များ ပြင်ဆင်ရန်</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">‘ကင်မရာ ခလုတ်’ တစ်ခုမျှ သတ်မှတ်မထားပါ</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s' အတွက် ‘ကင်မရာ ခလုတ်များ’ သတ်မှတ်ခြင်း"</string>
@@ -1016,9 +1023,9 @@ TalkBack ဆက်တင်များတွင် TalkBack မီနူးန�
     <string name="pref_sa_face_playground_stop_preview_content_description">အစမ်းကြည့်ရှုခြင်းကို ရပ်ရန်</string>
     <string name="pref_sa_face_playground_switch_on_content_description">ဖွင့်ရန်</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">ဤစမ်းသပ်သည့်နေရာကို သုံးရန် ကင်မရာ အသွင်တူ ခလုတ်များ ဖွင့်ရမည်</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">စမ်းကြည့်ရန်- ပါးစပ်ဖွင့်ခြင်း၊ ပြုံးခြင်း စသည်တို့အပါအဝင် မျက်နှာအမူအရာ အမျိုးအစားအားလုံးကို အစမ်းကြည့်ပါ</string>
+    <string name="pref_sa_face_playground_try_it_button_text">စမ်းကြည့်ရန်</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">စမ်းကြည့်ရန်- %1$s မျက်နှာအမူအရာများကို အစမ်းကြည့်ပါ</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">စမ်းသပ်သည့်နေရာကို ခဏရပ်ထားသည်။ ၎င်းကို ပြန်စရန် အောက်ပါခလုတ်ကို သုံးပါ။</string>
     <string name="pref_selector_summary">ဆက်တင်ရွေးရန် %1$s။ ထို့နောက် ဆက်တင်ပြင်ဆင်ရန် %2$s။</string>
     <string name="pref_selector_summary_two_select_gesture">ဆက်တင်ရွေးရန် %1$s သို့မဟုတ်%2$s။ ထို့နောက် ဆက်တင်ပြင်ဆင်ရန် %3$s။</string>
@@ -1067,6 +1074,7 @@ TalkBack ဆက်တင်များတွင် TalkBack မီနူးန�
     <string name="reduce_speed_button">အမြန်နှုန်းကို လျှော့ရန်</string>
     <string name="remaining_calibration_finish_announcement">ဒေါ့(တ်)တည်နေရာအားလုံးကို အပ်ဒိတ်လုပ်ထားသည်</string>
     <string name="reminder_announcement">အခြား ရွေးချယ်စရာများကို ဖွင့်ရန် လက် ၃ ချောင်းဖြင့် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="remove_assigned_switch">%s အတွက် ခလုတ်သတ်မှတ်ချက်ကို ဖယ်ရှားရန်</string>
     <string name="report_gesture_description">၎င်းတို့သည် မကြာသေးမီက ပြုလုပ်ခဲ့သောလက်ဟန်များ ဖြစ်သည်။ မည်သည့်လက်ဟန်က မှားကြောင်းနှင့် မည်သည့်က မှန်ကြောင်းတို့ကို အစီရင်ခံပါ။</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">ပြန်သတ်မှတ်ရန်</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">ပြန်လည်သတ်မှတ်ပါ</string>
@@ -1147,6 +1155,7 @@ TalkBack ဆက်တင်များတွင် TalkBack မီနူးန�
     <string name="search_mode_hint_no_selection">အချက်အလက် မရွေးထားပါ။</string>
     <string name="search_mode_hint_query">လတ်တလော မေးခွန်း- %1$s</string>
     <string name="search_mode_hint_selection">လတ်တလော ရွေးချယ်မှု- %1$s</string>
+    <string name="select_for_point_scan">"'ရွေးရန်'"</string>
     <string name="select_setting_hint">မတူညီသော ဆက်တင်ရွေးရန် %1$s</string>
     <string name="selecting_text_text">"စာသားအကွက်တွင် သင်ရွေးလိုသော စာသား၏ အစသို့ ကာဆာကို ရွှေ့ပါ။
 
@@ -1207,6 +1216,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="shortcut_media_control">မီဒီယာဖွင့်ရန် (သို့) ခဏရပ်ရန်</string>
     <string name="shortcut_next">ရှေ့သို့</string>
     <string name="shortcut_next_granularity">နောက် ရွေ့လျားမှုဆက်တင်</string>
+    <string name="shortcut_next_window">နောက်ဝင်းဒိုး</string>
     <string name="shortcut_not_customizable">%1$s၊ စိတ်ကြိုက်လုပ်၍ မရနိုင်ပါ</string>
     <string name="shortcut_notifications">အကြောင်းကြားချက်များ</string>
     <string name="shortcut_overview">အနှစ်ချုပ်</string>
@@ -1219,6 +1229,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="shortcut_practice_gestures">လက်ဟန်များကို လေ့ကျင့်ရန်</string>
     <string name="shortcut_previous">ယခင်တစ်ခု</string>
     <string name="shortcut_previous_granularity">ယခင် ရွေ့လျားမှုဆက်တင်</string>
+    <string name="shortcut_previous_window">ယခင်ဝင်းဒိုး</string>
     <string name="shortcut_print_node_tree">node tree ပရင့်ထုတ်ရန်</string>
     <string name="shortcut_print_performance_stats">စွမ်းဆောင်ရည်ပြ စာရင်းဇယားကို ပုံနှိပ်ထုတ်ယူရန်</string>
     <string name="shortcut_quick_settings">အမြန် ဆက်တင်များ</string>
@@ -1258,6 +1269,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
 • ဆက်တိုက်ဖတ်ခြင်းကို စတင်ရန် လှုပ်ယမ်းပါ"</string>
     <string name="six_hold_announcement">သင့်ဖုန်းကို စားပွဲပေါ်တွင် အပြားလိုက်တင်ခြင်းဖြင့်လည်း စာရိုက်နိုင်သည်။ ယခုပဲ စမ်းကြည့်လိုက်ပါ။ အနီးအနားတွင် စားပွဲမရှိပါက အောက်သို့ပွတ်ဆွဲခြင်းဖြင့် ရှေ့သို့ကျော်ပါ။</string>
     <string name="slow_radio_button_title">နှေးသည် (%1$s စက္ကန့် နှောင့်နှေးသည်)</string>
+    <string name="slow_radio_button_title_content_description">နှေး (%1$s စက္ကန့် နှောင့်နှေးသည်)</string>
     <string name="sound_feedback_state">အသံဖြင့် တုံ့ပြန်ချက် %1$s</string>
     <string name="sound_feedback_summary">တစ်ခုခုပြောင်းသွားကြောင်း (ဥပမာ- ဖန်သားပြင်ပေါ်ရှိ အကြောင်းအရာ ပြောင်းသွားခြင်း) ဖော်ပြရန် အသံကို ဖွင့်ပါ</string>
     <string name="speak_container_element_position_summary_off">စာရင်းနှင့် ဇယားကွက် အချက်အလက်များကို ပြောမပေးပါ</string>
@@ -1331,17 +1343,17 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="summary_pref_face_switches_debounce_time">ဤအချိန်တွင်း အချက်ပေါင်းများစွာ ‘ကင်မရာ ခလုတ်’ နှိပ်ခြင်းကို တစ်ကြိမ်သာနှိပ်ခြင်းဟု မှတ်ယူပါမည်။</string>
     <string name="summary_pref_face_switches_enabled">သင် ဖန်သားပြင်သို့ ကြည့်နေသည်ကို မြင်ရရန်နှင့် မျက်နှာအမူအရာများကို မှတ်မိရန် ‘ကင်မရာ ခလုတ်များ’ က ရှေ့ကင်မရာကို အသုံးပြုသည်။ ပုံများကို Google သို့ မသိမ်းသလို ပို့လည်းမပို့ပါ။</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">မျက်နှာအမူအရာကို တုံ့ပြန်သည့်အနေဖြင့် ဖန်သားပြင်ပေါ်ရှိ တစ်စုံတစ်ခု ပြောင်းသွားသည့်အခါ အသံ ဖွင့်ရန်</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">မျက်နှာအမူအရာကို သင် မည်မျှကြာအောင် ထားပြီးကြောင်း ရုပ်ပုံဖော်ပြချက်ကို ပြရန်</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">‘ကင်မရာ ခလုတ်များ’ ဖွင့်ထားသည့်အခါ ဖန်သားပြင်ကို ဆက်ဖွင့်ထားပါ။ ဖန်သားပြင် ပိတ်ထားလျှင် ‘ကင်မရာ ခလုတ်များ’ က ၎င်းကို လော့ခ်မဖွင့်နိုင်ပါ။</string>
     <string name="summary_pref_face_switches_no_face_detected_message">မျက်နှာတစ်ခုမျှ မတွေ့ပါ</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">မျက်နှာအမူအရာများထဲမှ တစ်ခုခုကို လုပ်ဆောင်ပါ။ စာရင်းသွင်းပြီးပါက မျက်နှာအမူအရာအမည်ကို ပြမည်။ ထွက်ရန် မျက်နှာအမူအရာ တစ်ခုခုကို %1$d စက္ကန့်ကြာ ထားပါ။</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">သင့်ခေါင်းကို ငြိမ်ငြိမ်ထားပြီး ကင်မရာသို့ မျက်နှာမူထားပါ။ ထို့နောက် %s။</string>
     <string name="summary_pref_play_store">လတ်တလော TalkBack ဗားရှင်း- %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">အလျားလိုက်နှင့် ဒေါင်လိုက်တည်နေရာ အတိအကျကို ရွေးရန် ရွေ့လျားနေသည့်မျဉ်းများကို အသုံးပြုပါ။ ‘အတိအကျ ရှာဖွေခြင်း’ ကို စတင်ရန် %1$s ခလုတ်ကို နှိပ်ပါ။ %2$s</string>
     <string name="summary_pref_reverse_dots">အစက်များ၏ နေရာကို ပြောင်းခြင်းဖြင့် အစက် ၁ နှင့် ၄ ကို နေရာလဲလှယ်နိုင်သည်၊ ဥပမာ</string>
     <string name="summary_pref_revert_to_default_menu">"'ခလုတ်သုံးခြင်း' မီနူးကို မီနူးအကြောင်းအရာများ၏ မူလစာရင်းသို့ ပြင်ဆင်သတ်မှတ်သည်။"</string>
-    <string name="summary_pref_single_tap">(စမ်းသပ်မှု) စဖွင့်ရန် အာရုံစိုက်ထားသည့် အကြောင်းအရာကို တစ်ကြိမ်တို့ပါ</string>
+    <string name="summary_pref_single_tap">စဖွင့်ရန် အာရုံစိုက်ထားသည့် အကြောင်းအရာကို တစ်ကြိမ်တို့ပါ</string>
     <string name="summary_pref_tree_debug_tv">ရှာဖွေမည့်အစား အဆင့်လိုက်ပြဇယားချပ်ကို ပုံနှိပ်ထုတ်ယူရန် စာမရိုက်ဘဲ အသံဖြင့် ရှာဖွေစေခြင်းကီးကို အသုံးပြုပါ</string>
     <string name="summary_pref_use_audio_focus">စကားပြောနေလျှင် အခြား အသံကို လျှော့လိုက်ပါ</string>
     <string name="summary_read_from_current">နောက်အကြောင်းအရာမှစ၍ ဖန်သားပြင်ရှိ အကြောင်းအရာများအားလုံးကို ဖတ်သည်</string>
@@ -1438,10 +1450,10 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="switched_to_contracted_announcement">ချုံ့ထားသော မျက်မမြင်စာရေးစနစ်သို့ ပြောင်းလိုက်ပါပြီ</string>
     <string name="switched_to_ueb_uncontracted_announcement">ချုံ့မထားသော UEB စနစ်သို့ ပြောင်းလိုက်ပါပြီ</string>
     <string name="switched_to_uncontracted_announcement">ချုံ့မထားသော မျက်မမြင်စာရေးစနစ်သို့ ပြောင်းလိုက်ပါပြီ</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">ညီမျှလုနီး သင်္ကေတ</string>
     <string name="symbol_ampersand">အန်ပါဆန် သင်္ကေတ</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">ပိုငယ်သည့် သင်္ကေတ</string>
+    <string name="symbol_angle_bracket_right">ပိုကြီးသည့် သင်္ကေတ</string>
     <string name="symbol_apostrophe">အပေါ်စတော်ဖီ</string>
     <string name="symbol_approximately_equals">အကြမ်းအားဖြင့် ညီမျှ</string>
     <string name="symbol_asterisk">ခရေပွင့် သင်္ကေတ</string>
@@ -1461,7 +1473,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_bullseye">Bullseye</string>
     <string name="symbol_caret">ကာရက်</string>
     <string name="symbol_celsius_degree">စင်တီဂရိတ် ဒီဂရီ</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">ဆင့် သင်္ကေတ</string>
     <string name="symbol_circle_left_half_black">ဘယ်တစ်ဝက် မည်းနေသည့် စက်ဝိုင်း</string>
     <string name="symbol_circle_right_half_black">ညာတစ်ဝက် မည်းနေသည့် စက်ဝိုင်း</string>
     <string name="symbol_colon">ကိုလန်</string>
@@ -1470,7 +1482,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_curly_bracket_left">ဘယ်ဘက် တွန့်ကွင်း</string>
     <string name="symbol_curly_bracket_right">ညာဘက် တွန့်ကွင်း</string>
     <string name="symbol_currency_sign">ငွေကြေး သင်္ကေတ</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">ဒီဂရီ သင်္ကေတ</string>
     <string name="symbol_division">အစား လက္ခဏာ</string>
     <string name="symbol_dollar_sign">ဒေါ်လာ သင်္ကေတ</string>
     <string name="symbol_downwards_arrow">အောက်သို့ မြား</string>
@@ -1522,7 +1534,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_middle_dot">အလယ် အစက်</string>
     <string name="symbol_multiplication">အမြှောက် လက္ခဏာ</string>
     <string name="symbol_new_line">လိုင်း အသစ်</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">မညီမျှခြင်း သင်္ကေတ</string>
     <string name="symbol_not_sign">သင်္ကေတ မဟုတ်</string>
     <string name="symbol_paragraph_mark">စာပိုဒ် သင်္ကေတ</string>
     <string name="symbol_parenthesis_left">ကွင်းစ</string>
@@ -1533,7 +1545,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_plus_minus_sign">အပေါင်း အနှုတ် သင်္ကေတ</string>
     <string name="symbol_postal_mark">စာပို့အမှတ်အသား</string>
     <string name="symbol_pound">ပေါင်</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">စတာလင်ပေါင် ငွေကြေး သင်္ကေတ</string>
     <string name="symbol_quarter_note">ကွာတာ မှတ်ချက်</string>
     <string name="symbol_question_mark">မေးခွန်း သင်္ကေတ</string>
     <string name="symbol_quotation_mark">ကုဒ် ခလုတ်</string>
@@ -1559,7 +1571,7 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_trademark">ကုန်တံဆိပ်</string>
     <string name="symbol_underscore">အန်ဒါးစကိုး</string>
     <string name="symbol_upwards_arrow">အပေါ်ပြ မြား</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">ဒေါင်လိုက်မျဉ်း</string>
     <string name="symbol_white_circle">စက်ဝိုင်း အဖြူ</string>
     <string name="symbol_white_club_suit">club suit အဖြူ</string>
     <string name="symbol_white_diamond">စိန်အဖြူ</string>
@@ -1573,8 +1585,8 @@ TalkBack မီနူးကို ပြန်ဖွင့်ပြီးနေ�
     <string name="symbol_white_square">စတုရန်း အဖြူ</string>
     <string name="symbol_white_star">ကြယ်ဖြူ</string>
     <string name="symbol_white_up_pointing_triangle">အပေါ်သို့ ညွှန်ပြနေသည့ဘ် တြိဂံဖြူ</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">ကိုရီးယားဝမ် ငွေကြေး သင်္ကေတ</string>
+    <string name="symbol_won_sign">ကိုရီးယားဝမ် ငွေကြေး သင်္ကေတ</string>
     <string name="symbol_yen">ယန်း</string>
     <string name="system_actions">စနစ် လုပ်ဆောင်ချက်များ</string>
     <string name="tabletop">စားပွဲတင်မုဒ်</string>
@@ -1742,7 +1754,7 @@ TalkBack ကို ပိတ်ရန်-
     <string name="title_pref_category_assign_switches">ခလုတ်များကို သတ်မှတ်ရန်</string>
     <string name="title_pref_category_audio">အသံ</string>
     <string name="title_pref_category_auto_scan">အလိုအလျောက် ရှာဖွေခြင်း</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">အလိုအလျောက် ရှာဖွေခြင်း (အတိအကျ ရှာဖွေခြင်း)</string>
     <string name="title_pref_category_border_color">အရောင်</string>
     <string name="title_pref_category_built_in_gestures">ထည်သွင်းထားသည့် လက်ဟန်များ</string>
     <string name="title_pref_category_context_menu">TalkBack မီနူးကို စိတ်ကြိုက်လုပ်ရန်</string>
@@ -1826,7 +1838,7 @@ TalkBack ကို ပိတ်ရန်-
     <string name="title_pref_red">အနီရောင်</string>
     <string name="title_pref_resume_talkback">ဆိုင်းငံ့မှ ဆက်လုပ်ရန်</string>
     <string name="title_pref_reverse_auto_scan_disabled">အလိုအလျောက် စကင်လုပ်ခြင်း ပြောင်းပြန် (ပိတ်ထားသည်)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">အလိုအလျောက် ရှာဖွေခြင်း ပြောင်းပြန် (အတိအကျ ရှာဖွေခြင်း)</string>
     <string name="title_pref_reverse_dots">ပြောင်းပြန် အစက်များ</string>
     <string name="title_pref_revert_to_default_menu">"'မူလမီနူး' သို့ ပြန်ပြောင်းခြင်း"</string>
     <string name="title_pref_scan_non_actionable_items">ဖော်ပြချက်စာသားကို အသံထွက်ပြောပေးရန်</string>
@@ -1889,7 +1901,7 @@ TalkBack ကို ပိတ်ရန်-
     <string name="title_pref_show_context_menu_as_list">အကြောင်းအရာမီနူးအား စာရင်းပုံစံဖြင့်ပြရန်</string>
     <string name="title_pref_show_privacy_policy">ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ</string>
     <string name="title_pref_show_tos">ဝန်ဆောင်မှု စည်းမျဉ်းများ</string>
-    <string name="title_pref_single_tap">တစ်ကြိမ်နှိပ်၍ ဖွင့်ခြင်း</string>
+    <string name="title_pref_single_tap">စဖွင့်ရန် တစ်ကြိမ်တို့ပါ</string>
     <string name="title_pref_sound_and_vibration">အသံနှင့် တုန်ခါမှု</string>
     <string name="title_pref_soundback">အသံဖြင့် အကြံပြုချက်</string>
     <string name="title_pref_soundback_volume">အသံတုံ့ပြန်မှု အတိုးအကျယ်</string>
@@ -1934,6 +1946,7 @@ TalkBack ကို ပိတ်ရန်-
     <string name="title_previous_screen">ယခင် မျက်နှာပြင်</string>
     <string name="title_read_from_top">ထိပ်မှ ဖတ်ရန်</string>
     <string name="title_repeat_last_spoken_phrase">နောက်ဆုံးပြောခဲ့သည့် စကားရပ်ကို ပြန်ပြောရန်</string>
+    <string name="title_request_phone_permission">TalkBack တောင်းဆိုချက်များ ခွင့်ပြုချက်</string>
     <string name="title_screen_summary">မျက်နှာပြင်အနှစ်ချုပ်</string>
     <string name="title_seek_bar_controls">ရွှေ့တုံး</string>
     <string name="title_seek_bar_edit">ရွှေ့တုံးအဆင့်ကို တည်းဖြတ်ခြင်း</string>

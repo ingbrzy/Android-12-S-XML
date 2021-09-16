@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Phendula</string>
     <string name="a11y_call_incoming_decline_description">Yenqaba</string>
+    <string name="a11y_callscreen_animation">Ukugqwayiza kwe-Call Screen</string>
     <string name="a11y_contact_menu_video_call_wifi">Ikholi yevidiyo kusetshenziswa i-wifi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Ikholi yezwi kusetshenziswa i-wifi</string>
     <string name="a11y_conversation_history_entry_answered_call">Okwakamuva ikholi ephenduliwe kusuka ku-^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Phatha abashayi</string>
     <string name="a11y_expandedsheet_collapse">goqa imenyu</string>
     <string name="a11y_expandedsheet_expand">nweba imenyu</string>
-    <string name="a11y_favorites_education_dismiss">vala</string>
     <string name="a11y_feature_demo_next_page">Ikhasi elilandelayo</string>
     <string name="a11y_feature_demo_page_indicator">Ikhasi %d</string>
     <string name="a11y_feature_demo_prev_page">Ikhasi elidlule</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Okokuxhumanisa ngokushesha kwe-^1</string>
+    <string name="a11y_icon_hd">Ikholi ye-HD</string>
+    <string name="a11y_icon_hd_plus">Ikholi ye-HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Ikholi yedatha okwabelenwe ngayo</string>
+    <string name="a11y_icon_verified">Ikholi eqinisekisiwe</string>
+    <string name="a11y_icon_vilte">Ividiyo ekholini ye-LTE</string>
+    <string name="a11y_icon_viwifi">Ividiyo ekholini ye-WiFi</string>
+    <string name="a11y_icon_volte">Izwi ekholini ye-LTE</string>
+    <string name="a11y_icon_voz4g">Izwi ekholini ye-4G</string>
+    <string name="a11y_icon_wifi">Ikholi ye-WiFi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Swayiphela iminwe emibili phezulu ukuze uphendule. Swayiphela iminwe emibili phansi ukuze wenqabe.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Swayiphela phezulu ngeminwe emibili ukuze uphendule noma phansi ukuze wenqabe ikholi</string>
     <string name="a11y_new_call_log_entry_call_recording">ikholi irekhodiwe</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">ku-^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">yenza ikholi ye-RTT ku-^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Wabelane ngekholi yedatha</string>
     <string name="a11y_new_call_log_entry_tap_action">nweba imenyu</string>
     <string name="a11y_new_call_log_entry_video_call">yenza ikholi yevidiyo eya ku-^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">yenza ikholi yevidiyo eya ku-^1 usebenzisa i-wifi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Hlela inombolo ngaphambi kwekholi</string>
     <string name="action_menu_back_from_search">misa ukusesha</string>
     <string name="action_menu_overflow_description">Izinketho eziningi</string>
+    <string name="activate_error_message">Inkinga yokuqalisa ukusebenzisa i-Call Screen</string>
+    <string name="activated_successfully">I-Call Screen iyasebenza</string>
     <string name="activity_not_available">Alukho uhlelo lokusebenza lalokho kule divayisi</string>
     <string name="add_2sec_pause">Faka ukumisa okwesikhashana kwamasekhondi angu-2</string>
     <string name="add_contact_not_available">Alukho uhlelo lokusebenza loxhumana nabo olutholakalayo</string>
@@ -157,10 +169,10 @@ Ukurekhoda kulondolozwa efonini yakho. ^1"</string>
     <string name="blocked_numbers_disabled_emergency_header_label">Ukuvimbela ikholi kuvalwe isikhashana</string>
     <string name="bm_suggest_call_button">Shaya</string>
     <string name="bm_suggest_chat_button">Xoxa</string>
-    <string name="bm_suggest_wait_min">"I-Chat
-%1$d ukulinda kweminithi"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s akufundiwe</string>
+    <string name="bm_suggest_wait_min">"Ingxoxo
+ ukulinda %1$dm"</string>
+    <string name="bm_suggest_wait_time_estimating">"Ingxoxo
+Iyasebenza…"</string>
     <string name="bottomsheet_action_expand_halfway">Nweba phakathi</string>
     <string name="bubble_bottom_action_end_call">Qeda ikholi</string>
     <string name="bubble_bottom_action_hide">Fihla</string>
@@ -169,7 +181,10 @@ Ukurekhoda kulondolozwa efonini yakho. ^1"</string>
     <string name="call">Ikholi yezwi</string>
     <string name="callFailed_simError">Ayikho i-SIM, noma iphutha le-SIM</string>
     <string name="callHistoryIconLabel">Umlando wekholi</string>
-    <string name="call_announcer_preference_footer_instruction_text">Igama loshayayo nenombolo kuzofundelwa phezulu ngamakholi angenayo</string>
+    <string name="call_action_label_automatically_screen">Ukuhlola ngokuzenzakalelayo. Yenqaba ama-robocall.</string>
+    <string name="call_action_label_ring_phone">Khalisa ifoni (ngokuzenzakalelayo)</string>
+    <string name="call_action_label_silently_decline">Yenqaba buthule</string>
+    <string name="call_announcer_preference_footer_instruction_text">Igama nenombolo yofonayo kuzofundelwa phezulu emakholini angenayo</string>
     <string name="call_announcer_preference_list_title">Yethula Ubunikazi bekholi</string>
     <string name="call_announcer_preference_option_always">Njalo</string>
     <string name="call_announcer_preference_option_headset">Uma kuphela umsebenzisa ama-earphone</string>
@@ -202,7 +217,7 @@ Ukurekhoda kulondolozwa efonini yakho. ^1"</string>
     <string name="call_incoming_answer">Phendula</string>
     <string name="call_incoming_answer_rtt">Phendula nge-RTT</string>
     <string name="call_incoming_answer_voice">Phendula ngezwi</string>
-    <string name="call_incoming_chip_answer_and_release">Phendula futhi uqede ikholi</string>
+    <string name="call_incoming_chip_answer_and_release">Phendula futhi uvale ikholi</string>
     <string name="call_incoming_chip_answer_as_rtt">Phendula njengekholi ye-RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Phendula njengekholi yezwi</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Phendula ngevidiyo yami ivaliwe</string>
@@ -218,7 +233,7 @@ Ukurekhoda kulondolozwa efonini yakho. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Swayiphela phezulu ukuze uphendule</string>
     <string name="call_incoming_swipe_to_reject">Swayiphela phansi ukuze wenqabe</string>
     <string name="call_incoming_video_is_off">Ividiyo yakho ivaliwe</string>
-    <string name="call_incoming_will_disconnect">Ukuphendula le kholi kuzophelisa ikholi yakho yevidiyo</string>
+    <string name="call_incoming_will_disconnect">Ukuphendula le kholi kuzovala ikholi yakho yevidiyo</string>
     <string name="call_incoming_will_disconnect_app">Ukuphendula kuzoqeda ikholi yakho ye-%1$s</string>
     <string name="call_isdn">Fonela i-ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Vimba/bika ugaxekile</string>
@@ -254,6 +269,7 @@ Ukurekhoda kulondolozwa efonini yakho. ^1"</string>
     <string name="call_reason_fragment_content_description">Isizathu Sekholi: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Okurekhodiwe kulondoloziwe.</string>
     <string name="call_recording_conversation_history_entry">Kurekhodiwe</string>
+    <string name="call_recording_delete_snack_bar_undo">Susa</string>
     <string name="call_recording_disclaimer_agreen_button_text">Qala ukurekhoda</string>
     <string name="call_recording_disclaimer_content">"Wena noma omunye umuntu kwikholi yakho angaba kwenye indawo edinga ukuth iwonke umuntu avume ukurekhodwa. Wonke umuntu uzokwaziswa ngokuzayo ngesikhathi lapho ikholi irekhodwa khona. Kukuwe ukulandela imithetho mayelana nokurekhoda izingxoxo. Sebenzisa ukurekhodwa kwekheli gokubophezeleka futhi kuvule kuphela uma kudingeka.
 ^1
@@ -290,6 +306,7 @@ Ukurekhoda kulondolozwa efonini yakho."</string>
 Akuwona umsindo ekholi nakho ukuloba kwekholi okuthunyelwa komunye, kufaka phakathi i-Google."</string>
     <string name="call_screen_demo_page_4_title">Yonga isikhathi bese ugweme ukukhangatheka</string>
     <string name="call_screen_demo_setting_title">Bona idemo</string>
+    <string name="call_screen_demo_settings_title">Bona i-demo</string>
     <string name="call_screen_demo_title">Indlela i-Call Screen esebenza ngayo</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Ayikwazi ukulanda umsindo wesampuli</string>
     <string name="call_screen_demo_unable_to_play_audio">Ayikwazi ukudlala umsindo wesampuli</string>
@@ -297,6 +314,7 @@ Akuwona umsindo ekholi nakho ukuloba kwekholi okuthunyelwa komunye, kufaka phaka
     <string name="call_screen_end_call_local_internal_message">Uphelise ikholi</string>
     <string name="call_screen_end_call_non_local_internal_message">Ikholi inqanyuliwe</string>
     <string name="call_screen_how_it_works_setting_title">I-Call Screen isebenza kudivayisi yakho ngaphandle kwe-Wi-Fi noma idatha. Ukuloba kwengxoxo kuyenziwa futhi kulondolozwa kuphela efonini yakho. %1$s</string>
+    <string name="call_screen_how_it_works_title">I-Call Screen isebenza kudivayisi yakho ngaphandle kwe-Wi-Fi noma idatha. Ukuloba kwengxoxo kuyenziwa futhi kulondolozwa kuphela efonini yakho. ^1</string>
     <string name="call_screen_incallui_chip_text">Skrina ikholi</string>
     <string name="call_screen_join_call_button_content_description">Joyina ikholi</string>
     <string name="call_screen_join_call_internal_message">Ujoyine ikholi</string>
@@ -306,6 +324,7 @@ Akuwona umsindo ekholi nakho ukuloba kwekholi okuthunyelwa komunye, kufaka phaka
     <string name="call_screen_saying_to_the_caller_state">Uthi kofonayo</string>
     <string name="call_screen_screening_call_from">Iskrina ikholi kusukela ku-</string>
     <string name="call_screen_setting_title">I-Call Screen</string>
+    <string name="call_screen_settings_title">I-Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Inkinobho yesikhulumi</string>
     <string name="call_screen_suggestions_avatar_content_description">Ilogo</string>
     <string name="call_screen_survey_cancel_button">Khansela</string>
@@ -330,6 +349,8 @@ Akuwona umsindo ekholi nakho ukuloba kwekholi okuthunyelwa komunye, kufaka phaka
     <string name="call_work">Fonela emsebenzini</string>
     <string name="call_work_mobile">Fonela iselula yasemsebenzini</string>
     <string name="call_work_pager">Fonela isicingo sasemsebenzini</string>
+    <string name="caller_action_error_cant_load_value">Ayikwazi ukulanda inani le-%1$s lamanje</string>
+    <string name="caller_action_error_cant_set_value">Ayikwazi ukulondoloza inani le-%1$s</string>
     <string name="caller_id_announcement_multi_sim">ikholi ye-%1$s engenayo kusuka ku-%2$s ku-sim %3$s</string>
     <string name="caller_id_announcement_single_sim">ikholi ye-%1$s engenayo kusuka ku-%2$s</string>
     <string name="caller_id_business_data_details">Idatha esetshenziswa kulezi zici inikezwa i-Google nabanikeza ilayisense bayo. ^1</string>
@@ -369,6 +390,9 @@ Akuwona umsindo ekholi nakho ukuloba kwekholi okuthunyelwa komunye, kufaka phaka
     <string name="calling_blocked_number_precall_dialog_title">Shayela u-%s?</string>
     <string name="calllog_add_to_contact">Engeza koxhumana naye</string>
     <string name="calllog_create_new_contact">Dala oxhumana naye omusha</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Ukusebenzisa I-Call Screen (kudinga i-WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Izwi</string>
+    <string name="camera_permission_toast">Imvume yekhamera inikwe amandla</string>
     <string name="camera_privacy_text">Imvume yekhamera inikwe amandla</string>
     <string name="cannot_understand_description">Angiqondi</string>
     <string name="car_crash_emergency_intro">"Uxhunyaniswa ngesevisi yezwi yesimo esiphuthumayo engxenyeni yoshayayo.
@@ -431,6 +455,9 @@ Sicela uthumele usizo."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Ayikwazanga ukusetha ukushaya okuqinisekisiwe. Unganika amandla futhi kuzilungiselelo.</string>
     <string name="contact_card_video_icon_content_description">Ikholi yevidiyo eya ku-^1</string>
     <string name="contact_grid_callback_number">Le nombolo yefoni: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Ikholi idluliselwe phambili</string>
+    <string name="contact_grid_hd_icon_content_description">Ikholi ye-HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Ikholi ye-HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Ikholi yevidiyo yenkampani yenethiwekhi kusukela</string>
     <string name="contact_grid_incoming_reception_only_video_call">Ikholi yevidiyo yenkampani yenethiwekhi yendlela engu-1 kusukela</string>
     <string name="contact_grid_incoming_rtt_call">Ikholi ye-RTT kusuka ku-</string>
@@ -441,9 +468,18 @@ Sicela uthumele usizo."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Ukushaya kwevidiyo kwenkampani yenethiwekhi kwe-Wi-Fi kusukela</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Ikholi yevidiyo ye-Wi-Fi yenkampani yenethiwekhi yendlela engu-1 kusukela</string>
     <string name="contact_grid_incoming_work_call">Ikholi yomsebenzi kusukela ku-</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Ikholi yedatha okwabelanwe ngayo</string>
+    <string name="contact_grid_spam_icon_content_description">Ikholi yogaxekile</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Inkampani yenethiwekhi</string>
     <string name="contact_grid_stir_shaken_validation_prefix">I-%1$s iqinisekisiwe</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Inombolo evumelekile</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Ividiyo ekholini ye-LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Ividiyo ekholini ye-wifi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Izwi ekholini ye-4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Izwi ekholini ye-LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Izwi ekholini ye-wifi</string>
+    <string name="contact_grid_wifi_icon_content_description">Ikholi ye-wifi</string>
+    <string name="contact_grid_work_icon_content_description">Ikholi yomsebenzi</string>
     <string name="contact_menu_add_favorite">Engeza intandokazi</string>
     <string name="contact_menu_contact_info">Ulwazi loxhumana naye</string>
     <string name="contact_menu_invite_video">Memela kwikholi yevidiyo</string>
@@ -478,8 +514,12 @@ Sicela uthumele usizo."</string>
     <string name="conversation_history_call_details_header_today">Namhlanje</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Ikholi isusiwe</string>
     <string name="conversation_history_call_details_snack_bar_undo">Hlehlisa</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Ikholi ebalulekile</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Bonisa ukwaziswa okwengeziwe kwekholi</string>
+    <string name="conversation_history_call_recording_deleted">Ukurekhoda kusuliwe</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Okulotshiweyo nomsindo</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Okulotshiweyo</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Bona okulotshiweyo nokulalelwayo</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Shayela isikrini</string>
     <string name="copy">Kopisha</string>
     <string name="copy_number">Kopisha inombolo</string>
@@ -498,12 +538,17 @@ Sicela uthumele usizo."</string>
     <string name="custom_prefix_default_prefix_title">Isiqalo esizenzakalelayo</string>
     <string name="custom_prefix_prefixes_preference_title">Iziqalo</string>
     <string name="dark_theme_label">Mnyama</string>
+    <string name="default_changed_confirmation">Ifoni iye yasethwa njengokuzenzakalelayo</string>
+    <string name="default_image_content_description">Isithombe esithelwe ngamanzi</string>
     <string name="delete">Susa</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Susa konke ukurekhodwa</string>
     <string name="delete_all_recordings_now_error_message">Okunye ukurekhodwa akukwazanga ukususwa. Zama futhi.</string>
     <string name="delete_button_label">Susa konke ukurekhoda manje</string>
     <string name="delete_confirmation_dialog_negative_button_label">Khansela</string>
     <string name="delete_confirmation_dialog_positive_button_label">Susa</string>
+    <string name="delete_old_recordings_error_cant_load_value">Ayikwazi ukulanda inani le-%1$s lamanje</string>
+    <string name="delete_old_recordings_error_cant_set_value">Ayikwazi ukulondoloza inani le-%1$s</string>
+    <string name="deleting_call_recording">Isula okurekhodiwe…</string>
     <string name="description_add_to_existing_contact_action">Engeza u-^1 koxhumana naye okhona</string>
     <string name="description_blocked_number_list_delete">Vulela inombolo</string>
     <string name="description_call_action">Shayela ku-^1</string>
@@ -606,6 +651,7 @@ Sicela uthumele usizo."</string>
     <string name="emergency_sos_emergency_intro">"Uthintwa isevisi yesimo esiphuthumayo ezenzakalelayo engxenyeni yofonayo.
 Oshayayo ubonise angaba sesimweni esiphuthumayo. 
 Sicela uthumele usizo."</string>
+    <string name="emergency_speaker">Isipikha</string>
     <string name="emergency_voice_assist_dialog_button_close">Khansela</string>
     <string name="emergency_voice_assist_dialog_title">I-opharetha yesimo esiphuthumayo iyakuzwa lokhu</string>
     <string name="end_call_with_default_message_description">Qeda ikholi</string>
@@ -635,9 +681,12 @@ Sicela uthumele usizo."</string>
     <string name="feedback_call_issue_quiet_audio">Umsindo uthulile</string>
     <string name="feedback_call_issue_title">Bokuyini inkinga?</string>
     <string name="feedback_title_please_rate">Sicela ulinganisele ikhwalithi yekholi</string>
+    <string name="first_time_callers_action_preference_description">Abafonayo abangekho erekhodini lakho lamakholi</string>
+    <string name="first_time_callers_action_preference_title">Abafona okokuqala</string>
     <string name="flip_to_shush_title">Phendukisela ku-Shhh</string>
     <string name="flip_to_silence_summary">Ukuze uthulise ikho engenayo, beka ifoni yakho ibheke phansi endaweni ephansi</string>
     <string name="flip_to_silence_title">Phendukiseli Ekuthuleni</string>
+    <string name="foreground_notification_title">Iyabuyekeza…</string>
     <string name="frequent_contact_suggestion">Abashayelwa njalo</string>
     <string name="general_learn_more">Funda kabanzi</string>
     <string name="generic_conference_call_name">Isecingweni</string>
@@ -660,6 +709,7 @@ Sicela uthumele usizo."</string>
     <string name="how_it_works_storage_link_text">Funda kabanzi mayelana nokuthi ukurekhodwa kugcinwa kanjani</string>
     <string name="how_it_works_storage_template">Ukurekhoda ikholi kuzomiswa kancane uma ifoni yakho iphelelwa isikhala. ^1</string>
     <string name="icon_content_description">Isithonjana sebhokisi</string>
+    <string name="icon_description_shared_data_call">Ikholi yedatha okwabelenwe ngayo</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Ngenisa izinombolo</string>
     <string name="ims_video_heading">Ividiyo ye-Verizon</string>
@@ -803,6 +853,7 @@ Sicela uthumele usizo."</string>
     <string name="new_call_log_no_missed_calls">Awunawo amakholi aphuthelwe</string>
     <string name="new_call_log_permission_no_calllog">Ukuze ubone irekhodi lakho lamakholi, vuma imvume yefoni.</string>
     <string name="new_call_log_secondary_blocked">Ivinjiwe</string>
+    <string name="new_call_log_secondary_verified">Ikholi eqinisekisiwe</string>
     <string name="new_call_log_snack_bar_deleted">Ikholi isusiwe</string>
     <string name="new_call_log_snack_bar_undo">Susa</string>
     <string name="new_call_log_unknown">Akwaziwa</string>
@@ -817,8 +868,10 @@ Sicela uthumele usizo."</string>
     <string name="notification_action_answer_video">Ividiyo</string>
     <string name="notification_action_dismiss">Yenqaba</string>
     <string name="notification_action_end_call">Vala ikholi</string>
+    <string name="notification_action_mute_toggle">Thulisa</string>
     <string name="notification_action_speaker_off">Vala isipikha</string>
     <string name="notification_action_speaker_on">Vula isipikha</string>
+    <string name="notification_action_speaker_toggle">Isipikha</string>
     <string name="notification_callReasonMsg">Isizathu: %s</string>
     <string name="notification_call_wifi_brand">Ikholi ye-Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Ikholi yomsebenzi ye-Wi-Fi</string>
@@ -882,6 +935,8 @@ Sicela uthumele usizo."</string>
     <string name="place_ims_button_content_description">Inkinobho isetshenziselwa ukubeka ikholi yevidiyo yenkampani yenethiwekhi.</string>
     <string name="play">Dlala</string>
     <string name="plus_code_line_format">Ikhodi ye-Plus: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Abafonayo abangaba ogaxekile besebenzisa inombolo eguquliwe</string>
+    <string name="possibly_faked_numbers_action_preference_title">Izinombolo okungenzeka ukuthi ezamanga</string>
     <string name="post_call_message">Isho ukuthi kungathi ushayile</string>
     <string name="post_call_message_1">Lokhu kuyashesha. Ngishayele futhi.</string>
     <string name="post_call_message_2">Ngishayele futhi uma unesikhathi.</string>
@@ -912,6 +967,8 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="privacy_policy_label">Inqubomgomo yemfihlo</string>
     <string name="private_num_non_verizon">Inombolo eyimfihlo</string>
     <string name="private_num_verizon">Kuvinjelwe</string>
+    <string name="private_or_hidden_action_preference_description">Abafonayo befihla ubunikazi bekholi</string>
+    <string name="private_or_hidden_action_preference_title">Igodliwe noma ifihliwe</string>
     <string name="quick_contact_checkbox_description">Khetha oxhumana naye</string>
     <string name="ready_for_recording">Ukulungele...</string>
     <string name="record_greeting_cancel_label">Khansela</string>
@@ -927,6 +984,8 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="record_greeting_uploading_greeting_message">Iyalondoloza…</string>
     <string name="record_voicemail_greeting_title">Rekhoda ukubingelela</string>
     <string name="recording_category_title">Okuqoshiwe</string>
+    <string name="recording_deleted">Okurekhodiwe kusuliwe</string>
+    <string name="recording_deletion_failed">Ayikwazanga ukusula okurekhodiwe [Zama futhi]</string>
     <string name="redo_button_text">Zama futhi</string>
     <string name="remember_this_choice_label">Khumbula lokhu kukhetha</string>
     <string name="report_not_spam_alert_button">Bika</string>
@@ -938,9 +997,20 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="request_call_back_description">Phinda ungishayele</string>
     <string name="request_email_description">Ngithumelele i-imeyili</string>
     <string name="respond_via_sms_setting_title">Izimpendulo ezisheshayo</string>
+    <string name="revelio_callers_how_it_works_text">"Ukuvala ukuhlola okuzenzakalelayo, khetha isethingi \"Lokukhalisa ifoni (ngokuzenzakalelayo) emakholini angaziwa. Oxhumana nabo abahlolwa ngokuzenzakalelayo. Ukuhlola ngokuzenzakalelayo angeke kusebenze uma ifoni yakho ixhunywe kuma-headphone noma izipikha. 
+I-Call Screen ayisebenzisi idatha noma i-Wi-Fi kodwa isebenza amaminithi ekholi yenkampani yenethiwekhi. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Sula ngemva kwezinsuku ezingama-30</string>
+    <string name="revelio_delete_old_recordings_setting_title">Sula ngokuzenzakalelayo ukurekhoda nokulotshiwe kwakudala</string>
+    <string name="revelio_demo_setting_title">Bona ukuthi i-Call Screen isebenza njani</string>
     <string name="revelio_demo_turn_on">Vula</string>
     <string name="revelio_end_call_reject_as_spam">Ikholi imakwe njengogaxekile</string>
     <string name="revelio_end_call_user_missed_internal_message">Ikholi igejiwe</string>
+    <string name="revelio_pref_title">I-Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Ukuhlola okuzenzakalelayo kuvaliwe</string>
+    <string name="revelio_preference_summary_screening">Ukuhlola i-%1$s</string>
+    <string name="revelio_save_audio_setting_summary">Londoloza umsindo ovela kumakholi aphendulwe Umsizi wakho</string>
+    <string name="revelio_save_audio_setting_title">Londoloza umsindo we-Call Screen</string>
+    <string name="revelio_setting_title">I-Call Screen</string>
     <string name="rtt_assist_default">I-RTT isiza abafonayo abangezwa ezindlebeni, abezwa kanzima, abanokukhubazeka kokukhuluma, noma abadinga okungaphezulu kwezwi kuphela. ^1</string>
     <string name="rtt_assist_for_att">Ikhibhodi ekusikrini ye-Real-Time Text (RTT) ingenye indlela yamakhibhodi angaphandle e-TTY. Njengoba uthumela umbhalo ngesikhathi sekholi ye-RTT, umuntu okhuluma naye angabona uthayipha umlayezo wakho ngesikhathi sangempela. ^1</string>
     <string name="rtt_assist_for_tmo">Ikhibhodi ekusikrini ye-Real-Time Text (RTT) ingenye indlela yamakhibhodi angaphandle e-TTY. I-RTT ithumela okuthayiphayo ngokushesha phakathi nekholi yefoni, ukukunika amandla okuxhumana kusetshenziswa imibhalo ngesikhathi sangempela. Uzokwazi ukubona izimpendulo ezincane ngaphambi kokuthi umlayezo wonke uphelele. ^1</string>
@@ -948,7 +1018,8 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="rtt_button_back">Emuva</string>
     <string name="rtt_button_downgrade">Shintshela kwikholi yezwi</string>
     <string name="rtt_call_button">I-RTT</string>
-    <string name="rtt_call_not_available_toast">I-RTT ayitholakaleli le kholi. Ikholi yakho ixhunyiwe njengekholi yezwi kuphela.</string>
+    <string name="rtt_call_downgraded_toast">Ikholi yakho ye-RTT ishintshele ekubeni ikholi yezwi kuphela</string>
+    <string name="rtt_call_not_available_toast">I-RTT ayitholakali kule kholi.</string>
     <string name="rtt_configuration_summary_always_visible">Inkinobho ye-Real Time Text itholakala yonke indawo</string>
     <string name="rtt_configuration_summary_not_visible">Vumela amakholi angenayo e-Real Time Text kodwa fihla inkinobho yokushaya</string>
     <string name="rtt_configuration_summary_visible_during_call">Bonisa inkinobho ye-Real Time Text ngesikhathi sekholi</string>
@@ -977,6 +1048,8 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="rtt_transcript_link">Bona umbhalo olotshiwe</string>
     <string name="rttcall_button_label">I-RTT</string>
     <string name="safety_emergency_repeat_message_alert">Lo mlayezo uzophinda.</string>
+    <string name="save_audio_error_cant_load_value">Ayikwazi ukulanda inani lamanje lomsindo woKulondolozwa kwe-Call Screen</string>
+    <string name="save_audio_error_cant_set_value">Ayikwazi ukulondoloza inani lomsindo woKulondolozwa kwe-Call Screen</string>
     <string name="save_button_text">Londoloza</string>
     <string name="saved_voicemails_action_title">Amavoyisimeyili alondoloziwe (%1$s)</string>
     <string name="search_hint">Sesha oxhumana nabo bevidiyo</string>
@@ -1003,8 +1076,11 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="send_a_message">Thumela umlayezo</string>
     <string name="send_to_voicemail_import_failed">Ukulanda akuphumelelanga</string>
     <string name="serial_number">Inombolo yomkhiqizo</string>
+    <string name="set_as_default_button_text">Setha njengokuzenzekelayo</string>
     <string name="set_default_account">Njalo sebenzisa lokhu kumakholi</string>
     <string name="set_default_account_description">Okuncamelayo kwe-SIM kulondolozwa noxhumana nabo.</string>
+    <string name="set_phone_as_default_explanation_text">Ifoni ingaqala kuphela iphinde ithole amakholi uma iwuhlelo lwakho lokusebenza lwefoni oluzenzakalelayo</string>
+    <string name="set_phone_as_default_request_text">Setha ifoni njengokuzenzakalelayo</string>
     <string name="settings">Izilungiselelo</string>
     <string name="settings_page_call_recording_feature_not_available_text">Ukurekhoda ikholi akutholakali endaweni yakho</string>
     <string name="settings_page_crosby_feature_not_available_text">Akutholakali endaweni yakho</string>
@@ -1039,6 +1115,8 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="snackbar_undo">Susa</string>
     <string name="snackbar_voicemail_deleted">Ivoyisimeyili isusiwe</string>
     <string name="sounds_and_vibration_title">Imisindo nokudlidliza</string>
+    <string name="spam_action_preference_description">Izinombolo ezifana nesizindalwazi sogaxekile be-Google</string>
+    <string name="spam_action_preference_title">Ugaxekile</string>
     <string name="spam_and_call_screen_settings_title">Ugaxekile nesikrini sekholi</string>
     <string name="spam_blocking_promo_action_dismiss">Cashisa</string>
     <string name="spam_blocking_promo_action_filter_spam">Hlunga ugaxekile</string>
@@ -1065,8 +1143,6 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="speed_dial_add_button_text">Engeza</string>
     <string name="speed_dial_contacts_permission_description">Nika amandla ukudayela okusheshayo, vula imvume yoxhumana nabo.</string>
     <string name="speed_dial_disambig_dialog_title">Khetha indlela ofuna ukushayela ngayo u-%s</string>
-    <string name="speed_dial_education_content">Thinta futhi ubambe noma ibaphi oxhumana nabo ukuze ushintshe phakathi kwamakholi nemilayezo</string>
-    <string name="speed_dial_education_title">Izindlela eziningi zokuthintana</string>
     <string name="speed_dial_no_contacts_action_text">Engeza intandokazi</string>
     <string name="speed_dial_no_contacts_description">Shayela oxhumana nabo abayintandokazi ngokuthepha okukodwa nje</string>
     <string name="speed_dial_remember_this_choice">Khumbula lokhu okukhethiwe</string>
@@ -1094,11 +1170,15 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="terms_of_service_label">Imigomo yesevisi</string>
     <string name="textmessage_button_label">Umlayezo</string>
     <string name="theme_preference_label">Khetha itimu</string>
+    <string name="tidepods_call_screen_settings_title">I-Call Screen</string>
+    <string name="tidepods_incall_label_record">Rekhoda</string>
     <string name="toast_text_copied">Umbhalo okopishiwe</string>
     <string name="toolbar_back">Emuva</string>
     <string name="toolbar_close">Vala</string>
     <string name="transcript_audio_feedback_chip_text">Sisize ukuthi sithuthuke</string>
+    <string name="transcript_audio_feedback_link_text">Bona okulotshiwe nomsindo</string>
     <string name="transcript_snippet_low_confidence_description">(Umsindo ubukade ungekho sobala)</string>
+    <string name="try_again_button">Zama futhi</string>
     <string name="tty_configuration_title_tty_full">I-TTY Igcwele</string>
     <string name="tty_configuration_title_tty_hco">I-TTY HCO</string>
     <string name="tty_configuration_title_tty_off">I-TTY Ivaliwe</string>
@@ -1120,7 +1200,6 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="type_outgoing_video_pulled">Ikholi yevidiyo ephumayo idluliselwe kwenye idivayisi</string>
     <string name="type_rejected">Ikholi enqatshelwe</string>
     <string name="type_voicemail">Ivoyisimeyili</string>
-    <string name="unable_change_value_error">Kube khona inkinga yokushintsha izilungiselelo ze-RTT. Siza ubuyele emuva bese uzama futhi.</string>
     <string name="unable_read_value_error">Kube khona inkinga yokufunda izilungiselelo ze-RTT. Siza ubuyele emuva bese uzama futhi.</string>
     <string name="unblock_number">Vulela</string>
     <string name="unblock_number_alert_details">Le nombolo izovulelwa futhi ibikwe njengokungayena ugaxekile. Amakholi namavoyisimeyili wasesikhathini esizayo ngeke ahlonzwe njengogaxekile.</string>
@@ -1129,6 +1208,7 @@ Usengenzela ikholi yevidiyo ezinye izinombolo ngaphandle kokubuyekeza amasething
     <string name="unblock_number_ok">Vulela</string>
     <string name="unblock_report_number_alert_title">Vulela i-%1$s?</string>
     <string name="unknown">Akwaziwa</string>
+    <string name="unknown_call_settings_category_preference_title">Amasethingi Wekholi Engaziwa</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Susa ukuthula kumsindo ongenayo</string>
     <string name="user_is_busy_description">Zizokushayela futhi</string>
@@ -1240,10 +1320,17 @@ Ukusetshenziswa kwedatha kuyasebenza uma uqhubeka nekholi."</string>
     <string name="videocall_remote_video_on">Ividiyo yabo ivuliwe</string>
     <string name="videocall_remotely_held">Ikholi imisiwe</string>
     <string name="videocall_remotely_resumed">Ikholi iqaliswe kabusha</string>
+    <string name="videocall_settings_default_carrier">Ukwenza ikholi yevidiyo kwenkampani yenethiwekhi</string>
+    <string name="videocall_settings_default_duo">I-Duo</string>
+    <string name="videocall_settings_default_title">Isevisi ezenzakalelayo yokwenza ikholi yevidiyo</string>
+    <string name="videocall_settings_fallback_summary">Shintshela ku-Duo uma ukwenza ikholi yevidiyo kwenkampani yenethiwekhi kungatholakali</string>
+    <string name="videocall_settings_fallback_title">Sebenzisa i-Duo njengesipele</string>
+    <string name="videocall_settings_title">Ukwenza Ikholi Yevidiyo</string>
     <string name="videocall_show_preview_button_description">Bonisa okuphakelayo kwevidiyo kwendawo</string>
     <string name="view">Buka</string>
     <string name="view_location_settings">Izilungiselelo zendawo</string>
     <string name="vitle_label">Ividiyo ku-LTE</string>
+    <string name="viwifi_label">Ividiyo ku-WiFi</string>
     <string name="vm_change_pin_error_invalid">I-PIN entsha iqukethe izinhlamvu ezingavumelekile.</string>
     <string name="vm_change_pin_error_mismatch">I-PIN endala ayifani.</string>
     <string name="vm_change_pin_error_system_error">Ayikwazi ukushintsha i-PIN</string>
@@ -1253,8 +1340,11 @@ Ukusetshenziswa kwedatha kuyasebenza uma uqhubeka nekholi."</string>
     <string name="vm_change_pin_progress_message">Sicela ulinde.</string>
     <string name="voice_call">Ikholi yezwi</string>
     <string name="voice_call_button">Shaya</string>
+    <string name="voice_display_name">Izwi le-%1$d</string>
     <string name="voice_search_not_available">Usesho lwezwi alutholakali</string>
     <string name="voice_selector_preference_title">Amazwi atholakalayo</string>
+    <string name="voice_settings_available_voices_text">Amazwi atholakalayo</string>
+    <string name="voice_settings_title">Izwi</string>
     <string name="voicecall_button_label">Ikholi</string>
     <string name="voicecall_button_wifi_description">Shaya usebenzisa i-wifi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s ngo-%2$s</string>
@@ -1289,7 +1379,6 @@ Ukusetshenziswa kwedatha kuyasebenza uma uqhubeka nekholi."</string>
     <string name="voicemail_donation_promo_title">Sisize sithuthukise ukunemba kokuloba?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Usebenzisa ivoyisimeyili ebukwayo ye-SIM ngaphandle kwedatha kungathola izinkokhiso zenkampani yenethiwekhi</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Iviyisimeyili yokubukwayo itholakalela kuphela i-SIM yedatha ekhethiwe</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Uma unama-SIM amaningi futhi eyodwa eye-Fi, i-Fi SIM yakho izosetshenziselwa ivoyisimeyili</string>
     <string name="voicemail_error_activating_message">Kungenzeka ungatholi izaziso zevoyisimeyili kuze kwenziwe kusebenze ngokugcwele ivoyisimeyili ebonakalayo. Shayela ivoyisimeyili ukuze uthole imilayezo emisha kuze kwenziwe kusebenze ngokugcwele ivoyisimeyili.</string>
     <string name="voicemail_error_activating_title">Yenza kusebenze ivoyisimeyili ebonakalayo</string>
     <string name="voicemail_error_activation_disabled_message">Shayela ivoyisimeyili ukuze uqedele ukusetha</string>
@@ -1396,6 +1485,7 @@ Ukusetshenziswa kwedatha kuyasebenza uma uqhubeka nekholi."</string>
     <string name="vvm3_error_vms_no_cellular_title">Ayikwazi ukuxhumeka kubhokisi lakho lemeyili lezwi</string>
     <string name="vvm3_error_vms_timeout_message">Uxolo, sihlangabezane nenkinga. Sicela uzame futhi emuva kwesikhathi. Uma kusesekhona inkinga, sicela uxhumane Nesevisi Yekhasimende ku-%1$s uphinde ubatshele ukuthi ikhodi yephutha ngu-9007.</string>
     <string name="vvm3_error_vms_timeout_title">Kukhona okungahambanga kahle</string>
+    <string name="vvm_config_title">Ukulungiselelwa Kwevoyisimeyili Okubukwayo</string>
     <string name="vvm_unsupported_message_format">Uhlobo lomlayezo ongasekelwa, shayela ku-%s ukuze ulalele.</string>
     <string name="wait_prompt_str">"Thumela amathoni alandelayo?
 "</string>

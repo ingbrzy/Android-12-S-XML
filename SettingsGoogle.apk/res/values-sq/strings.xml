@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Gjuhët dhe metodat e hyrjes</string>
     <string name="lift_to_wake_title">Ngrije për ta zgjuar</string>
-    <string name="lockdown_settings_summary">Shfaq opsionin e \"Butonit të energjisë\" që çaktivizon \"Kyçjen inteligjente\", \"Shkyçjen me fytyrë\", \"Shkyçjen me gjurmën e gishtit\" dhe njoftimet në ekranin e kyçjes</string>
-    <string name="lockdown_settings_title">Shfaq opsionin e bllokimit</string>
+    <string name="abc_action_bar_home_description">Orientohu për në shtëpi</string>
+    <string name="abc_action_bar_up_description">Ngjitu lart</string>
     <string name="locked_work_profile_notification_title">Kur profili i punës është i kyçur</string>
     <string name="lockscreen_bypass_summary">Pas shkyçjes shko drejtpërdrejt tek ekrani i fundit i përdorur</string>
     <string name="lockscreen_bypass_title">Kapërce ekranin e kyçjes</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Njoftimet e punës</string>
     <string name="reset_dashboard_summary">Rrjeti, aplikacionet ose pajisja mund të rivendosen</string>
     <string name="reset_dashboard_title">Opsionet e rivendosjes</string>
-    <string name="abc_action_bar_home_description">Orientohu për në shtëpi</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
     <string name="screensaver_settings_title">Mbrojtësi i ekranit</string>
     <string name="screen_timeout">Koha e pritjes së ekranit</string>
     <string name="screen_zoom_title">Madhësia e paraqitjes</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Rrit automatikisht shpejtësinë e rifreskimit nga 60 në 90 Hz për disa përmbajtje. Rrit përdorimin e baterisë.</string>
     <string name="accessibility_vibration_settings_title">Dridhja dhe prekja</string>
     <string name="emergency_gesture_screen_title">Thirrja e urgjencës</string>
-    <string name="abc_action_bar_up_description">Ngjitu lart</string>
+    <string name="abc_action_mode_done">U krye</string>
     <string name="vibrate_for_calls_category_title">Telefonatat</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Shfaq portofolin</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Shfaq kontrollet e pajisjes</string>
     <string name="lockscreen_privacy_wallet_summary">Lejo qasjen te portofoli nga ekrani i kyçjes dhe cilësimet e shpejta</string>
     <string name="lockscreen_privacy_controls_summary">Qasu te kontrollet kur kyçet</string>
-    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
-    <string name="abc_action_mode_done">U krye</string>
     <string name="abc_activity_chooser_view_see_all">Shfaq çdo gjë</string>
     <string name="abc_activitychooserview_choose_application">Zgjidh një aplikacion</string>
     <string name="abc_capital_off">JOAKTIV</string>
@@ -507,9 +505,9 @@ Administratori yt ka aftësinë që të monitorojë dhe të menaxhojë cilësime
     <string name="alarm_template_far">ditën %1$s</string>
     <string name="alarm_volume_option_title">Volumi i alarmit</string>
     <string name="alarm_volume_title">Alarmi</string>
-    <string name="alarms_and_reminders_footer_title">"Lejo që ky aplikacion të caktojë alarmet dhe të planifikojë veprime që kanë një afat të caktuar. Kjo lejon që aplikacioni të ekzekutohet në sfond, gjë që mund të përdorë më shumë bateri.
+    <string name="alarms_and_reminders_footer_title">"Lejo që ky aplikacion të caktojë alarmet dhe të planifikojë veprime që kanë një afat të caktuar. Kjo mundëson që aplikacioni të ekzekutohet në sfond, gjë që mund të përdorë më shumë bateri.
 
-Nëse kjo leje është caktuar si joaktive, alarmet ekzistuese dhe ngjarjet me bazë kohore të planifikuara nga ky apliikacion nuk do të funksionojnë."</string>
+Nëse kjo leje është caktuar si joaktive, alarmet ekzistuese dhe ngjarjet në bazë kohore të planifikuara nga ky aplikacion nuk do të funksionojnë."</string>
     <string name="alarms_and_reminders_label">Alarmet dhe alarmet rikujtuese</string>
     <string name="alarms_and_reminders_switch_title">Lejo caktimin e alarmeve dhe alarmeve rikujtuese</string>
     <string name="alarms_and_reminders_title">Alarmet dhe alarmet rikujtuese</string>
@@ -5628,6 +5626,9 @@ Gjatë një telefonate zanore, nuk mund ta përdorësh internetin dhe disa aplik
 Pajisja kalon automatikisht në një rrjet celular për të kryer një telefonatë urgjence.
 Telefonatat e urgjencës janë të mundshme vetëm në zonat me mbulim celular."</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text">Telefonata urgjence</string>
+    <string name="wfc_disclaimer_location_desc_text">"Operatori yt celular mund të mbledhë të dhëna për vendndodhjen tënde kur ti e përdor këtë shërbim për telefonatat e urgjencës.
+
+Vizito politikën e privatësisë së operatorit celular për detaje."</string>
     <string name="wfc_disclaimer_location_title_text">Vendndodhja</string>
     <string name="wfc_disclaimer_title_text">Informacione të rëndësishme</string>
     <string name="widget_picker_title">Zgjidh miniprogramin</string>

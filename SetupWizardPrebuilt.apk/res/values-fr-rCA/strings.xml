@@ -337,19 +337,21 @@ Appareil non configuré."</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Vous avez été ajouté à ce téléphone}TABLET{Vous avez été ajouté à cette tablette}other{Vous avez été ajouté à cet appareil}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Important :</b>"
 
-"<ul><li>"Le propriétaire du téléphone peut désinstaller vos applications ou supprimer entièrement votre profil d'utilisateur"</li>"
+"<ul><li>"Le propriétaire du téléphone peut désinstaller vos applications ou retirer entièrement votre profil d'utilisateur"</li>"
 
 "<li>Les autres utilisateurs peuvent accepter à votre place des autorisations mises à jour relatives à des applications</li>"
 
-"<li>"Ne partagez ce téléphone qu'avec des personnes en qui vous avez confiance"</li></ul>}TABLET{<b>Important :</b>"
+"<li>"Ne partagez ce téléphone qu'avec des personnes en qui vous avez confiance"</li></ul>"
+}TABLET{"<b>Important :</b>"
 
-"<ul><li>"Le propriétaire de la tablette peut désinstaller vos applications ou supprimer entièrement votre profil d'utilisateur"</li>"
+"<ul><li>"Le propriétaire de la tablette peut désinstaller vos applications ou retirer entièrement votre profil d'utilisateur"</li>"
 
 "<li>Les autres utilisateurs peuvent accepter à votre place des autorisations mises à jour relatives à des applications</li>"
 
-"<li>"Ne partagez cette tablette qu'avec des personnes en qui vous avez confiance"</li></ul>}other{<b>Important :</b>"
+"<li>"Ne partagez cette tablette qu'avec des personnes en qui vous avez confiance"</li></ul>"
+}other{"<b>Important :</b>"
 
-"<ul><li>"Le propriétaire de l'appareil peut désinstaller vos applications ou supprimer entièrement votre profil d'utilisateur"</li>"
+"<ul><li>"Le propriétaire de l'appareil peut désinstaller vos applications ou retirer entièrement votre profil d'utilisateur"</li>"
 
 "<li>Les autres utilisateurs peuvent accepter à votre place des autorisations mises à jour relatives à des applications</li>"
 
@@ -359,70 +361,47 @@ Appareil non configuré."</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre téléphone.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Obtenir des mises à jour</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}TABLET{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre tablette.
+"<li>"Configurer automatiquement l'heure et la date"</li>"
+}TABLET{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre tablette.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Obtenir des mises à jour</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}other{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre appareil.
+"<li>"Configurer automatiquement l'heure et la date"</li>"
+}other{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre appareil.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Obtenir des mises à jour</li>"
-
 "<li>"Configurer automatiquement l'heure et la date"</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre téléphone.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Télécharger une carte eSIM</li>"
-
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}TABLET{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre tablette.
+"<li>"Configurer automatiquement l'heure et la date"</li>"
+}TABLET{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre tablette.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Télécharger une carte eSIM</li>"
-
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}other{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre appareil.
+"<li>"Configurer automatiquement l'heure et la date"</li>"
+}other{Une connexion à un réseau Wi‑Fi ou cellulaire vous aide à configurer rapidement votre appareil.
 
 Sans connexion, vous ne pouvez pas effectuer les opérations suivantes :
-
 "<li>Vous connecter à votre compte Google</li>"
-
 "<li>Restaurer des applications et des données</li>"
-
 "<li>Télécharger une carte eSIM</li>"
-
 "<li>Obtenir des mises à jour logicielles</li>"
-
 "<li>"Configurer automatiquement l'heure et la date"</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"Le point d'accès est temporairement plein"</string>
     <string name="wifi_check_password_try_again">Vérifiez le mot de passe et réessayez</string>

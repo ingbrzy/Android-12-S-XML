@@ -70,7 +70,7 @@
     <string name="adb_pairing_device_dialog_pairing_code_label">Wi‑Fi పెయిరింగ్ కోడ్</string>
     <string name="adb_pairing_device_dialog_title">పరికరంతో పెయిర్ చేయండి</string>
     <string name="adb_qrcode_pairing_device_failed_msg">పరికరాన్ని పెయిర్ చేయడం విఫలమైంది. QR కోడ్ తప్పుగా ఉండడం గాని, లేదా పరికరం అదే నెట్‌వర్క్‌కు కనెక్ట్ అయి లేకపోవడం గాని జరిగింది.</string>
-    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో అనువర్తనాలను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
+    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో యాప్‌లను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
     <string name="adb_warning_title">USB డీబగ్గింగ్‌ను అనుమతించాలా?</string>
     <string name="adb_wireless_connection_failed_message">%1$s సరైన నెట్‌వర్క్‌కు కనెక్ట్ అయ్యేలా చూడండి.</string>
     <string name="adb_wireless_connection_failed_title">కనెక్షన్ విఫలమైంది</string>
@@ -106,7 +106,7 @@
     <string name="automatic_storage_manager_activate_button">ఆన్ చేయి</string>
     <string name="automatic_storage_manager_activation_warning">మీరు కనెక్ట్ అయ్యి ఉన్నప్పుడు, ఫోటోలు, వీడియోలను ఇప్పటికీ మీరు బ్యాకప్ చేయడానికి ఎంచుకున్న క్వాలిటీలో యాక్సెస్ చేయవచ్చు</string>
     <string name="automatic_storage_manager_cancel_button">వద్దు, ధన్యవాదాలు</string>
-    <string name="automatic_storage_manager_notification_summary">బ్యాకప్ చేసిన ఫోటోలు మరియు వీడియోలను స్వయంచాలకంగా తీసివేయడం ద్వారా స్థలాన్ని ఖాళీ చేయడానికి స్మార్ట్ నిల్వను అనుమతించండి</string>
+    <string name="automatic_storage_manager_notification_summary">బ్యాకప్ చేసిన ఫోటోలు మరియు వీడియోలను ఆటోమేటిక్‌గా తీసివేయడం ద్వారా స్థలాన్ని ఖాళీ చేయడానికి స్మార్ట్ నిల్వను అనుమతించండి</string>
     <string name="automatic_storage_manager_notification_title">మీ ఫోన్‌లో తక్కువ నిల్వ స్థలం ఉంది</string>
     <string name="automatic_storage_manager_service_label">స్వయంచాలక నిల్వ నిర్వహణ సేవ</string>
     <string name="available_via_carrier">%1$s ద్వారా అందుబాటులో ఉంది</string>
@@ -174,7 +174,7 @@
     <string name="bluetooth_profile_a2dp">మీడియా ఆడియో</string>
     <string name="bluetooth_profile_a2dp_high_quality">HD ఆడియో: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD ఆడియో</string>
-    <string name="bluetooth_profile_headset">ఫోన్ కాల్‌లు</string>
+    <string name="bluetooth_profile_headset">ఫోన్ కాల్స్‌</string>
     <string name="bluetooth_profile_hearing_aid">వినికిడి మద్దతు ఉపకరణాలు</string>
     <string name="bluetooth_profile_hid">ఇన్‌పుట్ పరికరం</string>
     <string name="bluetooth_profile_map">వచన సందేశాలు</string>
@@ -242,8 +242,8 @@
     <string name="connected_to_metered_access_point">డేటా నియంత్రణ నెట్‌వర్క్‌కు కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_app">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_carrier">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer">%1$s ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer">%1$s ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_passpoint">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="content_description_menu_button">మెనూ</string>
     <string name="convert_to_fbe_warning">"డేటా భాగాన్ని ఫైల్ ఆధారిత గుప్తీకరణకు మార్చండి.
@@ -315,8 +315,8 @@
     <string name="deletion_helper_title">అంశాలను తీసివేయండి</string>
     <string name="deletion_helper_upsell_activate">ఆన్ చేయి</string>
     <string name="deletion_helper_upsell_cancel">వద్దు, ధన్యవాదాలు</string>
-    <string name="deletion_helper_upsell_summary">ఇప్పుడు %1$s స్థలం ఖాళీగా ఉంది. మీ ఫోన్ నిల్వ మళ్లీ నిండిపోతున్నప్పుడు పాత ఫోటోలు మరియు వీడియోలను స్వయంచాలకంగా తీసివేయడం ద్వారా స్థలాన్ని ఖాళీ చేయడానికి స్మార్ట్ నిల్వని అనుమతించండి.</string>
-    <string name="deletion_helper_upsell_title">నిల్వను స్వయంచాలకంగా నిర్వహించాలా?</string>
+    <string name="deletion_helper_upsell_summary">ఇప్పుడు %1$s స్థలం ఖాళీగా ఉంది. మీ ఫోన్ నిల్వ మళ్లీ నిండిపోతున్నప్పుడు పాత ఫోటోలు మరియు వీడియోలను ఆటోమేటిక్‌గా తీసివేయడం ద్వారా స్థలాన్ని ఖాళీ చేయడానికి స్మార్ట్ నిల్వని అనుమతించండి.</string>
+    <string name="deletion_helper_upsell_title">నిల్వను ఆటోమేటిక్‌గా నిర్వహించాలా?</string>
     <string name="dev_logpersist_clear_warning_message">మేము నిరంతర లాగర్‌తో ఇక పర్యవేక్షించనప్పుడు, మీ పరికరంలోని లాగర్ డేటాను మేము తొలగించాల్సి ఉంటుంది.</string>
     <string name="dev_logpersist_clear_warning_title">లాగర్ నిరంతర నిల్వలోని డేటాను తీసివేయాలా?</string>
     <string name="dev_settings_warning_message">ఈ సెట్టింగ్‌లు అభివృద్ధి వినియోగం కోసం మాత్రమే ఉద్దేశించబడినవి. వీటి వలన మీ పరికరం మరియు దీనిలోని యాప్‌లు విచ్ఛిన్నం కావచ్చు లేదా తప్పుగా ప్రవర్తించవచ్చు.</string>
@@ -332,7 +332,7 @@
     <string name="disabled_by_admin">అడ్మిన్ డిజేబుల్ చేశారు</string>
     <string name="disabled_by_admin_summary_text">నిర్వాహకుని ద్వారా నియంత్రించబడింది</string>
     <string name="empty_state_review_items_link">ఇటీవలి అంశాలను రివ్యూ చేయండి</string>
-    <string name="empty_state_summary">తీసివేయడానికి పాత ఫైల్‌లు ఏవీ లేవు. నిల్వను ఖాళీ చేయాలంటే, ఇటీవలి ఫోటోలు, వీడియోలు మరియు యాప్‌లను తీసివేయండి.</string>
+    <string name="empty_state_summary">తీసివేయడానికి పాత ఫైళ్లు ఏవీ లేవు. నిల్వను ఖాళీ చేయాలంటే, ఇటీవలి ఫోటోలు, వీడియోలు మరియు యాప్‌లను తీసివేయండి.</string>
     <string name="empty_state_title">తీసివేయాల్సినవి ఏవీ లేవు</string>
     <string name="enable_adb">USB డీబగ్గింగ్</string>
     <string name="enable_adb_summary">USB కనెక్ట్ చేయబడినప్పుడు డీబగ్ మోడ్</string>
@@ -376,7 +376,7 @@
     <string name="help_label">సహాయం &amp; ఫీడ్‌బ్యాక్</string>
     <string name="home">సెట్టింగ్‌ల హోమ్</string>
     <string name="icon_content_description">డైలాగ్ చిహ్నం</string>
-    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s అనువర్తనంలో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
+    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s యాప్‌లో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
     <string name="immediately_destroy_activities">యాక్టివిటీస్‌ను ఉంచవద్దు</string>
     <string name="immediately_destroy_activities_summary">యూజర్ నిష్క్రమించాక పూర్తి యాక్టివిటీ తొలగింపు</string>
     <string name="ims_reg_status_not_registered">నమోదు కాలేదు</string>
@@ -644,9 +644,9 @@
     <string name="usb_audio_disable_routing">USB ఆడియో రూటింగ్ నిలిపివేయి</string>
     <string name="usb_audio_disable_routing_summary">USB ఆడియో ప‌రిక‌రాల‌కు ఆటోమేటిక్ రూటింగ్‌ను నిలిపివేయండి</string>
     <string name="use_system_language_to_select_input_method_subtypes">సిస్టమ్ భాషలను ఉపయోగించు</string>
-    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి అనువర్తనాలకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
+    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి యాప్‌లకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
     <string name="user_add_profile_item_title">పరిమితం చేయబడిన ప్రొఫైల్</string>
-    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత అనువర్తనాలను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
+    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత యాప్‌లను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
     <string name="user_add_user_item_title">యూజర్</string>
     <string name="user_add_user_message_long">"అదనపు యూజర్‌లను సృష్టించడం ద్వారా మీరు ఈ దేవైజ్‌ను ఇతరులతో షేర్ చేయవచ్చు. ప్రతి యూజర్‌కు‌ వారికంటూ ప్రత్యేక స్థలం ఉంటుంది, వారు ఆ స్థలాన్ని యాప్‌లు, వాల్‌పేపర్ మొదలైనవాటితో అనుకూలీకరించవచ్చు. యూజర్‌లు ప్రతి ఒక్కరిపై ప్రభావం చూపే Wi‑Fi వంటి పరికర సెట్టింగ్‌లను కూడా సర్దుబాటు చేయవచ్చు.
 
@@ -703,7 +703,7 @@
     <string name="wifi_limited_connection">పరిమిత కనెక్షన్</string>
     <string name="wifi_metered_label">గణించబడుతోంది</string>
     <string name="wifi_no_internet">ఇంటర్నెట్ యాక్సెస్ లేదు</string>
-    <string name="wifi_no_internet_no_reconnect">స్వయంచాలకంగా కనెక్ట్ కాదు</string>
+    <string name="wifi_no_internet_no_reconnect">ఆటోమేటిక్‌గా కనెక్ట్ కాదు</string>
     <string name="wifi_not_in_range">పరిధిలో లేదు</string>
     <string name="wifi_passpoint_expired">గడువు ముగిసింది</string>
     <string name="wifi_remembered">సేవ్ చేయబడింది</string>

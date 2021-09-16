@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">设备必须重新启动才能应用此更改。您可以立即重新启动或取消。</string>
     <string name="camera_hint">滑动图标即可打开相机</string>
     <string name="camera_label">打开相机</string>
+    <string name="camera_recording_announcement">相机正在录制</string>
+    <string name="camera_stopped_recording_announcement">相机已停止录制</string>
     <string name="cancel">取消</string>
     <string name="carrier_network_change_mode">运营商网络正在更改</string>
     <string name="category_personal">个人</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">监控</string>
     <string name="debug_networking_category">网络</string>
     <string name="debug_view_attributes">启用视图属性检查功能</string>
+    <string name="defender_notify_des">为了使电池保持良好状况，您的手机目前限制充电</string>
+    <string name="defender_notify_learn_more">了解详情</string>
+    <string name="defender_notify_resume_charge">继续充电</string>
+    <string name="defender_notify_title">充电暂时受限</string>
     <string name="delete_blob_confirmation_text">确定要删除这些共享数据吗？</string>
     <string name="delete_blob_text">删除共享数据</string>
     <string name="demo_mode">系统界面演示模式</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">正在解锁 SIM 卡…</string>
     <string name="keyguard_try_fingerprint">使用指纹即可打开</string>
     <string name="keyguard_unlock">向上滑动即可打开</string>
+    <string name="keyguard_unlock_press">按一下即可打开</string>
     <string name="keywords_adb_wireless">adb, 调试, debug, 开发, dev</string>
     <string name="keywords_alarms_and_reminders">设置, 闹钟, 提醒, 时钟, schedule, alarm, reminder, clock</string>
     <string name="kg_enter_confirm_pin_hint">请确认所需的 PIN 码</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">键盘切换器</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">麦克风处于启用状态</string>
+    <string name="mic_and_camera_recording_announcement">相机和麦克风正在录制</string>
+    <string name="mic_camera_stopped_recording_announcement">相机和麦克风已停止录制</string>
+    <string name="mic_recording_announcement">麦克风正在录制</string>
+    <string name="mic_stopped_recording_announcement">麦克风已停止录制</string>
     <string name="missed_call">未接电话</string>
     <string name="mobile_carrier_text_format">%1$s，%2$s</string>
     <string name="mobile_data">移动数据</string>
@@ -1567,7 +1578,7 @@
     <string name="privacy_type_location">位置信息</string>
     <string name="privacy_type_microphone">麦克风</string>
     <string name="private_dns_broken">无法访问私人 DNS 服务器</string>
-    <string name="private_dns_mode_off">关闭</string>
+    <string name="private_dns_mode_off">已关闭</string>
     <string name="private_dns_mode_opportunistic">自动</string>
     <string name="private_dns_mode_provider">私人 DNS 提供商主机名</string>
     <string name="private_dns_mode_provider_failure">无法连接</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">工作应用</string>
     <string name="quick_step_accessibility_toggle_overview">切换概览</string>
     <string name="recent_conversations">近期对话</string>
-    <string name="recents_quick_scrub_onboarding">向右拖动可快速切换应用</string>
-    <string name="recents_swipe_up_onboarding">向上滑动可切换应用</string>
     <string name="remaining_length_format">还可以使用 %1$s</string>
     <string name="remote_input_image_insertion_text">发送了一张图片</string>
     <string name="remove_from_settings">从“设置”中移除</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">添加卡</string>
     <string name="wallet_secondary_label_updating">正在更新</string>
     <string name="wallet_title">电子钱包</string>
+    <string name="weather_description">%1$s，%2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">接入点暂时满载</string>
     <string name="wifi_cant_connect">无法连接</string>
     <string name="wifi_cant_connect_to_ap">无法连接到“%1$s”</string>

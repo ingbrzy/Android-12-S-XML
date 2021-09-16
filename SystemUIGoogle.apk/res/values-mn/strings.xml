@@ -116,7 +116,7 @@
     <string name="accessibility_desc_recent_apps">Тойм</string>
     <string name="accessibility_desc_settings">Тохиргоо</string>
     <string name="accessibility_desc_work_lock">Ажлын түгжигдсэн дэлгэц</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Таны төхөөрөмж дээр өнгийг хэрхэн үзүүлэхийг тохируулна уу. Энэ нь танд дараахыг хийхийг хүссэн үед хэрэг болж магадгүй:&lt;br/>&lt;br/> &lt;ol> &lt;li>Өнгийг илүү оновчтой харах&lt;/li> &lt;li>Танд төвлөрөхөд туслахын тулд өнгийг хасах&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Таны төхөөрөмж дээр өнгийг хэрхэн үзүүлэхийг тохируулна уу. Энэ нь танд дараахыг хийхийг хүссэн үед хэрэг болж магадгүй:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;Өнгийг илүү оновчтой харах&lt;/li> &lt;li>&amp;nbsp;Танд төвлөрөхөд туслахын тулд өнгийг хасах&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Өнгө тохируулах</string>
     <string name="accessibility_divider">\"Дэлгэц хуваах\" хуваагч</string>
     <string name="accessibility_enter_hint">төхөөрөмж оруулах</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Энэ өөрчлөлтийг хэрэгжүүлэхийн тулд таны төхөөрөмжийг дахин асаах ёстой. Одоо дахин асаах эсвэл цуцлана уу.</string>
     <string name="camera_hint">Камер нээхийн тулд дүрс тэмдгийг шудрах</string>
     <string name="camera_label">камер нээх</string>
+    <string name="camera_recording_announcement">Камер бичиж байна</string>
+    <string name="camera_stopped_recording_announcement">Камер бичихээ зогсоосон</string>
     <string name="cancel">Цуцлах</string>
     <string name="carrier_network_change_mode">Оператор компанийн сүлжээг өөрчилж байна</string>
     <string name="category_personal">Хувийн</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Мониторинг</string>
     <string name="debug_networking_category">Сүлжээ</string>
     <string name="debug_view_attributes">Харах тохируулгын шалгалтыг идэвхжүүлэх</string>
+    <string name="defender_notify_des">Таны утас батарейн барилтыг хадгалахад туслахын тулд цэнэглэхийг хязгаарлаж байна</string>
+    <string name="defender_notify_learn_more">Нэмэлт мэдээлэл авах</string>
+    <string name="defender_notify_resume_charge">Цэнэглэхийг үргэлжлүүлэх</string>
+    <string name="defender_notify_title">Цэнэглэхийг түр зуур хязгаарласан</string>
     <string name="delete_blob_confirmation_text">Та хуваалцсан энэ өгөгдлийг устгахдаа итгэлтэй байна уу?</string>
     <string name="delete_blob_text">Хуваалцсан өгөгдлийг устгах уу?</string>
     <string name="demo_mode">Системийн UI демо горим</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM картын түгжээг тайлж байна…</string>
     <string name="keyguard_try_fingerprint">Нээхийн тулд хурууны хээг ашиглана уу</string>
     <string name="keyguard_unlock">Нээхийн тулд дээш шударна уу</string>
+    <string name="keyguard_unlock_press">Нээхийн тулд дарна уу</string>
     <string name="keywords_adb_wireless">adb, дебаг хийх, dev</string>
     <string name="keywords_alarms_and_reminders">хуваарь, сэрүүлэг, сануулагч, цаг</string>
     <string name="kg_enter_confirm_pin_hint">Хүссэн ПИН кодоо баталгаажуулна уу</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Гар солигч</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Микрофон идэвхтэй байна</string>
+    <string name="mic_and_camera_recording_announcement">Камер болон микрофон бичиж байна</string>
+    <string name="mic_camera_stopped_recording_announcement">Камер болон микрофон бичихээ зогсоосон</string>
+    <string name="mic_recording_announcement">Микрофон бичиж байна</string>
+    <string name="mic_stopped_recording_announcement">Микрофон бичихээ зогсоосон</string>
     <string name="missed_call">Аваагүй дуудлага</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Мобайл дата</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Ажлын аппууд</string>
     <string name="quick_step_accessibility_toggle_overview">Тоймыг асаах/унтраах</string>
     <string name="recent_conversations">Саяхны харилцан яриа</string>
-    <string name="recents_quick_scrub_onboarding">Аппуудыг хурдан сэлгэхийн тулд баруун тийш чирнэ үү</string>
-    <string name="recents_swipe_up_onboarding">Апп сэлгэхийн тулд дээш шударна уу</string>
     <string name="remaining_length_format">%1$s үлдсэн</string>
     <string name="remote_input_image_insertion_text">зураг илгээсэн</string>
     <string name="remove_from_settings">Тохиргооноос устгах</string>
@@ -1959,7 +1968,7 @@
     <string name="tts_default_rate_summary">Текстийг унших хурд</string>
     <string name="tts_default_rate_title">Ярианы түвшин</string>
     <string name="tts_default_sample_string">Энэ бол яриа үүсгэх жишээ юм.</string>
-    <string name="tts_engine_network_required">Энэ хэл нь текстээс дуунд хөрвүүлэхэд ажлын сүлжээний холболтыг шаарддаг.</string>
+    <string name="tts_engine_network_required">Энэ хэл нь бичвэрийг ярианд хувиргахад ажлын сүлжээний холболт шаардана.</string>
     <string name="tts_engine_preference_section_title">Давуу үүсгүүр</string>
     <string name="tts_engine_security_warning">Энэ яриа үүсгүүр нь нууц үг, зээлийн картын дугаар гэх мэт таны хувийн мэдээллийг оруулан унших бүх текстийг цуглуулах боломжтой. Үүнийг %s үүсгүүрээс нийлүүлдэг. Энэ яриа үүсгүүрийн ашиглалтыг идэвхжүүлэх үү?</string>
     <string name="tts_engine_settings_button">Үүсгүүрийн тохиргоог ажиллуулах</string>
@@ -1973,8 +1982,8 @@
     <string name="tts_play_example_title">Жишээ сонсох</string>
     <string name="tts_reset_speech_pitch_summary">Текст унших хоолойн өнгийг өгөгдмөл байдал руу нь дахин тохируулах.</string>
     <string name="tts_reset_speech_pitch_title">Ярианы өнгийг дахин тохируулах</string>
-    <string name="tts_settings">Текст-ярианы тохиргоо</string>
-    <string name="tts_settings_title">Текстийг яриа болгон гаргах</string>
+    <string name="tts_settings">Бичвэрийг ярианд хувиргах тохиргоо</string>
+    <string name="tts_settings_title">Бичвэрийг ярианд хувиргах</string>
     <string name="tts_status_checking">Шалгаж байна...</string>
     <string name="tts_status_not_supported">%1$s дэмжигдээгүй байна</string>
     <string name="tts_status_ok">%1$s бүрэн дэмжигдсэн</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Карт нэмэх</string>
     <string name="wallet_secondary_label_updating">Шинэчилж байна</string>
     <string name="wallet_title">Түрийвч</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Хандах цэг түр хугацаанд дүүрсэн байна</string>
     <string name="wifi_cant_connect">Холбогдож чадсангүй</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s'-д холбогдож чадсангүй"</string>

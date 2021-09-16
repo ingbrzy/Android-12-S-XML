@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s %2$s-г нэмсэн</item>
+        <item quantity="one">%1$s %2$s-г нэмсэн</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">Тэд энэ өрөөг эзэмшдэг Google Workspace байгууллагын гишүүн биш байна.</item>
+        <item quantity="one">Тэрээр энэ өрөөг эзэмшдэг Google Workspace байгууллагын гишүүн биш байна.</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">Зарим нь энэ өрөөг эзэмшдэг Google Workspace байгууллагын гишүүн биш байна.</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d гишүүн</item>
+        <item quantity="one">%d гишүүн</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s шинэ мессеж</item>
+        <item quantity="one">%s шинэ мессеж</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">Зарим хуваарьт илгээлтийг цуцлахад алдаа гарав.</item>
+        <item quantity="one">Хуваарьт илгээлтийг цуцлахад алдаа гарав.</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">Хуваарьт илгээлтүүдийг цуцалсан бөгөөд мессежүүдийг ноорог руу буцаасан.</item>
+        <item quantity="one">Хуваарьт илгээлтийг цуцалсан бөгөөд мессежийг ноорог руу буцаасан</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">%1$d хуваарилсан илгээлтийг цуцалж, мессежийг ноорог руу буцаасан</item>
+        <item quantity="one">Хуваарилсан илгээлтийг цуцалж, мессежийг ноорог руу буцаасан</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s хүлээн авагч</item>
+        <item quantity="one">1 хүлээн авагч</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 шифрлэлт дэмждэггүй үйлчилгээ ашиглаж байна. Шифрлэлтгүй бол таны мессежийг хүргэх явцад бусад хүмүүс харах боломжтой. ^2</item>
+        <item quantity="one">^1 шифрлэлт дэмждэггүй үйлчилгээ ашиглаж байна. Шифрлэлтгүй бол таны мессежийг хүргэх явцад бусад хүмүүс харах боломжтой. ^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">^1 болон бусад нь энэ мессежийг илгээх үед шифрлэхийг дэмжээгүй байсан.</item>
+        <item quantity="one">^1 энэ мессежийг илгээх үед шифрлэхийг дэмжээгүй байсан.</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s мессеж буулгасан</item>
+        <item quantity="one">%1$s мессеж буулгасан</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">Видео дуудлагын дэд бүлгийн өрөө %d минутын дараа дуусна.</item>
+        <item quantity="one">Видео дуудлагын дэд бүлгийн өрөө %d минутын дараа дуусна.</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">Таны дуудлага %1$d минутын дараа дуусна</item>
+        <item quantity="one">Таны дуудлага %1$d минутын дараа дуусна</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">Өөр %d хүн</item>
+        <item quantity="one">Өөр %d хүн</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">Өөр %d оролцогч</item>
+        <item quantity="one">Өөр %d оролцогч</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Эдгээр %1$d харилцааг архивлах уу?</item>
+        <item quantity="one">Энэ харилцааг архивлах уу?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Эдгээр %1$d харилцааг устгах уу?</item>
+        <item quantity="one">Энэ харилцааг устгах уу?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Эдгээр %1$d харилцан ярианаас нооргуудыг устгах уу?</item>
+        <item quantity="one">Энэ харилцан ярианаас нооргуудыг устгах уу?</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> архивлагдсан</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> архивлагдсан</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> устсан</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> устсан</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Шошгуудыг өөрчилсөн.</item>
+        <item quantity="one">Шошгыг өөрчилсөн.</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> чухал гэж тэмдэглэсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> чухал гэж тэмдэглэсэн​</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">%1$d энэ харилцан яриан доторх мессежийг устгасан</item>
+        <item quantity="one">%1$d энэ харилцан яриан доторх мессежийг устгасан</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">&lt;b>%1$d&lt;/b>-г ирсэн имэйл рүү зөөсөн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>-г ирсэн имэйл рүү зөөсөн</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> чимээгүй болсон</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> чимээгүй болсон</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> чухал биш гэж тэмдэглэгдсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> чухал биш гэж тэмдэглэгдсэн</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> спам биш гэж мэдүүлэгдсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> спам биш гэж мэдүүлэгдсэн</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">&lt;b>%1$d&lt;/b> уншсан гэж тэмдэглэсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> уншсан гэж тэмдэглэсэн</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> %2$s хүртэл түр хойшлуулсан</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> %2$s хүртэл дахин түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> спам гэж мэдүүлэгдсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> спам гэж мэдүүлэгдсэн</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d-г спам гэж мэдээлсэн бөгөөд бүртгэлийг цуцалсан</item>
+        <item quantity="one">%1$d-г спам гэж мэдээлсэн бөгөөд бүртгэлийг цуцалсан</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">%1$d харилцан яриаг одоор тэмдэглэж байна</item>
+        <item quantity="one">%1$d харилцан яриаг одоор тэмдэглэж байна</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">&lt;b>%1$d&lt;/b> уншаагүй гэж тэмдэглэсэн</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> уншаагүй гэж тэмдэглэсэн</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> түр хойшлуулсныг болиулсан</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> түр хойшлуулсныг болиулсан</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d харилцаануудыг тэмдэггүй болгож байна</item>
+        <item quantity="one">%1$d харилцааг тэмдэггүй болгож байна</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">%1$d захиалгаа цуцалснаа мэдэгдсэн</item>
+        <item quantity="one">%1$d захиалгаа цуцалснаа мэдэгдсэн</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">%d өдөр бүр</item>
+        <item quantity="one">Өдөр бүр</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">%1$s-г бот хөгжүүлэгчид цуцалсан.</item>
+        <item quantity="one">%1$s-г бот хөгжүүлэгч цуцалсан.</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Эдгээр мессежийг спам гэж тэмдэглэх болно. Та эдгээр&lt;b>%2$d илгээгчээс&lt;/b> төстэй мессежүүд хүлээж авахгүй юу?%1$s</item>
+        <item quantity="one">Энэ мессежийг спам гэж тэмдэглэх болно. Та %1$s-с төстэй мессежүүд хүлээж авахгүй юу?</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Нооргууд</item>
+        <item quantity="one">Ноорог</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s болон бусад %2$d-г энэ чатад оруулах боломжгүй</item>
+        <item quantity="one">%1$s-г энэ чатад оруулах боломжгүй</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s харилцан яриаг бүрмөсөн устгах болно</item>
+        <item quantity="one">%1$s харилцан яриаг бүрмөсөн устгах болно</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">; %d удаа</item>
+        <item quantity="one">; нэг удаа</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">Та гадны зочид нэмж байна</item>
+        <item quantity="one">Та гадны зочин нэмж байна</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Таны Драйваас оруулсан эдгээр файлуудад таны хүлээн авагч хандаж чадахгүй байж болно. Та Google Драйв дотроос файлуудыг хуваалцах хэрэгтэй байж болно.</item>
+        <item quantity="one">Таны Драйваас оруулсан файлд таны хүлээн авагч хандаж чадахгүй байж болно. Та Google Драйв дотроос файлыг хуваалцах хэрэгтэй байж болно.</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">Таны хүлээн авагч таны Драйваас оруулсан файлуудад хандах эрхгүй байж болзошгүй. Та файлуудаа Google Драйв дотроос хуваалцах шаардлагатай байж магадгүй.</item>
+        <item quantity="one">Таны хүлээн авагч таны Драйваас оруулсан файлд хандах эрхгүй байж болзошгүй. Та файлаа Google Драйв дотроос хуваалцах шаардлагатай байж магадгүй.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Тэмдэглэл: Зарим хүлээн авагч одоо ч гэсэн эдгээр файлуудад хандах боломжгүй байж болох юм. Та Google Драйв дотроос эдгээр файлуудыг хуваалцах хэрэгтэй байж болно.</item>
+        <item quantity="one">Тэмдэглэл: Зарим хүлээн авагч одоо ч гэсэн энэ файлд хандах боломжгүй байж болох юм. Та Google Драйв дотроос файлыг хуваалцах хэрэгтэй байж болно.</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">Санамж: Зарим хүлээн авагч эдгээр файлд хандах боломжгүй байж болзошгүй. Та эдгээр файлыг Google Драйв дотроос хуваалцах шаардлагатай байж магадгүй.</item>
+        <item quantity="one">Санамж: Зарим хүлээн авагч энэ файлд хандах боломжгүй байж болзошгүй. Та энэ файлыг Google Драйв дотроос хуваалцах шаардлагатай байж магадгүй.</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">Алдаа: Эдгээр файлыг хуваалцаж чадсангүй.</item>
+        <item quantity="one">Алдаа: Энэ файлыг хуваалцаж чадсангүй.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Та эдгээр файлыг эзэмшдэг Google Workspace байгууллагад байдаггүй хүлээн авагчидтай хуваалцаж байна:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>."</item>
+        <item quantity="one">Та энэ файлыг эзэмшдэг Google Workspace байгууллагад байдаггүй хүлээн авагчидтай хуваалцаж байна:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">Та дараах хүлээн авагчтай хуваалцаж байна:%1$s нь эдгээр файлыг эзэмшдэг Google Workspace байгууллагад байдаггүй.</item>
+        <item quantity="one">Та дараах хүлээн авагчтай хуваалцаж байна:%1$s нь энэ файлыг эзэмшдэг Google Workspace байгууллагад байдаггүй.</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">Танд доорх шинэ мессежийн товчлуурт %d шинэ мессеж байна.</item>
+        <item quantity="one">Танд доорх шинэ мессежийн товчлуурт %d шинэ мессеж байна.</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 шифрлэлт дэмждэггүй үйлчилгээ ашиглаж байна. Шифрлэхгүй бол таны мессежийг хүргэх явцад унших боломжтой. ^2</item>
+        <item quantity="one">^1 шифрлэлт дэмждэггүй үйлчилгээ ашиглаж байна. Шифрлэхгүй бол таны мессежийг хүргэх явцад унших боломжтой. ^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d мессежийг харуулаагүй</item>
+        <item quantity="one">%d мессежийг харуулаагүй</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d хүн</item>
+        <item quantity="one">%d хүн</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s %2$s-г урьсан</item>
+        <item quantity="one">%1$s %2$s-г урьсан</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">%d үзээгүй урьсан өрөө</item>
+        <item quantity="one">%d үзээгүй урьсан өрөө</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">Өрөө үзэх товчлуур. Танд үзээгүй %d уригдсан өрөө байна</item>
+        <item quantity="one">Өрөө үзэх товчлуур. Танд үзээгүй %d уригдсан өрөө байна.</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d гишүүн</item>
+        <item quantity="one">%d гишүүн</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s нэгдсэн</item>
+        <item quantity="one">%1$s нэгдсэн</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d мессеж хүсэлт</item>
+        <item quantity="one">%d мессеж хүсэлт</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d хараагүй мессеж хүсэлт</item>
+        <item quantity="one">%d хараагүй мессеж хүсэлт</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">%1$d сар бүр</item>
+        <item quantity="one">Сар бүр</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d шинэ мессежууд</item>
+        <item quantity="one">%1$d шинэ мессеж</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d шинэ мессежууд</item>
+        <item quantity="one">%1$d шинэ мессеж</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">Танд доорх шинэ мессежийн товчлуурт %d мессеж байна.</item>
+        <item quantity="one">Танд доорх шинэ мессежийн товчлуурт %d мессеж байна.</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d шинэ мессеж</item>
+        <item quantity="one">%d шинэ мессеж</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d шинэ мессеж</item>
+        <item quantity="one">%d шинэ мессеж</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d хавсралтууд</item>
+        <item quantity="one">%1$d хавсралт</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d мессежууд</item>
+        <item quantity="one">%1$d мессеж</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">Зарим хүлээн авагч байгууллагаас гадуур байгаа бөгөөд таны харилцагчид дунд алга байна.</item>
+        <item quantity="one">%s нь байгууллагаас гадуур байгаа бөгөөд таны харилцагчид дунд алга байна.</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">Гадны хүлээн авагчид</item>
+        <item quantity="one">Гадны хүлээн авагч</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">%d хүлээн авагчийг хуулсан</item>
+        <item quantity="one">%d хүлээн авагчийг хуулсан</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Календариудыг хуваалцаагүй байна</item>
+        <item quantity="one">Календарийг хуваалцаагүй байна</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">%d тэмдэгт мессежийн хязгаарт хүрсэн</item>
+        <item quantity="one">%d тэмдэгт мессежийн хязгаарт хүрсэн</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">хариу үйлдэл үзүүлсэн %1$d хүн</item>
+        <item quantity="one">хариу үйлдэл үзүүлсэн %1$d хүн</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">Үүнийг %1$s хүн хараахан уншаагүй байгаа</item>
+        <item quantity="one">Үүнийг %1$s хүн хараахан уншаагүй байгаа</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">%1$s хүн уншсан</item>
+        <item quantity="one">%1$s хүн уншсан</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d хуучин мессежүүдийг өргөтгөх</item>
+        <item quantity="one">Хуучин мессежийг өргөтгөх</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">%d өдрийн өмнө түр хойшлуулсан</item>
+        <item quantity="one">%d өдрийн өмнө түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">%d цагийн өмнө түр хойшлуулсан</item>
+        <item quantity="one">%d цагийн өмнө түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">%d сарын өмнө түр хойшлуулсан</item>
+        <item quantity="one">%d сарын өмнө түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">%d долоо хоногийн өмнө түр хойшлуулсан</item>
+        <item quantity="one">%d долоо хоногийн өмнө түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">%d жилийн өмнө түр хойшлуулсан</item>
+        <item quantity="one">%d жилийн өмнө түр хойшлуулсан</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d гишүүн</item>
+        <item quantity="one">%d гишүүн</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">Өргөтгөсөн %1$d хуучин мессежүүд</item>
+        <item quantity="one">Нэг хуучин мессежийг өргөтгөсөн</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d өдрүүд</item>
+        <item quantity="one">Нэг өдөр</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Холбогдсон үед мессежүүдийн сүүлийн %1$d өдрийнхийг татаж авах болно</item>
+        <item quantity="one">Холбогдсон үед мессежүүдийн сүүлийн өдрийнхийг татаж авах болно</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Сүүлийн %1$d хоног</item>
+        <item quantity="one">Сүүлийн өдөр</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">Дуусах хугацаа - %1$s - %2$d ажил</item>
+        <item quantity="one">Дуусах хугацаа - %1$s - %2$d ажил</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d дэд ажил</item>
+        <item quantity="one">+1 дэд ажил</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d өдрийн өмнө</item>
+        <item quantity="one">Өчигдөр</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d долоо хоногийн өмнө</item>
+        <item quantity="one">1 долоо хоногийн өмнө</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d жилийн өмнө</item>
+        <item quantity="one">1 жилийн өмнө</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">Энэ ажлыг дуусгаснаар %1$d дэд ажлыг мөн адил дуусгана.</item>
+        <item quantity="one">Энэ ажлыг дуусгаснаар 1 дэд ажлыг мөн адил дуусгана.</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">%1$d ажлыг дууссан гэж тэмдэглэх үү?</item>
+        <item quantity="one">1 ажлыг дууссан гэж тэмдэглэх үү?</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">%1$d минутын дараа</item>
+        <item quantity="one">%1$d минутын дараа</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d минут</item>
+        <item quantity="one">%1$d минут</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Өдрүүд</item>
+        <item quantity="one">Өдөр</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">%1$d долоо хоног бүрийн %2$s-д</item>
+        <item quantity="one">Долоо хоног бүрийн %2$s-д</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">%1$d жил бүр</item>
+        <item quantity="one">Жил бүр</item>
+    </plurals>
+</resources>

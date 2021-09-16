@@ -341,13 +341,15 @@ Gerät wurde nicht bereitgestellt."</string>
 
 "<li>Alle anderen Nutzer können aktualisierte App-Berechtigungen akzeptieren</li>"
 
-"<li>Du solltest dieses Smartphone nur mit Personen teilen, denen du vertraust</li></ul>}TABLET{<b>Wichtig:</b>"
+"<li>Du solltest dieses Smartphone nur mit Personen teilen, denen du vertraust</li></ul>"
+}TABLET{"<b>Wichtig:</b>"
 
 "<ul><li>Der Eigentümer des Tablets kann deine Apps deinstallieren oder dein Nutzerprofil vollständig löschen</li>"
 
 "<li>Alle anderen Nutzer können aktualisierte App-Berechtigungen akzeptieren</li>"
 
-"<li>Du solltest dieses Tablet nur mit Personen teilen, denen du vertraust</li></ul>}other{<b>Wichtig:</b>"
+"<li>Du solltest dieses Tablet nur mit Personen teilen, denen du vertraust</li></ul>"
+}other{"<b>Wichtig:</b>"
 
 "<ul><li>Der Eigentümer des Geräts kann deine Apps deinstallieren oder dein Nutzerprofil vollständig löschen</li>"
 
@@ -359,70 +361,47 @@ Gerät wurde nicht bereitgestellt."</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Smartphone schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
 "<li>Updates für Software herunterladen</li>"
-
-"<li>Datum und Uhrzeit automatisch einrichten</li>"}TABLET{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Tablet schnell einrichten.
+"<li>Datum und Uhrzeit automatisch einrichten</li>"
+}TABLET{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Tablet schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
 "<li>Updates für Software herunterladen</li>"
-
-"<li>Datum und Uhrzeit automatisch einrichten</li>"}other{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Gerät schnell einrichten.
+"<li>Datum und Uhrzeit automatisch einrichten</li>"
+}other{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Gerät schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
 "<li>Updates für Software herunterladen</li>"
-
 "<li>Datum und Uhrzeit automatisch einrichten</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Smartphone schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
-"<li>eSIM herunterladen</li>"
-
+"<li>SIM herunterladen</li>"
 "<li>Updates für Software herunterladen</li>"
-
-"<li>Datum und Uhrzeit automatisch einrichten</li>"}TABLET{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Tablet schnell einrichten.
+"<li>Datum und Uhrzeit automatisch einrichten</li>"
+}TABLET{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Tablet schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
-"<li>eSIM herunterladen</li>"
-
+"<li>SIM herunterladen</li>"
 "<li>Updates für Software herunterladen</li>"
-
-"<li>Datum und Uhrzeit automatisch einrichten</li>"}other{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Gerät schnell einrichten.
+"<li>Datum und Uhrzeit automatisch einrichten</li>"
+}other{Mit einer WLAN- oder Mobilfunkverbindung kannst du dein Gerät schnell einrichten.
 
 Ohne eine Verbindung ist Folgendes nicht möglich:
-
 "<li>Sich in seinem Google-Konto anmelden</li>"
-
 "<li>Apps und Daten wiederherstellen</li>"
-
-"<li>eSIM herunterladen</li>"
-
+"<li>SIM herunterladen</li>"
 "<li>Updates für Software herunterladen</li>"
-
 "<li>Datum und Uhrzeit automatisch einrichten</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Zugangspunkt vorübergehend voll belegt</string>
     <string name="wifi_check_password_try_again">Prüfe das Passwort und versuch es noch einmal</string>

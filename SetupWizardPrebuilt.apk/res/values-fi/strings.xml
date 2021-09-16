@@ -165,7 +165,7 @@ Kun lentokonetila on päällä, Wi‑Fi-, mobiili- ja Bluetooth-yhteydet on katk
     <string name="final_hold_description_text">Tämä voi kestää muutaman minuutin.</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{Valmistellaan puhelintasi…}TABLET{Valmistellaan tablettiasi…}other{Valmistellaan laitettasi…}}</string>
     <string name="final_hold_title_setup_work_account">Valmistellaan työprofiilin määritystä…</string>
-    <string name="gesture_intro_description">Opi eleitä, joilla voit palata aloitusnäytölle ja takaisin selä vaihtaa sovellusta</string>
+    <string name="gesture_intro_description">Opi eleitä, joilla voit palata aloitusnäytölle ja takaisin sekä vaihtaa sovellusta</string>
     <string name="gesture_intro_skip_button">Ohita</string>
     <string name="gesture_intro_start_button">Kokeile</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Siirry puhelimella kohdasta toiseen pyyhkäisemällä}TABLET{Siirry tabletilla kohdasta toiseen pyyhkäisemällä}other{Siirry laitteella kohdasta toiseen pyyhkäisemällä}}</string>
@@ -341,13 +341,15 @@ Laitteen asetuksia ei määritetty"</string>
 
 "<li>Kaikki muut käyttäjät voivat hyväksyä päivitettyjä sovellusten käyttöoikeuksia.</li>"
 
-"<li>Jaa tämä puhelin vain luotettavien henkilöiden kanssa.</li></ul>}TABLET{<b>Tärkeää:</b>"
+"<li>Jaa tämä puhelin vain luotettavien henkilöiden kanssa.</li></ul>"
+}TABLET{"<b>Tärkeää:</b>"
 
 "<ul><li>Tabletin omistaja voi poistaa sovelluksesi ja koko käyttäjäprofiilisi.</li>"
 
 "<li>Kaikki muut käyttäjät voivat hyväksyä päivitettyjä sovellusten käyttöoikeuksia.</li>"
 
-"<li>Jaa tämä tabletti vain luotettavien henkilöiden kanssa.</li></ul>}other{<b>Tärkeää:</b>"
+"<li>Jaa tämä tabletti vain luotettavien henkilöiden kanssa.</li></ul>"
+}other{"<b>Tärkeää:</b>"
 
 "<ul><li>Laitteen omistaja voi poistaa sovelluksesi ja koko käyttäjäprofiilisi.</li>"
 
@@ -359,70 +361,47 @@ Laitteen asetuksia ei määritetty"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan puhelimen nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
-"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"}TABLET{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan tabletin nopeasti käyttöön.
+"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"
+}TABLET{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan tabletin nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
-"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"}other{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan laitteen nopeasti käyttöön.
+"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"
+}other{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan laitteen nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
 "<li>asettaa päivämäärää ja aikaa automaattisesti.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan puhelimen nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata SIM-korttia</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
-"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"}TABLET{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan tabletin nopeasti käyttöön.
+"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"
+}TABLET{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan tabletin nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata SIM-korttia</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
-"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"}other{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan laitteen nopeasti käyttöön.
+"<li>asettaa päivämäärää ja aikaa automaattisesti.</li>"
+}other{Wi-Fi- tai mobiiliverkkoon yhdistäminen auttaa sinua ottamaan laitteen nopeasti käyttöön.
 
 Ilman yhteyttä et voi
-
 "<li>kirjautua Google-tilillesi</li>"
-
 "<li>palauttaa sovelluksia tai dataa</li>"
-
 "<li>ladata SIM-korttia</li>"
-
 "<li>ladata ohjelmistopäivityksiä</li>"
-
 "<li>asettaa päivämäärää ja aikaa automaattisesti.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Yhteyspiste tilapäisesti täynnä</string>
     <string name="wifi_check_password_try_again">Tarkista salasana ja yritä uudelleen.</string>

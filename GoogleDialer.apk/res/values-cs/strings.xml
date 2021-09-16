@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Přijmout</string>
     <string name="a11y_call_incoming_decline_description">Odmítnout</string>
+    <string name="a11y_callscreen_animation">Animace automatického prověřování</string>
     <string name="a11y_contact_menu_video_call_wifi">Videohovor přes Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Hlasový hovor přes Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Poslední je přijatý hovor od kontaktu ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Spravovat volající</string>
     <string name="a11y_expandedsheet_collapse">sbalit nabídku</string>
     <string name="a11y_expandedsheet_expand">rozbalit nabídku</string>
-    <string name="a11y_favorites_education_dismiss">zavřít</string>
     <string name="a11y_feature_demo_next_page">Další stránka</string>
     <string name="a11y_feature_demo_page_indicator">Strana %d</string>
     <string name="a11y_feature_demo_prev_page">Předchozí stránka</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Rychlý kontakt ^1</string>
+    <string name="a11y_icon_hd">Hovor HD</string>
+    <string name="a11y_icon_hd_plus">Hovor HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Hovor se sdílením sítí</string>
+    <string name="a11y_icon_verified">Ověřený hovor</string>
+    <string name="a11y_icon_vilte">Videohovor přes LTE</string>
+    <string name="a11y_icon_viwifi">Videohovor přes Wi-Fi</string>
+    <string name="a11y_icon_volte">Hlasové volání přes LTE</string>
+    <string name="a11y_icon_voz4g">Hlasové volání přes 4G</string>
+    <string name="a11y_icon_wifi">Volání přes Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Přejetím dvěma prsty nahoru hovor přijmete. Přejetím dvěma prsty dolů jej odmítnete.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Přejetím dvěma prsty po obrazovce nahoru hovor přijmete a dolů odmítnete</string>
     <string name="a11y_new_call_log_entry_call_recording">hovor se nahrává</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">na ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">zavolat s RTT kontaktu ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Hovor se sdílením sítí</string>
     <string name="a11y_new_call_log_entry_tap_action">rozbalit nabídku</string>
     <string name="a11y_new_call_log_entry_video_call">provést videohovor s kontaktem ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">zahájit videohovor s uživatelem ^1 přes wi-fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Před voláním upravit číslo</string>
     <string name="action_menu_back_from_search">zastavit vyhledávání</string>
     <string name="action_menu_overflow_description">Další možnosti</string>
+    <string name="activate_error_message">Při aktivaci prověřování volajícího došlo k potížím</string>
+    <string name="activated_successfully">Prověřování volajícího aktivováno</string>
     <string name="activity_not_available">Pro tuto akci v zařízení nemáte žádnou aplikaci.</string>
     <string name="add_2sec_pause">Přidat pauzu 2 s</string>
     <string name="add_contact_not_available">Není k dispozici žádná aplikace pro práci s kontakty</string>
@@ -160,8 +172,8 @@ Nahrávky se ukládají pouze ve vašem telefonu.^1"</string>
     <string name="bm_suggest_chat_button">Chat</string>
     <string name="bm_suggest_wait_min">"Chat
 %1$d min čekání"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, nepřečtené: %2$s</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Zpracovává se…"</string>
     <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
     <string name="bubble_bottom_action_end_call">Zavěsit</string>
     <string name="bubble_bottom_action_hide">Skrýt</string>
@@ -170,7 +182,10 @@ Nahrávky se ukládají pouze ve vašem telefonu.^1"</string>
     <string name="call">Hlasový hovor</string>
     <string name="callFailed_simError">SIM karta chybí nebo nefunguje.</string>
     <string name="callHistoryIconLabel">Historie volání</string>
-    <string name="call_announcer_preference_footer_instruction_text">U příchozích hovorů bude nahlas přečteno jméno a číslo volajícího</string>
+    <string name="call_action_label_automatically_screen">Prověřit automaticky. Odmítnout automatické hovory.</string>
+    <string name="call_action_label_ring_phone">Vyzvánět na telefonu (výchozí)</string>
+    <string name="call_action_label_silently_decline">Potichu odmítnout</string>
+    <string name="call_announcer_preference_footer_instruction_text">U příchozích hovorů bude nahlas přečteno jméno a číslo volajícího.</string>
     <string name="call_announcer_preference_list_title">Oznamovat ID volajícího</string>
     <string name="call_announcer_preference_option_always">Vždy</string>
     <string name="call_announcer_preference_option_headset">Pouze při používání náhlavní soupravy</string>
@@ -203,7 +218,7 @@ Nahrávky se ukládají pouze ve vašem telefonu.^1"</string>
     <string name="call_incoming_answer">Přijmout</string>
     <string name="call_incoming_answer_rtt">Zvednout s funkcí SMS během hovoru</string>
     <string name="call_incoming_answer_voice">Zvednout jako hlasový hovor</string>
-    <string name="call_incoming_chip_answer_and_release">Vzít a ukončit současný hovor</string>
+    <string name="call_incoming_chip_answer_and_release">Přijmout hovor a ukončit probíhající hovor</string>
     <string name="call_incoming_chip_answer_as_rtt">Přijmout jako hovor RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Přijmout jako hlasový hovor</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Přijmout s vypnutým videem</string>
@@ -219,7 +234,7 @@ Nahrávky se ukládají pouze ve vašem telefonu.^1"</string>
     <string name="call_incoming_swipe_to_answer">Přejetím prstu nahoru hovor přijmete</string>
     <string name="call_incoming_swipe_to_reject">Přejetím dolů ho odmítnete</string>
     <string name="call_incoming_video_is_off">Máte vypnuté video</string>
-    <string name="call_incoming_will_disconnect">Pokud přijmete tento hovor, váš videohovor bude ukončen</string>
+    <string name="call_incoming_will_disconnect">Když přijmete tento hovor, váš druhý hovor se ukončí</string>
     <string name="call_incoming_will_disconnect_app">Přijetím hovoru ukončíte hovor v aplikaci %1$s</string>
     <string name="call_isdn">Volat na číslo ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Zablokovat / nahlásit spam</string>
@@ -255,6 +270,7 @@ Nahrávky se ukládají pouze ve vašem telefonu.^1"</string>
     <string name="call_reason_fragment_content_description">Důvod k hovoru: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Nahrávka byla uložena.</string>
     <string name="call_recording_conversation_history_entry">Nahráno</string>
+    <string name="call_recording_delete_snack_bar_undo">Zpět</string>
     <string name="call_recording_disclaimer_agreen_button_text">Začít nahrávat</string>
     <string name="call_recording_disclaimer_content">"Je možné, že se vy nebo druhý účastník hovoru nacházíte někde, kde je k nahrávání nutný souhlas obou stran. Oba účastníci budou předem upozorněni, že se hovor nahrává. Zodpovědnost za dodržení zákonů týkajících se nahrávání konverzací leží na vás. Používejte nahrávání hovorů zodpovědně a jen, když je to nutné
 ^1
@@ -291,6 +307,7 @@ Nahrávky se ukládají pouze ve vašem telefonu."</string>
 Zvuk ani přepis hovoru se nikam neposílají ani nepředávají do Googlu."</string>
     <string name="call_screen_demo_page_4_title">Ušetřete si čas i frustraci</string>
     <string name="call_screen_demo_setting_title">Podívat se na ukázku</string>
+    <string name="call_screen_demo_settings_title">Podívat se na ukázku</string>
     <string name="call_screen_demo_title">Jak prověřování volajícího funguje</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Zvukovou ukázku nejde načíst</string>
     <string name="call_screen_demo_unable_to_play_audio">Zvukovou ukázku nejde přehrát</string>
@@ -298,6 +315,7 @@ Zvuk ani přepis hovoru se nikam neposílají ani nepředávají do Googlu."</st
     <string name="call_screen_end_call_local_internal_message">Ukončili jste hovor</string>
     <string name="call_screen_end_call_non_local_internal_message">Hovor byl odpojen</string>
     <string name="call_screen_how_it_works_setting_title">Prověřování volajícího probíhá na vašem zařízení a nevyužívá Wi-Fi ani mobilní data. Přepis konverzace se generuje a ukládá pouze ve vašem telefonu. %1$s</string>
+    <string name="call_screen_how_it_works_title">Prověřování volajícího probíhá na vašem zařízení a nevyužívá Wi-Fi ani mobilní data. Přepis konverzace se generuje a ukládá pouze ve vašem telefonu. ^1</string>
     <string name="call_screen_incallui_chip_text">Ohlásit volajícího</string>
     <string name="call_screen_join_call_button_content_description">Připojit se k hovoru</string>
     <string name="call_screen_join_call_internal_message">Připojili jste se k hovoru</string>
@@ -307,6 +325,7 @@ Zvuk ani přepis hovoru se nikam neposílají ani nepředávají do Googlu."</st
     <string name="call_screen_saying_to_the_caller_state">Asistent říká volajícímu</string>
     <string name="call_screen_screening_call_from">Ohlašování jména volajícího</string>
     <string name="call_screen_setting_title">Prověřování volajícího</string>
+    <string name="call_screen_settings_title">Prověřování volajícího</string>
     <string name="call_screen_speaker_toggle_button_content_description">Tlačítko přepnutí na hlasitý odposlech</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Zrušit</string>
@@ -331,6 +350,8 @@ Zvuk ani přepis hovoru se nikam neposílají ani nepředávají do Googlu."</st
     <string name="call_work">Volat do práce</string>
     <string name="call_work_mobile">Volat na pracovní mobil</string>
     <string name="call_work_pager">Volat na pracovní pager</string>
+    <string name="caller_action_error_cant_load_value">Aktuální hodnotu nastavení %1$s nelze načíst</string>
+    <string name="caller_action_error_cant_set_value">Aktuální hodnotu nastavení %1$s nelze uložit</string>
     <string name="caller_id_announcement_multi_sim">příchozí %1$s od uživatele %2$s na SIM kartě %3$s</string>
     <string name="caller_id_announcement_single_sim">příchozí %1$s od uživatele %2$s</string>
     <string name="caller_id_business_data_details">Údaje používané v těchto funkcích jsou poskytovány společností Google a jejími poskytovateli licencí. ^1</string>
@@ -370,6 +391,9 @@ Zvuk ani přepis hovoru se nikam neposílají ani nepředávají do Googlu."</st
     <string name="calling_blocked_number_precall_dialog_title">Volat na číslo %s?</string>
     <string name="calllog_add_to_contact">Přidat ke kontaktu</string>
     <string name="calllog_create_new_contact">Vytvořit nový kontakt</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Aktivuje se prověřování volajícího (vyžaduje Wi-Fi)</string>
+    <string name="callscreen_settings_voice_setting_title">Hlasové volání</string>
+    <string name="camera_permission_toast">Byl povolen přístup k fotoaparátu</string>
     <string name="camera_privacy_text">Byl povolen přístup k fotoaparátu</string>
     <string name="cannot_understand_description">Nerozumím</string>
     <string name="car_crash_emergency_intro">"Jménem volajícího vás kontaktuje automatická hlasová služba.
@@ -392,7 +416,7 @@ Pošlete mu prosím pomoc."</string>
     <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
     <string name="checkbox_report_as_spam_action">Nahlásit hovor jako spam</string>
     <string name="child_number">pomocí čísla %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Vybrat kontakt</string>
     <string name="clear_button_content_description">Vymazat vyhledávání</string>
     <string name="clear_text_end_icon_content_description">Vymazat text</string>
     <string name="cli_not_supported_text">Pokračujte tím, že otevřete aplikaci Telefon</string>
@@ -432,6 +456,9 @@ Pošlete mu prosím pomoc."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Ověřený hovor se nepodařilo zprovoznit. Aktivovat ho můžete opět v nastavení.</string>
     <string name="contact_card_video_icon_content_description">Videohovor s kontaktem ^1</string>
     <string name="contact_grid_callback_number">Číslo tohoto telefonu: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Hovor byl přesměrován</string>
+    <string name="contact_grid_hd_icon_content_description">Hovor HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Hovor HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Videohovor prostřednictvím operátora od</string>
     <string name="contact_grid_incoming_reception_only_video_call">Jednosměrný videohovor prostřednictvím operátora od</string>
     <string name="contact_grid_incoming_rtt_call">Hovor RTT od</string>
@@ -442,9 +469,18 @@ Pošlete mu prosím pomoc."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Videohovor přes Wi-Fi prostřednictvím operátora od</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Jednosměrný videohovor přes Wi-Fi prostřednictvím operátora od</string>
     <string name="contact_grid_incoming_work_call">Příchozí pracovní hovor:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Hovor se sdílením sítí</string>
+    <string name="contact_grid_spam_icon_content_description">Spamové volání</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operátor</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Ověřeno operátorem %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Platné číslo</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Videohovor přes LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Videohovor přes Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Hlasové volání přes 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Hlasové volání přes LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Hlasové volání přes Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Hovor přes Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Pracovní hovor</string>
     <string name="contact_menu_add_favorite">Mezi oblíbené</string>
     <string name="contact_menu_contact_info">Kontaktní údaje</string>
     <string name="contact_menu_invite_video">Pozvat na videohovor</string>
@@ -479,8 +515,12 @@ Pošlete mu prosím pomoc."</string>
     <string name="conversation_history_call_details_header_today">Dnes</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Hovor byl smazán</string>
     <string name="conversation_history_call_details_snack_bar_undo">Vrátit zpět</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Důležitý hovor</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Zobrazit další informace k hovoru</string>
+    <string name="conversation_history_call_recording_deleted">Nahrávka byla smazána</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Přepis a zvuk</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Přepis</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Zobrazit přepis a zvuk</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Prověřování volajícího</string>
     <string name="copy">Kopírovat</string>
     <string name="copy_number">Kopírovat číslo</string>
@@ -499,12 +539,17 @@ Pošlete mu prosím pomoc."</string>
     <string name="custom_prefix_default_prefix_title">Výchozí předvolba</string>
     <string name="custom_prefix_prefixes_preference_title">Předvolby</string>
     <string name="dark_theme_label">Tmavý</string>
+    <string name="default_changed_confirmation">Aplikace Telefon byla nastavena jako výchozí</string>
+    <string name="default_image_content_description">Úvodní obrázek</string>
     <string name="delete">Smazat</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Smazat všechny nahrávky</string>
     <string name="delete_all_recordings_now_error_message">Některé nahrávky se nepodařilo smazat. Zkuste to znovu.</string>
     <string name="delete_button_label">Smazat všechny nahrávky</string>
     <string name="delete_confirmation_dialog_negative_button_label">Zrušit</string>
     <string name="delete_confirmation_dialog_positive_button_label">Smazat</string>
+    <string name="delete_old_recordings_error_cant_load_value">Aktuální hodnotu nastavení %1$s nelze načíst</string>
+    <string name="delete_old_recordings_error_cant_set_value">Aktuální hodnotu nastavení %1$s nelze uložit</string>
+    <string name="deleting_call_recording">Mazání nahrávky…</string>
     <string name="description_add_to_existing_contact_action">Záznam ^1 se přidá k existujícímu kontaktu</string>
     <string name="description_blocked_number_list_delete">Zrušit blokování čísla</string>
     <string name="description_call_action">Volat kontakt ^1</string>
@@ -607,6 +652,7 @@ Pošlete mu prosím pomoc."</string>
     <string name="emergency_sos_emergency_intro">"Jménem volajícího vás kontaktuje automatická hlasová služba tísňového volání.
 Volající signalizoval, že může být v nouzové situaci. 
 Pošlete prosím pomoc."</string>
+    <string name="emergency_speaker">Reproduktor</string>
     <string name="emergency_voice_assist_dialog_button_close">Zrušit</string>
     <string name="emergency_voice_assist_dialog_title">Operátor tísňové linky uslyší toto</string>
     <string name="end_call_with_default_message_description">Zavěsit</string>
@@ -636,9 +682,12 @@ Pošlete prosím pomoc."</string>
     <string name="feedback_call_issue_quiet_audio">Zvuk byl moc potichu</string>
     <string name="feedback_call_issue_title">V čem byl problém?</string>
     <string name="feedback_title_please_rate">Ohodnoťte prosím kvalitu hovoru</string>
+    <string name="first_time_callers_action_preference_description">Volající, které nemáte v seznamu hovorů</string>
+    <string name="first_time_callers_action_preference_title">Lidé, kteří volají poprvé</string>
     <string name="flip_to_shush_title">Režim nerušit otočením</string>
     <string name="flip_to_silence_summary">Když chcete vypnout vyzvánění příchozího hovoru, stačí telefon otočit obrazovkou dolů na rovný povrch</string>
     <string name="flip_to_silence_title">Tichý režim otočením</string>
+    <string name="foreground_notification_title">Aktualizace…</string>
     <string name="frequent_contact_suggestion">Často volané</string>
     <string name="general_learn_more">Další informace</string>
     <string name="generic_conference_call_name">V hovoru</string>
@@ -661,6 +710,7 @@ Pošlete prosím pomoc."</string>
     <string name="how_it_works_storage_link_text">Další informace o ukládání nahrávek</string>
     <string name="how_it_works_storage_template">Pokud vám v telefonu dojde úložný prostor, nahrávání bude pozastaveno. ^1</string>
     <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="icon_description_shared_data_call">Hovor se sdílením sítí</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Importovat čísla</string>
     <string name="ims_video_heading">Videohovor Verizon</string>
@@ -804,6 +854,7 @@ Pošlete prosím pomoc."</string>
     <string name="new_call_log_no_missed_calls">Nemáte žádné zmeškané hovory</string>
     <string name="new_call_log_permission_no_calllog">Pokud chcete zobrazit seznam hovorů, zapněte oprávnění Telefon.</string>
     <string name="new_call_log_secondary_blocked">Blokované</string>
+    <string name="new_call_log_secondary_verified">Ověřený hovor</string>
     <string name="new_call_log_snack_bar_deleted">Hovor byl smazán</string>
     <string name="new_call_log_snack_bar_undo">Vrátit zpět</string>
     <string name="new_call_log_unknown">Neznámé</string>
@@ -818,8 +869,10 @@ Pošlete prosím pomoc."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Odmítnout</string>
     <string name="notification_action_end_call">Zavěsit</string>
+    <string name="notification_action_mute_toggle">Vypnout oznámení</string>
     <string name="notification_action_speaker_off">Vypnout reproduktor</string>
     <string name="notification_action_speaker_on">Zapnout reproduktor</string>
+    <string name="notification_action_speaker_toggle">Reproduktor</string>
     <string name="notification_callReasonMsg">Důvod: %s</string>
     <string name="notification_call_wifi_brand">hovor přes Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">pracovní hovor přes Wi-Fi</string>
@@ -883,6 +936,8 @@ Pošlete prosím pomoc."</string>
     <string name="place_ims_button_content_description">Tlačítko, které spouští videohovor prostřednictvím operátora.</string>
     <string name="play">Přehrát</string>
     <string name="plus_code_line_format">Plus kód: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Volající, kteří můžou spamovat z pozměněného čísla</string>
+    <string name="possibly_faked_numbers_action_preference_title">Zřejmě podvodná čísla</string>
     <string name="post_call_message">Napište, proč jste volali</string>
     <string name="post_call_message_1">Zavolej mi, je to naléhavé.</string>
     <string name="post_call_message_2">Zavolej mi, až budeš mít čas.</string>
@@ -913,6 +968,8 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="privacy_policy_label">Zásady ochrany soukromí</string>
     <string name="private_num_non_verizon">Soukromé číslo</string>
     <string name="private_num_verizon">Omezeno</string>
+    <string name="private_or_hidden_action_preference_description">Volající, kteří používají skryté ID</string>
+    <string name="private_or_hidden_action_preference_title">Soukromá nebo skrytá čísla</string>
     <string name="quick_contact_checkbox_description">Vybrat kontakt</string>
     <string name="ready_for_recording">Příprava…</string>
     <string name="record_greeting_cancel_label">Zrušit</string>
@@ -928,6 +985,8 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="record_greeting_uploading_greeting_message">Ukládání…</string>
     <string name="record_voicemail_greeting_title">Nahrát pozdrav</string>
     <string name="recording_category_title">Nahrávky</string>
+    <string name="recording_deleted">Nahrávka byla smazána</string>
+    <string name="recording_deletion_failed">Nahrávku se nepodařilo smazat [Zkusit znovu]</string>
     <string name="redo_button_text">Zkusit znovu</string>
     <string name="remember_this_choice_label">Zapamatovat tuto volbu</string>
     <string name="report_not_spam_alert_button">Nahlásit</string>
@@ -939,9 +998,20 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="request_call_back_description">Zavolejte mi zpátky</string>
     <string name="request_email_description">Pošlete mi e-mail</string>
     <string name="respond_via_sms_setting_title">Rychlé odpovědi</string>
+    <string name="revelio_callers_how_it_works_text">"Pokud chcete automatické prověřování volajícího vypnout, vyberte pro neznámá čísla nastavení „Vyzvánět na telefonu (výchozí)“. Vaše kontakty se nikdy automaticky neprověřují. Automatické prověřování nebude fungovat, pokud máte telefon připojený ke sluchátkům nebo reproduktorům. 
+Prověřování volajícího nevyužívá data ani připojení Wi-Fi, spotřebovává ale minuty volání přes operátora. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Smazat po 30 dnech</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automaticky mazat starší nahrávky a přepisy</string>
+    <string name="revelio_demo_setting_title">Jak prověřování volajícího funguje</string>
     <string name="revelio_demo_turn_on">Zapnout</string>
     <string name="revelio_end_call_reject_as_spam">Hovor byl označen jako spam</string>
     <string name="revelio_end_call_user_missed_internal_message">Hovor byl zmeškán</string>
+    <string name="revelio_pref_title">Prověřování volajícího</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatické prověřování je vypnuto</string>
+    <string name="revelio_preference_summary_screening">Prověřování čísla %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Ukládat zvuk z hovorů, které za vás přijme Asistent</string>
+    <string name="revelio_save_audio_setting_title">Uložit při prověřování volajícího zvuk</string>
+    <string name="revelio_setting_title">Prověřování volajícího</string>
     <string name="rtt_assist_default">Funkce SMS během hovoru (RTT) pomáhá volajícím, kteří neslyší, jsou nedoslýchaví, mají řečovou vadu, případně potřebují textovou podporu při hlasových hovorech z jiného důvodu. ^1</string>
     <string name="rtt_assist_for_att">Jako alternativu k externí klávesnici TTY můžete využít klávesnici funkce SMS během hovoru (RTT) na obrazovce. Když píšete během hovoru s funkcí RTT, druhý volající vidí, co píšete, v reálném čase. ^1</string>
     <string name="rtt_assist_for_tmo">Jako alternativu k externí klávesnici TTY můžete využít klávesnici funkce SMS během hovoru (RTT) na obrazovce. Tato funkce během hovoru okamžitě odesílá to, co píšete, takže můžete s pomocí textových zpráv komunikovat v reálném čase. Před dokončením zprávy se vám budou zobrazovat části odpovědí. ^1</string>
@@ -949,7 +1019,8 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="rtt_button_back">Zpět</string>
     <string name="rtt_button_downgrade">Přepnout na hlasový hovor</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Pro tento hovor není funkce SMS během hovoru dostupná. Hovor byl spojen jako výhradně hlasový hovor.</string>
+    <string name="rtt_call_downgraded_toast">Hovor RTT byl změněn na výhradně hlasový hovor</string>
+    <string name="rtt_call_not_available_toast">Funkce RTT nejsou u tohoto hovoru k dispozici</string>
     <string name="rtt_configuration_summary_always_visible">Tlačítko pro SMS během hovoru je dostupné všude</string>
     <string name="rtt_configuration_summary_not_visible">Povolit příchozí hovory s funkcí SMS během hovoru, ale skrýt tlačítko pro volání</string>
     <string name="rtt_configuration_summary_visible_during_call">Zobrazovat tlačítko pro SMS během hovoru jen v rámci hovoru</string>
@@ -978,6 +1049,8 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="rtt_transcript_link">Zobrazit přepis</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Tato zpráva se bude opakovat.</string>
+    <string name="save_audio_error_cant_load_value">Nelze načíst aktuální hodnotu nastavení Uložit při prověřování volajícího zvuk</string>
+    <string name="save_audio_error_cant_set_value">Hodnotu nastavení Uložit při prověřování volajícího zvuk nelze uložit</string>
     <string name="save_button_text">Uložit</string>
     <string name="saved_voicemails_action_title">Uložené hlasové zprávy (%1$s)</string>
     <string name="search_hint">Prohledat kontakty k videohovorům</string>
@@ -1004,8 +1077,11 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="send_a_message">Poslat zprávu</string>
     <string name="send_to_voicemail_import_failed">Import se nezdařil.</string>
     <string name="serial_number">Sériové číslo</string>
+    <string name="set_as_default_button_text">Změnit na výchozí</string>
     <string name="set_default_account">Vždy používat pro hovory</string>
     <string name="set_default_account_description">Nastavení SIM se ukládá u vašich kontaktů.</string>
+    <string name="set_phone_as_default_explanation_text">Aplikace Telefon může volat a přijímat hovory, jen pokud se jedná o výchozí aplikaci na volání</string>
+    <string name="set_phone_as_default_request_text">Nastavit Telefon jako výchozí</string>
     <string name="settings">Nastavení</string>
     <string name="settings_page_call_recording_feature_not_available_text">Nahrávání hovorů není ve vaší lokalitě k dispozici</string>
     <string name="settings_page_crosby_feature_not_available_text">Ve vaší lokalitě není k dispozici</string>
@@ -1040,6 +1116,8 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="snackbar_undo">Vrátit</string>
     <string name="snackbar_voicemail_deleted">Hlas. zpráva smazána</string>
     <string name="sounds_and_vibration_title">Zvuky a vibrace</string>
+    <string name="spam_action_preference_description">Čísla, která má Google v databázi spamu</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Prověřování volajícího a spamu</string>
     <string name="spam_blocking_promo_action_dismiss">Zavřít</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrovat spam</string>
@@ -1066,8 +1144,6 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="speed_dial_add_button_text">Přidat</string>
     <string name="speed_dial_contacts_permission_description">Pokud chcete povolit rychlou volbu, zapněte oprávnění Kontakty.</string>
     <string name="speed_dial_disambig_dialog_title">Vyberte, jak zavolat kontaktu %s</string>
-    <string name="speed_dial_education_content">Podržením kontaktu přepnete mezi hovory a zprávami</string>
-    <string name="speed_dial_education_title">Další možnosti komunikace</string>
     <string name="speed_dial_no_contacts_action_text">Přidat oblíbený kontakt</string>
     <string name="speed_dial_no_contacts_description">Volejte svým oblíbeným kontaktům jediným klepnutím</string>
     <string name="speed_dial_remember_this_choice">Zapamatovat tuto volbu</string>
@@ -1084,6 +1160,45 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="suggestion_dialog_postive_snackbar_message">Děkujeme vám za zpětnou vazbu</string>
     <string name="suggestions_header">Časté kontakty</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">informace o účtu a systému</string>
+    <string name="survey_app_id">Číslo aplikace</string>
+    <string name="survey_app_name">Název aplikace</string>
+    <string name="survey_app_version">Verze aplikace</string>
+    <string name="survey_application_data">Data aplikace</string>
+    <string name="survey_brand">Značka</string>
+    <string name="survey_close_button_description">Zavřít</string>
+    <string name="survey_default_prompt_title">Pomozte nám prosím Google vylepšit.</string>
+    <string name="survey_device_model">Model zařízení</string>
+    <string name="survey_email_address">E-mailová adresa</string>
+    <string name="survey_google_play_services_version">Verze Služeb Google Play</string>
+    <string name="survey_legal_text">Pokračováním vyjadřujete souhlas s tím, že společnost Google použije vaše odpovědi, %1$s ke zlepšování služeb, jak popisují naše %2$s a %3$s.</string>
+    <string name="survey_library_version">Verze knihovny</string>
+    <string name="survey_network_request_failed">Požadavek sítě se nezdařil</string>
+    <string name="survey_neutral">Ani spokojeni, ani nespokojeni</string>
+    <string name="survey_next">Další</string>
+    <string name="survey_num_rating">%1$s z %2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Sem zadejte své komentáře</string>
+    <string name="survey_open_text_no_pii">Neuvádějte žádné osobní údaje</string>
+    <string name="survey_operating_system">Operační systém</string>
+    <string name="survey_operating_system_version">Verze operačního systému</string>
+    <string name="survey_other_option_hint">Jiné (prosím zadejte)</string>
+    <string name="survey_platform">Platforma</string>
+    <string name="survey_privacy">Soukromí</string>
+    <string name="survey_prompt_no_thanks">Ne, díky</string>
+    <string name="survey_prompt_take_our_survey">Zobrazit otázku</string>
+    <string name="survey_smiley_rating">Smajlík %1$s z %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Trochu nespokojeni</string>
+    <string name="survey_somewhat_satisfied">Trochu spokojeni</string>
+    <string name="survey_submit">Odeslat</string>
+    <string name="survey_system_info_dialog_title">Informace o účtu a systému</string>
+    <string name="survey_terms">Smluvní podmínky</string>
+    <string name="survey_thank_you_followup_message">Pomozte nám zlepšit službu tím, že odpovíte na další otázky</string>
+    <string name="survey_timezone_offset">Posun časového pásma</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">User-agent</string>
+    <string name="survey_very_dissatisfied">Velmi nespokojeni</string>
+    <string name="survey_very_satisfied">Velmi spokojeni</string>
     <string name="system_default_theme_label">Výchozí nastavení systému</string>
     <string name="tab_title_call_history">Poslední</string>
     <string name="tab_title_contacts">Kontakty</string>
@@ -1095,11 +1210,15 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="terms_of_service_label">Smluvní podmínky</string>
     <string name="textmessage_button_label">Poslat zprávu</string>
     <string name="theme_preference_label">Vybrat motiv</string>
+    <string name="tidepods_call_screen_settings_title">Prověřování volajícího</string>
+    <string name="tidepods_incall_label_record">Nahrávat</string>
     <string name="toast_text_copied">Text byl zkopírován</string>
     <string name="toolbar_back">Zpět</string>
     <string name="toolbar_close">Zavřít</string>
     <string name="transcript_audio_feedback_chip_text">Pomozte nám zlepšovat se</string>
+    <string name="transcript_audio_feedback_link_text">Zobrazit přepis a zvuk</string>
     <string name="transcript_snippet_low_confidence_description">(Zvuk nebyl čistý)</string>
+    <string name="try_again_button">Zkusit znovu</string>
     <string name="tty_configuration_title_tty_full">Úplný režim TTY</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY vypnuto</string>
@@ -1121,7 +1240,6 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="type_outgoing_video_pulled">Odchozí videohovor byl přesměrován na jiné zařízení</string>
     <string name="type_rejected">Odmítnutý hovor</string>
     <string name="type_voicemail">Hlasová schránka</string>
-    <string name="unable_change_value_error">Nastavení funkce RTT se nepodařilo změnit. Vraťte se zpět a zkuste to znovu.</string>
     <string name="unable_read_value_error">Nastavení funkce RTT se nepodařilo načíst. Vraťte se zpět a zkuste to znovu.</string>
     <string name="unblock_number">Odblokovat</string>
     <string name="unblock_number_alert_details">Toto číslo bude odblokováno a bude nahlášeno, že se nejedná o spam. Budoucí hovory nebudou označeny jako spam.</string>
@@ -1130,6 +1248,7 @@ Videohovor na některá telefonní čísla budete moct uskutečnit i bez aktual
     <string name="unblock_number_ok">Odblokovat</string>
     <string name="unblock_report_number_alert_title">Odblokovat číslo %1$s?</string>
     <string name="unknown">Neznámé</string>
+    <string name="unknown_call_settings_category_preference_title">Nastavení neznámých hovorů</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Zapnout zvuk příchozího hovoru</string>
     <string name="user_is_busy_description">Zavolám vám později</string>
@@ -1241,10 +1360,17 @@ budou se ale spotřebovávat data."</string>
     <string name="videocall_remote_video_on">Video tohoto uživatele je zapnuto</string>
     <string name="videocall_remotely_held">Podržený hovor</string>
     <string name="videocall_remotely_resumed">Hovor byl obnoven</string>
+    <string name="videocall_settings_default_carrier">Videohovory přes operátora</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Výchozí služba pro videohovory</string>
+    <string name="videocall_settings_fallback_summary">Pokud videohovory přes operátora nejsou dostupné, přepneme na službu Duo</string>
+    <string name="videocall_settings_fallback_title">Použít službu Duo jako záložní</string>
+    <string name="videocall_settings_title">Videohovory</string>
     <string name="videocall_show_preview_button_description">Zobrazit místní video</string>
     <string name="view">Zobrazit</string>
     <string name="view_location_settings">Nastavení polohy</string>
     <string name="vitle_label">Video přes LTE</string>
+    <string name="viwifi_label">Videohovor přes Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Nový kód PIN obsahuje neplatné znaky.</string>
     <string name="vm_change_pin_error_mismatch">Starý kód PIN se neshoduje.</string>
     <string name="vm_change_pin_error_system_error">Kód PIN se nepodařilo změnit</string>
@@ -1254,8 +1380,11 @@ budou se ale spotřebovávat data."</string>
     <string name="vm_change_pin_progress_message">Počkejte prosím.</string>
     <string name="voice_call">Hovor</string>
     <string name="voice_call_button">Zavolat</string>
+    <string name="voice_display_name">Hlas %1$d</string>
     <string name="voice_search_not_available">Hlasové vyhledávání není k dispozici.</string>
     <string name="voice_selector_preference_title">Dostupné hlasy</string>
+    <string name="voice_settings_available_voices_text">Nabídka hlasů</string>
+    <string name="voice_settings_title">Hlasy</string>
     <string name="voicecall_button_label">Zavolat</string>
     <string name="voicecall_button_wifi_description">Zavolat přes Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s v %2$s</string>
@@ -1290,7 +1419,6 @@ budou se ale spotřebovávat data."</string>
     <string name="voicemail_donation_promo_title">Pomozte vylepšit přesnost přepisu!</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Za používání vizuální hlasové schránky u SIM karet bez dat může operátor účtovat poplatky</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Vizuální hlasová schránka je k dispozici jen pro vybrané datové SIM karty</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Pokud máte několik SIM karet a jedna z nich je pro službu Fi, bude pro vizuální hlasovou schránku použita tato SIM karta</string>
     <string name="voicemail_error_activating_message">Je možné, že dokud nebude vizuální hlasová schránka plně aktivována, nebudou vám chodit oznámení z hlasové schránky. Do té doby se k novým zprávám dostanete po zavolání do hlasové schránky.</string>
     <string name="voicemail_error_activating_title">Aktivace vizuální hlasové schránky</string>
     <string name="voicemail_error_activation_disabled_message">Dokončete její nastavení tím, že zavoláte do hlasové schránky</string>
@@ -1397,6 +1525,7 @@ budou se ale spotřebovávat data."</string>
     <string name="vvm3_error_vms_no_cellular_title">K vaší hlasové schránce se nepodařilo připojit</string>
     <string name="vvm3_error_vms_timeout_message">Bohužel se vyskytl problém. Zkuste to prosím znovu. Pokud budou potíže přetrvávat, kontaktujte zákaznický servis na čísle %1$s a sdělte kód chyby 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Něco se pokazilo</string>
+    <string name="vvm_config_title">Konfigurace vizuální hlasové schránky</string>
     <string name="vvm_unsupported_message_format">Nepodporovaný typ zprávy. Pokud si ji chcete poslechnout, zavolejte na číslo %s.</string>
     <string name="wait_prompt_str">"Odeslat následující tóny?
 "</string>

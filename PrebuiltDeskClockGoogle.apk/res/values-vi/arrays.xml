@@ -17,14 +17,21 @@
         <item>15 phút</item>
         <item>20 phút</item>
         <item>25 phút</item>
-        <item>Không bao giờ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 phút trước giờ đi ngủ</item>
+        <item>30 phút trước giờ đi ngủ</item>
+        <item>45 phút trước giờ đi ngủ</item>
+        <item>1 tiếng trước giờ đi ngủ</item>
+        <item>Tắt</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Đồng hồ kim</item>
         <item>Đồng hồ số</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Không bao giờ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 giây</item>
         <item>10 giây</item>
         <item>15 giây</item>
@@ -37,6 +44,35 @@
         <item>50 giây</item>
         <item>55 giây</item>
         <item>60 giây</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Dừng sau 10 phút</item>
+        <item>Dừng sau 20 phút</item>
+        <item>Dừng sau 30 phút</item>
+        <item>Dừng sau 40 phút</item>
+        <item>Dừng sau 50 phút</item>
+        <item>Dừng sau 1 giờ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Dừng sau 10 phút</item>
+        <item>Dừng sau 20 phút</item>
+        <item>Dừng sau 30 phút</item>
+        <item>Dừng sau 40 phút</item>
+        <item>Dừng sau 50 phút</item>
+        <item>Dừng sau 1 giờ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>40 phút</item>
+        <item>50 phút</item>
+        <item>1 giờ</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 phút</item>
@@ -69,18 +105,6 @@
         <item>28 phút</item>
         <item>29 phút</item>
         <item>30 phút</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Bạn đúng là con quỷ tốc độ.</item>
-        <item>Tận hưởng thành quả lao động của bạn.</item>
-        <item>Android được cho là nhanh, nhưng không nhanh bằng bạn!</item>
-        <item>Kinh quá.</item>
-        <item>L33t lần.</item>
-        <item>Vận tốc phi thường.</item>
-        <item>Hãy làm chậm thời gian lại.</item>
-        <item>Chỉ cần nhảy sang bên trái.</item>
-        <item>Bạn có một bảng màu vội vàng.</item>
-        <item>Vận tốc của lượng tử ánh sáng.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Quần đảo Marshall</item>

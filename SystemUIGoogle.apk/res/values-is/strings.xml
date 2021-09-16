@@ -595,6 +595,8 @@ Val"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Endurræsa þarf tækið til að þessi breyting taki gildi. Endurræstu núna eða hættu við.</string>
     <string name="camera_hint">Strjúktu frá tákninu fyrir myndavél</string>
     <string name="camera_label">opna myndavél</string>
+    <string name="camera_recording_announcement">Myndavél er að taka upp</string>
+    <string name="camera_stopped_recording_announcement">Myndavél er hætt að taka upp</string>
     <string name="cancel">Hætta við</string>
     <string name="carrier_network_change_mode">Skiptir um farsímakerfi</string>
     <string name="category_personal">Persónulegt</string>
@@ -734,6 +736,10 @@ Ef þú heldur áfram gætu gjöld verið innheimt fyrir gagnanotkun."</string>
     <string name="debug_monitoring_category">Eftirlit</string>
     <string name="debug_networking_category">Netkerfi</string>
     <string name="debug_view_attributes">Virkja yfirlit skoðunar eiginda</string>
+    <string name="defender_notify_des">Síminn þinn takmarkar hleðslu til að auka endingu rafhlöðunnar</string>
+    <string name="defender_notify_learn_more">Nánar</string>
+    <string name="defender_notify_resume_charge">Halda hleðslu áfram</string>
+    <string name="defender_notify_title">Hleðsla takmörkuð tímabundið</string>
     <string name="delete_blob_confirmation_text">Ertu viss um að þú viljir eyða þessum deildu gögnum?</string>
     <string name="delete_blob_text">Eyða deildum gögnum</string>
     <string name="demo_mode">Prufustilling kerfisviðmóts</string>
@@ -1070,6 +1076,7 @@ forgangur"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Tekur SIM-kort úr lás…</string>
     <string name="keyguard_try_fingerprint">Opna með fingrafari</string>
     <string name="keyguard_unlock">Strjúktu upp til að opna</string>
+    <string name="keyguard_unlock_press">Ýttu til að opna</string>
     <string name="keywords_adb_wireless">adb, villuleit, dev</string>
     <string name="keywords_alarms_and_reminders">áætlun, vekjari, áminning, klukka</string>
     <string name="kg_enter_confirm_pin_hint">Staðfestu nýja PIN-númerið</string>
@@ -1233,6 +1240,10 @@ Reyndu aftur eftir %2$d sekúndur."</string>
     <string name="menu_ime">Lyklaborðsval</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Hljóðnemi virkur</string>
+    <string name="mic_and_camera_recording_announcement">Myndavél og hljóðnemi eru að taka upp</string>
+    <string name="mic_camera_stopped_recording_announcement">Myndavél og hljóðnemi eru hætt að taka upp</string>
+    <string name="mic_recording_announcement">Hljóðnemi er að taka upp</string>
+    <string name="mic_stopped_recording_announcement">Hljóðnemi er hættur að taka upp</string>
     <string name="missed_call">Ósvarað símtal</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Farsímagögn</string>
@@ -1706,8 +1717,6 @@ Ef spurningar vakna skaltu hafa samband við %2$s."</string>
     <string name="quick_settings_work_mode_label">Vinnuforrit</string>
     <string name="quick_step_accessibility_toggle_overview">Kveikja/slökkva á yfirliti</string>
     <string name="recent_conversations">Nýleg samtöl</string>
-    <string name="recents_quick_scrub_onboarding">Dragðu til hægri til að skipta hratt á milli forrita</string>
-    <string name="recents_swipe_up_onboarding">Strjúktu upp til að skipta á milli forrita</string>
     <string name="remaining_length_format">%1$s eftir</string>
     <string name="remote_input_image_insertion_text">sendi mynd</string>
     <string name="remove_from_settings">Fjarlægja úr stillingum</string>
@@ -2117,6 +2126,7 @@ Hvaða notandi sem er getur uppfært forrit fyrir alla aðra notendur."</string>
     <string name="wallet_secondary_label_no_card">Bæta korti við</string>
     <string name="wallet_secondary_label_updating">Uppfærir</string>
     <string name="wallet_title">Veski</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Aðgangsstaður tímabundið fullur</string>
     <string name="wifi_cant_connect">Ekki tókst að tengjast</string>
     <string name="wifi_cant_connect_to_ap">Ekki tókst að tengjast við „%1$s“</string>

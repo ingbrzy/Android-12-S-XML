@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">裝置必須重新啟動才能套用這項變更。請立即重新啟動或取消變更。</string>
     <string name="camera_hint">滑動相機圖示即可啟用</string>
     <string name="camera_label">開啟攝影機</string>
+    <string name="camera_recording_announcement">相機正在錄影</string>
+    <string name="camera_stopped_recording_announcement">相機已停止錄影</string>
     <string name="cancel">取消</string>
     <string name="carrier_network_change_mode">電信業者網路正在進行變更</string>
     <string name="category_personal">個人</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">監控</string>
     <string name="debug_networking_category">網路連線</string>
     <string name="debug_view_attributes">啟用檢視屬性檢查</string>
+    <string name="defender_notify_des">為延長電池壽命，手機目前已限制充電</string>
+    <string name="defender_notify_learn_more">瞭解詳情</string>
+    <string name="defender_notify_resume_charge">繼續充電</string>
+    <string name="defender_notify_title">已暫時限制充電</string>
     <string name="delete_blob_confirmation_text">確定要刪除這項共用資料嗎？</string>
     <string name="delete_blob_text">刪除共用資料</string>
     <string name="demo_mode">系統 UI 示範模式</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">正在解除 SIM 卡鎖定…</string>
     <string name="keyguard_try_fingerprint">使用指紋即可開啟</string>
     <string name="keyguard_unlock">向上滑動即可開啟</string>
+    <string name="keyguard_unlock_press">按下即可開啟</string>
     <string name="keywords_adb_wireless">ADB, 偵錯, 開發</string>
     <string name="keywords_alarms_and_reminders">時間表, 鬧鐘, 提醒, 時鐘</string>
     <string name="kg_enter_confirm_pin_hint">確認所需的 PIN 碼</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">鍵盤切換工具</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">麥克風已開啟</string>
+    <string name="mic_and_camera_recording_announcement">相機和麥克風正在錄影及錄音</string>
+    <string name="mic_camera_stopped_recording_announcement">相機和麥克風已停止錄影及錄音</string>
+    <string name="mic_recording_announcement">麥克風正在錄音</string>
+    <string name="mic_stopped_recording_announcement">麥克風已停止錄音</string>
     <string name="missed_call">未接來電</string>
     <string name="mobile_carrier_text_format">%1$s，%2$s</string>
     <string name="mobile_data">行動數據</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">工作應用程式</string>
     <string name="quick_step_accessibility_toggle_overview">切換總覽</string>
     <string name="recent_conversations">最近的對話</string>
-    <string name="recents_quick_scrub_onboarding">向右拖曳即可快速切換應用程式</string>
-    <string name="recents_swipe_up_onboarding">向上滑動即可切換應用程式</string>
     <string name="remaining_length_format">還剩 %1$s</string>
     <string name="remote_input_image_insertion_text">傳送了一張圖片</string>
     <string name="remove_from_settings">從設定中移除</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">新增卡片</string>
     <string name="wallet_secondary_label_updating">更新中</string>
     <string name="wallet_title">電子錢包</string>
+    <string name="weather_description">%1$s，%2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">存取點暫時滿載</string>
     <string name="wifi_cant_connect">無法連線</string>
     <string name="wifi_cant_connect_to_ap">無法連線至「%1$s」</string>

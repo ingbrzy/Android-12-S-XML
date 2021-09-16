@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Jeziki in vnos</string>
     <string name="lift_to_wake_title">Preklop iz stanja pripravlj. z dviganjem</string>
-    <string name="lockdown_settings_summary">Prikaz možnosti gumba za vklop, s katerim izklopite funkcijo Smart Lock, odklepanje z obrazom, odklepanje s prstnimi odtisi in obvestila na zaklenjenem zaslonu.</string>
-    <string name="lockdown_settings_title">Prikaži možnost za zaklep</string>
+    <string name="abc_action_bar_home_description">Krmarjenje na začetek</string>
+    <string name="abc_action_bar_up_description">Pomik navzgor</string>
     <string name="locked_work_profile_notification_title">Ko je delovni profil zaklenjen</string>
     <string name="lockscreen_bypass_summary">Po odklepanju odpri nazadnje uporabljen zaslon.</string>
     <string name="lockscreen_bypass_title">Preskoči zaklenjen zaslon</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Obvestila za delovni profil</string>
     <string name="reset_dashboard_summary">Ponastavite lahko omrežje, aplikacije ali napravo</string>
     <string name="reset_dashboard_title">Možnosti ponastavitve</string>
-    <string name="abc_action_bar_home_description">Krmarjenje na začetek</string>
+    <string name="abc_action_menu_overflow_description">Več možnosti</string>
     <string name="screensaver_settings_title">Ohranjevalnik zaslona</string>
     <string name="screen_timeout">Časovna omejitev za zaslon</string>
     <string name="screen_zoom_title">Velikost prikaza</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Samodejno poveča hitrost osveževanja s 60 na 90 Hz za nekatere vsebine. Poveča porabo energije baterije.</string>
     <string name="accessibility_vibration_settings_title">Vibriranje in odziv na dotik</string>
     <string name="emergency_gesture_screen_title">Nujni primer</string>
-    <string name="abc_action_bar_up_description">Pomik navzgor</string>
+    <string name="abc_action_mode_done">Končano</string>
     <string name="vibrate_for_calls_category_title">Klici</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Prikaži denarnico</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Prikaži kontrolnike naprave</string>
     <string name="lockscreen_privacy_wallet_summary">Dovolite dostop do denarnice prek zaklenjenega zaslona in hitrih nastavitev.</string>
     <string name="lockscreen_privacy_controls_summary">Dostopajte do kontrolnikov pri zaklenjenem zaslonu.</string>
-    <string name="abc_action_menu_overflow_description">Več možnosti</string>
-    <string name="abc_action_mode_done">Končano</string>
     <string name="abc_activity_chooser_view_see_all">Pokaži vse</string>
     <string name="abc_activitychooserview_choose_application">Izbira aplikacije</string>
     <string name="abc_capital_off">IZKLOP</string>
@@ -914,10 +912,10 @@ Ko je telefon ponastavljen, izvedite postopek nastavitve in izberite možnost za
     <string name="battery_desc_wifi">Energija baterije, ki jo je porabil Wi‑Fi</string>
     <string name="battery_detail_background">Med izvajanjem v ozadju</string>
     <string name="battery_detail_foreground">Med aktivno uporabo</string>
-    <string name="battery_detail_info_title">Od polne napolnjenosti akumulatorja</string>
+    <string name="battery_detail_info_title">Od polne napolnjenosti baterije</string>
     <string name="battery_detail_manage_title">Upravljanje porabe baterije</string>
     <string name="battery_detail_power_usage">Poraba baterije</string>
-    <string name="battery_detail_since_full_charge">Razčlenitev od zadnje napolnjenosti akumulatorja</string>
+    <string name="battery_detail_since_full_charge">Razčlenitev od zadnje napolnjenosti baterije</string>
     <string name="battery_details_title">Poraba baterije</string>
     <string name="battery_footer_summary">Podatki o porabi energije baterije so približni in se lahko spremenijo glede na uporabo naprave.</string>
     <string name="battery_full_charge_last">Polno napolnjena naprava deluje približno</string>
@@ -1164,7 +1162,7 @@ v časovnem obdobju ^2"</string>
     <string name="bluetooth_disconnect_dialog_ok">Prekini povezavo</string>
     <string name="bluetooth_disconnect_headset_profile">Povezava med napravo %1$s in prostoročnim zvokom bo prekinjena.</string>
     <string name="bluetooth_disconnect_hid_profile">Povezava med napravo %1$s in vnosno napravo bo prekinjena.</string>
-    <string name="bluetooth_disconnect_pan_nap_profile">Naprava %1$s bo izključena iz skupne rabe internetne povezave tega telefona.</string>
+    <string name="bluetooth_disconnect_pan_nap_profile">Naprava %1$s bo izključena iz deljenja internetne povezave tega telefona.</string>
     <string name="bluetooth_disconnect_pan_user_profile">Internetni dostop prek naprave %1$s bo prekinjen.</string>
     <string name="bluetooth_disconnect_title">Prekinitev povezave z napravo?</string>
     <string name="bluetooth_disconnected">Prekinjena povezava</string>
@@ -1237,7 +1235,7 @@ v časovnem obdobju ^2"</string>
     <string name="bluetooth_pairing_device_down_error_message">Z napravo %1$s ni mogoče vzpostaviti povezave.</string>
     <string name="bluetooth_pairing_dialog_contants_request">Naprava %1$s želi dostopati do vaših stikov in zgodovine klicev.</string>
     <string name="bluetooth_pairing_dialog_paring_request">Naprava %1$s se želi seznaniti prek Bluetootha. Ko bo povezana, bo imela dostop do vaših stikov in zgodovine klicev.</string>
-    <string name="bluetooth_pairing_dialog_sharing_phonebook_title">Želite dati telef. imenik v skupno rabo?</string>
+    <string name="bluetooth_pairing_dialog_sharing_phonebook_title">Želite deliti telefonski imenik?</string>
     <string name="bluetooth_pairing_dialog_title">Želite opraviti seznanitev s to napravo?</string>
     <string name="bluetooth_pairing_error_message">Ni bilo mogoče vzpostaviti povezave z napravo %1$s.</string>
     <string name="bluetooth_pairing_key_msg">Koda Bluetooth za seznanitev</string>
@@ -1248,7 +1246,7 @@ v časovnem obdobju ^2"</string>
     <string name="bluetooth_pairing_request">Želite opraviti seznanitev z napravo %1$s?</string>
     <string name="bluetooth_pairing_shares_phonebook">Dovoli dostop do stikov in zgodovine klicev</string>
     <string name="bluetooth_pairing_will_share_phonebook">Seznanjanje pri vzpostavljeni povezavi omogoči dostop do vaših stikov in zgodovine klicev.</string>
-    <string name="bluetooth_pan_nap_profile_summary_connected">Skupna raba lok. internetne povezave z napravo</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Deljenje lok. internetne povezave z napravo</string>
     <string name="bluetooth_pan_profile_summary_use_for">Uporabi za dostop do interneta</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Povezava z napravo za internetni dostop</string>
     <string name="bluetooth_pb_acceptance_dialog_text">Naprava %1$s želi dostop do stikov in zgodovine klicev. Ali želite omogočiti dostop napravi %2$s?</string>
@@ -1280,9 +1278,9 @@ v časovnem obdobju ^2"</string>
     <string name="bluetooth_profile_map">Sporočila SMS</string>
     <string name="bluetooth_profile_opp">Prenos datoteke</string>
     <string name="bluetooth_profile_pan">Internetni dostop</string>
-    <string name="bluetooth_profile_pan_nap">Skupna raba internetne povezave</string>
+    <string name="bluetooth_profile_pan_nap">Deljenje internetne povezave</string>
     <string name="bluetooth_profile_pbap">Deljenje stikov</string>
-    <string name="bluetooth_profile_pbap_summary">Uporabi za dajanje stikov v skupno rabo</string>
+    <string name="bluetooth_profile_pbap_summary">Uporabi za deljenje stikov</string>
     <string name="bluetooth_profile_sap">Dostop do kartice SIM</string>
     <string name="bluetooth_quick_toggle_summary">Vklopi Bluetooth</string>
     <string name="bluetooth_quick_toggle_title">Bluetooth</string>
@@ -1736,7 +1734,7 @@ S prstom povlecite z vrha zaslona navzdol, da odprete potezni zaslon z obvestili
     <string name="crypt_keeper_confirm_title">Želite šifrirati?</string>
     <string name="crypt_keeper_data_corrupt_summary">"Vnesli ste pravilno geslo, vendar so podatki poškodovani. 
 
-Če želite še naprej uporabljati telefon, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali telefon, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v Google Račun."</string>
+Če želite še naprej uporabljati telefon, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali telefon, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v račun Google."</string>
     <string name="crypt_keeper_data_corrupt_title">Dešifriranje ni uspelo</string>
     <string name="crypt_keeper_desc">"Šifrirate lahko račune, nastavitve, prenesene aplikacije in njihove podatke, predstavnosti in druge datoteke. Če ste nastavili zaklepanje zaslona (z vzorcem, številsko kodo PIN ali geslom), boste morali po šifriranju telefona ob vsakem vklopu odkleniti zaslon, če boste želeli telefon dešifrirati. Edini drugi način dešifriranja je, da telefon ponastavite na tovarniške nastavitve, s čemer izbrišete vse podatke.
 
@@ -1748,7 +1746,7 @@ S prstom povlecite z vrha zaslona navzdol, da odprete potezni zaslon z obvestili
     <string name="crypt_keeper_enter_password">Vnesite geslo</string>
     <string name="crypt_keeper_failed_summary">"Šifriranje je bilo prekinjeno in ga ni mogoče končati, zato podatki v telefonu niso več dostopni. 
 
-Če želite telefon ponovno uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi ponovno nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v Google Račun."</string>
+Če želite telefon ponovno uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi ponovno nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v račun Google."</string>
     <string name="crypt_keeper_failed_title">Šifriranje ni uspelo</string>
     <string name="crypt_keeper_final_desc">Šifriranja ne morete razveljaviti ali prekiniti, ker lahko izgubite podatke. Šifriranje traja eno uro ali več in v tem času se bo telefon večkrat znova zagnal.</string>
     <string name="crypt_keeper_force_power_cycle">Če želite odkleniti telefon, ga izklopite in nato vklopite.</string>
@@ -1851,7 +1849,7 @@ Ustreznejši kontrolniki za uporabo podatkov so na voljo v nastavitvah v aplikac
     <string name="data_usage_auto_sync_off_dialog_title">Želite izklopiti samodejno sinhroniziranje podatkov?</string>
     <string name="data_usage_auto_sync_on_dialog">"Morebitne spremembe v računih, ki jih naredite v spletu, bodo samodejno kopirane v telefon.
 
-Nekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v telefonu, v splet. Tako deluje Google Račun."</string>
+Nekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v telefonu, v splet. Tako deluje račun Google."</string>
     <string name="data_usage_auto_sync_on_dialog_title">Želite vklopiti samodejno sinhroniziranje podatkov?</string>
     <string name="data_usage_background_label">Ozadje:</string>
     <string name="data_usage_cellular_data">Prenos podatkov v mobilnem omrežju</string>
@@ -2033,7 +2031,7 @@ Nastavitev vpliva na vse uporabnike v tem telefonu."</string>
     <string name="device_status">Stanje</string>
     <string name="device_status_activity_title">Stanje</string>
     <string name="device_status_summary">Telefonska številka, signal itn.</string>
-    <string name="device_usage_list_summary">Poraba naprave od polne napolnjenosti akumulatorja</string>
+    <string name="device_usage_list_summary">Poraba naprave od polne napolnjenosti baterije</string>
     <string name="devices_title">Naprave</string>
     <string name="dial_pad_tones_title">Toni tipkovnice</string>
     <string name="dialog_aware_settings_message" />
@@ -2136,7 +2134,7 @@ Težavo lahko poskusite rešiti tako, da zaustavite aplikacijo %1$s.
     <string name="dock_sounds_enable_summary_off">Ne predvajaj zvoka pri vstavitvi telefona v stojalo ali odstranitvi iz njega</string>
     <string name="dock_sounds_enable_summary_on">Predvajaj zvok pri vstavitvi telefona v stojalo ali odstranitvi iz njega</string>
     <string name="dock_sounds_enable_title">Zvok ob vstavitvi v stojalo</string>
-    <string name="dock_summary_charging_phone">Polnjenje akumulatorja telefona</string>
+    <string name="dock_summary_charging_phone">Polnjenje baterije telefona</string>
     <string name="docking_sounds_title">Zvok ob odlaganju v nosilec</string>
     <string name="does_not_exist">Aplikacija ne obstaja.</string>
     <string name="domain_url_section_title">Nameščene aplikacije</string>
@@ -2745,7 +2743,7 @@ Nastavitev lahko pozneje spremenite v Nastavitve > Aplikacije in obvestila."</st
     <string name="keywords_device_feedback">napaka</string>
     <string name="keywords_display_adaptive_sleep">pametno, zatemnitev zaslona, stanje pripravljenosti, baterija, časovna omejitev, zaznavanje pogleda, prikaz, zaslon, nedejavnost</string>
     <string name="keywords_display_auto_brightness">zatemnitev zaslona, zaslon na dotik, baterija, pametna svetlost, dinamična svetlost, samodejno prilagajanje svetlosti</string>
-    <string name="keywords_display_cast_screen">projekcija, predvajanje, zrcaljenje zaslona, skupna raba zaslona, zrcaljenje, skupna raba zaslona, predvajanje zaslona</string>
+    <string name="keywords_display_cast_screen">projekcija, predvajanje, zrcaljenje zaslona, deljenje zaslona, zrcaljenje, skupna raba zaslona, predvajanje zaslona</string>
     <string name="keywords_display_font_size">velikost besedila</string>
     <string name="keywords_display_night_display">zatemnitev zaslona, noč, obarvanje, preklop na nočni način, svetlost, barva zaslona, barva</string>
     <string name="keywords_display_size">velikost zaslona, velik zaslon</string>
@@ -4233,7 +4231,7 @@ Pripenjanje aplikacij uporabite le za osebe, ki jim zaupate."</string>
     <string name="screen_time_summary_usage_today">Danes: %1$s</string>
     <string name="screen_timeout_summary">Po toliko časa nedejavnosti: %1$s</string>
     <string name="screen_timeout_title">Zaslon se izklopi</string>
-    <string name="screen_usage_summary">Trajanje vklopljenosti zaslona od polne napolnjenosti akumulatorja</string>
+    <string name="screen_usage_summary">Trajanje vklopljenosti zaslona od polne napolnjenosti baterije</string>
     <string name="screen_zoom_conversation_icon_alex">A</string>
     <string name="screen_zoom_conversation_icon_pete">P</string>
     <string name="screen_zoom_conversation_message_1">Živijo, Peter.</string>
@@ -4595,17 +4593,17 @@ Opomba: prstnega odtisa ne morete uporabiti za odklepanje naprave. Za več infor
     <string name="severe_threats_summary">Prejem. opozoril o resnih grožnjah za življenje in premož.</string>
     <string name="severe_threats_title">Resne grožnje</string>
     <string name="share">Deli</string>
-    <string name="share_remote_bugreport_action">Skupna raba</string>
-    <string name="share_remote_bugreport_dialog_message">Skrbnik za IT je zahteval poročilo o napakah za pomoč pri odpravljanju napak v tej napravi. Aplikacije in podatki bodo morda dani v skupno rabo in delovanje naprave bo morda začasno upočasnjeno.</string>
-    <string name="share_remote_bugreport_dialog_message_finished">Skrbnik za IT je zahteval poročilo o napakah za pomoč pri odpravljanju napak v tej napravi. Aplikacije in podatki bodo morda dani v skupno rabo.</string>
-    <string name="share_remote_bugreport_dialog_title">Želite poročilo o napakah dati v skupno rabo?</string>
+    <string name="share_remote_bugreport_action">Deli</string>
+    <string name="share_remote_bugreport_dialog_message">Skrbnik za IT je zahteval poročilo o napakah za pomoč pri odpravljanju napak v tej napravi. Aplikacije in podatki bodo morda deljeni in delovanje naprave bo morda začasno upočasnjeno.</string>
+    <string name="share_remote_bugreport_dialog_message_finished">Skrbnik za IT je zahteval poročilo o napakah za pomoč pri odpravljanju napak v tej napravi. Aplikacije in podatki bodo morda deljeni.</string>
+    <string name="share_remote_bugreport_dialog_title">Želite deliti poročilo o napakah?</string>
     <string name="shared_data_delete_failure_text">Pri brisanju deljenih podatkov je prišlo do napake.</string>
     <string name="shared_data_no_accessors_dialog_text">Za te deljene podatke ni pridobljen noben zakup. Ali želite podatke izbrisati?</string>
     <string name="shared_data_no_blobs_text">Za tega uporabnika ni nobenih deljenih podatkov.</string>
     <string name="shared_data_query_failure_text">Pri pridobivanju deljenih podatkov je prišlo do napake. Poskusite znova.</string>
     <string name="shared_data_summary">Ogled in sprememba deljenih podatkov</string>
     <string name="shared_data_title">Deljeni podatki</string>
-    <string name="sharing_remote_bugreport_dialog_message">To poročilo o napakah je v skupni rabi s skrbnikom za IT. Če želite več podrobnosti, se obrnite nanj.</string>
+    <string name="sharing_remote_bugreport_dialog_message">To poročilo o napakah je deljeno s skrbnikom za IT. Če želite več podrobnosti, se obrnite nanj.</string>
     <string name="short_summary_font_size">Pomanjšava ali povečava besedila</string>
     <string name="show_all_anrs">Pokaži ANR-je v ozadju</string>
     <string name="show_all_anrs_summary">Prikaži pogovorno okno za neodzivanje aplikacij v ozadju.</string>
@@ -5118,7 +5116,7 @@ Googlov pristop k sinhroniziranju podatkov, s katerim lahko dostopate do stikov,
     <string name="tether_settings_title_usb">Internet prek USB-ja</string>
     <string name="tether_settings_title_usb_bluetooth">Internet prek mob. napr.</string>
     <string name="tether_settings_title_wifi">Prenosna dostopna točka</string>
-    <string name="tethering_footer_info">Uporabite dostopno točko in povezavo z internetom prek mobilnega telefona, da zagotovite internet drugim napravam prek svoje mobilne podatkovne povezave. Tudi aplikacije lahko ustvarijo dostopno točko za skupno rabo vsebin z napravami v bližini.</string>
+    <string name="tethering_footer_info">Uporabite dostopno točko in povezavo z internetom prek mobilnega telefona, da zagotovite internet drugim napravam prek svoje mobilne podatkovne povezave. Tudi aplikacije lahko ustvarijo dostopno točko za deljenje vsebin z napravami v bližini.</string>
     <string name="tethering_footer_info_sta_ap_concurrency">Uporabite dostopno točko in povezavo z internetom prek mobilnega telefona, da zagotovite internet drugim napravam prek Wi-Fi-ja ali mobilne podatkovne povezave. Tudi aplikacije lahko ustvarijo dostopno točko za deljenje vsebin z napravami v bližini.</string>
     <string name="tethering_hardware_offload">Strojno pospeševanje za internetno povezavo prek mobilnega telefona</string>
     <string name="tethering_hardware_offload_summary">Uporabi strojno pospeševanje za internetno povezavo prek mobilnega telefona, če je na voljo.</string>
@@ -5350,7 +5348,7 @@ S tem boste izbrisali tudi model prstnega odtisa, ki je shranjen v napravi. Prst
     <string name="usb_summary_file_transfers_power">Prenos datotek in napajanje</string>
     <string name="usb_summary_photo_transfers">PTP</string>
     <string name="usb_summary_photo_transfers_power">PTP in napajanje</string>
-    <string name="usb_summary_power_only">Polnjenje akumulatorja v povezani napravi</string>
+    <string name="usb_summary_power_only">Polnjenje baterije v povezani napravi</string>
     <string name="usb_summary_tether">Internet prek USB-ja</string>
     <string name="usb_summary_tether_power">Internet in napajanje prek USB-ja</string>
     <string name="usb_switching">Preklapljanje …</string>
@@ -5364,7 +5362,7 @@ S tem boste izbrisali tudi model prstnega odtisa, ki je shranjen v napravi. Prst
     <string name="usb_use_MIDI">MIDI</string>
     <string name="usb_use_MIDI_desc">Uporaba te naprave kot vmesnik MIDI</string>
     <string name="usb_use_charging_only">Brez prenosa podatkov</string>
-    <string name="usb_use_charging_only_desc">Samo polnjenje akumulatorja naprave</string>
+    <string name="usb_use_charging_only_desc">Samo polnjenje baterije naprave</string>
     <string name="usb_use_file_transfers">Prenos datotek/Android Auto</string>
     <string name="usb_use_file_transfers_desc">Prenos datotek v drugo napravo</string>
     <string name="usb_use_photo_transfers">PTP</string>
@@ -5434,9 +5432,9 @@ Vsak uporabnik lahko posodobi aplikacije za vse druge uporabnike."</string>
     <string name="user_dict_settings_summary">Dodajte besede, ki naj bodo uporabljene v aplikacijah, kot je Preverjanje črkovanja.</string>
     <string name="user_dict_settings_title">Osebni slovar</string>
     <string name="user_enable_calling">Vklopi telefonske klice</string>
-    <string name="user_enable_calling_and_sms_confirm_message">Zgodovina klicev in sporočil SMS bo dana v skupno rabo s tem uporabnikom.</string>
+    <string name="user_enable_calling_and_sms_confirm_message">Zgodovina klicev in sporočil SMS bo deljena s tem uporabnikom.</string>
     <string name="user_enable_calling_and_sms_confirm_title">Vklop telefonskih klicev in sporočil SMS?</string>
-    <string name="user_enable_calling_confirm_message">Zgodovina klicev bo v skupni rabi s tem uporabnikom.</string>
+    <string name="user_enable_calling_confirm_message">Zgodovina klicev bo v deljena s tem uporabnikom.</string>
     <string name="user_enable_calling_confirm_title">Želite vklopiti telefonske klice?</string>
     <string name="user_enable_calling_sms">Vklop telefonskih klicev in sporočil SMS</string>
     <string name="user_exit_guest_confirm_message">Vse aplikacije in podatki v tej seji bodo izbrisani.</string>
@@ -5552,7 +5550,7 @@ Med glasovnim klicem ne boste mogli uporabljati interneta in nekatere aplikacije
     <string name="vpn_insecure_summary">Ni varno</string>
     <string name="vpn_ipsec_ca_cert">Overjeno potrdilo IPSec</string>
     <string name="vpn_ipsec_identifier">Identifikator IPSec</string>
-    <string name="vpn_ipsec_secret">Ključ v predhodni skupni rabi IPSec</string>
+    <string name="vpn_ipsec_secret">Vnaprej deljeni ključ IPSec</string>
     <string name="vpn_ipsec_server_cert">Potrdilo strežnika IPSec</string>
     <string name="vpn_ipsec_user_cert">Uporabniško potrdilo IPSec</string>
     <string name="vpn_l2tp_secret">Skrivnost L2TP</string>
@@ -5771,7 +5769,7 @@ Podrobnosti preverite v operaterjevem pravilniku o zasebnosti."</string>
     <string name="wifi_dpp_scan_qr_code_with_another_device">Če se želite pridružiti omrežju »%1$s«, kodo QR preberite z drugo napravo.</string>
     <string name="wifi_dpp_share_hotspot">Delite dostopno točko</string>
     <string name="wifi_dpp_share_wifi">Delite omrežje Wi‑Fi</string>
-    <string name="wifi_dpp_sharing_wifi_with_this_device">Skupna raba povezave Wi‑Fi s to napravo …</string>
+    <string name="wifi_dpp_sharing_wifi_with_this_device">Deljenje povezave Wi‑Fi s to napravo …</string>
     <string name="wifi_dpp_wifi_password">Geslo za Wi-Fi: %1$s</string>
     <string name="wifi_dpp_wifi_shared_with_device">Omrežje Wi‑Fi je deljeno z napravo</string>
     <string name="wifi_eap_anonymous">Anonimna identiteta</string>
@@ -5810,7 +5808,7 @@ To lahko povzroči varnostno tveganje, ker bo telefon redno oddajal svoj signal,
     <string name="wifi_hotspot_configure_ap_text">Nastavitev dostopne toč. Wi‑Fi</string>
     <string name="wifi_hotspot_configure_ap_text_summary">Dostopna točka AndroidAP WPA2 PSK</string>
     <string name="wifi_hotspot_connect">POVEŽI</string>
-    <string name="wifi_hotspot_footer_info_local_only">Aplikacije lahko ustvarijo dostopno točko za skupno rabo vsebin z napravami v bližini.</string>
+    <string name="wifi_hotspot_footer_info_local_only">Aplikacije lahko ustvarijo dostopno točko za deljenje vsebin z napravami v bližini.</string>
     <string name="wifi_hotspot_footer_info_regular">Uporabite dostopno točko, da ustvarite omrežje Wi‑Fi za svoje druge naprave. Dostopna točka omogoča uporabo interneta prek mobilne podatkovne povezave, zato lahko nastanejo dodatni stroški prenosa podatkov v mobilnih omrežjih.</string>
     <string name="wifi_hotspot_maximize_compatibility">Razširjena združljivost</string>
     <string name="wifi_hotspot_maximize_compatibility_dual_ap_summary">Drugim napravam pomaga najti to dostopno točko. Poveča porabo energije baterije.</string>
@@ -5821,11 +5819,11 @@ To lahko povzroči varnostno tveganje, ker bo telefon redno oddajal svoj signal,
     <string name="wifi_hotspot_name_title">Ime dostopne točke</string>
     <string name="wifi_hotspot_no_password_subtext">Geslo ni nastavljeno</string>
     <string name="wifi_hotspot_off_subtext">Internetna povezava ali vsebina ni deljena z drugimi napravami</string>
-    <string name="wifi_hotspot_on_local_only_subtext">Aplikacija daje vsebino v skupno rabo. Če želite omogočiti skupno rabo internetne povezave, dostopno točko izklopite in znova vklopite.</string>
+    <string name="wifi_hotspot_on_local_only_subtext">Aplikacija deli vsebino. Če želite omogočiti deljenje internetne povezave, dostopno točko izklopite in znova vklopite.</string>
     <string name="wifi_hotspot_password_title">Geslo za dostopno točko</string>
     <string name="wifi_hotspot_switch_off_text">Izklop</string>
     <string name="wifi_hotspot_switch_on_text">Vklop</string>
-    <string name="wifi_hotspot_tethering_on_subtext">Skupna raba internetne povezave tega telefona prek dostopne točke</string>
+    <string name="wifi_hotspot_tethering_on_subtext">Deljenje internetne povezave tega telefona prek dostopne točke</string>
     <string name="wifi_hotspot_title">Ali se želite prijaviti, da se lahko povežete?</string>
     <string name="wifi_in_airplane_mode">V načinu za letalo</string>
     <string name="wifi_install_credentials">Namesti potrdila</string>
@@ -5929,7 +5927,7 @@ Dovolite to vsem aplikacijam, ki želijo iskati?"</string>
     <string name="wifi_settings_title">Wi‑Fi</string>
     <string name="wifi_setup_detail">Podatki o omrežju</string>
     <string name="wifi_setup_wps">Samodej. nastavitev (WPS)</string>
-    <string name="wifi_shared">Skupna raba z drugimi uporabniki naprave</string>
+    <string name="wifi_shared">Deljenje z drugimi uporabniki naprave</string>
     <string name="wifi_show_advanced">Dodatne možnosti</string>
     <string name="wifi_show_password">Pokaži geslo</string>
     <string name="wifi_sign_in_button_text">Prijava</string>

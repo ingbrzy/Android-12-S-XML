@@ -595,6 +595,8 @@ Wybór"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Wprowadzenie zmiany wymaga ponownego uruchomienia urządzenia. Uruchom ponownie teraz lub anuluj.</string>
     <string name="camera_hint">Przesuń palcem od ikony, by włączyć aparat</string>
     <string name="camera_label">otwórz aparat</string>
+    <string name="camera_recording_announcement">Aparat rejestruje</string>
+    <string name="camera_stopped_recording_announcement">Aparat przestał rejestrować</string>
     <string name="cancel">Anuluj</string>
     <string name="carrier_network_change_mode">Zmiana sieci operatora</string>
     <string name="category_personal">Osobiste</string>
@@ -734,6 +736,10 @@ Jeśli włączysz ją ponownie, może zostać naliczona opłata za użycie danyc
     <string name="debug_monitoring_category">Monitorowanie</string>
     <string name="debug_networking_category">Sieci</string>
     <string name="debug_view_attributes">Inspekcja atrybutu wyświetlania</string>
+    <string name="defender_notify_des">Telefon ogranicza ładowanie, by pomóc utrzymać w dobrym stanie baterię</string>
+    <string name="defender_notify_learn_more">Więcej informacji</string>
+    <string name="defender_notify_resume_charge">Wznów ładowanie</string>
+    <string name="defender_notify_title">Ładowanie tymczasowo ograniczone</string>
     <string name="delete_blob_confirmation_text">Czy na pewno chcesz usunąć te udostępniane dane?</string>
     <string name="delete_blob_text">Usuń udostępniane dane</string>
     <string name="demo_mode">Tryb demonstracyjny interfejsu</string>
@@ -872,7 +878,7 @@ Dane używane przez rozpoznawanie zostaną trwale i bezpiecznie skasowane. Po us
     <string name="game_mode_restart_dialog_message_standard">Po ponownym uruchomieniu gry zostaną zastosowane jej ustawienia domyślne</string>
     <string name="game_mode_restart_dialog_title">Uruchomić grę ponownie?</string>
     <string name="game_mode_standard_description">Używa wartości domyślnych gry</string>
-    <string name="game_mode_standard_title">Standardowy</string>
+    <string name="game_mode_standard_title">Standard</string>
     <string name="game_mode_subtitle">Wybierz priorytet dla tej gry</string>
     <string name="game_mode_unsupported_description">Tryb niedostępny w przypadku tej gry</string>
     <string name="game_screen_record_saved">Zapisano nagranie zawartości ekranu</string>
@@ -1070,6 +1076,7 @@ priorytetowe"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Odblokowuję kartę SIM…</string>
     <string name="keyguard_try_fingerprint">By otworzyć, użyj odcisku palca</string>
     <string name="keyguard_unlock">Przesuń w górę, by otworzyć</string>
+    <string name="keyguard_unlock_press">Naciśnij, by otworzyć</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">harmonogram, alarm, przypomnienie, zegar</string>
     <string name="kg_enter_confirm_pin_hint">Potwierdź wybrany kod PIN</string>
@@ -1233,6 +1240,10 @@ Spróbuj ponownie za %2$d s."</string>
     <string name="menu_ime">Przełączanie klawiatury</string>
     <string name="messages_count_overflow_indicator">+ %d</string>
     <string name="mic_active">Mikrofon aktywny</string>
+    <string name="mic_and_camera_recording_announcement">Aparat i mikrofon rejestrują</string>
+    <string name="mic_camera_stopped_recording_announcement">Aparat i mikrofon przestały rejestrować</string>
+    <string name="mic_recording_announcement">Mikrofon rejestruje</string>
+    <string name="mic_stopped_recording_announcement">Mikrofon przestał rejestrować</string>
     <string name="missed_call">Nieodebrane połączenie</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dane mobilne</string>
@@ -1556,8 +1567,8 @@ Jeśli masz pytania, skontaktuj się z organizacją %2$s."</string>
     <string name="power_remaining_duration_shutdown_imminent">Telefon może się wkrótce wyłączyć (%1$s)</string>
     <string name="power_remaining_less_than_duration">Pozostało mniej niż %1$s (%2$s)</string>
     <string name="power_remaining_less_than_duration_only">Pozostało mniej niż %1$s</string>
-    <string name="power_remaining_more_than_subtext">Pozostało mniej niż %1$s (%2$s)</string>
-    <string name="power_remaining_only_more_than_subtext">Pozostało mniej niż %1$s</string>
+    <string name="power_remaining_more_than_subtext">Pozostało ponad %1$s (%2$s)</string>
+    <string name="power_remaining_only_more_than_subtext">Pozostało ponad %1$s</string>
     <string name="power_remaining_settings_home_page">%1$s – %2$s</string>
     <string name="power_suggestion_battery_run_out">Bateria może się wyczerpać do %1$s</string>
     <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
@@ -1706,8 +1717,6 @@ Jeśli masz pytania, skontaktuj się z organizacją %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplikacje służbowe</string>
     <string name="quick_step_accessibility_toggle_overview">Przełącz Przegląd</string>
     <string name="recent_conversations">Ostatnie rozmowy</string>
-    <string name="recents_quick_scrub_onboarding">Szybko przeciągnij w prawo, by przełączyć aplikacje</string>
-    <string name="recents_swipe_up_onboarding">Przesuń w górę, by przełączyć aplikacje</string>
     <string name="remaining_length_format">Pozostało: %1$s</string>
     <string name="remote_input_image_insertion_text">wysłano obraz</string>
     <string name="remove_from_settings">Usuń z Ustawień</string>
@@ -2117,6 +2126,7 @@ Każdy użytkownik może aktualizować aplikacje wszystkich innych użytkownikó
     <string name="wallet_secondary_label_no_card">Dodaj kartę</string>
     <string name="wallet_secondary_label_updating">Aktualizuję</string>
     <string name="wallet_title">Portfel</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punkt dostępu jest tymczasowo zajęty</string>
     <string name="wifi_cant_connect">Nie można się połączyć</string>
     <string name="wifi_cant_connect_to_ap">Nie można się połączyć z siecią „%1$s”</string>

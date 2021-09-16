@@ -295,7 +295,7 @@
     <string name="skip_toast">已略過設定精靈</string>
     <string name="slots_selection_item_summary_activating">啟用中…</string>
     <string name="slots_selection_item_summary_error">目前無法啟用</string>
-    <string name="slots_selection_title">選擇要使用的數字</string>
+    <string name="slots_selection_title">選擇要使用的號碼</string>
     <string name="speed_label_fast">快</string>
     <string name="speed_label_okay">確定</string>
     <string name="speed_label_slow">慢</string>
@@ -341,13 +341,15 @@
 
 "<li>任何其他使用者都能接受更新的應用程式權限</li>"
 
-"<li>務必只與你信任的人共用這支手機</li></ul>}TABLET{<b>重要事項：</b>"
+"<li>務必只與你信任的人共用這支手機</li></ul>"
+}TABLET{"<b>重要事項：</b>"
 
 "<ul><li>平板電腦的擁有者可以解除安裝你的應用程式，也可以完全移除你的使用者設定檔</li>"
 
 "<li>任何其他使用者都能接受更新的應用程式權限</li>"
 
-"<li>務必只與你信任的人共用這台平板電腦</li></ul>}other{<b>重要事項：</b>"
+"<li>務必只與你信任的人共用這台平板電腦</li></ul>"
+}other{"<b>重要事項：</b>"
 
 "<ul><li>裝置的擁有者可以解除安裝你的應用程式，也可以完全移除你的使用者設定檔</li>"
 
@@ -358,71 +360,48 @@
     <string name="wifi_add_new_network">新增網路</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{連上 Wi‑Fi 或行動網路有助於快速設定手機。
 
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>取得軟體更新</li>"
+"<li>讓系統自動設定時間和日期</li>"
+}TABLET{連上 Wi‑Fi 或行動網路有助於快速設定平板電腦。
 
-"<li>讓系統自動設定時間和日期</li>"}TABLET{連上 Wi‑Fi 或行動網路有助於快速設定平板電腦。
-
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>取得軟體更新</li>"
+"<li>讓系統自動設定時間和日期</li>"
+}other{連上 Wi‑Fi 或行動網路有助於快速設定裝置。
 
-"<li>讓系統自動設定時間和日期</li>"}other{連上 Wi‑Fi 或行動網路有助於快速設定裝置。
-
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>取得軟體更新</li>"
-
 "<li>讓系統自動設定時間和日期</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{連上 Wi‑Fi 或行動網路有助於快速設定手機。
 
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>下載 SIM 卡</li>"
-
 "<li>取得軟體更新</li>"
+"<li>讓系統自動設定時間和日期</li>"
+}TABLET{連上 Wi‑Fi 或行動網路有助於快速設定平板電腦。
 
-"<li>讓系統自動設定時間和日期</li>"}TABLET{連上 Wi‑Fi 或行動網路有助於快速設定平板電腦。
-
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>下載 SIM 卡</li>"
-
 "<li>取得軟體更新</li>"
+"<li>讓系統自動設定時間和日期</li>"
+}other{連上 Wi‑Fi 或行動網路有助於快速設定裝置。
 
-"<li>讓系統自動設定時間和日期</li>"}other{連上 Wi‑Fi 或行動網路有助於快速設定裝置。
-
-在離線狀態下，你無法進行以下操作：
-
+在離線狀態下，你無法執行以下操作：
 "<li>登入 Google 帳戶</li>"
-
 "<li>還原應用程式和資料</li>"
-
 "<li>下載 SIM 卡</li>"
-
 "<li>取得軟體更新</li>"
-
 "<li>讓系統自動設定時間和日期</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">存取點暫時滿載</string>
     <string name="wifi_check_password_try_again">請檢查密碼，然後再試一次</string>

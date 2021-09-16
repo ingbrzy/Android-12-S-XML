@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Jezici i unos</string>
     <string name="lift_to_wake_title">Podigni za aktivaciju</string>
-    <string name="lockdown_settings_summary">Prikažite opciju dugmeta za napajanje koja isključuje Smart Lock, otključavanje licem, otključavanje otiskom prsta i obaveštenja na zaključanom ekranu</string>
-    <string name="lockdown_settings_title">Prikaži opciju zaključavanja</string>
+    <string name="abc_action_bar_home_description">Idite na početnu</string>
+    <string name="abc_action_bar_up_description">Idite nagore</string>
     <string name="locked_work_profile_notification_title">Kada je poslovni profil zaključan</string>
     <string name="lockscreen_bypass_summary">Posle otključavanja idite direktno na poslednji ekran</string>
     <string name="lockscreen_bypass_title">Preskoči zaključan ekran</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Poslovna obaveštenja</string>
     <string name="reset_dashboard_summary">Mreža, aplikacije ili uređaj mogu da se resetuju</string>
     <string name="reset_dashboard_title">Opcije za resetovanje</string>
-    <string name="abc_action_bar_home_description">Idite na početnu</string>
+    <string name="abc_action_menu_overflow_description">Još opcija</string>
     <string name="screensaver_settings_title">Čuvar ekrana</string>
     <string name="screen_timeout">Gašenje ekrana</string>
     <string name="screen_zoom_title">Veličina prikaza</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Automatski podiže učestalost osvežavanja sa 60 na 90 Hz za određeni sadržaj. Povećava potrošnju baterije.</string>
     <string name="accessibility_vibration_settings_title">Vibriranje i dodirne povratne informacije</string>
     <string name="emergency_gesture_screen_title">Hitna pomoć</string>
-    <string name="abc_action_bar_up_description">Idite nagore</string>
+    <string name="abc_action_mode_done">Gotovo</string>
     <string name="vibrate_for_calls_category_title">Pozivi</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Prikaži novčanik</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Prikaži kontrole uređaja</string>
     <string name="lockscreen_privacy_wallet_summary">Dozvolite pristup novčaniku sa zaključanog ekrana i iz brzih podešavanja</string>
     <string name="lockscreen_privacy_controls_summary">Pristupite kontrolama kada je ekran zaključan</string>
-    <string name="abc_action_menu_overflow_description">Još opcija</string>
-    <string name="abc_action_mode_done">Gotovo</string>
     <string name="abc_activity_chooser_view_see_all">Prikaži sve</string>
     <string name="abc_activitychooserview_choose_application">Izaberite aplikaciju</string>
     <string name="abc_capital_off">ISKLJUČENO</string>
@@ -4906,7 +4904,7 @@ Uređaj ^1 se formatira da bi funkcionisao samo na ovom uređaju. Neće funkcion
     <string name="storage_size_large_alternate">^1<small> <font size="20">^2</font></small></string>
     <string name="storage_summary">U upotrebi %1$s – %2$s slobodno</string>
     <string name="storage_summary_format">Koristi se %1$s u: %2$s</string>
-    <string name="storage_summary_with_sdcard">Interna memorija: %1$s je iskorišćeno – %2$s je slobodno</string>
+    <string name="storage_summary_with_sdcard">Interna memorija: %1$s je u upotrebi – %2$s je slobodno</string>
     <string name="storage_system">Sistem</string>
     <string name="storage_title_usb">USB uređaj je povezan sa računarom</string>
     <string name="storage_total_summary">Ukupno %1$s %2$s</string>
@@ -5015,7 +5013,7 @@ Probajte da koristite brži uređaj ^3 ili koristite uređaj ^4 kao prenosivi me
     <string name="storage_wizard_slow_v2_continue">Nastavi</string>
     <string name="storage_wizard_slow_v2_start_over">Počni ponovo</string>
     <string name="storage_wizard_slow_v2_title">^1 sporo radi</string>
-    <string name="storageuse_settings_summary">Pregled iskorišćene memorije po aplikacijama</string>
+    <string name="storageuse_settings_summary">Pregled upotrebe memorijskog prostora po aplikacijama</string>
     <string name="storageuse_settings_title">Korišćenje memorije</string>
     <string name="strict_mode">Omogućen je strogi režim</string>
     <string name="strict_mode_summary">Ekran treperi kada aplikacije obavljaju duge operacije na glavnoj niti</string>

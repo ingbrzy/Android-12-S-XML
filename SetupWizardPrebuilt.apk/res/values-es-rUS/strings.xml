@@ -341,13 +341,15 @@ Dispositivo no proporcionado"</string>
 
 "<li>Cualquier otro usuario puede aceptar permisos actualizados de apps</li>"
 
-"<li>Solo debes compartir este teléfono con personas de confianza</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Solo debes compartir este teléfono con personas de confianza</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
 "<ul><li>El propietario de la tablet puede desinstalar tus apps o quitar tu perfil de usuario</li>"
 
 "<li>Cualquier otro usuario puede aceptar permisos actualizados de apps</li>"
 
-"<li>Solo debes compartir esta tablet con personas de confianza</li></ul>}other{<b>Importante:</b>"
+"<li>Solo debes compartir esta tablet con personas de confianza</li></ul>"
+}other{"<b>Importante:</b>"
 
 "<ul><li>El propietario del dispositivo puede desinstalar tus apps o quitar tu perfil de usuario</li>"
 
@@ -359,70 +361,47 @@ Dispositivo no proporcionado"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu teléfono.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
-"<li>Configurar automáticamente la fecha y hora</li>"}TABLET{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu tablet.
+"<li>Configurar automáticamente la fecha y la hora</li>"
+}TABLET{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu tablet.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
-"<li>Configurar automáticamente la fecha y hora</li>"}other{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu dispositivo.
+"<li>Configurar automáticamente la fecha y la hora</li>"
+}other{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu dispositivo.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
-"<li>Configurar automáticamente la fecha y hora</li>}}</string>
+"<li>Configurar automáticamente la fecha y la hora</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu teléfono.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Descargar una SIM</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
-"<li>Configurar automáticamente la fecha y hora</li>"}TABLET{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu tablet.
+"<li>Configurar automáticamente la fecha y hora</li>"
+}TABLET{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu tablet.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Descargar una SIM</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
-"<li>Configurar automáticamente la fecha y hora</li>"}other{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu dispositivo.
+"<li>Configurar automáticamente la fecha y hora</li>"
+}other{Si te conectas a una red Wi-Fi o móvil, podrás configurar rápidamente tu dispositivo.
 
 Sin conexión, no podrás hacer lo siguiente:
-
 "<li>Acceder a tu Cuenta de Google</li>"
-
 "<li>Restablecer apps y datos</li>"
-
 "<li>Descargar una SIM</li>"
-
 "<li>Obtener actualizaciones de software</li>"
-
 "<li>Configurar automáticamente la fecha y hora</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">El punto de acceso está completo temporalmente</string>
     <string name="wifi_check_password_try_again">Revisa la contraseña y vuelve a intentarlo</string>

@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Cevaplayın</string>
     <string name="a11y_call_incoming_decline_description">Reddedin</string>
+    <string name="a11y_callscreen_animation">Arama Filtreleme Animasyonu</string>
     <string name="a11y_contact_menu_video_call_wifi">Kablosuz ağ üzerinden görüntülü arama yap</string>
     <string name="a11y_contact_menu_voice_call_wifi">Kablosuz ağ üzerinden sesli arama yap</string>
     <string name="a11y_conversation_history_entry_answered_call">Son arama şu kaynaktan gelen cevaplanmış bir arama: ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Arayanları yönetin</string>
     <string name="a11y_expandedsheet_collapse">menüyü daralt</string>
     <string name="a11y_expandedsheet_expand">menüyü genişlet</string>
-    <string name="a11y_favorites_education_dismiss">kapatır</string>
     <string name="a11y_feature_demo_next_page">Sonraki sayfa</string>
     <string name="a11y_feature_demo_page_indicator">%d. sayfa</string>
     <string name="a11y_feature_demo_prev_page">Önceki sayfa</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1 için hızlı iletişim</string>
+    <string name="a11y_icon_hd">HD arama</string>
+    <string name="a11y_icon_hd_plus">HD Plus arama</string>
+    <string name="a11y_icon_shared_data_call">Paylaşılan veri bağlantısı üzerinden arama</string>
+    <string name="a11y_icon_verified">Doğrulanmış arama</string>
+    <string name="a11y_icon_vilte">LTE üzerinden görüntülü arama</string>
+    <string name="a11y_icon_viwifi">Kablosuz üzerinden görüntülü arama</string>
+    <string name="a11y_icon_volte">LTE üzerinden sesli arama</string>
+    <string name="a11y_icon_voz4g">4G üzerinden sesli arama</string>
+    <string name="a11y_icon_wifi">Kablosuz arama</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Cevaplamak için iki parmağınızla hızlıca yukarı kaydırın. Reddetmek içinse iki parmağınızla hızlıca aşağı kaydırın.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Çağrıyı cevaplamak için iki parmağınızla yukarı doğru, reddetmek içinse aşağı doğru hızlıca kaydırın</string>
     <string name="a11y_new_call_log_entry_call_recording">arama kaydedildi</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1 hesabında</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1 adlı kişiye RTT araması yapın</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Paylaşılan veri bağlantısı üzerinden arama</string>
     <string name="a11y_new_call_log_entry_tap_action">menüyü genişlet</string>
     <string name="a11y_new_call_log_entry_video_call">^1 ile görüntülü görüşme yapın</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">^1 ile kablosuz ağ üzerinden görüntülü görüşme yap</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Aramadan önce numarayı düzenle</string>
     <string name="action_menu_back_from_search">aramayı durdur</string>
     <string name="action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="activate_error_message">Arama Filtreleme etkinleştirilirken sorun oluştu</string>
+    <string name="activated_successfully">Arama Filtreleme etkinleştirildi</string>
     <string name="activity_not_available">Bu cihazda bu işlem için uygun uygulama yok</string>
     <string name="add_2sec_pause">2 saniyelik duraklama ekle</string>
     <string name="add_contact_not_available">Kullanılabilir kişi uygulaması yok</string>
@@ -160,8 +172,8 @@ Kayıtlar yalnızca telefonunuzda depolanır. ^1"</string>
     <string name="bm_suggest_chat_button">Sohbet et</string>
     <string name="bm_suggest_wait_min">"Sohbet
 %1$d dk. bekleme"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s okunmamış</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Çalışıyor…"</string>
     <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
     <string name="bubble_bottom_action_end_call">Çağrıyı sonlandır</string>
     <string name="bubble_bottom_action_hide">Gizle</string>
@@ -170,7 +182,10 @@ Kayıtlar yalnızca telefonunuzda depolanır. ^1"</string>
     <string name="call">Sesli arama yap</string>
     <string name="callFailed_simError">SIM kart yok veya SIM hatası</string>
     <string name="callHistoryIconLabel">Çağrı geçmişi</string>
-    <string name="call_announcer_preference_footer_instruction_text">Gelen aramalarda, arayanın adı ve numarası sesli olarak okunur</string>
+    <string name="call_action_label_automatically_screen">Otomatik olarak filtrele. Otomatik çağrıları reddet.</string>
+    <string name="call_action_label_ring_phone">Telefonun zilini çaldır (varsayılan)</string>
+    <string name="call_action_label_silently_decline">Sessizce reddet</string>
+    <string name="call_announcer_preference_footer_instruction_text">Gelen aramalarda, arayanın adı ve numarası sesli olarak okunur.</string>
     <string name="call_announcer_preference_list_title">Arayan kimliğini duyur</string>
     <string name="call_announcer_preference_option_always">Her zaman</string>
     <string name="call_announcer_preference_option_headset">Yalnızca mikrofonlu kulaklık kullanılırken</string>
@@ -203,7 +218,7 @@ Kayıtlar yalnızca telefonunuzda depolanır. ^1"</string>
     <string name="call_incoming_answer">Cevapla</string>
     <string name="call_incoming_answer_rtt">RTT ile cevapla</string>
     <string name="call_incoming_answer_voice">Sesle cevapla</string>
-    <string name="call_incoming_chip_answer_and_release">Aramayı sonlandırıp cevapla</string>
+    <string name="call_incoming_chip_answer_and_release">Cevapla ve diğer aramayı sonlandır</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT araması ile cevapla</string>
     <string name="call_incoming_chip_answer_video_as_audio">Sesli arama olarak cevapla</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Video kapalı olarak cevapla</string>
@@ -219,7 +234,7 @@ Kayıtlar yalnızca telefonunuzda depolanır. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Cevaplamak için hızlıca yukarı kaydırın</string>
     <string name="call_incoming_swipe_to_reject">Reddetmek için aşağı kaydırın</string>
     <string name="call_incoming_video_is_off">Videonuz kapalı</string>
-    <string name="call_incoming_will_disconnect">Bu çağrıyı cevapladığınızda görüntülü görüşmeniz sonlandırılacak</string>
+    <string name="call_incoming_will_disconnect">Bu aramayı cevapladığınızda görüntülü görüşmeniz sonlandırılacak</string>
     <string name="call_incoming_will_disconnect_app">Aramayı cevapladığınızda %1$s görüşmeniz sona erecek</string>
     <string name="call_isdn">Ara (ISDN)</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Engelle/spam bildir</string>
@@ -255,6 +270,7 @@ Kayıtlar yalnızca telefonunuzda depolanır. ^1"</string>
     <string name="call_reason_fragment_content_description">Arama Nedeni: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Kayıt saklandı.</string>
     <string name="call_recording_conversation_history_entry">Kaydedildi</string>
+    <string name="call_recording_delete_snack_bar_undo">Geri al</string>
     <string name="call_recording_disclaimer_agreen_button_text">Kaydı başlat</string>
     <string name="call_recording_disclaimer_content">"Siz veya görüşmedeki diğer kişi, herkesin kaydedilmeyi kabul etmesini gerektiren bir yerde bulunuyor olabilir. Herkese önceden, görüşmenin kaydedildiği bildirilir. Görüşmelerin kaydedilmesiyle ilgili yasalara uymak sizin sorumluluğunuzdadır. Arama kaydı özelliğini bilinçli şekilde kullanın ve yalnızca gerektiğinde etkinleştirin.
 ^1
@@ -291,6 +307,7 @@ Kayıtlar yalnızca telefonunuzda depolanır."</string>
 Arama ses kaydı veya aramanın çeviri yazısı Google dahil hiç kimseye gönderilmez."</string>
     <string name="call_screen_demo_page_4_title">Zaman kazanın ve sıkıntı yaşamayın</string>
     <string name="call_screen_demo_setting_title">Tanıtımı göster</string>
+    <string name="call_screen_demo_settings_title">Tanıtımı göster</string>
     <string name="call_screen_demo_title">"Arama Filtreleme'nin işleyiş şekli"</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Örnek ses alınamıyor</string>
     <string name="call_screen_demo_unable_to_play_audio">Örnek ses çalınamıyor</string>
@@ -298,6 +315,7 @@ Arama ses kaydı veya aramanın çeviri yazısı Google dahil hiç kimseye gönd
     <string name="call_screen_end_call_local_internal_message">Aramayı sona erdirdiniz</string>
     <string name="call_screen_end_call_non_local_internal_message">Arama bağlantısı kesildi</string>
     <string name="call_screen_how_it_works_setting_title">Arama Filtreleme cihazınızda kablosuz bağlantı veya veri olmadan çalışır. Görüşmelerin çeviri yazıları yalnızca sizin cihazınızda oluşturulup depolanır. %1$s</string>
+    <string name="call_screen_how_it_works_title">Arama Filtreleme cihazınızda kablosuz bağlantı veya veri olmadan çalışır. Görüşmelerin çeviri yazıları yalnızca sizin cihazınızda oluşturulup depolanır. ^1</string>
     <string name="call_screen_incallui_chip_text">Aramayı filtrele</string>
     <string name="call_screen_join_call_button_content_description">Aramaya katıl</string>
     <string name="call_screen_join_call_internal_message">Aramaya katıldınız</string>
@@ -307,6 +325,7 @@ Arama ses kaydı veya aramanın çeviri yazısı Google dahil hiç kimseye gönd
     <string name="call_screen_saying_to_the_caller_state">Arayana şöyle deniyor:</string>
     <string name="call_screen_screening_call_from">Gelen arama filtreleniyor:</string>
     <string name="call_screen_setting_title">Arama Filtreleme</string>
+    <string name="call_screen_settings_title">Arama Filtreleme</string>
     <string name="call_screen_speaker_toggle_button_content_description">Hoparlör düğmesi</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">İptal</string>
@@ -331,6 +350,8 @@ Arama ses kaydı veya aramanın çeviri yazısı Google dahil hiç kimseye gönd
     <string name="call_work">Ara (iş)</string>
     <string name="call_work_mobile">Ara (iş cep telefonu)</string>
     <string name="call_work_pager">Ara (iş çağrı cihazı)</string>
+    <string name="caller_action_error_cant_load_value">Geçerli %1$s değeri alınamadı</string>
+    <string name="caller_action_error_cant_set_value">Geçerli %1$s değeri kaydedilemedi</string>
     <string name="caller_id_announcement_multi_sim">"%3$s adlı SIM'de gelen %1$s arama: %2$s"</string>
     <string name="caller_id_announcement_single_sim">gelen %1$s arama: %2$s</string>
     <string name="caller_id_business_data_details">Bu özelliklerde kullanılmakta olan veriler Google ve lisans verenleri tarafından sağlanır. ^1</string>
@@ -370,6 +391,9 @@ Arama ses kaydı veya aramanın çeviri yazısı Google dahil hiç kimseye gönd
     <string name="calling_blocked_number_precall_dialog_title">%s aransın mı?</string>
     <string name="calllog_add_to_contact">Bir kişiye ekle</string>
     <string name="calllog_create_new_contact">Yeni kişi oluştur</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Arama Filtreleme etkinleştiriliyor (kablosuz bağlantı gerekli)</string>
+    <string name="callscreen_settings_voice_setting_title">Ses</string>
+    <string name="camera_permission_toast">Kamera izni etkinleştirildi</string>
     <string name="camera_privacy_text">Kamera izni etkinleştirildi</string>
     <string name="cannot_understand_description">Anlayamadım</string>
     <string name="car_crash_emergency_intro">"Bir arayan adına, otomatik acil durum ses hizmetiyle iletişim kurmaktasınız.
@@ -432,6 +456,9 @@ Lütfen yardım gönderin."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Yanıtlanmış arama ayarlanamadı. Ayarlardan tekrar etkinleştirebilirsiniz.</string>
     <string name="contact_card_video_icon_content_description">^1 ile görüntülü görüşme yap</string>
     <string name="contact_grid_callback_number">Bu telefonun numarası: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Arama yönlendirildi</string>
+    <string name="contact_grid_hd_icon_content_description">HD Arama</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus Arama</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Operatör üzerinden görüntülü görüşme isteği:</string>
     <string name="contact_grid_incoming_reception_only_video_call">Operatör üzerinden tek yönlü görüntülü görüşme isteği:</string>
     <string name="contact_grid_incoming_rtt_call">RTT araması kaynağı:</string>
@@ -442,9 +469,18 @@ Lütfen yardım gönderin."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Operatör üzerinden kablosuz görüntülü görüşme isteği:</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Operatör üzerinden tek yönlü kablosuz görüntülü görüşme isteği:</string>
     <string name="contact_grid_incoming_work_call">Gelen iş çağrısı:</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Paylaşılan veri bağlantısı üzerinden arama</string>
+    <string name="contact_grid_spam_icon_content_description">Spam arama</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operatör</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s Tarafından Doğrulandı</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Geçerli numara</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE üzerinden görüntülü arama</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Kablosuz üzerinden görüntülü arama</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G üzerinden sesli arama</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE üzerinden sesli arama</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Kablosuz üzerinden sesli arama</string>
+    <string name="contact_grid_wifi_icon_content_description">Kablosuz arama</string>
+    <string name="contact_grid_work_icon_content_description">İşle ilgili arama</string>
     <string name="contact_menu_add_favorite">Favorilere ekle</string>
     <string name="contact_menu_contact_info">Kişi bilgisi</string>
     <string name="contact_menu_invite_video">Görüntülü görüşmeye davet et</string>
@@ -479,8 +515,12 @@ Lütfen yardım gönderin."</string>
     <string name="conversation_history_call_details_header_today">Bugün</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Arama silindi</string>
     <string name="conversation_history_call_details_snack_bar_undo">Geri al</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Önemli arama</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">İlave arama bilgilerini görüntüleyin</string>
+    <string name="conversation_history_call_recording_deleted">Kayıt silindi</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Çeviri yazı ve ses</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Çeviri yazı</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Transkripte ve ses kaydına bakın</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Arama Filtreleme</string>
     <string name="copy">Kopyala</string>
     <string name="copy_number">Numarayı kopyala</string>
@@ -499,12 +539,17 @@ Lütfen yardım gönderin."</string>
     <string name="custom_prefix_default_prefix_title">Varsayılan ön numara</string>
     <string name="custom_prefix_prefixes_preference_title">Ön numaralar</string>
     <string name="dark_theme_label">Koyu</string>
+    <string name="default_changed_confirmation">Telefon varsayılan uygulama olarak ayarlandı</string>
+    <string name="default_image_content_description">Açılış resmi</string>
     <string name="delete">Sil</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Tüm kayıtları silin</string>
     <string name="delete_all_recordings_now_error_message">Bazı kayıtlar silinemedi. Tekrar deneyin.</string>
     <string name="delete_button_label">Tüm kayıtları şimdi sil</string>
     <string name="delete_confirmation_dialog_negative_button_label">İptal</string>
     <string name="delete_confirmation_dialog_positive_button_label">Sil</string>
+    <string name="delete_old_recordings_error_cant_load_value">Geçerli %1$s değeri alınamadı</string>
+    <string name="delete_old_recordings_error_cant_set_value">Geçerli %1$s değeri kaydedilemedi</string>
+    <string name="deleting_call_recording">Kayıt siliniyor…</string>
     <string name="description_add_to_existing_contact_action">^1 bilgisini mevcut kişiye ekle</string>
     <string name="description_blocked_number_list_delete">Numaranın engellemesini kaldır</string>
     <string name="description_call_action">Telefon et: ^1</string>
@@ -607,6 +652,7 @@ Lütfen yardım gönderin."</string>
     <string name="emergency_sos_emergency_intro">"Bir arayan adına, otomatik acil durum ses hizmetiyle iletişim kurmaktasınız.
 Söz konusu arayan tehlikede olabileceğine dair sinyal gönderdi. 
 Lütfen yardım gönderin."</string>
+    <string name="emergency_speaker">Hoparlör</string>
     <string name="emergency_voice_assist_dialog_button_close">İptal</string>
     <string name="emergency_voice_assist_dialog_title">Acil durum operatörü bunu duyuyor</string>
     <string name="end_call_with_default_message_description">Aramayı sonlandır</string>
@@ -636,9 +682,12 @@ Lütfen yardım gönderin."</string>
     <string name="feedback_call_issue_quiet_audio">Ses seviyesi çok düşüktü</string>
     <string name="feedback_call_issue_title">Sorun neydi?</string>
     <string name="feedback_title_please_rate">Lütfen aramanın kalitesini değerlendirin</string>
+    <string name="first_time_callers_action_preference_description">Arama kaydınızda olmayan arayanlar</string>
+    <string name="first_time_callers_action_preference_title">İlk kez arayanlar</string>
     <string name="flip_to_shush_title">Şşşt Moduna Geçmek İçin Çevir</string>
     <string name="flip_to_silence_summary">Gelen bir aramayı sessize almak için telefonunuzu düz bir yüzeye ekranı aşağı gelecek şekilde koyun</string>
     <string name="flip_to_silence_title">Sessiz Moda Geçmek İçin Çevir</string>
+    <string name="foreground_notification_title">Güncelleniyor…</string>
     <string name="frequent_contact_suggestion">Sık aranan</string>
     <string name="general_learn_more">Daha fazla bilgi</string>
     <string name="generic_conference_call_name">Konferans çağrısında</string>
@@ -661,6 +710,7 @@ Lütfen yardım gönderin."</string>
     <string name="how_it_works_storage_link_text">Kayıtların nasıl depolandığı hakkında daha fazla bilgi</string>
     <string name="how_it_works_storage_template">Telefonunuzun depolama alanı tükenirse arama kaydı askıya alınır. ^1</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="icon_description_shared_data_call">Paylaşılan veri bağlantısı üzerinden arama</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Numaraları içe aktar</string>
     <string name="ims_video_heading">Verizon görüntülü görüşmesi</string>
@@ -804,6 +854,7 @@ Lütfen yardım gönderin."</string>
     <string name="new_call_log_no_missed_calls">Cevapsız aramanız yok</string>
     <string name="new_call_log_permission_no_calllog">Çağrı kaydınızı görmek için Telefon iznini etkinleştirin.</string>
     <string name="new_call_log_secondary_blocked">Engellenmiş</string>
+    <string name="new_call_log_secondary_verified">Doğrulanmış arama</string>
     <string name="new_call_log_snack_bar_deleted">Arama silindi</string>
     <string name="new_call_log_snack_bar_undo">Geri al</string>
     <string name="new_call_log_unknown">Bilinmeyen</string>
@@ -818,8 +869,10 @@ Lütfen yardım gönderin."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Reddet</string>
     <string name="notification_action_end_call">Kapat</string>
+    <string name="notification_action_mute_toggle">Sesi kapat</string>
     <string name="notification_action_speaker_off">Hoparlörü kapatın</string>
     <string name="notification_action_speaker_on">Hoparlörü açın</string>
+    <string name="notification_action_speaker_toggle">Hoparlör</string>
     <string name="notification_callReasonMsg">Nedeni: %s</string>
     <string name="notification_call_wifi_brand">Kablosuz çağrı</string>
     <string name="notification_call_wifi_work_brand">İşle ilgili kablosuz çağrı</string>
@@ -883,6 +936,8 @@ Lütfen yardım gönderin."</string>
     <string name="place_ims_button_content_description">Operatör üzerinden görüntülü görüşme yapmak için kullanılan bir düğme.</string>
     <string name="play">Çal</string>
     <string name="plus_code_line_format">Artı kodu: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Değiştirilmiş bir numara kullanarak spam yapan olabilecek arayanlar</string>
+    <string name="possibly_faked_numbers_action_preference_title">Sahte olması muhtemel numaralar</string>
     <string name="post_call_message">Arama nedeninizi söyleyin</string>
     <string name="post_call_message_1">Acil bir durum var. Beni geri arayın.</string>
     <string name="post_call_message_2">Zamanınız olduğunda beni geri arayın.</string>
@@ -913,6 +968,8 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="privacy_policy_label">Gizlilik politikası</string>
     <string name="private_num_non_verizon">Özel numara</string>
     <string name="private_num_verizon">Kısıtlanmış</string>
+    <string name="private_or_hidden_action_preference_description">Arayan kimliğini gizleyen arayanlar</string>
+    <string name="private_or_hidden_action_preference_title">Özel veya gizli</string>
     <string name="quick_contact_checkbox_description">Kişi seçin</string>
     <string name="ready_for_recording">Hazır…</string>
     <string name="record_greeting_cancel_label">İptal</string>
@@ -928,6 +985,8 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="record_greeting_uploading_greeting_message">Kaydediliyor…</string>
     <string name="record_voicemail_greeting_title">Karşılama mesajı kaydet</string>
     <string name="recording_category_title">Kayıtlar</string>
+    <string name="recording_deleted">Kayıt silindi</string>
+    <string name="recording_deletion_failed">Kayıt silinemedi [Tekrar deneyin]</string>
     <string name="redo_button_text">Tekrar dene</string>
     <string name="remember_this_choice_label">Bu tercihi hatırla</string>
     <string name="report_not_spam_alert_button">Bildir</string>
@@ -939,9 +998,20 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="request_call_back_description">Beni geri arayın</string>
     <string name="request_email_description">Bana e-posta gönderin</string>
     <string name="respond_via_sms_setting_title">Hızlı yanıtlar</string>
+    <string name="revelio_callers_how_it_works_text">"Otomatik filtrelemeyi devre dışı bırakmak üzere, bilinmeyen aramalar için \"Telefonun zilini çaldır (varsayılan)\" ayarını seçin. Kişileriniz hiçbir zaman otomatik olarak filtrelenmez. Telefonunuz kulaklığa veya hoparlörlere bağlıyken otomatik filtreleme çalışmaz. 
+Arama Filtreleme için veri bağlantısı veya kablosuz bağlantı kullanılmaz ancak operatörün konuşma dakikaları kullanılır. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">30 gün sonra silinir</string>
+    <string name="revelio_delete_old_recordings_setting_title">Eski kayıtları ve transkriptleri otomatik sil</string>
+    <string name="revelio_demo_setting_title">"Arama Filtreleme'nin işleyiş şekli"</string>
     <string name="revelio_demo_turn_on">Etkinleştir</string>
     <string name="revelio_end_call_reject_as_spam">Arama spam olarak işaretlendi</string>
     <string name="revelio_end_call_user_missed_internal_message">Arama kaçırıldı</string>
+    <string name="revelio_pref_title">Arama Filtreleme</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Otomatik filtreleme kapalı</string>
+    <string name="revelio_preference_summary_screening">Filtreleme: %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Asistanınızın cevapladığı aramalardaki sesi kaydedin</string>
+    <string name="revelio_save_audio_setting_title">"Arama Filtreleme'de ses kaydet"</string>
+    <string name="revelio_setting_title">Arama Filtreleme</string>
     <string name="rtt_assist_default">RTT; tam veya kısmi işitme engelli, konuşma engeli olan ya da sesten fazlasına ihtiyaç duyan arayanlara yardımcı olur. ^1</string>
     <string name="rtt_assist_for_att">Ekrandaki Gerçek Zamanlı Mesaj (RTT) klavyesi, harici TTY klavyelerinin alternatifidir. Bir RTT araması sırasında mesaj yazarken, konuştuğunuz kişi mesaj yazdığınızı gerçek zamanlı olarak görebilir. ^1</string>
     <string name="rtt_assist_for_tmo">Ekrandaki Gerçek Zamanlı Mesaj (RTT) klavyesi, harici TTY klavyelerinin alternatifidir. RTT, bir telefon görüşmesi sırasında yazmakta olduğunuz metni anında göndererek size gerçek zamanlı mesajlarla iletişim kurma olanağı tanır. Daha mesaj tamamlanmadan kısmi yanıtları görebilirsiniz. ^1</string>
@@ -949,7 +1019,8 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="rtt_button_back">Geri</string>
     <string name="rtt_button_downgrade">Sesli aramaya geç</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">Bu arama için RTT kullanılamaz. Aramanız, yalnızca sesli arama olarak bağlandı.</string>
+    <string name="rtt_call_downgraded_toast">RTT aramanız yalnızca sesli arama olarak değiştirildi</string>
+    <string name="rtt_call_not_available_toast">Bu arama için RTT kullanılamıyor.</string>
     <string name="rtt_configuration_summary_always_visible">Gerçek Zamanlı Mesaj düğmesi her yerden kullanılabilir</string>
     <string name="rtt_configuration_summary_not_visible">Gelen Gerçek Zamanlı Mesaj aramalarına izin verilir ancak arama düğmesi gizlenir</string>
     <string name="rtt_configuration_summary_visible_during_call">Arama sırasında Gerçek Zamanlı Mesaj düğmesi gösterilir</string>
@@ -978,6 +1049,8 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="rtt_transcript_link">Çeviri yazıyı göster</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Bu mesaj yinelenecek.</string>
+    <string name="save_audio_error_cant_load_value">"Geçerli Arama Filtreleme'deki ses değeri alınamadı"</string>
+    <string name="save_audio_error_cant_set_value">"Arama Filtreleme'deki ses değeri kaydedilemedi"</string>
     <string name="save_button_text">Kaydet</string>
     <string name="saved_voicemails_action_title">Kayıtlı sesli mesajlar (%1$s)</string>
     <string name="search_hint">Görüntülü görüşme için kişi arayın</string>
@@ -1004,8 +1077,11 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="send_a_message">Mesaj gönder</string>
     <string name="send_to_voicemail_import_failed">İçe aktarma başarısız oldu</string>
     <string name="serial_number">Seri numarası</string>
+    <string name="set_as_default_button_text">Varsayılan yap</string>
     <string name="set_default_account">Çağrılar için her zaman bunu kullan</string>
     <string name="set_default_account_description">SIM tercihi kişilerinizle kaydedildi.</string>
+    <string name="set_phone_as_default_explanation_text">Telefon yalnızca varsayılan telefon uygulamanız olması halinde arama başlatabilir ve alabilir</string>
+    <string name="set_phone_as_default_request_text">Telefonu varsayılan yap</string>
     <string name="settings">Ayarlar</string>
     <string name="settings_page_call_recording_feature_not_available_text">Arama kaydı bulunduğunuz yerde kullanılamıyor</string>
     <string name="settings_page_crosby_feature_not_available_text">Bulunduğunuz yerde kullanılamıyor</string>
@@ -1040,6 +1116,8 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="snackbar_undo">Geri al</string>
     <string name="snackbar_voicemail_deleted">Sesli mesaj silindi</string>
     <string name="sounds_and_vibration_title">Ses ve titreşim</string>
+    <string name="spam_action_preference_description">"Google'ın spam veritabanıyla eşleşen numaralar"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam ve Arama Filtreleme</string>
     <string name="spam_blocking_promo_action_dismiss">Kapat</string>
     <string name="spam_blocking_promo_action_filter_spam">Spam Çağrıları Filtrele</string>
@@ -1066,8 +1144,6 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="speed_dial_add_button_text">Ekle</string>
     <string name="speed_dial_contacts_permission_description">Hızlı aramayı etkinleştirmek için Kişiler iznini etkinleştirin.</string>
     <string name="speed_dial_disambig_dialog_title">%s nasıl aranacak seçin</string>
-    <string name="speed_dial_education_content">Aramalarla mesajlar arasında geçiş yapmak için dilediğiniz kişiye dokunup basılı tutun</string>
-    <string name="speed_dial_education_title">İletişime geçmenin diğer yolları</string>
     <string name="speed_dial_no_contacts_action_text">Favori ekle</string>
     <string name="speed_dial_no_contacts_description">Favori kişilerinizi tek dokunuşla arayın</string>
     <string name="speed_dial_remember_this_choice">Bu tercihi hatırla</string>
@@ -1084,6 +1160,45 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="suggestion_dialog_postive_snackbar_message">Geri bildiriminiz için teşekkürler</string>
     <string name="suggestions_header">Sık görüşülenler</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">hesap ve sistem bilgilerinizi</string>
+    <string name="survey_app_id">Uygulama Kimliği</string>
+    <string name="survey_app_name">Uygulama Adı</string>
+    <string name="survey_app_version">Uygulama Sürümü</string>
+    <string name="survey_application_data">Uygulama verileri</string>
+    <string name="survey_brand">Marka</string>
+    <string name="survey_close_button_description">Kapat</string>
+    <string name="survey_default_prompt_title">"Google'ı daha iyi hale getirmemize yardımcı olun."</string>
+    <string name="survey_device_model">Cihaz Modeli</string>
+    <string name="survey_email_address">E-posta adresi</string>
+    <string name="survey_google_play_services_version">Google Play Hizmetleri sürümü</string>
+    <string name="survey_legal_text">"Devam ederek, sunduğu hizmetleri iyileştirmek amacıyla Google'ın hem yanıtlarınızı hem %1$s %2$s ve %3$s uyarınca kullanacağını kabul etmiş olursunuz."</string>
+    <string name="survey_library_version">Kitaplık Sürümü</string>
+    <string name="survey_network_request_failed">Ağ isteği başarısız oldu</string>
+    <string name="survey_neutral">Ne memnunum ne değilim</string>
+    <string name="survey_next">İleri</string>
+    <string name="survey_num_rating">%1$s/%2$s</string>
+    <string name="survey_ok">Tamam</string>
+    <string name="survey_open_text_hint">Yorumlarınızı buraya girin</string>
+    <string name="survey_open_text_no_pii">Kişisel bilgi eklemeyin</string>
+    <string name="survey_operating_system">İşletim Sistemi</string>
+    <string name="survey_operating_system_version">İşletim Sistemi sürümü</string>
+    <string name="survey_other_option_hint">Diğer (Lütfen belirtin)</string>
+    <string name="survey_platform">Platform</string>
+    <string name="survey_privacy">Gizlilik Politikası</string>
+    <string name="survey_prompt_no_thanks">Hayır, teşekkürler</string>
+    <string name="survey_prompt_take_our_survey">Soruyu göster</string>
+    <string name="survey_smiley_rating">%1$s/%2$s smiley: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Pek memnun değilim</string>
+    <string name="survey_somewhat_satisfied">Biraz memnunum</string>
+    <string name="survey_submit">Gönder</string>
+    <string name="survey_system_info_dialog_title">Hesap ve sistem bilgileri</string>
+    <string name="survey_terms">Şartlar</string>
+    <string name="survey_thank_you_followup_message">Daha fazla soruya yanıt vererek ürünümüzü daha iyi hale getirmemize yardımcı olun</string>
+    <string name="survey_timezone_offset">Saat dilimi farkı</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">Kullanıcı Aracısı</string>
+    <string name="survey_very_dissatisfied">Hiç memnun değilim</string>
+    <string name="survey_very_satisfied">Çok memnunum</string>
     <string name="system_default_theme_label">Sistem varsayılanı</string>
     <string name="tab_title_call_history">Son</string>
     <string name="tab_title_contacts">Kişiler</string>
@@ -1095,11 +1210,15 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="terms_of_service_label">Hizmet şartları</string>
     <string name="textmessage_button_label">Mesaj gönder</string>
     <string name="theme_preference_label">Tema seç</string>
+    <string name="tidepods_call_screen_settings_title">Arama Filtreleme</string>
+    <string name="tidepods_incall_label_record">Kaydet</string>
     <string name="toast_text_copied">Metin kopyalandı</string>
     <string name="toolbar_back">Geri</string>
     <string name="toolbar_close">Kapat</string>
     <string name="transcript_audio_feedback_chip_text">İyileştirmemize yardımcı olun</string>
+    <string name="transcript_audio_feedback_link_text">Transkripte ve ses kaydına bakın</string>
     <string name="transcript_snippet_low_confidence_description">(Ses net değildi)</string>
+    <string name="try_again_button">Tekrar dene</string>
     <string name="tty_configuration_title_tty_full">TTY Tam</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY Kapalı</string>
@@ -1121,7 +1240,6 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="type_outgoing_video_pulled">Giden görüntülü görüşme isteği başka bir cihaza aktarıldı</string>
     <string name="type_rejected">Reddedilen çağrı</string>
     <string name="type_voicemail">Sesli mesaj</string>
-    <string name="unable_change_value_error">RTT ayarları değiştirilirken bir sorun oluştu. Lütfen geri gidip tekrar deneyin.</string>
     <string name="unable_read_value_error">RTT ayarları okunurken bir sorun oluştu. Lütfen geri gidip tekrar deneyin.</string>
     <string name="unblock_number">Engellemeyi kaldır</string>
     <string name="unblock_number_alert_details">Numaranın engellemesi ve spam durumu kaldırılacak. Gelecekteki çağrılar spam olarak tanımlanmayacak.</string>
@@ -1130,6 +1248,7 @@ Ayarları güncellemeden bazı numaraları yine de görüntülü arayabilirsiniz
     <string name="unblock_number_ok">Engellemeyi kaldır</string>
     <string name="unblock_report_number_alert_title">%1$s numaralı telefonun engellemesi kaldırılsın mı?</string>
     <string name="unknown">Bilinmiyor</string>
+    <string name="unknown_call_settings_category_preference_title">Bilinmeyen Arama Ayarları</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Gelen aramanın sesini aç</string>
     <string name="user_is_busy_description">Sizi geri arayacağım</string>
@@ -1241,10 +1360,17 @@ Görüşmeye devam ederseniz veri kullanımı ücreti yansıtılacaktır."</stri
     <string name="videocall_remote_video_on">Video açık</string>
     <string name="videocall_remotely_held">Çağrı beklemede</string>
     <string name="videocall_remotely_resumed">Çağrı sürdürüldü</string>
+    <string name="videocall_settings_default_carrier">Operatör görüntülü görüşmesi</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Varsayılan görüntülü görüşme hizmeti</string>
+    <string name="videocall_settings_fallback_summary">"Operatör görüntülü görüşmesi kullanılamadığında Duo'ya geçilir"</string>
+    <string name="videocall_settings_fallback_title">"Duo'yu yedek olarak kullan"</string>
+    <string name="videocall_settings_title">Görüntülü Görüşme</string>
     <string name="videocall_show_preview_button_description">"Yerel video feed'ini göster"</string>
     <string name="view">Görüntüle</string>
     <string name="view_location_settings">Konum ayarları</string>
     <string name="vitle_label">LTE üzerinden video</string>
+    <string name="viwifi_label">Kablosuz üzerinden görüntülü arama</string>
     <string name="vm_change_pin_error_invalid">Yeni PIN, geçersiz karakterler içeriyor.</string>
     <string name="vm_change_pin_error_mismatch">Eski PIN eşleşmiyor.</string>
     <string name="vm_change_pin_error_system_error">PIN değiştirilemedi</string>
@@ -1254,8 +1380,11 @@ Görüşmeye devam ederseniz veri kullanımı ücreti yansıtılacaktır."</stri
     <string name="vm_change_pin_progress_message">Lütfen bekleyin.</string>
     <string name="voice_call">Sesli arama</string>
     <string name="voice_call_button">Ara</string>
+    <string name="voice_display_name">Ses %1$d</string>
     <string name="voice_search_not_available">Sesli arama kullanılamaz</string>
     <string name="voice_selector_preference_title">Kullanılabilir sesler</string>
+    <string name="voice_settings_available_voices_text">Kullanılabilir sesler</string>
+    <string name="voice_settings_title">Ses</string>
     <string name="voicecall_button_label">Ara</string>
     <string name="voicecall_button_wifi_description">Kablosuz ağ üzerinden ara</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s, %2$s</string>
@@ -1290,7 +1419,6 @@ Görüşmeye devam ederseniz veri kullanımı ücreti yansıtılacaktır."</stri
     <string name="voicemail_donation_promo_title">Çeviri yazının iyileştirilmesine yardımcı olmak ister misiniz?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">"SIM'ler için, internet erişimi olmadan görsel sesli mesaj kullanımında operatör ücretleri alınabilir"</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Görsel sesli mesaj yalnızca seçili veri SIM ile kullanılabilir</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Birden fazla SIM kartınız varsa ve biri Fi içinse görsel sesli mesajlar için Fi SIM kartınız kullanılır</string>
     <string name="voicemail_error_activating_message">Görsel sesli mesaj tam olarak etkinleştirilene dek sesli mesaj bildirimlerini almayabilirsiniz. Sesli mesaj tam olarak etkinleştirilene kadar, yeni mesajları almak için sesli mesaj hizmetini arayın.</string>
     <string name="voicemail_error_activating_title">Görsel sesli mesajı etkinleştirme</string>
     <string name="voicemail_error_activation_disabled_message">Kurulumu tamamlamak için sesli mesajı arayın</string>
@@ -1397,6 +1525,7 @@ Görüşmeye devam ederseniz veri kullanımı ücreti yansıtılacaktır."</stri
     <string name="vvm3_error_vms_no_cellular_title">Sesli Mesaj Kutunuza Bağlanılamıyor</string>
     <string name="vvm3_error_vms_timeout_message">Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen %1$s numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9007 olduğunu bildirin.</string>
     <string name="vvm3_error_vms_timeout_title">Bir Sorun Oluştu</string>
+    <string name="vvm_config_title">Görsel Sesli Mesaj Yapılandırması</string>
     <string name="vvm_unsupported_message_format">Desteklenmeyen mesaj türü. Dinlemek için %s numaralı telefonu arayın.</string>
     <string name="wait_prompt_str">"Şu zil sesleri gönderilsin mi?
 "</string>

@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Thêm vào thư mục có %1$s</string>
     <string name="add_to_home_screen">Thêm vào Màn hình chính</string>
     <string name="added_to_folder">Đã thêm mục vào thư mục</string>
+    <string name="added_to_home_screen_accessibility_text">Đã thêm tiện ích %1$s vào màn hình chính</string>
     <string name="all_apps_button_label">Danh sách ứng dụng</string>
     <string name="all_apps_button_personal_label">Danh sách ứng dụng cá nhân</string>
     <string name="all_apps_button_work_label">Danh sách ứng dụng công việc</string>
@@ -88,7 +89,9 @@
     <string name="allapps_search_hint">Tìm trên điện thoại và hơn thế</string>
     <string name="allow_rotation_desc">Khi xoay điện thoại</string>
     <string name="allow_rotation_title">Cho phép xoay Màn hình chính</string>
-    <string name="allset_description">Hiện giờ, bạn đã có thể sử dụng điện thoại</string>
+    <string name="allset_description">Vậy là bạn đã sẵn sàng sử dụng điện thoại của mình</string>
+    <string name="allset_hint">Vuốt lên để chuyển đến Màn hình chính</string>
+    <string name="allset_navigation_settings"><annotation id="link">Chế độ cài đặt di chuyển trên hệ thống</annotation></string>
     <string name="allset_title">Đã hoàn tất!</string>
     <string name="app_downloading_title">Đang tải xuống %1$s, %2$s hoàn tất</string>
     <string name="app_info_drop_target_label">Thông tin ứng dụng</string>
@@ -98,11 +101,13 @@
     <string name="app_waiting_download_title">Đang chờ cài đặt %1$s</string>
     <string name="auto_add_shortcuts_description">Cho ứng dụng mới</string>
     <string name="auto_add_shortcuts_label">Thêm biểu tượng ứng dụng vào Màn hình chính</string>
-    <string name="back_gesture_feedback_complete_with_overview_follow_up">Bạn đã tìm hiểu cách vuốt từ mép phải để quay lại. Tiếp theo, hãy tìm hiểu cách chuyển đổi ứng dụng.</string>
+    <string name="back_gesture_feedback_cancelled">Hãy vuốt từ mép phải hoặc mép trái tới giữa màn hình rồi thả tay ra.</string>
+    <string name="back_gesture_feedback_complete_with_overview_follow_up">Bạn đã học được cách vuốt từ mép phải để quay lại. Tiếp theo, hãy tìm hiểu cách chuyển đổi ứng dụng.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Bạn đã thực hiện xong cử chỉ quay lại.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Hãy nhớ không được vuốt quá gần phần cuối màn hình.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Hãy vuốt từ mép ngoài cùng bên phải hoặc ngoài cùng bên trái.</string>
     <string name="back_gesture_intro_subtitle">Để quay lại màn hình gần đây nhất, hãy vuốt từ mép trái hoặc mép phải tới chính giữa màn hình.</string>
-    <string name="back_gesture_intro_title">Hãy vuốt để quay lại</string>
+    <string name="back_gesture_intro_title">Vuốt để quay lại</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Để thay đổi độ nhạy của cử chỉ quay lại, hãy vào mục Cài đặt</string>
     <string name="blocked_by_policy">Ứng dụng hoặc tổ chức của bạn không cho phép thực hiện hành động này</string>
     <string name="close">Đóng</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Nhấn để lưu đổi tên</string>
     <string name="gadget_error_text">Không thể tải tiện ích</string>
     <string name="gadget_setup_text">Nhấn để hoàn tất quá trình thiết lập</string>
+    <string name="gesture_tutorial_action_button_label">Xong</string>
     <string name="gesture_tutorial_action_button_label_cancel">Hủy</string>
     <string name="gesture_tutorial_action_button_label_settings">Cài đặt</string>
     <string name="gesture_tutorial_action_button_label_skip">Bỏ qua</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Hãy thử giữ cửa sổ lâu hơn trước khi thả tay ra.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Hãy vuốt lên từ mép dưới cùng của màn hình.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Hãy vuốt thẳng lên, sau đó tạm dừng.</string>
+    <string name="overview_gesture_intro_subtitle">Để chuyển đổi giữa các ứng dụng, hãy vuốt lên từ cuối màn hình, giữ rồi thả ra.</string>
     <string name="overview_gesture_intro_title">Vuốt để chuyển đổi ứng dụng</string>
     <string name="overview_selection_pref_desc">Khi chuyển đổi ứng dụng, hãy chạm và giữ văn bản cũng như hình ảnh để xem các thao tác</string>
     <string name="overview_selection_pref_title">Chọn trong màn hình Tổng quan</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Chỗ ngồi</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Tùy chọn</string>
-    <string name="smartspace_preferences_in_settings">Không gian trực tiếp</string>
+    <string name="smartspace_preferences_in_settings">Xem nhanh</string>
     <string name="smartspace_preferences_in_settings_desc">Ở đầu Màn hình chính của bạn</string>
     <string name="smartspace_preferences_manage">Tùy chỉnh</string>
     <string name="smartspace_preferences_turn_off_action">Tắt</string>

@@ -341,13 +341,15 @@ Appareil non configuré."</string>
 
 "<li>"Tout autre utilisateur peut accepter les mises à jour d'autorisations d'applis"</li>"
 
-"<li>"Ne partagez ce téléphone qu'avec des personnes de confiance"</li></ul>}TABLET{<b>Important</b>" :
+"<li>"Ne partagez ce téléphone qu'avec des personnes de confiance"</li></ul>"
+}TABLET{"<b>Important</b>" :
 
 "<ul><li>Le propriétaire de la tablette peut désinstaller vos applis ou supprimer complètement votre profil utilisateur</li>"
 
 "<li>"Tout autre utilisateur peut accepter les mises à jour d'autorisations d'applis"</li>"
 
-"<li>"Ne partagez cette tablette qu'avec des personnes de confiance"</li></ul>}other{<b>Important</b>" :
+"<li>"Ne partagez cette tablette qu'avec des personnes de confiance"</li></ul>"
+}other{"<b>Important</b>" :
 
 "<ul><li>"Le propriétaire de l'appareil peut désinstaller vos applis ou supprimer complètement votre profil utilisateur"</li>"
 
@@ -359,71 +361,48 @@ Appareil non configuré."</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre téléphone.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
+"<li>Restaurer des applis ni des données</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}TABLET{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre tablette.
+"<li>"Configurer automatiquement l'heure ni la date"</li>"
+}TABLET{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre tablette.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
+"<li>Restaurer des applis ni des données</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}other{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre appareil.
+"<li>"Configurer automatiquement l'heure ni la date"</li>"
+}other{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre appareil.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
+"<li>Restaurer des applis ni des données</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>}}</string>
+"<li>"Configurer automatiquement l'heure ni la date"</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre téléphone.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
-"<li>Télécharger une carte SIM</li>"
-
+"<li>Restaurer des applis ni des données</li>"
+"<li>Télécharger une SIM</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}TABLET{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre tablette.
+Configurer automatiquement l'heure ni la date"<li></li>"
+}TABLET{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre tablette.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
-"<li>Télécharger une carte SIM</li>"
-
+"<li>Restaurer des applis ni des données</li>"
+"<li>Télécharger une SIM</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>"}other{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre appareil.
+"<li>"Configurer automatiquement l'heure ni la date"</li>"
+}other{Vous connecter à un réseau Wi‑Fi ou mobile vous permet de configurer rapidement votre appareil.
 
 Sans connexion, vous ne pouvez pas :
-
 "<li>Vous connecter à votre compte Google</li>"
-
-"<li>Restaurer des applis et des données</li>"
-
-"<li>Télécharger une carte SIM</li>"
-
+"<li>Restaurer des applis ni des données</li>"
+"<li>Télécharger une SIM</li>"
 "<li>Obtenir des mises à jour logicielles</li>"
-
-"<li>"Configurer automatiquement l'heure et la date"</li>}}</string>
+"<li>"Configurer automatiquement l'heure ni la date"</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">"Point d'accès temporairement plein"</string>
     <string name="wifi_check_password_try_again">Vérifiez le mot de passe et réessayez</string>
     <string name="wifi_connected_no_internet">Connecté, aucun accès à Internet</string>
@@ -447,7 +426,7 @@ Sans connexion, vous ne pouvez pas :
     <string name="wifi_skip_button_label">Configurer hors ligne</string>
     <string name="wifi_skipped_message">{DEVICE_TYPE,select, PHONE{Votre téléphone utilisera le réseau mobile pendant la configuration, et la consommation de données pourra vous être facturée. Pour éviter des frais éventuels, connectez-vous au Wi-Fi.}TABLET{Votre tablette utilisera le réseau mobile pendant la configuration, et la consommation de données pourra vous être facturée. Pour éviter des frais éventuels, connectez-vous au Wi-Fi.}other{Votre appareil utilisera le réseau mobile pendant la configuration, et la consommation de données pourra vous être facturée. Pour éviter des frais éventuels, connectez-vous au Wi-Fi.}}</string>
     <string name="wifi_skipped_title">Frais de données éventuels</string>
-    <string name="wifi_title">Se connecter au Wi-Fi</string>
+    <string name="wifi_title">Connectez-vous au Wi-Fi</string>
     <string name="wifi_unmetered_label">"Non facturé à l'usage"</string>
     <string name="work_profile_setup_description">Permet de configurer cet appareil pour une utilisation professionnelle et de séparer vos données professionnelles de vos données personnelles</string>
     <string name="work_profile_setup_next">Suivant</string>

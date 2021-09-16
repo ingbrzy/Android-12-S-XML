@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Jawab</string>
     <string name="a11y_call_incoming_decline_description">Tolak</string>
+    <string name="a11y_callscreen_animation">Animasi Call Screen</string>
     <string name="a11y_contact_menu_video_call_wifi">Panggilan video menggunakan Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Panggilan suara menggunakan Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Panggilan terakhir ialah panggilan yang dijawab daripada ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Urus pemanggil</string>
     <string name="a11y_expandedsheet_collapse">runtuhkan menu</string>
     <string name="a11y_expandedsheet_expand">kembangkan menu</string>
-    <string name="a11y_favorites_education_dismiss">tutup</string>
     <string name="a11y_feature_demo_next_page">Halaman seterusnya</string>
     <string name="a11y_feature_demo_page_indicator">Halaman %d</string>
     <string name="a11y_feature_demo_prev_page">Halaman sebelumnya</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Kenalan cepat untuk ^1</string>
+    <string name="a11y_icon_hd">Panggilan HD</string>
+    <string name="a11y_icon_hd_plus">Panggilan HD Plus</string>
+    <string name="a11y_icon_shared_data_call">Panggilan data dikongsi</string>
+    <string name="a11y_icon_verified">Panggilan yang disahkan</string>
+    <string name="a11y_icon_vilte">Panggilan video melalui LTE</string>
+    <string name="a11y_icon_viwifi">Panggilan video melalui Wi-Fi</string>
+    <string name="a11y_icon_volte">Panggilan suara melalui LTE</string>
+    <string name="a11y_icon_voz4g">Panggilan suara melalui 4G</string>
+    <string name="a11y_icon_wifi">Panggilan Wi-Fi</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Leret dua jari ke atas untuk menjawab. Leret dua jari ke bawah untuk menolak.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Leret ke atas menggunakan dua jari untuk menjawab panggilan atau ke bawah untuk menolak panggilan</string>
     <string name="a11y_new_call_log_entry_call_recording">panggilan dirakam</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">pada ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">buat panggilan RTT kepada ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Panggilan data dikongsi</string>
     <string name="a11y_new_call_log_entry_tap_action">kembangkan menu</string>
     <string name="a11y_new_call_log_entry_video_call">buat panggilan video kepada ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">buat panggilan video kepada ^1 menggunakan Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Edit nombor sebelum panggilan</string>
     <string name="action_menu_back_from_search">berhenti mencari</string>
     <string name="action_menu_overflow_description">Lagi pilihan</string>
+    <string name="activate_error_message">Masalah berlaku semasa mengaktifkan Call Screen</string>
+    <string name="activated_successfully">Call Screen diaktifkan</string>
     <string name="activity_not_available">Tiada apl untuk tindakan itu pada peranti ini</string>
     <string name="add_2sec_pause">Tambah jeda 2 saat</string>
     <string name="add_contact_not_available">Tiada apl kenalan yang tersedia</string>
@@ -159,9 +171,9 @@ Rakaman disimpan hanya pada telefon anda. ^1"</string>
     <string name="bm_suggest_call_button">Panggil</string>
     <string name="bm_suggest_chat_button">Sembang</string>
     <string name="bm_suggest_wait_min">"Sembang
-tunggu %1$d min"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s belum dibaca</string>
+masa tunggu %1$dm"</string>
+    <string name="bm_suggest_wait_time_estimating">"Sembang
+Dilaksanakan…"</string>
     <string name="bottomsheet_action_expand_halfway">Kembangkan helaian bawah</string>
     <string name="bubble_bottom_action_end_call">Tamatkan panggilan</string>
     <string name="bubble_bottom_action_hide">Sembunyikan</string>
@@ -170,7 +182,10 @@ tunggu %1$d min"</string>
     <string name="call">Panggilan suara</string>
     <string name="callFailed_simError">Tiada SIM atau ralat SIM</string>
     <string name="callHistoryIconLabel">Sejarah panggilan</string>
-    <string name="call_announcer_preference_footer_instruction_text">Untuk panggilan masuk, nama dan nombor pemanggil akan dibacakan</string>
+    <string name="call_action_label_automatically_screen">Saring secara automatik. Tolak robopanggilan.</string>
+    <string name="call_action_label_ring_phone">Deringkan telefon (lalai)</string>
+    <string name="call_action_label_silently_decline">Tolak secara senyap</string>
+    <string name="call_announcer_preference_footer_instruction_text">Untuk panggilan masuk, nama dan nombor pemanggil akan dibacakan.</string>
     <string name="call_announcer_preference_list_title">Umumkan ID pemanggil</string>
     <string name="call_announcer_preference_option_always">Sentiasa</string>
     <string name="call_announcer_preference_option_headset">Hanya apabila menggunakan set kepala</string>
@@ -203,7 +218,7 @@ tunggu %1$d min"</string>
     <string name="call_incoming_answer">Jawab</string>
     <string name="call_incoming_answer_rtt">Jawab dengan RTT</string>
     <string name="call_incoming_answer_voice">Jawab dengan suara</string>
-    <string name="call_incoming_chip_answer_and_release">Jawab &amp; panggilan tamat</string>
+    <string name="call_incoming_chip_answer_and_release">Jawab &amp; tamatkan panggilan lain</string>
     <string name="call_incoming_chip_answer_as_rtt">Jawab sebagai panggil RTT</string>
     <string name="call_incoming_chip_answer_video_as_audio">Jawab sebagai panggilan suara</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Jawab dengan video saya dimatikan</string>
@@ -219,7 +234,7 @@ tunggu %1$d min"</string>
     <string name="call_incoming_swipe_to_answer">Leret ke atas untuk menjawab</string>
     <string name="call_incoming_swipe_to_reject">Leret ke bawah untuk menolak</string>
     <string name="call_incoming_video_is_off">Video anda dimatikan</string>
-    <string name="call_incoming_will_disconnect">Panggilan video anda akan ditamatkan apabila anda menjawab panggilan ini</string>
+    <string name="call_incoming_will_disconnect">Panggilan anda yang lain akan ditamatkan apabila anda menjawab panggilan ini</string>
     <string name="call_incoming_will_disconnect_app">Menjawab akan menamatkan panggilan %1$s anda</string>
     <string name="call_isdn">Panggil ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Sekat/laporkan spam</string>
@@ -255,6 +270,7 @@ tunggu %1$d min"</string>
     <string name="call_reason_fragment_content_description">Sebab Panggilan: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Rakaman disimpan.</string>
     <string name="call_recording_conversation_history_entry">Dirakam</string>
+    <string name="call_recording_delete_snack_bar_undo">Buat asal</string>
     <string name="call_recording_disclaimer_agreen_button_text">Mula merakam</string>
     <string name="call_recording_disclaimer_content">"Anda atau orang lain dalam panggilan mungkin berada di tempat yang menghendaki semua orang memberikan persetujuan untuk dirakam. Semua orang akan diberitahu lebih awal bahawa panggilan dirakam. Terpulang kepada anda untuk mematuhi undang-undang tentang merakam perbualan. Gunakan rakaman panggilan secara bertanggungjawab dan hidupkan ciri ini hanya apabila diperlukan.
 ^1
@@ -291,6 +307,7 @@ Rakaman disimpan hanya pada telefon anda."</string>
 Audio panggilan mahupun transkrip panggilan tidak dihantar kepada sesiapa, termasuk Google."</string>
     <string name="call_screen_demo_page_4_title">Jimatkan masa dan elakkan kekecewaan</string>
     <string name="call_screen_demo_setting_title">Lihat tunjuk cara</string>
+    <string name="call_screen_demo_settings_title">Lihat tunjuk cara</string>
     <string name="call_screen_demo_title">Cara Call Screen berfungsi</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Tidak dapat mengambil audio sampel</string>
     <string name="call_screen_demo_unable_to_play_audio">Tidak dapat memainkan audio sampel</string>
@@ -298,6 +315,7 @@ Audio panggilan mahupun transkrip panggilan tidak dihantar kepada sesiapa, terma
     <string name="call_screen_end_call_local_internal_message">Anda menamatkan panggilan</string>
     <string name="call_screen_end_call_non_local_internal_message">Panggilan terputus</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen berfungsi pada peranti anda tanpa Wi-Fi atau data. Transkrip perbualan dijanakan dan disimpan hanya pada telefon anda. %1$s</string>
+    <string name="call_screen_how_it_works_title">Call Screen berfungsi pada peranti anda tanpa Wi-Fi atau data. Transkrip perbualan dijanakan dan disimpan hanya pada telefon anda. ^1</string>
     <string name="call_screen_incallui_chip_text">Tapis panggilan</string>
     <string name="call_screen_join_call_button_content_description">Sertai panggilan</string>
     <string name="call_screen_join_call_internal_message">Anda menyertai panggilan</string>
@@ -307,6 +325,7 @@ Audio panggilan mahupun transkrip panggilan tidak dihantar kepada sesiapa, terma
     <string name="call_screen_saying_to_the_caller_state">Berkata kepada pemanggil</string>
     <string name="call_screen_screening_call_from">Menyaring panggilan daripada</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Butang pembesar suara</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Batal</string>
@@ -331,6 +350,8 @@ Audio panggilan mahupun transkrip panggilan tidak dihantar kepada sesiapa, terma
     <string name="call_work">Panggil tempat kerja</string>
     <string name="call_work_mobile">Panggil telefon mudah alih tempat kerja</string>
     <string name="call_work_pager">Panggil alat kelui tempat kerja</string>
+    <string name="caller_action_error_cant_load_value">Tidak dapat mengambil nilai %1$s semasa</string>
+    <string name="caller_action_error_cant_set_value">Tidak dapat menyimpan nilai %1$s</string>
     <string name="caller_id_announcement_multi_sim">panggilan masuk %1$s daripada %2$s pada sim %3$s</string>
     <string name="caller_id_announcement_single_sim">panggilan masuk %1$s daripada %2$s</string>
     <string name="caller_id_business_data_details">Data yang digunakan dalam ciri ini disediakan oleh Google dan pemberi lesennya. ^1</string>
@@ -370,6 +391,9 @@ Audio panggilan mahupun transkrip panggilan tidak dihantar kepada sesiapa, terma
     <string name="calling_blocked_number_precall_dialog_title">Hubungi %s?</string>
     <string name="calllog_add_to_contact">Tambahkan pada kenalan</string>
     <string name="calllog_create_new_contact">Buat kenalan baharu</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Mengaktifkan Call Screen (memerlukan Wi-Fi)</string>
+    <string name="callscreen_settings_voice_setting_title">Suara</string>
+    <string name="camera_permission_toast">Kebenaran kamera didayakan</string>
     <string name="camera_privacy_text">Kebenaran kamera didayakan</string>
     <string name="cannot_understand_description">Saya tidak faham</string>
     <string name="car_crash_emergency_intro">"Anda dihubungi oleh perkhidmatan suara kecemasan automatik bagi pihak pemanggil.
@@ -432,6 +456,9 @@ Sila hantar bantuan."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Tidak dapat menyediakan Panggilan yang disahkan. Anda boleh mendayakan ciri ini lagi dalam tetapan.</string>
     <string name="contact_card_video_icon_content_description">Panggilan video kepada ^1</string>
     <string name="contact_grid_callback_number">Nombor telefon ini: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Panggilan telah dimajukan</string>
+    <string name="contact_grid_hd_icon_content_description">Panggilan HD</string>
+    <string name="contact_grid_hd_plus_icon_content_description">Panggilan HD Plus</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Panggilan video pembawa daripada</string>
     <string name="contact_grid_incoming_reception_only_video_call">Panggilan video sehala pembawa daripada</string>
     <string name="contact_grid_incoming_rtt_call">Panggilan RTT daripada</string>
@@ -442,9 +469,18 @@ Sila hantar bantuan."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Panggilan video pembawa Wi-Fi daripada</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Panggilan video sehala pembawa Wi-Fi daripada</string>
     <string name="contact_grid_incoming_work_call">Panggilan kerja daripada</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Panggilan data dikongsi</string>
+    <string name="contact_grid_spam_icon_content_description">Panggilan spam</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Pembawa</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Disahkan oleh %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Nombor sah</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Panggilan video melalui LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Panggilan video melalui Wi-Fi</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Panggilan suara melalui 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Panggilan suara melalui LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Panggilan suara melalui Wi-Fi</string>
+    <string name="contact_grid_wifi_icon_content_description">Panggilan Wi-Fi</string>
+    <string name="contact_grid_work_icon_content_description">Panggilan kerja</string>
     <string name="contact_menu_add_favorite">Tmbh kegemaran</string>
     <string name="contact_menu_contact_info">Mklmt hubungan</string>
     <string name="contact_menu_invite_video">Jemput ke panggilan video</string>
@@ -479,8 +515,12 @@ Sila hantar bantuan."</string>
     <string name="conversation_history_call_details_header_today">Hari ini</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Panggilan dipadamkan</string>
     <string name="conversation_history_call_details_snack_bar_undo">Buat asal</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Panggilan penting</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Tunjukkan maklumat pgln yang ditambahkan</string>
+    <string name="conversation_history_call_recording_deleted">Rakaman dipadamkan</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkrip dan audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkrip</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Skrin Panggilan</string>
     <string name="copy">Salin</string>
     <string name="copy_number">Salin nombor</string>
@@ -499,12 +539,17 @@ Sila hantar bantuan."</string>
     <string name="custom_prefix_default_prefix_title">Awalan lalai</string>
     <string name="custom_prefix_prefixes_preference_title">Awalan</string>
     <string name="dark_theme_label">Gelap</string>
+    <string name="default_changed_confirmation">Telefon telah ditetapkan sebagai lalai</string>
+    <string name="default_image_content_description">Percikkan imej</string>
     <string name="delete">Padam</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Padamkan semua rakaman</string>
     <string name="delete_all_recordings_now_error_message">Sesetengah rakaman tidak dapat dipadamkan. Cuba lagi.</string>
     <string name="delete_button_label">Padamkan semua rakaman sekarang</string>
     <string name="delete_confirmation_dialog_negative_button_label">Batal</string>
     <string name="delete_confirmation_dialog_positive_button_label">Padam</string>
+    <string name="delete_old_recordings_error_cant_load_value">Tidak dapat mengambil nilai %1$s semasa</string>
+    <string name="delete_old_recordings_error_cant_set_value">Tidak dapat menyimpan nilai %1$s</string>
+    <string name="deleting_call_recording">Memadamkan rakaman…</string>
     <string name="description_add_to_existing_contact_action">Tambahkan ^1 pada kenalan yang sedia ada</string>
     <string name="description_blocked_number_list_delete">Nyahsekat nombor</string>
     <string name="description_call_action">Panggil ^1</string>
@@ -607,6 +652,7 @@ Sila hantar bantuan."</string>
     <string name="emergency_sos_emergency_intro">"Anda sedang dihubungi oleh perkhidmatan suara kecemasan automatik bagi pihak pemanggil.
 Pemanggil telah memberi isyarat bahawa mereka mungkin dalam keadaan kecemasan. 
 Sila hantar bantuan."</string>
+    <string name="emergency_speaker">Pembesar suara</string>
     <string name="emergency_voice_assist_dialog_button_close">Batal</string>
     <string name="emergency_voice_assist_dialog_title">Operator kecemasan mendengar teks ini</string>
     <string name="end_call_with_default_message_description">Tamatkan panggilan</string>
@@ -636,9 +682,12 @@ Sila hantar bantuan."</string>
     <string name="feedback_call_issue_quiet_audio">Audio terlalu senyap</string>
     <string name="feedback_call_issue_title">Apakah isunya?</string>
     <string name="feedback_title_please_rate">Sila nilaikan kualiti panggilan</string>
+    <string name="first_time_callers_action_preference_description">Pemanggil tiada dalam log panggilan anda</string>
+    <string name="first_time_callers_action_preference_title">Pemanggil kali pertama</string>
     <string name="flip_to_shush_title">Terbalikkan untuk Diam</string>
     <string name="flip_to_silence_summary">Untuk menyenyapkan panggilan masuk, letakkan bahagian hadapan telefon ke bawah di atas permukaan rata</string>
     <string name="flip_to_silence_title">Terbalikkan untuk Senyap</string>
+    <string name="foreground_notification_title">Mengemas kini…</string>
     <string name="frequent_contact_suggestion">Kerap dipanggil</string>
     <string name="general_learn_more">Ketahui lebih lanjut</string>
     <string name="generic_conference_call_name">Dalam panggilan</string>
@@ -661,6 +710,7 @@ Sila hantar bantuan."</string>
     <string name="how_it_works_storage_link_text">Ketahui lebih lanjut tentang cara rakaman disimpan</string>
     <string name="how_it_works_storage_template">Rakaman panggilan akan digantung jika telefon anda kehabisan storan. ^1</string>
     <string name="icon_content_description">Ikon Dialog</string>
+    <string name="icon_description_shared_data_call">Panggilan data dikongsi</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Import nombor</string>
     <string name="ims_video_heading">Video Verizon</string>
@@ -804,6 +854,7 @@ Sila hantar bantuan."</string>
     <string name="new_call_log_no_missed_calls">Anda tiada panggilan terlepas</string>
     <string name="new_call_log_permission_no_calllog">Untuk melihat log panggilan anda, hidupkan kebenaran Telefon.</string>
     <string name="new_call_log_secondary_blocked">Disekat</string>
+    <string name="new_call_log_secondary_verified">Panggilan yang disahkan</string>
     <string name="new_call_log_snack_bar_deleted">Panggilan dipadamkan</string>
     <string name="new_call_log_snack_bar_undo">Buat asal</string>
     <string name="new_call_log_unknown">Tidak diketahui</string>
@@ -818,8 +869,10 @@ Sila hantar bantuan."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Tolak</string>
     <string name="notification_action_end_call">Letakkan gagang</string>
+    <string name="notification_action_mute_toggle">Redam</string>
     <string name="notification_action_speaker_off">Matikan pembesar suara</string>
     <string name="notification_action_speaker_on">Hidupkan pembesar suara</string>
+    <string name="notification_action_speaker_toggle">Pembesar suara</string>
     <string name="notification_callReasonMsg">Sebab: %s</string>
     <string name="notification_call_wifi_brand">Panggilan Wi-Fi</string>
     <string name="notification_call_wifi_work_brand">Panggilan Wi‑Fi daripada tempat kerja</string>
@@ -883,6 +936,8 @@ Sila hantar bantuan."</string>
     <string name="place_ims_button_content_description">Butang digunakan untuk membuat panggilan video pembawa.</string>
     <string name="play">Main</string>
     <string name="plus_code_line_format">Kod tambah: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Pemanggil yang mungkin pemanggil spam menggunakan nombor yang diubah</string>
+    <string name="possibly_faked_numbers_action_preference_title">Kemungkinan nombor palsu</string>
     <string name="post_call_message">Nyatakan sebab anda memanggil</string>
     <string name="post_call_message_1">Ada hal penting. Hubungi saya balik.</string>
     <string name="post_call_message_2">Hubungi saya balik apabila ada kelapangan.</string>
@@ -913,6 +968,8 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="privacy_policy_label">Dasar privasi</string>
     <string name="private_num_non_verizon">Nombor peribadi</string>
     <string name="private_num_verizon">Terhad</string>
+    <string name="private_or_hidden_action_preference_description">Pemanggil menyembunyikan ID pemanggil mereka</string>
+    <string name="private_or_hidden_action_preference_title">Persendirian atau disembunyikan</string>
     <string name="quick_contact_checkbox_description">Pilih kenalan</string>
     <string name="ready_for_recording">Sedia…</string>
     <string name="record_greeting_cancel_label">Batal</string>
@@ -928,6 +985,8 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="record_greeting_uploading_greeting_message">Menyimpan…</string>
     <string name="record_voicemail_greeting_title">Rakam sapaan</string>
     <string name="recording_category_title">Rakaman</string>
+    <string name="recording_deleted">Rakaman dipadamkan</string>
+    <string name="recording_deletion_failed">Tidak dapat memadamkan rakaman [Cuba lagi]</string>
     <string name="redo_button_text">Cuba lagi</string>
     <string name="remember_this_choice_label">Ingat pilihan ini</string>
     <string name="report_not_spam_alert_button">Lapor</string>
@@ -939,9 +998,20 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="request_call_back_description">Hubungi saya balik</string>
     <string name="request_email_description">E-melkan kepada saya</string>
     <string name="respond_via_sms_setting_title">Respons pantas</string>
+    <string name="revelio_callers_how_it_works_text">"Untuk mematikan penyaringan automatik, pilih tetapan “Deringkan telefon (lalai)” untuk panggilan yang tidak diketahui. Kenalan anda tidak sekali-kali disaring secara automatik. Penyaringan automatik tidak akan berfungsi jika telefon anda disambungkan pada fon kepala atau pembesar suara. 
+Call Screen tidak menggunakan data atau Wi-Fi tetapi menggunakan minit panggilan pembawa. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Padam selepas 30 hari</string>
+    <string name="revelio_delete_old_recordings_setting_title">Padamkan rakaman dan transkrip lama secara automatik</string>
+    <string name="revelio_demo_setting_title">Lihat cara Call Screen berfungsi</string>
     <string name="revelio_demo_turn_on">Hidupkan</string>
     <string name="revelio_end_call_reject_as_spam">Panggilan telah ditandai sebagai spam</string>
     <string name="revelio_end_call_user_missed_internal_message">Panggilan terlepas</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Penyaringan automatik dimatikan</string>
+    <string name="revelio_preference_summary_screening">Penyaringan %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Simpan audio daripada panggilan yang dijawab oleh Assistant anda</string>
+    <string name="revelio_save_audio_setting_title">Simpan audio Call Screen</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT membantu pemanggil yang pekak, pekak labang, mengalami kesukaran bertutur atau memerlukan ciri di samping suara. ^1</string>
     <string name="rtt_assist_for_att">Papan kekunci Teks Masa Nyata (RTT) pada skrin ialah sebagai alternatif kepada papan kekunci TTY luaran. Apabila anda menaip teks semasa panggilan RTT, orang yang sedang bercakap dengan anda dapat melihat anda menaip mesej dalam masa nyata. ^1</string>
     <string name="rtt_assist_for_tmo">Papan kekunci Teks Masa Nyata (RTT) pada skrin ialah alternatif kepada papan kekunci TTY luaran. RTT menghantar perkara yang anda taip dengan segera semasa panggilan telefon. Hal ini memberi anda keupayaan untuk berkomunikasi menggunakan teks dalam masa nyata. Anda dapat melihat respons separa sebelum seluruh mesej selesai dihantar. ^1</string>
@@ -949,7 +1019,8 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="rtt_button_back">Kembali</string>
     <string name="rtt_button_downgrade">Beralih kepada panggilan suara</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT tidak tersedia untuk panggilan ini. Panggilan anda telah disambungkan sebagai panggilan suara sahaja.</string>
+    <string name="rtt_call_downgraded_toast">Panggilan RTT anda telah bertukar menjadi panggilan suara sahaja</string>
+    <string name="rtt_call_not_available_toast">RTT tidak tersedia untuk panggilan ini</string>
     <string name="rtt_configuration_summary_always_visible">Butang Teks Masa Nyata tersedia di mana-mana sahaja</string>
     <string name="rtt_configuration_summary_not_visible">Benarkan panggilan masuk Teks Masa Nyata tetapi sembunyikan butang panggilan</string>
     <string name="rtt_configuration_summary_visible_during_call">Tunjukkan butang Teks Masa Nyata semasa panggilan</string>
@@ -978,6 +1049,8 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="rtt_transcript_link">Lihat transkrip</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Mesej ini akan berulang.</string>
+    <string name="save_audio_error_cant_load_value">Tidak dapat mengambil nilai Simpan audio Call Screen semasa</string>
+    <string name="save_audio_error_cant_set_value">Tidak dapat menyimpan nilai Simpan audio Call Screen</string>
     <string name="save_button_text">Simpan</string>
     <string name="saved_voicemails_action_title">Mel suara disimpan (%1$s)</string>
     <string name="search_hint">Cari kenalan video</string>
@@ -1004,8 +1077,11 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="send_a_message">Hantar mesej</string>
     <string name="send_to_voicemail_import_failed">Pengimportan gagal</string>
     <string name="serial_number">Nombor siri</string>
+    <string name="set_as_default_button_text">Tetapkan sebagai lalai</string>
     <string name="set_default_account">Sentiasa gunakan ini untuk panggilan</string>
     <string name="set_default_account_description">Pilihan SIM disimpan dengan kenalan anda.</string>
+    <string name="set_phone_as_default_explanation_text">Telefon hanya boleh bermula &amp; menerima panggilan jika ia aplikasi telefon lalai anda</string>
+    <string name="set_phone_as_default_request_text">Tetapkan Telefon sebagai lalai</string>
     <string name="settings">Tetapan</string>
     <string name="settings_page_call_recording_feature_not_available_text">Rakaman panggilan tidak tersedia di lokasi anda</string>
     <string name="settings_page_crosby_feature_not_available_text">Tidak tersedia di lokasi anda</string>
@@ -1040,6 +1116,8 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="snackbar_undo">Buat asal</string>
     <string name="snackbar_voicemail_deleted">Mel suara dipadamkan</string>
     <string name="sounds_and_vibration_title">Bunyi dan getaran</string>
+    <string name="spam_action_preference_description">Nombor yang sepadan dengan pangkalan data spam Google</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam dan Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Ketepikan</string>
     <string name="spam_blocking_promo_action_filter_spam">Tapis Spam</string>
@@ -1066,8 +1144,6 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="speed_dial_add_button_text">Tambah</string>
     <string name="speed_dial_contacts_permission_description">Untuk mendayakan dail cepat, hidupkan kebenaran Kenalan.</string>
     <string name="speed_dial_disambig_dialog_title">Pilih cara memanggil %s</string>
-    <string name="speed_dial_education_content">Sentuh &amp; tahan mana-mana kenalan untuk beralih antara panggilan dengan mesej</string>
-    <string name="speed_dial_education_title">Lagi cara untuk berhubung</string>
     <string name="speed_dial_no_contacts_action_text">Tambahkan kegemaran</string>
     <string name="speed_dial_no_contacts_description">Panggil kenalan kegemaran anda dengan hanya satu ketikan</string>
     <string name="speed_dial_remember_this_choice">Ingat pilihan ini</string>
@@ -1095,11 +1171,15 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="terms_of_service_label">Syarat perkhidmatan</string>
     <string name="textmessage_button_label">Mesej</string>
     <string name="theme_preference_label">Pilih tema</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Rakam</string>
     <string name="toast_text_copied">Teks disalin</string>
     <string name="toolbar_back">Kembali</string>
     <string name="toolbar_close">Tutup</string>
     <string name="transcript_audio_feedback_chip_text">Bantu kami tingkatkan prestasi</string>
+    <string name="transcript_audio_feedback_link_text">Lihat transkrip dan audio</string>
     <string name="transcript_snippet_low_confidence_description">(Audio tidak jelas)</string>
+    <string name="try_again_button">Cuba lagi</string>
     <string name="tty_configuration_title_tty_full">TTY Penuh</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY Dimatikan</string>
@@ -1121,7 +1201,6 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="type_outgoing_video_pulled">Panggilan video keluar dipindahkan ke peranti lain</string>
     <string name="type_rejected">Panggilan ditolak</string>
     <string name="type_voicemail">Mel suara</string>
-    <string name="unable_change_value_error">Terdapat masalah semasa menukar tetapan RTT. Sila kembali dan cuba lagi.</string>
     <string name="unable_read_value_error">Terdapat masalah semasa membaca tetapan RTT. Sila kembali dan cuba lagi.</string>
     <string name="unblock_number">Nyahsekat</string>
     <string name="unblock_number_alert_details">Nombor akn dinyahsekat &amp; dilaporkan bkn spam. Panggilan akan datang tdk akn dikenal pasti sbg spam.</string>
@@ -1130,6 +1209,7 @@ Anda masih boleh membuat panggilan video kepada sesetengah nombor tanpa mengemas
     <string name="unblock_number_ok">Nyahsekat</string>
     <string name="unblock_report_number_alert_title">Nyahsekat %1$s?</string>
     <string name="unknown">Tidak diketahui</string>
+    <string name="unknown_call_settings_category_preference_title">Tetapan Panggilan Tidak Diketahui</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Nyahredamkan audio masuk</string>
     <string name="user_is_busy_description">Saya akan memanggil awak balik</string>
@@ -1241,10 +1321,17 @@ Penggunaan data dikenakan jika anda meneruskan panggilan."</string>
     <string name="videocall_remote_video_on">Video mereka dihidupkan</string>
     <string name="videocall_remotely_held">Panggilan ditunda</string>
     <string name="videocall_remotely_resumed">Pgln disambung smla</string>
+    <string name="videocall_settings_default_carrier">Panggilan video pembawa</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Perkhidmatan panggilan video lalai</string>
+    <string name="videocall_settings_fallback_summary">Tukar kepada Duo jika panggilan video pembawa tidak tersedia</string>
+    <string name="videocall_settings_fallback_title">Gunakan Duo sebagai sandaran</string>
+    <string name="videocall_settings_title">Panggilan Video</string>
     <string name="videocall_show_preview_button_description">Tunjukkan suapan video setempat</string>
     <string name="view">Lihat</string>
     <string name="view_location_settings">Tetapan lokasi</string>
     <string name="vitle_label">Video melalui LTE</string>
+    <string name="viwifi_label">video melalui Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">PIN baharu mengandungi aksara yang tidak sah.</string>
     <string name="vm_change_pin_error_mismatch">PIN lama tidak sepadan.</string>
     <string name="vm_change_pin_error_system_error">Tidak dapat menukar PIN</string>
@@ -1254,8 +1341,11 @@ Penggunaan data dikenakan jika anda meneruskan panggilan."</string>
     <string name="vm_change_pin_progress_message">Sila tunggu.</string>
     <string name="voice_call">Panggilan suara</string>
     <string name="voice_call_button">Panggil</string>
+    <string name="voice_display_name">Suara %1$d</string>
     <string name="voice_search_not_available">Carian suara tidak tersedia</string>
     <string name="voice_selector_preference_title">Suara yang tersedia</string>
+    <string name="voice_settings_available_voices_text">Suara yang tersedia</string>
+    <string name="voice_settings_title">Suara</string>
     <string name="voicecall_button_label">Panggil</string>
     <string name="voicecall_button_wifi_description">Panggil menggunakan Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s pada %2$s</string>
@@ -1290,7 +1380,6 @@ Penggunaan data dikenakan jika anda meneruskan panggilan."</string>
     <string name="voicemail_donation_promo_title">Bantu meningkatkan ketepatan transkripsi?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Penggunaan mel suara visual untuk SIM tanpa data mungkin dikenakan caj pembawa</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Mel suara visual hanya tersedia untuk SIM data yang dipilih</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Jika anda mempunyai berbilang SIM dan satu SIM adalah untuk Fi, maka SIM Fi anda akan digunakan untuk mel suara visual</string>
     <string name="voicemail_error_activating_message">Anda mungkin tidak menerima pemberitahuan mel suara sehingga mel suara visual diaktifkan sepenuhnya. Dail mel suara untuk mengambil mesej baharu sehingga mel suara diaktifkan sepenuhnya.</string>
     <string name="voicemail_error_activating_title">Mengaktifkan mel suara visual</string>
     <string name="voicemail_error_activation_disabled_message">Panggil mel suara untuk menamatkan persediaan</string>
@@ -1397,6 +1486,7 @@ Penggunaan data dikenakan jika anda meneruskan panggilan."</string>
     <string name="vvm3_error_vms_no_cellular_title">Tidak Dapat Menyambung ke Peti Mel Suara Anda</string>
     <string name="vvm3_error_vms_timeout_message">Harap maaf, kami menghadapi masalah. Sila cuba sebentar lagi. Jika masih terdapat masalah, sila hubungi Khidmat Pelanggan melalui %1$s dan beritahu mereka kod ralatnya ialah 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Kesilapan Telah Berlaku</string>
+    <string name="vvm_config_title">Konfigurasi Mel Suara Visual</string>
     <string name="vvm_unsupported_message_format">Jenis mesej tidak disokong, hubungi %s untuk mendengar.</string>
     <string name="wait_prompt_str">"Hantar nada berikut?
 "</string>

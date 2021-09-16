@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Για να εφαρμοστεί αυτή η αλλαγή, θα πρέπει να επανεκκινήσετε τη συσκευή σας. Επανεκκίνηση τώρα ή ακύρωση.</string>
     <string name="camera_hint">Σύρετε προς τα έξω για κάμερα</string>
     <string name="camera_label">άνοιγμα φωτογραφικής μηχανής</string>
+    <string name="camera_recording_announcement">Πραγματοποιείται εγγραφή από την κάμερα</string>
+    <string name="camera_stopped_recording_announcement">Η εγγραφή από την κάμερα διακόπηκε</string>
     <string name="cancel">Ακύρωση</string>
     <string name="carrier_network_change_mode">Αλλαγή δικτύου εταιρείας κινητής τηλεφωνίας</string>
     <string name="category_personal">Προσωπικό</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Παρακολούθηση</string>
     <string name="debug_networking_category">Δικτύωση</string>
     <string name="debug_view_attributes">Ενεργοποίηση του ελέγχου χαρακτηριστικών προβολής</string>
+    <string name="defender_notify_des">Το τηλέφωνο περιορίζει τη φόρτιση, προκειμένου να διατηρηθεί η εύρυθμη λειτουργία της μπαταρίας.</string>
+    <string name="defender_notify_learn_more">Μάθετε περισσότερα</string>
+    <string name="defender_notify_resume_charge">Συνέχιση φόρτισης</string>
+    <string name="defender_notify_title">Προσωρινός περιορισμός φόρτισης</string>
     <string name="delete_blob_confirmation_text">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτά τα κοινόχρηστα δεδομένα;</string>
     <string name="delete_blob_text">Διαγραφή κοινόχρηστων δεδομένων</string>
     <string name="demo_mode">Λειτουργία επίδειξης διεπαφής χρήστη συστήματος</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Ξεκλείδωμα κάρτας SIM…</string>
     <string name="keyguard_try_fingerprint">Χρήση δακτυλικού αποτυπώματος για άνοιγμα</string>
     <string name="keyguard_unlock">Σύρετε προς τα επάνω για άνοιγμα</string>
+    <string name="keyguard_unlock_press">Πατήστε για άνοιγμα</string>
     <string name="keywords_adb_wireless">adb, εντοπισμός σφαλμάτων, προγραμματιστής</string>
     <string name="keywords_alarms_and_reminders">χρονοδιάγραμμα, ξυπνητήρι, υπενθύμιση, ρολόι</string>
     <string name="kg_enter_confirm_pin_hint">Επιβεβαιώστε τον απαιτούμενο κωδικό PIN</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Εναλλαγή πληκτρολογίων</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Ενεργό μικρόφωνο</string>
+    <string name="mic_and_camera_recording_announcement">Πραγματοποιείται εγγραφή από την κάμερα και το μικρόφωνο</string>
+    <string name="mic_camera_stopped_recording_announcement">Η εγγραφή από την κάμερα και το μικρόφωνο διακόπηκε</string>
+    <string name="mic_recording_announcement">Πραγματοποιείται εγγραφή από το μικρόφωνο</string>
+    <string name="mic_stopped_recording_announcement">Η εγγραφή από το μικρόφωνο διακόπηκε</string>
     <string name="missed_call">Αναπάντητη κλήση</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Δεδομένα κινητής τηλεφωνίας</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Εφαρμογές εργασιών</string>
     <string name="quick_step_accessibility_toggle_overview">Εναλλαγή επισκόπησης</string>
     <string name="recent_conversations">Πρόσφατες συζητήσεις</string>
-    <string name="recents_quick_scrub_onboarding">Σύρετε προς τα δεξιά για γρήγορη εναλλαγή εφαρμογών</string>
-    <string name="recents_swipe_up_onboarding">Σύρετε προς τα επάνω για εναλλαγή των εφαρμογών</string>
     <string name="remaining_length_format">Απομένουν %1$s</string>
     <string name="remote_input_image_insertion_text">έστειλε μια εικόνα</string>
     <string name="remove_from_settings">Κατάργηση από τις Ρυθμίσεις</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Προσθήκη κάρτας</string>
     <string name="wallet_secondary_label_updating">Ενημέρωση σε εξέλιξη</string>
     <string name="wallet_title">Πορτοφόλι</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Το σημείο πρόσβασης είναι προσωρινά πλήρες</string>
     <string name="wifi_cant_connect">Αδυναμία σύνδεσης</string>
     <string name="wifi_cant_connect_to_ap">Δεν είναι δυνατή η σύνδεση στο δίκτυο \"%1$s\"</string>

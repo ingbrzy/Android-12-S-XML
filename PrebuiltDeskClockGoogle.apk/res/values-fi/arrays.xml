@@ -17,14 +17,21 @@
         <item>15 minuuttia</item>
         <item>20 minuuttia</item>
         <item>25 minuuttia</item>
-        <item>Jatkuva</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 min ennen nukkuma-aikaa</item>
+        <item>30 min ennen nukkuma-aikaa</item>
+        <item>45 min ennen nukkuma-aikaa</item>
+        <item>1 tunti ennen nukkuma-aikaa</item>
+        <item>Pois päältä</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analoginen</item>
         <item>Digitaalinen</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Jatkuva</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekuntia</item>
         <item>10 sekuntia</item>
         <item>15 sekuntia</item>
@@ -37,6 +44,35 @@
         <item>50 sekuntia</item>
         <item>55 sekuntia</item>
         <item>60 sekuntia</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Pysäytä 10 minuutin jälkeen</item>
+        <item>Pysäytä 20 minuutin jälkeen</item>
+        <item>Pysäytä 30 minuutin jälkeen</item>
+        <item>Pysäytä 40 minuutin jälkeen</item>
+        <item>Pysäytä 50 minuutin jälkeen</item>
+        <item>Pysäytä 1 tunnin jälkeen</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Pysäytä 10 minuutin jälkeen</item>
+        <item>Pysäytä 20 minuutin jälkeen</item>
+        <item>Pysäytä 30 minuutin jälkeen</item>
+        <item>Pysäytä 40 minuutin jälkeen</item>
+        <item>Pysäytä 50 minuutin jälkeen</item>
+        <item>Pysäytä 1 tunnin jälkeen</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuuttia</item>
+        <item>20 minuuttia</item>
+        <item>30 minuuttia</item>
+        <item>40 minuuttia</item>
+        <item>50 minuuttia</item>
+        <item>1 tunti</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minuutti</item>
@@ -69,18 +105,6 @@
         <item>28 minuuttia</item>
         <item>29 minuuttia</item>
         <item>30 minuuttia</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Olet supernopea.</item>
-        <item>Nauti työsi hedelmistä.</item>
-        <item>Androidien tiedetään toimivan nopeasti, mutta sinä olet vielä nopeampi!</item>
-        <item>Huh.</item>
-        <item>Makeat ajat.</item>
-        <item>Nopeuden ihmelapsi.</item>
-        <item>Tehdään aikahyppy uudestaan.</item>
-        <item>Hyppää vasemmalle.</item>
-        <item>Tunnet kiireen anatomian.</item>
-        <item>Valonnopea.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshallinsaaret</item>

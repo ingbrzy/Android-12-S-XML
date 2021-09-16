@@ -341,13 +341,15 @@ Zařízení není inicializováno."</string>
 
 "<li>Kterýkoliv jiný uživatel může přijmout aktualizovaná oprávnění aplikací.</li>"
 
-"<li>Sdílejte telefon pouze s lidmi, kterým důvěřujete.</li></ul>}TABLET{<b>Důležité:</b>"
+"<li>Sdílejte telefon pouze s lidmi, kterým důvěřujete.</li></ul>"
+}TABLET{"<b>Důležité:</b>"
 
 "<ul><li>Vlastník tabletu může odinstalovat vaše aplikace nebo odstranit váš uživatelský profil.</li>"
 
 "<li>Kterýkoliv jiný uživatel může přijmout aktualizovaná oprávnění aplikací.</li>"
 
-"<li>Sdílejte tablet pouze s lidmi, kterým důvěřujete.</li></ul>}other{<b>Důležité:</b>"
+"<li>Sdílejte tablet pouze s lidmi, kterým důvěřujete.</li></ul>"
+}other{"<b>Důležité:</b>"
 
 "<ul><li>Vlastník zařízení může odinstalovat vaše aplikace nebo odstranit váš uživatelský profil.</li>"
 
@@ -359,70 +361,47 @@ Zařízení není inicializováno."</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Pokud nastavování telefonu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
-"<li>automaticky nastavit datum a čas.</li>"}TABLET{Pokud nastavování tabletu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
+"<li>automaticky nastavit datum a čas.</li>"
+}TABLET{Pokud nastavování tabletu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
-"<li>automaticky nastavit datum a čas.</li>"}other{Pokud nastavování zařízení chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
+"<li>automaticky nastavit datum a čas.</li>"
+}other{Pokud nastavování zařízení chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
 "<li>automaticky nastavit datum a čas.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Pokud nastavování telefonu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stáhnout SIM kartu,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
-"<li>automaticky nastavit datum a čas.</li>"}TABLET{Pokud nastavování tabletu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
+"<li>automaticky nastavit datum a čas.</li>"
+}TABLET{Pokud nastavování tabletu chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stáhnout SIM kartu,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
-"<li>automaticky nastavit datum a čas.</li>"}other{Pokud nastavování zařízení chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
+"<li>automaticky nastavit datum a čas.</li>"
+}other{Pokud nastavování zařízení chcete urychlit, připojte se k Wi-Fi nebo mobilní síti.
 
 Bez připojení nelze provádět následující akce:
-
 "<li>přihlásit se k účtu Google,</li>"
-
 "<li>obnovit aplikace a data,</li>"
-
 "<li>stáhnout SIM kartu,</li>"
-
 "<li>stahovat aktualizace softwaru,</li>"
-
 "<li>automaticky nastavit datum a čas.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Přístupový bod je dočasně zaplněn</string>
     <string name="wifi_check_password_try_again">Zkontrolujte heslo a zkuste to znovu</string>

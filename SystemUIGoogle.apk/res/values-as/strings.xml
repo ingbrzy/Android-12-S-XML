@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">এই সলনিটো কার্যকৰী হ’বলৈ আপোনাৰ ডিভাইচটো ৰিবুট কৰিবই লাগিব। এতিয়াই ৰিবুট কৰক অথবা বাতিল কৰক।</string>
     <string name="camera_hint">কেমেৰা খুলিবলৈ আইকনৰপৰা ছোৱাইপ কৰক</string>
     <string name="camera_label">কেমেৰা খোলক</string>
+    <string name="camera_recording_announcement">কেমেৰাটোৱে ৰেক’ৰ্ড কৰি আছে</string>
+    <string name="camera_stopped_recording_announcement">কেমেৰাটোৱে ৰেক’ৰ্ড কৰাটো বন্ধ কৰিছে</string>
     <string name="cancel">বাতিল কৰক</string>
     <string name="carrier_network_change_mode">বাহক নেটৱৰ্কৰ পৰিৱৰ্তন</string>
     <string name="category_personal">ব্যক্তিগত</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">নিৰীক্ষণ কৰি থকা হৈছে</string>
     <string name="debug_networking_category">নেটৱৰ্কিং</string>
     <string name="debug_view_attributes">দৃশ্যৰ গুণাগুণ নিৰীক্ষণ সক্ষম কৰক</string>
+    <string name="defender_notify_des">বেটাৰী ভালে ৰখাত সহায় কৰিবলৈ আপোনাৰ ফ’নটোৱে চাৰ্জ কৰাটো সীমিত কৰিছে</string>
+    <string name="defender_notify_learn_more">অধিক জানক</string>
+    <string name="defender_notify_resume_charge">চাৰ্জ কৰা পুনৰ আৰম্ভ কৰক</string>
+    <string name="defender_notify_title">চাৰ্জ কৰাটো সাময়িকভাৱে সীমিত কৰা হৈছে</string>
     <string name="delete_blob_confirmation_text">আপুনি এই শ্বেয়াৰ কৰা ডেটাখিনি মচিব বিচৰাটো নিশ্চিতনে?</string>
     <string name="delete_blob_text">শ্বেয়াৰ কৰা ডেটা মচক</string>
     <string name="demo_mode">"ছিষ্টেমৰ UI প্ৰদৰ্শন ম'ড"</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">ছিম কার্ড আনলক কৰি থকা হৈছে…</string>
     <string name="keyguard_try_fingerprint">খুলিবলৈ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰক</string>
     <string name="keyguard_unlock">খুলিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
+    <string name="keyguard_unlock_press">খুলিবলৈ টিপক</string>
     <string name="keywords_adb_wireless">adb, ডিবাগ, dev</string>
     <string name="keywords_alarms_and_reminders">সময়সূচী, এলাৰ্ম, ৰিমাইণ্ডাৰ, ঘড়ী</string>
     <string name="kg_enter_confirm_pin_hint">"আপোনাৰ পচন্দৰ পিন ক'ড নিশ্চিত কৰক"</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">"কীব'ৰ্ড সলনি কৰাৰ সুবিধা"</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">মাইক্ৰ’ফ’ন সক্ৰিয় কৰা আছে</string>
+    <string name="mic_and_camera_recording_announcement">কেমেৰা আৰু মাইক্ৰ’ফ’নটোৱে ৰেক’ৰ্ড কৰি আছে</string>
+    <string name="mic_camera_stopped_recording_announcement">কেমেৰা আৰু মাইক্ৰ’ফ’নটোৱে ৰেক’ৰ্ড কৰাটো বন্ধ কৰিছে</string>
+    <string name="mic_recording_announcement">মাইক্ৰ’ফ’নটোৱে ৰেক’ৰ্ড কৰি আছে</string>
+    <string name="mic_stopped_recording_announcement">মাইক্ৰ’ফ’নটোৱে ৰেক’ৰ্ড কৰাটো বন্ধ কৰিছে</string>
     <string name="missed_call">মিছড্‌ কল</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">ম’বাইল ডেটা</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">কৰ্মস্থানৰ এপ্‌</string>
     <string name="quick_step_accessibility_toggle_overview">অৱলোকন ট’গল কৰক</string>
     <string name="recent_conversations">শেহতীয়া বাৰ্তালাপ</string>
-    <string name="recents_quick_scrub_onboarding">খৰতকীয়াকৈ আনটো এপ্ ব্য়ৱহাৰ কৰিবলৈ সোঁফালে টানক</string>
-    <string name="recents_swipe_up_onboarding">আনটো এপ্ ব্য়ৱহাৰ কৰিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
     <string name="remaining_length_format">%1$s বাকী আছে</string>
     <string name="remote_input_image_insertion_text">এখন প্ৰতিচ্ছবি পঠিয়াইছে</string>
     <string name="remove_from_settings">ছেটিংসমূহৰ পৰা আঁতৰাওক</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">এখন কাৰ্ড যোগ দিয়ক</string>
     <string name="wallet_secondary_label_updating">আপডে’ট কৰি থকা হৈছে</string>
     <string name="wallet_title">ৱালেট</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">একচেছ পইণ্ট কিছু সময়ৰ বাবে পূৰ্ণ হৈ আছে</string>
     <string name="wifi_cant_connect">সংযোগ কৰিব নোৱাৰে</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s'ৰ সৈতে সংযোগ কৰিব পৰা নাই"</string>

@@ -17,14 +17,21 @@
         <item>මිනිත්තු 15</item>
         <item>මිනිත්තු 20</item>
         <item>මිනිත්තු 25</item>
-        <item>කවදාවත් නොවේ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>නින්දට යන වේලාවට මිනිත්තු 15කට පෙර</item>
+        <item>නින්දට යන වේලාවට මිනිත්තු 30කට පෙර</item>
+        <item>නින්දට යන වේලාවට මිනිත්තු 45කට පෙර</item>
+        <item>නින්දට යන වේලාවට පැය 1කට පෙර</item>
+        <item>ක්‍රියාවිරහිත කරන්න</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>ප්‍රතිසමය</item>
         <item>ඩිජිටල්</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>කවදාවත් නොවේ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>තත්පර 5</item>
         <item>තත්පර 10</item>
         <item>තත්පර 15</item>
@@ -37,6 +44,35 @@
         <item>තත්පර 50</item>
         <item>තත්පර 55</item>
         <item>තත්පර 60</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>මිනිත්තු 10කට පසු නතර කරන්න</item>
+        <item>මිනිත්තු 20කට පසු නතර කරන්න</item>
+        <item>මිනිත්තු 30කට පසු නතර කරන්න</item>
+        <item>මිනිත්තු 40කට පසු නතර කරන්න</item>
+        <item>මිනිත්තු 50කට පසු නතර කරන්න</item>
+        <item>පැය 1කට පසු නතර කරන්න</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>මිනි 10කට පසු නතර කරන්න</item>
+        <item>මිනි 20කට පසු නතර කරන්න</item>
+        <item>මිනි 30කට පසු නතර කරන්න</item>
+        <item>මිනි 40කට පසු නතර කරන්න</item>
+        <item>මිනි 50කට පසු නතර කරන්න</item>
+        <item>පැය 1කට පසු නතර කරන්න</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>මිනිත්තු 10</item>
+        <item>මිනිත්තු 20</item>
+        <item>මිනිත්තු 30</item>
+        <item>මිනිත්තු 40</item>
+        <item>මිනිත්තු 50</item>
+        <item>පැය 1</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>මිනිත්තු 1</item>
@@ -69,18 +105,6 @@
         <item>මිනිත්තු 28</item>
         <item>මිනිත්තු 29</item>
         <item>මිනිත්තු 30</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>ඔබ ඉතා වේගයෙන් යන්නෙක්.</item>
-        <item>ඔබගේ උත්සාහයේ ප්‍රතිපල භුක්ති විඳින්න.</item>
-        <item>Android වේගවත් යැයි ප්‍රසිද්ධයි, එහෙත් ඔබ තරම් නොවේ!</item>
-        <item>චිහ්.</item>
-        <item>L33t වාර.</item>
-        <item>මෙතරම් අතිවිශාල ප්‍රවේගයක්.</item>
-        <item>දැන් යලිත් කාල ඔතා දමමු.</item>
-        <item>වමට පැනීමක් පමණි.</item>
-        <item>තදියම සඳහා ඔබ සතුව පලත්තක් ඇත.</item>
-        <item>ෆොටෝනමය ප්‍රවේගය.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>මාර්ෂල් දූපත්</item>

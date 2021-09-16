@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s ilovasi bor jildga qo‘shish</string>
     <string name="add_to_home_screen">Bosh ekranga chiqarish</string>
     <string name="added_to_folder">Element jildga qo‘shildi</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s vidjeti bosh ekranga qoʻshildi</string>
     <string name="all_apps_button_label">Ilovalar ro‘yxati</string>
     <string name="all_apps_button_personal_label">Shaxsiy ilovalar ro‘yxati</string>
     <string name="all_apps_button_work_label">Ishga oid ilovalar ro‘yxati</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Telefon burilganda</string>
     <string name="allow_rotation_title">Bosh ekranni burishga ruxsat</string>
     <string name="allset_description">Telefoningiz xizmatga tayyor</string>
+    <string name="allset_hint">Boshiga qaytish uchun tepaga suring</string>
+    <string name="allset_navigation_settings"><annotation id="link">Tizim navigatsiya sozlamalari</annotation></string>
     <string name="allset_title">Hammasi tayyor!</string>
     <string name="app_downloading_title">%1$s yuklab olinmoqda, %2$s bajarildi</string>
     <string name="app_info_drop_target_label">Ilova haqida</string>
@@ -98,11 +101,13 @@
     <string name="app_waiting_download_title">%1$s ilovasi o‘rnatilishi kutilmoqda</string>
     <string name="auto_add_shortcuts_description">Yangi o‘rnatilgan ilovalar ikonkasini bosh ekranga chiqarish</string>
     <string name="auto_add_shortcuts_label">Ilova ikonkalarini bosh ekranga chiqarish</string>
+    <string name="back_gesture_feedback_cancelled">Ekranning oʻng yoki chap chetidan oʻrtasiga suring va qoʻyib yuboring.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Ortga qaytish uchun oʻngdan surishni oʻrgandingiz. Endi ilovalarni almashtirishni oʻrganamiz.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Ortga qaytish ishorasi darsini tamomladingiz.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Barmoqni ekran pastiga yaqin surmaslikka harakat qiling.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Ekran chetidan boshlab oʻngdan yoki chapdan suring.</string>
     <string name="back_gesture_intro_subtitle">Ortga qaytish uchun barmoqni ekranning yon chekkalaridan oʻrtasigacha suring.</string>
-    <string name="back_gesture_intro_title">Ortga qaytish uchun suring</string>
+    <string name="back_gesture_intro_title">Orqaga qaytish</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Orqaga ishorasi sezuvchanligi Sozlamalardan oʻzgartiriladi</string>
     <string name="blocked_by_policy">Bu amal ilova yoki tashkilotingiz tomonidan taqiqlangan</string>
     <string name="close">Yopish</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">O‘zgarishni saqlash uchun ustiga bosing</string>
     <string name="gadget_error_text">Vidjet yuklanmadi</string>
     <string name="gadget_setup_text">Sozlashni yakunlash uchun bosing</string>
+    <string name="gesture_tutorial_action_button_label">Tayyor</string>
     <string name="gesture_tutorial_action_button_label_cancel">Bekor qilish</string>
     <string name="gesture_tutorial_action_button_label_settings">Sozlamalar</string>
     <string name="gesture_tutorial_action_button_label_skip">Tashlab ketish</string>
@@ -209,7 +215,8 @@
     <string name="overview_gesture_feedback_home_detected">Barmoqni uzishdan oldin oynani biroz bosib turing.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Barmoqni ekranning pastki chetidan yuqoriga suring.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Avval tik tepaga surib, keyin pauza qiling.</string>
-    <string name="overview_gesture_intro_title">Svayp bilan ilovalarni almashtirish</string>
+    <string name="overview_gesture_intro_subtitle">Ilovalarni ochish uchun ekranning pastidan tepaga qarab suring, biroz ushlab turing va qoʻyib yuboring</string>
+    <string name="overview_gesture_intro_title">Ilovalar orasida almashish</string>
     <string name="overview_selection_pref_desc">Ilovalar orasida almashganda, mavjud amallarni chiqarish uchun matn va rasmlar ustiga bosib turing</string>
     <string name="overview_selection_pref_title">Umumiy nazar sahifasidan tanlash</string>
     <string name="overview_suggestions_settings_summary">Tavsiya etilgan amal va indikatorlarni Umumiy axborot sahifasida chiqarish</string>
@@ -241,7 +248,7 @@
     <string name="search_edu_highlight_preferences">Klaviatura chiqishini oʻzgartirish uchun bosing.</string>
     <string name="search_input_action_clear_results">Qidiruv maydonchasini tozalash</string>
     <string name="search_input_action_show_preferences">Sozlamalar</string>
-    <string name="search_keyboard_snackbar_prompt">Klaviatura doim chiqsinmi?</string>
+    <string name="search_keyboard_snackbar_prompt">Bu oynada klaviatura doim chiqsinmi?</string>
     <string name="search_keyboard_snackbar_turn_off">Yopish</string>
     <string name="search_keyboard_snackbar_turn_on">Ha</string>
     <string name="search_menu_title">Qidiruv</string>
@@ -280,15 +287,15 @@
     <string name="smartspace_flight_card_seat_header">Joy</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Sozlamalar</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Eng asosiy</string>
     <string name="smartspace_preferences_in_settings_desc">Bosh ekranning yuqori qismida</string>
     <string name="smartspace_preferences_manage">Moslash</string>
-    <string name="smartspace_preferences_turn_off_action">Oʻchirish</string>
-    <string name="smartspace_preferences_turn_off_description">Bosh va qulflangan ekranda endi ob-havo maʼlumotlari va kelgusi tadbirlar chiqmaydi.</string>
-    <string name="smartspace_preferences_turn_off_title">%1$s qurilmasini oʻchirish</string>
+    <string name="smartspace_preferences_turn_off_action">Faolsizlantirish</string>
+    <string name="smartspace_preferences_turn_off_description">Bosh ekran va ekran qulfi ustida endi ob-havo axboroti va kelgusi tadbirlar chiqmaydi.</string>
+    <string name="smartspace_preferences_turn_off_title">%1$s funksiyasini faolsizlantirish</string>
     <string name="smartspace_preferences_turn_on_action">Yoqish</string>
-    <string name="smartspace_preferences_turn_on_description">Bosh va qulflangan ekranda endi ob-havo maʼlumotlari va kelgusi tadbirlar chiqadi.</string>
-    <string name="smartspace_preferences_turn_on_title">%1$s qurilmasini yoqish</string>
+    <string name="smartspace_preferences_turn_on_description">Bosh ekran va ekran qulfi ustida endi ob-havo axboroti va kelgusi tadbirlar chiqadi.</string>
+    <string name="smartspace_preferences_turn_on_title">%1$s funksiyasini yoqish</string>
     <string name="smartspace_shopping_list_overflow">+ %1$d ta</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">Fon rasmi va uslubi</string>

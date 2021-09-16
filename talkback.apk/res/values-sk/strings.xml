@@ -105,7 +105,7 @@ Prečítajte si viac o ďalších témach alebo tieto informácie kedykoľvek s
     <string name="audio_focus_state">Stlmenie zvuku: %1$s</string>
     <string name="auto_detect">Prispôsobiť tomu, ako držím zariadenie</string>
     <string name="auto_scan_action_description">Spustenie prehľadávania a výber</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Automatické prehľadávanie alebo Výber</string>
     <string name="available_devices_header">Dostupné zariadenia Bluetooth</string>
     <string name="basic_navigation_link_subtext">Prechádzajte medzi položkami, posúvajte, používajte ponuky a viac</string>
     <string name="basic_navigation_link_text">Základná navigácia</string>
@@ -119,7 +119,7 @@ Prečítajte si viac o ďalších témach alebo tieto informácie kedykoľvek s
     <string name="bluetooth_no_devices_paired">Nie sú spárované žiadne zariadenia Bluetooth</string>
     <string name="bluetooth_not_enabled_message">Ak chcete spárovať prepínač Bluetooth, zapnite Bluetooth</string>
     <string name="bluetooth_peripheral_content_description">Periférne</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Ak chcete spárovať prepínač Bluetooth v sprievodcovi nastavením, zapnite Bluetooth a udeľte Službám dostupnosti pre Android prístup k povoleniam Zariadenia v okolí a Poloha.</string>
     <string name="bluetooth_phone_content_description">Telefón</string>
     <string name="bluetooth_switch_description_text">Spárovať prepínač bezdrôtovo prostredníctvom rozhrania Bluetooth</string>
     <string name="bluetooth_switch_option_text">Prepínač Bluetooth</string>
@@ -157,6 +157,9 @@ Prečítajte si viac o ďalších témach alebo tieto informácie kedykoľvek s
     <string name="cam_switch_enable_banner_text_label_generic">Ak chcete ovládať zariadenie, najprv musíte zapnúť ovládanie prepínačmi.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Otvoriť prepínače pomocou kamery</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Otvoriť ovládanie prepínačmi</string>
+    <string name="cam_switches_combined_preferences_title">Nastavenia: %1$s</string>
+    <string name="cam_switches_preferences_title">Nastavenia prepínačov pomocou kamery</string>
+    <string name="cam_switches_single_preferences_title">Nastavenia: %s</string>
     <string name="camera_switches_status_active">Prepínače pomocou kamery sú aktívne</string>
     <string name="camera_switches_status_error">Chyba</string>
     <string name="camera_switches_status_no_face">Nebola rozpoznaná žiadna tvár</string>
@@ -399,6 +402,7 @@ Vyskúšajte to teraz klepnutím na obrazovku a presúvaním prsta smerom k ľ
     <string name="fallback_menu_item_open_in_browser">Otvoriť v prehliadači</string>
     <string name="fallback_menu_item_share_link">Zdieľať odkaz</string>
     <string name="fast_radio_button_title">Rýchla (oneskorenie %1$s s)</string>
+    <string name="fast_radio_button_title_content_description">Rýchlo (%1$s s oneskorenie)</string>
     <string name="find_finish_button_text">Potiahnutím doprava vyhľadajte tlačidlo Dokončiť.</string>
     <string name="finish">Dokončiť</string>
     <string name="finish_tutorial_announcement">Je zobrazená Braillova klávesnica. Obráťte telefón, aby obrazovka smerovala od vás. Otočte ho vodorovne na šírku. Potom začnite písať.</string>
@@ -747,6 +751,7 @@ Názov v internom zobrazení: %1$s"</string>
     <string name="list_index_template">%1$d z %2$d</string>
     <string name="lockscreen_label">Uzamknutá obrazovka</string>
     <string name="medium_radio_button_title">Stredná (oneskorenie %1$s s)</string>
+    <string name="medium_radio_button_title_content_description">Stredne (%1$s s oneskorenie)</string>
     <string name="menu_category_reading_controls">Čítanie</string>
     <string name="menu_category_special_features">Špeciálne funkcie</string>
     <string name="menus_selector_text">"Tieto skratky vám môžu pomôcť rýchlo meniť nastavenia, napríklad prepnúť navigáciu zo znakov na slová alebo zmeniť rýchlosť reči aplikácie TalkBack.
@@ -767,6 +772,7 @@ Otvorte teraz ponuku aplikácie TalkBack klepnutím troma prstami na obrazovku."
 Otvorte teraz ponuku aplikácie TalkBack potiahnutím nadol a potom doprava."</string>
     <string name="menus_title">Ponuka a ovládanie</string>
     <string name="message_in_reset_keymap_confirm_dialog">Naozaj chcete v tejto mape klávesov obnoviť predvolené hodnoty klávesových skratiek? Upozorňujeme, že túto akciu nie je možné vrátiť späť.</string>
+    <string name="message_request_phone_permission">Aplikácia TalkBack chce vedieť, kedy prebieha telefonický hovor, aby mohla zredukovať rušivé oznamy.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Všetky gestá budú resetované a budú im pridelené predvolené akcie.
 
 Prídete o všetky zmeny, ktoré ste urobili."</string>
@@ -996,6 +1002,7 @@ Vyskúšajte ľubovoľné gesto aktivované dvoma potiahnutiami v pravom uhle. 
     <string name="pref_reduce_window_delay_title">Skrátiť oneskorenie oznámení v okne</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Pridať prepínače pomocou kamery</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Vymazať fyzické prepínače</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Nakonfigurujte nastavenia pre prepínač: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Upraviť prepínače pomocou kamery</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Nie je pridelený žiadny prepínač pomocou kamery</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Prideliť prepínače pomocou kamery k akcii %s</string>
@@ -1016,9 +1023,9 @@ Vyskúšajte ľubovoľné gesto aktivované dvoma potiahnutiami v pravom uhle. 
     <string name="pref_sa_face_playground_stop_preview_content_description">Zastaviť zobrazenie ukážky</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Zapnúť</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Ak chcete použiť túto testovaciu oblasť, musíte zapnúť prepínače fotoaparátu</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Vyskúšajte to: zobrazte si ukážku všetkých typov gest tváre vrátane otvorenia úst, úsmevu a podobne</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Vyskúšať</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Vyskúšajte to: zobrazte si ukážku gest tváre (%1$s)</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Testovacia oblasť bola pozastavená. Znova ju spustíte tlačidlom nižšie.</string>
     <string name="pref_selector_summary">%1$s vyberte nastavenie. Potom ho %2$s upravte.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s alebo %2$s vyberte nastavenie. Potom ho %3$s upravte.</string>
@@ -1069,6 +1076,7 @@ Ak sa zariadenie aj tak nepripojí, prejdite do nastavení Bluetooth a skúste 
     <string name="reduce_speed_button">Znížiť rýchlosť</string>
     <string name="remaining_calibration_finish_announcement">Pozície všetkých bodov boli aktualizované</string>
     <string name="reminder_announcement">Ďalšie možnosti zobrazíte potiahnutím troma prstami nahor</string>
+    <string name="remove_assigned_switch">Odstrániť priradenie prepínača %s</string>
     <string name="report_gesture_description">Tu sú nedávno vykonané gestá. Nahláste, ktoré je nesprávne, a čo ste očakávali.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Resetovať</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Resetovať</string>
@@ -1149,6 +1157,7 @@ Vyskúšajte to. Poťahujte nahor dvoma prstami, dokým nedosiahnete koniec zozn
     <string name="search_mode_hint_no_selection">Nebola vybratá žiadna položka</string>
     <string name="search_mode_hint_query">Aktuálny dopyt: %1$s</string>
     <string name="search_mode_hint_selection">Aktuálny výber: %1$s</string>
+    <string name="select_for_point_scan">Výber</string>
     <string name="select_setting_hint">%1$s a vyberte iné nastavenie</string>
     <string name="selecting_text_text">"Presuňte v textovom poli kurzor na začiatok textu, ktorý chcete vybrať.
 
@@ -1209,6 +1218,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="shortcut_media_control">Prehrať alebo pozastaviť médiá</string>
     <string name="shortcut_next">Nasledujúca položka</string>
     <string name="shortcut_next_granularity">Ďalšie nastavenie navigácie</string>
+    <string name="shortcut_next_window">Ďalšie okno</string>
     <string name="shortcut_not_customizable">%1$s, nie je možné prispôsobiť</string>
     <string name="shortcut_notifications">Upozornenia</string>
     <string name="shortcut_overview">Prehľad</string>
@@ -1221,6 +1231,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="shortcut_practice_gestures">Precvičovanie gest</string>
     <string name="shortcut_previous">Predchádzajúca položka</string>
     <string name="shortcut_previous_granularity">Predchádzajúce nastavenie navigácie</string>
+    <string name="shortcut_previous_window">Predchádzajúce okno</string>
     <string name="shortcut_print_node_tree">Vytlačiť nodulárny strom</string>
     <string name="shortcut_print_performance_stats">Vytlačiť štatistiky výkonnosti</string>
     <string name="shortcut_quick_settings">Rýchle nastavenia</string>
@@ -1260,6 +1271,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
 • Potrasením spustíte plynulé čítanie."</string>
     <string name="six_hold_announcement">Môžete tiež písať položením telefónu vodorovne na stôl. Vyskúšajte to. Ak nemáte nablízku stôl, tento krok preskočte potiahnutím nadol.</string>
     <string name="slow_radio_button_title">Pomalá (oneskorenie %1$s s)</string>
+    <string name="slow_radio_button_title_content_description">Pomaly (%1$s s oneskorenie)</string>
     <string name="sound_feedback_state">Zvuková odozva: %1$s</string>
     <string name="sound_feedback_summary">Zvuk vás upozorní, že sa niečo zmenilo (napríklad obsah na obrazovke)</string>
     <string name="speak_container_element_position_summary_off">Informácie v zozname a mriežke sa nevyslovujú</string>
@@ -1333,17 +1345,17 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="summary_pref_face_switches_debounce_time">Viacero spustení pomocou prepínačov pomocou kamery v tomto období bude považovaných za jendo spustenie.</string>
     <string name="summary_pref_face_switches_enabled">Prepínače pomocou kamery používajú predný fotoaparát, aby zistili, či sa pozeráte na obrazovku, a rozpoznali gestá tváre. Obrázky sa neukladajú ani neodosielajú Googlu.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Prehrať zvuk, keď sa obsah na obrazovke zmení v dôsledku gesta</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Zobraziť vizuálny indikátor toho, ako dlho ste gesto držali</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Ponechať obrazovku zapnutú, keď sú aktivované prepínače pomocou kamery. Prepínače pomocou kamery nemôžu obrazovku odomknúť, ak sa vypne.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nebola rozpoznaná žiadna tvár</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Vykonajte ľubovoľné gesto tváre. Ak bude rozpoznané, zobrazí sa jeho názov. Ak to chcete ukončiť, pridržte ľubovoľné gesto %1$d s.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Nehýbte hlavou a otočte sa na kameru. Potom %s.</string>
     <string name="summary_pref_play_store">Aktuálna verzia aplikácie TalkBack %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Vyberte konkrétnu vodorovnú alebo zvislú polohu pomocou posuvných čiar. Ak chcete spustiť bodové prehľadávanie, stlačte prepínač %1$s. %2$s</string>
     <string name="summary_pref_reverse_dots">Výmena pozícií bodov, takže 1. a 4. bod si napríklad vymenia miesta</string>
     <string name="summary_pref_revert_to_default_menu">Resetujte ponuku ovládania prepínačmi na predvolený zoznam položiek ponuky.</string>
-    <string name="summary_pref_single_tap">(Experimentálne) Označenú položku aktivujete jedným klepnutím</string>
+    <string name="summary_pref_single_tap">Označenú položku aktivujete jedným klepnutím</string>
     <string name="summary_pref_tree_debug_tv">Vytlačiť strom uzlov pomocou klávesa hlasového vyhľadávania (nepoužiť vyhľadávanie)</string>
     <string name="summary_pref_use_audio_focus">Zníži hlasitosť ostatných zvukov počas rozprávania</string>
     <string name="summary_read_from_current">Čítanie všetkých položiek na obrazovke od ďalšej položky</string>
@@ -1479,10 +1491,10 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="switched_to_contracted_announcement">Braillova klávesnica bola prepnutá na skrátenú verziu</string>
     <string name="switched_to_ueb_uncontracted_announcement">Prepnuté na úplnú verziu UEB</string>
     <string name="switched_to_uncontracted_announcement">Braillova klávesnica bola prepnutá na úplnú verziu</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Približne sa rovná</string>
     <string name="symbol_ampersand">Ampersand</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Znak menej ako</string>
+    <string name="symbol_angle_bracket_right">Znak viac ako</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Približne sa rovná</string>
     <string name="symbol_asterisk">Hviezdička</string>
@@ -1502,7 +1514,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_bullseye">Dva sústredené kruhy</string>
     <string name="symbol_caret">Strieška</string>
     <string name="symbol_celsius_degree">Stupeň Celzia</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Znak centa</string>
     <string name="symbol_circle_left_half_black">Kruh s čiernou ľavou polovicou</string>
     <string name="symbol_circle_right_half_black">Kruh s čiernou pravou polovicou</string>
     <string name="symbol_colon">Dvojbodka</string>
@@ -1511,7 +1523,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_curly_bracket_left">Ľavá zložená zátvorka</string>
     <string name="symbol_curly_bracket_right">Pravá zložená zátvorka</string>
     <string name="symbol_currency_sign">Znak meny</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Znak stupňa</string>
     <string name="symbol_division">Znak delenia</string>
     <string name="symbol_dollar_sign">Dolár</string>
     <string name="symbol_downwards_arrow">Šípka dole</string>
@@ -1563,7 +1575,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_middle_dot">Stredová bodka</string>
     <string name="symbol_multiplication">Znak násobenia</string>
     <string name="symbol_new_line">Nový riadok</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Nerovná sa</string>
     <string name="symbol_not_sign">Znak logického záporu</string>
     <string name="symbol_paragraph_mark">Znak odseku</string>
     <string name="symbol_parenthesis_left">Ľavá zátvorka</string>
@@ -1574,7 +1586,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_plus_minus_sign">Znamienko plus mínus</string>
     <string name="symbol_postal_mark">Poštová pečiatka</string>
     <string name="symbol_pound">Krížik</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Znak meny (libra)</string>
     <string name="symbol_quarter_note">Štvrtinová nota</string>
     <string name="symbol_question_mark">Otáznik</string>
     <string name="symbol_quotation_mark">Úvodzovky</string>
@@ -1600,7 +1612,7 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_trademark">Ochranná známka</string>
     <string name="symbol_underscore">Podčiarkovník</string>
     <string name="symbol_upwards_arrow">Šípka hore</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Zvislá čiara</string>
     <string name="symbol_white_circle">Biely kruh</string>
     <string name="symbol_white_club_suit">Biely kríž</string>
     <string name="symbol_white_diamond">Biele káro</string>
@@ -1614,8 +1626,8 @@ Skúste v textovom poli nižšie vybrať slovo Vitajte."</string>
     <string name="symbol_white_square">Biely štvorec</string>
     <string name="symbol_white_star">Biela hviezda</string>
     <string name="symbol_white_up_pointing_triangle">Biely trojuholník špičkou nahor</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Znak meny (won)</string>
+    <string name="symbol_won_sign">Znak meny (won)</string>
     <string name="symbol_yen">Jen</string>
     <string name="system_actions">Systémové akcie</string>
     <string name="tabletop">Stolový režim</string>
@@ -1783,7 +1795,7 @@ Postup zapnutia aplikácie TalkBack:
     <string name="title_pref_category_assign_switches">Priradenie prepínačov</string>
     <string name="title_pref_category_audio">Zvuk</string>
     <string name="title_pref_category_auto_scan">Automatické prehľadávanie</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automatické prehľadávanie (bodové prehľadávanie)</string>
     <string name="title_pref_category_border_color">Farba</string>
     <string name="title_pref_category_built_in_gestures">Vstavané gestá</string>
     <string name="title_pref_category_context_menu">Prispôsobiť ponuku Talkback</string>
@@ -1867,7 +1879,7 @@ Postup zapnutia aplikácie TalkBack:
     <string name="title_pref_red">Červená</string>
     <string name="title_pref_resume_talkback">Obnoviť z pozastavenia</string>
     <string name="title_pref_reverse_auto_scan_disabled">Obrátené automatické prehľadávanie (deaktivované)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Obrátené automatické prehľadávanie (bodové prehľadávanie)</string>
     <string name="title_pref_reverse_dots">Obrátené body</string>
     <string name="title_pref_revert_to_default_menu">Návrat na predvolenú ponuku</string>
     <string name="title_pref_scan_non_actionable_items">Vyslovovať popisný text</string>
@@ -1975,6 +1987,7 @@ Postup zapnutia aplikácie TalkBack:
     <string name="title_previous_screen">Predchádzajúca obrazovka</string>
     <string name="title_read_from_top">Čítať zhora</string>
     <string name="title_repeat_last_spoken_phrase">Zopakovať poslednú vyslovenú frázu</string>
+    <string name="title_request_phone_permission">Povolenie žiadostí aplikácie TalkBack</string>
     <string name="title_screen_summary">Zhrnutie obrazovky</string>
     <string name="title_seek_bar_controls">Posúvač</string>
     <string name="title_seek_bar_edit">Upraviť úroveň posúvača</string>

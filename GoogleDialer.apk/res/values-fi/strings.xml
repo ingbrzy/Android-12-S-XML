@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Vastaa</string>
     <string name="a11y_call_incoming_decline_description">Hylkää</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Soita videopuhelu langattomalla yhteydellä</string>
     <string name="a11y_contact_menu_voice_call_wifi">Soita äänipuhelu langattomalla yhteydellä</string>
     <string name="a11y_conversation_history_entry_answered_call">Viimeisin on vastattu puhelu, jonka soitti ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Hallinnoi soittajia</string>
     <string name="a11y_expandedsheet_collapse">tiivistä valikko</string>
     <string name="a11y_expandedsheet_expand">laajenna valikko</string>
-    <string name="a11y_favorites_education_dismiss">sulje</string>
     <string name="a11y_feature_demo_next_page">Seuraava sivu</string>
     <string name="a11y_feature_demo_page_indicator">Sivu %d</string>
     <string name="a11y_feature_demo_prev_page">Edellinen sivu</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Pikayhteys henkilöön ^1</string>
+    <string name="a11y_icon_hd">HD-puhelu</string>
+    <string name="a11y_icon_hd_plus">HD Plus ‑puhelu</string>
+    <string name="a11y_icon_shared_data_call">Jaettu datapuhelu</string>
+    <string name="a11y_icon_verified">Vahvistettu puhelu</string>
+    <string name="a11y_icon_vilte">LTE-videopuhelu</string>
+    <string name="a11y_icon_viwifi">Wi-Fi-videopuhelu</string>
+    <string name="a11y_icon_volte">LTE-äänipuhelu</string>
+    <string name="a11y_icon_voz4g">4G-äänipuhelu</string>
+    <string name="a11y_icon_wifi">Wi-Fi-puhelu</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Vastaa pyyhkäisemällä ylös kahdella sormella. Hylkää pyyhkäisemällä alas kahdella sormella.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Vastaa puheluun pyyhkäisemällä kahdella sormella ylöspäin tai hylkää se pyyhkäisemällä kahdella sormella alaspäin.</string>
     <string name="a11y_new_call_log_entry_call_recording">puhelu tallennettu</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">soita RTT-puhelu: ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Jaettu datapuhelu</string>
     <string name="a11y_new_call_log_entry_tap_action">laajenna valikko</string>
     <string name="a11y_new_call_log_entry_video_call">videopuhelu: ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">soita videopuhelu langattomalla yhteydellä: ^1</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Muokkaa numeroa ennen puhelua</string>
     <string name="action_menu_back_from_search">lopeta hakeminen</string>
     <string name="action_menu_overflow_description">Lisää vaihtoehtoja</string>
+    <string name="activate_error_message">Puhelujen seulonnan aktivointi epäonnistui</string>
+    <string name="activated_successfully">Puhelujen seulonta aktivoitu</string>
     <string name="activity_not_available">Laitteessa ei ole kyseiseen toimintoon tarvittavaa sovellusta</string>
     <string name="add_2sec_pause">Lisää 2 sekunnin tauko</string>
     <string name="add_contact_not_available">Yhteystietosovellusta ei ole käytettävissä.</string>
@@ -159,9 +171,9 @@
     <string name="bm_suggest_call_button">Soita</string>
     <string name="bm_suggest_chat_button">Chat</string>
     <string name="bm_suggest_wait_min">"Chat
-%1$d min – odota"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s lukematta</string>
+%1$d min odotus"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chatia
+käsitellään…"</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="bubble_bottom_action_end_call">Lopeta puhelu</string>
     <string name="bubble_bottom_action_hide">Piilota</string>
@@ -170,7 +182,10 @@
     <string name="call">Puhelu</string>
     <string name="callFailed_simError">Ei SIM-korttia tai SIM-korttivirhe</string>
     <string name="callHistoryIconLabel">Soittohistoria</string>
-    <string name="call_announcer_preference_footer_instruction_text">Saapuvien puheluiden soittajan nimi ja numero sanotaan ääneen</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Saapuvien puheluiden soittajan nimi ja numero sanotaan ääneen.</string>
     <string name="call_announcer_preference_list_title">Ilmoita soittajan tunnus</string>
     <string name="call_announcer_preference_option_always">Aina</string>
     <string name="call_announcer_preference_option_headset">Vain käytettäessä kuulokemikrofonia</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">Vastaa</string>
     <string name="call_incoming_answer_rtt">Vastaa puhelusta lähetettävällä tekstillä</string>
     <string name="call_incoming_answer_voice">Vastaa äänellä</string>
-    <string name="call_incoming_chip_answer_and_release">Vastaa ja lopeta nykyinen</string>
+    <string name="call_incoming_chip_answer_and_release">Vastaa ja lopeta toinen puhelu</string>
     <string name="call_incoming_chip_answer_as_rtt">Vastaa RTT-puheluna</string>
     <string name="call_incoming_chip_answer_video_as_audio">Vastaa äänipuheluna</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Videopuhelulla vastaaminen pois päältä</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">Vastaa pyyhkäisemällä ylös.</string>
     <string name="call_incoming_swipe_to_reject">Hylkää pyyhkäisemällä alas</string>
     <string name="call_incoming_video_is_off">Videosi on pois päältä</string>
-    <string name="call_incoming_will_disconnect">Vastaaminen tähän puheluun päättää videopuhelun.</string>
+    <string name="call_incoming_will_disconnect">Vastaaminen tähän puheluun lopettaa toisen puhelun</string>
     <string name="call_incoming_will_disconnect_app">Vastaaminen päättää %1$s ‑puhelun</string>
     <string name="call_isdn">Soita ISDN-numeroon</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Estä/ilmoita</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">Puhelun syy: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Tallenne tallennettiin.</string>
     <string name="call_recording_conversation_history_entry">Tallennettu</string>
+    <string name="call_recording_delete_snack_bar_undo">Kumoa</string>
     <string name="call_recording_disclaimer_agreen_button_text">Aloita tallennus</string>
     <string name="call_recording_disclaimer_content">"Sinä tai puhelun toinen osapuoli saatatte olla paikassa, jossa äänitykseen tarvitaan jokaisen suostumus. Kaikki saavat etukäteen ilmoituksen siitä, että puhelu äänitetään. On sinun vastuullasi noudattaa keskustelujen äänittämistä koskevia lakeja. Käytä puhelujen äänitystä vastuullisesti ja laita se päälle vain tarvittaessa.
 ^1
@@ -291,6 +307,7 @@
 Puhelun audiota tai transkriptiota ei lähetetä kenellekään, edes Googlelle."</string>
     <string name="call_screen_demo_page_4_title">Säästä aikaa ja välty turhautumiselta</string>
     <string name="call_screen_demo_setting_title">Katso demo</string>
+    <string name="call_screen_demo_settings_title">Katso esittely</string>
     <string name="call_screen_demo_title">Miten puhelujen seulonta toimii</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Audionäytteen noutaminen ei onnistu</string>
     <string name="call_screen_demo_unable_to_play_audio">Audionäytteen toistaminen ei onnistu</string>
@@ -298,6 +315,7 @@ Puhelun audiota tai transkriptiota ei lähetetä kenellekään, edes Googlelle."
     <string name="call_screen_end_call_local_internal_message">Lopetit puhelun</string>
     <string name="call_screen_end_call_non_local_internal_message">Puhelun yhteys katkaistiin</string>
     <string name="call_screen_how_it_works_setting_title">Seulonta tapahtuu laitteellasi ilman Wi-Fiä tai mobiilidataa. Keskustelujen transkriptiot luodaan puhelimellasi ja tallennetaan vain siihen. %1$s</string>
+    <string name="call_screen_how_it_works_title">Puhelujen seulonta toimii laitteellasi ilman Wi-Fi- tai datayhteyttä. Keskustelujen transkriptiot luodaan puhelimellasi ja tallennetaan vain siihen. ^1</string>
     <string name="call_screen_incallui_chip_text">Puheluseulonta</string>
     <string name="call_screen_join_call_button_content_description">Liity puheluun</string>
     <string name="call_screen_join_call_internal_message">Liityit puheluun</string>
@@ -307,6 +325,7 @@ Puhelun audiota tai transkriptiota ei lähetetä kenellekään, edes Googlelle."
     <string name="call_screen_saying_to_the_caller_state">Sanotaan soittajalle</string>
     <string name="call_screen_screening_call_from">Seulottu puhelu soittajalta</string>
     <string name="call_screen_setting_title">Puhelujen seulonta</string>
+    <string name="call_screen_settings_title">Puhelujen seulonta</string>
     <string name="call_screen_speaker_toggle_button_content_description">Kaiutinpainike</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Peru</string>
@@ -331,6 +350,8 @@ Puhelun audiota tai transkriptiota ei lähetetä kenellekään, edes Googlelle."
     <string name="call_work">Soita työnumeroon</string>
     <string name="call_work_mobile">Soita matkapuhelimeen (työ)</string>
     <string name="call_work_pager">Soita hakulaitteeseen (työ)</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">%2$s soittaa, puhelun tyyppi: %1$s, SIM-kortti: %3$s</string>
     <string name="caller_id_announcement_single_sim">%2$s soittaa, puhelun tyyppi: %1$s</string>
     <string name="caller_id_business_data_details">Näiden ominaisuuksien käyttämä data on Googlen ja sen käyttöoikeuksien myöntäjän tarjoamaa. ^1</string>
@@ -370,6 +391,9 @@ Puhelun audiota tai transkriptiota ei lähetetä kenellekään, edes Googlelle."
     <string name="calling_blocked_number_precall_dialog_title">Soitetaanko: %s?</string>
     <string name="calllog_add_to_contact">Lisää yhteystietoon</string>
     <string name="calllog_create_new_contact">Luo uusi yhteystieto</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Kameran käyttölupa myönnettiin</string>
     <string name="camera_privacy_text">Kameran käyttöoikeus myönnettiin.</string>
     <string name="cannot_understand_description">"I can't understand"</string>
     <string name="car_crash_emergency_intro">"Automaattinen hätäpuhelupalvelu ottaa sinuun yhteyttä soittajan puolesta.
@@ -392,7 +416,7 @@ Lähetä apua."</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="checkbox_report_as_spam_action">Ilmoita häirikköpuheluksi</string>
     <string name="child_number">nron %s kautta</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Valitse yhteystieto</string>
     <string name="clear_button_content_description">Tyhjennä haku</string>
     <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
     <string name="cli_not_supported_text">Jatka avaamalla puhelin</string>
@@ -432,6 +456,9 @@ Lähetä apua."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Vahvistettuja puheluita ei voitu määrittää. Voit ottaa ominaisuuden uudelleen käyttöön asetuksista.</string>
     <string name="contact_card_video_icon_content_description">Videopuhelu: ^1</string>
     <string name="contact_grid_callback_number">Tämän puhelimen numero: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Puhelu siirrettiin</string>
+    <string name="contact_grid_hd_icon_content_description">HD-puhelu</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus ‑puhelu</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Videopuhelu operaattorin kautta, soittajana</string>
     <string name="contact_grid_incoming_reception_only_video_call">Yhdensuuntainen videopuhelu operaattorin kautta, soittaja</string>
     <string name="contact_grid_incoming_rtt_call">RTT-puhelu soittajalta</string>
@@ -442,9 +469,18 @@ Lähetä apua."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Videopuhelu Wi-Fin kautta, soittajana</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Yhdensuuntainen videopuhelu Wi-Fin kautta, soittaja</string>
     <string name="contact_grid_incoming_work_call">Työpuhelu henkilöltä</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Jaettu datapuhelu</string>
+    <string name="contact_grid_spam_icon_content_description">Häirikköpuhelu</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operaattori</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s Vahvistettu</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Vahvistettu numero</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE-videopuhelu</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Wi-Fi-videopuhelu</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G-äänipuhelu</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE-äänipuhelu</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Wi-Fi-äänipuhelu</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi-puhelu</string>
+    <string name="contact_grid_work_icon_content_description">Työpuhelu</string>
     <string name="contact_menu_add_favorite">Lisää suosikki</string>
     <string name="contact_menu_contact_info">Yhteystiedot</string>
     <string name="contact_menu_invite_video">Kutsu muita videopuheluun</string>
@@ -479,8 +515,12 @@ Lähetä apua."</string>
     <string name="conversation_history_call_details_header_today">Tänään</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Puhelu poistettiin.</string>
     <string name="conversation_history_call_details_snack_bar_undo">Kumoa</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Tärkeä puhelu</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Näytä lisätyt puhelutiedot</string>
+    <string name="conversation_history_call_recording_deleted">Tallenne poistettu</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkriptio ja audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkriptio</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Puhelujen seulonta</string>
     <string name="copy">Kopioi</string>
     <string name="copy_number">Kopioi numero</string>
@@ -499,12 +539,17 @@ Lähetä apua."</string>
     <string name="custom_prefix_default_prefix_title">Oletusetuliite</string>
     <string name="custom_prefix_prefixes_preference_title">Etuliitteet</string>
     <string name="dark_theme_label">Tumma</string>
+    <string name="default_changed_confirmation">Puhelin asetettiin oletukseksi</string>
+    <string name="default_image_content_description">Aloituskuva</string>
     <string name="delete">Poista</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Poista kaikki tallenteet</string>
     <string name="delete_all_recordings_now_error_message">Kaikkia tallenteita ei voitu poistaa. Yritä uudelleen.</string>
     <string name="delete_button_label">Poista kaikki tallenteet nyt</string>
     <string name="delete_confirmation_dialog_negative_button_label">Peru</string>
     <string name="delete_confirmation_dialog_positive_button_label">Poista</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Poistetaan tallennetta…</string>
     <string name="description_add_to_existing_contact_action">Lisää ^1 olemassa olevaan yhteystietoon.</string>
     <string name="description_blocked_number_list_delete">Poista numeron esto</string>
     <string name="description_call_action">Soita: ^1</string>
@@ -607,6 +652,7 @@ Lähetä apua."</string>
     <string name="emergency_sos_emergency_intro">"Automaattinen hätäpuhelupalvelu ottaa sinuun yhteyttä soittajan puolesta.
 Soittaja ilmoitti olevansa mahdollisesti hätätilanteessa. 
 Lähetä apua."</string>
+    <string name="emergency_speaker">Kaiutin</string>
     <string name="emergency_voice_assist_dialog_button_close">Peru</string>
     <string name="emergency_voice_assist_dialog_title">Hätäkeskuspäivystäjä kuulee tämän</string>
     <string name="end_call_with_default_message_description">End call</string>
@@ -636,9 +682,12 @@ Lähetä apua."</string>
     <string name="feedback_call_issue_quiet_audio">Ääni oli liian hiljainen</string>
     <string name="feedback_call_issue_title">Mistä ongelmassa oli kyse?</string>
     <string name="feedback_title_please_rate">Arvioi puhelun laatu</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Hiljennä kääntämällä</string>
     <string name="flip_to_silence_summary">Voit hiljentää saapuvan puhelun asettamalla puhelimen tasaiselle pinnalle näyttö alaspäin</string>
     <string name="flip_to_silence_title">Hiljennä kääntämällä</string>
+    <string name="foreground_notification_title">Päivitetään…</string>
     <string name="frequent_contact_suggestion">Soitettu usein</string>
     <string name="general_learn_more">Lisätietoja</string>
     <string name="generic_conference_call_name">Puhelu käynnissä</string>
@@ -661,6 +710,7 @@ Lähetä apua."</string>
     <string name="how_it_works_storage_link_text">Lue lisää puhelujen tallentamisesta</string>
     <string name="how_it_works_storage_template">Puhelujen tallennus keskeytetään, jos puhelimen tallennustila loppuu. ^1</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
+    <string name="icon_description_shared_data_call">Jaettu datapuhelu</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Tuo numerot</string>
     <string name="ims_video_heading">Verizon-videopuheu</string>
@@ -804,6 +854,7 @@ Lähetä apua."</string>
     <string name="new_call_log_no_missed_calls">Sinulla ei ole vastaamattomia puheluita</string>
     <string name="new_call_log_permission_no_calllog">Jos haluat katsella puhelulokiasi, ota Puhelin-käyttöoikeus käyttöön.</string>
     <string name="new_call_log_secondary_blocked">Estetyt</string>
+    <string name="new_call_log_secondary_verified">Vahvistettu puhelu</string>
     <string name="new_call_log_snack_bar_deleted">Puhelu poistettiin.</string>
     <string name="new_call_log_snack_bar_undo">Kumoa</string>
     <string name="new_call_log_unknown">Tuntematon</string>
@@ -818,8 +869,10 @@ Lähetä apua."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Hylkää</string>
     <string name="notification_action_end_call">Katkaise puhelu</string>
+    <string name="notification_action_mute_toggle">Mykistä</string>
     <string name="notification_action_speaker_off">Poista kaiutin käytöstä</string>
     <string name="notification_action_speaker_on">Ota kaiutin käyttöön</string>
+    <string name="notification_action_speaker_toggle">Kaiutin</string>
     <string name="notification_callReasonMsg">Syy: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi-puhelu</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi-työpuhelu</string>
@@ -883,6 +936,8 @@ Lähetä apua."</string>
     <string name="place_ims_button_content_description">Painike videopuhelun soittamiseen puhelinliittymän kautta.</string>
     <string name="play">Toista</string>
     <string name="plus_code_line_format">Pluskoodi: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Kerro, miksi soitit</string>
     <string name="post_call_message_1">Asia on kiireinen. Soita minulle takaisin.</string>
     <string name="post_call_message_2">Soita takaisin, kun ehdit.</string>
@@ -913,6 +968,8 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="privacy_policy_label">Tietosuojakäytäntö</string>
     <string name="private_num_non_verizon">Yksityinen numero</string>
     <string name="private_num_verizon">Rajoitettu</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Valitse yhteystieto</string>
     <string name="ready_for_recording">Valmiina…</string>
     <string name="record_greeting_cancel_label">Peru</string>
@@ -928,6 +985,8 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="record_greeting_uploading_greeting_message">Tallennetaan…</string>
     <string name="record_voicemail_greeting_title">Tallenna tervehdys</string>
     <string name="recording_category_title">Tallenteet</string>
+    <string name="recording_deleted">Tallenne poistettu</string>
+    <string name="recording_deletion_failed">Tallennetta ei voitu poistaa [Yritä uudelleen]</string>
     <string name="redo_button_text">Yritä uudelleen</string>
     <string name="remember_this_choice_label">Muista valinta</string>
     <string name="report_not_spam_alert_button">Ilmoita</string>
@@ -939,9 +998,20 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="request_call_back_description">Call me back</string>
     <string name="request_email_description">Email me</string>
     <string name="respond_via_sms_setting_title">Pikavastaukset</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Laita päälle</string>
     <string name="revelio_end_call_reject_as_spam">Puhelu merkittiin häirikköpuheluksi</string>
     <string name="revelio_end_call_user_missed_internal_message">Puheluun ei vastattu</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT-toiminto auttaa kuuroja sekä käyttäjiä, joilla on kuulo‑ tai puhehäiriöitä tai jotka tarvitsevat muuta tukea pelkän puheen lisäksi. ^1</string>
     <string name="rtt_assist_for_att">Puhelusta lähetettävän tekstin (RTT) näytöllä näkyvä näppäimistö on vaihtoehto ulkoisille TTY-näppäimistöille. Kun kirjoitat RTT-puhelun aikana, keskustelukumppanisi voi nähdä sinun kirjoittavan viestiä reaaliajassa. ^1</string>
     <string name="rtt_assist_for_tmo">Puhelusta lähetettävän tekstin (RTT) näytöllä näkyvä näppäimistö on vaihtoehto ulkoisille TTY-näppäimistöille. RTT lähettää kirjoittamasi tekstin välittömästi puhelun aikana, joten voit kommunikoida reaaliajassa tekstin avulla. Näet osittaiset vastaukset, ennen kuin viesti on kokonaan valmis. ^1</string>
@@ -949,7 +1019,8 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="rtt_button_back">Takaisin</string>
     <string name="rtt_button_downgrade">Vaihda äänipuheluun</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT ei ole käytettävissä tässä puhelussa. Tämä puhelu on yhdistetty pelkkänä äänipuheluna.</string>
+    <string name="rtt_call_downgraded_toast">RTT-puhelu on muutettu pelkäksi äänipuheluksi.</string>
+    <string name="rtt_call_not_available_toast">RTT ei ole käytettävissä tässä puhelussa</string>
     <string name="rtt_configuration_summary_always_visible">Puhelusta lähetettävän tekstin painike on saatavilla kaikkialla</string>
     <string name="rtt_configuration_summary_not_visible">Salli saapuvat puhelusta lähetettävät tekstit mutta piilota soittopainike</string>
     <string name="rtt_configuration_summary_visible_during_call">Näytä puhelusta lähetettävän tekstin painike puhelun aikana</string>
@@ -978,6 +1049,8 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="rtt_transcript_link">Katso litterointi</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Tämä viesti toistuu.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Tallenna</string>
     <string name="saved_voicemails_action_title">Tallennetut vastaajaviestit (%1$s)</string>
     <string name="search_hint">Hae videokontakteja</string>
@@ -1004,8 +1077,11 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="send_a_message">Lähetä viesti</string>
     <string name="send_to_voicemail_import_failed">Tuonti epäonnistui.</string>
     <string name="serial_number">Sarjanumero</string>
+    <string name="set_as_default_button_text">Aseta oletukseksi</string>
     <string name="set_default_account">Käytä kaikille puheluille</string>
     <string name="set_default_account_description">SIM-asetus tallennetaan kontakteihisi.</string>
+    <string name="set_phone_as_default_explanation_text">Puhelin voi soittaa ja vastaanottaa puheluja vain, jos se on oletuspuhelinsovellus</string>
+    <string name="set_phone_as_default_request_text">Aseta Puhelin oletukseksi</string>
     <string name="settings">Asetukset</string>
     <string name="settings_page_call_recording_feature_not_available_text">Puheluiden tallennus ei ole käytettävissä sijainnissasi</string>
     <string name="settings_page_crosby_feature_not_available_text">Ei käytettävissä sijainnissasi</string>
@@ -1040,6 +1116,8 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="snackbar_undo">Peru</string>
     <string name="snackbar_voicemail_deleted">Viesti poistettiin.</string>
     <string name="sounds_and_vibration_title">Äänet ja värinä</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Häiriköiden ja puhelujen seulonta</string>
     <string name="spam_blocking_promo_action_dismiss">Ohita</string>
     <string name="spam_blocking_promo_action_filter_spam">Suodata häirikköpuhelut</string>
@@ -1066,8 +1144,6 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="speed_dial_add_button_text">Lisää</string>
     <string name="speed_dial_contacts_permission_description">Jos haluat käyttää pikavalintaa, ota Yhteystiedot-käyttöoikeus käyttöön.</string>
     <string name="speed_dial_disambig_dialog_title">Valitse, miten henkilölle %s soitetaan</string>
-    <string name="speed_dial_education_content">Siirry puhelujen ja viestien välillä koskettamalla yhteystietoa pitkään.</string>
-    <string name="speed_dial_education_title">Monta tapaa pitää yhteyttä</string>
     <string name="speed_dial_no_contacts_action_text">Lisää suosikki</string>
     <string name="speed_dial_no_contacts_description">Soita suosikkiyhteyshenkilöillesi yhdellä napautuksella</string>
     <string name="speed_dial_remember_this_choice">Muista valinta</string>
@@ -1084,6 +1160,45 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="suggestion_dialog_postive_snackbar_message">Kiitos palautteestasi</string>
     <string name="suggestions_header">Usein käytetyt</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">tili- ja järjestelmätietoja</string>
+    <string name="survey_app_id">Sovelluksen tunnus</string>
+    <string name="survey_app_name">Sovelluksen nimi</string>
+    <string name="survey_app_version">Sovelluksen versio</string>
+    <string name="survey_application_data">Sovelluksen tiedot</string>
+    <string name="survey_brand">Brändi</string>
+    <string name="survey_close_button_description">Sulje</string>
+    <string name="survey_default_prompt_title">Auta meitä parantamaan Googlea.</string>
+    <string name="survey_device_model">Laitteen malli</string>
+    <string name="survey_email_address">Sähköpostiosoite</string>
+    <string name="survey_google_play_services_version">Google Play Palveluiden versio</string>
+    <string name="survey_legal_text">Jatkamalla hyväksyt, että Google käyttää vastauksiasi sekä %1$s palveluiden parantamiseen näiden mukaisesti: %2$s ja %3$s.</string>
+    <string name="survey_library_version">Kirjaston versio</string>
+    <string name="survey_network_request_failed">Verkkopyyntö epäonnistui</string>
+    <string name="survey_neutral">En tyytyväinen enkä tyytymätön</string>
+    <string name="survey_next">Seuraava</string>
+    <string name="survey_num_rating">%1$s/%2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Lisää kommenttisi tähän</string>
+    <string name="survey_open_text_no_pii">Älä lisää henkilötietoja</string>
+    <string name="survey_operating_system">Käyttöjärjestelmä</string>
+    <string name="survey_operating_system_version">Käyttöjärjestelmäversio</string>
+    <string name="survey_other_option_hint">Muu (mikä)</string>
+    <string name="survey_platform">Alusta</string>
+    <string name="survey_privacy">tietosuoja</string>
+    <string name="survey_prompt_no_thanks">Ei kiitos</string>
+    <string name="survey_prompt_take_our_survey">Näytä kysymys</string>
+    <string name="survey_smiley_rating">Hymiö %1$s/%2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Jokseenkin tyytymätön</string>
+    <string name="survey_somewhat_satisfied">Jokseenkin tyytyväinen</string>
+    <string name="survey_submit">Lähetä</string>
+    <string name="survey_system_info_dialog_title">Tili- ja järjestelmätiedot</string>
+    <string name="survey_terms">käyttöehdot</string>
+    <string name="survey_thank_you_followup_message">Auta meitä parantamaan tuotettamme vastaamalla lisäkysymyksiin</string>
+    <string name="survey_timezone_offset">Aikaero</string>
+    <string name="survey_url">URL-osoite</string>
+    <string name="survey_user_agent">Käyttäjäagentti</string>
+    <string name="survey_very_dissatisfied">Hyvin tyytymätön</string>
+    <string name="survey_very_satisfied">Hyvin tyytyväinen</string>
     <string name="system_default_theme_label">Järjestelmän oletusarvo</string>
     <string name="tab_title_call_history">Äskeiset</string>
     <string name="tab_title_contacts">Kontaktit</string>
@@ -1095,11 +1210,15 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="terms_of_service_label">Käyttöehdot</string>
     <string name="textmessage_button_label">Viesti</string>
     <string name="theme_preference_label">Valitse teema</string>
+    <string name="tidepods_call_screen_settings_title">Puhelujen seulonta</string>
+    <string name="tidepods_incall_label_record">Tallenna</string>
     <string name="toast_text_copied">Teksti kopioitiin.</string>
     <string name="toolbar_back">Takaisin</string>
     <string name="toolbar_close">Sulje</string>
     <string name="transcript_audio_feedback_chip_text">Auta meitä kehittymään</string>
+    <string name="transcript_audio_feedback_link_text">Katso transkriptio ja audio</string>
     <string name="transcript_snippet_low_confidence_description">(Audio ei ollut selkeä)</string>
+    <string name="try_again_button">Yritä uudelleen</string>
     <string name="tty_configuration_title_tty_full">TTY täynnä</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY pois käytöstä</string>
@@ -1121,7 +1240,6 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="type_outgoing_video_pulled">Lähtevä videopuhelu siirrettiin toiselle laitteelle.</string>
     <string name="type_rejected">Hylätty puhelu</string>
     <string name="type_voicemail">Vastaaja</string>
-    <string name="unable_change_value_error">RTT-asetusten muuttaminen epäonnistui. Palaa takaisin ja yritä uudelleen.</string>
     <string name="unable_read_value_error">RTT-asetusten lukeminen epäonnistui. Palaa takaisin ja yritä uudelleen.</string>
     <string name="unblock_number">Kumoa esto</string>
     <string name="unblock_number_alert_details">Numeron esto ja häirikkötila kumotaan. Puhelut tästä numerosta eivät enää ole häirikköpuheluja.</string>
@@ -1130,6 +1248,7 @@ Voit silti soittaa videopuheluja joihinkin numeroihin päivittämättä asetuksi
     <string name="unblock_number_ok">Kumoa esto</string>
     <string name="unblock_report_number_alert_title">Kumotaanko numeron %1$s esto?</string>
     <string name="unknown">Tuntematon</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Unmute incoming audio</string>
     <string name="user_is_busy_description">"I'll call you back"</string>
@@ -1241,10 +1360,17 @@ Jos jatkat puhelua, soittamiseen käytetään mobiilidataa."</string>
     <string name="videocall_remote_video_on">Hänen videonsa on päällä</string>
     <string name="videocall_remotely_held">Puhelu pidossa</string>
     <string name="videocall_remotely_resumed">Puhelua jatkettiin</string>
+    <string name="videocall_settings_default_carrier">Videopuheluiden operaattori</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Videopuheluiden oletuspalvelu</string>
+    <string name="videocall_settings_fallback_summary">Vaihda Duoon, jos operaattorin videopuhelu ei ole käytettävissä</string>
+    <string name="videocall_settings_fallback_title">Käytä Duoa varalla</string>
+    <string name="videocall_settings_title">Videopuhelut</string>
     <string name="videocall_show_preview_button_description">Näytä paikallinen videosyöte</string>
     <string name="view">Näytä</string>
     <string name="view_location_settings">Sijaintiasetukset</string>
     <string name="vitle_label">LTE-videopuhelu</string>
+    <string name="viwifi_label">Wi-Fi-videopuhelu</string>
     <string name="vm_change_pin_error_invalid">Uusi PIN-koodi sisältää virheellisiä merkkejä.</string>
     <string name="vm_change_pin_error_mismatch">Vanha PIN-koodi ei täsmää.</string>
     <string name="vm_change_pin_error_system_error">PIN-koodin vaihtaminen epäonnistui.</string>
@@ -1254,8 +1380,11 @@ Jos jatkat puhelua, soittamiseen käytetään mobiilidataa."</string>
     <string name="vm_change_pin_progress_message">Odota.</string>
     <string name="voice_call">Puhelu</string>
     <string name="voice_call_button">Soita</string>
+    <string name="voice_display_name">Ääni %1$d</string>
     <string name="voice_search_not_available">Puhehaku ei ole käytettävissä</string>
     <string name="voice_selector_preference_title">Käytettävissä olevat äänet</string>
+    <string name="voice_settings_available_voices_text">Käytettävissä olevat äänet</string>
+    <string name="voice_settings_title">Ääni</string>
     <string name="voicecall_button_label">Soita</string>
     <string name="voicecall_button_wifi_description">Soita langattomalla yhteydellä</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s klo %2$s</string>
@@ -1290,7 +1419,6 @@ Jos jatkat puhelua, soittamiseen käytetään mobiilidataa."</string>
     <string name="voicemail_donation_promo_title">Haluatko auttaa litterointien tarkkuuden parantamisessa?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Operaattori saattaa veloittaa visuaalisen vastaajan käyttämisestä SIM-korteilla, jotka eivät sisällä dataa</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuaalinen vastaaja käytettävissä ainostaan valitulla data-SIM-kortilla</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Jos sinulla on useita SIM-kortteja ja yksi niistä on Fitä varten, visuaalinen vastaaja toimii Fi-SIM-kortin kautta.</string>
     <string name="voicemail_error_activating_message">Et ehkä saa vastaajailmoituksia, ennen kuin visuaalinen vastaaja on täysin aktivoitu. Saat uudet viestit soittamalla vastaajaan.</string>
     <string name="voicemail_error_activating_title">Aktivoidaan visuaalista vastaajaa</string>
     <string name="voicemail_error_activation_disabled_message">Viimeistele vastaajan määritys soittamalla vastaajan numeroon</string>
@@ -1397,6 +1525,7 @@ Jos jatkat puhelua, soittamiseen käytetään mobiilidataa."</string>
     <string name="vvm3_error_vms_no_cellular_title">Vastaajaviestien postilaatikkoon ei saada yhteyttä</string>
     <string name="vvm3_error_vms_timeout_message">Tapahtui virhe. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota yhteyttä asiakaspalveluun numerossa %1$s ja ilmoita virhekoodi 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Jotain meni pieleen.</string>
+    <string name="vvm_config_title">Visuaalisen vastaajan määritykset</string>
     <string name="vvm_unsupported_message_format">Viestin tyyppiä ei tueta. Kuuntele soittamalla numeroon %s.</string>
     <string name="wait_prompt_str">"Lähetäänkö seuraavat äänet?
 "</string>

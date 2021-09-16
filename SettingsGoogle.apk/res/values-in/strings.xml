@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Bahasa &amp; masukan</string>
     <string name="lift_to_wake_title">Angkat untuk membangunkan</string>
-    <string name="lockdown_settings_summary">Tampilkan opsi Tombol daya yang menonaktifkan Smart Lock, Face Unlock, Fingerprint Unlock, dan notifikasi di layar kunci</string>
-    <string name="lockdown_settings_title">Tampilkan opsi kunci total</string>
+    <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
+    <string name="abc_action_bar_up_description">Kembali ke atas</string>
     <string name="locked_work_profile_notification_title">Saat profil kerja dikunci</string>
     <string name="lockscreen_bypass_summary">Setelah membuka kunci, langsung buka layar yang terakhir digunakan</string>
     <string name="lockscreen_bypass_title">Lewati layar kunci</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notifikasi kerja</string>
     <string name="reset_dashboard_summary">Jaringan, aplikasi, atau perangkat dapat direset</string>
     <string name="reset_dashboard_title">Opsi reset</string>
-    <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
     <string name="screensaver_settings_title">Screen saver</string>
     <string name="screen_timeout">Waktu tunggu layar</string>
     <string name="screen_zoom_title">Ukuran tampilan</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Otomatis meningkatkan rasio pembaruan dari 60 menjadi 90 Hz untuk beberapa konten. Meningkatkan penggunaan baterai.</string>
     <string name="accessibility_vibration_settings_title">Getaran &amp; sentuhan</string>
     <string name="emergency_gesture_screen_title">Darurat SOS</string>
-    <string name="abc_action_bar_up_description">Kembali ke atas</string>
+    <string name="abc_action_mode_done">Selesai</string>
     <string name="vibrate_for_calls_category_title">Panggilan</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Tampilkan dompet</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Tampilkan kontrol perangkat</string>
     <string name="lockscreen_privacy_wallet_summary">Izinkan akses ke dompet dari layar kunci dan setelan cepat</string>
     <string name="lockscreen_privacy_controls_summary">Kontrol akses saat terkunci</string>
-    <string name="abc_action_menu_overflow_description">Opsi lain</string>
-    <string name="abc_action_mode_done">Selesai</string>
     <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
     <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
     <string name="abc_capital_off">NONAKTIF</string>
@@ -507,9 +505,9 @@ Admin dapat memantau serta mengelola setelan, akses, aplikasi, dan data terkait 
     <string name="alarm_template_far">pada %1$s</string>
     <string name="alarm_volume_option_title">Volume alarm</string>
     <string name="alarm_volume_title">Alarm</string>
-    <string name="alarms_and_reminders_footer_title">"Izinkan aplikasi ini menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, sehingga mungkin menggunakan lebih banyak daya baterai.
+    <string name="alarms_and_reminders_footer_title">"Izinkan aplikasi ini menyetel alarm dan menjadwalkan tindakan yang sensitif waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, sehingga mungkin menggunakan lebih banyak daya baterai.
 
-Jika izin ini dinonaktifkan, alarm dan acara berjangka waktu yang dijadwalkan oleh aplikasi ini tidak akan berfungsi."</string>
+Jika izin ini dinonaktifkan, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi ini tidak akan berfungsi."</string>
     <string name="alarms_and_reminders_label">Alarm dan pengingat</string>
     <string name="alarms_and_reminders_switch_title">Izinkan menyetel alarm dan pengingat</string>
     <string name="alarms_and_reminders_title">Alarm &amp; pengingat</string>
@@ -958,7 +956,7 @@ Setelah reset, selesaikan proses dan pilih untuk memindahkan data dari ponsel se
     <string name="battery_saver_off_scheduled_summary">Akan aktif pada %1$s</string>
     <string name="battery_saver_off_summary">Nonaktif</string>
     <string name="battery_saver_on_summary">Aktif</string>
-    <string name="battery_saver_pref_auto_routine_summary">Diaktifkan berdasarkan rutinitas Anda</string>
+    <string name="battery_saver_pref_auto_routine_summary">Akan diaktifkan berdasarkan rutinitas</string>
     <string name="battery_saver_schedule_settings_title">Setel jadwal</string>
     <string name="battery_saver_seekbar_title_placeholder">Aktifkan</string>
     <string name="battery_saver_sticky_description_new">Penghemat Baterai nonaktif saat daya ponsel terisi lebih dari ^1%</string>
@@ -1039,8 +1037,8 @@ selama ^3"</string>
     <string name="battery_total_usage_24hr">Total ^1 selama 24 jam terakhir</string>
     <string name="battery_total_usage_and_bg_less_minute_usage">"Total ^1 • di latar belakang kurang dari satu menit
 sejak terakhir kali baterai terisi penuh"</string>
-    <string name="battery_total_usage_and_bg_less_minute_usage_24hr">"Total ^1 • di latar belakang kurang dari satu menit
-selama 24 jam terakhir"</string>
+    <string name="battery_total_usage_and_bg_less_minute_usage_24hr">"Total ^1 • di latar belakang kurang dari
+satu menit selama 24 jam terakhir"</string>
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period">"Total ^1 • di latar belakang kurang dari satu menit
 selama ^2"</string>
     <string name="battery_total_usage_less_minute">Total kurang dari satu menit sejak terakhir kali baterai terisi penuh</string>
@@ -2888,7 +2886,7 @@ Anda dapat mengubah ini nanti dari Setelan > Aplikasi &amp; notifikasi."</string
     <string name="location_scanning_wifi_always_scanning_description">Izinkan aplikasi dan layanan untuk memindai jaringan Wi-Fi kapan saja, meski Wi-Fi nonaktif. Ini dapat dilakukan, misalnya, untuk meningkatkan kualitas fitur dan layanan berbasis lokasi.</string>
     <string name="location_scanning_wifi_always_scanning_title">Pemindaian Wi-Fi</string>
     <string name="location_services_preference_title">Layanan lokasi</string>
-    <string name="location_services_screen_title">Layanan Lokasi</string>
+    <string name="location_services_screen_title">Layanan lokasi</string>
     <string name="location_settings_footer_general">Aplikasi dengan izin Perangkat di sekitar dapat menentukan posisi relatif perangkat terhubung.</string>
     <string name="location_settings_footer_learn_more_content_description">Pelajari Setelan Lokasi lebih lanjut.</string>
     <string name="location_settings_footer_location_off">Akses lokasi dinonaktifkan untuk aplikasi dan layanan. Lokasi perangkat masih dapat dikirimkan ke petugas tanggap darurat saat Anda menelepon atau mengirim SMS ke nomor darurat.</string>
@@ -5359,7 +5357,7 @@ Fitur perlindungan perangkat ini juga menghapus model sidik jari yang disimpan d
     <string name="usb_tethering_button_text">Tethering USB</string>
     <string name="usb_tethering_subtext">Bagikan koneksi internet ponsel melalui USB</string>
     <string name="usb_title">USB</string>
-    <string name="usb_transcode_files">Konversi video ke AVC</string>
+    <string name="usb_transcode_files">Konversikan video ke AVC</string>
     <string name="usb_transcode_files_summary">Video akan diputar di beberapa pemutar media, tetapi kualitasnya mungkin berkurang</string>
     <string name="usb_use">Gunakan USB untuk</string>
     <string name="usb_use_MIDI">MIDI</string>

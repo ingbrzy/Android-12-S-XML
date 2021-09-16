@@ -17,14 +17,21 @@
         <item>15 minuts</item>
         <item>20 minuts</item>
         <item>25 minuts</item>
-        <item>Mai</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 minuts abans de dormir</item>
+        <item>30 minuts abans de dormir</item>
+        <item>45 minuts abans de dormir</item>
+        <item>1 hora abans de dormir</item>
+        <item>Desactivat</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analògic</item>
         <item>Digital</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Mai</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 segons</item>
         <item>10 segons</item>
         <item>15 segons</item>
@@ -37,6 +44,35 @@
         <item>50 segons</item>
         <item>55 segons</item>
         <item>60 segons</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Atura al cap de 10 minuts</item>
+        <item>Atura al cap de 20 minuts</item>
+        <item>Atura al cap de 30 minuts</item>
+        <item>Atura al cap de 40 minuts</item>
+        <item>Atura al cap de 50 minuts</item>
+        <item>"Atura al cap d'1 hora"</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Atura al cap de 10 min</item>
+        <item>Atura al cap de 20 min</item>
+        <item>Atura al cap de 30 min</item>
+        <item>Atura al cap de 40 min</item>
+        <item>Atura al cap de 50 min</item>
+        <item>"Atura al cap d'1 hora"</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuts</item>
+        <item>20 minuts</item>
+        <item>30 minuts</item>
+        <item>40 minuts</item>
+        <item>50 minuts</item>
+        <item>1 hora</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minut</item>
@@ -69,18 +105,6 @@
         <item>28 minuts</item>
         <item>29 minuts</item>
         <item>30 minuts</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Ets un boig del volant.</item>
-        <item>Gaudeix dels fruits de la teva feina.</item>
-        <item>Se sap que els Android són ràpids, però no tan com tu!</item>
-        <item>Uf!</item>
-        <item>L33t vegades.</item>
-        <item>Una velocitat prodigiosa com aquesta.</item>
-        <item>Tornem a fer un salt en el temps.</item>
-        <item>"Només un salt cap a l'esquerra."</item>
-        <item>Tens moltes opcions per afanyar-te.</item>
-        <item>Velocitat fotònica.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Illes Marshall</item>
@@ -118,7 +142,7 @@
         <item>Brussel·les</item>
         <item>Sarajevo</item>
         <item>Windhoek</item>
-        <item>"Hora d'Àfrica Occidental"</item>
+        <item>"Hora d'Àfrica occidental"</item>
         <item>Amman, Jordània</item>
         <item>Atenes, Istanbul</item>
         <item>Beirut, Líban</item>

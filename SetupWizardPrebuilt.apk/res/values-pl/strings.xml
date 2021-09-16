@@ -341,13 +341,15 @@ Urządzenie nie jest gotowe do korzystania"</string>
 
 "<li>Każdy użytkownik może zaakceptować zaktualizowane uprawnienia aplikacji.</li>"
 
-"<li>Udostępniaj telefon tylko osobom, którym ufasz.</li></ul>}TABLET{<b>Ważne:</b>"
+"<li>Udostępniaj telefon tylko osobom, którym ufasz.</li></ul>"
+}TABLET{"<b>Ważne:</b>"
 
 "<ul><li>Właściciel tabletu może odinstalować Twoje aplikacje lub zupełnie usunąć Twój profil.</li>"
 
 "<li>Każdy użytkownik może zaakceptować zaktualizowane uprawnienia aplikacji.</li>"
 
-"<li>Udostępniaj tablet tylko osobom, którym ufasz.</li></ul>}other{<b>Ważne:</b>"
+"<li>Udostępniaj tablet tylko osobom, którym ufasz.</li></ul>"
+}other{"<b>Ważne:</b>"
 
 "<ul><li>Właściciel urządzenia może odinstalować Twoje aplikacje lub zupełnie usunąć Twój profil.</li>"
 
@@ -359,70 +361,47 @@ Urządzenie nie jest gotowe do korzystania"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować telefon.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
-"<li>automatycznie skonfigurować daty i godziny.</li>"}TABLET{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować tablet.
+"<li>automatycznie skonfigurować daty i godziny.</li>"
+}TABLET{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować tablet.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
-"<li>automatycznie skonfigurować daty i godziny.</li>"}other{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować urządzenie.
+"<li>automatycznie skonfigurować daty i godziny.</li>"
+}other{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować urządzenie.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
 "<li>automatycznie skonfigurować daty i godziny.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować telefon.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
-"<li>pobrać karty SIM,</li>"
-
+"<li>pobrać danych SIM,</li>"
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
-"<li>automatycznie skonfigurować daty i godziny.</li>"}TABLET{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować tablet.
+"<li>automatycznie skonfigurować daty i godziny.</li>"
+}TABLET{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować tablet.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
-"<li>pobrać karty SIM,</li>"
-
+"<li>pobrać danych SIM,</li>"
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
-"<li>automatycznie skonfigurować daty i godziny.</li>"}other{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować urządzenie.
+"<li>automatycznie skonfigurować daty i godziny.</li>"
+}other{Połącz się z siecią Wi‑Fi lub komórkową, aby szybko skonfigurować urządzenie.
 
 Bez połączenia nie możesz:
-
 "<li>zalogować się na swoje konto Google,</li>"
-
 "<li>przywrócić aplikacji i danych,</li>"
-
-"<li>pobrać karty SIM,</li>"
-
+"<li>pobrać danych SIM,</li>"
 "<li>pobrać aktualizacji oprogramowania,</li>"
-
 "<li>automatycznie skonfigurować daty i godziny.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punkt dostępu jest tymczasowo zajęty</string>
     <string name="wifi_check_password_try_again">Sprawdź hasło i spróbuj ponownie</string>

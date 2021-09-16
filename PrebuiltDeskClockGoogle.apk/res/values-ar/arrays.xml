@@ -17,14 +17,21 @@
         <item>١٥ دقيقة</item>
         <item>۲۰ دقيقة</item>
         <item>٢٥ دقيقة</item>
-        <item>أبدًا</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 دقيقة قبل وقت النوم</item>
+        <item>30 دقيقة قبل وقت النوم</item>
+        <item>45 دقيقة قبل وقت النوم</item>
+        <item>ساعة واحدة قبل وقت النوم</item>
+        <item>إيقاف</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>تناظري</item>
         <item>رقمي</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>أبدًا</item>
+        <item>@string/crescendo_entry_never</item>
         <item>٥ ثوانٍ</item>
         <item>۱۰ ثوانٍ</item>
         <item>١٥ ثانية</item>
@@ -37,6 +44,35 @@
         <item>٥۰ ثانية</item>
         <item>٥٥ ثانية</item>
         <item>٦٠ ثانية</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>الإيقاف بعد 10 دقائق</item>
+        <item>الإيقاف بعد 20 دقيقة</item>
+        <item>الإيقاف بعد 30 دقائق</item>
+        <item>الإيقاف بعد 40 دقيقة</item>
+        <item>الإيقاف بعد 50 دقائق</item>
+        <item>الإيقاف بعد ساعة واحدة</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>الإيقاف بعد 10 دقائق</item>
+        <item>الإيقاف بعد 20 دقيقة</item>
+        <item>الإيقاف بعد 30 دقيقة</item>
+        <item>الإيقاف بعد 40 دقيقة</item>
+        <item>الإيقاف بعد 50 دقيقة</item>
+        <item>الإيقاف بعد ساعة واحدة</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>۱۰ دقائق</item>
+        <item>۲۰ دقيقة</item>
+        <item>٣۰ دقيقة</item>
+        <item>40 دقيقة</item>
+        <item>50 دقيقة</item>
+        <item>ساعة واحدة</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>دقيقة واحدة</item>
@@ -69,18 +105,6 @@
         <item>٢٨ دقيقة</item>
         <item>٢٩ دقيقة</item>
         <item>٣۰ دقيقة</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>يمكنك إجراء كل شيء بسرعة البرق.</item>
-        <item>استمتع بحصاد ثمار تعبك.</item>
-        <item>‏مشهور أن أجهزة Android سريعة، لكن ليس بسرعتك!</item>
-        <item>فو</item>
-        <item>‏L33t أوقات</item>
-        <item>هذه السرعة المذهلة.</item>
-        <item>هيا بنا نجري التحريف الزمني مرة أخرى.</item>
-        <item>الانتقال إلى اليمين.</item>
-        <item>لديك لوحة للإسراع.</item>
-        <item>السرعة الضوئية</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>جزر مارشال</item>

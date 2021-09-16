@@ -105,7 +105,7 @@ Hou aan om meer oor ander onderwerpe uit te vind, of gaan hierdie inligting enig
     <string name="audio_focus_state">Oudiodemping %1$s</string>
     <string name="auto_detect">Pas aan by hoe jy die toestel vashou</string>
     <string name="auto_scan_action_description">Begin skandering en kies</string>
-    <string name="auto_scan_or_select">Outoskandering of Kies</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Outoskandering\" of \"Kies\"</string>
     <string name="available_devices_header">Beskikbare Bluetooth-toestelle</string>
     <string name="basic_navigation_link_subtext">Beweeg tussen items, rollees, gebruik kieslyste, en meer</string>
     <string name="basic_navigation_link_text">Basiese navigasie</string>
@@ -157,6 +157,9 @@ Hou aan om meer oor ander onderwerpe uit te vind, of gaan hierdie inligting enig
     <string name="cam_switch_enable_banner_text_label_generic">Jy moet eers Skakelaartoegang aanskakel as jy jou toestel wil beheer.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Maak Kameraskakelaars oop</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Maak Skakelaartoegang oop</string>
+    <string name="cam_switches_combined_preferences_title">\"%1$s\"-instellings</string>
+    <string name="cam_switches_preferences_title">Kameraskakelaar-instellings</string>
+    <string name="cam_switches_single_preferences_title">\"%s\"-instellings</string>
     <string name="camera_switches_status_active">Kameraskakelaars is aktief</string>
     <string name="camera_switches_status_error">Fout</string>
     <string name="camera_switches_status_no_face">Geen gesig bespeur nie</string>
@@ -399,6 +402,7 @@ Probeer dit nou deur aan die skerm te raak en jou vinger na die hoek onder links
     <string name="fallback_menu_item_open_in_browser">Maak in blaaier oop</string>
     <string name="fallback_menu_item_share_link">Deel skakel</string>
     <string name="fast_radio_button_title">Vinnig (vertraging van %1$s s.)</string>
+    <string name="fast_radio_button_title_content_description">Vinnig (%1$s tweede vertraging)</string>
     <string name="find_finish_button_text">Swiep regs om die voltooiknoppie te kry.</string>
     <string name="finish">Voltooi</string>
     <string name="finish_tutorial_announcement">Wys tans braillesleutelbord. Draai jou foon sodat die skerm weg van jou af wys. Draai die foon dan horisontaal sodat dit in landskapposisie is. Begin dan tik.</string>
@@ -747,6 +751,7 @@ Interne aansig se naam: %1$s"</string>
     <string name="list_index_template">%1$d van %2$d</string>
     <string name="lockscreen_label">Sluitskerm</string>
     <string name="medium_radio_button_title">Middelmatig (vertraging van %1$s s.)</string>
+    <string name="medium_radio_button_title_content_description">Medium (%1$s tweede vertraging)</string>
     <string name="menu_category_reading_controls">Lees</string>
     <string name="menu_category_special_features">Spesiale kenmerke</string>
     <string name="menus_selector_text">"Hierdie kortpaaie help jou om instellings vinnig te verander, soos om jou navigasie van karakters na woorde toe oor te skakel of TalkBack se spraakkoers te verander.
@@ -767,6 +772,7 @@ Tik met 3 vingers op die skerm om die TalkBack-kieslys nou oop te maak."</string
 Swiep af en dan regs om die TalkBack-kieslys nou oop te maak."</string>
     <string name="menus_title">Kieslys en kontroles</string>
     <string name="message_in_reset_keymap_confirm_dialog">Is jy seker jy wil jou kortpadsleutels vir hierdie sleutelkaart na hul verstekwaardes terugstel? Let wel, hierdie handeling kan nie ontdoen word nie.</string>
+    <string name="message_request_phone_permission">"TalkBack wil weet wanneer 'n foonoproep plaasvind sodat TalkBack steurende aankondigings kan verminder."</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Dit sal alle gebaarinstellings na hul verstekhandelinge toe terugstel.
 
 Jy sal enige veranderinge wat jy gemaak het, verloor."</string>
@@ -996,6 +1002,7 @@ Probeer enige gebaar waar twee swiepe 'n regte hoek vorm. Byvoorbeeld, swiep af 
     <string name="pref_reduce_window_delay_title">Verminder vertraging met vensteraankondiging</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Voeg Kameraskakelaars by</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Vee fisieke skakelaars uit</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Stel instellings vir skakelaar op: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Wysig Kameraskakelaars</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Geen Kameraskakelaar toegewys nie</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Wys Kameraskakelaars toe aan \"%s\"</string>
@@ -1016,9 +1023,9 @@ Probeer enige gebaar waar twee swiepe 'n regte hoek vorm. Byvoorbeeld, swiep af 
     <string name="pref_sa_face_playground_stop_preview_content_description">Stop voorskou</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Skakel aan</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Kameraskakelaars moet aangeskakel word om hierdie toetsarea te gebruik</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Probeer dit: voorbeskou alle gesiggebaartipes, insluitend oop mond, glimlag, ensovoorts</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Probeer dit</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Probeer dit: voorbeskou %1$s gesiggebare</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Die toetsarea is onderbreek. Gebruik die knoppie hieronder om dit weer te begin.</string>
     <string name="pref_selector_summary">"%1$s om 'n instelling te kies. %2$s dan om die instelling te verstel."</string>
     <string name="pref_selector_summary_two_select_gesture">"%1$s of %2$s om 'n instelling te kies. %3$s dan om die instelling te verstel."</string>
@@ -1069,6 +1076,7 @@ As jou toestel steeds nie wil koppel nie, gaan na Bluetooth-instellings en probe
     <string name="reduce_speed_button">Praat stadiger</string>
     <string name="remaining_calibration_finish_announcement">Alle kolposisies is opgedateer</string>
     <string name="reminder_announcement">Swiep op met 3 vingers vir meer opsies</string>
+    <string name="remove_assigned_switch">Verwyder skakelaartoewysing vir %s</string>
     <string name="report_gesture_description">Hier is gebare wat onlangs uitgevoer is. Meld asseblief aan watter gebaar verkeerd is en wat verwag word.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Stel terug</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Stel terug</string>
@@ -1149,6 +1157,7 @@ Probeer dit nou deur met twee vingers op te swiep totdat jy tot by die onderkant
     <string name="search_mode_hint_no_selection">Geen item is gekies nie.</string>
     <string name="search_mode_hint_query">Huidige navraag: %1$s.</string>
     <string name="search_mode_hint_selection">Huidige seleksie: %1$s.</string>
+    <string name="select_for_point_scan">\"Kies\"</string>
     <string name="select_setting_hint">"%1$s om 'n ander instelling te kies"</string>
     <string name="selecting_text_text">"Beweeg die skermpyltjie in 'n tekskassie na die begin van die teks wat jy wil kies.
 
@@ -1209,6 +1218,7 @@ Stap 2: Swiep af om die navigasiefokus vorentoe te skuif of 'n leeskontrole af t
     <string name="shortcut_media_control">Speel of onderbreek media</string>
     <string name="shortcut_next">Volgende item</string>
     <string name="shortcut_next_granularity">Volgende navigasie-instelling</string>
+    <string name="shortcut_next_window">Volgende venster</string>
     <string name="shortcut_not_customizable">%1$s kan nie gepasmaak word nie</string>
     <string name="shortcut_notifications">Kennisgewings</string>
     <string name="shortcut_overview">Oorsig</string>
@@ -1221,6 +1231,7 @@ Stap 2: Swiep af om die navigasiefokus vorentoe te skuif of 'n leeskontrole af t
     <string name="shortcut_practice_gestures">Oefengebare</string>
     <string name="shortcut_previous">Vorige item</string>
     <string name="shortcut_previous_granularity">Vorige navigasie-instelling</string>
+    <string name="shortcut_previous_window">Vorige venster</string>
     <string name="shortcut_print_node_tree">Druk nodusboom uit</string>
     <string name="shortcut_print_performance_stats">Druk werkverrigtingstatistieke uit</string>
     <string name="shortcut_quick_settings">Kitsinstellings</string>
@@ -1260,6 +1271,7 @@ Stap 2: Swiep af om die navigasiefokus vorentoe te skuif of 'n leeskontrole af t
 • Skud om deurlopende lees te begin"</string>
     <string name="six_hold_announcement">"Jy kan ook tik deur jou foon plat op 'n tafel neer te sit. Probeer dit nou. As daar nie 'n tafel naby jou is nie, spring vorentoe deur af te swiep."</string>
     <string name="slow_radio_button_title">Stadig (vertraging van %1$s s.)</string>
+    <string name="slow_radio_button_title_content_description">Stadig (%1$s tweede vertraging)</string>
     <string name="sound_feedback_state">Klankterugvoer %1$s</string>
     <string name="sound_feedback_summary">"Speel 'n klank om aan te dui dat iets verander het (bv., inhoud op die skerm het verander)"</string>
     <string name="speak_container_element_position_summary_off">Lys- en roosterinligting word nie hardop gesê nie</string>
@@ -1333,17 +1345,17 @@ Stap 2: Swiep af om die navigasiefokus vorentoe te skuif of 'n leeskontrole af t
     <string name="summary_pref_face_switches_debounce_time">Veelvuldige Kameraskakelaar-aktiveerders binne hierdie tydperk sal as een aktiveerder hanteer word.</string>
     <string name="summary_pref_face_switches_enabled">Kameraskakelaars gebruik die voorste kamera om te sien of jy na die skerm kyk en om gesiggebare te herken. Prente word nie geberg of na Google toe gestuur nie.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">"Speel 'n klank wanneer iets op die skerm verander in reaksie op 'n gebaar"</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">"Gee 'n visuele aanduiding van hoe lank jy 'n gebaar gemaak het"</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Hou die skerm aan terwyl Kameraskakelaars geaktiveer is. Kameraskakelaars kan nie die skerm ontsluit as dit afskakel nie.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Geen gesig bespeur nie</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Voer enige van die gesiggebare uit. Indien dit geregistreer is, sal die naam van die gebaar verskyn. Hou enige gebaar %1$d sekondes lank in.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Hou jou kop stil en kyk na die kamera. En dan %s.</string>
     <string name="summary_pref_play_store">Huidige TalkBack-weergawe: %1$s</string>
-    <string name="summary_pref_point_scan">"Gebruik bewegende lyne om 'n spesifieke horisontale en vertikale ligging te kies. Druk die \"%1$s\" om puntskandering te begin. %2$s"</string>
+    <string name="summary_pref_point_scan">"Gebruik bewegende lyne om 'n spesifieke horisontale en vertikale ligging te kies. Druk die %1$s-skakelaar om puntskandering te begin. %2$s"</string>
     <string name="summary_pref_reverse_dots">Ruil die puntposisies om sodat punt 1 en punt 4 plekke ruil, byvoorbeeld</string>
     <string name="summary_pref_revert_to_default_menu">Stel die Skakelaartoegangkieslys terug na die versteklys van kieslysitems.</string>
-    <string name="summary_pref_single_tap">"(Eksperimenteel) Tik een keer op 'n gefokusde item om te aktiveer"</string>
+    <string name="summary_pref_single_tap">"Tik een keer op 'n gefokusde item om te aktiveer"</string>
     <string name="summary_pref_tree_debug_tv">Gebruik stemsoektogsleutel om nodusboom uit te druk eerder as om te soek</string>
     <string name="summary_pref_use_audio_focus">Verminder ander oudio-volume terwyl jy praat</string>
     <string name="summary_read_from_current">Begin by die volgende item en lees alle items op die skerm</string>
@@ -1440,7 +1452,7 @@ Stap 2: Swiep af om die navigasiefokus vorentoe te skuif of 'n leeskontrole af t
     <string name="switched_to_contracted_announcement">Het na verkorte braille toe oorgeskakel</string>
     <string name="switched_to_ueb_uncontracted_announcement">Oorgeskakel na niesaamgetrekte UEB</string>
     <string name="switched_to_uncontracted_announcement">Het na nie-verkorte braille toe oorgeskakel</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Amper gelyk aan</string>
     <string name="symbol_ampersand">Ampersand</string>
     <string name="symbol_angle_bracket_left">Kleiner-as-teken</string>
     <string name="symbol_angle_bracket_right">Groter-as-teken</string>
@@ -1891,7 +1903,7 @@ Om TalkBack af te skakel:
     <string name="title_pref_show_context_menu_as_list">Wys kontekskieslys as lys</string>
     <string name="title_pref_show_privacy_policy">Privaatheidsbeleid</string>
     <string name="title_pref_show_tos">Diensbepalings</string>
-    <string name="title_pref_single_tap">Enkeltik-aktivering</string>
+    <string name="title_pref_single_tap">Enkeltik om te aktiveer</string>
     <string name="title_pref_sound_and_vibration">Klank en vibrasie</string>
     <string name="title_pref_soundback">Klankterugvoer</string>
     <string name="title_pref_soundback_volume">Klankterugvoervolume</string>
@@ -1936,6 +1948,7 @@ Om TalkBack af te skakel:
     <string name="title_previous_screen">Vorige skerm</string>
     <string name="title_read_from_top">Lees van bo af</string>
     <string name="title_repeat_last_spoken_phrase">Herhaal laaste gesproke frase</string>
+    <string name="title_request_phone_permission">TalkBack versoek toestemming</string>
     <string name="title_screen_summary">Skermopsomming</string>
     <string name="title_seek_bar_controls">Glyer</string>
     <string name="title_seek_bar_edit">Wysig glyervlak</string>

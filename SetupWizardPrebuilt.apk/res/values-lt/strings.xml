@@ -341,13 +341,15 @@ Kai įdėsite SIM kortelę, gali praeiti kelios sekundės, kol ji bus suaktyvint
 
 "<li>Bet kuris kitas naudotojas gali priimti atnaujintus programų leidimus.</li>"
 
-"<li>Šį telefoną bendrinkite tik su tais žmonėmis, kuriais pasitikite.</li></ul>}TABLET{<b>Svarbu!</b>"
+"<li>Šį telefoną bendrinkite tik su tais žmonėmis, kuriais pasitikite.</li></ul>"
+}TABLET{"<b>Svarbu!</b>"
 
 "<ul><li>Planšetinio kompiuterio savininkas gali pašalinti jūsų programas arba visiškai pašalinti naudotojo profilį.</li>"
 
 "<li>Bet kuris kitas naudotojas gali priimti atnaujintus programų leidimus.</li>"
 
-"<li>Šį planšetinį kompiuterį bendrinkite tik su tais žmonėmis, kuriais pasitikite.</li></ul>}other{<b>Svarbu!</b>"
+"<li>Šį planšetinį kompiuterį bendrinkite tik su tais žmonėmis, kuriais pasitikite.</li></ul>"
+}other{"<b>Svarbu!</b>"
 
 "<ul><li>Įrenginio savininkas gali pašalinti jūsų programas arba visiškai pašalinti naudotojo profilį.</li>"
 
@@ -359,70 +361,47 @@ Kai įdėsite SIM kortelę, gali praeiti kelios sekundės, kol ji bus suaktyvint
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti telefoną.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
-"<li>Automatiškai nustatyti laiko ir datos.</li>"}TABLET{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti planšetinį kompiuterį.
+"<li>Automatiškai nustatyti laiko ir datos.</li>"
+}TABLET{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti planšetinį kompiuterį.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
-"<li>Automatiškai nustatyti laiko ir datos.</li>"}other{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti įrenginį.
+"<li>Automatiškai nustatyti laiko ir datos.</li>"
+}other{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti įrenginį.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
 "<li>Automatiškai nustatyti laiko ir datos.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti telefoną.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Atsisiųsti SIM kortelės.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
-"<li>Automatiškai nustatyti laiko ir datos.</li>"}TABLET{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti planšetinį kompiuterį.
+"<li>Automatiškai nustatyti laiko ir datos.</li>"
+}TABLET{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti planšetinį kompiuterį.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Atsisiųsti SIM kortelės.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
-"<li>Automatiškai nustatyti laiko ir datos.</li>"}other{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti įrenginį.
+"<li>Automatiškai nustatyti laiko ir datos.</li>"
+}other{Prisijungę prie „Wi-Fi“ arba mobiliojo ryšio tinklo galite greičiau nustatyti įrenginį.
 
 Neprisijungę negalėsite atlikti toliau nurodytų veiksmų.
-
 "<li>Prisijungti prie „Google“ paskyros.</li>"
-
 "<li>Atkurti programų ir duomenų.</li>"
-
 "<li>Atsisiųsti SIM kortelės.</li>"
-
 "<li>Gauti programinės įrangos naujinių.</li>"
-
 "<li>Automatiškai nustatyti laiko ir datos.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Prieigos taškas laikinai visiškai užimtas</string>
     <string name="wifi_check_password_try_again">Patikrinkite slaptažodį ir bandykite dar kartą</string>

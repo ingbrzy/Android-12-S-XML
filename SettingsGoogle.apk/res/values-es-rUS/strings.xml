@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Idiomas y entradas</string>
     <string name="lift_to_wake_title">Levantar el dispositivo para activarlo</string>
-    <string name="lockdown_settings_summary">Muestra una opción del botón de encendido que desactiva Smart Lock, Desbloqueo facial, Desbloqueo con huellas dactilares y las notificaciones en la pantalla de bloqueo</string>
-    <string name="lockdown_settings_title">Mostrar opción de bloqueo</string>
+    <string name="abc_action_bar_home_description">Navegar a la página principal</string>
+    <string name="abc_action_bar_up_description">Navegar hacia arriba</string>
     <string name="locked_work_profile_notification_title">Con el perfil de trabajo bloqueado</string>
     <string name="lockscreen_bypass_summary">Después del desbloqueo, ir a la última pantalla usada</string>
     <string name="lockscreen_bypass_title">Omitir pantalla de bloqueo</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Notificaciones de trabajo</string>
     <string name="reset_dashboard_summary">Se pueden restablecer las redes, las apps y los dispositivos</string>
     <string name="reset_dashboard_title">Restablecimiento</string>
-    <string name="abc_action_bar_home_description">Navegar a la página principal</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
     <string name="screensaver_settings_title">Protector de pantalla</string>
     <string name="screen_timeout">Tiempo de espera de la pantalla</string>
     <string name="screen_zoom_title">Tamaño de visualización</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Aumentar automáticamente la frecuencia de actualización de 60 Hz a 90 Hz para cierto contenido. Incrementa el uso de batería</string>
     <string name="accessibility_vibration_settings_title">Vibración y tecnología háptica</string>
     <string name="emergency_gesture_screen_title">Emergencia SOS</string>
-    <string name="abc_action_bar_up_description">Navegar hacia arriba</string>
+    <string name="abc_action_mode_done">Listo</string>
     <string name="vibrate_for_calls_category_title">Llamadas</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Mostrar billetera</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Mostrar controles del dispositivo</string>
     <string name="lockscreen_privacy_wallet_summary">Permite el acceso a la billetera desde la pantalla de bloqueo y la Configuración rápida</string>
     <string name="lockscreen_privacy_controls_summary">Accede a los controles cuando el dispositivo está bloqueado</string>
-    <string name="abc_action_menu_overflow_description">Más opciones</string>
-    <string name="abc_action_mode_done">Listo</string>
     <string name="abc_activity_chooser_view_see_all">Ver todas</string>
     <string name="abc_activitychooserview_choose_application">Elegir una app</string>
     <string name="abc_capital_off">DESACTIVAR</string>
@@ -204,7 +202,7 @@ No todas las apps admiten esta opción."</string>
     <string name="accessibility_dialog_button_deny">Rechazar</string>
     <string name="accessibility_dialog_button_stop">Detener</string>
     <string name="accessibility_disable_animations">Quitar animaciones</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Ajusta cómo se muestran los colores en tu dispositivo. Esto puede ser útil cuando quieres:&lt;br/>&lt;br/> &lt;ol> &lt;li> Ver colores con más exactitud&lt;/li> &lt;li> Quitar colores para tener un enfoque más claro&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Ajusta cómo se muestran los colores en tu dispositivo. Esto puede ser útil cuando quieres:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;Ver colores con más exactitud&lt;/li> &lt;li>&amp;nbsp;Quitar colores para tener un enfoque más claro&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Corrección de color</string>
     <string name="accessibility_display_inversion_preference_subtitle">La inversión de color oscurece la pantalla.&lt;br/>&lt;br/> Nota: &lt;ol> &lt;li> También puede aclararla.&lt;/li> &lt;li> Los colores cambiarán para el contenido multimedia y las imágenes.&lt;/li> &lt;li> El Tema oscuro permite mostrar un fondo oscuro y funciona solo con apps compatibles. Por otro lado, la inversión de color funciona con todas las apps.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">Inversión de color</string>
@@ -2081,7 +2079,7 @@ Si el problema persiste, es posible que debas desinstalar la app para mejorar el
     <string name="disabled_by_admin_summary_text">Controlada por el administrador</string>
     <string name="disabled_by_administrator_summary">No disponible</string>
     <string name="disabled_by_policy_content_biometric_parental_consent">Dale el teléfono a tu padre o madre para iniciar la configuración</string>
-    <string name="disabled_by_policy_title">Bloqueado por tu admin. de IT</string>
+    <string name="disabled_by_policy_title">Bloqueado por tu admin. de TI</string>
     <string name="disabled_by_policy_title_adjust_volume">No se puede cambiar el volumen</string>
     <string name="disabled_by_policy_title_biometric_parental_consent">Se requiere un padre o madre</string>
     <string name="disabled_by_policy_title_camera">No se puede usar la cámara</string>
@@ -2989,13 +2987,13 @@ En caso de robo o extravío, un PIN protege el teléfono."</string>
     <string name="lock_screen_pin_skip_fingerprint_title">¿Omitir PIN y huella dactilar?</string>
     <string name="lock_screen_pin_skip_message">En caso de robo o extravío, un PIN protege el teléfono</string>
     <string name="lock_screen_pin_skip_title">¿Omitir configuración del PIN?</string>
-    <string name="lock_settings_picker_admin_restricted_personal_message">El administrador de IT no podrá restablecer este bloqueo. LINK_BEGINAlternativamente, configura un bloqueo de trabajoLINK_END</string>
+    <string name="lock_settings_picker_admin_restricted_personal_message">El administrador de TI no podrá restablecer este bloqueo. LINK_BEGINAlternativamente, configura un bloqueo de trabajoLINK_END</string>
     <string name="lock_settings_picker_biometric_message">Elige el método secundario de bloqueo de pantalla</string>
     <string name="lock_settings_picker_biometrics_added_security_message">Para mayor seguridad, establece un bloqueo de pantalla secundario</string>
     <string name="lock_settings_picker_fingerprint_message">Elige un método de bloqueo de pantalla secundario para usar con Nexus Imprint</string>
     <string name="lock_settings_picker_new_lock_title">Elige un bloqueo de pantalla</string>
     <string name="lock_settings_picker_new_profile_lock_title">Bloqueo de apps de trabajo</string>
-    <string name="lock_settings_picker_profile_message">Si olvidas este bloqueo, pídele al administrador de IT que lo restablezca</string>
+    <string name="lock_settings_picker_profile_message">Si olvidas este bloqueo, pídele al administrador de TI que lo restablezca</string>
     <string name="lock_settings_picker_title">Bloqueo de pantalla</string>
     <string name="lock_settings_picker_update_lock_title">Nuevo bloqueo de pantalla</string>
     <string name="lock_settings_picker_update_profile_lock_title">Nuevo bloqueo de trabajo</string>
@@ -3170,7 +3168,7 @@ Hay otros usuarios presentes en este dispositivo.
     <string name="manage_zen_access_title">Acceso en No interrumpir</string>
     <string name="manageapplications_settings_summary">Administrar y eliminar aplicaciones instaladas</string>
     <string name="manageapplications_settings_title">Administrar aplicaciones</string>
-    <string name="managed_profile_contact_search_summary">Es posible que el administrador de IT pueda ver las búsquedas y las llamadas entrantes</string>
+    <string name="managed_profile_contact_search_summary">Es posible que el administrador de TI pueda ver las búsquedas y las llamadas entrantes</string>
     <string name="managed_profile_contact_search_title">Buscar contactos del directorio de trabajo en apps personales</string>
     <string name="managed_profile_location_services">Servicios de ubicación para el trabajo</string>
     <string name="managed_profile_location_switch_title">Ubicación de perfil de trabajo</string>
@@ -5837,7 +5835,7 @@ Si configuras la red para que esté oculta, no se modificarán los ajustes del r
     <string name="wifi_ip_settings_invalid_network_prefix_length">Escribe una longitud de prefijo de red entre 0 y 32.</string>
     <string name="wifi_ip_settings_menu_cancel">Cancelar</string>
     <string name="wifi_ip_settings_menu_save">Guardar</string>
-    <string name="wifi_is_off">Wi-Fi está desactivado</string>
+    <string name="wifi_is_off">Wi-Fi desactivado</string>
     <string name="wifi_limit_optimizations_summary">Limitar batería que usa Wi-Fi</string>
     <string name="wifi_limited_connection">Conexión limitada</string>
     <string name="wifi_menu_advanced">Config. avanzada</string>

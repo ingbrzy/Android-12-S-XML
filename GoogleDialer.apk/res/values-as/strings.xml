@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">উত্তৰ</string>
     <string name="a11y_call_incoming_decline_description">প্ৰত্যাখ্যান কৰক</string>
+    <string name="a11y_callscreen_animation">কল স্ক্ৰীনৰ এনিমেশ্বন</string>
     <string name="a11y_contact_menu_video_call_wifi">"ৱাই-ফাই ব্যৱহাৰ কৰি ভিডিঅ' কল কৰক"</string>
     <string name="a11y_contact_menu_voice_call_wifi">ৱাই-ফাই ব্যৱহাৰ কৰি ভইচ কল কৰক</string>
     <string name="a11y_conversation_history_entry_answered_call">শেহতীয়াটো ^1ৰ পৰা অহা এটা উত্তৰ নিদিয়া কল</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">কলাৰসকলক পৰিচালনা কৰক</string>
     <string name="a11y_expandedsheet_collapse">মেনু সংকোচন কৰক</string>
     <string name="a11y_expandedsheet_expand">মেনু সম্প্ৰসাৰণ কৰক</string>
-    <string name="a11y_favorites_education_dismiss">বন্ধ কৰক</string>
     <string name="a11y_feature_demo_next_page">পৰৱৰ্তী পৃষ্ঠা</string>
     <string name="a11y_feature_demo_page_indicator">পৃষ্ঠা %d</string>
     <string name="a11y_feature_demo_prev_page">পূৰ্বৱৰ্তী পৃষ্ঠা</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">^1ৰ ক্ষিপ্ৰ সম্পৰ্ক</string>
+    <string name="a11y_icon_hd">এইচ্চডি কল</string>
+    <string name="a11y_icon_hd_plus">এইচ্চডি প্লাছ কল</string>
+    <string name="a11y_icon_shared_data_call">শ্বেয়াৰ কৰা ডেটাৰ জৰিয়তে কৰা কল</string>
+    <string name="a11y_icon_verified">সত্যাপন কৰা কল</string>
+    <string name="a11y_icon_vilte">LTE কলৰ জৰিয়তে ভইচ</string>
+    <string name="a11y_icon_viwifi">ৱাই-ফাই কলৰ জৰিয়তে ভিডিঅ’</string>
+    <string name="a11y_icon_volte">LTE কলৰ জৰিয়তে ভইচ</string>
+    <string name="a11y_icon_voz4g">4G কলৰ জৰিয়তে ভইচ</string>
+    <string name="a11y_icon_wifi">ৱাই-ফাই কল</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">কলৰ উত্তৰ দিবলৈ দুটা আঙুলিৰে ওপৰলৈ ছোৱাইপ কৰক। প্ৰত্যাখ্যান কৰিবলৈ দুটা আঙুলিৰে তললৈ ছোৱাইপ কৰক।</string>
     <string name="a11y_incoming_call_swipe_to_answer">উত্তৰ দিবলৈ দুটা আঙুলিৰে ওপৰলৈ বা প্ৰত্যাখ্যান কৰিবলৈ তললৈ ছোৱাইপ কৰক</string>
     <string name="a11y_new_call_log_entry_call_recording">কল ৰেকৰ্ড কৰা হ’ল</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4।</string>
     <string name="a11y_new_call_log_entry_phone_account">^1ত</string>
     <string name="a11y_new_call_log_entry_rtt_call">^1লৈ এটা RTT কল কৰক</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">শ্বেয়াৰ কৰা ডেটাৰ জৰিয়তে কৰা কল</string>
     <string name="a11y_new_call_log_entry_tap_action">মেনু বিস্তাৰ কৰক</string>
     <string name="a11y_new_call_log_entry_video_call">^1লৈ ভিডিঅ’ কল কৰক</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">ৱাই-ফাই ব্যৱহাৰ কৰি ^1লৈ এটা ভিডিঅ’ কল কৰক</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">কল কৰাৰ পূৰ্বে নম্বৰটো সম্পাদনা কৰক</string>
     <string name="action_menu_back_from_search">সন্ধান কৰা বন্ধ কৰক</string>
     <string name="action_menu_overflow_description">অধিক বিকল্প</string>
+    <string name="activate_error_message">কল স্ক্ৰীন সক্ৰিয় কৰোঁতে সমস্যা হৈছে</string>
+    <string name="activated_successfully">কল স্ক্ৰীন সক্ৰিয় কৰা হ’ল</string>
     <string name="activity_not_available">এই কার্য সম্পাদন কৰিবলৈ এই ডিভাইচত কোনো এপ্ নাই</string>
     <string name="add_2sec_pause">২-ছেকেণ্ডৰ পজ যোগ কৰক</string>
     <string name="add_contact_not_available">কোনো সম্পৰ্কসূচী এপ্ নাই</string>
@@ -160,8 +172,8 @@
     <string name="bm_suggest_chat_button">চাট কৰক</string>
     <string name="bm_suggest_wait_min">"চাট
 %1$d মিনিটৰ অপেক্ষা"</string>
-    <string name="bottom_nav_count_9_plus">৯+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s নপঢ়া</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+কাম কৰি আছ…"</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="bubble_bottom_action_end_call">কল সমাপ্ত কৰক</string>
     <string name="bubble_bottom_action_hide">লুকুৱাওক</string>
@@ -170,7 +182,10 @@
     <string name="call">ভইচ কল</string>
     <string name="callFailed_simError">ছিম নাই বা ছিম সম্পর্কীয় আসোঁৱাহ</string>
     <string name="callHistoryIconLabel">কলৰ ইতিহাস</string>
-    <string name="call_announcer_preference_footer_instruction_text">অন্তৰ্গামী কলৰ বাবে কল কৰোঁতাৰ নাম আৰু নম্বৰ ডাঙৰকৈ পঢ়ি দিয়া হ’ব</string>
+    <string name="call_action_label_automatically_screen">স্বয়ংক্ৰিয়ভাৱে স্ক্ৰীন কৰক। ৰ’ব’কল প্ৰত্যাখ্যান কৰক।</string>
+    <string name="call_action_label_ring_phone">ফ’ন ৰিং কৰক (ডিফ’ল্ট)</string>
+    <string name="call_action_label_silently_decline">নীৰৱে প্ৰত্যাখ্যান কৰক</string>
+    <string name="call_announcer_preference_footer_instruction_text">অন্তৰ্গামী কলৰ বাবে কল কৰোঁতাৰ নাম আৰু নম্বৰ ডাঙৰকৈ পঢ়ি দিয়া হ’ব।</string>
     <string name="call_announcer_preference_list_title">কলাৰ আইডি ঘোষণা কৰক</string>
     <string name="call_announcer_preference_option_always">সদায়</string>
     <string name="call_announcer_preference_option_headset">কেৱল হেডছেট ব্যৱহাৰ কৰি থকাৰ সময়ত</string>
@@ -203,7 +218,7 @@
     <string name="call_incoming_answer">গ্ৰহণ কৰক</string>
     <string name="call_incoming_answer_rtt">RTTৰে উত্তৰ দিয়ক</string>
     <string name="call_incoming_answer_voice">কণ্ঠধ্বনিৰে উত্তৰ দিয়ক</string>
-    <string name="call_incoming_chip_answer_and_release">চলি থকা কলৰ উত্তৰ দি কল সমাপ্ত কৰক</string>
+    <string name="call_incoming_chip_answer_and_release">উত্তৰ দিয়ক আৰু অন্যটো কল সমাপ্ত কৰক</string>
     <string name="call_incoming_chip_answer_as_rtt">RTT কল হিচাপে উত্তৰ দিয়ক</string>
     <string name="call_incoming_chip_answer_video_as_audio">ভইচ কলৰূপে উত্তৰ দিয়ক</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">মোৰ ভিডিঅ’ অফ কৰি উত্তৰ দিয়ক</string>
@@ -219,7 +234,7 @@
     <string name="call_incoming_swipe_to_answer">উত্তৰ দিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
     <string name="call_incoming_swipe_to_reject">প্ৰত্যাখ্যান কৰিবলৈ তললৈ ছোৱাইপ কৰক</string>
     <string name="call_incoming_video_is_off">আপোনাৰ ভিডিঅ’ অফ হৈ আছে</string>
-    <string name="call_incoming_will_disconnect">আপুনি এই কলটো উত্তৰ দিলে আপোনাৰ ভিডিঅ’ কলটোৰ অন্ত পৰিব</string>
+    <string name="call_incoming_will_disconnect">এই কলটোৰ উত্তৰ দিলে আপোনাৰ অন্যটো কলৰ অন্ত পৰিব</string>
     <string name="call_incoming_will_disconnect_app">উত্তৰ দিলে আপোনাৰ %1$s কলটো শেষ হ’ব</string>
     <string name="call_isdn">ISDN নম্বৰলৈ কল কৰক</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">স্পাম অৱৰোধ কৰক/অভিযোগ কৰক</string>
@@ -255,6 +270,7 @@
     <string name="call_reason_fragment_content_description">কল কৰাৰ কাৰণ: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">ৰেকর্ডিং ছেভ কৰা হৈছে।</string>
     <string name="call_recording_conversation_history_entry">ৰেকৰ্ড কৰি ৰখা</string>
+    <string name="call_recording_delete_snack_bar_undo">আনডু কৰক</string>
     <string name="call_recording_disclaimer_agreen_button_text">ৰেকৰ্ডিং আৰম্ভ কৰক</string>
     <string name="call_recording_disclaimer_content">"আপুনি অথবা আপোনাৰ কলত থকা অন্য ব্যক্তিগৰাকী হয়তো এনেকুৱা ঠাইত আছে য’ত ৰেকৰ্ড কৰিবলৈ প্ৰত্যেকে সন্মতি দিয়াৰ আৱশ্যক। সকলোকে সময়তকৈ আগতীয়াকৈ জনোৱা হ’ব যে কলটো ৰেকৰ্ড কৰি থকা হৈছে। বাৰ্তালাপ ৰেকৰ্ড কৰাৰ সম্পৰ্কীয় আইনসমূহ মানি চলাটো আপোনাৰ নিজৰ কথা। কল ৰেকৰ্ড কৰাৰ সুবিধাটো দায়িত্বশীলতাৰে পালন কৰক আৰু এইটো কেৱল প্ৰয়োজন হ’লেহে অন কৰক।
 ^1
@@ -291,6 +307,7 @@
 কলটোৰ অডিঅ’ আৰু ট্ৰান্সক্ৰিপ্টৰ এটাও Googleকে ধৰি কালৈকো পঠিওৱা নহয়।"</string>
     <string name="call_screen_demo_page_4_title">সময় ৰাহি কৰক আৰু বিৰক্ত হোৱাৰ পৰা বাচক</string>
     <string name="call_screen_demo_setting_title">ডেম’ চাওক</string>
+    <string name="call_screen_demo_settings_title">এটা ডেম’ চাওক</string>
     <string name="call_screen_demo_title">কল স্ক্ৰীনে কেনেকৈ কাম কৰে</string>
     <string name="call_screen_demo_unable_to_fetch_audio">অডিঅ’ৰ নমুনা আহৰণ কৰিব নোৱাৰি</string>
     <string name="call_screen_demo_unable_to_play_audio">অডিঅ’ৰ নমুনা প্লে’ কৰিব নোৱাৰি</string>
@@ -298,6 +315,7 @@
     <string name="call_screen_end_call_local_internal_message">আপুনি কলটো সমাপ্ত কৰিলে</string>
     <string name="call_screen_end_call_non_local_internal_message">কলটোৰ সংযোগ বিচ্ছিন্ন হ’ল</string>
     <string name="call_screen_how_it_works_setting_title">কল স্ক্ৰীনে আপোনাৰ ডিভাইচত ৱাই-ফাই অথবা ডেটাৰ অবিহনে কাম কৰে। বাৰ্তালাপৰ ট্ৰান্সক্ৰিপ্টসমূহ সৃষ্টি কৰা হয় আৰু কেৱল আপোনাৰ ফ’নত ছেভ কৰা হয়। %1$s</string>
+    <string name="call_screen_how_it_works_title">কল স্ক্ৰীনে আপোনাৰ ডিভাইচত ৱাই-ফাই অথবা ডেটাৰ অবিহনে কাম কৰে। বাৰ্তালাপৰ ট্ৰেন্সক্ৰিপ্ট সৃষ্টি কৰা হয় আৰু কেৱল আপোনাৰ ফ’নত ছেভ কৰা হয়। ^1</string>
     <string name="call_screen_incallui_chip_text">স্ক্ৰীন কল</string>
     <string name="call_screen_join_call_button_content_description">কলটোত যোগদান কৰক</string>
     <string name="call_screen_join_call_internal_message">আপুনি কলটোত যোগদান কৰিলে</string>
@@ -307,6 +325,7 @@
     <string name="call_screen_saying_to_the_caller_state">কল কৰোঁতাগৰাকীক কৈ আছে</string>
     <string name="call_screen_screening_call_from">ইয়াৰ পৰা অহা কল পৰীক্ষা কৰি থকা হৈছে</string>
     <string name="call_screen_setting_title">কল স্ক্ৰীন</string>
+    <string name="call_screen_settings_title">কল স্ক্ৰীন</string>
     <string name="call_screen_speaker_toggle_button_content_description">স্পীকাৰ বুটাম</string>
     <string name="call_screen_suggestions_avatar_content_description">ল’গ’</string>
     <string name="call_screen_survey_cancel_button">বাতিল কৰক</string>
@@ -331,6 +350,8 @@
     <string name="call_work">কৰ্মস্থানৰ নম্বৰলৈ কল কৰক</string>
     <string name="call_work_mobile">কৰ্মস্থানৰ ম’বাইলত কল কৰক</string>
     <string name="call_work_pager">কৰ্মস্থানৰ পেজাৰৰ নম্বৰলৈ কল কৰক</string>
+    <string name="caller_action_error_cant_load_value">%1$sৰ বৰ্তমানৰ মান আহৰণ কৰিব পৰা নগ’ল</string>
+    <string name="caller_action_error_cant_set_value">%1$sৰ মান ছেভ কৰিব পৰা নগ’ল</string>
     <string name="caller_id_announcement_multi_sim">ছিম %3$sত %2$sৰ পৰা অন্তৰ্গামী %1$s কল</string>
     <string name="caller_id_announcement_single_sim">%2$sৰ পৰা অন্তৰ্গামী %1$s কল</string>
     <string name="caller_id_business_data_details">এই সুবিধাসমূহত ব্যৱহৃত ডেটা Google আৰু ইয়াৰ অনুজ্ঞাপত্ৰ প্ৰদানকাৰীয়ে যোগান ধৰে। ^1</string>
@@ -370,6 +391,9 @@
     <string name="calling_blocked_number_precall_dialog_title">%sলৈ কল কৰিবনে?</string>
     <string name="calllog_add_to_contact">এটা সম্পৰ্কত যোগ কৰক</string>
     <string name="calllog_create_new_contact">নতুন সম্পৰ্ক সৃষ্টি কৰক</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">কল স্ক্ৰীন সক্ৰিয় কৰি থকা হৈছে (ৱাই-ফাইৰ প্ৰয়োজন)</string>
+    <string name="callscreen_settings_voice_setting_title">কণ্ঠধ্বনি</string>
+    <string name="camera_permission_toast">কেমেৰাৰ অনুমতি সক্ষম কৰা হৈছে</string>
     <string name="camera_privacy_text">কেমেৰাৰ অনুমতি সক্ষম কৰা হৈছে</string>
     <string name="cannot_understand_description">মই বুজিব পৰা নাই</string>
     <string name="car_crash_emergency_intro">"আপোনাক এগৰাকী কল কৰোঁতাৰ হৈ এটা স্বয়ংক্রিয় জৰুৰীকালীন কণ্ঠধ্বনিৰ সেৱাই যোগাযোগ কৰিছে।
@@ -392,7 +416,7 @@
     <string name="character_counter_overflowed_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণৰ সীমা অতিক্ৰম কৰিছে</string>
     <string name="checkbox_report_as_spam_action">কলটো স্পাম হিচাপে অভিযোগ কৰক</string>
     <string name="child_number">%sৰ জৰিয়তে</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">কোনো সম্পৰ্ক বাছক</string>
     <string name="clear_button_content_description">সন্ধানৰ ক্ষেত্ৰ মচক</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="cli_not_supported_text">অব্যাহত ৰাখিবলৈ ফ’নটো খোলক</string>
@@ -432,6 +456,9 @@
     <string name="constellation_onboarding_unsuccessful_snackbar_message">সত্যাপন কৰা কলিং ছেট আপ কৰিব পৰা নগ’ল। আপুনি ছেটিংসমূহত পুনৰ সক্ষম কৰিব পাৰে।</string>
     <string name="contact_card_video_icon_content_description">ভিডিঅ’ কল ^1</string>
     <string name="contact_grid_callback_number">এই ফ’নৰ নম্বৰ: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">কল ফৰৱাৰ্ড কৰা হৈছিল</string>
+    <string name="contact_grid_hd_icon_content_description">এইচ্চডি কল</string>
+    <string name="contact_grid_hd_plus_icon_content_description">এইচ্চডি প্লাছ কল</string>
     <string name="contact_grid_incoming_bidirectional_video_call">এওঁৰ পৰা বাহকৰ ভিডিঅ’ কল</string>
     <string name="contact_grid_incoming_reception_only_video_call">এওঁৰ পৰা বাহকৰ ১-দিশৰ ভিডিঅ’ কল</string>
     <string name="contact_grid_incoming_rtt_call">ইয়াৰ পৰা RTT কল</string>
@@ -442,9 +469,18 @@
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">এওঁৰ পৰা ৱাই-ফাইৰ জৰিয়তে বাহকৰ ভিডিঅ’ কল</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">এওঁৰ পৰা ৱাই-ফাইৰ জৰিয়তে বাহকৰ ১-দিশৰ ভিডিঅ’ কল</string>
     <string name="contact_grid_incoming_work_call">ইয়াৰ পৰা অহা কর্মস্থানৰ কল</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">শ্বেয়াৰ কৰা ডেটাৰ জৰিয়তে কৰা কল</string>
+    <string name="contact_grid_spam_icon_content_description">স্পাম কল</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">বাহক</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$sক সত্যাপন কৰা হৈছে</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">মান্য নম্বৰ</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">LTE কলৰ জৰিয়তে ভইচ</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">ৱাই-ফাই কলৰ জৰিয়তে ভিডিঅ’</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">4G কলৰ জৰিয়তে ভইচ</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">LTE কলৰ জৰিয়তে ভইচ</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">ৱাই-ফাই কলৰ জৰিয়তে ভইচ</string>
+    <string name="contact_grid_wifi_icon_content_description">ৱাই-ফাই কল</string>
+    <string name="contact_grid_work_icon_content_description">কৰ্মস্থানৰ কল</string>
     <string name="contact_menu_add_favorite">প্ৰিয় যোগ কৰক</string>
     <string name="contact_menu_contact_info">যোগাযোগৰ তথ্য</string>
     <string name="contact_menu_invite_video">ভিডিঅ’ কললৈ আমন্ত্ৰণ জনাওক</string>
@@ -479,8 +515,12 @@
     <string name="conversation_history_call_details_header_today">আজি</string>
     <string name="conversation_history_call_details_snack_bar_deleted">কল মচা হ’ল</string>
     <string name="conversation_history_call_details_snack_bar_undo">আনডু কৰক</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">গুৰুত্বপূৰ্ণ কল</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">যোগ দিয়া কলৰ তথ্য দেখুৱাওক</string>
+    <string name="conversation_history_call_recording_deleted">ৰেকৰ্ডিং মচা হ’ল</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">ট্ৰান্সক্ৰিপ্ট আৰু অডিঅ’</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">ট্ৰান্সক্ৰিপ্ট</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">ট্ৰান্সক্ৰিপ্ট আৰু অডিঅ’ চাওক</string>
     <string name="conversation_history_dropdown_menu_transcript_title">কল স্ক্ৰীণ</string>
     <string name="copy">প্ৰতিলিপি কৰক</string>
     <string name="copy_number">নম্বৰ প্ৰতিলিপি কৰক</string>
@@ -499,12 +539,17 @@
     <string name="custom_prefix_default_prefix_title">ডিফ’ল্ট প্ৰিফিক্স</string>
     <string name="custom_prefix_prefixes_preference_title">প্ৰিফিক্স</string>
     <string name="dark_theme_label">গাঢ়</string>
+    <string name="default_changed_confirmation">Phone ডিফ’ল্টৰূপে ছেট কৰা হ’ল</string>
+    <string name="default_image_content_description">স্প্লেশ্ব প্ৰতিচ্ছবি</string>
     <string name="delete">মচক</string>
     <string name="delete_all_recordings_confirmation_dialog_title">আটাইবোৰ ৰেকৰ্ডিং মচক</string>
     <string name="delete_all_recordings_now_error_message">কিছুমান ৰেকৰ্ডিং মচিব পৰা নগ’ল। পুনৰ চেষ্টা কৰক।</string>
     <string name="delete_button_label">এতিয়াই আটাইবোৰ ৰেকৰ্ডিং মচক</string>
     <string name="delete_confirmation_dialog_negative_button_label">বাতিল কৰক</string>
     <string name="delete_confirmation_dialog_positive_button_label">মচক</string>
+    <string name="delete_old_recordings_error_cant_load_value">%1$sৰ বৰ্তমানৰ মান আহৰণ কৰিব পৰা নগ’ল</string>
+    <string name="delete_old_recordings_error_cant_set_value">%1$sৰ মান ছেভ কৰিব পৰা নগ’ল</string>
+    <string name="deleting_call_recording">ৰেকৰ্ডিংটো মচি থকা হৈছে…</string>
     <string name="description_add_to_existing_contact_action">^1ক পুৰণি সম্পৰ্কত যোগ কৰক</string>
     <string name="description_blocked_number_list_delete">নম্বৰটো অৱৰোধৰ পৰা আঁতৰাওক</string>
     <string name="description_call_action">^1লৈ কল কৰক</string>
@@ -607,6 +652,7 @@
     <string name="emergency_sos_emergency_intro">"আপোনাক এগৰাকী কল কৰোঁতাৰ হৈ এটা স্বয়ংক্ৰিয় জৰুৰীকালীন কণ্ঠধ্বনিৰ সেৱাই যোগাযোগ কৰিছে।
 কল কৰোঁতাগৰাকীয়ে সংকেত দিছে যে তেওঁ হয়তো কোনো বিপদৰ সন্মুখীন হৈছে। 
 অনুগ্ৰহ কৰি সহায় কৰক।"</string>
+    <string name="emergency_speaker">স্পীকাৰ</string>
     <string name="emergency_voice_assist_dialog_button_close">বাতিল কৰক</string>
     <string name="emergency_voice_assist_dialog_title">জৰুৰীকালীন অ’পাৰেটৰে এয়া শুনে</string>
     <string name="end_call_with_default_message_description">কল সমাপ্ত কৰক</string>
@@ -636,9 +682,12 @@
     <string name="feedback_call_issue_quiet_audio">"অডিঅ'ৰ গুণগত মান ভাল নাছিল"</string>
     <string name="feedback_call_issue_title">কি সমস্যা হৈছিল?</string>
     <string name="feedback_title_please_rate">অনুগ্ৰহ কৰি কলটোৰ গুণগত মানৰ মূল্যাংকন কৰক</string>
+    <string name="first_time_callers_action_preference_description">আপোনাৰ কল লগত নথকা কল কৰোঁতা</string>
+    <string name="first_time_callers_action_preference_title">প্ৰথম বাৰ কল কৰোঁতা</string>
     <string name="flip_to_shush_title">নিৰৱ কৰিবলৈ লুটিয়াওক</string>
     <string name="flip_to_silence_summary">"এটা অন্তৰ্গামী কল নিৰৱ কৰিবলৈ, আপোনাৰ ফ'নটো এখন সমতলত তলমুৱাকৈ ৰাখক"</string>
     <string name="flip_to_silence_title">নিৰৱ কৰিবলৈ লুটিয়াওক</string>
+    <string name="foreground_notification_title">আপডে’ট কৰি থকা হৈছে…</string>
     <string name="frequent_contact_suggestion">সঘনাই কল কৰা লোক</string>
     <string name="general_learn_more">অধিক জানক</string>
     <string name="generic_conference_call_name">কল চলি আছে</string>
@@ -661,6 +710,7 @@
     <string name="how_it_works_storage_link_text">ৰেকৰ্ডিং কেনেকৈ ষ্ট’ৰ কৰা হয় সেই বিষয়ে অধিক জানক</string>
     <string name="how_it_works_storage_template">আপোনাৰ ফ’নটোত ষ্ট’ৰেজ শেষ হ’লে কল ৰেকৰ্ড কৰাটো নিলম্বন কৰা হ’ব। ^1</string>
     <string name="icon_content_description">Dialog Icon</string>
+    <string name="icon_description_shared_data_call">শ্বেয়াৰ কৰা ডেটাৰ জৰিয়তে কৰা কল</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">নম্বৰবোৰ আমদানি কৰক</string>
     <string name="ims_video_heading">Verizon ভিডিঅ’</string>
@@ -804,6 +854,7 @@
     <string name="new_call_log_no_missed_calls">আপোনাৰ কোনো মিছড কল নাই</string>
     <string name="new_call_log_permission_no_calllog">আপোনাৰ কল লগ চাবলৈ ফ’নৰ অনুমতি অন কৰক।</string>
     <string name="new_call_log_secondary_blocked">অৱৰোধ কৰা</string>
+    <string name="new_call_log_secondary_verified">সত্যাপন কৰা কল</string>
     <string name="new_call_log_snack_bar_deleted">"কল মচা হ'ল"</string>
     <string name="new_call_log_snack_bar_undo">আনডু কৰক</string>
     <string name="new_call_log_unknown">অজ্ঞাত</string>
@@ -818,8 +869,10 @@
     <string name="notification_action_answer_video">ভিডিঅ’</string>
     <string name="notification_action_dismiss">প্ৰত্যাখ্যান কৰক</string>
     <string name="notification_action_end_call">কল শেষ কৰক</string>
+    <string name="notification_action_mute_toggle">মিউট কৰক</string>
     <string name="notification_action_speaker_off">স্পীকাৰ অফ কৰক</string>
     <string name="notification_action_speaker_on">স্পীকাৰ অন কৰক</string>
+    <string name="notification_action_speaker_toggle">স্পীকাৰ</string>
     <string name="notification_callReasonMsg">কাৰণ: %s</string>
     <string name="notification_call_wifi_brand">ৱাই‑ফাই কল</string>
     <string name="notification_call_wifi_work_brand">ৱাই‑ফাই কৰ্মস্থানৰ কল</string>
@@ -883,6 +936,8 @@
     <string name="place_ims_button_content_description">বাহকৰ ভিডিঅ’ কল কৰিবলৈ ব্যৱহাৰ কৰা বুটাম।</string>
     <string name="play">প্লে’ কৰক</string>
     <string name="plus_code_line_format">Plus ক’ড : %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">এনে কল কৰোঁতা যি হয়তো অদল-বদল কৰা নম্বৰ ব্যৱহাৰ কৰা স্পামাৰ হ’ব পাৰে</string>
+    <string name="possibly_faked_numbers_action_preference_title">সম্ভাব্য ভুৱা নম্বৰ</string>
     <string name="post_call_message">আপুনি কল কৰাৰ কাৰণটো কওক</string>
     <string name="post_call_message_1">জৰুৰী কথা আছে। মোক কল কৰকছোন।</string>
     <string name="post_call_message_2">আপুনি আজৰি হৈ মোক কল কৰকছোন।</string>
@@ -912,6 +967,8 @@
     <string name="privacy_policy_label">গোপনীয়তা নীতি</string>
     <string name="private_num_non_verizon">ব্যক্তিগত নম্বৰ</string>
     <string name="private_num_verizon">সীমিত</string>
+    <string name="private_or_hidden_action_preference_description">নিজৰ কলাৰ আইডি লুকুওৱা কল কৰোঁতা</string>
+    <string name="private_or_hidden_action_preference_title">ব্যক্তিগত অথবা লুকুৱাই থোৱা</string>
     <string name="quick_contact_checkbox_description">সম্পৰ্ক বাছনি কৰক</string>
     <string name="ready_for_recording">সাজু হৈ আছে…</string>
     <string name="record_greeting_cancel_label">বাতিল কৰক</string>
@@ -927,6 +984,8 @@
     <string name="record_greeting_uploading_greeting_message">ছেভ কৰি থকা হৈছে…</string>
     <string name="record_voicemail_greeting_title">কোনো সম্ভাষণ ৰেকৰ্ড কৰক</string>
     <string name="recording_category_title">ৰেকৰ্ডিং</string>
+    <string name="recording_deleted">ৰেকৰ্ডিংটো মচা হ’ল</string>
+    <string name="recording_deletion_failed">ৰেকর্ডিং মচিব পৰা নগ’ল [আকৌ চেষ্টা কৰক]</string>
     <string name="redo_button_text">আকৌ চেষ্টা কৰক</string>
     <string name="remember_this_choice_label">এই বাছনিটো মনত ৰাখিব</string>
     <string name="report_not_spam_alert_button">অভিযোগ কৰক</string>
@@ -938,9 +997,20 @@
     <string name="request_call_back_description">মোলৈ কলবেক কৰক</string>
     <string name="request_email_description">মোলৈ ইমেইল পঠিয়াওক</string>
     <string name="respond_via_sms_setting_title">ক্ষিপ্ৰ সঁহাৰি</string>
+    <string name="revelio_callers_how_it_works_text">"স্বয়ংক্ৰিয় স্ক্ৰীনিঙৰ সুবিধাটো অফ কৰিবলৈ অজ্ঞাত কলৰ বাবে “ফ’ন ৰিং কৰক (ডিফ’ল্ট)” ছেটিংটো বাছনি কৰক। আপোনাৰ সম্পৰ্কসমূহ কেতিয়াও স্বয়ংক্ৰিয়ভাৱে স্ক্ৰীন কৰা নহয়। আপোনাৰ ফ’নটো হেডফ’ন অথবা স্পীকাৰৰ সৈতে সংযুক্ত হৈ থাকিলে স্বয়ংক্ৰিয় স্ক্ৰীনিঙৰ সুবিধাটোৱে কাম নকৰে। 
+কল স্ক্ৰীন সুবিধাটোৱে ডেটা অথবা ৱাই-ফাই ব্যৱহাৰ নকৰে কিন্তু বাহকৰ টক টাইম ব্যৱহাৰ কৰে। %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">৩০ দিনৰ পাছত মচক</string>
+    <string name="revelio_delete_old_recordings_setting_title">পুৰণি ৰেকৰ্ডিং আৰু ট্ৰেন্সক্ৰিপ্ট স্বয়ংক্ৰিয়ভাৱে মচক</string>
+    <string name="revelio_demo_setting_title">কল স্ক্ৰীন সুবিধাটোৱে কিদৰে কাম কৰে চাওক</string>
     <string name="revelio_demo_turn_on">অন কৰক</string>
     <string name="revelio_end_call_reject_as_spam">কলটো স্পাম হিচাপে চিহ্নিত কৰা হ’ল</string>
     <string name="revelio_end_call_user_missed_internal_message">কলটো মিছ হ’ল</string>
+    <string name="revelio_pref_title">কল স্ক্ৰীন</string>
+    <string name="revelio_preference_summary_automatic_screening_off">স্বয়ংক্ৰিয় স্ক্ৰীনিঙৰ সুবিধাটো অফ আছে</string>
+    <string name="revelio_preference_summary_screening">%1$s স্ক্ৰীন কৰি থকা হৈছে</string>
+    <string name="revelio_save_audio_setting_summary">আপোনাৰ Assistantএ উত্তৰ দিয়া কলৰ অডিঅ’ ছেভ কৰক</string>
+    <string name="revelio_save_audio_setting_title">কল স্ক্ৰীন অডিঅ’ ছেভ কৰক</string>
+    <string name="revelio_setting_title">কল স্ক্ৰীন</string>
     <string name="rtt_assist_default">RTTএ শ্ৰৱণশক্তিহীন, কমকৈ শুনা, বাক-শক্তি নথকা অথবা কল কৰোঁতে কেৱল কণ্ঠস্বৰৰ উপৰিও অধিক সুবিধাৰ প্ৰয়োজন হোৱা কলাৰসকলক সহায় কৰে। ^1</string>
     <string name="rtt_assist_for_att">অন-স্ক্রীন ৰিয়েল-টাইম টেক্সট (RTT) কীব’ৰ্ডখন হৈছে বাহ্যিক TTY কীব’ৰ্ডসমূহৰ এটা বিকল্প। আপুনি এটা RTT কলত থাকোঁতে পাঠ বাৰ্তা পঠিয়ালে আপুনি কথা পাতি থকা লোকজনে আপুনি বাৰ্তা টাইপ কৰি থকাটো প্ৰকৃত সময়ত দেখা পাব পাৰে। ^1</string>
     <string name="rtt_assist_for_tmo">অন-স্ক্রীন ৰিয়েল-টাইম টেক্সট (RTT) কীব’ৰ্ডখন হৈছে বাহ্যিক TTY কীব’ৰ্ডসমূহৰ এটা বিকল্প। RTTএ এটা ফ’ন কলৰ সময়ত আপুনি যি টাইপ কৰে সেয়া তাৎক্ষণিকভাৱে পঠিয়াই আৰু সেইটোৱে আপোনাক ৰিয়েল-টাইমত পাঠ ব্যৱহাৰ কৰি যোগাযোগ কৰিবলৈ সক্ষম কৰে। গোটেই বাৰ্তাটো সম্পূৰ্ণ হোৱাৰ আগতে আপুনি আংশিক সঁহাৰিসমূহ চাব পাৰিব। ^1</string>
@@ -948,7 +1018,8 @@
     <string name="rtt_button_back">উভতি যাওক</string>
     <string name="rtt_button_downgrade">ভইচ কললৈ সলনি কৰক</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">এই কলটোৰ বাবে RTT উপলব্ধ নহয়। আপোনাৰ কলটো কেৱল ভইচ কল হিচাপে সংযোগ কৰা হৈছে।</string>
+    <string name="rtt_call_downgraded_toast">আপোনাৰ RTT কলটো এটা কেৱল ভইচৰ সুবিধা থকা কললৈ সলনি কৰা হ’ল</string>
+    <string name="rtt_call_not_available_toast">এই কলটোৰ বাবে RTT উপলব্ধ নহয়</string>
     <string name="rtt_configuration_summary_always_visible">ক্ষিপ্ৰ পাঠ বাৰ্তা বুটামটো সকলোতে উপলব্ধ</string>
     <string name="rtt_configuration_summary_not_visible">ক্ষিপ্ৰ পাঠ বাৰ্তাৰ কলসমূহক অনুমতি দিয়ক কিন্তু কলিং বুটামটো লুকুৱাওক</string>
     <string name="rtt_configuration_summary_visible_during_call">ক্ষিপ্ৰ পাঠ বাৰ্তাৰ বুটামটো কল কৰি থকাৰ সময়ত দেখুৱাওক</string>
@@ -977,6 +1048,8 @@
     <string name="rtt_transcript_link">ট্ৰান্সক্ৰিপ্ট চাওক</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">এই বাৰ্তাটোৰ পুনৰাবৃত্তি ঘটিব।</string>
+    <string name="save_audio_error_cant_load_value">কল স্ক্ৰীন অডিঅ’ ছেভ কৰক সুবিধাটোৰ মান আহৰণ কৰিব পৰা নগ’ল</string>
+    <string name="save_audio_error_cant_set_value">কল স্ক্ৰীন অডিঅ’ ছেভ কৰক সুবিধাটোৰ মান ছেভ কৰিব পৰা নগ’ল</string>
     <string name="save_button_text">ছেভ কৰক</string>
     <string name="saved_voicemails_action_title">ছেভ কৰি থোৱা ভইচমেইলসমূহ (%1$s)</string>
     <string name="search_hint">ভিডিঅ’ কল কৰিব পৰা সম্পৰ্ক সন্ধান কৰক</string>
@@ -1003,8 +1076,11 @@
     <string name="send_a_message">বাৰ্তা পঠিয়াওক</string>
     <string name="send_to_voicemail_import_failed">আমদানি কৰিব পৰা নগ’ল</string>
     <string name="serial_number">ক্ৰমিক নম্বৰ</string>
+    <string name="set_as_default_button_text">ডিফ’ল্টৰূপে ছেট কৰক</string>
     <string name="set_default_account">কল কৰিবলৈ সদায় ইয়াক ব্যৱহাৰ কৰক</string>
     <string name="set_default_account_description">আপোনাৰ সম্পৰ্কসমূহৰ সৈতে ছিমৰ অগ্ৰাধিকাৰ ছেভ কৰা হয়।</string>
+    <string name="set_phone_as_default_explanation_text">Phone আপোনাৰ ডিফ’ল্ট ফ’ন এপ্‌ হ’লেহে কেৱল ই কল আৰম্ভ আৰু লাভ কৰিব পাৰে</string>
+    <string name="set_phone_as_default_request_text">Phone ডিফ’ল্টৰূপে ছেট কৰক</string>
     <string name="settings">ছেটিংসমূহ</string>
     <string name="settings_page_call_recording_feature_not_available_text">আপোনাৰ অৱস্থানত কল ৰেকৰ্ডিং উপলব্ধ নহয়</string>
     <string name="settings_page_crosby_feature_not_available_text">আপোনাৰ অৱস্থানত উপলব্ধ নহয়</string>
@@ -1039,6 +1115,8 @@
     <string name="snackbar_undo">আনডু কৰক</string>
     <string name="snackbar_voicemail_deleted">ভইচমেইল মচা হ’ল</string>
     <string name="sounds_and_vibration_title">ধ্বনি আৰু কম্পন</string>
+    <string name="spam_action_preference_description">Googleৰ স্পাম ডেটাবেছৰ সৈতে মিলা নম্বৰসমূহ</string>
+    <string name="spam_action_preference_title">স্পাম</string>
     <string name="spam_and_call_screen_settings_title">স্পাম আৰু কল স্ক্রীণ</string>
     <string name="spam_blocking_promo_action_dismiss">বাতিল কৰক</string>
     <string name="spam_blocking_promo_action_filter_spam">স্পাম ফিল্টাৰ কৰক</string>
@@ -1065,8 +1143,6 @@
     <string name="speed_dial_add_button_text">যোগ কৰক</string>
     <string name="speed_dial_contacts_permission_description">স্পীড ডায়েলৰ সুবিধা সক্ষম কৰিবলৈ সম্পর্কসূচী ব্যৱহাৰৰ অনুমতি প্ৰদান কৰক।</string>
     <string name="speed_dial_disambig_dialog_title">%sক কল কৰা ধৰণ বাছনি কৰক</string>
-    <string name="speed_dial_education_content">কল আৰু বাৰ্তাৰ পৃষ্ঠালৈ সলনাসলনি কৰিবলৈ কোনো সম্পৰ্কত স্পৰ্শ কৰিয়েই থাকক</string>
-    <string name="speed_dial_education_title">যোগাযোগ কৰাৰ আৰু অধিক মাধ্য়ম</string>
     <string name="speed_dial_no_contacts_action_text">প্ৰিয় সম্পৰ্ক যোগ কৰক</string>
     <string name="speed_dial_no_contacts_description">মাত্ৰ এবাৰ টিপিয়েই আপোনাৰ প্ৰিয় সম্পৰ্কসকলক কল কৰক</string>
     <string name="speed_dial_remember_this_choice">এই পছন্দ মনত ৰাখিব</string>
@@ -1094,11 +1170,15 @@
     <string name="terms_of_service_label">সেৱাৰ চৰ্তাৱলী</string>
     <string name="textmessage_button_label">বাৰ্তা পঠিয়াওক</string>
     <string name="theme_preference_label">থীম বাছনি কৰক</string>
+    <string name="tidepods_call_screen_settings_title">কল স্ক্ৰীন</string>
+    <string name="tidepods_incall_label_record">ৰেকৰ্ড কৰক</string>
     <string name="toast_text_copied">পাঠৰ প্ৰতিলিপি কৰা হ’ল</string>
     <string name="toolbar_back">উভতি যাওক</string>
     <string name="toolbar_close">বন্ধ কৰক</string>
     <string name="transcript_audio_feedback_chip_text">আমি উন্নতি সধাত সহায় কৰক</string>
+    <string name="transcript_audio_feedback_link_text">ট্ৰান্সক্ৰিপ্ট আৰু অডিঅ’ চাওক</string>
     <string name="transcript_snippet_low_confidence_description">"(অডিঅ' স্পষ্ট নাছিল)"</string>
+    <string name="try_again_button">পুনৰ চেষ্টা কৰক</string>
     <string name="tty_configuration_title_tty_full">TTY সম্পূৰ্ণ</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY অফ আছে</string>
@@ -1120,7 +1200,6 @@
     <string name="type_outgoing_video_pulled">অন্য ডিভাইচলৈ স্থানান্তৰ কৰা বহিৰ্গামী ভিডিঅ’ কল</string>
     <string name="type_rejected">প্ৰত্যাখ্যান কৰা কল</string>
     <string name="type_voicemail">ভইচমেইল</string>
-    <string name="unable_change_value_error">RTT ছেটিংসমূহ সলনি কৰোঁতে এটা সমস্যা হৈছে। অনুগ্ৰহ কৰি উভতি যাওক আৰু পুনৰ চেষ্টা কৰক।</string>
     <string name="unable_read_value_error">RTT ছেটিংসমূহ পঢ়োঁতে এটা সমস্যা হৈছে। অনুগ্ৰহ কৰি উভতি যাওক আৰু পুনৰ চেষ্টা কৰক।</string>
     <string name="unblock_number">অৱৰোধৰ পৰা আঁতৰাওক</string>
     <string name="unblock_number_alert_details">এই নম্বৰটো অৱৰোধৰ পৰা আঁতৰোৱা হ’ব আৰু স্পাম নহয় বুলি জনোৱা হ’ব৷ ভৱিষ্যতে আহিবলগীয়া কলবোৰক স্পাম বুলি চিনাক্ত কৰা নহ’ব৷</string>
@@ -1129,6 +1208,7 @@
     <string name="unblock_number_ok">অৱৰোধৰ পৰা আঁতৰাওক</string>
     <string name="unblock_report_number_alert_title">%1$sক অৱৰোধৰ পৰা আঁতৰাবনে?</string>
     <string name="unknown">অজ্ঞাত</string>
+    <string name="unknown_call_settings_category_preference_title">অজ্ঞাত কলৰ ছেটিং</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">অন্তৰ্গামী অডিঅ’ আনমিউট কৰক</string>
     <string name="user_is_busy_description">মই আপোনালৈ কলবেক কৰিম</string>
@@ -1240,10 +1320,17 @@
     <string name="videocall_remote_video_on">তেওঁলোকৰ ভিডিঅ’ অন আছে</string>
     <string name="videocall_remotely_held">কল হ’ল্ডত আছে</string>
     <string name="videocall_remotely_resumed">কল অব্যহত ৰখা হ’ল</string>
+    <string name="videocall_settings_default_carrier">বাহকৰ ভিডিঅ’ কলিং</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">ডিফ’ল্ট ভিডিঅ’ কলিং সেৱা</string>
+    <string name="videocall_settings_fallback_summary">বাহকৰ ভিডিঅ’ কলিঙৰ সুবিধা উপলব্ধ নহ’লে Duo ব্যৱহাৰ কৰক</string>
+    <string name="videocall_settings_fallback_title">Duoক বেকআপ হিচাপে ব্যৱহাৰ কৰক</string>
+    <string name="videocall_settings_title">ভিডিঅ’ কলিং</string>
     <string name="videocall_show_preview_button_description">স্থানীয় ভিডিঅ’ ফীড দেখুৱাওক</string>
     <string name="view">চাওক</string>
     <string name="view_location_settings">অৱস্থান ছেটিংবোৰ</string>
     <string name="vitle_label">ভিডিঅ’ অ’ভাৰ LTE</string>
+    <string name="viwifi_label">ৱাই-ফাইৰ জৰিয়তে ভিডিঅ’</string>
     <string name="vm_change_pin_error_invalid">নতুন পিনটোত অমান্য বৰ্ণ আছে।</string>
     <string name="vm_change_pin_error_mismatch">পুৰণি পিনটো মিলা নাই।</string>
     <string name="vm_change_pin_error_system_error">পিন সলনি কৰিব পৰা নাই</string>
@@ -1253,8 +1340,11 @@
     <string name="vm_change_pin_progress_message">অনুগ্রহ কৰি অপেক্ষা কৰক।</string>
     <string name="voice_call">ভইচ কল</string>
     <string name="voice_call_button">কল কৰক</string>
+    <string name="voice_display_name">কণ্ঠস্বৰ %1$d</string>
     <string name="voice_search_not_available">কণ্ঠধ্বনিৰ জৰিয়তে সন্ধানৰ সুবিধাটো নাই</string>
     <string name="voice_selector_preference_title">উপলব্ধ কণ্ঠস্বৰসমূহ</string>
+    <string name="voice_settings_available_voices_text">উপলব্ধ কণ্ঠস্বৰসমূহ</string>
+    <string name="voice_settings_title">Voice</string>
     <string name="voicecall_button_label">কল কৰক</string>
     <string name="voicecall_button_wifi_description">ৱাই-ফাই ব্যৱহাৰ কৰি কল কৰক</string>
     <string name="voicemailCallLogDateTimeFormat">%1$sৰ %2$sত</string>
@@ -1289,7 +1379,6 @@
     <string name="voicemail_donation_promo_title">ট্ৰান্সক্ৰিপশ্বনৰ সঠিকতা উন্নত কৰাত সহায় কৰিবনে?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">ডেটা নথকা ছিমসমূহৰ ক্ষেত্ৰত ভিজুৱেল ভইচমেইল ব্যৱহাৰ কৰিলে বাহকৰ মাচুল প্ৰযোজ্য হ’ব পাৰে</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">কেৱল বাছনি কৰা ডেটা ছিমৰ বাবেহে দৃশ্যমান ভইচমেইলৰ সুবিধা আছে</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">"যদি আপোনাৰ একাধিক ছিম আছে আৰু এটা Fiৰ বাবে, আপোনাৰ Fi ছিমটো দৃশ্যমান ভইচমেইলৰ বাবে ব্যৱহাৰ কৰা হ'ব"</string>
     <string name="voicemail_error_activating_message">আপুনি দৃশ্যমান ভইচমেইলৰ সুবিধাটো সম্পূৰ্ণৰূপে সক্ৰিয় কৰি নাৰাখিলে ভইচমেইলৰ জাননী নাপাবও পাৰে। ভইচমেইলৰ সুবিধাটো সম্পূৰ্ণৰূপে সক্ৰিয় নোহোৱালৈকে নতুন বাৰ্তা পুনৰুদ্ধাৰ কৰিবলৈ ভইচমেইল কল কৰক।</string>
     <string name="voicemail_error_activating_title">দৃশ্যমান ভইচমেইল সক্ৰিয় কৰি থকা হৈছে</string>
     <string name="voicemail_error_activation_disabled_message">ছেট আপ সম্পূৰ্ণ কৰিবলৈ ভইচমেইললৈ কল কৰক</string>
@@ -1396,6 +1485,7 @@
     <string name="vvm3_error_vms_no_cellular_title">আপোনাৰ ভইচ মেইলবক্সৰ লগত সংযোগ কৰিব পৰা নাই</string>
     <string name="vvm3_error_vms_timeout_message">আমি দুঃখিত, আমি এটা সমস্যা পাইছোঁ৷ অনুগ্ৰহ কৰি পাছত আকৌ চেষ্টা কৰক৷ তেতিয়াও যদি সেই একে সমস্যাটো পাই থাকে, তেন্তে অনুগ্ৰহ কৰি %1$s নম্বৰত গ্ৰাহক সেৱাৰ সৈতে যোগাযোগ কৰক আৰু তেওঁলোকক আসোঁৱাহ ক’ডটো ৯০০৭ বুলি কওক৷</string>
     <string name="vvm3_error_vms_timeout_title">কিবা ভুল হ’ল</string>
+    <string name="vvm_config_title">ভিজুৱেল ভইচমেইলৰ কফিগাৰশ্বন</string>
     <string name="vvm_unsupported_message_format">বাৰ্তাৰ প্ৰকাৰ সমৰ্থিত নহয়, শুনিবলৈ %sত কল কৰক।</string>
     <string name="wait_prompt_str">"এই ট’নবোৰ পঠিয়াবনে?
 "</string>

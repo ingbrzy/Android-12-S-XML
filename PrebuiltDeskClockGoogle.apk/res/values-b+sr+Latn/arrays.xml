@@ -17,14 +17,21 @@
         <item>15 minuta</item>
         <item>20 minuta</item>
         <item>25 minuta</item>
-        <item>Nikad</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 min pre vremena za spavanje</item>
+        <item>30 min pre vremena za spavanje</item>
+        <item>45 min pre vremena za spavanje</item>
+        <item>1 sat pre vremena za spavanje</item>
+        <item>Isključeno</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Analogni</item>
         <item>Digitalni</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Nikad</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 sekundi</item>
         <item>10 sekundi</item>
         <item>15 sekundi</item>
@@ -37,6 +44,35 @@
         <item>50 sekundi</item>
         <item>55 sekundi</item>
         <item>60 sekundi</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Zaustavi posle 10 minuta</item>
+        <item>Zaustavi posle 20 minuta</item>
+        <item>Zaustavi posle 30 minuta</item>
+        <item>Zaustavi posle 40 minuta</item>
+        <item>Zaustavi posle 50 minuta</item>
+        <item>Zaustavi posle 1 sata</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Zaustavi posle 10 min</item>
+        <item>Zaustavi posle 20 min</item>
+        <item>Zaustavi posle 30 min</item>
+        <item>Zaustavi posle 40 min</item>
+        <item>Zaustavi posle 50 min</item>
+        <item>Zaustavi posle 1 sata</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 minuta</item>
+        <item>20 minuta</item>
+        <item>30 minuta</item>
+        <item>40 minuta</item>
+        <item>50 minuta</item>
+        <item>1 sat</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 minut</item>
@@ -69,18 +105,6 @@
         <item>28 minuta</item>
         <item>29 minuta</item>
         <item>30 minuta</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Brzi ste kao munja.</item>
-        <item>Uživajte u plodovima svog rada.</item>
-        <item>Zna se da su Androidi brzi, ali ne kao vi!</item>
-        <item>Uh.</item>
-        <item>Elitn@ vremena.</item>
-        <item>Kakva vrtoglava brzina.</item>
-        <item>Hajde da vidimo ponovo ubrzani prikaz kroz vreme.</item>
-        <item>Samo skok ulevo.</item>
-        <item>Brzina vam je u krvi.</item>
-        <item>Brzina fotona.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Maršalska ostrva</item>

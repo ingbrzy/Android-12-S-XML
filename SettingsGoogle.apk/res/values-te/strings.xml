@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">భాషలు &amp; ఇన్‌పుట్</string>
     <string name="lift_to_wake_title">సక్రియం చేయడానికి వేళ్లను తీసివేయండి</string>
-    <string name="lockdown_settings_summary">Smart Lock, ఫేస్ అన్‌లాక్, వేలిముద్ర అన్‌లాక్, అలాగే లాక్ స్క్రీన్‌లో నోటిఫికేషన్‌లను ఆఫ్ చేసే పవర్ బటన్ ఆప్షన్‌ను ప్రదర్శించు</string>
-    <string name="lockdown_settings_title">లాక్‌డౌన్ ఆప్షన్‌ను చూపు</string>
+    <string name="abc_action_bar_home_description">హోమ్‌కు నావిగేట్ చేస్తుంది</string>
+    <string name="abc_action_bar_up_description">పైకి నావిగేట్ చేస్తుంది</string>
     <string name="locked_work_profile_notification_title">వర్క్ ప్రొఫైల్ లాక్ అయినప్పుడు</string>
     <string name="lockscreen_bypass_summary">అన్‌లాక్ చేశాక నేరుగా చివరిసారి ఉపయోగించిన స్క్రీన్‌కు వెళ్లండి</string>
     <string name="lockscreen_bypass_title">లాక్ స్క్రీన్‌ను దాటవేయి</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">కార్యాలయ నోటిఫికేషన్‌లు</string>
     <string name="reset_dashboard_summary">నెట్‌వర్క్, యాప్‌లు లేదా డివైజ్‌ను రీసెట్ చేయవచ్చు</string>
     <string name="reset_dashboard_title">రీసెట్ ఆప్షన్లు</string>
-    <string name="abc_action_bar_home_description">హోమ్‌కు నావిగేట్ చేస్తుంది</string>
+    <string name="abc_action_menu_overflow_description">మరిన్ని ఎంపికలు</string>
     <string name="screensaver_settings_title">స్క్రీన్ సేవర్</string>
     <string name="screen_timeout">స్క్రీన్ గడువు ముగింపు</string>
     <string name="screen_zoom_title">డిస్‌ప్లే సైజ్‌</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">కొంత కంటెంట్ కోసం రిఫ్రెష్ రేటును ఆటోమేటిక్‌గా 60 నుండి 90 Hz వరకు పెంచుతుంది. బ్యాటరీ వినియోగం పెరుగుతుంది.</string>
     <string name="accessibility_vibration_settings_title">వైబ్రేషన్ &amp; స్పర్శలు</string>
     <string name="emergency_gesture_screen_title">ఎమర్జెన్సీ సహాయం</string>
-    <string name="abc_action_bar_up_description">పైకి నావిగేట్ చేస్తుంది</string>
+    <string name="abc_action_mode_done">పూర్తయింది</string>
     <string name="vibrate_for_calls_category_title">కాల్స్</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">వాలెట్‌ను చూపించండి</string>
     <string name="lockscreen_privacy_controls_setting_toggle">డివైజ్ కంట్రోల్స్‌ను చూపించండి</string>
     <string name="lockscreen_privacy_wallet_summary">లాక్ స్క్రీన్, త్వరిత సెట్టింగ్‌లు నుండి వాలెట్‌కు యాక్సెస్‌ను అనుమతించండి</string>
     <string name="lockscreen_privacy_controls_summary">లాక్ చేసినప్పుడు కంట్రోల్స్‌ను యాక్సెస్ చేయండి</string>
-    <string name="abc_action_menu_overflow_description">మరిన్ని ఎంపికలు</string>
-    <string name="abc_action_mode_done">పూర్తయింది</string>
     <string name="abc_activity_chooser_view_see_all">అన్నీ చూడండి</string>
     <string name="abc_activitychooserview_choose_application">యాప్‌ను ఎంచుకోండి</string>
     <string name="abc_capital_off">ఆఫ్</string>
@@ -143,8 +141,8 @@
     <string name="about_phone_device_name_warning">మీ పరికరంలోని పేరు మీ ఫోన్‌లోని యాప్‌లకు కనిపిస్తుంది. మీరు బ్లూటూత్ పరికరాలకు కనెక్ట్ చేసినప్పుడు, Wi-Fi నెట్‌వర్క్‌కు కనెక్ట్ చేసినప్పుడు లేదా Wi-Fi హాట్‌స్పాట్‌ను సెటప్ చేసినప్పుడు ఇతర వ్యక్తులకు కూడా ఇది కనిపించవచ్చు.</string>
     <string name="about_settings">ఫోన్ వివరాలు</string>
     <string name="about_settings_summary">చట్టపరమైన సమాచారం, స్థితి, సాఫ్ట్‌వేర్ సంస్కరణను వీక్షించండి</string>
-    <string name="accelerometer_summary_off">ఫోన్‌ను తిప్పుతున్నప్పుడు దృగ్విన్యాసాన్ని స్వయంచాలకంగా మార్చు</string>
-    <string name="accelerometer_summary_on">ఫోన్‌ను తిప్పుతున్నప్పుడు దృగ్విన్యాసాన్ని స్వయంచాలకంగా మార్చు</string>
+    <string name="accelerometer_summary_off">ఫోన్‌ను తిప్పుతున్నప్పుడు దృగ్విన్యాసాన్ని ఆటోమేటిక్‌గా మార్చు</string>
+    <string name="accelerometer_summary_on">ఫోన్‌ను తిప్పుతున్నప్పుడు దృగ్విన్యాసాన్ని ఆటోమేటిక్‌గా మార్చు</string>
     <string name="access_point_names">యాక్సెస్ పాయింట్ పేర్లు</string>
     <string name="accessibility_alarm_vibration_title">అలారం వైబ్రేషన్</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge సెటప్ చేయబడింది. తర్వాతి స్క్రీన్‌కి వెళ్లండి లేదా సర్దుబాటు చేయడం కొనసాగించండి.</string>
@@ -348,8 +346,8 @@
     <string name="accessibility_toggle_primary_balance_title">ఆడియో బ్యాలెన్స్</string>
     <string name="accessibility_toggle_primary_mono_summary">ఆడియో ప్లే చేసేటప్పుడు ఛానెల్‌లను మిళితం చేస్తుంది</string>
     <string name="accessibility_toggle_primary_mono_title">మోనో ఆడియో</string>
-    <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">అనువర్తన పరివర్తనాల్లో స్క్రీన్ వర్ధనాన్ని నవీకరించండి</string>
-    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">స్క్రీన్ వర్ధనాన్ని స్వయంచాలకంగా నవీకరించండి</string>
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">యాప్‌ పరివర్తనాల్లో స్క్రీన్ వర్ధనాన్ని నవీకరించండి</string>
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">స్క్రీన్ వర్ధనాన్ని ఆటోమేటిక్‌గా నవీకరించండి</string>
     <string name="accessibility_turn_screen_darker_title">స్క్రీన్‌ను ముదురు రంగులో కనిపించేలా చేయండి</string>
     <string name="accessibility_tutorial_dialog_button">అర్థమైంది</string>
     <string name="accessibility_tutorial_dialog_message_button">"ఈ ఫీచర్‌ను ఉపయోగించడానికి, మీ స్క్రీన్ దిగువన ఉన్న యాక్సెసిబిలిటీ బటన్ %sను ట్యాప్ చేయండి.
@@ -454,7 +452,7 @@
     <string name="adb_pairing_device_dialog_pairing_code_label">Wi‑Fi పెయిరింగ్ కోడ్</string>
     <string name="adb_pairing_device_dialog_title">పరికరంతో పెయిర్ చేయండి</string>
     <string name="adb_qrcode_pairing_device_failed_msg">పరికరాన్ని పెయిర్ చేయడం విఫలమైంది. QR కోడ్ తప్పుగా ఉండడం గాని, లేదా పరికరం అదే నెట్‌వర్క్‌కు కనెక్ట్ అయి లేకపోవడం గాని జరిగింది.</string>
-    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో అనువర్తనాలను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
+    <string name="adb_warning_message">USB డీబగ్గింగ్ అనేది అభివృద్ధి ప్రయోజనాల కోసం మాత్రమే ఉద్దేశించబడింది. మీ కంప్యూటర్ మరియు మీ పరికరం మధ్య డేటాను కాపీ చేయడానికి, నోటిఫికేషన్ లేకుండా మీ పరికరంలో యాప్‌లను ఇన్‌స్టాల్ చేయడానికి మరియు లాగ్ డేటాను చదవడానికి దీన్ని ఉపయోగించండి.</string>
     <string name="adb_warning_title">USB డీబగ్గింగ్‌ను అనుమతించాలా?</string>
     <string name="adb_wireless_connection_failed_message">%1$s సరైన నెట్‌వర్క్‌కు కనెక్ట్ అయ్యేలా చూడండి.</string>
     <string name="adb_wireless_connection_failed_title">కనెక్షన్ విఫలమైంది</string>
@@ -523,7 +521,7 @@
     <string name="allow_data_usage_title">రోమింగ్‌లో డేటా వినియో. అనుమతి</string>
     <string name="allow_interruption">అంతరాయాలను అనుమతించండి</string>
     <string name="allow_interruption_summary">యాప్‌ను శబ్దం, వైబ్రేట్ చేయనివ్వండి మరియు/లేదా స్క్రీన్‌పై నోటిఫికేషన్‌లను చూపనివ్వండి</string>
-    <string name="allow_manage_external_storage_description">ఈ పరికరంలో, లేదా కనెక్ట్ చేయబడిన ఏవైనా స్టోరేజ్ వాల్యూమ్‌లలో, అన్ని ఫైల్‌లను చదవడానికి, మార్చడానికి, తొలగించడానికి ఈ యాప్‌నకు అనుమతిని ఇవ్వండి. అటువంటి అనుమతిని మీరు మంజూరు చేస్తే, మీకు ప్రత్యేకంగా తెలియపరచకుండానే మీ ఫైల్‌లను యాప్, యాక్సెస్ చేయవచ్చు.</string>
+    <string name="allow_manage_external_storage_description">ఈ పరికరంలో, లేదా కనెక్ట్ చేయబడిన ఏవైనా స్టోరేజ్ వాల్యూమ్‌లలో, అన్ని ఫైళ్లను చదవడానికి, మార్చడానికి, తొలగించడానికి ఈ యాప్‌నకు అనుమతిని ఇవ్వండి. అటువంటి అనుమతిని మీరు మంజూరు చేస్తే, మీకు ప్రత్యేకంగా తెలియపరచకుండానే మీ ఫైళ్లను యాప్, యాక్సెస్ చేయవచ్చు.</string>
     <string name="allow_mock_location">అనుకృత స్థానాలను అనుమతించు</string>
     <string name="allow_mock_location_summary">అనుకృత స్థానాలను అనుమతించు</string>
     <string name="allow_overlay_description">మీరు ఉపయోగించే ఇతర యాప్‌లలో పైభాగాన కనిపించడం కోసం ఈ యాప్‌ను అనుమతించండి. ఈ యాప్ మీరు ఎక్కడ ట్యాప్ చేసేది చూడగలుగుతుంది లేదా స్క్రీన్‌పై కనిపించే వాటిని మార్చగలుగుతుంది.</string>
@@ -591,7 +589,7 @@
     <string name="app_install_details_group_title">స్టోర్</string>
     <string name="app_install_details_summary">యాప్ %1$s నుండి ఇన్‌స్టాల్ చేయబడింది</string>
     <string name="app_install_details_title">యాప్ వివరాలు</string>
-    <string name="app_install_location_summary">కొత్త అనువర్తనాల కోసం ప్రాధాన్య ఇన్‌స్టాలేషన్ స్థానాన్ని మార్చండి</string>
+    <string name="app_install_location_summary">కొత్త యాప్‌ల కోసం ప్రాధాన్య ఇన్‌స్టాలేషన్ స్థానాన్ని మార్చండి</string>
     <string name="app_install_location_title">ప్రాధాన్య ఇన్‌స్టాల్ స్థానం</string>
     <string name="app_launch_add_link">లింక్‌ను యాడ్ చేయి</string>
     <string name="app_launch_checking_links_title">సపోర్ట్ చేయబడిన ఇతర లింక్‌ల కోసం చెక్ చేస్తోంది…</string>
@@ -645,7 +643,7 @@
     <string name="app_pinning_intro">యాప్‌ను పిన్ చేయడం వలన, ప్రస్తుతం ఉన్న యాప్‌ను మీరు మళ్లీ అన్‌పిన్ చేసేంత వరకూ అది వీక్షణలోనే ఉంటుంది. ఒక నిర్దిష్ట గేమ్‌ను ఆడటానికి నమ్మకమైన ఫ్రెండ్‌ను అనుమతించడం అనేది ఈ ఫీచర్ వినియోగానికి ఒక ఉదాహరణ.</string>
     <string name="app_pinning_main_switch_title">యాప్‌ను పిన్ చేయడాన్ని ఉపయోగించండి</string>
     <string name="app_process_limit_title">బ్యాక్‌గ్రౌండ్ ప్రాసెస్ పరిమితి</string>
-    <string name="app_restrictions_custom_label">అనువర్తన పరిమితులను సెట్ చేయండి</string>
+    <string name="app_restrictions_custom_label">యాప్‌ పరిమితులను సెట్ చేయండి</string>
     <string name="app_sees_restricted_accounts">ఈ యాప్ మీ ఖాతాలను యాక్సెస్ చేయగలదు</string>
     <string name="app_sees_restricted_accounts_and_controlled_by">ఈ యాప్ మీ ఖాతాలను యాక్సెస్ చేయగలదు. %1$s నియంత్రణలో ఉంటుంది</string>
     <string name="app_settings_link">యాప్‌లోని అదనపు సెట్టింగ్‌లు</string>
@@ -656,14 +654,14 @@
     <string name="application_size_label">యాప్ సైజ్</string>
     <string name="applications_settings">యాప్ సమాచారం</string>
     <string name="applications_settings_header">యాప్‌ సెట్టింగ్‌లు</string>
-    <string name="applications_settings_summary">అనువర్తనాలను నిర్వహించండి, శీఘ్ర ప్రారంభ సత్వరమార్గాలను సెటప్ చేయండి</string>
+    <string name="applications_settings_summary">యాప్‌లను నిర్వహించండి, శీఘ్ర ప్రారంభ సత్వరమార్గాలను సెటప్ చేయండి</string>
     <string name="apply">వర్తింపజేయి</string>
     <string name="apps_dashboard_title">యాప్‌లు</string>
     <string name="apps_storage">యాప్‌ల స్టోరేజ్</string>
     <string name="apps_summary">%1$d యాప్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి</string>
     <string name="apps_summary_example">24 యాప్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి</string>
     <string name="apps_with_restrictions_header">పరిమితులు గల యాప్‌లు</string>
-    <string name="apps_with_restrictions_settings_button">అనువర్తన సెట్టిం. విస్తరింపజేయి</string>
+    <string name="apps_with_restrictions_settings_button">యాప్‌ సెట్టిం. విస్తరింపజేయి</string>
     <string name="art_verifier_for_debuggable_summary">డీబగ్ చేయదగిన యాప్‌ల బైట్‌కోడ్ తనిఖీ చేయడం కోసం ARTని అనుమతించండి</string>
     <string name="art_verifier_for_debuggable_title">డీబగ్ చేయగల యాప్‌ల బైట్‌కోడ్‌ను తనిఖీ చేయండి</string>
     <string name="ask_compatibility">ప్రారంభించేటప్పుడు అడుగు</string>
@@ -682,8 +680,8 @@
     <string name="assist_gesture_enrollment_settings">సెట్టింగ్‌లు</string>
     <string name="assist_gesture_setting_enable_assistant_text">మీ Assistantతో మాట్లాడాలంటే, మీ ఫోన్ దిగువ సగ భాగాన్ని త్వరితగతిన గట్టిగా నొక్కి, ఆపై వదలండి</string>
     <string name="assist_gesture_setting_enable_assistant_title">మీ Assistant కోసం గట్టిగా నొక్కండి</string>
-    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">అలారాలు, టైమర్‌లు, నోటిఫికేషన్‌లు, ఇన్‌కమింగ్ కాల్‌లను నిశ్శబ్దం చేసేందుకు నొక్కండి</string>
-    <string name="assist_gesture_setting_enable_ring_silence_text">నోటిఫికేషన్‌లను మరియు ఇన్‌కమింగ్ కాల్‌లను నిశ్శబ్దం చేసేందుకు నొక్కండి</string>
+    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">అలారాలు, టైమర్‌లు, నోటిఫికేషన్‌లు, ఇన్‌కమింగ్ కాల్స్‌ను నిశ్శబ్దం చేసేందుకు నొక్కండి</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">నోటిఫికేషన్‌లను మరియు ఇన్‌కమింగ్ కాల్స్‌ను నిశ్శబ్దం చేసేందుకు నొక్కండి</string>
     <string name="assist_gesture_setting_enable_ring_silence_title">ఫోన్‌ సైలెంట్ కోసం గట్టిగా నొక్కండి</string>
     <string name="assist_gesture_setting_enable_wake_title">స్క్రీన్ ఆఫ్ టైమ్‌లో Assistantను తెరువు</string>
     <string name="assist_gesture_squeeze_help_maximum_sensitivity">తేలికగా నొక్కడం</string>
@@ -701,8 +699,8 @@
     <string name="assist_gesture_training_finished_title">ముగించండి లేదా సర్దుబాటు చేయడం కొనసాగించండి</string>
     <string name="assist_gesture_training_intro_text">ఏ టైములోనైనా Assistantతో మాట్లాడాలంటే, ఫోన్ దిగువ సగ భాగాన్ని త్వరితగతిన గట్టిగా నొక్కి, ఆపై వదలండి</string>
     <string name="assist_gesture_training_intro_title">మీ Assistant కోసం గట్టిగా నొక్కండి</string>
-    <string name="assist_gesture_training_suggestion_summary">సహాయకంతో మాట్లాడండి, కాల్‌లను నిశ్శబ్దం చేయండి</string>
-    <string name="assist_gesture_training_suggestion_summary_including_alarms">సహాయకంతో మాట్లాడండి, అలారాలు మరియు కాల్‌లను నిశ్శబ్దం చేయండి</string>
+    <string name="assist_gesture_training_suggestion_summary">సహాయకంతో మాట్లాడండి, కాల్స్‌ను నిశ్శబ్దం చేయండి</string>
+    <string name="assist_gesture_training_suggestion_summary_including_alarms">సహాయకంతో మాట్లాడండి, అలారాలు మరియు కాల్స్‌ను నిశ్శబ్దం చేయండి</string>
     <string name="assist_gesture_training_suggestion_title">సహాయకం కోసం గట్టిగా నొక్కి, విడుదల చేయండి</string>
     <string name="assistant_corner_gesture_summary">డిజిటల్ అసిస్టెంట్ యాప్‌ను అమలు చేయడానికి దిగువున మూల నుండి పైకి స్వైప్ చేయండి.</string>
     <string name="assistant_corner_gesture_title">అసిస్టెంట్‌ను అమలు చేయడానికి స్వైప్ చేయండి</string>
@@ -751,7 +749,7 @@
     <string name="auto_launch_enable_text">మీరు ఎంచుకున్న కొన్ని యాక్టివిటీలు ఈ యాప్‌లో ఆటోమేటిక్‌గా తెరవబడతాయి.</string>
     <string name="auto_launch_label">ఆటోమేటిక్‌గా తెరవడం</string>
     <string name="auto_launch_label_generic">డిఫాల్ట్‌లు</string>
-    <string name="auto_punctuate">విరామచిహ్నాన్ని స్వయంచాలకంగా ఉంచు</string>
+    <string name="auto_punctuate">విరామచిహ్నాన్ని ఆటోమేటిక్‌గా ఉంచు</string>
     <string name="auto_punctuate_summary">\".\"ని చొప్పించడానికి రెండుసార్లు Space కీని నొక్కండి</string>
     <string name="auto_replace">స్వీయ-భర్తీ</string>
     <string name="auto_replace_summary">తప్పుగా టైప్ చేసిన పదాలను సరి చేయి</string>
@@ -768,8 +766,8 @@
     <string name="auto_rotate_switch_face_based">ముఖ గుర్తింపును ఎనేబుల్ చేయండి</string>
     <string name="auto_sync_account_summary">డేటాను ఆటోమేటిక్‌గా రిఫ్రెష్ చేసేలా యాప్‌లు అనుమతించబడతాయి</string>
     <string name="auto_sync_account_title">యాప్ డేటాను ఆటోమేటిక్‌గా సింక్ చేయండి</string>
-    <string name="auto_sync_personal_account_title">వ్యక్తిగత డేటాని స్వయంచాలకంగా సమకాలీకరించు</string>
-    <string name="auto_sync_work_account_title">కార్యాలయ డేటాని స్వయంచాలకంగా సమకాలీకరించు</string>
+    <string name="auto_sync_personal_account_title">వ్యక్తిగత డేటాని ఆటోమేటిక్‌గా సమకాలీకరించు</string>
+    <string name="auto_sync_work_account_title">కార్యాలయ డేటాని ఆటోమేటిక్‌గా సమకాలీకరించు</string>
     <string name="autofill_app">ఆటోఫిల్‌ సర్వీస్</string>
     <string name="autofill_confirmation_message">&lt;b>ఈ యాప్‌ను మీరు విశ్వసిస్తున్నట్లు నిర్ధారించండి&lt;/b> &lt;br/> &lt;br/> &lt;xliff:g id=app_name example=Google Autofill>%1$s&lt;/xliff:g> మీ స్క్రీన్‌పై ఉన్న వాటిని పరిగణనలోకి తీసుకుని వేటిని ఆటోఫిల్ చేయాలో నిర్ణయిస్తుంది.</string>
     <string name="autofill_keywords">ఆటో, పూరించు, ఆటోఫిల్, పాస్‌వర్డ్</string>
@@ -843,16 +841,16 @@
     <string name="background_data_dialog_message">నేపథ్య డేటాను నిలిపివేయడం వలన బ్యాటరీ జీవితకాలం పెరుగుతుంది మరియు డేటా వినియోగం తగ్గుతుంది. కొన్ని యాప్‌లు అప్పటికీ నేపథ్య డేటా కనెక్షన్‌ను ఉపయోగించవచ్చు.</string>
     <string name="background_data_dialog_title">నేపథ్య డేటాను నిలిపివేయాలా?</string>
     <string name="background_data_summary">యాప్‌లు ఏ సమయంలోనైనా డేటాను సమకాలీకరించవచ్చు, పంపవచ్చు మరియు స్వీకరించవచ్చు</string>
-    <string name="background_process_stop_description">ఇది మళ్లీ అవసరమయ్యే పరిస్థితుల్లో అప్పటికీ అమలయ్యే పాత అనువర్తన ప్రాసెస్. సాధారణంగా దీన్ని ఆపడానికి కారణం ఏదీ ఉండదు.</string>
+    <string name="background_process_stop_description">ఇది మళ్లీ అవసరమయ్యే పరిస్థితుల్లో అప్పటికీ అమలయ్యే పాత యాప్‌ ప్రాసెస్. సాధారణంగా దీన్ని ఆపడానికి కారణం ఏదీ ఉండదు.</string>
     <string name="backup_calling_setting_summary">%1$s అందుబాటులో లేకపోతే లేదా రోమింగ్‌లో ఉంటే, %1$s కాల్స్ కోసం మీ మొబైల్ డేటా SIMను ఉపయోగించండి.</string>
     <string name="backup_calling_settings_title">బ్యాకప్ కాలింగ్</string>
     <string name="backup_configure_account_default_summary">ప్రస్తుతం ఏ ఖాతా బ్యాకప్ చేయబడిన డేటాను నిల్వ చేయడం లేదు</string>
     <string name="backup_configure_account_title">ఖాతాను బ్యాకప్ చేయి</string>
     <string name="backup_data_management_title">బ్యాకప్ ఖాతాని నిర్వహించు</string>
-    <string name="backup_data_summary">అనువర్తన డేటా, Wi-Fi పాస్‌వర్డ్‌లు మరియు ఇతర సెట్టింగ్‌లను Google సర్వర్‌లకు బ్యాకప్ చేస్తుంది</string>
+    <string name="backup_data_summary">యాప్‌ డేటా, Wi-Fi పాస్‌వర్డ్‌లు మరియు ఇతర సెట్టింగ్‌లను Google సర్వర్‌లకు బ్యాకప్ చేస్తుంది</string>
     <string name="backup_data_title">నా డేటాను బ్యాకప్ చేయి</string>
     <string name="backup_disabled">బ్యాకప్ నిలిపివేయబడింది</string>
-    <string name="backup_erase_dialog_message">Google సర్వర్‌ల్లో మీ Wi‑Fi పాస్‌వర్డ్‌లు, బుక్‌మార్క్‌లు, ఇతర సెట్టింగ్‌లు మరియు అనువర్తన డేటాను బ్యాకప్ చేయడాన్ని ఆపివేయడంతో పాటు అదనంగా అన్ని కాపీలను ఎరేజ్ చేయాలా?</string>
+    <string name="backup_erase_dialog_message">Google సర్వర్‌ల్లో మీ Wi‑Fi పాస్‌వర్డ్‌లు, బుక్‌మార్క్‌లు, ఇతర సెట్టింగ్‌లు మరియు యాప్‌ డేటాను బ్యాకప్ చేయడాన్ని ఆపివేయడంతో పాటు అదనంగా అన్ని కాపీలను ఎరేజ్ చేయాలా?</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_inactive_title">బ్యాకప్ సేవను సక్రియం చేయలేదు</string>
     <string name="backup_pw_cancel_button_text">రద్దు చేయి</string>
@@ -910,7 +908,7 @@
     <string name="battery_desc_standby">ఫోన్ నిష్క్రియంగా ఉన్నప్పుడు వినియోగించబడిన బ్యాటరీ</string>
     <string name="battery_desc_unaccounted">పలురకాల శక్తి వినియోగం</string>
     <string name="battery_desc_users">వినియోగదారు ద్వారా వినియోగించబడిన బ్యాటరీ</string>
-    <string name="battery_desc_voice">వాయిస్ కాల్‌ల ద్వారా వినియోగించబడిన బ్యాటరీ</string>
+    <string name="battery_desc_voice">వాయిస్ కాల్స్‌ల ద్వారా వినియోగించబడిన బ్యాటరీ</string>
     <string name="battery_desc_wifi">Wi‑Fi ద్వారా వినియోగించబడిన బ్యాటరీ</string>
     <string name="battery_detail_background">బ్యాక్‌గ్రౌండ్‌లో ఉన్నప్పుడు</string>
     <string name="battery_detail_foreground">ఫోన్ బాగా వాడుతున్న‌ప్పుడు</string>
@@ -1253,7 +1251,7 @@
     <string name="bluetooth_pan_user_profile_summary_connected">ఇంటర్నెట్ యాక్సెస్ కోసం పరికరానికి కనెక్ట్ చేయబడింది</string>
     <string name="bluetooth_pb_acceptance_dialog_text">%1$s మీ పరిచయాలు మరియు కాల్ చరిత్రకు యాక్సెస్ కోరుతోంది. %2$sకి యాక్సెస్ ఇవ్వాలా?</string>
     <string name="bluetooth_pb_remember_choice">మళ్లీ అడగవద్దు</string>
-    <string name="bluetooth_phonebook_access_dialog_content">"బ్లూటూత్ పరికరం, %1$s, మీ కాంటాక్ట్‌లు, కాల్ లాగ్‌ను యాక్సెస్ చేయాలనుకుంటోంది. ఇది ఇన్‌కమింగ్, అవుట్‌గోయింగ్ కాల్‌ల డేటాతో కూడి ఉంటుంది.
+    <string name="bluetooth_phonebook_access_dialog_content">"బ్లూటూత్ పరికరం, %1$s, మీ కాంటాక్ట్‌లు, కాల్ లాగ్‌ను యాక్సెస్ చేయాలనుకుంటోంది. ఇది ఇన్‌కమింగ్, అవుట్‌గోయింగ్ కాల్స్‌ల డేటాతో కూడి ఉంటుంది.
 
 మీరు ఇంతకు ముందెన్నడూ %2$sకు కనెక్ట్ కాలేదు."</string>
     <string name="bluetooth_phonebook_access_dialog_title">కాంటాక్ట్‌లకు, కాల్ లాగ్‌కు యాక్సెస్‌ను అనుమతించాలా?</string>
@@ -1274,7 +1272,7 @@
     <string name="bluetooth_profile_a2dp_high_quality">HD ఆడియో: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD ఆడియో</string>
     <string name="bluetooth_profile_details">ప్రొఫైల్ సెట్టింగ్‌లు</string>
-    <string name="bluetooth_profile_headset">ఫోన్ కాల్‌లు</string>
+    <string name="bluetooth_profile_headset">ఫోన్ కాల్స్‌</string>
     <string name="bluetooth_profile_hearing_aid">వినికిడి మద్దతు ఉపకరణాలు</string>
     <string name="bluetooth_profile_hid">ఇన్‌పుట్ పరికరం</string>
     <string name="bluetooth_profile_map">వచన సందేశాలు</string>
@@ -1328,8 +1326,8 @@
     <string name="bluetooth_settings_title">బ్లూటూత్</string>
     <string name="bluetooth_show_devices_without_names">"పేర్లు లేని బ్లూటూత్ పరికరాలు  చూపించు"</string>
     <string name="bluetooth_show_devices_without_names_summary">పేర్లు (MAC అడ్రస్‌లు మాత్రమే) లేని బ్లూటూత్ పరికరాలు డిస్‌ప్లే కాబడతాయి</string>
-    <string name="bluetooth_show_files_received_via_bluetooth">బ్లూటూత్ ద్వారా అందుకున్న ఫైల్‌లు</string>
-    <string name="bluetooth_show_received_files">స్వీకరించిన ఫైల్‌లు</string>
+    <string name="bluetooth_show_files_received_via_bluetooth">బ్లూటూత్ ద్వారా అందుకున్న ఫైళ్లు</string>
+    <string name="bluetooth_show_received_files">స్వీకరించిన ఫైళ్లు</string>
     <string name="bluetooth_sim_card_access_dialog_content">"బ్లూటూత్ పరికరం, %1$s, మీ SIM కార్డ్‌లోని డేటాను యాక్సెస్ చేయాలనుకుంటోంది. దీనిలో మీ కాంటాక్ట్‌లు ఉంటాయి.
 
 కనెక్ట్ చేయబడినప్పుడు, %2$s %3$sకు చేసిన అన్ని కాల్స్‌ను స్వీకరిస్తుంది."</string>
@@ -1403,7 +1401,7 @@
     <string name="cached_apps_freezer_enabled">ఎనేబుల్ చేయబడింది</string>
     <string name="cached_apps_freezer_reboot_dialog_text">ఈ మార్పును వర్తింపజేయాలంటే మీరు మీ పరికరాన్ని తప్పనిసరిగా రీబూట్ చేయాలి. ఇప్పుడే రీబూట్ చేయండి లేదా రద్దు చేయండి.</string>
     <string name="call_category">కాల్ చేయడం</string>
-    <string name="call_manager_enable_summary">మీరు కాల్‌లను ఎలా చేయాలో నిర్వహించడానికి ఈ సేవను అనుమతించండి.</string>
+    <string name="call_manager_enable_summary">మీరు కాల్స్‌ను ఎలా చేయాలో నిర్వహించడానికి ఈ సేవను అనుమతించండి.</string>
     <string name="call_manager_enable_title">కాల్ నిర్వాహికిని ప్రారంభించు</string>
     <string name="call_manager_title">కాల్ నిర్వాహికి</string>
     <string name="call_settings_summary">వాయిస్ మెయిల్‌ను, కాల్ ఫార్వార్డింగ్‌ను, కాల్ వెయిటింగ్‌ను, కాలర్ IDని సెటప్ చేయండి</string>
@@ -1412,7 +1410,7 @@
     <string name="calls_and_sms">కాల్స్ &amp; SMS</string>
     <string name="calls_and_sms_ask_every_time">ప్రతిసారి అడుగు</string>
     <string name="calls_and_sms_category">Wi‑Fi కాలింగ్</string>
-    <string name="calls_preference">కాల్‌ల ప్రాధాన్యత</string>
+    <string name="calls_preference">కాల్స్‌ల ప్రాధాన్యత</string>
     <string name="calls_preference_title">కాల్స్</string>
     <string name="calls_sms_calls_preferred">కాల్స్‌కు ప్రాధాన్యతనిస్తుంది</string>
     <string name="calls_sms_footnote">Wi-Fi కాలింగ్‌తో, నాన్-క్యారియర్ Wi-Fi నెట్‌వర్క్‌ల ద్వారా కాల్స్ చేయబడతాయి, అందుకోబడతాయి. <annotation id="url">మరింత తెలుసుకోండి</annotation></string>
@@ -1528,7 +1526,7 @@
     <string name="clear_activities">ఆటోమేటిక్ సెట్టింగ్ ప్రాధాన్యతలను క్లియర్ చేయండి</string>
     <string name="clear_adb_keys">USB డీబగ్ ప్రామాణీకరణలను ఉపసంహరించు</string>
     <string name="clear_cache_btn_text">కాష్‌ను క్లియర్ చేయి</string>
-    <string name="clear_data_dlg_text">ఈ యాప్ డేటా మొత్తం శాశ్వతంగా తొలగించబడుతుంది. ఇందులో అన్ని ఫైల్‌లు, సెట్టింగ్‌లు, ఖాతాలు, డేటాబేస్‌లు మొ. ఉన్నాయి.</string>
+    <string name="clear_data_dlg_text">ఈ యాప్ డేటా మొత్తం శాశ్వతంగా తొలగించబడుతుంది. ఇందులో అన్ని ఫైళ్లు, సెట్టింగ్‌లు, ఖాతాలు, డేటాబేస్‌లు మొ. ఉన్నాయి.</string>
     <string name="clear_data_dlg_title">యాప్ డేటాను తొలగించాలా?</string>
     <string name="clear_failed_dlg_text">యాప్ నిల్వను తీసివేయడం సాధ్యపడలేదు.</string>
     <string name="clear_instant_app_confirmation">మీరు ఈ తక్షణ యాప్‌ను తీసివేయాలనుకుంటున్నారా?</string>
@@ -1612,9 +1610,9 @@
     <string name="condition_cellular_summary">ఇంటర్నెట్‌ Wi‑Fi ద్వారా మాత్రమే అందుబాటులో ఉంటుంది</string>
     <string name="condition_cellular_title">మొబైల్ డేటా ఆఫ్ చేయబడింది</string>
     <string name="condition_device_muted_action_turn_on_sound">ధ్వనిని ఆన్ చేయి</string>
-    <string name="condition_device_muted_summary">కాల్‌లు &amp; నోటిఫికేషన్‌ల కోసం</string>
+    <string name="condition_device_muted_summary">కాల్స్‌ &amp; నోటిఫికేషన్‌ల కోసం</string>
     <string name="condition_device_muted_title">రింగర్ మ్యూట్ చేయబడింది</string>
-    <string name="condition_device_vibrate_summary">కాల్‌లు &amp; నోటిఫికేషన్‌ల కోసం</string>
+    <string name="condition_device_vibrate_summary">కాల్స్‌ &amp; నోటిఫికేషన్‌ల కోసం</string>
     <string name="condition_device_vibrate_title">వైబ్రేషన్ మాత్రమే</string>
     <string name="condition_expand_hide">దాస్తుంది</string>
     <string name="condition_expand_show">చూపుతుంది</string>
@@ -1667,8 +1665,8 @@
     <string name="connected_to_metered_access_point">డేటా నియంత్రణ నెట్‌వర్క్‌కు కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_app">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_carrier">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer">%1$s ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
-    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా స్వయంచాలకంగా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer">%1$s ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
+    <string name="connected_via_network_scorer_default">నెట్‌వర్క్ రేటింగ్ ప్రదాత ద్వారా ఆటోమేటిక్‌గా కనెక్ట్ చేయబడింది</string>
     <string name="connected_via_passpoint">%1$s ద్వారా కనెక్ట్ చేయబడింది</string>
     <string name="contact_discovery_opt_in_dialog_message">"మీ కాంటాక్ట్‌ల ఫోన్ నంబర్‌లు కాలానుగుణంగా %1$sకు పంపబడతాయి.
 
@@ -1738,7 +1736,7 @@
 
 మీ ఫోన్‌ను ఉపయోగించడం పునఃప్రారంభించడానికి, మీరు ఫ్యాక్టరీ రీసెట్‌ను అమలు చేయాలి. మీరు రీసెట్ చేసిన తర్వాత మీ ఫోన్‌ను సెటప్ చేసినప్పుడు, మీ Google ఖాతాకు బ్యాకప్ చేసిన ఏదైనా డేటాను పునరుద్ధరించుకునే అవకాశం మీకు అందించబడుతుంది."</string>
     <string name="crypt_keeper_data_corrupt_title">డిక్రిప్షన్ విజయవంతం కాలేదు</string>
-    <string name="crypt_keeper_desc">"మీరు మీ ఖాతాలను, సెట్టింగ్‌లను, డౌన్‌లోడ్ చేసిన యాప్‌లను మరియు వాటి డేటాను, మీడియాను మరియు ఇతర ఫైల్‌లను గుప్తీకరించవచ్చు. మీరు మీ ఫోన్‌ను గుప్తీకరించిన తర్వాత ఒకవేళ స్క్రీన్ లాక్‌ను సెటప్ చేసినట్లయితే (అంటే, ఆకృతి లేదా సంఖ్యాత్మక పిన్‌ లేదా పాస్‌వర్డ్), ఫోన్‌ను పవర్ ఆన్ చేసే ప్రతిసారి దాన్ని డీక్రిప్ట్ చేయడానికి స్క్రీన్‍ను అన్‌లాక్ చేయాలి. డీక్రిప్ట్ చేయడానికి గల ఇంకొక మార్గం ఫ్యాక్టరీ డేటా రీసెట్‌ను అమలు చేయడం మాత్రమే, అలా చేస్తే మీ మొత్తం డేటా తొలగించబడుతుంది.
+    <string name="crypt_keeper_desc">"మీరు మీ ఖాతాలను, సెట్టింగ్‌లను, డౌన్‌లోడ్ చేసిన యాప్‌లను మరియు వాటి డేటాను, మీడియాను మరియు ఇతర ఫైళ్లను గుప్తీకరించవచ్చు. మీరు మీ ఫోన్‌ను గుప్తీకరించిన తర్వాత ఒకవేళ స్క్రీన్ లాక్‌ను సెటప్ చేసినట్లయితే (అంటే, ఆకృతి లేదా సంఖ్యాత్మక పిన్‌ లేదా పాస్‌వర్డ్), ఫోన్‌ను పవర్ ఆన్ చేసే ప్రతిసారి దాన్ని డీక్రిప్ట్ చేయడానికి స్క్రీన్‍ను అన్‌లాక్ చేయాలి. డీక్రిప్ట్ చేయడానికి గల ఇంకొక మార్గం ఫ్యాక్టరీ డేటా రీసెట్‌ను అమలు చేయడం మాత్రమే, అలా చేస్తే మీ మొత్తం డేటా తొలగించబడుతుంది.
 
 గుప్తీకరణకు ఒక గంట లేదా అంతకంటే ఎక్కువ సమయం పడుతుంది. మీరు తప్పనిసరిగా ఛార్జ్ చేసిన బ్యాటరీతో ప్రారంభించాలి మరియు ప్రాసెస్ అంతటా మీ ఫోన్‌ను ప్లగిన్ చేసి ఉంచాలి. మీరు అంతరాయం కలిగిస్తే, మీ డేటాలో కొంత భాగాన్ని లేదా అంతటినీ కోల్పోతారు."</string>
     <string name="crypt_keeper_dialog_need_password_message">మీరు గుప్తీకరణను ప్రారంభించడానికి ముందు లాక్ స్క్రీన్ పిన్‌ లేదా పాస్‌వర్డ్‌ను సెట్ చేయాల్సి ఉంటుంది.</string>
@@ -1983,8 +1981,8 @@
     <string name="default_contacts_app_title">కాంటాక్ట్‌ల యాప్</string>
     <string name="default_digital_assistant_title">ఆటోమేటిక్ డిజిటల్ అసిస్టెంట్ యాప్</string>
     <string name="default_emergency_app">అత్యవసర యాప్</string>
-    <string name="default_for_calls">కాల్‌లకు డిఫాల్ట్</string>
-    <string name="default_for_calls_and_sms">కాల్‌లు &amp; SMSకి డిఫాల్ట్</string>
+    <string name="default_for_calls">కాల్స్‌కు డిఫాల్ట్</string>
+    <string name="default_for_calls_and_sms">కాల్స్‌ &amp; SMSకి డిఫాల్ట్</string>
     <string name="default_for_mobile_data">మొబైల్ డేటాకు సంబంధించి డిఫాల్ట్</string>
     <string name="default_for_sms">SMSకి డిఫాల్ట్</string>
     <string name="default_for_work">కార్యాలయం కోసం డిఫాల్ట్</string>
@@ -2006,7 +2004,7 @@
     <string name="demo_mode">సిస్టమ్ UI డెమో మోడ్</string>
     <string name="demote_conversation_summary">సంభాషణ విభాగం నుండి తీసివేయండి</string>
     <string name="demote_conversation_title">సంభాషణ కాదు</string>
-    <string name="deny">తిరస్కరించు</string>
+    <string name="deny">తిరస్కరించండి</string>
     <string name="details_subtitle">వినియోగ వివరాలు</string>
     <string name="dev_logpersist_clear_warning_message">మేము నిరంతర లాగర్‌తో ఇక పర్యవేక్షించనప్పుడు, మీ పరికరంలోని లాగర్ డేటాను మేము తొలగించాల్సి ఉంటుంది.</string>
     <string name="dev_logpersist_clear_warning_title">లాగర్ నిరంతర నిల్వలోని డేటాను తీసివేయాలా?</string>
@@ -2046,7 +2044,7 @@
     <string name="dialog_background_check_title">నేపథ్య వినియోగాన్ని ఆఫ్ చేసి, యాప్‌ను ఆపివేయాలా?</string>
     <string name="dialog_location_message">"మీరు యాప్‌ను ఉపయోగించని సమయంలో కూడా %1$s మీ స్థానాన్ని అభ్యర్థిస్తోంది, కనుక బ్యాటరీని మీ ఫోన్ సాధారణ రీతిలో నిర్వహించడం సాధ్యం కాదు.
 
-ఈ సమస్యను పరిష్కరించడం కోసం, ఈ అనువర్తనానికి మీరు స్థానాన్ని ఆఫ్ చేయవచ్చు."</string>
+ఈ సమస్యను పరిష్కరించడం కోసం, ఈ యాప్‌నకు మీరు స్థానాన్ని ఆఫ్ చేయవచ్చు."</string>
     <string name="dialog_location_ok">ఆఫ్ చేయి</string>
     <string name="dialog_location_title">స్థానాన్ని ఆఫ్ చేయాలా?</string>
     <string name="dialog_stop_message">"%1$s మీ ఫోన్‌ని మేల్కొల్పి ఉంచుతోంది, కనుక బ్యాటరీని మీ ఫోన్ సాధారణ రీతిలో నిర్వహించడం సాధ్యం కాదు.
@@ -2086,7 +2084,7 @@
     <string name="disabled_by_policy_title_biometric_parental_consent">తల్లి/తండ్రి అవసరం</string>
     <string name="disabled_by_policy_title_camera">కెమెరాను ఉపయోగించడం సాధ్యం కాదు</string>
     <string name="disabled_by_policy_title_financed_device">మీ క్రెడిట్ ప్రొవైడర్ ద్వారా బ్లాక్ చేయబడింది</string>
-    <string name="disabled_by_policy_title_outgoing_calls">కాల్‌లను చేయడం సాధ్యం కాదు</string>
+    <string name="disabled_by_policy_title_outgoing_calls">కాల్స్‌ను చేయడం సాధ్యం కాదు</string>
     <string name="disabled_by_policy_title_screen_capture">స్క్రీన్‌షాట్‌లను తీయడం సాధ్యపడదు</string>
     <string name="disabled_by_policy_title_sms">SMS మెసేజ్‌లను పంపడం సాధ్యం కాదు</string>
     <string name="disabled_by_policy_title_suspend_packages">ఈ యాప్‌ని తెరవలేరు</string>
@@ -2140,7 +2138,7 @@
     <string name="docking_sounds_title">డాక్ చేసేటప్పుడు వచ్చే ధ్వనులు</string>
     <string name="does_not_exist">యాప్ ఉనికిలో లేదు.</string>
     <string name="domain_url_section_title">ఇన్‌స్టాల్ చేయబడిన యాప్‌లు</string>
-    <string name="domain_urls_apps_summary_off">మద్దతు ఉన్న లింక్‌లను తెరవగల సామర్థ్యం ఏ అనువర్తనానికి లేదు</string>
+    <string name="domain_urls_apps_summary_off">మద్దతు ఉన్న లింక్‌లను తెరవగల సామర్థ్యం ఏ యాప్‌నకు లేదు</string>
     <string name="domain_urls_summary_none">సపోర్ట్ చేసే లింక్‌లను తెరవదు</string>
     <string name="domain_urls_summary_one">%sని తెరిచేది(వి)</string>
     <string name="domain_urls_summary_some">%s మరియు ఇతర URLలను తెరుస్తుంది</string>
@@ -2152,7 +2150,7 @@
     <string name="double_twist_for_camera_mode_summary">Google కెమెరాలో సెల్ఫీ మోడ్‌లోకి స్విచ్ అవడానికి, నిష్క్రమించడానికి, మీరు యాప్ ఉపయోగించేటప్పుడు ఫోన్ పట్టుకున్న చేతిని రెండుసార్లు అటుఇటూ కదపండి.</string>
     <string name="double_twist_for_camera_suggestion_title">మరింత వేగంగా సెల్ఫీలు తీసుకోండి</string>
     <string name="downloaded_sim_category_title">డౌన్‌లోడ్ చేసిన SIM</string>
-    <string name="downloads_backup_text">డౌన్‌లోడ్ చేసిన ఫైల్‌లు Google డిస్క్‌కు బ్యాకప్ చేయబడతాయి</string>
+    <string name="downloads_backup_text">డౌన్‌లోడ్ చేసిన ఫైళ్లు Google డిస్క్‌కు బ్యాకప్ చేయబడతాయి</string>
     <string name="draw_overlay">ఇతర యాప్‌ల ఎగువున ప్రదర్శన</string>
     <string name="dsds_activation_failure_body_msg1">SIMను తీసివేసి, తిరిగి ఇన్‌సర్ట్ చేయండి. సమస్య ఇంకా కొనసాగితే, మీ పరికరాన్ని రీస్టార్ట్ చేయండి.</string>
     <string name="dsds_activation_failure_body_msg2">SIMను తిరిగి ఆన్ చేయడానికి ట్రై చేయండి. సమస్య ఇంకా కొనసాగితే, మీ పరికరాన్ని రీస్టార్ట్ చేయండి.</string>
@@ -2189,7 +2187,7 @@
     <string name="emergency_tone_title">అత్యవసర డయలింగ్ సిగ్నల్</string>
     <string name="emergency_tone_vibrate">వైబ్రేషన్‌లు</string>
     <string name="empty_networks_list">నెట్‌వర్క్‌లు కనుగొనబడలేదు.</string>
-    <string name="enable_2g_summary">2G సెల్యులార్ కనెక్షన్‌ను ఉపయోగించండి. ఎమర్జెన్సీ కాల్‌ల కోసం, 2G ఎల్లప్పుడూ ఆన్‌లో ఉంటుంది.</string>
+    <string name="enable_2g_summary">2G సెల్యులార్ కనెక్షన్‌ను ఉపయోగించండి. ఎమర్జెన్సీ కాల్స్‌ల కోసం, 2G ఎల్లప్పుడూ ఆన్‌లో ఉంటుంది.</string>
     <string name="enable_2g_title">2Gని అనుమతించండి</string>
     <string name="enable_adb">USB డీబగ్గింగ్</string>
     <string name="enable_adb_summary">USB కనెక్ట్ చేయబడినప్పుడు డీబగ్ మోడ్</string>
@@ -2231,40 +2229,40 @@
     <string name="encryption_and_credential_settings_title">ఎన్‌క్రిప్షన్ &amp; ఆధారాలు</string>
     <string name="encryption_continue_button">కొనసాగించండి</string>
     <string name="encryption_interstitial_header">సురక్షిత ప్రారంభం</string>
-    <string name="encryption_interstitial_message_password">"ఈ పరికరాన్ని ప్రారంభించిన వెంటనే మీ పాస్‌వర్డ్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_password">"ఈ పరికరాన్ని ప్రారంభించిన వెంటనే మీ పాస్‌వర్డ్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని ప్రారంభించడం కోసం పాస్‌వర్డ్‌ని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_password_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ పాస్‌వర్డ్‌ను అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్‌లు, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
+    <string name="encryption_interstitial_message_password_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ పాస్‌వర్డ్‌ను అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్స్‌, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలోని డేటాను రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని స్టార్ట్ చేయడానికి పాస్‌వర్డ్‌ను అడగాలా?"</string>
-    <string name="encryption_interstitial_message_password_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ పాస్‌వర్డ్‌ను అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే దాకా, ఇది అలారాలతో సహా, కాల్‌లు, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
+    <string name="encryption_interstitial_message_password_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ పాస్‌వర్డ్‌ను అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే దాకా, ఇది అలారాలతో సహా, కాల్స్‌, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
 
 దీనివల్ల పోగొట్టుకున్న లేదా దొంగలించబడిన పరికరాల డేటాను రక్షించడంలో సహాయకరంగా ఉంటుంది. మీ పరికరాన్ని ప్రారంభించడానికి పాస్‌వర్డ్‌ కావాలా?"</string>
-    <string name="encryption_interstitial_message_password_for_fingerprint">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ పాస్‌వర్డ్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_password_for_fingerprint">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ పాస్‌వర్డ్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని ప్రారంభించడం కోసం పాస్‌వర్డ్‌ని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pattern">"ఈ పరికరాన్ని ప్రారంభించిన వెంటనే మీ నమూనాని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_pattern">"ఈ పరికరాన్ని ప్రారంభించిన వెంటనే మీ నమూనాని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని ప్రారంభించడం కోసం నమూనాని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pattern_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ ఆకృతిని అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్‌లు, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
+    <string name="encryption_interstitial_message_pattern_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ ఆకృతిని అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్స్‌, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలోని డేటాను రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని స్టార్ట్ చేయడానికి ఆకృతిని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pattern_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ ఆకృతిని అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, ఇది అలారాలతో సహా, కాల్‌లు, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
+    <string name="encryption_interstitial_message_pattern_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ ఆకృతిని అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, ఇది అలారాలతో సహా, కాల్స్‌, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
 
 దీనివల్ల పోగొట్టుకున్న లేదా దొంగలించబడిన పరికరాల డేటాను రక్షించడంలో సహాయకరంగా ఉంటుంది. మీ పరికరాన్ని ప్రారంభించడానికి ఆకృతి కావాలా?"</string>
-    <string name="encryption_interstitial_message_pattern_for_fingerprint">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ నమూనాని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_pattern_for_fingerprint">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ నమూనాని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని ప్రారంభించడం కోసం నమూనాని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pin">"ఈ డివైజ్‌ను ప్రారంభించిన వెంటనే మీ పిన్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. డివైజ్‌ను ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_pin">"ఈ డివైజ్‌ను ప్రారంభించిన వెంటనే మీ పిన్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. డివైజ్‌ను ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన డివైజ్‌లలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ డివైజ్‌ను ప్రారంభించడం కోసం పిన్‌ని అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pin_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ పిన్‌ను అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్‌లు, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
+    <string name="encryption_interstitial_message_pin_for_biometrics">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ బయోమెట్రిక్స్‌ను ఉపయోగించడంతో పాటు, స్టార్ట్ కావడానికి ముందే ఈ పరికరం మీ పిన్‌ను అడిగేలా చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. పరికరం స్టార్ట్ అయ్యే వరకు, అలారాలతో సహా కాల్స్‌, మెసేజ్‌లు, నోటిఫికేషన్‌లను అందుకోలేదు.
 
 కోల్పోయిన లేదా దొంగిలించబడిన పరికరాలలోని డేటాను రక్షించడంలో ఇది సహాయపడుతుంది. మీ పరికరాన్ని స్టార్ట్ చేయడానికి పిన్‌ను అడగాలా?"</string>
-    <string name="encryption_interstitial_message_pin_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ PINను అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, ఇది అలారాలతో సహా, కాల్‌లు, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
+    <string name="encryption_interstitial_message_pin_for_face">"మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడంతో పాటు, మీరు ఈ పరికరం ప్రారంభం కావడానికి ముందే మీ PINను అడిగేలా చేసి దాన్ని మరింత సురక్షితం చేసుకోవచ్చు. పరికరాన్ని ప్రారంభించే వరకు, ఇది అలారాలతో సహా, కాల్స్‌, మెసేజ్‌లు లేదా నోటిఫికేషన్‌లను స్వీకరించదు.
 
 దీనివల్ల పోగొట్టుకున్న లేదా దొంగలించబడిన పరికరాల డేటాను రక్షించడంలో సహాయకరంగా ఉంటుంది. మీ పరికరాన్ని ప్రారంభించడానికి PIN కావాలా?>"</string>
-    <string name="encryption_interstitial_message_pin_for_fingerprint">"మీ డివైజ్‌ను అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ పిన్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. డివైజ్‌ను ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్‌లు, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
+    <string name="encryption_interstitial_message_pin_for_fingerprint">"మీ డివైజ్‌ను అన్‌లాక్ చేయడానికి మీ వేలిముద్రను ఉపయోగించడంతో పాటు, దీనిని ప్రారంభించిన వెంటనే మీ పిన్‌ని అడిగే విధంగా సెట్ చేయడం ద్వారా మీరు దీనికి అదనపు రక్షణను అందించవచ్చు. డివైజ్‌ను ప్రారంభించే వరకు, అది అలారాలతో సహా కాల్స్‌, సందేశాలు లేదా నోటిఫికేషన్‌లను స్వీకరించదు. 
 
 కోల్పోయిన లేదా దొంగిలించబడిన డివైజ్‌లలో ఉన్న డేటాని రక్షించడంలో ఇది సహాయపడుతుంది. మీ డివైజ్‌ను ప్రారంభించడం కోసం పిన్‌ని అడగాలా&amp;gt;"</string>
     <string name="encryption_interstitial_no">వద్దు</string>
@@ -2281,8 +2279,8 @@
     <string name="enterprise_privacy_always_on_vpn_device">VPNని ఎల్లప్పుడూ-ఆన్ చేయి ఎంపిక ఆన్ చేయబడింది</string>
     <string name="enterprise_privacy_always_on_vpn_personal">మీ వ్యక్తిగత ప్రొఫైల్‌లో VPNని ఎల్లప్పుడూ-ఆన్ చేయి ఎంపిక ఆన్ చేయబడింది</string>
     <string name="enterprise_privacy_always_on_vpn_work">మీ కార్యాలయ ప్రొఫైల్‌లో VPNని ఎల్లప్పుడూ-ఆన్ చేయి ఎంపిక ఆన్ చేయబడింది</string>
-    <string name="enterprise_privacy_apps_count_estimation_info">అనువర్తనాల సంఖ్య అంచనా సమాచారం మాత్రమే. Play స్టోర్ నుండి ఇన్‌స్టాల్ చేయని అనువర్తనాలను ఇందులో పరిగణనలోకి తీసుకుని ఉండకపోవచ్చు.</string>
-    <string name="enterprise_privacy_bug_reports">అత్యంత ఇటీవలి బగ్ నివేదిక</string>
+    <string name="enterprise_privacy_apps_count_estimation_info">యాప్‌ల సంఖ్య అంచనా సమాచారం మాత్రమే. Play స్టోర్ నుండి ఇన్‌స్టాల్ చేయని యాప్‌లను ఇందులో పరిగణనలోకి తీసుకుని ఉండకపోవచ్చు.</string>
+    <string name="enterprise_privacy_bug_reports">అత్యంత ఇటీవలి బగ్ రిపోర్ట్‌</string>
     <string name="enterprise_privacy_ca_certs_device">విశ్వసనీయ ఆధారాలు</string>
     <string name="enterprise_privacy_ca_certs_personal">మీ వ్యక్తిగత ప్రొఫైల్‌‌లో విశ్వసనీయ ఆధారాలు</string>
     <string name="enterprise_privacy_ca_certs_work">మీ కార్యాలయ ప్రొఫైల్‌‌లో విశ్వసనీయ ఆధారాలు</string>
@@ -2397,9 +2395,9 @@
     <string name="filter_apps_third_party">డౌన్‌లోడ్ చేయబడినవి</string>
     <string name="filter_dlg_title">ఫిల్టర్ ఎంపికలను ఎంచుకోండి</string>
     <string name="filter_enabled_apps">ఇన్‌స్టాల్ చేసిన యాప్‌లు</string>
-    <string name="filter_install_sources_apps">ఇతర అనువర్తనాలను ఇన్‌స్టాల్ చేయవచ్చు</string>
+    <string name="filter_install_sources_apps">ఇతర యాప్‌లను ఇన్‌స్టాల్ చేయవచ్చు</string>
     <string name="filter_instant_apps">ఇన్‌స్టంట్ యాప్‌లు</string>
-    <string name="filter_manage_external_storage">అన్ని ఫైల్‌లను యాక్సెస్ చేయగలవు</string>
+    <string name="filter_manage_external_storage">అన్ని ఫైళ్లను యాక్సెస్ చేయగలవు</string>
     <string name="filter_notif_all_apps">యాప్‌లు: అన్నీ</string>
     <string name="filter_notif_blocked_apps">ఆఫ్ చేయబడింది</string>
     <string name="filter_notif_blocked_channels">వర్గాలు: ఆఫ్ చేయబడినవి</string>
@@ -2448,7 +2446,7 @@
     <string name="font_size_make_smaller_desc">చిన్నదిగా చేస్తుంది</string>
     <string name="font_size_preview_text_body">"డొరోతీ మరియు ఆమె స్నేహితులు కళ్లకు పచ్చని అద్దాలతో సంరక్షించబడినా, అద్భుతమైన మిరిమిట్లుగొలిపే నగర ప్రకాశాన్ని సందర్శిస్తున్నారు. ప్రతీచోటా మెరిసే పచ్చని రాళ్లతో పొదగబడి ఉన్న ఆకుపచ్చటి పాలరాతితో నిర్మించబడిన అందమైన ఇళ్లతో వీధులు తీర్చిదిద్దబడ్డాయి. వాళ్లు సూర్యకాంతికి మెరుస్తున్న, దగ్గరగా నిర్మితమై ఉన్న, పచ్చల రాళ్లు అన్నీ కలిసి ఉన్న అదే ఆకు పచ్చని పాలరాతిపై నడుస్తున్నారు. కిటికీ అద్దాలు ఆకుపచ్చగా ఉన్నాయి; నగరం పైన ఆకాశం కూడా ఆకుపచ్చ రంగులో ఉంది మరియు సూర్య కిరణాలు కూడా ఆకుపచ్చగా ఉన్నాయి. 
 
-అక్కడ చాలా మంది ఆకు పచ్చని చర్మంతో గల స్త్రీలు, పురుషులు మరియు పిల్లలు ఆకు పచ్చని దుస్తులతో నడుస్తున్నారు. వాళ్లు డొరోతీని మరియు ఆమె ఇతర స్నేహితులను వింతగా ఆశ్చర్యంగా చూసారు. సింహాన్ని చూసినప్పుడు పిల్లలందరూ పారిపోయి, వారి తల్లిదండ్రుల వెనక దాగారు. కానీ వారితో ఎవరూ మాట్లాడలేదు. వీధిలో చాలా దుకాణాలు ఉన్నాయి. డొరోతీకి అక్కడ ఉన్న అంశాలన్నీ పచ్చగా కనిపించాయి పచ్చని మిఠాయిలు మరియు పచ్చని పాప్-కార్న్ అమ్మబడుతున్నాయి, అలాగే పచ్చని చెప్పులు, పచ్చని టోపీలు, పచ్చని దుస్తులు కనిపిస్తున్నాయి. ఒక చోట ఒక వ్యక్తి పచ్చని నిమ్మరసాన్ని అమ్ముతుండటం మరియు పిల్లలు వాటి కోసం పచ్చని నాణేలను ఇవ్వడాన్ని డోరోతీ చూస్తోంది. 
+అక్కడ చాలా మంది ఆకు పచ్చని చర్మంతో గల స్త్రీలు, పురుషులు మరియు పిల్లలు ఆకు పచ్చని దుస్తులతో నడుస్తున్నారు. వాళ్లు డొరోతీని మరియు ఆమె ఇతర స్నేహితులను వింతగా ఆశ్చర్యంగా చూశారు. సింహాన్ని చూసినప్పుడు పిల్లలందరూ పారిపోయి, వారి తల్లిదండ్రుల వెనక దాగారు. కానీ వారితో ఎవరూ మాట్లాడలేదు. వీధిలో చాలా దుకాణాలు ఉన్నాయి. డొరోతీకి అక్కడ ఉన్న అంశాలన్నీ పచ్చగా కనిపించాయి పచ్చని మిఠాయిలు మరియు పచ్చని పాప్-కార్న్ అమ్మబడుతున్నాయి, అలాగే పచ్చని చెప్పులు, పచ్చని టోపీలు, పచ్చని దుస్తులు కనిపిస్తున్నాయి. ఒక చోట ఒక వ్యక్తి పచ్చని నిమ్మరసాన్ని అమ్ముతుండటం మరియు పిల్లలు వాటి కోసం పచ్చని నాణేలను ఇవ్వడాన్ని డోరోతీ చూస్తోంది. 
 
 అక్కడ ఎటువంటి గుర్రాలు మరియు ఎటువంటి జంతువులూ లేవు; వ్యక్తులే వస్తువులను పచ్చని బండ్లతో లాగుతున్నారు. ప్రతి ఒక్కరూ చాలా ఆనందంగా, సంతృప్తిగా ఉన్నారు."</string>
     <string name="font_size_preview_text_headline">శాంపిల్ టెక్స్ట్</string>
@@ -2479,12 +2477,12 @@
     <string name="forgot_password_text">పిన్‌ను, ఆకృతిని, లేదా పాస్‌వర్డ్‌ను రీసెట్ చేయడానికి వారు సహాయపడతారు</string>
     <string name="forgot_password_title">మీ IT నిర్వాహకులను సంప్రదించండి</string>
     <string name="free_memory">ఖాళీ</string>
-    <string name="fullbackup_data_summary">"డివైజ్ డేటా (Wi-Fi పాస్‌వర్డ్‌లు మరియు కాల్ చరిత్ర వంటివి) మరియు యాప్ డేటాను (సెట్టింగ్‌లు మరియు యాప్‌ల ద్వారా నిల్వ చేయబడిన ఫైల్‌లు వంటివి) Google డిస్క్‌కి స్వయంచాలకంగా బ్యాకప్ చేస్తుంది.
+    <string name="fullbackup_data_summary">"డివైజ్ డేటా (Wi-Fi పాస్‌వర్డ్‌లు మరియు కాల్ చరిత్ర వంటివి) మరియు యాప్ డేటాను (సెట్టింగ్‌లు మరియు యాప్‌ల ద్వారా నిల్వ చేయబడిన ఫైళ్లు వంటివి) Google డిస్క్‌కి ఆటోమేటిక్‌గా బ్యాకప్ చేస్తుంది.
 
 మీరు స్వీయ బ్యాకప్‌ను ఆన్ చేసినప్పుడు, డివైజ్ మరియు యాప్ డేటా కాలానుగుణంగా Google డిస్క్‌లో ప్రైవేట్ ఫోల్డర్‌కి సేవ్ చేయబడుతుంది. కాంటాక్ట్‌లు, సందేశాలు మరియు ఫోటోల వంటి సంభావ్య గోప్యమైన డేటాతో సహా యాప్ సేవ్ చేసిన (డెవలపర్ సెట్టింగ్‌ల ఆధారంగా) ఎలాంటి డేటా అయినా యాప్ డేటాగా పరిగణించబడుతుంది.
 
-బ్యాకప్ డేటా మీ డిస్క్ నిల్వ కోటాలో లెక్కించబడదు. పెద్ద ఫైల్‌లు లేదా డెవలపర్‌లు సేవ నుండి మినహాయించాలని ఎంచుకున్న ఫైల్‌లు బ్యాకప్ చేయబడవు."</string>
-    <string name="fullbackup_erase_dialog_message">పరికర డేటా (Wi-Fi పాస్‌వర్డ్‌లు మరియు కాల్ చరిత్ర వంటివి) మరియు అనువర్తన డేటాను (సెట్టింగ్‌లు మరియు అనువర్తనాల ద్వారా నిల్వ చేయబడిన ఫైల్‌లు వంటివి) బ్యాకప్ చేయడం ఆపివేసి, Google డిస్క్‌లోని అన్ని కాపీలను తీసివేయాలా?</string>
+బ్యాకప్ డేటా మీ డిస్క్ నిల్వ కోటాలో లెక్కించబడదు. పెద్ద ఫైళ్లు లేదా డెవలపర్‌లు సేవ నుండి మినహాయించాలని ఎంచుకున్న ఫైళ్లు బ్యాకప్ చేయబడవు."</string>
+    <string name="fullbackup_erase_dialog_message">పరికర డేటా (Wi-Fi పాస్‌వర్డ్‌లు మరియు కాల్ చరిత్ర వంటివి) మరియు యాప్‌ డేటాను (సెట్టింగ్‌లు మరియు యాప్‌ల ద్వారా నిల్వ చేయబడిన ఫైళ్లు వంటివి) బ్యాకప్ చేయడం ఆపివేసి, Google డిస్క్‌లోని అన్ని కాపీలను తీసివేయాలా?</string>
     <string name="gadget_picker_title">గాడ్జెట్‌ను ఎంచుకోండి</string>
     <string name="game_controller_settings_category">గేమ్ కంట్రోలర్</string>
     <string name="game_dashboard_always_on_summary">గేమ్‌లలో గేమ్ డ్యాష్‌బోర్డ్ షార్ట్‌కట్‌ను చూపించండి</string>
@@ -2568,7 +2566,7 @@
     <string name="hdcp_checking_title">HDCP చెకింగ్‌</string>
     <string name="header_account_settings">ఖాతా సెట్టింగ్‌లు</string>
     <string name="header_add_an_account">ఖాతాను జోడించండి</string>
-    <string name="header_application_sync_settings">అనువర్తన సమకాలీకరణ సెట్టింగ్‌లు</string>
+    <string name="header_application_sync_settings">యాప్‌ సమకాలీకరణ సెట్టింగ్‌లు</string>
     <string name="header_category_wireless_networks">వైర్‌లెస్ &amp; నెట్‌వర్క్‌లు</string>
     <string name="header_data_and_synchronization">డేటా &amp; సమకాలీకరణ</string>
     <string name="heavy_weight_stop_description">ఈ యాప్‌ను సురక్షితంగా ఆపివేయడం కుదరదు. దీన్ని ఆపివేస్తే, మీరు ప్రస్తుతం చేస్తోన్న పనిలో కొంత భాగాన్ని కోల్పోడానికి అవకాశం ఉంది.</string>
@@ -2605,7 +2603,7 @@
     <string name="ignore_optimizations_on">ఆప్టిమైజ్ చేయవద్దు</string>
     <string name="ignore_optimizations_on_desc">మీ బ్యాటరీ మరింత త్వరగా వినియోగించబడవచ్చు. ఇకపై ఈ యాప్ నేపథ్య బ్యాటరీ వినియోగం పరిమితం చేయబడదు.</string>
     <string name="ignore_optimizations_title">బ్యాటరీ అనుకూలీకరణలను విస్మరించడానికి %sని అనుమతించాలా?</string>
-    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s అనువర్తనంలో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
+    <string name="ime_security_warning">ఈ ఇన్‌పుట్ పద్ధతి మీరు టైప్ చేసే మొత్తం వచనాన్ని అలాగే పాస్‌వర్డ్‌లు మరియు క్రెడిట్ కార్డు నంబర్‌ల వంటి వ్యక్తిగత డేటాను సేకరించగలదు. ఇది %1$s యాప్‌లో అందించబడుతుంది. ఈ ఇన్‌పుట్ పద్ధతిని ఉపయోగించాలా?</string>
     <string name="imei_information_summary">IMEI సంబంధిత సమాచారం</string>
     <string name="imei_information_title">IMEI సమాచారం</string>
     <string name="imei_multi_sim">IMEI (సిమ్ స్లాట్ %1$d)</string>
@@ -2622,7 +2620,7 @@
     <string name="inactive_app_active_summary">సక్రియంగా ఉంది. టోగుల్ చేయడానికి నొక్కండి.</string>
     <string name="inactive_app_inactive_summary">నిష్క్రియంగా ఉంది. టోగుల్ చేయడానికి నొక్కండి.</string>
     <string name="inactive_apps_title">స్టాండ్‌బై యాప్‌లు</string>
-    <string name="include_app_data_title">అనువర్తన డేటాను చేర్చు</string>
+    <string name="include_app_data_title">యాప్‌ డేటాను చేర్చు</string>
     <string name="incoming_call_volume_title">రింగ్‌టోన్</string>
     <string name="information_label">సమాచారం</string>
     <string name="input_assistance">సాధనాలు</string>
@@ -2642,7 +2640,7 @@
     <string name="install_other_apps">తెలియని యాప్‌ల ఇన్‌స్టలేషన్</string>
     <string name="install_text">ఇన్‌స్టాల్ చేయి</string>
     <string name="install_type_instant">తక్షణ యాప్</string>
-    <string name="install_unknown_applications">Play స్టోర్ కాకుండా ఇతర మూలాల నుండి అనువర్తనాల ఇన్‌స్టాలేషన్‌ను అనుమతించండి</string>
+    <string name="install_unknown_applications">Play స్టోర్ కాకుండా ఇతర మూలాల నుండి యాప్‌ల ఇన్‌స్టాలేషన్‌ను అనుమతించండి</string>
     <string name="installed">ఇన్‌స్టాల్ చేయబడింది</string>
     <string name="instant_app_details_summary">%1$sలో మరింత సమాచారం</string>
     <string name="instant_apps_settings">ఇన్‌స్టంట్ యాప్‌ల ప్రాధాన్యతలు</string>
@@ -2862,7 +2860,7 @@
     <string name="locale_default">ఆటోమేటిక్</string>
     <string name="locale_not_translated">కొన్ని అనువర్తనాల్లో అందుబాటులో ఉండకపోవచ్చు</string>
     <string name="locale_remove_menu">తీసివేయి</string>
-    <string name="location_access_summary">మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి మీ అనుమతిని అడిగిన అనువర్తనాలను అనుమతించండి</string>
+    <string name="location_access_summary">మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి మీ అనుమతిని అడిగిన యాప్‌లను అనుమతించండి</string>
     <string name="location_access_title">నా స్థానానికి యాక్సెస్</string>
     <string name="location_app_level_permissions">యాప్ లొకేషన్ అనుమతులు</string>
     <string name="location_app_permission_summary_location_off">లొకేష‌న్ ఆఫ్‌లో ఉంది</string>
@@ -2875,7 +2873,7 @@
     <string name="location_indicator_settings_description">నెట్‌వర్క్, కనెక్టివిటీతో పాటు లొకేషన్‌లు అన్నింటినీ చూపిస్తుంది</string>
     <string name="location_indicator_settings_title">స్టేటస్ బార్ లొకేషన్ సూచీ</string>
     <string name="location_low_battery_use">తక్కువ బ్యాటరీ వినియోగం</string>
-    <string name="location_neighborhood_level">మీ స్థానాన్ని వేగవంతంగా అంచనా వేయడం కోసం Google స్థాన సేవను ఉపయోగించడానికి అనువర్తనాలను అనుమతించండి. అనామక స్థాన డేటా సేకరించబడుతుంది మరియు Googleకు పంపబడుతుంది.</string>
+    <string name="location_neighborhood_level">మీ స్థానాన్ని వేగవంతంగా అంచనా వేయడం కోసం Google స్థాన సేవను ఉపయోగించడానికి యాప్‌లను అనుమతించండి. అనామక స్థాన డేటా సేకరించబడుతుంది మరియు Googleకు పంపబడుతుంది.</string>
     <string name="location_neighborhood_level_wifi">స్థానం Wi‑Fi ద్వారా గుర్తించబడింది</string>
     <string name="location_network_based">Wi‑Fi &amp; మొబైల్ నెట్‌వర్క్ స్థానం</string>
     <string name="location_no_recent_accesses">యాప్‌లు ఏవీ లొకేషన్‌ను ఇటీవల యాక్సెస్ చేయలేదు</string>
@@ -2897,7 +2895,7 @@
     <string name="location_settings_summary_location_off">ఆఫ్</string>
     <string name="location_settings_title">లొకేషన్</string>
     <string name="location_sources_heading">స్థానం మూలాలు</string>
-    <string name="location_street_level">మీ స్థానాన్ని ఖచ్చితంగా గుర్తించడం కోసం మీ ఫోన్‌లో GPSను ఉపయోగించడానికి అనువర్తనాలను అనుమతించు</string>
+    <string name="location_street_level">మీ స్థానాన్ని ఖచ్చితంగా గుర్తించడం కోసం మీ ఫోన్‌లో GPSను ఉపయోగించడానికి యాప్‌లను అనుమతించు</string>
     <string name="location_time_zone_detection_auto_is_off">ఆటోమేటిక్ టైమ్ జోన్ ఆఫ్‌లో ఉంది</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">రద్దు చేయి</string>
     <string name="location_time_zone_detection_location_is_off_dialog_message">మీ లొకేషన్‌ను ఉపయోగించి టైమ్ జోన్‌ను సెట్ చేయడానికి, లొకేషన్‌ను ఆన్ చేసి, ఆపై టైమ్ జోన్ సెట్టింగ్‌లను అప్‌డేట్ చేయండి</string>
@@ -2911,11 +2909,11 @@
     <string name="lock_after_timeout">స్క్రీన్ గడువు ముగిసిన తర్వాత లాక్ చేయి</string>
     <string name="lock_after_timeout_summary">గడువు ముగిసిన %1$s తర్వాత</string>
     <string name="lock_after_timeout_summary_with_exception">%2$s అన్‌లాక్ చేసి ఉంచినప్పుడు మినహా, గడువు ముగిసిన %1$s తర్వాత</string>
-    <string name="lock_failed_attempts_before_wipe">మళ్లీ ప్రయత్నించండి. %2$dలో %1$d ప్రయత్నం చేసారు.</string>
-    <string name="lock_failed_attempts_now_wiping_device">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేసారు. ఈ పరికరం యొక్క డేటా తొలగించబడుతుంది.</string>
+    <string name="lock_failed_attempts_before_wipe">మళ్లీ ప్రయత్నించండి. %2$dలో %1$d ప్రయత్నం చేశారు.</string>
+    <string name="lock_failed_attempts_now_wiping_device">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేశారు. ఈ పరికరం యొక్క డేటా తొలగించబడుతుంది.</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss">తీసివేయండి</string>
-    <string name="lock_failed_attempts_now_wiping_profile">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేసారు. ఈ ఆఫీస్ ప్రొఫైల్, దీని డేటా తొలగించబడతాయి.</string>
-    <string name="lock_failed_attempts_now_wiping_user">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేసారు. ఈ వినియోగదారు తొలగించబడతారు.</string>
+    <string name="lock_failed_attempts_now_wiping_profile">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేశారు. ఈ ఆఫీస్ ప్రొఫైల్, దీని డేటా తొలగించబడతాయి.</string>
+    <string name="lock_failed_attempts_now_wiping_user">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేశారు. ఈ వినియోగదారు తొలగించబడతారు.</string>
     <string name="lock_immediately_summary_with_exception">%1$s అన్‌లాక్ చేసి ఉంచినప్పుడు మినహా, మిగిలిన సమయంలో గడువు ముగిసిన వెంటనే</string>
     <string name="lock_last_attempt_before_wipe_warning_title">మీ డేటా తొలగించబడుతుంది</string>
     <string name="lock_last_password_attempt_before_wipe_device">మీరు తర్వాత ప్రయత్నంలో తప్పు పాస్‌వర్డ్‌ను నమోదు చేస్తే, ఈ పరికరం యొక్క డేటా తొలగించబడుతుంది</string>
@@ -3106,15 +3104,15 @@
     <string name="lockpattern_settings_help_how_to_record">అన్‌లాక్ నమూనాను ఎలా గీయాలి</string>
     <string name="lockpattern_settings_power_button_instantly_locks_summary">%1$s అన్‌లాక్ చేసి ఉంచినప్పుడు మినహా</string>
     <string name="lockpattern_settings_require_cred_before_startup">సురక్షిత ప్రారంభం</string>
-    <string name="lockpattern_settings_require_password_before_startup_summary">మీ పరికరాన్ని ప్రారంభించడానికి పాస్‌వర్డ్ అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ పరికరం కాల్‌లు, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
-    <string name="lockpattern_settings_require_pattern_before_startup_summary">మీ డివైజ్‌ను ప్రారంభించడానికి ఆకృతి అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ డివైజ్ కాల్‌లు, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
-    <string name="lockpattern_settings_require_pin_before_startup_summary">మీ డివైజ్‌ను ప్రారంభించడానికి పిన్ అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ డివైజ్ కాల్‌లు, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
+    <string name="lockpattern_settings_require_password_before_startup_summary">మీ పరికరాన్ని ప్రారంభించడానికి పాస్‌వర్డ్ అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ పరికరం కాల్స్‌, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
+    <string name="lockpattern_settings_require_pattern_before_startup_summary">మీ డివైజ్‌ను ప్రారంభించడానికి ఆకృతి అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ డివైజ్ కాల్స్‌, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
+    <string name="lockpattern_settings_require_pin_before_startup_summary">మీ డివైజ్‌ను ప్రారంభించడానికి పిన్ అవసరం. ఆఫ్‌లో ఉన్నప్పుడు, ఈ డివైజ్ కాల్స్‌, సందేశాలు, నోటిఫికేషన్‌లు లేదా అలారాలను స్వీకరించలేదు.</string>
     <string name="lockpattern_settings_title">అన్‌లాక్ ఆకృతి</string>
-    <string name="lockpattern_too_many_failed_confirmation_attempts">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేసారు. %d సెకన్లలో మళ్లీ ప్రయత్నించండి.</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">చాలా ఎక్కువ తప్పు ప్రయత్నాలు చేశారు. %d సెకన్లలో మళ్లీ ప్రయత్నించండి.</string>
     <string name="lockpattern_tutorial_cancel_label">రద్దు చేయి</string>
     <string name="lockpattern_tutorial_continue_label">తర్వాత</string>
     <string name="lockscreen_privacy_not_secure">ఉపయోగించడానికి, ముందుగా స్క్రీన్ లాక్‌ను సెట్ చేయండి</string>
-    <string name="lockscreen_remote_input">పరికరం లాక్ చేయబడితే, నోటిఫికేషన్‌ల్లో ప్రత్యుత్తరాలు లేదా ఇతర వచనాన్ని టైప్ చేయకుండా నిరోధించు</string>
+    <string name="lockscreen_remote_input">పరికరం లాక్ చేయబడితే, నోటిఫికేషన్‌ల్లో రిప్లయిలు లేదా ఇతర వచనాన్ని టైప్ చేయకుండా నిరోధించు</string>
     <string name="lost_internet_access_cancel">అలాగే Wi‑Fiలో ఉంచు</string>
     <string name="lost_internet_access_persist">మళ్లీ ఎప్పటికి చూపవద్దు</string>
     <string name="lost_internet_access_switch">మొబైల్‌కి మారండి</string>
@@ -3159,7 +3157,7 @@
     <string name="main_running_process_description">ప్రధాన ప్రాసెస్ ఉపయోగంలో ఉంది.</string>
     <string name="manage_conversations">సంభాషణలను మేనేజ్ చేయండి</string>
     <string name="manage_device_admin">పరికర అడ్మిన్‌ యాప్‌లు</string>
-    <string name="manage_external_storage_title">అన్ని ఫైల్‌లకు యాక్సెస్</string>
+    <string name="manage_external_storage_title">అన్ని ఫైళ్లకు యాక్సెస్</string>
     <string name="manage_mobile_plan_title">మొబైల్ ప్లాన్</string>
     <string name="manage_notification_access_summary">ఎటువంటి యాప్‌లు, పరికరాలు నోటిఫికేషన్‌లను చదవవచ్చో కంట్రోల్ చేయండి</string>
     <string name="manage_notification_access_summary_zero">యాప్‌లు నోటిఫికేషన్‌లను చదవలేవు</string>
@@ -3169,7 +3167,7 @@
     <string name="manage_trust_agents_summary">ఏమీ లేవు</string>
     <string name="manage_zen_access_title">అంతరాయం కలిగించవద్దు యాక్సెస్</string>
     <string name="manageapplications_settings_summary">ఇన్‌స్టాల్ చేయబడిన యాప్‌లను నిర్వహించండి మరియు తీసివేయండి</string>
-    <string name="manageapplications_settings_title">అనువర్తనాలను నిర్వహించు</string>
+    <string name="manageapplications_settings_title">యాప్‌లను నిర్వహించు</string>
     <string name="managed_profile_contact_search_summary">మీ సెర్చ్‌లు, ఇన్‌కమింగ్ కాల్స్ మీ IT అడ్మిన్‌కు కనిపించవచ్చు</string>
     <string name="managed_profile_contact_search_title">వ్యక్తిగత యాప్‌లలో వర్క్ డైరెక్టరీ కాంటాక్ట్‌ల కోసం సెర్చ్ చేయండి</string>
     <string name="managed_profile_location_services">ఆఫీస్ కోసం స్థాన సేవలు</string>
@@ -3213,10 +3211,10 @@
     <string name="media_controls_resume_title">మీడియా ప్లేయర్‌ను పిన్ చేయండి</string>
     <string name="media_controls_show_player">ప్లేయర్‌ను చూపించు</string>
     <string name="media_controls_title">మీడియా</string>
-    <string name="media_management_apps_description">అనుమతిస్తే, ఈ యాప్ మిమ్మల్ని అడగకుండానే, ఇతర యాప్‌లను ఉపయోగించి క్రియేట్ చేసిన మీడియా ఫైల్‌లను సవరిస్తుంది లేదా తొలగిస్తుంది. ఫైల్‌లను, మీడియాను యాక్సెస్ చేయడానికి యాప్‌నకు అనుమతి ఉండాలి.</string>
+    <string name="media_management_apps_description">అనుమతిస్తే, ఈ యాప్ మిమ్మల్ని అడగకుండానే, ఇతర యాప్‌లను ఉపయోగించి క్రియేట్ చేసిన మీడియా ఫైళ్లను సవరిస్తుంది లేదా తొలగిస్తుంది. ఫైళ్లను, మీడియాను యాక్సెస్ చేయడానికి యాప్‌నకు అనుమతి ఉండాలి.</string>
     <string name="media_management_apps_title">మీడియా మేనేజ్‌మెంట్ యాప్‌లు</string>
     <string name="media_management_apps_toggle_label">మీడియాను మేనేజ్ చేయడానికి యాప్‌ను అనుమతించండి</string>
-    <string name="media_out_summary_ongoing_call_state">కాల్‌ల సమయంలో అందుబాటులో ఉండదు</string>
+    <string name="media_out_summary_ongoing_call_state">కాల్స్‌ల సమయంలో అందుబాటులో ఉండదు</string>
     <string name="media_output_default_summary">ఈ పరికరం</string>
     <string name="media_output_disconnected_status">%1$s (డిస్‌కనెక్ట్ అయ్యింది)</string>
     <string name="media_output_group">గ్రూప్</string>
@@ -3242,7 +3240,7 @@
     <string name="meid_multi_sim">MEID (సిమ్ స్లాట్ %1$d)</string>
     <string name="mem_details_title">మెమరీ వివరాలు</string>
     <string name="memory">RAM</string>
-    <string name="memory_apps_usage">యాప్‌లు &amp; అనువర్తన డేటా</string>
+    <string name="memory_apps_usage">యాప్‌లు &amp; యాప్‌ డేటా</string>
     <string name="memory_available">అందుబాటులో ఉంది</string>
     <string name="memory_available_read_only">అందుబాటులో ఉంది (చదవడానికి-మాత్రమే)</string>
     <string name="memory_avg_desc">సగటు %1$s</string>
@@ -3256,7 +3254,7 @@
     <string name="memory_max_use">గరిష్ఠం</string>
     <string name="memory_maximum_usage">గరిష్ట వినియోగం</string>
     <string name="memory_media_cache_usage">కాష్ చేసిన డేటా</string>
-    <string name="memory_media_misc_usage">ఇతర ఫైల్‌లు</string>
+    <string name="memory_media_misc_usage">ఇతర ఫైళ్లు</string>
     <string name="memory_media_usage">మీడియా</string>
     <string name="memory_music_usage">ఆడియో (సంగీతం, రింగ్‌టోన్‌లు, పాడ్‌కాస్ట్‌లు మొ.)</string>
     <string name="memory_performance">పనితీరు</string>
@@ -3264,7 +3262,7 @@
     <string name="memory_size">మొత్తం స్థలం</string>
     <string name="memory_summary">సగటున %2$sలో %1$s మెమరీ వినియోగించబడింది</string>
     <string name="memory_usage">మెమరీ వినియోగం</string>
-    <string name="memory_usage_apps">అనువర్తనాల ద్వారా ఉపయోగించబడిన మెమరీ</string>
+    <string name="memory_usage_apps">యాప్‌ల ద్వారా ఉపయోగించబడిన మెమరీ</string>
     <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">గత 3 గంటల్లో సగటున %1$s మెమరీ వినియోగించబడింది</string>
     <string name="menu_cancel">రద్దు చేయి</string>
@@ -3290,7 +3288,7 @@
     <string name="menu_stats_unplugged">అన్‌ప్లగ్ చేసినప్పటి నుండి %1$s</string>
     <string name="menu_use_uss">Ussను ఉపయోగించు</string>
     <string name="mic_toggle_title">మైక్రోఫోన్ యాక్సెస్</string>
-    <string name="misc_files">నానావిధమైన ఫైల్‌లు</string>
+    <string name="misc_files">నానావిధమైన ఫైళ్లు</string>
     <string name="misc_files_selected_count">%2$dలో %1$d ఎంచుకోబడ్డాయి</string>
     <string name="misc_files_selected_count_bytes">%2$sలో %1$s</string>
     <string name="mms_message_summary">మొబైల్ డేటా ఆఫ్‌లో ఉన్నప్పుడు పంపుతుంది &amp; అందుకుంటుంది</string>
@@ -3511,13 +3509,13 @@
     <string name="night_display_not_currently_on">రాత్రి కాంతి ఆన్‌లో లేదు</string>
     <string name="night_display_start_time_title">ప్రారంభ సమయం</string>
     <string name="night_display_status_title">స్థితి</string>
-    <string name="night_display_suggestion_summary">రాత్రిళ్లు స్క్రీన్‌లో స్వయంచాలకంగా వర్ణభేదం చూపుతుంది</string>
+    <string name="night_display_suggestion_summary">రాత్రిళ్లు స్క్రీన్‌లో ఆటోమేటిక్‌గా వర్ణభేదం చూపుతుంది</string>
     <string name="night_display_suggestion_title">రాత్రి కాంతి షెడ్యూల్‌ని సెట్ చేయండి</string>
-    <string name="night_display_summary_off_auto_mode_custom">%1$sకి స్వయంచాలకంగా ఆన్ అవుతుంది</string>
+    <string name="night_display_summary_off_auto_mode_custom">%1$sకి ఆటోమేటిక్‌గా ఆన్ అవుతుంది</string>
     <string name="night_display_summary_off_auto_mode_never">ఎప్పటికీ ఆటోమేటిక్‌గా ఆన్ కాదు</string>
     <string name="night_display_summary_off_auto_mode_twilight">సూర్యాస్తమయ సమయానికి ఆటోమేటిక్‌గా ఆన్ అవుతుంది</string>
     <string name="night_display_summary_on_auto_mode_custom">%1$sకి ఆటోమేటిక్‌గా ఆఫ్ అవుతుంది</string>
-    <string name="night_display_summary_on_auto_mode_never">ఎప్పటికీ స్వయంచాలకంగా ఆఫ్ కాదు</string>
+    <string name="night_display_summary_on_auto_mode_never">ఎప్పటికీ ఆటోమేటిక్‌గా ఆఫ్ కాదు</string>
     <string name="night_display_summary_on_auto_mode_twilight">సూర్యోదయ సమయానికి ఆటోమేటిక్‌గా ఆఫ్ అవుతుంది</string>
     <string name="night_display_temperature_title">తీవ్రత</string>
     <string name="night_display_text">రాత్రి కాంతి మీ స్క్రీన్‌ను లేత కాషాయ రంగులోకి మారుస్తుంది. దీని వల్ల‌ తక్కువ కాంతి ఉన్నప్పుడు మీ స్క్రీన్‌ను చూడటం లేదా తక్కువ వెలుగులో చదవటం సులభం అవుతుంది. ఇది మీరు సులభంగా నిద్రలోకి జారుకోవడంలో కూడా సహాయప‌డొచ్చు.</string>
@@ -3563,7 +3561,7 @@
     <string name="notif_type_conversation">సంభాషణలు</string>
     <string name="notif_type_conversation_summary">SMS, టెక్స్ట్ మెసేజ్‌లు, ఇతర కమ్యూనికేషన్‌లు</string>
     <string name="notif_type_ongoing">రియల్-టైమ్</string>
-    <string name="notif_type_ongoing_summary">ఉపయోగంలో ఉన్న యాప్‌లు, నావిగేషన్ ఫోన్ కాల్‌లు, మరిన్నింటి నుండి కొనసాగుతున్న కమ్యూనికేషన్</string>
+    <string name="notif_type_ongoing_summary">ఉపయోగంలో ఉన్న యాప్‌లు, నావిగేషన్ ఫోన్ కాల్స్‌, మరిన్నింటి నుండి కొనసాగుతున్న కమ్యూనికేషన్</string>
     <string name="notif_type_silent">సైలెంట్</string>
     <string name="notif_type_silent_summary">సౌండ్ లేదా వైబ్రేషన్‌లు ఎప్పుడూ చేయని నోటిఫికేషన్‌లు</string>
     <string name="notification_access_detail_switch">నోటిఫికేషన్ యాక్సెస్‌ను అనుమతించు</string>
@@ -3572,7 +3570,7 @@
     <string name="notification_app_switch_label">అన్ని %1$s నోటిఫికేషన్‌లు</string>
     <string name="notification_assistant_security_warning_summary">"Android 12లో Android అనుకూల నోటిఫికేషన్‌లను, మెరుగైన నోటిఫికేషన్‌లు భర్తీ చేశాయి. సూచించిన చర్యలు, రిప్లయిలను ఈ ఫీచర్ చూపించి, మీ నోటిఫికేషన్‌లను ఆర్గనైజ్ చేస్తుంది. 
 
-కాంటాక్ట్ పేర్లు, మెసేజ్‌లు లాంటి వ్యక్తిగత సమాచారంతో సహా నోటిఫికేషన్ కంటెంట్‌ను మెరుగైన నోటిఫికేషన్‌లు యాక్సెస్ చేయవచ్చు. ఫోన్ కాల్‌లకు సమాధానమివ్వడం, 'అంతరాయం కలిగించవద్దు' ఆప్షన్‌ను కంట్రోల్ చేయడం లాంటి నోటిఫికేషన్‌లను విస్మరించడం లేదా ప్రతిస్పందించడం కూడా ఈ ఫీచర్ చేయగలదు."</string>
+కాంటాక్ట్ పేర్లు, మెసేజ్‌లు లాంటి వ్యక్తిగత సమాచారంతో సహా నోటిఫికేషన్ కంటెంట్‌ను మెరుగైన నోటిఫికేషన్‌లు యాక్సెస్ చేయవచ్చు. ఫోన్ కాల్స్‌కు సమాధానమివ్వడం, 'అంతరాయం కలిగించవద్దు' ఆప్షన్‌ను కంట్రోల్ చేయడం లాంటి నోటిఫికేషన్‌లను విస్మరించడం లేదా ప్రతిస్పందించడం కూడా ఈ ఫీచర్ చేయగలదు."</string>
     <string name="notification_assistant_security_warning_title">%1$s కోసం నోటిఫికేషన్ యాక్సెస్ అనుమతించాలా?</string>
     <string name="notification_assistant_summary">సూచించిన చర్యలు, రిప్లయిలు, అలాగే మరిన్ని పొందండి</string>
     <string name="notification_assistant_title">మెరుగైన నోటిఫికేషన్‌లు</string>
@@ -3625,7 +3623,7 @@
     <string name="notification_listener_disable_warning_confirm">ఆఫ్ చేయండి</string>
     <string name="notification_listener_disable_warning_summary">మీరు %1$s కోసం నోటిఫికేషన్ యాక్సెస్‌ను ఆఫ్ చేస్తే, అంతరాయం కలిగించవద్దు ఎంపిక యాక్సెస్ కూడా ఆఫ్ చేయబడవచ్చు.</string>
     <string name="notification_listener_not_allowed">అనుమతించబడలేదు</string>
-    <string name="notification_listener_security_warning_summary">"%1$s కాంటాక్ట్ పేర్లు అలాగే మీరు స్వీకరించిన మెసేజ్‌ల వంటి వ్యక్తిగత సమాచారంతో సహా అన్ని నోటిఫికేషన్‌లను చదవగలదు. ఈ యాప్ నోటిఫికేషన్‌లను విస్మరించగలదు, అలాగే ఫోన్ కాల్‌లకు సమాధానం ఇవ్వడంతో సహా నోటిఫికేషన్‌లలోని బటన్‌లపై చర్యలు తీసుకోగలదు. 
+    <string name="notification_listener_security_warning_summary">"%1$s కాంటాక్ట్ పేర్లు అలాగే మీరు స్వీకరించిన మెసేజ్‌ల వంటి వ్యక్తిగత సమాచారంతో సహా అన్ని నోటిఫికేషన్‌లను చదవగలదు. ఈ యాప్ నోటిఫికేషన్‌లను విస్మరించగలదు, అలాగే ఫోన్ కాల్స్‌కు సమాధానం ఇవ్వడంతో సహా నోటిఫికేషన్‌లలోని బటన్‌లపై చర్యలు తీసుకోగలదు. 
 
 దీని వలన, 'అంతరాయం కలిగించవద్దు' ఎంపికను ఆన్ చేయగల లేదా ఆఫ్ చేయగలిగే సామర్థ్యం ఈ యాప్‌నకు వస్తుంది, సంబంధిత సెట్టింగ్‌లు కూడా మారతాయి."</string>
     <string name="notification_listener_security_warning_title">%1$s కోసం నోటిఫికేషన్ యాక్సెస్‌ను అనుమతించాలా?</string>
@@ -3756,7 +3754,7 @@
     <string name="permissions_usage_summary">ఇటీవల ఏ యాప్‌లు అనుమతులను ఉపయోగించాయో చూపించు</string>
     <string name="permissions_usage_title">గోప్యతా డ్యాష్‌బోర్డ్</string>
     <string name="permit_draw_overlay">ఇతర యాప్‌ల ఎగువున కనిపించడానికి అనుమతించు</string>
-    <string name="permit_manage_external_storage">అన్ని ఫైల్‌లను మేనేజ్‌ చేయడానికి అనుమతించండి</string>
+    <string name="permit_manage_external_storage">అన్ని ఫైళ్లను మేనేజ్‌ చేయడానికి అనుమతించండి</string>
     <string name="permit_usage_access">వినియోగ యాక్సెస్‌ను అనుమతించు</string>
     <string name="permit_write_settings">సిస్టమ్ సెట్టింగ్‌ల సవరణను అనుమతించండి</string>
     <string name="personal_data_section_title">వ్యక్తిగత డేటా</string>
@@ -3813,7 +3811,7 @@
     <string name="power_menu_summary_long_press_for_assist_disabled_with_power_menu">పవర్ మెనూ కోసం నొక్కి, పట్టుకోండి</string>
     <string name="power_menu_summary_long_press_for_assist_enabled">Assistant కోసం నొక్కి, పట్టుకోండి</string>
     <string name="power_overcounted">అధిక గణన</string>
-    <string name="power_phone">వాయిస్ కాల్‌లు</string>
+    <string name="power_phone">వాయిస్ కాల్స్‌</string>
     <string name="power_remaining_charging_duration_only">%1$sలో పూర్తిగా ఛార్జ్ అవుతుంది</string>
     <string name="power_remaining_duration_only">%1$s సమయం మిగిలి ఉంది</string>
     <string name="power_remaining_duration_only_enhanced">మీ వినియోగం ఆధారంగా దాదాపు %1$s సమయం మిగిలి ఉంది</string>
@@ -3886,7 +3884,7 @@
     <string name="preferred_network_type_title">ప్రాధాన్య నెట్‌వర్క్ రకం</string>
     <string name="premium_sms_access">ప్రీమియం SMS యాక్సెస్</string>
     <string name="premium_sms_none">ఇన్‌స్టాల్ చేసిన యాప్‌లు ఏవీ ప్రీమియం SMS యాక్సెస్‌ను అభ్యర్థించలేదు</string>
-    <string name="premium_sms_warning">ప్రీమియం SMSతో మీకు డబ్బు ఖర్చు కావచ్చు, ఈ ఛార్జీ మీ క్యారియర్ బిల్లుల్లో విధించబడుతుంది. మీరు ఒక అనువర్తనానికి అనుమతిని అందిస్తే, ఆ యాప్‌ను ఉపయోగించి ప్రీమియం SMSను పంపగలరు.</string>
+    <string name="premium_sms_warning">ప్రీమియం SMSతో మీకు డబ్బు ఖర్చు కావచ్చు, ఈ ఛార్జీ మీ క్యారియర్ బిల్లుల్లో విధించబడుతుంది. మీరు ఒక యాప్‌నకు అనుమతిని అందిస్తే, ఆ యాప్‌ను ఉపయోగించి ప్రీమియం SMSను పంపగలరు.</string>
     <string name="prevent_ringing_main_switch_title">రింగ్ చేయడాన్ని నిరోధించే ఫీచర్‌ను ఉపయోగించండి</string>
     <string name="prevent_ringing_option_mute">మ్యూట్ చేయి</string>
     <string name="prevent_ringing_option_mute_summary">మ్యూట్ చేసినవి</string>
@@ -3942,7 +3940,7 @@
     <string name="privileged_action_disable_sub_dialog_progress">సిమ్‌ను ఆఫ్ చేస్తోంది…</string>
     <string name="privileged_action_disable_sub_dialog_title">%1$sను ఆఫ్ చేయాలా?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">సిమ్‌ను ఆఫ్ చేయాలా?</string>
-    <string name="process_dex2oat_label">అనువర్తన అనుకూలీకరణ</string>
+    <string name="process_dex2oat_label">యాప్‌ అనుకూలీకరణ</string>
     <string name="process_format">%1$s (%2$d)</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">మీడియా సర్వర్</string>
@@ -4029,7 +4027,7 @@
     <string name="register_on_network">%sలో నమోదు చేయబడుతోంది…</string>
     <string name="registration_done">నెట్‌వర్క్‌లో నమోదు చేయబడింది.</string>
     <string name="regulatory_info_text" />
-    <string name="regulatory_labels">నియంత్రణ లేబుల్‌లు</string>
+    <string name="regulatory_labels">నియంత్రణ లేబుళ్లు</string>
     <string name="remaining_length_format">%1$s మిగిలి ఉంది</string>
     <string name="remote_media_volume_option_title">ప్రసారం వాల్యూమ్</string>
     <string name="remove_account_failed">ఈ మార్పును మీ నిర్వాహకులు అనుమతించలేదు</string>
@@ -4096,7 +4094,7 @@
     <string name="restricted_true_label">నియంత్రించబడింది</string>
     <string name="restriction_bluetooth_config_summary">బ్లూటూత్ జతలు మరియు సెట్టింగ్‌ల యొక్క సవరణను అనుమతించు</string>
     <string name="restriction_bluetooth_config_title">బ్లూటూత్</string>
-    <string name="restriction_location_enable_summary">మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి అనువర్తనాలను అనుమతించండి</string>
+    <string name="restriction_location_enable_summary">మీ స్థాన సమాచారాన్ని ఉపయోగించడానికి యాప్‌లను అనుమతించండి</string>
     <string name="restriction_location_enable_title">లొకేషన్</string>
     <string name="restriction_menu_change_pin">పిన్‌ను మార్చు</string>
     <string name="restriction_menu_reset">పరిమితులను తీసివేయి</string>
@@ -4475,7 +4473,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="security_settings_fingerprint_enroll_introduction_message">"మీ ఫోన్‌ను యాక్టివేట్ చేసి, అన్‌లాక్ చేయడానికి, కొనుగోళ్లను అనుమతించడానికి లేదా యాప్‌లకు సైన్ ఇన్ చేయడానికి Nexus Imprint మీ వేలిముద్రను ఉపయోగిస్తుంది.
 
 మీరు ఎవరి వేలిముద్రలు జోడిస్తున్నారనే విషయంలో జాగ్రత్త వహించండి. వేలిముద్రలు జోడించబడిన ఎవరైనా వీటిని చేయగలుగుతారు. "<annotation link="url">మరింత తెలుసుకోండి</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprintతో, మీరు కొనుగోళ్లను ఆమోదించడానికి లేదా అనువర్తనాలకు సైన్ ఇన్ చేయడానికి మీ వేలిముద్రను ఉపయోగించవచ్చు.
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprintతో, మీరు కొనుగోళ్లను ఆమోదించడానికి లేదా యాప్‌లకు సైన్ ఇన్ చేయడానికి మీ వేలిముద్రను ఉపయోగించవచ్చు.
 
 మీరు ఎవరి వేలిముద్రలు జోడిస్తున్నారనే విషయంలో జాగ్రత్త వహించండి. వేలిముద్రలు జోడించబడిన ఎవరైనా వీటిని చేయగలుగుతారు.
 
@@ -4597,16 +4595,16 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="severe_threats_title">తీవ్ర నష్టాలు</string>
     <string name="share">షేర్ చేయి</string>
     <string name="share_remote_bugreport_action">షేర్ చేయి</string>
-    <string name="share_remote_bugreport_dialog_message">మీ ఐటి నిర్వాహకులు ఈ పరికరం సమస్యకు పరిష్కారాన్ని కనుగొనడంలో సహాయం కోసం బగ్ నివేదికను అభ్యర్థించారు. యాప్‌లు మరియు డేటా భాగస్వామ్యం చేయబడవచ్చు మరియు మీ పరికరం పనితీరు తాత్కాలికంగా నెమ్మదించవచ్చు.</string>
-    <string name="share_remote_bugreport_dialog_message_finished">మీ ఐటి నిర్వాహకులు ఈ పరికరం సమస్యకు పరిష్కారాన్ని కనుగొనడంలో సహాయం కోసం బగ్ నివేదికను అభ్యర్థించారు. యాప్‌లు మరియు డేటా భాగస్వామ్యం చేయబడవచ్చు.</string>
-    <string name="share_remote_bugreport_dialog_title">బగ్ నివేదికను భాగస్వామ్యం చేయాలా?</string>
+    <string name="share_remote_bugreport_dialog_message">మీ ఐటి నిర్వాహకులు ఈ పరికరం సమస్యకు పరిష్కారాన్ని కనుగొనడంలో సహాయం కోసం బగ్ రిపోర్ట్‌ను అభ్యర్థించారు. యాప్‌లు మరియు డేటా భాగస్వామ్యం చేయబడవచ్చు మరియు మీ పరికరం పనితీరు తాత్కాలికంగా నెమ్మదించవచ్చు.</string>
+    <string name="share_remote_bugreport_dialog_message_finished">మీ ఐటి నిర్వాహకులు ఈ పరికరం సమస్యకు పరిష్కారాన్ని కనుగొనడంలో సహాయం కోసం బగ్ రిపోర్ట్‌ను అభ్యర్థించారు. యాప్‌లు మరియు డేటా భాగస్వామ్యం చేయబడవచ్చు.</string>
+    <string name="share_remote_bugreport_dialog_title">బగ్ రిపోర్ట్‌ను భాగస్వామ్యం చేయాలా?</string>
     <string name="shared_data_delete_failure_text">షేర్ చేసిన డేటాను తొలగించడంలో ఎర్రర్ ఏర్పడింది.</string>
     <string name="shared_data_no_accessors_dialog_text">ఈ షేర్ చేసిన డేటాకు సేకరించబడిన లీజులు ఏవీ లేవు. దీన్ని మీరు తొలగించాలనుకుంటున్నారా?</string>
     <string name="shared_data_no_blobs_text">ఈ యూజర్ కోసం షేర్ చేసిన డేటా ఏదీ లేదు.</string>
     <string name="shared_data_query_failure_text">షేర్ చేసిన డేటా పొందడంలో ఎర్రర్ ఏర్పడింది. మళ్లీ ట్రై చేయండి.</string>
     <string name="shared_data_summary">షేర్ చేసిన డేటాను చూసి, సవరించండి</string>
     <string name="shared_data_title">షేర్ చేసిన డేటా</string>
-    <string name="sharing_remote_bugreport_dialog_message">ఈ బగ్ నివేదిక మీ ఐటి నిర్వాహకులతో భాగస్వామ్యం చేయబడుతోంది. మరిన్ని వివరాల కోసం వారిని సంప్రదించండి.</string>
+    <string name="sharing_remote_bugreport_dialog_message">ఈ బగ్ రిపోర్ట్‌ మీ ఐటి నిర్వాహకులతో భాగస్వామ్యం చేయబడుతోంది. మరిన్ని వివరాల కోసం వారిని సంప్రదించండి.</string>
     <string name="short_summary_font_size">టెక్స్ట్‌ను పెద్దదిగా లేదా చిన్నదిగా చేస్తుంది</string>
     <string name="show_all_anrs">బ్యాక్‌గ్రౌండ్ ANRలను చూపు</string>
     <string name="show_all_anrs_summary">బ్యాక్‌గ్రౌండ్ యాప్‌ల కోసం యాప్ ప్రతిస్పందించడం లేదు అనే డైలాగ్‌ను చూపు</string>
@@ -4667,7 +4665,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="sim_action_yes">అవును</string>
     <string name="sim_bad_pin">పిన్‌ చెల్లదు</string>
     <string name="sim_call_back_title">డిఫాల్ట్ సిమ్ నుండి తిరిగి కాల్ చేయి</string>
-    <string name="sim_calls_always_use">కాల్‌ల కోసం దీన్ని ఎల్లప్పుడూ ఉపయోగించు</string>
+    <string name="sim_calls_always_use">కాల్స్‌ల కోసం దీన్ని ఎల్లప్పుడూ ఉపయోగించు</string>
     <string name="sim_calls_ask_first_prefs_title">ప్రతిసారి అడుగు</string>
     <string name="sim_card">సిమ్</string>
     <string name="sim_card_label">SIM కార్డ్</string>
@@ -4717,13 +4715,13 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="sim_notification_summary">సెటప్ చేయడానికి నొక్కండి</string>
     <string name="sim_notification_title">SIM కార్డ్‌లు మార్చబడ్డాయి.</string>
     <string name="sim_other_call_settings">ఇతర కాల్ సెట్టింగ్‌లు</string>
-    <string name="sim_outgoing_call_title">అవుట్‌గోయింగ్ కాల్‌ల కోసం సిమ్</string>
+    <string name="sim_outgoing_call_title">అవుట్‌గోయింగ్ కాల్స్‌ల కోసం సిమ్</string>
     <string name="sim_pin_change">సిమ్ పిన్‌ను మార్చు</string>
     <string name="sim_pin_disable_failed">PINని నిలిపివేయడం సాధ్యం కాదు.</string>
     <string name="sim_pin_enable_failed">PINను ఆరంభించడం సాధ్యం కాదు.</string>
     <string name="sim_pin_toggle">సిమ్ కార్డు‌ను లాక్ చేయి</string>
     <string name="sim_pins_dont_match">పిన్‌లు మ్యాచ్ కాలేదు</string>
-    <string name="sim_preferred_message">మీ పరికరంలో %1$s SIM మాత్రమే ఉంది. మొబైల్ డేటా, కాల్‌లు మరియు SMS సందేశాల కోసం మీరు ఈ SIMని ఉపయోగించాలనుకుంటున్నారా?</string>
+    <string name="sim_preferred_message">మీ పరికరంలో %1$s SIM మాత్రమే ఉంది. మొబైల్ డేటా, కాల్స్‌ మరియు SMS సందేశాల కోసం మీరు ఈ SIMని ఉపయోగించాలనుకుంటున్నారా?</string>
     <string name="sim_preferred_title">ప్రాధాన్య SIM కార్డ్ నవీకరిం.?</string>
     <string name="sim_reenter_new">కొత్త పిన్‌ను మళ్లీ టైప్ చేయండి</string>
     <string name="sim_select_card">సిమ్ కార్డును ఎంచుకోండి</string>
@@ -4760,6 +4758,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="smart_forwarding_summary_enabled">స్మార్ట్ ఫార్వర్డింగ్ ఎనేబుల్ చేయబడింది</string>
     <string name="smart_forwarding_title">స్మార్ట్ ఫార్వర్డింగ్</string>
     <string name="smart_notifications_title">అనుకూల నోటిఫికేషన్‌లు</string>
+    <string name="smart_rotate_text_headline">"'ముఖ గుర్తింపు' ఆటో-రొటేట్ ఖచ్చితత్వాన్ని మెరుగుపరచడానికి, ముందు వైపు ఉన్న కెమెరాను ఉపయోగిస్తుంది. ఇమేజ్‌లు ఎప్పుడూ స్టోర్ చేయబడవు లేదా Googleకు పంపబడవు."</string>
     <string name="sms_application_title">SMS యాప్</string>
     <string name="sms_change_default_dialog_text">మీ SMS అనువర్తనంగా %2$sకి బదులుగా %1$sని ఉపయోగించాలా?</string>
     <string name="sms_change_default_dialog_title">SMS యాప్‌ను మార్చాలా?</string>
@@ -4857,18 +4856,18 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
 
 మీరు విస్మరించాలని ఎంచుకుంటే, పరికరంలో ఉన్న మొత్తం డేటాను శాశ్వతంగా కోల్పోతారు. 
 
-మీరు తర్వాత అనువర్తనాలను మళ్లీ ఇన్‌స్టాల్ చేయవచ్చు, కానీ ఈ పరికరంలో నిల్వ చేసిన వాటి డేటాను కోల్పోతారు."</string>
+మీరు తర్వాత యాప్‌లను మళ్లీ ఇన్‌స్టాల్ చేయవచ్చు, కానీ ఈ పరికరంలో నిల్వ చేసిన వాటి డేటాను కోల్పోతారు."</string>
     <string name="storage_internal_format_details">"ఫార్మాట్ చేసిన తర్వాత, మీరు ఈ ^1ని ఇతర పరికరాల్లో ఉపయోగించవచ్చు. 
 
 ఈ ^1లోని మొత్తం డేటా తొలగించబడుతుంది. ముందుగా బ్యాకప్ చేయడాన్ని పరిశీలించండి. 
 
 "<b>ఫోటోలు &amp; ఇతర మీడియాను బ్యాకప్ చేయండి</b>" 
-మీ మీడియా ఫైల్‌లను ఈ పరికరంలోని ప్రత్యామ్నాయ నిల్వకు తరలించండి లేదా USB కేబుల్‌ను ఉపయోగించి వాటిని కంప్యూటర్‌కి బదిలీ చేయండి. 
+మీ మీడియా ఫైళ్లను ఈ పరికరంలోని ప్రత్యామ్నాయ నిల్వకు తరలించండి లేదా USB కేబుల్‌ను ఉపయోగించి వాటిని కంప్యూటర్‌కి బదిలీ చేయండి. 
 
-"<b>అనువర్తనాలను బ్యాకప్ చేయండి</b>" 
-ఈ ^1లోని అన్ని యాప్‌లు అన్ఇన్‌స్టాల్ చేయబడతాయి మరియు వాటి డేటా తొలగించబడుతుంది. ఈ అనువర్తనాలను అలాగే ఉంచడానికి, వీటిని ఈ పరికరంలోని ప్రత్యామ్నాయ నిల్వకు తరలించండి."</string>
+"<b>యాప్‌లను బ్యాకప్ చేయండి</b>" 
+ఈ ^1లోని అన్ని యాప్‌లు అన్ఇన్‌స్టాల్ చేయబడతాయి మరియు వాటి డేటా తొలగించబడుతుంది. ఈ యాప్‌లను అలాగే ఉంచడానికి, వీటిని ఈ పరికరంలోని ప్రత్యామ్నాయ నిల్వకు తరలించండి."</string>
     <string name="storage_internal_title">పరికర నిల్వ</string>
-    <string name="storage_internal_unmount_details"><b>మీరు ఈ ^1ను తొలగించినప్పుడు, దీనిలో నిల్వ చేసిన యాప్‌లు పని చేయకుండా ఆగిపోతాయి మరియు దీనిలో నిల్వ చేసిన మీడియా ఫైల్‌లు దీన్ని తిరిగి చొప్పించే వరకు అందుబాటులో లేకుండాపోతాయి.</b>" 
+    <string name="storage_internal_unmount_details"><b>మీరు ఈ ^1ను తొలగించినప్పుడు, దీనిలో నిల్వ చేసిన యాప్‌లు పని చేయకుండా ఆగిపోతాయి మరియు దీనిలో నిల్వ చేసిన మీడియా ఫైళ్లు దీన్ని తిరిగి చొప్పించే వరకు అందుబాటులో లేకుండాపోతాయి.</b>" 
 
 ఈ ^1 ఈ పరికరంలో మాత్రమే పని చేసేలా ఫార్మాట్ చేయబడింది. ఇది ఇంక వేటిలోనూ పని చేయదు."</string>
     <string name="storage_label">స్టోరేజ్</string>
@@ -4910,7 +4909,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_title_usb">USB కంప్యూటర్ కనెక్షన్</string>
     <string name="storage_total_summary">మొత్తం %1$s %2$s</string>
     <string name="storage_trash">ట్రాష్</string>
-    <string name="storage_trash_dialog_ask_message">ట్రాష్‌లో %1$s ఫైల్‌లు ఉన్నాయి. అన్ని ఐటెమ్‌లు శాశ్వతంగా తొలగించబడతాయి, మీరు వాటిని రీస్టోర్ చేయలేరు.</string>
+    <string name="storage_trash_dialog_ask_message">ట్రాష్‌లో %1$s ఫైళ్లు ఉన్నాయి. అన్ని ఐటెమ్‌లు శాశ్వతంగా తొలగించబడతాయి, మీరు వాటిని రీస్టోర్ చేయలేరు.</string>
     <string name="storage_trash_dialog_confirm">ట్రాష్‌ని ఖాళీ చేయి</string>
     <string name="storage_trash_dialog_empty_message">ట్రాష్ ఖాళీగా ఉంది</string>
     <string name="storage_trash_dialog_title">ట్రాష్‌ని ఖాళీ చేయాలా?</string>
@@ -4936,7 +4935,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_wizard_format_confirm_public_title">పోర్టబుల్ నిల్వగా ఫార్మాట్ చేయండి</string>
     <string name="storage_wizard_format_confirm_title">అంతర్గత నిల్వగా ఫార్మాట్ చేయండి</string>
     <string name="storage_wizard_format_confirm_v2_action">^1ని ఫార్మాట్ చేయి</string>
-    <string name="storage_wizard_format_confirm_v2_body">"యాప్‌లు, ఫైల్‌లు మరియు మీడియాని నిల్వ చేయడం కోసం ఈ ^1ని ఫార్మాట్ చేయాలి. 
+    <string name="storage_wizard_format_confirm_v2_body">"యాప్‌లు, ఫైళ్లు మరియు మీడియాని నిల్వ చేయడం కోసం ఈ ^1ని ఫార్మాట్ చేయాలి. 
 
 ఫార్మాట్ చేయడం వల్ల ^2లోని కంటెంట్ తుడిచివేయబడుతుంది. కంటెంట్‌ని కోల్పోవడాన్ని నివారించాలంటే, దీనిని మరో ^3 లేదా పరికరానికి బ్యాకప్ చేయండి."</string>
     <string name="storage_wizard_format_confirm_v2_title">ఈ ^1ని ఫార్మాట్ చేయాలా?</string>
@@ -4948,15 +4947,15 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_wizard_init_internal_title">అంతర్గత నిల్వగా ఉపయోగించు</string>
     <string name="storage_wizard_init_title">మీ ^1 సెటప్ చేయండి</string>
     <string name="storage_wizard_init_v2_external_action">పోర్టబుల్ నిల్వ</string>
-    <string name="storage_wizard_init_v2_external_summary">పరికరాల మధ్య ఫైల్‌లు మరియు మీడియాని బదిలీ చేయడం కోసం</string>
+    <string name="storage_wizard_init_v2_external_summary">పరికరాల మధ్య ఫైళ్లు మరియు మీడియాని బదిలీ చేయడం కోసం</string>
     <string name="storage_wizard_init_v2_external_title">పోర్టబుల్ నిల్వ కోసం ఉపయోగించండి</string>
     <string name="storage_wizard_init_v2_internal_action">ఫోన్ నిల్వ</string>
-    <string name="storage_wizard_init_v2_internal_summary">ఈ ఫోన్‌లో ఉన్న యాప్‌లు, ఫైల్‌లు మరియు మీడియా కోసం మాత్రమే</string>
+    <string name="storage_wizard_init_v2_internal_summary">ఈ ఫోన్‌లో ఉన్న యాప్‌లు, ఫైళ్లు మరియు మీడియా కోసం మాత్రమే</string>
     <string name="storage_wizard_init_v2_internal_title">అదనపు ఫోన్ నిల్వ కోసం ఉపయోగించండి</string>
     <string name="storage_wizard_init_v2_later">తర్వాత సెటప్ చేయి</string>
     <string name="storage_wizard_init_v2_or">లేదా</string>
     <string name="storage_wizard_init_v2_title">మీరు ఈ ^1ని ఎలా ఉపయోగిస్తారు?</string>
-    <string name="storage_wizard_migrate_body">"మీరు మీ ఫోటోలు, ఫైల్‌లు మరియు కొన్ని అనువర్తనాలను ఈ కొత్త ^1కి తరలించవచ్చు. 
+    <string name="storage_wizard_migrate_body">"మీరు మీ ఫోటోలు, ఫైళ్లు మరియు కొన్ని యాప్‌లను ఈ కొత్త ^1కి తరలించవచ్చు. 
 
 తరలించడానికి సుమారు ^2 పట్టవచ్చు మరియు దీని వలన అంతర్గత నిల్వలో ^3 ఖాళీ అవుతుంది. ఇది జరుగుతున్నప్పుడు కొన్ని యాప్‌లు పని చేయవు."</string>
     <string name="storage_wizard_migrate_confirm_body"><b>తరలించడానికి సుమారు ^1 పడుతుంది. దీని వలన ^3లో ^2 ఖాళీ చేయబడుతుంది.</b></string>
@@ -4971,7 +4970,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_wizard_migrate_progress_title">డేటాను తరలిస్తోంది…</string>
     <string name="storage_wizard_migrate_progress_v2_title">కంటెంట్‌ని తరలిస్తోంది…</string>
     <string name="storage_wizard_migrate_title">డేటాను కొత్త నిల్వకు తరలించండి</string>
-    <string name="storage_wizard_migrate_v2_body">"మీరు ఫైల్‌లు, మీడియా మరియు నిర్దిష్ట యాప్‌లను ఈ ^1కి తరలించవచ్చు. 
+    <string name="storage_wizard_migrate_v2_body">"మీరు ఫైళ్లు, మీడియా మరియు నిర్దిష్ట యాప్‌లను ఈ ^1కి తరలించవచ్చు. 
 
 ఇది మీ ఫోన్ యొక్క నిల్వలో ^2 ఖాళీ చేస్తుంది మరియు దాదాపు ^3 పట్టవచ్చు."</string>
     <string name="storage_wizard_migrate_v2_checklist">తరలించే సమయంలో:</string>
@@ -4994,7 +4993,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_wizard_ready_external_body">మీ ^1 ఫోటోలు మరియు ఇతర మీడియాతో ఉపయోగించేలా పూర్తిగా సెట్ చేయబడింది.</string>
     <string name="storage_wizard_ready_internal_body">"మీ కొత్త ^1 పని చేస్తోంది. 
 
-ఫోటోలు, ఫైల్‌లు మరియు అనువర్తన డేటాను ఈ పరికరానికి తరలించడానికి, సెట్టింగ్‌లు > నిల్వకు వెళ్లండి."</string>
+ఫోటోలు, ఫైళ్లు మరియు యాప్‌ డేటాను ఈ పరికరానికి తరలించడానికి, సెట్టింగ్‌లు > నిల్వకు వెళ్లండి."</string>
     <string name="storage_wizard_ready_title">మీ ^1 ఉపయోగించడానికి సిద్ధంగా ఉంది</string>
     <string name="storage_wizard_ready_v2_external_body">మీరు ^1కు కంటెంట్‌ను తరలించవచ్చు</string>
     <string name="storage_wizard_ready_v2_internal_body">కంటెంట్‌ని ^1కి తరలించాలంటే, <b>సెట్టింగ్‌లు > నిల్వ</b>కి వెళ్లండి</string>
@@ -5014,7 +5013,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="storage_wizard_slow_v2_continue">కొనసాగించు</string>
     <string name="storage_wizard_slow_v2_start_over">మొదటి నుండి ప్రారంభించు</string>
     <string name="storage_wizard_slow_v2_title">^1 నెమ్మదిగా పని చేస్తోంది</string>
-    <string name="storageuse_settings_summary">అనువర్తనాల ద్వారా ఉపయోగించబడిన నిల్వను వీక్షించండి</string>
+    <string name="storageuse_settings_summary">యాప్‌ల ద్వారా ఉపయోగించబడిన నిల్వను వీక్షించండి</string>
     <string name="storageuse_settings_title">నిల్వ వినియోగం</string>
     <string name="strict_mode">ఖచ్చితమైన మోడ్ ప్రారంభించబడింది</string>
     <string name="strict_mode_summary">యాప్‌లు ప్రధాన థ్రెడ్‌లో సుదీర్ఘ చర్యలు చేసేటప్పుడు స్క్రీన్‌ను ఫ్లాష్ చేయండి</string>
@@ -5057,7 +5056,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="switch_to_removable_notification">%1$sకి మార్చబడింది</string>
     <string name="switch_to_removable_notification_no_carrier_name">మరొక క్యారియర్‌కి మార్చబడింది</string>
     <string name="sync_active">సమకాలీకరణ సక్రియంగా ఉంది</string>
-    <string name="sync_automatically">అనువర్తన డేటాను స్వయంచాలకంగా సమకాలీకరించు</string>
+    <string name="sync_automatically">యాప్‌ డేటాను ఆటోమేటిక్‌గా సమకాలీకరించు</string>
     <string name="sync_calendar">Calendar</string>
     <string name="sync_contacts">కాంటాక్ట్‌లు</string>
     <string name="sync_disabled">సింక్‌ ఆఫ్‌లో ఉంది</string>
@@ -5336,12 +5335,12 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="usb_file_transfer_title">ఫైల్ బదిలీ ఆప్షన్‌లు</string>
     <string name="usb_midi_summary">MIDI ప్రారంభిత యాప్‌లు USB ద్వారా మీ కంప్యూటర్‌లోని MIDI సాఫ్ట్‌వేర్‌తో పని చేసేలా అనుమతిస్తుంది.</string>
     <string name="usb_midi_title">MIDI</string>
-    <string name="usb_mtp_summary">Windowsలో మీడియా ఫైల్‌లను బదిలీ చేయడానికి లేదా Macలో Android ఫైల్ బదిలీని ఉపయోగించి (www.android.com/filetransferని చూడండి) బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది</string>
+    <string name="usb_mtp_summary">Windowsలో మీడియా ఫైళ్లను బదిలీ చేయడానికి లేదా Macలో Android ఫైల్ బదిలీని ఉపయోగించి (www.android.com/filetransferని చూడండి) బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది</string>
     <string name="usb_mtp_title">మీడియా పరికరం (MTP)</string>
     <string name="usb_power_title">పవర్ ఆప్షన్‌లు</string>
     <string name="usb_pref">USB</string>
     <string name="usb_preference">USB ప్రాధాన్యతలు</string>
-    <string name="usb_ptp_summary">కెమెరా సాఫ్ట్‌వేర్‌ను ఉపయోగించి ఫోటోలను బదిలీ చేయడానికి మరియు MTPకి మద్దతివ్వని కంప్యూటర్‌ల్లో ఏవైనా ఫైల్‌లను బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది</string>
+    <string name="usb_ptp_summary">కెమెరా సాఫ్ట్‌వేర్‌ను ఉపయోగించి ఫోటోలను బదిలీ చేయడానికి మరియు MTPకి మద్దతివ్వని కంప్యూటర్‌ల్లో ఏవైనా ఫైళ్లను బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది</string>
     <string name="usb_ptp_title">కెమెరా (PTP)</string>
     <string name="usb_summary_MIDI">MIDI</string>
     <string name="usb_summary_MIDI_power">MIDI మరియు విద్యుత్తు శక్తి సరఫరా</string>
@@ -5366,9 +5365,9 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="usb_use_charging_only">డేటా బదిలీ లేదు</string>
     <string name="usb_use_charging_only_desc">కేవలం ఈ పరికరాన్ని ఛార్జ్ చేస్తుంది</string>
     <string name="usb_use_file_transfers">ఫైల్ బదిలీ / Android Auto</string>
-    <string name="usb_use_file_transfers_desc">మరొక పరికరానికి ఫైల్‌లను బదిలీ చేస్తుంది</string>
+    <string name="usb_use_file_transfers_desc">మరొక పరికరానికి ఫైళ్లను బదిలీ చేస్తుంది</string>
     <string name="usb_use_photo_transfers">PTP</string>
-    <string name="usb_use_photo_transfers_desc">MTPకి మద్దతు లేకపోతే ఫోటోలు లేదా ఫైల్‌లను బదిలీ చేస్తుంది (PTP)</string>
+    <string name="usb_use_photo_transfers_desc">MTPకి మద్దతు లేకపోతే ఫోటోలు లేదా ఫైళ్లను బదిలీ చేస్తుంది (PTP)</string>
     <string name="usb_use_power_only">కనెక్ట్ చేసిన పరికరాన్ని ఛార్జ్ చేయండి</string>
     <string name="usb_use_tethering">USB టెథరింగ్‌</string>
     <string name="use_location_summary">శోధన ఫలితాలు మరియు ఇతర సేవలను మెరుగుపరచడం కోసం మీ స్థానాన్ని ఉపయోగించడానికి Googleని అనుమతించండి</string>
@@ -5381,9 +5380,9 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="use_wifi_hotsopt_main_switch_title">Wi‑Fi హాట్‌స్పాట్‌ను ఉపయోగించండి</string>
     <string name="user_account_title">కంటెంట్ కోసం ఖాతా</string>
     <string name="user_add_max_count">మీరు గరిష్టంగా %1$d మంది వినియోగదారులను జోడించవచ్చు</string>
-    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి అనువర్తనాలకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
+    <string name="user_add_profile_item_summary">మీరు మీ ఖాతా నుండి యాప్‌లకు మరియు కంటెంట్‌కు ప్రాప్యతను పరిమితం చేయవచ్చు</string>
     <string name="user_add_profile_item_title">పరిమితం చేయబడిన ప్రొఫైల్</string>
-    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత అనువర్తనాలను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
+    <string name="user_add_user_item_summary">వినియోగదారులు వారి స్వంత యాప్‌లను మరియు కంటెంట్‌ను కలిగి ఉన్నారు</string>
     <string name="user_add_user_item_title">యూజర్</string>
     <string name="user_add_user_menu">యూజర్‌ను జోడించు</string>
     <string name="user_add_user_message_long">"అదనపు యూజర్‌లను సృష్టించడం ద్వారా మీరు ఈ దేవైజ్‌ను ఇతరులతో షేర్ చేయవచ్చు. ప్రతి యూజర్‌కు‌ వారికంటూ ప్రత్యేక స్థలం ఉంటుంది, వారు ఆ స్థలాన్ని యాప్‌లు, వాల్‌పేపర్ మొదలైనవాటితో అనుకూలీకరించవచ్చు. యూజర్‌లు ప్రతి ఒక్కరిపై ప్రభావం చూపే Wi‑Fi వంటి పరికర సెట్టింగ్‌లను కూడా సర్దుబాటు చేయవచ్చు.
@@ -5433,12 +5432,12 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="user_dict_settings_more_languages">మరిన్ని భాషలు…</string>
     <string name="user_dict_settings_summary">స్పెల్ చెకర్ వంటి యాప్‌లలో ఉపయోగించాల్సిన పదాలను జోడించండి</string>
     <string name="user_dict_settings_title">వ్యక్తిగత నిఘంటువు</string>
-    <string name="user_enable_calling">ఫోన్ కాల్‌లను ఆన్ చేయి</string>
+    <string name="user_enable_calling">ఫోన్ కాల్స్‌ను ఆన్ చేయి</string>
     <string name="user_enable_calling_and_sms_confirm_message">కాల్, SMS హిస్టరీ ఈ యూజర్‌తో షేర్ చేయబడుతుంది.</string>
-    <string name="user_enable_calling_and_sms_confirm_title">ఫోన్ కాల్‌లు &amp; SMSను ఆన్ చేయాలా?</string>
+    <string name="user_enable_calling_and_sms_confirm_title">ఫోన్ కాల్స్‌ &amp; SMSను ఆన్ చేయాలా?</string>
     <string name="user_enable_calling_confirm_message">కాల్ హిస్టరీ ఈ యూజర్‌తో షేర్ చేయబడుతుంది.</string>
-    <string name="user_enable_calling_confirm_title">ఫోన్ కాల్‌లను ఆన్ చేయాలా?</string>
-    <string name="user_enable_calling_sms">ఫోన్ కాల్‌లు &amp; SMS ఆన్ చేయి</string>
+    <string name="user_enable_calling_confirm_title">ఫోన్ కాల్స్‌ను ఆన్ చేయాలా?</string>
+    <string name="user_enable_calling_sms">ఫోన్ కాల్స్‌ &amp; SMS ఆన్ చేయి</string>
     <string name="user_exit_guest_confirm_message">ఈ సెషన్‌లోని అన్ని యాప్‌లు మరియు డేటా తొలగించబడతాయి.</string>
     <string name="user_exit_guest_confirm_title">అతిథిని తీసివేయాలా?</string>
     <string name="user_exit_guest_dialog_remove">తీసివేయి</string>
@@ -5477,7 +5476,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="user_summary_restricted_profile">పరిమితం చేయబడిన ప్రొఫైల్</string>
     <string name="user_switch_to_user">%sకు స్విచ్ చేయి</string>
     <string name="user_you">మీరు (%s)</string>
-    <string name="users_summary">%1$sగా సైన్ ఇన్ చేసారు</string>
+    <string name="users_summary">%1$sగా సైన్ ఇన్ చేశారు</string>
     <string name="uwb_settings_summary">UWBని కలిగి ఉన్న సమీపంలోని పరికరాల సంబంధిత స్థానాన్ని గుర్తించడంలో సహాయపడుతుంది</string>
     <string name="uwb_settings_summary_airplane_mode">UWBని ఉపయోగించడానికి విమానం మోడ్‌ను ఆఫ్ చేయండి</string>
     <string name="uwb_settings_title">అల్ట్రా-వైడ్‌బ్యాండ్ (UWB)</string>
@@ -5486,7 +5485,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="verify_apps_over_usb_summary">హానికరమైన ప్రవర్తన కోసం ADB/ADT ద్వారా ఇన్‌స్టాల్ చేయబడిన యాప్‌లను తనిఖీ చేయి.</string>
     <string name="verify_apps_over_usb_title">USB ద్వారా యాప్‌లను వెరిఫై చేయి</string>
     <string name="version_text">వెర్షన్ %1$s</string>
-    <string name="vibrate_for_calls_settings_not_available_summary">ఫోన్ నిశ్శబ్ద మోడ్‌కు సెట్ చేయబడింది, కాబట్టి కాల్‌లు వచ్చినప్పుడు వైబ్రేట్ అయ్యే ఫీచర్ అందుబాటులో లేదు</string>
+    <string name="vibrate_for_calls_settings_not_available_summary">ఫోన్ నిశ్శబ్ద మోడ్‌కు సెట్ చేయబడింది, కాబట్టి కాల్స్‌ వచ్చినప్పుడు వైబ్రేట్ అయ్యే ఫీచర్ అందుబాటులో లేదు</string>
     <string name="vibrate_in_silent_title">నిశ్శబ్దంగా ఉన్నప్పుడు వైబ్రేట్ చేయి</string>
     <string name="vibrate_input_devices">వైబ్రేషన్ దారి మళ్లించు</string>
     <string name="vibrate_input_devices_summary">కనెక్ట్ చేసినప్పుడు గేమ్ కంట్రోలర్‌కు వైబ్రేషన్‌ని పంపు</string>
@@ -5595,7 +5594,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="vpn_type">రకం</string>
     <string name="vpn_username">యూజర్ పేరు</string>
     <string name="vpn_version">వెర్షన్ %s</string>
-    <string name="vr_listener_security_warning_summary">మీరు వర్చువల్ రియాలిటీ మోడ్‌లో అనువర్తనాలను ఉపయోగిస్తున్నప్పుడు %1$s అమలు కాగలదు.</string>
+    <string name="vr_listener_security_warning_summary">మీరు వర్చువల్ రియాలిటీ మోడ్‌లో యాప్‌లను ఉపయోగిస్తున్నప్పుడు %1$s అమలు కాగలదు.</string>
     <string name="vr_listener_security_warning_title">%1$s కోసం VR సేవ ప్రాప్యతను అనుమతించాలా?</string>
     <string name="vr_listeners_title">VR సహాయక సర్వీసులు</string>
     <string name="wait_for_debugger">డీబగ్గర్ కోసం వేచి ఉండండి</string>
@@ -5623,10 +5622,10 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="webview_uninstalled_for_user">(%sకు అన్ఇన్‌స్టాల్ చేయబడింది)</string>
     <string name="wfc_disclaimer_agree_button_text">కొనసాగించు</string>
     <string name="wfc_disclaimer_disagree_text">వద్దు, ధన్యవాదాలు</string>
-    <string name="wfc_disclaimer_emergency_limitation_desc_text">"Wi‑Fi కాలింగ్‌ను ఉపయోగించి అత్యవసర కాల్‌లను చేయడానికి మీ క్యారియర్‌కు మద్దతు లేదు.
+    <string name="wfc_disclaimer_emergency_limitation_desc_text">"Wi‑Fi కాలింగ్‌ను ఉపయోగించి అత్యవసర కాల్స్‌ను చేయడానికి మీ క్యారియర్‌కు మద్దతు లేదు.
 అత్యవసర కాల్‌ను చేయాల్సినప్పుడు పరికరం ఆటోమేటిక్‌గా సెల్యులార్ నెట్‌వర్క్‌‌కు మారుతుంది.
-సెల్యులార్ కవరేజీ ఉన్న ప్రాంతాలలో మాత్రమే అత్యవసర కాల్‌లను చేయడానికి సాధ్యమవుతుంది."</string>
-    <string name="wfc_disclaimer_emergency_limitation_title_text">అత్యవసర కాల్‌లు</string>
+సెల్యులార్ కవరేజీ ఉన్న ప్రాంతాలలో మాత్రమే అత్యవసర కాల్స్‌ను చేయడానికి సాధ్యమవుతుంది."</string>
+    <string name="wfc_disclaimer_emergency_limitation_title_text">అత్యవసర కాల్స్‌</string>
     <string name="wfc_disclaimer_location_desc_text">"మీరు ఈ సర్వీస్‌ను ఎమర్జెన్సీ కాల్స్ కోసం ఉపయోగించినప్పుడు మీ క్యారియర్ మీ లొకేషన్‌ను సేకరించే అవకాశం ఉంది.
 
 వివరాల కోసం మీ క్యారియర్ గోప్యతా పాలసీని సందర్శించండి."</string>
@@ -5679,7 +5678,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="wifi_calling_mode_wifi_only_summary">Wi‑Fi ద్వారా కాల్ చేయగలరు. Wi‑Fiని కోల్పోతే, కాల్ ముగిసిపోతుంది.</string>
     <string name="wifi_calling_mode_wifi_preferred_summary">Wi‑Fi అందుబాటులో లేకుంటే, మొబైల్ నెట్‌వర్క్‌ను ఉపయోగిస్తుంది</string>
     <string name="wifi_calling_not_supported">%1$sలో Wi‑Fi కాలింగ్‌కు మద్దతు లేదు</string>
-    <string name="wifi_calling_off_explanation">Wi-Fi కాలింగ్ ఆన్‌లో ఉన్నప్పుడు, మీ ఫోన్ మీ ప్రాధాన్యత మరియు ఏ సిగ్నల్ సామర్థ్యం ఎక్కువగా ఉంది వంటి అంశాల ఆధారంగా Wi-Fi నెట్‌వర్క్‌లు లేదా మీ క్యారియర్ నెట్‌వర్క్ ద్వారా కాల్‌లు వెళ్లేలా చేస్తుంది. ఈ ఫీచర్‌ను ఆన్ చేయడానికి ముందు, రుసుములు మరియు ఇతర వివరాల గురించి తెలుసుకోవడానికి మీ క్యారియర్‌ను సంప్రదించండి.%1$s</string>
+    <string name="wifi_calling_off_explanation">Wi-Fi కాలింగ్ ఆన్‌లో ఉన్నప్పుడు, మీ ఫోన్ మీ ప్రాధాన్యత మరియు ఏ సిగ్నల్ సామర్థ్యం ఎక్కువగా ఉంది వంటి అంశాల ఆధారంగా Wi-Fi నెట్‌వర్క్‌లు లేదా మీ క్యారియర్ నెట్‌వర్క్ ద్వారా కాల్స్‌ వెళ్లేలా చేస్తుంది. ఈ ఫీచర్‌ను ఆన్ చేయడానికి ముందు, రుసుములు మరియు ఇతర వివరాల గురించి తెలుసుకోవడానికి మీ క్యారియర్‌ను సంప్రదించండి.%1$s</string>
     <string name="wifi_calling_off_explanation_2" />
     <string name="wifi_calling_pref_managed_by_carrier">క్యారియర్ ద్వారా నిర్వహించబడుతున్న సెట్టింగ్</string>
     <string name="wifi_calling_roaming_mode_dialog_title">రోమింగ్ ప్రాధాన్యత</string>
@@ -5687,8 +5686,8 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="wifi_calling_settings_activation_instructions">Wi-Fi కాలింగ్‌ను సక్రియం చేయండి</string>
     <string name="wifi_calling_settings_title">Wi-Fi కాలింగ్</string>
     <string name="wifi_calling_suggestion_summary">కవరేజిని విస్తరించడానికి Wi‑Fi కాలింగ్‌ను ఆన్ చేయండి</string>
-    <string name="wifi_calling_suggestion_title">Wi‑Fiతో కాల్‌లను విస్తరింపజేయండి</string>
-    <string name="wifi_calling_summary">కాల్‌ల నాణ్యతను మెరుగుపరచడానికి Wi‑Fiని ఉపయోగించు</string>
+    <string name="wifi_calling_suggestion_title">Wi‑Fiతో కాల్స్‌ను విస్తరింపజేయండి</string>
+    <string name="wifi_calling_summary">కాల్స్‌ల నాణ్యతను మెరుగుపరచడానికి Wi‑Fiని ఉపయోగించు</string>
     <string name="wifi_calling_turn_on">Wi-Fi కాలింగ్‌ను ఆన్ చేయండి</string>
     <string name="wifi_cancel">రద్దు చేయి</string>
     <string name="wifi_cant_connect">కనెక్ట్ చేయడం సాధ్యపడదు</string>
@@ -5696,7 +5695,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="wifi_carrier_connect">క్యారియర్ Wi‑Fi నెట్‌వర్క్</string>
     <string name="wifi_carrier_content">%1$s ద్వారా కనెక్ట్ చేయండి</string>
     <string name="wifi_cellular_data_fallback_summary">Wi‑Fiకి ఇంటర్నెట్ యాక్సెస్ లేనప్పుడు మొబైల్ డేటాను ఉపయోగిస్తుంది. డేటా వినియోగ ఛార్జీలు వర్తించవచ్చు.</string>
-    <string name="wifi_cellular_data_fallback_title">స్వయంచాలకంగా మొబైల్ డేటాకి మార్చు</string>
+    <string name="wifi_cellular_data_fallback_title">ఆటోమేటిక్‌గా మొబైల్ డేటాకి మార్చు</string>
     <string name="wifi_certificate">Wi‑Fi సర్టిఫికెట్</string>
     <string name="wifi_check_password_try_again">పాస్‌వర్డ్‌ను చెక్ చేసి, మళ్లీ ప్రయత్నించండి</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_off">Wi‑Fi ఆటోమేటిక్‌గా తిరిగి ఆన్ చేయబడదు</string>
@@ -5857,7 +5856,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="wifi_network_prefix_length">నెట్‌వర్క్ ప్రిఫిక్స్ పొడవు</string>
     <string name="wifi_no_domain_warning">తప్పనిసరిగా డొమైన్‌ను పేర్కొనాలి.</string>
     <string name="wifi_no_internet">ఇంటర్నెట్ యాక్సెస్ లేదు</string>
-    <string name="wifi_no_internet_no_reconnect">స్వయంచాలకంగా కనెక్ట్ కాదు</string>
+    <string name="wifi_no_internet_no_reconnect">ఆటోమేటిక్‌గా కనెక్ట్ కాదు</string>
     <string name="wifi_no_related_sim_card">ఏదీ కాదు</string>
     <string name="wifi_no_sim_card">సిమ్ లేదు</string>
     <string name="wifi_no_user_cert_warning">సర్టిఫికెట్ అవసరం.</string>
@@ -5905,7 +5904,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="wifi_scan_always_turnoff_message">దీన్ని ఆఫ్ చేయడానికి, ఓవర్‌ఫ్లో మెనులో అధునాతనంకి వెళ్లండి.</string>
     <string name="wifi_scan_always_turnon_message">"స్థాన ఖచ్చితత్వాన్ని మెరుగుపరచడానికి మరియు ఇతర ప్రయోజనాల దృష్ట్యా, %1$s Wi-Fi ఆఫ్‌లో ఉన్నప్పటికీ, నెట్‌వర్క్‌ను స్కాన్ చేయడం ప్రారంభించాలనుకుంటుంది.
 
-స్కాన్ చేయాలనుకునే అన్ని అనువర్తనాల కోసం దీన్ని అనుమతించాలా?"</string>
+స్కాన్ చేయాలనుకునే అన్ని యాప్‌ల కోసం దీన్ని అనుమతించాలా?"</string>
     <string name="wifi_scan_notify_remember_choice">మళ్లీ చూపవద్దు</string>
     <string name="wifi_scan_notify_text">లొకేషన్ ఖచ్చితత్వాన్ని మెరుగుపరచడానికి యాప్‌లు, సర్వీస్‌లు ఏ సమయంలో అయినా Wi‑Fi నెట్‌వర్క్‌ల కోసం స్కాన్ చేయగలవు. ఉదాహరణకు, దీనిని ఉపయోగించి లొకేషన్ ఆధారిత ఫీచర్‌లు, సర్వీస్‌లను మెరుగుపరచవచ్చు. మీరు దీనిని LINK_BEGINWi‑Fi స్కానింగ్ సెట్టింగ్‌లLINK_ENDలో మార్చవచ్చు.</string>
     <string name="wifi_scan_notify_text_scanning_off">లొకేషన్ ఖచ్చితత్వాన్ని మెరుగుపరచాలంటే, LINK_BEGINWi‑Fi స్కానింగ్ సెట్టింగ్‌లLINK_ENDలో Wi-Fi స్కానింగ్‌ను ఆన్ చేయండి.</string>
@@ -6045,7 +6044,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="work_profile_confirm_remove_message">మీరు కొనసాగితే ఈ ప్రొఫైల్‌లోని మొత్తం యాప్‌లు మరియు డేటా తొలగించబడతాయి.</string>
     <string name="work_profile_confirm_remove_title">ఆఫీస్ ప్రొఫైల్ తీసివేయాలా?</string>
     <string name="work_profile_notification_access_blocked_summary">కార్యాలయ ప్రొఫైల్‌ నోటిఫికేషన్‌లకు యాక్సెస్ బ్లాక్ చేయబడింది</string>
-    <string name="work_profile_usage_access_warning">ఈ అనువర్తనంలో వినియోగ ప్రాప్యతను ఆఫ్ చేసినా కూడా మీ కార్యాలయ ప్రొఫైల్‌లోని అనువర్తన డేటా వినియోగాన్ని ట్రాక్ చేయకుండా మీ నిర్వాహకులు నివారించబడరు</string>
+    <string name="work_profile_usage_access_warning">ఈ యాప్‌లో వినియోగ ప్రాప్యతను ఆఫ్ చేసినా కూడా మీ కార్యాలయ ప్రొఫైల్‌లోని యాప్‌ డేటా వినియోగాన్ని ట్రాక్ చేయకుండా మీ నిర్వాహకులు నివారించబడరు</string>
     <string name="work_ringtone_title">ఆఫీస్‌ ఫోన్ రింగ్‌టోన్</string>
     <string name="work_sim_title">కార్యాలయ సిమ్</string>
     <string name="work_sound_same_as_personal">వ్యక్తిగత ప్రొఫైల్‌లో వలె ఉంచబడతాయి</string>
@@ -6099,10 +6098,10 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_alarms_list_first">అలారాలు</string>
     <string name="zen_mode_alarms_summary">టైమర్‌లు, అలారంలు, సెక్యూరిటీ సిస్టమ్‌లు, ఇతర యాప్‌ల నుంచి</string>
     <string name="zen_mode_all_callers">ఎవరైనా</string>
-    <string name="zen_mode_all_calls_summary">అన్ని కాల్‌లు మిమ్మల్ని చేరుతాయి</string>
+    <string name="zen_mode_all_calls_summary">అన్ని కాల్స్‌ మిమ్మల్ని చేరుతాయి</string>
     <string name="zen_mode_all_messages_summary">అన్ని మెసేజ్‌లు మిమ్మల్ని చేరుతాయి</string>
     <string name="zen_mode_and_condition">%1$s. %2$s</string>
-    <string name="zen_mode_app_set_behavior">ఈ సెట్టింగ్‌లు ప్రస్తుతం మార్చబడవు. ఒక యాప్ (%1$s) అనుకూల ప్రవర్తనతో స్వయంచాలకంగా అంతరాయం కలిగించవద్దుని ఆన్ చేసింది.</string>
+    <string name="zen_mode_app_set_behavior">ఈ సెట్టింగ్‌లు ప్రస్తుతం మార్చబడవు. ఒక యాప్ (%1$s) అనుకూల ప్రవర్తనతో ఆటోమేటిక్‌గా అంతరాయం కలిగించవద్దుని ఆన్ చేసింది.</string>
     <string name="zen_mode_automatic_rule_settings_page_title">షెడ్యూల్ చేయి</string>
     <string name="zen_mode_automation_settings_page_title">షెడ్యూల్‌లు</string>
     <string name="zen_mode_automation_settings_title">షెడ్యూల్‌లు</string>
@@ -6144,12 +6143,12 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_bypassing_apps_summary_all">అన్ని నోటిఫికేషన్‌లు</string>
     <string name="zen_mode_bypassing_apps_summary_some">కొన్ని నోటిఫికేషన్‌లు</string>
     <string name="zen_mode_bypassing_apps_title">యాప్‌లు</string>
-    <string name="zen_mode_calls">కాల్‌లు</string>
-    <string name="zen_mode_calls_footer">అనుమతించిన కాల్‌లు వచ్చినప్పుడు శబ్దం వస్తుందని నిర్ధారించుకోవడానికి, పరికరం రింగ్ మోడ్‌లో ఉందో లేదో చెక్ చేయండి</string>
-    <string name="zen_mode_calls_header">అంతరాయం కలిగించగల కాల్‌లు</string>
-    <string name="zen_mode_calls_list">కాల్‌లు</string>
+    <string name="zen_mode_calls">కాల్స్‌</string>
+    <string name="zen_mode_calls_footer">అనుమతించిన కాల్స్‌ వచ్చినప్పుడు శబ్దం వస్తుందని నిర్ధారించుకోవడానికి, పరికరం రింగ్ మోడ్‌లో ఉందో లేదో చెక్ చేయండి</string>
+    <string name="zen_mode_calls_header">అంతరాయం కలిగించగల కాల్స్‌</string>
+    <string name="zen_mode_calls_list">కాల్స్‌</string>
     <string name="zen_mode_calls_summary_two">%1$s, %2$s</string>
-    <string name="zen_mode_calls_title">కాల్‌లు</string>
+    <string name="zen_mode_calls_title">కాల్స్‌</string>
     <string name="zen_mode_choose_rule_type">షెడ్యూల్ రకాన్ని ఎంచుకోండి</string>
     <string name="zen_mode_contacts_callers">కాంటాక్ట్‌లు</string>
     <string name="zen_mode_contacts_count">{count,plural, =0{ఏవీ లేవు}=1{1 కాంటాక్ట్}other{# కాంటాక్ట్‌లు}}</string>
@@ -6160,8 +6159,8 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_custom_behavior_summary">ఈ షెడ్యూల్ కోసం అనుకూల సెట్టింగ్‌లను క్రియేట్ చేయండి</string>
     <string name="zen_mode_custom_behavior_summary_default">ఆటోమేటిక్ సెట్టింగ్‌లను ఉపయోగించండి</string>
     <string name="zen_mode_custom_behavior_title">అంతరాయం కలిగించవద్దు ప్రవర్తన</string>
-    <string name="zen_mode_custom_calls_footer">‘%1$s’ సంబంధిత‌ ఇన్‌కమింగ్ కాల్‌లు బ్లాక్ చేయబడ్డాయి. మీ స్నేహితులు, కుటుంబ సభ్యులు లేదా ఇతర పరిచయాలు మిమ్మల్ని సంప్రదించగలిగేలా మీరు సెట్టింగ్‌లను సర్దుబాటు చేయవచ్చు.</string>
-    <string name="zen_mode_custom_messages_footer">‘%1$s’కి సంబంధించిన ఇన్‌కమింగ్ కాల్‌లు బ్లాక్ చేయబడ్డాయి. మీ స్నేహితులు, కుటుంబ సభ్యులు లేదా ఇతర పరిచయాలు మిమ్మల్ని సంప్రదించగలిగేలా మీరు సెట్టింగ్‌లను సర్దుబాటు చేయవచ్చు.</string>
+    <string name="zen_mode_custom_calls_footer">‘%1$s’ సంబంధిత‌ ఇన్‌కమింగ్ కాల్స్‌ బ్లాక్ చేయబడ్డాయి. మీ స్నేహితులు, కుటుంబ సభ్యులు లేదా ఇతర పరిచయాలు మిమ్మల్ని సంప్రదించగలిగేలా మీరు సెట్టింగ్‌లను సర్దుబాటు చేయవచ్చు.</string>
+    <string name="zen_mode_custom_messages_footer">‘%1$s’కి సంబంధించిన ఇన్‌కమింగ్ కాల్స్‌ బ్లాక్ చేయబడ్డాయి. మీ స్నేహితులు, కుటుంబ సభ్యులు లేదా ఇతర పరిచయాలు మిమ్మల్ని సంప్రదించగలిగేలా మీరు సెట్టింగ్‌లను సర్దుబాటు చేయవచ్చు.</string>
     <string name="zen_mode_delete_automatic_rules">షెడ్యూల్‌ల తీసివేత</string>
     <string name="zen_mode_delete_rule">షెడ్యూల్‌ను తొలగించు</string>
     <string name="zen_mode_delete_rule_button">తొలగించు</string>
@@ -6183,7 +6182,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_event_rule_reply_yes_or_maybe">అవును లేదా కావచ్చు అని తెలిపితే</string>
     <string name="zen_mode_event_rule_summary_any_calendar">ఏదైనా క్యాలెండర్</string>
     <string name="zen_mode_event_rule_summary_calendar_template">%1$s సంబంధిత ఈవెంట్‌ల సమయంలో</string>
-    <string name="zen_mode_event_rule_summary_reply_template">ప్రత్యుత్తరం %1$s అని ఉంటే</string>
+    <string name="zen_mode_event_rule_summary_reply_template">రిప్లయి %1$s అని ఉంటే</string>
     <string name="zen_mode_events">క్యాలెండర్ ఈవెంట్‌లు</string>
     <string name="zen_mode_events_list">ఈవెంట్‌లు</string>
     <string name="zen_mode_events_list_first">ఈవెంట్‌లు</string>
@@ -6264,7 +6263,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_screen_on_summary">అంతరాయం కలిగించవద్దు నిశ్శబ్దం చేసిన నోటిఫికేషన్‌లు స్క్రీన్‌లో పాప్-అప్ వలె కనిపించి, స్థితి బార్ చిహ్నాన్ని చూపడానికి అనుమతించు</string>
     <string name="zen_mode_settings_category">శబ్దాలు చేసే అంతరాయాలను అనుమతించు</string>
     <string name="zen_mode_settings_dnd_automatic_rule">(%s) షెడ్యూల్ ప్రకారం అంతరాయం కలిగించవద్దు ఆటోమేటిక్‌గా ఆన్ చేయబడింది</string>
-    <string name="zen_mode_settings_dnd_automatic_rule_app">యాప్ %s ద్వారా అంతరాయం కలిగించవద్దు స్వయంచాలకంగా ఆన్ చేయబడింది</string>
+    <string name="zen_mode_settings_dnd_automatic_rule_app">యాప్ %s ద్వారా అంతరాయం కలిగించవద్దు ఆటోమేటిక్‌గా ఆన్ చేయబడింది</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">%s అనే నియమ పేర్లతో అనుకూల సెట్టింగ్‌ల ద్వారా అంతరాయం కలిగించవద్దు ఆన్ చేయబడింది.</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">అనుకూల సెట్టింగ్‌లను చూడండి</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">%s వరకు అంతరాయం కలిగించవద్దు ఆన్‌లో ఉంటుంది</string>
@@ -6292,12 +6291,12 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_mode_system_list">టచ్ సౌండ్స్</string>
     <string name="zen_mode_system_list_first">టచ్ సౌండ్స్</string>
     <string name="zen_mode_system_summary">కీబోర్డ్, ఇతర బటన్‌ల నుండి వచ్చే శబ్దాలు</string>
-    <string name="zen_mode_unknown_app_set_behavior">ఈ సెట్టింగ్‌లు ప్రస్తుతం మార్చబడవు. ఒక యాప్ అనుకూల ప్రవర్తనతో స్వయంచాలకంగా అంతరాయం కలిగించవద్దుని ఆన్ చేసింది.</string>
+    <string name="zen_mode_unknown_app_set_behavior">ఈ సెట్టింగ్‌లు ప్రస్తుతం మార్చబడవు. ఒక యాప్ అనుకూల ప్రవర్తనతో ఆటోమేటిక్‌గా అంతరాయం కలిగించవద్దుని ఆన్ చేసింది.</string>
     <string name="zen_mode_use_automatic_rule">షెడ్యూల్ ఉపయోగించు</string>
     <string name="zen_mode_visual_interruptions_settings_title">దృశ్య అంతరాయాలను బ్లాక్ చేయండి</string>
     <string name="zen_mode_visual_signals_settings_subtitle">దృశ్యమానత సంకేతాలను అనుమతించండి</string>
     <string name="zen_mode_what_to_block_title">అనుకూల పరిమితులు</string>
-    <string name="zen_mode_when">స్వయంచాలకంగా ఆన్ చేయి</string>
+    <string name="zen_mode_when">ఆటోమేటిక్‌గా ఆన్ చేయి</string>
     <string name="zen_mode_when_every_night">ప్రతి రాత్రి</string>
     <string name="zen_mode_when_never">ఎప్పటికీ వద్దు</string>
     <string name="zen_mode_when_weeknights">వారపురాత్రులు</string>
@@ -6306,7 +6305,7 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
     <string name="zen_onboarding_current_setting_summary">(ప్రస్తుత సెట్టింగ్)</string>
     <string name="zen_onboarding_current_setting_title">నోటిఫికేషన్‌ల సౌండ్ రాదు</string>
     <string name="zen_onboarding_dnd_visual_disturbances_header">అంతరాయం కలిగించవద్దు నోటిఫికేషన్‌ సెట్టింగ్‌లను మార్చాలా?</string>
-    <string name="zen_onboarding_new_setting_summary">మీరు నోటిఫికేషన్‌లను చూడలేరు లేదా వినలేరు. నక్షత్రం గుర్తు ఉన్న పరిచయాల మరియు రిపీట్ కాలర్‌‌ల నుండి కాల్‌లు అనుమతించబడతాయి.</string>
+    <string name="zen_onboarding_new_setting_summary">మీరు నోటిఫికేషన్‌లను చూడలేరు లేదా వినలేరు. నక్షత్రం గుర్తు ఉన్న పరిచయాల మరియు రిపీట్ కాలర్‌‌ల నుండి కాల్స్‌ అనుమతించబడతాయి.</string>
     <string name="zen_onboarding_new_setting_title">నోటిఫికేషన్‌లు కనిపించవు, వినిపించవు</string>
     <string name="zen_onboarding_ok">పూర్తయింది</string>
     <string name="zen_onboarding_settings">సెట్టింగ్‌లు</string>

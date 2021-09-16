@@ -595,6 +595,8 @@ Seleção"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">É necessário reiniciar o dispositivo para aplicar esta alteração. Reinicie agora ou cancele.</string>
     <string name="camera_hint">Deslize rapidamente a partir do ícone para aceder à câmara</string>
     <string name="camera_label">abrir câmara</string>
+    <string name="camera_recording_announcement">A câmara está a gravar</string>
+    <string name="camera_stopped_recording_announcement">A câmara parou a gravação</string>
     <string name="cancel">Cancelar</string>
     <string name="carrier_network_change_mode">Rede do operador em mudança.</string>
     <string name="category_personal">Pessoal</string>
@@ -734,6 +736,10 @@ Se retomar, podem aplicar-se custos relativos à utilização de dados."</string
     <string name="debug_monitoring_category">Monitorização</string>
     <string name="debug_networking_category">Redes</string>
     <string name="debug_view_attributes">Ativar a inspeção do atributo de visualização</string>
+    <string name="defender_notify_des">O telemóvel está a limitar o carregamento para ajudar a preservar o estado da bateria</string>
+    <string name="defender_notify_learn_more">Saber mais</string>
+    <string name="defender_notify_resume_charge">Retomar carregamento</string>
+    <string name="defender_notify_title">Carregamento limitado temporariamente</string>
     <string name="delete_blob_confirmation_text">Tem a certeza de que pretende eliminar estes dados partilhados?</string>
     <string name="delete_blob_text">Eliminar dados partilhados</string>
     <string name="demo_mode">Modo de demonstração da IU do sistema</string>
@@ -1070,6 +1076,7 @@ prioridade"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">A desbloquear o cartão SIM…</string>
     <string name="keyguard_try_fingerprint">Utilize a impressão digital para abrir</string>
     <string name="keyguard_unlock">Deslize rapidamente para cima para abrir</string>
+    <string name="keyguard_unlock_press">Prima para abrir</string>
     <string name="keywords_adb_wireless">adb, depurar, programador</string>
     <string name="keywords_alarms_and_reminders">agendar, alarme, lembrete, relógio</string>
     <string name="kg_enter_confirm_pin_hint">Confirme o código PIN pretendido</string>
@@ -1233,6 +1240,10 @@ Tente novamente dentro de %2$d segundos."</string>
     <string name="menu_ime">Comutador de teclado</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microfone ativado</string>
+    <string name="mic_and_camera_recording_announcement">A câmara e o microfone estão a gravar</string>
+    <string name="mic_camera_stopped_recording_announcement">A câmara e o microfone pararam a gravação</string>
+    <string name="mic_recording_announcement">O microfone está a gravar</string>
+    <string name="mic_stopped_recording_announcement">O microfone parou a gravação</string>
     <string name="missed_call">Chamada não atendida</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dados móveis</string>
@@ -1706,8 +1717,6 @@ Se tiver perguntas, contacte a %2$s."</string>
     <string name="quick_settings_work_mode_label">Apps trabalho</string>
     <string name="quick_step_accessibility_toggle_overview">Ativar/desativar Vista geral</string>
     <string name="recent_conversations">Conversas recentes</string>
-    <string name="recents_quick_scrub_onboarding">Arraste para a direita para mudar rapidamente de app.</string>
-    <string name="recents_swipe_up_onboarding">Deslizar rapidamente para cima para mudar de app</string>
     <string name="remaining_length_format">Resta(m) %1$s</string>
     <string name="remote_input_image_insertion_text">enviou uma imagem</string>
     <string name="remove_from_settings">Remover das Definições</string>
@@ -2117,6 +2126,7 @@ Qualquer utilizador pode atualizar apps para todos os outros utilizadores."</str
     <string name="wallet_secondary_label_no_card">Adicionar um cartão</string>
     <string name="wallet_secondary_label_updating">A atualizar</string>
     <string name="wallet_title">Carteira</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Ponto de acesso temporariamente cheio</string>
     <string name="wifi_cant_connect">Não é possível ligar</string>
     <string name="wifi_cant_connect_to_ap">Não é possível ligar a \"%1$s\"</string>

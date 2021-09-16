@@ -105,7 +105,7 @@
     <string name="audio_focus_state">音訊迴避%1$s</string>
     <string name="auto_detect">配合您手持裝置的方式</string>
     <string name="auto_scan_action_description">開始掃瞄並選取</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">[自動掃瞄] 或 [選取]</string>
     <string name="available_devices_header">可配對的藍牙裝置</string>
     <string name="basic_navigation_link_subtext">在項目之間移動、捲動畫面、使用選單等</string>
     <string name="basic_navigation_link_text">基本導覽</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">目前未與藍牙裝置配對</string>
     <string name="bluetooth_not_enabled_message">如要與藍牙開關配對，請開啟藍牙</string>
     <string name="bluetooth_peripheral_content_description">周邊裝置</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">如要在「設定精靈」配對藍牙開關，請開啟藍牙並授予「Android 無障礙套件」權限存取附近的裝置和位置。</string>
     <string name="bluetooth_phone_content_description">手機</string>
     <string name="bluetooth_switch_description_text">透過藍牙以無線的方式配對開關</string>
     <string name="bluetooth_switch_option_text">藍牙開關</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">您需要先開啟「按鈕控制」功能，才能控制裝置。</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">開啟「相機開關」</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">開啟「按鈕控制」功能</string>
+    <string name="cam_switches_combined_preferences_title">「%1$s」設定</string>
+    <string name="cam_switches_preferences_title">「相機開關」設定</string>
+    <string name="cam_switches_single_preferences_title">「%s」設定</string>
     <string name="camera_switches_status_active">相機按鈕裝置已啟用</string>
     <string name="camera_switches_status_error">錯誤</string>
     <string name="camera_switches_status_no_face">未偵測到任何面孔</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">暫停「相機開關」</string>
     <string name="default_action_name_point_scan">點掃瞄</string>
     <string name="dialog_confirm_revert_to_default_menu">確認</string>
-    <string name="dialog_do_not_disturb_permission_message">如要從「按鈕控制」選單調整音量，請開啟「Android 無障礙套件」的「請勿騷擾」存取權</string>
+    <string name="dialog_do_not_disturb_permission_message">如要使用「按鈕控制」選單調整音量，請開啟「Android 無障礙套件」的「請勿騷擾」存取權</string>
     <string name="dialog_do_not_disturb_permission_title">「按鈕控制」需要權限以調整音量</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">開啟設定</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">您需要下載約 10 MB 的額外資料，「相機開關」才能運作。視乎網絡速度而定，這個程序需約一分鐘。</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">在瀏覽器中開啟</string>
     <string name="fallback_menu_item_share_link">分享連結</string>
     <string name="fast_radio_button_title">快 (延遲 %1$s 秒)</string>
+    <string name="fast_radio_button_title_content_description">快 (%1$s 秒延遲)</string>
     <string name="find_finish_button_text">向右滑動尋找 [完成] 按鈕。</string>
     <string name="finish">完成</string>
     <string name="finish_tutorial_announcement">顯示緊點字鍵盤。轉一轉手機方向，令到螢幕向外。水平旋轉打橫部手機，然後開始打字。</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">第 %1$d 個，一共有 %2$d 個</string>
     <string name="lockscreen_label">螢幕鎖定</string>
     <string name="medium_radio_button_title">中 (延遲 %1$s 秒)</string>
+    <string name="medium_radio_button_title_content_description">中 (%1$s 秒延遲)</string>
     <string name="menu_category_reading_controls">朗讀</string>
     <string name="menu_category_special_features">特殊功能</string>
     <string name="menus_selector_text">"這些捷徑可助您快速變更設定，例如將導覽模式由逐字元切換逐字導覽，或變更 TalkBack 語速。
@@ -767,6 +772,7 @@
 現即向下再向右滑動來開啟 TalkBack 選單。"</string>
     <string name="menus_title">選單和控制項</string>
     <string name="message_in_reset_keymap_confirm_dialog">您確定要將此按鍵配置的快速鍵回復至預設值嗎？請注意，此操作將無法復原。</string>
+    <string name="message_request_phone_permission">TalkBack 想瞭解您是否正在通話，以減少在通話期間朗讀內容，避免造成干擾。</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"此操作會將所有手勢重設回預設動作。
 
 您亦會失去已往作出的變更。"</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">減少視窗通知延遲時間</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">新增「相機開關」</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">清除實體按鈕裝置</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">設定按鈕裝置嘅設定：%s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">編輯「相機開關」</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">沒有指派「相機按鈕裝置」</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">將「相機開關」指派給「%s」操作</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">停止預覽</string>
     <string name="pref_sa_face_playground_switch_on_content_description">開啟</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">必須開啟「相機按鈕裝置」，才能使用此測試區域</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">試用：預覽所有面部表情類型，包括張開嘴、微笑等</string>
+    <string name="pref_sa_face_playground_try_it_button_text">試用</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">試用：預覽「%1$s」面部表情</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">測試區域已暫停。使用下方按鈕即可重新開始。</string>
     <string name="pref_selector_summary">%1$s以選取設定，然後%2$s以調整設定。</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s或%2$s以選取設定，然後%3$s以調整設定。</string>
@@ -1063,6 +1070,7 @@
     <string name="reduce_speed_button">減速</string>
     <string name="remaining_calibration_finish_announcement">更新咗所有點嘅位置</string>
     <string name="reminder_announcement">用 3 隻手指向上掃就可以睇到多啲選項</string>
+    <string name="remove_assigned_switch">移除「%s」的切換功能指派</string>
     <string name="report_gesture_description">以下是您最近執行過的手勢，請報告錯誤的手勢，以及該手勢預期執行的功能。</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">重設</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">重設</string>
@@ -1143,6 +1151,7 @@
     <string name="search_mode_hint_no_selection">未選取項目。</string>
     <string name="search_mode_hint_query">目前查詢：%1$s。</string>
     <string name="search_mode_hint_selection">目前選取：%1$s。</string>
+    <string name="select_for_point_scan">[選取]</string>
     <string name="select_setting_hint">%1$s就可以選取其他設定</string>
     <string name="selecting_text_text">"請在文字框中將游標移到要選取的文字開頭。
 
@@ -1203,6 +1212,7 @@
     <string name="shortcut_media_control">播放或暫停媒體</string>
     <string name="shortcut_next">下一個項目</string>
     <string name="shortcut_next_granularity">下一頁導覽設定</string>
+    <string name="shortcut_next_window">下一個視窗</string>
     <string name="shortcut_not_customizable">%1$s，不可自訂</string>
     <string name="shortcut_notifications">通知</string>
     <string name="shortcut_overview">概覽</string>
@@ -1215,6 +1225,7 @@
     <string name="shortcut_practice_gestures">練習手勢</string>
     <string name="shortcut_previous">上一個項目</string>
     <string name="shortcut_previous_granularity">上一頁導覽設定</string>
+    <string name="shortcut_previous_window">上一個視窗</string>
     <string name="shortcut_print_node_tree">列印節點樹狀結構</string>
     <string name="shortcut_print_performance_stats">列印成效統計資料</string>
     <string name="shortcut_quick_settings">快速設定</string>
@@ -1254,6 +1265,7 @@
 • 搖動以開始連續朗讀"</string>
     <string name="six_hold_announcement">輸入點字嘅時候，你亦可以將手機平放喺枱面上輸入。宜家試下啦。如果你附近冇枱，向下掃就可以跳過呢步。</string>
     <string name="slow_radio_button_title">慢 (延遲 %1$s 秒)</string>
+    <string name="slow_radio_button_title_content_description">慢 (%1$s 秒延遲)</string>
     <string name="sound_feedback_state">聲音回應%1$s</string>
     <string name="sound_feedback_summary">播放音效以表示內容有所變更 (例如畫面上的內容有所變更)</string>
     <string name="speak_container_element_position_summary_off">系統唔會讀出清單同網格資料</string>
@@ -1327,17 +1339,17 @@
     <string name="summary_pref_face_switches_debounce_time">在此時段觸發多次「相機開關」，效果都等同於觸發一次。</string>
     <string name="summary_pref_face_switches_enabled">「相機開關」會利用前置鏡頭判斷您是否正在看著螢幕， 以及識別您的面部表情。 系統不會將相關圖像儲存或傳送給 Google。</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">作出表情後，如果畫面上有任何變化，系統就會播放音效</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">系統會在畫面上顯示您維持特定表情的時間長度</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">在啟用「相機開關」的情況下，讓螢幕保持開啟。「相機開關」無法在螢幕關閉時解鎖螢幕。</string>
     <string name="summary_pref_face_switches_no_face_detected_message">未偵測到任何面孔</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">！</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">請作出任何一個面部表情。如果已註冊成功，畫面上會顯示該表情的名稱。維持任何一個表情 %1$d 秒即可離開。</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">請將頭部保持不動並面向鏡頭，然後%s。</string>
     <string name="summary_pref_play_store">目前的 TalkBack 版本：%1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">透過正在移動的線條選取特定的水平和垂直位置。 按下 [%1$s] 按鈕即可開始進行點掃瞄。 %2$s</string>
     <string name="summary_pref_reverse_dots">你可以將點嘅位置對掉，例如 1 點同 4 點對掉位置</string>
     <string name="summary_pref_revert_to_default_menu">將「按鈕控制」選單重設為預設的選單項目清單。</string>
-    <string name="summary_pref_single_tap">(實驗版) 輕按一下焦點項目即可啟用</string>
+    <string name="summary_pref_single_tap">輕按一下焦點項目即可啟用</string>
     <string name="summary_pref_tree_debug_tv">使用語音搜尋鍵列印節點樹狀結構，以取代搜尋</string>
     <string name="summary_pref_use_audio_focus">朗讀時調低其他音量</string>
     <string name="summary_read_from_current">從下一個項目開始朗讀畫面上的所有項目</string>
@@ -1434,10 +1446,10 @@
     <string name="switched_to_contracted_announcement">轉咗去二級點字</string>
     <string name="switched_to_ueb_uncontracted_announcement">轉咗做一級 UEB</string>
     <string name="switched_to_uncontracted_announcement">轉咗去一級點字</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">幾乎等於</string>
     <string name="symbol_ampersand">&amp; 符號</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">細於符號</string>
+    <string name="symbol_angle_bracket_right">大於符號</string>
     <string name="symbol_apostrophe">撇號</string>
     <string name="symbol_approximately_equals">約等號</string>
     <string name="symbol_asterisk">星號</string>
@@ -1457,7 +1469,7 @@
     <string name="symbol_bullseye">靶心</string>
     <string name="symbol_caret">插入符號</string>
     <string name="symbol_celsius_degree">攝氏溫度符號</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">仙符號</string>
     <string name="symbol_circle_left_half_black">左半邊黑色圓形</string>
     <string name="symbol_circle_right_half_black">右半邊黑色圓形</string>
     <string name="symbol_colon">冒號</string>
@@ -1466,7 +1478,7 @@
     <string name="symbol_curly_bracket_left">左大括弧</string>
     <string name="symbol_curly_bracket_right">右大括弧</string>
     <string name="symbol_currency_sign">貨幣符號</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">度數符號</string>
     <string name="symbol_division">除號</string>
     <string name="symbol_dollar_sign">貨幣符號</string>
     <string name="symbol_downwards_arrow">向下箭頭</string>
@@ -1518,7 +1530,7 @@
     <string name="symbol_middle_dot">中間點</string>
     <string name="symbol_multiplication">乘號</string>
     <string name="symbol_new_line">新行</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">唔等於</string>
     <string name="symbol_not_sign">邏輯非符號</string>
     <string name="symbol_paragraph_mark">段落標記</string>
     <string name="symbol_parenthesis_left">左括弧</string>
@@ -1529,7 +1541,7 @@
     <string name="symbol_plus_minus_sign">加減符號</string>
     <string name="symbol_postal_mark">郵局記號</string>
     <string name="symbol_pound">井號</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">英鎊貨幣符號</string>
     <string name="symbol_quarter_note">四分音符</string>
     <string name="symbol_question_mark">問號</string>
     <string name="symbol_quotation_mark">引號</string>
@@ -1555,7 +1567,7 @@
     <string name="symbol_trademark">商標符號</string>
     <string name="symbol_underscore">下劃線</string>
     <string name="symbol_upwards_arrow">向上箭頭</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">直線</string>
     <string name="symbol_white_circle">白色圓形</string>
     <string name="symbol_white_club_suit">白色梅花</string>
     <string name="symbol_white_diamond">白色階磚</string>
@@ -1569,8 +1581,8 @@
     <string name="symbol_white_square">白色方形</string>
     <string name="symbol_white_star">白色星形</string>
     <string name="symbol_white_up_pointing_triangle">白色正三角形</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">韓圜貨幣符號</string>
+    <string name="symbol_won_sign">韓圜貨幣符號</string>
     <string name="symbol_yen">日元符號</string>
     <string name="system_actions">系統操作</string>
     <string name="tabletop">桌面模式</string>
@@ -1738,7 +1750,7 @@
     <string name="title_pref_category_assign_switches">指派按掣</string>
     <string name="title_pref_category_audio">音訊</string>
     <string name="title_pref_category_auto_scan">自動掃瞄</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">自動掃瞄 (點掃瞄)</string>
     <string name="title_pref_category_border_color">顏色</string>
     <string name="title_pref_category_built_in_gestures">內置手勢</string>
     <string name="title_pref_category_context_menu">自訂 Talkback 選單</string>
@@ -1822,7 +1834,7 @@
     <string name="title_pref_red">紅色</string>
     <string name="title_pref_resume_talkback">從停用狀態恢復使用</string>
     <string name="title_pref_reverse_auto_scan_disabled">反方向自動掃瞄 (已停用)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">反方向自動掃瞄 (點掃瞄)</string>
     <string name="title_pref_reverse_dots">反轉點</string>
     <string name="title_pref_revert_to_default_menu">還原為預設選單</string>
     <string name="title_pref_scan_non_actionable_items">讀出說明文字</string>
@@ -1885,7 +1897,7 @@
     <string name="title_pref_show_context_menu_as_list">以清單形式顯示內容選單</string>
     <string name="title_pref_show_privacy_policy">私隱權政策</string>
     <string name="title_pref_show_tos">服務條款</string>
-    <string name="title_pref_single_tap">一按啟動</string>
+    <string name="title_pref_single_tap">輕按一下即可啟用</string>
     <string name="title_pref_sound_and_vibration">音效和震動</string>
     <string name="title_pref_soundback">聲音回應</string>
     <string name="title_pref_soundback_volume">聲音回應音量</string>
@@ -1930,6 +1942,7 @@
     <string name="title_previous_screen">上一個畫面</string>
     <string name="title_read_from_top">從頂端開始朗讀</string>
     <string name="title_repeat_last_spoken_phrase">重複系統最後讀出的詞組</string>
+    <string name="title_request_phone_permission">TalkBack 要求權限</string>
     <string name="title_screen_summary">畫面摘要</string>
     <string name="title_seek_bar_controls">滑桿</string>
     <string name="title_seek_bar_edit">編輯滑桿水平</string>

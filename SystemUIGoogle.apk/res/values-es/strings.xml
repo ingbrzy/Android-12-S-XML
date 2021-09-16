@@ -595,6 +595,8 @@ Selección"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Es necesario reiniciar tu dispositivo para que se apliquen los cambios. Reinicia ahora o cancela la acción.</string>
     <string name="camera_hint">Desliza desde el icono para abrir la cámara</string>
     <string name="camera_label">abrir cámara</string>
+    <string name="camera_recording_announcement">La cámara está grabando</string>
+    <string name="camera_stopped_recording_announcement">La cámara ha dejado de grabar</string>
     <string name="cancel">Cancelar</string>
     <string name="carrier_network_change_mode">Cambiando la red del operador</string>
     <string name="category_personal">Personal</string>
@@ -734,6 +736,10 @@ Si vuelves a activar el uso de datos, es posible que se apliquen cargos."</strin
     <string name="debug_monitoring_category">Supervisión</string>
     <string name="debug_networking_category">Redes</string>
     <string name="debug_view_attributes">Inspección de atributos de vista</string>
+    <string name="defender_notify_des">Tu teléfono ha limitado la carga para conservar el estado de la batería</string>
+    <string name="defender_notify_learn_more">Más información</string>
+    <string name="defender_notify_resume_charge">Seguir cargando</string>
+    <string name="defender_notify_title">Carga limitada temporalmente</string>
     <string name="delete_blob_confirmation_text">¿Seguro que quieres eliminar estos datos compartidos?</string>
     <string name="delete_blob_text">Eliminar datos compartidos</string>
     <string name="demo_mode">Modo de demostración de UI del sistema</string>
@@ -863,7 +869,7 @@ Los datos faciales que utiliza esta función se eliminarán para siempre y de fo
     <string name="game_mode_battery_title">Ahorro de batería</string>
     <string name="game_mode_dnd_config_dialog">Esta opción habilita el modo No molestar cuando juegas.</string>
     <string name="game_mode_dnd_rule_name">Juegos</string>
-    <string name="game_mode_performance_description">Sube al máximo la velocidad de fotogramas</string>
+    <string name="game_mode_performance_description">Velocidad máxima de fotogramas</string>
     <string name="game_mode_performance_title">Rendimiento</string>
     <string name="game_mode_restart_dialog_cancel">Cancelar</string>
     <string name="game_mode_restart_dialog_confirm">Reiniciar</string>
@@ -1070,6 +1076,7 @@ con prioridad"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Desbloqueando la tarjeta SIM…</string>
     <string name="keyguard_try_fingerprint">Usa la huella digital para abrir</string>
     <string name="keyguard_unlock">Desliza el dedo hacia arriba para abrir</string>
+    <string name="keyguard_unlock_press">Pulsa para abrirlo</string>
     <string name="keywords_adb_wireless">adb, depuración, desarrollo</string>
     <string name="keywords_alarms_and_reminders">programar, alarma, recordatorio, reloj</string>
     <string name="kg_enter_confirm_pin_hint">Confirma el código PIN que quieras utilizar</string>
@@ -1233,6 +1240,10 @@ Vuelve a intentarlo dentro de %2$d segundos."</string>
     <string name="menu_ime">Cambio de teclado</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Micrófono activado</string>
+    <string name="mic_and_camera_recording_announcement">La cámara y el micrófono están grabando</string>
+    <string name="mic_camera_stopped_recording_announcement">La cámara y el micrófono han dejado de grabar</string>
+    <string name="mic_recording_announcement">El micrófono está grabando</string>
+    <string name="mic_stopped_recording_announcement">El micrófono ha dejado de grabar</string>
     <string name="missed_call">Llamada perdida</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Datos móviles</string>
@@ -1706,8 +1717,6 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="quick_settings_work_mode_label">Aplicaciones de trabajo</string>
     <string name="quick_step_accessibility_toggle_overview">Mostrar u ocultar aplicaciones recientes</string>
     <string name="recent_conversations">Conversaciones recientes</string>
-    <string name="recents_quick_scrub_onboarding">Arrastra hacia la derecha para cambiar rápidamente de aplicación</string>
-    <string name="recents_swipe_up_onboarding">Desliza el dedo hacia arriba para cambiar de aplicación</string>
     <string name="remaining_length_format">Tiempo restante: %1$s</string>
     <string name="remote_input_image_insertion_text">ha enviado una imagen</string>
     <string name="remove_from_settings">Quitar de Ajustes</string>
@@ -2117,6 +2126,7 @@ Cualquier usuario puede actualizar las aplicaciones del resto de usuarios."</str
     <string name="wallet_secondary_label_no_card">Añade una tarjeta</string>
     <string name="wallet_secondary_label_updating">Actualizando</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Punto de acceso temporalmente lleno</string>
     <string name="wifi_cant_connect">No se puede establecer conexión</string>
     <string name="wifi_cant_connect_to_ap">No se puede establecer conexión con \"%1$s\"</string>

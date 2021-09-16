@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Sprachen und Eingabe</string>
     <string name="lift_to_wake_title">Zum Aktivieren anheben</string>
-    <string name="lockdown_settings_summary">Option für Ein-/Aus-Taste des Displays, durch die Smart Lock, die Entsperrung per Gesichtserkennung, die Entsperrung per Fingerabdruck und Benachrichtigungen auf dem Sperrbildschirm deaktiviert werden</string>
-    <string name="lockdown_settings_title">Option zum Sperren anzeigen</string>
+    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="locked_work_profile_notification_title">Wenn das Arbeitsprofil gesperrt ist</string>
     <string name="lockscreen_bypass_summary">Nach der Entsperrung direkt zum zuletzt genutzten Bildschirm gehen</string>
     <string name="lockscreen_bypass_title">Sperrbildschirm überspringen</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Geschäftliche Benachrichtigungen</string>
     <string name="reset_dashboard_summary">Zurückgesetzt werden können das Netzwerk, Apps und das Gerät</string>
     <string name="reset_dashboard_title">Optionen zum Zurücksetzen</string>
-    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
     <string name="screensaver_settings_title">Bildschirmschoner</string>
     <string name="screen_timeout">Display automatisch ausschalten</string>
     <string name="screen_zoom_title">Anzeigegröße</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Setzt die Aktualisierungsrate für einige Inhalte automatisch von 60 auf 90 Hz herauf. Erhöhter Akkuverbrauch.</string>
     <string name="accessibility_vibration_settings_title">Vibration &amp; haptisches Feedback</string>
     <string name="emergency_gesture_screen_title">Notfall-SOS</string>
-    <string name="abc_action_bar_up_description">Nach oben</string>
+    <string name="abc_action_mode_done">Fertig</string>
     <string name="vibrate_for_calls_category_title">Anrufe</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Geldbörse anzeigen</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Gerätesteuerung anzeigen</string>
     <string name="lockscreen_privacy_wallet_summary">Zugriff auf Geldbörse aus Sperrbildschirm und Schnelleinstellungen erlauben</string>
     <string name="lockscreen_privacy_controls_summary">Zugriffssteuerung bei Sperre</string>
-    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
-    <string name="abc_action_mode_done">Fertig</string>
     <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
     <string name="abc_activitychooserview_choose_application">App auswählen</string>
     <string name="abc_capital_off">AUS</string>
@@ -275,7 +273,7 @@ In die Tastatur oder Navigationsleiste kann nicht hineingezoomt werden."</string
     <string name="accessibility_screen_magnification_navbar_title">Mit Tastenkombination vergrößern</string>
     <string name="accessibility_screen_magnification_short_summary">Zum Zoomen dreimal tippen</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture">Mit Tastenkombination und 3-mal Tippen vergrößern</string>
-    <string name="accessibility_screen_magnification_summary">Du kannst auf dem Display schnell heranzoomen, um Inhalte zu vergrößern.&lt;br/>&lt;br/> &lt;b>So zoomst du heran:&lt;/b>&lt;br/> {0,number,integer}. Starte die Vergrößerung über die Verknüpfung&lt;br/> {1,number,integer}. Tippe auf das Display&lt;br/> {2,number,integer}. Ziehe mit zwei Fingern, um den angezeigten Bildschirmausschnitt zu ändern&lt;br/> {3,number,integer}. Ziehe zwei Finger auseinander oder zusammen, um den Zoom anzupassen&lt;br/> {4,number,integer}. Beende die Vergrößerung über die Verknüpfung&lt;br/>&lt;br/> &lt;b>So zoomst du vorübergehend heran:&lt;/b>&lt;br/> {0,number,integer}. Starte die Vergrößerung über die Verknüpfung&lt;br/> {1,number,integer}. Halte eine beliebige Stelle auf dem Display gedrückt&lt;br/> {2,number,integer}. Ziehe mit dem Finger, um den angezeigten Bildschirmausschnitt zu ändern&lt;br/> {3,number,integer}. Hebe den Finger, um die Vergrößerung zu beenden</string>
+    <string name="accessibility_screen_magnification_summary">Du kannst auf dem Display schnell heranzoomen, um Inhalte zu vergrößern.&lt;br/>&lt;br/> &lt;b>So zoomst du heran:&lt;/b>&lt;br/> {0,number,integer}. Starte die Vergrößerung über die Verknüpfung&lt;br/> {1,number,integer}. Tippe auf das Display&lt;br/> {2,number,integer}. Ziehe mit zwei Fingern, um den angezeigten Bildschirmausschnitt zu verschieben&lt;br/> {3,number,integer}. Ziehe zwei Finger auseinander oder zusammen, um den Zoom anzupassen&lt;br/> {4,number,integer}. Beende die Vergrößerung über die Verknüpfung&lt;br/>&lt;br/> &lt;b>So zoomst du vorübergehend heran:&lt;/b>&lt;br/> {0,number,integer}. Starte die Vergrößerung über die Verknüpfung&lt;br/> {1,number,integer}. Halte eine beliebige Stelle auf dem Display gedrückt&lt;br/> {2,number,integer}. Ziehe mit dem Finger, um den angezeigten Bildschirmausschnitt zu ändern&lt;br/> {3,number,integer}. Hebe den Finger, um die Vergrößerung zu beenden</string>
     <string name="accessibility_screen_magnification_title">Vergrößerung</string>
     <string name="accessibility_screen_option">Optionen</string>
     <string name="accessibility_service_action_perform_description">Die Funktion kann deine Interaktionen mit einer App oder einem Hardwaresensor verfolgen und in deinem Namen mit Apps interagieren.</string>
@@ -989,7 +987,7 @@ Nach dem Zurücksetzen muss das Gerät erneut eingerichtet werden. Dabei legst d
     <string name="battery_sugg_display">Display-Helligkeit und/oder Zeit bis zum automatischen Ausschalten verringern</string>
     <string name="battery_sugg_radio">Flugmodus zum Energiesparen in Gebieten ohne Mobilfunkabdeckung</string>
     <string name="battery_sugg_wifi">WLAN bei Nichtverwendung oder Nichtverfügbarkeit deaktivieren</string>
-    <string name="battery_suggestion_summary">Funktion \"Intelligenter Akku\" aktivieren</string>
+    <string name="battery_suggestion_summary">Funktion „Intelligenter Akku“ aktivieren</string>
     <string name="battery_suggestion_title">Akkulaufzeit des Smartphones verbessern</string>
     <string name="battery_summary">%1$s Verbrauch seit der letzten vollständigen Aufladung</string>
     <string name="battery_summary_24hr">%1$s Nutzung in den letzten 24 Stunden</string>
@@ -1021,7 +1019,7 @@ Apps:"</string>
 
 Apps:
 %1$s."</string>
-    <string name="battery_tip_smart_battery_summary">Funktion \"Intelligenter Akku\" aktivieren</string>
+    <string name="battery_tip_smart_battery_summary">Funktion „Intelligenter Akku“ aktivieren</string>
     <string name="battery_tip_smart_battery_title">Akkulaufzeit optimieren</string>
     <string name="battery_tip_summary_summary">Der Akkuverbrauch im Hintergrund ist normal</string>
     <string name="battery_tip_summary_title">Apps funktionieren normal</string>
@@ -1603,7 +1601,7 @@ Wenn du ein CA-Zertifikat installierst, hat dessen Inhaber Zugriff auf deine Dat
     <string name="columbus_setting_sensitivity_title">Stärkeres Tippen erforderlich</string>
     <string name="computing_size">Berechnung...</string>
     <string name="condition_airplane_summary">Netzwerke nicht verfügbar</string>
-    <string name="condition_airplane_title">Flugzeugmodus aktiviert</string>
+    <string name="condition_airplane_title">Flugmodus ist aktiviert</string>
     <string name="condition_battery_summary">Funktionen eingeschränkt</string>
     <string name="condition_battery_title">Energiesparmodus aktiviert</string>
     <string name="condition_bg_data_summary">Funktionen eingeschränkt</string>
@@ -5501,7 +5499,7 @@ Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren."</string>
     <string name="virtual_keyboards_for_work_title">Bildschirmtastatur für das Arbeitsprofil</string>
     <string name="vision_settings_description">Du kannst dieses Gerät an deine Bedürfnisse anpassen. Die Bedienungshilfen kannst du später in den Einstellungen ändern.</string>
     <string name="vision_settings_suggestion_title">Schriftgröße ändern</string>
-    <string name="vision_settings_title">Einstellungen für Sehbehinderte</string>
+    <string name="vision_settings_title">Ein­stellungen für Seh­behinderte</string>
     <string name="voice_input_output_settings">Spracheingabe&amp;-ausgabe</string>
     <string name="voice_input_output_settings_title">Einstellungen für Spracheingabe &amp; -ausgabe</string>
     <string name="voice_input_settings">Einstellungen für Spracheingabe</string>

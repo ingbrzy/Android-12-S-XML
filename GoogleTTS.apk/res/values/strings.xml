@@ -86,6 +86,7 @@ Examples of aggregate metrics that we collect:
     <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
     <string name="copy">Copy</string>
     <string name="default_voice_prefix_key">default_voice_for_</string>
+    <string name="default_web_client_id">687162611787-j88p8tblqfcqcg8jh0gk7cshilenihdu.apps.googleusercontent.com</string>
     <string name="download_cancel">Cancel</string>
     <string name="download_language_pack_details">Download this update (%1$s) to use speech recognition offline</string>
     <string name="download_prompt">Download</string>
@@ -95,11 +96,16 @@ Examples of aggregate metrics that we collect:
     <string name="expand_button_title">Advanced</string>
     <string name="feedback_key">feedback</string>
     <string name="feedback_title">Feedback</string>
+    <string name="gcm_defaultSenderId">687162611787</string>
     <string name="gm_sys_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
     <string name="gm_sys_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
     <string name="gm_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
     <string name="gm_sys_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="gm_sys_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="google_api_key">AIzaSyB6eIviiNK9rBhFw2xLyqZvivjbvbpmkLA</string>
+    <string name="google_app_id">1:687162611787:android:22dcaa57cc2b10237095ce</string>
+    <string name="google_crash_reporting_api_key">AIzaSyB6eIviiNK9rBhFw2xLyqZvivjbvbpmkLA</string>
+    <string name="google_storage_bucket">tts-android-staging.appspot.com</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="install_voices_key">install_voices</string>
     <string name="install_voices_title">Install voice data</string>
@@ -129,6 +135,7 @@ Examples of aggregate metrics that we collect:
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
     <string name="preferences_license_title">Open source licenses</string>
     <string name="primes_marker">PrImEs</string>
+    <string name="project_id">tts-android-staging</string>
     <string name="recognizer_service_label">Speech Services by Google</string>
     <string name="sample_text_synthesis_failure">Failed to synthesize an example for this voice.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -204,43 +211,38 @@ Examples of aggregate metrics that we collect:
     <item type="string" name="APKTOOL_DUMMY_5d">false</item>
     <item type="string" name="APKTOOL_DUMMY_5e">false</item>
     <item type="string" name="APKTOOL_DUMMY_5f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_60">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61">false</item>
     <item type="string" name="APKTOOL_DUMMY_62">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65">false</item>
-    <item type="string" name="APKTOOL_DUMMY_66">false</item>
+    <item type="string" name="APKTOOL_DUMMY_63">false</item>
+    <item type="string" name="APKTOOL_DUMMY_67">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6a">false</item>
     <item type="string" name="APKTOOL_DUMMY_6b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_71">false</item>
+    <item type="string" name="APKTOOL_DUMMY_70">false</item>
     <item type="string" name="APKTOOL_DUMMY_72">false</item>
     <item type="string" name="APKTOOL_DUMMY_73">false</item>
-    <item type="string" name="APKTOOL_DUMMY_74">false</item>
-    <item type="string" name="APKTOOL_DUMMY_75">false</item>
-    <item type="string" name="APKTOOL_DUMMY_76">false</item>
+    <item type="string" name="APKTOOL_DUMMY_77">false</item>
+    <item type="string" name="APKTOOL_DUMMY_78">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
     <item type="string" name="APKTOOL_DUMMY_7c">false</item>
     <item type="string" name="APKTOOL_DUMMY_7d">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_80">false</item>
-    <item type="string" name="APKTOOL_DUMMY_81">false</item>
-    <item type="string" name="APKTOOL_DUMMY_82">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84">false</item>
+    <item type="string" name="APKTOOL_DUMMY_85">false</item>
     <item type="string" name="APKTOOL_DUMMY_86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87">false</item>
     <item type="string" name="APKTOOL_DUMMY_88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_89">false</item>
     <item type="string" name="APKTOOL_DUMMY_8e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_90">false</item>
-    <item type="string" name="APKTOOL_DUMMY_91">false</item>
     <item type="string" name="APKTOOL_DUMMY_92">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99">false</item>
+    <item type="string" name="APKTOOL_DUMMY_94">false</item>
     <item type="string" name="APKTOOL_DUMMY_9a">false</item>
     <item type="string" name="APKTOOL_DUMMY_9b">false</item>
     <item type="string" name="APKTOOL_DUMMY_9c">false</item>
     <item type="string" name="APKTOOL_DUMMY_9d">false</item>
     <item type="string" name="APKTOOL_DUMMY_9e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a3">false</item>
     <item type="string" name="APKTOOL_DUMMY_a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_a5">false</item>
     <item type="string" name="APKTOOL_DUMMY_a6">false</item>
@@ -251,7 +253,6 @@ Examples of aggregate metrics that we collect:
     <item type="string" name="APKTOOL_DUMMY_ab">false</item>
     <item type="string" name="APKTOOL_DUMMY_ac">false</item>
     <item type="string" name="APKTOOL_DUMMY_ad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ae">false</item>
     <item type="string" name="APKTOOL_DUMMY_af">false</item>
     <item type="string" name="APKTOOL_DUMMY_b0">false</item>
     <item type="string" name="APKTOOL_DUMMY_b1">false</item>
@@ -282,25 +283,37 @@ Examples of aggregate metrics that we collect:
     <item type="string" name="APKTOOL_DUMMY_ca">false</item>
     <item type="string" name="APKTOOL_DUMMY_cb">false</item>
     <item type="string" name="APKTOOL_DUMMY_cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d0">false</item>
     <item type="string" name="APKTOOL_DUMMY_d1">false</item>
     <item type="string" name="APKTOOL_DUMMY_d2">false</item>
     <item type="string" name="APKTOOL_DUMMY_d3">false</item>
     <item type="string" name="APKTOOL_DUMMY_d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_dd">false</item>
     <item type="string" name="APKTOOL_DUMMY_de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_df">false</item>
     <item type="string" name="APKTOOL_DUMMY_e0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_110">false</item>
-    <item type="string" name="APKTOOL_DUMMY_111">false</item>
-    <item type="string" name="APKTOOL_DUMMY_112">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f3">false</item>
     <item type="string" name="APKTOOL_DUMMY_118">false</item>
     <item type="string" name="APKTOOL_DUMMY_119">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_123">false</item>
-    <item type="string" name="APKTOOL_DUMMY_124">false</item>
+    <item type="string" name="APKTOOL_DUMMY_11d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_11e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_11f">false</item>
     <item type="string" name="APKTOOL_DUMMY_125">false</item>
+    <item type="string" name="APKTOOL_DUMMY_126">false</item>
+    <item type="string" name="APKTOOL_DUMMY_127">false</item>
+    <item type="string" name="APKTOOL_DUMMY_130">false</item>
+    <item type="string" name="APKTOOL_DUMMY_131">false</item>
+    <item type="string" name="APKTOOL_DUMMY_132">false</item>
 </resources>

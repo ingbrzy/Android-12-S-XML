@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_announcer_enabled_list_entries">
+        <item>@string/call_announcer_preference_option_always</item>
+        <item>@string/call_announcer_preference_option_headset</item>
+        <item>@string/call_announcer_preference_option_never</item>
+    </string-array>
+    <string-array name="rtt_att_messages">
+        <item>"Jotta voit käyttää RTT:tä, sinun on oltava yhteydessä LTE-verkkoon tai Wi-Fi-puheluiden on oltava päällä.
+"</item>
+        <item>"Voit alkaa käyttää RTT:tä aina, kun olet yhteydessä henkilöön, jonka puhelin tukee RTT:tä tai on yhdistetty TTY-laitteeseen.
+"</item>
+        <item>"Jotta näet RTT-vaihtoehdon saapuville ja lähteville puheluille, aseta RTT-puheluiden asetukseksi Aina näkyvissä.
+"</item>
+        <item>"RTT sisältää audion, joten mykistä puhelu, jos sinun ei tarvitse tai et halua jakaa audiota.
+"</item>
+        <item>"RTT-puheluissa käytetään puheaikaa. Tarkista liittymäsi hintatiedot.
+"</item>
+    </string-array>
+    <string-array name="rtt_default_messages">
+        <item>"RTT-puhelut tallennetaan viestin transkriptiona.
+"</item>
+        <item>"RTT ei ole käytettävissä videopuheluissa.
+"</item>
+    </string-array>
+    <string-array name="rtt_tmo_messages">
+        <item>"Sinun on yhdistettävä 4G LTE- tai Wi-Fi-verkkoon.
+"</item>
+        <item>"Keskustelukumppanisi on myös käytettävä RTT:tä tukevaa puhelinta tai TTY-laitetta (tekstipuhelinta).
+"</item>
+        <item>Kun RTT on käytössä kaikissa saapuvissa puheluissa näkyy RTT-kuvake.</item>
+    </string-array>
+</resources>

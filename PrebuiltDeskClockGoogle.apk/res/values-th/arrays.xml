@@ -17,14 +17,21 @@
         <item>15 นาที</item>
         <item>20 นาที</item>
         <item>25 นาที</item>
-        <item>ไม่ใช้</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 นาทีก่อนถึงเวลาเข้านอน</item>
+        <item>30 นาทีก่อนถึงเวลาเข้านอน</item>
+        <item>45 นาทีก่อนถึงเวลาเข้านอน</item>
+        <item>1 ชั่วโมงก่อนถึงเวลาเข้านอน</item>
+        <item>ปิด</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>แอนะล็อก</item>
         <item>ดิจิทัล</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ไม่ใช้</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 วินาที</item>
         <item>10 วินาที</item>
         <item>15 วินาที</item>
@@ -37,6 +44,35 @@
         <item>50 วินาที</item>
         <item>55 วินาที</item>
         <item>60 วินาที</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>หยุดหลังจาก 10 นาที</item>
+        <item>หยุดหลังจาก 20 นาที</item>
+        <item>หยุดหลังจาก 30 นาที</item>
+        <item>หยุดหลังจาก 40 นาที</item>
+        <item>หยุดหลังจาก 50 นาที</item>
+        <item>หยุดหลังจาก 1 ชั่วโมง</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>หยุดหลังจาก 10 นาที</item>
+        <item>หยุดหลังจาก 20 นาที</item>
+        <item>หยุดหลังจาก 30 นาที</item>
+        <item>หยุดหลังจาก 40 นาที</item>
+        <item>หยุดหลังจาก 50 นาที</item>
+        <item>หยุดหลังจาก 1 ชั่วโมง</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 นาที</item>
+        <item>20 นาที</item>
+        <item>30 นาที</item>
+        <item>40 นาที</item>
+        <item>50 นาที</item>
+        <item>1 ชั่วโมง</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 นาที</item>
@@ -69,18 +105,6 @@
         <item>28 นาที</item>
         <item>29 นาที</item>
         <item>30 นาที</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>คุณนี่เป็นพวกคลั่งไคล้ความเร็วเสียจริง</item>
-        <item>เริงรื่นกับผลสำเร็จจากความทุ่มเทของคุณ</item>
-        <item>Android ขึ้นชื่อในเรื่องความเร็ว แต่ก็ยังไม่เร็วเท่าคุณ!</item>
-        <item>เฮ้อ</item>
-        <item>L33t ครั้ง</item>
-        <item>เป็นความเร็วที่น่าอัศจรรย์</item>
-        <item>มาข้ามเวลากันอีกเถอะ</item>
-        <item>เพียงแค่กระโดดไปทางซ้าย</item>
-        <item>คุณมีจานสีสำหรับกรณีเร่งรีบ</item>
-        <item>ความเร็วโฟตอนิกส์</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>หมู่เกาะมาร์แชล</item>

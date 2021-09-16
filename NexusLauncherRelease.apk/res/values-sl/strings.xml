@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Dodajanje v mapo z aplikacijo %1$s</string>
     <string name="add_to_home_screen">Dodaj na začetni zaslon</string>
     <string name="added_to_folder">Element je dodan v mapo</string>
+    <string name="added_to_home_screen_accessibility_text">Pripomoček »%1$s« je dodan na začetni zaslon.</string>
     <string name="all_apps_button_label">Seznam aplikacij</string>
     <string name="all_apps_button_personal_label">Seznam osebnih aplikacij</string>
     <string name="all_apps_button_work_label">Seznam delovnih aplikacij</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Ko se telefon zasuka</string>
     <string name="allow_rotation_title">Omogoči sukanje začetnega zaslona</string>
     <string name="allset_description">Pripravljeni ste, da začnete uporabljati telefon</string>
+    <string name="allset_hint">Povlecite navzgor za začetni zaslon</string>
+    <string name="allset_navigation_settings"><annotation id="link">Nastavitve krmarjenja po sistemu</annotation></string>
     <string name="allset_title">Končano</string>
     <string name="app_downloading_title">Prenašanje aplikacije %1$s; preneseno %2$s</string>
     <string name="app_info_drop_target_label">Podatki o aplikaciji</string>
@@ -98,11 +101,13 @@
     <string name="app_waiting_download_title">Aplikacija %1$s čaka na namestitev</string>
     <string name="auto_add_shortcuts_description">Za nove aplikacije</string>
     <string name="auto_add_shortcuts_label">Dodaj ikone aplikacij na začetni zaslon</string>
+    <string name="back_gesture_feedback_cancelled">Pazite, da povlečete z desnega ali levega roba do sredine zaslona in dvignete prst.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Naučili ste se, kako povlečete z desne za vrnitev. Zdaj se naučite preklapljanja med aplikacijami.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Izvedli ste potezo za pomik nazaj.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Pazite, da ne povlečete preblizu dna zaslona.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Pazite, da povlečete s skrajno desnega ali skrajno levega roba.</string>
     <string name="back_gesture_intro_subtitle">Če se želite vrniti na zadnji zaslon, povlecite z levega ali desnega roba do sredine zaslona.</string>
-    <string name="back_gesture_intro_title">Povlecite za vrnitev.</string>
+    <string name="back_gesture_intro_title">Povlecite za vrnitev</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Občutljivost poteze za nazaj lahko spremenite v nastavitvah.</string>
     <string name="blocked_by_policy">Aplikacija ali vaša organizacija ne dovoljuje tega dejanja</string>
     <string name="close">Zapri</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Dotaknite se, da shranite preimenovanje</string>
     <string name="gadget_error_text">Pripomočka ni mogoče naložiti.</string>
     <string name="gadget_setup_text">Dotaknite se, da dokončate postopek nastavitve.</string>
+    <string name="gesture_tutorial_action_button_label">Končano</string>
     <string name="gesture_tutorial_action_button_label_cancel">Prekliči</string>
     <string name="gesture_tutorial_action_button_label_settings">Nastavitve</string>
     <string name="gesture_tutorial_action_button_label_skip">Preskoči</string>
@@ -147,7 +153,7 @@
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Pazite, da povlečete s spodnjega roba zaslona navzgor.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Pazite, da povlečete naravnost navzgor.</string>
     <string name="home_gesture_intro_subtitle">Z dna zaslona s prstom povlecite navzgor. S to potezo lahko vedno odprete začetni zaslon.</string>
-    <string name="home_gesture_intro_title">Vlečenje za pomik na začetni zaslon</string>
+    <string name="home_gesture_intro_title">Povlecite za pomik na začetni zaslon</string>
     <string name="home_screen">Začetni zaslon</string>
     <string name="hotsaet_tip_prediction_disabled">Predlogi aplikacij so onemogočeni.</string>
     <string name="hotsaet_tip_prediction_enabled">Predlogi aplikacij so omogočeni.</string>
@@ -209,7 +215,8 @@
     <string name="overview_gesture_feedback_home_detected">Poskusite okno pridržati dalj časa, preden ga izpustite.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Pazite, da povlečete s spodnjega roba zaslona navzgor.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Pazite, da povlečete naravnost navzgor in nato zaustavite prst.</string>
-    <string name="overview_gesture_intro_title">Vlečenje za preklapljanje med aplikacijami</string>
+    <string name="overview_gesture_intro_subtitle">Za preklapljanje med aplikacijami povlecite navzgor z dna zaslona, pridržite in nato izpustite.</string>
+    <string name="overview_gesture_intro_title">Povlecite za preklapljanje med aplikacijami</string>
     <string name="overview_selection_pref_desc">Ko preklapljate aplikacije, pridržite besedilo in slike, da prikažete dejanja</string>
     <string name="overview_selection_pref_title">Izbor v pregledu</string>
     <string name="overview_suggestions_settings_summary">Prikaz predlaganih dejanj in indikatorjev v pregledu.</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Sedež</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Nastavitve</string>
-    <string name="smartspace_preferences_in_settings">Prostor Live Space</string>
+    <string name="smartspace_preferences_in_settings">Hitri pregled</string>
     <string name="smartspace_preferences_in_settings_desc">Na vrhu začetnega zaslona</string>
     <string name="smartspace_preferences_manage">Prilagodi</string>
     <string name="smartspace_preferences_turn_off_action">Izklopi</string>

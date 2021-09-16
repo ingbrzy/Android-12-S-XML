@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">"Afegeix l'element a la carpeta amb %1$s"</string>
     <string name="add_to_home_screen">"Afegeix a la pantalla d'inici"</string>
     <string name="added_to_folder">Element afegit a la carpeta</string>
+    <string name="added_to_home_screen_accessibility_text">"El widget %1$s s'ha afegit a la pantalla d'inici"</string>
     <string name="all_apps_button_label">"Llista d'aplicacions"</string>
     <string name="all_apps_button_personal_label">"Llista d'aplicacions personals"</string>
     <string name="all_apps_button_work_label">"Llista d'aplicacions de treball"</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">En girar el telèfon</string>
     <string name="allow_rotation_title">"Permet la rotació de la pantalla d'inici"</string>
     <string name="allset_description">Ja pots començar a utilitzar el telèfon</string>
+    <string name="allset_hint">"Llisca cap amunt per anar a la pàgina d'inici"</string>
+    <string name="allset_navigation_settings"><annotation id="link">Configuració de navegació del sistema</annotation></string>
     <string name="allset_title">Tot a punt!</string>
     <string name="app_downloading_title">"S'està baixant %1$s, %2$s completat"</string>
     <string name="app_info_drop_target_label">"Informació de l'aplicació"</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">"S'està esperant per instal·lar %1$s"</string>
     <string name="auto_add_shortcuts_description">Per a les aplicacions noves</string>
     <string name="auto_add_shortcuts_label">"Afegeix icones d'aplicacions a la pantalla d'inici"</string>
+    <string name="back_gesture_feedback_cancelled">"Assegura't de lliscar des de la vora dreta o esquerra cap al centre de la pantalla i deixar anar."</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">"Has après com pots lliscar des de la dreta per tornar enrere. Ara, descobreix com pots canviar d'app."</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Has completat el gest per tornar enrere.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">"Assegura't de no lliscar massa a prop de la part inferior de la pantalla."</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">"Assegura't de lliscar des de l'extrem dret o esquerre de la pantalla."</string>
     <string name="back_gesture_intro_subtitle">Per tornar a la darrera pantalla, llisca des de la vora esquerra o dreta cap al centre de la pantalla.</string>
     <string name="back_gesture_intro_title">Llisca per anar enrere</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Per canviar la sensibilitat del gest, ves a Configuració</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Toca per desar el nom nou</string>
     <string name="gadget_error_text">No es pot carregar el widget</string>
     <string name="gadget_setup_text">Toca per finalitzar la configuració</string>
+    <string name="gesture_tutorial_action_button_label">Fet</string>
     <string name="gesture_tutorial_action_button_label_cancel">Cancel·la</string>
     <string name="gesture_tutorial_action_button_label_settings">Configuració</string>
     <string name="gesture_tutorial_action_button_label_skip">Omet</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Prova de mantenir premuda la finestra durant més temps abans de deixar-la anar.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">"Assegura't de lliscar des de la vora inferior de la pantalla."</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">"Assegura't de lliscar directament cap amunt i després aturar-te."</string>
+    <string name="overview_gesture_intro_subtitle">Per canviar entre aplicacions, llisca cap amunt des de la part inferior, mantén premut i deixa anar.</string>
     <string name="overview_gesture_intro_title">"Llisca per canviar d'aplicació"</string>
     <string name="overview_selection_pref_desc">"En canviar d'aplicació, mantén premuts el text i les imatges per veure les accions"</string>
     <string name="overview_selection_pref_title">"Selecció d'Aplicacions recents"</string>
@@ -270,7 +277,7 @@
     <string name="shortcut_not_available">La drecera no està disponible</string>
     <string name="shortcuts_menu_with_notifications_description">Dreceres i notificacions</string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 minut</string>
-    <string name="skip_tutorial_dialog_subtitle">"Pots trobar-ho més tard a l'aplicació %1$s"</string>
+    <string name="skip_tutorial_dialog_subtitle">"Pots trobar-lo més tard a l'aplicació %1$s"</string>
     <string name="skip_tutorial_dialog_title">Vols ometre el tutorial de navegació?</string>
     <string name="smartspace_calendar_event">%1$s en %2$s</string>
     <string name="smartspace_calendar_event_now">%1$s ara</string>
@@ -280,14 +287,14 @@
     <string name="smartspace_flight_card_seat_header">Seient</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferències</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">Resum</string>
     <string name="smartspace_preferences_in_settings_desc">"A la part superior de la pantalla d'inici"</string>
     <string name="smartspace_preferences_manage">Personalitza</string>
     <string name="smartspace_preferences_turn_off_action">Desactiva</string>
-    <string name="smartspace_preferences_turn_off_description">"El temps i la informació sobre propers esdeveniments es deixarà de mostrar a la pantalla d'inici i de bloqueig."</string>
+    <string name="smartspace_preferences_turn_off_description">"El temps i la informació sobre propers esdeveniments es deixaran de mostrar a la pantalla d'inici i de bloqueig."</string>
     <string name="smartspace_preferences_turn_off_title">Desactiva %1$s</string>
     <string name="smartspace_preferences_turn_on_action">Activa</string>
-    <string name="smartspace_preferences_turn_on_description">"El temps i la informació sobre propers esdeveniments es mostrarà a la pantalla d'inici i de bloqueig."</string>
+    <string name="smartspace_preferences_turn_on_description">"El temps i la informació sobre propers esdeveniments es mostraran a la pantalla d'inici i de bloqueig."</string>
     <string name="smartspace_preferences_turn_on_title">Activa %1$s</string>
     <string name="smartspace_shopping_list_overflow">i %1$d més</string>
     <string name="status_bar_notification_info_overflow">999+</string>

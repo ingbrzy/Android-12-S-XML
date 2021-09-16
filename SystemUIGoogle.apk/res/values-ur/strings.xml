@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">اس تبدیلی کو لاگو کرنے کے ليے آپ کے آلہ کو ریبوٹ کرنا ضروری ہے۔ ابھی ریبوٹ کریں یا منسوخ کریں۔</string>
     <string name="camera_hint">کیمرہ کیلئے آئیکن سے سوائپ کریں</string>
     <string name="camera_label">کیمرا کھولیں</string>
+    <string name="camera_recording_announcement">کیمرا ریکارڈ کر رہا ہے</string>
+    <string name="camera_stopped_recording_announcement">کیمرے نے ریکارڈ کرنا بند کر دیا</string>
     <string name="cancel">منسوخ کريں</string>
     <string name="carrier_network_change_mode">کیریئر نیٹ ورک کی تبدیلی</string>
     <string name="category_personal">ذاتی</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">مانیٹر کرنا</string>
     <string name="debug_networking_category">نیٹ ورکنگ</string>
     <string name="debug_view_attributes">منظر انتساب کے معائنہ کو فعال کریں</string>
+    <string name="defender_notify_des">آپ کا فون بیٹری کی صحت محفوظ رکھنے میں مدد کرنے کے لیے چارج کرنے کو محدود کر رہا ہے</string>
+    <string name="defender_notify_learn_more">مزید جانیں</string>
+    <string name="defender_notify_resume_charge">چارج کرنا دوبارہ شروع کریں</string>
+    <string name="defender_notify_title">چارج کرنا عارضی طور پر محدود ہے</string>
     <string name="delete_blob_confirmation_text">کیا آپ واقعی اس اشتراک کردہ ڈیٹا کو حذف کرنا چاہتے ہیں؟</string>
     <string name="delete_blob_text">اشتراک کردہ ڈیٹا کو حذف کریں</string>
     <string name="demo_mode">‏سسٹم UI ڈیمو موڈ</string>
@@ -856,7 +862,7 @@
     <string name="game_launch_dnd_on">"گیمز کے ليے 'ڈسٹرب نہ کریں' آن ہے"</string>
     <string name="game_launch_performance">کارکردگی کیلئے بہترین بنایا گیا</string>
     <string name="game_menu_game_mode_description">کارکردگی یا بیٹری سیور کو منتخب کریں</string>
-    <string name="game_menu_game_mode_title">بہتری</string>
+    <string name="game_menu_game_mode_title">اوپٹیمائزیشن</string>
     <string name="game_menu_youtube_live_stream_widget_description">اپنے گیم پلے کو اسٹریم کریں</string>
     <string name="game_menu_youtube_live_stream_widget_title">‏YouTube لائیو</string>
     <string name="game_mode_battery_description">اس سے فریم ریٹ کم ہو جاتا ہے</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">‏SIM کارڈ غیر مقفل ہو رہا ہے…</string>
     <string name="keyguard_try_fingerprint">کھولنے کے لیے فنگر پرنٹ کا استعمال کریں</string>
     <string name="keyguard_unlock">کھولنے کے لیے اوپر سوائپ کريں</string>
+    <string name="keyguard_unlock_press">کھولنے کے لیے دبائیں</string>
     <string name="keywords_adb_wireless">‏adb، ڈیبگ، dev</string>
     <string name="keywords_alarms_and_reminders">شیڈول، الارم، یاد دہانی، گھڑی</string>
     <string name="kg_enter_confirm_pin_hint">‏پسندیدہ PIN کوڈ کی توثیق کریں</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">کی بورڈ سوئچر</string>
     <string name="messages_count_overflow_indicator">+%d</string>
     <string name="mic_active">مائیکروفون فعال ہے</string>
+    <string name="mic_and_camera_recording_announcement">کیمرا اور مائیکروفون ریکارڈ کر رہا ہے</string>
+    <string name="mic_camera_stopped_recording_announcement">کیمرے اور مائیکروفون نے ریکارڈ کرنا بند کر دیا</string>
+    <string name="mic_recording_announcement">مائیکروفون ریکارڈ کر رہا ہے</string>
+    <string name="mic_stopped_recording_announcement">مائیکروفون نے ریکارڈ کرنا بند کر دیا</string>
     <string name="missed_call">چھوٹی ہوئی کال</string>
     <string name="mobile_carrier_text_format">%1$s، %2$s</string>
     <string name="mobile_data">موبائل ڈیٹا</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">دفتری ایپس</string>
     <string name="quick_step_accessibility_toggle_overview">مجموعی جائزہ ٹوگل کریں</string>
     <string name="recent_conversations">حالیہ گفتگوئیں</string>
-    <string name="recents_quick_scrub_onboarding">تیزی سے ایپس کو سوئچ کرنے کے لیے دائیں طرف گھسیٹیں</string>
-    <string name="recents_swipe_up_onboarding">ایپس سوئچ کرنے کیلئے اوپر سوائپ کریں</string>
     <string name="remaining_length_format">%1$s باقی ہیں</string>
     <string name="remote_input_image_insertion_text">ایک تصویر بھیجی</string>
     <string name="remove_from_settings">ترتیبات سے ہٹائیں</string>
@@ -2117,6 +2126,7 @@ USB پورٹ کا دوبارہ استعمال کرنا ٹھیک ہونے پر آ
     <string name="wallet_secondary_label_no_card">کارڈ شامل کریں</string>
     <string name="wallet_secondary_label_updating">اپ ڈیٹ ہو رہا ہے</string>
     <string name="wallet_title">Wallet</string>
+    <string name="weather_description">%1$s، %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">رسائی پوائنٹ عارضی طور پر فُل ہے</string>
     <string name="wifi_cant_connect">منسلک نہیں ہو سکتا ہے</string>
     <string name="wifi_cant_connect_to_ap">"'%1$s' سے منسلک نہیں ہو سکتا ہے"</string>

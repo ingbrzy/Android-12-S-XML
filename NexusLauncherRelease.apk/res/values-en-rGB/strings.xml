@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Add to folder with %1$s</string>
     <string name="add_to_home_screen">Add to home screen</string>
     <string name="added_to_folder">Item added to folder</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s widget added to home screen</string>
     <string name="all_apps_button_label">Apps list</string>
     <string name="all_apps_button_personal_label">Personal apps list</string>
     <string name="all_apps_button_work_label">Work apps list</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">When phone is rotated</string>
     <string name="allow_rotation_title">Allow Home screen rotation</string>
     <string name="allset_description">You’re ready to start using your phone</string>
+    <string name="allset_hint">Swipe up to go home</string>
+    <string name="allset_navigation_settings"><annotation id="link">System navigation settings</annotation></string>
     <string name="allset_title">Ready!</string>
     <string name="app_downloading_title">%1$s downloading, %2$s complete</string>
     <string name="app_info_drop_target_label">App info</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s waiting to install</string>
     <string name="auto_add_shortcuts_description">For new apps</string>
     <string name="auto_add_shortcuts_label">Add app icons to the home screen</string>
+    <string name="back_gesture_feedback_cancelled">Make sure that you swipe from the right or left edge to the middle of the screen and let go.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">You learned how to swipe from the right to go back. Next, learn how to switch apps.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">You completed the go back gesture.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">"Make sure that you don't swipe too close to the bottom of the screen."</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Make sure that you swipe from the far-right or far-left edge.</string>
     <string name="back_gesture_intro_subtitle">To go back to the last screen, swipe from the left or right edge to the middle of the screen.</string>
     <string name="back_gesture_intro_title">Swipe to go back</string>
     <string name="back_gesture_tutorial_confirm_subtitle">To change sensitivity of the back gesture, go to Settings</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Tap to save rename</string>
     <string name="gadget_error_text">"Can't load widget"</string>
     <string name="gadget_setup_text">Tap to finish setup</string>
+    <string name="gesture_tutorial_action_button_label">Done</string>
     <string name="gesture_tutorial_action_button_label_cancel">Cancel</string>
     <string name="gesture_tutorial_action_button_label_settings">Settings</string>
     <string name="gesture_tutorial_action_button_label_skip">Skip</string>
@@ -204,11 +210,12 @@
     <string name="notification_dots_title">Notification dots</string>
     <string name="notifications_header">Notifications</string>
     <string name="out_of_space">No room on this home screen</string>
-    <string name="overview_gesture_feedback_complete_with_follow_up">You learned how to use gestures. To turn off gestures, go to settings.</string>
+    <string name="overview_gesture_feedback_complete_with_follow_up">You learned how to use gestures. To turn off gestures, go to Settings.</string>
     <string name="overview_gesture_feedback_complete_without_follow_up">You completed the switch apps gesture.</string>
     <string name="overview_gesture_feedback_home_detected">Try holding the window for longer before releasing.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Make sure that you swipe up from the bottom edge of the screen.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Make sure that you swipe straight up, then pause.</string>
+    <string name="overview_gesture_intro_subtitle">To switch between apps, swipe up from the bottom of your screen, hold, then release.</string>
     <string name="overview_gesture_intro_title">Swipe to switch apps</string>
     <string name="overview_selection_pref_desc">When switching apps, touch &amp; hold text and images to see actions</string>
     <string name="overview_selection_pref_title">Overview selection</string>
@@ -280,14 +287,14 @@
     <string name="smartspace_flight_card_seat_header">Seat</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferences</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">At a glance</string>
     <string name="smartspace_preferences_in_settings_desc">At the top of your Home screen</string>
     <string name="smartspace_preferences_manage">Customise</string>
     <string name="smartspace_preferences_turn_off_action">Turn off</string>
-    <string name="smartspace_preferences_turn_off_description">Weather and information about upcoming events will stop showing on your home screen and lock screen.</string>
+    <string name="smartspace_preferences_turn_off_description">Weather and information about upcoming events will stop showing on your Home screen and lock screen.</string>
     <string name="smartspace_preferences_turn_off_title">Turn off %1$s</string>
     <string name="smartspace_preferences_turn_on_action">Turn on</string>
-    <string name="smartspace_preferences_turn_on_description">Weather and information about upcoming events will be shown on your home screen and lock screen.</string>
+    <string name="smartspace_preferences_turn_on_description">Weather and information about upcoming events will be shown on your Home screen and lock screen.</string>
     <string name="smartspace_preferences_turn_on_title">Turn on %1$s</string>
     <string name="smartspace_shopping_list_overflow">+ %1$d more</string>
     <string name="status_bar_notification_info_overflow">999+</string>

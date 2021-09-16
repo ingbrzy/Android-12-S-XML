@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Dodaj u folder sa aplikacijom %1$s</string>
     <string name="add_to_home_screen">Dodaj na početni ekran</string>
     <string name="added_to_folder">Stavka je dodana u folder</string>
+    <string name="added_to_home_screen_accessibility_text">Vidžet %1$s je dodan na početni ekran</string>
     <string name="all_apps_button_label">Lista aplikacija</string>
     <string name="all_apps_button_personal_label">Lista ličnih aplikacija</string>
     <string name="all_apps_button_work_label">Lista poslovnih aplikacija</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Kada se telefon zarotira</string>
     <string name="allow_rotation_title">Dozvoli rotiranje početnog ekrana</string>
     <string name="allset_description">Sve je spremno da počnete koristiti telefon</string>
+    <string name="allset_hint">Prevucite prema gore da odete na početnu stranicu</string>
+    <string name="allset_navigation_settings"><annotation id="link">Postavke navigiranja sistemom</annotation></string>
     <string name="allset_title">Sve je spremno!</string>
     <string name="app_downloading_title">%1$s se preuzima, završeno %2$s</string>
     <string name="app_info_drop_target_label">Inform. o aplikaciji</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s čeka da se instalira</string>
     <string name="auto_add_shortcuts_description">Za nove aplikacije</string>
     <string name="auto_add_shortcuts_label">Dodaj ikone aplikacija na početni ekran</string>
+    <string name="back_gesture_feedback_cancelled">Vodite računa da prevučete s desnog ili lijevog ruba prema sredini ekrana i pustite.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Naučili ste kako prevući zdesna da se vratite. Sljedeće naučite kako prebacivati između aplikacija.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Završili ste pokret za vraćanje.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Obratite pažnju da ne prevučete preblizu donjem dijelu ekrana.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Vodite računa da prevučete s krajnjeg desnog ili krajnjeg lijevog ruba.</string>
     <string name="back_gesture_intro_subtitle">Da se vratite na posljednji ekran, prevucite s lijevog ili desnog ruba prema sredini ekrana.</string>
     <string name="back_gesture_intro_title">Prevucite da se vratite</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Promijenite osjetljivost pokreta za povratak u Postavkama</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Dodirnite da sačuvate promjenu naziva</string>
     <string name="gadget_error_text">Nije moguće učitati vidžet</string>
     <string name="gadget_setup_text">Dodirnite da završite postavljanje</string>
+    <string name="gesture_tutorial_action_button_label">Gotovo</string>
     <string name="gesture_tutorial_action_button_label_cancel">Otkaži</string>
     <string name="gesture_tutorial_action_button_label_settings">Postavke</string>
     <string name="gesture_tutorial_action_button_label_skip">Preskoči</string>
@@ -141,12 +147,12 @@
     <string name="gleam_tooltip_text">Dodirnite i držite da odaberete tekst ili sliku</string>
     <string name="google_folder_name">Google</string>
     <string name="hint_qsb">Pretražite aplikacije i drugo</string>
-    <string name="home_gesture_feedback_complete_with_follow_up">Završili ste pokret za otvaranje Početnog ekrana. Sljedeće naučite kako se vratiti.</string>
-    <string name="home_gesture_feedback_complete_without_follow_up">Završili ste pokret za otvaranje Početnog ekrana.</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">Završili ste pokret za otvaranje početnog ekrana. Sljedeće naučite kako se vratiti.</string>
+    <string name="home_gesture_feedback_complete_without_follow_up">Završili ste pokret za otvaranje početnog ekrana.</string>
     <string name="home_gesture_feedback_overview_detected">Obratite pažnju da ne zastanete prije puštanja.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">Trebate prevući prema gore s donjeg ruba ekrana.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">Trebate prevući ravno prema gore.</string>
-    <string name="home_gesture_intro_subtitle">Prevucite s dna ekrana prema gore. Tim pokretom uvijek idete na Početni ekran.</string>
+    <string name="home_gesture_intro_subtitle">Prevucite s dna ekrana prema gore. Tim pokretom uvijek idete na početni ekran.</string>
     <string name="home_gesture_intro_title">Prevucite da odete na početni ekran</string>
     <string name="home_screen">Početni ekran</string>
     <string name="hotsaet_tip_prediction_disabled">Prijedlozi aplikacija su onemogućeni</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Pokušajte zadržati prozor duže prije puštanja.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Trebate prevući prema gore s donjeg ruba ekrana.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Trebate prevući ravno prema gore, a zatim zastati.</string>
+    <string name="overview_gesture_intro_subtitle">Da prebacujete između aplikacija, prevucite s dna ekrana prema gore, zadržite, a zatim pustite.</string>
     <string name="overview_gesture_intro_title">Prevucite da prebacujete između aplikacija</string>
     <string name="overview_selection_pref_desc">Prilikom prelaska između aplikacija, dodirnite i držite tekst i slike da vidite radnje</string>
     <string name="overview_selection_pref_title">Odabir Pregleda</string>
@@ -280,15 +287,15 @@
     <string name="smartspace_flight_card_seat_header">Sjedište</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Postavke</string>
-    <string name="smartspace_preferences_in_settings">Odjeljak Uživo</string>
+    <string name="smartspace_preferences_in_settings">Brzi pregled aktivnosti</string>
     <string name="smartspace_preferences_in_settings_desc">Na vrhu početnog ekrana</string>
     <string name="smartspace_preferences_manage">Prilagodi</string>
     <string name="smartspace_preferences_turn_off_action">Isključi</string>
-    <string name="smartspace_preferences_turn_off_description">Informacije o vremenu i predstojećim događajima će se prestati prikazivati na Početnom i zaključanom ekranu.</string>
-    <string name="smartspace_preferences_turn_off_title">Isključite: %1$s</string>
+    <string name="smartspace_preferences_turn_off_description">Informacije o vremenu i predstojećim događajima će se prestati prikazivati na početnom i zaključanom ekranu.</string>
+    <string name="smartspace_preferences_turn_off_title">Isključite \"%1$s\"</string>
     <string name="smartspace_preferences_turn_on_action">Uključi</string>
-    <string name="smartspace_preferences_turn_on_description">Informacije o vremenu i predstojećim događajima će se prikazivati na Početnom i zaključanom ekranu.</string>
-    <string name="smartspace_preferences_turn_on_title">Uključite: %1$s</string>
+    <string name="smartspace_preferences_turn_on_description">Informacije o vremenu i predstojećim događajima će se prikazivati na početnom i zaključanom ekranu.</string>
+    <string name="smartspace_preferences_turn_on_title">Uključite \"%1$s\"</string>
     <string name="smartspace_shopping_list_overflow">i još %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">Pozadinska slika i stil</string>

@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">ภาษาและการป้อนข้อมูล</string>
     <string name="lift_to_wake_title">ยกขึ้นเพื่อเวก</string>
-    <string name="lockdown_settings_summary">แสดงตัวเลือกปุ่มเปิด/ปิดที่จะปิด Smart Lock, การปลดล็อกด้วยใบหน้า, การปลดล็อกด้วยลายนิ้วมือ และการแจ้งเตือนในหน้าจอล็อก</string>
-    <string name="lockdown_settings_title">แสดงตัวเลือกการปิดล็อก</string>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_up_description">กลับ</string>
     <string name="locked_work_profile_notification_title">เมื่อโปรไฟล์งานล็อกอยู่</string>
     <string name="lockscreen_bypass_summary">ไปที่หน้าจอที่ใช้ล่าสุดหลังปลดล็อกแล้ว</string>
     <string name="lockscreen_bypass_title">ข้ามหน้าจอล็อก</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">การแจ้งเตือนงาน</string>
     <string name="reset_dashboard_summary">สามารถรีเซ็ตเครือข่าย แอป หรืออุปกรณ์ได้</string>
     <string name="reset_dashboard_title">ตัวเลือกการรีเซ็ต</string>
-    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
     <string name="screensaver_settings_title">โปรแกรมรักษาหน้าจอ</string>
     <string name="screen_timeout">ระยะหมดเวลาหน้าจอ</string>
     <string name="screen_zoom_title">ขนาดการแสดงผล</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">เพิ่มอัตราการรีเฟรชจาก 60 เป็น 90 Hz โดยอัตโนมัติสำหรับเนื้อหาบางรายการ เพิ่มการใช้งานแบตเตอรี่</string>
     <string name="accessibility_vibration_settings_title">การสั่นและการโต้ตอบการสัมผัส</string>
     <string name="emergency_gesture_screen_title">SOS ฉุกเฉิน</string>
-    <string name="abc_action_bar_up_description">กลับ</string>
+    <string name="abc_action_mode_done">เสร็จ</string>
     <string name="vibrate_for_calls_category_title">การโทร</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">แสดง Wallet</string>
     <string name="lockscreen_privacy_controls_setting_toggle">แสดงระบบควบคุมอุปกรณ์</string>
     <string name="lockscreen_privacy_wallet_summary">อนุญาตให้เข้าถึง Wallet จากหน้าจอล็อกและการตั้งค่าด่วน</string>
     <string name="lockscreen_privacy_controls_summary">เข้าถึงระบบควบคุมเมื่อล็อก</string>
-    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
-    <string name="abc_action_mode_done">เสร็จ</string>
     <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
     <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
     <string name="abc_capital_off">ปิด</string>
@@ -890,7 +888,7 @@
     <string name="battery_action_stop">บังคับให้หยุด</string>
     <string name="battery_action_wifi">การตั้งค่า WiFi</string>
     <string name="battery_active_for">มีการใช้งาน ^1</string>
-    <string name="battery_app_usage_for">การใช้งานแอปของ %s</string>
+    <string name="battery_app_usage_for">การใช้งานแอปเมื่อ %s</string>
     <string name="battery_app_usage_for_past_24">การใช้งานแอปใน 24 ชม. ที่ผ่านมา</string>
     <string name="battery_auto_restriction_summary">ตรวจจับเมื่อแอปทำให้แบตเตอรี่หมดเร็ว</string>
     <string name="battery_auto_restriction_title">ใช้ตัวจัดการแบตเตอรี่</string>
@@ -993,7 +991,7 @@
     <string name="battery_suggestion_title">เพิ่มอายุการใช้งานแบตเตอรี่ของโทรศัพท์</string>
     <string name="battery_summary">ใช้ %1$s ตั้งแต่ชาร์จจนเต็มครั้งล่าสุด</string>
     <string name="battery_summary_24hr">ใช้แบตเตอรี่ %1$s ในช่วง 24 ชั่วโมงที่ผ่านมา</string>
-    <string name="battery_system_usage_for">การใช้งานระบบของ %s</string>
+    <string name="battery_system_usage_for">การใช้งานระบบเมื่อ %s</string>
     <string name="battery_system_usage_for_past_24">การใช้งานระบบใน 24 ชม. ที่ผ่านมา</string>
     <string name="battery_tip_dialog_message">"คุณใช้งานโทรศัพท์มากกว่าปกติ แบตเตอรี่จึงอาจหมดเร็วกว่าที่เคย
 
@@ -1007,7 +1005,7 @@
     <string name="battery_tip_early_heads_up_summary">แบตเตอรี่อาจหมดเร็วกว่าปกติ</string>
     <string name="battery_tip_early_heads_up_title">เปิดโหมดประหยัดแบตเตอรี่</string>
     <string name="battery_tip_high_usage_summary">ดูแอปที่มีการใช้งานแบตเตอรี่สูงสุด</string>
-    <string name="battery_tip_high_usage_title">การใช้งานแบตเตอรี่สูงกว่า</string>
+    <string name="battery_tip_high_usage_title">การใช้งานแบตเตอรี่สูงกว่าปกติ</string>
     <string name="battery_tip_limited_temporarily_summary">เพื่อถนอมแบตเตอรี่ ดูข้อมูลเพิ่มเติม</string>
     <string name="battery_tip_limited_temporarily_title">จำกัดการชาร์จชั่วคราว</string>
     <string name="battery_tip_low_battery_summary">เปิดโหมดประหยัดแบตเตอรี่เพื่อยืดอายุการใช้งานแบตเตอรี่</string>
@@ -2491,7 +2489,7 @@
     <string name="game_dashboard_always_on_title">แดชบอร์ดเกม</string>
     <string name="game_dashboard_dnd_rule_name">เกม</string>
     <string name="game_dashboard_dnd_summary">รับเฉพาะการแจ้งเตือนจากคนและแอปที่สำคัญเมื่อเล่นเกม</string>
-    <string name="game_dashboard_dnd_title">ห้ามรบกวนเมื่อเล่นเกม</string>
+    <string name="game_dashboard_dnd_title">โหมดห้ามรบกวนสำหรับเกม</string>
     <string name="game_mode_battery_description">ลดอัตราเฟรมลง ช่วยประหยัดแบตเตอรี่</string>
     <string name="game_mode_battery_title">โหมดประหยัดแบตเตอรี่</string>
     <string name="game_mode_performance_description">เพิ่มอัตราเฟรมสูงสุด ใช้แบตเตอรี่มากขึ้น</string>
@@ -2712,7 +2710,7 @@
     <string name="keywords_app">RAM</string>
     <string name="keywords_app_default">เปิดด้วย</string>
     <string name="keywords_app_permissions">แอป, สิทธิ์, ความปลอดภัย</string>
-    <string name="keywords_app_pinning">การตรึงหน้าจอ</string>
+    <string name="keywords_app_pinning">การปักหมุดหน้าจอ</string>
     <string name="keywords_applications_settings">แอปพลิเคชัน</string>
     <string name="keywords_assist_gesture_launch">ท่าทางสัมผัส, ขอบ, ด้านข้าง, active edge, บีบ, กำแน่น, ช่วยเหลือ, assistant, บีบ, ok google, google assistant</string>
     <string name="keywords_assist_gesture_silence">ท่าทางสัมผัส, ขอบ, ด้านข้าง, active edge, ปิดเสียง, เลื่อนการปลุก, การปลุก, สายเรียกเข้า, เงียบ, การแสดงผล, หน้าจอล็อก, บีบ, กำแน่น, หยุด</string>

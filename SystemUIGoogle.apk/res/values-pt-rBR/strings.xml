@@ -320,7 +320,7 @@
     <string name="active_input_method_subtypes">Métodos ativos de entrada</string>
     <string name="activity_launch_on_secondary_display_failed_text">O app não é compatível com a inicialização em telas secundárias.</string>
     <string name="activity_not_found">O app não está instalado no seu dispositivo</string>
-    <string name="adaptive_charging_time_estimate">%1$s • Carregamento adaptável (bateria cheia até %2$s)</string>
+    <string name="adaptive_charging_time_estimate">%1$s • Carregamento adaptável (conclusão às %2$s)</string>
     <string name="adb_device_fingerprint_title_format">Impressão digital do dispositivo: %1$s</string>
     <string name="adb_device_forget">Esquecer</string>
     <string name="adb_keys_warning_message">Revogar o acesso à depuração USB para todos os computadores autorizados?</string>
@@ -595,6 +595,8 @@ Seleção"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">É necessário reinicializar o dispositivo para que a mudança seja aplicada. Faça isso agora ou cancele.</string>
     <string name="camera_hint">Deslize a partir do ícone da câmera</string>
     <string name="camera_label">abrir câmera</string>
+    <string name="camera_recording_announcement">A câmera está gravando</string>
+    <string name="camera_stopped_recording_announcement">A câmera parou de gravar</string>
     <string name="cancel">Cancelar</string>
     <string name="carrier_network_change_mode">Alteração de rede da operadora</string>
     <string name="category_personal">Pessoal</string>
@@ -734,6 +736,10 @@ Se retomar o uso de dados, o serviço poderá ser cobrado."</string>
     <string name="debug_monitoring_category">Monitoramento</string>
     <string name="debug_networking_category">Redes</string>
     <string name="debug_view_attributes">Ativar visualização de inspeção de atributo</string>
+    <string name="defender_notify_des">O smartphone está limitando o carregamento para ajudar a preservar a integridade da bateria</string>
+    <string name="defender_notify_learn_more">Saiba mais</string>
+    <string name="defender_notify_resume_charge">Retomar o carregamento</string>
+    <string name="defender_notify_title">Carregamento temporariamente limitado</string>
     <string name="delete_blob_confirmation_text">Você quer mesmo excluir esses dados compartilhados?</string>
     <string name="delete_blob_text">Excluir dados compartilhados</string>
     <string name="demo_mode">Modo de demonstração da IU do sistema</string>
@@ -845,7 +851,7 @@ Os dados faciais que foram usados serão excluídos de maneira permanente e segu
     <string name="force_rtl_layout_all_locales">Forçar layout da direita p/ esquerda</string>
     <string name="force_rtl_layout_all_locales_summary">Forçar a direção do layout da direita para a esquerda para todas as localidades</string>
     <string name="forced_resizable_secondary_display">É possível que o app não funcione em uma tela secundária.</string>
-    <string name="game_dashboard_dnd_on">O modo Não perturbe está ativado para jogos</string>
+    <string name="game_dashboard_dnd_on">Não perturbe ativado para jogos</string>
     <string name="game_dashboard_fps_counter_on">O Contador de frame rate está ativado</string>
     <string name="game_dashboard_game_menu_title">Painel de jogo</string>
     <string name="game_dashboard_game_mode_off">Modo jogo: desativado</string>
@@ -853,7 +859,7 @@ Os dados faciais que foram usados serão excluídos de maneira permanente e segu
     <string name="game_dashboard_screenshot_shortcut_available">Um atalho para captura de tela está disponível</string>
     <string name="game_launch_battery">Otimizado para a duração da bateria</string>
     <string name="game_launch_change">Mudar</string>
-    <string name="game_launch_dnd_on">O modo Não perturbe está ativado para jogos.</string>
+    <string name="game_launch_dnd_on">Não perturbe ativado para jogos</string>
     <string name="game_launch_performance">Otimizado para melhor desempenho.</string>
     <string name="game_menu_game_mode_description">Escolher o modo de Performance ou de Economia de bateria</string>
     <string name="game_menu_game_mode_title">Otimização</string>
@@ -1070,6 +1076,7 @@ Entre em contato com seu provedor de serviços sem fio para receber outro chip."
     <string name="keyguard_sim_unlock_progress_dialog_message">Desbloqueando o chip…</string>
     <string name="keyguard_try_fingerprint">Use a impressão digital para abrir</string>
     <string name="keyguard_unlock">Deslize para cima para abrir</string>
+    <string name="keyguard_unlock_press">Pressione para abrir</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="keywords_alarms_and_reminders">programar, alarme, lembrete, relógio</string>
     <string name="kg_enter_confirm_pin_hint">Confirme o código PIN desejado</string>
@@ -1233,6 +1240,10 @@ Tente novamente em %2$d segundos."</string>
     <string name="menu_ime">Seletor de teclado</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microfone ativado</string>
+    <string name="mic_and_camera_recording_announcement">A câmera e o microfone estão gravando</string>
+    <string name="mic_camera_stopped_recording_announcement">A câmera e o microfone pararam de gravar</string>
+    <string name="mic_recording_announcement">O microfone está gravando</string>
+    <string name="mic_stopped_recording_announcement">O microfone parou de gravar</string>
     <string name="missed_call">Chamada perdida</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Dados móveis</string>
@@ -1706,8 +1717,6 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_work_mode_label">Apps de trabalho</string>
     <string name="quick_step_accessibility_toggle_overview">Alternar Visão geral</string>
     <string name="recent_conversations">Conversas recentes</string>
-    <string name="recents_quick_scrub_onboarding">Arraste para a direita para mudar rapidamente de app</string>
-    <string name="recents_swipe_up_onboarding">Deslize para cima para mudar de app</string>
     <string name="remaining_length_format">%1$s restante(s)</string>
     <string name="remote_input_image_insertion_text">enviou uma imagem</string>
     <string name="remove_from_settings">Remover das configurações</string>
@@ -2117,6 +2126,7 @@ Qualquer usuário pode atualizar apps para os demais usuários."</string>
     <string name="wallet_secondary_label_no_card">Adicionar um cartão</string>
     <string name="wallet_secondary_label_updating">Atualizando</string>
     <string name="wallet_title">Carteira</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Ponto de acesso temporariamente cheio</string>
     <string name="wifi_cant_connect">Não é possível estabelecer conexão</string>
     <string name="wifi_cant_connect_to_ap">Não é possível conectar-se a \"%1$s\"</string>

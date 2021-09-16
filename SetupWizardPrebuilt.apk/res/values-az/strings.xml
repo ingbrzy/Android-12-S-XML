@@ -341,13 +341,15 @@ Cihaz təchiz edilməyib"</string>
 
 "<li>İstənilən digər istifadəçi yenilənmiş tətbiq icazələrini qəbul edə bilər</li>"
 
-"<li>Bu telefonu yalnız inandığınız şəxslərlə paylaşın</li></ul>}TABLET{<b>Vacib:</b>"
+"<li>Bu telefonu yalnız inandığınız şəxslərlə paylaşın</li></ul>"
+}TABLET{"<b>Vacib:</b>"
 
 "<ul><li>Planşetin sahibi tətbiqləri sistemdən silə və ya istifadəçi profilinizi tamamilə deaktiv edə bilər</li>"
 
 "<li>İstənilən digər istifadəçi yenilənmiş tətbiq icazələrini qəbul edə bilər</li>"
 
-"<li>Bu planşeti yalnız inandığınız şəxslərlə paylaşın</li></ul>}other{<b>Vacib:</b>"
+"<li>Bu planşeti yalnız inandığınız şəxslərlə paylaşın</li></ul>"
+}other{"<b>Vacib:</b>"
 
 "<ul><li>Cihazın sahibi tətbiqləri sistemdən silə və ya istifadəçi profilinizi tamamilə deaktiv edə bilər</li>"
 
@@ -359,70 +361,47 @@ Cihaz təchiz edilməyib"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq telefonu sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
 "<li>Tətbiq və datanı bərpa etmək</li>"
-
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
-"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"}TABLET{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq planşeti sürətlə ayarlamağa kömək edir.
+"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"
+}TABLET{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq planşeti sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
-"<li>Tətbiq və datanı bərpa etmə</li>"
-
+"<li>Tətbiq və datanı bərpa etmək</li>"
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
-"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"}other{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq cihazı sürətlə ayarlamağa kömək edir.
+"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"
+}other{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq cihazı sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
 "<li>Tətbiq və datanı bərpa etmək</li>"
-
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
 "<li>Vaxt və tarixi avtomatik ayarlamaq</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq telefonu sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
 "<li>Tətbiq və datanı bərpa etmək</li>"
-
 "<li>SIM-i endirmək</li>"
-
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
-"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"}TABLET{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq planşeti sürətlə ayarlamağa kömək edir.
+"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"
+}TABLET{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq planşeti sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
 "<li>Tətbiq və datanı bərpa etmək</li>"
-
 "<li>SIM endirmək</li>"
-
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
-"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"}other{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq cihazı sürətlə ayarlamağa kömək edir.
+"<li>Vaxt və tarixi avtomatik ayarlamaq</li>"
+}other{Wi‑Fi və ya mobil şəbəkəyə qoşulmaq cihazı sürətlə ayarlamağa kömək edir.
 
 Bağlantı olmadan bunları edə bilməzsiniz:
-
 "<li>Google Hesabına daxil olmaq</li>"
-
 "<li>Tətbiq və datanı bərpa etmək</li>"
-
 "<li>SIM endirmək</li>"
-
 "<li>Proqram güncəlləmələri əldə etmək</li>"
-
 "<li>Vaxt və tarixi avtomatik ayarlamaq</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Giriş nöqtəsi müvəqqəti olaraq doludur</string>
     <string name="wifi_check_password_try_again">Parolu yoxlayın və yenidən cəhd edin</string>

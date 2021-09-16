@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">Jazyky a vstup</string>
     <string name="lift_to_wake_title">Prebudiť zdvihnutím</string>
-    <string name="lockdown_settings_summary">Zobrazovať v ponuke vypínača možnosť vypnúť Smart Lock, odomknutie tvárou, odomknutie odtlačkom prsta a upozornenia na uzamknutej obrazovke</string>
-    <string name="lockdown_settings_title">Zobraziť možnosti uzamknutia</string>
+    <string name="abc_action_bar_home_description">Prejsť na plochu</string>
+    <string name="abc_action_bar_up_description">Prejsť nahor</string>
     <string name="locked_work_profile_notification_title">Keď je prac. profil zamknutý</string>
     <string name="lockscreen_bypass_summary">Po odomknutí prejdite priamo na naposledy použitú obrazovku</string>
     <string name="lockscreen_bypass_title">Preskakovať uzamknutú obrazovku</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">Pracovné upozornenia</string>
     <string name="reset_dashboard_summary">Sieť, aplikácie a zariadenie sa dajú resetovať</string>
     <string name="reset_dashboard_title">Možnosti resetovania</string>
-    <string name="abc_action_bar_home_description">Prejsť na plochu</string>
+    <string name="abc_action_menu_overflow_description">Ďalšie možnosti</string>
     <string name="screensaver_settings_title">Šetrič obrazovky</string>
     <string name="screen_timeout">Časový limit obrazovky</string>
     <string name="screen_zoom_title">Veľkosť zobrazenia</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">Automaticky zvyšovať frekvenciu obnovenia zo 60 na 90 Hz pre určitý obsah. Zvýši sa spotreba batérie.</string>
     <string name="accessibility_vibration_settings_title">Vibrácie a hmatová odozva</string>
     <string name="emergency_gesture_screen_title">Pomoc v tiesni</string>
-    <string name="abc_action_bar_up_description">Prejsť nahor</string>
+    <string name="abc_action_mode_done">Hotovo</string>
     <string name="vibrate_for_calls_category_title">Hovory</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">Zobraziť peňaženku</string>
     <string name="lockscreen_privacy_controls_setting_toggle">Zobraziť ovládanie zariadení</string>
     <string name="lockscreen_privacy_wallet_summary">Povoľte prístup k peňaženke z uzamknutej obrazovky a rýchlych nastavení</string>
     <string name="lockscreen_privacy_controls_summary">Prístup k ovládacím prvkom pri uzamknutí</string>
-    <string name="abc_action_menu_overflow_description">Ďalšie možnosti</string>
-    <string name="abc_action_mode_done">Hotovo</string>
     <string name="abc_activity_chooser_view_see_all">Zobraziť všetky</string>
     <string name="abc_activitychooserview_choose_application">Vybrať aplikáciu</string>
     <string name="abc_capital_off">VYP.</string>
@@ -3306,7 +3304,7 @@ V tomto zariadení sa nachádzajú ďalší používatelia.
     <string name="mobile_data_disable_title">Chcete vypnúť mobilné dáta?</string>
     <string name="mobile_data_no_connection">Bez pripojenia</string>
     <string name="mobile_data_off">Mobilné dáta sú vypnuté</string>
-    <string name="mobile_data_off_summary">Automatické pripojenie cez mobilné dáta nefunguje</string>
+    <string name="mobile_data_off_summary">Mobilné dáta sa nepripájajú automaticky</string>
     <string name="mobile_data_settings_summary">Pristupovať k dátam pomocou mobilnej siete</string>
     <string name="mobile_data_settings_summary_auto_switch">Telefón sa automaticky prepne na tohto operátora, keď bude v dosahu</string>
     <string name="mobile_data_settings_summary_unavailable">Nie je k dispozícii žiadna SIM karta</string>
@@ -3426,7 +3424,7 @@ Prepnutím na operátora %1$s nezrušíte službu operátora %2$s."</string>
     <string name="n_cacrts">certifikáty CA (%d)</string>
     <string name="network_4G">4G (odporúčané)</string>
     <string name="network_5G_recommended">5G (odporúčané)</string>
-    <string name="network_and_internet_preferences_summary">Pripájať k verejným sieťam</string>
+    <string name="network_and_internet_preferences_summary">Pripájať sa k verejným sieťam</string>
     <string name="network_and_internet_preferences_title">Nastavenia siete</string>
     <string name="network_changed_notification_text">Mobilná sieť bola zmenená</string>
     <string name="network_connected">Pripojené</string>
@@ -5376,7 +5374,7 @@ Táto akcia tiež odstráni model odtlačku prsta uložený v zariadení. Pomoc
     <string name="use_open_wifi_automatically_summary">Automaticky pripájať ku kvalitným verejným sieťam</string>
     <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Ak sa chcete automaticky pripájať, je potrebné vybrať kompatibilného poskytovateľa hodnotenia siete</string>
     <string name="use_open_wifi_automatically_summary_scoring_disabled">Ak sa chcete automaticky pripájať, je potrebné vybrať poskytovateľa hodnotenia siete</string>
-    <string name="use_open_wifi_automatically_title">Pripájať k verejným sieťam</string>
+    <string name="use_open_wifi_automatically_title">Pripájať sa k verejným sieťam</string>
     <string name="use_system_language_to_select_input_method_subtypes">Jazyky systému</string>
     <string name="use_wifi_hotsopt_main_switch_title">Používať hotspot Wi‑Fi</string>
     <string name="user_account_title">Účet pre obsah</string>

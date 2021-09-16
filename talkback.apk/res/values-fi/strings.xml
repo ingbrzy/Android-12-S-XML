@@ -87,7 +87,7 @@
 Voit tutustua muihin aiheisiin nyt tai katsoa nämä tiedot milloin tahansa TalkBack-asetuksista."</string>
     <string name="all_set_title">Valmista tuli</string>
     <string name="always_show_this_message_label">Näytä tämä viesti aina</string>
-    <string name="application_name">Androidin esteettömyystyökalut</string>
+    <string name="application_name">Android Saavutettavuus</string>
     <string name="arc_android_window">Sovellusikkuna</string>
     <string name="arc_navigation_hint">Siirry painamalla hakua ja nuolinäppäimiä.</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Näytä pikanäppäinluettelo painamalla %1$s.</string>
@@ -105,7 +105,7 @@ Voit tutustua muihin aiheisiin nyt tai katsoa nämä tiedot milloin tahansa Talk
     <string name="audio_focus_state">Äänen vaimennus %1$s</string>
     <string name="auto_detect">Mukaudu laitteen pitelytapaan</string>
     <string name="auto_scan_action_description">Aloita skannaus ja valinta</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Automaattinen skannaus\" tai \"Valitse\"</string>
     <string name="available_devices_header">Käytettävissä olevat Bluetooth-laitteet</string>
     <string name="basic_navigation_link_subtext">Siirry kohteesta toiseen, vieritä, käytä valikkoja ym.</string>
     <string name="basic_navigation_link_text">Perusnavigointi</string>
@@ -119,7 +119,7 @@ Voit tutustua muihin aiheisiin nyt tai katsoa nämä tiedot milloin tahansa Talk
     <string name="bluetooth_no_devices_paired">Bluetooth-laitteiden kanssa ei ole muodostettu laiteparia.</string>
     <string name="bluetooth_not_enabled_message">Jos haluat muodostaa laiteparin Bluetooth-kytkimen kanssa, ota Bluetooth käyttöön.</string>
     <string name="bluetooth_peripheral_content_description">Lisälaite</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Jos haluat muodostaa laiteparin Bluetooth-kytkimen kanssa ohjatussa asennuksessa, laita Bluetooth päälle ja anna Android Saavutettavuudelle pääsy lähellä oelviin laitteisiin ja paikallisiin lupiin.</string>
     <string name="bluetooth_phone_content_description">Puhelin</string>
     <string name="bluetooth_switch_description_text">Muodosta laitepari kytkimen kanssa langattomasti Bluetoothin kautta</string>
     <string name="bluetooth_switch_option_text">Bluetooth-kytkin</string>
@@ -157,6 +157,9 @@ Voit tutustua muihin aiheisiin nyt tai katsoa nämä tiedot milloin tahansa Talk
     <string name="cam_switch_enable_banner_text_label_generic">Jotta voit ohjata laitetta, sinun täytyy ensin laittaa kytkimen käyttö päälle.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Laita kamerakytkimet päälle</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Laita kytkimen käyttö päälle</string>
+    <string name="cam_switches_combined_preferences_title">Asetukset: %1$s</string>
+    <string name="cam_switches_preferences_title">Kamerakytkimen asetukset</string>
+    <string name="cam_switches_single_preferences_title">Asetukset: %s</string>
     <string name="camera_switches_status_active">Kameran kytkimet käytössä</string>
     <string name="camera_switches_status_error">Virhe</string>
     <string name="camera_switches_status_no_face">Kasvoja ei havaittu</string>
@@ -263,7 +266,7 @@ Kokeile liittää sana alla olevaan tekstikenttään."</string>
     <string name="default_action_name_pause">Keskeytä kamerakytkin</string>
     <string name="default_action_name_point_scan">Pisteskannaus</string>
     <string name="dialog_confirm_revert_to_default_menu">Vahvista</string>
-    <string name="dialog_do_not_disturb_permission_message">Jos haluat säätää äänenvoimakkuutta kytkimen käytön valikosta, myönnä Androidin esteettömyystyökaluille Älä häiritse ‑käyttöoikeudet.</string>
+    <string name="dialog_do_not_disturb_permission_message">Jos haluat säätää äänenvoimakkuutta kytkimen käytön valikosta, myönnä Android Saavutettavuudelle Älä häiritse ‑käyttöoikeudet.</string>
     <string name="dialog_do_not_disturb_permission_title">Kytkimen käyttö tarvitsee luvan äänenvoimakkuuden säätämiseen</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Avaa asetukset</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Kamerakytkinten toimiminen edellyttää, että ne lataavat noin 10 Mt lisädataa. Tämän pitäisi viedä noin minuutin riippuen verkon nopeudesta.</string>
@@ -399,6 +402,7 @@ Kokeile nyt koskettamalla näyttöä ja vetämällä kohti vasenta alakulmaa, ku
     <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
     <string name="fallback_menu_item_share_link">Jaa linkki</string>
     <string name="fast_radio_button_title">Nopea (%1$s sekunnin viive)</string>
+    <string name="fast_radio_button_title_content_description">Nopea (%1$s sekunnin viive)</string>
     <string name="find_finish_button_text">Pyyhkäise oikealle, kunnes näet lopetuspainikkeen.</string>
     <string name="finish">Valmis</string>
     <string name="finish_tutorial_announcement">Pistekirjoitusnäppäimistö näkyy. Käännä puhelinta ensin niin, että näyttö on poispäin sinusta. Käännä sitten puhelin vaakasuoraan asentoon. Aloita sitten kirjoittaminen.</string>
@@ -747,6 +751,7 @@ Sisäisen näkymän nimi: %1$s"</string>
     <string name="list_index_template">%1$d/%2$d</string>
     <string name="lockscreen_label">Lukitusnäyttö</string>
     <string name="medium_radio_button_title">Keskinopea (%1$s sekunnin viive)</string>
+    <string name="medium_radio_button_title_content_description">Keskipitkä (%1$s sekunnin viive)</string>
     <string name="menu_category_reading_controls">Lukeminen</string>
     <string name="menu_category_special_features">Erityisominaisuudet</string>
     <string name="menus_selector_text">"Näillä pikanäppäimillä voit muuttaa asetuksia nopeasti, esimerkiksi vaihtaa navigoinnin merkeistä sanoihin tai muuttaa TalkBackin puhenopeutta.
@@ -767,6 +772,7 @@ Avaa nyt TalkBack-valikko napauttamalla näyttöä kolmella sormella."</string>
 Avaa nyt TalkBack-valikko pyyhkäisemällä alas ja sitten oikealle."</string>
     <string name="menus_title">Valikko ja säätimet</string>
     <string name="message_in_reset_keymap_confirm_dialog">Haluatko varmasti palauttaa tämän näppäinkartan pikanäppäimien oletusarvot? Toimenpidettä ei voi peruuttaa.</string>
+    <string name="message_request_phone_permission">TalkBack pyytää saada tietää, kun puhelu on käynnissä, jotta se voi vähentää häiritseviä ilmoituksia.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Tämä palauttaa kaikki eleet oletustoimintoihin.
 
 Menetät tekemäsi muutokset."</string>
@@ -996,6 +1002,7 @@ Kokeile mitä tahansa elettä, jossa kaksi pyyhkäisyä muodostaa suoran kulman.
     <string name="pref_reduce_window_delay_title">Pienennä ikkunan ilmoitusviivettä</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Lisää kamerakytkimiä</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Tyhjennä fyysiset kytkimet</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Määritä kytkimen asetukset: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Muokkaa kamerakytkimiä</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Kamerakytkimiä ei ole määritetty</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Määritä kamerakytkimiä: %s</string>
@@ -1016,9 +1023,9 @@ Kokeile mitä tahansa elettä, jossa kaksi pyyhkäisyä muodostaa suoran kulman.
     <string name="pref_sa_face_playground_stop_preview_content_description">Lopeta esikatselu</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Laita päälle</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Tämän testialueen käyttö edellyttää, että kamerakytkimet ovat päällä</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Kokeile kaikkia eletyyppejä, esim. suu auki tai hymy</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Kokeile</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Kokeile %1$s elettä</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Testialueen käyttö on keskeytetty. Käynnistä se uudelleen painamalla alla olevaa painiketta.</string>
     <string name="pref_selector_summary">%1$s valitaksesi asetuksen. %2$s muuttaaksesi asetusta.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s tai %2$s valitaksesi asetuksen. %3$s muuttaaksesi asetusta.</string>
@@ -1069,6 +1076,7 @@ Jos yhteyden muodostaminen ei vieläkään onnistu, siirry Bluetooth-asetuksiin 
     <string name="reduce_speed_button">Vähennä nopeutta</string>
     <string name="remaining_calibration_finish_announcement">Kaikki pisteiden paikat päivitetty</string>
     <string name="reminder_announcement">Pyyhkäise ylös kolmella sormella saadaksesi lisää vaihtoehtoja</string>
+    <string name="remove_assigned_switch">Poista kytkinmääritys: %s</string>
     <string name="report_gesture_description">Tässä on viime aikoina tehdyt eleet. Ilmoita, mikä ele on väärä ja mitä odotit sen sijaan.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Nollaa</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Nollaa</string>
@@ -1149,6 +1157,7 @@ Kokeile nyt pyyhkäisemällä ylös kahdella sormella, kunnes pääset listan lo
     <string name="search_mode_hint_no_selection">Ei valittua kohdetta.</string>
     <string name="search_mode_hint_query">Nykyinen haku: %1$s.</string>
     <string name="search_mode_hint_selection">Nykyinen valinta: %1$s.</string>
+    <string name="select_for_point_scan">\"Valitse\"</string>
     <string name="select_setting_hint">%1$s valitaksesi toisen asetuksen</string>
     <string name="selecting_text_text">"Voit valita tekstiä tekstikentästä siirtämällä osoittimen haluamasi tekstin alkuun.
 
@@ -1209,6 +1218,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="shortcut_media_control">Toista mediaa tai keskeytä se</string>
     <string name="shortcut_next">Seuraava kohde</string>
     <string name="shortcut_next_granularity">Seuraava siirtymisasetus</string>
+    <string name="shortcut_next_window">Seuraava ikkuna</string>
     <string name="shortcut_not_customizable">%1$s, ei muokattavissa</string>
     <string name="shortcut_notifications">Ilmoitukset</string>
     <string name="shortcut_overview">Viimeisimmät</string>
@@ -1221,6 +1231,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="shortcut_practice_gestures">Eleiden harjoittelu</string>
     <string name="shortcut_previous">Edellinen kohde</string>
     <string name="shortcut_previous_granularity">Edellinen siirtymisasetus</string>
+    <string name="shortcut_previous_window">Edellinen ikkuna</string>
     <string name="shortcut_print_node_tree">Tulosta solmupuu</string>
     <string name="shortcut_print_performance_stats">Tulosta toimintatilastot</string>
     <string name="shortcut_quick_settings">Pika-asetukset</string>
@@ -1260,6 +1271,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
 • Jatkuva lukeminen ravistamalla laitetta"</string>
     <string name="six_hold_announcement">Voit myös kirjoittaa asettamalla puhelimen vaakatasoon pöydälle. Kokeile nyt. Jos lähistöllä ei ole pöytää, siirry eteenpäin pyyhkäisemällä alas.</string>
     <string name="slow_radio_button_title">Hidas (%1$s sekunnin viive)</string>
+    <string name="slow_radio_button_title_content_description">Hidas (%1$s sekunnin viive)</string>
     <string name="sound_feedback_state">Äänipalaute %1$s</string>
     <string name="sound_feedback_summary">Ilmoita äänellä muutoksesta (esim. näytön sisällön muutos)</string>
     <string name="speak_container_element_position_summary_off">Luettelon ja ruudukon tietoja ei sanota.</string>
@@ -1333,17 +1345,17 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="summary_pref_face_switches_debounce_time">Useat tämän ajan sisällä tehdyt kamerakytkimen käynnistykset tulkitaan yhdeksi käynnistykseksi.</string>
     <string name="summary_pref_face_switches_enabled">Kamerakytkimet havaitsevat, katsotko näyttöä, ja tunnistavat kasvojen eleet etukameran avulla. Kuvia ei tallenneta tai lähetetä Googlelle.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Toista äänimerkki, kun jokin muuttuu näytöllä eleen perusteella</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Näytä visuaalinen ilmoitus eleen kestosta</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Pidä näyttö päällä, kun kamerakytkimet ovat käytössä. Kamerakytkimet eivät voi avata näyttöä, jos se sammuu.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Kasvoja ei havaittu</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Tee mikä tahansa kasvojen eleistä. Jos ele on rekisteröity, sen nimi tulee näkyviin. Voit poistua jatkamalla mitä tahansa elettä %1$d sekuntia.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Pidä pääsi paikoillaan ja katso kameraan. Tee sitten näin: %s.</string>
     <string name="summary_pref_play_store">Nykyinen TalkBack-versio: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Valitse tietty vaaka- ja pystysuora sijainti liikkuvien viivojen avulla. Aloita pisteskannaus painamalla %1$s. %2$s</string>
     <string name="summary_pref_reverse_dots">Vaihda pisteiden paikkaa siten, että esimerkiksi pisteet 1 ja 4 vaihtavat paikkaa</string>
     <string name="summary_pref_revert_to_default_menu">Palauta kytkimen käytön valikon oletuskohdat.</string>
-    <string name="summary_pref_single_tap">(Kokeellinen) Aktivoi napauttamalla kohdistettua kohdetta kerran</string>
+    <string name="summary_pref_single_tap">Aktivoi napauttamalla kohdistettua kohdetta kerran</string>
     <string name="summary_pref_tree_debug_tv">Puhehakunäppäin käynnistää puhehaun sijaan solmupuun tulostuksen.</string>
     <string name="summary_pref_use_audio_focus">Pienennä muiden sovelluksien äänenvoimakkuutta puhuttaessa</string>
     <string name="summary_read_from_current">Lue kaikki näytöllä olevat kohteet seuraavasta kohteesta alkaen</string>
@@ -1479,10 +1491,10 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="switched_to_contracted_announcement">Vaihdettiin lyhennettyyn pistekirjoitukseen</string>
     <string name="switched_to_ueb_uncontracted_announcement">Vaihdettiin lyhentämättömän UEB:n tilaan</string>
     <string name="switched_to_uncontracted_announcement">Vaihdettiin lyhentämättömään pistekirjoitukseen</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Melkein yhtä suuri kuin</string>
     <string name="symbol_ampersand">Et-merkki</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Pienempi kuin -merkki</string>
+    <string name="symbol_angle_bracket_right">Suurempi kuin -merkki</string>
     <string name="symbol_apostrophe">Heittomerkki</string>
     <string name="symbol_approximately_equals">Likimäärin yhtäsuuri</string>
     <string name="symbol_asterisk">Tähti</string>
@@ -1502,7 +1514,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_bullseye">Napakymppi</string>
     <string name="symbol_caret">Poisjääntimerkki</string>
     <string name="symbol_celsius_degree">Celsiusaste</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Senttimerkki</string>
     <string name="symbol_circle_left_half_black">Ympyrä, jonka vasen puoli on musta</string>
     <string name="symbol_circle_right_half_black">Ympyrä, jonka oikea puoli on musta</string>
     <string name="symbol_colon">Kaksoispiste</string>
@@ -1511,7 +1523,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_curly_bracket_left">Vasen kaarisulje</string>
     <string name="symbol_curly_bracket_right">Oikea kaarisulje</string>
     <string name="symbol_currency_sign">Valuuttamerkki</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Astemerkki</string>
     <string name="symbol_division">Jakomerkki</string>
     <string name="symbol_dollar_sign">Dollarimerkki</string>
     <string name="symbol_downwards_arrow">Alas-nuoli</string>
@@ -1563,7 +1575,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_middle_dot">Rivinkeskinen piste</string>
     <string name="symbol_multiplication">Kertomerkki</string>
     <string name="symbol_new_line">Rivinvaihto</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Erisuuri kuin</string>
     <string name="symbol_not_sign">Ei-merkki</string>
     <string name="symbol_paragraph_mark">Kappalemerkki</string>
     <string name="symbol_parenthesis_left">Vasen sulje</string>
@@ -1574,7 +1586,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_plus_minus_sign">Plusmiinusmerkki</string>
     <string name="symbol_postal_mark">Postin merkki</string>
     <string name="symbol_pound">Punta</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Punnan valuuttamerkki</string>
     <string name="symbol_quarter_note">Neljäsosanuotti</string>
     <string name="symbol_question_mark">Kysymysmerkki</string>
     <string name="symbol_quotation_mark">Lainausmerkki</string>
@@ -1600,7 +1612,7 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_trademark">Tavaramerkki</string>
     <string name="symbol_underscore">Alaviiva</string>
     <string name="symbol_upwards_arrow">Ylänuoli</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Pystyviiva</string>
     <string name="symbol_white_circle">Valkoinen ympyrä</string>
     <string name="symbol_white_club_suit">Valkoinen pelikortin risti</string>
     <string name="symbol_white_diamond">Valkoinen pelikortin ruutu</string>
@@ -1614,8 +1626,8 @@ Vaihe 2: Pyyhkäise alas siirtääksesi navigoinnin korostusta eteenpäin tai s�
     <string name="symbol_white_square">Valkoinen neliö</string>
     <string name="symbol_white_star">Valkoinen tähti</string>
     <string name="symbol_white_up_pointing_triangle">Valkoinen ylös osoittava kolmio</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Wonin valuuttamerkki</string>
+    <string name="symbol_won_sign">Wonin valuuttamerkki</string>
     <string name="symbol_yen">Jeni</string>
     <string name="system_actions">Järjestelmän toiminnot</string>
     <string name="tabletop">Pöytätila</string>
@@ -1783,7 +1795,7 @@ TalkBackin poistaminen käytöstä:
     <string name="title_pref_category_assign_switches">Määritä kytkimiä</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Automaattinen haku</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automaattinen skannaus (pisteskannaus)</string>
     <string name="title_pref_category_border_color">Väri</string>
     <string name="title_pref_category_built_in_gestures">Valmiiksi määritetyt eleet</string>
     <string name="title_pref_category_context_menu">Muokkaa TalkBack-valikkoa</string>
@@ -1867,7 +1879,7 @@ TalkBackin poistaminen käytöstä:
     <string name="title_pref_red">Punainen</string>
     <string name="title_pref_resume_talkback">Jatka käyttöä</string>
     <string name="title_pref_reverse_auto_scan_disabled">Käänteinen automaattinen skannaus (pois käytöstä)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Käänteinen automaattinen skannaus (pisteskannaus)</string>
     <string name="title_pref_reverse_dots">Käänteiset pisteet</string>
     <string name="title_pref_revert_to_default_menu">Palaa oletusvalikkoon</string>
     <string name="title_pref_scan_non_actionable_items">Puhetta kuvaava teksti</string>
@@ -1930,7 +1942,7 @@ TalkBackin poistaminen käytöstä:
     <string name="title_pref_show_context_menu_as_list">Näytä kontekstivalikko luettelona</string>
     <string name="title_pref_show_privacy_policy">Tietosuojakäytäntö</string>
     <string name="title_pref_show_tos">Palveluehdot</string>
-    <string name="title_pref_single_tap">Aktivointi yhdellä kosketuksella</string>
+    <string name="title_pref_single_tap">Aktivoi yhdellä napautuksella</string>
     <string name="title_pref_sound_and_vibration">Äänet ja värinä</string>
     <string name="title_pref_soundback">Äänipalaute</string>
     <string name="title_pref_soundback_volume">Äänipalautteen voimakkuus</string>
@@ -1975,6 +1987,7 @@ TalkBackin poistaminen käytöstä:
     <string name="title_previous_screen">Edellinen näyttö</string>
     <string name="title_read_from_top">Lue alusta alkaen</string>
     <string name="title_repeat_last_spoken_phrase">Toista viimeksi sanottu lause</string>
+    <string name="title_request_phone_permission">TalkBack pyytää lupaa</string>
     <string name="title_screen_summary">Yhteenveto näytöstä</string>
     <string name="title_seek_bar_controls">Liukusäädin</string>
     <string name="title_seek_bar_edit">Muuta liukusäätimen tasoa</string>

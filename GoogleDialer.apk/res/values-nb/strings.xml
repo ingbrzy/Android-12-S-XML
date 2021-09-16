@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Svar</string>
     <string name="a11y_call_incoming_decline_description">Avslå</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Start videoanrop via Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Ring via Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">Det nyeste er et besvart anrop fra ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Håndter innringere</string>
     <string name="a11y_expandedsheet_collapse">skjul menyen</string>
     <string name="a11y_expandedsheet_expand">utvid menyen</string>
-    <string name="a11y_favorites_education_dismiss">lukk</string>
     <string name="a11y_feature_demo_next_page">Neste side</string>
     <string name="a11y_feature_demo_page_indicator">Side %d</string>
     <string name="a11y_feature_demo_prev_page">Forrige side</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Hurtigkontakt for ^1</string>
+    <string name="a11y_icon_hd">HD-anrop</string>
+    <string name="a11y_icon_hd_plus">HD Plus-anrop</string>
+    <string name="a11y_icon_shared_data_call">Delt data-anrop</string>
+    <string name="a11y_icon_verified">Bekreftet anrop</string>
+    <string name="a11y_icon_vilte">Video via LTE-anrop</string>
+    <string name="a11y_icon_viwifi">Video via Wi-Fi-anrop</string>
+    <string name="a11y_icon_volte">Tale via LTE-anrop</string>
+    <string name="a11y_icon_voz4g">Tale via 4G-anrop</string>
+    <string name="a11y_icon_wifi">Wi-Fi-anrop</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Sveip oppover med to fingre for å svare. Sveip nedover med to fingre for å avvise.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Sveip oppover med to fingre for å svare på anropet, eller sveip nedover for å avvise det</string>
     <string name="a11y_new_call_log_entry_call_recording">anropet er tatt opp</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">på ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">ring med STT til ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Delt data-anrop</string>
     <string name="a11y_new_call_log_entry_tap_action">utvid menyen</string>
     <string name="a11y_new_call_log_entry_video_call">utfør et videoanrop til ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">ring til ^1 med video via Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Endre nummeret før du ringer</string>
     <string name="action_menu_back_from_search">avslutt søket</string>
     <string name="action_menu_overflow_description">Flere alternativer</string>
+    <string name="activate_error_message">Kunne ikke slå på anropsfilteret</string>
+    <string name="activated_successfully">Anropsfilteret er aktivert</string>
     <string name="activity_not_available">Det finnes ingen apper for det på denne enheten</string>
     <string name="add_2sec_pause">Legg til pause på 2 sek.</string>
     <string name="add_contact_not_available">Ingen kontaktapper er tilgjengelige</string>
@@ -159,9 +171,9 @@ Opptakene lagres kun på telefonen din. ^1"</string>
     <string name="bm_suggest_call_button">Ring</string>
     <string name="bm_suggest_chat_button">Chat</string>
     <string name="bm_suggest_wait_min">"Chat
-%1$d min ventetid"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ulest</string>
+%1$d min. ventetid"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Jobber …"</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
     <string name="bubble_bottom_action_end_call">Avslutt samtalen</string>
     <string name="bubble_bottom_action_hide">Skjul</string>
@@ -170,7 +182,10 @@ Opptakene lagres kun på telefonen din. ^1"</string>
     <string name="call">Taleanrop</string>
     <string name="callFailed_simError">Ikke noe SIM-kort eller SIM-kortfeil</string>
     <string name="callHistoryIconLabel">Anropslogg</string>
-    <string name="call_announcer_preference_footer_instruction_text">Oppringerens navn og nummer blir lest opp for innkommende anrop</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Oppringerens navn og nummer blir lest opp for innkommende anrop.</string>
     <string name="call_announcer_preference_list_title">Les opp anrops-ID</string>
     <string name="call_announcer_preference_option_always">Alltid</string>
     <string name="call_announcer_preference_option_headset">Bare ved bruk av hodetelefoner</string>
@@ -203,7 +218,7 @@ Opptakene lagres kun på telefonen din. ^1"</string>
     <string name="call_incoming_answer">Svar</string>
     <string name="call_incoming_answer_rtt">Svar med STT</string>
     <string name="call_incoming_answer_voice">Svar med tale</string>
-    <string name="call_incoming_chip_answer_and_release">Svar og avslutt samtalen</string>
+    <string name="call_incoming_chip_answer_and_release">Svar og avslutt den andre samtalen</string>
     <string name="call_incoming_chip_answer_as_rtt">Svar som STT-anrop</string>
     <string name="call_incoming_chip_answer_video_as_audio">Svar som lydanrop</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Svar med videoen min av</string>
@@ -219,7 +234,7 @@ Opptakene lagres kun på telefonen din. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Sveip oppover for å svare</string>
     <string name="call_incoming_swipe_to_reject">Sveip nedover for å avslå</string>
     <string name="call_incoming_video_is_off">Videoen din er av</string>
-    <string name="call_incoming_will_disconnect">Hvis du svarer på dette anropet, avsluttes videosamtalen</string>
+    <string name="call_incoming_will_disconnect">Hvis du svarer på dette anropet, avsluttes den andre samtalen</string>
     <string name="call_incoming_will_disconnect_app">Hvis du svarer, avsluttes %1$s-anropet ditt</string>
     <string name="call_isdn">Ring ISDN-nummer</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Blokkér/rapportér som uønsket</string>
@@ -255,6 +270,7 @@ Opptakene lagres kun på telefonen din. ^1"</string>
     <string name="call_reason_fragment_content_description">Årsaken til anropet: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Opptaket er lagret.</string>
     <string name="call_recording_conversation_history_entry">Tatt opp</string>
+    <string name="call_recording_delete_snack_bar_undo">Angre</string>
     <string name="call_recording_disclaimer_agreen_button_text">Start opptak</string>
     <string name="call_recording_disclaimer_content">"Du eller den andre personen som deltar i samtalen, kan være et sted der det kreves at alle gir samtykke før de kan tas opp. Alle blir varslet på forhånd om at samtalen blir tatt opp. Det er ditt ansvar å overholde lover om opptak av samtaler. Bruk opptak av anrop på en ansvarlig måte, og slå dem bare på når det er nødvendig.
 ^1
@@ -291,6 +307,7 @@ Opptakene lagres kun på telefonen din."</string>
 Verken lyden eller transkripsjonen fra samtalen blir sendt til noen, ikke engang Google."</string>
     <string name="call_screen_demo_page_4_title">Spar tid og unngå unødig irritasjon</string>
     <string name="call_screen_demo_setting_title">Se en demonstrasjon</string>
+    <string name="call_screen_demo_settings_title">Se en demonstrasjon</string>
     <string name="call_screen_demo_title">Slik fungerer anropsfilteret</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Kan ikke hente eksempellyden</string>
     <string name="call_screen_demo_unable_to_play_audio">Kan ikke spille av eksempellyden</string>
@@ -298,6 +315,7 @@ Verken lyden eller transkripsjonen fra samtalen blir sendt til noen, ikke engang
     <string name="call_screen_end_call_local_internal_message">Du avsluttet samtalen</string>
     <string name="call_screen_end_call_non_local_internal_message">Anropet ble brutt</string>
     <string name="call_screen_how_it_works_setting_title">Anropsfilteret fungerer på enheten din uten Wi-Fi eller mobildata. Transkripsjoner av samtaler genereres og lagres kun på telefonen din. %1$s</string>
+    <string name="call_screen_how_it_works_title">Anropsfilteret fungerer på enheten din uten Wi-Fi eller mobildata. Transkripsjoner av samtaler genereres og lagres kun på telefonen din. ^1</string>
     <string name="call_screen_incallui_chip_text">Filtrér anropet</string>
     <string name="call_screen_join_call_button_content_description">Bli med i samtalen</string>
     <string name="call_screen_join_call_internal_message">Du ble med i samtalen</string>
@@ -307,6 +325,7 @@ Verken lyden eller transkripsjonen fra samtalen blir sendt til noen, ikke engang
     <string name="call_screen_saying_to_the_caller_state">Sier til oppringeren</string>
     <string name="call_screen_screening_call_from">Filtrerer anrop fra</string>
     <string name="call_screen_setting_title">Anropsfilter</string>
+    <string name="call_screen_settings_title">Anropsfilter</string>
     <string name="call_screen_speaker_toggle_button_content_description">Høyttalerknapp</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Avbryt</string>
@@ -331,6 +350,8 @@ Verken lyden eller transkripsjonen fra samtalen blir sendt til noen, ikke engang
     <string name="call_work">Ring arbeidsnummer</string>
     <string name="call_work_mobile">Ring mobilnummer (arbeid)</string>
     <string name="call_work_pager">Ring personsøkernummer (arbeid)</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">Innkommende %1$sanrop fra %2$s på SIM-kortet %3$s</string>
     <string name="caller_id_announcement_single_sim">Innkommende %1$sanrop fra %2$s</string>
     <string name="caller_id_business_data_details">Dataene som brukes i disse funksjonene, leveres av Google og tilhørende lisensgivere. ^1</string>
@@ -370,6 +391,9 @@ Verken lyden eller transkripsjonen fra samtalen blir sendt til noen, ikke engang
     <string name="calling_blocked_number_precall_dialog_title">Vil du ringe %s?</string>
     <string name="calllog_add_to_contact">Legg til for en kontakt</string>
     <string name="calllog_create_new_contact">Opprett en ny kontakt</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Kameratillatelsen er aktivert</string>
     <string name="camera_privacy_text">Kameratillatelsen er slått på</string>
     <string name="cannot_understand_description">Jeg forstår ikke</string>
     <string name="car_crash_emergency_intro">"Du blir kontaktet av en automatisert nødtaletjeneste på vegne av en oppringer.
@@ -392,7 +416,7 @@ Send hjelp."</string>
     <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
     <string name="checkbox_report_as_spam_action">Rapportér anropet som uønsket</string>
     <string name="child_number">via %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Velg en kontakt</string>
     <string name="clear_button_content_description">Slett søket</string>
     <string name="clear_text_end_icon_content_description">Fjern teksten</string>
     <string name="cli_not_supported_text">Åpne telefonen for å fortsette</string>
@@ -432,6 +456,9 @@ Send hjelp."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Kunne ikke konfigurere bekreftede anrop. Du kan slå det på igjen i innstillingene.</string>
     <string name="contact_card_video_icon_content_description">Start videoanrop med ^1</string>
     <string name="contact_grid_callback_number">Nummeret til denne telefonen: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Anropet ble viderekoblet</string>
+    <string name="contact_grid_hd_icon_content_description">HD-anrop</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus-anrop</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Videoanrop via mobiloperatør fra</string>
     <string name="contact_grid_incoming_reception_only_video_call">Énveis videoanrop via mobiloperatør fra</string>
     <string name="contact_grid_incoming_rtt_call">STT-anrop fra</string>
@@ -442,9 +469,18 @@ Send hjelp."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Videoanrop via Wi-Fi fra</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Énveis videoanrop via Wi-Fi fra</string>
     <string name="contact_grid_incoming_work_call">Jobbrelatert anrop fra</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Delt data-anrop</string>
+    <string name="contact_grid_spam_icon_content_description">Uønsket anrop</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operatør</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Bekreftet av %1$s</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Gyldig nummer</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Video via LTE-anrop</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Video via Wi-Fi-anrop</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Tale via 4G-anrop</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Tale via LTE-anrop</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Tale via Wi-Fi-anrop</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi-anrop</string>
+    <string name="contact_grid_work_icon_content_description">Jobbanrop</string>
     <string name="contact_menu_add_favorite">Favoritt</string>
     <string name="contact_menu_contact_info">Kontaktinfo</string>
     <string name="contact_menu_invite_video">Inviter til videosamtale</string>
@@ -479,8 +515,12 @@ Send hjelp."</string>
     <string name="conversation_history_call_details_header_today">I dag</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Anropet er slettet</string>
     <string name="conversation_history_call_details_snack_bar_undo">Angre</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Viktig anrop</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Vis anropsinformasjonen som er lagt til</string>
+    <string name="conversation_history_call_recording_deleted">Opptaket er slettet</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkripsjon og lyd</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkripsjon</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Se transkripsjon og lyd</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Anropsfilter</string>
     <string name="copy">Kopiér</string>
     <string name="copy_number">Kopiér nummeret</string>
@@ -499,12 +539,17 @@ Send hjelp."</string>
     <string name="custom_prefix_default_prefix_title">Standardprefiks</string>
     <string name="custom_prefix_prefixes_preference_title">Prefikser</string>
     <string name="dark_theme_label">Mørk</string>
+    <string name="default_changed_confirmation">Telefon er angitt som standard</string>
+    <string name="default_image_content_description">Bilde på splash-skjerm</string>
     <string name="delete">Slett</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Slett alle opptak</string>
     <string name="delete_all_recordings_now_error_message">Enkelte opptak kunne ikke slettes. Prøv på nytt.</string>
     <string name="delete_button_label">Slett alle opptakene nå</string>
     <string name="delete_confirmation_dialog_negative_button_label">Avbryt</string>
     <string name="delete_confirmation_dialog_positive_button_label">Slett</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Sletter opptaket …</string>
     <string name="description_add_to_existing_contact_action">Legg ^1 til en eksisterende kontakt</string>
     <string name="description_blocked_number_list_delete">Opphev blokkeringen av nummeret</string>
     <string name="description_call_action">Ring ^1</string>
@@ -607,6 +652,7 @@ Send hjelp."</string>
     <string name="emergency_sos_emergency_intro">"Du blir kontaktet av en automatisert nødtaletjeneste på vegne av en oppringer.
 Oppringeren har gitt tegn til at hen kan være i en nødssituasjon. 
 Send hjelp."</string>
+    <string name="emergency_speaker">Høyttaler</string>
     <string name="emergency_voice_assist_dialog_button_close">Avbryt</string>
     <string name="emergency_voice_assist_dialog_title">Nødtelefonoperatøren hører dette</string>
     <string name="end_call_with_default_message_description">Avslutt samtalen</string>
@@ -636,9 +682,12 @@ Send hjelp."</string>
     <string name="feedback_call_issue_quiet_audio">Lyden var for lav</string>
     <string name="feedback_call_issue_title">Hva var problemet?</string>
     <string name="feedback_title_please_rate">Gi en vurdering av kvaliteten på samtalen</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Vend for å slå på Shhh</string>
     <string name="flip_to_silence_summary">For å slå av lyden på et innkommende anrop, legg telefonen med forsiden ned på en flat overflate</string>
     <string name="flip_to_silence_title">Vend for å slå av lyden</string>
+    <string name="foreground_notification_title">Oppdaterer …</string>
     <string name="frequent_contact_suggestion">Ofte oppringt</string>
     <string name="general_learn_more">Finn ut mer</string>
     <string name="generic_conference_call_name">Samtale pågår</string>
@@ -661,6 +710,7 @@ Send hjelp."</string>
     <string name="how_it_works_storage_link_text">Finn ut mer om hvordan opptak lagres</string>
     <string name="how_it_works_storage_template">Opptak av samtaler blir stoppet midlertidig hvis du går tom for lagring på telefonen. ^1</string>
     <string name="icon_content_description">Dialogboksikon</string>
+    <string name="icon_description_shared_data_call">Delt data-anrop</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Importér numre</string>
     <string name="ims_video_heading">Verizon-video</string>
@@ -804,6 +854,7 @@ Send hjelp."</string>
     <string name="new_call_log_no_missed_calls">Du har ingen tapte anrop</string>
     <string name="new_call_log_permission_no_calllog">Slå på Telefon-tillatelsen for å se anropsloggen din.</string>
     <string name="new_call_log_secondary_blocked">Blokkert</string>
+    <string name="new_call_log_secondary_verified">Bekreftet anrop</string>
     <string name="new_call_log_snack_bar_deleted">Anropet er slettet</string>
     <string name="new_call_log_snack_bar_undo">Angre</string>
     <string name="new_call_log_unknown">Ukjent</string>
@@ -818,8 +869,10 @@ Send hjelp."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Avslå</string>
     <string name="notification_action_end_call">Legg på</string>
+    <string name="notification_action_mute_toggle">Kutt lyden</string>
     <string name="notification_action_speaker_off">Slå av høyttaleren</string>
     <string name="notification_action_speaker_on">Slå på høyttaleren</string>
+    <string name="notification_action_speaker_toggle">Høyttaler</string>
     <string name="notification_callReasonMsg">Årsak: %s</string>
     <string name="notification_call_wifi_brand">Wi-Fi-anrop</string>
     <string name="notification_call_wifi_work_brand">Wi-Fi-jobbanrop</string>
@@ -883,6 +936,8 @@ Send hjelp."</string>
     <string name="place_ims_button_content_description">En knapp som brukes til å starte videoanrop via operatør.</string>
     <string name="play">Spill av</string>
     <string name="plus_code_line_format">Plusskode: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Si hvorfor du ringte</string>
     <string name="post_call_message_1">Haster! Ring meg.</string>
     <string name="post_call_message_2">Ring tilbake når du har tid.</string>
@@ -913,6 +968,8 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="privacy_policy_label">Personvernregler</string>
     <string name="private_num_non_verizon">Skjult nummer</string>
     <string name="private_num_verizon">Begrenset</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Velg kontakt</string>
     <string name="ready_for_recording">Klargjør …</string>
     <string name="record_greeting_cancel_label">Avbryt</string>
@@ -928,6 +985,8 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="record_greeting_uploading_greeting_message">Lagrer …</string>
     <string name="record_voicemail_greeting_title">Spill inn en hilsen</string>
     <string name="recording_category_title">Opptak</string>
+    <string name="recording_deleted">Opptaket er slettet</string>
+    <string name="recording_deletion_failed">Kunne ikke slette opptaket [Prøv på nytt]</string>
     <string name="redo_button_text">Prøv igjen</string>
     <string name="remember_this_choice_label">Husk dette valget</string>
     <string name="report_not_spam_alert_button">Rapport</string>
@@ -939,9 +998,20 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="request_call_back_description">Ring meg tilbake</string>
     <string name="request_email_description">Send meg en e-post</string>
     <string name="respond_via_sms_setting_title">Hurtigsvar</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Slå på</string>
     <string name="revelio_end_call_reject_as_spam">Anropet ble merket som uønsket</string>
     <string name="revelio_end_call_user_missed_internal_message">Anropet ble tapt</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">STT er til hjelp for anropsdeltakere som er døve eller hørselhemmede, har talefunksjonshemninger eller trenger mer enn bare tale. ^1</string>
     <string name="rtt_assist_for_att">STT-tastaturet (sanntidstekst) er et alternativ til eksterne TTY-tastaturer. Mens du skriver i STT-anrop, ser personen du snakker med, at du skriver meldingen i sanntid. ^1</string>
     <string name="rtt_assist_for_tmo">STT-tastaturet (sanntidstekst) er et alternativ til eksterne TTY-tastaturer. Med STT sendes det du skriver, umiddelbart under en telefonsamtale, slik at du kan kommunisere i sanntid via tekst. Du kan se deler av svaret før hele meldingen er fullført. ^1</string>
@@ -949,7 +1019,8 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="rtt_button_back">Tilbake</string>
     <string name="rtt_button_downgrade">Bytt til taleanrop</string>
     <string name="rtt_call_button">STT</string>
-    <string name="rtt_call_not_available_toast">RTT er ikke tilgjengelig for dette anropet. Anropet er blitt tilkoblet som et taleanrop.</string>
+    <string name="rtt_call_downgraded_toast">STT-anropet ditt er endret til et taleanrop</string>
+    <string name="rtt_call_not_available_toast">STT er ikke tilgjengelig for dette anropet</string>
     <string name="rtt_configuration_summary_always_visible">Knappen for sanntidstekst er tilgjengelig overalt</string>
     <string name="rtt_configuration_summary_not_visible">Tillat innkommende anrop med sanntidstekst, men skjul anropsknappen</string>
     <string name="rtt_configuration_summary_visible_during_call">Vis knappen for sanntidstekst under anrop</string>
@@ -978,6 +1049,8 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="rtt_transcript_link">Se transkripsjonen</string>
     <string name="rttcall_button_label">STT</string>
     <string name="safety_emergency_repeat_message_alert">Denne meldingen blir gjentatt.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Lagre</string>
     <string name="saved_voicemails_action_title">Lagrede talemeldinger (%1$s)</string>
     <string name="search_hint">Søk i videokontakter</string>
@@ -1004,8 +1077,11 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="send_a_message">Send e-post</string>
     <string name="send_to_voicemail_import_failed">Importeringen mislyktes</string>
     <string name="serial_number">Serienummer</string>
+    <string name="set_as_default_button_text">Angi som standard</string>
     <string name="set_default_account">Bruk alltid dette for samtaler</string>
     <string name="set_default_account_description">SIM-innstillingen lagres med kontaktene dine.</string>
+    <string name="set_phone_as_default_explanation_text">Telefon-appen kan bare ringe ut og motta anrop hvis den er standardappen din for telefonbruk</string>
+    <string name="set_phone_as_default_request_text">Angi Telefon som standard</string>
     <string name="settings">Innstillinger</string>
     <string name="settings_page_call_recording_feature_not_available_text">Opptak av anrop er ikke tilgjengelig der du er</string>
     <string name="settings_page_crosby_feature_not_available_text">Ikke tilgjengelig der du er</string>
@@ -1040,6 +1116,8 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="snackbar_undo">Angre</string>
     <string name="snackbar_voicemail_deleted">Taleposten er slettet</string>
     <string name="sounds_and_vibration_title">Lyder og vibrasjon</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Nettsøppel- og anropsfilter</string>
     <string name="spam_blocking_promo_action_dismiss">Lukk</string>
     <string name="spam_blocking_promo_action_filter_spam">Filtrér useriøse anrop</string>
@@ -1066,8 +1144,6 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="speed_dial_add_button_text">Legg til</string>
     <string name="speed_dial_contacts_permission_description">Slå på Kontakter-tillatelsen for å slå på hurtigoppringning.</string>
     <string name="speed_dial_disambig_dialog_title">Velg hvordan du vil ringe til %s</string>
-    <string name="speed_dial_education_content">Trykk og hold på en kontakt for å bytte mellom anrop og meldinger</string>
-    <string name="speed_dial_education_title">Flere måter å ta kontakt på</string>
     <string name="speed_dial_no_contacts_action_text">Legg til en favoritt</string>
     <string name="speed_dial_no_contacts_description">Ring til favorittkontaktene dine med bare ett trykk</string>
     <string name="speed_dial_remember_this_choice">Husk dette valget</string>
@@ -1084,6 +1160,45 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="suggestion_dialog_postive_snackbar_message">Takk for tilbakemeldingen</string>
     <string name="suggestions_header">Ofte brukte</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">konto- og systeminformasjon</string>
+    <string name="survey_app_id">App-ID</string>
+    <string name="survey_app_name">Navnet på appen</string>
+    <string name="survey_app_version">Appversjon</string>
+    <string name="survey_application_data">Programdata</string>
+    <string name="survey_brand">Merkevare</string>
+    <string name="survey_close_button_description">Lukk</string>
+    <string name="survey_default_prompt_title">Hjelp oss med å gjøre Google enda bedre.</string>
+    <string name="survey_device_model">Enhetsmodell</string>
+    <string name="survey_email_address">E-postadresse</string>
+    <string name="survey_google_play_services_version">Google Play-tjenester-versjon</string>
+    <string name="survey_legal_text">Hvis du fortsetter, samtykker du i at Google kan bruke svarene dine og %1$s til å utvikle bedre tjenester. Dette skjer i henhold til %2$s og %3$s våre.</string>
+    <string name="survey_library_version">Bibliotekversjon</string>
+    <string name="survey_network_request_failed">Nettverksforespørselen mislyktes</string>
+    <string name="survey_neutral">Verken fornøyd eller misfornøyd</string>
+    <string name="survey_next">Neste</string>
+    <string name="survey_num_rating">%1$s av %2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Skriv inn kommentarene dine her</string>
+    <string name="survey_open_text_no_pii">Ikke ta med personopplysninger</string>
+    <string name="survey_operating_system">Operativsystem</string>
+    <string name="survey_operating_system_version">Versjon av operativsystemet</string>
+    <string name="survey_other_option_hint">Annet (spesifiser)</string>
+    <string name="survey_platform">Plattform</string>
+    <string name="survey_privacy">personvernreglene</string>
+    <string name="survey_prompt_no_thanks">Nei takk</string>
+    <string name="survey_prompt_take_our_survey">Vis spørsmålet</string>
+    <string name="survey_smiley_rating">%1$s av %2$s smilefjes: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Litt misfornøyd</string>
+    <string name="survey_somewhat_satisfied">Litt fornøyd</string>
+    <string name="survey_submit">Send inn</string>
+    <string name="survey_system_info_dialog_title">Konto- og systeminformasjon</string>
+    <string name="survey_terms">vilkårene</string>
+    <string name="survey_thank_you_followup_message">Bidra til å gjøre produktet vårt bedre ved å svare på flere spørsmål</string>
+    <string name="survey_timezone_offset">Tidssoneforskyvning</string>
+    <string name="survey_url">Nettadresse</string>
+    <string name="survey_user_agent">Brukeragent</string>
+    <string name="survey_very_dissatisfied">Veldig misfornøyd</string>
+    <string name="survey_very_satisfied">Veldig fornøyd</string>
     <string name="system_default_theme_label">Systemstandard</string>
     <string name="tab_title_call_history">Nylige</string>
     <string name="tab_title_contacts">Kontakter</string>
@@ -1095,11 +1210,15 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="terms_of_service_label">Vilkår for bruk</string>
     <string name="textmessage_button_label">Melding</string>
     <string name="theme_preference_label">Velg tema</string>
+    <string name="tidepods_call_screen_settings_title">Anropsfilter</string>
+    <string name="tidepods_incall_label_record">Ta opp</string>
     <string name="toast_text_copied">Teksten er kopiert</string>
     <string name="toolbar_back">Tilbake</string>
     <string name="toolbar_close">Lukk</string>
     <string name="transcript_audio_feedback_chip_text">Hjelp oss med å bli bedre</string>
+    <string name="transcript_audio_feedback_link_text">Se transkripsjon og lyd</string>
     <string name="transcript_snippet_low_confidence_description">(Lyden var ikke tydelig)</string>
+    <string name="try_again_button">Prøv igjen</string>
     <string name="tty_configuration_title_tty_full">TTY full</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY av</string>
@@ -1121,7 +1240,6 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="type_outgoing_video_pulled">Det utgående videoanropet ble overført til en annen enhet</string>
     <string name="type_rejected">Avvist anrop</string>
     <string name="type_voicemail">Talepost</string>
-    <string name="unable_change_value_error">Kunne ikke endre STT-innstillingene. Gå tilbake og prøv på nytt.</string>
     <string name="unable_read_value_error">Kunne ikke lese STT-innstillingene Gå tilbake og prøv på nytt.</string>
     <string name="unblock_number">Opphev blokkering</string>
     <string name="unblock_number_alert_details">Blokkeringen oppheves, og nummeret rapporteres som «ikke uønsket». Fremtidige anrop identifiseres ikke som uønskede.</string>
@@ -1130,6 +1248,7 @@ Du kan fortsatt ha videosamtaler med enkelte numre uten å oppdatere innstilling
     <string name="unblock_number_ok">Opphev blokkering</string>
     <string name="unblock_report_number_alert_title">Vil du oppheve blokkeringen av %1$s?</string>
     <string name="unknown">Ukjent</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Slå på innkommende lyd</string>
     <string name="user_is_busy_description">Jeg ringer deg tilbake</string>
@@ -1241,10 +1360,17 @@ Hvis du fortsetter samtalen, brukes mobildata."</string>
     <string name="videocall_remote_video_on">Den andre partens video er på</string>
     <string name="videocall_remotely_held">Samtalen er på vent</string>
     <string name="videocall_remotely_resumed">Samtale gjenopptatt</string>
+    <string name="videocall_settings_default_carrier">Videoanrop via operatør</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Standardtjeneste for videoanrop</string>
+    <string name="videocall_settings_fallback_summary">Bytt til Duo hvis videoanrop via operatøren ikke er tilgjengelig</string>
+    <string name="videocall_settings_fallback_title">Bruk Duo som reserve</string>
+    <string name="videocall_settings_title">Videoanrop</string>
     <string name="videocall_show_preview_button_description">Vis den lokale videofeeden</string>
     <string name="view">Se</string>
     <string name="view_location_settings">Posisjonsinnstillinger</string>
     <string name="vitle_label">Video via LTE</string>
+    <string name="viwifi_label">Video via Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">Den nye PIN-koden inneholder ugyldige tegn.</string>
     <string name="vm_change_pin_error_mismatch">Den gamle PIN-koden er feil.</string>
     <string name="vm_change_pin_error_system_error">Kan ikke bytte PIN-kode</string>
@@ -1254,8 +1380,11 @@ Hvis du fortsetter samtalen, brukes mobildata."</string>
     <string name="vm_change_pin_progress_message">Vent litt.</string>
     <string name="voice_call">Taleanrop</string>
     <string name="voice_call_button">Ring</string>
+    <string name="voice_display_name">Stemme %1$d</string>
     <string name="voice_search_not_available">Talesøk er ikke tilgjengelig</string>
     <string name="voice_selector_preference_title">Tilgjengelige stemmer</string>
+    <string name="voice_settings_available_voices_text">Tilgjengelige stemmer</string>
+    <string name="voice_settings_title">Stemme</string>
     <string name="voicecall_button_label">Ring</string>
     <string name="voicecall_button_wifi_description">Anrop via Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s kl. %2$s</string>
@@ -1290,7 +1419,6 @@ Hvis du fortsetter samtalen, brukes mobildata."</string>
     <string name="voicemail_donation_promo_title">Vil du hjelpe oss med å gjøre transkripsjoner mer nøyaktige?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Bruk av visuell talepost for SIM-kort uten data kan medføre kostnader fra mobiloperatøren</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuell talepost er bare tilgjengelig for det valgte SIM-kortet for data</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Hvis du har flere SIM-kort, og ett av dem er for Fi, blir Fi-SIM-kortet ditt brukt for visuell talepost</string>
     <string name="voicemail_error_activating_message">Det er ikke sikkert at du kan motta talepostvarsler før visuell talepost er helt aktivert. Ring talepost for å hente nye meldinger før aktiveringen er fullført.</string>
     <string name="voicemail_error_activating_title">Slår på visuell talepostkasse</string>
     <string name="voicemail_error_activation_disabled_message">Ring talepost for å fullføre konfigureringen</string>
@@ -1397,6 +1525,7 @@ Hvis du fortsetter samtalen, brukes mobildata."</string>
     <string name="vvm3_error_vms_no_cellular_title">Kan ikke koble til talepostkassen</string>
     <string name="vvm3_error_vms_timeout_message">Beklager, det oppsto et problem. Prøv igjen senere, eller kontakt kundeservice på %1$s og oppgi feilkode 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Noe gikk galt</string>
+    <string name="vvm_config_title">Konfigurering av visuell talepost</string>
     <string name="vvm_unsupported_message_format">Meldingstypen støttes ikke. Ring %s for å høre.</string>
     <string name="wait_prompt_str">"Send disse tonene?
 "</string>

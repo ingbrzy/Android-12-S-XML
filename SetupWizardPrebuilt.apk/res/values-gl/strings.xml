@@ -341,13 +341,15 @@ Non se forneceu ningún dispositivo"</string>
 
 "<li>Os demais usuarios poden aceptar permisos de aplicacións actualizadas</li>"
 
-"<li>Comparte este teléfono só coas persoas nas que confíes</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Comparte este teléfono só coas persoas nas que confíes</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
 "<ul><li>O propietario da tableta pode desinstalar as túas aplicacións ou quitar o teu perfil de usuario por completo</li>"
 
 "<li>Os demais usuarios poden aceptar permisos de aplicacións actualizadas</li>"
 
-"<li>Comparte esta tableta só coas persoas nas que confíes</li></ul>}other{<b>Importante:</b>"
+"<li>Comparte esta tableta só coas persoas nas que confíes</li></ul>"
+}other{"<b>Importante:</b>"
 
 "<ul><li>O propietario do dispositivo pode desinstalar as túas aplicacións ou quitar o teu perfil de usuario por completo</li>"
 
@@ -359,70 +361,47 @@ Non se forneceu ningún dispositivo"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu teléfono.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}TABLET{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente a túa tableta.
+"<li>Configurar automaticamente a hora e a data</li>"
+}TABLET{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente a túa tableta.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}other{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu dispositivo.
+"<li>Configurar automaticamente a hora e a data</li>"
+}other{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu dispositivo.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
 "<li>Configurar automaticamente a hora e a data</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu teléfono.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar unha SIM</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}TABLET{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente a túa tableta.
+"<li>Configurar automaticamente a hora e a data</li>"
+}TABLET{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente a túa tableta.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar unha SIM</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}other{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu dispositivo.
+"<li>Configurar automaticamente a hora e a data</li>"
+}other{Ao conectarte a unha rede wifi ou de telefonía móbil, podes configurar rapidamente o teu dispositivo.
 
 Sen conexión, non podes facer o seguinte:
-
 "<li>Iniciar sesión na túa Conta de Google</li>"
-
 "<li>Restaurar aplicacións e datos</li>"
-
 "<li>Descargar unha SIM</li>"
-
 "<li>Descargar actualizacións de software</li>"
-
 "<li>Configurar automaticamente a hora e a data</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">O punto de acceso está temporalmente cheo</string>
     <string name="wifi_check_password_try_again">Comproba o contrasinal e téntao de novo</string>

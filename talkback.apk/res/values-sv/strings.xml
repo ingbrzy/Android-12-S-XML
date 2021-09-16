@@ -87,7 +87,7 @@
 Läs mer om andra ämnen eller granska den här informationen när som helst i TalkBack-inställningarna."</string>
     <string name="all_set_title">Klart!</string>
     <string name="always_show_this_message_label">Visa alltid det här meddelandet</string>
-    <string name="application_name">Tillgänglighetsverktyg för Android</string>
+    <string name="application_name">Android Tillgänglighet</string>
     <string name="arc_android_window">Appfönster</string>
     <string name="arc_navigation_hint">Navigera med Sök och pilar</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">Tryck på %1$s om du vill visa en lista över kortkommandon</string>
@@ -105,7 +105,7 @@ Läs mer om andra ämnen eller granska den här informationen när som helst i T
     <string name="audio_focus_state">Ljudkompression %1$s</string>
     <string name="auto_detect">Anpassa efter hur jag håller enheten</string>
     <string name="auto_scan_action_description">Starta genomsökningen och välj</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">Automatisk genomsökning eller Välj</string>
     <string name="available_devices_header">Tillgängliga Bluetooth-enheter</string>
     <string name="basic_navigation_link_subtext">Flytta mellan objekt, scrolla, använd menyer och annat</string>
     <string name="basic_navigation_link_text">Grundläggande navigering</string>
@@ -119,7 +119,7 @@ Läs mer om andra ämnen eller granska den här informationen när som helst i T
     <string name="bluetooth_no_devices_paired">Inga Bluetooth-enheter har parkopplats</string>
     <string name="bluetooth_not_enabled_message">Aktivera Bluetooth om du vill parkoppla en Bluetooth-brytare</string>
     <string name="bluetooth_peripheral_content_description">Kringutrustning</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Om du vill parkoppla en Bluetooth-brytare aktiverar du Bluetooth i installationsguiden och ger Android Tillgänglighet åtkomst till Enheter i närheten och Platsbehörigheter.</string>
     <string name="bluetooth_phone_content_description">Mobil</string>
     <string name="bluetooth_switch_description_text">Parkoppla en brytare trådlöst via Bluetooth</string>
     <string name="bluetooth_switch_option_text">Bluetooth-brytare</string>
@@ -157,6 +157,9 @@ Läs mer om andra ämnen eller granska den här informationen när som helst i T
     <string name="cam_switch_enable_banner_text_label_generic">Om du vill styra enheten måste du först aktivera brytarstyrning</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Öppna kamerabrytare</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Öppna brytarstyrning</string>
+    <string name="cam_switches_combined_preferences_title">Inställningar för %1$s</string>
+    <string name="cam_switches_preferences_title">Inställningar för kamerabrytare</string>
+    <string name="cam_switches_single_preferences_title">Inställningar för %s</string>
     <string name="camera_switches_status_active">Kamerabrytare har aktiverats</string>
     <string name="camera_switches_status_error">Fel</string>
     <string name="camera_switches_status_no_face">Inget ansikte hittades</string>
@@ -263,7 +266,7 @@ Testa att klistra in ett ord i textrutan nedan."</string>
     <string name="default_action_name_pause">Pausa kamerabrytare</string>
     <string name="default_action_name_point_scan">Punktgenomsökning</string>
     <string name="dialog_confirm_revert_to_default_menu">Bekräfta</string>
-    <string name="dialog_do_not_disturb_permission_message">Om du vill kunna ställa in volymen via brytarstyrningsmenyn ger du Tillgänglighetsverktyg för Android åtkomst till Stör ej</string>
+    <string name="dialog_do_not_disturb_permission_message">Om du vill kunna ställa in volymen via brytarstyrningsmenyn ger du Android Tillgänglighet åtkomst till Stör ej</string>
     <string name="dialog_do_not_disturb_permission_title">Behörighet att ställa in volymen med brytarstyrning behövs</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Öppna inställningarna</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Kamerabrytare måste ladda ned cirka 10 MB ytterligare data för att fungera. Det kan ta ungefär en minut beroende på din nätverkshastighet.</string>
@@ -399,6 +402,7 @@ Testa det nu genom att trycka på skärmen och dra mot det nedre vänstra hörne
     <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
     <string name="fallback_menu_item_share_link">Dela länk</string>
     <string name="fast_radio_button_title">Snabb (%1$s sekunders fördröjning)</string>
+    <string name="fast_radio_button_title_content_description">Snabb (fördröjning på %1$s sek.)</string>
     <string name="find_finish_button_text">Svep åt höger för att hitta knappen Slutför.</string>
     <string name="finish">Slutför</string>
     <string name="finish_tutorial_announcement">Visa punktskriftstangentbordet. Vänd på telefonen så att du har skärmen vänd bort från dig. Rotera telefonen från stående till liggande läge. Börja sedan skriva.</string>
@@ -747,6 +751,7 @@ Internt visningsnamn: %1$s"</string>
     <string name="list_index_template">%1$d av %2$d</string>
     <string name="lockscreen_label">Låsskärm</string>
     <string name="medium_radio_button_title">Medel (%1$s sekunders fördröjning)</string>
+    <string name="medium_radio_button_title_content_description">Medel (fördröjning på %1$s sek.)</string>
     <string name="menu_category_reading_controls">Läsning</string>
     <string name="menu_category_special_features">Särskilda funktioner</string>
     <string name="menus_selector_text">"Med dessa kortkommandon kan du snabbt ändra inställningarna, t.ex. byta navigering från tecken till ord eller ändra talhastighet för TalkBack.
@@ -767,6 +772,7 @@ Du kan anpassa TalkBack-menyn och läsinställningarna senare i inställningarna
 Öppna TalkBack-menyn nu genom att svepa nedåt och sedan åt höger."</string>
     <string name="menus_title">Meny och inställningar</string>
     <string name="message_in_reset_keymap_confirm_dialog">Vill du återställa kortkommandona för den här tangentbordslayouten till standardvärdena? Åtgärden kan inte ändras.</string>
+    <string name="message_request_phone_permission">TalkBack vill registrera när ett telefonsamtal pågår så att antalet störande meddelanden från TalkBack kan minskas.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Standardinställningen återställs för alla rörelser.
 
 Alla ändringar som du har gjort försvinner."</string>
@@ -996,6 +1002,7 @@ Testa en rörelse där du ritar en rät vinkel med två fingrar. Svep till exemp
     <string name="pref_reduce_window_delay_title">Minska fördröjning vid uppläsning av fönstrets namn</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Lägg till kamerabrytare</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Rensa fysiska brytare</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfigurera inställningarna för brytaren: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Redigera fysiska brytare</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Ingen kamerabrytare har tilldelats</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Tilldela kamerabrytare till %s</string>
@@ -1016,9 +1023,9 @@ Testa en rörelse där du ritar en rät vinkel med två fingrar. Svep till exemp
     <string name="pref_sa_face_playground_stop_preview_content_description">Stoppa förhandsvisning</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Aktivera</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Kamerabrytare måste ha aktiverats innan du kan använda det här testområdet</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Testa: Förhandsgranska alla typer av ansiktsrörelser, bl.a. att öppna munnen och att le</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Testa</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Testa: Förhandsgranska ansiktsrörelser av typen %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Testområdet har pausats. Använd knappen nedan för att starta det igen.</string>
     <string name="pref_selector_summary">Välja en inställning: %1$s. Ändra inställningen: %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">Välja en inställning: %1$s eller %2$s. Ändra inställningen: %3$s.</string>
@@ -1069,6 +1076,7 @@ Om anslutningen ändå misslyckas öppnar du Bluetooth-inställningarna och test
     <string name="reduce_speed_button">Minska hastigheten</string>
     <string name="remaining_calibration_finish_announcement">Alla punktpositioner har uppdaterats</string>
     <string name="reminder_announcement">Svep uppåt med tre fingrar för fler alternativ</string>
+    <string name="remove_assigned_switch">Ta bort tilldelning av brytare för %s</string>
     <string name="report_gesture_description">Här är rörelser som gjorts nyligen. Rapportera vilken rörelse som är fel och hur det borde vara.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Återställ</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Återställ</string>
@@ -1147,6 +1155,7 @@ Testa det nu genom att svepa uppåt med två fingrar tills du scrollat till slut
     <string name="search_mode_hint_no_selection">Du har inte valt något objekt.</string>
     <string name="search_mode_hint_query">Aktuell sökfråga: %1$s.</string>
     <string name="search_mode_hint_selection">Aktuellt val: %1$s.</string>
+    <string name="select_for_point_scan">Välj</string>
     <string name="select_setting_hint">%1$s för att välja en annan inställning</string>
     <string name="selecting_text_text">"Flytta markören till början av texten du vill markera i en textruta.
 
@@ -1207,6 +1216,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="shortcut_media_control">Spela upp eller pausa media</string>
     <string name="shortcut_next">Nästa objekt</string>
     <string name="shortcut_next_granularity">Nästa navigeringsinställning</string>
+    <string name="shortcut_next_window">Nästa fönster</string>
     <string name="shortcut_not_customizable">%1$s, kan inte anpassas</string>
     <string name="shortcut_notifications">Aviseringar</string>
     <string name="shortcut_overview">Översikt</string>
@@ -1219,6 +1229,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="shortcut_practice_gestures">Öva på rörelser</string>
     <string name="shortcut_previous">Föregående objekt</string>
     <string name="shortcut_previous_granularity">Föregående navigeringsinställning</string>
+    <string name="shortcut_previous_window">Föregående fönster</string>
     <string name="shortcut_print_node_tree">Skriv ut nodträd</string>
     <string name="shortcut_print_performance_stats">Skriv ut resultatstatistik</string>
     <string name="shortcut_quick_settings">Snabbinställningar</string>
@@ -1258,6 +1269,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
 • Starta löpande läsning genom att skaka enheten"</string>
     <string name="six_hold_announcement">Du kan även skriva med telefonen liggande på ett bord. Testa nu. Om du inte har något bord i närheten hoppar du till nästa steg genom att svepa nedåt.</string>
     <string name="slow_radio_button_title">Långsam (%1$s sekunders fördröjning)</string>
+    <string name="slow_radio_button_title_content_description">Långsam (fördröjning på %1$s sek.)</string>
     <string name="sound_feedback_state">Ljudsignal %1$s</string>
     <string name="sound_feedback_summary">Spela upp ett ljud för att signalera att något har ändrats (t.ex. att det som visas på skärmen har ändrats)</string>
     <string name="speak_container_element_position_summary_off">Information om listor och rutnät läses inte upp</string>
@@ -1331,17 +1343,17 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="summary_pref_face_switches_debounce_time">Flera utlösare av kamerabrytare inom denna tid räknas som en enda utlösare.</string>
     <string name="summary_pref_face_switches_enabled">Kamerabrytare använder den främre kameran för att avgöra om du tittar på skärmen och för att känna igen ansiktsrörelser. Inga bilder sparas eller skickas till Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Spela upp ett ljud när något på skärmen ändras till följd av en rörelse</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Visa en visuell indikator för hur länge du gör en rörelse</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Låt skärmen vara på när kamerabrytare har aktiverats. Kamerabrytare kan inte låsa upp skärmen om den stängs av.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Inget ansikte hittades</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Gör någon av ansiktsrörelserna. Om rörelsen registreras visas dess namn. Om du vill avbryta gör du rörelsen i %1$d sekunder.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Håll huvudet stilla och mot kameran. Gör sedan följande: %s.</string>
     <string name="summary_pref_play_store">Aktuell TalkBack-version: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Välj ett visst område i sidled och höjdled med hjälp av linjer som flyttar sig. Tryck på brytaren %1$s för att starta punktgenomsökning. %2$s</string>
     <string name="summary_pref_reverse_dots">Byt plats på punkterna så att exempelvis punkt 1 och punkt 4 byter plats med varandra</string>
     <string name="summary_pref_revert_to_default_menu">Återställ menyn för brytarstyrning till standardlistan med menyalternativ</string>
-    <string name="summary_pref_single_tap">(Experiment) Aktivera ett objekt som är i fokus genom att trycka på det</string>
+    <string name="summary_pref_single_tap">Aktivera ett objekt som är i fokus genom att trycka på det</string>
     <string name="summary_pref_tree_debug_tv">Skriv ut nodträd med tangenten för röstsökning i stället för att söka</string>
     <string name="summary_pref_use_audio_focus">Sänk volymen på annat ljud när tal förekommer</string>
     <string name="summary_read_from_current">Läs upp allt på skärmen från och med nästa objekt</string>
@@ -1477,10 +1489,10 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="switched_to_contracted_announcement">Du har bytt till sammandragen punktskrift</string>
     <string name="switched_to_ueb_uncontracted_announcement">Du har bytt till icke-sammandragen UEB</string>
     <string name="switched_to_uncontracted_announcement">Du har bytt till icke-sammandragen punktskrift</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Nästan lika med</string>
     <string name="symbol_ampersand">Et-tecken</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Mindre än-tecken</string>
+    <string name="symbol_angle_bracket_right">Större än-tecken</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Ungefär lika med</string>
     <string name="symbol_asterisk">Asterisk</string>
@@ -1500,7 +1512,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_bullseye">Prick</string>
     <string name="symbol_caret">Cirkumflex</string>
     <string name="symbol_celsius_degree">Celsius-tecken</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Cent-tecken</string>
     <string name="symbol_circle_left_half_black">Cirkel med svart vänsterhalva</string>
     <string name="symbol_circle_right_half_black">Cirkel med svart högerhalva</string>
     <string name="symbol_colon">Kolon</string>
@@ -1509,7 +1521,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_curly_bracket_left">Vänster klammerparentes</string>
     <string name="symbol_curly_bracket_right">Höger klammerparentes</string>
     <string name="symbol_currency_sign">Valutatecken</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Gradtecken</string>
     <string name="symbol_division">Divisionstecken</string>
     <string name="symbol_dollar_sign">Dollartecken</string>
     <string name="symbol_downwards_arrow">Nedåtpil</string>
@@ -1561,7 +1573,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_middle_dot">Halvhög punkt</string>
     <string name="symbol_multiplication">Multiplikationstecken</string>
     <string name="symbol_new_line">Ny rad</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Inte lika med</string>
     <string name="symbol_not_sign">Inte-tecken</string>
     <string name="symbol_paragraph_mark">Stycketecken</string>
     <string name="symbol_parenthesis_left">Vänsterparentes</string>
@@ -1572,7 +1584,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_plus_minus_sign">Plus/minus-tecken</string>
     <string name="symbol_postal_mark">Postmärke</string>
     <string name="symbol_pound">Fyrkant</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Valutatecken för pund</string>
     <string name="symbol_quarter_note">Fjärdedelsnot</string>
     <string name="symbol_question_mark">Frågetecken</string>
     <string name="symbol_quotation_mark">Citattecken</string>
@@ -1598,7 +1610,7 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_trademark">Varumärke</string>
     <string name="symbol_underscore">Understreck</string>
     <string name="symbol_upwards_arrow">Uppåtpil</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Lodrät linje</string>
     <string name="symbol_white_circle">Vit cirkel</string>
     <string name="symbol_white_club_suit">Vitt klövertecken</string>
     <string name="symbol_white_diamond">Vitt rutertecken</string>
@@ -1612,8 +1624,8 @@ Steg 2: Svep nedåt för att flytta navigeringsfokus framåt eller ändra en lä
     <string name="symbol_white_square">Vit kvadrat</string>
     <string name="symbol_white_star">Vit stjärna</string>
     <string name="symbol_white_up_pointing_triangle">Vit triangel som pekar uppåt</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Valutatecken för won</string>
+    <string name="symbol_won_sign">Valutatecken för won</string>
     <string name="symbol_yen">Yen</string>
     <string name="system_actions">Systemåtgärder</string>
     <string name="tabletop">Bordsläge</string>
@@ -1781,7 +1793,7 @@ Så här inaktiverar du TalkBack:
     <string name="title_pref_category_assign_switches">Tilldela brytare</string>
     <string name="title_pref_category_audio">Ljud</string>
     <string name="title_pref_category_auto_scan">Automatisk genomsökning</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Automatisk genomsökning (punktgenomsökning)</string>
     <string name="title_pref_category_border_color">Färg</string>
     <string name="title_pref_category_built_in_gestures">Inbyggda rörelser</string>
     <string name="title_pref_category_context_menu">Anpassa TalkBack-menyn</string>
@@ -1865,7 +1877,7 @@ Så här inaktiverar du TalkBack:
     <string name="title_pref_red">Röd</string>
     <string name="title_pref_resume_talkback">Återuppta från avstängning</string>
     <string name="title_pref_reverse_auto_scan_disabled">Omvänd automatisk genomsökning (inaktiverat)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Omvänd automatisk genomsökning (punktgenomsökning)</string>
     <string name="title_pref_reverse_dots">Omvända punkter</string>
     <string name="title_pref_revert_to_default_menu">Återställ standardmenyn</string>
     <string name="title_pref_scan_non_actionable_items">Läs upp beskrivning</string>
@@ -1973,6 +1985,7 @@ Så här inaktiverar du TalkBack:
     <string name="title_previous_screen">Föregående skärm</string>
     <string name="title_read_from_top">Läs uppifrån</string>
     <string name="title_repeat_last_spoken_phrase">Upprepa det senaste som lästes upp</string>
+    <string name="title_request_phone_permission">TalkBack behöver behörighet</string>
     <string name="title_screen_summary">Skärmsammanfattning</string>
     <string name="title_seek_bar_controls">Skjutreglage</string>
     <string name="title_seek_bar_edit">Justera skutreglagenivå</string>

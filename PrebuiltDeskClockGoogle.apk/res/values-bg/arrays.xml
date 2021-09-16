@@ -17,14 +17,21 @@
         <item>15 минути</item>
         <item>20 минути</item>
         <item>25 минути</item>
-        <item>Никога</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>15 минути преди времето за сън</item>
+        <item>30 минути преди времето за сън</item>
+        <item>45 минути преди времето за сън</item>
+        <item>1 час преди времето за сън</item>
+        <item>Изключено</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Аналогов</item>
         <item>Дигитален</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>Никога</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 секунди</item>
         <item>10 секунди</item>
         <item>15 секунди</item>
@@ -37,6 +44,35 @@
         <item>50 секунди</item>
         <item>55 секунди</item>
         <item>60 секунди</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>Спиране след 10 минути</item>
+        <item>Спиране след 20 минути</item>
+        <item>Спиране след 30 минути</item>
+        <item>Спиране след 40 минути</item>
+        <item>Спиране след 50 минути</item>
+        <item>Спиране след 1 час</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>Спиране след 10 мин</item>
+        <item>Спиране след 20 мин</item>
+        <item>Спиране след 30 мин</item>
+        <item>Спиране след 40 мин</item>
+        <item>Спиране след 50 мин</item>
+        <item>Спиране след 1 час</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 минути</item>
+        <item>20 минути</item>
+        <item>30 минути</item>
+        <item>40 минути</item>
+        <item>50 минути</item>
+        <item>1 час</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минута</item>
@@ -69,18 +105,6 @@
         <item>28 минути</item>
         <item>29 минути</item>
         <item>30 минути</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>Развивате светкавична скорост.</item>
-        <item>Радвайте се на плодовете от труда си.</item>
-        <item>Устройствата с Android са известни с бързината си, но не са бързи колкото вас!</item>
-        <item>Слава богу!</item>
-        <item>1 337 пъти.</item>
-        <item>Каква изумителна скорост!</item>
-        <item>Нека да направим отново изкривяване на времето.</item>
-        <item>Само един отскок вляво.</item>
-        <item>Демонстрирате бързина в различни аспекти.</item>
-        <item>Светлинна скорост!</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалови острови</item>

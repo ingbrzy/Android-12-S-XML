@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Սարքն անհրաժեշտ է վերագործարկել, որպեսզի փոփոխությունը կիրառվի։ Վերագործարկեք հիմա կամ չեղարկեք փոփոխությունը։</string>
     <string name="camera_hint">Սահահարվածեք խցիկի պատկերակից</string>
     <string name="camera_label">բացել ֆոտոխցիկը</string>
+    <string name="camera_recording_announcement">Տեսախցիկը տեսագրում է</string>
+    <string name="camera_stopped_recording_announcement">Տեսախցիկն այլևս չի տեսագրում</string>
     <string name="cancel">Չեղարկել</string>
     <string name="carrier_network_change_mode">Օպերատորի ցանցի փոփոխություն</string>
     <string name="category_personal">Անձնական</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">Մշտադիտարկում</string>
     <string name="debug_networking_category">Ցանց</string>
     <string name="debug_view_attributes">Միացնել ցուցադրման հատկանիշների ստուգումը</string>
+    <string name="defender_notify_des">Հեռախոսը սահմանափակում է լիցքավորումը՝ մարտկոցի ծառայության ժամկետը երկարացնելու համար</string>
+    <string name="defender_notify_learn_more">Իմանալ ավելին</string>
+    <string name="defender_notify_resume_charge">Վերսկսել լիցքավորումը</string>
+    <string name="defender_notify_title">Լիցքավորումը ժամանակավորապես սահմանափակված է</string>
     <string name="delete_blob_confirmation_text">Իսկապե՞ս ուզում եք ջնջել հասանելի դարձված այս տվյալները։</string>
     <string name="delete_blob_text">Ջնջել հասանելի դարձված տվյալները</string>
     <string name="demo_mode">Համակարգի միջերեսի ցուցադրական ռեժիմ</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM քարտը ապակողպվում է…</string>
     <string name="keyguard_try_fingerprint">Բացելու համար օգտագործեք մատնահետքը</string>
     <string name="keyguard_unlock">Բացելու համար սահեցրեք վերև</string>
+    <string name="keyguard_unlock_press">Սեղմեք՝ բացելու համար</string>
     <string name="keywords_adb_wireless">adb, վրիպազերծում, ծրագրավորող</string>
     <string name="keywords_alarms_and_reminders">ժամանակացույց, զարթուցիչ, հիշեցում, ժամացույց</string>
     <string name="kg_enter_confirm_pin_hint">Հաստատեք ցանկալի PIN կոդը</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">Ստեղնաշարի փոխարկիչ</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Խոսափողն ակտիվացված է</string>
+    <string name="mic_and_camera_recording_announcement">Տեսախցիկն ու խոսափողը տեսաձայնագրում են</string>
+    <string name="mic_camera_stopped_recording_announcement">Տեսախցիկն ու խոսափողը այլևս չեն տեսաձայնագրում</string>
+    <string name="mic_recording_announcement">Խոսափողը ձայնագրում է</string>
+    <string name="mic_stopped_recording_announcement">Խոսափողն այլևս չի ձայնագրում</string>
     <string name="missed_call">Բաց թողնված զանգ</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Բջջային ինտերնետ</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">Աշխատանքային հավելվածներ</string>
     <string name="quick_step_accessibility_toggle_overview">Միացնել/անջատել համատեսքը</string>
     <string name="recent_conversations">Վերջին հաղորդագրությունները</string>
-    <string name="recents_quick_scrub_onboarding">Քաշեք աջ՝ հավելվածների միջև անցնելու համար</string>
-    <string name="recents_swipe_up_onboarding">Սահեցրեք վերև՝ մյուս հավելվածին անցնելու համար</string>
     <string name="remaining_length_format">Մնացել է %1$s</string>
     <string name="remote_input_image_insertion_text">պատկեր է ուղարկվել</string>
     <string name="remove_from_settings">Հեռացնել կարգավորումներից</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">Ավելացնել քարտ</string>
     <string name="wallet_secondary_label_updating">Թարմացվում է</string>
     <string name="wallet_title">Դրամապանակ</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Հասանելիության կետը ժամանակավորապես լիքն է</string>
     <string name="wifi_cant_connect">Կապ չկա</string>
     <string name="wifi_cant_connect_to_ap">Հնարավոր չէ միանալ «%1$s»-ին</string>

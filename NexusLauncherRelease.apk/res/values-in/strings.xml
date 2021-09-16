@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">Tambahkan ke folder dengan %1$s</string>
     <string name="add_to_home_screen">Tambahkan ke Layar utama</string>
     <string name="added_to_folder">Item ditambahkan ke folder</string>
+    <string name="added_to_home_screen_accessibility_text">Widget %1$s ditambahkan ke layar utama</string>
     <string name="all_apps_button_label">Daftar aplikasi</string>
     <string name="all_apps_button_personal_label">Daftar aplikasi pribadi</string>
     <string name="all_apps_button_work_label">Daftar aplikasi kantor</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">Saat ponsel diputar</string>
     <string name="allow_rotation_title">Izinkan Layar utama diputar</string>
     <string name="allset_description">Anda sudah siap untuk mulai menggunakan ponsel</string>
+    <string name="allset_hint">Geser ke atas untuk beralih ke Layar utama</string>
+    <string name="allset_navigation_settings"><annotation id="link">Setelan navigasi sistem</annotation></string>
     <string name="allset_title">Semua siap.</string>
     <string name="app_downloading_title">%1$s sedang didownload, %2$s selesai</string>
     <string name="app_info_drop_target_label">Info aplikasi</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s menunggu dipasang</string>
     <string name="auto_add_shortcuts_description">Untuk aplikasi baru</string>
     <string name="auto_add_shortcuts_label">Tambahkan ikon aplikasi ke Layar utama</string>
+    <string name="back_gesture_feedback_cancelled">Pastikan Anda menggeser dari tepi kanan atau kiri ke tengah layar, lalu lepaskan.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">Anda telah belajar cara geser dari kanan untuk kembali. Berikutnya, pelajari cara beralih aplikasi.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">Anda telah menyelesaikan gestur kembali.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">Pastikan Anda tidak menggeser terlalu dekat ke bagian bawah layar.</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Pastikan Anda menggeser dari tepi ujung kanan atau ujung kiri.</string>
     <string name="back_gesture_intro_subtitle">Untuk kembali ke layar terakhir, geser dari tepi kiri atau kanan ke tengah layar.</string>
     <string name="back_gesture_intro_title">Geser untuk kembali</string>
     <string name="back_gesture_tutorial_confirm_subtitle">Untuk mengubah sensitivitas gestur kembali, buka Setelan</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">Ketuk untuk menyimpan ganti nama</string>
     <string name="gadget_error_text">Tidak dapat memuat widget</string>
     <string name="gadget_setup_text">Ketuk untuk menyelesaikan penyiapan</string>
+    <string name="gesture_tutorial_action_button_label">Selesai</string>
     <string name="gesture_tutorial_action_button_label_cancel">Batal</string>
     <string name="gesture_tutorial_action_button_label_settings">Setelan</string>
     <string name="gesture_tutorial_action_button_label_skip">Lewati</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">Coba tahan jendela lebih lama sebelum melepaskan.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">Pastikan Anda menggeser ke atas dari tepi bawah layar.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">Pastikan Anda menggeser lurus ke atas, lalu menjedanya.</string>
+    <string name="overview_gesture_intro_subtitle">Untuk beralih antar-aplikasi, geser ke atas dari bagian bawah layar, tahan, lalu lepaskan.</string>
     <string name="overview_gesture_intro_title">Geser untuk beralih aplikasi</string>
     <string name="overview_selection_pref_desc">Saat beralih aplikasi, sentuh lama teks dan gambar untuk melihat tindakan</string>
     <string name="overview_selection_pref_title">Pemilihan di Ringkasan</string>
@@ -266,7 +273,7 @@
     <string name="select_tooltip">Pilih teks dan gambar untuk disalin, dibagikan, dan lainnya</string>
     <string name="selectable_url_description">URL yang dapat dipilih</string>
     <string name="settings">Setelan</string>
-    <string name="settings_button_text">Setelan layar utama</string>
+    <string name="settings_button_text">Setelan Layar utama</string>
     <string name="shortcut_not_available">Pintasan tidak tersedia</string>
     <string name="shortcuts_menu_with_notifications_description">Pintasan dan notifikasi</string>
     <string name="shorter_duration_less_than_one_minute">&lt; 1 menit</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">Kursi</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">Preferensi</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">At A Glance</string>
     <string name="smartspace_preferences_in_settings_desc">Di bagian atas Layar utama</string>
     <string name="smartspace_preferences_manage">Sesuaikan</string>
     <string name="smartspace_preferences_turn_off_action">Nonaktifkan</string>
@@ -331,7 +338,7 @@
     <string name="widgets_full_sheet_cancel_button_description">Hapus teks dari kotak penelusuran</string>
     <string name="widgets_full_sheet_personal_tab">Pribadi</string>
     <string name="widgets_full_sheet_search_bar_hint">Telusuri</string>
-    <string name="widgets_full_sheet_work_tab">Kantor</string>
+    <string name="widgets_full_sheet_work_tab">Kerja</string>
     <string name="widgets_list">Daftar widget</string>
     <string name="widgets_list_closed">Daftar widget ditutup</string>
     <string name="work_apps_enable_btn_text">Aktifkan aplikasi kerja</string>
@@ -341,7 +348,7 @@
     <string name="work_apps_paused_edu_accept">Oke</string>
     <string name="work_apps_paused_edu_banner">Aplikasi kerja diberi badge dan terlihat oleh admin IT</string>
     <string name="work_apps_paused_title">Aplikasi kerja dijeda</string>
-    <string name="work_folder_name">Kantor</string>
+    <string name="work_folder_name">Kerja</string>
     <string name="work_profile_edu_accept">Oke</string>
     <string name="work_profile_edu_work_apps">Aplikasi kerja diberi badge dan terlihat oleh admin IT</string>
     <string name="work_profile_toggle_label">Profil kerja</string>

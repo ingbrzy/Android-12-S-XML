@@ -595,6 +595,8 @@ Selectie"</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Je apparaat moet opnieuw worden opgestart om deze wijziging toe te passen. Start nu opnieuw op of annuleer de wijziging.</string>
     <string name="camera_hint">Vegen voor camera</string>
     <string name="camera_label">camera openen</string>
+    <string name="camera_recording_announcement">Camera neemt op</string>
+    <string name="camera_stopped_recording_announcement">Camera neemt niet meer op</string>
     <string name="cancel">Annuleren</string>
     <string name="carrier_network_change_mode">Netwerk van provider wordt gewijzigd</string>
     <string name="category_personal">Persoonlijk</string>
@@ -734,6 +736,10 @@ Als je hervat, kunnen er kosten voor datagebruik in rekening worden gebracht."</
     <string name="debug_monitoring_category">Controle</string>
     <string name="debug_networking_category">Netwerken</string>
     <string name="debug_view_attributes">Inspectie van weergavekenmerk aanzetten</string>
+    <string name="defender_notify_des">Je telefoon beperkt het opladen omdat dit beter is voor de batterij.</string>
+    <string name="defender_notify_learn_more">Meer informatie</string>
+    <string name="defender_notify_resume_charge">Opladen hervatten</string>
+    <string name="defender_notify_title">Opladen tijdelijk beperkt</string>
     <string name="delete_blob_confirmation_text">Weet je zeker dat je deze gedeelde gegevens wilt verwijderen?</string>
     <string name="delete_blob_text">Gedeelde gegevens verwijderen</string>
     <string name="demo_mode">Demomodus voor systeemgebruikersinterface</string>
@@ -1070,6 +1076,7 @@ prioriteit"</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Simkaart ontgrendelen…</string>
     <string name="keyguard_try_fingerprint">Gebruik vingerafdruk om te openen</string>
     <string name="keyguard_unlock">Swipe omhoog om te openen</string>
+    <string name="keyguard_unlock_press">Druk om te openen</string>
     <string name="keywords_adb_wireless">adb, foutopsporing, ontwikkeling</string>
     <string name="keywords_alarms_and_reminders">plannen, schema, wekker, alarm, herinnering, klok</string>
     <string name="kg_enter_confirm_pin_hint">Gewenste pincode bevestigen</string>
@@ -1233,6 +1240,10 @@ Probeer het over %2$d seconden opnieuw."</string>
     <string name="menu_ime">Toetsenbordschakelaar</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Microfoon actief</string>
+    <string name="mic_and_camera_recording_announcement">Camera en microfoon nemen op</string>
+    <string name="mic_camera_stopped_recording_announcement">Camera en microfoon nemen niet meer op</string>
+    <string name="mic_recording_announcement">Microfoon neemt op</string>
+    <string name="mic_stopped_recording_announcement">Microfoon neemt niet meer op</string>
     <string name="missed_call">Gemist gesprek</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobiele data</string>
@@ -1706,8 +1717,6 @@ Als je vragen hebt, kun je contact opnemen met %2$s."</string>
     <string name="quick_settings_work_mode_label">Werk-apps</string>
     <string name="quick_step_accessibility_toggle_overview">Overzicht aan- of uitzetten</string>
     <string name="recent_conversations">Recente gesprekken</string>
-    <string name="recents_quick_scrub_onboarding">Sleep naar rechts om snel tussen apps te schakelen</string>
-    <string name="recents_swipe_up_onboarding">Swipe omhoog om te schakelen tussen apps</string>
     <string name="remaining_length_format">Nog %1$s</string>
     <string name="remote_input_image_insertion_text">heeft een afbeelding gestuurd</string>
     <string name="remove_from_settings">Verwijderen uit Instellingen</string>
@@ -2117,6 +2126,7 @@ Elke gebruiker kan apps updaten voor alle andere gebruikers."</string>
     <string name="wallet_secondary_label_no_card">Kaart toevoegen</string>
     <string name="wallet_secondary_label_updating">Updaten</string>
     <string name="wallet_title">Portemonnee</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Toegangspunt tijdelijk vol</string>
     <string name="wifi_cant_connect">Kan geen verbinding maken</string>
     <string name="wifi_cant_connect_to_ap">"Kan geen verbinding maken met '%1$s'"</string>

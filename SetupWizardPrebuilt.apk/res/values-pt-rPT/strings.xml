@@ -165,7 +165,7 @@ Quando o modo de avião está ativado, o Wi‑Fi, as redes móveis e o Bluetooth
     <string name="final_hold_description_text">Esta ação pode demorar alguns minutos.</string>
     <string name="final_hold_title">{DEVICE_TYPE,select, PHONE{A preparar o seu telemóvel…}TABLET{A preparar o seu tablet…}other{A preparar o seu dispositivo…}}</string>
     <string name="final_hold_title_setup_work_account">A preparar tel. para a config. trabalho…</string>
-    <string name="gesture_intro_description">Aprenda gestos para aceder à página inicial, retroceder e alternar entre apps</string>
+    <string name="gesture_intro_description">Aprenda gestos para aceder ao ecrã principal, retroceder e alternar entre apps</string>
     <string name="gesture_intro_skip_button">Ignorar</string>
     <string name="gesture_intro_start_button">Experimentar</string>
     <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Deslize rapidamente para navegar no telemóvel}TABLET{Deslize rapidamente para navegar no tablet}other{Deslize rapidamente para navegar no dispositivo}}</string>
@@ -337,92 +337,71 @@ Dispositivo não fornecido"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{A sua conta foi adicionada a este telemóvel}TABLET{A sua conta foi adicionada a este tablet}other{A sua conta foi adicionada a este dispositivo}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Importante:</b>"
 
-"<ul><li>O proprietário do telemóvel pode desinstalar as apps ou remover o seu perfil de utilizador por completo.</li>"
+"<ul><li>O proprietário do telemóvel pode desinstalar as apps ou remover o seu perfil de utilizador por completo</li>"
 
-"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas.</li>"
+"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas</li>"
 
-"<li>Partilhe este telemóvel apenas com pessoas em quem confia.</li></ul>}TABLET{<b>Importante:</b>"
+"<li>Partilhe este telemóvel apenas com pessoas em quem confia</li></ul>"
+}TABLET{"<b>Importante:</b>"
 
-"<ul><li>O proprietário do tablet pode desinstalar as apps ou remover o seu perfil de utilizador por completo.</li>"
+"<ul><li>O proprietário do tablet pode desinstalar as apps ou remover o seu perfil de utilizador por completo</li>"
 
-"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas.</li>"
+"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas</li>"
 
-"<li>Partilhe este tablet apenas com pessoas em quem confia.</li></ul>}other{<b>Importante:</b>"
+"<li>Partilhe este tablet apenas com pessoas em quem confia</li></ul>"
+}other{"<b>Importante:</b>"
 
-"<ul><li>O proprietário do dispositivo pode desinstalar as apps ou remover o seu perfil de utilizador por completo.</li>"
+"<ul><li>O proprietário do dispositivo pode desinstalar as apps ou remover o seu perfil de utilizador por completo</li>"
 
-"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas.</li>"
+"<li>Qualquer outro utilizador pode aceitar autorizações de apps atualizadas</li>"
 
-"<li>Partilhe este dispositivo apenas com pessoas em quem confia.</li></ul>}}</string>
+"<li>Partilhe este dispositivo apenas com pessoas em quem confia</li></ul>}}</string>
     <string name="welcome_start_button_label">Iniciar</string>
     <string name="wifi_add_new_network">Adicionar nova rede</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o telemóvel.
 
 Sem uma ligação, não é possível:
-
 "<li>Iniciar sessão na sua Conta Google</li>"
-
 "<li>Restaurar apps e dados</li>"
-
 "<li>Obter atualizações de software</li>"
+"<li>Configurar automaticamente a hora e a data</li>"
+}TABLET{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o tablet.
 
-"<li>Configurar automaticamente a hora e a data</li>"}TABLET{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o tablet.
+WSem uma ligação, não é possível:
+"<li>SIniciar sessão na sua Conta Google</li>"
+"<li>Restaurar apps e dados</li>"
+"<li>Obter atualizações de software</li>"
+"<li>Configurar automaticamente a hora e a data</li>"
+}other{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o dispositivo.
 
 Sem uma ligação, não é possível:
-
 "<li>Iniciar sessão na sua Conta Google</li>"
-
 "<li>Restaurar apps e dados</li>"
-
 "<li>Obter atualizações de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}other{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o dispositivo.
-
-Sem uma ligação, não é possível:
-
-"<li>Iniciar sessão na sua Conta Google</li>"
-
-"<li>Restaurar apps e dados</li>"
-
-"<li>Obter atualizações de software</li>"
-
 "<li>Configurar automaticamente a hora e a data</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o telemóvel.
 
 Sem uma ligação, não é possível:
-
 "<li>Iniciar sessão na sua Conta Google</li>"
-
 "<li>Restaurar apps e dados</li>"
-
 "<li>Transferir um SIM</li>"
-
 "<li>Obter atualizações de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}TABLET{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o tablet.
+"<li>Configurar automaticamente a hora e a data</li>"
+}TABLET{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o tablet.
 
 Sem uma ligação, não é possível:
-
 "<li>Iniciar sessão na sua Conta Google</li>"
-
 "<li>Restaurar apps e dados</li>"
-
 "<li>Transferir um SIM</li>"
-
 "<li>Obter atualizações de software</li>"
-
-"<li>Configurar automaticamente a hora e a data</li>"}other{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o dispositivo.
+"<li>Configurar automaticamente a hora e a data</li>"
+}other{Ligar-se a uma rede móvel ou Wi-Fi ajuda a configurar rapidamente o dispositivo.
 
 Sem uma ligação, não é possível:
-
 "<li>Iniciar sessão na sua Conta Google</li>"
-
 "<li>Restaurar apps e dados</li>"
-
 "<li>Transferir um SIM</li>"
-
 "<li>Obter atualizações de software</li>"
-
 "<li>Configurar automaticamente a hora e a data</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Ponto de acesso temporariamente cheio</string>
     <string name="wifi_check_password_try_again">Verifique a palavra-passe e tente novamente</string>

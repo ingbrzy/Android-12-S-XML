@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_alert_snooze_duration">
-        <item quantity="other">%d min.</item>
-        <item quantity="one">%d min.</item>
-        <item quantity="few">%d min.</item>
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
     </plurals>
     <plurals name="alarm_alert_snooze_set">
         <item quantity="other">Odlaganje na %d minuta.</item>
@@ -14,6 +14,11 @@
         <item quantity="other">%s dana</item>
         <item quantity="one">%s dan</item>
         <item quantity="few">%s dana</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Prije %s dana</item>
+        <item quantity="one">Prije %s dan</item>
+        <item quantity="few">Prije %s dana</item>
     </plurals>
     <plurals name="hours">
         <item quantity="other">%s sati</item>
@@ -31,9 +36,14 @@
         <item quantity="few">%s minute</item>
     </plurals>
     <plurals name="minutes_short">
-        <item quantity="other">%s min.</item>
-        <item quantity="one">%s min.</item>
-        <item quantity="few">%s min.</item>
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavještenja</item>
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s sekundi</item>

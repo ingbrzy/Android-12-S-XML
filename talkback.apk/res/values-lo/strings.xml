@@ -87,7 +87,7 @@
 ສືບຕໍ່ສຶກສາກ່ຽວກັບຫົວຂໍ້ອື່ນໆຕອນນີ້ ຫຼື ກວດສອບຂໍ້ມູນນີ້ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ TalkBack."</string>
     <string name="all_set_title">ຮຽບຮ້ອຍໝົດແລ້ວ!</string>
     <string name="always_show_this_message_label">ສະແດງຂໍ້ຄວາມນີ້ສະເໝີ</string>
-    <string name="application_name">ຊຸດການຊ່ວຍເຂົ້າເຖິງ Android</string>
+    <string name="application_name">Android Accessibility Suite</string>
     <string name="arc_android_window">ໜ້າຈໍແອັບພລິເຄຊັນ</string>
     <string name="arc_navigation_hint">ກົດຊອກຫາດ້ວຍປຸ່ມລູກສອນເພື່ອນຳທາງ</string>
     <string name="arc_open_manage_keyboard_shortcuts_hint">ກົດ %1$s ເພື່ອເບິ່ງລາຍຊື່ປຸ່ມລັດ</string>
@@ -105,7 +105,7 @@
     <string name="audio_focus_state">ການຫຼຸດຜ່ອນສຽງ %1$s</string>
     <string name="auto_detect">ປັບຕາມວິທີທີ່ຂ້ອຍຖືອຸປະກອນ</string>
     <string name="auto_scan_action_description">ເລືອກສະແກນ ແລະ ເລືອກ</string>
-    <string name="auto_scan_or_select">"ສະແກນອັດຕະໂນມັດ' ຫຼື 'ເລືອກ"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'ສະແກນອັດຕະໂນມັດ' ຫຼື 'ເລືອກ'"</string>
     <string name="available_devices_header">ອຸປະກອນ Bluetooth ທີ່ສາມາດໃຊ້ໄດ້</string>
     <string name="basic_navigation_link_subtext">ຍ້າຍລະຫວ່າງລາຍການ, ເລື່ອນ, ໃຊ້ເມນູ ແລະ ອື່ນໆ</string>
     <string name="basic_navigation_link_text">ການນຳທາງພື້ນຖານ</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">ເພື່ອຄວບຄຸມອຸປະກອນຂອງທ່ານ, ທ່ານຈະຕ້ອງເປີດໃຊ້ການເຂົ້າເຖິງດ້ວຍປຸ່ມກົດກ່ອນ.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">ເປີດສະວິດກ້ອງຖ່າຍຮູບ</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">ເປີດການເຂົ້າເຖິງດ້ວຍປຸ່ມກົດ</string>
+    <string name="cam_switches_combined_preferences_title">"ການຕັ້ງຄ່າ '%1$s'"</string>
+    <string name="cam_switches_preferences_title">ການຕັ້ງຄ່າສະວິດກ້ອງຖ່າຍຮູບ</string>
+    <string name="cam_switches_single_preferences_title">"ການຕັ້ງຄ່າ '%s'"</string>
     <string name="camera_switches_status_active">ສະວິດກ້ອງເຮັດວຽກຢູ່</string>
     <string name="camera_switches_status_error">ຜິດພາດ</string>
     <string name="camera_switches_status_no_face">ກວດບໍ່ພົບໃບໜ້າ</string>
@@ -263,7 +266,7 @@
     <string name="default_action_name_pause">ຢຸດສະວິດກ້ອງຖ່າຍຮູບໄວ້ຊົ່ວຄາວ</string>
     <string name="default_action_name_point_scan">ສະແກນຈຸດ</string>
     <string name="dialog_confirm_revert_to_default_menu">ຢືນຢັນ</string>
-    <string name="dialog_do_not_disturb_permission_message">ເພື່ອປັບແຕ່ງລະດັບສຽງຈາກເມນູ Switch Access, ກະລຸນາເປີດໃຊ້ການເຂົ້າເຖິງໂໝດຫ້າມລົບກວນສຳລັບຊຸດການຊ່ວຍເຂົ້າເຖິງ Android</string>
+    <string name="dialog_do_not_disturb_permission_message">ເພື່ອປັບແຕ່ງລະດັບສຽງຈາກເມນູ Switch Access, ກະລຸນາເປີດໃຊ້ການເຂົ້າເຖິງໂໝດຫ້າມລົບກວນສຳລັບ Android Accessibility Suite</string>
     <string name="dialog_do_not_disturb_permission_title">Switch Access ຕ້ອງການສິດອະນຸຍາດໃນການປັບລະດັບສຽງ</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">ເປີດການຕັ້ງຄ່າ</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">ເພື່ອໃຫ້ເຮັດວຽກໄດ້, ສະວິດກ້ອງຖ່າຍຮູບຈະຕ້ອງດາວໂຫຼດຂໍ້ມູນເພີ່ມເຕີມປະມານ 10 MB. ຂັ້ນຕອນນີ້ຈະໃຊ້ເວລາປະມານໜຶ່ງນາທີ, ຂຶ້ນກັບຄວາມໄວເຄືອຂ່າຍຂອງທ່ານ.</string>
@@ -399,6 +402,7 @@
     <string name="fallback_menu_item_open_in_browser">ເປີດໃນໂປຣແກຣມທ່ອງເວັບ</string>
     <string name="fallback_menu_item_share_link">ແບ່ງປັນລິ້ງ</string>
     <string name="fast_radio_button_title">ໄວ (ໜ່ວງເວລາ %1$sວິ )</string>
+    <string name="fast_radio_button_title_content_description">ໄວ (ຫຼ້າຊ້າ %1$s ວິນາທີ)</string>
     <string name="find_finish_button_text">ປັດຂວາເພື່ອຊອກຫາປຸ່ມຈົບ.</string>
     <string name="finish">ແລ້ວໆ</string>
     <string name="finish_tutorial_announcement">ກຳລັງສະແດງແປ້ນພິມຕົວອັກສອນນູນ. ໝຸນໂທລະສັບຂອງທ່ານໃຫ້ໜ້າຈໍປິ່ນອອກຈາກຕົວທ່ານ. ໝຸນໂທລະສັບລວງນອນເປັນຕຳແໜ່ງລວງນອນ. ຈາກນັ້ນເລີ່ມການພິມ.</string>
@@ -611,11 +615,11 @@
     <string name="keycombo_menu_navigate_last">ກຳ​ນົດ​ທິດ​ທາງ​ໃສ່​ລາຍ​ການ​ສຸດ​ທ້າຍ</string>
     <string name="keycombo_menu_navigate_next">ກຳ​ນົດ​ທິດ​ທາງ​ໃສ່​ລາຍ​ການ​ຕໍ່​ໄປ</string>
     <string name="keycombo_menu_navigate_next_character">ນຳທາງໄປຫາຕົວອັກສອນຕໍ່ໄປ</string>
-    <string name="keycombo_menu_navigate_next_window">ໄປທີ່ໜ້າຈໍຖັດໄປ</string>
+    <string name="keycombo_menu_navigate_next_window">ໄປໜ້າຈໍຕໍ່ໄປ</string>
     <string name="keycombo_menu_navigate_next_word">ນຳທາງໄປຫາຄຳຕໍ່ໄປ</string>
     <string name="keycombo_menu_navigate_previous">ກຳ​ນົດ​ທິດ​ທາງ​ໃສ່​ລາຍ​ການ​ຜ່ານ​ມາ</string>
     <string name="keycombo_menu_navigate_previous_character">ນຳທາງໄປຫາຕົວອັກສອນກ່ອນໜ້າ</string>
-    <string name="keycombo_menu_navigate_previous_window">ໄປທີ່ໜ້າຈໍກ່ອນໜ້າ</string>
+    <string name="keycombo_menu_navigate_previous_window">ໄປໜ້າຈໍກ່ອນໜ້າ</string>
     <string name="keycombo_menu_navigate_previous_word">ນຳທາງໄປຫາຄຳກ່ອນໜ້າ</string>
     <string name="keycombo_menu_navigate_up">ນຳທາງໄປລາຍການທາງລຸ່ມ</string>
     <string name="keycombo_menu_other_custom_actions">ສະແດງຄຳສັ່ງ</string>
@@ -747,6 +751,7 @@
     <string name="list_index_template">%1$d ຈາກທັງໝົດ %2$d</string>
     <string name="lockscreen_label">ໜ້າຈໍລັອກ</string>
     <string name="medium_radio_button_title">ປານກາງ (ໜ່ວງເວລາ %1$sວິ)</string>
+    <string name="medium_radio_button_title_content_description">ປານກາງ (ຫຼ້າຊ້າ %1$s ວິນາທີ)</string>
     <string name="menu_category_reading_controls">ການອ່ານ</string>
     <string name="menu_category_special_features">ຄຸນສົມບັດພິເສດ</string>
     <string name="menus_selector_text">"ທາງລັດເຫຼົ່ານີ້ສາມາດຊ່ວຍທ່ານປ່ຽນການຕັ້ງຄ່າຕ່າງໆໄດ້ຢ່າງວ່ອງໄວ ເຊັ່ນ: ການສະຫຼັບການນຳທາງຂອງທ່ານຈາກຕົວອັກສອນເປັນຄຳສັບ ຫຼື ການປ່ຽນຄວາມໄວການເວົ້າຂອງ TalkBack.
@@ -767,6 +772,7 @@
 ເປີດເມນູ TalkBack ຕອນນີ້ໂດຍການປັດລົງຈາກນັ້ນປັດຂວາ."</string>
     <string name="menus_title">ເມນູ ແລະ ການຄວບຄຸມ</string>
     <string name="message_in_reset_keymap_confirm_dialog">ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການຣີເຊັດປຸ່ມທາງລັດສຳລັບຄີແມັບນີ້ເປັນຄ່າເລີ່ມຕົ້ນຂອງພວກມັນບໍ? ກະລຸນາຮັບຊາບວ່າ, ຄຳສັ່ງນີ້ຈະບໍ່ສາມາດຍົກເລີກໄດ້.</string>
+    <string name="message_request_phone_permission">TalkBack ຕ້ອງການຮູ້ວ່າມີການໂທລະສັບຕອນໃດ, ເພື່ອໃຫ້ TalkBack ສາມາດຫຼຸດການປະກາດທີ່ລົບກວນລົງໄດ້.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"ນີ້ຈະເປັນການຣີເຊັດທ່າທາງທັງໝົດໄປເປັນຄຳສັ່ງເລີມຕົ້ນຂອງພວກມັນ.
 
 ທ່ານຈະສູນເສຍການປ່ຽນແປງໃດກໍຕາມທີ່ທ່ານສ້າງຂຶ້ນ."</string>
@@ -996,6 +1002,7 @@
     <string name="pref_reduce_window_delay_title">ຫຼຸດການເວັ້ນໄລຍະການປະກາດໜ້າຈໍ</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">ເພີ່ມສະວິດກ້ອງຖ່າຍຮູບ</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">ລຶບລ້າງສະວິດ</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">ຕັ້ງຄ່າສຳລັບປຸ່ມກົດ: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">ແກ້ໄຂສະວິດກ້ອງຖ່າຍຮູບ</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">ບໍ່ໄດ້ມອບໝາຍສະວິດກ້ອງຖ່າຍຮູບ</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"ມອບໝາຍສະວິດກ້ອງຖ່າຍຮູບເປັນ '%s'"</string>
@@ -1016,9 +1023,9 @@
     <string name="pref_sa_face_playground_stop_preview_content_description">ຢຸດຕົວຢ່າງ</string>
     <string name="pref_sa_face_playground_switch_on_content_description">ເປີດໃຊ້</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">ຕ້ອງເປີດໃຊ້ສະວິດກ້ອງຖ່າຍຮູບເພື່ອໃຊ້ພື້ນທີ່ທົດສອບນີ້</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">ລອງໃຊ້ເບິ່ງ: ເບິ່ງຕົວຢ່າງປະເພດສີໜ້າທັງໝົດ, ຮວມທັງອ້າປາກ, ຍິ້ມ ແລະ ອື່ນໆ</string>
+    <string name="pref_sa_face_playground_try_it_button_text">ລອງໃຊ້ເບິ່ງ</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">ລອງໃຊ້ເບິ່ງ, ເບິ່ງຕົວຢ່າງສີໜ້າ %1$s</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">ຢຸດພື້ນທີ່ທົດສອບໄວ້ຊົ່ວຄາວແລ້ວ. ໃຊ້ປຸ່ມທາງລຸ່ມເພື່ອເລີ່ມມັນອີກເທື່ອໜຶ່ງ.</string>
     <string name="pref_selector_summary">%1$s ເພື່ອເລືອກການຕັ້ງຄ່າໃດໜຶ່ງ. ຈາກນັ້ນ %2$s ເພື່ອປັບແຕ່ງການຕັ້ງຄ່າ.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s ຫຼື %2$s ເພື່ອເລືອກການຕັ້ງຄ່າໃດໜຶ່ງ. ຈາກນັ້ນ %3$s ເພື່ອປັບແຕ່ງການຕັ້ງຄ່າ.</string>
@@ -1067,6 +1074,7 @@
     <string name="reduce_speed_button">ຫຼຸດຄວາມໄວ</string>
     <string name="remaining_calibration_finish_announcement">ອັບເດດຕຳແໜ່ງຈຸດທັງໝົດແລ້ວ</string>
     <string name="reminder_announcement">ປັດຂຶ້ນດ້ວຍ 3 ນິ້ວເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ</string>
+    <string name="remove_assigned_switch">ລຶບການມອບໝາຍປຸ່ມກົດສຳລັບ %s ອອກ</string>
     <string name="report_gesture_description">ນີ້ແມ່ນທ່າທາງທີ່ໃຊ້ໄປຫຼ້າສຸດ, ກະລຸນາລາຍງານວ່າທ່າທາງໃດບໍ່ຖືກຕ້ອງ ແລະ ຄວນແມ່ນຫຍັງ.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">ຣີເຊັດ</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">ຣີເຊັດ</string>
@@ -1147,6 +1155,7 @@
     <string name="search_mode_hint_no_selection">ບໍ່​ມີ​ລາຍ​ການ​ທີ່​ເລືອກ.</string>
     <string name="search_mode_hint_query">ຄໍາ​ຊອກ​ຫາ​ປັດ​ຈຸ​ບັນ​: %1$s.</string>
     <string name="search_mode_hint_selection">ລາຍ​ການ​ທີ່​ເລືອກ​ປັດ​ຈຸ​ບັນ: %1$s.</string>
+    <string name="select_for_point_scan">"'ເລືອກ'"</string>
     <string name="select_setting_hint">%1$s ເພື່ອເລືອກການຕັ້ງຄ່າອື່ນ</string>
     <string name="selecting_text_text">"ໃນກ່ອງຂໍ້ຄວາມ, ໃຫ້ຍ້າຍເຄີເຊີໄປຈຸດເລີ່ມຕົ້ນຂອງຂໍ້ຄວາມທີ່ທ່ານຕ້ອງການເລືອກ.
 
@@ -1207,6 +1216,7 @@
     <string name="shortcut_media_control">ຫຼິ້ນ ຫຼື ຢຸດມີເດຍຊົ່ວຄາວ</string>
     <string name="shortcut_next">ລາຍ​ການ​ຕໍ່​ໄປ</string>
     <string name="shortcut_next_granularity">ການ​ຕັ້ງ​ຄ່າ​ການ​ນຳ​ທາງ​ຕໍ່​ໄປ</string>
+    <string name="shortcut_next_window">ໜ້າຈໍຕໍ່ໄປ</string>
     <string name="shortcut_not_customizable">%1$s, ບໍ່ສາມາດປັບແຕ່ງໄດ້</string>
     <string name="shortcut_notifications">ການແຈ້ງເຕືອນ</string>
     <string name="shortcut_overview">ພາບຮວມ</string>
@@ -1219,6 +1229,7 @@
     <string name="shortcut_practice_gestures">ເຝິກແອບທ່າທາງ</string>
     <string name="shortcut_previous">ລາຍ​ການ​ຜ່ານ​ມາ</string>
     <string name="shortcut_previous_granularity">ການ​ຕັ້ງ​ຄ່າ​ການ​ນຳ​ທາງ​ຜ່ານ​ມາ</string>
+    <string name="shortcut_previous_window">ໜ້າຈໍກ່ອນໜ້າ</string>
     <string name="shortcut_print_node_tree">ພິມ​ໂນດ​ແຜ​ນ​ຜັງ​ຕົ້ນ​ໄມ້</string>
     <string name="shortcut_print_performance_stats">ພິມສະຖິຕິປະສິດທິພາບ</string>
     <string name="shortcut_quick_settings">ການຕັ້ງຄ່າດ່ວນ</string>
@@ -1258,6 +1269,7 @@
 • ສັ່ນເພື່ອເລີ່ມການອ່ານຕໍ່ເນື່ອງ"</string>
     <string name="six_hold_announcement">ນອກຈາກນັ້ນ, ທ່ານຍັງສາມາດວາງໂທລະສັບຂອງທ່ານໄວ້ໂຕະໄດ້ນຳ. ລອງໃຊ້ມັນດຽວນີ້. ຫາກທ່ານບໍ່ມີໂຕະຢູ່ໃກ້ໆ, ໃຫ້ຂ້າມໄປໂດຍການປັດລົງ.</string>
     <string name="slow_radio_button_title">ຊ້າ (ໜ່ວງເວລາ %1$sວິ)</string>
+    <string name="slow_radio_button_title_content_description">ຊ້າ (ຫຼ້າຊ້າ %1$s ວິນາທີ)</string>
     <string name="sound_feedback_state">ການຕອບສະໜອງດ້ວຍສຽງ %1$s</string>
     <string name="sound_feedback_summary">ເປີດສຽງເພື່ອລະບຸວ່າມີການປ່ຽນແປງບາງຢ່າງຂຶ້ນ (ເຊັ່ນ: ມີການປ່ຽນແປງເນື້ອຫາຢູ່ໜ້າຈໍ)</string>
     <string name="speak_container_element_position_summary_off">ບໍ່ເວົ້າຂໍ້ມູນລາຍຊື່ ແລະ ຕາຕະລາງ</string>
@@ -1338,10 +1350,10 @@
     <string name="summary_pref_face_switches_playground_gesture_detection_label">ສະແດງສີໜ້າແບບໃດກໍໄດ້. ຊື່ຂອງສີໜ້າຈະສະແດງຂຶ້ນມາຫາກມີການລົງທະບຽນໄວ້. ຫາກຕ້ອງການອອກ, ໃຫ້ສະແດງສີໜ້າໃດກໍໄດ້ຄ້າງໄວ້ %1$d ວິນາທີ.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">ຢ່າຍັບຫົວຂອງທ່ານ ແລະ ໃຫ້ຫັນໜ້າເບິ່ງກ້ອງ. ຈາກນັ້ນ %s.</string>
     <string name="summary_pref_play_store">ເວີ​ຊັນ TalkBack ປັດ​ຈຸ​ບັນ: %1$s</string>
-    <string name="summary_pref_point_scan">"ໃຊ້ເສັ້ນເຄື່ອນທີ່ເພື່ອເລືອກຕຳແໜ່ງລວງຕັ້ງ ຫຼື ລວງນອນ. ກົດສະວິດ '%1$s' ເພື່ອເລີ່ມການສະແກນຈຸດ. %2$s"</string>
+    <string name="summary_pref_point_scan">"ໃຊ້ເສັ້ນທີ່ຍ້າຍເພື່ອເລືອກບ່ອນລວງຕັ້ງ ຫຼື ລວງນອນ. ກົດປຸ່ມ '%1$s' ເພື່ອເລີ່ມການສະແກນຈຸດ. %2$s"</string>
     <string name="summary_pref_reverse_dots">ສະຫຼັບຕຳແໜ່ງຈຸດ ເຊັ່ນ: ເພື່ອໃຫ້ຈຸດ 1 ແລະ ຈຸດ 4 ສະຫຼັບບ່ອນກັນ</string>
     <string name="summary_pref_revert_to_default_menu">ຣີເຊັດເມນູການເຂົ້າເຖິງດ້ວຍປຸ່ມກົດເປັນລາຍຊື່ເລີ່ມຕົ້ນຂອງລາຍການເມນູ.</string>
-    <string name="summary_pref_single_tap">(ການທົດລອງ) ແຕະເທື່ອດຽວໃສ່ລາຍການທີ່ໂຟກັສໄວ້ເພື່ອເປີດການນຳໃຊ້</string>
+    <string name="summary_pref_single_tap">ແຕະເທື່ອດຽວໃສ່ລາຍການທີ່ໂຟກັສໄວ້ເພື່ອເປີດນຳໃຊ້</string>
     <string name="summary_pref_tree_debug_tv">ໃຊ້ປຸ່ມຊອກຫາດ້ວຍສຽງເພື່ອພິມແຜງຜັງຕົ້ນໄມ້ຂອງຂໍ້ມູນແທນການຊອກຫາ</string>
     <string name="summary_pref_use_audio_focus">ຄ່ອຍ​ສຽງ​ອື່ນໆ​ລົງ​ໃນ​ຂະ​ນະ​ທີ່​ກຳ​ລັງ​ເວົ້າ</string>
     <string name="summary_read_from_current">ເລີ່ມຈາກລາຍການຕໍ່ໄປ, ອ່ານລາຍການທັງໝົດຢູ່ໜ້າຈໍ</string>
@@ -1889,7 +1901,7 @@
     <string name="title_pref_show_context_menu_as_list">ສະແດງເມນູຍ່ອຍເປັນລາຍຊື່</string>
     <string name="title_pref_show_privacy_policy">ນະໂບບາຍຄວາມເປັນສ່ວນຕົວ</string>
     <string name="title_pref_show_tos">ຂໍ້ກຳນົດບໍລິການ</string>
-    <string name="title_pref_single_tap">ການເປີດໃຊ້ແບບແຕະເທື່ອດຽວ</string>
+    <string name="title_pref_single_tap">ແຕະເທື່ອດຽວເພື່ອເປີດນຳໃຊ້</string>
     <string name="title_pref_sound_and_vibration">ສຽງ ແລະ ການສັ່ນ</string>
     <string name="title_pref_soundback">ການ​ຕອບ​ສະ​ໜອງ​ດ້ວຍ​ສຽງ</string>
     <string name="title_pref_soundback_volume">ລະດັບສຽງການຕອບໂຕ້</string>
@@ -1934,6 +1946,7 @@
     <string name="title_previous_screen">ໜ້າຈໍກ່ອນໜ້າ</string>
     <string name="title_read_from_top">ອ່ານຈາກທາງເທິງ</string>
     <string name="title_repeat_last_spoken_phrase">ອ່ານຊ້ຳກຸ່ມຄຳທີ່ເວົ້າຫຼ້າສຸດ</string>
+    <string name="title_request_phone_permission">ການອະນຸຍາດຄຳຮ້ອງຂໍ TalkBack</string>
     <string name="title_screen_summary">ສະຫຼຸບໜ້າຈໍ</string>
     <string name="title_seek_bar_controls">ແຖບເລື່ອນ</string>
     <string name="title_seek_bar_edit">ແກ້ໄຂລະດັບຕົວເລື່ອນ</string>

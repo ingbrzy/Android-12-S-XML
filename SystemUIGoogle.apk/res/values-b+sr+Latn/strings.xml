@@ -595,6 +595,8 @@ Ako je ova dozvola isključena, postojeći alarmi i događaji zasnovani na vreme
     <string name="cached_apps_freezer_reboot_dialog_text">Morate da restartujete uređaj da bi se ova promena primenila. Restartujte ga odmah ili otkažite.</string>
     <string name="camera_hint">Prevucite od ikone za kameru</string>
     <string name="camera_label">otvori kameru</string>
+    <string name="camera_recording_announcement">Kamera snima</string>
+    <string name="camera_stopped_recording_announcement">Snimanje kamerom je zaustavljeno</string>
     <string name="cancel">Otkaži</string>
     <string name="carrier_network_change_mode">Promena mreže mobilnog operatera</string>
     <string name="category_personal">Lično</string>
@@ -734,6 +736,10 @@ Ako nastavite, možda će važiti tarife za potrošnju podataka."</string>
     <string name="debug_monitoring_category">Nadgledanje</string>
     <string name="debug_networking_category">Umrežavanje</string>
     <string name="debug_view_attributes">Omogući proveru atributa za pregled</string>
+    <string name="defender_notify_des">Telefon ograničava punjenje radi boljeg stanja baterije</string>
+    <string name="defender_notify_learn_more">Saznajte više</string>
+    <string name="defender_notify_resume_charge">Nastavi sa punjenjem</string>
+    <string name="defender_notify_title">Punjenje je privremeno ograničeno</string>
     <string name="delete_blob_confirmation_text">Želite li stvarno da izbrišete ove deljene podatke?</string>
     <string name="delete_blob_text">Izbriši deljene podatke</string>
     <string name="demo_mode">Režim demonstracije za korisnički interfejs sistema</string>
@@ -1070,6 +1076,7 @@ Obratite se dobavljaču usluge bežične mreže da biste dobili drugu SIM kartic
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM kartica se otključava…</string>
     <string name="keyguard_try_fingerprint">Otvorite pomoću otiska prsta</string>
     <string name="keyguard_unlock">Prevucite nagore da biste otvorili</string>
+    <string name="keyguard_unlock_press">Pritisnite da biste otvorili</string>
     <string name="keywords_adb_wireless">adb, otklanjanje grešaka, programer</string>
     <string name="keywords_alarms_and_reminders">zakazati, alarm, podsetnik, sat</string>
     <string name="kg_enter_confirm_pin_hint">Potvrdite željeni PIN kôd</string>
@@ -1233,6 +1240,10 @@ Probajte ponovo za %2$d sek."</string>
     <string name="menu_ime">Prebacivač za tastaturu</string>
     <string name="messages_count_overflow_indicator">%d+</string>
     <string name="mic_active">Mikrofon je aktivan</string>
+    <string name="mic_and_camera_recording_announcement">Kamera i mikrofon snimaju</string>
+    <string name="mic_camera_stopped_recording_announcement">Snimanje kamerom i mikrofonom je zaustavljeno</string>
+    <string name="mic_recording_announcement">Mikrofon snima</string>
+    <string name="mic_stopped_recording_announcement">Snimanje mikrofonom je zaustavljeno</string>
     <string name="missed_call">Propušten poziv</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data">Mobilni podaci</string>
@@ -1706,8 +1717,6 @@ Ako imate pitanja, obratite se organizaciji %2$s."</string>
     <string name="quick_settings_work_mode_label">Poslovne aplikacije</string>
     <string name="quick_step_accessibility_toggle_overview">Uključi/isključi pregled</string>
     <string name="recent_conversations">Nedavne konverzacije</string>
-    <string name="recents_quick_scrub_onboarding">Prevucite udesno da biste brzo promenili aplikacije</string>
-    <string name="recents_swipe_up_onboarding">Prevucite nagore da biste menjali aplikacije</string>
     <string name="remaining_length_format">Još %1$s</string>
     <string name="remote_input_image_insertion_text">je poslao/la sliku</string>
     <string name="remove_from_settings">Ukloni iz Podešavanja</string>
@@ -2117,6 +2126,7 @@ Svaki korisnik može da ažurira aplikacije za sve ostale korisnike."</string>
     <string name="wallet_secondary_label_no_card">Dodajte karticu</string>
     <string name="wallet_secondary_label_updating">Ažurira se</string>
     <string name="wallet_title">Novčanik</string>
+    <string name="weather_description">%1$s, %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Pristupna tačka je privremeno zauzeta</string>
     <string name="wifi_cant_connect">Povezivanje nije uspelo</string>
     <string name="wifi_cant_connect_to_ap">Povezivanje sa „%1$s“ nije uspelo</string>

@@ -109,7 +109,7 @@ Nettoyez votre objectif pour obtenir des photos de meilleure qualité."</string>
     <string name="cam_flash_on">Activé</string>
     <string name="cam_flash_on_alt">Flash</string>
     <string name="camera_fallback_close_app">"Fermer l'appli"</string>
-    <string name="camera_hal_version_message">Camera system version %s</string>
+    <string name="camera_hal_version_message">Version %s du module de la caméra</string>
     <string name="camera_id_back_desc">Utiliser la caméra avant</string>
     <string name="camera_id_front_desc">Utiliser la caméra arrière</string>
     <string name="camera_issue_contact_message">"Comme le redémarrage du téléphone n'a pas résolu le problème, celui-ci est peut-être lié au logiciel ou au matériel de l'appareil photo."</string>
@@ -178,7 +178,7 @@ Nettoyez votre objectif pour obtenir des photos de meilleure qualité."</string>
     <string name="double_tap_launch_title">"Ouvrir rapidement l'appareil photo"</string>
     <string name="double_tap_switch_camera">Changer de caméra</string>
     <string name="double_tap_zoom">Zoomer</string>
-    <string name="downloading_updates">Downloading updates (%d%%)</string>
+    <string name="downloading_updates">Téléchargement des mises à jour (%d%%)…</string>
     <string name="education_swipe_toast_message">Balayez pour les options</string>
     <string name="enable_stabilization_tooltip">Activez la stabilisation vidéo dans les paramètres</string>
     <string name="error_permissions_keyguard_updated">"Pour utiliser l'appareil photo, déverrouillez votre appareil et activez les autorisations d'accès à l'appareil photo, au micro et à l'espace de stockage"</string>
@@ -314,7 +314,7 @@ Elle n'est pas disponible lorsque vous enregistrez des photos et des vidéos dan
     <string name="longshot_edu_panel_zoom_reverse_landscape">"Faire glisser l'écran vers la droite pour zoomer"</string>
     <string name="mars_desc">"Espace de stockage avec le verrouillage de l'écran de l'appareil"</string>
     <string name="mars_learn_more">En savoir plus</string>
-    <string name="mars_menu_title">Save to</string>
+    <string name="mars_menu_title">Enregistrer dans</string>
     <string name="mars_not_available">"Impossible d'enregistrer dans le Dossier verrouillé"</string>
     <string name="mars_not_available_reason_account">"Cette fonctionnalité n'est pas disponible pour votre compte Photos"</string>
     <string name="mars_not_available_reason_work_profile">"Cette fonctionnalité n'est disponible ni pour les profils professionnels, ni pour les appareils entièrement gérés"</string>
@@ -373,7 +373,7 @@ Elle n'est pas disponible lorsque vous enregistrez des photos et des vidéos dan
     <string name="motion_photos_not_available_title">Les Motion Photos ne sont pas disponibles</string>
     <string name="motion_photos_video_caption">"Il est possible d'enregistrer des images fixes depuis une photo animée"</string>
     <string name="motion_photos_video_content_description">"Vidéo illustrant l'enregistrement d'images fixes depuis une photo animée"</string>
-    <string name="new_version_available">An update is available for Camera</string>
+    <string name="new_version_available">Une mise à jour est disponible pour Appareil photo</string>
     <string name="not_set">Non définie</string>
     <string name="notification_enter_power_saving_mode">"Assombrissage de l'écran pour réduire la consommation d'énergie"</string>
     <string name="notification_enter_power_saving_mode_stage_2">"L'enregistrement continue. Assombrissement de l'écran pour réduire la consommation d'énergie."</string>
@@ -466,10 +466,10 @@ Elle n'est pas disponible lorsque vous enregistrez des photos et des vidéos dan
     <string name="pref_hevc_control_summary">"Pour bénéficier d'une taille de fichier inférieure, le format H.265/HEVC est préférable au format H.264/AVC. Le format HEVC peut ne pas être compatible avec certaines plates-formes."</string>
     <string name="pref_kepler_summary">"Exporter la photo et l'accéléré. Occupe plus d'espace de stockage."</string>
     <string name="pref_kepler_title">"Activer le mode Accéléré pour l'astrophotographie"</string>
-    <string name="pref_low_storage_mode">"Économiseur d'espace de stockage"</string>
+    <string name="pref_low_storage_mode">"Économiseur d'espace"</string>
     <string name="pref_low_storage_mode_auto_disable">"Désactiver lorsque l'espace de stockage disponible est suffisant"</string>
-    <string name="pref_low_storage_mode_auto_disable_summary">"L'économiseur d'espace de stockage se désactive lorsque l'espace de stockage de l'appareil atteint %d Go."</string>
-    <string name="pref_low_storage_mode_summary">"Pour optimiser l'espace de stockage, l'économiseur d'espace de stockage va modifier les paramètres qui en utilisent de grandes quantités. Cela peut entraîner une baisse de la qualité des images ou des vidéos."</string>
+    <string name="pref_low_storage_mode_auto_disable_summary">"L'économiseur d'espace se désactive lorsque l'espace de stockage de l'appareil atteint %d Go."</string>
+    <string name="pref_low_storage_mode_summary">"Pour optimiser l'espace de stockage, l'économiseur d'espace va modifier les paramètres qui en utilisent de grandes quantités. Cela peut entraîner une baisse de la qualité des images ou des vidéos."</string>
     <string name="pref_raw_output_control_action_button">Afficher le dossier RAW</string>
     <string name="pref_raw_output_control_summary">"Affiche l'option permettant d'activer le mode RAW + JPEG dans la visionneuse. Le fichier RAW (DNG) est enregistré séparément (en même temps que des données permettant d'identifier l'appareil photo) dans un dossier associé à l'appareil dans Google Photos. Cela utilise de l'espace de stockage supplémentaire."</string>
     <string name="pref_raw_output_control_title">Contrôle du mode RAW + JPEG</string>
@@ -478,7 +478,7 @@ Elle n'est pas disponible lorsque vous enregistrez des photos et des vidéos dan
     <string name="pref_video_stabilization">Stabilisation vidéo</string>
     <string name="pref_video_stabilization_summary">Réduit les tremblements de la caméra pour que les vidéos soient plus fluides. La caméra fait alors un zoom avant.</string>
     <string name="preferences_license_title">Licences Open Source</string>
-    <string name="preparing_updates">Preparing updates</string>
+    <string name="preparing_updates">Préparation des mises à jour…</string>
     <string name="privacy_policy">Règles de confidentialité</string>
     <string name="processing_hdr_plus">Traitement HDR+ en cours…</string>
     <string name="processing_notification_channel">Traitement en arrière-plan</string>
@@ -629,10 +629,10 @@ Elle n'est pas disponible lorsque vous enregistrez des photos et des vidéos dan
     <string name="top_left">En haut à gauche</string>
     <string name="top_right">En haut à droite</string>
     <string name="try_stabilization_tooltip">Essayer la stabilisation de la vidéo</string>
-    <string name="turn_off_lsm_dialog_message">"Pour modifier ce paramètre, désactivez l'économiseur d'espace de stockage dans les paramètres."</string>
-    <string name="turn_off_lsm_dialog_title">"Désactiver l'économiseur d'espace de stockage ?"</string>
+    <string name="turn_off_lsm_dialog_message">"Pour modifier ce paramètre, désactivez l'économiseur d'espace dans les paramètres."</string>
+    <string name="turn_off_lsm_dialog_title">"Désactiver l'économiseur d'espace ?"</string>
     <string name="update_camera_to_use_lens">Rechercher des mises à jour</string>
-    <string name="update_ready_tap_restart">Updates ready. Tap to restart and install.</string>
+    <string name="update_ready_tap_restart">Les mises à jour sont prêtes. Appuyez pour redémarrer et les installer.</string>
     <string name="vertical_panorama_accessibility_peek">La photo en mode Panorama vertical a bien été prise.</string>
     <string name="vid_chip_4">Impossible de réaliser un instantané</string>
     <string name="vid_chip_br_mic">"Impossible d'enregistrer l'audio. Le micro ne fonctionne pas."</string>

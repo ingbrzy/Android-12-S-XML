@@ -17,14 +17,21 @@
         <item>15 മിനിറ്റ്</item>
         <item>20 മിനിറ്റ്</item>
         <item>25 മിനിറ്റ്</item>
-        <item>ഒരിക്കലും</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>ബെഡ്‌ടൈമിന് 15 മിനിറ്റ് മുമ്പ്</item>
+        <item>ബെഡ്‌ടൈമിന് 30 മിനിറ്റ് മുമ്പ്</item>
+        <item>ബെഡ്‌ടൈമിന് 45 മിനിറ്റ് മുമ്പ്</item>
+        <item>ബെഡ്‌ടൈമിന് 1 മണിക്കൂർ മുമ്പ്</item>
+        <item>ഓഫാക്കുക</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>അനലോഗ്</item>
         <item>ഡിജിറ്റൽ</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ഒരിക്കലും</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 സെക്കൻഡ്</item>
         <item>10 സെക്കൻഡ്</item>
         <item>15 സെക്കൻഡ്</item>
@@ -37,6 +44,35 @@
         <item>50 സെക്കൻഡ്</item>
         <item>55 സെക്കൻഡ്</item>
         <item>60 സെക്കൻഡ്</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>20 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>30 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>40 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>50 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>ഒരു മണിക്കൂറിന് ശേഷം നിർത്തുക</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>20 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>30 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>40 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>50 മിനിറ്റിന് ശേഷം നിർത്തുക</item>
+        <item>ഒരു മണിക്കൂറിന് ശേഷം നിർത്തുക</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 മിനിറ്റ്</item>
+        <item>20 മിനിറ്റ്</item>
+        <item>30 മിനിറ്റ്</item>
+        <item>40 മിനിറ്റ്</item>
+        <item>50 മിനിറ്റ്</item>
+        <item>ഒരു മണിക്കൂർ</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>ഒരു മിനിറ്റ്</item>
@@ -69,18 +105,6 @@
         <item>28 മിനിറ്റ്</item>
         <item>29 മിനിറ്റ്</item>
         <item>30 മിനിറ്റ്</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>നിങ്ങൾ വളരെ വേഗത്തിലായിരിക്കുന്നു.</item>
-        <item>നിങ്ങളുടെ കഠിനാദ്ധ്വാനത്തിന്റെ ഫലങ്ങൾ ആസ്വദിക്കുക.</item>
-        <item>Androids വളരെ വേഗമുള്ളതാണെങ്കിലും നിങ്ങളുടെ അത്രയും വേഗതയില്ല!</item>
-        <item>ക്ഷമിക്കണം.</item>
-        <item>L33t തവണ.</item>
-        <item>ഇത്തരം അതിശയകരമായ പ്രവേഗം.</item>
-        <item>നമുക്ക് വീണ്ടും സമയം ചുരുക്കാം.</item>
-        <item>ഇടത്തേക്കൊരു ചാട്ടം.</item>
-        <item>നിങ്ങളുടെ തിരക്കിനായി ഒരു പാലറ്റുണ്ട്.</item>
-        <item>ഫോട്ടോണിക്ക് പ്രവേഗം.</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>മാര്‍ഷല്‍ ഐലന്‍ഡ്സ്</item>

@@ -372,13 +372,15 @@ Device not provisioned"</string>
 
 "<li>Any other user can accept updated app permissions</li>"
 
-"<li>Only share this phone with people you trust</li></ul>} TABLET {<b>Important:</b>"
+"<li>Only share this phone with people you trust</li></ul>"
+} TABLET {"<b>Important:</b>"
 
 "<ul><li>The tablet’s owner can uninstall your apps or remove your user profile entirely</li>"
 
 "<li>Any other user can accept updated app permissions</li>"
 
-"<li>Only share this tablet with people you trust</li></ul>} other {<b>Important:</b>"
+"<li>Only share this tablet with people you trust</li></ul>"
+} other {"<b>Important:</b>"
 
 "<ul><li>The device’s owner can uninstall your apps or remove your user profile entirely</li>"
 
@@ -390,70 +392,47 @@ Device not provisioned"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE, select, PHONE {Connecting to a Wi‑Fi or mobile network helps you quickly set up your phone.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Get software updates</li>"
-
-"<li>Automatically set up time and date</li>"} TABLET {Connecting to a Wi‑Fi or mobile network helps you quickly set up your tablet.
+"<li>Automatically set up time and date</li>"
+} TABLET {Connecting to a Wi‑Fi or mobile network helps you quickly set up your tablet.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Get software updates</li>"
-
-"<li>Automatically set up time and date</li>"} other {Connecting to a Wi‑Fi or mobile network helps you quickly set up your device.
+"<li>Automatically set up time and date</li>"
+} other {Connecting to a Wi‑Fi or mobile network helps you quickly set up your device.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Get software updates</li>"
-
 "<li>Automatically set up time and date</li>} }</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE, select, PHONE {Connecting to a Wi‑Fi or mobile network helps you quickly set up your phone.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Download a SIM</li>"
-
 "<li>Get software updates</li>"
-
-"<li>Automatically set up time and date</li>"} TABLET {Connecting to a Wi‑Fi or mobile network helps you quickly set up your tablet.
+"<li>Automatically set up time and date</li>"
+} TABLET {Connecting to a Wi‑Fi or mobile network helps you quickly set up your tablet.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Download a SIM</li>"
-
 "<li>Get software updates</li>"
-
-"<li>Automatically set up time and date</li>"} other {Connecting to a Wi‑Fi or mobile network helps you quickly set up your device.
+"<li>Automatically set up time and date</li>"
+} other {Connecting to a Wi‑Fi or mobile network helps you quickly set up your device.
 
 Without a connection, you can’t:
-
 "<li>Sign in to your Google Account</li>"
-
 "<li>Restore apps &amp; data</li>"
-
 "<li>Download a SIM</li>"
-
 "<li>Get software updates</li>"
-
 "<li>Automatically set up time and date</li>} }</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
     <string name="wifi_check_password_try_again">Check password and try again</string>

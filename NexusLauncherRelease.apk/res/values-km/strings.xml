@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">បន្ថែមទៅថតឯកសារដែលមានឈ្មោះ %1$s</string>
     <string name="add_to_home_screen">បញ្ចូល​ទៅអេក្រង់ដើម</string>
     <string name="added_to_folder">បានបន្ថែមធាតុទៅថតឯកសារ</string>
+    <string name="added_to_home_screen_accessibility_text">បានបញ្ចូល​ធាតុក្រាហ្វិក %1$s ទៅ​អេក្រង់ដើម</string>
     <string name="all_apps_button_label">បញ្ជីកម្មវិធី</string>
     <string name="all_apps_button_personal_label">បញ្ជី​កម្មវិធី​ផ្ទាល់ខ្លួន</string>
     <string name="all_apps_button_work_label">បញ្ជី​កម្មវិធី​ការងារ</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">នៅពេលដែលបង្វិលទូរសព្ទ</string>
     <string name="allow_rotation_title">អនុញ្ញាតការបងិ្វលអេក្រង់ដើម</string>
     <string name="allset_description">អ្នក​អាច​ចាប់ផ្ដើម​ប្រើ​ទូរសព្ទ​របស់អ្នក​បានហើយ</string>
+    <string name="allset_hint">អូសឡើងលើ ដើម្បី​ទៅកាន់​អេក្រង់ដើម</string>
+    <string name="allset_navigation_settings"><annotation id="link">ការកំណត់​ការរុករក​ប្រព័ន្ធ</annotation></string>
     <string name="allset_title">រួចហើយ!</string>
     <string name="app_downloading_title">កំពុងដោនឡូត %1$s បានបញ្ចប់ %2$s</string>
     <string name="app_info_drop_target_label">ព័ត៌មាន​កម្មវិធី</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s កំពុងរង់ចាំការដំឡើង</string>
     <string name="auto_add_shortcuts_description">សម្រាប់កម្មវិធីថ្មី</string>
     <string name="auto_add_shortcuts_label">បញ្ចូល​រូបកម្មវិធី​ទៅក្នុង​អេក្រង់ដើម</string>
+    <string name="back_gesture_feedback_cancelled">ត្រូវប្រាកដថា​អ្នកអូសពី​គែមខាងស្ដាំ ឬខាងឆ្វេង​ទៅផ្នែកកណ្ដាល​នៃអេក្រង់ រួច​ដកដៃ។</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">អ្នកបានស្វែងយល់ពីរបៀបអូសពីខាងស្ដាំ ដើម្បីថយក្រោយ។ បន្ទាប់​ទៀត សូមស្វែងយល់​ពីរបៀប​ប្ដូរកម្មវិធី​។</string>
     <string name="back_gesture_feedback_complete_without_follow_up">អ្នក​បានបញ្ចប់​ចលនា​ថយក្រោយ​ហើយ។</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">ត្រូវប្រាកដថា​អ្នកមិនអូស​ទៅជិត​ផ្នែកខាងក្រោម​នៃអេក្រង់ពេក​។</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">ត្រូវប្រាកដថា​អ្នកអូសពី​គែមខាងស្ដាំ ឬ​ខាងឆ្វេង។</string>
     <string name="back_gesture_intro_subtitle">ដើម្បី​ត្រឡប់ទៅ​អេក្រង់​ចុងក្រោយវិញ សូមអូស​ពីគែម​ខាងឆ្វេង ឬខាងស្ដាំ​ទៅផ្នែកកណ្ដាល​នៃអេក្រង់​។</string>
     <string name="back_gesture_intro_title">អូស​ដើម្បី​ត្រឡប់​ទៅវិញ</string>
     <string name="back_gesture_tutorial_confirm_subtitle">ដើម្បីប្ដូរកម្រិត​រំញោចនឹង​ចលនាថយក្រោយ សូមចូលទៅកាន់​ការកំណត់</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">ប៉ះដើម្បីរក្សាទុកឈ្មោះដែលបានប្តូរ</string>
     <string name="gadget_error_text">មិនអាចផ្ទុក​ធាតុក្រាហ្វិក​បានទេ</string>
     <string name="gadget_setup_text">ចុច​ដើម្បី​បញ្ចប់​ការរៀបចំ</string>
+    <string name="gesture_tutorial_action_button_label">រួចរាល់</string>
     <string name="gesture_tutorial_action_button_label_cancel">បោះបង់</string>
     <string name="gesture_tutorial_action_button_label_settings">ការកំណត់</string>
     <string name="gesture_tutorial_action_button_label_skip">រំលង</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">សាកល្បង​សង្កត់វិនដូ​ឱ្យបានយូរ​ជាងនេះ មុនពេល​ដកដៃ​។</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">ត្រូវប្រាកដថា​អ្នកអូសឡើងលើ​ពីគែមខាងក្រោម​នៃអេក្រង់​។</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">ត្រូវប្រាកដថា​អ្នកអូស​ត្រង់ឡើងលើ រួចផ្អាក។</string>
+    <string name="overview_gesture_intro_subtitle">ដើម្បីប្ដូររវាងកម្មវិធី សូមអូសឡើងលើពីផ្នែកខាងក្រោមនៃអេក្រង់របស់អ្នក រួចចុចឱ្យជាប់ បន្ទាប់មកដកដៃចេញ។</string>
     <string name="overview_gesture_intro_title">អូស​ដើម្បីប្ដូរ​កម្មវិធី</string>
     <string name="overview_selection_pref_desc">នៅ​ពេល​ប្ដូរ​កម្មវិធី សូម​ចុច​អត្ថបទ និង​រូបភាព​ឱ្យ​ជាប់ ដើម្បី​មើល​សកម្មភាព</string>
     <string name="overview_selection_pref_title">ការ​ជ្រើសរើសទិដ្ឋភាពរួម</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">កៅអី</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">ចំណូលចិត្ត</string>
-    <string name="smartspace_preferences_in_settings">Live Space</string>
+    <string name="smartspace_preferences_in_settings">មើលមួយភ្លែត</string>
     <string name="smartspace_preferences_in_settings_desc">នៅផ្នែក​ខាងលើ​នៃ​អេក្រង់ដើមរបស់អ្នក</string>
     <string name="smartspace_preferences_manage">ប្ដូរតាមបំណង</string>
     <string name="smartspace_preferences_turn_off_action">បិទ</string>

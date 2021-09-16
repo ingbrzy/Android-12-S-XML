@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Answer</string>
     <string name="a11y_call_incoming_decline_description">Decline</string>
+    <string name="a11y_callscreen_animation">Call Screen animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Video call using Wi-Fi</string>
     <string name="a11y_contact_menu_voice_call_wifi">Voice call using Wi-Fi</string>
     <string name="a11y_conversation_history_entry_answered_call">The latest is an answered call from ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Manage callers</string>
     <string name="a11y_expandedsheet_collapse">collapse menu</string>
     <string name="a11y_expandedsheet_expand">Expand menu</string>
-    <string name="a11y_favorites_education_dismiss">close</string>
     <string name="a11y_feature_demo_next_page">Next page</string>
     <string name="a11y_feature_demo_page_indicator">Page %d</string>
     <string name="a11y_feature_demo_prev_page">Previous page</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Quick contact for ^1</string>
+    <string name="a11y_icon_hd">HD call</string>
+    <string name="a11y_icon_hd_plus">HD Plus call</string>
+    <string name="a11y_icon_shared_data_call">Shared data call</string>
+    <string name="a11y_icon_verified">Verified call</string>
+    <string name="a11y_icon_vilte">Video over LTE call</string>
+    <string name="a11y_icon_viwifi">Video over Wi-Fi call</string>
+    <string name="a11y_icon_volte">Voice over LTE call</string>
+    <string name="a11y_icon_voz4g">Voice over 4G call</string>
+    <string name="a11y_icon_wifi">Wi-Fi call</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Swipe up with two fingers to answer. Swipe down with two fingers to decline.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Swipe up with two fingers to answer, or down to reject the call</string>
     <string name="a11y_new_call_log_entry_call_recording">call recorded</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">on ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">make an RTT call to ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Shared data call</string>
     <string name="a11y_new_call_log_entry_tap_action">Expand menu</string>
     <string name="a11y_new_call_log_entry_video_call">make a video call to ^1</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">make a video call to ^1 using Wi-Fi</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Edit number before call</string>
     <string name="action_menu_back_from_search">stop searching</string>
     <string name="action_menu_overflow_description">More options</string>
+    <string name="activate_error_message">Problem activating Call Screen</string>
+    <string name="activated_successfully">Call Screen activated</string>
     <string name="activity_not_available">No app for that on this device</string>
     <string name="add_2sec_pause">Add 2-sec pause</string>
     <string name="add_contact_not_available">No contacts app available</string>
@@ -159,9 +171,9 @@ Recordings are stored only on your phone. ^1"</string>
     <string name="bm_suggest_call_button">Call</string>
     <string name="bm_suggest_chat_button">Chat</string>
     <string name="bm_suggest_wait_min">"Chat
-%1$d min wait"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s unread</string>
+%1$dm wait"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+working…"</string>
     <string name="bubble_bottom_action_end_call">End call</string>
     <string name="bubble_bottom_action_hide">Hide</string>
     <string name="bubble_return_to_call">Back to call</string>
@@ -169,7 +181,10 @@ Recordings are stored only on your phone. ^1"</string>
     <string name="call">Voice call</string>
     <string name="callFailed_simError">No SIM or SIM error</string>
     <string name="callHistoryIconLabel">Call history</string>
-    <string name="call_announcer_preference_footer_instruction_text">"The caller's name and number will be read out aloud for incoming calls"</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">"The caller's name and number will be read out loud for incoming calls."</string>
     <string name="call_announcer_preference_list_title">Announce caller ID</string>
     <string name="call_announcer_preference_option_always">Always</string>
     <string name="call_announcer_preference_option_headset">Only when using a headset</string>
@@ -202,7 +217,7 @@ Recordings are stored only on your phone. ^1"</string>
     <string name="call_incoming_answer">Answer</string>
     <string name="call_incoming_answer_rtt">Answer with RTT</string>
     <string name="call_incoming_answer_voice">Answer with voice</string>
-    <string name="call_incoming_chip_answer_and_release">Answer &amp; end ongoing call</string>
+    <string name="call_incoming_chip_answer_and_release">Answer and end other call</string>
     <string name="call_incoming_chip_answer_as_rtt">Answer as RTT call</string>
     <string name="call_incoming_chip_answer_video_as_audio">Answer as voice call</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Answer with my video off</string>
@@ -218,7 +233,7 @@ Recordings are stored only on your phone. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Swipe up to answer</string>
     <string name="call_incoming_swipe_to_reject">Swipe down to decline</string>
     <string name="call_incoming_video_is_off">Your video is off</string>
-    <string name="call_incoming_will_disconnect">Answering this call will end your video call</string>
+    <string name="call_incoming_will_disconnect">Answering this call will end your other call</string>
     <string name="call_incoming_will_disconnect_app">Answering will end your %1$s call</string>
     <string name="call_isdn">Call ISDN</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Block/report spam</string>
@@ -254,6 +269,7 @@ Recordings are stored only on your phone. ^1"</string>
     <string name="call_reason_fragment_content_description">Call reason: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Recording saved.</string>
     <string name="call_recording_conversation_history_entry">Recorded</string>
+    <string name="call_recording_delete_snack_bar_undo">Undo</string>
     <string name="call_recording_disclaimer_agreen_button_text">Start recording</string>
     <string name="call_recording_disclaimer_content">"You or the other person in your call might be somewhere that requires everyone to consent to being recorded. Everyone will be notified ahead of time that the call is being recorded. It's up to you to follow laws about recording conversations. Use call recording responsibly and turn it on only when needed.
 ^1
@@ -290,6 +306,7 @@ Recordings are stored only on your phone."</string>
 Neither the call audio nor the transcript of the call is sent to anyone, including Google."</string>
     <string name="call_screen_demo_page_4_title">Save time and avoid frustration</string>
     <string name="call_screen_demo_setting_title">See a demo</string>
+    <string name="call_screen_demo_settings_title">See a demo</string>
     <string name="call_screen_demo_title">How Call Screen works</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Unable to fetch sample audio</string>
     <string name="call_screen_demo_unable_to_play_audio">Unable to play sample audio</string>
@@ -297,6 +314,7 @@ Neither the call audio nor the transcript of the call is sent to anyone, includi
     <string name="call_screen_end_call_local_internal_message">You ended the call</string>
     <string name="call_screen_end_call_non_local_internal_message">The call was disconnected</string>
     <string name="call_screen_how_it_works_setting_title">Call Screen works on your device without Wi-Fi or data. The conversation transcripts are generated and stored only on your phone. %1$s</string>
+    <string name="call_screen_how_it_works_title">Call Screen works on your device without Wi-Fi or data. The conversation transcripts are generated and stored only on your phone. ^1</string>
     <string name="call_screen_incallui_chip_text">Screen call</string>
     <string name="call_screen_join_call_button_content_description">Join call</string>
     <string name="call_screen_join_call_internal_message">You joined the call</string>
@@ -306,6 +324,7 @@ Neither the call audio nor the transcript of the call is sent to anyone, includi
     <string name="call_screen_saying_to_the_caller_state">Saying to the caller</string>
     <string name="call_screen_screening_call_from">Screening call from</string>
     <string name="call_screen_setting_title">Call Screen</string>
+    <string name="call_screen_settings_title">Call Screen</string>
     <string name="call_screen_speaker_toggle_button_content_description">Speaker button</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Cancel</string>
@@ -330,6 +349,8 @@ Neither the call audio nor the transcript of the call is sent to anyone, includi
     <string name="call_work">Call work</string>
     <string name="call_work_mobile">Call work mobile</string>
     <string name="call_work_pager">Call work pager</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">incoming %1$s call from %2$s on sim %3$s</string>
     <string name="caller_id_announcement_single_sim">incoming %1$s call from %2$s</string>
     <string name="caller_id_business_data_details">Data being used in these features is provided by Google and its licensors. ^1</string>
@@ -369,6 +390,9 @@ Neither the call audio nor the transcript of the call is sent to anyone, includi
     <string name="calling_blocked_number_precall_dialog_title">Call %s?</string>
     <string name="calllog_add_to_contact">Add to a contact</string>
     <string name="calllog_create_new_contact">Create new contact</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires Wi-Fi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Camera permission enabled</string>
     <string name="camera_privacy_text">Camera permission enabled</string>
     <string name="cannot_understand_description">"I can't understand"</string>
     <string name="car_crash_emergency_intro">"You are being contacted by an automated emergency voice service on behalf of a caller.
@@ -412,6 +436,9 @@ Please send help."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Could not set up verified calling. You can enable it again in settings.</string>
     <string name="contact_card_video_icon_content_description">Video call ^1</string>
     <string name="contact_grid_callback_number">"This phone's number: %1$s"</string>
+    <string name="contact_grid_forward_icon_content_description">Call was forwarded</string>
+    <string name="contact_grid_hd_icon_content_description">HD call</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD plus call</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Operator video call from</string>
     <string name="contact_grid_incoming_reception_only_video_call">Operator one-way video call from</string>
     <string name="contact_grid_incoming_rtt_call">RTT call from</string>
@@ -422,9 +449,18 @@ Please send help."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">Wi-Fi operator video call from</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">Wi-Fi operator one-way video call from</string>
     <string name="contact_grid_incoming_work_call">Work call from</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Shared data call</string>
+    <string name="contact_grid_spam_icon_content_description">Spam call</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Operator</string>
     <string name="contact_grid_stir_shaken_validation_prefix">%1$s Verified</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Valid number</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Video over LTE call</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Video over Wi-Fi call</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Voice over 4G call</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Voice over LTE call</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Voice over Wi-Fi call</string>
+    <string name="contact_grid_wifi_icon_content_description">Wi-Fi call</string>
+    <string name="contact_grid_work_icon_content_description">Work call</string>
     <string name="contact_menu_add_favorite">Add favourite</string>
     <string name="contact_menu_contact_info">Contact info</string>
     <string name="contact_menu_invite_video">Invite to video call</string>
@@ -459,8 +495,12 @@ Please send help."</string>
     <string name="conversation_history_call_details_header_today">Today</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Call deleted</string>
     <string name="conversation_history_call_details_snack_bar_undo">Undo</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Important call</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Show added call info</string>
+    <string name="conversation_history_call_recording_deleted">Recording deleted</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transcript and audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transcript</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">See transcript and audio</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Call Screen</string>
     <string name="copy">Copy</string>
     <string name="copy_number">Copy number</string>
@@ -479,12 +519,17 @@ Please send help."</string>
     <string name="custom_prefix_default_prefix_title">Default prefix</string>
     <string name="custom_prefix_prefixes_preference_title">Prefixes</string>
     <string name="dark_theme_label">Dark</string>
+    <string name="default_changed_confirmation">Phone was set as default</string>
+    <string name="default_image_content_description">Splash image</string>
     <string name="delete">Delete</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Delete all recordings</string>
     <string name="delete_all_recordings_now_error_message">"Some recordings couldn't be deleted. Try again."</string>
     <string name="delete_button_label">Delete all recordings now</string>
     <string name="delete_confirmation_dialog_negative_button_label">Cancel</string>
     <string name="delete_confirmation_dialog_positive_button_label">Delete</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Deleting recording…</string>
     <string name="description_add_to_existing_contact_action">Add ^1 to existing contact</string>
     <string name="description_blocked_number_list_delete">Unblock number</string>
     <string name="description_call_action">Call ^1</string>
@@ -587,6 +632,7 @@ Please send help."</string>
     <string name="emergency_sos_emergency_intro">"You are being contacted by an automated emergency voice service on behalf of a caller.
 The caller signalled that they may be in an emergency. 
 Please send help."</string>
+    <string name="emergency_speaker">Speaker</string>
     <string name="emergency_voice_assist_dialog_button_close">Cancel</string>
     <string name="emergency_voice_assist_dialog_title">The emergency operator hears this</string>
     <string name="end_call_with_default_message_description">End call</string>
@@ -614,9 +660,12 @@ Please send help."</string>
     <string name="feedback_call_issue_quiet_audio">Audio was too quiet</string>
     <string name="feedback_call_issue_title">What was the problem?</string>
     <string name="feedback_title_please_rate">Please rate the quality of the call</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Flip to Shhh</string>
     <string name="flip_to_silence_summary">To silence an incoming call, place your phone face down on a flat surface</string>
     <string name="flip_to_silence_title">Flip to silence</string>
+    <string name="foreground_notification_title">Updating…</string>
     <string name="frequent_contact_suggestion">Frequently called</string>
     <string name="general_learn_more">Learn more</string>
     <string name="generic_conference_call_name">On a call</string>
@@ -638,6 +687,7 @@ Please send help."</string>
     <string name="how_it_works_location_template">Settings take effect only when the feature is available in your location. ^1</string>
     <string name="how_it_works_storage_link_text">Learn more about how recordings are stored</string>
     <string name="how_it_works_storage_template">Call recording will be suspended if your phone runs out of storage. ^1</string>
+    <string name="icon_description_shared_data_call">Shared data call</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Import numbers</string>
     <string name="ims_video_heading">Verizon video</string>
@@ -760,6 +810,7 @@ Please send help."</string>
     <string name="new_call_log_no_missed_calls">You have no missed calls</string>
     <string name="new_call_log_permission_no_calllog">To see your call log, turn on the Phone permission.</string>
     <string name="new_call_log_secondary_blocked">Blocked</string>
+    <string name="new_call_log_secondary_verified">Verified call</string>
     <string name="new_call_log_snack_bar_deleted">Call deleted</string>
     <string name="new_call_log_snack_bar_undo">Undo</string>
     <string name="new_call_log_unknown">Unknown</string>
@@ -774,8 +825,10 @@ Please send help."</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_dismiss">Decline</string>
     <string name="notification_action_end_call">Hang up</string>
+    <string name="notification_action_mute_toggle">Mute</string>
     <string name="notification_action_speaker_off">Turn speaker off</string>
     <string name="notification_action_speaker_on">Turn speaker on</string>
+    <string name="notification_action_speaker_toggle">Speaker</string>
     <string name="notification_callReasonMsg">Reason: %s</string>
     <string name="notification_call_wifi_brand">Wi‑Fi call</string>
     <string name="notification_call_wifi_work_brand">Wi‑Fi work call</string>
@@ -838,6 +891,8 @@ Please send help."</string>
     <string name="place_ims_button_content_description">A button used to make an operator video call.</string>
     <string name="play">Play</string>
     <string name="plus_code_line_format">Plus code: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Say why you called</string>
     <string name="post_call_message_1">This is urgent. Call me back.</string>
     <string name="post_call_message_2">Call me back when you have time.</string>
@@ -867,6 +922,8 @@ You can still video call some numbers without updating settings."</string>
     <string name="privacy_policy_label">Privacy Policy</string>
     <string name="private_num_non_verizon">Private number</string>
     <string name="private_num_verizon">Restricted</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Select contact</string>
     <string name="ready_for_recording">Ready…</string>
     <string name="record_greeting_cancel_label">Cancel</string>
@@ -882,6 +939,8 @@ You can still video call some numbers without updating settings."</string>
     <string name="record_greeting_uploading_greeting_message">Saving…</string>
     <string name="record_voicemail_greeting_title">Record a greeting</string>
     <string name="recording_category_title">Recordings</string>
+    <string name="recording_deleted">Recording deleted</string>
+    <string name="recording_deletion_failed">"Couldn't delete recording [try again]"</string>
     <string name="redo_button_text">Try again</string>
     <string name="remember_this_choice_label">Remember this choice</string>
     <string name="report_not_spam_alert_button">Report</string>
@@ -893,9 +952,20 @@ You can still video call some numbers without updating settings."</string>
     <string name="request_call_back_description">Call me back</string>
     <string name="request_email_description">Email me</string>
     <string name="respond_via_sms_setting_title">Quick responses</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening, select the ‘Ring phone (default)’ setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use operator call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Turn on</string>
     <string name="revelio_end_call_reject_as_spam">The call was marked as spam</string>
     <string name="revelio_end_call_user_missed_internal_message">The call was missed</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">RTT assists callers who are deaf, hard of hearing, have a speech disability or need more than voice alone. ^1</string>
     <string name="rtt_assist_for_att">The on-screen Real-Time Text (RTT) keyboard is an alternative to external TTY keyboards. As you text during an RTT call, the person that you are talking with can see you type your message in real time. ^1</string>
     <string name="rtt_assist_for_tmo">The on-screen Real-Time Text (RTT) keyboard is an alternative to external TTY keyboards. RTT sends what you are typing instantly during a phone call, giving you the ability to communicate using texts in real time. You will be able to see partial responses before the entire message is complete. ^1</string>
@@ -903,7 +973,8 @@ You can still video call some numbers without updating settings."</string>
     <string name="rtt_button_back">Back</string>
     <string name="rtt_button_downgrade">Switch to voice call</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT is not available for this call. Your call has been connected as a voice-only call.</string>
+    <string name="rtt_call_downgraded_toast">Your RTT call has changed to a voice-only call</string>
+    <string name="rtt_call_not_available_toast">"RTT isn't available for this call."</string>
     <string name="rtt_configuration_summary_always_visible">Real-Time Text button is available everywhere</string>
     <string name="rtt_configuration_summary_not_visible">Allow incoming Real-Time Text calls, but hide the calling button</string>
     <string name="rtt_configuration_summary_visible_during_call">Show the Real-Time Text button during a call</string>
@@ -932,6 +1003,8 @@ You can still video call some numbers without updating settings."</string>
     <string name="rtt_transcript_link">See transcript</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">This message will be repeated.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Call Screen audio value</string>
     <string name="save_button_text">Save</string>
     <string name="saved_voicemails_action_title">Saved voicemails (%1$s)</string>
     <string name="search_hint">Search video contacts</string>
@@ -958,8 +1031,11 @@ You can still video call some numbers without updating settings."</string>
     <string name="send_a_message">Send a message</string>
     <string name="send_to_voicemail_import_failed">Import failed</string>
     <string name="serial_number">Serial number</string>
+    <string name="set_as_default_button_text">Set as default</string>
     <string name="set_default_account">Always use this for calls</string>
     <string name="set_default_account_description">SIM preference is saved with your contacts.</string>
+    <string name="set_phone_as_default_explanation_text">"Phone can only make and receive calls if it's your default phone app"</string>
+    <string name="set_phone_as_default_request_text">Set Phone as default</string>
     <string name="settings">Settings</string>
     <string name="settings_page_call_recording_feature_not_available_text">"Call recording isn't available in your location"</string>
     <string name="settings_page_crosby_feature_not_available_text">Not available in your location</string>
@@ -994,6 +1070,8 @@ You can still video call some numbers without updating settings."</string>
     <string name="snackbar_undo">Undo</string>
     <string name="snackbar_voicemail_deleted">Voicemail deleted</string>
     <string name="sounds_and_vibration_title">Sounds and vibration</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam and Call Screen</string>
     <string name="spam_blocking_promo_action_dismiss">Dismiss</string>
     <string name="spam_blocking_promo_action_filter_spam">Filter Spam</string>
@@ -1020,8 +1098,6 @@ You can still video call some numbers without updating settings."</string>
     <string name="speed_dial_add_button_text">Add</string>
     <string name="speed_dial_contacts_permission_description">To enable speed dial, turn on the Contacts permission.</string>
     <string name="speed_dial_disambig_dialog_title">Choose how to call %s</string>
-    <string name="speed_dial_education_content">Touch &amp; hold any contact to switch between calls and messages</string>
-    <string name="speed_dial_education_title">More ways to get in touch</string>
     <string name="speed_dial_no_contacts_action_text">Add a favourite</string>
     <string name="speed_dial_no_contacts_description">Call your favourite contacts with just one tap</string>
     <string name="speed_dial_remember_this_choice">Remember this choice</string>
@@ -1049,11 +1125,15 @@ You can still video call some numbers without updating settings."</string>
     <string name="terms_of_service_label">Terms of Service</string>
     <string name="textmessage_button_label">Message</string>
     <string name="theme_preference_label">Choose theme</string>
+    <string name="tidepods_call_screen_settings_title">Call Screen</string>
+    <string name="tidepods_incall_label_record">Record</string>
     <string name="toast_text_copied">Text copied</string>
     <string name="toolbar_back">Back</string>
     <string name="toolbar_close">Close</string>
     <string name="transcript_audio_feedback_chip_text">Help us to improve</string>
+    <string name="transcript_audio_feedback_link_text">See transcript and audio</string>
     <string name="transcript_snippet_low_confidence_description">"(Audio wasn't clear)"</string>
+    <string name="try_again_button">Try again</string>
     <string name="tty_configuration_title_tty_full">TTY full</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY off</string>
@@ -1075,7 +1155,6 @@ You can still video call some numbers without updating settings."</string>
     <string name="type_outgoing_video_pulled">Outgoing video call transferred to another device</string>
     <string name="type_rejected">Declined call</string>
     <string name="type_voicemail">Voicemail</string>
-    <string name="unable_change_value_error">There was a problem changing the RTT settings. Please go back and try again.</string>
     <string name="unable_read_value_error">There was a problem reading the RTT settings. Please go back and try again.</string>
     <string name="unblock_number">Unblock</string>
     <string name="unblock_number_alert_details">"This number will be unblocked and reported as not being spam. Future calls won't be identified as spam."</string>
@@ -1084,6 +1163,7 @@ You can still video call some numbers without updating settings."</string>
     <string name="unblock_number_ok">Unblock</string>
     <string name="unblock_report_number_alert_title">Unblock %1$s?</string>
     <string name="unknown">Unknown</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown call settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Unmute incoming audio</string>
     <string name="user_is_busy_description">"I'll call you back"</string>
@@ -1195,10 +1275,17 @@ Data usage applies if you continue the call."</string>
     <string name="videocall_remote_video_on">Their video is on</string>
     <string name="videocall_remotely_held">Call on hold</string>
     <string name="videocall_remotely_resumed">Call resumed</string>
+    <string name="videocall_settings_default_carrier">Operator video calling</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Default video calling service</string>
+    <string name="videocall_settings_fallback_summary">Switch to Duo if operator video calling is not available</string>
+    <string name="videocall_settings_fallback_title">Use Duo as backup</string>
+    <string name="videocall_settings_title">Video calling</string>
     <string name="videocall_show_preview_button_description">Show local video feed</string>
     <string name="view">View</string>
     <string name="view_location_settings">Location settings</string>
     <string name="vitle_label">Video over LTE</string>
+    <string name="viwifi_label">Video over Wi-Fi</string>
     <string name="vm_change_pin_error_invalid">The new PIN contains invalid characters.</string>
     <string name="vm_change_pin_error_mismatch">"The old PIN doesn't match."</string>
     <string name="vm_change_pin_error_system_error">Unable to change PIN</string>
@@ -1208,8 +1295,11 @@ Data usage applies if you continue the call."</string>
     <string name="vm_change_pin_progress_message">Please wait.</string>
     <string name="voice_call">Voice call</string>
     <string name="voice_call_button">Call</string>
+    <string name="voice_display_name">Voice %1$d</string>
     <string name="voice_search_not_available">Voice search not available</string>
     <string name="voice_selector_preference_title">Available voices</string>
+    <string name="voice_settings_available_voices_text">Available voices</string>
+    <string name="voice_settings_title">Voice</string>
     <string name="voicecall_button_label">Call</string>
     <string name="voicecall_button_wifi_description">Call using Wi-Fi</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s at %2$s</string>
@@ -1244,7 +1334,6 @@ Data usage applies if you continue the call."</string>
     <string name="voicemail_donation_promo_title">Help improve transcription accuracy?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Using visual voicemail for SIMs without data may incur operator charges</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visual voicemail only available for the selected data SIM</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">If you have multiple SIMs and one is for Fi, your Fi SIM will be used for visual voicemail</string>
     <string name="voicemail_error_activating_message">You might not receive voicemail notifications until visual voicemail is fully activated. Call voicemail to retrieve new messages until voicemail is fully activated.</string>
     <string name="voicemail_error_activating_title">Activating visual voicemail</string>
     <string name="voicemail_error_activation_disabled_message">Call voicemail to finish setting it up</string>
@@ -1351,6 +1440,7 @@ Data usage applies if you continue the call."</string>
     <string name="vvm3_error_vms_no_cellular_title">"Can't connect to your voice mailbox"</string>
     <string name="vvm3_error_vms_timeout_message">Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on %1$s and tell them that the error code is 9007.</string>
     <string name="vvm3_error_vms_timeout_title">Something went wrong</string>
+    <string name="vvm_config_title">Visual voicemail config</string>
     <string name="vvm_unsupported_message_format">Unsupported message type. Call %s to listen.</string>
     <string name="wait_prompt_str">"Send the following tones?
 "</string>

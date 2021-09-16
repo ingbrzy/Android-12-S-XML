@@ -52,8 +52,8 @@
     <string name="keywords_wake_display" />
     <string name="language_settings">ભાષા અને ઇનપુટ</string>
     <string name="lift_to_wake_title">જાગૃત કરવા માટે લિફ્ટ કરો</string>
-    <string name="lockdown_settings_summary">ડિસ્પ્લે પાવર બટનનો વિકલ્પ જે Smart Lock, ફેસ અનલૉક, ફિંગરપ્રિન્ટ અનલૉક અને લૉક સ્ક્રીન પર નોટિફિકેશનને બંધ કરે છે</string>
-    <string name="lockdown_settings_title">લૉકડાઉનનો વિકલ્પ બતાવો</string>
+    <string name="abc_action_bar_home_description">ઘરનો રસ્તો બતાવો</string>
+    <string name="abc_action_bar_up_description">ઉપર નૅવિગેટ કરો</string>
     <string name="locked_work_profile_notification_title">કાર્ય પ્રોફાઇલ લૉક થાય ત્યારે</string>
     <string name="lockscreen_bypass_summary">અનલૉક કર્યા પછી, સીધા છેલ્લે ઉપયોગમાં લીધેલી સ્ક્રીન પર જાઓ</string>
     <string name="lockscreen_bypass_title">લૉક સ્ક્રીન છોડો</string>
@@ -67,7 +67,7 @@
     <string name="profile_section_header">કાર્યની નોટિફિકેશન</string>
     <string name="reset_dashboard_summary">નેટવર્ક, ઍપ અથવા ડિવાઇસ રીસેટ કરી શકાય છે</string>
     <string name="reset_dashboard_title">રીસેટ માટેના વિકલ્પો</string>
-    <string name="abc_action_bar_home_description">ઘરનો રસ્તો બતાવો</string>
+    <string name="abc_action_menu_overflow_description">વધુ વિકલ્પો</string>
     <string name="screensaver_settings_title">સ્ક્રીન સેવર</string>
     <string name="screen_timeout">સ્ક્રીનનો સમય સમાપ્ત</string>
     <string name="screen_zoom_title">ડિસ્પ્લે કદ</string>
@@ -97,14 +97,12 @@
     <string name="peak_refresh_rate_summary">અમુક કન્ટેન્ટ માટે રિફ્રેશ થવાનો રેટ ઑટોમૅટિક રીતે 60થી વધારીને 90 Hz કરે છે. બૅટરીનો વપરાશ વધારે છે.</string>
     <string name="accessibility_vibration_settings_title">વાઇબ્રેશન અને સંવેદક</string>
     <string name="emergency_gesture_screen_title">ઇમર્જન્સી સહાય</string>
-    <string name="abc_action_bar_up_description">ઉપર નૅવિગેટ કરો</string>
+    <string name="abc_action_mode_done">થઈ ગયું</string>
     <string name="vibrate_for_calls_category_title">કૉલ</string>
     <string name="lockscreen_privacy_wallet_setting_toggle">વૉલેટ બતાવો</string>
     <string name="lockscreen_privacy_controls_setting_toggle">ડિવાઇસનાં નિયંત્રણો બતાવો</string>
     <string name="lockscreen_privacy_wallet_summary">લૉક સ્ક્રીન અને ઝડપી સેટિંગથી વૉલેટ ઍક્સેસ કરવાની મંજૂરી આપો</string>
     <string name="lockscreen_privacy_controls_summary">લૉક કરેલું હોય ત્યારે નિયંત્રણોને ઍક્સેસ કરો</string>
-    <string name="abc_action_menu_overflow_description">વધુ વિકલ્પો</string>
-    <string name="abc_action_mode_done">થઈ ગયું</string>
     <string name="abc_activity_chooser_view_see_all">બધી જુઓ</string>
     <string name="abc_activitychooserview_choose_application">ઍપ્લિકેશન પસંદ કરો</string>
     <string name="abc_capital_off">બંધ</string>
@@ -142,7 +140,7 @@
     <string name="abc_toolbar_collapse_description">સંકુચિત કરો</string>
     <string name="about_phone_device_name_warning">તમારા ડિવાઇસનું નામ તમારા ફોનની ઍપ પર જોઈ શકાય છે. તમે બ્લૂટૂથ ડિવાઇસથી કનેક્ટ કરો, વાઇ-ફાઇ નેટવર્કથી કનેક્ટ કરો અથવા વાઇ-ફાઇ હૉટસ્પૉટને સેટ કરો ત્યારે તે અન્ય લોકોને પણ દેખાઈ શકે છે.</string>
     <string name="about_settings">ફોન વિશે</string>
-    <string name="about_settings_summary">કાનૂની માહિતી, સ્થિતિ, સોફ્ટવેર સંસ્કરણ જુઓ</string>
+    <string name="about_settings_summary">કાનૂની માહિતી, સ્થિતિ, સોફ્ટવેર વર્ઝન જુઓ</string>
     <string name="accelerometer_summary_off">ફોનને ફેરવતી વખતે ઓરિએન્ટેશનને ઑટોમૅટિક રીતે સ્વિચ કરો</string>
     <string name="accelerometer_summary_on">ફોનને ફેરવતી વખતે ઓરિએન્ટેશનને ઑટોમૅટિક રીતે સ્વિચ કરો</string>
     <string name="access_point_names">ઍક્સેસ પોઇન્ટના નામ</string>
@@ -290,7 +288,7 @@
     <string name="accessibility_setting_item_control_timeout_title">પગલાં લેવાનો સમય (ઍક્સેસિબિલિટીનો સમય પૂરો)</string>
     <string name="accessibility_settings">ઍક્સેસિબિલિટી</string>
     <string name="accessibility_settings_summary">ડિસ્પ્લે, ક્રિયાપ્રતિક્રિયા, ઑડિયો</string>
-    <string name="accessibility_settings_title">ઍક્સેસિબિલિટી સેટિંગ્સ</string>
+    <string name="accessibility_settings_title">ઍક્સેસિબિલિટી સેટિંગ</string>
     <string name="accessibility_shortcut_description">સુવિધા માટેના શૉર્ટકટને લૉક સ્ક્રીન પરથી ચાલુ કરવાની મંજૂરી આપો. વૉલ્યૂમની બન્ને કીને થોડી સેકન્ડ સુધી દબાવી રાખો.</string>
     <string name="accessibility_shortcut_edit_dialog_summary_hardware">વૉલ્યૂમની બન્ને કીને દબાવી રાખો</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software">"તમારી સ્ક્રીનની નીચેની બાજુ આવેલા ઍક્સેસિબિલિટી બટન %s પર ટૅપ કરો.
@@ -454,7 +452,7 @@
     <string name="adb_pairing_device_dialog_pairing_code_label">વાઇ-ફાઇ જોડાણ કરવાનો કોડ</string>
     <string name="adb_pairing_device_dialog_title">ડિવાઇસ સાથે જોડાણ કરો</string>
     <string name="adb_qrcode_pairing_device_failed_msg">ડિવાઇસનું જોડાણ કરવામાં નિષ્ફળ રહ્યાં. કાં તો QR કોડ ખોટો હતો અથવા ડિવાઇસ સમાન નેટવર્ક સાથે કનેક્ટ કરેલું નથી.</string>
-    <string name="adb_warning_message">USB ડિબગીંગ ફક્ત વિકાસ હેતુઓ માટે જ બનાવાયેલ છે. તેનો ઉપયોગ તમારા કમ્પ્યુટર અને તમારા ઉપકરણ વચ્ચે ડેટાને કૉપિ કરવા, નોટિફિકેશન વગર તમારા ઉપકરણ પર ઍપ્લિકેશનો ઇન્સ્ટોલ કરવા અને લૉગ ડેટા વાંચવા માટે કરો.</string>
+    <string name="adb_warning_message">USB ડિબગીંગ ફક્ત વિકાસ હેતુઓ માટે જ બનાવાયેલ છે. તેનો ઉપયોગ તમારા કમ્પ્યુટર અને તમારા ડિવાઇસ વચ્ચે ડેટાને કૉપિ કરવા, નોટિફિકેશન વગર તમારા ડિવાઇસ પર ઍપ ઇન્સ્ટોલ કરવા અને લૉગ ડેટા વાંચવા માટે કરો.</string>
     <string name="adb_warning_title">USB ડિબગિંગને મંજૂરી આપીએ?</string>
     <string name="adb_wireless_connection_failed_message">ખાતરી કરો કે %1$s યોગ્ય નેટવર્ક સાથે કનેક્ટ થયેલું છે</string>
     <string name="adb_wireless_connection_failed_title">કનેક્શન અસફળ</string>
@@ -488,7 +486,7 @@
     <string name="admin_disabled_other_options">તમારા વ્યવસ્થાપકે અન્ય વિકલ્પો અક્ષમ કરેલા છે</string>
     <string name="admin_financed_message">તમારા ડિવાઇસના વ્યવસ્થાપક આ ડિવાઇસ સાથે સંકળાયેલો ડેટા ઍક્સેસ કરી શકશે અને ઍપ મેનેજ કરી શકશે તેમજ આ ડિવાઇસના સેટિંગ બદલી શકશે.</string>
     <string name="admin_more_details">વધુ જાણો</string>
-    <string name="admin_profile_owner_message">તમારા વ્યવસ્થાપક સેટિંગ્સ, પરવાનગીઓ, કૉર્પોરેટ ઍક્સેસ, નેટવર્ક પ્રવૃત્તિ અને ઉપકરણની સ્થાન માહિતી સહિત તમારી કાર્યાલયની પ્રોફાઇલ સાથે સંકળાયેલ ઍપ્લિકેશનો અને ડેટાનું નિયમન અને સંચાલન કરી શકે છે.</string>
+    <string name="admin_profile_owner_message">તમારા વ્યવસ્થાપક સેટિંગ, પરવાનગીઓ, કૉર્પોરેટ ઍક્સેસ, નેટવર્ક પ્રવૃત્તિ અને ડિવાઇસની સ્થાન માહિતી સહિત તમારી ઑફિસની પ્રોફાઇલ સાથે સંકળાયેલ ઍપ અને ડેટાને મૉનિટર અને મેનેજ કરી શકે છે.</string>
     <string name="admin_profile_owner_user_message">તમારા વ્યવસ્થાપક સેટિંગ, પરવાનગીઓ, કૉર્પોરેટ ઍક્સેસ, નેટવર્ક પ્રવૃત્તિ અને ડિવાઇસની સ્થાન માહિતી સહિત આ વપરાશકર્તા સાથે સંકળાયેલ ઍપ અને ડેટાને મોનિટર અને મેનેજ કરી શકે છે.</string>
     <string name="admin_support_more_info">વધુ વિગતો</string>
     <string name="advanced_apps">વિગતવાર</string>
@@ -500,7 +498,7 @@
     <string name="advanced_section_header">સામાન્ય</string>
     <string name="advanced_security_title">વિગતવાર</string>
     <string name="advanced_settings">વિગતવાર સેટિંગ</string>
-    <string name="advanced_settings_summary">વધુ સેટિંગ્સ વિકલ્પો સક્ષમ કરો</string>
+    <string name="advanced_settings_summary">વધુ સેટિંગ વિકલ્પો ચાલુ કરો</string>
     <string name="airplane_mode">એરપ્લેન મોડ</string>
     <string name="alarm_ringtone_title">ડિફૉલ્ટ અલાર્મ સાઉન્ડ</string>
     <string name="alarm_template">%1$s વાગ્યે</string>
@@ -576,7 +574,7 @@
     <string name="apn_roaming_protocol">APN રોમિંગ પ્રોટોકૉલ</string>
     <string name="apn_server">સર્વર</string>
     <string name="apn_settings">APNs</string>
-    <string name="apn_settings_not_available">અ‍ૅક્સેસ પોઇન્ટનું નામ સેટિંગ્સ આ વપરાશકર્તા માટે ઉપલબ્ધ નથી</string>
+    <string name="apn_settings_not_available">અ‍ૅક્સેસ પૉઇન્ટનું નામ સેટિંગ આ વપરાશકર્તા માટે ઉપલબ્ધ નથી</string>
     <string name="apn_type">APN પ્રકાર</string>
     <string name="apn_user">વપરાશકર્તાનું નામ</string>
     <string name="app_and_notification_dashboard_summary">Assistant, તાજેતરની ઍપ, ડિફૉલ્ટ ઍપ</string>
@@ -627,7 +625,7 @@
     <string name="app_notification_listing_summary_zero">બધી ઍપ માટે ચાલુ કરો</string>
     <string name="app_notification_override_dnd_summary">જ્યારે ખલેલ પાડશો નહીં ચાલુ હોય, ત્યારે પણ આ નોટિફિકેશનને ચાલુ રહેવા દો</string>
     <string name="app_notification_override_dnd_title">\"ખલેલ પાડશો નહીં\"ને ઓવરરાઇડ કરો</string>
-    <string name="app_notification_preferences">ઍપ્લિકેશન સેટિંગ્સ</string>
+    <string name="app_notification_preferences">ઍપ સેટિંગ</string>
     <string name="app_notification_row_banned">અવરોધિત</string>
     <string name="app_notification_row_priority">પ્રાધાન્યતા</string>
     <string name="app_notification_row_sensitive">સંવેદનશીલ</string>
@@ -655,7 +653,7 @@
     <string name="application_restrictions">ઍપ્લિકેશનો અને સામગ્રીને મંજૂરી આપો</string>
     <string name="application_size_label">ઍપ્લિકેશનનું કદ</string>
     <string name="applications_settings">ઍપની માહિતી</string>
-    <string name="applications_settings_header">ઍપ્લિકેશન સેટિંગ્સ</string>
+    <string name="applications_settings_header">ઍપ સેટિંગ</string>
     <string name="applications_settings_summary">ઍપ મેનેજ કરો, ઝડપી લૉન્ચ શૉર્ટકટ સેટ કરો</string>
     <string name="apply">લાગુ કરો</string>
     <string name="apps_dashboard_title">ઍપ</string>
@@ -663,7 +661,7 @@
     <string name="apps_summary">%1$d ઍપ્લિકેશનો ઇન્સ્ટોલ કરી</string>
     <string name="apps_summary_example">24 ઍપ્લિકેશન ઇન્સ્ટોલ કરી</string>
     <string name="apps_with_restrictions_header">પ્રતિબંધો ધરાવતી ઍપ્લિકેશનો</string>
-    <string name="apps_with_restrictions_settings_button">ઍપ્લિકેશન માટે સેટિંગ્સ વિસ્તૃત કરો</string>
+    <string name="apps_with_restrictions_settings_button">ઍપ માટે સેટિંગ મોટું કરો</string>
     <string name="art_verifier_for_debuggable_summary">ડીબગ કરવા યોગ્ય ઍપ માટે બાઇટકોડને ચકાસવા ARTને મંજૂરી આપો</string>
     <string name="art_verifier_for_debuggable_title">ડીબગ કરવા યોગ્ય ઍપના બાઇટકોડને ચકાસો</string>
     <string name="ask_compatibility">લોંચ કરવા પર પૂછો</string>
@@ -697,7 +695,7 @@
     <string name="assist_gesture_training_enrolling_error_try_adjusting">સ્લાઇડરને ગોઠવીને પ્રયાસ કરો</string>
     <string name="assist_gesture_training_enrolling_text">ફોનના નીચેના અડધા ભાગને દબાવો. કેટલી પ્રબળતાથી દબાવવું છે તે તમે ગોઠવી શકો છો.</string>
     <string name="assist_gesture_training_enrolling_title">ઝડપથી દબાવો અને છોડી દો</string>
-    <string name="assist_gesture_training_finished_text">તમે પછીથી સેટિંગ્સમાં જઈને દબાવવાની સંવેદિતાને બદલી પણ શકો છો</string>
+    <string name="assist_gesture_training_finished_text">તમે પછીથી સેટિંગમાં જઈને દબાવવાની સંવેદિતાને બદલી પણ શકો છો</string>
     <string name="assist_gesture_training_finished_title">સમાપ્ત કરો અથવા ગોઠવવાનું ચાલુ રાખો</string>
     <string name="assist_gesture_training_intro_text">તમારા Assistant સાથે કોઈપણ સમયે વાત કરવા માટે, તમારા ફોનના તળિયાના અડધા ભાગને ઝડપથી દબાવો, પછી છોડી દો</string>
     <string name="assist_gesture_training_intro_title">તમારા Assistant માટે દબાવો</string>
@@ -755,7 +753,7 @@
     <string name="auto_punctuate_summary">\".\" શામેલ કરવા માટે Space કીને બે વાર દબાવો</string>
     <string name="auto_replace">સ્વતઃ બદલો</string>
     <string name="auto_replace_summary">ખોટી રીતે લખાયેલ શબ્દોને સુધારો</string>
-    <string name="auto_restore_summary">જ્યારે એક ઍપ્લિકેશન ઇન્સ્ટોલ કરી રહ્યાં હોય, ત્યારે બેકઅપ લીધેલ સેટિંગ્સ અને ડેટા પુનઃસ્થાપિત કરો</string>
+    <string name="auto_restore_summary">જ્યારે કોઈ ઍપ ઇન્સ્ટૉલ કરી રહ્યાં હોય, ત્યારે બૅકઅપ લીધેલા સેટિંગ અને ડેટા રિસ્ટોર કરો</string>
     <string name="auto_restore_title">ઑટોમૅટિક પુનઃસ્થાપના</string>
     <string name="auto_rotate_camera_lock_summary">ચહેરાની ઓળખ માટે કૅમેરા અનલૉક કરવો આવશ્યક છે</string>
     <string name="auto_rotate_camera_lock_title">કૅમેરા લૉક છે</string>
@@ -800,7 +798,7 @@
     <string name="available_virtual_keyboard_category">ઑન-સ્ક્રીન કીબોર્ડ ઉપલબ્ધ છે</string>
     <string name="average_memory_use">સરેરાશ મેમરી વપરાશ</string>
     <string name="average_used">સરેરાશ વપરાશ (%)</string>
-    <string name="awake">ઉપકરણનો જાગૃત સમય</string>
+    <string name="awake">ડિવાઇસનો જાગૃત સમય</string>
     <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">ચાલુ કરો</string>
     <string name="aware_disabled_preference_dialog_content" />
@@ -849,10 +847,10 @@
     <string name="backup_configure_account_default_summary">બેકઅપ લેવાયેલ ડેટા અત્યારે કોઇ એકાઉન્ટ સ્ટોર કરી રહ્યું નથી</string>
     <string name="backup_configure_account_title">બેકઅપ એકાઉન્ટ</string>
     <string name="backup_data_management_title">બૅકઅપ એકાઉન્ટ મેનેજ કરો</string>
-    <string name="backup_data_summary">ઍપ્લિકેશન ડેટા, વાઇ-ફાઇ પાસવર્ડ્સ અને અન્ય સેટિંગ્સનું Google સર્વર્સ પર બેક અપ લો</string>
+    <string name="backup_data_summary">ઍપ ડેટા, વાઇ-ફાઇ પાસવર્ડ અને અન્ય સેટિંગનું Google સર્વર પર બૅકઅપ લો</string>
     <string name="backup_data_title">મારા ડેટાનો બેક અપ લો</string>
     <string name="backup_disabled">બેક અપ અક્ષમ કર્યું</string>
-    <string name="backup_erase_dialog_message">વાઇ-ફાઇ પાસવર્ડ્સ, બુકમાર્ક્સ, અન્ય સેટિંગ્સ અને ઍપ્લિકેશન ડેટાનો બેકઅપ લેવાનું રોકીએ, તેમજ Google સર્વર્સ પરની બધી કૉપિઝને કાઢી નાખીએ?</string>
+    <string name="backup_erase_dialog_message">વાઇ-ફાઇ પાસવર્ડ, બુકમાર્ક, અન્ય સેટિંગ અને ઍપ ડેટાનો બૅકઅપ લેવાનું રોકીએ, તેમજ Google સર્વર પરની બધી કૉપિને કાઢી નાખીએ?</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_inactive_title">બૅકઅપ સેવા સક્રિય કરેલી નથી</string>
     <string name="backup_pw_cancel_button_text">રદ કરો</string>
@@ -862,11 +860,11 @@
     <string name="backup_suggestion_dialog_description">આ તમારા ફોનનાં આંતરિક સ્ટૉરેજમાંથી બધો ડેટા કાઢી નાંખશે.</string>
     <string name="backup_suggestion_dialog_title">આ ઉપકરણ ફરીથી સેટ કરવું છે?</string>
     <string name="backup_suggestion_get_started">વધુ જાણો</string>
-    <string name="backup_suggestion_item_summary">Android અથવા iPhone® ઉપકરણમાંથી કૉપિ કરો</string>
+    <string name="backup_suggestion_item_summary">Android અથવા iPhone® ડિવાઇસમાંથી કૉપિ કરો</string>
     <string name="backup_suggestion_item_title">જૂના ફોનમાં ડેટા ખૂટે છે?</string>
-    <string name="backup_suggestion_missing_description">"જો તમને તમારો કેટલોક ડેટા ન દેખાય, જેમ કે SMS સંદેશા અને ફોટો, તો તેને તમે તમારા Pixel માં કૅબલનાં ઉપયોગથી ટ્રાન્સફર કરી શકો છો.
+    <string name="backup_suggestion_missing_description">"જો તમને તમારો કેટલોક ડેટા ન દેખાય, જેમ કે SMS સંદેશા અને ફોટો, તો તેને તમે તમારા Pixelમાં કૅબલનાં ઉપયોગથી ટ્રાન્સફર કરી શકો છો.
 
-પ્રારંભ કરવા માટે, તમારા Pixel ફોનને ફરીથી સેટ કરવો પડશે. આ ફોન પરનો બધો ડેટા, જેમ કે કસ્ટમાઇઝ સેટિંગ્સ સહિત, મેઘમાં સમન્વયિત ન કરેલી કન્ટેન્ટ પણ કાઢી નાખવામાં આવશે."</string>
+શરૂ કરવા માટે, તમારા Pixel ફોનને ફરીથી સેટ કરવો પડશે. આ ફોન પરનો બધો ડેટા, જેમ કે કસ્ટમાઇઝ સેટિંગ સહિત, ક્લાઉડમાં સિંક ન કરેલું કન્ટેન્ટ પણ ડિલીટ કરવામાં આવશે."</string>
     <string name="backup_suggestion_missing_title">તમારો ડેટા ખૂટે છે?</string>
     <string name="backup_suggestion_next">આગલું</string>
     <string name="backup_suggestion_other_ways_to_copy">ડેટા કૉપિ કરવાની અન્ય રીતો</string>
@@ -876,19 +874,19 @@
     <string name="backup_suggestion_reset_title">તમારો Pixel ફોન ફરીથી સેટ કરો</string>
     <string name="backup_suggestion_what_is_needed_summary">"તમારો ફોન ફરીથી સેટ કર્યા બાદ, તમને આની જરૂર પડશે:
 
-• તમારો પહેલાંનો ફોન (LINK_BEGINમોટે ભાગે બધા ફોનLINK_END Android 5.0+ અથવા iOS® 8.0+ નું સમર્થન કરે છે)
+• તમારો પહેલાંનો ફોન (LINK_BEGINમોટે ભાગે બધા ફોનLINK_END Android 5.0+ અથવા iOS® 8.0+ને સપોર્ટ કરે છે)
 • તમારા જૂના ફોન માટે એક ચાર્જિગ અથવા ડેટા કૅબલ
-• તમારા Pixel ની સાથે આવેલું Quick Switch Adapter"</string>
+• તમારા Pixelની સાથે આવેલું Quick Switch Adapter"</string>
     <string name="backup_suggestion_what_is_needed_title">તમને જરૂર પડશે તે વસ્તુઓ</string>
     <string name="backup_summary_state_off">બંધ છે</string>
     <string name="backup_summary_state_on">ચાલુ છે</string>
     <string name="baseband_version">બેઝબૅન્ડ વર્ઝન</string>
     <string name="battery_action_app_details">ઍપની માહિતી</string>
-    <string name="battery_action_app_settings">ઍપ્લિકેશન સેટિંગ્સ</string>
-    <string name="battery_action_bluetooth">બ્લૂટૂથ સેટિંગ્સ</string>
-    <string name="battery_action_display">સ્ક્રીન સેટિંગ્સ</string>
+    <string name="battery_action_app_settings">ઍપ સેટિંગ</string>
+    <string name="battery_action_bluetooth">બ્લૂટૂથ સેટિંગ</string>
+    <string name="battery_action_display">સ્ક્રીન સેટિંગ</string>
     <string name="battery_action_stop">ફરજિયાત બંધ કરો</string>
-    <string name="battery_action_wifi">વાઇ-ફાઇ સેટિંગ્સ</string>
+    <string name="battery_action_wifi">વાઇ-ફાઇ સેટિંગ</string>
     <string name="battery_active_for">^1થી સક્રિય</string>
     <string name="battery_app_usage_for">%s માટે ઍપનો વપરાશ</string>
     <string name="battery_app_usage_for_past_24">છેલ્લા 24 કલાક માટે ઍપનો વપરાશ</string>
@@ -983,7 +981,7 @@
     <string name="battery_status_title">બૅટરી સ્થિતિ</string>
     <string name="battery_sugg_apps_gps">બૅટરી બચત મોડ પસંદ કરો</string>
     <string name="battery_sugg_apps_info">એપ્લિકેશનને બંધ કરો અથવા અનઇન્સ્ટોલ કરો</string>
-    <string name="battery_sugg_apps_settings">બૅટરીનો વપરાશ ઘટાડવા માટે ઍપ્લિકેશન સેટિંગ્સ ઑફર કરી શકે છે</string>
+    <string name="battery_sugg_apps_settings">બૅટરીનો વપરાશ ઘટાડવા માટે ઍપ સેટિંગ ઑફર કરી શકે છે</string>
     <string name="battery_sugg_bluetooth_basic">તમે બ્લૂટૂથ નો ઉપયોગ કરતા ન હોય ત્યારે તેને બંધ કરો</string>
     <string name="battery_sugg_bluetooth_headset">એક અલગ બ્લૂટૂથ ઉપકરણ સાથે કનેક્ટ કરવાનો પ્રયાસ કરો</string>
     <string name="battery_sugg_display">સ્ક્રીનનો ચળકાટ અને/અથવા સ્ક્રીન સમયસમાપ્તિ ઘટાડો</string>
@@ -1076,7 +1074,7 @@
     <string name="biometrics_unlock_set_unlock_pin">પિન • ફેસ • ફિંગરપ્રિન્ટ</string>
     <string name="biometrics_unlock_skip_biometrics">ફેસ અનલૉક કે ફિંગરપ્રિન્ટ વિના આગળ વધો</string>
     <string name="biometrics_unlock_title">તમે તમારા ચહેરા કે ફિંગરપ્રિન્ટનો ઉપયોગ કરીને તમારો ફોન અનલૉક કરી શકો છો. સુરક્ષા ખાતર, આ વિકલ્પ માટે બૅકઅપ સ્ક્રીન લૉક આવશ્યક છે.</string>
-    <string name="ble_scan_notify_text">સ્થાન સચોટતા બહેતર બનાવવા માટે, સિસ્ટમ ઍપ્લિકેશનો અને સેવાઓ હજી પણ બ્લૂટૂથ ઉપકરણો શોધી શકે છે. તમે આને LINK_BEGINસ્કેનિંગ સેટિંગ્સLINK_ENDમાં બદલી શકો છો.</string>
+    <string name="ble_scan_notify_text">સ્થાન સચોટતા બહેતર બનાવવા માટે, સિસ્ટમ ઍપ અને સેવાઓ હજી પણ બ્લૂટૂથ ડિવાઇસ શોધી શકે છે. તમે આને LINK_BEGINસ્કૅનિંગ સેટિંગLINK_ENDમાં બદલી શકો છો.</string>
     <string name="blob_expires_text">%sના રોજ સમયસીમા સમાપ્ત થશે</string>
     <string name="blob_id_text">શેર કરેલા ડેટાનું ID: %d</string>
     <string name="bluetooth">બ્લૂટૂથ</string>
@@ -1093,11 +1091,11 @@
     <string name="bluetooth_ask_enablement">%1$s, બ્લૂટૂથ ચાલુ કરવા માગે છે</string>
     <string name="bluetooth_ask_enablement_and_discovery">%1$s, બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ઉપકરણો પર %2$d સેકન્ડ માટે દૃશ્યક્ષમ બનાવવા માગે છે.</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name">ઍપ્લિકેશન બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ઉપકરણો પર %1$d સેકન્ડ માટે દૃશ્યક્ષમ બનાવવા માગે છે.</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery">%1$s, બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ઉપકરણો પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગ્સમાં બદલી શકો છો.</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name">કોઈ ઍપ્લિકેશન બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ઉપકરણો પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગ્સમાં બદલી શકો છો.</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery">%1$s, બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ડિવાઇસ પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગમાં બદલી શકો છો.</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name">કોઈ ઍપ બ્લૂટૂથ ચાલુ કરવા અને તમારા ફોનને અન્ય ડિવાઇસ પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગમાં બદલી શકો છો.</string>
     <string name="bluetooth_ask_enablement_no_name">કોઈ ઍપ્લિકેશન બ્લૂટૂથ ચાલુ કરવા માગે છે</string>
-    <string name="bluetooth_ask_lasting_discovery">%1$s, તમારા ફોનને અન્ય બ્લૂટૂથ ઉપકરણો પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગ્સમાં બદલી શકો છો.</string>
-    <string name="bluetooth_ask_lasting_discovery_no_name">કોઈ ઍપ્લિકેશન તમારા ફોનને અન્ય બ્લૂટૂથ ઉપકરણો પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગ્સમાં બદલી શકો છો.</string>
+    <string name="bluetooth_ask_lasting_discovery">%1$s, તમારા ફોનને અન્ય બ્લૂટૂથ ડિવાઇસ પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગમાં બદલી શકો છો.</string>
+    <string name="bluetooth_ask_lasting_discovery_no_name">કોઈ ઍપ તમારા ફોનને અન્ય બ્લૂટૂથ ડિવાઇસ પર દૃશ્યક્ષમ બનાવવા માગે છે. તમે આને પછીથી બ્લૂટૂથ સેટિંગમાં બદલી શકો છો.</string>
     <string name="bluetooth_battery_level">%1$s બૅટરી</string>
     <string name="bluetooth_battery_level_untethered">L: %1$s બૅટરી, R: %2$s બૅટરી</string>
     <string name="bluetooth_broadcasting">બ્રૉડકાસ્ટ કરી રહ્યાં છે</string>
@@ -1131,13 +1129,13 @@
     <string name="bluetooth_connection_dialog_text">શું તમે \"%1$s\" સાથે કનેક્ટ કરવા માંગો છો?</string>
     <string name="bluetooth_connection_notif_message">\"%1$s\" સાથે કનેક્ટ કરવા માટે ટૅપ કરો.</string>
     <string name="bluetooth_connection_permission_request">બ્લૂટૂથ કનેક્શન વિનંતી</string>
-    <string name="bluetooth_device">અનામાંકિત બ્લૂટૂથ ઉપકરણ</string>
+    <string name="bluetooth_device">અનામાંકિત બ્લૂટૂથ ડિવાઇસ</string>
     <string name="bluetooth_device_advanced_enable_opp_title">આવનારા ફાઇલ સ્થાનાંતરોને મંજૂરી આપો</string>
     <string name="bluetooth_device_advanced_online_mode_summary">બ્લૂટૂથ ઉપકરણ સાથે કનેક્ટ કરો</string>
     <string name="bluetooth_device_advanced_online_mode_title">કનેક્ટ કરો</string>
     <string name="bluetooth_device_advanced_profile_header_title">આ માટે ઉપયોગ કરો</string>
     <string name="bluetooth_device_advanced_rename_device">નામ બદલો</string>
-    <string name="bluetooth_device_advanced_title">જોડી કરેલ બ્લૂટૂથ ઉપકરણ</string>
+    <string name="bluetooth_device_advanced_title">જોડી કરેલા બ્લૂટૂથ ડિવાઇસ</string>
     <string name="bluetooth_device_context_connect">કનેક્ટ કરો</string>
     <string name="bluetooth_device_context_connect_advanced">વિકલ્પો...</string>
     <string name="bluetooth_device_context_disconnect">ડિસ્કનેક્ટ કરો</string>
@@ -1154,7 +1152,7 @@
     <string name="bluetooth_disable_a2dp_hw_offload">બ્લૂટૂથ A2DP હાર્ડવેર ઑફલોડને બંધ કરો</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_cancel">રદ કરો</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_confirm">ફરી શરૂ કરો</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_message">આ સેટિંગમાં ફેરફાર કરવા માટે તમારા ઉપકરણને ફરીથી શરૂ કરો.</string>
+    <string name="bluetooth_disable_a2dp_hw_offload_dialog_message">આ સેટિંગમાં ફેરફાર કરવા માટે તમારા ડિવાઇસને ફરીથી શરૂ કરો.</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title">ઉપકરણ ફરી શરૂ કરીએ?</string>
     <string name="bluetooth_disable_absolute_volume">ચોક્કસ વૉલ્યૂમને બંધ કરો</string>
     <string name="bluetooth_disable_absolute_volume_summary">રિમોટ ડિવાઇસમાં વધુ પડતું ઊંચું વૉલ્યૂમ અથવા નિયંત્રણની કમી જેવી વૉલ્યૂમની સમસ્યાઓની સ્થિતિમાં બ્લૂટૂથ ચોક્કસ વૉલ્યૂમ સુવિધાને બંધ કરે છે.</string>
@@ -1170,13 +1168,13 @@
     <string name="bluetooth_disconnected">ડિસ્કનેક્ટ કર્યું</string>
     <string name="bluetooth_disconnecting">ડિસ્કનેક્ટ થઈ રહ્યું છે...</string>
     <string name="bluetooth_display_passkey_pin_msg">આની સાથે જોડી કરવા:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>તેના પર લખો:&lt;br>&lt;b>%2$s&lt;/b>, પછી Return અથવા Enter દબાવો.</string>
-    <string name="bluetooth_dock_settings">ડૉક સેટિંગ્સ</string>
+    <string name="bluetooth_dock_settings">ડૉક સેટિંગ</string>
     <string name="bluetooth_dock_settings_a2dp">સંગીત અને મીડિયા માટે</string>
     <string name="bluetooth_dock_settings_headset">સ્પીકર ફોન તરીકે</string>
-    <string name="bluetooth_dock_settings_remember">સેટિંગ્સ યાદ રાખો</string>
+    <string name="bluetooth_dock_settings_remember">સેટિંગ યાદ રાખો</string>
     <string name="bluetooth_dock_settings_title">ઑડિયો માટે ડૉકનો ઉપયોગ કરો</string>
     <string name="bluetooth_empty_list_bluetooth_off">જ્યારે બ્લૂટૂથ ચાલુ હોય, ત્યારે તમારું ડિવાઇસ નજીકનાં અન્ય બ્લૂટૂથ ડિવાઇસ સાથે સંચાર કરી શકે છે.</string>
-    <string name="bluetooth_empty_list_user_restricted">તમારી પાસે બ્લૂટૂથ સેટિંગ્સ બદલવાની પરવાનગી નથી.</string>
+    <string name="bluetooth_empty_list_user_restricted">તમારી પાસે બ્લૂટૂથ સેટિંગ બદલવાની પરવાનગી નથી.</string>
     <string name="bluetooth_enable_alphanumeric_pin">પિન અક્ષરો અથવા સંજ્ઞાઓનો સમાવે છે</string>
     <string name="bluetooth_enable_gabeldorsche">Gabeldorsche ચાલુ કરો</string>
     <string name="bluetooth_enable_gabeldorsche_summary">બ્લૂટૂથ Gabeldorsche સુવિધાનું સ્ટૅક ચાલુ કરે છે.</string>
@@ -1193,13 +1191,13 @@
     <string name="bluetooth_hearingaid_left_pairing_message">ડાબી બાજુના શ્રવણ યંત્ર સાથે જોડાણ કરી રહ્યાં છીએ…</string>
     <string name="bluetooth_hearingaid_right_battery_level">જમણી બાજુની - %1$s બૅટરી</string>
     <string name="bluetooth_hearingaid_right_pairing_message">જમણી બાજુના શ્રવણ યંત્ર સાથે જોડાણ કરી રહ્યાં છીએ…</string>
-    <string name="bluetooth_hid_profile_summary_connected">ઇનપુટ ઉપકરણ સાથે કનેક્ટ થયાં</string>
+    <string name="bluetooth_hid_profile_summary_connected">ઇનપુટ ડિવાઇસ સાથે કનેક્ટ થયાં</string>
     <string name="bluetooth_hid_profile_summary_use_for">ઇનપુટ માટે ઉપયોગ કરો</string>
     <string name="bluetooth_incoming_pairing_msg">અહીંથી:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>આ ઉપકરણ સાથે જોડી કરીએ?</string>
     <string name="bluetooth_is_disconnect_question">%1$s ને ડિસ્કનેક્ટ કરીએ?</string>
     <string name="bluetooth_is_discoverable">નજીકનાં તમામ બ્લૂટૂથ ઉપકરણો પર દૃશ્યક્ષમ (%1$s)</string>
     <string name="bluetooth_is_discoverable_always">નજીકનાં તમામ બ્લૂટૂથ ઉપકરણો પર દૃશ્યક્ષમ</string>
-    <string name="bluetooth_is_visible_message">"જ્યારે બ્લૂટૂથ  સેટિંગ્સ ખુલ્લી હોય ત્યારે %1$s નજીકનાં ઉપકરણોને દૃશ્યક્ષમ છે."</string>
+    <string name="bluetooth_is_visible_message">જ્યારે બ્લૂટૂથ સેટિંગ ખુલ્લા હોય ત્યારે %1$s નજીકનાં ડિવાઇસને દેખાય છે.</string>
     <string name="bluetooth_left_name">ડાબે</string>
     <string name="bluetooth_lock_voice_dialing">વૉઇસ ડાયલિંગ લૉક કરો</string>
     <string name="bluetooth_lock_voice_dialing_summary">જ્યારે સ્ક્રીન લૉક થયેલ હોય ત્યારે બ્લૂટૂથ ડાયલરના ઉપયોગને અટકાવો</string>
@@ -1238,7 +1236,7 @@
     <string name="bluetooth_pairing_dialog_contants_request">%1$s તમારા સંપર્કો અને કૉલ ઇતિહાસને અ‍ૅક્સેસ કરવા માંગે છે.</string>
     <string name="bluetooth_pairing_dialog_paring_request">%1$s, બ્લૂટૂથ સાથે જોડી કરવા માંગે છે. જ્યારે કનેક્ટ થયેલ હોય, ત્યારે તેની પાસે તમારા સંપર્કો અને કૉલ ઇતિહાસની ઍક્સેસ હશે.</string>
     <string name="bluetooth_pairing_dialog_sharing_phonebook_title">ફોન પુસ્તિકા શેર કરીએ?</string>
-    <string name="bluetooth_pairing_dialog_title">આ ઉપકરણ સાથે જોડી કરીએ?</string>
+    <string name="bluetooth_pairing_dialog_title">આ ડિવાઇસ સાથે જોડી કરીએ?</string>
     <string name="bluetooth_pairing_error_message">%1$s સાથે જોડી કરી શક્યાં નહીં.</string>
     <string name="bluetooth_pairing_key_msg">બ્લૂટૂથનો જોડી બનાવવાનો કોડ</string>
     <string name="bluetooth_pairing_page_title">નવા ડિવાઇસ જોડો</string>
@@ -1268,15 +1266,15 @@
     <string name="bluetooth_preference_paired_dialog_contacts_option">સંપર્કો અને કૉલ ઇતિહાસ</string>
     <string name="bluetooth_preference_paired_dialog_internet_option">ઇન્ટરનેટ કનેક્શન</string>
     <string name="bluetooth_preference_paired_dialog_keyboard_option">કીબોર્ડ</string>
-    <string name="bluetooth_preference_paired_dialog_title">જોડી કરેલ ઉપકરણ</string>
+    <string name="bluetooth_preference_paired_dialog_title">જોડી કરેલા ડિવાઇસ</string>
     <string name="bluetooth_preference_scan_title">ઉપકરણો માટે સ્કૅન કરો</string>
     <string name="bluetooth_profile_a2dp">મીડિયા ઑડિયો</string>
     <string name="bluetooth_profile_a2dp_high_quality">HD ઑડિયો: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD ઑડિયો</string>
-    <string name="bluetooth_profile_details">પ્રોફાઇલ સેટિંગ્સ</string>
+    <string name="bluetooth_profile_details">પ્રોફાઇલ સેટિંગ</string>
     <string name="bluetooth_profile_headset">ફોન કૉલ</string>
     <string name="bluetooth_profile_hearing_aid">શ્રવણ યંત્રો</string>
-    <string name="bluetooth_profile_hid">ઇનપુટ ઉપકરણ</string>
+    <string name="bluetooth_profile_hid">ઇનપુટ ડિવાઇસ</string>
     <string name="bluetooth_profile_map">ટેક્સ્ટ સંદેશા</string>
     <string name="bluetooth_profile_opp">ફાઇલ સ્થાનાંતરણ</string>
     <string name="bluetooth_profile_pan">ઇન્ટરનેટ ઍક્સેસ</string>
@@ -1317,7 +1315,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">"બ્લૂટૂથ ઑડિઓ કોડેક
 પસંદગી ટ્રિગર કરો"</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">નિષ્ક્રિય હોવાનો અર્થ એ છે કે ફોન અથવા હૅડસેટ દ્વારા સપોર્ટ આપવામાં આવતો નથી</string>
-    <string name="bluetooth_select_avrcp_version_dialog_title">બ્લૂટૂથ AVRCP સંસ્કરણ પસંદ કરો</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">બ્લૂટૂથ AVRCP વર્ઝન પસંદ કરો</string>
     <string name="bluetooth_select_avrcp_version_string">બ્લૂટૂથ AVRCP વર્ઝન</string>
     <string name="bluetooth_select_map_version_dialog_title">બ્લૂટૂથ MAP વર્ઝન પસંદ કરો</string>
     <string name="bluetooth_select_map_version_string">બ્લૂટૂથ MAP વર્ઝન</string>
@@ -1385,7 +1383,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="bugreport_in_power">બગ રિપોર્ટ શોર્ટકટ</string>
     <string name="bugreport_in_power_summary">બગ રિપોર્ટ લેવા માટે પાવર મેનૂમાં એક બટન બતાવો</string>
     <string name="build_number">બિલ્ડ નંબર</string>
-    <string name="builtin_keyboard_settings_summary">ભૌતિક કીબોર્ડ સેટિંગ્સ</string>
+    <string name="builtin_keyboard_settings_summary">ભૌતિક કીબોર્ડ સેટિંગ</string>
     <string name="builtin_keyboard_settings_title">ભૌતિક કીબોર્ડ</string>
     <string name="button_confirm_convert_fbe">સાફ અને રૂપાંતરિત કરો</string>
     <string name="button_convert_fbe">સાફ અને રૂપાંતરિત કરો...</string>
@@ -1738,7 +1736,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
 
 તમારા ફોનનો ઉપયોગ ફરી શરૂ કરવા માટે, તમારે ફેક્ટરી રીસેટ કરવાની જરૂર છે. જ્યારે તમે રીસેટ પછી તમારા ફોનને સેટ કરો ત્યારે, તમારી પાસે તમારા Google એકાઉન્ટ પર બેકઅપ લેવાયેલ તમારા કોઈપણ ડેટાને પુનઃસ્થાપિત કરવાની એક તક હશે."</string>
     <string name="crypt_keeper_data_corrupt_title">ડિક્રિપ્શન અસફળ થયું</string>
-    <string name="crypt_keeper_desc">"તમે તમારા એકાઉન્ટ, સેટિંગ્સ, ડાઉનલોડ કરેલ ઍપ્લિકેશનો અને તેમનો ડેટા, મીડિયા અને અન્ય ફાઇલોને એન્ક્રિપ્ટ કરી શકો છો. તમે તમારો ફોન એન્ક્રિપ્ટ કરી લો તે પછી, તમે એક સ્ક્રીન લૉક સેટ કરી લીધું છે તેમ ધારીને (તે છે કોઈ પૅટર્ન અથવા સંખ્યાકીય પિન અથવા પાસવર્ડ), તમે તેને ચાલુ કરો ત્યારે દર વખતે ડિક્રિપ્ટ કરવા માટે સ્ક્રીનને અનલૉક કરવાની જરૂર પડશે. તમારો તમામ ડેટા ભૂસી નાખીને ડિક્રિપ્ટ કરવા માટેનો અન્ય બીજો રસ્તો માત્ર ફેક્ટરી ડેટા રીસેટ કરવાનો છે.
+    <string name="crypt_keeper_desc">"તમે તમારા એકાઉન્ટ, સેટિંગ, ડાઉનલોડ કરેલી ઍપ અને તેમનો ડેટા, મીડિયા અને અન્ય ફાઇલોને એન્ક્રિપ્ટ કરી શકો છો. તમે તમારો ફોન એન્ક્રિપ્ટ કરી લો તે પછી, તમે એક સ્ક્રીન લૉક સેટ કરી લીધું છે તેમ ધારીને (તે છે કોઈ પૅટર્ન અથવા સંખ્યાકીય પિન અથવા પાસવર્ડ), તમે તેને ચાલુ કરો ત્યારે દર વખતે ડિક્રિપ્ટ કરવા માટે સ્ક્રીનને અનલૉક કરવાની જરૂર પડશે. તમારો તમામ ડેટા કાઢી નાખીને ડિક્રિપ્ટ કરવા માટેનો અન્ય બીજો રસ્તો માત્ર ફેક્ટરી ડેટા રીસેટ કરવાનો છે.
 
 એન્ક્રિપ્શનમાં એક કલાક અથવા તેથી વધુ સમય લાગી શકે છે. તમારે સમગ્ર પ્રક્રિયા દરમિયાન બૅટરીને પૂર્ણ ચાર્જ અને તમારા ફોનને પ્લગ ઇન કરીને રાખવો આવશ્યક છે. જો તમે તેમાં ખલેલ પાડશો, તો તમે તમારો કેટલોક અથવા તમામ ડેટા ગુમાવશો."</string>
     <string name="crypt_keeper_dialog_need_password_message">તમે એન્ક્રિપ્શન પ્રારંભ કરી શકો છો તે પહેલાં તમારે લૉક સ્ક્રીન પિન કે પાસવર્ડ સેટ કરવો પડશે.</string>
@@ -1845,7 +1843,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
 તમે ઍપ્લિકેશનમાં ઉપલબ્ધ સેટિગ્સમાં વધુ ઉચિત ડેટા વપરાશ નિયંત્રણો મેળવી શકો છો."</string>
     <string name="data_usage_app_restrict_dialog_title">બૅકગ્રાઉન્ડ ડેટાને નિયંત્રિત કરીએ?</string>
     <string name="data_usage_app_restricted">પ્રતિબંધિત</string>
-    <string name="data_usage_app_settings">ઍપ્લિકેશન સેટિંગ્સ</string>
+    <string name="data_usage_app_settings">ઍપ સેટિંગ</string>
     <string name="data_usage_app_summary_title">મોબાઇલ ડેટા અને વાઇ-ફાઇ</string>
     <string name="data_usage_auto_sync_off_dialog">આમ કરવું તે ડેટા અને બૅટરી વપરાશ બચાવશે, પરંતુ તમારે તાજેતરની માહિતી એકત્રિત કરવા માટે દરેક એકાઉન્ટને મેન્યુઅલી સિંક કરવાની જરૂર પડશે. અને જ્યારે અપડેટ આવશે ત્યારે તમે નોટિફિકેશન પ્રાપ્ત કરી શકશો નહીં.</string>
     <string name="data_usage_auto_sync_off_dialog_title">ડેટા ઑટો-સિંક કરો બંધ કરીએ?</string>
@@ -1924,7 +1922,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="data_usage_tab_ethernet">ઇથરનેટ</string>
     <string name="data_usage_tab_mobile">મોબાઇલ</string>
     <string name="data_usage_tab_wifi">વાઇ-ફાઇ</string>
-    <string name="data_usage_template">%2$sના રોજ %1$sનો ઉપયોગ કર્યો</string>
+    <string name="data_usage_template">%2$s દરમિયાન %1$sનો ઉપયોગ કર્યો</string>
     <string name="data_usage_title">પ્રાથમિક ડેટા</string>
     <string name="data_usage_total_during_range">%2$s: લગભગ %1$s વપરાયો</string>
     <string name="data_usage_total_during_range_mobile">%2$s: લગભગ %1$s વપરાયા, તમારા ફોન દ્વારા માપ્યાં મુજબ. તમારા કેરિઅરની ડેટા વપરાશ ગણતરી અલગ હોઈ શકે છે.</string>
@@ -2011,8 +2009,8 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="dev_logpersist_clear_warning_message">જ્યારે અમે હવે નિરંતર લૉગર સાથે મોનીટર કરતાં નથી, તો તમારા ઉપકરણ પર રહેલો લૉગર ડેટા કાઢી નાખવાની જરૂર છે.</string>
     <string name="dev_logpersist_clear_warning_title">લૉગર નિરંતર સ્ટોરેજ સાફ કરીએ?</string>
     <string name="dev_settings_disabled_warning">કૃપા કરીને પહેલાં વિકાસકર્તાના વિકલ્પો સક્ષમ કરો.</string>
-    <string name="dev_settings_warning_message">આ સેટિંગ્સ ફક્ત વિકાસનાં ઉપયોગ માટે જ હેતુબદ્ધ છે. તે તમારા ઉપકરણ અને તેના પરની એપ્લિકેશન્સનાં ભંગ થવા અથવા ખરાબ વર્તનનું કારણ બની શકે છે.</string>
-    <string name="dev_settings_warning_title">વિકાસ સેટિંગ્સને મંજૂરી આપીએ?</string>
+    <string name="dev_settings_warning_message">આ સેટિંગ ફક્ત વિકાસનાં ઉપયોગ માટે જ હેતુબદ્ધ છે. તે તમારા ડિવાઇસ અને તેના પરની ઍપના ભંગ થવા અથવા ખરાબ વર્તનનું કારણ બની શકે છે.</string>
+    <string name="dev_settings_warning_title">ડેવલપમેન્ટ સેટિંગને મંજૂરી આપીએ?</string>
     <string name="developer_options_main_switch_title">વિકાસકર્તાના વિકલ્પોનો ઉપયોગ કરો</string>
     <string name="developer_smallest_width">સૌથી નાની પહોળાઈ</string>
     <string name="development_settings_enable">વિકાસકર્તાનાં વિકલ્પો સક્ષમ કરો</string>
@@ -2020,7 +2018,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="development_settings_summary">ઍપ્લિકેશન વિકાસ માટે વિકલ્પો સેટ કરો</string>
     <string name="development_settings_title">વિકાસકર્તાના વિકલ્પો</string>
     <string name="device_admin_add_title">ડિવાઇસ વ્યવસ્થાપક</string>
-    <string name="device_admin_settings_title">ઉપકરણ વ્યવસ્થાપક સેટિંગ્સ</string>
+    <string name="device_admin_settings_title">ડિવાઇસ વ્યવસ્થાપક સેટિંગ</string>
     <string name="device_admin_status">આ વ્યવસ્થાપક ઍપ સક્રિય છે અને આ ઍપ %1$sને નીચેની ક્રિયાઓ કરવાની મંજૂરી આપે છે:</string>
     <string name="device_admin_warning">આ વ્યવસ્થાપક ઍપને સક્રિય કરવાથી આ ઍપ %1$sને નીચેની ક્રિયાઓ કરવાની મંજૂરી આપશે:</string>
     <string name="device_admin_warning_simplified">આ ડિવાઇસને %1$s દ્વારા મેનેજ અને મોનિટર કરવામાં આવશે.</string>
@@ -2117,22 +2115,22 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="dlg_remove_locales_message">ટેક્સ્ટ બીજી ભાષામાં પ્રદર્શિત કરવામાં આવશે.</string>
     <string name="do_disclosure_generic">આ ડિવાઇસ તમારી સંસ્થા દ્વારા મેનેજ થાય છે.</string>
     <string name="do_disclosure_learn_more_separator">" "</string>
-    <string name="do_disclosure_with_name">આ ઉપકરણનું સંચાલન %s દ્વારા થાય છે</string>
+    <string name="do_disclosure_with_name">આ ડિવાઇસનું સંચાલન %s દ્વારા થાય છે.</string>
     <string name="do_not_disturb_main_switch_title_off">હમણાં ચાલુ કરો</string>
     <string name="do_not_disturb_main_switch_title_on">હમણાં બંધ કરો</string>
     <string name="dock_audio_media_disabled">તમામ ઑડિઓ</string>
     <string name="dock_audio_media_enabled">માત્ર મીડિયા ઑડિઓ</string>
     <string name="dock_audio_media_title">ડૉક સ્પીકર ચલાવે છે</string>
     <string name="dock_audio_settings_title">ઑડિયો</string>
-    <string name="dock_audio_summary_car">જોડેલ કાર ડૉક માટેની સેટિંગ્સ</string>
-    <string name="dock_audio_summary_desk">જોડેલ ડેસ્કટૉપ ડૉક માટેની સેટિંગ્સ</string>
+    <string name="dock_audio_summary_car">જોડેલી કાર ડૉક માટેના સેટિંગ</string>
+    <string name="dock_audio_summary_desk">જોડેલા ડેસ્કટૉપ ડૉક માટેના સેટિંગ</string>
     <string name="dock_audio_summary_none">ફોન ડૉક કરેલો નથી</string>
-    <string name="dock_audio_summary_unknown">જોડાયેલ ડૉક માટે સેટિંગ્સ</string>
+    <string name="dock_audio_summary_unknown">જોડાયેલા ડૉક માટે સેટિંગ</string>
     <string name="dock_not_found_text">ડૉક ઑડિઓ સેટ કરતા પહેલાં તમારે ફોનને ડૉક કરવો પડશે.</string>
     <string name="dock_not_found_title">ડૉક મળ્યું નથી</string>
     <string name="dock_settings">ડૉક કરો</string>
-    <string name="dock_settings_summary">જોડેલ ડોક માટેની ઑડિઓ સેટિંગ્સ</string>
-    <string name="dock_settings_title">ડૉક સેટિંગ્સ</string>
+    <string name="dock_settings_summary">જોડેલી ડોક માટેના ઑડિયો સેટિંગ</string>
+    <string name="dock_settings_title">ડૉક સેટિંગ</string>
     <string name="dock_sounds_enable_summary_off">ફોનને ડૉકમાં શામેલ કરતી અથવા દૂર કરતી વખતે ધ્વનિ ચલાવશો નહીં</string>
     <string name="dock_sounds_enable_summary_on">ફોનને ડૉકમાં શામેલ કરતી અથવા દૂર કરતી વખતે ધ્વનિ ચલાવો</string>
     <string name="dock_sounds_enable_title">ડૉક શામેલ કરોનો સાઉન્ડ</string>
@@ -2207,7 +2205,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="enable_non_resizable_multi_window">એકથી વધુ વિન્ડોમાં ફરીથી કદ ન બદલી શકવાનો વિકલ્પ ચાલુ કરો</string>
     <string name="enable_non_resizable_multi_window_summary">ફરીથી કદ ન બદલી શકે તેવી ઍપને એકથી વધુ વિન્ડોમાં દેખાવાની મંજૂરી આપે છે</string>
     <string name="enable_opengl_traces_title">OpenGL ટ્રેસેસ સક્ષમ કરો</string>
-    <string name="enable_quick_setting">ઝડપી સેટિંગ્સમાં બતાવો</string>
+    <string name="enable_quick_setting">ઝડપી સેટિંગમાં બતાવો</string>
     <string name="enable_receiving_mms_notification_title">ઇનક્મિંગ MMS સંદેશ</string>
     <string name="enable_sending_mms_notification_title">MMS સંદેશ મોકલી શકાતો નથી</string>
     <string name="enable_service_encryption_warning">જો તમે %1$s ચાલુ કરો છો, તો તમારું ઉપકરણ ડેટા એન્ક્રિપ્શનને વિસ્તૃત કરવા માટે તમારા સ્ક્રીન લૉકનો ઉપયોગ કરશે નહીં.</string>
@@ -2255,9 +2253,9 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="encryption_interstitial_message_pattern_for_fingerprint">"તમે આ ડિવાઇસ શરૂ થાય તે પહેલા તમારી પૅટર્ન આવશ્યક બનાવીને તેને વધુ સુરક્ષિત કરી શકો છો. ડિવાઇસ શરૂ ન થાય ત્યાં સુધી, તે એલાર્મ સહિત કૉલ, સંદેશા અથવા સૂચનાઓ પ્રાપ્ત કરી શકતું નથી.
 
 આ ડિવાઇસ ખોવાઈ અથવા ચોરાઈ જવા પર ડેટા સુરક્ષિત કરવામાં સહાય કરે છે. શું તમારું ડિવાઇસ શરૂ કરવા માટે પૅટર્ન આવશ્યક છે?"</string>
-    <string name="encryption_interstitial_message_pin">"તમે આ ઉપકરણ શરૂ થાય તે પહેલા તમારો પિન આવશ્યક બનાવીને તેને વધુ સુરક્ષિત કરી શકો છો. ઉપકરણ શરૂ ન થાય ત્યાં સુધી, તે એલાર્મ સહિત કૉલ, સંદેશા અથવા સૂચનાઓ પ્રાપ્ત કરી શકતું નથી. 
+    <string name="encryption_interstitial_message_pin">"તમે આ ડિવાઇસ શરૂ થાય તે પહેલાં તમારો પિન આવશ્યક બનાવીને તેને વધુ સુરક્ષિત કરી શકો છો. ડિવાઇસ શરૂ ન થાય ત્યાં સુધી, તે અલાર્મ સહિત કૉલ, સંદેશા અથવા નોટિફિકેશન પ્રાપ્ત કરી શકતું નથી. 
 
-આ ઉપકરણો ખોવાઈ અથવા ચોરાઈ જવા પર ડેટા સુરક્ષિત કરવામાં સહાય કરે છે. તમારું ઉપકરણ શરૂ કરવા માટે પિન આવશ્યક છે?"</string>
+આ ડિવાઇસ ખોવાઈ અથવા ચોરાઈ જવા પર ડેટા સુરક્ષિત કરવામાં સહાય કરે છે. તમારું ડિવાઇસ શરૂ કરવા માટે પિન આવશ્યક છે?"</string>
     <string name="encryption_interstitial_message_pin_for_biometrics">"તમારા ડિવાઇસને અનલૉક કરવા માટે તમારા બાયોમેટ્રિક્સનો ઉપયોગ કરવા ઉપરાંત, તમે આ ડિવાઇસ શરૂ થાય તે પહેલા તમારો પિન જરૂરી બનાવીને તેને વધુ સુરક્ષિત કરી શકો છો. ડિવાઇસ શરૂ ન થાય ત્યાં સુધી, તે અલાર્મ સહિત કૉલ, સંદેશા અથવા નોટિફિકેશન પ્રાપ્ત કરી શકતું નથી.
 
 આ ડિવાઇસ ખોવાઈ અથવા ચોરાઈ જવા પર ડેટા સુરક્ષિત કરવામાં સહાય કરે છે. શું તમારું ડિવાઇસ શરૂ કરવા માટે પિન આવશ્યક છે?"</string>
@@ -2296,14 +2294,14 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="enterprise_privacy_failed_password_wipe_device">ઉપકરણમાંનો બધો ડેટા કાઢી નાખતા પહેલાં, પાસવર્ડના પ્રયાસો નિષ્ફળ થયા</string>
     <string name="enterprise_privacy_failed_password_wipe_work">કાર્ય પ્રોફાઇલનો ડેટા કાઢી નાખતા પહેલાં, પાસવર્ડના પ્રયાસો નિષ્ફળ થયા</string>
     <string name="enterprise_privacy_global_http_proxy">વૈશ્વિક HTTP પ્રોક્સી સેટ કરી</string>
-    <string name="enterprise_privacy_header">"તમારા કાર્ય ડેટાની ઍક્સેસ પ્રદાન કરવા માટે, તમારી સંસ્થા સેટિંગ્સમાં ફેરફાર કરી શકે છે અને તમારા ઉપકરણમાં સૉફ્ટવેર ઇન્સ્ટૉલ કરી શકે છે.
+    <string name="enterprise_privacy_header">"તમારા ઑફિસના ડેટાનો ઍક્સેસ આપવા માટે, તમારી સંસ્થા સેટિંગમાં ફેરફાર કરી શકે છે અને તમારા ડિવાઇસમાં સૉફ્ટવેર ઇન્સ્ટૉલ કરી શકે છે.
 
 વધુ વિગતો માટે, તમારી સંસ્થાના વ્યવસ્થાપકનો સંપર્ક કરો."</string>
     <string name="enterprise_privacy_input_method">ડિફૉલ્ટ કીબોર્ડ</string>
     <string name="enterprise_privacy_input_method_name">%s પર સેટ કરેલ</string>
     <string name="enterprise_privacy_installed_packages">તમારા ડિવાઇસમાંની ઍપની સૂચિ</string>
     <string name="enterprise_privacy_location_access">સ્થાન માટેની પરવાનગીઓ</string>
-    <string name="enterprise_privacy_lock_device">વ્યવસ્થાપક ઉપકરણને લૉક કરી શકે છે અને પાસવર્ડ ફરીથી સેટ કરી શકે છે</string>
+    <string name="enterprise_privacy_lock_device">વ્યવસ્થાપક ડિવાઇસને લૉક કરી શકે છે અને પાસવર્ડ ફરીથી સેટ કરી શકે છે</string>
     <string name="enterprise_privacy_microphone_access">માઇક્રોફોન માટેની પરવાનગીઓ</string>
     <string name="enterprise_privacy_network_logs">સૌથી તાજેતનો નેટવર્ક ટ્રાફિક લૉગ</string>
     <string name="enterprise_privacy_none">કોઈ નહીં</string>
@@ -2312,7 +2310,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="enterprise_privacy_settings_summary_generic">ફેરફારો અને સેટિંગ તમારી સંસ્થા દ્વારા મેનેજ કરવામાં આવે છે</string>
     <string name="enterprise_privacy_settings_summary_with_name">ફેરફારો અને સેટિંગ %s દ્વારા મેનેજ કરવામાં આવે છે</string>
     <string name="enterprise_privacy_usage_stats">પ્રત્યેક ઍપ્લિકેશનમાં વપરાયેલ સમય અને ડેટા</string>
-    <string name="enterprise_privacy_wipe_device">વ્યવસ્થાપક ઉપકરણમાંનો બધો ડેટા કાઢી નાખી શકે છે</string>
+    <string name="enterprise_privacy_wipe_device">વ્યવસ્થાપક ડિવાઇસમાંનો બધો ડેટા કાઢી નાખી શકે છે</string>
     <string name="erase_euicc_data_button">કાઢી નાખો</string>
     <string name="erase_external_storage">USB સ્ટોરેજ ભૂસી નાખો</string>
     <string name="erase_external_storage_description">આંતરિક USB સંગ્રહમાંથી તમામ ડેટા કાઢી નાંખો, જેમ કે સંગીત અથવા ફોટો</string>
@@ -2382,7 +2380,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="face_unlock_set_unlock_pin">ફેસ અનલૉક + પિન</string>
     <string name="face_unlock_skip_face">ફેસ અનલૉક વિના ચાલુ રાખો</string>
     <string name="face_unlock_title">તમે તમારા ફોનને તમારા ચહેરાની મદદથી અનલૉક કરી શકો છો. સુરક્ષા માટે, આ વિકલ્પ હેતુ બૅકઅપ સ્ક્રીન લૉક આવશ્યક છે.</string>
-    <string name="failed_to_open_app_settings_toast">%1$s માટેની સેટિંગ્સ ખોલવામાં નિષ્ફળ</string>
+    <string name="failed_to_open_app_settings_toast">%1$s માટેના સેટિંગ ખોલવામાં નિષ્ફળ</string>
     <string name="fallback_menu_item_copy_link">લિંક કૉપિ કરો</string>
     <string name="fallback_menu_item_open_in_browser">બ્રાઉઝરમાં ખોલો</string>
     <string name="fallback_menu_item_share_link">લિંક શેર કરો</string>
@@ -2407,7 +2405,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="filter_notif_low_channels">કૅટેગરી: ઓછી મહત્વની</string>
     <string name="filter_notif_urgent_channels">કૅટેગરી: તાત્કાલિક મહત્વની</string>
     <string name="filter_overlay_apps">પરવાનગી સાથેની ઍપ્લિકેશનો</string>
-    <string name="filter_write_settings_apps">સિસ્ટમ સેટિંગ્સ સંશોધિત કરી શકે છે</string>
+    <string name="filter_write_settings_apps">સિસ્ટમ સેટિંગમાં ફેરફાર કરી શકે છે</string>
     <string name="financed_privacy_data">તમારા એકાઉન્ટ સાથે સંકળાયેલો ડેટા, જેમ કે ઇમેઇલ અને કૅલેન્ડરની માહિતી</string>
     <string name="financed_privacy_exposure_category">તમારા ડિવાઇસના વ્યવસ્થાપક જોઈ શકે તે પ્રકારની માહિતી</string>
     <string name="financed_privacy_exposure_changes_category">તમારા ડિવાઇસના વ્યવસ્થાપક દ્વારા કરાયેલા ફેરફારો</string>
@@ -2484,7 +2482,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
 જ્યારે તમે ઑટોમૅટિક બૅકઅપ ચાલુ કરો છો, ત્યારે ડિવાઇસ અને ઍપ ડેટા સમયાંતરે Google ડ્રાઇવમાં એક ખાનગી ફોલ્ડરમાં સચવાય છે. ઍપ ડેટા એવો ડેટા હોઈ શકે જે કોઈ ઍપએ સાચવેલો હોય (ડેવલપર સેટિંગના આધારે), જેમાં સંપર્કો, સંદેશા અને ફોટો જેવા સંભવિત સંવેદનશીલ ડેટાનો સમાવેશ થાય છે.
 
 તમારા Drive storage ક્વોટાની સામે બૅકઅપ ડેટાને ગણવામાં આવશે નહીં. મોટી ફાઇલો અથવા ડેવલપરે સેવામાંથી બાકાત રાખવાનું પસંદ કર્યું હોય તેવી ફાઇલોનું બૅકઅપ લેવામાં આવશે નહીં."</string>
-    <string name="fullbackup_erase_dialog_message">ઉપકરણ ડેટા (જેમ કે વાઇ-ફાઇ પાસવર્ડ્સ અને કૉલ ઇતિહાસ) અને ઍપ્લિકેશન ડેટા (જેમ કે સેટિંગ્સ અને ઍપ્લિકેશનો દ્વારા સંગ્રહિત ફાઇલો) નું બેકઅપ લેવાનું રોકીએ, ઉપરાંત Google ડ્રાઇવ પરની તમામ કૉપિઝ કાઢી નાખીએ?</string>
+    <string name="fullbackup_erase_dialog_message">ડિવાઇસ ડેટા (જેમ કે વાઇ-ફાઇ પાસવર્ડ અને કૉલ ઇતિહાસ) અને ઍપ ડેટા (જેમ કે સેટિંગ અને ઍપ દ્વારા સ્ટોર થયેલી ફાઇલો)નું બૅકઅપ લેવાનું રોકીએ, ઉપરાંત Google Drive પરની તમામ કૉપિ કાઢી નાખીએ?</string>
     <string name="gadget_picker_title">ગેજેટ પસંદ કરો</string>
     <string name="game_controller_settings_category">રમત નિયંત્રક</string>
     <string name="game_dashboard_always_on_summary">ગેમમાં ગેમ ડૅશબોર્ડનો શૉર્ટકટ બતાવો</string>
@@ -2561,14 +2559,14 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="guest_reset_guest_confirm_button">રીસેટ કરો</string>
     <string name="guest_reset_guest_dialog_title">અતિથિને રીસેટ કરીએ?</string>
     <string name="guest_resetting">અતિથિને રીસેટ કરી રહ્યાં છીએ…</string>
-    <string name="hardkeyboard_category">ભૌતિક કીબોર્ડ સેટિંગ્સ</string>
+    <string name="hardkeyboard_category">ભૌતિક કીબોર્ડ સેટિંગ</string>
     <string name="hardware_info">મૉડલ અને હાર્ડવેર</string>
     <string name="hardware_revision">હાર્ડવેર વર્ઝન</string>
     <string name="hdcp_checking_dialog_title">HDCP તપાસણીની વર્તણૂક બદલો</string>
     <string name="hdcp_checking_title">HDCP તપાસણી</string>
-    <string name="header_account_settings">એકાઉન્ટ સેટિંગ્સ</string>
+    <string name="header_account_settings">એકાઉન્ટ સેટિંગ</string>
     <string name="header_add_an_account">એકાઉન્ટ ઉમેરો</string>
-    <string name="header_application_sync_settings">ઍપ્લિકેશન સમન્વયન સેટિંગ્સ</string>
+    <string name="header_application_sync_settings">ઍપ સિંક સેટિંગ</string>
     <string name="header_category_wireless_networks">વાયરલેસ અને નેટવર્ક્સ</string>
     <string name="header_data_and_synchronization">ડેટા અને સમન્વયન</string>
     <string name="heavy_weight_stop_description">આ એપ્લિકેશનને સુરક્ષિત રીતે રોકી શકાતી નથી. જો તમે તેને રોકો, તો તમે તમારું કેટલુંક વર્તમાન કાર્ય ગુમાવી શકો છો.</string>
@@ -2591,9 +2589,9 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="history_details_title">ઇતિહાસ વિગતો</string>
     <string name="history_toggled_on_summary">તમારા એકદમ નવા અને સ્નૂઝ કરેલા નોટિફિકેશન અહીં દેખાશે</string>
     <string name="history_toggled_on_title">તાજેતરનું કોઈ નોટિફિકેશન નથી</string>
-    <string name="home">સેટિંગ્સ હોમ</string>
+    <string name="home">સેટિંગ હોમ</string>
     <string name="home_app">હોમ ઍપ્લિકેશન</string>
-    <string name="home_work_profile_not_supported">કાર્ય પ્રોફાઇલ્સનું સમર્થન કરતું નથી</string>
+    <string name="home_work_profile_not_supported">ઑફિસની પ્રોફાઇલને સપોર્ટ કરતું નથી</string>
     <string name="homepage_all_settings">બધી સેટિંગ</string>
     <string name="homepage_condition_footer_content_description">સંકુચિત કરો</string>
     <string name="homepage_personal_settings">સૂચનો</string>
@@ -2796,7 +2794,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="keywords_sounds">સ્પીકર બીપ, સ્પીકર, વૉલ્યૂમ, મ્યૂટ, સાઇલન્સ, ઑડિઓ, સંગીત</string>
     <string name="keywords_sounds_and_notifications_interruptions">ખલેલ પાડવી નહીં ખલેલ પાડશો નહીં, વિક્ષેપ કરો, વિક્ષેપ, વિરામ</string>
     <string name="keywords_spell_checker">જોડણી, શબ્દકોશ, જોડણી-તપાસ, સ્વતઃ-સુધારો</string>
-    <string name="keywords_storage">સ્થાન, ડિસ્ક, હાર્ડ ડ્રાઇવ, ઉપકરણ વપરાશ</string>
+    <string name="keywords_storage">સ્પેસ, ડિસ્ક, હાર્ડ ડ્રાઇવ, ડિવાઇસ વપરાશ</string>
     <string name="keywords_storage_files">ડાઉનલોડ કરો</string>
     <string name="keywords_storage_menu_free">સાફ કરો, સ્ટોરેજ</string>
     <string name="keywords_storage_settings">મેમરી, કૅશ મેમરી ડેટા, ડિલીટ કરો, સાફ કરો, ફ્રી કરો, સ્પેસ બનાવો</string>
@@ -2822,7 +2820,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="keywords_wifi_data_usage">ડેટા વપરાશ</string>
     <string name="keywords_wifi_display_settings">મીરર</string>
     <string name="keywords_wifi_notify_open_networks">વાઇ-ફાઇ નોટિફિકેશન, વાઇફાઇ નોટિફિકેશન</string>
-    <string name="keywords_write_settings">સિસ્ટમ સેટિંગ્સ સંશોધિત કરો લખો</string>
+    <string name="keywords_write_settings">સિસ્ટમ સેટિંગમાં ફેરફાર કરો લખો</string>
     <string name="keywords_zen_mode_settings">dnd, શેડ્યૂલ, સૂચનાઓ, બ્લૉક, સાઇલન્સ, વાઇબ્રેટ, ઊંઘ, કાર્ય, ધ્યાન, સાઉન્ડ, મ્યૂટ, દિવસ, અઠવાડિયાના દિવસ, વીકએન્ડ, સપ્તાહની રાત્રિ, ઇવેન્ટ</string>
     <string name="label_available">ઉપલબ્ધ નેટવર્ક</string>
     <string name="language_and_input_for_work_category_title">કાર્યાલયનું પ્રોફાઇલ અને સાધનો</string>
@@ -2918,7 +2916,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="lock_failed_attempts_now_wiping_user">ઘણા બધા ખોટા પ્રયત્નો. આ વપરાશકર્તાને કાઢી નાખવામાં આવશે.</string>
     <string name="lock_immediately_summary_with_exception">સમયસમાપ્તિ પછી તરત, જ્યારે %1$s દ્વારા અનલૉક રાખવામાં આવેલી હોય તે સિવાય</string>
     <string name="lock_last_attempt_before_wipe_warning_title">તમારો ડેટા ડિલીટ કરવામાં આવશે</string>
-    <string name="lock_last_password_attempt_before_wipe_device">જો તમે આગલા પ્રયત્નમાં ખોટો પાસવર્ડ દાખલ કરશો, તો આ ઉપકરણનો ડેટા કાઢી નાખવામાં આવશે</string>
+    <string name="lock_last_password_attempt_before_wipe_device">જો તમે આગલા પ્રયત્નમાં ખોટો પાસવર્ડ દાખલ કરશો, તો આ ડિવાઇસનો ડેટા કાઢી નાખવામાં આવશે</string>
     <string name="lock_last_password_attempt_before_wipe_profile">જો તમે આગલા પ્રયત્નમાં ખોટો પાસવર્ડ દાખલ કરશો, તો તમારી કાર્યાલયની પ્રોફાઇલ અને તેનો ડેટા ડિલીટ કરવામાં આવશે</string>
     <string name="lock_last_password_attempt_before_wipe_user">જો તમે આગલા પ્રયત્નમાં ખોટો પાસવર્ડ દાખલ કરશો, તો આ વપરાશકર્તાને કાઢી નાખવામાં આવશે</string>
     <string name="lock_last_pattern_attempt_before_wipe_device">જો તમે આગલા પ્રયત્નમાં ખોટી પૅટર્ન દાખલ કરશો, તો આ ઉપકરણનો ડેટા કાઢી નાખવામાં આવશે</string>
@@ -2927,8 +2925,8 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="lock_last_pin_attempt_before_wipe_device">જો તમે આગલા પ્રયત્નમાં ખોટો પિન દાખલ કરશો, તો આ ઉપકરણનો ડેટા કાઢી નાખવામાં આવશે</string>
     <string name="lock_last_pin_attempt_before_wipe_profile">જો તમે આગલા પ્રયત્નમાં ખોટો પિન દાખલ કરશો, તો તમારી કાર્યાલયની પ્રોફાઇલ અને તેનો ડેટા ડિલીટ કરવામાં આવશે</string>
     <string name="lock_last_pin_attempt_before_wipe_user">જો તમે આગલા પ્રયત્નમાં ખોટો પિન દાખલ કરશો,તો આ વપરાશકર્તાને કાઢી નાખવામાં આવશે</string>
-    <string name="lock_screen_intro_skip_dialog_text">ઉપકરણની સુરક્ષાની સુવિધાઓ ચાલુ કરવામાં નહીં આવે. જો આ ફોન ખોવાઈ કે ચોરાઈ જાય, તો તમે અન્ય લોકોને તેનો ઉપયોગ કરતા અટકાવી નહીં શકો.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">ઉપકરણની સુરક્ષાની સુવિધાઓ ચાલુ કરવામાં નહીં આવે. જો આ ફોન ખોવાઈ જાય, ચોરાઈ જાય કે રીસેટ કરવામાં આવે, તો તમે અન્ય લોકોને તેનો ઉપયોગ કરતા અટકાવી નહીં શકો.</string>
+    <string name="lock_screen_intro_skip_dialog_text">ડિવાઇસની સુરક્ષાની સુવિધાઓ ચાલુ કરવામાં નહીં આવે. જો આ ફોન ખોવાઈ કે ચોરાઈ જાય, તો તમે અન્ય લોકોને તેનો ઉપયોગ કરતા અટકાવી નહીં શકો.</string>
+    <string name="lock_screen_intro_skip_dialog_text_frp">ડિવાઇસની સુરક્ષાની સુવિધાઓ ચાલુ કરવામાં નહીં આવે. જો આ ફોન ખોવાઈ જાય, ચોરાઈ જાય કે રીસેટ કરવામાં આવે, તો તમે અન્ય લોકોને તેનો ઉપયોગ કરતા અટકાવી નહીં શકો.</string>
     <string name="lock_screen_intro_skip_title">સ્ક્રીન લૉક છોડી દઈએ?</string>
     <string name="lock_screen_notifications_interstitial_message">તમને લૉક સ્ક્રીનનું ડિસ્પ્લે કેવું જોઈએ છે?</string>
     <string name="lock_screen_notifications_interstitial_message_profile">જ્યારે તમારું ઉપકરણ લૉક કરેલું હોય, ત્યારે તમે પ્રોફાઇલ નોટિફિકેશનો કેવી રીતે બતાવવા માગો છો?</string>
@@ -3036,17 +3034,17 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="lockpassword_confirm_label">કન્ફર્મ કરો</string>
     <string name="lockpassword_confirm_passwords_dont_match">પાસવર્ડ મેળ ખાતા નથી</string>
     <string name="lockpassword_confirm_pins_dont_match">પિન મેળ ખાતા નથી</string>
-    <string name="lockpassword_confirm_your_password_details_frp">ફોન ફેક્ટરી સેટિંગ્સ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારો આગલો પાસવર્ડ દાખલ કરો.</string>
+    <string name="lockpassword_confirm_your_password_details_frp">ફોન ફેક્ટરી સેટિંગ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારો આગલો પાસવર્ડ દાખલ કરો.</string>
     <string name="lockpassword_confirm_your_password_generic">ચાલુ રાખવા માટે તમારા ઉપકરણનો પાસવર્ડ દાખલ કરો</string>
     <string name="lockpassword_confirm_your_password_generic_profile">ચાલુ રાખવા માટે તમારો કાર્ય પાસવર્ડ દાખલ કરો</string>
     <string name="lockpassword_confirm_your_password_header">તમારો પાસવર્ડ ફરી દાખલ કરો</string>
     <string name="lockpassword_confirm_your_password_header_frp">પાસવર્ડની ચકાસણી કરો</string>
-    <string name="lockpassword_confirm_your_pattern_details_frp">ફોન ફેક્ટરી સેટિંગ્સ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારી આગલી પૅટર્ન દાખલ કરો.</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp">ફોન ફેક્ટરી સેટિંગ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારી આગલી પૅટર્ન દાખલ કરો.</string>
     <string name="lockpassword_confirm_your_pattern_generic">આગળ વધવા માટે તમારી ડિવાઇસ પૅટર્નનો ઉપયોગ કરો</string>
     <string name="lockpassword_confirm_your_pattern_generic_profile">ચાલુ રાખવા માટે તમારી કાર્ય પેટર્નનો ઉપયોગ કરો</string>
     <string name="lockpassword_confirm_your_pattern_header">તમારી પૅટર્નની પુષ્ટિ કરો</string>
     <string name="lockpassword_confirm_your_pattern_header_frp">પૅટર્નની ચકાસણી કરો</string>
-    <string name="lockpassword_confirm_your_pin_details_frp">ફોન ફેક્ટરી સેટિંગ્સ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારી આગલી પિન દાખલ કરો.</string>
+    <string name="lockpassword_confirm_your_pin_details_frp">ફોન ફેક્ટરી સેટિંગ પર રીસેટ કરવામાં આવ્યો છે. આ ફોનનો ઉપયોગ કરવા માટે તમારો આગળનો પિન દાખલ કરો.</string>
     <string name="lockpassword_confirm_your_pin_generic">આગળ વધવા માટે તમારો ડિવાઇસ પિન દાખલ કરો</string>
     <string name="lockpassword_confirm_your_pin_generic_profile">આગળ વધવા માટે તમારો કાર્ય પિન દાખલ કરો</string>
     <string name="lockpassword_confirm_your_pin_header">તમારો પિન ફરી દાખલ કરો</string>
@@ -3063,7 +3061,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="lockpassword_illegal_character">આમાં અમાન્ય અક્ષરોનો સમાવેશ થઈ શકતો નથી</string>
     <string name="lockpassword_invalid_password">ખોટો પાસવર્ડ</string>
     <string name="lockpassword_invalid_pin">ખોટો પિન</string>
-    <string name="lockpassword_password_recently_used">ઉપકરણ વ્યવસ્થાપક તાજેતરનાં પાસવર્ડનો ઉપયોગ કરવાની મંજૂરી આપતા નથી</string>
+    <string name="lockpassword_password_recently_used">ડિવાઇસ વ્યવસ્થાપક તાજેતરનાં પાસવર્ડનો ઉપયોગ કરવાની મંજૂરી આપતા નથી</string>
     <string name="lockpassword_password_requires_alpha">ઓછામાં ઓછો એક વર્ણ હોવો આવશ્યક છે</string>
     <string name="lockpassword_password_requires_digit">ઓછામાં ઓછો એક અંક હોવો આવશ્યક છે</string>
     <string name="lockpassword_password_requires_symbol">ઓછામાં ઓછું એક પ્રતિક હોવું આવશ્યક છે</string>
@@ -3106,7 +3104,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="lockpattern_settings_help_how_to_record">એક અનલૉક પૅટર્ન કેવી રીતે દોરવી</string>
     <string name="lockpattern_settings_power_button_instantly_locks_summary">જ્યારે %1$s દ્વારા અનલૉક રાખવામાં આવેલ હોય તે સિવાય</string>
     <string name="lockpattern_settings_require_cred_before_startup">સુરક્ષિત પ્રારંભ</string>
-    <string name="lockpattern_settings_require_password_before_startup_summary">તમારા ઉપકરણને પ્રારંભ કરવા માટે પાસવર્ડ આવશ્યક. જ્યારે બંધ હોય તે વખતે, આ ઉપકરણ કૉલ્સ, સંદેશા, સૂચનાઓ અથવા એલાર્મ્સ પ્રાપ્ત કરી શકતું નથી.</string>
+    <string name="lockpattern_settings_require_password_before_startup_summary">તમારા ડિવાઇસને શરૂ કરવા માટે પાસવર્ડ આવશ્યક. જ્યારે બંધ હોય તે વખતે, આ ડિવાઇસ કૉલ, સંદેશા, નોટિફિકેશન અથવા અલાર્મ પ્રાપ્ત કરી શકતું નથી.</string>
     <string name="lockpattern_settings_require_pattern_before_startup_summary">તમારા ઉપકરણને પ્રારંભ કરવા માટે પૅટર્ન આવશ્યક. જ્યારે બંધ હોય તે વખતે, આ ઉપકરણ કૉલ, સંદેશા, સૂચનાઓ અથવા એલાર્મ પ્રાપ્ત કરી શકતું નથી.</string>
     <string name="lockpattern_settings_require_pin_before_startup_summary">તમારા ઉપકરણને પ્રારંભ કરવા માટે પિન આવશ્યક. જ્યારે બંધ હોય તે વખતે, આ ઉપકરણ કૉલ, સંદેશા, સૂચનાઓ અથવા એલાર્મ પ્રાપ્ત કરી શકતું નથી.</string>
     <string name="lockpattern_settings_title">અનલૉક પૅટર્ન</string>
@@ -3535,7 +3533,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="no_data_usage">કોઈ ડેટાનો ઉપયોગ કર્યો નથી</string>
     <string name="no_default_apps">કોઇ ડિફોલ્ટ ઍપ્લિકેશનો નથી.</string>
     <string name="no_default_home">કોઈ ડિફોલ્ટ હોમ નથી</string>
-    <string name="no_device_admins">કોઈ ઉપકરણ વ્યવસ્થાપક ઍપ્લિકેશનો ઉપલબ્ધ નથી</string>
+    <string name="no_device_admins">કોઈ ડિવાઇસ વ્યવસ્થાપક ઍપ ઉપલબ્ધ નથી</string>
     <string name="no_internet_access_remember">આ નેટવર્ક વિશે મને ફરીથી પૂછશો નહીં</string>
     <string name="no_internet_access_text">આ નેટવર્કને ઇન્ટરનેટનો ઍક્સેસ નથી. કનેક્ટેડ રહીએ?</string>
     <string name="no_memory_use_summary">છેલ્લા 3 કલાકમાં કોઈ મેમરી ઉપયોગમાં લીધી નથી</string>
@@ -3568,7 +3566,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="notif_type_silent_summary">ક્યારેય સાઉન્ડ કે વાઇબ્રેશન ન કરતા નોટિફિકેશન</string>
     <string name="notification_access_detail_switch">નોટિફિકેશન ઍક્સેસ કરવાની મંજૂરી આપો</string>
     <string name="notification_alert_title">ડિફૉલ્ટ</string>
-    <string name="notification_app_settings_button">સૂચનાઓની સેટિંગ્સ</string>
+    <string name="notification_app_settings_button">નોટિફિકેશન સેટિંગ</string>
     <string name="notification_app_switch_label">%1$sના બધા નોટિફિકેશન</string>
     <string name="notification_assistant_security_warning_summary">"Android 12માં Android માટે અનુકૂળ નોટિફિકેશનને બદલે વધુ સારા નોટિફિકેશન છે. આ સુવિધા સૂચિત ક્રિયાઓ અને જવાબો બતાવે છે તેમજ તમારા નોટિફિકેશનની યોગ્ય ગોઠવણી કરે છે. 
 
@@ -3698,7 +3696,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="notifications_summary_divider"> / </string>
     <string name="notifications_title">નોટિફિકેશન</string>
     <string name="number_of_device_admins_none">કોઈ સક્રિય ઍપ નથી</string>
-    <string name="oem_lock_info_message">ઉપકરણ સુરક્ષા સુવિધા ચાલુ કરવા માટે કૃપા કરીને ઉપકરણને ફરી શરૂ કરો.</string>
+    <string name="oem_lock_info_message">ડિવાઇસ સુરક્ષા સુવિધા ચાલુ કરવા માટે કૃપા કરીને ડિવાઇસને ફરી શરૂ કરો.</string>
     <string name="oem_unlock_enable">OEM અનલૉકિંગ</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked">બૂટલોડર પહેલાંથી અનલૉક કરેલું છે</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity">પહેલાં ઇન્ટરનેટ સાથે કનેક્ટ થાઓ</string>
@@ -3717,7 +3715,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="one_handed_mode_use_shortcut_category">આ માટે શૉર્ટકટનો ઉપયોગ કરો</string>
     <string name="one_usercrt">એક વપરાશકર્તા પ્રમાણપત્ર</string>
     <string name="one_userkey">એક વપરાશકર્તા કી</string>
-    <string name="onscreen_keyboard_settings_summary">ઓનસ્ક્રીન કીબોર્ડ સેટિંગ્સ</string>
+    <string name="onscreen_keyboard_settings_summary">ઑનસ્ક્રીન કીબોર્ડ સેટિંગ</string>
     <string name="open_app_button">%1$s ખોલો</string>
     <string name="open_supported_links_footer">નીચેની લિંક ખોલવા માટેના ઍપના દાવા:</string>
     <string name="opening_paragraph_delete_profile_unknown_company">આ કાર્યાલયની પ્રોફાઇલ આમના દ્વારા મેનેજ થાય છે:</string>
@@ -3769,7 +3767,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="picture_in_picture_app_detail_summary">જ્યારે ઍપ ખુલ્લી હોય અથવા તમે તેમાંથી બહાર આવી ગયા હો (ઉદાહરણ તરીકે, વીડિયો જોવાનું ચાલુ રાખવા માટે), ત્યારે આ ઍપને ચિત્રમાં-ચિત્ર વિન્ડો બનાવવાની મંજૂરી આપો. આ વિન્ડો તમે ઉપયોગ કરતાં હોય તે અન્ય ઍપની સૌથી ઉપર ડિસ્પ્લે થાય છે.</string>
     <string name="picture_in_picture_app_detail_switch">ચિત્રમાં-ચિત્રને મંજૂરી આપો</string>
     <string name="picture_in_picture_app_detail_title">ચિત્ર-માં-ચિત્ર</string>
-    <string name="picture_in_picture_empty_text">કોઈપણ ઇન્સ્ટૉલ કરેલી ઍપ્લિકેશન ચિત્ર-માં-ચિત્રને સમર્થન આપતી નથી</string>
+    <string name="picture_in_picture_empty_text">કોઈપણ ઇન્સ્ટૉલ કરેલી ઍપ ચિત્ર-માં-ચિત્રને સપોર્ટ કરતી નથી</string>
     <string name="picture_in_picture_keywords">ચિત્ર-માં-ચિત્રમાં ચિત્ર</string>
     <string name="picture_in_picture_title">ચિત્ર-માં-ચિત્ર</string>
     <string name="pin_failed">સિમ પિન ઑપરેશન નિષ્ફળ થયું!</string>
@@ -4070,7 +4068,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="reset_importance_completed">નોટિફિકેશનનું મહત્ત્વ રીસેટ કરવાની પ્રક્રિયા પૂર્ણ થઈ.</string>
     <string name="reset_internet_text">આનાથી તમારો ફોન કૉલ સમાપ્ત થશે</string>
     <string name="reset_network_button_text">સેટિંગ ફરીથી સેટ કરો</string>
-    <string name="reset_network_complete_toast">નેટવર્ક સેટિંગ્સ ફરીથી સેટ કરવામાં આવી છે</string>
+    <string name="reset_network_complete_toast">નેટવર્ક સેટિંગ રીસેટ કરવામાં આવ્યા છે</string>
     <string name="reset_network_confirm_title">ફરીથી સેટ કરીએ?</string>
     <string name="reset_network_desc">"આ બધા નેટવર્ક સેટિંગ રીસેટ કરશે, જેમાં આનો સમાવેશ છે: 
 
@@ -4085,8 +4083,8 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="reset_shortcut_manager_throttling_complete">ShortcutManager દરને મર્યાદિત કરવાનું ફરીથી સેટ કરવામાં આવ્યું</string>
     <string name="reset_your_internet_title">તમારું ઇન્ટરનેટ રીસેટ કરીએ?</string>
     <string name="resetting_internet_text">તમારું ઇન્ટરનેટ રીસેટ કરી રહ્યાં છીએ…</string>
-    <string name="restore_default_apn">ડિફોલ્ટ APN સેટિંગ્સ પુનર્સ્થાપિત કરવી.</string>
-    <string name="restore_default_apn_completed">ડિફોલ્ટ APN સેટિંગ્સ ફરીથી સેટ કરો પૂર્ણ થયું.</string>
+    <string name="restore_default_apn">ડિફૉલ્ટ APN સેટિંગ રિસ્ટોર કરવા.</string>
+    <string name="restore_default_apn_completed">ડિફૉલ્ટ APN સેટિંગ રીસેટ કરો પૂર્ણ થયું.</string>
     <string name="restr_pin_enter_admin_pin">વ્યવસ્થાપક પિન દાખલ કરો</string>
     <string name="restrict_background_blocklisted">બૅકગ્રાઉન્ડ ડેટા બંધ કર્યો છે</string>
     <string name="restricted_app_detail_footer">બૅટરીનો વપરાશ બૅકગ્રાઉન્ડમાં કરવાથી આ બધી ઍપને પ્રતિબંધિત કરવામાં આવી છે. તે અપેક્ષિત રીતે કાર્ય કરી શકશે નહીં અને નોટિફિકેશન વિલંબિત થઈ શકે છે.</string>
@@ -4094,7 +4092,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="restricted_app_title">પ્રતિબંધિત ઍપ</string>
     <string name="restricted_false_label">ઍપ બૅકગ્રાઉન્ડમાં બૅટરીનો ઉપયોગ કરી શકે છે</string>
     <string name="restricted_true_label">પ્રતિબંધિત</string>
-    <string name="restriction_bluetooth_config_summary">બ્લૂટૂથ જોડીઓ અને સેટિંગ્સનાં સંશોધનની મંજૂરી આપો</string>
+    <string name="restriction_bluetooth_config_summary">બ્લૂટૂથ જોડીઓ અને સેટિંગ ફેરફાર કરવાની મંજૂરી આપો</string>
     <string name="restriction_bluetooth_config_title">બ્લૂટૂથ</string>
     <string name="restriction_location_enable_summary">એપ્લિકેશન્સને તમારી સ્થાન માહિતીનો ઉપયોગ કરવા દો</string>
     <string name="restriction_location_enable_title">સ્થાન</string>
@@ -4104,7 +4102,7 @@ Codec પસંદગી ટ્રિગર કરો: પ્લેબૅક ક
     <string name="restriction_nfc_enable_summary_config">જ્યારે આ %1$s બીજા NFC ઉપકરણને ટચ કરે ત્યારે ડેટા ફેરબદલીની મંજૂરી આપો</string>
     <string name="restriction_nfc_enable_title">NFC</string>
     <string name="restriction_settings_title">પ્રતિબંધો</string>
-    <string name="restriction_wifi_config_summary">વાઇ-ફાઇ અને મોબાઇલ સેટિંગ્સનાં સંશોધનની મંજૂરી આપો</string>
+    <string name="restriction_wifi_config_summary">વાઇ-ફાઇ અને મોબાઇલ સેટિંગમાં ફેરફાર કરવાની મંજૂરી આપો</string>
     <string name="restriction_wifi_config_title">વાઇ-ફાઇ અને મોબાઇલ</string>
     <string name="retail_demo_reset_message">ડેમો મોડમાં ફેક્ટરી રીસેટ પાસવર્ડ દાખલ કરો</string>
     <string name="retail_demo_reset_next">આગલું</string>
@@ -4557,7 +4555,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="service_background_processes">%1$s મફત</string>
     <string name="service_foreground_processes">%1$s વપરાયેલ</string>
     <string name="service_manage">સેટિંગ</string>
-    <string name="service_manage_description">%1$s: હાલમાં ઉપયોગમાં છે. તેને નિયંત્રિત કરવા માટે સેટિંગ્સ ટૅપ કરો.</string>
+    <string name="service_manage_description">%1$s: હાલમાં ઉપયોગમાં છે. તેને નિયંત્રિત કરવા માટે સેટિંગ ટૅપ કરો.</string>
     <string name="service_restarting">પુનઃપ્રારંભ કરી રહ્યું છે</string>
     <string name="service_started_by_app">ઍપ્લિકેશન દ્વારા પ્રારંભ થયો.</string>
     <string name="service_stop">રોકો</string>
@@ -4565,8 +4563,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="services_subtitle">સેવાઓ</string>
     <string name="set_data_limit">ડેટા મર્યાદા સેટ કરો</string>
     <string name="set_data_warning">ડેટા ચેતવણી સેટ કરો</string>
-    <string name="settings_backup">બેકઅપ સેટિંગ્સ</string>
-    <string name="settings_backup_summary">મારી સેટિંગ્સનો બેક અપ લો</string>
+    <string name="settings_backup">બૅકઅપ સેટિંગ</string>
+    <string name="settings_backup_summary">મારા સેટિંગનો બૅકઅપ લો</string>
     <string name="settings_button">સેટિંગ</string>
     <string name="settings_label">સેટિંગ</string>
     <string name="settings_label_launcher">સેટિંગ</string>
@@ -4580,12 +4578,12 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="settings_safetylegal_activity_title">સલામતી માહિતી</string>
     <string name="settings_safetylegal_activity_unreachable">તમારી પાસે ડેટા કનેક્શન નથી. આ માહિતી હમણાં જોવા માટે, ઇન્ટરનેટ સાથે કનેક્ટ થયેલ કોઈપણ કમ્પ્યુટરથી %s પર જાઓ.</string>
     <string name="settings_safetylegal_title">સલામતી માહિતી</string>
-    <string name="settings_shortcut">સેટિંગ્સ શૉર્ટકટ</string>
+    <string name="settings_shortcut">સેટિંગ શૉર્ટકટ</string>
     <string name="settingslib_learn_more_text">વધુ જાણો</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message">તમે તમારા ફોનને અનલૉક કરવા માટેની એક રીત તરીકે તમારી ફિંગરપ્રિન્ટને ઉપયોગમાં લેવાનું પસંદ કર્યું છે. જો તમે હવે છોડી દો છો, તો તમારે આને પછીથી સેટ કરવું પડશે. સેટઅપમાં માત્ર એક મિનિટ અથવા તેથી વધુ સમય લાગે છે.</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title">ફિંગરપ્રિન્ટ સેટ કરવાનું છોડીએ?</string>
     <string name="setup_fingerprint_enroll_finish_message">તમારા ફોનને સક્રિય અને અનલૉક કરવા માટે બસ Nexus Imprint સેન્સરને સ્પર્શ કરો.</string>
-    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">ફિંગરપ્રિન્ટ સેટઅપ કરવા માત્ર એકથી બે મિનિટ જરૂરી છે. જો તમે આ છોડી દો, તો તમે સેટિંગ્સમાં પછીથી તમારી ફિંગરપ્રિન્ટ ઉમેરી શકો છો.</string>
+    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">ફિંગરપ્રિન્ટ સેટઅપ કરવા માત્ર એકથી બે મિનિટ જરૂરી છે. જો તમે આ છોડી દો, તો તમે સેટિંગમાં પછીથી તમારી ફિંગરપ્રિન્ટ ઉમેરી શકો છો.</string>
     <string name="setup_fingerprint_enroll_skip_title">ફિંગરપ્રિન્ટ છોડી દઈએ?</string>
     <string name="setup_lock_settings_options_button_label">સ્ક્રીન લૉકના વિકલ્પો</string>
     <string name="setup_lock_settings_options_dialog_title">સ્ક્રીન લૉકના વિકલ્પો</string>
@@ -4597,8 +4595,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="severe_threats_title">ગંભીર જોખમો</string>
     <string name="share">શેર કરો</string>
     <string name="share_remote_bugreport_action">શેર કરો</string>
-    <string name="share_remote_bugreport_dialog_message">તમારા IT વ્યવસ્થાપક એ આ ઉપકરણની સમસ્યા નિવારણમાં સહાય માટે બગ રિપોર્ટની વિનંતી કરી છે. ઍપ્લિકેશનો અને ડેટા શેર કરવામાં આવી શકે છે અને તમારા ઉપકરણને અસ્થાયી રૂપે ધીમું કરી શકે છે.</string>
-    <string name="share_remote_bugreport_dialog_message_finished">તમારા IT વ્યવસ્થાપક એ આ ઉપકરણની સમસ્યા નિવારણમાં સહાય માટે બગ રિપોર્ટની વિનંતી કરી છે. ઍપ્લિકેશનો અને ડેટા શેર કરવામાં આવી શકે છે.</string>
+    <string name="share_remote_bugreport_dialog_message">તમારા IT વ્યવસ્થાપકે આ ડિવાઇસની સમસ્યા નિવારણમાં સહાય માટે બગ રિપોર્ટની વિનંતી કરી છે. ઍપ અને ડેટા શેર કરવામાં આવી શકે છે અને તમારું ડિવાઇસ હંગામીરૂપે ધીમું થઈ શકે છે.</string>
+    <string name="share_remote_bugreport_dialog_message_finished">તમારા IT વ્યવસ્થાપકે આ ડિવાઇસની સમસ્યા નિવારણમાં સહાય માટે બગ રિપોર્ટની વિનંતી કરી છે. ઍપ અને ડેટા શેર કરવામાં આવી શકે છે.</string>
     <string name="share_remote_bugreport_dialog_title">બગ રિપોર્ટ શેર કરીએ?</string>
     <string name="shared_data_delete_failure_text">શેર કરેલો ડેટા ડિલીટ કરતી વખતે ભૂલ આવી.</string>
     <string name="shared_data_no_accessors_dialog_text">આ શેર કરેલા ડેટા માટે કોઈ લીઝ મેળવેલી નથી. શું તમારે તેને ડિલીટ કરવો છે?</string>
@@ -4716,7 +4714,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="sim_no_inserted_msg">કોઈ સિમ કાર્ડ શામેલ કરેલ નથી</string>
     <string name="sim_notification_summary">સેટ કરવા માટે ટૅપ કરો</string>
     <string name="sim_notification_title">સિમ કાર્ડ બદલાયા છે.</string>
-    <string name="sim_other_call_settings">અન્ય કૉલ સેટિંગ્સ</string>
+    <string name="sim_other_call_settings">અન્ય કૉલ સેટિંગ</string>
     <string name="sim_outgoing_call_title">આઉટગોઇંગ કૉલ્સ માટે સિમ</string>
     <string name="sim_pin_change">સિમ પિન બદલો</string>
     <string name="sim_pin_disable_failed">પિન બંધ કરી શકાતો નથી.</string>
@@ -4760,6 +4758,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="smart_forwarding_summary_enabled">સ્માર્ટ ફૉરવર્ડિંગની સુવિધા ચાલુ કરી છે</string>
     <string name="smart_forwarding_title">સ્માર્ટ ફૉરવર્ડિંગ</string>
     <string name="smart_notifications_title">સુવિધાજનક નોટિફિકેશન</string>
+    <string name="smart_rotate_text_headline">ચહેરા ઓળખવાની ટેક્નોલોજી ઑટો રોટેટ (સ્ક્રીનની ઑટોમૅટિક રીતે ફરવાની ક્રિયા)ને બહેતર બનાવવા માટે ફ્રન્ટ ફેસિંગ કૅમેરાનો ઉપયોગ કરે છે. છબીઓ ક્યારેય સ્ટોર કરવામાં આવતી નથી કે Googleને મોકલવામાં આવતી નથી.</string>
     <string name="sms_application_title">SMS ઍપ્લિકેશન</string>
     <string name="sms_change_default_dialog_text">તમારી SMS ઍપ્લિકેશન તરીકે %2$s ના બદલે %1$s નો ઉપયોગ કરીએ?</string>
     <string name="sms_change_default_dialog_title">SMS ઍપ્લિકેશન બદલાવીએ?</string>
@@ -4820,7 +4819,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="status_number_sim_slot">ફોન નંબર (સિમ સ્લૉટ %1$d)</string>
     <string name="status_number_sim_status">સિમ પરનો ફોન નંબર</string>
     <string name="status_operator">નેટવર્ક</string>
-    <string name="status_prl_version">PRL સંસ્કરણ</string>
+    <string name="status_prl_version">PRL વર્ઝન</string>
     <string name="status_roaming">રોમિંગ</string>
     <string name="status_serial_number">અનુક્રમ નંબર</string>
     <string name="status_service_state">સેવા સ્થિતિ</string>
@@ -4851,13 +4850,13 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="storage_images">છબીઓ</string>
     <string name="storage_internal_forget_confirm">આ ^1 પર સંગ્રહિત તમામ ઍપ્લિકેશનો, ફોટો અને ડેટા કાયમ માટે જતો રહેશે.</string>
     <string name="storage_internal_forget_confirm_title">^1 ભૂલી ગયાં?</string>
-    <string name="storage_internal_forget_details">"આ ^1 ધરાવે છે, તે ઍપ્લિકેશનો, ફોટો અથવા ડેટાનો ઉપયોગ કરવા માટે, તેને ફરીથી શામેલ કરો. 
+    <string name="storage_internal_forget_details">"આ ^1 ધરાવે છે, તે ઍપ, ફોટા અથવા ડેટાનો ઉપયોગ કરવા માટે, તેને ફરીથી શામેલ કરો. 
 
-વૈકલ્પિક રૂપે, જો તમે ઉપકરણ ઉપલબ્ધ ન હોય તો આ સંગ્રહને ભૂલી જવાનું પસંદ કરી શકો છો. 
+વૈકલ્પિક રૂપે, જો તમે ડિવાઇસ ઉપલબ્ધ ન હોય તો આ સ્ટોરેજને ભૂલી જવાનું પસંદ કરી શકો છો. 
 
-જો તમે ભૂલી જવાનું પસંદ કરો છો, તો ઉપકરણમાં શામેલ તમામ ડેટા કાયમ માટે ગુમ થઈ જશે. 
+જો તમે ભૂલી જવાનું પસંદ કરો છો, તો ડિવાઇસમાં શામેલ તમામ ડેટા કાયમ માટે ગુમ થઈ જશે. 
 
-તમે પછીથી ઍપ્લિકેશનોને ફરીથી ઇન્સ્ટોલ કરી શકો છો, પરંતુ આ ઉપકરણ પર સંગ્રહિત તેમનો ડેટા ગુમ થઈ જશે."</string>
+તમે પછીથી ઍપને ફરીથી ઇન્સ્ટોલ કરી શકો છો, પરંતુ આ ડિવાઇસ પર સ્ટોર કરેલો તેમનો ડેટા ગુમ થઈ જશે."</string>
     <string name="storage_internal_format_details">"ફોર્મેટ કર્યા પછી, તમે અન્ય ઉપકરણોમાં આ ^1 નો ઉપયોગ કરી શકો છો. 
 
 ^1 પરનો તમામ ડેટા કાઢી નાખવામાં આવશે. પહેલા બેક અપ લેવાનો વિચાર કરો. 
@@ -4938,7 +4937,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="storage_wizard_format_confirm_v2_action">^1ને ફૉર્મેટ કરો</string>
     <string name="storage_wizard_format_confirm_v2_body">"ઍપ, ફાઇલો અને મીડિયાને સ્ટોર કરવા માટે આ ^1ને ફૉર્મેટ કરવું જરૂરી છે. 
 
-ફૉર્મેટ કરવાથી ^2 પરનું હાલનું કન્ટેન્ટ કાઢી નખાશે. કન્ટેન્ટ ગુમાવવાનું ટાળવા માટે તેનો અન્ય ^3 અથવા ઉપકરણ પર બૅકઅપ લો."</string>
+ફૉર્મેટ કરવાથી ^2 પરનું હાલનું કન્ટેન્ટ કાઢી નખાશે. કન્ટેન્ટ ગુમાવવાનું ટાળવા માટે તેનો અન્ય ^3 અથવા ડિવાઇસ પર બૅકઅપ લો."</string>
     <string name="storage_wizard_format_confirm_v2_title">આ ^1ને ફૉર્મેટ કરીએ?</string>
     <string name="storage_wizard_format_progress_body">^1ને તે ફોર્મેટ થઈ રહ્યું હોય તે વખતે દૂર કરશો નહીં.</string>
     <string name="storage_wizard_format_progress_title">^1 ને ફોર્મેટ કરી રહ્યાં છે…</string>
@@ -4994,7 +4993,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="storage_wizard_ready_external_body">ફોટો અને અન્ય મીડિયા સાથે ઉપયોગ કરવા માટે તમારું ^1 સેટ કરેલ છે.</string>
     <string name="storage_wizard_ready_internal_body">"તમારું નવું ^1 કાર્ય કરી રહ્યું છે. 
 
-આ ઉપકરણ પર ફોટો, ફાઇલો અને ઍપ્લિકેશન ડેટા ખસેડવા માટે, સેટિંગ્સ > સ્ટોરેજ પર જાઓ."</string>
+આ ડિવાઇસ પર ફોટા, ફાઇલો અને ઍપ ડેટા ખસેડવા માટે, સેટિંગ > સ્ટોરેજ પર જાઓ."</string>
     <string name="storage_wizard_ready_title">તમારું ^1 ઉપયોગ કરવા માટે તૈયાર છે</string>
     <string name="storage_wizard_ready_v2_external_body">^1 પર તમે કન્ટેન્ટ ખસેડી શકો છો</string>
     <string name="storage_wizard_ready_v2_internal_body">કન્ટેન્ટને ^1માં ખસેડવા માટે, <b>સેટિંગ > સ્ટોરેજ પર જાઓ</b></string>
@@ -5124,7 +5123,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="tethering_hardware_offload_summary">જો ટિથરિંગ માટે હાર્ડવેર ગતિવૃદ્ધિ ઉપલબ્ધ હોય તો તેનો ઉપયોગ કરો</string>
     <string name="tethering_help_button_text">સહાય</string>
     <string name="tethering_interface_options">ઇન્ટરનેટ શેર કરવાની સુવિધા</string>
-    <string name="tethering_settings_not_available">આ વપરાશકર્તા માટે ટિથરિંગ સેટિંગ્સ ઉપલબ્ધ નથી</string>
+    <string name="tethering_settings_not_available">આ વપરાશકર્તા માટે ટિથરિંગ સેટિંગ ઉપલબ્ધ નથી</string>
     <string name="theme_customization_device_default">ડિવાઇસ ડિફૉલ્ટ</string>
     <string name="time_format_category_title">સમયનું ફોર્મેટ</string>
     <string name="time_picker_title">સમય</string>
@@ -5138,7 +5137,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="to_switch_networks_disconnect_ethernet">બીજા નેટવર્ક પર જવા માટે, ઇથરનેટ ડિસ્કનેક્ટ કરો</string>
     <string name="total_memory">કુલ મેમરી</string>
     <string name="total_size_label">કુલ</string>
-    <string name="touch_filtered_warning">એક ઍપ્લિકેશન પરવાનગી વિનંતીને અસ્પષ્ટ કરતી હોવાને કારણે, સેટિંગ્સ તમારા પ્રતિસાદને ચકાસી શકતી નથી.</string>
+    <string name="touch_filtered_warning">એક ઍપ પરવાનગી વિનંતીને અસ્પષ્ટ કરતી હોવાને કારણે, સેટિંગ તમારા પ્રતિસાદને ચકાસી શકતી નથી.</string>
     <string name="touch_sounds_title">ટચ સાઉન્ડ</string>
     <string name="track_frame_time">HWUIની પ્રોફાઇલ રેંડરીંગ</string>
     <string name="track_frame_time_keywords">GPU</string>
@@ -5176,8 +5175,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="tts_engine_preference_title">મનપસંદ એન્જિન</string>
     <string name="tts_engine_section_title">એન્જિન</string>
     <string name="tts_engine_security_warning">આ વાણી સંશ્લેષણ એન્જિન પાસવર્ડ્સ અને ક્રેડિટ કાર્ડ નંબર જેવી વ્યક્તિગત માહિતી સહિત બોલવામાં આવશે તે તમામ ટેક્સ્ટને એકત્રિત કરવા માટે સક્ષમ હોઈ શકે છે. તે %s એન્જિન પરથી આવે છે. આ વાણી સંશ્લેષણ એન્જિનના ઉપયોગને સક્ષમ કરીએ?</string>
-    <string name="tts_engine_settings_button">એન્જિન સેટિંગ્સ લોંચ કરો</string>
-    <string name="tts_engine_settings_title">એન્જિન સેટિંગ્સ</string>
+    <string name="tts_engine_settings_button">એન્જિન સેટિંગ લૉન્ચ કરો</string>
+    <string name="tts_engine_settings_title">એન્જિન સેટિંગ</string>
     <string name="tts_general_section_title">સામાન્ય</string>
     <string name="tts_install_data_summary">વાણી સંશ્લેષણ માટે જરૂરી વૉઇસ ડેટા ઇન્સ્ટોલ કરો</string>
     <string name="tts_install_data_title">વૉઇસ ડેટા ઇન્સ્ટોલ કરો</string>
@@ -5194,7 +5193,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="tts_reset">ફરીથી સેટ કરો</string>
     <string name="tts_reset_speech_pitch_summary">ટેક્સ્ટ બોલાયેલ છે તે પિચને ડિફોલ્ટ પર ફરીથી સેટ કરો.</string>
     <string name="tts_reset_speech_pitch_title">સ્પીચની પિચ ફરીથી સેટ કરો</string>
-    <string name="tts_settings">ટેક્સ્ટ-ટુ-સ્પીચ સેટિંગ્સ</string>
+    <string name="tts_settings">ટેક્સ્ટ ટૂ સ્પીચ સેટિંગ</string>
     <string name="tts_settings_title">ટેક્સ્ટ ટુ સ્પીચ આઉટપુટ</string>
     <string name="tts_sliders_title">બોલવાની ઝડપ અને પિચ</string>
     <string name="tts_spoken_language">બોલાયેલ ભાષા</string>
@@ -5331,7 +5330,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="usb_control_device">આ ડિવાઇસ</string>
     <string name="usb_control_host">કનેક્ટ થયેલું ડિવાઇસ</string>
     <string name="usb_control_title">આના દ્વારા નિયંત્રિત USB</string>
-    <string name="usb_default_info">જ્યારે અન્ય ઉપકરણ કનેક્ટ કરેલ હોય અને તમારો ફોન અનલૉક હોય, તો આ સેટિંગ લાગુ થશે. માત્ર વિશ્વસનીય ઉપકરણો સાથે કનેક્ટ કરો.</string>
+    <string name="usb_default_info">જ્યારે અન્ય ડિવાઇસ કનેક્ટ કરેલું હોય અને તમારો ફોન અનલૉક હોય, તો આ સેટિંગ લાગુ થશે. માત્ર વિશ્વસનીય ડિવાઇસ સાથે કનેક્ટ કરો.</string>
     <string name="usb_default_label">USBની ડિફૉલ્ટ ગોઠવણી</string>
     <string name="usb_file_transfer_title">ફાઇલ ટ્રાન્સફર કરવાના વિકલ્પો</string>
     <string name="usb_midi_summary">તમારા કમ્પ્યુટર પરના MIDI સોફ્ટવેર વડે MIDI સક્ષમ એપ્લિકેશન્સને USB પર કામ કરવા દે છે.</string>
@@ -5341,7 +5340,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="usb_power_title">પાવરના વિકલ્પો</string>
     <string name="usb_pref">USB</string>
     <string name="usb_preference">USBની પસંદગીઓ</string>
-    <string name="usb_ptp_summary">તમને કૅમેરા સૉફ્ટવેરની મદદથી ફોટો ટ્રાન્સફર કરવા દે છે અને MTP નું સમર્થન કરતાં ન હોય તેવા કમ્પ્યુટર્સ પર કોઈપણ ફાઇલોને ટ્રાન્સફર કરવા દે છે</string>
+    <string name="usb_ptp_summary">તમને કૅમેરા સૉફ્ટવેરની મદદથી ફોટા ટ્રાન્સફર કરવા દે છે અને MTPને સપોર્ટ કરતા ન હોય તેવા કમ્પ્યુટર પર કોઈપણ ફાઇલોને ટ્રાન્સફર કરવા દે છે</string>
     <string name="usb_ptp_title">કૅમેરો (PTP)</string>
     <string name="usb_summary_MIDI">MIDI</string>
     <string name="usb_summary_MIDI_power">MIDI અને વીજ પુરવઠો</string>
@@ -5362,7 +5361,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="usb_transcode_files_summary">વીડિયો વધુ મીડિયા પ્લેયર પર ચલાવવામાં આવશે, પણ ક્વૉલિટીમાં ઘટાડો થઈ શકે છે</string>
     <string name="usb_use">આ માટે USB નો ઉપયોગ કરો</string>
     <string name="usb_use_MIDI">MIDI</string>
-    <string name="usb_use_MIDI_desc">MIDI તરીકે આ ઉપકરણનો ઉપયોગ કરો</string>
+    <string name="usb_use_MIDI_desc">MIDI તરીકે આ ડિવાઇસનો ઉપયોગ કરો</string>
     <string name="usb_use_charging_only">કોઈ ડેટા ટ્રાન્સફર નથી</string>
     <string name="usb_use_charging_only_desc">બસ આ ઉપકરણને ચાર્જ કરો</string>
     <string name="usb_use_file_transfers">ફાઇલ ટ્રાન્સફર / Android Auto</string>
@@ -5450,7 +5449,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="user_info_settings_title">વપરાશકર્તા માહિતી</string>
     <string name="user_installed_services_category_title">ડાઉનલોડ કરેલી ઍપ</string>
     <string name="user_list_title">વપરાશકર્તાઓ અને પ્રોફાઇલ્સ</string>
-    <string name="user_lockscreen_settings">લૉક સ્ક્રીન સેટિંગ્સ</string>
+    <string name="user_lockscreen_settings">લૉક સ્ક્રીન સેટિંગ</string>
     <string name="user_need_lock_message">તમે પ્રતિબંધિત પ્રોફાઇલ બનાવી શકો તે પહેલાં, તમારે તમારી ઍપ્લિકેશનો અને વ્યક્તિગત ડેટાની સુરક્ષા માટે એક લૉક સ્ક્રીન સેટ કરવાની જરૂર પડશે.</string>
     <string name="user_new_profile_name">નવી પ્રોફાઇલ</string>
     <string name="user_new_user_name">નવો વપરાશકર્તા</string>
@@ -5459,7 +5458,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="user_profile_confirm_remove_message">તમામ ઍપ અને ડેટા ડિલીટ કરવામાં આવશે.</string>
     <string name="user_profile_confirm_remove_title">આ પ્રોફાઇલ દૂર કરીએ?</string>
     <string name="user_remove_user">વપરાશકર્તાને ડિલીટ કરો</string>
-    <string name="user_remove_user_menu">આ ઉપકરણમાંથી %1$s ને કાઢી નાખો</string>
+    <string name="user_remove_user_menu">આ ડિવાઇસમાંથી %1$sને કાઢી નાખો</string>
     <string name="user_rename">નામ બદલો</string>
     <string name="user_restrictions_controlled_by">%1$s દ્વારા નિયંત્રિત</string>
     <string name="user_restrictions_title">ઍપ્લિકેશન અને કન્ટેન્ટ ઍક્સેસ</string>
@@ -5504,8 +5503,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="vision_settings_suggestion_title">ફૉન્ટનું કદ બદલો</string>
     <string name="vision_settings_title">વિઝન સેટિંગ</string>
     <string name="voice_input_output_settings">વોઇસ ઇનપુટ અને આઉટપુટ</string>
-    <string name="voice_input_output_settings_title">વોઇસ ઇનપુટ અને આઉટપુટ સેટિંગ્સ</string>
-    <string name="voice_input_settings">વોઇસ ઇનપુટ સેટિંગ્સ</string>
+    <string name="voice_input_output_settings_title">વૉઇસ ઇનપુટ અને આઉટપુટ સેટિંગ</string>
+    <string name="voice_input_settings">વૉઇસ ઇનપુટ સેટિંગ</string>
     <string name="voice_input_settings_title">વૉઇસ ઇનપુટ</string>
     <string name="voice_interaction_security_warning">આ વૉઇસ ઇનપુટ સેવા તમારા વતી હંમેશા-ચાલુ વૉઇસ મોનિટરિંગ કરવા અને વૉઇસ સક્ષમ એપ્લિકેશન્સને નિયંત્રિત કરવા માટે સમર્થ હશે. તે %s એપ્લિકેશનમાંથી આવે છે. આ સેવાના ઉપયોગને સક્ષમ કરીએ?</string>
     <string name="voice_interactor_preference_summary">પૂર્ણ હૉટવર્ડ અને ક્રિયાપ્રતિક્રિયા</string>
@@ -5526,14 +5525,14 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="volume_ring_mute">રિંગટોન અને સૂચનાઓ મ્યૂટ કરો</string>
     <string name="vpn_always_on_invalid_reason_dns">DNS સર્વર સરનામા હંમેશાં-ચાલુ VPN માટે સંખ્યાત્મક હોવા આવશ્યક છે</string>
     <string name="vpn_always_on_invalid_reason_no_dns">હંમેશાં-ચાલુ VPN માટે DNS સર્વરનો ઉલ્લેખ કરેલો હોવો આવશ્યક છે</string>
-    <string name="vpn_always_on_invalid_reason_other">દાખલ કરેલી માહિતી હંમેશાં-ચાલુ VPNનું સમર્થન કરતી નથી</string>
-    <string name="vpn_always_on_invalid_reason_server">હંમેશાં-ચાલુ VPN માત્ર સંખ્યાત્મક સર્વર સરનામાનું જ સમર્થન કરે છે</string>
+    <string name="vpn_always_on_invalid_reason_other">દાખલ કરેલી માહિતી હંમેશાં-ચાલુ VPNને સપોર્ટ કરતી નથી</string>
+    <string name="vpn_always_on_invalid_reason_server">હંમેશાં-ચાલુ VPN માત્ર સંખ્યાત્મક સર્વર ઍડ્રેસને જ સપોર્ટ કરે છે</string>
     <string name="vpn_always_on_invalid_reason_type">આ VPN પ્રકાર હંમેશાં કનેક્ટ કરેલ રાખી શકાતો નથી</string>
     <string name="vpn_always_on_summary">હંમેશાં VPN સાથે કનેક્ટ કરેલ રાખો</string>
     <string name="vpn_always_on_summary_active">હંમેશાં ચાલુ</string>
     <string name="vpn_always_on_summary_not_supported">આ ઍપ્લિકેશન દ્વારા સમર્થિત નથી</string>
     <string name="vpn_cancel">રદ કરો</string>
-    <string name="vpn_cant_connect_message">આ ઍપ્લિકેશન હંમેશાં-ચાલુ VPNનું સમર્થન કરતી નથી</string>
+    <string name="vpn_cant_connect_message">આ ઍપ હંમેશાં-ચાલુ VPNને સપોર્ટ કરતી નથી</string>
     <string name="vpn_cant_connect_title">%1$s થી કનેક્ટ કરી શકાતું નથી</string>
     <string name="vpn_connect">કનેક્ટ કરો</string>
     <string name="vpn_connect_to">%s સાથે કનેક્ટ કરો</string>
@@ -5586,7 +5585,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="vpn_set_vpn_title">હંમેશાં ચાલુ VPN સેટ કરીએ?</string>
     <string name="vpn_settings_insecure_single">સુરક્ષિત નથી</string>
     <string name="vpn_settings_multiple_insecure_multiple_total">%d સુરક્ષિત નથી</string>
-    <string name="vpn_settings_not_available">આ વપરાશકર્તા માટે VPN સેટિંગ્સ ઉપલબ્ધ નથી</string>
+    <string name="vpn_settings_not_available">આ વપરાશકર્તા માટે VPN સેટિંગ ઉપલબ્ધ નથી</string>
     <string name="vpn_settings_single_insecure_multiple_total">%d સુરક્ષિત નથી</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="vpn_show_options">વિગતવાર વિકલ્પો બતાવો</string>
@@ -5647,7 +5646,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="wifi_add_network">નેટવર્ક ઉમેરો</string>
     <string name="wifi_advanced_device_mac_address_title">ડિવાઇસનું MAC ઍડ્રેસ</string>
     <string name="wifi_advanced_ip_address_title">IP ઍડ્રેસ</string>
-    <string name="wifi_advanced_not_available">આ વપરાશકર્તા માટે વાઇ-ફાઇ વિગતવાર સેટિંગ્સ ઉપલબ્ધ નથી</string>
+    <string name="wifi_advanced_not_available">આ વપરાશકર્તા માટે વાઇ-ફાઇ વિગતવાર સેટિંગ ઉપલબ્ધ નથી</string>
     <string name="wifi_advanced_randomized_mac_address_disconnected_title">રેન્ડમ કરેલું MAC ઍડ્રેસ (છેલ્લે ઉપયોગ કરાયો)</string>
     <string name="wifi_advanced_randomized_mac_address_title">રેન્ડમ કરેલું MAC ઍડ્રેસ</string>
     <string name="wifi_advanced_settings_label">IP સેટિંગ</string>
@@ -5724,7 +5723,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="wifi_disconnected_from">%1$sથી ડિસ્કનેક્ટ થયા</string>
     <string name="wifi_display_certification">વાયરલેસ ડિસ્પ્લે પ્રમાણન</string>
     <string name="wifi_display_certification_summary">વાયરલેસ ડિસ્પ્લે પ્રમાણપત્ર માટેના વિકલ્પો બતાવો</string>
-    <string name="wifi_display_details">ડિસ્પ્લે સેટિંગ્સ</string>
+    <string name="wifi_display_details">ડિસ્પ્લે સેટિંગ</string>
     <string name="wifi_display_enable_menu_item">વાયરલેસ ડિસ્પ્લે સક્ષમ કરો</string>
     <string name="wifi_display_no_devices_found">કોઈ નજીકના ડિવાઇસ મળ્યાં નથી</string>
     <string name="wifi_display_options_done">થઈ ગયું</string>
@@ -5918,7 +5917,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="wifi_setting_sleep_policy_error">સેટિંગ બદલવામાં એક સમસ્યા હતી</string>
     <string name="wifi_setting_sleep_policy_title">નિષ્ક્રિય દરમ્યાન વાઇ-ફાઇ ચાલુ રાખો</string>
     <string name="wifi_settings">વાઇ-ફાઇ</string>
-    <string name="wifi_settings_category">વાઇ-ફાઇ સેટિંગ્સ</string>
+    <string name="wifi_settings_category">વાઇ-ફાઇ સેટિંગ</string>
     <string name="wifi_settings_primary_switch_title">વાઇ-ફાઇનો ઉપયોગ કરો</string>
     <string name="wifi_settings_scanning_required_enabled">વાઇ-ફાઇ સ્કૅનિંગ ચાલુ કર્યું છે</string>
     <string name="wifi_settings_scanning_required_info">વાઇ-ફાઇ બંધ હોય, ત્યારે પણ વાઇ-ફાઇ સ્કૅનિંગ ગમે ત્યારે ઍપ અને સેવાઓને વાઇ-ફાઇ નેટવર્ક સ્કૅન કરવાની મંજૂરી આપે છે. ઉદાહરણ તરીકે, આનો ઉપયોગ સ્થાન-આધારિત સુવિધાઓ અને સેવાઓને બહેતર બનાવવા માટે કરી શકાય છે.</string>
@@ -6058,8 +6057,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="write_settings_description">આ પરવાનગી ઍપને સિસ્ટમ સેટિંગમાં ફેરફાર કરવાની મંજૂરી આપે છે.</string>
     <string name="write_settings_off">નહીં</string>
     <string name="write_settings_on">હા</string>
-    <string name="write_settings_summary">%2$d માંથી %1$d એપ્લિકેશનોને સિસ્ટમ સેટિંગ્સ સંશોધિત કરવાની મંજૂરી આપી</string>
-    <string name="write_settings_title">સિસ્ટમ સેટિંગ્સ સંશોધિત કરી શકે છે</string>
+    <string name="write_settings_summary">%2$dમાંથી %1$d ઍપને સિસ્ટમ સેટિંગમાં ફેરફાર કરવાની મંજૂરી આપી</string>
+    <string name="write_settings_title">સિસ્ટમ સેટિંગમાં ફેરફાર કરી શકે છે</string>
     <string name="write_system_settings">સિસ્ટમ સેટિંગમાં ફેરફાર કરો</string>
     <string name="wrong_pin_code_one">ખોટો સિમ પિન કોડ, તમારે તમારું ડિવાઇસ અનલૉક કરવા માટે તમારા મોબાઇલ ઑપરેટરનો સંપર્ક કરવાની આવશ્યકતા પડે તે પહેલાં તમારી પાસે 1 પ્રયાસ બાકી છે.</string>
     <string name="wrong_pin_code_pukked">ખોટો સિમ પિન કોડ, તમારે હવે તમારું ઉપકરણ અનલૉક કરવા માટે તમારા કૅરીઅરનો સંપર્ક કરવો આવશ્યક છે.</string>
@@ -6069,7 +6068,7 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="zen_access_empty_text">કોઇ ઇન્સ્ટોલ કરેલ એપ્લિકેશન્સએ ખલેલ પાડશો નહીં ઍક્સેસ કરવાની વિનંતી કરી નથી</string>
     <string name="zen_access_revoke_warning_dialog_summary">આ ઍપ્લિકેશન દ્વારા બનાવાયેલ તમામ ખલેલ પહોંચાડશો નહિ નિયમો દૂર કરવામાં આવશે.</string>
     <string name="zen_access_revoke_warning_dialog_title">%1$s માટે ખલેલ પહોંચાડશો નહિ ની એક્સેસ રદબાતલ કરીએ?</string>
-    <string name="zen_access_warning_dialog_summary">ઍપ્લિકેશન ખલેલ પાડશો નહીં ચાલુ/બંધ કરી શકશે અને સંબંધિત સેટિંગ્સમાં ફેરફારો કરી શકશે.</string>
+    <string name="zen_access_warning_dialog_summary">ઍપ ખલેલ પાડશો નહીં ચાલુ/બંધ કરી શકશે અને સંબંધિત સેટિંગમાં ફેરફારો કરી શકશે.</string>
     <string name="zen_access_warning_dialog_title">%1$s માટે ખલેલ પાડશો નહીં ઍક્સેસની મંજૂરી આપીએ?</string>
     <string name="zen_alarm_warning">તમે %1$sનું તમારું આગલું અલાર્મ સાંભળી નહીં શકો</string>
     <string name="zen_alarm_warning_indef">તમે તમારું આગલું %1$sનું અલાર્મ નહીં સાંભળી શકો, જો તમે તે સમય પહેલાં આને બંધ નહીં કરો તો</string>

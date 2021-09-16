@@ -337,21 +337,23 @@ Tæki ekki úthlutað"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Þér hefur verið bætt við þennan síma}TABLET{Þér hefur verið bætt við þessa spjaldtölvu}other{Þér hefur verið bætt við þetta tæki}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Mikilvægt:</b>"
 
-"<ul><li>Eigandi símans getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn eins og hann leggur sig</li>"
+"<ul><li>Eigandi símans getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn í heild sinni</li>"
 
-"<li>Aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
+"<li>Allir aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
 
-"<li>Deildu þessum síma aðeins með einstaklingum sem þú treystir</li></ul>}TABLET{<b>Mikilvægt:</b>"
+"<li>Deildu þessum síma aðeins með einstaklingum sem þú treystir</li></ul>"
+}TABLET{"<b>Mikilvægt:</b>"
 
-"<ul><li>Eigandi spjaldtölvunnar getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn eins og hann leggur sig</li>"
+"<ul><li>Eigandi spjaldtölvunnar getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn í heild sinni</li>"
 
-"<li>Aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
+"<li>Allir aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
 
-"<li>Deildu þessari spjaldtölvu aðeins með einstaklingum sem þú treystir</li></ul>}other{<b>Mikilvægt:</b>"
+"<li>Deildu þessari spjaldtölvu aðeins með einstaklingum sem þú treystir</li></ul>"
+}other{"<b>Mikilvægt:</b>"
 
-"<ul><li>Eigandi tækisins getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn eins og hann leggur sig</li>"
+"<ul><li>Eigandi tækisins getur fjarlægt forrit sem þú hefur sett upp eða fjarlægt notandaprófílinn þinn í heild sinni</li>"
 
-"<li>Aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
+"<li>Allir aðrir notendur geta samþykkt uppfærðar heimildir forrits</li>"
 
 "<li>Deildu þessu tæki aðeins með einstaklingum sem þú treystir</li></ul>}}</string>
     <string name="welcome_start_button_label">Byrja</string>
@@ -359,70 +361,47 @@ Tæki ekki úthlutað"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett símann upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
 "<li>Skráð þig inn á Google reikninginn þinn</li>"
-
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
-"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"}TABLET{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett spjaldtölvuna upp á fljótlegan hátt.
+"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"
+}TABLET{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett spjaldtölvuna upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
 "<li>Skráð þig inn á Google reikninginn þinn</li>"
-
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
-"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"}other{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett tækið upp á fljótlegan hátt.
+"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"
+}other{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett tækið upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
 "<li>Skráð þig inn á Google reikninginn þinn</li>"
-
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
 "<li>Stillt tíma og dagsetningu sjálfkrafa</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett símann upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
-"<li>skráð þig inn á Google reikninginn þinn</li>"
-
+"<li>Skráð þig inn á Google reikninginn þinn</li>"
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt SIM-kort</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
-"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"}TABLET{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett spjaldtölvuna upp á fljótlegan hátt.
+"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"
+}TABLET{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett spjaldtölvuna upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
 "<li>Skráð þig inn á Google reikninginn þinn</li>"
-
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt SIM-kort</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
-"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"}other{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett tækið upp á fljótlegan hátt.
+"<li>Stillt tíma og dagsetningu sjálfkrafa</li>"
+}other{Ef þú tengist Wi-Fi eða farsímakerfi geturðu sett tækið upp á fljótlegan hátt.
 
 Án nettengingar geturðu ekki:
-
 "<li>Skráð þig inn á Google reikninginn þinn</li>"
-
 "<li>Endurheimt forrit og gögn</li>"
-
 "<li>Sótt SIM-kort</li>"
-
 "<li>Sótt hugbúnaðaruppfærslur</li>"
-
 "<li>Stillt tíma og dagsetningu sjálfkrafa</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Aðgangsstaður tímabundið fullur</string>
     <string name="wifi_check_password_try_again">Athugaðu aðgangsorðið og reyndu aftur</string>

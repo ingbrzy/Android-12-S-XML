@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_alert_snooze_duration">
-        <item quantity="other">%d min</item>
-        <item quantity="one">1 min</item>
+        <item quantity="other">%d Min.</item>
+        <item quantity="one">1 Min.</item>
     </plurals>
     <plurals name="alarm_alert_snooze_set">
         <item quantity="other">Schlummerfunktion für %d Minuten aktiv</item>
@@ -11,6 +11,10 @@
     <plurals name="days">
         <item quantity="other">%s Tagen</item>
         <item quantity="one">1 Tag</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Vor %s Tagen</item>
+        <item quantity="one">Vor 1 Tag</item>
     </plurals>
     <plurals name="hours">
         <item quantity="other">%s Stunden</item>
@@ -25,8 +29,12 @@
         <item quantity="one">1 Minute</item>
     </plurals>
     <plurals name="minutes_short">
-        <item quantity="other">%s min</item>
-        <item quantity="one">1 min</item>
+        <item quantity="other">%s Min.</item>
+        <item quantity="one">1 Min.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s Sekunden</item>

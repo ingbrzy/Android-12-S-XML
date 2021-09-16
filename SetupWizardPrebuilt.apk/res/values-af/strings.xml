@@ -341,13 +341,15 @@ Toestel nie opgestel nie"</string>
 
 "<li>Enige ander gebruiker kan opgedateerde programtoestemmings aanvaar</li>"
 
-"<li>Deel hierdie foon net met mense wat jy vertrou</li></ul>}TABLET{<b>Belangrik:</b>"
+"<li>Deel hierdie foon net met mense wat jy vertrou</li></ul>"
+}TABLET{"<b>Belangrik:</b>"
 
 "<ul><li>Die tablet se eienaar kan jou programme deïnstalleer of jou gebruikerprofiel heeltemal verwyder</li>"
 
 "<li>Enige ander gebruiker kan opgedateerde programtoestemmings aanvaar</li>"
 
-"<li>Deel hierdie tablet net met mense wat jy vertrou</li></ul>}other{<b>Belangrik:</b>"
+"<li>Deel hierdie tablet net met mense wat jy vertrou</li></ul>"
+}other{"<b>Belangrik:</b>"
 
 "<ul><li>Die toestel se eienaar kan jou programme deïnstalleer of jou gebruikerprofiel heeltemal verwyder</li>"
 
@@ -356,73 +358,50 @@ Toestel nie opgestel nie"</string>
 "<li>Deel hierdie toestel net met mense wat jy vertrou</li></ul>}}</string>
     <string name="welcome_start_button_label">Begin</string>
     <string name="wifi_add_new_network">Voeg nuwe netwerk by</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om vinnig jou foon op te stel
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou foon op te stel
 
 Sonder 'n verbinding kan jy nie:
-t
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
-"<li>Tyd en datum outomaties opstel nie</li>"}TABLET{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om vinnig jou tablet op te stel.
+"<li>Tyd en datum outomaties opstel nie</li>"
+}TABLET{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou tablet op te stel
 
 Sonder 'n verbinding kan jy nie:
-
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
-"<li>Tyd en datum outomaties opstel nie</li>"}other{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om jou toestel vinnig op te stel
+"<li>Tyd en datum outomaties opstel nie</li>"
+}other{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou toestel op te stel
 
 Sonder 'n verbinding kan jy nie:
-
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
 "<li>Tyd en datum outomaties opstel nie</li>}}</string>
-    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om vinnig jou foon op te stel.
+    <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou foon op te stel.
 
 Sonder 'n verbinding kan jy nie:
-
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>"'n SIM aflaai nie"</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
-"<li>Tyd en datum outomaties opstel nie</li>"}TABLET{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om vinnig jou tablet op te stel.
+"<li>Tyd en datum outomaties opstel nie</li>"
+}TABLET{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou tablet op te stel.
 
 Sonder 'n verbinding kan jy nie:
-
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>"'n SIM aflaai nie"</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
-"<li>Tyd en datum outomaties opstel nie</li>"}other{As jy aan 'n Wi‑Fi- of selnetwerk koppel, help dit jou om vinnig jou toestel op te stel.
+"<li>Tyd en datum outomaties opstel nie</li>"
+}other{As jy aan 'n wi‑fi- of selnetwerk koppel, help dit jou om vinnig jou toestel op te stel.
 
 Sonder 'n verbinding kan jy nie:
-
 "<li>By jou Google-rekening aanmeld nie</li>"
-
 "<li>Programme en data teruglaai nie</li>"
-
 "<li>"'n SIM aflaai nie"</li>"
-
 "<li>Sagtewareopdaterings kry nie</li>"
-
 "<li>Tyd en datum outomaties opstel nie</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Toegangspunt is tydelik vol</string>
     <string name="wifi_check_password_try_again">Gaan wagwoord na en probeer weer</string>

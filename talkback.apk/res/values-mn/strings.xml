@@ -105,7 +105,7 @@
     <string name="audio_focus_state">Аудионы түвшнийг багасгах %1$s</string>
     <string name="auto_detect">Төхөөрөмжийг хэрхэн барихаа тохируулна уу</string>
     <string name="auto_scan_action_description">Сканыг эхлүүлэх, сонгох</string>
-    <string name="auto_scan_or_select">"Автомат скан' эсвэл 'Сонгох"</string>
+    <string name="auto_scan_or_select_for_point_scan">"'Автомат скан' эсвэл 'Сонгох'"</string>
     <string name="available_devices_header">Боломжтой Bluetooth төхөөрөмжүүд</string>
     <string name="basic_navigation_link_subtext">Зүйлүүдийн хооронд шилжих, гүйлгэх, цэс ашиглах болон бусад</string>
     <string name="basic_navigation_link_text">Үндсэн навигац</string>
@@ -119,7 +119,7 @@
     <string name="bluetooth_no_devices_paired">Хосолсон Bluetooth төхөөрөмжүүд алга</string>
     <string name="bluetooth_not_enabled_message">Bluetooth сэлгэгчийг хослуулахын тулд Bluetooth-г асаах</string>
     <string name="bluetooth_peripheral_content_description">Нэмэлт</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Bluetooth-н сэлгүүрийг Тохируулгын туслагчид хослуулахын тулд Bluetooth-г асааж, Android Accessibility Suite-д Ойролцоох төхөөрөмжүүд болон байршилд хандах зөвшөөрөл олгоно уу.</string>
     <string name="bluetooth_phone_content_description">Утас</string>
     <string name="bluetooth_switch_description_text">Сэлгэгчид wi-fi ашиглалгүйгээр Bluetooth-р холбогдох</string>
     <string name="bluetooth_switch_option_text">Bluetooth сэлгэгч</string>
@@ -157,6 +157,9 @@
     <string name="cam_switch_enable_banner_text_label_generic">Төхөөрөмжөө хянахын тулд та эхлээд сэлгүүрийг асаах шаардлагатай.</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Камерын сэлгүүрүүдийг нээх</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Сэлгүүрийг нээх</string>
+    <string name="cam_switches_combined_preferences_title">"'%1$s'-н тохиргоо"</string>
+    <string name="cam_switches_preferences_title">Камерын сэлгүүрийн тохиргоо</string>
+    <string name="cam_switches_single_preferences_title">"'%s'-н тохиргоо"</string>
     <string name="camera_switches_status_active">Камерын сэлгэлтийг идэвхжүүлсэн</string>
     <string name="camera_switches_status_error">Алдаа</string>
     <string name="camera_switches_status_no_face">Ямар ч царай илэрсэнгүй</string>
@@ -399,6 +402,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="fallback_menu_item_open_in_browser">Хөтчид нээх</string>
     <string name="fallback_menu_item_share_link">Холбоосыг хуваалцах</string>
     <string name="fast_radio_button_title">Хурдан (%1$s сек саатал)</string>
+    <string name="fast_radio_button_title_content_description">Хурдан (%1$s секундийн саатал)</string>
     <string name="find_finish_button_text">Дуусгах товчлуурыг олохын тулд баруун тийш шударна уу.</string>
     <string name="finish">Дуусгах</string>
     <string name="finish_tutorial_announcement">Брайл гарыг харуулж байна. Утсаа эргүүлж, дэлгэцийг нь цааш харуулна уу. Хөндлөн байрлалд оруулахын тулд утсаа хэвтээ байдлаар эргүүлнэ үү. Дараа нь бичиж эхэлнэ үү.</string>
@@ -747,6 +751,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="list_index_template">%2$d-н %1$d</string>
     <string name="lockscreen_label">Түгжигдсэн дэлгэц</string>
     <string name="medium_radio_button_title">Дундаж (%1$s сек саатал)</string>
+    <string name="medium_radio_button_title_content_description">Дундаж (%1$s секундийн саатал)</string>
     <string name="menu_category_reading_controls">Унших</string>
     <string name="menu_category_special_features">Тусгай онцлог</string>
     <string name="menus_selector_text">"Эдгээр товчлол нь танд навигацаа тэмдэгтээс үг рүү сэлгэх эсвэл TalkBack-н ярианы хурдыг өөрчлөх зэрэг тохиргоог шуурхай өөрчлөхөд тусална.
@@ -767,6 +772,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
 Доош, дараа нь баруун тийш шударч, TalkBack-н цэсийг одоо нээнэ үү."</string>
     <string name="menus_title">Цэс болон хяналт</string>
     <string name="message_in_reset_keymap_confirm_dialog">Та энэ гарны зураглалд зориулан гарны товчлолуудыг өгөгдмөл утганд дахин тохируулахдаа итгэлтэй байна уу? Энэ үйлдлийг буцаах боломжгүйг анхаарна уу.</string>
+    <string name="message_request_phone_permission">TalkBack хэзээ утасны дуудлага хийж байгааг мэдэхийг хүсэж байгаа бөгөөд ингэснээр TalkBack саад болж буй мэдэгдлийг багасгах боломжтой.</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Энэ нь бүх зангааг өгөгдмөл үйлдлүүд рүү нь шинэчилнэ.
 
 Та хийсэн аливаа өөрчлөлтүүдээ алдана."</string>
@@ -996,6 +1002,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="pref_reduce_window_delay_title">Цонхны мэдэгдлийн саатлыг багасгах</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Камерын сэлгүүрүүд нэмэх</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Биет сэлгүүрүүдийг арилгах</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Сэлгэхийн тулд тохиргоог тохируулах: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Камерын сэлгүүрүүдийг засах</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Оноосон Камерын сэлгүүр байхгүй байна</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">"'%s'-д Камерын сэлгүүрүүд оноох"</string>
@@ -1016,9 +1023,9 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="pref_sa_face_playground_stop_preview_content_description">Урьдчилан үзэхийг зогсоох</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Асаах</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">Энэ туршилтын хэсгийг ашиглахын тулд камерын сэлгүүрүүдийг асаасан байх ёстой</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Туршиж үзэх: нээлттэй ам, инээмсэглэл болон бусад царайн зангааны бүх төрлийг урьдчилан үзэх</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Үүнийг туршиж үзэх</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Үүнийг туршиж үзэх: %1$s царайн зангааг урьдчилан үзэх</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Туршилтын хэсгийг түр зогсоосон. Үүнийг дахин эхлүүлэхийн тулд доорх товчлуурыг ашиглана уу.</string>
     <string name="pref_selector_summary">Тохиргоог сонгохын тулд %1$s. Дараа нь тохиргоог тохируулахын тулд %2$s.</string>
     <string name="pref_selector_summary_two_select_gesture">Тохиргоог сонгохын тулд %1$s эсвэл %2$s. Дараа нь тохиргоог тохируулахын тулд %3$s.</string>
@@ -1067,6 +1074,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="reduce_speed_button">Хурд багасгах</string>
     <string name="remaining_calibration_finish_announcement">Цэгийн бүх байрлалыг шинэчилсэн</string>
     <string name="reminder_announcement">Бусад сонголтыг харахын тулд 3 хуруугаар дээш шударна уу</string>
+    <string name="remove_assigned_switch">%s-н сэлгүүрийн оноолтыг хасна уу</string>
     <string name="report_gesture_description">Эдгээр нь саяхан гүйцэтгэсэн зангаанууд бөгөөд аль зангаа нь буруу болох хэрхэн гүйцэтгэх ёстойг мэдээлнэ үү.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Шинэчлэх</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Дахин тохируулах</string>
@@ -1101,7 +1109,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="s2s_pref_ocr_title">Зураг дээрх текстийг унших</string>
     <string name="s2s_pref_summary_multitasking">Туршилт. Таныг бусад дэлгэц болон апп руу шилжихэд Ярихаар сонгох сонголт үргэлжлүүлэн унших болно.</string>
     <string name="s2s_pref_summary_ocr">Туршилт. Текстийг чангаар уншуулахын тулд зураг болон Камерын харагдац илрүүлэгч доторх текстийг товшино уу.</string>
-    <string name="s2s_pref_tts_title">Текстийг яриа болгох тохиргоо</string>
+    <string name="s2s_pref_tts_title">Бичвэрийг ярианд хувиргах тохиргоо</string>
     <string name="s2s_preferences_title">Ярихаар сонгох сонголтын тохиргоо</string>
     <string name="s2s_service_description">"Та Ярихаар сонгох үйлчилгээг асаалттай үед дэлгэц дээрх тодорхой зүйлийг товшиж, чангаар уншуулах боломжтой.
 
@@ -1147,6 +1155,7 @@ Talkback-г түр хаасан үед таны төхөөрөмж санал х
     <string name="search_mode_hint_no_selection">Сонгосон зүйл байхгүй.</string>
     <string name="search_mode_hint_query">Одоогийн асуулга: %1$s.</string>
     <string name="search_mode_hint_selection">Одоогийн сонголт: %1$s.</string>
+    <string name="select_for_point_scan">"'Сонгох'"</string>
     <string name="select_setting_hint">Өөр тохиргоо сонгохын тулд %1$s</string>
     <string name="selecting_text_text">"Текстийн хайрцагт курсорыг сонгохыг хүсэж буй текстийнхээ эхлэл рүү зөөнө үү.
 
@@ -1207,6 +1216,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="shortcut_media_control">Медиаг тоглуулах эсвэл түр зогсоох</string>
     <string name="shortcut_next">Дараагийн зүйл</string>
     <string name="shortcut_next_granularity">Чиглүүлэгчийн дараагийн тохиргоо</string>
+    <string name="shortcut_next_window">Дараагийн цонх</string>
     <string name="shortcut_not_customizable">%1$s, өөрчлөх боломжгүй</string>
     <string name="shortcut_notifications">Мэдэгдэл</string>
     <string name="shortcut_overview">Тойм</string>
@@ -1219,6 +1229,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="shortcut_practice_gestures">Зангаанууд дээр дадлага хийх</string>
     <string name="shortcut_previous">Өмнөх зүйл</string>
     <string name="shortcut_previous_granularity">Чиглүүлэгчийн өмнөх тохиргоо</string>
+    <string name="shortcut_previous_window">Өмнөх цонх</string>
     <string name="shortcut_print_node_tree">Зангилаа модыг хэвлэх</string>
     <string name="shortcut_print_performance_stats">Гүйцэтгэлийн статистикийг хэвлэх</string>
     <string name="shortcut_quick_settings">Шуурхай тохиргоо</string>
@@ -1258,6 +1269,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
 • Үргэлжлүүлэн уншихыг эхлүүлэхийн тулд сэгсрэх"</string>
     <string name="six_hold_announcement">Та түүнчлэн утсаа ширээн дээр тэгшхэн байрлуулаад бичих боломжтой. Одоо туршиж үзээрэй. Хэрэв таны ойролцоо ширээ байхгүй бол доош шудран алгасна уу.</string>
     <string name="slow_radio_button_title">Удаан (%1$s сек саатал)</string>
+    <string name="slow_radio_button_title_content_description">Удаан (%1$s секундийн саатал)</string>
     <string name="sound_feedback_state">Дуу хоолойны санал хүсэлт %1$s</string>
     <string name="sound_feedback_summary">Ямар нэгэн зүйл өөрчлөгдсөнийг мэдэгдэхийн тулд ая тоглуулах (ж.нь дэлгэцийн агуулга өөрчлөгдсөн)</string>
     <string name="speak_container_element_position_summary_off">Жагсаалт, сүлжээний мэдээллийг чангаар уншихгүй</string>
@@ -1331,17 +1343,17 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="summary_pref_face_switches_debounce_time">Энэ удаад Камерын сэлгүүрийн олон идэвхжүүлэлтийг нэг идэвхжүүлэлт гэж тооцно.</string>
     <string name="summary_pref_face_switches_enabled">Камерын сэлгүүрүүд нь таныг дэлгэц рүү харж байгаа эсэх болон царайн зангааг танихын тулд урд талын камерыг ашигладаг. Зургийг Google-д хадгалдаггүйгээс гадна илгээдэггүй.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Зангааны хариуд дэлгэц дээрх ямар нэг зүйл өөрчлөгдөх үед дуу чимээ тоглуулна уу</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Та зангааг хэр удаан дарсныг харуулсан визуал заалтыг харуулах</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Камерын сэлгүүрүүдийг идэвхжүүлсэн үед дэлгэцийг асаалттай байлгана уу. Дэлгэц унтраалттай тохиолдолд Камерын сэлгүүр түгжээг нь тайлах боломжгүй.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Царай илэрсэнгүй</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Царайн зангааны аль нэгийг гүйцэтгэнэ үү. Бүртгэсэн тохиолдолд зангааны нэрийг харуулна. Гарахын тулд дурын зангааг %1$d секундийн турш удаан дарна уу.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Толгойгоо хөдөлгөөнгүй байлгаж, камер луу харна уу. Дараа нь %s.</string>
     <string name="summary_pref_play_store">Одоогийн TalkBack Хувилбар: %1$s</string>
-    <string name="summary_pref_point_scan">"Хэвтээ болон босоо тодорхой байршлыг сонгохын тулд хөдөлгөөнт шугамыг ашиглана уу. Цэгээр скан хийхийг эхлүүлэхийн тулд '%1$s' сэлгүүрийг дарна уу. %2$s"</string>
+    <string name="summary_pref_point_scan">Хэвтээ болон босоо тодорхой байршлыг сонгохын тулд хөдөлгөөнт шугамыг ашиглана уу. Цэгээр скан хийхийг эхлүүлэхийн тулд %1$s сэлгүүрийг дарна уу. %2$s</string>
     <string name="summary_pref_reverse_dots">Жишээлбэл, 1 болон 4 цэгүүд байраа сольж байхаар цэгүүдийн байрлалыг солино уу</string>
     <string name="summary_pref_revert_to_default_menu">Сэлгүүр цэсийг цэсийн зүйлсийн өгөгдмөл жагсаалт руу шинэчилнэ.</string>
-    <string name="summary_pref_single_tap">(Туршилт) Идэвхжүүлэхийн тулд сонгосон зүйл дээр нэг товшино уу</string>
+    <string name="summary_pref_single_tap">Идэвхжүүлэхийн тулд сонгосон зүйл дээр нэг удаа товшино уу</string>
     <string name="summary_pref_tree_debug_tv">Хайлтын оронд гол модыг (өгөгдлийн бүтэц) хэвлэхийн тулд дуут хайлтын түлхүүрийг ашиглах</string>
     <string name="summary_pref_use_audio_focus">Ярьж байхдаа бусад аудионы дууны түвшнийг багасгах</string>
     <string name="summary_read_from_current">Дараагийн зүйлээс эхэлж, дэлгэц дээрх бүх зүйлийг уншина уу</string>
@@ -1438,10 +1450,10 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="switched_to_contracted_announcement">Товчилсон брайл руу сэлгэлээ</string>
     <string name="switched_to_ueb_uncontracted_announcement">Товчлоогүй UEB рүү сэлгэсэн</string>
     <string name="switched_to_uncontracted_announcement">Товчлоогүй брайл руу сэлгэлээ</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Ойролцоо тооны тэмдэг</string>
     <string name="symbol_ampersand">Амперсант</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Багын тэмдэг</string>
+    <string name="symbol_angle_bracket_right">Ихийн тэмдэг</string>
     <string name="symbol_apostrophe">Апостроф</string>
     <string name="symbol_approximately_equals">Ойролцоолон тэнцүүлэх тэнцүү тэмдэгт</string>
     <string name="symbol_asterisk">Од</string>
@@ -1461,7 +1473,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_bullseye">Бухын нүд хэлбэртэй дүрс</string>
     <string name="symbol_caret">Оруулгын тэмдэг</string>
     <string name="symbol_celsius_degree">Цельсийн хэм</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Центийн тэмдэг</string>
     <string name="symbol_circle_left_half_black">Зүүн хагас нь хар өнгөтэй дугуй дүрс</string>
     <string name="symbol_circle_right_half_black">Баруун хагас нь хар өнгөтэй дугуй дүрс</string>
     <string name="symbol_colon">Хоёр цэг</string>
@@ -1470,7 +1482,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_curly_bracket_left">Зүүн угалзан хаалт</string>
     <string name="symbol_curly_bracket_right">Баруун угалзан хаалт</string>
     <string name="symbol_currency_sign">Валютын тэмдэг</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Хэмийн тэмдэг</string>
     <string name="symbol_division">Хуваах тэмдэг</string>
     <string name="symbol_dollar_sign">Долларын тэмдэг</string>
     <string name="symbol_downwards_arrow">Доошоо чиглэсэн сум</string>
@@ -1522,7 +1534,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_middle_dot">Дунд цэг</string>
     <string name="symbol_multiplication">Үржвэрийн тэмдэг</string>
     <string name="symbol_new_line">Шинэ мөр</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Тэнцүү биш</string>
     <string name="symbol_not_sign">Байхгүй тэмдэг</string>
     <string name="symbol_paragraph_mark">Парагарафын тэмдэг</string>
     <string name="symbol_parenthesis_left">Зүүн хаалт</string>
@@ -1533,7 +1545,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_plus_minus_sign">Нэмэх хасах тэмдэг</string>
     <string name="symbol_postal_mark">Шуудангийн марк</string>
     <string name="symbol_pound">Фунт</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Фунтын тэмдэглэгээ</string>
     <string name="symbol_quarter_note">Дөрөвт нот</string>
     <string name="symbol_question_mark">Асуултын тэмдэг</string>
     <string name="symbol_quotation_mark">Ишлэх</string>
@@ -1559,7 +1571,7 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_trademark">Ялгарах тэмдэг</string>
     <string name="symbol_underscore">Доогуур зураас</string>
     <string name="symbol_upwards_arrow">Дээшээ сум</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Босоо зураас</string>
     <string name="symbol_white_circle">Цагаан өнгөтэй дугуй дүрс</string>
     <string name="symbol_white_club_suit">Цагаан өнгөтэй цэцгэн хэлбэртэй дүрс</string>
     <string name="symbol_white_diamond">Цагаан өнгөтэй ромбо хэлбэртэй дүрс</string>
@@ -1573,8 +1585,8 @@ TalkBack-н цэсийг нээхийн тулд доош, дараа нь ба�
     <string name="symbol_white_square">Цагаан өнгөтэй дөврөлжин дүрс</string>
     <string name="symbol_white_star">Цагаан өнгөтэй од дүрс</string>
     <string name="symbol_white_up_pointing_triangle">Цагаан өнгөтэй дээшээ заасан гурвалжин дүрс</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Воны мөнгөн тэмдэгтийн тэмдэг</string>
+    <string name="symbol_won_sign">Воны мөнгөн тэмдэгтийн тэмдэг</string>
     <string name="symbol_yen">Иен</string>
     <string name="system_actions">Системийн үйлдлүүд</string>
     <string name="tabletop">Ширээн дээр тавих горим</string>
@@ -1889,7 +1901,7 @@ TalkBack-г унтраахын тулд:
     <string name="title_pref_show_context_menu_as_list">Хам сэдэв цэсийг жагсаалтаар харуулах</string>
     <string name="title_pref_show_privacy_policy">Нууцлалын бодлого</string>
     <string name="title_pref_show_tos">Үйлчилгээний нөхцөл</string>
-    <string name="title_pref_single_tap">Нэг даралтаар идэвхжүүлэх</string>
+    <string name="title_pref_single_tap">Идэвхжүүлэхийн тулд нэг удаа товшино уу</string>
     <string name="title_pref_sound_and_vibration">Хонхны ая болон чичиргээ</string>
     <string name="title_pref_soundback">Дууны өгөгдөл</string>
     <string name="title_pref_soundback_volume">Дууны өгөгдлийн түвшин</string>
@@ -1934,6 +1946,7 @@ TalkBack-г унтраахын тулд:
     <string name="title_previous_screen">Өмнөх дэлгэц</string>
     <string name="title_read_from_top">Дээрээс унших</string>
     <string name="title_repeat_last_spoken_phrase">Сүүлд хэлсэн хэллэгийг давтах</string>
+    <string name="title_request_phone_permission">TalkBack зөвшөөрөл хүсэж байна</string>
     <string name="title_screen_summary">Дэлгэцийн хураангуй</string>
     <string name="title_seek_bar_controls">Гулсуулагч</string>
     <string name="title_seek_bar_edit">Гулсуулагчийн түвшнийг засах</string>
@@ -1957,7 +1970,7 @@ TalkBack-г унтраахын тулд:
     <string name="title_web_breakout_prev_list">Өмнөх жагсаалт</string>
     <string name="title_web_breakout_prev_section">Өмнөх хэсэг</string>
     <string name="toast_msg_key_already_assigned">"'%1$s' шилжүүлэлтийг '%2$s'-д тохируулсан байна"</string>
-    <string name="toast_tts_not_ready">Текстийг яриа болгогч хөдөлгүүр бэлэн бус байна.</string>
+    <string name="toast_tts_not_ready">Бичвэрийг ярианд хувиргах хөдөлгүүр бэлэн бус байна.</string>
     <string name="training_back_button">Өмнөх</string>
     <string name="training_close_button">Хаах</string>
     <string name="training_finish_button">Дуусгах</string>

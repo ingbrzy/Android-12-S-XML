@@ -414,7 +414,7 @@
     <string name="battery_low_percent_format_saver_started">残量が %s です。バッテリー セーバーは ON です。</string>
     <string name="battery_low_title">もうすぐ電池がなくなります</string>
     <string name="battery_low_why">設定</string>
-    <string name="battery_panel_title">電池の使用状況</string>
+    <string name="battery_panel_title">バッテリーの使用状況</string>
     <string name="battery_saver_confirmation_ok">ONにする</string>
     <string name="battery_saver_confirmation_title">バッテリー セーバーを ON にしますか？</string>
     <string name="battery_saver_confirmation_title_generic">バッテリー セーバーについて</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">この変更を適用するには、デバイスの再起動が必要です。今すぐ再起動するか、キャンセルしてください。</string>
     <string name="camera_hint">左にスワイプしてカメラを起動</string>
     <string name="camera_label">カメラを起動</string>
+    <string name="camera_recording_announcement">カメラで録画しています</string>
+    <string name="camera_stopped_recording_announcement">カメラが録画を停止しました</string>
     <string name="cancel">キャンセル</string>
     <string name="carrier_network_change_mode">携帯通信会社のネットワークを変更します</string>
     <string name="category_personal">個人用</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">監視</string>
     <string name="debug_networking_category">ネットワーク</string>
     <string name="debug_view_attributes">表示属性検査を有効にする</string>
+    <string name="defender_notify_des">バッテリーの状態を正常に保つために、スマートフォンの充電を制限しています</string>
+    <string name="defender_notify_learn_more">詳細</string>
+    <string name="defender_notify_resume_charge">充電を再開</string>
+    <string name="defender_notify_title">充電を一時的に制限しています</string>
     <string name="delete_blob_confirmation_text">この共有データを削除してもよろしいですか？</string>
     <string name="delete_blob_text">共有データを削除</string>
     <string name="demo_mode">システム UI デモモード</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM カードのロックを解除しています…</string>
     <string name="keyguard_try_fingerprint">指紋を使って開いてください</string>
     <string name="keyguard_unlock">開くには上にスワイプします</string>
+    <string name="keyguard_unlock_press">押すと開きます</string>
     <string name="keywords_adb_wireless">adb, デバッグ, dev</string>
     <string name="keywords_alarms_and_reminders">スケジュール, アラーム, リマインダー, 時計</string>
     <string name="kg_enter_confirm_pin_hint">必要な PIN コードを確認してください</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">キーボードを切り替え</string>
     <string name="messages_count_overflow_indicator">%d 件以上</string>
     <string name="mic_active">マイク: 有効</string>
+    <string name="mic_and_camera_recording_announcement">カメラとマイクで録画、録音しています</string>
+    <string name="mic_camera_stopped_recording_announcement">カメラとマイクが録画、録音を停止しました</string>
+    <string name="mic_recording_announcement">マイクで録音しています</string>
+    <string name="mic_stopped_recording_announcement">マイクが録音を停止しました</string>
     <string name="missed_call">不在着信</string>
     <string name="mobile_carrier_text_format">%1$s、%2$s</string>
     <string name="mobile_data">モバイルデータ</string>
@@ -1706,8 +1717,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="quick_settings_work_mode_label">仕事用アプリ</string>
     <string name="quick_step_accessibility_toggle_overview">概要を切り替え</string>
     <string name="recent_conversations">最近の会話</string>
-    <string name="recents_quick_scrub_onboarding">右にドラッグするとアプリを素早く切り替えることができます</string>
-    <string name="recents_swipe_up_onboarding">アプリを切り替えるには上にスワイプ</string>
     <string name="remaining_length_format">あと %1$s</string>
     <string name="remote_input_image_insertion_text">画像を送信しました</string>
     <string name="remove_from_settings">設定から削除</string>
@@ -2117,6 +2126,7 @@ USB ポートを再び安全に使用できるようになりましたらお知�
     <string name="wallet_secondary_label_no_card">カードを追加する</string>
     <string name="wallet_secondary_label_updating">更新しています</string>
     <string name="wallet_title">ウォレット</string>
+    <string name="weather_description">%1$s、%2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">アクセス ポイントが一時的にいっぱいです</string>
     <string name="wifi_cant_connect">接続できません</string>
     <string name="wifi_cant_connect_to_ap">「%1$s」に接続できません</string>

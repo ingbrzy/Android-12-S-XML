@@ -17,14 +17,21 @@
         <item>15 ମିନିଟ୍</item>
         <item>20 ମିନିଟ୍</item>
         <item>25 ମିନିଟ୍</item>
-        <item>ଆଦୌ ନୁହେଁ</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>ଶୋଇବା ସମୟ ପୂର୍ବରୁ 15 ମିନିଟ୍</item>
+        <item>ଶୋଇବା ସମୟ ପୂର୍ବରୁ 30 ମିନିଟ୍</item>
+        <item>ଶୋଇବା ସମୟ ପୂର୍ବରୁ 45 ମିନିଟ୍</item>
+        <item>ଶୋଇବା ସମୟ ପୂର୍ବରୁ 1 ଘଣ୍ଟା</item>
+        <item>ବନ୍ଦ କରନ୍ତୁ</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>ଆନାଲଗ୍</item>
         <item>ଡିଜିଟାଲ୍</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>ଆଦୌ ନୁହେଁ</item>
+        <item>@string/crescendo_entry_never</item>
         <item>5 ସେକେଣ୍ଡ</item>
         <item>10 ସେକେଣ୍ଡ</item>
         <item>15 ସେକେଣ୍ଡ</item>
@@ -37,6 +44,35 @@
         <item>50 ସେକେଣ୍ଡ</item>
         <item>55 ସେକେଣ୍ଡ</item>
         <item>60 ସେକେଣ୍ଡ</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>10 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>20 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>30 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>40 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>50 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>1 ଘଣ୍ଟା ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>10 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>20 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>30 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>40 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>50 ମିନିଟ୍ ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>1 ଘଣ୍ଟା ପରେ ବନ୍ଦ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 ମିନିଟ୍</item>
+        <item>20 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍</item>
+        <item>40 ମିନିଟ୍</item>
+        <item>50 ମିନିଟ୍</item>
+        <item>1 ଘଣ୍ଟା</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 ମିନିଟ୍</item>
@@ -69,18 +105,6 @@
         <item>28 ମିନିଟ୍</item>
         <item>29 ମିନିଟ୍</item>
         <item>30 ମିନିଟ୍</item>
-    </string-array>
-    <string-array name="sw_share_strings">
-        <item>ଆପଣ ଅତ୍ୟନ୍ତ ଗତି ପ୍ରିୟ ଅଟନ୍ତି।</item>
-        <item>ଆପଣଙ୍କ ପରିଶ୍ରମର ଫଳ ଉପଭୋଗ କରନ୍ତୁ।</item>
-        <item>Android, ଦ୍ରୁତ ଭାବରେ ଜଣାଶୁଣା, ହେଲେ ଆପଣଙ୍କ ତୁଳନାରେ ନୁହେଁ!</item>
-        <item>ଓହୋ।</item>
-        <item>L33t ଥର।</item>
-        <item>କେତେ ଅସାଧାରଣ ଗତି।</item>
-        <item>ଆସନ୍ତୁ ପୁଣିଥରେ ସମୟକୁ ସାଉଁଟିବା।</item>
-        <item>ବାସ୍, ବାଁ ପଟକୁ ଯାଆନ୍ତୁ।</item>
-        <item>ତରତର ହେବା ଆପଣଙ୍କ ଅଭ୍ୟାସ।</item>
-        <item>ଫଟୋନିକ୍ ବେଗ।</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>ମାର୍ଶଲ୍ ଦ୍ଵୀପପୁଞ୍ଜ</item>

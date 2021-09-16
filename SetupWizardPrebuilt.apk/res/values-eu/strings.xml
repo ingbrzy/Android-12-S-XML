@@ -113,7 +113,7 @@ Denbora gehiegi behar izaten ari da datu-konexioa ezartzeko. Nahi baduzu, egin a
     <string name="default_device_name_device">gailua</string>
     <string name="default_device_name_phone">telefonoa</string>
     <string name="default_device_name_tablet">tableta</string>
-    <string name="deferred_notification_prompt_title">Konfiguratu da ^1 gailua</string>
+    <string name="deferred_notification_prompt_title">Amaitu ^1 konfiguratzen</string>
     <string name="deferred_setup_button_label">Amaitu konfiguratzen</string>
     <string name="deferred_setup_wizard_reason_assistant">hitz egin Laguntzailea eginbideari</string>
     <string name="deferred_setup_wizard_reason_assistant_verbose">hitz egin Google-ren Laguntzailea eginbidearekin</string>
@@ -337,19 +337,21 @@ Gailua ez dago prest"</string>
     <string name="welcome_secondary_user_added_text">{DEVICE_TYPE,select, PHONE{Telefono honetan gehitu zaituzte}TABLET{Tableta honetan gehitu zaituzte}other{Gailu honetan gehitu zaituzte}}</string>
     <string name="welcome_secondary_user_info_text">{DEVICE_TYPE,select, PHONE{<b>Garrantzitsua:</b>"
 
-"<ul><li>Telefonoaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+"<ul><li>Telefonoaren jabeak zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko aukera du.</li>"
 
 "<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
 
-"<li>Partekatu telefonoa fidagarritzat jotzen duzun jendearekin soilik.</li></ul>}TABLET{<b>Garrantzitsua:</b>"
+"<li>Partekatu telefonoa fidagarritzat jotzen duzun jendearekin soilik.</li></ul>"
+}TABLET{"<b>Garrantzitsua:</b>"
 
-"<ul><li>Tabletaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+"<ul><li>Tabletaren jabeak zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko aukera du.</li>"
 
 "<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
 
-"<li>Partekatu tableta fidagarritzat jotzen duzun jendearekin soilik.</li></ul>}other{<b>Garrantzitsua:</b>"
+"<li>Partekatu tableta fidagarritzat jotzen duzun jendearekin soilik.</li></ul>"
+}other{"<b>Garrantzitsua:</b>"
 
-"<ul><li>Gailuaren jabeak aukera du zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko.</li>"
+"<ul><li>Gailuaren jabeak zure aplikazioak desinstalatzeko edo zure erabiltzaile-profila erabat kentzeko aukera du.</li>"
 
 "<li>Beste erabiltzaileek ere onar ditzakete aplikazio-baimen eguneratuak.</li>"
 
@@ -359,70 +361,47 @@ Gailua ez dago prest"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu telefonoa.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
-"<li>Ordua eta data automatikoki konfiguratu.</li>"}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
+"<li>Ordua eta data automatikoki konfiguratu.</li>"
+}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
-"<li>Ordua eta data automatikoki konfiguratu.</li>"}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
+"<li>Ordua eta data automatikoki konfiguratu.</li>"
+}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
 "<li>Ordua eta data automatikoki konfiguratu.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu telefonoa.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>SIM bat deskargatu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
-"<li>Ordua eta data automatikoki konfiguratu.</li>"}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
+"<li>Ordua eta data automatikoki konfiguratu.</li>"
+}TABLET{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu tableta.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>SIM bat deskargatu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
-"<li>Ordua eta data automatikoki konfiguratu.</li>"}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
+"<li>Ordua eta data automatikoki konfiguratu.</li>"
+}other{Wifi-sare edo sare mugikor batera konektatzen bazara, bizkor konfiguratu ahalko duzu gailua.
 
 Konexiorik gabe, ezin izango dituzu egin hauek:
-
 "<li>Google-ko kontuan saioa hasi.</li>"
-
 "<li>Aplikazioak eta datuak leheneratu.</li>"
-
 "<li>SIM bat deskargatu.</li>"
-
 "<li>Software-eguneratzeak eskuratu.</li>"
-
 "<li>Ordua eta data automatikoki konfiguratu.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Sarbide-puntua beteta dago aldi baterako</string>
     <string name="wifi_check_password_try_again">Egiaztatu pasahitza zuzena dela eta saiatu berriro</string>

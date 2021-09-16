@@ -10,6 +10,7 @@
     <string name="a11y_call_duration_short_format">%1$d %2$s</string>
     <string name="a11y_call_incoming_answer_description">Annehmen</string>
     <string name="a11y_call_incoming_decline_description">Ablehnen</string>
+    <string name="a11y_callscreen_animation">Call Screen Animation</string>
     <string name="a11y_contact_menu_video_call_wifi">Videoanruf über WLAN starten</string>
     <string name="a11y_contact_menu_voice_call_wifi">Audioanruf über WLAN starten</string>
     <string name="a11y_conversation_history_entry_answered_call">Der letzte ist ein angenommener Anruf von ^1</string>
@@ -20,11 +21,19 @@
     <string name="a11y_description_incall_label_manage_content">Anrufer verwalten</string>
     <string name="a11y_expandedsheet_collapse">Menü minimieren</string>
     <string name="a11y_expandedsheet_expand">Menü maximieren</string>
-    <string name="a11y_favorites_education_dismiss">schließen</string>
     <string name="a11y_feature_demo_next_page">Nächste Seite</string>
     <string name="a11y_feature_demo_page_indicator">Seite %d</string>
     <string name="a11y_feature_demo_prev_page">Vorherige Seite</string>
     <string name="a11y_glide_photo_manager_contact_photo_description">Schnellkontakt für ^1</string>
+    <string name="a11y_icon_hd">HD-Anruf</string>
+    <string name="a11y_icon_hd_plus">HD Plus-Anruf</string>
+    <string name="a11y_icon_shared_data_call">Anruf mit mobilen Daten der anderen SIM</string>
+    <string name="a11y_icon_verified">Verifizierter Anruf</string>
+    <string name="a11y_icon_vilte">Anruf mit Video über LTE</string>
+    <string name="a11y_icon_viwifi">Videoanruf über WLAN</string>
+    <string name="a11y_icon_volte">Anruf mit Sprache über LTE</string>
+    <string name="a11y_icon_voz4g">Anruf mit Sprache über 4G</string>
+    <string name="a11y_icon_wifi">WLAN-Anruf</string>
     <string name="a11y_incoming_call_swipe_gesture_prompt">Zum Annehmen mit zwei Fingern nach oben wischen. Zum Ablehnen mit zwei Fingern nach unten wischen.</string>
     <string name="a11y_incoming_call_swipe_to_answer">Wische mit zwei Fingern nach oben, um den Anruf anzunehmen, oder nach unten, um ihn abzulehnen</string>
     <string name="a11y_new_call_log_entry_call_recording">Anruf aufgezeichnet</string>
@@ -39,6 +48,7 @@
     <string name="a11y_new_call_log_entry_full_description_without_phone_account_info_with_transcript_with_call_recording">^1, ^2, ^3, ^4.</string>
     <string name="a11y_new_call_log_entry_phone_account">über ^1</string>
     <string name="a11y_new_call_log_entry_rtt_call">RTT-Anruf bei ^1</string>
+    <string name="a11y_new_call_log_entry_shared_data_call">Anruf mit mobilen Daten der anderen SIM</string>
     <string name="a11y_new_call_log_entry_tap_action">Menü maximieren</string>
     <string name="a11y_new_call_log_entry_video_call">Videoanruf mit ^1 starten</string>
     <string name="a11y_new_call_log_entry_video_call_wifi">Videoanruf mit ^1 über WLAN starten</string>
@@ -78,6 +88,8 @@
     <string name="action_edit_number_precall">Vor Anruf Nummer bearbeiten</string>
     <string name="action_menu_back_from_search">Suche beenden</string>
     <string name="action_menu_overflow_description">Mehr Optionen</string>
+    <string name="activate_error_message">Problem beim Aktivieren des Anruf-Filters</string>
+    <string name="activated_successfully">Anruf-Filter aktiviert</string>
     <string name="activity_not_available">Keine entsprechende App auf diesem Gerät</string>
     <string name="add_2sec_pause">2 Sekunden Pause hinzufügen</string>
     <string name="add_contact_not_available">Keine Kontakte-App verfügbar</string>
@@ -159,9 +171,9 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert. ^1"</string>
     <string name="bm_suggest_call_button">Anrufen</string>
     <string name="bm_suggest_chat_button">Chat</string>
     <string name="bm_suggest_wait_min">"Chat
-%1$d Min. Wartezeit"</string>
-    <string name="bottom_nav_count_9_plus">9+</string>
-    <string name="bottom_nav_tab_title_with_unread_count">%1$s, %2$s ungelesen</string>
+%1$d min warten"</string>
+    <string name="bm_suggest_wait_time_estimating">"Chat
+Wird ausgeführt…"</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
     <string name="bubble_bottom_action_end_call">Anruf beenden</string>
     <string name="bubble_bottom_action_hide">Ausblenden</string>
@@ -170,7 +182,10 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert. ^1"</string>
     <string name="call">Audioanruf</string>
     <string name="callFailed_simError">Keine SIM-Karte oder SIM-Kartenfehler</string>
     <string name="callHistoryIconLabel">Anrufliste</string>
-    <string name="call_announcer_preference_footer_instruction_text">Bei eingehenden Anrufen werden Name und Telefonnummer des Anrufers vorgelesen</string>
+    <string name="call_action_label_automatically_screen">Automatically screen. Decline robocalls.</string>
+    <string name="call_action_label_ring_phone">Ring phone (default)</string>
+    <string name="call_action_label_silently_decline">Silently decline</string>
+    <string name="call_announcer_preference_footer_instruction_text">Bei eingehenden Anrufen werden Name und Telefonnummer des Anrufers vorgelesen.</string>
     <string name="call_announcer_preference_list_title">Anrufer-ID vorlesen</string>
     <string name="call_announcer_preference_option_always">Immer</string>
     <string name="call_announcer_preference_option_headset">Nur, wenn ein Headset verwendet wird</string>
@@ -203,7 +218,7 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert. ^1"</string>
     <string name="call_incoming_answer">Annehmen</string>
     <string name="call_incoming_answer_rtt">Mit RTT antworten</string>
     <string name="call_incoming_answer_voice">Mit Sprachnachricht antworten</string>
-    <string name="call_incoming_chip_answer_and_release">Annehmen &amp; aktuellen Anruf beenden</string>
+    <string name="call_incoming_chip_answer_and_release">Annehmen und anderen Anruf beenden</string>
     <string name="call_incoming_chip_answer_as_rtt">Als RTT-Anruf annehmen</string>
     <string name="call_incoming_chip_answer_video_as_audio">Als Sprachanruf annehmen</string>
     <string name="call_incoming_chip_answer_video_as_reception_only_video">Ohne eigenes Video annehmen</string>
@@ -219,7 +234,7 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert. ^1"</string>
     <string name="call_incoming_swipe_to_answer">Zum Annehmen nach oben wischen</string>
     <string name="call_incoming_swipe_to_reject">Zum Ablehnen nach unten wischen</string>
     <string name="call_incoming_video_is_off">Video deaktiviert</string>
-    <string name="call_incoming_will_disconnect">Wenn du diesen Anruf annimmst, wird der aktuelle Videoanruf beendet</string>
+    <string name="call_incoming_will_disconnect">Wenn du diesen Anruf annimmst, wird der andere Anruf beendet</string>
     <string name="call_incoming_will_disconnect_app">Wenn du den Anruf annimmst, wird der Anruf in %1$s beendet</string>
     <string name="call_isdn">ISDN anrufen</string>
     <string name="call_log_action_block_and_optionally_mark_as_spam">Blockieren/Spam melden</string>
@@ -255,6 +270,7 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert. ^1"</string>
     <string name="call_reason_fragment_content_description">Grund für den Anruf: %1$s</string>
     <string name="call_recording_audio_saved_snackbar">Aufnahme wurde gespeichert.</string>
     <string name="call_recording_conversation_history_entry">Aufgenommen</string>
+    <string name="call_recording_delete_snack_bar_undo">Rückgängig machen</string>
     <string name="call_recording_disclaimer_agreen_button_text">Aufnahme starten</string>
     <string name="call_recording_disclaimer_content">"Möglicherweise befinden sich du oder dein Gesprächspartner in einer Region, in der alle Beteiligten einer Aufzeichnung zustimmen müssen. Alle werden im Voraus darauf hingewiesen, dass der Anruf aufgezeichnet wird. Du bist dafür verantwortlich, die geltenden Regelungen zum Aufzeichnen von Unterhaltungen einzuhalten. Gehe verantwortungsbewusst mit Anrufaufzeichnungen um und aktiviere sie nur, wenn du sie wirklich benötigst.
 ^1
@@ -292,6 +308,7 @@ Die Aufzeichnungen werden nur auf deinem Smartphone gespeichert."</string>
 Die Audiodaten und das Transkript des Anrufs werden an niemanden gesendet, auch nicht an Google."</string>
     <string name="call_screen_demo_page_4_title">Zeit sparen und Frustration vermeiden</string>
     <string name="call_screen_demo_setting_title">Demo ansehen</string>
+    <string name="call_screen_demo_settings_title">Demo ansehen</string>
     <string name="call_screen_demo_title">Funktionsweise von Anruf-Filter</string>
     <string name="call_screen_demo_unable_to_fetch_audio">Beispiel-Audio kann nicht abgerufen werden</string>
     <string name="call_screen_demo_unable_to_play_audio">Beispiel-Audio kann nicht wiedergegeben werden</string>
@@ -299,6 +316,7 @@ Die Audiodaten und das Transkript des Anrufs werden an niemanden gesendet, auch 
     <string name="call_screen_end_call_local_internal_message">Du hast den Anruf beendet</string>
     <string name="call_screen_end_call_non_local_internal_message">Der Anruf wurde unterbrochen</string>
     <string name="call_screen_how_it_works_setting_title">Der Anruf-Filter funktioniert auf deinem Gerät ohne WLAN oder Daten. Die Transkripte der Gespräche werden ausschließlich auf deinem Smartphone erstellt und gespeichert. %1$s</string>
+    <string name="call_screen_how_it_works_title">Anruf-Filter funktioniert auf deinem Gerät ohne eine WLAN- oder mobile Datenverbindung. Die Transkripte der Gespräche werden ausschließlich auf deinem Smartphone erstellt und gespeichert. ^1</string>
     <string name="call_screen_incallui_chip_text">Anruf prüfen</string>
     <string name="call_screen_join_call_button_content_description">An Anruf teilnehmen</string>
     <string name="call_screen_join_call_internal_message">Du nimmst am Anruf teil</string>
@@ -308,6 +326,7 @@ Die Audiodaten und das Transkript des Anrufs werden an niemanden gesendet, auch 
     <string name="call_screen_saying_to_the_caller_state">Dem Anrufer wird gesagt:</string>
     <string name="call_screen_screening_call_from">Screening für den Anruf von</string>
     <string name="call_screen_setting_title">Anruf-Filter</string>
+    <string name="call_screen_settings_title">Anruf-Filter</string>
     <string name="call_screen_speaker_toggle_button_content_description">Schaltfläche „Freisprechfunktion“</string>
     <string name="call_screen_suggestions_avatar_content_description">Logo</string>
     <string name="call_screen_survey_cancel_button">Abbrechen</string>
@@ -332,6 +351,8 @@ Die Audiodaten und das Transkript des Anrufs werden an niemanden gesendet, auch 
     <string name="call_work">Geschäftliche Nummer anrufen</string>
     <string name="call_work_mobile">Mobilfunknummer (geschäftlich) anrufen</string>
     <string name="call_work_pager">Pager (geschäftlich) anrufen</string>
+    <string name="caller_action_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="caller_action_error_cant_set_value">Unable to save %1$s value</string>
     <string name="caller_id_announcement_multi_sim">Eingehender Anruf (%1$s) von %2$s über SIM %3$s</string>
     <string name="caller_id_announcement_single_sim">Eingehender Anruf (%1$s) von %2$s</string>
     <string name="caller_id_business_data_details">Die in diesen Funktionen verwendeten Daten werden von Google und seinen Lizenzgebern bereitgestellt. ^1</string>
@@ -371,6 +392,9 @@ Die Audiodaten und das Transkript des Anrufs werden an niemanden gesendet, auch 
     <string name="calling_blocked_number_precall_dialog_title">%s anrufen?</string>
     <string name="calllog_add_to_contact">Zu Kontakt hinzufügen</string>
     <string name="calllog_create_new_contact">Neuen Kontakt erstellen</string>
+    <string name="callscreen_settings_call_screen_activation_status_title">Activating Call Screen (requires WiFi)</string>
+    <string name="callscreen_settings_voice_setting_title">Voice</string>
+    <string name="camera_permission_toast">Berechtigung für Kamera aktiviert</string>
     <string name="camera_privacy_text">Berechtigung für Kamera aktiviert</string>
     <string name="cannot_understand_description">Ich verstehe nicht</string>
     <string name="car_crash_emergency_intro">"Dieser Anruf stammt von einem automatisierten Notrufdienst im Namen eines Anrufers.
@@ -393,7 +417,7 @@ Bitte senden Sie Hilfe."</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
     <string name="checkbox_report_as_spam_action">Anruf als Spam melden</string>
     <string name="child_number">über %s</string>
-    <string name="choose_contact">Choose a contact</string>
+    <string name="choose_contact">Kontakt auswählen</string>
     <string name="clear_button_content_description">Suche löschen</string>
     <string name="clear_text_end_icon_content_description">Text löschen</string>
     <string name="cli_not_supported_text">Zum Fortfahren Telefon entsperren</string>
@@ -433,6 +457,9 @@ Bitte senden Sie Hilfe."</string>
     <string name="constellation_onboarding_unsuccessful_snackbar_message">Verifizierte Anrufe können nicht eingerichtet werden. Du kannst sie in den Einstellungen aktivieren.</string>
     <string name="contact_card_video_icon_content_description">Videoanruf mit ^1</string>
     <string name="contact_grid_callback_number">Eigene Telefonnummer: %1$s</string>
+    <string name="contact_grid_forward_icon_content_description">Anruf wurde weitergeleitet</string>
+    <string name="contact_grid_hd_icon_content_description">HD-Anruf</string>
+    <string name="contact_grid_hd_plus_icon_content_description">HD Plus-Anruf</string>
     <string name="contact_grid_incoming_bidirectional_video_call">Videoanruf über Mobilfunkanbieter von</string>
     <string name="contact_grid_incoming_reception_only_video_call">Videoanruf (eine Richtung) über Mobilfunkanbieter von</string>
     <string name="contact_grid_incoming_rtt_call">RTT-Anruf von</string>
@@ -443,9 +470,18 @@ Bitte senden Sie Hilfe."</string>
     <string name="contact_grid_incoming_wifi_bidirectional_video_call">WLAN-Videoanruf von</string>
     <string name="contact_grid_incoming_wifi_reception_only_video_call">WLAN-Videoanruf (eine Richtung) von</string>
     <string name="contact_grid_incoming_work_call">Geschäftlicher Anruf von</string>
+    <string name="contact_grid_shared_data_call_icon_content_description">Anruf mit mobilen Daten der anderen SIM</string>
+    <string name="contact_grid_spam_icon_content_description">Spamanruf</string>
     <string name="contact_grid_stir_shaken_default_carrier_name">Mobilfunkanbieter</string>
     <string name="contact_grid_stir_shaken_validation_prefix">Von %1$s verifiziert</string>
     <string name="contact_grid_stir_shaken_validation_prefix_for_att">Gültige Nummer</string>
+    <string name="contact_grid_video_over_lte_icon_content_description">Anruf mit Video über LTE</string>
+    <string name="contact_grid_video_over_wifi_icon_content_description">Videoanruf über WLAN</string>
+    <string name="contact_grid_voice_over_4g_icon_content_description">Anruf mit Sprache über 4G</string>
+    <string name="contact_grid_voice_over_lte_icon_content_description">Anruf mit Sprache über LTE</string>
+    <string name="contact_grid_voice_over_wifi_icon_content_description">Sprachanruf über WLAN</string>
+    <string name="contact_grid_wifi_icon_content_description">WLAN-Anruf</string>
+    <string name="contact_grid_work_icon_content_description">Geschäftlicher Anruf</string>
     <string name="contact_menu_add_favorite">Favorit hinzufügen</string>
     <string name="contact_menu_contact_info">Kontaktdaten</string>
     <string name="contact_menu_invite_video">Zu Videoanruf einladen</string>
@@ -480,8 +516,12 @@ Bitte senden Sie Hilfe."</string>
     <string name="conversation_history_call_details_header_today">Heute</string>
     <string name="conversation_history_call_details_snack_bar_deleted">Anruf gelöscht</string>
     <string name="conversation_history_call_details_snack_bar_undo">Rückgängig machen</string>
+    <string name="conversation_history_call_log_enriched_calling_important_text">Wichtiger Anruf</string>
+    <string name="conversation_history_call_log_enriched_calling_view_attachments_text">Weitere Informationen zum Anruf anzeigen</string>
+    <string name="conversation_history_call_recording_deleted">Aufnahme gelöscht</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_with_audio">Transkript und Audio</string>
     <string name="conversation_history_dropdown_menu_full_transcript_link_text_without_audio">Transkript</string>
+    <string name="conversation_history_dropdown_menu_see_transcript_audio_link_text">Transkript und Audio anzeigen</string>
     <string name="conversation_history_dropdown_menu_transcript_title">Anruf-Filter</string>
     <string name="copy">Kopieren</string>
     <string name="copy_number">Nummer kopieren</string>
@@ -500,12 +540,17 @@ Bitte senden Sie Hilfe."</string>
     <string name="custom_prefix_default_prefix_title">Standardpräfix</string>
     <string name="custom_prefix_prefixes_preference_title">Präfixe</string>
     <string name="dark_theme_label">Dunkel</string>
+    <string name="default_changed_confirmation">Telefon App als Standard-App festgelegt</string>
+    <string name="default_image_content_description">Bild für Startbildschirm</string>
     <string name="delete">Löschen</string>
     <string name="delete_all_recordings_confirmation_dialog_title">Alle Aufnahmen löschen</string>
     <string name="delete_all_recordings_now_error_message">Einige Aufzeichnungen konnten nicht gelöscht werden. Bitte versuche es noch einmal.</string>
     <string name="delete_button_label">Alle Aufzeichnungen jetzt löschen</string>
     <string name="delete_confirmation_dialog_negative_button_label">Abbrechen</string>
     <string name="delete_confirmation_dialog_positive_button_label">Löschen</string>
+    <string name="delete_old_recordings_error_cant_load_value">Unable to fetch current %1$s value</string>
+    <string name="delete_old_recordings_error_cant_set_value">Unable to save %1$s value</string>
+    <string name="deleting_call_recording">Aufnahme wird gelöscht…</string>
     <string name="description_add_to_existing_contact_action">^1 zu vorhandenem hinzufügen</string>
     <string name="description_blocked_number_list_delete">Blockierung der Nummer aufheben</string>
     <string name="description_call_action">^1 anrufen</string>
@@ -608,6 +653,7 @@ Bitte senden Sie Hilfe."</string>
     <string name="emergency_sos_emergency_intro">"Dieser Anruf stammt von einem automatisierten Notrufdienst im Namen eines Anrufers.
 Der Anrufer befindet sich möglicherweise in einer Notlage. 
 Bitte schicken Sie Hilfe."</string>
+    <string name="emergency_speaker">Lautsprecher</string>
     <string name="emergency_voice_assist_dialog_button_close">Abbrechen</string>
     <string name="emergency_voice_assist_dialog_title">Der Notdienst hört das</string>
     <string name="end_call_with_default_message_description">Anruf beenden</string>
@@ -637,9 +683,12 @@ Bitte schicken Sie Hilfe."</string>
     <string name="feedback_call_issue_quiet_audio">Der Ton war zu leise</string>
     <string name="feedback_call_issue_title">Wo lag das Problem?</string>
     <string name="feedback_title_please_rate">Bitte bewerte die Qualität des Anrufs</string>
+    <string name="first_time_callers_action_preference_description">Callers not in your call log</string>
+    <string name="first_time_callers_action_preference_title">First-time callers</string>
     <string name="flip_to_shush_title">Phone umdrehen, um „Pssst“ zu aktivieren</string>
     <string name="flip_to_silence_summary">Lege dein Gerät mit der Vorderseite nach unten auf eine ebene Oberfläche, um einen eingehenden Anruf stummzuschalten</string>
     <string name="flip_to_silence_title">Smartphone zum Stummschalten umdrehen</string>
+    <string name="foreground_notification_title">Wird aktualisiert…</string>
     <string name="frequent_contact_suggestion">Häufig angerufen</string>
     <string name="general_learn_more">Weitere Informationen</string>
     <string name="generic_conference_call_name">Anruf</string>
@@ -662,6 +711,7 @@ Bitte schicken Sie Hilfe."</string>
     <string name="how_it_works_storage_link_text">Weitere Informationen zum Speichern von Aufzeichnungen</string>
     <string name="how_it_works_storage_template">Die Anrufaufzeichnung wird beendet, wenn auf deinem Smartphone kein Speicherplatz mehr verfügbar ist. ^1</string>
     <string name="icon_content_description">Dialogfeldsymbol</string>
+    <string name="icon_description_shared_data_call">Anruf mit mobilen Daten der anderen SIM</string>
     <string name="imei_number">IMEI %s</string>
     <string name="import_send_to_voicemail_numbers_label">Nummern importieren</string>
     <string name="ims_video_heading">Verizon-Video</string>
@@ -805,6 +855,7 @@ Bitte schicken Sie Hilfe."</string>
     <string name="new_call_log_no_missed_calls">Keine verpassten Anrufe</string>
     <string name="new_call_log_permission_no_calllog">Aktiviere die Berechtigung \"Telefon\", um dein Anrufprotokoll abzurufen.</string>
     <string name="new_call_log_secondary_blocked">Gesperrt</string>
+    <string name="new_call_log_secondary_verified">Verifizierter Anruf</string>
     <string name="new_call_log_snack_bar_deleted">Anruf gelöscht</string>
     <string name="new_call_log_snack_bar_undo">Rückgängig</string>
     <string name="new_call_log_unknown">Unbekannt</string>
@@ -819,8 +870,10 @@ Bitte schicken Sie Hilfe."</string>
     <string name="notification_action_answer_video">Videoanruf</string>
     <string name="notification_action_dismiss">Ablehnen</string>
     <string name="notification_action_end_call">Beenden</string>
+    <string name="notification_action_mute_toggle">Stummschalten</string>
     <string name="notification_action_speaker_off">Lautsprecher ausschalten</string>
     <string name="notification_action_speaker_on">Lautsprecher einschalten</string>
+    <string name="notification_action_speaker_toggle">Lautsprecher</string>
     <string name="notification_callReasonMsg">Grund: %s</string>
     <string name="notification_call_wifi_brand">WLAN-Anruf</string>
     <string name="notification_call_wifi_work_brand">geschäftlicher WLAN-Anruf</string>
@@ -884,6 +937,8 @@ Bitte schicken Sie Hilfe."</string>
     <string name="place_ims_button_content_description">Schaltfläche zum Starten eines Anruf über den Mobilfunkanbieter.</string>
     <string name="play">Abspielen</string>
     <string name="plus_code_line_format">Plus Code: %1$s</string>
+    <string name="possibly_faked_numbers_action_preference_description">Callers that may be spammers using an altered number</string>
+    <string name="possibly_faked_numbers_action_preference_title">Possibly faked numbers</string>
     <string name="post_call_message">Grund des Anrufs mitteilen</string>
     <string name="post_call_message_1">Es ist dringend. Bitte zurückrufen.</string>
     <string name="post_call_message_2">Bitte bei Gelegenheit zurückrufen.</string>
@@ -914,6 +969,8 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="privacy_policy_label">Datenschutzerklärung</string>
     <string name="private_num_non_verizon">Private Nummer</string>
     <string name="private_num_verizon">Beschränkt</string>
+    <string name="private_or_hidden_action_preference_description">Callers hiding their caller ID</string>
+    <string name="private_or_hidden_action_preference_title">Private or hidden</string>
     <string name="quick_contact_checkbox_description">Kontakt auswählen</string>
     <string name="ready_for_recording">Bereit…</string>
     <string name="record_greeting_cancel_label">Abbrechen</string>
@@ -929,6 +986,8 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="record_greeting_uploading_greeting_message">Wird gespeichert…</string>
     <string name="record_voicemail_greeting_title">Begrüßung aufnehmen</string>
     <string name="recording_category_title">Aufzeichnungen</string>
+    <string name="recording_deleted">Aufnahme wurde gelöscht</string>
+    <string name="recording_deletion_failed">Aufnahme konnte nicht gelöscht werden [Wiederholen]</string>
     <string name="redo_button_text">Wiederholen</string>
     <string name="remember_this_choice_label">Auswahl speichern</string>
     <string name="report_not_spam_alert_button">Melden</string>
@@ -940,9 +999,20 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="request_call_back_description">Bitte zurückrufen</string>
     <string name="request_email_description">Bitte E-Mail an mich senden</string>
     <string name="respond_via_sms_setting_title">Kurzantworten</string>
+    <string name="revelio_callers_how_it_works_text">"To turn off automatic screening select the “Ring phone (default)” setting for unknown calls. Your contacts are never automatically screened. Automatic screening won't work if your phone is connected to headphones or speakers. 
+Call Screen doesn't use data or Wi-Fi but does use carrier call minutes. %1$s"</string>
+    <string name="revelio_delete_old_recordings_setting_summary">Delete after 30 days</string>
+    <string name="revelio_delete_old_recordings_setting_title">Automatically delete older recordings and transcripts</string>
+    <string name="revelio_demo_setting_title">See how Call Screen works</string>
     <string name="revelio_demo_turn_on">Aktivieren</string>
     <string name="revelio_end_call_reject_as_spam">Der Anruf wurde als Spam markiert</string>
     <string name="revelio_end_call_user_missed_internal_message">Der Anruf wurde verpasst</string>
+    <string name="revelio_pref_title">Call Screen</string>
+    <string name="revelio_preference_summary_automatic_screening_off">Automatic screening off</string>
+    <string name="revelio_preference_summary_screening">Screening %1$s</string>
+    <string name="revelio_save_audio_setting_summary">Save the audio from calls answered by your Assistant</string>
+    <string name="revelio_save_audio_setting_title">Save Call Screen audio</string>
+    <string name="revelio_setting_title">Call Screen</string>
     <string name="rtt_assist_default">Echtzeittext (Real-Time Text, RTT) dient als Unterstützung für Anrufer, die gehörlos, schwerhörig oder sprachgeschädigt sind oder zusätzlich zur gesprochenen Sprache weitere Informationen benötigen. ^1</string>
     <string name="rtt_assist_for_att">Die Tastatur für Echtzeittext (Real-Time Text, RTT) ist eine Alternative zu externen TTY-Tastaturen. Wenn du während eines RTT-Anrufs Text eingibst, kann dein Gesprächspartner in Echtzeit sehen, wie du die Nachricht schreibst. ^1</string>
     <string name="rtt_assist_for_tmo">Die Tastatur für Echtzeittext (Real-Time Text, RTT) ist eine Alternative zu externen TTY-Tastaturen. Mit RTT werden Tastatureingaben während eines Anrufs sofort gesendet, sodass du in Echtzeit über Textnachrichten kommunizieren kannst. Du kannst die Antwort bereits sehen, wenn sie noch nicht vollständig eingegeben wurde. ^1</string>
@@ -950,7 +1020,8 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="rtt_button_back">Zurück</string>
     <string name="rtt_button_downgrade">Zu Audioanruf wechseln</string>
     <string name="rtt_call_button">RTT</string>
-    <string name="rtt_call_not_available_toast">RTT ist für diesen Anruf nicht verfügbar. Der Anruf wurde als Audioanruf verbunden.</string>
+    <string name="rtt_call_downgraded_toast">Der RTT-Anruf wurde in einen Audioanruf geändert</string>
+    <string name="rtt_call_not_available_toast">Für diesen Anruf ist RTT nicht verfügbar</string>
     <string name="rtt_configuration_summary_always_visible">Die Schaltfläche für Echtzeittext (Real-Time Text, RTT) ist überall verfügbar</string>
     <string name="rtt_configuration_summary_not_visible">Einkommende Anrufe mit Echtzeittext (Real-Time Text, RTT) erlauben, aber Anrufschaltfläche ausblenden</string>
     <string name="rtt_configuration_summary_visible_during_call">Schaltfläche für Echtzeittext (Real-Time Text, RTT) während Anrufen ausblenden</string>
@@ -979,6 +1050,8 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="rtt_transcript_link">Transkript ansehen</string>
     <string name="rttcall_button_label">RTT</string>
     <string name="safety_emergency_repeat_message_alert">Diese Nachricht wird wiederholt.</string>
+    <string name="save_audio_error_cant_load_value">Unable to fetch current Save Call Screen audio value</string>
+    <string name="save_audio_error_cant_set_value">Unable to save Save Call Screen audio value</string>
     <string name="save_button_text">Speichern</string>
     <string name="saved_voicemails_action_title">Gespeicherte Mailboxnachrichten (%1$s)</string>
     <string name="search_hint">Kontakte für Videoanrufe suchen</string>
@@ -1005,8 +1078,11 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="send_a_message">SMS senden</string>
     <string name="send_to_voicemail_import_failed">Import fehlgeschlagen</string>
     <string name="serial_number">Seriennummer</string>
+    <string name="set_as_default_button_text">Als Standard festlegen</string>
     <string name="set_default_account">Diese SIM für alle Anrufe verwenden</string>
     <string name="set_default_account_description">SIM-Einstellung für Kontakt speichern.</string>
+    <string name="set_phone_as_default_explanation_text">Du musst die Telefon App als Standard-App zum Telefonieren festlegen, um damit zu telefonieren</string>
+    <string name="set_phone_as_default_request_text">Telefon App als Standard festlegen</string>
     <string name="settings">Einstellungen</string>
     <string name="settings_page_call_recording_feature_not_available_text">Die Anrufaufzeichnung ist an deinem Standort nicht verfügbar</string>
     <string name="settings_page_crosby_feature_not_available_text">An deinem Standort nicht verfügbar</string>
@@ -1041,6 +1117,8 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="snackbar_undo">Rückgängig</string>
     <string name="snackbar_voicemail_deleted">Mailbox gelöscht</string>
     <string name="sounds_and_vibration_title">Töne und Vibration</string>
+    <string name="spam_action_preference_description">"Numbers that match Google's spam database"</string>
+    <string name="spam_action_preference_title">Spam</string>
     <string name="spam_and_call_screen_settings_title">Spam und Anruf-Filter</string>
     <string name="spam_blocking_promo_action_dismiss">Schließen</string>
     <string name="spam_blocking_promo_action_filter_spam">Spam herausfiltern</string>
@@ -1067,8 +1145,6 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="speed_dial_add_button_text">Hinzufügen</string>
     <string name="speed_dial_contacts_permission_description">Aktiviere die Berechtigung \"Kontakte\", um die Kurzwahlfunktion zu verwenden.</string>
     <string name="speed_dial_disambig_dialog_title">Wie möchtest du %s anrufen?</string>
-    <string name="speed_dial_education_content">Halte einen Kontakt länger gedrückt, um zwischen Anrufen und Nachrichten zu wechseln</string>
-    <string name="speed_dial_education_title">Mehr Möglichkeiten, mit anderen zu kommunizieren</string>
     <string name="speed_dial_no_contacts_action_text">Favoriten hinzufügen</string>
     <string name="speed_dial_no_contacts_description">Mit nur einem Tippen kannst du deine Kontakte anrufen</string>
     <string name="speed_dial_remember_this_choice">Auswahl speichern</string>
@@ -1085,6 +1161,45 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="suggestion_dialog_postive_snackbar_message">Vielen Dank für dein Feedback</string>
     <string name="suggestions_header">Häufig genutzte Kontakte</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="survey_account_and_system_info">Konto- und Systeminformationen</string>
+    <string name="survey_app_id">App-ID</string>
+    <string name="survey_app_name">App-Name</string>
+    <string name="survey_app_version">App-Version</string>
+    <string name="survey_application_data">Anwendungsdaten</string>
+    <string name="survey_brand">Marke</string>
+    <string name="survey_close_button_description">Schließen</string>
+    <string name="survey_default_prompt_title">Helfen Sie uns dabei, Google zu verbessern.</string>
+    <string name="survey_device_model">Gerätemodell</string>
+    <string name="survey_email_address">E-Mail-Adresse</string>
+    <string name="survey_google_play_services_version">Version Google Play-Dienste</string>
+    <string name="survey_legal_text">Wenn du fortfährst, erklärst du dich einverstanden, dass deine Antworten und %1$s gemäß der %2$s und den %3$s von Google zur Verbesserung der Dienste verwendet werden.</string>
+    <string name="survey_library_version">Version der Bibliothek</string>
+    <string name="survey_network_request_failed">Fehler bei Netzwerkanfrage</string>
+    <string name="survey_neutral">Weder zufrieden noch unzufrieden</string>
+    <string name="survey_next">Weiter</string>
+    <string name="survey_num_rating">%1$s von %2$s</string>
+    <string name="survey_ok">OK</string>
+    <string name="survey_open_text_hint">Geben Sie Ihre Anmerkungen hier ein</string>
+    <string name="survey_open_text_no_pii">Gib keine personenbezogenen Daten ein</string>
+    <string name="survey_operating_system">Betriebssystem</string>
+    <string name="survey_operating_system_version">Betriebssystemversion</string>
+    <string name="survey_other_option_hint">Sonstiges (bitte angeben)</string>
+    <string name="survey_platform">Plattform</string>
+    <string name="survey_privacy">Datenschutzerklärung</string>
+    <string name="survey_prompt_no_thanks">Nein danke</string>
+    <string name="survey_prompt_take_our_survey">Frage anzeigen</string>
+    <string name="survey_smiley_rating">Smiley %1$s von %2$s: %3$s</string>
+    <string name="survey_somewhat_dissatisfied">Unzufrieden</string>
+    <string name="survey_somewhat_satisfied">Zufrieden</string>
+    <string name="survey_submit">Senden</string>
+    <string name="survey_system_info_dialog_title">Konto- und Systeminformationen</string>
+    <string name="survey_terms">Nutzungsbedingungen</string>
+    <string name="survey_thank_you_followup_message">Helfen Sie uns bei der Verbesserung unseres Produkts, indem Sie weitere Fragen beantworten</string>
+    <string name="survey_timezone_offset">Zeitverschiebung</string>
+    <string name="survey_url">URL</string>
+    <string name="survey_user_agent">User-Agent</string>
+    <string name="survey_very_dissatisfied">Sehr unzufrieden</string>
+    <string name="survey_very_satisfied">Sehr zufrieden</string>
     <string name="system_default_theme_label">Systemstandardeinstellung</string>
     <string name="tab_title_call_history">Anrufliste</string>
     <string name="tab_title_contacts">Kontakte</string>
@@ -1096,11 +1211,15 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="terms_of_service_label">Nutzungsbedingungen</string>
     <string name="textmessage_button_label">Nachricht</string>
     <string name="theme_preference_label">Design auswählen</string>
+    <string name="tidepods_call_screen_settings_title">Anruf-Filter</string>
+    <string name="tidepods_incall_label_record">Aufnehmen</string>
     <string name="toast_text_copied">Text kopiert</string>
     <string name="toolbar_back">Zurück</string>
     <string name="toolbar_close">Schließen</string>
     <string name="transcript_audio_feedback_chip_text">Hilf uns, besser zu werden</string>
+    <string name="transcript_audio_feedback_link_text">Transkript und Audio anzeigen</string>
     <string name="transcript_snippet_low_confidence_description">(Schlechte Audioqualität)</string>
+    <string name="try_again_button">Wiederholen</string>
     <string name="tty_configuration_title_tty_full">TTY (vollständig)</string>
     <string name="tty_configuration_title_tty_hco">TTY HCO</string>
     <string name="tty_configuration_title_tty_off">TTY aus</string>
@@ -1122,7 +1241,6 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="type_outgoing_video_pulled">Ausgehender Videoanruf wurde an ein anderes Gerät übergeben</string>
     <string name="type_rejected">Abgelehnter Anruf</string>
     <string name="type_voicemail">Mailbox</string>
-    <string name="unable_change_value_error">Beim Ändern der RTT-Einstellungen ist ein Problem aufgetreten. Bitte geh zurück und versuche es noch einmal.</string>
     <string name="unable_read_value_error">Beim Lesen der RTT-Einstellungen ist ein Problem aufgetreten. Bitte geh zurück und versuche es noch einmal.</string>
     <string name="unblock_number">Blockierung aufheben</string>
     <string name="unblock_number_alert_details">Die Nummer wird nicht mehr blockiert und künftige Anrufe von ihr gelten nicht mehr als Spam.</string>
@@ -1131,6 +1249,7 @@ Mit einigen Nummern sind auch Videoanrufe möglich, ohne die Einstellungen zu ak
     <string name="unblock_number_ok">Blockierung aufheben</string>
     <string name="unblock_report_number_alert_title">Blockierung von %1$s aufheben?</string>
     <string name="unknown">Unbekannt</string>
+    <string name="unknown_call_settings_category_preference_title">Unknown Call Settings</string>
     <string name="unknown_counter">%1$s %2$d</string>
     <string name="unmute_incoming_audio_description">Stummschaltung für Audio (eingehend) aufheben</string>
     <string name="user_is_busy_description">Ich rufe zurück</string>
@@ -1242,10 +1361,17 @@ In diesem Fall werden mobile Daten verwendet."</string>
     <string name="videocall_remote_video_on">Video ist aktiviert</string>
     <string name="videocall_remotely_held">Anruf wird gehalten.</string>
     <string name="videocall_remotely_resumed">Anruf fortgesetzt</string>
+    <string name="videocall_settings_default_carrier">Videoanrufe über Mobilfunkanbieter</string>
+    <string name="videocall_settings_default_duo">Duo</string>
+    <string name="videocall_settings_default_title">Standarddienst für Videoanrufe</string>
+    <string name="videocall_settings_fallback_summary">Zu Duo wechseln, wenn Videoanrufe über den Mobilfunkanbieter nicht verfügbar sind</string>
+    <string name="videocall_settings_fallback_title">Duo als Alternative verwenden</string>
+    <string name="videocall_settings_title">Videoanrufe</string>
     <string name="videocall_show_preview_button_description">Lokalen Videofeed einblenden</string>
     <string name="view">Ansehen</string>
     <string name="view_location_settings">Standorteinstellungen</string>
     <string name="vitle_label">Video über LTE</string>
+    <string name="viwifi_label">Video über WLAN</string>
     <string name="vm_change_pin_error_invalid">Die neue PIN enthält ungültige Zeichen.</string>
     <string name="vm_change_pin_error_mismatch">Die alte PIN stimmt nicht.</string>
     <string name="vm_change_pin_error_system_error">PIN kann nicht geändert werden</string>
@@ -1255,8 +1381,11 @@ In diesem Fall werden mobile Daten verwendet."</string>
     <string name="vm_change_pin_progress_message">Bitte warten.</string>
     <string name="voice_call">Audioanruf</string>
     <string name="voice_call_button">Anruf</string>
+    <string name="voice_display_name">Stimme %1$d</string>
     <string name="voice_search_not_available">Sprachsuche nicht verfügbar</string>
     <string name="voice_selector_preference_title">Verfügbare Stimmen</string>
+    <string name="voice_settings_available_voices_text">Verfügbare Stimmen</string>
+    <string name="voice_settings_title">Stimme</string>
     <string name="voicecall_button_label">Anrufen</string>
     <string name="voicecall_button_wifi_description">Über WLAN anrufen</string>
     <string name="voicemailCallLogDateTimeFormat">%1$s um %2$s</string>
@@ -1291,7 +1420,6 @@ In diesem Fall werden mobile Daten verwendet."</string>
     <string name="voicemail_donation_promo_title">Möchtest du uns dabei helfen, die Transkriptionen zu verbessern?</string>
     <string name="voicemail_enable_preference_summary_info_accept_cellular_data">Wenn du die visuelle Mailbox mit SIM-Karten ohne Tarif für mobile Daten verwendest, können Kosten bei deinem Mobilfunkanbieter anfallen</string>
     <string name="voicemail_enable_preference_summary_info_not_default_data_sim">Visuelle Mailbox nur für die ausgewählte Daten-SIM-Karte verfügbar</string>
-    <string name="voicemail_enable_preference_summary_info_using_fi_sim">Wenn du mehrere SIMs hast und eine für Fi nutzt, wird die Fi-SIM für die visuelle Mailbox verwendet</string>
     <string name="voicemail_error_activating_message">Möglicherweise erhältst du keine Mailboxbenachrichtigungen, solange die visuelle Mailbox nicht vollständig aktiviert ist. Bis es soweit ist, kannst du deine Mailbox anrufen, um neue Nachrichten abzuhören.</string>
     <string name="voicemail_error_activating_title">Visuelle Mailbox wird aktiviert</string>
     <string name="voicemail_error_activation_disabled_message">Rufe die Mailbox an, um die Einrichtung abzuschließen</string>
@@ -1398,6 +1526,7 @@ In diesem Fall werden mobile Daten verwendet."</string>
     <string name="vvm3_error_vms_no_cellular_title">Verbindung zur Mailbox nicht möglich</string>
     <string name="vvm3_error_vms_timeout_message">Wir haben einen Fehler entdeckt. Bitte versuche es später noch einmal. Wenn das Problem weiterhin besteht, wende dich an den Kundensupport unter der Nummer %1$s und gib den Fehlercode 9007 an.</string>
     <string name="vvm3_error_vms_timeout_title">Ein Problem ist aufgetreten</string>
+    <string name="vvm_config_title">Konfiguration für visuelle Mailbox</string>
     <string name="vvm_unsupported_message_format">Nicht unterstützter Nachrichtentyp, zum Abhören %s anrufen.</string>
     <string name="wait_prompt_str">"Folgende Töne senden?
 "</string>

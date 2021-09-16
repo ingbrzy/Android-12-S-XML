@@ -17,15 +17,22 @@
         <item>15 मिनिटे</item>
         <item>20 मिनिटे</item>
         <item>25 मिनिटे</item>
-        <item>कधीही नाही</item>
+        <item>@string/auto_silence_entry_never</item>
+    </string-array>
+    <string-array name="bedtime_reminder_entries">
+        <item>झोपण्याच्या वेळेआधी १५ मिनिटे</item>
+        <item>झोपण्याच्या वेळेआधी ३० मिनिटे</item>
+        <item>झोपण्याच्या वेळेआधी ४५ मिनिटे</item>
+        <item>झोपण्याच्या वेळेआधी एक तास</item>
+        <item>बंद करा</item>
     </string-array>
     <string-array name="clock_style_entries">
-        <item>अॅनालॉग</item>
+        <item>अ‍ॅनालॉग</item>
         <item>डिजिटल</item>
     </string-array>
     <string-array name="crescendo_entries">
-        <item>कधीही नाही</item>
-        <item>5 सेकंद</item>
+        <item>@string/crescendo_entry_never</item>
+        <item>५ सेकंद</item>
         <item>10 सेकंद</item>
         <item>15 सेकंद</item>
         <item>20 सेकंद</item>
@@ -37,6 +44,35 @@
         <item>50 सेकंद</item>
         <item>55 सेकंद</item>
         <item>60 सेकंद</item>
+    </string-array>
+    <string-array name="sleep_duration">
+        <item>%2$s</item>
+        <item>%1$s</item>
+        <item>%1$s %2$s</item>
+    </string-array>
+    <string-array name="sleep_sound_length_content_descriptions">
+        <item>१० मिनिटांनी थांबवा</item>
+        <item>२० मिनिटांनी थांबवा</item>
+        <item>३० मिनिटांनी थांबवा</item>
+        <item>४० मिनिटांनी थांबवा</item>
+        <item>५० मिनिटांनी थांबवा</item>
+        <item>एक तासाने थांबवा</item>
+    </string-array>
+    <string-array name="sleep_sound_length_descriptions">
+        <item>१० मिनिटांनी थांबवा</item>
+        <item>२० मिनिटांनी थांबवा</item>
+        <item>३० मिनिटांनी थांबवा</item>
+        <item>४० मिनिटांनी थांबवा</item>
+        <item>५० मिनिटांनी थांबवा</item>
+        <item>एक तासाने थांबवा</item>
+    </string-array>
+    <string-array name="sleep_sound_length_entries">
+        <item>10 मिनिटे</item>
+        <item>20 मिनिटे</item>
+        <item>30 मिनिटे</item>
+        <item>४० मिनिटे</item>
+        <item>५० मिनिटे</item>
+        <item>एक तास</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 मिनिट</item>
@@ -70,18 +106,6 @@
         <item>29 मिनिटे</item>
         <item>30 मिनिटे</item>
     </string-array>
-    <string-array name="sw_share_strings">
-        <item>तुम्ही खरोखर वेगाचे दानव आहात.</item>
-        <item>आपल्या कष्टाच्या फळांचा आनंद घ्या.</item>
-        <item>Androids वेगवान असण्यासाठी ज्ञात आहेत, परंतु आपल्या इतके वेगवान नाहीत!</item>
-        <item>फ्यू.</item>
-        <item>L33t वेळा.</item>
-        <item>अशी अफाट गती.</item>
-        <item>चला आता पुन्हा वेळ लावूया.</item>
-        <item>फक्त डावीकडे उडी मारा.</item>
-        <item>आपल्याकडे घाईसाठी पॅलेट आहे.</item>
-        <item>फोटोनिक गती.</item>
-    </string-array>
     <string-array name="timezone_labels">
         <item>मार्शल बेटे</item>
         <item>मिडवे बेट</item>
@@ -89,7 +113,7 @@
         <item>अलास्का</item>
         <item>पॅसिफिक टाइम</item>
         <item>तिजुआना</item>
-        <item>अॅरिझोना</item>
+        <item>ॲरिझोना</item>
         <item>चिहुआहुआ</item>
         <item>माउंटन टाइम</item>
         <item>मध्य अमेरिका</item>
@@ -156,7 +180,7 @@
         <item>सेऊल</item>
         <item>टोकियो, ओसाका</item>
         <item>यकुत्स्क</item>
-        <item>अॅडीलेड</item>
+        <item>ॲडीलेड</item>
         <item>डार्विन</item>
         <item>ब्रिस्बेन</item>
         <item>होबार्ट</item>

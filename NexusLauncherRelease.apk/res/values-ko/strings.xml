@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s이(가) 포함된 폴더에 추가</string>
     <string name="add_to_home_screen">홈 화면에 추가</string>
     <string name="added_to_folder">항목이 폴더에 추가되었습니다.</string>
+    <string name="added_to_home_screen_accessibility_text">%1$s 위젯이 홈 화면에 추가됨</string>
     <string name="all_apps_button_label">앱 목록</string>
     <string name="all_apps_button_personal_label">개인 앱 목록</string>
     <string name="all_apps_button_work_label">업무용 앱 목록</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">휴대전화 회전 시</string>
     <string name="allow_rotation_title">홈 화면 회전 허용</string>
     <string name="allset_description">휴대전화를 사용할 준비가 되었습니다.</string>
+    <string name="allset_hint">위로 스와이프하여 홈으로 이동</string>
+    <string name="allset_navigation_settings"><annotation id="link">시스템 탐색 설정</annotation></string>
     <string name="allset_title">설정 완료</string>
     <string name="app_downloading_title">%1$s 다운로드 중, %2$s 완료</string>
     <string name="app_info_drop_target_label">앱 정보</string>
@@ -98,10 +101,12 @@
     <string name="app_waiting_download_title">%1$s 설치 대기 중</string>
     <string name="auto_add_shortcuts_description">새로 설치한 앱에 적용</string>
     <string name="auto_add_shortcuts_label">홈 화면에 앱 아이콘 추가</string>
+    <string name="back_gesture_feedback_cancelled">오른쪽 또는 왼쪽 가장자리에서 화면 중앙으로 스와이프한 후 손가락을 떼세요.</string>
     <string name="back_gesture_feedback_complete_with_overview_follow_up">오른쪽에서 스와이프하여 뒤로 돌아가는 방법을 배웠습니다. 이번에는 앱 전환 방법을 알아보겠습니다.</string>
     <string name="back_gesture_feedback_complete_without_follow_up">돌아가기 동작을 완료했습니다.</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">화면 하단에 지나치게 가까운 곳에서 스와이프하면 안 됩니다.</string>
-    <string name="back_gesture_intro_subtitle">마지막 화면으로 돌아가려면 왼쪽 또는 오른쪽 가장자리에서 화면 중앙으로 스와이프하세요</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">오른쪽 또는 왼쪽 가장자리 끝에서 스와이프하세요.</string>
+    <string name="back_gesture_intro_subtitle">마지막 화면으로 돌아가려면 왼쪽 또는 오른쪽 가장자리에서 화면 중앙으로 스와이프하세요.</string>
     <string name="back_gesture_intro_title">스와이프하여 돌아가기</string>
     <string name="back_gesture_tutorial_confirm_subtitle">돌아가기 동작의 민감도를 변경하려면 설정으로 이동하세요</string>
     <string name="blocked_by_policy">이 작업은 앱 또는 조직에서 허용되지 않습니다.</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">탭하여 변경된 이름 저장</string>
     <string name="gadget_error_text">위젯을 로드할 수 없습니다.</string>
     <string name="gadget_setup_text">탭하여 설정을 완료하세요.</string>
+    <string name="gesture_tutorial_action_button_label">완료</string>
     <string name="gesture_tutorial_action_button_label_cancel">취소</string>
     <string name="gesture_tutorial_action_button_label_settings">설정</string>
     <string name="gesture_tutorial_action_button_label_skip">건너뛰기</string>
@@ -146,7 +152,7 @@
     <string name="home_gesture_feedback_overview_detected">손가락을 떼기 전에 멈추지 않아야 합니다.</string>
     <string name="home_gesture_feedback_swipe_too_far_from_edge">화면 하단 가장자리에서 위로 스와이프하세요.</string>
     <string name="home_gesture_feedback_wrong_swipe_direction">위로 똑바르게 스와이프하세요.</string>
-    <string name="home_gesture_intro_subtitle">화면 하단에서 위로 스와이프합니다. 이 동작을 사용하면 언제든지 홈 화면으로 이동할 수 있습니다</string>
+    <string name="home_gesture_intro_subtitle">화면 하단에서 위로 스와이프합니다. 이 동작을 사용하면 언제든지 홈 화면으로 이동할 수 있습니다.</string>
     <string name="home_gesture_intro_title">스와이프하여 홈으로 이동</string>
     <string name="home_screen">홈</string>
     <string name="hotsaet_tip_prediction_disabled">앱 제안이 사용 중지됨</string>
@@ -209,11 +215,12 @@
     <string name="overview_gesture_feedback_home_detected">창을 더 오래 누르고 있다가 손가락을 떼 보세요.</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">화면 하단 가장자리에서 위로 스와이프하세요.</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">위로 똑바르게 스와이프한 후 잠깐 멈추세요.</string>
+    <string name="overview_gesture_intro_subtitle">앱 간에 전환하려면 화면 하단에서 위로 스와이프하고 잠시 멈춘 다음 손가락을 떼세요.</string>
     <string name="overview_gesture_intro_title">스와이프로 앱 전환</string>
     <string name="overview_selection_pref_desc">앱 전환 시 텍스트 및 이미지를 길게 터치하여 작업 확인</string>
     <string name="overview_selection_pref_title">최근 사용 화면의 항목 선택</string>
     <string name="overview_suggestions_settings_summary">최근 사용에서 추천 작업 및 작업 표시기 표시</string>
-    <string name="overview_suggestions_settings_title">개요 추천</string>
+    <string name="overview_suggestions_settings_title">최근 사용 추천</string>
     <string name="package_state_unknown">알 수 없음</string>
     <string name="permdesc_install_shortcut">앱이 사용자의 작업 없이 바로가기를 추가할 수 있도록 합니다.</string>
     <string name="permdesc_read_settings">앱이 홈에 있는 설정 및 바로가기를 읽을 수 있도록 합니다.</string>
@@ -245,7 +252,7 @@
     <string name="search_keyboard_snackbar_turn_off">아니요</string>
     <string name="search_keyboard_snackbar_turn_on">예</string>
     <string name="search_menu_title">검색</string>
-    <string name="search_pref_category_info">위로 스와이프하여 앱, 사용자 등을 검색할 수 있습니다</string>
+    <string name="search_pref_category_info">위로 스와이프하여 앱, 사람 등을 검색할 수 있습니다</string>
     <string name="search_pref_category_result_types">검색결과에 표시</string>
     <string name="search_pref_info_btn">자세히 알아보기</string>
     <string name="search_pref_result_appsearch_settings_title">AppSearch 설정</string>
@@ -257,7 +264,7 @@
     <string name="search_pref_result_play_title">Play 스토어</string>
     <string name="search_pref_result_screenshot_title">스크린샷</string>
     <string name="search_pref_result_settings_title">설정</string>
-    <string name="search_pref_result_shortcuts_desc">앱 바로가기 및 사용자 바로가기 표시</string>
+    <string name="search_pref_result_shortcuts_desc">앱 바로가기 및 사람 바로가기 표시</string>
     <string name="search_pref_result_shortcuts_title">바로가기</string>
     <string name="search_pref_result_tips_title">도움말</string>
     <string name="search_pref_result_widgets_title">위젯</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">좌석</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">환경설정</string>
-    <string name="smartspace_preferences_in_settings">라이브 위젯</string>
+    <string name="smartspace_preferences_in_settings">한눈에 보기</string>
     <string name="smartspace_preferences_in_settings_desc">홈 화면 상단에 표시</string>
     <string name="smartspace_preferences_manage">맞춤설정</string>
     <string name="smartspace_preferences_turn_off_action">사용 중지</string>
@@ -293,7 +300,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="styles_wallpaper_button_text">배경화면 및 스타일</string>
     <string name="suggested_action_content_description">%2$s에서 %1$s을(를) 엽니다.</string>
-    <string name="suggestion_pref_screen_desc">모든 앱 및 홈 화면 추천 환경설정</string>
+    <string name="suggestion_pref_screen_desc">모든 앱 및 홈 화면 제안 환경설정</string>
     <string name="suggestion_pref_screen_title">제안</string>
     <string name="summary_app_suggestions">최근 사용 화면 및 모든 앱 목록 상단에 표시</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

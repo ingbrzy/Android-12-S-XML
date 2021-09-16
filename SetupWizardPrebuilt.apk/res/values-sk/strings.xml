@@ -168,7 +168,7 @@ Keď je režim v lietadle zapnutý, Wi‑Fi, mobilné siete a Bluetooth sú od
     <string name="gesture_intro_description">Naučte sa gestá na prechod na plochu, návrat späť a prepínanie aplikácií</string>
     <string name="gesture_intro_skip_button">Preskočiť</string>
     <string name="gesture_intro_start_button">Vyskúšať</string>
-    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Potiahnutím prechádzajte v telefóne}TABLET{Potiahnutím prechádzajte v tablete}other{Potiahnutím prechádzajte v zariadení}}</string>
+    <string name="gesture_intro_title">{DEVICE_TYPE,select, PHONE{Potiahnutím prechádzajte telefónom}TABLET{Potiahnutím prechádzajte tabletom}other{Potiahnutím prechádzajte zariadením}}</string>
     <string name="gms_account_checkin_title">Načítavajú sa informácie o účte…</string>
     <string name="gms_checkin_description_text">Môže to trvať niekoľko minút</string>
     <string name="gms_checkin_description_text_timeout">Trvá to príliš dlho? Skúste sa vrátiť a pripojte sa k inej sieti.</string>
@@ -341,13 +341,15 @@ Zariadenie nebolo inicializované."</string>
 
 "<li>Ktorýkoľvek iný používateľ môže prijať aktualizované povolenia aplikácie.</li>"
 
-"<li>Zdieľajte tento telefón iba s ľuďmi, ktorým dôverujete.</li></ul>}TABLET{<b>Dôležité:</b>"
+"<li>Zdieľajte tento telefón iba s ľuďmi, ktorým dôverujete.</li></ul>"
+}TABLET{"<b>Dôležité:</b>"
 
 "<ul><li>Vlastník tabletu môže odinštalovať vaše aplikácie alebo úplne odstrániť váš profil používateľa.</li>"
 
 "<li>Ktorýkoľvek iný používateľ môže prijať aktualizované povolenia aplikácie.</li>"
 
-"<li>Zdieľajte tento tablet iba s ľuďmi, ktorým dôverujete.</li></ul>}other{<b>Dôležité:</b>"
+"<li>Zdieľajte tento tablet iba s ľuďmi, ktorým dôverujete.</li></ul>"
+}other{"<b>Dôležité:</b>"
 
 "<ul><li>Vlastník zariadenia môže odinštalovať vaše aplikácie alebo úplne odstrániť váš profil používateľa.</li>"
 
@@ -356,73 +358,50 @@ Zariadenie nebolo inicializované."</string>
 "<li>Zdieľajte toto zariadenie iba s ľuďmi, ktorým dôverujete.</li></ul>}}</string>
     <string name="welcome_start_button_label">Spustiť</string>
     <string name="wifi_add_new_network">Pridať novú sieť</string>
-    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť váš telefón.
+    <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť telefón.
 
 Bez pripojenia nie je možné:
-
-"<li>prihlásiť sa do účtu Google;</li>"
-
-"<li>obnoviť aplikácie a údaje;</li>"
-
-"<li>získať aktualizácie softvéru;</li>"
-
-"<li>automaticky nastaviť dátum a čas.</li>"}TABLET{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť váš tablet.
+"<li>prihlásiť sa do účtu Google,</li>"
+"<li>obnoviť aplikácie a údaje,</li>"
+"<li>získať aktualizácie softvéru,</li>"
+"<li>automaticky nastaviť dátum a čas.</li>"
+}TABLET{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť tablet.
 
 Bez pripojenia nie je možné:
-
-"<li>prihlásiť sa do účtu Google;</li>"
-
-"<li>obnoviť aplikácie a údaje;</li>"
-
-"<li>získať aktualizácie softvéru;</li>"
-
-"<li>automaticky nastaviť dátum a čas.</li>"}other{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť vaše zariadenie.
+"<li>prihlásiť sa do účtu Google,</li>"
+"<li>obnoviť aplikácie a údaje,</li>"
+"<li>získať aktualizácie softvéru,</li>"
+"<li>automaticky nastaviť dátum a čas.</li>"
+}other{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť zariadenie.
 
 Bez pripojenia nie je možné:
-
-"<li>prihlásiť sa do účtu Google;</li>"
-
-"<li>obnoviť aplikácie a údaje;</li>"
-
-"<li>získať aktualizácie softvéru;</li>"
-
+"<li>prihlásiť sa do účtu Google,</li>"
+"<li>obnoviť aplikácie a údaje,</li>"
+"<li>získať aktualizácie softvéru,</li>"
 "<li>automaticky nastaviť dátum a čas.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť telefón.
 
 Bez pripojenia nie je možné:
-
 "<li>prihlásiť sa do účtu Google,</li>"
-
 "<li>obnoviť aplikácie a údaje,</li>"
-
 "<li>stiahnuť SIM kartu,</li>"
-
 "<li>získať aktualizácie softvéru,</li>"
-
-"<li>automaticky nastaviť dátum a čas.</li>"}TABLET{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť tablet.
+"<li>automaticky nastaviť dátum a čas.</li>"
+}TABLET{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť tablet.
 
 Bez pripojenia nie je možné:
-
 "<li>prihlásiť sa do účtu Google,</li>"
-
 "<li>obnoviť aplikácie a údaje,</li>"
-
 "<li>stiahnuť SIM kartu,</li>"
-
 "<li>získať aktualizácie softvéru,</li>"
-
-"<li>automaticky nastaviť dátum a čas.</li>"}other{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť zariadenie.
+"<li>automaticky nastaviť dátum a čas.</li>"
+}other{Pripojenie k Wi‑Fi alebo mobilnej sieti vám umožní rýchlo nastaviť zariadenie.
 
 Bez pripojenia nie je možné:
-
 "<li>prihlásiť sa do účtu Google,</li>"
-
 "<li>obnoviť aplikácie a údaje,</li>"
-
 "<li>stiahnuť SIM kartu,</li>"
-
 "<li>získať aktualizácie softvéru,</li>"
-
 "<li>automaticky nastaviť dátum a čas.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Prístupový bod je dočasne plný</string>
     <string name="wifi_check_password_try_again">Skontrolujte heslo a skúste to znova</string>

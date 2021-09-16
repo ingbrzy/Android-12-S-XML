@@ -73,6 +73,7 @@
     <string name="add_to_folder_with_app">%1$s ସହିତ ଫୋଲ୍ଡରରେ ଯୋଡ଼ନ୍ତୁ</string>
     <string name="add_to_home_screen">ମୂଳସ୍କ୍ରିନରେ ଯୋଗ କରନ୍ତୁ</string>
     <string name="added_to_folder">ଫୋଲ୍ଡରରେ ଆଇଟମ୍‌ ଯୋଡ଼ାଗଲା</string>
+    <string name="added_to_home_screen_accessibility_text">%1$sର ୱିଜେଟ୍ ମୂଳସ୍କ୍ରିନରେ ଯୋଡ଼ାଗଲା</string>
     <string name="all_apps_button_label">ଆପ୍‌ ତାଲିକା</string>
     <string name="all_apps_button_personal_label">ବ୍ୟକ୍ତିଗତ ଆପ୍ ତାଲିକା</string>
     <string name="all_apps_button_work_label">କାର୍ଯ୍ୟକାରୀ ଆପ୍‌ ତାଲିକା</string>
@@ -89,6 +90,8 @@
     <string name="allow_rotation_desc">ଯେତେବେଳେ ଫୋନକୁ ବୁଲାଯାଇଥାଏ</string>
     <string name="allow_rotation_title">ହୋମ୍‌ ସ୍କ୍ରିନ୍ ବୁଲାଇବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
     <string name="allset_description">ଆପଣ ଆପଣଙ୍କ ଫୋନ୍ ବ୍ୟବହାର କରିବା ପାଇଁ ପ୍ରସ୍ତୁତ ଅଛନ୍ତି</string>
+    <string name="allset_hint">ମୂଳପୃଷ୍ଠାକୁ ଯିବା ପାଇଁ ଉପରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
+    <string name="allset_navigation_settings"><annotation id="link">ସିଷ୍ଟମ୍ ନାଭିଗେସନ୍ ସେଟିଂସ୍</annotation></string>
     <string name="allset_title">ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ ପ୍ରସ୍ତୁତ!</string>
     <string name="app_downloading_title">%1$s ଡାଉନଲୋଡ୍‌ ହେଉଛି, %2$s ସମ୍ପୂର୍ଣ୍ଣ</string>
     <string name="app_info_drop_target_label">ଆପ୍‌ ସୂଚନା</string>
@@ -98,9 +101,11 @@
     <string name="app_waiting_download_title">%1$s ଇନଷ୍ଟଲ୍‌ ହେବାକୁ ଅପେକ୍ଷା କରିଛି</string>
     <string name="auto_add_shortcuts_description">ନୂଆ ଆପ୍‌ ପାଇଁ</string>
     <string name="auto_add_shortcuts_label">ହୋମ୍ ସ୍କ୍ରିନରେ ଆପ୍ ଆଇକନଗୁଡ଼ିକୁ ଯୋଗ କରନ୍ତୁ</string>
-    <string name="back_gesture_feedback_complete_with_overview_follow_up">"ଆପଣ ଡାହାଣ ଧାରରୁ ସ୍ୱାଇପ୍ କରି ପଛକୁ ଫେରିବା ଜାଣିଲେ। ତା'ପରେ, ଆପଗୁଡ଼ିକୁ କିପରି ସ୍ୱିଚ୍ କରିବେ ତାହା ଜାଣନ୍ତୁ।"</string>
+    <string name="back_gesture_feedback_cancelled">ଆପଣ ସ୍କ୍ରିନର ଡାହାଣ ବା ବାମ ଧାରରୁ ମଝିକୁ ସ୍ୱାଇପ୍ କରି ଛାଡ଼ି ଦେଉଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</string>
+    <string name="back_gesture_feedback_complete_with_overview_follow_up">"ଆପଣ ଡାହାଣରୁ ସ୍ୱାଇପ୍ କରି ପଛକୁ କିପରି ଫେରିବେ ତାହା ଜାଣିଲେ। ତା'ପରେ, ଆପକୁ କିପରି ସ୍ୱିଚ୍ କରିବେ ତାହା ଜାଣନ୍ତୁ।"</string>
     <string name="back_gesture_feedback_complete_without_follow_up">"ଆପଣ 'ପଛକୁ ଫେରନ୍ତୁ' ଜେଶ୍ଚର୍ ସମ୍ପୂର୍ଣ୍ଣ କରିଛନ୍ତି।"</string>
     <string name="back_gesture_feedback_swipe_in_nav_bar">ଆପଣ ସ୍କ୍ରିନର ତଳଭାଗର ଅତି ନିକଟରୁ ସ୍ୱାଇପ୍ କରୁନଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">ଆପଣ ସ୍କ୍ରିନର ଏକଦମ୍-ଡାହାଣ ବା ବାମ ଧାରରୁ ସ୍ୱାଇପ୍ କରୁଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</string>
     <string name="back_gesture_intro_subtitle">ପୂର୍ବବର୍ତ୍ତୀ ସ୍କ୍ରିନକୁ ଫେରିବା ପାଇଁ, ସ୍କ୍ରିନର ବାମ କିମ୍ବା ଡାହାଣ ଧାରରୁ ମଝିକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ।</string>
     <string name="back_gesture_intro_title">ପଛକୁ ଫେରିବା ପାଇଁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
     <string name="back_gesture_tutorial_confirm_subtitle">ପଛକୁ ଫେରିବା ଜେଶ୍ଚରର ସମ୍ବେଦନଶୀଳତା ବଦଳାଇବାକୁ ସେଟିଂସକୁ ଯାଆନ୍ତୁ</string>
@@ -131,6 +136,7 @@
     <string name="folder_tap_to_rename">ନାମ ବଦଳାଇବା ସେଭ୍ କରିବାକୁ ଟାପ୍‌ କରନ୍ତୁ</string>
     <string name="gadget_error_text">ୱିଜେଟ୍ ଲୋଡ୍ କରାଯାଇପାରିବ ନାହିଁ</string>
     <string name="gadget_setup_text">ସେଟ୍ ଅପ୍ ସମ୍ପୂର୍ଣ୍ଣ କରିବା ପାଇଁ ଟାପ୍ କରନ୍ତୁ</string>
+    <string name="gesture_tutorial_action_button_label">ହୋଇଗଲା</string>
     <string name="gesture_tutorial_action_button_label_cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
     <string name="gesture_tutorial_action_button_label_settings">ସେଟିଂସ୍</string>
     <string name="gesture_tutorial_action_button_label_skip">ବାଦ୍ ଦିଅନ୍ତୁ</string>
@@ -209,6 +215,7 @@
     <string name="overview_gesture_feedback_home_detected">ୱିଣ୍ଡୋକୁ ରିଲିଜ୍ କରିବା ପୂର୍ବରୁ ଅଧିକ ସମୟ ଧରି ରଖିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="overview_gesture_feedback_swipe_too_far_from_edge">ଆପଣ ସ୍କ୍ରିନର ତଳ ଧାରରୁ ଉପରକୁ ସ୍ୱାଇପ୍ କରୁଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</string>
     <string name="overview_gesture_feedback_wrong_swipe_direction">"ଆପଣ ସିଧା ଉପରକୁ ସ୍ୱାଇପ୍ କରି ତା'ପରେ ବିରତ କରୁଥିବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ।"</string>
+    <string name="overview_gesture_intro_subtitle">"ଆପଗୁଡ଼ିକ ମଧ୍ୟରେ ସ୍ୱିଚ୍ କରିବାକୁ, ସ୍କ୍ରିନର ତଳୁ ଉପରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ, ଧରି ରଖନ୍ତୁ, ତା'ପରେ ରିଲିଜ୍ କରନ୍ତୁ।"</string>
     <string name="overview_gesture_intro_title">ଆପଗୁଡ଼ିକୁ ସ୍ୱିଚ୍ କରିବା ପାଇଁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
     <string name="overview_selection_pref_desc">ଆପ୍‌କୁ ବଦଳାଇବାବେଳେ କାର୍ଯ୍ୟକୁ ଦେଖିବା ପାଇଁ ଟେକ୍ସଟ୍ ଓ ଇମେଜ୍‌କୁ ଦାବି ଧରନ୍ତୁ</string>
     <string name="overview_selection_pref_title">ସଂକ୍ଷିପ୍ତ ବିବରଣୀର ଚୟନ</string>
@@ -280,7 +287,7 @@
     <string name="smartspace_flight_card_seat_header">ସିଟ୍</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <string name="smartspace_preferences">ପ୍ରାଥମିକତା</string>
-    <string name="smartspace_preferences_in_settings">ଲାଇଭ୍ ସ୍ପେସ୍</string>
+    <string name="smartspace_preferences_in_settings">ଗୋଟିଏ ନଜରରେ</string>
     <string name="smartspace_preferences_in_settings_desc">ଆପଣଙ୍କ ହୋମ୍ ସ୍କ୍ରିନ୍‌ର ଶୀର୍ଷରେ</string>
     <string name="smartspace_preferences_manage">କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ</string>
     <string name="smartspace_preferences_turn_off_action">ବନ୍ଦ କରନ୍ତୁ</string>

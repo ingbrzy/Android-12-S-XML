@@ -357,9 +357,9 @@
     <string name="airplane_mode">وضع الطيران</string>
     <string name="alarm_template">في %1$s</string>
     <string name="alarm_template_far">يوم %1$s</string>
-    <string name="alarms_and_reminders_footer_title">"عليك السماح لهذا التطبيق بضبط المنبّهات وتحديد مواعيد للإجراءات الحساسة زمنيًا. يسمح هذا الأذن بتشغيل التطبيق في الخلفية، ما قد يستهلك المزيد من شحن البطارية.
+    <string name="alarms_and_reminders_footer_title">"يمكنك السماح لهذا التطبيق بضبط المنبّهات وجدولة الإجراءات لتنفيذها في الوقت المناسب. ويسمح هذا الإذن بتشغيل التطبيق في الخلفية، ما قد يستهلك المزيد من البطارية.
 
-إذا كان هذا الإذن غير مسموح به، لن تعمل الأحداث المستندة إلى وقت والمنبّهات الحالية التي يحدِّد هذا التطبيق موعدها."</string>
+في حال عدم تفعيل هذا الإذن، لن تعمل المنبهات الحالية والأحداث المستندة إلى الوقت المضبوطة في هذا التطبيق."</string>
     <string name="alarms_and_reminders_label">المنبّهات والتذكيرات</string>
     <string name="alarms_and_reminders_switch_title">السماح بضبط المنبّهات والتذكيرات</string>
     <string name="alarms_and_reminders_title">المنبّهات والتذكيرات</string>
@@ -595,6 +595,8 @@
     <string name="cached_apps_freezer_reboot_dialog_text">يجب إعادة تشغيل جهازك ليتم تطبيق هذا التغيير. يمكنك إعادة التشغيل الآن أو إلغاء التغيير.</string>
     <string name="camera_hint">يمكنك التمرير سريعًا من الرمز لتشغيل الكاميرا</string>
     <string name="camera_label">فتح الكاميرا</string>
+    <string name="camera_recording_announcement">جارٍ التسجيل بالكاميرا</string>
+    <string name="camera_stopped_recording_announcement">توقف التسجيل بالكاميرا.</string>
     <string name="cancel">إلغاء</string>
     <string name="carrier_network_change_mode">جارٍ تغيير شبكة مشغِّل شبكة الجوّال.</string>
     <string name="category_personal">شخصي</string>
@@ -734,6 +736,10 @@
     <string name="debug_monitoring_category">المراقبة</string>
     <string name="debug_networking_category">الشبكات</string>
     <string name="debug_view_attributes">تفعيل فحص سمة العرض</string>
+    <string name="defender_notify_des">يتم تقييد شحن هاتفك للمساعدة في الحفاظ على سلامة البطارية.</string>
+    <string name="defender_notify_learn_more">مزيد من المعلومات</string>
+    <string name="defender_notify_resume_charge">استئناف الشحن</string>
+    <string name="defender_notify_title">الشحن محدود مؤقتًا</string>
     <string name="delete_blob_confirmation_text">هل فعلاً تريد حذف هذه البيانات المشتركة؟</string>
     <string name="delete_blob_text">حذف البيانات المشتركة</string>
     <string name="demo_mode">وضع تجريبي لواجهة مستخدم النظام</string>
@@ -1070,6 +1076,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">‏جارٍ فتح قفل شريحة SIM…</string>
     <string name="keyguard_try_fingerprint">يمكنك استخدام بصمة الإصبع للفتح</string>
     <string name="keyguard_unlock">يمكنك الفتح بالتمرير سريعًا لأعلى.</string>
+    <string name="keyguard_unlock_press">اضغط لفتح الجهاز.</string>
     <string name="keywords_adb_wireless">‏adb، تصحيح الأخطاء، مطور برامج</string>
     <string name="keywords_alarms_and_reminders">جدول زمني، جدولة، منبّه، تذكير، ساعة</string>
     <string name="kg_enter_confirm_pin_hint">تأكيد رمز رقم التعريف الشخصي المطلوب</string>
@@ -1233,6 +1240,10 @@
     <string name="menu_ime">مفتاح تبديل لوحة المفاتيح</string>
     <string name="messages_count_overflow_indicator">+%d</string>
     <string name="mic_active">الميكروفون نشط</string>
+    <string name="mic_and_camera_recording_announcement">جارٍ التسجيل بالكاميرا والميكروفون</string>
+    <string name="mic_camera_stopped_recording_announcement">توقف التسجيل بالكاميرا والميكروفون.</string>
+    <string name="mic_recording_announcement">جارٍ التسجيل بالميكرفون</string>
+    <string name="mic_stopped_recording_announcement">توقف التسجيل بالميكرفون.</string>
     <string name="missed_call">مكالمة فائتة</string>
     <string name="mobile_carrier_text_format">%1$s، %2$s</string>
     <string name="mobile_data">بيانات الجوّال</string>
@@ -1706,8 +1717,6 @@
     <string name="quick_settings_work_mode_label">تطبيقات العمل</string>
     <string name="quick_step_accessibility_toggle_overview">تبديل \"النظرة العامة\"</string>
     <string name="recent_conversations">المحادثات الحديثة</string>
-    <string name="recents_quick_scrub_onboarding">اسحب لليسار للتبديل السريع بين التطبيقات</string>
-    <string name="recents_swipe_up_onboarding">مرّر سريعًا لأعلى لتبديل التطبيقات</string>
     <string name="remaining_length_format">يتبقى %1$s</string>
     <string name="remote_input_image_insertion_text">أرسَل صورة</string>
     <string name="remove_from_settings">إزالة من الإعدادات</string>
@@ -2117,6 +2126,7 @@
     <string name="wallet_secondary_label_no_card">إضافة بطاقة</string>
     <string name="wallet_secondary_label_updating">جارٍ تحديث تطبيق المحفظة</string>
     <string name="wallet_title">المحفظة</string>
+    <string name="weather_description">%1$s، %2$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">نقطة الوصول ممتلئة مؤقتًا</string>
     <string name="wifi_cant_connect">تعذَّر الاتصال</string>
     <string name="wifi_cant_connect_to_ap">"تعذَّر الاتصال بـ '%1$s'"</string>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="added_membership_changed">
+        <item quantity="other">%1$s添加了%2$s</item>
+        <item quantity="one">%1$s添加了%2$s</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_external_only_addendum">
+        <item quantity="other">这些用户不是此聊天室所属 Google Workspace 单位的成员。</item>
+        <item quantity="one">该用户不是此聊天室所属的 Google Workspace 单位的成员。</item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="adding_people_confirmation_model_body_mixed_addendum">
+        <item quantity="other">以上部分用户不是此聊天室所属 Google Workspace 单位的成员。</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="browse_space_number_of_members">
+        <item quantity="other">%d 位成员</item>
+        <item quantity="one">%d 位成员</item>
+    </plurals>
+    <plurals name="bt_notification_new_messages">
+        <item quantity="other">%s 封新邮件</item>
+        <item quantity="one">%s 封新邮件</item>
+    </plurals>
+    <plurals name="cancel_failed">
+        <item quantity="other">未能取消部分定时发送邮件</item>
+        <item quantity="one">未能取消定时发送邮件</item>
+    </plurals>
+    <plurals name="canceled">
+        <item quantity="other">已取消定时发送并将邮件还原为草稿</item>
+        <item quantity="one">已取消定时发送并将邮件还原为草稿</item>
+    </plurals>
+    <plurals name="canceled_scheduled_sends_from_thread_list_confirmation">
+        <item quantity="other">已取消定时发送 %1$d 封邮件并将邮件还原为草稿</item>
+        <item quantity="one">已取消定时发送并将邮件还原为草稿</item>
+    </plurals>
+    <plurals name="ces_details_header_message">
+        <item quantity="other">%s 位收件人</item>
+        <item quantity="one">1 位收件人</item>
+    </plurals>
+    <plurals name="ces_dialog_message">
+        <item quantity="other">^1 位收件人使用的服务不支持加密。未经加密的邮件在递送过程中可能会被他人看到。^2</item>
+        <item quantity="one">^1使用的服务不支持加密。未经加密的邮件在递送过程中可能会被他人看到。^2</item>
+    </plurals>
+    <plurals name="ces_not_supported_sent">
+        <item quantity="other">^1 和其他网域在这封邮件发送时不支持加密功能。</item>
+        <item quantity="one">^1 在这封邮件发送时不支持加密功能。</item>
+    </plurals>
+    <plurals name="collapsed_messages_count_content_description">
+        <item quantity="other">%1$s 则已收起的消息</item>
+        <item quantity="one">%1$s 则已收起的消息</item>
+    </plurals>
+    <plurals name="conf_breakout_end_timer_started">
+        <item quantity="other">分组会议将于 %d 分钟后结束。</item>
+        <item quantity="one">分组会议将于 %d 分钟后结束。</item>
+    </plurals>
+    <plurals name="conf_call_will_end_warning">
+        <item quantity="other">你的通话将于 %1$d 分钟后结束</item>
+        <item quantity="one">你的通话将于 %1$d 分钟后结束</item>
+    </plurals>
+    <plurals name="conf_overflow_label">
+        <item quantity="other">另外 %d 人</item>
+        <item quantity="one">另外 %d 人</item>
+    </plurals>
+    <plurals name="conf_pip_other_participants_count_content_description">
+        <item quantity="other">另外 %d 人</item>
+        <item quantity="one">另外 %d 人</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">要将这 %1$d 个会话归档吗？</item>
+        <item quantity="one">要将此会话归档吗？</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">要删除这 %1$d 个会话吗？</item>
+        <item quantity="one">要删除此会话吗？</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">要舍弃这 %1$d 个会话中的草稿吗？</item>
+        <item quantity="one">要舍弃此会话中的草稿吗？</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话归档</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话归档</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">已删除 &lt;b>%1$d&lt;/b> 个会话</item>
+        <item quantity="one">已删除 &lt;b>%1$d&lt;/b> 个会话</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">标签已更改。</item>
+        <item quantity="one">标签已更改。</item>
+    </plurals>
+    <plurals name="conversation_important">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话标记为重要</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话标记为重要</item>
+    </plurals>
+    <plurals name="conversation_invisible_trashed_messages">
+        <item quantity="other">已删除此会话中的 %1$d 封邮件</item>
+        <item quantity="one">已删除此会话中的 %1$d 封邮件</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话移至收件箱</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话移至收件箱</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">已忽略 &lt;b>%1$d&lt;/b> 个会话</item>
+        <item quantity="one">已忽略 &lt;b>%1$d&lt;/b> 个会话</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话标为不重要</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话标为不重要</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话列为非垃圾邮件</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话列为非垃圾邮件</item>
+    </plurals>
+    <plurals name="conversation_read">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话标为已读</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话标为已读</item>
+    </plurals>
+    <plurals name="conversation_snoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> 项内容已延后至%2$s</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> 项内容已延后至%2$s</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话列为垃圾邮件</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话列为垃圾邮件</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">已将 %1$d 封邮件列为垃圾邮件并退订</item>
+        <item quantity="one">已将 %1$d 封邮件列为垃圾邮件并退订</item>
+    </plurals>
+    <plurals name="conversation_starred">
+        <item quantity="other">正在为 %1$d 个会话加星标</item>
+        <item quantity="one">正在为 %1$d 个会话加星标</item>
+    </plurals>
+    <plurals name="conversation_unread">
+        <item quantity="other">已将 &lt;b>%1$d&lt;/b> 个会话标为未读</item>
+        <item quantity="one">已将 &lt;b>%1$d&lt;/b> 个会话标为未读</item>
+    </plurals>
+    <plurals name="conversation_unsnoozed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> 项已取消延后</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> 项已取消延后</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">正在取消 %1$d 个会话的星标</item>
+        <item quantity="one">正在取消 %1$d 个会话的星标</item>
+    </plurals>
+    <plurals name="conversation_unsubscribed">
+        <item quantity="other">已退订 %1$d 封遭到举报的邮件</item>
+        <item quantity="one">已退订 %1$d 封遭到举报的邮件</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">每 %d 天</item>
+        <item quantity="one">每天</item>
+    </plurals>
+    <plurals name="developer_disabled_response">
+        <item quantity="other">%1$s已被聊天机器人开发者停用。</item>
+        <item quantity="one">%1$s已被聊天机器人开发者停用。</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">这些邮件将被标记为垃圾邮件。要同时停止接收这 &lt;b>%2$d 位发件人&lt;/b>发来的类似邮件吗？%1$s</item>
+        <item quantity="one">此邮件将被标记为垃圾邮件。要同时停止接收%1$s发来的类似邮件吗？</item>
+    </plurals>
+    <plurals name="do_not_disturb_hour_duration_string">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="do_not_disturb_minute_duration_string">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">草稿</item>
+        <item quantity="one">草稿</item>
+    </plurals>
+    <plurals name="drop_participant_prompt_details_text">
+        <item quantity="other">%1$s和另外 %2$d 人无法添加到此聊天中</item>
+        <item quantity="one">%1$s无法添加到此聊天中</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$s 个会话将被永久删除</item>
+        <item quantity="one">%1$s 个会话将被永久删除</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">；重复 %d 次</item>
+        <item quantity="one">；重复 1 次</item>
+    </plurals>
+    <plurals name="external_member_invitation_dialog_title">
+        <item quantity="other">你即将添加外部邀请对象</item>
+        <item quantity="one">你即将添加外部邀请对象</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">收件人可能无法访问您从云端硬盘中插入的文件。您可能需要从 Google 云端硬盘中共享这些文件。</item>
+        <item quantity="one">收件人可能无法访问您从云端硬盘中插入的文件。您可能需要从 Google 云端硬盘中共享该文件。</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body_da">
+        <item quantity="other">接收者可能无法访问你插入的云端硬盘文件。你可能需要在 Google 云端硬盘中共享这些文件。</item>
+        <item quantity="one">接收者可能无法访问你插入的云端硬盘文件。你可能需要在 Google 云端硬盘中共享此文件。</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">请注意：有些收件人可能仍然无法获得这些文件。您可能需要从 Google 云端硬盘中共享这些文件。</item>
+        <item quantity="one">请注意：有些收件人可能仍然无法获得此文件。您可能需要从 Google 云端硬盘中共享此文件。</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning_da">
+        <item quantity="other">注意：部分接收者可能仍无法访问这些文件。你可能需要在 Google 云端硬盘中共享这些文件。</item>
+        <item quantity="one">注意：部分接收者可能仍无法访问此文件。你可能需要在 Google 云端硬盘中共享该文件。</item>
+    </plurals>
+    <plurals name="fix_permissions_failure_da">
+        <item quantity="other">错误：无法共享这些文件。</item>
+        <item quantity="one">错误：无法共享此文件。</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"您将与以下收件人共享这些文件：&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>这些收件人不是这些文件所属 Google Workspace 单位的用户。"</item>
+        <item quantity="one">您将与以下收件人共享此文件：&lt;br>&lt;b>%1$s&lt;/b>&lt;br>这些收件人不是此文件所属 Google Workspace 单位的用户。</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning_da">
+        <item quantity="other">你将与以下接收者共享这些文件：%1$s，但这些接收者不是这些文件所属 Google Workspace 单位的用户。</item>
+        <item quantity="one">你将与以下接收者共享此文件：%1$s，但这些接收者不是此文件所属 Google Workspace 单位的用户。</item>
+    </plurals>
+    <plurals name="flat_dm_new_messages_bar_content_description">
+        <item quantity="other">你在下方的“新消息”按钮中有 %d 条新消息。</item>
+        <item quantity="one">你在下方的“新消息”按钮中有 %d 条新消息。</item>
+    </plurals>
+    <plurals name="fz_dialog_message_none">
+        <item quantity="other">^1 位收件人使用的服务不支持加密。未经加密的邮件可能在递送过程中遭他人读取。^2</item>
+        <item quantity="one">^1使用的服务不支持加密。未经加密的邮件可能在递送过程中遭他人读取。^2</item>
+    </plurals>
+    <plurals name="hidden_collapsed_messages">
+        <item quantity="other">%d 则消息未显示</item>
+        <item quantity="one">%d 则消息未显示</item>
+    </plurals>
+    <plurals name="invite_group_members_count">
+        <item quantity="other">%d 人</item>
+        <item quantity="one">%d 人</item>
+    </plurals>
+    <plurals name="invited_membership_changed">
+        <item quantity="other">%1$s邀请了%2$s</item>
+        <item quantity="one">%1$s邀请了%2$s</item>
+    </plurals>
+    <plurals name="invited_room_count_fab_content_description">
+        <item quantity="other">未查看 %d 个受邀加入的聊天室</item>
+        <item quantity="one">未查看 %d 个受邀加入的聊天室</item>
+    </plurals>
+    <plurals name="invited_room_count_menu_item_content_description">
+        <item quantity="other">“浏览聊天室”按钮。你尚未查看 %d 个受邀加入的聊天室。</item>
+        <item quantity="one">“浏览聊天室”按钮。你尚未查看 %d 个受邀加入的聊天室。</item>
+    </plurals>
+    <plurals name="invited_room_member_count_content_description">
+        <item quantity="other">%d 位成员</item>
+        <item quantity="one">%d 位成员</item>
+    </plurals>
+    <plurals name="joined_membership_changed_plural">
+        <item quantity="other">%1$s已加入</item>
+        <item quantity="one">%1$s已加入</item>
+    </plurals>
+    <plurals name="message_requests_action_bar_title">
+        <item quantity="other">%d 个消息请求</item>
+        <item quantity="one">%d 个消息请求</item>
+    </plurals>
+    <plurals name="message_requests_count_content_description">
+        <item quantity="other">%d 条未查看的消息请求</item>
+        <item quantity="one">%d 条未查看的消息请求</item>
+    </plurals>
+    <plurals name="message_time_minutes_ago">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="monthly_interval">
+        <item quantity="other">每 %1$d 个月</item>
+        <item quantity="one">每月</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 条新通知</item>
+        <item quantity="one">%d 条新通知</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d 封新邮件</item>
+        <item quantity="one">%1$d 封新邮件</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d 封新邮件</item>
+        <item quantity="one">%1$d 封新邮件</item>
+    </plurals>
+    <plurals name="new_messages_bar_content_description">
+        <item quantity="other">你在下方的“新消息”按钮中有 %d 条消息。</item>
+        <item quantity="one">你在下方的“新消息”按钮中有 %d 条消息。</item>
+    </plurals>
+    <plurals name="new_messages_bar_text_plural">
+        <item quantity="other">%d 条新消息</item>
+        <item quantity="one">%d 条新消息</item>
+    </plurals>
+    <plurals name="notification_new_messages_text">
+        <item quantity="other">%d 条新消息</item>
+        <item quantity="one">%d 条新消息</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d 个附件</item>
+        <item quantity="one">%1$d 个附件</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d 封邮件</item>
+        <item quantity="one">%1$d 封邮件</item>
+    </plurals>
+    <plurals name="oodw_compose_dialog_mesage_body_parameter">
+        <item quantity="other">部分收件人为单位外部用户，且不是您的联系人。</item>
+        <item quantity="one">%s 为单位外部用户，且不是您的联系人。</item>
+    </plurals>
+    <plurals name="oodw_warning_title">
+        <item quantity="other">外部收件人</item>
+        <item quantity="one">外部收件人</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="other">已复制 %d 个收件人</item>
+        <item quantity="one">已复制 %d 个收件人</item>
+    </plurals>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">日历未共享</item>
+        <item quantity="one">日历未共享</item>
+    </plurals>
+    <plurals name="preview_message_size_limit_exceed_failure">
+        <item quantity="other">超出消息长度上限 %d 个字符</item>
+        <item quantity="one">超出消息长度上限 %d 个字符</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d 条新通知</item>
+        <item quantity="one">你有 1 条通知</item>
+    </plurals>
+    <plurals name="reactions_list_reactors_count">
+        <item quantity="other">%1$d 人已回应</item>
+        <item quantity="one">%1$d 人已回应</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_have_not_read_it_accessibility_description">
+        <item quantity="other">%1$s 人未读</item>
+        <item quantity="one">%1$s 人未读</item>
+    </plurals>
+    <plurals name="read_receipts_by_message_view_read_it_accessibility_description">
+        <item quantity="other">%1$s 人已读</item>
+        <item quantity="one">%1$s 人已读</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">展开 %1$d 封较早的邮件</item>
+        <item quantity="one">展开较早的邮件</item>
+    </plurals>
+    <plurals name="snoozed_date_days_ago">
+        <item quantity="other">在 %d 天前被延后</item>
+        <item quantity="one">在 %d 天前被延后</item>
+    </plurals>
+    <plurals name="snoozed_date_hours_ago">
+        <item quantity="other">在 %d 小时前被延后</item>
+        <item quantity="one">在 %d 小时前被延后</item>
+    </plurals>
+    <plurals name="snoozed_date_months_ago">
+        <item quantity="other">在 %d 个月前被延后</item>
+        <item quantity="one">在 %d 个月前被延后</item>
+    </plurals>
+    <plurals name="snoozed_date_weeks_ago">
+        <item quantity="other">在 %d 周前被延后</item>
+        <item quantity="one">在 %d 周前被延后</item>
+    </plurals>
+    <plurals name="snoozed_date_years_ago">
+        <item quantity="other">在 %d 年前被延后</item>
+        <item quantity="one">在 %d 年前被延后</item>
+    </plurals>
+    <plurals name="space_action_bar_subtitle_number_of_members">
+        <item quantity="other">%d 位成员</item>
+        <item quantity="one">%d 位成员</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">已展开 %1$d 封较早的邮件</item>
+        <item quantity="one">已展开 1 封较早的邮件</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="other">%1$d 星（最高 %2$d 星）</item>
+        <item quantity="one">%1$d 星（最高 %2$d 星）</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">1 天</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">连接后会下载最近 %1$d 天的邮件</item>
+        <item quantity="one">连接后会下载最近 1 天的邮件</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">最近 %1$d 天</item>
+        <item quantity="one">最近 1 天</item>
+    </plurals>
+    <plurals name="t4_list_section_description">
+        <item quantity="other">截止日期 - %1$s - %2$d 项任务</item>
+        <item quantity="one">截止日期 - %1$s - %2$d 项任务</item>
+    </plurals>
+    <plurals name="task_num_dragged_subtasks">
+        <item quantity="other">+%1$d 项子任务</item>
+        <item quantity="one">+1 项子任务</item>
+    </plurals>
+    <plurals name="task_overdue_days">
+        <item quantity="other">%1$d 天前</item>
+        <item quantity="one">昨天</item>
+    </plurals>
+    <plurals name="task_overdue_weeks">
+        <item quantity="other">%1$d 周前</item>
+        <item quantity="one">1 周前</item>
+    </plurals>
+    <plurals name="task_overdue_years">
+        <item quantity="other">%1$d 年前</item>
+        <item quantity="one">1 年前</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_description">
+        <item quantity="other">完成此项任务也会将 %1$d 项子任务标记为已完成。</item>
+        <item quantity="one">完成此项任务也会将 1 项子任务标记为已完成。</item>
+    </plurals>
+    <plurals name="tasks_confirm_complete_subtasks_title">
+        <item quantity="other">要将 %1$d 项任务标记为已完成吗？</item>
+        <item quantity="one">要将 1 项任务标记为已完成吗？</item>
+    </plurals>
+    <plurals name="time_in_mins">
+        <item quantity="other">%1$d 分钟后</item>
+        <item quantity="one">%1$d 分钟后</item>
+    </plurals>
+    <plurals name="time_number_mins">
+        <item quantity="other">%1$d 分钟</item>
+        <item quantity="one">%1$d 分钟</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">天</item>
+        <item quantity="one">天</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">每 %1$d 周的%2$s</item>
+        <item quantity="one">每周的%2$s</item>
+    </plurals>
+    <plurals name="yearly_interval_plain">
+        <item quantity="other">每 %1$d 年</item>
+        <item quantity="one">每年</item>
+    </plurals>
+</resources>

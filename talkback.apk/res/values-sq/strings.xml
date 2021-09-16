@@ -105,7 +105,7 @@ Vazhdo të mësosh rreth temave të tjera tani ose rishikoje këtë informacion 
     <string name="audio_focus_state">Ulja e zhurmave në sfond: %1$s</string>
     <string name="auto_detect">Përshtate me mënyrën se si e mban pajisjen</string>
     <string name="auto_scan_action_description">Nis skanimin dhe përzgjidh</string>
-    <string name="auto_scan_or_select">"Auto-scan' or 'Select"</string>
+    <string name="auto_scan_or_select_for_point_scan">\"Skanimi automatik\" ose \"Zgjidh\"</string>
     <string name="available_devices_header">Pajisjet me Bluetooth që ofrohen</string>
     <string name="basic_navigation_link_subtext">Kalo nga një artikull te tjetri, lëviz, përdor menytë etj.</string>
     <string name="basic_navigation_link_text">Navigimi bazë</string>
@@ -119,7 +119,7 @@ Vazhdo të mësosh rreth temave të tjera tani ose rishikoje këtë informacion 
     <string name="bluetooth_no_devices_paired">Nuk është çiftuar asnjë pajisje me Bluetooth</string>
     <string name="bluetooth_not_enabled_message">Për të çiftuar një çelës me Bluetooth, aktivizo Bluetooth-in</string>
     <string name="bluetooth_peripheral_content_description">Pajisje periferike</string>
-    <string name="bluetooth_permissions_not_granted_message">To pair a Bluetooth switch in the Setup Wizard, turn on Bluetooth and grant Android Accessibility Suite access to Nearby Devices and Location permissions.</string>
+    <string name="bluetooth_permissions_not_granted_message">Për të çiftuar një çelës me Bluetooth tek \"Eksperti i konfigurimit\", aktivizo Bluetooth-in dhe jepi qasje \"Paketës së qasshmërisë së Android\" te lejet \"Pajisjet në afërsi\" dhe \"Vendndodhja\".</string>
     <string name="bluetooth_phone_content_description">Telefon</string>
     <string name="bluetooth_switch_description_text">Çifto me valë një çelës përmes Bluetooth-it</string>
     <string name="bluetooth_switch_option_text">Çelësi i Bluetooth-it</string>
@@ -157,6 +157,9 @@ Vazhdo të mësosh rreth temave të tjera tani ose rishikoje këtë informacion 
     <string name="cam_switch_enable_banner_text_label_generic">Për të kontrolluar pajisjen tënde, në fillim duhet të aktivizosh \"Qasjen me çelës\".</string>
     <string name="cam_switch_enable_cam_switches_banner_positive_button_text_label">Aktivizo \"Çelësat e kamerës\"</string>
     <string name="cam_switch_enable_switch_access_banner_positive_button_text_label">Aktivizo \"Qasjen me çelës\"</string>
+    <string name="cam_switches_combined_preferences_title">Cilësimet e \"%1$s\"</string>
+    <string name="cam_switches_preferences_title">Cilësimet e \"Çelësit të kamerës\"</string>
+    <string name="cam_switches_single_preferences_title">Cilësimet e \"%s\"</string>
     <string name="camera_switches_status_active">Çelësat e kamerës janë aktivë</string>
     <string name="camera_switches_status_error">Gabim</string>
     <string name="camera_switches_status_no_face">Nuk u zbulua asnjë fytyrë</string>
@@ -263,7 +266,7 @@ Provo të ngjitësh një fjalë në kutinë e tekstit më poshtë."</string>
     <string name="default_action_name_pause">Vendose në pauzë \"Çelësin e kamerës\"</string>
     <string name="default_action_name_point_scan">Skanimi i pikës</string>
     <string name="dialog_confirm_revert_to_default_menu">Konfirmo</string>
-    <string name="dialog_do_not_disturb_permission_message">Për të rregulluar volumin nga menyja e \"Qasjes me çelës\", aktivizo qasjen e \"Mos shqetëso\" për \"Paketën e qasshmërisë së Android\"</string>
+    <string name="dialog_do_not_disturb_permission_message">Për të rregulluar volumin nga menyja e \"Qasjes me çelës\", aktivizo qasjen e \"Mos shqetëso\" për \"Paketën e qasshmërisë të Android\"</string>
     <string name="dialog_do_not_disturb_permission_title">\"Qasja me çelës\" ka nevojë për leje për të rregulluar volumin</string>
     <string name="dialog_go_to_do_not_disturb_settings_button">Hap cilësimet</string>
     <string name="dialog_message_cam_switch_dynamic_model_downloads">Për të funksionuar, \"Çelësat e kamerës\" duhet të shkarkojnë rreth 10 MB të dhëna shtesë. Kjo duhet të zgjasë rreth një minutë, në varësi të shpejtësisë së rrjetit.</string>
@@ -399,6 +402,7 @@ Provoje tani duke prekur ekranin dhe duke e zvarritur drejt këndit majtas posht
     <string name="fallback_menu_item_open_in_browser">Hape në shfletues</string>
     <string name="fallback_menu_item_share_link">Ndaj lidhjen</string>
     <string name="fast_radio_button_title">E shpejtë (vonesë %1$s sek.)</string>
+    <string name="fast_radio_button_title_content_description">I shpejtë (vonesa %1$s sek.)</string>
     <string name="find_finish_button_text">Rrëshqit djathtas për të gjetur butonin \"përfundo\".</string>
     <string name="finish">Përfundo</string>
     <string name="finish_tutorial_announcement">Po shfaq tastierën breil. Ktheje telefonin në mënyrë të tillë që ekrani të jetë drejtuar larg vetes sate. Rrotulloje telefonin horizontalisht në pozicionin e peizazhit. Më pas fillo të shkruash.</string>
@@ -747,6 +751,7 @@ Emri i pamjes së brendshme: %1$s"</string>
     <string name="list_index_template">%1$d nga %2$d</string>
     <string name="lockscreen_label">Ekrani i kyçjes</string>
     <string name="medium_radio_button_title">Mesatare (vonesë %1$s sek.)</string>
+    <string name="medium_radio_button_title_content_description">Mesatar (vonesa %1$s sek.)</string>
     <string name="menu_category_reading_controls">Leximi</string>
     <string name="menu_category_special_features">Veçoritë e veçanta</string>
     <string name="menus_selector_text">"Këto shkurtore mund të të ndihmojnë të ndryshosh me shpejtësi cilësimet, si kalimin e navigimit tënd nga karakteret te fjalët ose ndryshimin e shpejtësisë së të folurës së TalkBack.
@@ -767,6 +772,7 @@ Hape tani menynë TalkBack duke e trokitur ekranin me 3 gishta."</string>
 Hape tani menynë e TalkBack duke rrëshqitur shpejt poshtë, pastaj djathtas."</string>
     <string name="menus_title">Menyja dhe kontrollet</string>
     <string name="message_in_reset_keymap_confirm_dialog">Je i sigurt që dëshiron të rivendosësh tastet e shkurtoreve për këtë hartë tastesh te vlerat e tyre të parazgjedhura? Ki parasysh se ky veprim nuk mund të zhbëhet.</string>
+    <string name="message_request_phone_permission">"TalkBack kërkon të mësojë kur kryhet një telefonatë, në mënyrë që TalkBack të mund t'i zvogëlojë njoftimet ndërhyrëse."</string>
     <string name="message_reset_gesture_settings_confirm_dialog">"Kjo do t'i rivendosë të gjitha gjestet te veprimet e tyre të parazgjedhura.
 
 Do të humbësh çdo ndryshim që ke bërë."</string>
@@ -996,6 +1002,7 @@ Provo një gjest ku dy rrëshqitje të shpejta formojnë një kënd të drejtë.
     <string name="pref_reduce_window_delay_title">Zvogëlo vonesën e njoftimit për dritaren</string>
     <string name="pref_sa_combined_switch_add_cam_switches_button_label">Shto \"Çelësat e kamerës\"</string>
     <string name="pref_sa_combined_switch_clear_physical_switches_button_label">Pastro çelësat fizikë</string>
+    <string name="pref_sa_combined_switch_config_cam_switches_settings_content_description">Konfiguro cilësimet për çelësin: %s</string>
     <string name="pref_sa_combined_switch_edit_cam_switches_button_label">Modifiko \"Çelësat e kamerës\"</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_no_values_summary_label">Asnjë \"Çelës kamere\" i caktuar</string>
     <string name="pref_sa_combined_switch_mapping_assign_cam_switch_title_label">Cakto \"Çelësat e kamerës\" për \"%s\"</string>
@@ -1016,9 +1023,9 @@ Provo një gjest ku dy rrëshqitje të shpejta formojnë një kënd të drejtë.
     <string name="pref_sa_face_playground_stop_preview_content_description">Ndalo pamjen paraprake</string>
     <string name="pref_sa_face_playground_switch_on_content_description">Aktivizo</string>
     <string name="pref_sa_face_playground_switch_on_summary_text">\"Çelësat e kamerës\" duhet të jenë të aktivizuar për të përdorur këtë zonë testimi</string>
-    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Try it: preview all face gesture types, including open mouth, smile, and so forth</string>
-    <string name="pref_sa_face_playground_try_it_button_text">Try it</string>
-    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Try it: preview %1$s face gestures</string>
+    <string name="pref_sa_face_playground_try_it_all_gestures_content_description">Provoje! Shiko paraprakisht të gjitha llojet e gjesteve të fytyrës, duke përfshirë gojën e hapur, buzëqeshjen etj.</string>
+    <string name="pref_sa_face_playground_try_it_button_text">Provoje</string>
+    <string name="pref_sa_face_playground_try_it_single_gestures_content_description_template">Provoje! Shiko paraprakisht gjestet e fytyrës (%1$s)</string>
     <string name="pref_sa_face_playground_try_it_unpause_summary_text">Zona e testimit është vendosur në pauzë. Përdor butonin më poshtë për ta nisur përsëri.</string>
     <string name="pref_selector_summary">%1$s për të zgjedhur një cilësim. Më pas %2$s për të rregulluar cilësimin.</string>
     <string name="pref_selector_summary_two_select_gesture">%1$s ose %2$s për të zgjedhur një cilësim. Më pas %3$s për të rregulluar cilësimin.</string>
@@ -1067,6 +1074,7 @@ Nëse pajisja jote ende nuk lidhet, shko te cilësimet e Bluetooth-t dhe provo t
     <string name="reduce_speed_button">Redukto shpejtësinë</string>
     <string name="remaining_calibration_finish_announcement">Të gjitha pozicionet e pikave u përditësuan</string>
     <string name="reminder_announcement">Rrëshqit shpejt lart me 3 gishta për më shumë opsione</string>
+    <string name="remove_assigned_switch">Hiqe caktimin e çelësit për: %s</string>
     <string name="report_gesture_description">Këtu janë gjestet e kryera së fundi. Raporto se cili gjest është gabim dhe çfarë pritet.</string>
     <string name="reset_button_in_reset_gesture_settings_confirm_dialog">Rivendos</string>
     <string name="reset_button_in_reset_keymap_confirm_dialog">Rivendos</string>
@@ -1147,6 +1155,7 @@ Provoje këtë tani duke rrëshqitur shpejt lart me 2 gishta derisa të lëvizë
     <string name="search_mode_hint_no_selection">Nuk u zgjodh asnjë artikull.</string>
     <string name="search_mode_hint_query">Pyetja aktuale: %1$s.</string>
     <string name="search_mode_hint_selection">Zgjedhja aktuale: %1$s.</string>
+    <string name="select_for_point_scan">\"Zgjidh\"</string>
     <string name="select_setting_hint">%1$s për të zgjedhur një cilësim tjetër</string>
     <string name="selecting_text_text">"Në një kuti teksti, lëvize kursorin në fillim të tekstit që dëshiron të zgjedhësh.
 
@@ -1207,6 +1216,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="shortcut_media_control">Luaj ose vendos në pauzë median</string>
     <string name="shortcut_next">Artikulli tjetër</string>
     <string name="shortcut_next_granularity">Cilësimi i lundrimit të radhës</string>
+    <string name="shortcut_next_window">Dritarja tjetër</string>
     <string name="shortcut_not_customizable">%1$s, nuk mund të personalizohet</string>
     <string name="shortcut_notifications">Njoftimet</string>
     <string name="shortcut_overview">Përmbledhja</string>
@@ -1219,6 +1229,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="shortcut_practice_gestures">Praktiko gjestet</string>
     <string name="shortcut_previous">Artikulli i mëparshëm</string>
     <string name="shortcut_previous_granularity">Cilësimi i lundrimit të mëparshëm</string>
+    <string name="shortcut_previous_window">Dritarja e mëparshme</string>
     <string name="shortcut_print_node_tree">Printo pemën e nyjës</string>
     <string name="shortcut_print_performance_stats">Printo statistikat e performancës</string>
     <string name="shortcut_quick_settings">Cilësimet e shpejta</string>
@@ -1258,6 +1269,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
 • Tunde për të nisur leximin e vazhdueshëm"</string>
     <string name="six_hold_announcement">Mund të shkruash gjithashtu duke e vendosur telefonin rrafsh në tavolinë. Provoje tani. Nëse nuk ke një tavolinë në afërsi, kapërce përpara duke rrëshqitur poshtë shpejt.</string>
     <string name="slow_radio_button_title">E ngadaltë (vonesë %1$s sek.)</string>
+    <string name="slow_radio_button_title_content_description">I ngadaltë (vonesa %1$s sek.)</string>
     <string name="sound_feedback_state">Reagimi me zë: %1$s</string>
     <string name="sound_feedback_summary">Luaj një tingull për të treguar se diçka ndryshoi (p.sh. përmbajtja në ekran ndryshoi)</string>
     <string name="speak_container_element_position_summary_off">Informacionet e listës dhe të rrjetës nuk shqiptohen</string>
@@ -1331,17 +1343,17 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="summary_pref_face_switches_debounce_time">Aktivizuesit e shumtë të \"Çelësave të kamerës\" brenda kësaj periudhe do të trajtohen si një aktivizues i vetëm.</string>
     <string name="summary_pref_face_switches_enabled">\"Çelësat e kamerës\" përdorin kamerën e përparme për të zbuluar nëse po shikon ekranin dhe për të njohur gjestet e fytyrës. Imazhet nuk ruhen apo dërgohen te Google.</string>
     <string name="summary_pref_face_switches_enhanced_audio_feedback_enabled">Luaj një tingull kur diçka në ekran ndryshon në përgjigje të një gjesti</string>
-    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Show a visual indication of how long you have held a gesture</string>
+    <string name="summary_pref_face_switches_enhanced_visual_feedback_enabled">Shfaq një tregues vizual për kohëzgjatjen e kryerjes së një gjesti</string>
     <string name="summary_pref_face_switches_keep_screen_on_enabled">Mbaje ekranin aktiv kur janë aktivizuar \"Çelësat e kamerës\". \"Çelësat e kamerës\" nuk mund ta shkyçin ekranin nëse ai çaktivizohet.</string>
     <string name="summary_pref_face_switches_no_face_detected_message">Nuk u zbulua asnjë fytyrë</string>
     <string name="summary_pref_face_switches_no_face_detected_symbol">!</string>
     <string name="summary_pref_face_switches_playground_gesture_detection_label">Kryej një nga gjestet e fytyrës. Nëse është regjistruar, do të shfaqet emri i gjestit. Për të dalë, vazhdo ta kryesh një gjest për %1$d sekonda.</string>
     <string name="summary_pref_face_switches_playground_perform_gesture_label">Mbaje kokën pa lëvizur dhe drejtohu nga kamera. Më pas %s</string>
     <string name="summary_pref_play_store">Versioni aktual i TalkBack: %1$s</string>
-    <string name="summary_pref_point_scan">"Use moving lines to select a specific horizontal and vertical location. Press the '%1$s' switch to start Point scanning. %2$s"</string>
+    <string name="summary_pref_point_scan">Përdor vijat që lëvizin për të zgjedhur një vendndodhje specifike horizontale dhe vertikale. Shtyp çelësin \"%1$s\" për të filluar \"Skanimin me pika\". %2$s</string>
     <string name="summary_pref_reverse_dots">Ndërro pozicionet e pikave në mënyrë që p.sh. pikat 1 dhe 4 të ndërrojnë vendet</string>
     <string name="summary_pref_revert_to_default_menu">Rivendose menynë e \"Qasjes me çelës\" te lista e parazgjedhur e artikujve të menysë.</string>
-    <string name="summary_pref_single_tap">(Eksperimentale) Trokit një herë në një artikull të fokusuar për ta aktivizuar</string>
+    <string name="summary_pref_single_tap">Trokit një herë në një artikull të fokusuar për ta aktivizuar</string>
     <string name="summary_pref_tree_debug_tv">Përdor tastin e kërkimit me zë për të printuar pemën bazë në vend që të kërkohet</string>
     <string name="summary_pref_use_audio_focus">Ule volumin e audiove të tjera kur flet</string>
     <string name="summary_read_from_current">Duke filluar nga artikulli tjetër, lexo të gjithë artikujt në ekran</string>
@@ -1438,10 +1450,10 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="switched_to_contracted_announcement">Kalove te modaliteti i shkurtuar i gjuhës breil</string>
     <string name="switched_to_ueb_uncontracted_announcement">Kalove te modaliteti i pashkurtuar UEB</string>
     <string name="switched_to_uncontracted_announcement">Kalove te modaliteti i pashkurtuar i gjuhës breil</string>
-    <string name="symbol_almost_equals">Almost equal to</string>
+    <string name="symbol_almost_equals">Thuajse baras me</string>
     <string name="symbol_ampersand">Edhe</string>
-    <string name="symbol_angle_bracket_left">Less than sign</string>
-    <string name="symbol_angle_bracket_right">Greater than sign</string>
+    <string name="symbol_angle_bracket_left">Shenja \"më e vogël se\"</string>
+    <string name="symbol_angle_bracket_right">Shenja \"më e madhe se\"</string>
     <string name="symbol_apostrophe">Apostrof</string>
     <string name="symbol_approximately_equals">Afërsisht të barabartë</string>
     <string name="symbol_asterisk">Yllth</string>
@@ -1461,7 +1473,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_bullseye">Objektivi</string>
     <string name="symbol_caret">Kursor teksti</string>
     <string name="symbol_celsius_degree">Gradë celsius</string>
-    <string name="symbol_cent">Cent sign</string>
+    <string name="symbol_cent">Shenja e centëve</string>
     <string name="symbol_circle_left_half_black">Rrethi me gjysmën e majtë të zezë</string>
     <string name="symbol_circle_right_half_black">Rrethi me gjysmën e djathtë të zezë</string>
     <string name="symbol_colon">Dy pika</string>
@@ -1470,7 +1482,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_curly_bracket_left">Kllapa e valëzuar e majtë</string>
     <string name="symbol_curly_bracket_right">Kllapa e valëzuar e djathtë</string>
     <string name="symbol_currency_sign">Shenja e monedhës</string>
-    <string name="symbol_degree">Degree sign</string>
+    <string name="symbol_degree">Shenja e gradëve</string>
     <string name="symbol_division">Shenja e pjesëtimit</string>
     <string name="symbol_dollar_sign">Shenja e dollarit</string>
     <string name="symbol_downwards_arrow">Shigjetë poshtë</string>
@@ -1522,7 +1534,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_middle_dot">Pikë në mes</string>
     <string name="symbol_multiplication">Shenja e shumëzimit</string>
     <string name="symbol_new_line">Rresht i ri</string>
-    <string name="symbol_not_equals">Not equal to</string>
+    <string name="symbol_not_equals">Jo baras me</string>
     <string name="symbol_not_sign">Shenja e mohimit</string>
     <string name="symbol_paragraph_mark">Shenja e paragrafit</string>
     <string name="symbol_parenthesis_left">Kllapa e majtë</string>
@@ -1533,7 +1545,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_plus_minus_sign">Shenja plus-minus</string>
     <string name="symbol_postal_mark">Shenja postare</string>
     <string name="symbol_pound">Paund</string>
-    <string name="symbol_pound_sterling">Pound currency sign</string>
+    <string name="symbol_pound_sterling">Shenja e monedhës paund</string>
     <string name="symbol_quarter_note">Nota muzikore 1/4</string>
     <string name="symbol_question_mark">Pikëpyetje</string>
     <string name="symbol_quotation_mark">Citim</string>
@@ -1559,7 +1571,7 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_trademark">Marka tregtare</string>
     <string name="symbol_underscore">Vija e poshtme</string>
     <string name="symbol_upwards_arrow">Shigjetë lart</string>
-    <string name="symbol_vertical_bar">Vertical line</string>
+    <string name="symbol_vertical_bar">Vijë vertikale</string>
     <string name="symbol_white_circle">Rreth i bardhë</string>
     <string name="symbol_white_club_suit">Lulja spathi e bardhë</string>
     <string name="symbol_white_diamond">Diamant i bardhë</string>
@@ -1573,8 +1585,8 @@ Hapi 2: Rrëshqit shpejt poshtë për të lëvizur fokusin e navigimit përpara 
     <string name="symbol_white_square">Katror i bardhë</string>
     <string name="symbol_white_star">Yll i bardhë</string>
     <string name="symbol_white_up_pointing_triangle">Trekëndësh i bardhë me drejtim lart</string>
-    <string name="symbol_won">Won currency sign</string>
-    <string name="symbol_won_sign">Won currency sign</string>
+    <string name="symbol_won">Shenja e monedhës uon</string>
+    <string name="symbol_won_sign">Shenja e monedhës uon</string>
     <string name="symbol_yen">Jen</string>
     <string name="system_actions">Veprimet e sistemit</string>
     <string name="tabletop">Modaliteti i \"Tavolinës\"</string>
@@ -1742,7 +1754,7 @@ Për të çaktivizuar TalkBack:
     <string name="title_pref_category_assign_switches">Cakto çelësat</string>
     <string name="title_pref_category_audio">Audio</string>
     <string name="title_pref_category_auto_scan">Skanimi automatik</string>
-    <string name="title_pref_category_auto_scan_point_scan_enabled">Auto-scan (Point scan)</string>
+    <string name="title_pref_category_auto_scan_point_scan_enabled">Skanimi automatik (skanimi me pika)</string>
     <string name="title_pref_category_border_color">Ngjyra</string>
     <string name="title_pref_category_built_in_gestures">Gjestet e integruara</string>
     <string name="title_pref_category_context_menu">Personalizo menynë e Talkback</string>
@@ -1826,7 +1838,7 @@ Për të çaktivizuar TalkBack:
     <string name="title_pref_red">E kuqe</string>
     <string name="title_pref_resume_talkback">Rifillo prej ku u pezullua</string>
     <string name="title_pref_reverse_auto_scan_disabled">Rikthe skanimin automatik (i çaktivizuar)</string>
-    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Reverse auto-scan (Point scan)</string>
+    <string name="title_pref_reverse_auto_scan_point_scan_enabled">Skanimi automatik i anasjellë (skanimi me pika)</string>
     <string name="title_pref_reverse_dots">Pikat në të kundërt</string>
     <string name="title_pref_revert_to_default_menu">Riktheje te menyja e parazgjedhur</string>
     <string name="title_pref_scan_non_actionable_items">Shqipto tekstin përshkrues</string>
@@ -1889,7 +1901,7 @@ Për të çaktivizuar TalkBack:
     <string name="title_pref_show_context_menu_as_list">Shfaq menynë kontekstuale si listë</string>
     <string name="title_pref_show_privacy_policy">Politika e privatësisë</string>
     <string name="title_pref_show_tos">Kushtet e shërbimit</string>
-    <string name="title_pref_single_tap">Aktivizimi me një trokitje</string>
+    <string name="title_pref_single_tap">Trokit një herë për ta aktivizuar</string>
     <string name="title_pref_sound_and_vibration">Tingulli dhe dridhjet</string>
     <string name="title_pref_soundback">Reagimi me zë</string>
     <string name="title_pref_soundback_volume">Volumi i reagimit me zë</string>
@@ -1934,6 +1946,7 @@ Për të çaktivizuar TalkBack:
     <string name="title_previous_screen">Ekrani i mëparshëm</string>
     <string name="title_read_from_top">Lexo nga kreu</string>
     <string name="title_repeat_last_spoken_phrase">Përsërit frazën e fundit të shqiptuar</string>
+    <string name="title_request_phone_permission">Leja për kërkesat e TalkBack</string>
     <string name="title_screen_summary">Përmbledhja e ekranit</string>
     <string name="title_seek_bar_controls">Rrëshqitësi</string>
     <string name="title_seek_bar_edit">Modifiko nivelin e rrëshqitësit</string>

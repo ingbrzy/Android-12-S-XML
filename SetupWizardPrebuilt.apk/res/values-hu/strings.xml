@@ -341,13 +341,15 @@ Az eszköz nincs inicializálva"</string>
 
 "<li>Bármelyik másik felhasználó elfogadhat frissített alkalmazásengedélyeket.</li>"
 
-"<li>A telefont kizárólag megbízható személyekkel ossza meg.</li></ul>}TABLET{<b>Fontos:</b>"
+"<li>A telefont kizárólag megbízható személyekkel ossza meg.</li></ul>"
+}TABLET{"<b>Fontos:</b>"
 
 "<ul><li>A táblagép tulajdonosa eltávolíthatja az Ön alkalmazásait, vagy törölheti a teljes felhasználói profilját.</li>"
 
 "<li>Bármelyik másik felhasználó elfogadhat frissített alkalmazásengedélyeket.</li>"
 
-"<li>A táblagépet kizárólag megbízható személyekkel ossza meg.</li></ul>}other{<b>Fontos:</b>"
+"<li>A táblagépet kizárólag megbízható személyekkel ossza meg.</li></ul>"
+}other{"<b>Fontos:</b>"
 
 "<ul><li>Az eszköz tulajdonosa eltávolíthatja az Ön alkalmazásait, vagy törölheti a teljes felhasználói profilját.</li>"
 
@@ -359,70 +361,47 @@ Az eszköz nincs inicializálva"</string>
     <string name="wifi_and_mobile_skipped_message">"{DEVICE_TYPE,select, PHONE{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja telefonját.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
-"<li>automatikus dátum- és időbeállítást kérni.</li>"}TABLET{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja táblagépét.
+"<li>automatikus dátum- és időbeállítást kérni.</li>"
+}TABLET{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja táblagépét.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
-"<li>automatikus dátum- és időbeállítást kérni.</li>"}other{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja eszközét.
+"<li>automatikus dátum- és időbeállítást kérni.</li>"
+}other{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja eszközét.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
 "<li>automatikus dátum- és időbeállítást kérni.</li>}}</string>
     <string name="wifi_and_mobile_skipped_message_esim">"{DEVICE_TYPE,select, PHONE{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja telefonját.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>SIM-et letölteni;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
-"<li>automatikus dátum- és időbeállítást kérni.</li>"}TABLET{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja táblagépét.
+"<li>automatikus dátum- és időbeállítást kérni.</li>"
+}TABLET{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja táblagépét.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>SIM-et letölteni;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
-"<li>automatikus dátum- és időbeállítást kérni.</li>"}other{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja eszközét.
+"<li>automatikus dátum- és időbeállítást kérni.</li>"
+}other{Wi-Fi- vagy mobilhálózathoz csatlakozva gyorsan beállíthatja eszközét.
 
 Hálózati kapcsolat nélkül nem tud:
-
 "<li>bejelentkezni Google-fiókjába;</li>"
-
 "<li>alkalmazásokat és adatokat helyreállítani;</li>"
-
 "<li>SIM-et letölteni;</li>"
-
 "<li>szoftverfrissítéseket fogadni;</li>"
-
 "<li>automatikus dátum- és időbeállítást kérni.</li>}}</string>
     <string name="wifi_ap_unable_to_handle_new_sta">A hozzáférési pont átmenetileg megtelt</string>
     <string name="wifi_check_password_try_again">Ellenőrizze a jelszót, majd próbálkozzon újra</string>
